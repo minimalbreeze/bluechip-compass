@@ -1,8 +1,9 @@
+# 지인끼리만 쓰는 앱이라 검색 색인을 막는다.
+# index.html의 <meta name="robots" content="noindex, nofollow"> 와 짝이다.
+# robots.txt는 크롤링을, meta 태그는 색인을 막는다 — 둘 다 있어야 한다.
+#
+# 주의: 이건 "예의 바른 크롤러"에게 요청하는 것이지 접근 차단이 아니다.
+# 실제 차단은 config.js의 접근 코드(문패 수준)와, 정말 필요하면
+# Cloudflare Access(README 참고)로 한다.
 User-agent: *
-Allow: /
-
-# 네이버 검색로봇
-User-agent: Yeti
-Allow: /
-
-Sitemap: https://minimalbreeze.github.io/bluechip-compass/sitemap.xml
+Disallow: /
