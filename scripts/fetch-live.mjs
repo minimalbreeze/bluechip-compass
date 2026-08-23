@@ -45,7 +45,8 @@ const PER_FEED = 20;
    여섯 줄이지 경제면 전체가 아니다. */
 const MARKET_WORDS = {
   kr: /코스피|코스닥|증시|증권|주가|주식|상장|공모주|청약|배당|자사주|실적|영업이익|어닝|외국인|기관|순매수|순매도|반도체|금리|환율|원\/달러|채권|국채|연준|한은|기준금리|뉴욕증시|나스닥|다우|시가총액|시총|밸류업|공시|인수|합병|증자/,
-  us: /\bstock|market|share|equit|nasdaq|dow\b|s&p|\bfed\b|rate|yield|earnings|inflation|treasur|bond|wall street|index|futures|dividend|buyback|\bipo\b|tariff|cpi|jobs report|rally|selloff/i
+  /* \b 를 각 낱말마다 붙인다. 안 붙이면 supermarket 이 market 에 걸린다. */
+  us: /\b(stocks?|markets?|shares?|equit\w*|nasdaq|dow|s&p|fed|rates?|yields?|earnings|inflation|treasur\w*|bonds?|wall street|index|indexes|futures|dividends?|buybacks?|ipo|tariffs?|cpi|jobs report|rally|selloff|bull market|bear market)\b/i
 };
 const UA = 'Mozilla/5.0 (compatible; bluechip-compass/1.0)';
 const OUT = 'live.json';
@@ -80,6 +81,16 @@ function stripTags(x) {
     .replace(/&lt;/g, '<').replace(/&gt;/g, '>')
     .replace(/&quot;/g, '"').replace(/&#0?39;|&apos;/g, "'")
     .replace(/&nbsp;/g, ' ')
+    /* 숫자·16진 엔티티. 안 풀면 제목에 &#x2018; 이 그대로 찍힌다.
+       제어문자는 버린다. */
+    .replace(/&#x([0-9a-fA-F]+);/g, function (_, x) {
+      const c = parseInt(x, 16);
+      return c >= 32 ? String.fromCodePoint(c) : '';
+    })
+    .replace(/&#(\d+);/g, function (_, d) {
+      const c = parseInt(d, 10);
+      return c >= 32 ? String.fromCodePoint(c) : '';
+    })
     .replace(/&amp;/g, '&')
     /* 엔티티를 되돌린 뒤 남은 꺾쇠는 통째로 버린다.
        기사 제목에 <> 가 필요한 경우는 거의 없고, 이걸 지우면 저장 단계에서
