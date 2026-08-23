@@ -21,6 +21,22 @@
 import { writeFileSync, existsSync, readFileSync } from 'node:fs';
 
 const SYMBOLS = ['^KS11', '^KQ11', 'KRW=X', '^GSPC', '^IXIC', '^VIX'];
+
+/* 뉴스 RSS. 위에서부터 시도해서 필요한 개수가 차면 멈춘다.
+   한 곳이 죽어도 다른 곳으로 메워지도록 여러 개를 둔다. */
+const FEEDS = {
+  kr: [
+    { name: '연합뉴스', url: 'https://www.yna.co.kr/rss/economy.xml' },
+    { name: '한국경제', url: 'https://www.hankyung.com/feed/finance' },
+    { name: '매일경제', url: 'https://www.mk.co.kr/rss/50200011/' }
+  ],
+  us: [
+    { name: 'Yahoo Finance', url: 'https://finance.yahoo.com/news/rssindex' },
+    { name: 'CNBC', url: 'https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=20910258' },
+    { name: 'MarketWatch', url: 'https://feeds.content.dowjones.io/public/rss/mw_topstories' }
+  ]
+};
+const NEWS_PER_MARKET = 6;
 const UA = 'Mozilla/5.0 (compatible; bluechip-compass/1.0)';
 const OUT = 'live.json';
 
@@ -32,6 +48,77 @@ async function getJson(url, ms = 12000) {
     if (!r.ok) throw new Error('HTTP ' + r.status);
     return await r.json();
   } finally { clearTimeout(t); }
+}
+
+async function getText(url, ms = 12000) {
+  const ctl = new AbortController();
+  const t = setTimeout(() => ctl.abort(), ms);
+  try {
+    const r = await fetch(url, { signal: ctl.signal, headers: { 'User-Agent': UA, 'Accept': 'application/rss+xml, application/xml, text/xml, */*' } });
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    return await r.text();
+  } finally { clearTimeout(t); }
+}
+
+/* 아주 작은 RSS 파서. 의존성을 늘리지 않으려고 정규식으로 처리한다.
+   제목은 남의 서버에서 온 문자열이므로 **태그를 전부 벗겨** 저장한다.
+   (앱에서도 다시 이스케이프하지만, 저장 단계에서 한 번 더 막는다) */
+function stripTags(x) {
+  return String(x)
+    .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')
+    .replace(/<[^>]*>/g, '')
+    .replace(/&lt;/g, '<').replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"').replace(/&#0?39;|&apos;/g, "'")
+    .replace(/&nbsp;/g, ' ')
+    .replace(/&amp;/g, '&')
+    /* 엔티티를 되돌린 뒤 남은 꺾쇠는 통째로 버린다.
+       기사 제목에 <> 가 필요한 경우는 거의 없고, 이걸 지우면 저장 단계에서
+       주입 경로가 아예 사라진다. 앱에서도 다시 이스케이프한다(이중 방어). */
+    .replace(/[<>]/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+function pick(block, tag) {
+  const m = block.match(new RegExp('<' + tag + '[^>]*>([\\s\\S]*?)<\\/' + tag + '>', 'i'));
+  return m ? m[1] : '';
+}
+function parseRss(xml, source) {
+  const items = xml.match(/<item[\s\S]*?<\/item>/gi) || xml.match(/<entry[\s\S]*?<\/entry>/gi) || [];
+  const out = [];
+  for (const it of items) {
+    const title = stripTags(pick(it, 'title'));
+    let link = stripTags(pick(it, 'link'));
+    if (!link) {
+      const a = it.match(/<link[^>]*href=["']([^"']+)["']/i);   // Atom 형식
+      if (a) link = a[1];
+    }
+    const date = stripTags(pick(it, 'pubDate') || pick(it, 'updated') || pick(it, 'published'));
+    if (!title || !/^https?:\/\//.test(link)) continue;
+    if (title.length > 140) continue;               // 본문이 통째로 들어온 경우 버린다
+    out.push({ title, link, source, date: date || null });
+  }
+  return out;
+}
+
+async function fetchNews(marketKey) {
+  const seen = new Set();
+  const out = [];
+  for (const f of FEEDS[marketKey]) {
+    if (out.length >= NEWS_PER_MARKET) break;
+    try {
+      const items = parseRss(await getText(f.url), f.name);
+      for (const it of items) {
+        const key = it.title.slice(0, 40);
+        if (seen.has(key)) continue;
+        seen.add(key);
+        out.push(it);
+        if (out.length >= NEWS_PER_MARKET) break;
+      }
+    } catch (e) {
+      failed.push('news/' + marketKey + '/' + f.name + ': ' + e.message);
+    }
+  }
+  return out;
 }
 
 /* Yahoo chart API. meta 에 현재가와 전일 종가가 같이 들어온다. */
@@ -88,8 +175,8 @@ async function fxRange() {
   };
 }
 
-const quotes = {};
 const failed = [];
+const quotes = {};
 for (const s of SYMBOLS) {
   try { quotes[s] = await quote(s); }
   catch (e) { failed.push(s + ': ' + e.message); }
@@ -97,6 +184,8 @@ for (const s of SYMBOLS) {
 
 let fx = null;
 try { fx = await fxRange(); } catch (e) { failed.push('fxRange: ' + e.message); }
+
+const news = { kr: await fetchNews('kr'), us: await fetchNews('us') };
 
 if (failed.length) console.error('실패:', failed.join(' | '));
 
@@ -114,6 +203,10 @@ if (existsSync(OUT)) {
       if (!quotes[s] && old.quotes?.[s]) { quotes[s] = old.quotes[s]; quotes[s].stale = true; }
     }
     if (!fx && old.fx) fx = old.fx;
+    /* 뉴스도 하나도 못 받았으면 이전 것을 남긴다 — 빈 목록보다 낫다 */
+    for (const mk of ['kr', 'us']) {
+      if (!news[mk].length && old.news?.[mk]?.length) news[mk] = old.news[mk];
+    }
   } catch { /* 이전 파일이 깨졌으면 무시하고 새로 쓴다 */ }
 }
 
@@ -122,7 +215,9 @@ writeFileSync(OUT, JSON.stringify({
   source: 'Yahoo Finance chart API',
   quotes,
   fx,
+  news,
   failed
 }, null, 2) + '\n');
 
-console.log('완료:', Object.keys(quotes).length + '/' + SYMBOLS.length, '심볼');
+console.log('완료:', Object.keys(quotes).length + '/' + SYMBOLS.length, '심볼,',
+  '뉴스 kr ' + news.kr.length + ' / us ' + news.us.length);

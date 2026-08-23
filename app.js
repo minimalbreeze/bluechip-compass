@@ -45,7 +45,14 @@
     holdings: load('holdings', { kr: [], us: [] }),
     cash:     load('cash', { kr: 0, us: 0 }),
     filter:  'all',
-    learnTab: 'picks'
+    learnTab: 'picks',
+    /* 홈에 어떤 위젯을 올릴지 (사용자가 켜고 끈다) */
+    widgets: load('widgets', null),
+    /* 접었다 폈다 하는 영역의 상태. 키 → true(펼침)/false(접힘) */
+    folds:   load('folds', {}),
+    /* 종목 추가 폼은 기본으로 숨긴다 — 매일 쓰는 기능이 아니다 */
+    addOpen: false,
+    editWidgets: false
   };
   ['kr', 'us'].forEach(function (mk) {
     if (!state.holdings[mk]) state.holdings[mk] = [];
@@ -152,6 +159,64 @@
   }
 
   /* ══════════════════════════════════════════════════════════════════
+     홈 위젯 + 접이식 영역
+     ------------------------------------------------------------------
+     홈에 뭘 올릴지는 사람마다 다르다. 보유 종목이 없는 사람에게 "내 투자
+     현황"은 빈칸이고, 뉴스를 안 보고 싶은 사람에게 뉴스는 소음이다.
+     그래서 위젯 단위로 켜고 끄게 하고, 각 영역은 접을 수 있게 한다.
+     선택은 전부 저장되므로 한 번 정리해두면 계속 그 모습으로 열린다.
+     ══════════════════════════════════════════════════════════════ */
+  var WIDGETS = [
+    { key: 'market',    icon: '📊', title: '시장 지수와 등락 요인', on: true },
+    { key: 'news',      icon: '📰', title: '오늘의 증권 뉴스',      on: true },
+    { key: 'portfolio', icon: '💼', title: '내 투자 현황',          on: true },
+    { key: 'daily',     icon: '🗓️', title: '오늘의 점검 한 가지',   on: true }
+  ];
+
+  function widgetOn(key) {
+    if (!state.widgets) return true;                 // 한 번도 안 건드렸으면 전부 켜짐
+    return state.widgets[key] !== false;
+  }
+  function setWidget(key, on) {
+    if (!state.widgets) {
+      state.widgets = {};
+      WIDGETS.forEach(function (w) { state.widgets[w.key] = true; });
+    }
+    state.widgets[key] = on;
+    save('widgets', state.widgets);
+  }
+
+  /* 접이식 영역. 기본은 펼침이고, 사용자가 접으면 그 상태가 저장된다. */
+  function isOpen(key, dflt) {
+    if (state.folds[key] === undefined) return dflt !== false;
+    return !!state.folds[key];
+  }
+  function fold(key, icon, title, body, opts) {
+    opts = opts || {};
+    var open = isOpen(key, opts.open);
+    return '<section class="fold' + (open ? ' is-open' : '') + '">' +
+      '<button class="fold-h" data-fold="' + key + '" aria-expanded="' + open + '">' +
+        '<span class="fold-i">' + icon + '</span>' +
+        '<span class="fold-t">' + title + '</span>' +
+        (opts.badge ? '<span class="fold-b">' + opts.badge + '</span>' : '') +
+        '<span class="fold-c" aria-hidden="true">▾</span>' +
+      '</button>' +
+      '<div class="fold-body">' + (open ? body : '') + '</div>' +
+    '</section>';
+  }
+
+  /* 외부에서 온 문자열(뉴스 제목 등)은 반드시 이걸 거쳐 넣는다. */
+  function esc(x) {
+    return String(x == null ? '' : x)
+      .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+  }
+  /* 링크도 스킴을 확인한다 — http(s) 가 아니면 링크로 만들지 않는다. */
+  function safeUrl(u) {
+    return /^https?:\/\//i.test(String(u || '')) ? String(u) : '';
+  }
+
+  /* ══════════════════════════════════════════════════════════════════
      시세 스냅샷 (live.json)
      ------------------------------------------------------------------
      GitHub Actions 가 주기적으로 받아 저장소에 커밋한 파일을 읽는다.
@@ -252,7 +317,6 @@
   function renderHome() {
     var mk = market(), st = regime();
     var reg = M.labelRegime(st);
-    var f = M.forces(st, state.market);
     var now = today();
     var touched = state.touched[state.market];
     var age = touched ? daysSince(touched) : null;
@@ -260,8 +324,22 @@
 
     h.push('<div class="todaybar">' +
       '<div class="todaybar-d">' + (now.getMonth() + 1) + '월 ' + now.getDate() + '일 ' + WEEK[now.getDay()] + '요일</div>' +
-      '<div class="todaybar-r">' + reg.emoji + ' ' + reg.name + '</div></div>');
+      '<div class="todaybar-r">' + reg.emoji + ' ' + reg.name + '</div>' +
+      '<button class="wgt-edit' + (state.editWidgets ? ' is-on' : '') + '" id="wgt-toggle" title="홈에 올릴 내용 고르기">⚙️</button></div>');
 
+    /* 위젯 편집 패널 */
+    if (state.editWidgets) {
+      h.push('<div class="wgt-panel"><div class="wgt-panel-h">홈에 올릴 내용</div>');
+      WIDGETS.forEach(function (w) {
+        var on = widgetOn(w.key);
+        h.push('<label class="wgt-row"><span>' + w.icon + ' ' + w.title + '</span>' +
+          '<input type="checkbox" class="wgt-chk" data-widget="' + w.key + '"' + (on ? ' checked' : '') + ' /></label>');
+      });
+      h.push('<div class="wgt-note">끈 내용은 해당 탭에서 그대로 볼 수 있습니다. 선택은 이 브라우저에 저장됩니다.</div></div>');
+    }
+
+    /* 시장 확인 신선도는 위젯과 무관하게 항상 보여준다 —
+       이 앱의 판단이 며칠 된 값에 기대고 있는지는 숨기면 안 된다. */
     if (age === null) {
       h.push('<button class="freshcta" data-go="market">⚠️ ' + mk.flag + ' <b>' + mk.label + ' — 아직 확인하지 않았습니다.</b> 1분이면 아래 내용이 오늘 기준이 됩니다 →</button>');
     } else if (age >= 3) {
@@ -270,9 +348,29 @@
       h.push('<div class="freshok">✅ ' + mk.flag + ' ' + mk.label + ' — ' + (age === 0 ? '오늘' : age + '일 전') + ' 확인한 값 기준</div>');
     }
 
-    /* ── 시장 ── */
-    h.push('<div class="sec-head"><h2>📊 ' + mk.full + '</h2></div>');
-    h.push('<div class="card"><div class="idxrow">');
+    if (widgetOn('market'))    h.push(fold('w-market', '📊', mk.full, marketWidget()));
+    if (widgetOn('news'))      h.push(fold('w-news', '📰', '오늘의 증권 뉴스', newsWidget()));
+    if (widgetOn('portfolio')) h.push(fold('w-portfolio', '💼', '내 투자 현황', portfolioWidget(), { badge: portfolioBadge() }));
+    if (widgetOn('daily'))     h.push(fold('w-daily', '🗓️', '오늘의 점검 한 가지', dailyWidget()));
+
+    if (!WIDGETS.some(function (w) { return widgetOn(w.key); })) {
+      h.push('<div class="note">홈에 올린 내용이 없습니다. 오른쪽 위 ⚙️ 로 다시 켤 수 있습니다.</div>');
+    }
+
+    h.push('<button class="btn ghost" data-go="plan">🎯 시드로 배분안 만들기 →</button>');
+    h.push('<div class="foot"><b>고지.</b> 이 앱은 투자 교육 자료입니다. 특정 종목의 매수·매도를 권유하지 않으며 ' +
+      '어떤 수익도 보장하지 않습니다. 손익은 사용자가 입력한 값으로 계산한 것입니다.</div>');
+
+    return h.join('');
+  }
+
+  /* ── 위젯: 시장 지수 + 등락 요인 ── */
+  function marketWidget() {
+    var mk = market(), st = regime();
+    var f = M.forces(st, state.market);
+    var h = [];
+
+    h.push('<div class="idxrow">');
     mk.indices.forEach(function (i) {
       var q = LIVE && LIVE.quotes ? LIVE.quotes[i.sym] : null;
       if (q) {
@@ -288,79 +386,103 @@
       }
     });
     h.push('</div>');
+
     var hasQuote = LIVE && LIVE.quotes && Object.keys(LIVE.quotes).length > 0;
-    if (hasQuote && LIVE.asOf) {
-      h.push('<div class="idxnote">🕒 <b>' + agoText(LIVE.asOf) + '</b> 받아온 값입니다. ' +
-        '실시간이 아니라 <b>30분마다 갱신되는 스냅샷</b>이고, 장 마감 뒤에는 마지막 종가가 그대로 유지됩니다. ' +
-        '정확한 값은 지수를 눌러 확인하세요.</div>');
-    } else {
-      h.push('<div class="idxnote">시세를 아직 못 받아왔습니다. 지수를 누르면 바로 확인할 수 있습니다.</div>');
-    }
-    h.push('</div>');
+    h.push('<div class="idxnote">' + (hasQuote && LIVE.asOf
+      ? '🕒 <b>' + agoText(LIVE.asOf) + '</b> 받아온 값입니다. 실시간이 아니라 <b>30분마다 갱신되는 스냅샷</b>이고, 장 마감 뒤에는 마지막 종가가 유지됩니다.'
+      : '시세를 아직 못 받아왔습니다. 지수를 누르면 바로 확인할 수 있습니다.') + '</div>');
 
     h.push('<div class="forces">');
     h.push('<div class="fcol up"><div class="fcol-h">▲ 밀어올리는 힘</div>' +
-      (f.up.length
-        ? f.up.map(function (x) { return '<div class="fitem">' + x.icon + ' ' + x.text + '</div>'; }).join('')
-        : '<div class="fitem none">지금 확인한 값에서는 없습니다</div>') + '</div>');
+      (f.up.length ? f.up.map(function (x) { return '<div class="fitem">' + x.icon + ' ' + x.text + '</div>'; }).join('')
+                   : '<div class="fitem none">지금 확인한 값에서는 없습니다</div>') + '</div>');
     h.push('<div class="fcol down"><div class="fcol-h">▼ 눌러내리는 힘</div>' +
-      (f.down.length
-        ? f.down.map(function (x) { return '<div class="fitem">' + x.icon + ' ' + x.text + '</div>'; }).join('')
-        : '<div class="fitem none">지금 확인한 값에서는 없습니다</div>') + '</div>');
+      (f.down.length ? f.down.map(function (x) { return '<div class="fitem">' + x.icon + ' ' + x.text + '</div>'; }).join('')
+                     : '<div class="fitem none">지금 확인한 값에서는 없습니다</div>') + '</div>');
     h.push('</div>');
-    h.push('<div class="stepnote">이 요인들은 <b>' + mk.label + ' 시장 다이얼에서 도출</b>한 것입니다. 다이얼을 오늘 값으로 바꾸면 여기도 바뀝니다.</div>');
+    h.push('<div class="stepnote">등락 요인은 <b>' + mk.label + ' 시장 다이얼에서 도출</b>한 것입니다. 다이얼을 바꾸면 여기도 바뀝니다.</div>');
+    return h.join('');
+  }
 
-    /* ── 내 투자 현황 ── */
+  /* ── 위젯: 뉴스 ──
+     뉴스는 이 앱의 목적(감정 매매 줄이기)과 부딪히기 쉬운 콘텐츠다.
+     그래서 헤드라인만 주고, 바로 아래에 "이 뉴스에 팔아야 하나?" 3문항으로
+     가는 길을 붙인다. 읽고 나서 바로 매매하러 가지 않게 하는 장치다. */
+  function newsWidget() {
+    var list = LIVE && LIVE.news ? LIVE.news[state.market] : null;
+    var h = [];
+    if (!list || !list.length) {
+      h.push('<div class="note">아직 받아온 기사가 없습니다. ' +
+        (state.market === 'kr'
+          ? '<a href="https://finance.naver.com/news/mainnews.naver" target="_blank" rel="noopener">네이버 금융 뉴스 ↗</a>'
+          : '<a href="https://finance.yahoo.com/topic/stock-market-news/" target="_blank" rel="noopener">Yahoo Finance ↗</a>') +
+        '에서 확인하세요.</div>');
+      return h.join('');
+    }
+    h.push('<div class="newslist">');
+    list.forEach(function (n) {
+      var u = safeUrl(n.link);
+      if (!u) return;
+      h.push('<a class="newsitem" href="' + esc(u) + '" target="_blank" rel="noopener">' +
+        '<span class="news-t">' + esc(n.title) + '</span>' +
+        '<span class="news-s">' + esc(n.source) + '</span></a>');
+    });
+    h.push('</div>');
+    h.push('<div class="newsguard">📌 <b>읽고 바로 매매하지 마세요.</b> 대부분의 뉴스는 이미 가격에 반영돼 있습니다. ' +
+      '<button class="linkbtn" data-go="learn" data-sub="study">‘이 뉴스에 팔아야 하나?’ 3문항 보기 →</button></div>');
+    if (LIVE && LIVE.asOf) h.push('<div class="idxnote">🕒 ' + agoText(LIVE.asOf) + ' 받아온 목록입니다.</div>');
+    return h.join('');
+  }
+
+  /* ── 위젯: 내 투자 현황 ── */
+  function portfolioBadge() {
     var list = state.holdings[state.market];
-    h.push('<div class="sec-head" style="margin-top:24px"><h2>💼 내 투자 현황</h2></div>');
-
+    if (!list.length && !state.cash[state.market]) return '';
+    var a = analyzeNow();
+    return a.alerts ? '⚠️ ' + a.alerts : '';
+  }
+  function portfolioWidget() {
+    var list = state.holdings[state.market];
+    var h = [];
     if (!list.length && !state.cash[state.market]) {
       h.push('<button class="emptycard" data-go="my">' +
         '<div class="empty-i">＋</div>' +
         '<div><div class="empty-t">보유 종목을 등록해보세요</div>' +
-        '<div class="empty-d">증권사 앱에 있는 <b>매수금액</b>과 <b>수익률</b>만 옮겨 적으면 됩니다. ' +
-        '팔지·둘지·더 살지 판단을 자리마다 붙여드립니다.</div></div></button>');
-    } else {
-      var a = analyzeNow();
-      h.push('<div class="card sum">' +
-        '<div class="sum-top"><span class="sum-l">총 평가금액</span>' +
-        '<span class="sum-v">' + money(a.grand) + '</span></div>' +
-        '<div class="sum-grid">' +
-          '<div><span>투자 원금</span><b>' + won(a.totalCost) + '</b></div>' +
-          '<div><span>평가 손익</span><b class="' + plClass(a.pl) + '">' + signWon(a.pl) + '</b></div>' +
-          '<div><span>수익률</span><b class="' + plClass(a.pl) + '">' + signPct(a.plPct) + '</b></div>' +
-        '</div>' +
-        '<div class="sum-cash">현금 ' + a.cashWeight + '% <span>(목표 ' + a.cashTarget + '%)</span>' +
-          (Math.abs(a.cashGap) > 5 ? ' · <b>' + (a.cashGap > 0 ? '목표보다 많습니다' : '목표보다 적습니다') + '</b>' : '') +
-        '</div></div>');
-
-      if (a.rows.length) {
-        h.push('<div class="minilist">');
-        a.rows.slice(0, 4).forEach(function (r) {
-          h.push('<div class="mini"><span class="mini-m">' + r.verdict.mark + '</span>' +
-            '<span class="mini-n">' + r.name + '</span>' +
-            '<span class="mini-w">' + r.weight + '%</span>' +
-            '<span class="mini-r ' + plClass(r.ret) + '">' + signPct(r.ret) + '</span></div>');
-        });
-        if (a.rows.length > 4) h.push('<div class="mini more">외 ' + (a.rows.length - 4) + '종목</div>');
-        h.push('</div>');
-      }
-      h.push('<button class="btn" data-go="my" style="margin-top:10px">' +
-        (a.alerts ? '⚠️ 점검할 자리 ' + a.alerts + '건 — 자세히 보기 →' : '종목별 판단 보기 →') + '</button>');
+        '<div class="empty-d">증권사 앱에 있는 <b>매수금액</b>과 <b>수익률</b>만 옮겨 적으면 됩니다.</div></div></button>');
+      return h.join('');
     }
-
-    /* ── 오늘의 점검 ── */
-    var chk = DAILY[dayOfYear(now) % DAILY.length];
-    h.push('<div class="daily" style="margin-top:22px"><div class="daily-h">🗓️ 오늘의 점검 한 가지</div>' +
-      '<div class="daily-t">' + chk.i + ' ' + chk.t + '</div>' +
-      '<div class="daily-d">' + linkTerms(chk.d) + '</div></div>');
-
-    h.push('<button class="btn ghost" data-go="plan">🎯 시드로 배분안 만들기 →</button>');
-
-    h.push('<div class="foot"><b>고지.</b> 이 앱은 투자 교육 자료입니다. 특정 종목의 매수·매도를 권유하지 않으며 ' +
-      '어떤 수익도 보장하지 않습니다. 손익은 사용자가 입력한 값으로 계산한 것이고, 이 앱은 시세를 조회하지 않습니다.</div>');
-
+    var a = analyzeNow();
+    h.push('<div class="sum">' +
+      '<div class="sum-top"><span class="sum-l">총 평가금액</span><span class="sum-v">' + money(a.grand) + '</span></div>' +
+      '<div class="sum-grid">' +
+        '<div><span>투자 원금</span><b>' + won(a.totalCost) + '</b></div>' +
+        '<div><span>평가 손익</span><b class="' + plClass(a.pl) + '">' + signWon(a.pl) + '</b></div>' +
+        '<div><span>수익률</span><b class="' + plClass(a.pl) + '">' + signPct(a.plPct) + '</b></div>' +
+      '</div>' +
+      '<div class="sum-cash">현금 ' + a.cashWeight + '% <span>(목표 ' + a.cashTarget + '%)</span>' +
+        (Math.abs(a.cashGap) > 5 ? ' · <b>' + (a.cashGap > 0 ? '목표보다 많습니다' : '목표보다 적습니다') + '</b>' : '') +
+      '</div></div>');
+    if (a.rows.length) {
+      h.push('<div class="minilist">');
+      a.rows.slice(0, 4).forEach(function (r) {
+        h.push('<div class="mini"><span class="mini-m">' + r.verdict.mark + '</span>' +
+          '<span class="mini-n">' + esc(r.name) + '</span>' +
+          '<span class="mini-w">' + r.weight + '%</span>' +
+          '<span class="mini-r ' + plClass(r.ret) + '">' + signPct(r.ret) + '</span></div>');
+      });
+      if (a.rows.length > 4) h.push('<div class="mini more">외 ' + (a.rows.length - 4) + '종목</div>');
+      h.push('</div>');
+    }
+    h.push('<button class="btn" data-go="my" style="margin-top:10px">' +
+      (a.alerts ? '⚠️ 점검할 자리 ' + a.alerts + '건 — 자세히 보기 →' : '종목별 판단 보기 →') + '</button>');
     return h.join('');
+  }
+
+  /* ── 위젯: 오늘의 점검 ── */
+  function dailyWidget() {
+    var chk = DAILY[dayOfYear(today()) % DAILY.length];
+    return '<div class="daily-t">' + chk.i + ' ' + chk.t + '</div>' +
+           '<div class="daily-d">' + linkTerms(chk.d) + '</div>';
   }
 
   /* ══════════════════════════════════════════════════════════════════
@@ -376,51 +498,53 @@
     var h = [];
 
     h.push('<div class="sec-head"><h2>💼 ' + mk.flag + ' ' + mk.label + ' 보유 현황</h2>' +
-      '<p>증권사 앱에 이미 보이는 <b>매수금액</b>과 <b>수익률</b>만 옮겨 적으면 됩니다. ' +
-      '이 앱은 시세를 조회하지 않습니다.</p></div>');
+      '<p>증권사 앱에 이미 보이는 <b>매수금액</b>과 <b>수익률</b>만 옮겨 적으면 됩니다. 이 앱은 시세를 조회하지 않습니다.</p></div>');
 
-    /* 입력 폼 */
-    h.push('<div class="card addform">' +
-      '<input id="h-name" list="bc-picks" placeholder="종목명 (예: 삼성전자)" autocomplete="off" />' +
-      '<datalist id="bc-picks">' +
-        mk.picks.map(function (p) { return '<option value="' + p.name + '"></option>'; }).join('') +
-      '</datalist>' +
-      '<div class="addrow">' +
-        '<label>매수금액<input id="h-cost" type="number" inputmode="numeric" placeholder="만원" min="0" step="10" /></label>' +
-        '<label>수익률<input id="h-ret" type="number" inputmode="decimal" placeholder="%" step="0.1" /></label>' +
-      '</div>' +
-      '<button class="btn" id="h-add">추가하기</button>' +
-      '<div class="addnote">수익률은 부호까지 그대로 적으세요 (예: <b>-12.4</b>). 목록에 없는 종목도 직접 입력할 수 있습니다.</div>' +
-    '</div>');
+    /* 추가 폼은 기본으로 숨긴다 — 매일 쓰는 기능이 아니라서
+       늘 펼쳐 두면 정작 자주 보는 판단 목록이 아래로 밀린다. */
+    h.push('<button class="addtoggle' + (state.addOpen ? ' is-on' : '') + '" id="add-toggle">' +
+      (state.addOpen ? '✕ 닫기' : '＋ 종목 추가') + '</button>');
 
-    h.push('<div class="card cashcard"><label>예수금·파킹<input id="h-cash" type="number" inputmode="numeric" ' +
-      'value="' + state.cash[state.market] + '" min="0" step="10" /><span>만원</span></label>' +
-      '<div class="addnote">현금도 배분의 한 자리입니다. 빼놓으면 비중이 전부 실제보다 커 보입니다.</div></div>');
+    if (state.addOpen) {
+      h.push('<div class="card addform">' +
+        '<input id="h-name" list="bc-picks" placeholder="종목명 (예: 삼성전자)" autocomplete="off" />' +
+        '<datalist id="bc-picks">' +
+          mk.picks.map(function (p) { return '<option value="' + esc(p.name) + '"></option>'; }).join('') +
+        '</datalist>' +
+        '<div class="addrow">' +
+          '<label>매수금액<input id="h-cost" type="number" inputmode="numeric" placeholder="만원" min="0" step="10" /></label>' +
+          '<label>수익률<input id="h-ret" type="number" inputmode="decimal" placeholder="%" step="0.1" /></label>' +
+        '</div>' +
+        '<button class="btn" id="h-add">추가하기</button>' +
+        '<div class="addnote">수익률은 부호까지 그대로 적으세요 (예: <b>-12.4</b>). 목록에 없는 종목도 직접 입력할 수 있습니다.</div>' +
+        '<label class="cashline">예수금·파킹<input id="h-cash" type="number" inputmode="numeric" ' +
+          'value="' + state.cash[state.market] + '" min="0" step="10" /><span>만원</span></label>' +
+        '<div class="addnote">현금도 배분의 한 자리입니다. 빼놓으면 비중이 전부 실제보다 커 보입니다.</div>' +
+      '</div>');
+    }
 
     if (!list.length) {
-      h.push('<div class="note" style="margin-top:14px">아직 등록된 종목이 없습니다. 위에서 하나만 넣어보세요.</div>');
+      h.push('<div class="note" style="margin-top:14px">아직 등록된 종목이 없습니다. 위 <b>＋ 종목 추가</b>로 하나만 넣어보세요.</div>');
       return h.join('');
     }
 
-    /* 요약 */
-    h.push('<div class="card sum" style="margin-top:16px">' +
-      '<div class="sum-top"><span class="sum-l">총 평가금액</span><span class="sum-v">' + money(a.grand) + '</span></div>' +
-      '<div class="sum-grid">' +
-        '<div><span>투자 원금</span><b>' + won(a.totalCost) + '</b></div>' +
-        '<div><span>평가 손익</span><b class="' + plClass(a.pl) + '">' + signWon(a.pl) + '</b></div>' +
-        '<div><span>수익률</span><b class="' + plClass(a.pl) + '">' + signPct(a.plPct) + '</b></div>' +
-      '</div>' +
-      '<div class="sum-cash">현금 ' + a.cashWeight + '% <span>(목표 ' + a.cashTarget + '%)</span></div></div>');
+    h.push(fold('my-sum', '📊', '전체 요약',
+      '<div class="sum">' +
+        '<div class="sum-top"><span class="sum-l">총 평가금액</span><span class="sum-v">' + money(a.grand) + '</span></div>' +
+        '<div class="sum-grid">' +
+          '<div><span>투자 원금</span><b>' + won(a.totalCost) + '</b></div>' +
+          '<div><span>평가 손익</span><b class="' + plClass(a.pl) + '">' + signWon(a.pl) + '</b></div>' +
+          '<div><span>수익률</span><b class="' + plClass(a.pl) + '">' + signPct(a.plPct) + '</b></div>' +
+        '</div>' +
+        '<div class="sum-cash">현금 ' + a.cashWeight + '% <span>(목표 ' + a.cashTarget + '%)</span></div>' +
+      '</div>'));
 
-    /* 종목별 판단 */
-    h.push('<div class="sec-head" style="margin-top:20px"><h2>🔍 자리마다 판단</h2>' +
-      '<p>지금 성향(<b>' + styleLabel() + '</b>)과 오늘 국면 기준입니다. 성향이나 다이얼을 바꾸면 판단도 바뀝니다.</p></div>');
-
+    var rowsHtml = '<div class="stepnote" style="margin-top:0">지금 성향(<b>' + styleLabel() + '</b>)과 오늘 국면 기준입니다.</div>';
     a.rows.forEach(function (r) {
-      h.push('<div class="card hrow tone-' + r.verdict.tone + '">' +
+      rowsHtml += '<div class="card hrow tone-' + r.verdict.tone + '">' +
         '<div class="hrow-top">' +
           '<span class="hrow-m">' + r.verdict.mark + '</span>' +
-          '<span class="hrow-n">' + r.name + (r.ticker ? '<span class="hrow-t">' + r.ticker + '</span>' : '') + '</span>' +
+          '<span class="hrow-n">' + esc(r.name) + (r.ticker ? '<span class="hrow-t">' + esc(r.ticker) + '</span>' : '') + '</span>' +
           '<span class="hrow-v">' + r.verdict.label + '</span>' +
         '</div>' +
         '<div class="hrow-nums">' +
@@ -433,19 +557,18 @@
           (r.score !== null ? ' · 50년 점수 <b>' + r.score + '</b>' : '') + '</div>' +
         '<div class="hrow-say">' + linkTerms(r.verdict.say) + '</div>' +
         '<button class="hrow-del" data-del="' + r.id + '">삭제</button>' +
-      '</div>');
+      '</div>';
     });
+    h.push(fold('my-rows', '🔍', '자리마다 판단', rowsHtml, { badge: a.alerts ? '⚠️ ' + a.alerts : '' }));
 
-    /* 손익으로 판단하지 않게 붙잡아 두는 자리 */
-    h.push('<div class="card" style="margin-top:16px"><div class="sb-h">팔지 말지 헷갈릴 때</div>' +
-      '<div class="slot-d"><b>지금 손익은 판단 근거가 아닙니다.</b> 많이 떨어졌으니 팔아야 한다도, 많이 올랐으니 팔아야 한다도 둘 다 틀렸습니다. ' +
-      '기준은 하나입니다 — <b>처음 산 이유가 아직 유효한가.</b> 아래 3개로 확인하세요.</div>');
+    var newsHtml = '<div class="slot-d"><b>지금 손익은 판단 근거가 아닙니다.</b> 많이 떨어졌으니 팔아야 한다도, 많이 올랐으니 팔아야 한다도 둘 다 틀렸습니다. ' +
+      '기준은 하나입니다 — <b>처음 산 이유가 아직 유효한가.</b></div>';
     D.newsRules.forEach(function (r, i) {
-      h.push('<div class="newsq"><div class="newsq-q">' + (i + 1) + '. ' + r.q + '</div>' +
+      newsHtml += '<div class="newsq"><div class="newsq-q">' + (i + 1) + '. ' + r.q + '</div>' +
         '<div class="newsq-a y">예 — ' + linkTerms(r.yes) + '</div>' +
-        '<div class="newsq-a n">아니오 — ' + linkTerms(r.no) + '</div></div>');
+        '<div class="newsq-a n">아니오 — ' + linkTerms(r.no) + '</div></div>';
     });
-    h.push('</div>');
+    h.push(fold('my-news', '🗞️', '팔지 말지 헷갈릴 때', newsHtml, { open: false }));
 
     h.push('<div class="foot"><b>고지.</b> 위 판단은 <b>목표 비중과의 차이</b>와 이 앱의 <b>정성 평가 점수</b>만으로 기계적으로 계산한 것입니다. ' +
       '시세·실적·여러분의 사정을 알지 못하며, 특정 종목의 매수·매도 권유가 아닙니다.</div>');
@@ -639,58 +762,58 @@
       '<div class="regime-tilt">현금 비중 <b>' + (tilt.cash >= 0 ? '+' : '') + tilt.cash + '%p</b> 조정 중</div>' +
     '</div>');
 
-    h.push('<div class="sec" style="margin-top:18px"><div class="sec-head"><h2>🎛️ 5개만 확인하세요</h2>' +
-      '<p>각 항목의 링크에서 30초면 됩니다. 바꾸는 즉시 홈의 제안이 다시 계산됩니다.</p></div><div class="card">');
+    var dialsHtml = '<div class="stepnote" style="margin-top:0">각 항목의 링크에서 30초면 됩니다. 바꾸는 즉시 홈과 제안이 다시 계산됩니다.</div><div class="card">';
     M.dials.forEach(function (d) {
-      h.push('<div class="dial"><div class="dial-q"><span>' + d.icon + '</span><span>' + d.title + '</span></div>' +
-        '<div class="dial-why">' + linkTerms(d.why) + '</div><div class="dial-opts">');
+      dialsHtml += '<div class="dial"><div class="dial-q"><span>' + d.icon + '</span><span>' + d.title + '</span></div>' +
+        '<div class="dial-why">' + linkTerms(d.why) + '</div><div class="dial-opts">';
       d.options.forEach(function (o) {
-        h.push('<button class="dial-opt' + (st[d.key] === o.v ? ' is-on' : '') + '" data-dial="' + d.key + '" data-val="' + o.v + '">' +
-          '<span class="o-l">' + o.label + '</span><span class="o-h">' + o.hint + '</span></button>');
+        dialsHtml += '<button class="dial-opt' + (st[d.key] === o.v ? ' is-on' : '') + '" data-dial="' + d.key + '" data-val="' + o.v + '">' +
+          '<span class="o-l">' + o.label + '</span><span class="o-h">' + o.hint + '</span></button>';
       });
-      h.push('</div>');
+      dialsHtml += '</div>';
       /* 환율은 실제 값과 1년 범위 위치를 알면 감이 아니라 근거로 고를 수 있다. */
       if (d.key === 'fx' && LIVE && LIVE.fx && LIVE.quotes && LIVE.quotes['KRW=X']) {
         var cur = LIVE.quotes['KRW=X'].price, fxr = LIVE.fx;
         var want = fxr.pct >= 0.66 ? 'weak' : fxr.pct <= 0.33 ? 'strong' : 'neutral';
         var wantLabel = { weak: '원화 약세', neutral: '보통', strong: '원화 강세' }[want];
-        h.push('<div class="dialhint">지금 <b>' + fmtNum(cur, '원') + '</b> · 최근 1년 ' +
+        dialsHtml += '<div class="dialhint">지금 <b>' + fmtNum(cur, '원') + '</b> · 최근 1년 ' +
           fmtNum(fxr.low52, '') + '~' + fmtNum(fxr.high52, '') + ' 중 <b>' + Math.round(fxr.pct * 100) + '% 지점</b>' +
           (st[d.key] === want ? ' — 지금 선택과 맞습니다.'
-            : ' → <button class="dialapply" data-dial="' + d.key + '" data-val="' + want + '">‘' + wantLabel + '’' + ro(wantLabel) + ' 맞추기</button>'));
-        h.push('</div>');
+            : ' → <button class="dialapply" data-dial="' + d.key + '" data-val="' + want + '">‘' + wantLabel + '’' + ro(wantLabel) + ' 맞추기</button>') + '</div>';
       }
       if (d.key === 'geo' && LIVE && LIVE.quotes && LIVE.quotes['^VIX']) {
         var vix = LIVE.quotes['^VIX'].price;
-        h.push('<div class="dialhint">지금 VIX <b>' + vix.toFixed(1) + '</b> — ' +
+        dialsHtml += '<div class="dialhint">지금 VIX <b>' + vix.toFixed(1) + '</b> — ' +
           (vix >= 30 ? '30 이상은 <b>충격 발생</b> 구간으로 봅니다.'
            : vix >= 20 ? '20~30은 <b>긴장</b> 구간으로 봅니다.'
-           : '20 미만은 대체로 <b>평온</b> 구간입니다.') + ' 다만 숫자 하나로 정하지 말고 헤드라인도 같이 보세요.</div>');
+           : '20 미만은 대체로 <b>평온</b> 구간입니다.') + ' 숫자 하나로 정하지 말고 헤드라인도 같이 보세요.</div>';
       }
-      h.push('<div class="dial-where">');
+      dialsHtml += '<div class="dial-where">';
       d.where.forEach(function (w) {
         if (w.for !== 'both' && w.for !== state.market) return;
-        h.push('<a href="' + w.url + '" target="_blank" rel="noopener">' + w.label + ' ↗</a>');
+        dialsHtml += '<a href="' + w.url + '" target="_blank" rel="noopener">' + w.label + ' ↗</a>';
       });
-      h.push('</div></div>');
+      dialsHtml += '</div></div>';
     });
-    h.push('</div><div class="note">' + M.defaults.note + '</div></div>');
+    dialsHtml += '</div><div class="note">' + M.defaults.note + '</div>';
+    h.push(fold('mk-dials', '🎛️', '5개만 확인하세요', dialsHtml));
 
-    h.push('<div class="sec"><div class="sec-head"><h2>🧠 이 국면이 뜻하는 것</h2></div><div class="card">');
+    var readHtml = '<div class="card">';
     M.readings(st).forEach(function (r) {
-      h.push('<div class="read-item"><div class="read-ico">' + r.icon + '</div><div>' +
+      readHtml += '<div class="read-item"><div class="read-ico">' + r.icon + '</div><div>' +
         '<div class="read-choice">' + r.title + ' → ' + r.choice + '</div>' +
-        '<div class="read-text">' + linkTerms(r.read) + '</div></div></div>');
+        '<div class="read-text">' + linkTerms(r.read) + '</div></div></div>';
     });
-    h.push('</div></div>');
+    readHtml += '</div>';
+    h.push(fold('mk-read', '🧠', '이 국면이 뜻하는 것', readHtml, { open: false }));
 
-    h.push('<div class="sec"><div class="sec-head"><h2>✅ 이번 달에 할 일</h2>' +
-      '<p>수익률을 바꾸는 건 종목 선택보다 이런 행동들입니다.</p></div><div class="card">');
+    var actHtml = '<div class="card">';
     M.actions(st, state.market).forEach(function (a) {
-      h.push('<div class="act"><div class="act-ico">' + a.icon + '</div><div>' +
-        '<div class="act-t">' + a.t + '</div><div class="act-d">' + linkTerms(a.d) + '</div></div></div>');
+      actHtml += '<div class="act"><div class="act-ico">' + a.icon + '</div><div>' +
+        '<div class="act-t">' + a.t + '</div><div class="act-d">' + linkTerms(a.d) + '</div></div></div>';
     });
-    h.push('</div></div>');
+    actHtml += '</div>';
+    h.push(fold('mk-act', '✅', '이번 달에 할 일', actHtml));
 
     h.push('<div class="sec"><button class="btn" data-go="home">홈으로 돌아가기 →</button></div>');
     return h.join('');
@@ -705,64 +828,68 @@
       '<button class="subbtn' + (state.learnTab === 'study' ? ' is-on' : '') + '" data-sub="study">📚 배우기</button>' +
     '</div>'];
     if (state.learnTab === 'picks') return h.join('') + renderPicks();
+
     var tax = D.tax[state.market];
 
-    h.push('<div class="sec"><div class="sec-head"><h2>🔭 방향이 거의 정해진 흐름</h2>' +
-      '<p>다음 분기에 뭐가 오를지는 아무도 모릅니다. 10년 단위로 뒤집히기 어려운 흐름만 다룹니다.</p></div>');
+    var themeHtml = '<div class="stepnote" style="margin-top:0">다음 분기에 뭐가 오를지는 아무도 모릅니다. 10년 단위로 뒤집히기 어려운 흐름만 다룹니다.</div>';
     M.themes.forEach(function (t) {
-      h.push('<div class="card"><div class="theme-h">' + t.icon + ' ' + t.title + '</div>' +
+      themeHtml += '<div class="card"><div class="theme-h">' + t.icon + ' ' + t.title + '</div>' +
         '<div class="theme-b">' + linkTerms(t.body) + '</div>' +
         '<div class="theme-blue">🏛️ <b>블루칩으로 타는 법</b> — ' + linkTerms(t.blue) + '</div>' +
-        '<div class="theme-c">⚠️ ' + linkTerms(t.caution) + '</div></div>');
+        '<div class="theme-c">⚠️ ' + linkTerms(t.caution) + '</div></div>';
     });
-    h.push('</div>');
+    h.push(fold('lr-theme', '🔭', '방향이 거의 정해진 흐름', themeHtml, { open: false, badge: M.themes.length }));
 
-    h.push('<div class="sec"><div class="sec-head"><h2>🗞️ 이 뉴스에 팔아야 하나요?</h2></div><div class="card">');
+    var newsHtml = '<div class="card">';
     D.newsRules.forEach(function (r, i) {
-      h.push('<div class="newsq"><div class="newsq-q">' + (i + 1) + '. ' + r.q + '</div>' +
+      newsHtml += '<div class="newsq"><div class="newsq-q">' + (i + 1) + '. ' + r.q + '</div>' +
         '<div class="newsq-a y">예 — ' + linkTerms(r.yes) + '</div>' +
-        '<div class="newsq-a n">아니오 — ' + linkTerms(r.no) + '</div></div>');
+        '<div class="newsq-a n">아니오 — ' + linkTerms(r.no) + '</div></div>';
     });
-    h.push('<div class="note" style="margin-top:12px">셋 다 “아니오”라면 <b>오늘 할 일은 없습니다.</b></div></div></div>');
+    newsHtml += '<div class="note" style="margin-top:12px">셋 다 “아니오”라면 <b>오늘 할 일은 없습니다.</b></div></div>';
+    h.push(fold('lr-news', '🗞️', '이 뉴스에 팔아야 하나요?', newsHtml));
 
-    h.push('<div class="sec"><div class="sec-head"><h2>🕳️ 가장 많이 빠지는 함정</h2></div>');
+    var misHtml = '';
     D.mistakes.forEach(function (m) {
-      h.push('<div class="card"><div class="mis-h">' + m.icon + ' ' + m.title + '</div>' +
+      misHtml += '<div class="card"><div class="mis-h">' + m.icon + ' ' + m.title + '</div>' +
         '<div class="mis-b">' + linkTerms(m.body) + '</div>' +
-        '<div class="mis-f">→ ' + linkTerms(m.fix) + '</div></div>');
+        '<div class="mis-f">→ ' + linkTerms(m.fix) + '</div></div>';
     });
-    h.push('</div>');
+    h.push(fold('lr-mis', '🕳️', '가장 많이 빠지는 함정', misHtml, { open: false, badge: D.mistakes.length }));
 
-    h.push('<div class="sec"><div class="sec-head"><h2>🗓️ 처음 3개월 로드맵</h2></div><div class="card">');
+    var roadHtml = '<div class="card">';
     D.roadmap.forEach(function (r) {
-      h.push('<div class="road"><div class="road-w">' + r.when + '</div><div>' +
+      roadHtml += '<div class="road"><div class="road-w">' + r.when + '</div><div>' +
         '<div class="road-t">' + r.title + '</div>' +
         '<ul class="road-l">' + r.todo.map(function (t) { return '<li>' + linkTerms(t) + '</li>'; }).join('') + '</ul>' +
-        '<div class="road-y">💡 ' + linkTerms(r.why) + '</div></div></div>');
+        '<div class="road-y">💡 ' + linkTerms(r.why) + '</div></div></div>';
     });
-    h.push('</div></div>');
+    roadHtml += '</div>';
+    h.push(fold('lr-road', '🗓️', '처음 3개월 로드맵', roadHtml, { open: false }));
 
-    h.push('<div class="sec"><div class="sec-head"><h2>🧾 ' + market().flag + ' 세금과 계좌</h2>' +
-      '<p>' + tax.headline + '</p></div><div class="card"><div class="sb-h">세금 구조</div>');
+    var taxHtml = '<div class="card"><div class="stepnote" style="margin-top:0">' + tax.headline + '</div><div class="sb-h">세금 구조</div>';
     tax.items.forEach(function (i) {
-      h.push('<div class="tax-row"><div class="tax-t">' + i.t + '</div><div class="tax-d">' + linkTerms(i.d) + '</div></div>');
+      taxHtml += '<div class="tax-row"><div class="tax-t">' + i.t + '</div><div class="tax-d">' + linkTerms(i.d) + '</div></div>';
     });
-    h.push('<div class="sb-h">어느 계좌에 담을까</div>');
+    taxHtml += '<div class="sb-h">어느 계좌에 담을까</div>';
     tax.accounts.forEach(function (i) {
-      h.push('<div class="tax-row"><div class="tax-t">' + i.t + '</div><div class="tax-d">' + linkTerms(i.d) + '</div></div>');
+      taxHtml += '<div class="tax-row"><div class="tax-t">' + i.t + '</div><div class="tax-d">' + linkTerms(i.d) + '</div></div>';
     });
-    h.push('<div class="note" style="margin-top:12px">💡 ' + linkTerms(tax.tip) + '</div>' +
-      '<div class="note" style="margin-top:8px;background:#fdf1ef;color:#9a3a31">⚠️ ' + D.tax.disclaimer + '</div></div></div>');
+    taxHtml += '<div class="note" style="margin-top:12px">💡 ' + linkTerms(tax.tip) + '</div>' +
+      '<div class="note" style="margin-top:8px;background:#fdf1ef;color:#9a3a31">⚠️ ' + D.tax.disclaimer + '</div></div>';
+    h.push(fold('lr-tax', '🧾', market().flag + ' 세금과 계좌', taxHtml, { open: false }));
 
-    h.push('<div class="sec"><div class="sec-head"><h2>📖 용어 사전</h2></div><div class="card">');
+    var gloHtml = '<div class="card">';
     Object.keys(D.glossary).forEach(function (k) {
-      h.push('<div class="tax-row"><div class="tax-t">' + k + '</div><div class="tax-d">' + D.glossary[k] + '</div></div>');
+      gloHtml += '<div class="tax-row"><div class="tax-t">' + k + '</div><div class="tax-d">' + D.glossary[k] + '</div></div>';
     });
-    h.push('</div></div>');
+    gloHtml += '</div>';
+    h.push(fold('lr-glo', '📖', '용어 사전', gloHtml, { open: false, badge: Object.keys(D.glossary).length }));
 
-    h.push('<div class="sec"><div class="sec-head"><h2>🔁 기록 초기화</h2></div><div class="card">' +
-      '<div class="slot-d">시드·성향·시장 다이얼을 처음 상태로 되돌립니다. 이 브라우저에 저장된 <b>이 앱의 값만</b> 지웁니다.</div>' +
-      '<button class="btn danger" id="reset" style="margin-top:12px">기록 초기화</button></div></div>');
+    h.push(fold('lr-reset', '🔁', '기록 초기화',
+      '<div class="card"><div class="slot-d">시드·성향·시장 다이얼·보유 종목·홈 위젯 설정을 처음 상태로 되돌립니다. ' +
+      '이 브라우저에 저장된 <b>이 앱의 값만</b> 지웁니다.</div>' +
+      '<button class="btn danger" id="reset" style="margin-top:12px">기록 초기화</button></div>', { open: false }));
 
     h.push('<div class="foot"><b>고지.</b> 이 앱은 투자 교육 자료입니다. 특정 종목의 매수·매도를 권유하지 않으며 어떤 수익도 보장하지 않습니다. ' +
       '종목 점수는 공개된 사업 구조를 바탕으로 한 정성 평가이고 가격·실적 데이터가 아닙니다. 세법과 제도는 수시로 바뀌므로 반드시 ' +
@@ -825,7 +952,39 @@
       return;
     }
     if ((el = ev.target.closest('.tab')))      { go(el.dataset.view); return; }
-    if ((el = ev.target.closest('[data-go]'))) { go(el.dataset.go); return; }
+    if ((el = ev.target.closest('[data-go]'))) {
+      if (el.dataset.sub) state.learnTab = el.dataset.sub;
+      go(el.dataset.go);
+      return;
+    }
+
+    /* 접기/펴기 */
+    if ((el = ev.target.closest('.fold-h'))) {
+      var fk = el.dataset.fold;
+      state.folds[fk] = !isOpen(fk, true);
+      save('folds', state.folds);
+      render();
+      return;
+    }
+    /* 홈 위젯 편집 */
+    if (ev.target.id === 'wgt-toggle') {
+      state.editWidgets = !state.editWidgets; render(); return;
+    }
+    if ((el = ev.target.closest('.wgt-chk'))) {
+      setWidget(el.dataset.widget, el.checked);
+      render();
+      return;
+    }
+    /* 종목 추가 폼 열고 닫기 */
+    if (ev.target.id === 'add-toggle') {
+      state.addOpen = !state.addOpen;
+      render();
+      if (state.addOpen) {
+        var n = document.getElementById('h-name');
+        if (n) n.focus();
+      }
+      return;
+    }
 
     if ((el = ev.target.closest('.seedchip'))) {
       state.profile.seed = parseInt(el.dataset.seed, 10);
@@ -875,6 +1034,8 @@
       });
       save('holdings', state.holdings);
       render();
+      var again = document.getElementById('h-name');
+      if (again) again.focus();
       return;
     }
     if ((el = ev.target.closest('[data-del]'))) {
@@ -886,7 +1047,7 @@
     }
 
     if (ev.target.id === 'reset') {
-      ['market', 'style', 'regime', 'profile', 'touched', 'holdings', 'cash'].forEach(function (k) {
+      ['market', 'style', 'regime', 'profile', 'touched', 'holdings', 'cash', 'widgets', 'folds'].forEach(function (k) {
         try { localStorage.removeItem(KEY + k); } catch (e) {}
       });
       state.market = 'kr';
@@ -895,6 +1056,10 @@
       state.touched = { kr: null, us: null };
       state.holdings = { kr: [], us: [] };
       state.cash = { kr: 0, us: 0 };
+      state.widgets = null;
+      state.folds = {};
+      state.addOpen = false;
+      state.editWidgets = false;
       state.profile = { seed: 1000, fx: 1350 };
       Object.keys(VIEWS).forEach(function (v) { document.getElementById('view-' + v).innerHTML = ''; });
       go('home');
