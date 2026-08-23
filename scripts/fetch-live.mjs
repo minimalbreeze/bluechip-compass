@@ -31,12 +31,22 @@ const FEEDS = {
     { name: '매일경제', url: 'https://www.mk.co.kr/rss/50200011/' }
   ],
   us: [
-    { name: 'Yahoo Finance', url: 'https://finance.yahoo.com/news/rssindex' },
     { name: 'CNBC', url: 'https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=20910258' },
-    { name: 'MarketWatch', url: 'https://feeds.content.dowjones.io/public/rss/mw_topstories' }
+    { name: 'MarketWatch', url: 'https://feeds.content.dowjones.io/public/rss/mw_topstories' },
+    { name: 'Yahoo Finance', url: 'https://finance.yahoo.com/news/rssindex' }
   ]
 };
 const NEWS_PER_MARKET = 6;
+const PER_FEED = 20;
+
+/* 증권과 상관있는 기사만 고르기 위한 단어들.
+   경제 RSS에는 건강기능식품 재평가, 지역 개발 같은 기사가 섞여 들어온다.
+   제목만으로 거르는 거친 방법이지만, 이 앱에 필요한 건 "오늘 시장 이야기"
+   여섯 줄이지 경제면 전체가 아니다. */
+const MARKET_WORDS = {
+  kr: /코스피|코스닥|증시|증권|주가|주식|상장|공모주|청약|배당|자사주|실적|영업이익|어닝|외국인|기관|순매수|순매도|반도체|금리|환율|원\/달러|채권|국채|연준|한은|기준금리|뉴욕증시|나스닥|다우|시가총액|시총|밸류업|공시|인수|합병|증자/,
+  us: /\bstock|market|share|equit|nasdaq|dow\b|s&p|\bfed\b|rate|yield|earnings|inflation|treasur|bond|wall street|index|futures|dividend|buyback|\bipo\b|tariff|cpi|jobs report|rally|selloff/i
+};
 const UA = 'Mozilla/5.0 (compatible; bluechip-compass/1.0)';
 const OUT = 'live.json';
 
@@ -101,22 +111,44 @@ function parseRss(xml, source) {
 }
 
 async function fetchNews(marketKey) {
-  const seen = new Set();
-  const out = [];
+  /* 피드별로 넉넉히 모은 뒤, (1) 증권 관련 여부로 거르고
+     (2) 출처를 번갈아 뽑는다. 한 매체가 목록을 독점하면 그 매체의 관심사가
+     곧 "오늘의 시장"이 되어 버린다. */
+  const buckets = [];
   for (const f of FEEDS[marketKey]) {
-    if (out.length >= NEWS_PER_MARKET) break;
     try {
-      const items = parseRss(await getText(f.url), f.name);
-      for (const it of items) {
-        const key = it.title.slice(0, 40);
-        if (seen.has(key)) continue;
-        seen.add(key);
-        out.push(it);
-        if (out.length >= NEWS_PER_MARKET) break;
-      }
+      const items = parseRss(await getText(f.url), f.name).slice(0, PER_FEED);
+      buckets.push(items);
     } catch (e) {
       failed.push('news/' + marketKey + '/' + f.name + ': ' + e.message);
+      buckets.push([]);
     }
+  }
+
+  const re = MARKET_WORDS[marketKey];
+  const seen = new Set();
+  const out = [];
+
+  /* pass 1은 증권 관련만, pass 2는 남은 것으로 채운다. */
+  for (const onlyRelevant of [true, false]) {
+    const cursors = buckets.map(() => 0);
+    let moved = true;
+    while (out.length < NEWS_PER_MARKET && moved) {
+      moved = false;
+      for (let b = 0; b < buckets.length && out.length < NEWS_PER_MARKET; b++) {
+        while (cursors[b] < buckets[b].length) {
+          const it = buckets[b][cursors[b]++];
+          const key = it.title.slice(0, 40);
+          if (seen.has(key)) continue;
+          if (onlyRelevant && !re.test(it.title)) continue;
+          seen.add(key);
+          out.push(it);
+          moved = true;
+          break;
+        }
+      }
+    }
+    if (out.length >= NEWS_PER_MARKET) break;
   }
   return out;
 }
