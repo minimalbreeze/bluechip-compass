@@ -791,6 +791,58 @@ body[data-market="us"] .ms-thumb { transform: translateX(100%); }
 .cashline input { flex: 1; }
 .cashline span { font-size: 13px; }
 
+/* ── 모의투자 ───────────────────────────────────────────────────
+   손익 숫자를 크게 쓰되 배경으로 칠하지는 않는다(원칙: 화면이 등락에
+   반응하기 시작하면 감정 매매를 줄인다는 목적과 충돌한다). */
+.simmsg {
+  background: var(--accent-soft); color: var(--accent-ink);
+  border-radius: var(--r-s); padding: 11px 13px; font-size: 13.5px;
+  margin-bottom: 12px; font-weight: 700;
+}
+.simsum .simpl {
+  font-size: 22px; font-weight: 800; margin-top: 6px;
+  font-variant-numeric: tabular-nums;
+}
+.simsum .simpl span { font-size: 15px; margin-left: 6px; }
+
+.simrow { padding: 12px 0; border-bottom: 1px solid var(--line-soft); }
+.simrow:last-child { border-bottom: 0; }
+.simrow-top { display: flex; align-items: baseline; gap: 8px; }
+.simrow-n { flex: 1; min-width: 0; font-size: 15px; font-weight: 800; }
+.simrow-pl { font-size: 15px; font-weight: 800; font-variant-numeric: tabular-nums; }
+.simrow-num { font-size: 12.5px; color: var(--ink-dim); margin-top: 3px; }
+.simrow-num b { font-variant-numeric: tabular-nums; }
+.simrow-act { display: flex; gap: 6px; margin-top: 8px; }
+.sbtn {
+  flex: 1; border: 1.5px solid var(--line); background: var(--card);
+  border-radius: 9px; padding: 8px 4px; font-size: 12.5px; font-weight: 700;
+  color: var(--ink-mid);
+}
+.sbtn.buy  { border-color: var(--accent); color: var(--accent-ink); }
+.sbtn.sell { border-color: var(--up); color: var(--up); }
+
+.addform select {
+  width: 100%; font: inherit; font-size: 15px;
+  border: 1.5px solid var(--line); border-radius: 10px;
+  padding: 11px 13px; background: var(--card); color: var(--ink);
+}
+.addform input:disabled { background: var(--line-soft); color: var(--ink-dim); }
+
+.logrow {
+  display: flex; align-items: baseline; gap: 8px;
+  padding: 9px 0; border-bottom: 1px solid var(--line-soft); font-size: 13px;
+}
+.logrow:last-child { border-bottom: 0; }
+.log-k {
+  font-size: 11px; font-weight: 800; border-radius: 5px; padding: 2px 7px;
+  background: var(--accent-soft); color: var(--accent-ink);
+}
+.log-k.sell { background: #fdeae7; color: #b8342c; }
+.log-n { flex: 1; min-width: 0; font-weight: 700; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.log-a { font-variant-numeric: tabular-nums; color: var(--ink-mid); }
+.log-d { font-size: 11px; color: var(--ink-dim); white-space: nowrap; }
+.logrow.more { color: var(--ink-dim); justify-content: center; }
+
 @media (max-width: 360px) {
   .dial-opts { grid-template-columns: 1fr; }
   .bar-l { flex: 0 0 70px; }

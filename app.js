@@ -19,6 +19,7 @@
   var M = window.BCMarket;
   var P = window.BCPortfolios;
   var H = window.BCHoldings;
+  var SIM = window.BCSim;
   var CFG = window.BCConfig;
   var KEY = 'bcc:';
 
@@ -45,15 +46,24 @@
     holdings: load('holdings', { kr: [], us: [] }),
     cash:     load('cash', { kr: 0, us: 0 }),
     filter:  'all',
-    learnTab: 'picks',
+    /* 하위 탭도 기억한다 — 모의투자는 매일 들여다보는 화면이라
+       열 때마다 배분안으로 되돌아가면 매번 두 번 눌러야 한다. */
+    learnTab: load('learnTab', 'picks'),
     /* 홈에 어떤 위젯을 올릴지 (사용자가 켜고 끈다) */
     widgets: load('widgets', null),
     /* 접었다 폈다 하는 영역의 상태. 키 → true(펼침)/false(접힘) */
     folds:   load('folds', {}),
     /* 종목 추가 폼은 기본으로 숨긴다 — 매일 쓰는 기능이 아니다 */
     addOpen: false,
-    editWidgets: false
+    editWidgets: false,
+    planTab: load('planTab', 'plan'),
+    /* 모의투자는 시장별로 따로 굴린다 */
+    sim: load('sim', { kr: SIM.blank(), us: SIM.blank() }),
+    simMsg: ''
   };
+  ['kr', 'us'].forEach(function (mk) {
+    if (!state.sim[mk] || !state.sim[mk].pos) state.sim[mk] = SIM.blank();
+  });
   ['kr', 'us'].forEach(function (mk) {
     if (!state.holdings[mk]) state.holdings[mk] = [];
     if (typeof state.cash[mk] !== 'number') state.cash[mk] = 0;
@@ -158,6 +168,14 @@
     return (manwon > 0 ? '+' : manwon < 0 ? '−' : '') + won(Math.abs(manwon));
   }
 
+  /* 모의투자 계산에 쓰는 값 묶음 — live·시장·환율을 매번 넘겨야 해서 모아둔다 */
+  function simCtx() {
+    return { live: LIVE, market: state.market, fx: state.profile.fx, today: ymd(today()) };
+  }
+  function simState() { return state.sim[state.market]; }
+  function simSave() { save('sim', state.sim); }
+  function simRunning() { return !!simState().started; }
+
   /* ══════════════════════════════════════════════════════════════════
      홈 위젯 + 접이식 영역
      ------------------------------------------------------------------
@@ -170,6 +188,7 @@
     { key: 'market',    icon: '📊', title: '시장 지수와 등락 요인', on: true },
     { key: 'news',      icon: '📰', title: '오늘의 증권 뉴스',      on: true },
     { key: 'portfolio', icon: '💼', title: '내 투자 현황',          on: true },
+    { key: 'sim',       icon: '🎮', title: '모의투자 현황',        on: true },
     { key: 'daily',     icon: '🗓️', title: '오늘의 점검 한 가지',   on: true }
   ];
 
@@ -195,7 +214,9 @@
     opts = opts || {};
     var open = isOpen(key, opts.open);
     return '<section class="fold' + (open ? ' is-open' : '') + '">' +
-      '<button class="fold-h" data-fold="' + key + '" aria-expanded="' + open + '">' +
+      /* 자기 기본값을 같이 싣는다. 핸들러가 이걸 모르면 "기본 접힘"인 영역을
+         눌렀을 때 다시 접기로 계산해 영영 열리지 않는다. */
+      '<button class="fold-h" data-fold="' + key + '" data-open="' + (opts.open === false ? '0' : '1') + '" aria-expanded="' + open + '">' +
         '<span class="fold-i">' + icon + '</span>' +
         '<span class="fold-t">' + title + '</span>' +
         (opts.badge ? '<span class="fold-b">' + opts.badge + '</span>' : '') +
@@ -351,6 +372,7 @@
     if (widgetOn('market'))    h.push(fold('w-market', '📊', mk.full, marketWidget()));
     if (widgetOn('news'))      h.push(fold('w-news', '📰', '오늘의 증권 뉴스', newsWidget()));
     if (widgetOn('portfolio')) h.push(fold('w-portfolio', '💼', '내 투자 현황', portfolioWidget(), { badge: portfolioBadge() }));
+    if (widgetOn('sim'))       h.push(fold('w-sim', '🎮', '모의투자 현황', simWidget(), { badge: simRunning() ? '진행 중' : '' }));
     if (widgetOn('daily'))     h.push(fold('w-daily', '🗓️', '오늘의 점검 한 가지', dailyWidget()));
 
     if (!WIDGETS.some(function (w) { return widgetOn(w.key); })) {
@@ -478,6 +500,28 @@
     return h.join('');
   }
 
+  /* ── 위젯: 모의투자 ── */
+  function simWidget() {
+    if (!simRunning()) {
+      return '<button class="emptycard" data-go="plan" data-psub="sim">' +
+        '<div class="empty-i">🎮</div>' +
+        '<div><div class="empty-t">모의투자로 먼저 겪어보세요</div>' +
+        '<div class="empty-d">시드와 성향만 고르면 그 배분대로 담아 굴려봅니다. ' +
+        '실제 돈이 아니니 <b>하락을 견딜 수 있는지</b>를 안전하게 시험할 수 있습니다.</div></div></button>';
+    }
+    var v = SIM.value(simState(), simCtx());
+    return '<div class="sum">' +
+      '<div class="sum-top"><span class="sum-l">모의 평가금액</span><span class="sum-v">' + money(v.total) + '</span></div>' +
+      '<div class="sum-grid">' +
+        '<div><span>시드</span><b>' + won(simState().seed) + '</b></div>' +
+        '<div><span>총 손익</span><b class="' + plClass(v.pl) + '">' + signWon(v.pl) + '</b></div>' +
+        '<div><span>수익률</span><b class="' + plClass(v.pl) + '">' + signPct(v.plPct) + '</b></div>' +
+      '</div>' +
+      '<div class="sum-cash">' + simState().started + ' 시작 · ' + styleLabelOf(simState().style) +
+        ' · 보유 ' + v.rows.length + '종목 · 현금 ' + v.cashWeight + '%</div></div>' +
+      '<button class="btn" data-go="plan" data-psub="sim" style="margin-top:10px">모의투자 열기 →</button>';
+  }
+
   /* ── 위젯: 오늘의 점검 ── */
   function dailyWidget() {
     var chk = DAILY[dayOfYear(today()) % DAILY.length];
@@ -586,6 +630,14 @@
      뷰 — 제안: 시드를 넣으면 뭘 얼마나 살지
      ══════════════════════════════════════════════════════════════ */
   function renderPlan() {
+    var head = '<div class="subnav">' +
+      '<button class="subbtn' + (state.planTab === 'plan' ? ' is-on' : '') + '" data-psub="plan">🎯 배분안</button>' +
+      '<button class="subbtn' + (state.planTab === 'sim' ? ' is-on' : '') + '" data-psub="sim">🎮 모의투자</button>' +
+    '</div>';
+    return head + (state.planTab === 'sim' ? renderSim() : renderAllocation());
+  }
+
+  function renderAllocation() {
     var mk = market(), st = regime(), p = state.profile;
     var reg = M.labelRegime(st);
     var tilt = M.tilt(st);
@@ -662,10 +714,146 @@
     h.push('<div class="stepnote">주수는 계산하지 않습니다 — 이 앱은 주가를 받아오지 않기 때문입니다. ' +
       '증권사 앱에서 <b>금액으로 주문</b>하거나 소수점 매수를 쓰세요.</div></div>');
 
+    h.push('<button class="btn ghost" data-psub="sim">🎮 이 배분으로 모의투자 해보기 →</button>');
+
     h.push('<div class="foot"><b>고지.</b> 이 앱은 투자 교육 자료입니다. 위 목록은 정해진 규칙으로 계산된 <b>예시 배분</b>이며 ' +
       '특정 종목의 매수 권유가 아닙니다. 어떤 수익도 보장하지 않습니다. 나이·직업 안정성·부채·기존 자산에 따라 답은 달라집니다.</div>');
 
     return h.join('');
+  }
+
+  /* ══════════════════════════════════════════════════════════════════
+     모의투자
+     ------------------------------------------------------------------
+     수익률 자랑용이 아니라 "하락을 보고도 안 팔 수 있는가"를 자기 눈으로
+     확인하게 하는 화면이다. 그래서 손익만큼이나 시작일·성향·거래 내역을
+     같이 보여준다 — 내가 언제 무엇을 왜 팔았는지가 남아야 배운다.
+     ══════════════════════════════════════════════════════════════ */
+  function styleLabelOf(key) {
+    var l = key || '';
+    P.styles.forEach(function (s) { if (s.key === key) l = s.label; });
+    return l;
+  }
+
+  function renderSim() {
+    var st = simState();
+    var p = state.profile;
+    var mk = market();
+    var h = [];
+
+    if (state.simMsg) {
+      h.push('<div class="simmsg">' + esc(state.simMsg) + '</div>');
+      state.simMsg = '';
+    }
+
+    var priced = LIVE && LIVE.stocks && LIVE.stocks[state.market]
+      ? Object.keys(LIVE.stocks[state.market]).length : 0;
+
+    /* ── 시작 전 ── */
+    if (!st.started) {
+      h.push('<div class="sec-head"><h2>🎮 모의투자</h2>' +
+        '<p>실제 돈이 아닙니다. 시드와 성향을 고르면 그 배분대로 담아 굴려봅니다. ' +
+        '<b>하락을 견딜 수 있는지</b>를 안전하게 시험하는 게 목적입니다.</p></div>');
+
+      if (!priced) {
+        h.push('<div class="note" style="background:#fdf1ef;color:#9a3a31">⚠️ 아직 종목 시세를 받아오지 못해 시작할 수 없습니다. 잠시 뒤 다시 열어보세요.</div>');
+        return h.join('');
+      }
+
+      h.push('<div class="step"><div class="step-h"><span class="step-n">1</span>시드</div>' +
+        '<div class="seedrow"><input type="number" id="seed" value="' + p.seed + '" min="10" max="1000000" step="10" inputmode="numeric" />' +
+        '<span class="seedunit">만원</span></div>' +
+        '<div class="seedchips">' + [100, 500, 1000, 3000, 10000].map(function (v) {
+          return '<button class="seedchip' + (p.seed === v ? ' is-on' : '') + '" data-seed="' + v + '">' + won(v) + '</button>';
+        }).join('') + '</div></div>');
+
+      h.push('<div class="step"><div class="step-h"><span class="step-n">2</span>투자 방식</div><div class="styles">');
+      P.styles.forEach(function (s) {
+        h.push('<button class="stylebtn' + (state.style === s.key ? ' is-on' : '') + '" data-style="' + s.key + '">' +
+          '<span class="style-i">' + s.icon + '</span><span class="style-l">' + s.label + '</span>' +
+          '<span class="style-m">' + s.mdd + '</span></button>');
+      });
+      h.push('</div><div class="stepnote">고른 방식의 모델 구성 그대로 담습니다. 시작한 뒤에도 사고팔 수 있습니다.</div></div>');
+
+      h.push('<button class="btn" id="sim-start">🎮 ' + won(p.seed) + '으로 시작하기</button>');
+      h.push(simDisclaimer());
+      return h.join('');
+    }
+
+    /* ── 진행 중 ── */
+    var v = SIM.value(st, simCtx());
+    h.push('<div class="sec-head"><h2>🎮 모의투자</h2>' +
+      '<p>' + st.started + ' 시작 · <b>' + styleLabelOf(st.style) + '</b> · 시드 ' + won(st.seed) + '</p></div>');
+
+    h.push('<div class="card sum simsum">' +
+      '<div class="sum-top"><span class="sum-l">모의 평가금액</span><span class="sum-v">' + money(v.total) + '</span></div>' +
+      '<div class="simpl ' + plClass(v.pl) + '">' + signWon(v.pl) + ' <span>' + signPct(v.plPct) + '</span></div>' +
+      '<div class="sum-grid">' +
+        '<div><span>주식 평가</span><b>' + won(v.invested) + '</b></div>' +
+        '<div><span>현금</span><b>' + won(v.cash) + '</b></div>' +
+        '<div><span>현금 비중</span><b>' + v.cashWeight + '%</b></div>' +
+      '</div>' +
+      (LIVE && LIVE.asOf ? '<div class="sum-cash">🕒 ' + agoText(LIVE.asOf) + ' 시세 기준' +
+        (state.market === 'us' ? ' · 환율 ' + p.fx + '원 적용' : '') + '</div>' : '') +
+    '</div>');
+
+    if (v.missing) {
+      h.push('<div class="note" style="background:#fff4e6;color:#8a5a12">' + v.missing +
+        '개 종목은 시세를 못 받아와 <b>매수 원가로 표시</b>했습니다. 0으로 처리하면 손실이 난 것처럼 보이기 때문입니다.</div>');
+    }
+
+    var rowsHtml = '';
+    v.rows.forEach(function (r) {
+      rowsHtml += '<div class="simrow">' +
+        '<div class="simrow-top"><span class="simrow-n">' + esc(r.n) + '</span>' +
+          '<span class="simrow-pl ' + plClass(r.pl) + '">' + signPct(r.plPct) + '</span></div>' +
+        '<div class="simrow-num">평가 <b>' + won(r.value) + '</b> · 원가 ' + won(r.cost) +
+          ' · 손익 <b class="' + plClass(r.pl) + '">' + signWon(r.pl) + '</b>' +
+          (r.known ? '' : ' · <b>시세 없음</b>') + '</div>' +
+        '<div class="simrow-act">' +
+          '<button class="sbtn buy" data-trade="buy" data-t="' + esc(r.t) + '" data-n="' + esc(r.n) + '">추가 매수</button>' +
+          '<button class="sbtn sell" data-trade="sell" data-t="' + esc(r.t) + '" data-n="' + esc(r.n) + '">매도</button>' +
+          '<button class="sbtn" data-trade="sellall" data-t="' + esc(r.t) + '" data-n="' + esc(r.n) + '">전량</button>' +
+        '</div></div>';
+    });
+    if (!v.rows.length) rowsHtml = '<div class="slot-d">보유 종목이 없습니다. 아래에서 사보세요.</div>';
+    h.push(fold('sim-pos', '📦', '보유 종목', rowsHtml, { badge: v.rows.length || '' }));
+
+    var buyHtml = '<div class="addform">' +
+      '<select id="sim-pick">' + mk.picks.map(function (x) {
+        var pr = SIM.priceOf(LIVE, state.market, x.ticker, p.fx);
+        return '<option value="' + esc(x.ticker) + '"' + (pr ? '' : ' disabled') + '>' +
+          esc(x.name) + (pr ? '' : ' (시세 없음)') + '</option>';
+      }).join('') + '</select>' +
+      '<div class="addrow"><label>금액<input id="sim-amt" type="number" inputmode="numeric" placeholder="만원" min="0" step="10" /></label>' +
+      '<label>보유 현금<input value="' + Math.floor(v.cash) + '" disabled /></label></div>' +
+      '<button class="btn" id="sim-buy">매수</button>' +
+      '<div class="addnote">체결가는 <b>30분마다 갱신되는 스냅샷 가격</b>입니다. 실제 체결가가 아닙니다.</div></div>';
+    h.push(fold('sim-buy', '🛒', '새로 사기', buyHtml, { open: false }));
+
+    var logHtml = '';
+    st.log.slice(0, 30).forEach(function (l) {
+      logHtml += '<div class="logrow"><span class="log-k ' + l.kind + '">' + (l.kind === 'buy' ? '매수' : '매도') + '</span>' +
+        '<span class="log-n">' + esc(l.n) + '</span>' +
+        '<span class="log-a">' + won(l.amt) + '</span>' +
+        '<span class="log-d">' + l.ts + '</span></div>';
+    });
+    if (st.log.length > 30) logHtml += '<div class="logrow more">외 ' + (st.log.length - 30) + '건</div>';
+    h.push(fold('sim-log', '🧾', '거래 내역', logHtml || '<div class="slot-d">아직 없습니다.</div>',
+      { open: false, badge: st.log.length }));
+
+    h.push('<button class="btn danger" id="sim-reset" style="margin-top:6px">↺ 초기화하고 다시 설정</button>');
+    h.push(simDisclaimer());
+    return h.join('');
+  }
+
+  function simDisclaimer() {
+    return '<div class="foot"><b>이건 연습입니다.</b> 실제 거래가 아니며 아래를 반영하지 않습니다 — ' +
+      '① 체결가는 30분 스냅샷 가격이라 <b>실제 체결가와 다릅니다</b> ' +
+      '② <b>수수료·세금·슬리피지가 없습니다</b>(실제로는 그만큼 덜 남습니다) ' +
+      '③ 배당이 없습니다' +
+      (state.market === 'us' ? ' ④ 달러 시세를 그때그때 환율로 환산하므로 <b>주가가 그대로여도 환율로 평가액이 바뀝니다</b>(한국에서 미국 주식을 사면 실제로 그렇습니다)' : '') +
+      '.<br><br>여기서 난 수익률은 앞으로의 성과를 뜻하지 않습니다.</div>';
   }
 
   /* ══════════════════════════════════════════════════════════════════
@@ -953,7 +1141,7 @@
     }
     if ((el = ev.target.closest('.tab')))      { go(el.dataset.view); return; }
     if ((el = ev.target.closest('[data-go]'))) {
-      if (el.dataset.sub) state.learnTab = el.dataset.sub;
+      if (el.dataset.sub) { state.learnTab = el.dataset.sub; save('learnTab', state.learnTab); }
       go(el.dataset.go);
       return;
     }
@@ -961,7 +1149,8 @@
     /* 접기/펴기 */
     if ((el = ev.target.closest('.fold-h'))) {
       var fk = el.dataset.fold;
-      state.folds[fk] = !isOpen(fk, true);
+      var dflt = el.dataset.open !== '0';
+      state.folds[fk] = !isOpen(fk, dflt);
       save('folds', state.folds);
       render();
       return;
@@ -1008,7 +1197,13 @@
       save('touched', state.touched);
       render(); return;
     }
-    if ((el = ev.target.closest('.subbtn'))) { state.learnTab = el.dataset.sub; render(); return; }
+    if ((el = ev.target.closest('[data-psub]'))) {
+      state.planTab = el.dataset.psub;
+      save('planTab', state.planTab);
+      if (current !== 'plan') { go('plan'); } else { render(); }
+      return;
+    }
+    if ((el = ev.target.closest('.subbtn'))) { state.learnTab = el.dataset.sub; save('learnTab', state.learnTab); render(); return; }
     if ((el = ev.target.closest('.chip'))) { state.filter = el.dataset.filter; render(); return; }
     if ((el = ev.target.closest('.stock-head'))) {
       el.closest('.stock').classList.toggle('is-open'); return;
@@ -1046,8 +1241,64 @@
       return;
     }
 
+    /* ── 모의투자 ── */
+    if (ev.target.id === 'sim-start') {
+      var model = P.build(state.market, state.style, M.tilt(regime()).cash).holdings;
+      var ctx = simCtx();
+      ctx.style = state.style;
+      ctx.seed = state.profile.seed;
+      ctx.model = model;
+      state.sim[state.market] = SIM.start(ctx);
+      simSave();
+      state.folds['sim-pos'] = true;
+      save('folds', state.folds);
+      render();
+      return;
+    }
+    if (ev.target.id === 'sim-reset') {
+      if (!window.confirm('모의투자 기록을 지우고 처음부터 다시 설정할까요? 되돌릴 수 없습니다.')) return;
+      state.sim[state.market] = SIM.blank();
+      simSave();
+      render();
+      return;
+    }
+    if (ev.target.id === 'sim-buy') {
+      var sel = document.getElementById('sim-pick');
+      var amtEl = document.getElementById('sim-amt');
+      var tkr = sel ? sel.value : '';
+      var nm = tkr;
+      market().picks.forEach(function (x) { if (x.ticker === tkr) nm = x.name; });
+      var o = simCtx();
+      o.ticker = tkr; o.name = nm; o.amount = parseFloat(amtEl ? amtEl.value : '');
+      var r = SIM.buy(state.sim[state.market], o);
+      state.simMsg = r.ok ? nm + ' ' + won(o.amount) + ' 매수했습니다.' : r.msg;
+      if (r.ok) simSave();
+      render();
+      return;
+    }
+    if ((el = ev.target.closest('[data-trade]'))) {
+      var kind = el.dataset.trade, t = el.dataset.t, n = el.dataset.n;
+      var o2 = simCtx();
+      o2.ticker = t; o2.name = n;
+      var res;
+      if (kind === 'sellall') {
+        o2.all = true;
+        res = SIM.sell(state.sim[state.market], o2);
+        state.simMsg = res.ok ? n + ' 전량 매도했습니다.' : res.msg;
+      } else {
+        var raw = window.prompt((kind === 'buy' ? '추가 매수' : '매도') + ' 금액 (만원)\n' + n, '');
+        if (raw === null) return;
+        o2.amount = parseFloat(raw);
+        res = kind === 'buy' ? SIM.buy(state.sim[state.market], o2) : SIM.sell(state.sim[state.market], o2);
+        state.simMsg = res.ok ? n + ' ' + won(o2.amount) + ' ' + (kind === 'buy' ? '매수' : '매도') + '했습니다.' : res.msg;
+      }
+      if (res.ok) simSave();
+      render();
+      return;
+    }
+
     if (ev.target.id === 'reset') {
-      ['market', 'style', 'regime', 'profile', 'touched', 'holdings', 'cash', 'widgets', 'folds'].forEach(function (k) {
+      ['market', 'style', 'regime', 'profile', 'touched', 'holdings', 'cash', 'widgets', 'folds', 'sim', 'planTab', 'learnTab'].forEach(function (k) {
         try { localStorage.removeItem(KEY + k); } catch (e) {}
       });
       state.market = 'kr';
@@ -1058,6 +1309,9 @@
       state.cash = { kr: 0, us: 0 };
       state.widgets = null;
       state.folds = {};
+      state.sim = { kr: SIM.blank(), us: SIM.blank() };
+      state.planTab = 'plan';
+      state.learnTab = 'picks';
       state.addOpen = false;
       state.editWidgets = false;
       state.profile = { seed: 1000, fx: 1350 };

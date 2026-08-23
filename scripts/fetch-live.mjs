@@ -39,6 +39,39 @@ const FEEDS = {
 const NEWS_PER_MARKET = 6;
 const PER_FEED = 20;
 
+/* ── 개별 종목 시세 ───────────────────────────────────────────
+   모의투자가 의미 있으려면 지수만으로는 안 되고 종목 시세가 있어야 한다.
+   유니버스는 data.js 한 곳에만 적혀 있으므로 여기서 그 파일을 읽어 티커를
+   뽑는다. 목록을 두 군데 적으면 반드시 어긋난다.                         */
+function universeSymbols() {
+  const src = readFileSync('data.js', 'utf8');
+  const usAt = src.indexOf('var US_PICKS');
+  if (usAt < 0) throw new Error('data.js 구조가 바뀌었다 — US_PICKS 를 찾을 수 없다');
+  const grab = (text) => [...text.matchAll(/ticker:\s*'([^']+)'/g)].map(m => m[1]);
+  const kr = grab(src.slice(0, usAt));
+  const us = grab(src.slice(usAt));
+  if (kr.length < 5 || us.length < 5) throw new Error('티커 추출 실패 kr=' + kr.length + ' us=' + us.length);
+  return {
+    /* 야후 표기: 코스피는 .KS 접미사, 미국은 점 대신 하이픈(BRK.B → BRK-B) */
+    kr: kr.map(t => ({ t, y: t + '.KS' })),
+    us: us.map(t => ({ t, y: t.replace(/\./g, '-') }))
+  };
+}
+
+/* 26개를 하나씩 부르면 느리다. 소규모 동시 실행 풀로 돌린다. */
+async function pool(items, size, fn) {
+  const out = [];
+  let i = 0;
+  await Promise.all(Array.from({ length: Math.min(size, items.length) }, async () => {
+    while (i < items.length) {
+      const idx = i++;
+      try { out[idx] = await fn(items[idx]); }
+      catch (e) { out[idx] = { error: e.message }; }
+    }
+  }));
+  return out;
+}
+
 /* 증권과 상관있는 기사만 고르기 위한 단어들.
    경제 RSS에는 건강기능식품 재평가, 지역 개발 같은 기사가 섞여 들어온다.
    제목만으로 거르는 거친 방법이지만, 이 앱에 필요한 건 "오늘 시장 이야기"
@@ -230,6 +263,21 @@ try { fx = await fxRange(); } catch (e) { failed.push('fxRange: ' + e.message); 
 
 const news = { kr: await fetchNews('kr'), us: await fetchNews('us') };
 
+/* 개별 종목 시세 — 모의투자용 */
+const stocks = { kr: {}, us: {} };
+try {
+  const uni = universeSymbols();
+  for (const mk of ['kr', 'us']) {
+    const res = await pool(uni[mk], 5, async (s) => ({ t: s.t, q: await quote(s.y) }));
+    for (const r of res) {
+      if (r && r.q) stocks[mk][r.t] = r.q;
+      else if (r && r.error) failed.push('stock/' + mk + ': ' + r.error);
+    }
+  }
+} catch (e) {
+  failed.push('universe: ' + e.message);
+}
+
 if (failed.length) console.error('실패:', failed.join(' | '));
 
 /* 전부 실패하면 아무것도 쓰지 않는다 — 기존 값을 유지하는 편이 낫다. */
@@ -249,6 +297,10 @@ if (existsSync(OUT)) {
     /* 뉴스도 하나도 못 받았으면 이전 것을 남긴다 — 빈 목록보다 낫다 */
     for (const mk of ['kr', 'us']) {
       if (!news[mk].length && old.news?.[mk]?.length) news[mk] = old.news[mk];
+      /* 종목 시세도 빠진 것만 이전 값으로 메운다 */
+      for (const t in (old.stocks?.[mk] || {})) {
+        if (!stocks[mk][t]) { stocks[mk][t] = old.stocks[mk][t]; stocks[mk][t].stale = true; }
+      }
     }
   } catch { /* 이전 파일이 깨졌으면 무시하고 새로 쓴다 */ }
 }
@@ -258,9 +310,11 @@ writeFileSync(OUT, JSON.stringify({
   source: 'Yahoo Finance chart API',
   quotes,
   fx,
+  stocks,
   news,
   failed
 }, null, 2) + '\n');
 
-console.log('완료:', Object.keys(quotes).length + '/' + SYMBOLS.length, '심볼,',
-  '뉴스 kr ' + news.kr.length + ' / us ' + news.us.length);
+console.log('완료: 지수 ' + Object.keys(quotes).length + '/' + SYMBOLS.length,
+  '· 종목 kr ' + Object.keys(stocks.kr).length + ' / us ' + Object.keys(stocks.us).length,
+  '· 뉴스 kr ' + news.kr.length + ' / us ' + news.us.length);
