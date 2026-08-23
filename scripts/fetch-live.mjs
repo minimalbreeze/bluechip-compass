@@ -41,17 +41,32 @@ function chartUrl(sym, range, interval) {
 }
 
 async function quote(sym) {
-  const j = await getJson(chartUrl(sym, '5d', '1d'));
+  /* 등락률은 meta.previousClose 를 쓰지 않고 **일별 종가 두 개로 직접 계산**한다.
+     Yahoo 의 previousClose 는 지수·환율·휴장일에 따라 어느 세션을 가리키는지가
+     흔들려서, 그대로 쓰면 화면에 -6.9% 같은 값이 사실처럼 찍힌다.
+     차트 시리즈의 마지막 두 종가는 의미가 하나뿐이라 흔들리지 않는다. */
+  const j = await getJson(chartUrl(sym, '1mo', '1d'));
   const res = j?.chart?.result?.[0];
   if (!res) throw new Error('no result');
   const m = res.meta || {};
-  const price = m.regularMarketPrice;
-  const prev = m.previousClose ?? m.chartPreviousClose;
-  if (typeof price !== 'number' || typeof prev !== 'number' || !prev) throw new Error('no price');
+
+  const closes = (res.indicators?.quote?.[0]?.close || []).filter(v => typeof v === 'number');
+  if (closes.length < 2) throw new Error('not enough closes');
+
+  const last = closes[closes.length - 1];
+  const live = typeof m.regularMarketPrice === 'number' ? m.regularMarketPrice : last;
+
+  /* 장중이면 마지막 일봉이 오늘치라 그 앞을 전일로 본다.
+     장이 닫혀 현재가와 마지막 종가가 같으면 그 앞 두 개를 비교한다. */
+  const sameAsLast = Math.abs(live - last) < Math.max(1e-6, Math.abs(last) * 1e-6);
+  const prev = sameAsLast ? closes[closes.length - 2] : last;
+  if (!prev) throw new Error('no prev close');
+
   return {
-    price,
+    price: live,
     prev,
-    chg: Math.round((price - prev) / prev * 10000) / 100,
+    chg: Math.round((live - prev) / prev * 10000) / 100,
+    basis: sameAsLast ? 'prev-daily-close' : 'last-daily-close',
     time: m.regularMarketTime ? new Date(m.regularMarketTime * 1000).toISOString() : null
   };
 }
