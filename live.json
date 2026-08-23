@@ -1,48 +1,54 @@
 {
-  "asOf": "2026-08-23T22:49:40.611Z",
+  "asOf": "2026-08-23T22:50:57.189Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
       "price": 6912.95,
-      "prev": 6813.34,
-      "chg": 1.46,
+      "prev": 6852.580078125,
+      "chg": 0.88,
+      "basis": "prev-daily-close",
       "time": "2026-08-21T09:05:40.000Z"
     },
     "^KQ11": {
       "price": 801.94,
-      "prev": 861.37,
-      "chg": -6.9,
+      "prev": 840.8900146484375,
+      "chg": -4.63,
+      "basis": "prev-daily-close",
       "time": "2026-08-21T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1385.95,
-      "prev": 1415.37,
-      "chg": -2.08,
-      "time": "2026-08-23T22:49:38.000Z"
+      "price": 1385.89,
+      "prev": 1390.7900390625,
+      "chg": -0.35,
+      "basis": "prev-daily-close",
+      "time": "2026-08-23T22:50:55.000Z"
     },
     "^GSPC": {
       "price": 7674.37,
-      "prev": 7785.76,
-      "chg": -1.43,
+      "prev": 7641.16015625,
+      "chg": 0.43,
+      "basis": "prev-daily-close",
       "time": "2026-08-21T20:41:52.000Z"
     },
     "^IXIC": {
       "price": 26180.455,
-      "prev": 26729.16,
-      "chg": -2.05,
+      "prev": 26067.169921875,
+      "chg": 0.43,
+      "basis": "prev-daily-close",
       "time": "2026-08-21T21:15:59.000Z"
     },
     "^VIX": {
       "price": 15.13,
-      "prev": 15.19,
-      "chg": -0.39,
+      "prev": 16.010000228881836,
+      "chg": -5.5,
+      "basis": "prev-daily-close",
       "time": "2026-08-21T20:15:01.000Z"
     }
   },
   "fx": {
     "low52": 1377.64,
     "high52": 1554.48,
-    "pct": 0.046
+    "pct": 0.047
   },
   "failed": []
 }
