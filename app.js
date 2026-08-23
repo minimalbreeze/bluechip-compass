@@ -196,6 +196,15 @@
     if (hr < 24) return hr + '시간 전';
     return Math.round(hr / 24) + '일 전';
   }
+  /* 한국어 조사 '으로/로'. 받침이 없거나 'ㄹ' 받침이면 '로'.
+     "원화 강세으로" 같은 문장이 나오면 앱이 대충 만들어졌다는 신호로 읽힌다. */
+  function ro(word) {
+    var last = String(word).charCodeAt(String(word).length - 1);
+    if (last < 0xac00 || last > 0xd7a3) return '로';
+    var jong = (last - 0xac00) % 28;
+    return (jong === 0 || jong === 8) ? '로' : '으로';
+  }
+
   function fmtNum(v, unit) {
     var d = Math.abs(v) >= 1000 ? 0 : 2;
     return v.toLocaleString('ko-KR', { minimumFractionDigits: d, maximumFractionDigits: d }) + (unit || '');
