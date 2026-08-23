@@ -100,31 +100,34 @@
   </header>
 
   <main id="main">
-    <section id="view-today"  class="view is-on"></section>
-    <section id="view-picks"  class="view"></section>
+    <section id="view-home"   class="view is-on"></section>
+    <section id="view-my"     class="view"></section>
+    <section id="view-plan"   class="view"></section>
     <section id="view-market" class="view"></section>
     <section id="view-learn"  class="view"></section>
   </main>
 
   <!-- ── 하단 탭 ────────────────────────────────────────────────
-       "오늘"이 첫 자리다. 초보자는 공부하다 지쳐 아무것도 못 사거나
-       아무거나 사거나 둘 중 하나가 되는데, 이 앱은 전자를 막는 쪽을 택했다.
-       공부(배우기)는 맨 뒤에 둔다. -->
+       홈이 첫 자리다: "지금 시장이 어떤가 + 내 돈이 지금 어떤가".
+       그 다음이 내 주식(팔까/둘까/더 살까), 그 다음이 제안(새로 넣을 돈).
+       공부(자료)는 맨 뒤에 둔다. -->
   <nav class="tabbar" role="tablist" aria-label="화면 전환">
-    <button class="tab is-on" data-view="today" role="tab" aria-selected="true">
-      <span class="tab-ico">🗓️</span><span class="tab-txt">오늘</span>
+    <button class="tab is-on" data-view="home" role="tab" aria-selected="true">
+      <span class="tab-ico">🏠</span><span class="tab-txt">홈</span>
     </button>
-    <button class="tab" data-view="picks" role="tab" aria-selected="false">
-      <span class="tab-ico">🏛️</span><span class="tab-txt">종목</span>
+    <button class="tab" data-view="my" role="tab" aria-selected="false">
+      <span class="tab-ico">💼</span><span class="tab-txt">내 주식</span>
+    </button>
+    <button class="tab" data-view="plan" role="tab" aria-selected="false">
+      <span class="tab-ico">🎯</span><span class="tab-txt">제안</span>
     </button>
     <button class="tab" data-view="market" role="tab" aria-selected="false">
       <span class="tab-ico">🎛️</span><span class="tab-txt">시장</span>
     </button>
     <button class="tab" data-view="learn" role="tab" aria-selected="false">
-      <span class="tab-ico">📚</span><span class="tab-txt">배우기</span>
+      <span class="tab-ico">📚</span><span class="tab-txt">자료</span>
     </button>
   </nav>
-
 </div>
 
 <!-- 용어 설명 시트: 점선 밑줄을 누르면 아래에서 올라온다. -->
@@ -141,6 +144,7 @@
 <script src="data.js"></script>
 <script src="market.js"></script>
 <script src="portfolios.js"></script>
+<script src="holdings.js"></script>
 <script src="app.js"></script>
 </body>
 </html>

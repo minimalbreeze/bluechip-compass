@@ -39,12 +39,15 @@ window.BCMarket = (function () {
       options: [
         { v: 'cut',  label: '내리는 중', hint: '최근 인하했거나 시장이 인하를 강하게 기대',
           tilt: { cash: -5, sat: +3 },
+          force: {"up": "금리 인하 — 유동성이 풀리고 할인율이 낮아진다"},
           read: '유동성이 풀리는 국면. 성장주와 장기채가 먼저 반응한다. 다만 <b>"경기가 나빠서 내리는 인하"</b>인지 확인해야 한다 — 그 경우엔 주식이 먼저 빠진다.' },
         { v: 'hold', label: '멈춰 있음', hint: '몇 달째 동결, 다음 방향이 불확실',
           tilt: { cash: 0, sat: 0 },
+          force: {},
           read: '방향이 없을 때는 예측이 아니라 <b>규칙</b>으로 버티는 구간. 정해둔 적립을 그대로 실행하는 게 최선이다.' },
         { v: 'hike', label: '올리는 중', hint: '최근 인상했거나 인상 압력이 커짐',
           tilt: { cash: +8, sat: -5 },
+          force: {"down": "금리 인상 — 할인율이 올라 이익이 먼 회사부터 깎인다"},
           read: '할인율이 올라가 <b>이익이 먼 미래에 있는 회사일수록 크게 깎인다</b>. 지금 현금을 버는 회사, 배당 주는 회사가 상대적으로 강해진다.' }
       ]
     },
@@ -58,12 +61,15 @@ window.BCMarket = (function () {
       options: [
         { v: 'expand', label: '괜찮음', hint: '고용 견조, 기업 실적 상향',
           tilt: { cash: -3, sat: +3 },
+          force: {"up": "경기 확장 — 기업 이익 추정치가 올라간다"},
           read: '이익이 늘어나는 국면. 경기민감주(반도체·자동차·철강)가 상대적으로 유리하다.' },
         { v: 'slow',   label: '둔화 중', hint: '고용 둔화, 실적 전망 하향',
           tilt: { cash: +4, sat: -3 },
+          force: {"down": "경기 둔화 — 이익 추정치가 깎이는 구간"},
           read: '이익 추정치가 깎이는 구간. <b>필수소비재·통신·헬스케어처럼 경기와 무관한 매출</b>이 방어력을 갖는다.' },
         { v: 'reces',  label: '침체 신호', hint: '실업 급증, 역성장 우려',
           tilt: { cash: +10, sat: -8 },
+          force: {"down": "침체 신호 — 이익과 고용이 동시에 흔들린다"},
           read: '역설적이지만 <b>장기 투자자에게는 싸게 사는 구간</b>이다. 단, 실직 위험이 있는 사람은 현금이 먼저다. 투자금보다 생활비 방어가 우선.' }
       ]
     },
@@ -77,12 +83,15 @@ window.BCMarket = (function () {
       options: [
         { v: 'cheap', label: '싼 편', hint: '지수 PER/PBR이 과거 평균보다 낮음',
           tilt: { cash: -6, sat: +2 },
+          force: {"up": "낮은 밸류에이션 — 기대가 이미 낮게 깔려 있다"},
           read: '기대가 낮게 깔린 구간. <b>이럴 때 산 돈이 장기 수익률의 대부분을 만든다.</b> 다만 싼 데는 이유가 있으니 그 이유가 회복 가능한지 본다.' },
         { v: 'fair',  label: '보통',   hint: '과거 평균 근처',
           tilt: { cash: 0, sat: 0 },
+          force: {},
           read: '가격이 판단을 도와주지 않는 구간. 이럴 때는 <b>타이밍을 포기하고 적립식으로</b> 넘어가는 게 정답이다.' },
         { v: 'rich',  label: '비싼 편', hint: '지수 PER/PBR이 과거 평균을 크게 상회',
           tilt: { cash: +7, sat: -4 },
+          force: {"down": "높은 밸류에이션 — 작은 실망에도 크게 빠진다"},
           read: '나쁜 소식에 취약해진 구간. 새 돈은 <b>한 번에 넣지 말고 기간을 늘려</b> 나눠 넣는다. 이미 가진 건 팔지 않는다.' }
       ]
     },
@@ -96,12 +105,15 @@ window.BCMarket = (function () {
       options: [
         { v: 'strong', label: '원화 강세', hint: '달러가 싸진 상태',
           tilt: { cash: -2, sat: 0 },
+          forceByMarket: {"kr": {"down": "원화 강세 — 수출 기업 실적에는 역풍"}, "us": {"up": "원화 강세 — 달러 자산을 싸게 살 수 있다"}},
           read: '<b>달러 자산을 싸게 사는 구간</b>이다. 미장 적립을 늘리기 좋고, 반대로 수출 기업(국내)의 실적에는 역풍이다.' },
         { v: 'neutral', label: '보통', hint: '최근 1년 범위의 가운데',
           tilt: { cash: 0, sat: 0 },
+          forceByMarket: {},
           read: '환율이 판단에 개입하지 않는 구간. 정해둔 환전 규칙대로 진행한다.' },
         { v: 'weak',   label: '원화 약세', hint: '달러가 비싸진 상태',
           tilt: { cash: +3, sat: 0 },
+          forceByMarket: {"kr": {"up": "원화 약세 — 수출 기업 실적에는 순풍", "down": "원화 약세 — 외국인 자금이 빠져나갈 압력"}, "us": {"down": "원화 약세 — 지금 환전하면 비싼 달러로 사게 된다"}},
           read: '지금 환전해 미장을 사면 <b>비싼 달러로 사는 것</b>이다. 환전을 나눠서 하거나, 국내상장 미국ETF(원화 매수)로 대체하는 방법을 검토한다. 국내 수출주에는 순풍.' }
       ]
     },
@@ -115,12 +127,15 @@ window.BCMarket = (function () {
       options: [
         { v: 'calm', label: '평온', hint: '큰 헤드라인 없음, VIX 낮음',
           tilt: { cash: -2, sat: +2 },
+          force: {"up": "지정학 평온 — 위험자산으로 자금이 돌아온다"},
           read: '평온할 때가 <b>규칙을 정비할 때</b>다. 위기 때 뭘 살지 미리 적어둔다 — 급락장에서는 판단력이 남아 있지 않다.' },
         { v: 'tense', label: '긴장', hint: '관세·수출규제·분쟁 헤드라인 지속',
           tilt: { cash: +5, sat: -4 },
+          force: {"down": "지정학 긴장 — 한 나라에 매출이 몰린 기업부터 흔들린다"},
           read: '<b>매출이 한 나라에 몰린 회사</b>부터 흔들린다. 반대로 전 세계에 고르게 파는 필수소비재는 상대적으로 안전하다. 뉴스마다 매매하지 말고 비중만 조절한다.' },
         { v: 'shock', label: '충격 발생', hint: '지수 급락, VIX 급등',
           tilt: { cash: +6, sat: -6 },
+          force: {"down": "충격 발생 — 지수와 무관하게 투매가 나오는 구간"},
           read: '가장 중요한 건 <b>아무것도 하지 않는 것</b>이다. 급락 중 매도는 대부분 최악의 선택이었다. 예정된 적립은 그대로 진행하고, 여유가 있으면 나눠서 추가 매수한다.' }
       ]
     }
@@ -271,6 +286,23 @@ window.BCMarket = (function () {
         cash: Math.max(-12, Math.min(24, cash)),
         sat:  Math.max(-14, Math.min(8,  sat))
       };
+    },
+
+    /* ▲ 밀어올리는 힘 / ▼ 눌러내리는 힘.
+       지수 수치는 가져올 수 없지만, 사용자가 확인한 다이얼에서 "지금 시장이
+       왜 오르고 왜 내리는지"는 도출할 수 있다. 숫자보다 이쪽이 행동을 바꾼다. */
+    forces: function (state, marketKey) {
+      var up = [], down = [];
+      DIALS.forEach(function (d) {
+        d.options.forEach(function (o) {
+          if (o.v !== state[d.key]) return;
+          var f = o.forceByMarket ? o.forceByMarket[marketKey] : o.force;
+          if (!f) return;
+          if (f.up) up.push({ icon: d.icon, text: f.up });
+          if (f.down) down.push({ icon: d.icon, text: f.down });
+        });
+      });
+      return { up: up, down: down };
     },
 
     /* 각 다이얼 선택의 해설 문장 모음 — "왜 이런 결론인지" 근거로 보여준다. */

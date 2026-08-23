@@ -575,6 +575,11 @@ window.BCData = (function () {
         key: 'kr', label: '국내', flag: '🇰🇷', full: '국내 (KOSPI)',
         currency: 'KRW', symbol: '원', unit: 10000, unitLabel: '만원',
         picks: KR_PICKS, etfs: KR_ETFS,
+        indices: [
+          { name: '코스피',  url: 'https://finance.naver.com/sise/sise_index.naver?code=KOSPI' },
+          { name: '코스닥',  url: 'https://finance.naver.com/sise/sise_index.naver?code=KOSDAQ' },
+          { name: '원/달러', url: 'https://finance.naver.com/marketindex/' }
+        ],
         sources: [
           { name: 'DART 전자공시', url: 'https://dart.fss.or.kr/', what: '실적·배당·자사주 공시 원문' },
           { name: 'KRX 정보데이터시스템', url: 'http://data.krx.co.kr/', what: 'PER·PBR·배당수익률 공식 통계' },
@@ -585,6 +590,11 @@ window.BCData = (function () {
         key: 'us', label: '미장', flag: '🇺🇸', full: '미국 (NYSE·NASDAQ)',
         currency: 'USD', symbol: '$', unit: 1, unitLabel: '달러',
         picks: US_PICKS, etfs: US_ETFS,
+        indices: [
+          { name: 'S&P500',  url: 'https://finance.yahoo.com/quote/%5EGSPC' },
+          { name: '나스닥',  url: 'https://finance.yahoo.com/quote/%5EIXIC' },
+          { name: 'VIX',     url: 'https://finance.yahoo.com/quote/%5EVIX' }
+        ],
         sources: [
           { name: 'SEC EDGAR', url: 'https://www.sec.gov/edgar/searchedgar/companysearch', what: '10-K·10-Q 사업보고서 원문' },
           { name: 'FRED (세인트루이스 연준)', url: 'https://fred.stlouisfed.org/', what: '금리·물가·고용 원자료' },
