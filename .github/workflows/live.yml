@@ -1,0 +1,54 @@
+# 시세 스냅샷을 주기적으로 받아 live.json 에 커밋한다.
+#
+# 브라우저가 증권 API를 직접 못 부르는 이유(CORS)와 이 방식을 택한 이유는
+# scripts/fetch-live.mjs 상단 주석 참고.
+#
+# ⚠️ GitHub 크론은 "정확히 그 시각"을 보장하지 않는다 — 혼잡하면 몇 분에서
+#    십수 분까지 밀린다. 그래서 앱은 live.json 의 asOf 를 읽어 "몇 분 전 값"
+#    인지 화면에 항상 표시한다. 실시간인 척하지 않는다.
+#
+# ⚠️ 공개 저장소라도 60일간 커밋이 없으면 GitHub이 예약 실행을 자동으로
+#    비활성화한다. 이 워크플로가 매번 커밋하므로 보통 그 일은 없지만,
+#    장기간 값이 안 바뀌면 Actions 탭에서 활성 상태를 확인할 것.
+
+name: live market snapshot
+
+on:
+  schedule:
+    # 한국장(00:00–07:00 UTC)과 미국장(13:00–21:00 UTC) 중에는 30분마다
+    - cron: '*/30 0-7,13-21 * * 1-5'
+    # 그 외 시간에는 하루 한 번만 (주말 포함)
+    - cron: '25 9 * * *'
+  workflow_dispatch:        # Actions 탭에서 수동 실행
+
+concurrency:
+  group: live-snapshot
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: 시세 받아오기
+        run: node scripts/fetch-live.mjs
+
+      - name: 바뀐 게 있으면 커밋
+        run: |
+          if git diff --quiet -- live.json; then
+            echo "변화 없음 — 커밋하지 않는다"
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add live.json
+          git commit -m "chore: 시세 스냅샷 갱신 [skip ci]"
+          git push

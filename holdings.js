@@ -97,7 +97,7 @@ window.BCHoldings = (function () {
       r.known = s !== undefined && s !== null ? true : false;
       r.score = r.known ? s : null;
       r.target = targetOf(opts.model || [], r);
-      /* 유니버스에 없어도 모델에 있으면(=지수 ETF 등) 아는 것으로 본다. */
+      /* 유니버스에 없어도 모델에 있으면 아는 것으로 본다. */
       if (!r.known && r.target > 0) r.known = true;
       r.gap = Math.round((r.weight - r.target) * 10) / 10;
       r.verdict = judge(r, r.known);

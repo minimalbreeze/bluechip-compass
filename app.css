@@ -412,14 +412,6 @@ body[data-market="us"] .ms-thumb { transform: translateX(100%); }
   border-radius: 7px; padding: 5px 9px; font-weight: 600; }
 
 /* ── ETF / 테마 / 실수 / 로드맵 ─────────────────────────────────── */
-.etf { display: flex; gap: 12px; padding: 13px 0; border-bottom: 1px solid var(--line-soft); }
-.etf:last-child { border-bottom: 0; }
-.etf-kind { flex: 0 0 76px; font-size: 11.5px; font-weight: 700; color: var(--accent-ink);
-  background: var(--accent-soft); border-radius: 8px; padding: 5px 4px; text-align: center; height: fit-content; }
-.etf-n { font-size: 14.5px; font-weight: 800; }
-.etf-o { font-size: 13.5px; color: var(--ink-mid); margin-top: 1px; }
-.etf-note { font-size: 13px; color: var(--ink-dim); margin-top: 4px; }
-
 .theme-h { display: flex; align-items: center; gap: 8px; font-size: 15.5px; font-weight: 800; }
 .theme-b { font-size: 14px; color: var(--ink-mid); margin-top: 6px; }
 .theme-blue { font-size: 13.5px; margin-top: 8px; background: var(--accent-soft);
@@ -555,15 +547,31 @@ body[data-market="us"] .ms-thumb { transform: translateX(100%); }
 /* ── 홈: 시장 지수 + 등락 요인 ─────────────────────────────────
    지수 "수치"는 담지 않는다(넣는 순간 낡는다). 확인 링크만 주고,
    왜 오르고 왜 내리는지는 사용자가 맞춘 다이얼에서 도출해 보여준다. */
-.idxrow { display: flex; gap: 7px; flex-wrap: wrap; }
-.idxchip {
-  flex: 1; min-width: 92px; text-align: center; text-decoration: none;
-  background: var(--accent-soft); color: var(--accent-ink);
-  border-radius: var(--r-s); padding: 11px 8px;
-  font-size: 14px; font-weight: 800;
+.idxrow { display: flex; gap: 7px; }
+.idxtile {
+  flex: 1; min-width: 0; text-decoration: none; text-align: center;
+  background: var(--accent-soft); border-radius: var(--r-s);
+  padding: 10px 6px; display: grid; gap: 2px;
 }
-.idxchip span { font-weight: 500; opacity: .6; font-size: 12px; }
+.idx-n { font-size: 11.5px; color: var(--ink-dim); font-weight: 700; }
+.idx-v {
+  font-size: 16px; font-weight: 800; color: var(--ink);
+  font-variant-numeric: tabular-nums; white-space: nowrap;
+}
+.idxtile.empty .idx-v { color: var(--ink-dim); }
+.idx-c { font-size: 11.5px; font-weight: 700; color: var(--ink-dim); font-variant-numeric: tabular-nums; }
 .idxnote { font-size: 12px; color: var(--ink-dim); margin-top: 10px; line-height: 1.55; }
+
+/* 다이얼 옆 실측 힌트 — 감이 아니라 숫자로 고르게 한다. */
+.dialhint {
+  font-size: 12.5px; color: var(--ink-mid); line-height: 1.6;
+  background: var(--line-soft); border-radius: 9px; padding: 9px 11px; margin-top: 8px;
+}
+.dialapply {
+  border: 0; background: var(--accent); color: #fff;
+  border-radius: 7px; padding: 4px 10px; font-size: 12px; font-weight: 700;
+  margin-left: 2px;
+}
 
 .forces { display: grid; grid-template-columns: 1fr 1fr; gap: 9px; margin-top: 12px; }
 .fcol {

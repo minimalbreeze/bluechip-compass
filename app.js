@@ -32,7 +32,7 @@
 
   var state = {
     market:  load('market', 'kr'),
-    /* 시장마다 따로 센다 — 국내를 확인했다고 미장까지 최신인 건 아니다. */
+    /* 시장마다 따로 센다 — 국내를 확인했다고 미국까지 최신인 건 아니다. */
     touched: (function () {
       var t = load('touched', null);
       if (typeof t === 'string') return { kr: t, us: t };   // 예전 단일 값 형식 이관
@@ -151,6 +151,53 @@
     return (manwon > 0 ? '+' : manwon < 0 ? '−' : '') + won(Math.abs(manwon));
   }
 
+  /* ══════════════════════════════════════════════════════════════════
+     시세 스냅샷 (live.json)
+     ------------------------------------------------------------------
+     GitHub Actions 가 주기적으로 받아 저장소에 커밋한 파일을 읽는다.
+     같은 출처라 CORS 문제가 없고, 외부 인프라도 필요 없다.
+     (받아오는 쪽은 scripts/fetch-live.mjs, 일정은 .github/workflows/live.yml)
+
+     "실시간"이 아니라 **주기적 스냅샷**이다. 그래서 asOf 를 같이 읽어
+     화면에 "몇 분 전 값"인지 항상 표시한다 — 실시간인 척하지 않는다.
+     파일이 없거나 실패해도 앱은 그대로 돌아간다(링크만 보여준다).
+     ══════════════════════════════════════════════════════════════ */
+  var LIVE = null;
+
+  function loadLive() {
+    if (!window.fetch) return;
+    /* 캐시를 우회해야 갱신된 스냅샷이 바로 보인다. */
+    fetch('live.json?t=' + Math.floor(Date.now() / 60000), { cache: 'no-store' })
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (j) {
+        if (!j || !j.quotes) return;
+        LIVE = j;
+        /* 이미 그려진 화면이 있으면 다시 그린다 */
+        if (document.getElementById('view-' + current) &&
+            document.getElementById('view-' + current).innerHTML) render();
+      })
+      .catch(function () { /* 없으면 없는 대로 — 링크만 보여준다 */ });
+  }
+
+  function minutesAgo(iso) {
+    var t = new Date(iso).getTime();
+    if (!t) return null;
+    return Math.max(0, Math.round((Date.now() - t) / 60000));
+  }
+  function agoText(iso) {
+    var m = minutesAgo(iso);
+    if (m === null) return '';
+    if (m < 1) return '방금';
+    if (m < 60) return m + '분 전';
+    var hr = Math.round(m / 60);
+    if (hr < 24) return hr + '시간 전';
+    return Math.round(hr / 24) + '일 전';
+  }
+  function fmtNum(v, unit) {
+    var d = Math.abs(v) >= 1000 ? 0 : 2;
+    return v.toLocaleString('ko-KR', { minimumFractionDigits: d, maximumFractionDigits: d }) + (unit || '');
+  }
+
   /* ── 날짜 ──────────────────────────────────────────────────────── */
   function today() { return new Date(); }
   function ymd(d) {
@@ -215,9 +262,29 @@
     h.push('<div class="sec-head"><h2>📊 ' + mk.full + '</h2></div>');
     h.push('<div class="card"><div class="idxrow">');
     mk.indices.forEach(function (i) {
-      h.push('<a class="idxchip" href="' + i.url + '" target="_blank" rel="noopener">' + i.name + ' <span>↗</span></a>');
+      var q = LIVE && LIVE.quotes ? LIVE.quotes[i.sym] : null;
+      if (q) {
+        h.push('<a class="idxtile" href="' + i.url + '" target="_blank" rel="noopener">' +
+          '<span class="idx-n">' + i.name + '</span>' +
+          '<span class="idx-v">' + fmtNum(q.price, i.unit) + '</span>' +
+          '<span class="idx-c ' + plClass(q.chg) + '">' + (q.chg > 0 ? '▲' : q.chg < 0 ? '▼' : '–') + ' ' +
+            Math.abs(q.chg).toFixed(2) + '%</span></a>');
+      } else {
+        h.push('<a class="idxtile empty" href="' + i.url + '" target="_blank" rel="noopener">' +
+          '<span class="idx-n">' + i.name + '</span><span class="idx-v">–</span>' +
+          '<span class="idx-c">확인 ↗</span></a>');
+      }
     });
-    h.push('</div><div class="idxnote">지수 수치는 이 앱이 담지 않습니다 — 넣는 순간 낡기 때문입니다. 위 링크에서 바로 확인하세요.</div></div>');
+    h.push('</div>');
+    var hasQuote = LIVE && LIVE.quotes && Object.keys(LIVE.quotes).length > 0;
+    if (hasQuote && LIVE.asOf) {
+      h.push('<div class="idxnote">🕒 <b>' + agoText(LIVE.asOf) + '</b> 받아온 값입니다. ' +
+        '실시간이 아니라 <b>30분마다 갱신되는 스냅샷</b>이고, 장 마감 뒤에는 마지막 종가가 그대로 유지됩니다. ' +
+        '정확한 값은 지수를 눌러 확인하세요.</div>');
+    } else {
+      h.push('<div class="idxnote">시세를 아직 못 받아왔습니다. 지수를 누르면 바로 확인할 수 있습니다.</div>');
+    }
+    h.push('</div>');
 
     h.push('<div class="forces">');
     h.push('<div class="fcol up"><div class="fcol-h">▲ 밀어올리는 힘</div>' +
@@ -305,7 +372,6 @@
       '<input id="h-name" list="bc-picks" placeholder="종목명 (예: 삼성전자)" autocomplete="off" />' +
       '<datalist id="bc-picks">' +
         mk.picks.map(function (p) { return '<option value="' + p.name + '"></option>'; }).join('') +
-        mk.etfs.map(function (e) { return '<option value="' + e.name.split(' / ')[0] + '"></option>'; }).join('') +
       '</datalist>' +
       '<div class="addrow">' +
         '<label>매수금액<input id="h-cost" type="number" inputmode="numeric" placeholder="만원" min="0" step="10" /></label>' +
@@ -443,7 +509,7 @@
         '<div class="al-w">' + hd.w + '<small>%</small></div>' +
         '<div class="al-body">' +
           '<div class="al-top"><span class="al-n">' + hd.n + '</span>' +
-            (hd.t ? '<span class="al-t">' + hd.t + '</span>' : '<span class="al-k">' + (hd.k === 'etf' ? 'ETF' : '현금') + '</span>') +
+            (hd.t ? '<span class="al-t">' + hd.t + '</span>' : '<span class="al-k">현금</span>') +
           '</div>' +
           '<div class="al-amt">' + money(amt) + '</div>' +
           '<div class="al-why">' + hd.why + '</div>' +
@@ -523,15 +589,6 @@
         '</div></div>');
     });
 
-    h.push('<div class="sec" style="margin-top:22px"><div class="sec-head"><h2>🧺 지수 ETF</h2>' +
-      '<p>개별 종목을 고르는 건 나중 문제입니다. 하나로 수백 개 회사에 분산됩니다.</p></div><div class="card">');
-    mk.etfs.forEach(function (e) {
-      h.push('<div class="etf"><div class="etf-kind">' + e.kind + '</div><div>' +
-        '<div class="etf-n">' + e.name + '</div><div class="etf-o">' + linkTerms(e.one) + '</div>' +
-        '<div class="etf-note">' + linkTerms(e.note) + '</div></div></div>');
-    });
-    h.push('</div></div>');
-
     h.push('<div class="sec"><div class="sec-head"><h2>🔎 숫자는 직접 확인하세요</h2>' +
       '<p>이 앱은 <b>가격·실적 숫자를 담지 않습니다.</b> 넣는 순간 낡기 때문입니다.</p></div><div class="card">');
     mk.sources.forEach(function (s) {
@@ -579,7 +636,26 @@
         h.push('<button class="dial-opt' + (st[d.key] === o.v ? ' is-on' : '') + '" data-dial="' + d.key + '" data-val="' + o.v + '">' +
           '<span class="o-l">' + o.label + '</span><span class="o-h">' + o.hint + '</span></button>');
       });
-      h.push('</div><div class="dial-where">');
+      h.push('</div>');
+      /* 환율은 실제 값과 1년 범위 위치를 알면 감이 아니라 근거로 고를 수 있다. */
+      if (d.key === 'fx' && LIVE && LIVE.fx && LIVE.quotes && LIVE.quotes['KRW=X']) {
+        var cur = LIVE.quotes['KRW=X'].price, fxr = LIVE.fx;
+        var want = fxr.pct >= 0.66 ? 'weak' : fxr.pct <= 0.33 ? 'strong' : 'neutral';
+        var wantLabel = { weak: '원화 약세', neutral: '보통', strong: '원화 강세' }[want];
+        h.push('<div class="dialhint">지금 <b>' + fmtNum(cur, '원') + '</b> · 최근 1년 ' +
+          fmtNum(fxr.low52, '') + '~' + fmtNum(fxr.high52, '') + ' 중 <b>' + Math.round(fxr.pct * 100) + '% 지점</b>' +
+          (st[d.key] === want ? ' — 지금 선택과 맞습니다.'
+            : ' → <button class="dialapply" data-dial="' + d.key + '" data-val="' + want + '">‘' + wantLabel + '’으로 맞추기</button>'));
+        h.push('</div>');
+      }
+      if (d.key === 'geo' && LIVE && LIVE.quotes && LIVE.quotes['^VIX']) {
+        var vix = LIVE.quotes['^VIX'].price;
+        h.push('<div class="dialhint">지금 VIX <b>' + vix.toFixed(1) + '</b> — ' +
+          (vix >= 30 ? '30 이상은 <b>충격 발생</b> 구간으로 봅니다.'
+           : vix >= 20 ? '20~30은 <b>긴장</b> 구간으로 봅니다.'
+           : '20 미만은 대체로 <b>평온</b> 구간입니다.') + ' 다만 숫자 하나로 정하지 말고 헤드라인도 같이 보세요.</div>');
+      }
+      h.push('<div class="dial-where">');
       d.where.forEach(function (w) {
         if (w.for !== 'both' && w.for !== state.market) return;
         h.push('<a href="' + w.url + '" target="_blank" rel="noopener">' + w.label + ' ↗</a>');
@@ -746,6 +822,14 @@
     if ((el = ev.target.closest('.stylebtn'))) {
       state.style = el.dataset.style; save('style', state.style); render(); return;
     }
+    if ((el = ev.target.closest('.dialapply'))) {
+      state.regime[state.market][el.dataset.dial] = el.dataset.val;
+      save('regime', state.regime);
+      state.touched[state.market] = ymd(today());
+      save('touched', state.touched);
+      render();
+      return;
+    }
     if ((el = ev.target.closest('.dial-opt'))) {
       state.regime[state.market][el.dataset.dial] = el.dataset.val;
       save('regime', state.regime);
@@ -884,5 +968,6 @@
     input.addEventListener('input', function () { err.hidden = true; });
   }
 
+  loadLive();
   initGate();
 })();
