@@ -86,7 +86,7 @@ var DEFAULTS = {
 | 파일 | 역할 | 전역 |
 |---|---|---|
 | `index.html` | 껍데기. 상단 시장 토글, 4개 뷰, 하단 탭바, 용어 시트 | — |
-| `app.css` | 전체 스타일. 시장에 따라 `--accent`만 딥틸↔딥인디고로 전환 | — |
+| `app.css` | 전체 스타일. 시장에 따라 `--accent`만 오션블루↔인디고로 전환 | — |
 | `data.js` | 블루칩 유니버스(국내 13 · 미국 13), ETF, 용어 17개, 세금·계좌, 흔한 실수, 로드맵 | `window.BCData` |
 | `market.js` | 국면 다이얼 5개 + 판정 규칙 + 구조적 테마 6개 | `window.BCMarket` |
 | `app.js` | 화면 로직 (IIFE, 프레임워크 없음) | — |
@@ -180,6 +180,12 @@ python3 -m http.server 8000
 | `icon-512-maskable.png` | Android adaptive | `icon-maskable.svg` |
 
 iOS는 스스로 모서리를 깎으므로 `icon-180.png`에 투명 모서리를 두면 안 된다.
+`index.html` 상단 `.brand-mark` 안에도 같은 나침반이 인라인 SVG로 들어 있으니
+같이 고쳐야 한다.
+
+**팔레트**: 배경 `#e9f2fb`(스카이블루) · 글자 `#13334f`(딥네이비) ·
+강조 `#0e6ba8`(오션블루, 미장은 `#3d3f9e` 인디고) · 빨강 `#e5342b`(상승색).
+빨강은 나침반 북쪽 바늘과 위성 비중에만 쓴다 — 이유는 `CLAUDE.md` 참고.
 
 ---
 

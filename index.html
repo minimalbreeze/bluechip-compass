@@ -12,7 +12,7 @@
 <link rel="canonical" href="https://minimalbreeze.github.io/bluechip-compass/" />
 <meta name="robots" content="index, follow" />
 
-<meta name="theme-color" content="#1f5c50" />
+<meta name="theme-color" content="#0e6ba8" />
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-status-bar-style" content="default" />
 <meta name="apple-mobile-web-app-title" content="블루칩 나침반" />
@@ -40,7 +40,19 @@
        한다. 탭을 옮겨도, 스크롤해도 사라지지 않는다. -->
   <header class="top">
     <div class="brand">
-      <span class="brand-mark">🧭</span>
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+          <defs><linearGradient id="bm-g" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#9ad8fb"/><stop offset="1" stop-color="#2f86c9"/>
+          </linearGradient></defs>
+          <rect width="64" height="64" fill="url(#bm-g)"/>
+          <circle cx="32" cy="32" r="19.5" fill="#ffffff" opacity=".18"/>
+          <circle cx="32" cy="32" r="19" fill="none" stroke="#ffffff" stroke-width="3"/>
+          <path d="M32 13 L37.4 32 L26.6 32 Z" fill="#e5342b"/>
+          <path d="M32 51 L26.6 32 L37.4 32 Z" fill="#ffffff"/>
+          <circle cx="32" cy="32" r="3.4" fill="#13334f"/>
+        </svg>
+      </span>
       <div>
         <h1>블루칩 나침반</h1>
         <p class="brand-sub">50년 뒤에도 있을 회사부터 시작합니다</p>

@@ -1,43 +1,51 @@
 /* ============================================================================
    app.css — 블루칩 나침반
    ----------------------------------------------------------------------------
-   색 원칙: 딥틸(#1f5c50)이 기본, 코랄~옐로(#ff9166→#ffc66b)가 강조.
-   "차분한 금융"이 기준이라 채도 높은 빨강·초록은 손익 표시에도 쓰지 않는다.
-   시장 전환(국내↔미장)만 강조색을 딥틸↔딥인디고로 바꿔, 지금 어느 시장을
+   색 원칙: 스카이블루 배경(#e9f2fb) + 딥네이비 글자(#13334f) + 오션블루
+   강조(#0e6ba8). 빨강(--up #e5342b)은 나침반 북쪽 바늘과 위성 비중에만 쓴다.
+   빨강을 아껴 쓰는 이유: 화면에 빨강이 흔해지면 그게 곧 "지금 뭔가 하라"는
+   신호가 된다. 이 앱의 목적은 감정 매매를 줄이는 것이라 손익·등락을
+   빨강/초록으로 칠하는 UI는 만들지 않는다(CLAUDE.md).
+   시장 전환(국내↔미장)만 강조색을 오션블루↔인디고로 바꿔, 지금 어느 시장을
    보고 있는지 글자를 읽지 않아도 알게 한다.
    ========================================================================== */
 
 :root {
-  --bg:        #f4f8f6;
+  /* 스카이블루 팔레트.
+     배경은 하늘, 글자는 딥네이비, 강조는 오션블루. 나침반 북쪽 바늘만
+     상승 빨강(--up)으로 찍어 시선을 한 점에 모은다.
+     주의: --up 은 브랜드 색이지 손익 색이 아니다. 수익률·등락을 빨강/초록으로
+     칠하는 UI는 만들지 않는다(CLAUDE.md) — 감정 매매를 줄이는 게 이 앱의 목적이다. */
+  --bg:        #e9f2fb;
   --card:      #ffffff;
-  --line:      #dde9e4;
-  --line-soft: #eaf2ee;
-  --ink:       #17342e;
-  --ink-mid:   #46645b;
-  --ink-dim:   #7a938a;
+  --line:      #d2e3f3;
+  --line-soft: #e6f0fa;
+  --ink:       #13334f;
+  --ink-mid:   #3f6180;
+  --ink-dim:   #7391ae;
 
-  --accent:      #1f5c50;   /* 시장에 따라 아래에서 덮어쓴다 */
-  --accent-soft: #e8f2ee;
-  --accent-ink:  #1f5c50;
+  --accent:      #0e6ba8;   /* 시장에 따라 아래에서 덮어쓴다 */
+  --accent-soft: #e1eef9;
+  --accent-ink:  #0e6ba8;
 
-  --coral: #ff9166;
+  --up:    #e5342b;   /* 주식 상승의 빨강 — 나침반 북쪽 바늘, 위성 비중 */
+  --sky:   #6fc3f0;
   --amber: #ffc66b;
-  --rose:  #e2607a;
   --good:  #2f8f6d;
   --warn:  #c8802a;
-  --bad:   #c9524f;
+  --bad:   #b8342c;
 
   --r:  16px;
   --r-s: 10px;
-  --shadow: 0 1px 2px rgba(23,52,46,.05), 0 8px 24px rgba(23,52,46,.05);
+  --shadow: 0 1px 2px rgba(19,51,79,.06), 0 8px 24px rgba(19,51,79,.06);
   --safe-bottom: env(safe-area-inset-bottom, 0px);
   --safe-top: env(safe-area-inset-top, 0px);
 }
 
 body[data-market="us"] {
-  --accent:      #2a4a7c;
-  --accent-soft: #e9eef7;
-  --accent-ink:  #2a4a7c;
+  --accent:      #3d3f9e;
+  --accent-soft: #eaeaf8;
+  --accent-ink:  #3d3f9e;
 }
 
 * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
@@ -71,20 +79,20 @@ a { color: var(--accent-ink); text-decoration-thickness: 1px; text-underline-off
 .top {
   position: sticky; top: 0; z-index: 40;
   padding: calc(10px + var(--safe-top)) 16px 10px;
-  background: rgba(244,248,246,.92);
+  background: rgba(233,242,251,.92);
   backdrop-filter: saturate(1.4) blur(12px);
   -webkit-backdrop-filter: saturate(1.4) blur(12px);
   border-bottom: 1px solid var(--line-soft);
 }
 .brand { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+/* 이모지 대신 실제 나침반 SVG를 넣는다 — 앱 아이콘과 화면 상단이 같은
+   그림이어야 "설치한 그 앱"으로 읽힌다. */
 .brand-mark {
-  font-size: 26px; line-height: 1;
   width: 42px; height: 42px; flex: 0 0 42px;
-  display: grid; place-items: center;
-  border-radius: 13px;
-  background: linear-gradient(135deg, var(--coral), var(--amber));
-  box-shadow: 0 4px 12px rgba(255,145,102,.28);
+  display: block; border-radius: 13px; overflow: hidden;
+  box-shadow: 0 4px 12px rgba(14,107,168,.28);
 }
+.brand-mark svg { display: block; width: 100%; height: 100%; }
 .brand h1 { font-size: 19px; font-weight: 800; }
 .brand-sub { margin: 1px 0 0; font-size: 12.5px; color: var(--ink-dim); }
 
@@ -92,9 +100,9 @@ a { color: var(--accent-ink); text-decoration-thickness: 1px; text-underline-off
 .market-switch {
   position: relative;
   display: grid; grid-template-columns: 1fr 1fr;
-  background: #e7efeb; border-radius: 12px; padding: 4px;
+  background: #d8e8f7; border-radius: 12px; padding: 4px;
 }
-body[data-market="us"] .market-switch { background: #e7ecf5; }
+body[data-market="us"] .market-switch { background: #e2e2f4; }
 .ms-btn {
   position: relative; z-index: 2;
   border: 0; background: none;
@@ -109,7 +117,7 @@ body[data-market="us"] .market-switch { background: #e7ecf5; }
   position: absolute; z-index: 1; top: 4px; left: 4px;
   width: calc(50% - 4px); height: calc(100% - 8px);
   background: #fff; border-radius: 9px;
-  box-shadow: 0 1px 3px rgba(23,52,46,.13);
+  box-shadow: 0 1px 3px rgba(19,51,79,.14);
   transition: transform .22s cubic-bezier(.34,1.3,.5,1);
 }
 body[data-market="us"] .ms-thumb { transform: translateX(100%); }
@@ -155,7 +163,7 @@ body[data-market="us"] .ms-thumb { transform: translateX(100%); }
   padding: 12px 14px; border-radius: var(--r-s); font-size: 13.5px;
   margin-bottom: 12px;
 }
-.stale.ok    { background: #eaf6f0; color: #1f5c50; border: 1px solid #cbe6d9; }
+.stale.ok    { background: #e3f1fb; color: #0e6ba8; border: 1px solid #c6e2f5; }
 .stale.old   { background: #fff4e6; color: #8a5a12; border: 1px solid #f2ddb8; }
 .stale.stale-bad { background: #fdecec; color: #9c3733; border: 1px solid #f3cfcd; }
 .stale b { color: inherit; }
@@ -280,9 +288,9 @@ body[data-market="us"] .ms-thumb { transform: translateX(100%); }
   display: inline-block; font-size: 11px; font-weight: 700; padding: 2px 8px;
   border-radius: 999px; margin-left: 6px; vertical-align: 2px;
 }
-.tagpill.core { background: #e8f2ee; color: #1f5c50; }
+.tagpill.core { background: #e1eef9; color: #0e6ba8; }
 .tagpill.income { background: #fdf0e2; color: #96601c; }
-.tagpill.satellite { background: #fbe9ec; color: #a8384f; }
+.tagpill.satellite { background: #fdeae7; color: #b8342c; }
 
 .stock-one { padding: 10px 16px 0; font-size: 14px; color: var(--ink-mid); }
 
@@ -290,7 +298,7 @@ body[data-market="us"] .ms-thumb { transform: translateX(100%); }
 .bar { display: flex; align-items: center; gap: 8px; font-size: 12px; }
 .bar-l { flex: 0 0 82px; color: var(--ink-dim); }
 .bar-t { flex: 1; height: 7px; background: var(--line-soft); border-radius: 4px; overflow: hidden; }
-.bar-f { height: 100%; border-radius: 4px; background: linear-gradient(90deg, var(--accent), color-mix(in srgb, var(--accent) 55%, var(--amber))); }
+.bar-f { height: 100%; border-radius: 4px; background: linear-gradient(90deg, var(--accent), color-mix(in srgb, var(--accent) 45%, var(--sky))); }
 .bar-v { flex: 0 0 22px; text-align: right; color: var(--ink-dim); font-variant-numeric: tabular-nums; }
 
 .stock-more { border: 0; background: none; width: 100%; padding: 11px 16px;
@@ -300,8 +308,8 @@ body[data-market="us"] .ms-thumb { transform: translateX(100%); }
 .sb-h { font-size: 13px; font-weight: 800; color: var(--ink-dim); margin: 14px 0 5px; letter-spacing: .02em; }
 .sb-list { margin: 0; padding-left: 18px; font-size: 14px; color: var(--ink-mid); }
 .sb-list li { margin-bottom: 4px; }
-.sb-risk { background: #fdf2f1; border: 1px solid #f4d9d6; border-radius: var(--r-s);
-  padding: 11px 13px; font-size: 13.5px; color: #8d3f3c; }
+.sb-risk { background: #fdf1ef; border: 1px solid #f6d5d0; border-radius: var(--r-s);
+  padding: 11px 13px; font-size: 13.5px; color: #9a3a31; }
 .sb-beg { background: #fff8ec; border: 1px solid #f3e0bd; border-radius: var(--r-s);
   padding: 11px 13px; font-size: 13.5px; color: #6f5019; }
 .sb-check { display: flex; flex-wrap: wrap; gap: 6px; }
@@ -329,8 +337,10 @@ body[data-market="us"] .ms-thumb { transform: translateX(100%); }
 
 .road { display: flex; gap: 12px; padding: 14px 0; border-bottom: 1px solid var(--line-soft); }
 .road:last-child { border-bottom: 0; }
-.road-w { flex: 0 0 58px; font-size: 12px; font-weight: 800; color: #fff; height: fit-content;
-  background: var(--accent); border-radius: 8px; padding: 5px 4px; text-align: center; }
+/* "2~4주차"처럼 긴 라벨이 두 줄로 깨지지 않도록 폭을 잡고 줄바꿈을 막는다. */
+.road-w { flex: 0 0 66px; font-size: 12px; font-weight: 800; color: #fff; height: fit-content;
+  background: var(--accent); border-radius: 8px; padding: 5px 4px; text-align: center;
+  white-space: nowrap; }
 .road-t { font-size: 15px; font-weight: 800; }
 .road-l { margin: 6px 0 0; padding-left: 18px; font-size: 13.5px; color: var(--ink-mid); }
 .road-y { font-size: 13px; color: var(--ink-dim); margin-top: 7px; }
@@ -339,7 +349,7 @@ body[data-market="us"] .ms-thumb { transform: translateX(100%); }
 .newsq:last-child { border-bottom: 0; }
 .newsq-q { font-size: 14.5px; font-weight: 800; }
 .newsq-a { font-size: 13.5px; margin-top: 6px; padding-left: 11px; border-left: 3px solid var(--line); color: var(--ink-mid); }
-.newsq-a.y { border-color: var(--rose); }
+.newsq-a.y { border-color: var(--up); }
 .newsq-a.n { border-color: var(--good); }
 
 .tax-row { padding: 11px 0; border-bottom: 1px solid var(--line-soft); }
@@ -375,7 +385,7 @@ body[data-market="us"] .ms-thumb { transform: translateX(100%); }
 
 /* ── 용어 시트 ──────────────────────────────────────────────────── */
 .sheet { position: fixed; inset: 0; z-index: 90; }
-.sheet-back { position: absolute; inset: 0; background: rgba(23,52,46,.4); }
+.sheet-back { position: absolute; inset: 0; background: rgba(19,51,79,.42); }
 .sheet-body {
   position: absolute; left: 0; right: 0; bottom: 0;
   max-width: 620px; margin: 0 auto;
@@ -399,7 +409,7 @@ body[data-market="us"] .ms-thumb { transform: translateX(100%); }
   background: var(--accent); color: #fff;
   padding: 14px; font-size: 15.5px; font-weight: 700;
 }
-.btn.danger { background: #8d3f3c; }
+.btn.danger { background: #9a3a31; }
 
 .foot { font-size: 12px; color: var(--ink-dim); line-height: 1.65; padding: 18px 2px 6px; }
 .foot b { color: var(--ink-mid); }

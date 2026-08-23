@@ -112,7 +112,7 @@
     var alloc = allocation();
     var h = [];
 
-    /* 기준일 신선도 — 정적 사이트의 최대 약점을 숨기지 않고 크게 드러낸다. */
+    /* 기준일 신선도 — 정적 앱의 최대 약점을 숨기지 않고 크게 드러낸다. */
     var t = touched();
     var base = t || M.defaults.asOf;
     var age = daysSince(base);
@@ -206,7 +206,7 @@
     h.push('</div>');
 
     if (p.horizon === 0) {
-      h.push('<div class="note" style="background:#fdf2f1;color:#8d3f3c">⚠️ <b>3년 안에 쓸 돈이라면 주식 비중을 크게 두지 마세요.</b> ' +
+      h.push('<div class="note" style="background:#fdf1ef;color:#9a3a31">⚠️ <b>3년 안에 쓸 돈이라면 주식 비중을 크게 두지 마세요.</b> ' +
         '하필 그때가 하락장이면 손실을 확정하고 팔아야 합니다. 이 경우 아래 계산은 참고만 하고, 예금·파킹 상품을 먼저 고려하세요.</div>');
     }
     h.push('</div></div>');
@@ -330,7 +330,7 @@
 
     /* 원자료 출처 */
     h.push('<div class="sec"><div class="sec-head"><h2>🔎 숫자는 여기서 직접 확인하세요</h2>' +
-      '<p>이 사이트는 <b>가격·실적 숫자를 담지 않습니다.</b> 정적 사이트라 넣는 순간 낡기 때문입니다.</p></div><div class="card">');
+      '<p>이 앱은 <b>가격·실적 숫자를 담지 않습니다.</b> 빌드도 서버도 없어서 넣는 순간 낡기 때문입니다.</p></div><div class="card">');
     mk.sources.forEach(function (s) {
       h.push('<div class="src"><a href="' + s.url + '" target="_blank" rel="noopener">' + s.name + ' ↗</a>' +
         '<span class="src-w">' + s.what + '</span></div>');
@@ -351,7 +351,7 @@
     h.push('<div class="sec-head"><h2>🥧 ' + mk.flag + ' ' + mk.full + ' 배분안</h2>' +
       '<p>성향(' + ['매우 보수', '보수', '중립', '적극', '매우 적극'][a.risk] + ') × 국면(' + reg.name + ')으로 계산했습니다.</p></div>');
 
-    var c1 = 'var(--accent)', c2 = 'var(--coral)', c3 = '#c9d8d2';
+    var c1 = 'var(--accent)', c2 = 'var(--up)', c3 = '#c3d7e8';
     var e1 = a.core, e2 = a.core + a.sat;
     h.push('<div class="card"><div class="pie-wrap">' +
       '<div class="pie" style="background:conic-gradient(' + c1 + ' 0 ' + e1 + '%,' + c2 + ' ' + e1 + '% ' + e2 + '%,' + c3 + ' ' + e2 + '% 100%)"></div>' +
@@ -491,7 +491,7 @@
       h.push('<div class="tax-row"><div class="tax-t">' + i.t + '</div><div class="tax-d">' + linkTerms(i.d) + '</div></div>');
     });
     h.push('<div class="note" style="margin-top:12px">💡 ' + linkTerms(tax.tip) + '</div>' +
-      '<div class="note" style="margin-top:8px;background:#fdf2f1;color:#8d3f3c">⚠️ ' + D.tax.disclaimer + '</div>' +
+      '<div class="note" style="margin-top:8px;background:#fdf1ef;color:#9a3a31">⚠️ ' + D.tax.disclaimer + '</div>' +
       '</div></div>');
 
     h.push('<div class="sec"><div class="sec-head"><h2>📖 용어 사전</h2>' +
@@ -506,7 +506,7 @@
       '<b>이 앱의 값만</b> 지웁니다.</div>' +
       '<button class="btn danger" id="reset" style="margin-top:12px">기록 초기화</button></div></div>');
 
-    h.push('<div class="foot"><b>고지.</b> 이 사이트는 투자 교육 자료입니다. 특정 종목의 매수·매도를 권유하지 않으며 ' +
+    h.push('<div class="foot"><b>고지.</b> 이 앱은 투자 교육 자료입니다. 특정 종목의 매수·매도를 권유하지 않으며 ' +
       '어떤 수익도 보장하지 않습니다. 종목 점수는 공개된 사업 구조를 바탕으로 한 정성 평가이고, 가격·실적 데이터가 아닙니다. ' +
       '세법과 제도는 수시로 바뀌므로 반드시 국세청·증권사에서 확인하세요. 투자 판단과 그 결과는 전적으로 본인의 책임입니다.<br><br>' +
       '기본 시장 스냅샷 기준일: <b>' + M.defaults.asOf + '</b> · 저장은 이 브라우저에만 남고 서버로 전송되지 않습니다.</div>');
