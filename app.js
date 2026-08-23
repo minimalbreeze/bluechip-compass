@@ -657,7 +657,7 @@
         h.push('<div class="dialhint">지금 <b>' + fmtNum(cur, '원') + '</b> · 최근 1년 ' +
           fmtNum(fxr.low52, '') + '~' + fmtNum(fxr.high52, '') + ' 중 <b>' + Math.round(fxr.pct * 100) + '% 지점</b>' +
           (st[d.key] === want ? ' — 지금 선택과 맞습니다.'
-            : ' → <button class="dialapply" data-dial="' + d.key + '" data-val="' + want + '">‘' + wantLabel + '’으로 맞추기</button>'));
+            : ' → <button class="dialapply" data-dial="' + d.key + '" data-val="' + want + '">‘' + wantLabel + '’' + ro(wantLabel) + ' 맞추기</button>'));
         h.push('</div>');
       }
       if (d.key === 'geo' && LIVE && LIVE.quotes && LIVE.quotes['^VIX']) {
