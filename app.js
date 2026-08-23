@@ -165,6 +165,9 @@
   var LIVE = null;
 
   function loadLive() {
+    /* 미리보기(단일 파일 번들)에서는 fetch 로 live.json 을 가져올 수 없어
+       스냅샷을 인라인으로 심어둔다. 실제 배포본에는 이 변수가 없다. */
+    if (window.BC_LIVE_INLINE) LIVE = window.BC_LIVE_INLINE;
     if (!window.fetch) return;
     /* 캐시를 우회해야 갱신된 스냅샷이 바로 보인다. */
     fetch('live.json?t=' + Math.floor(Date.now() / 60000), { cache: 'no-store' })
