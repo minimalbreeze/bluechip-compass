@@ -1,0 +1,15 @@
+<!-- 블루칩 나침반 앱 아이콘.
+     나침반 = "어디로 갈지 정해주는 게 아니라 방향을 읽게 해준다"는 이 앱의 태도.
+     바늘의 북쪽만 딥틸로 칠해 "지켜야 할 방향"을 가리킨다.
+     아이콘을 바꿀 때는 icon.svg / icon-maskable.svg / icon-180 / icon-192 /
+     icon-512 / icon-512-maskable 을 모두 다시 만들어야 한다(README 참고). -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#ff9166"/><stop offset="1" stop-color="#ffc66b"/>
+  </linearGradient></defs>
+  <rect width="64" height="64" rx="15" fill="url(#g)"/>
+  <circle cx="32" cy="32" r="19" fill="none" stroke="#ffffff" stroke-width="3" opacity=".92"/>
+  <path d="M32 13 L37.4 32 L26.6 32 Z" fill="#1f5c50"/>
+  <path d="M32 51 L26.6 32 L37.4 32 Z" fill="#ffffff"/>
+  <circle cx="32" cy="32" r="3.4" fill="#1f5c50"/>
+</svg>
