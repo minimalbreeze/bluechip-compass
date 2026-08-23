@@ -49,7 +49,8 @@ window.BCSim = (function () {
       var amt = opts.seed * m.w / 100;
       var p = priceOf(opts.live, opts.market, m.t, opts.fx);
       if (!p || amt <= 0) return;
-      st.pos.push({ t: m.t, n: m.n, qty: amt / p, cost: amt });
+      /* 시작 비중을 같이 남긴다 — 나중에 "얼마나 벌어졌나"를 보려면 기준이 필요하다 */
+      st.pos.push({ t: m.t, n: m.n, qty: amt / p, cost: amt, w0: m.w });
       st.cash -= amt;
       st.log.push({ ts: opts.today, kind: 'buy', t: m.t, n: m.n, amt: amt, price: p, why: '시작 배분' });
     });
@@ -66,7 +67,7 @@ window.BCSim = (function () {
     var hit = null;
     st.pos.forEach(function (x) { if (x.t === o.ticker) hit = x; });
     if (hit) { hit.qty += o.amount / p; hit.cost += o.amount; }
-    else st.pos.push({ t: o.ticker, n: o.name, qty: o.amount / p, cost: o.amount });
+    else st.pos.push({ t: o.ticker, n: o.name, qty: o.amount / p, cost: o.amount, w0: 0 });
 
     st.cash -= o.amount;
     st.log.unshift({ ts: o.today, kind: 'buy', t: o.ticker, n: o.name, amt: o.amount, price: p });
@@ -105,6 +106,7 @@ window.BCSim = (function () {
       var v = known ? x.qty * p : x.cost;
       return {
         t: x.t, n: x.n, qty: x.qty, cost: x.cost, price: p, value: v, known: known,
+        w0: typeof x.w0 === 'number' ? x.w0 : 0,
         pl: v - x.cost,
         plPct: x.cost > 0 ? (v - x.cost) / x.cost * 100 : 0
       };
@@ -113,6 +115,13 @@ window.BCSim = (function () {
 
     var invested = rows.reduce(function (a, r) { return a + r.value; }, 0);
     var total = invested + st.cash;
+
+    /* 지금 비중과 시작 비중의 차이. 오른 종목은 저절로 비중이 커지고 내린
+       종목은 작아진다 — 그 벌어짐이 곧 리밸런싱이 필요한 정도다. */
+    rows.forEach(function (r) {
+      r.weight = total > 0 ? Math.round(r.value / total * 1000) / 10 : 0;
+      r.dw = Math.round((r.weight - r.w0) * 10) / 10;
+    });
     var pl = total - st.seed;
     return {
       rows: rows,
@@ -122,6 +131,10 @@ window.BCSim = (function () {
       pl: pl,
       plPct: st.seed > 0 ? pl / st.seed * 100 : 0,
       cashWeight: total > 0 ? Math.round(st.cash / total * 1000) / 10 : 0,
+      cashW0: (function () {
+        var used = rows.reduce(function (a, r) { return a + r.w0; }, 0);
+        return Math.round((100 - used) * 10) / 10;
+      })(),
       missing: rows.filter(function (r) { return !r.known; }).length
     };
   }

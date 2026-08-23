@@ -57,6 +57,8 @@
     addOpen: false,
     editWidgets: false,
     planTab: load('planTab', 'plan'),
+    /* 미국 시장 금액을 달러로 볼지 원화로 볼지 */
+    cur: load('cur', 'krw'),
     /* 모의투자는 시장별로 따로 굴린다 */
     sim: load('sim', { kr: SIM.blank(), us: SIM.blank() }),
     simMsg: ''
@@ -64,6 +66,16 @@
   ['kr', 'us'].forEach(function (mk) {
     if (!state.sim[mk] || !state.sim[mk].pos) state.sim[mk] = SIM.blank();
   });
+  /* 예전에는 현금을 두 시장 모두 '만원'으로 저장했다. 이제는 그 시장 통화의
+     기본 단위(국내: 원, 미국: 달러)로 저장하므로 한 번만 이관한다. */
+  if (!load('cashUnit2', 0)) {
+    ['kr', 'us'].forEach(function (mk) {
+      var v = Number(state.cash[mk]) || 0;
+      state.cash[mk] = mk === 'kr' ? v * 10000 : v * 10000 / (state.profile.fx || 1350);
+    });
+    save('cash', state.cash);
+    save('cashUnit2', 1);
+  }
   ['kr', 'us'].forEach(function (mk) {
     if (!state.holdings[mk]) state.holdings[mk] = [];
     if (typeof state.cash[mk] !== 'number') state.cash[mk] = 0;
@@ -139,26 +151,58 @@
     });
     return hit;
   }
-  function scoreOfItem(it) {
-    var p = it.ticker ? null : findPick(it.name);
-    if (it.ticker) {
-      market().picks.forEach(function (q) { if (q.ticker === it.ticker) p = q; });
-    }
+  function scoreOfIn(mk, it) {
+    var picks = D.markets[mk].picks;
+    var p = null;
+    if (it.ticker) picks.forEach(function (q) { if (q.ticker === it.ticker) p = q; });
+    else picks.forEach(function (q) { if (!p && norm(q.name) === norm(it.name)) p = q; });
     return p ? total(p.scores) : null;
   }
 
-  /* 지금 성향·국면에서의 목표 구성 */
-  function modelNow() {
-    return P.build(state.market, state.style, M.tilt(regime()).cash).holdings;
+  /* 그 시장 통화의 현재가. 국내는 원, 미국은 달러. */
+  function priceIn(mk, ticker) {
+    var s = LIVE && LIVE.stocks ? LIVE.stocks[mk] : null;
+    var q = s && ticker ? s[ticker] : null;
+    return q && typeof q.price === 'number' && q.price > 0 ? q.price : null;
   }
-  function analyzeNow() {
+
+  /* 금액 표기. 국내는 원(만원 단위), 미국은 표시 통화에 따라 달러/원화. */
+  function nMoney(v, mk) {
+    if (mk === 'kr') return won(v / 10000);
+    if (state.cur === 'usd') {
+      return '$' + (Math.abs(v) < 10 ? v.toFixed(2) : Math.round(v).toLocaleString('en-US'));
+    }
+    return won(v * state.profile.fx / 10000);
+  }
+  function nSign(v, mk) {
+    return (v > 0 ? '+' : v < 0 ? '−' : '') + nMoney(Math.abs(v), mk);
+  }
+  /* 주당 가격은 언제나 그 시장 통화로 보여준다 — 주당 원화 환산은 의미가 없다. */
+  function perShare(v, mk) {
+    if (v === null || v === undefined) return '–';
+    return mk === 'kr'
+      ? Math.round(v).toLocaleString('ko-KR') + '원'
+      : '$' + v.toFixed(2);
+  }
+
+  /* 지금 성향·국면에서의 목표 구성 */
+  function modelNow(mk) {
+    mk = mk || state.market;
+    return P.build(mk, state.style, M.tilt(state.regime[mk]).cash).holdings;
+  }
+  /* 시장을 인자로 받는다 — 홈에서 국내·미국을 동시에 보여줘야 하기 때문이다. */
+  function analyzeMarket(mk) {
     return H.analyze({
-      items: state.holdings[state.market],
-      cash: state.cash[state.market],
-      model: modelNow(),
-      scoreOf: scoreOfItem
+      items: state.holdings[mk],
+      cash: state.cash[mk],
+      model: modelNow(mk),
+      market: mk,
+      fx: state.profile.fx,
+      priceOf: function (t) { return priceIn(mk, t); },
+      scoreOf: function (r) { return scoreOfIn(mk, r); }
     });
   }
+  function analyzeNow() { return analyzeMarket(state.market); }
 
   /* 손익 표기. 부호와 절제된 색까지만 쓴다 — 배경색·큰 강조는 쓰지 않는다.
      화면이 등락에 반응하기 시작하면 이 앱의 목적(감정 매매 줄이기)과 충돌한다. */
@@ -388,8 +432,7 @@
 
   /* ── 위젯: 시장 지수 + 등락 요인 ── */
   function marketWidget() {
-    var mk = market(), st = regime();
-    var f = M.forces(st, state.market);
+    var mk = market();
     var h = [];
 
     h.push('<div class="idxrow">');
@@ -414,15 +457,6 @@
       ? '🕒 <b>' + agoText(LIVE.asOf) + '</b> 받아온 값입니다. 실시간이 아니라 <b>30분마다 갱신되는 스냅샷</b>이고, 장 마감 뒤에는 마지막 종가가 유지됩니다.'
       : '시세를 아직 못 받아왔습니다. 지수를 누르면 바로 확인할 수 있습니다.') + '</div>');
 
-    h.push('<div class="forces">');
-    h.push('<div class="fcol up"><div class="fcol-h">▲ 밀어올리는 힘</div>' +
-      (f.up.length ? f.up.map(function (x) { return '<div class="fitem">' + x.icon + ' ' + x.text + '</div>'; }).join('')
-                   : '<div class="fitem none">지금 확인한 값에서는 없습니다</div>') + '</div>');
-    h.push('<div class="fcol down"><div class="fcol-h">▼ 눌러내리는 힘</div>' +
-      (f.down.length ? f.down.map(function (x) { return '<div class="fitem">' + x.icon + ' ' + x.text + '</div>'; }).join('')
-                     : '<div class="fitem none">지금 확인한 값에서는 없습니다</div>') + '</div>');
-    h.push('</div>');
-    h.push('<div class="stepnote">등락 요인은 <b>' + mk.label + ' 시장 다이얼에서 도출</b>한 것입니다. 다이얼을 바꾸면 여기도 바뀝니다.</div>');
     return h.join('');
   }
 
@@ -457,46 +491,72 @@
   }
 
   /* ── 위젯: 내 투자 현황 ── */
-  function portfolioBadge() {
-    var list = state.holdings[state.market];
-    if (!list.length && !state.cash[state.market]) return '';
-    var a = analyzeNow();
-    return a.alerts ? '⚠️ ' + a.alerts : '';
+  function hasAny(mk) {
+    return state.holdings[mk].length > 0 || state.cash[mk] > 0;
   }
+  function portfolioBadge() {
+    if (!hasAny('kr') && !hasAny('us')) return '';
+    var n = (hasAny('kr') ? analyzeMarket('kr').alerts : 0) + (hasAny('us') ? analyzeMarket('us').alerts : 0);
+    return n ? '⚠️ ' + n : '';
+  }
+
+  /* 홈에서는 국내와 미국을 같이 보여준다. 계좌는 나뉘어 있어도
+     "내 돈이 지금 얼마인가"는 하나의 질문이기 때문이다.
+     합계는 원화로만 낸다 — 서로 다른 통화를 그냥 더할 수는 없다. */
   function portfolioWidget() {
-    var list = state.holdings[state.market];
     var h = [];
-    if (!list.length && !state.cash[state.market]) {
-      h.push('<button class="emptycard" data-go="my">' +
+    if (!hasAny('kr') && !hasAny('us')) {
+      return '<button class="emptycard" data-go="my">' +
         '<div class="empty-i">＋</div>' +
         '<div><div class="empty-t">보유 종목을 등록해보세요</div>' +
-        '<div class="empty-d">증권사 앱에 있는 <b>매수금액</b>과 <b>수익률</b>만 옮겨 적으면 됩니다.</div></div></button>');
-      return h.join('');
+        '<div class="empty-d"><b>주당 매수단가</b>와 <b>수량</b>만 적으면 ' +
+        '수익률은 시세로 자동 계산됩니다.</div></div></button>';
     }
-    var a = analyzeNow();
+
+    var A = { kr: hasAny('kr') ? analyzeMarket('kr') : null, us: hasAny('us') ? analyzeMarket('us') : null };
+    var krwCost = 0, krwGrand = 0;
+    ['kr', 'us'].forEach(function (mk) {
+      if (!A[mk]) return;
+      krwCost += A[mk].krwCost + A[mk].krwCash;
+      krwGrand += A[mk].krwGrand;
+    });
+    var krwPl = krwGrand - krwCost;
+    var krwPlPct = krwCost > 0 ? krwPl / krwCost * 100 : 0;
+
     h.push('<div class="sum">' +
-      '<div class="sum-top"><span class="sum-l">총 평가금액</span><span class="sum-v">' + money(a.grand) + '</span></div>' +
+      '<div class="sum-top"><span class="sum-l">국내+미국 합계</span>' +
+      '<span class="sum-v">' + won(krwGrand / 10000) + '</span></div>' +
       '<div class="sum-grid">' +
-        '<div><span>투자 원금</span><b>' + won(a.totalCost) + '</b></div>' +
-        '<div><span>평가 손익</span><b class="' + plClass(a.pl) + '">' + signWon(a.pl) + '</b></div>' +
-        '<div><span>수익률</span><b class="' + plClass(a.pl) + '">' + signPct(a.plPct) + '</b></div>' +
+        '<div><span>투입 원금</span><b>' + won(krwCost / 10000) + '</b></div>' +
+        '<div><span>평가 손익</span><b class="' + plClass(krwPl) + '">' + signWon(krwPl / 10000) + '</b></div>' +
+        '<div><span>수익률</span><b class="' + plClass(krwPl) + '">' + signPct(krwPlPct) + '</b></div>' +
       '</div>' +
-      '<div class="sum-cash">현금 ' + a.cashWeight + '% <span>(목표 ' + a.cashTarget + '%)</span>' +
-        (Math.abs(a.cashGap) > 5 ? ' · <b>' + (a.cashGap > 0 ? '목표보다 많습니다' : '목표보다 적습니다') + '</b>' : '') +
-      '</div></div>');
-    if (a.rows.length) {
-      h.push('<div class="minilist">');
-      a.rows.slice(0, 4).forEach(function (r) {
+      '<div class="sum-cash">환율 ' + state.profile.fx + '원 기준으로 합쳤습니다. 미국 원금은 <b>매수 시점 환율</b>로 잡습니다.</div></div>');
+
+    ['kr', 'us'].forEach(function (mk) {
+      var a = A[mk];
+      var m = D.markets[mk];
+      if (!a) {
+        h.push('<div class="mkblock empty"><div class="mkblock-h">' + m.flag + ' ' + m.label +
+          '<span class="mkblock-v">등록 없음</span></div></div>');
+        return;
+      }
+      h.push('<div class="mkblock"><div class="mkblock-h">' + m.flag + ' ' + m.label +
+        '<span class="mkblock-v">' + won(a.krwGrand / 10000) + '</span>' +
+        '<span class="mkblock-p ' + plClass(a.krwPl) + '">' + signPct(a.krwPlPct) + '</span></div>');
+      a.rows.slice(0, 3).forEach(function (r) {
         h.push('<div class="mini"><span class="mini-m">' + r.verdict.mark + '</span>' +
           '<span class="mini-n">' + esc(r.name) + '</span>' +
           '<span class="mini-w">' + r.weight + '%</span>' +
-          '<span class="mini-r ' + plClass(r.ret) + '">' + signPct(r.ret) + '</span></div>');
+          '<span class="mini-r ' + plClass(r.pl) + '">' + signPct(r.plPct) + '</span></div>');
       });
-      if (a.rows.length > 4) h.push('<div class="mini more">외 ' + (a.rows.length - 4) + '종목</div>');
+      if (a.rows.length > 3) h.push('<div class="mini more">외 ' + (a.rows.length - 3) + '종목</div>');
       h.push('</div>');
-    }
+    });
+
+    var alerts = (A.kr ? A.kr.alerts : 0) + (A.us ? A.us.alerts : 0);
     h.push('<button class="btn" data-go="my" style="margin-top:10px">' +
-      (a.alerts ? '⚠️ 점검할 자리 ' + a.alerts + '건 — 자세히 보기 →' : '종목별 판단 보기 →') + '</button>');
+      (alerts ? '⚠️ 점검할 자리 ' + alerts + '건 — 자세히 보기 →' : '종목별 판단 보기 →') + '</button>');
     return h.join('');
   }
 
@@ -537,32 +597,50 @@
      ══════════════════════════════════════════════════════════════ */
   function renderMy() {
     var mk = market();
-    var list = state.holdings[state.market];
+    var mkey = state.market;
+    var isUS = mkey === 'us';
+    var list = state.holdings[mkey];
     var a = analyzeNow();
     var h = [];
 
     h.push('<div class="sec-head"><h2>💼 ' + mk.flag + ' ' + mk.label + ' 보유 현황</h2>' +
-      '<p>증권사 앱에 이미 보이는 <b>매수금액</b>과 <b>수익률</b>만 옮겨 적으면 됩니다. 이 앱은 시세를 조회하지 않습니다.</p></div>');
+      '<p><b>주당 매수단가</b>와 <b>수량</b>만 적으면 수익률은 시세로 자동 계산됩니다.</p></div>');
 
-    /* 추가 폼은 기본으로 숨긴다 — 매일 쓰는 기능이 아니라서
-       늘 펼쳐 두면 정작 자주 보는 판단 목록이 아래로 밀린다. */
+    /* 미국은 달러/원화를 오갈 수 있게 한다. 주가는 달러로 움직이고
+       내 통장은 원화라, 둘 다 봐야 무슨 일이 일어났는지 알 수 있다. */
+    if (isUS) {
+      h.push('<div class="curtoggle">' +
+        '<button class="curbtn' + (state.cur === 'krw' ? ' is-on' : '') + '" data-cur="krw">₩ 원화</button>' +
+        '<button class="curbtn' + (state.cur === 'usd' ? ' is-on' : '') + '" data-cur="usd">$ 달러</button>' +
+        '<span class="curfx">환율 <input id="fxrate" type="number" value="' + state.profile.fx +
+          '" min="800" max="2500" step="1" inputmode="numeric" />원' +
+          (LIVE && LIVE.quotes && LIVE.quotes['KRW=X']
+            ? ' <button class="curnow" id="fx-now">지금 ' + Math.round(LIVE.quotes['KRW=X'].price) + '원 적용</button>' : '') +
+        '</span></div>');
+    }
+
     h.push('<button class="addtoggle' + (state.addOpen ? ' is-on' : '') + '" id="add-toggle">' +
       (state.addOpen ? '✕ 닫기' : '＋ 종목 추가') + '</button>');
 
     if (state.addOpen) {
+      var unit = isUS ? '달러' : '원';
       h.push('<div class="card addform">' +
-        '<input id="h-name" list="bc-picks" placeholder="종목명 (예: 삼성전자)" autocomplete="off" />' +
+        '<input id="h-name" list="bc-picks" placeholder="종목명 (예: ' + (isUS ? 'Microsoft' : '삼성전자') + ')" autocomplete="off" />' +
         '<datalist id="bc-picks">' +
           mk.picks.map(function (p) { return '<option value="' + esc(p.name) + '"></option>'; }).join('') +
         '</datalist>' +
         '<div class="addrow">' +
-          '<label>매수금액<input id="h-cost" type="number" inputmode="numeric" placeholder="만원" min="0" step="10" /></label>' +
-          '<label>수익률<input id="h-ret" type="number" inputmode="decimal" placeholder="%" step="0.1" /></label>' +
+          '<label>주당 매수단가<input id="h-avg" type="number" inputmode="decimal" placeholder="' + unit + '" min="0" step="any" /></label>' +
+          '<label>수량<input id="h-qty" type="number" inputmode="decimal" placeholder="주" min="0" step="any" /></label>' +
         '</div>' +
+        (isUS ? '<label class="cashline">매수 시점 환율<input id="h-fxat" type="number" inputmode="numeric" ' +
+          'value="' + state.profile.fx + '" min="800" max="2500" step="1" /><span>원</span></label>' +
+          '<div class="addnote">이 값이 있어야 원화 손익을 <b>주가 때문인지 환율 때문인지</b> 나눠 볼 수 있습니다. 모르면 그대로 두세요.</div>' : '') +
         '<button class="btn" id="h-add">추가하기</button>' +
-        '<div class="addnote">수익률은 부호까지 그대로 적으세요 (예: <b>-12.4</b>). 목록에 없는 종목도 직접 입력할 수 있습니다.</div>' +
-        '<label class="cashline">예수금·파킹<input id="h-cash" type="number" inputmode="numeric" ' +
-          'value="' + state.cash[state.market] + '" min="0" step="10" /><span>만원</span></label>' +
+        '<label class="cashline">' + (isUS ? '예수금(달러)' : '예수금·파킹(만원)') +
+          '<input id="h-cash" type="number" inputmode="decimal" value="' +
+          (isUS ? state.cash[mkey] : state.cash[mkey] / 10000) + '" min="0" step="any" /><span>' +
+          (isUS ? '$' : '만원') + '</span></label>' +
         '<div class="addnote">현금도 배분의 한 자리입니다. 빼놓으면 비중이 전부 실제보다 커 보입니다.</div>' +
       '</div>');
     }
@@ -572,18 +650,34 @@
       return h.join('');
     }
 
-    h.push(fold('my-sum', '📊', '전체 요약',
-      '<div class="sum">' +
-        '<div class="sum-top"><span class="sum-l">총 평가금액</span><span class="sum-v">' + money(a.grand) + '</span></div>' +
-        '<div class="sum-grid">' +
-          '<div><span>투자 원금</span><b>' + won(a.totalCost) + '</b></div>' +
-          '<div><span>평가 손익</span><b class="' + plClass(a.pl) + '">' + signWon(a.pl) + '</b></div>' +
-          '<div><span>수익률</span><b class="' + plClass(a.pl) + '">' + signPct(a.plPct) + '</b></div>' +
-        '</div>' +
-        '<div class="sum-cash">현금 ' + a.cashWeight + '% <span>(목표 ' + a.cashTarget + '%)</span></div>' +
-      '</div>'));
+    if (a.legacyCount) {
+      h.push('<div class="note" style="background:#fff4e6;color:#8a5a12">' + a.legacyCount +
+        '개는 <b>예전 방식(매수금액+수익률)</b>으로 입력된 값입니다. 시세로 자동 계산되지 않으니, ' +
+        '지우고 <b>단가·수량</b>으로 다시 넣으면 더 정확해집니다.</div>');
+    }
+    if (a.noPrice) {
+      h.push('<div class="note" style="background:#fff4e6;color:#8a5a12">' + a.noPrice +
+        '개는 시세를 못 받아와 <b>매수 원가로 표시</b>했습니다.</div>');
+    }
 
-    var rowsHtml = '<div class="stepnote" style="margin-top:0">지금 성향(<b>' + styleLabel() + '</b>)과 오늘 국면 기준입니다.</div>';
+    /* 요약 */
+    var sumHtml = '<div class="sum">' +
+      '<div class="sum-top"><span class="sum-l">총 평가금액</span><span class="sum-v">' + nMoney(a.grand, mkey) + '</span></div>' +
+      '<div class="sum-grid">' +
+        '<div><span>투입 원금</span><b>' + nMoney(a.totalCost + a.cash, mkey) + '</b></div>' +
+        '<div><span>평가 손익</span><b class="' + plClass(a.pl) + '">' + nSign(a.pl, mkey) + '</b></div>' +
+        '<div><span>수익률</span><b class="' + plClass(a.pl) + '">' + signPct(a.plPct) + '</b></div>' +
+      '</div>';
+    if (isUS) {
+      sumHtml += '<div class="fxsplit">원화로 보면 <b>' + won(a.krwGrand / 10000) + '</b> · ' +
+        '손익 <b class="' + plClass(a.krwPl) + '">' + signWon(a.krwPl / 10000) + '</b> (' + signPct(a.krwPlPct) + ')' +
+        '<span>달러 손익과 다른 건 환율이 움직였기 때문입니다.</span></div>';
+    }
+    sumHtml += '<div class="sum-cash">현금 ' + a.cashWeight + '% <span>(목표 ' + a.cashTarget + '%)</span></div></div>';
+    h.push(fold('my-sum', '📊', '전체 요약', sumHtml));
+
+    /* 종목별 */
+    var rowsHtml = '<div class="stepnote" style="margin-top:0">지금 성향(<b>' + styleLabelOf(state.style) + '</b>)과 오늘 국면 기준입니다.</div>';
     a.rows.forEach(function (r) {
       rowsHtml += '<div class="card hrow tone-' + r.verdict.tone + '">' +
         '<div class="hrow-top">' +
@@ -591,10 +685,22 @@
           '<span class="hrow-n">' + esc(r.name) + (r.ticker ? '<span class="hrow-t">' + esc(r.ticker) + '</span>' : '') + '</span>' +
           '<span class="hrow-v">' + r.verdict.label + '</span>' +
         '</div>' +
-        '<div class="hrow-nums">' +
-          '<span>평가 <b>' + won(r.value) + '</b></span>' +
-          '<span>수익률 <b class="' + plClass(r.ret) + '">' + signPct(r.ret) + '</b></span>' +
-        '</div>' +
+        (r.legacy
+          ? '<div class="hrow-nums"><span>평가 <b>' + nMoney(r.value, mkey) + '</b></span><span>예전 방식 입력</span></div>'
+          : '<div class="hrow-nums">' +
+              '<span>' + r.qty + '주 · 평단 <b>' + perShare(r.avg, mkey) + '</b></span>' +
+              '<span>현재 <b>' + perShare(r.price, mkey) + '</b></span>' +
+            '</div>' +
+            '<div class="hrow-nums">' +
+              '<span>평가 <b>' + nMoney(r.value, mkey) + '</b></span>' +
+              '<span>손익 <b class="' + plClass(r.pl) + '">' + nSign(r.pl, mkey) + ' (' + signPct(r.plPct) + ')</b></span>' +
+            '</div>' +
+            (isUS && (r.plByFx > 1 || r.plByFx < -1)
+              ? '<div class="fxline">원화 손익 <b class="' + plClass(r.krwPl) + '">' + signWon(r.krwPl / 10000) + '</b> = ' +
+                '주가 ' + signWon(r.plByPrice / 10000) + ' + 환율 ' + signWon(r.plByFx / 10000) +
+                ' <span>(매수 시점 ' + r.fxAt + '원 → 지금 ' + state.profile.fx + '원)</span></div>'
+              : '')
+        ) +
         '<div class="wbar"><span class="wbar-t" style="width:' + Math.min(100, r.weight) + '%"></span>' +
           (r.target ? '<span class="wbar-goal" style="left:' + Math.min(100, r.target) + '%"></span>' : '') + '</div>' +
         '<div class="wlab">현재 <b>' + r.weight + '%</b>' + (r.target ? ' · 목표 <b>' + r.target + '%</b>' : ' · 목표 없음') +
@@ -615,20 +721,11 @@
     h.push(fold('my-news', '🗞️', '팔지 말지 헷갈릴 때', newsHtml, { open: false }));
 
     h.push('<div class="foot"><b>고지.</b> 위 판단은 <b>목표 비중과의 차이</b>와 이 앱의 <b>정성 평가 점수</b>만으로 기계적으로 계산한 것입니다. ' +
-      '시세·실적·여러분의 사정을 알지 못하며, 특정 종목의 매수·매도 권유가 아닙니다.</div>');
+      '시세는 30분마다 갱신되는 스냅샷이며, 특정 종목의 매수·매도 권유가 아닙니다.</div>');
 
     return h.join('');
   }
 
-  function styleLabel() {
-    var l = state.style;
-    P.styles.forEach(function (s) { if (s.key === state.style) l = s.label; });
-    return l;
-  }
-
-  /* ══════════════════════════════════════════════════════════════════
-     뷰 — 제안: 시드를 넣으면 뭘 얼마나 살지
-     ══════════════════════════════════════════════════════════════ */
   function renderPlan() {
     var head = '<div class="subnav">' +
       '<button class="subbtn' + (state.planTab === 'plan' ? ' is-on' : '') + '" data-psub="plan">🎯 배분안</button>' +
@@ -752,8 +849,8 @@
     /* ── 시작 전 ── */
     if (!st.started) {
       h.push('<div class="sec-head"><h2>🎮 모의투자</h2>' +
-        '<p>실제 돈이 아닙니다. 시드와 성향을 고르면 그 배분대로 담아 굴려봅니다. ' +
-        '<b>하락을 견딜 수 있는지</b>를 안전하게 시험하는 게 목적입니다.</p></div>');
+        '<p>이 앱이 제안한 배분을 그대로 굴려봅니다. ' +
+        '<b>앱의 판단과 실제 내 투자를 나란히 비교</b>하는 게 목적입니다.</p></div>');
 
       if (!priced) {
         h.push('<div class="note" style="background:#fdf1ef;color:#9a3a31">⚠️ 아직 종목 시세를 받아오지 못해 시작할 수 없습니다. 잠시 뒤 다시 열어보세요.</div>');
@@ -791,7 +888,7 @@
       '<div class="sum-grid">' +
         '<div><span>주식 평가</span><b>' + won(v.invested) + '</b></div>' +
         '<div><span>현금</span><b>' + won(v.cash) + '</b></div>' +
-        '<div><span>현금 비중</span><b>' + v.cashWeight + '%</b></div>' +
+        '<div><span>현금 비중</span><b>' + v.cashWeight + '%</b><small class="wsub">시작 ' + v.cashW0 + '%</small></div>' +
       '</div>' +
       (LIVE && LIVE.asOf ? '<div class="sum-cash">🕒 ' + agoText(LIVE.asOf) + ' 시세 기준' +
         (state.market === 'us' ? ' · 환율 ' + p.fx + '원 적용' : '') + '</div>' : '') +
@@ -810,6 +907,14 @@
         '<div class="simrow-num">평가 <b>' + won(r.value) + '</b> · 원가 ' + won(r.cost) +
           ' · 손익 <b class="' + plClass(r.pl) + '">' + signWon(r.pl) + '</b>' +
           (r.known ? '' : ' · <b>시세 없음</b>') + '</div>' +
+        /* 비중이 시작보다 얼마나 벌어졌는지 — 오른 종목은 저절로 커지고
+           내린 종목은 작아진다. 그 차이가 곧 리밸런싱이 필요한 정도다. */
+        '<div class="wbar"><span class="wbar-t" style="width:' + Math.min(100, r.weight) + '%"></span>' +
+          '<span class="wbar-goal" style="left:' + Math.min(100, r.w0) + '%"></span></div>' +
+        '<div class="wlab">비중 <b>' + r.weight + '%</b> · 시작 ' + r.w0 + '%' +
+          (Math.abs(r.dw) >= 0.1
+            ? ' · <b class="' + (r.dw > 0 ? 'pl-up' : 'pl-dn') + '">' + (r.dw > 0 ? '+' : '') + r.dw + '%p</b>'
+            : ' · 변화 없음') + '</div>' +
         '<div class="simrow-act">' +
           '<button class="sbtn buy" data-trade="buy" data-t="' + esc(r.t) + '" data-n="' + esc(r.n) + '">추가 매수</button>' +
           '<button class="sbtn sell" data-trade="sell" data-t="' + esc(r.t) + '" data-n="' + esc(r.n) + '">매도</button>' +
@@ -842,9 +947,37 @@
     h.push(fold('sim-log', '🧾', '거래 내역', logHtml || '<div class="slot-d">아직 없습니다.</div>',
       { open: false, badge: st.log.length }));
 
+    h.push(compareBlock(v));
     h.push('<button class="btn danger" id="sim-reset" style="margin-top:6px">↺ 초기화하고 다시 설정</button>');
     h.push(simDisclaimer());
     return h.join('');
+  }
+
+  /* 앱의 판단(모의투자) vs 실제 내 투자.
+     기간이 다르면 단순 비교가 어렵다는 점을 같이 적는다 — 안 적으면
+     "앱이 더 잘했다/못했다"는 결론만 남는다. */
+  function compareBlock(v) {
+    var mkey = state.market;
+    if (!hasAny(mkey)) {
+      return '<div class="cmp none">실제 보유 종목을 등록하면 <b>앱의 판단과 내 투자를 나란히</b> 볼 수 있습니다. ' +
+        '<button class="linkbtn" data-go="my">내 주식에 등록하기 →</button></div>';
+    }
+    var a = analyzeMarket(mkey);
+    var simPct = v.plPct;
+    var myPct = a.plPct;
+    var diff = Math.round((myPct - simPct) * 10) / 10;
+    return '<div class="cmp">' +
+      '<div class="cmp-h">⚖️ 앱의 판단 vs 내 투자</div>' +
+      '<div class="cmp-row"><span class="cmp-l">🎮 모의투자</span>' +
+        '<span class="cmp-v ' + plClass(v.pl) + '">' + signPct(simPct) + '</span></div>' +
+      '<div class="cmp-row"><span class="cmp-l">💼 실제 보유</span>' +
+        '<span class="cmp-v ' + plClass(a.pl) + '">' + signPct(myPct) + '</span></div>' +
+      '<div class="cmp-diff">차이 <b class="' + plClass(diff) + '">' + (diff > 0 ? '+' : '') + diff + '%p</b>' +
+        (diff > 0 ? ' — 실제 투자가 앞서 있습니다.' : diff < 0 ? ' — 모의투자가 앞서 있습니다.' : ' — 같습니다.') + '</div>' +
+      '<div class="cmp-note">⚠️ <b>단순 비교가 아닙니다.</b> 모의투자는 ' + simState().started +
+        '에 한 번에 담은 결과이고, 실제 보유는 종목마다 산 시점이 다릅니다. ' +
+        '기간이 다르면 수익률은 원래 다르게 나옵니다. 숫자보다 <b>어느 쪽이 덜 흔들렸는지</b>를 보세요.</div>' +
+    '</div>';
   }
 
   function simDisclaimer() {
@@ -993,7 +1126,16 @@
         '<div class="read-text">' + linkTerms(r.read) + '</div></div></div>';
     });
     readHtml += '</div>';
-    h.push(fold('mk-read', '🧠', '이 국면이 뜻하는 것', readHtml, { open: false }));
+    var f = M.forces(st, state.market);
+    var forceHtml = '<div class="forces">' +
+      '<div class="fcol up"><div class="fcol-h">▲ 밀어올리는 힘</div>' +
+        (f.up.length ? f.up.map(function (x) { return '<div class="fitem">' + x.icon + ' ' + x.text + '</div>'; }).join('')
+                     : '<div class="fitem none">지금 확인한 값에서는 없습니다</div>') + '</div>' +
+      '<div class="fcol down"><div class="fcol-h">▼ 눌러내리는 힘</div>' +
+        (f.down.length ? f.down.map(function (x) { return '<div class="fitem">' + x.icon + ' ' + x.text + '</div>'; }).join('')
+                       : '<div class="fitem none">지금 확인한 값에서는 없습니다</div>') + '</div></div>' +
+      readHtml;
+    h.push(fold('mk-read', '🧠', '이 국면이 뜻하는 것', forceHtml, { open: false }));
 
     var actHtml = '<div class="card">';
     M.actions(st, state.market).forEach(function (a) {
@@ -1165,6 +1307,14 @@
       return;
     }
     /* 종목 추가 폼 열고 닫기 */
+    if ((el = ev.target.closest('[data-cur]'))) {
+      state.cur = el.dataset.cur; save('cur', state.cur); render(); return;
+    }
+    if (ev.target.id === 'fx-now') {
+      var live = LIVE && LIVE.quotes ? LIVE.quotes['KRW=X'] : null;
+      if (live) { state.profile.fx = Math.round(live.price); save('profile', state.profile); render(); }
+      return;
+    }
     if (ev.target.id === 'add-toggle') {
       state.addOpen = !state.addOpen;
       render();
@@ -1213,20 +1363,26 @@
 
     if (ev.target.id === 'h-add') {
       var nameEl = document.getElementById('h-name');
-      var costEl = document.getElementById('h-cost');
-      var retEl  = document.getElementById('h-ret');
-      var name = (nameEl.value || '').trim();
-      var cost = parseFloat(costEl.value);
-      if (!name)              { nameEl.focus(); return; }
-      if (!(cost > 0))        { costEl.focus(); return; }
-      var pick = findPick(name);
-      state.holdings[state.market].push({
+      var avgEl = document.getElementById('h-avg');
+      var qtyEl = document.getElementById('h-qty');
+      var fxAtEl = document.getElementById('h-fxat');
+      var nm = (nameEl.value || '').trim();
+      var avg = parseFloat(avgEl.value);
+      var qty = parseFloat(qtyEl.value);
+      if (!nm)          { nameEl.focus(); return; }
+      if (!(avg > 0))   { avgEl.focus(); return; }
+      if (!(qty > 0))   { qtyEl.focus(); return; }
+      var pick = findPick(nm);
+      var item = {
         id: Date.now() + Math.floor(Math.random() * 1000),
-        name: pick ? pick.name : name,
+        name: pick ? pick.name : nm,
         ticker: pick ? pick.ticker : '',
-        cost: cost,
-        ret: parseFloat(retEl.value) || 0
-      });
+        avg: avg,
+        qty: qty
+      };
+      /* 매수 시점 환율을 남겨야 원화 손익을 주가/환율로 쪼갤 수 있다 */
+      if (state.market === 'us') item.fxAt = parseInt(fxAtEl && fxAtEl.value, 10) || state.profile.fx;
+      state.holdings[state.market].push(item);
       save('holdings', state.holdings);
       render();
       var again = document.getElementById('h-name');
@@ -1298,7 +1454,7 @@
     }
 
     if (ev.target.id === 'reset') {
-      ['market', 'style', 'regime', 'profile', 'touched', 'holdings', 'cash', 'widgets', 'folds', 'sim', 'planTab', 'learnTab'].forEach(function (k) {
+      ['market', 'style', 'regime', 'profile', 'touched', 'holdings', 'cash', 'widgets', 'folds', 'sim', 'planTab', 'learnTab', 'cur'].forEach(function (k) {
         try { localStorage.removeItem(KEY + k); } catch (e) {}
       });
       state.market = 'kr';
@@ -1312,6 +1468,7 @@
       state.sim = { kr: SIM.blank(), us: SIM.blank() };
       state.planTab = 'plan';
       state.learnTab = 'picks';
+      state.cur = 'krw';
       state.addOpen = false;
       state.editWidgets = false;
       state.profile = { seed: 1000, fx: 1350 };
@@ -1334,7 +1491,9 @@
     }
     if (ev.target.id === 'h-cash') {
       var c = parseFloat(ev.target.value);
-      state.cash[state.market] = c >= 0 ? c : 0;
+      if (!(c >= 0)) c = 0;
+      /* 저장은 그 시장 통화의 기본 단위로: 국내는 원, 미국은 달러 */
+      state.cash[state.market] = state.market === 'us' ? c : c * 10000;
       save('cash', state.cash);
     }
   });
@@ -1345,7 +1504,7 @@
   document.addEventListener('keydown', function (ev) {
     if (ev.key !== 'Enter') return;
     var id = ev.target.id;
-    if (id === 'h-name' || id === 'h-cost' || id === 'h-ret') {
+    if (id === 'h-name' || id === 'h-avg' || id === 'h-qty') {
       ev.preventDefault();
       var btn = document.getElementById('h-add');
       if (btn) btn.click();

@@ -1,29 +1,29 @@
 /* ============================================================================
-   holdings.js — 내가 지금 들고 있는 것에 대한 판단
+   holdings.js — 내가 지금 들고 있는 것에 대한 계산과 판단
    ----------------------------------------------------------------------------
-   가장 조심해야 하는 파일이다. "팔아라 / 사라"를 말하는 것처럼 보이기 쉬운데,
-   이 앱은 그럴 근거를 갖고 있지 않다 — 주가도, 실적도, 그 사람의 사정도
-   모른다. 그래서 여기서 하는 일은 딱 하나다:
+   입력은 **주당 매수단가 + 수량**이다. 예전에는 "매수금액 + 수익률"을 받았는데,
+   그러면 사용자가 증권사 앱을 열어 수익률을 읽어와야 하고 그 값이 언제 기준인지
+   알 수 없었다. 단가와 수량은 한 번 적으면 안 바뀌는 사실이고, 수익률은 이 앱이
+   받아온 시세로 직접 계산하면 된다.
 
-     **지금 상태를 목표와 비교해서, 어긋난 자리를 짚어준다.**
+   금액은 **그 시장의 통화 기본 단위**로 다룬다.
+     · 국내: 원      (사용자 입력 단가도 원)
+     · 미국: 달러    (사용자 입력 단가도 달러)
+   원화로 합칠 때만 환율을 곱한다. 이렇게 두면 "달러로 보기 / 원화로 보기"를
+   화면에서 자유롭게 오갈 수 있다.
 
-   판단의 근거는 전부 사용자가 이미 확인해 준 것에서만 나온다.
-     · 목표 비중  ← 사용자가 고른 성향 + 사용자가 맞춘 시장 국면
-     · 50년 점수  ← 이 앱의 정성 평가 (공개된 사업 구조 기반)
-     · 현재 비중  ← 사용자가 입력한 매수금액과 수익률
+   미국 종목은 **매수 시점 환율(fxAt)** 을 같이 저장한다. 그래야 원화 손익을
+   주가 기여분과 환율 기여분으로 나눠 보여줄 수 있다. 이걸 안 나누면 "주가는
+   올랐는데 왜 원화로는 손해지?" 하는 순간을 설명할 수 없다.
 
-   ⚠️ 손익은 판단 근거로 쓰지 않는다.
-      "많이 떨어졌으니 팔아라", "많이 올랐으니 팔아라" 둘 다 틀렸다.
-      팔지 말지를 정하는 건 **처음 산 이유가 아직 유효한가**이지 지금 손익이
-      아니다. 그래서 아래 규칙 어디에도 `ret`(수익률)이 들어가지 않는다.
-      수익률은 화면에 보여주기만 하고 판단에는 쓰지 않는다.
+   ⚠️ 판단 규칙에는 여전히 손익이 들어가지 않는다.
+      "많이 떨어졌으니 팔아라"도 "많이 올랐으니 팔아라"도 둘 다 틀렸다.
+      팔지 말지를 정하는 건 처음 산 이유가 아직 유효한가이지 지금 손익이 아니다.
    ========================================================================== */
 
 window.BCHoldings = (function () {
   'use strict';
 
-  /* 판정 종류. 위에 있을수록 우선한다(먼저 걸리는 것 하나만 보여준다 —
-     한 종목에 경고를 여러 개 달면 무엇부터 볼지 알 수 없다). */
   var VERDICTS = {
     unknown: { code: 'unknown', mark: '🔴', label: '다시 생각', tone: 'bad',
       say: '이 앱이 평가하지 않은 종목입니다. <b>왜 샀는지 세 문장으로 적을 수 있나요?</b> 못 적으면 비중을 줄이는 걸 검토하세요.' },
@@ -41,8 +41,6 @@ window.BCHoldings = (function () {
       say: '목표 비중과 크게 다르지 않습니다. <b>아무것도 하지 않는 게 정답</b>인 자리입니다.' }
   };
 
-  /* 목표 비중 찾기. 티커가 있으면 티커로, 없으면 이름으로 느슨하게 맞춘다
-     (사용자가 "KODEX 200"이라고만 적을 수 있다). */
   function norm(s) { return String(s || '').replace(/\s|·|\(|\)/g, '').toLowerCase(); }
 
   function targetOf(model, item) {
@@ -56,7 +54,6 @@ window.BCHoldings = (function () {
     return hit ? hit.w : 0;
   }
 
-  /* 규칙은 위에서부터 순서대로 본다. 먼저 걸리는 하나만 쓴다. */
   function judge(row, known) {
     if (!known)                      return VERDICTS.unknown;
     if (row.score !== null && row.score < 62) return VERDICTS.weak;
@@ -67,59 +64,109 @@ window.BCHoldings = (function () {
     return VERDICTS.hold;
   }
 
-  /* opts: { items, cash, model, scoreOf }
-       items   [{ id, name, ticker, cost(만원), ret(%) }]
-       cash    만원 (예수금·파킹)
-       model   BCPortfolios.build(...).holdings
-       scoreOf function(item) -> 0~100 | null  (평가 대상이 아니면 null)  */
+  /* opts: { items, cash, model, market, priceOf, scoreOf, fx }
+       items    [{ id, name, ticker, qty, avg, fxAt?,   // 새 방식
+                   cost?, ret? }]                       // 예전 방식(호환)
+       cash     그 시장 통화의 기본 단위 (국내: 원, 미국: 달러)
+       priceOf  function(ticker) -> 현재가(그 시장 통화) | null
+       fx       원/달러 (미국 시장에서만 쓴다)                                */
   function analyze(opts) {
     var items = opts.items || [];
+    var isUS = opts.market === 'us';
+    var fx = opts.fx || 1350;
     var cash = Math.max(0, Number(opts.cash) || 0);
 
     var totalCost = 0, totalValue = 0;
+    var krwCost = 0, krwValue = 0;
+
     var rows = items.map(function (it) {
-      var cost = Math.max(0, Number(it.cost) || 0);
-      var ret = Number(it.ret) || 0;
-      var value = cost * (1 + ret / 100);
-      totalCost += cost; totalValue += value;
-      return { id: it.id, name: it.name, ticker: it.ticker || '', cost: cost, ret: ret, value: value };
+      var r = { id: it.id, name: it.name, ticker: it.ticker || '' };
+      var price = opts.priceOf ? opts.priceOf(r.ticker) : null;
+
+      if (typeof it.qty === 'number' && typeof it.avg === 'number') {
+        /* 새 방식: 단가 × 수량 */
+        r.qty = it.qty;
+        r.avg = it.avg;
+        r.price = price;
+        r.cost = it.qty * it.avg;
+        r.hasPrice = price !== null && price > 0;
+        r.value = r.hasPrice ? it.qty * price : r.cost;
+        r.legacy = false;
+        /* 원화 환산 — 미국은 매수 시점 환율로 원가를, 지금 환율로 평가액을 잡는다 */
+        var fxAt = isUS ? (it.fxAt || fx) : 1;
+        r.krwCost  = isUS ? r.cost * fxAt : r.cost;
+        r.krwValue = isUS ? r.value * fx : r.value;
+        r.fxAt = isUS ? fxAt : null;
+      } else {
+        /* 예전 방식: 매수금액(만원) + 수익률(%). 값을 버리지 않고 그대로 쓴다.
+           예전 입력은 늘 원화였으므로, 미국 시장에서는 지금 환율로 달러 환산해
+           나머지와 단위를 맞춘다. 안 맞추면 원화 금액이 달러 합계에 그대로
+           섞여 총액이 수백 배로 부풀어 오른다. */
+        var cKrw = Math.max(0, Number(it.cost) || 0) * 10000;   // 만원 → 원
+        var ret = Number(it.ret) || 0;
+        r.legacy = true;
+        r.qty = null; r.avg = null; r.price = null; r.hasPrice = false;
+        r.krwCost = cKrw;
+        r.krwValue = cKrw * (1 + ret / 100);
+        r.cost  = isUS ? r.krwCost / fx : r.krwCost;
+        r.value = isUS ? r.krwValue / fx : r.krwValue;
+      }
+
+      r.pl = r.value - r.cost;
+      r.plPct = r.cost > 0 ? r.pl / r.cost * 100 : 0;
+      r.krwPl = r.krwValue - r.krwCost;
+      r.krwPlPct = r.krwCost > 0 ? r.krwPl / r.krwCost * 100 : 0;
+      /* 원화 손익을 주가 기여분과 환율 기여분으로 쪼갠다.
+         주가 기여 = 달러 손익을 매수 시점 환율로 환산한 값
+         환율 기여 = 나머지                                        */
+      if (isUS && !r.legacy) {
+        r.plByPrice = r.pl * r.fxAt;
+        r.plByFx = r.krwPl - r.plByPrice;
+      } else {
+        r.plByPrice = r.krwPl; r.plByFx = 0;
+      }
+
+      totalCost += r.cost; totalValue += r.value;
+      krwCost += r.krwCost; krwValue += r.krwValue;
+      return r;
     });
 
     var grand = totalValue + cash;
+    var krwCash = isUS ? cash * fx : cash;
+    var krwGrand = krwValue + krwCash;
 
-    /* 현금 목표는 모델의 현금 항목에서 가져온다. */
     var cashTarget = 0;
     (opts.model || []).forEach(function (m) { if (m.k === 'cash') cashTarget = m.w; });
 
     rows.forEach(function (r) {
       r.weight = grand > 0 ? Math.round(r.value / grand * 1000) / 10 : 0;
       var s = opts.scoreOf ? opts.scoreOf(r) : null;
-      r.known = s !== undefined && s !== null ? true : false;
+      r.known = (s !== undefined && s !== null);
       r.score = r.known ? s : null;
       r.target = targetOf(opts.model || [], r);
-      /* 유니버스에 없어도 모델에 있으면 아는 것으로 본다. */
       if (!r.known && r.target > 0) r.known = true;
       r.gap = Math.round((r.weight - r.target) * 10) / 10;
       r.verdict = judge(r, r.known);
     });
-
-    /* 비중이 큰 순서로 — 문제가 큰 자리가 위로 온다. */
-    rows.sort(function (a, b) { return b.weight - a.weight; });
-
-    var cashWeight = grand > 0 ? Math.round(cash / grand * 1000) / 10 : 0;
-    var pl = totalValue - totalCost;
+    rows.sort(function (a, b) { return b.value - a.value; });
 
     return {
       rows: rows,
-      totalCost: totalCost,
-      totalValue: totalValue,
-      pl: pl,
-      plPct: totalCost > 0 ? Math.round(pl / totalCost * 1000) / 10 : 0,
+      market: opts.market,
+      totalCost: totalCost, totalValue: totalValue,
+      pl: totalValue - totalCost,
+      plPct: totalCost > 0 ? (totalValue - totalCost) / totalCost * 100 : 0,
       cash: cash,
-      cashWeight: cashWeight,
+      /* 원화 환산 묶음 — 국내·미국을 한 화면에서 합칠 때 쓴다 */
+      krwCost: krwCost, krwValue: krwValue, krwCash: krwCash, krwGrand: krwGrand,
+      krwPl: krwValue - krwCost,
+      krwPlPct: krwCost > 0 ? (krwValue - krwCost) / krwCost * 100 : 0,
+      cashWeight: grand > 0 ? Math.round(cash / grand * 1000) / 10 : 0,
       cashTarget: cashTarget,
-      cashGap: Math.round((cashWeight - cashTarget) * 10) / 10,
+      cashGap: grand > 0 ? Math.round((cash / grand * 100 - cashTarget) * 10) / 10 : 0,
       grand: grand,
+      legacyCount: rows.filter(function (r) { return r.legacy; }).length,
+      noPrice: rows.filter(function (r) { return !r.legacy && !r.hasPrice; }).length,
       alerts: rows.filter(function (r) {
         return r.verdict.tone === 'bad' || r.verdict.tone === 'warn';
       }).length

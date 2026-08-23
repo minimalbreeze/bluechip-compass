@@ -622,10 +622,6 @@ body[data-market="us"] .ms-thumb { transform: translateX(100%); }
 .pl-dn   { color: var(--accent-ink); }
 .pl-flat { color: var(--ink-mid); }
 
-.minilist {
-  margin-top: 10px; background: var(--card); border: 1px solid var(--line);
-  border-radius: var(--r); overflow: hidden; box-shadow: var(--shadow);
-}
 .mini {
   display: flex; align-items: center; gap: 9px;
   padding: 10px 14px; font-size: 13.5px;
@@ -842,6 +838,78 @@ body[data-market="us"] .ms-thumb { transform: translateX(100%); }
 .log-a { font-variant-numeric: tabular-nums; color: var(--ink-mid); }
 .log-d { font-size: 11px; color: var(--ink-dim); white-space: nowrap; }
 .logrow.more { color: var(--ink-dim); justify-content: center; }
+
+/* ── 홈: 시장별 블록 (국내·미국 동시 표시) ────────────────────── */
+.mkblock {
+  border: 1px solid var(--line-soft); border-radius: var(--r-s);
+  padding: 10px 12px; margin-top: 9px;
+}
+.mkblock.empty { color: var(--ink-dim); }
+.mkblock-h {
+  display: flex; align-items: baseline; gap: 8px;
+  font-size: 13.5px; font-weight: 800; padding-bottom: 6px;
+}
+.mkblock-v { margin-left: auto; font-variant-numeric: tabular-nums; }
+.mkblock-p { font-size: 12.5px; font-variant-numeric: tabular-nums; }
+.mkblock .mini { padding: 7px 0; font-size: 12.5px; }
+
+/* ── 통화 전환 (미국) ──────────────────────────────────────────
+   주가는 달러로 움직이고 통장은 원화라 둘 다 볼 수 있어야 한다. */
+.curtoggle {
+  display: flex; align-items: center; gap: 6px; flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+.curbtn {
+  border: 1.5px solid var(--line); background: var(--card);
+  border-radius: 999px; padding: 6px 13px; font-size: 13px; font-weight: 700;
+  color: var(--ink-mid);
+}
+.curbtn.is-on { border-color: var(--accent); background: var(--accent-soft); color: var(--accent-ink); }
+.curfx { font-size: 12px; color: var(--ink-dim); margin-left: auto; }
+.curfx input {
+  width: 62px; padding: 4px 6px; border: 1px solid var(--line);
+  border-radius: 7px; font: inherit; font-size: 12.5px; background: var(--card); color: var(--ink);
+}
+.curnow {
+  border: 0; background: var(--accent-soft); color: var(--accent-ink);
+  border-radius: 7px; padding: 4px 8px; font-size: 11.5px; font-weight: 700;
+}
+
+/* 원화 손익을 주가/환율로 쪼갠 줄 */
+.fxsplit {
+  margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--line-soft);
+  font-size: 13px; color: var(--ink-mid); line-height: 1.6;
+}
+.fxsplit span { display: block; font-size: 12px; color: var(--ink-dim); margin-top: 2px; }
+.fxline {
+  margin-top: 6px; font-size: 12.5px; color: var(--ink-mid);
+  background: var(--line-soft); border-radius: 8px; padding: 8px 10px; line-height: 1.55;
+}
+.fxline span { color: var(--ink-dim); font-size: 11.5px; }
+
+.wsub { display: block; font-size: 10.5px; color: var(--ink-dim); font-weight: 600; margin-top: 1px; }
+
+/* ── 앱의 판단 vs 내 투자 ─────────────────────────────────────── */
+.cmp {
+  background: var(--card); border: 1px solid var(--accent);
+  border-radius: var(--r); padding: 15px 16px; margin: 14px 0 6px;
+}
+.cmp.none {
+  border-style: dashed; border-color: var(--line);
+  font-size: 13.5px; color: var(--ink-mid); line-height: 1.6;
+}
+.cmp-h { font-size: 14.5px; font-weight: 800; margin-bottom: 10px; }
+.cmp-row {
+  display: flex; align-items: baseline; gap: 10px;
+  padding: 8px 0; border-bottom: 1px solid var(--line-soft); font-size: 14px;
+}
+.cmp-l { flex: 1; font-weight: 700; }
+.cmp-v { font-size: 17px; font-weight: 800; font-variant-numeric: tabular-nums; }
+.cmp-diff { font-size: 13.5px; color: var(--ink-mid); margin-top: 10px; }
+.cmp-note {
+  font-size: 12px; color: var(--ink-dim); line-height: 1.6; margin-top: 10px;
+  padding-top: 10px; border-top: 1px solid var(--line-soft);
+}
 
 @media (max-width: 360px) {
   .dial-opts { grid-template-columns: 1fr; }
