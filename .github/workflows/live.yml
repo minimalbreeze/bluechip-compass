@@ -50,18 +50,41 @@ jobs:
       # 값은 절대 찍지 않는다 — 있고 없음과 길이만 본다.
       # (예전에 키를 넣었다고 생각했는데 다른 탭에 저장돼 있어서
       #  AI 단계가 조용히 skip 되는 일이 있었다. 그걸 눈에 보이게 하려는 것.)
-      # 이 저장소에서 이 워크플로가 실제로 볼 수 있는 시크릿 "이름"을 전부 찍는다.
-      # toJSON(secrets) 는 값까지 담지만 jq 로 키만 뽑아 내보내고, 값은 GitHub 이
-      # 로그에서 자동으로 *** 로 가린다. 이름만 봐도 오타·공백·저장 위치 문제가
-      # 한눈에 드러난다 — 눈으로 보고도 못 찾는 걸 세 번 반복했기 때문에 넣었다.
-      - name: 이 워크플로가 보는 시크릿 이름 목록
+      # 이름을 잘못 넣었을 가능성이 커서, 흔한 오타 후보도 함께 읽어 본다.
+      # 어느 이름으로 들어왔는지 로그에 남기고, 실제 키는 ANTHROPIC_API_KEY 로
+      # 통일해 넘긴다. (값은 절대 찍지 않는다 — 있고 없음만 본다.)
+      - name: 시크릿 이름 후보 확인
         env:
-          ALL_SECRET_NAMES: ${{ toJSON(secrets) }}
+          A1: ${{ secrets.ANTHROPIC_API_KEY }}
+          A2: ${{ secrets.ANTHROPIC_APIKEY }}
+          A3: ${{ secrets.ANTHROPIC_KEY }}
+          A4: ${{ secrets.ANTHROPIC }}
+          A5: ${{ secrets.CLAUDE_API_KEY }}
+          A6: ${{ secrets.API_KEY }}
+          A7: ${{ secrets.COMPASS }}
         run: |
-          echo "── 이 job 이 볼 수 있는 시크릿 이름 (값은 안 찍습니다) ──"
-          echo "$ALL_SECRET_NAMES" | jq -r 'keys[] | "  [" + . + "]"'
-          echo "──────────────────────────────────────────────"
-          echo "대괄호 안에 공백이나 이상한 글자가 섞여 있지 않은지 보세요."
+          hit=""
+          for n in A1 A2 A3 A4 A5 A6 A7; do
+            v="${!n}"
+            case "$n" in
+              A1) label="ANTHROPIC_API_KEY" ;; A2) label="ANTHROPIC_APIKEY" ;;
+              A3) label="ANTHROPIC_KEY" ;;     A4) label="ANTHROPIC" ;;
+              A5) label="CLAUDE_API_KEY" ;;    A6) label="API_KEY" ;;
+              A7) label="COMPASS" ;;
+            esac
+            if [ -n "$v" ]; then
+              echo "  ✔ $label — 값 있음 (길이 ${#v})"
+              [ -z "$hit" ] && hit="$label"
+            else
+              echo "  ✘ $label — 없음"
+            fi
+          done
+          echo "─────────────────────────────"
+          if [ -z "$hit" ]; then
+            echo "이 저장소의 Actions 시크릿에서 위 이름 중 어느 것도 못 찾았습니다."
+          else
+            echo "가장 먼저 찾은 이름: $hit"
+          fi
 
       - name: 시크릿 확인
         run: |
