@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-24T10:08:35.967Z",
+  "asOf": "2026-08-24T13:56:37.024Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -17,45 +17,45 @@
       "time": "2026-08-24T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1382.91,
+      "price": 1383.51,
       "prev": 1390.7900390625,
-      "chg": -0.57,
+      "chg": -0.52,
       "basis": "prev-daily-close",
-      "time": "2026-08-24T10:07:46.000Z"
+      "time": "2026-08-24T13:55:50.000Z"
     },
     "^GSPC": {
-      "price": 7674.37,
-      "prev": 7641.16015625,
-      "chg": 0.43,
+      "price": 7652.02,
+      "prev": 7674.3701171875,
+      "chg": -0.29,
       "basis": "prev-daily-close",
-      "time": "2026-08-21T20:41:52.000Z"
+      "time": "2026-08-24T13:55:51.000Z"
     },
     "^IXIC": {
-      "price": 26180.455,
-      "prev": 26067.169921875,
-      "chg": 0.43,
+      "price": 25955.479,
+      "prev": 26180.4609375,
+      "chg": -0.86,
       "basis": "prev-daily-close",
-      "time": "2026-08-21T21:15:59.000Z"
+      "time": "2026-08-24T13:55:45.000Z"
     },
     "^VIX": {
-      "price": 15.89,
+      "price": 15.85,
       "prev": 15.130000114440918,
-      "chg": 5.02,
+      "chg": 4.76,
       "basis": "prev-daily-close",
-      "time": "2026-08-24T09:52:31.000Z"
+      "time": "2026-08-24T13:40:46.000Z"
     },
     "^TNX": {
-      "price": 4.738,
-      "prev": 4.696000099182129,
-      "chg": 0.89,
+      "price": 4.708,
+      "prev": 4.73799991607666,
+      "chg": -0.63,
       "basis": "prev-daily-close",
-      "time": "2026-08-21T18:59:54.000Z"
+      "time": "2026-08-24T13:40:42.000Z"
     }
   },
   "fx": {
     "low52": 1377.64,
     "high52": 1554.48,
-    "pct": 0.03
+    "pct": 0.033
   },
   "hist": {
     "^KS11": {
@@ -73,53 +73,53 @@
       "chg3m": -29.95
     },
     "KRW=X": {
-      "last": 1382.91,
+      "last": 1383.51,
       "low52": 1377.64,
       "high52": 1554.48,
-      "pct52": 0.03,
-      "chg3m": -8
+      "pct52": 0.033,
+      "chg3m": -7.96
     },
     "^GSPC": {
-      "last": 7674.37,
+      "last": 7652.02,
       "low52": 6343.72,
       "high52": 7798.99,
-      "pct52": 0.914,
-      "chg3m": 2.69
+      "pct52": 0.899,
+      "chg3m": 1.77
     },
     "^IXIC": {
-      "last": 26180.46,
+      "last": 25955.48,
       "low52": 20794.64,
       "high52": 27093.9,
-      "pct52": 0.855,
-      "chg3m": -0.62
+      "pct52": 0.819,
+      "chg3m": -2.63
     },
     "^VIX": {
-      "last": 15.89,
+      "last": 15.85,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.138,
-      "chg3m": -6.58
+      "pct52": 0.135,
+      "chg3m": -6.82
     },
     "^TNX": {
-      "last": 4.74,
+      "last": 4.71,
       "low52": 3.95,
       "high52": 4.74,
-      "pct52": 0.991,
-      "chg3m": 3.95
+      "pct52": 0.953,
+      "chg3m": 4.79
     }
   },
   "regime": {
     "by": "ai",
-    "asOf": "2026-08-24T10:08:21.430Z",
+    "asOf": "2026-08-24T13:56:30.360Z",
     "kr": {
       "why": {
-        "rates": "^TNX는 4.74로 1년범위 99% 위치에 3개월 +3.95%로 올라 있지만, 헤드라인에는 '국고채 금리 일제히 하락'이라고 나와 방향이 엇갈리므로 중립인 hold로 둡니다.",
-        "growth": "^KS11이 3개월간 -14.66% 하락했지만 1년범위(3142.93~9114.55) 안에서 여전히 60% 위치라 침체로 단정하기는 어렵고 둔화 국면으로 봅니다.",
-        "valuation": "현재 6696.96은 1년범위의 60% 지점으로 고점(9114.55)과 저점(3142.93) 사이 중간보다 조금 위여서 보통 수준입니다.",
-        "fx": "원/달러가 1382.91로 1년범위(1377.64~1554.48)의 3% 위치, 3개월 -8%이며 '13개월 만에 최저' 헤드라인도 있어 원화 강세입니다.",
-        "geo": "^VIX가 15.89로 1년범위 14% 위치이고 헤드라인도 배당·AI 등 기업 이슈 위주라 뚜렷한 긴장 신호가 없습니다."
+        "rates": "미국 10년물(^TNX)은 4.71%로 1년 범위 상단(위치 95%, 3개월 +4.79%)이지만 헤드라인에서는 '국고채 금리 일제히 하락'이 나와 방향이 엇갈리므로 근거가 약해 중립인 hold로 둡니다.",
+        "growth": "코스피가 3개월 -14.66%로 크게 밀렸지만 1년 범위 내 위치는 60%이고 VIX도 15.85(위치 14%)로 낮아, 침체 신호까지는 아니고 둔화 국면으로 봅니다.",
+        "valuation": "코스피 6696.96은 1년 범위 3142.93~9114.55의 위치 60% 수준으로 극단적으로 싸거나 비싸다고 말할 구간이 아닙니다.",
+        "fx": "원/달러가 1383.51로 1년 범위 위치 3%, 3개월 -7.96%이고 '원/달러 환율 13개월 만에 최저' 헤드라인도 있어 원화 강세입니다.",
+        "geo": "VIX 15.85(1년 위치 14%, 3개월 -6.82%)로 변동성이 낮고 헤드라인도 배당·2차전지·AI 등 기업 이슈 위주여서 평온으로 분류합니다."
       },
-      "summary": "원화는 1382.91까지 내려 강세이고 변동성지표(VIX 15.89)도 낮아 시장 분위기는 차분한 편입니다. 다만 코스피가 3개월 -14.66% 빠져 지수 자체는 둔화 흐름이고, 금리 방향은 자료가 엇갈려 중립으로 봅니다.",
+      "summary": "원화가 13개월 만에 최저 수준까지 강해진 가운데, 지수는 3개월간 14% 넘게 빠져 성장 흐름이 둔화된 모습입니다. 변동성 지표는 낮아 시장 불안은 크지 않고 금리 방향은 신호가 엇갈려 판단을 보류한 상태입니다.",
       "rates": "hold",
       "growth": "slow",
       "valuation": "fair",
@@ -128,13 +128,13 @@
     },
     "us": {
       "why": {
-        "rates": "^TNX가 4.74로 1년범위(3.95~4.74)의 99% 위치, 3개월 +3.95%로 상단에 붙어 있고 '채권 수익률은 더 높을 수 있다'는 헤드라인도 같은 방향입니다.",
-        "growth": "^GSPC가 7674.37로 1년범위 91% 위치이고 3개월 +2.69% 상승해 지수 흐름은 견조합니다.",
-        "valuation": "현재 7674.37은 1년 고점 7798.99에 근접한 91% 위치라 가격대가 높은 편으로 분류합니다.",
-        "fx": "원/달러 1382.91은 1년범위의 3% 위치이고 3개월 -8%로, 달러 대비 원화가 강한 상태입니다.",
-        "geo": "^VIX 15.89(1년범위 14% 위치)로 낮고 헤드라인도 실적·물가 논의 수준이라 충격 신호는 확인되지 않습니다."
+        "rates": "^TNX가 4.71%로 1년 범위 3.95~4.74의 위치 95%, 3개월 +4.79%로 시장금리가 위로 올라가는 흐름입니다.",
+        "growth": "S&P500이 7652.02로 1년 범위 위치 90%, 3개월 +1.77%로 상승세를 유지해 경기 흐름은 아직 괜찮은 편으로 봅니다.",
+        "valuation": "지수가 1년 범위 6343.72~7798.99 중 위치 90%로 고점 근처에 있어 비싼 편으로 분류합니다.",
+        "fx": "원/달러 1383.51은 1년 범위 위치 3%(3개월 -7.96%)로 달러 대비 원화가 강한 상태입니다.",
+        "geo": "국채 시장 관련 정책 헤드라인이 있으나 VIX가 15.85(1년 위치 14%)로 낮아 충격이나 뚜렷한 긴장으로 보기 어려워 평온으로 둡니다."
       },
-      "summary": "S&P500이 1년 고점 부근(91% 위치)까지 올라 가격 부담이 있는 상태에서, 10년물 금리는 4.74로 1년 최고 수준입니다. 변동성은 낮아 분위기는 안정적이지만 금리 상승과 높은 지수 위치가 함께 있는 국면입니다.",
+      "summary": "지수는 1년 고점 부근(위치 90%)에 있어 가격 부담이 있는 반면, 10년물 금리는 4.71%로 범위 상단까지 올라온 상태입니다. 변동성은 낮아 표면은 조용하지만 금리와 밸류에이션이 동시에 높은 국면입니다.",
       "rates": "hike",
       "growth": "expand",
       "valuation": "rich",
@@ -238,95 +238,95 @@
     },
     "us": {
       "MSFT": {
-        "price": 483.24,
-        "prev": 481.1499938964844,
-        "chg": 0.43,
+        "price": 485.16,
+        "prev": 483.239990234375,
+        "chg": 0.4,
         "basis": "prev-daily-close",
-        "time": "2026-08-21T20:00:01.000Z"
+        "time": "2026-08-24T13:55:59.000Z"
       },
       "AAPL": {
-        "price": 309.35,
-        "prev": 311.29998779296875,
-        "chg": -0.63,
+        "price": 311.1,
+        "prev": 309.3500061035156,
+        "chg": 0.57,
         "basis": "prev-daily-close",
-        "time": "2026-08-21T20:00:01.000Z"
+        "time": "2026-08-24T13:55:59.000Z"
       },
       "GOOGL": {
-        "price": 344.82,
-        "prev": 340.6700134277344,
-        "chg": 1.22,
+        "price": 346.95,
+        "prev": 344.82000732421875,
+        "chg": 0.62,
         "basis": "prev-daily-close",
-        "time": "2026-08-21T20:00:01.000Z"
+        "time": "2026-08-24T13:55:59.000Z"
       },
       "BRK.B": {
-        "price": 495.82,
-        "prev": 496.8599853515625,
-        "chg": -0.21,
-        "basis": "prev-daily-close",
-        "time": "2026-08-21T20:00:02.000Z"
-      },
-      "V": {
-        "price": 371.04,
-        "prev": 365.7300109863281,
+        "price": 503.01,
+        "prev": 495.82000732421875,
         "chg": 1.45,
         "basis": "prev-daily-close",
-        "time": "2026-08-21T20:00:02.000Z"
+        "time": "2026-08-24T13:55:59.000Z"
+      },
+      "V": {
+        "price": 379.655,
+        "prev": 371.0400085449219,
+        "chg": 2.32,
+        "basis": "prev-daily-close",
+        "time": "2026-08-24T13:55:59.000Z"
       },
       "JNJ": {
-        "price": 270.24,
-        "prev": 267.3699951171875,
-        "chg": 1.07,
+        "price": 271.725,
+        "prev": 270.239990234375,
+        "chg": 0.55,
         "basis": "prev-daily-close",
-        "time": "2026-08-21T20:00:02.000Z"
+        "time": "2026-08-24T13:55:53.000Z"
       },
       "PG": {
-        "price": 144.68,
-        "prev": 142.97000122070312,
-        "chg": 1.2,
+        "price": 146.31,
+        "prev": 144.67999267578125,
+        "chg": 1.13,
         "basis": "prev-daily-close",
-        "time": "2026-08-21T20:01:15.000Z"
+        "time": "2026-08-24T13:55:48.000Z"
       },
       "KO": {
-        "price": 91.1,
-        "prev": 90.5,
-        "chg": 0.66,
+        "price": 92.24,
+        "prev": 91.0999984741211,
+        "chg": 1.25,
         "basis": "prev-daily-close",
-        "time": "2026-08-21T20:00:02.000Z"
+        "time": "2026-08-24T13:55:59.000Z"
       },
       "COST": {
-        "price": 947.74,
-        "prev": 933.510009765625,
-        "chg": 1.52,
+        "price": 960.185,
+        "prev": 947.739990234375,
+        "chg": 1.31,
         "basis": "prev-daily-close",
-        "time": "2026-08-21T20:00:01.000Z"
+        "time": "2026-08-24T13:55:58.000Z"
       },
       "WM": {
-        "price": 224.06,
-        "prev": 224.9199981689453,
-        "chg": -0.38,
+        "price": 227.55,
+        "prev": 224.05999755859375,
+        "chg": 1.56,
         "basis": "prev-daily-close",
-        "time": "2026-08-21T20:00:02.000Z"
+        "time": "2026-08-24T13:55:27.000Z"
       },
       "LIN": {
-        "price": 487.57,
-        "prev": 481.2900085449219,
-        "chg": 1.3,
+        "price": 488.92,
+        "prev": 487.57000732421875,
+        "chg": 0.28,
         "basis": "prev-daily-close",
-        "time": "2026-08-21T20:00:01.000Z"
+        "time": "2026-08-24T13:55:57.000Z"
       },
       "XOM": {
-        "price": 165.11,
-        "prev": 166.14999389648438,
-        "chg": -0.63,
+        "price": 164.96,
+        "prev": 165.11000061035156,
+        "chg": -0.09,
         "basis": "prev-daily-close",
-        "time": "2026-08-21T20:03:44.000Z"
+        "time": "2026-08-24T13:55:58.000Z"
       },
       "NVDA": {
-        "price": 214.72,
-        "prev": 216.85000610351562,
-        "chg": -0.98,
+        "price": 209.71,
+        "prev": 214.72000122070312,
+        "chg": -2.33,
         "basis": "prev-daily-close",
-        "time": "2026-08-21T20:00:00.000Z"
+        "time": "2026-08-24T13:55:59.000Z"
       }
     }
   },
@@ -401,6 +401,42 @@
     ],
     "us": [
       {
+        "title": "Bessent could tap near $1 trillion Treasury General Account to fund bond buybacks, sources said",
+        "link": "https://www.cnbc.com/2026/08/24/bessent-1-trillion-treasury-general-account-bond-buybacks.html",
+        "source": "CNBC",
+        "date": "Mon, 24 Aug 2026 13:17:35 GMT",
+        "ko": "소식통에 따르면 베센트는 채권 환매 자금을 조달하기 위해 $1조에 가까운 재무부 일반 계좌를 활용할 수 있다고 말했다.",
+        "act": "watch",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "국채 수급·유동성 관련 정책 얘기라 시장 금리 흐름만 지켜보면 됩니다.",
+        "by": "ai"
+      },
+      {
+        "title": "Trump, Vance and Bessent try to calm the bond market with ‘alternative facts’",
+        "link": "https://www.marketwatch.com/story/trump-vance-and-bessent-try-to-calm-the-bond-market-with-alternative-facts-8e424378?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "date": "Mon, 24 Aug 2026 13:50:00 GMT",
+        "ko": "트럼프, 밴스, 베센트는 ‘대안적 사실‘ 로 채권 시장을 진정시키려 한다.",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "발언과 논평 위주라 기업 이익을 바꾸는 내용은 아닙니다.",
+        "by": "ai"
+      },
+      {
+        "title": "Gold, silver rally off ugly crash, but investors remain on edge",
+        "link": "https://finance.yahoo.com/markets/commodities/articles/gold-silver-rally-off-ugly-013700131.html",
+        "source": "Yahoo Finance",
+        "date": "2026-08-24T01:37:00Z",
+        "ko": "금, 은 랠리는 추악한 추락에서 벗어났지만, 투자자들은 여전히 가장자리에 있습니다.",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "sector",
+        "why": "귀금속 가격 등락은 반복되는 단기 흐름입니다.",
+        "by": "ai"
+      },
+      {
         "title": "Singapore inflation hits highest in nearly two years, but undershoots expectations",
         "link": "https://www.cnbc.com/2026/08/24/singapore-inflation-budget-iran-war.html",
         "source": "CNBC",
@@ -413,63 +449,27 @@
         "by": "ai"
       },
       {
-        "title": "The post-World War II market shift is here — and bond yields could have higher to go, says Morgan Stanley",
-        "link": "https://www.marketwatch.com/story/the-post-world-war-ii-market-shift-is-here-and-bond-yields-could-have-higher-to-go-says-morgan-stanley-9381532c?mod=mw_rss_topstories",
+        "title": "Here are two trades to make ahead of a critical week for markets as Nvidia results and Jackson Hole loom",
+        "link": "https://www.marketwatch.com/story/here-are-two-trades-to-make-ahead-of-a-critical-week-for-markets-as-nvidia-results-and-jackson-hole-loom-8ac3653c?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 24 Aug 2026 09:54:00 GMT",
-        "ko": "제2차 세계대전 이후의 시장 변화가 여기에 있으며 채권 수익률은 더 높을 수 있다고 모건 스탠리는 말합니다.",
+        "date": "Mon, 24 Aug 2026 13:31:00 GMT",
+        "ko": "다음은 Nvidia 결과와 Jackson Hole 직기로 시장에 중요한 한 주를 앞두고 이루어지는 두 가지 거래입니다.",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적 발표와 행사 일정 안내라 오늘 할 일은 없습니다.",
+        "by": "ai"
+      },
+      {
+        "title": "Gemini Expands Prediction Market Offering",
+        "link": "https://finance.yahoo.com/markets/crypto/articles/gemini-expands-prediction-market-offering-133800875.html",
+        "source": "Yahoo Finance",
+        "date": "2026-08-24T13:38:00Z",
+        "ko": "제미니, 예측 시장 제공 확대",
         "act": "none",
         "lasting": "structural",
-        "scope": "market",
-        "why": "금리 환경에 대한 증권사 전망일 뿐, 오늘 확인된 사실은 아닙니다.",
-        "by": "ai"
-      },
-      {
-        "title": "Nvidia earnings and Jackson Hole: What to watch this week",
-        "link": "https://finance.yahoo.com/markets/article/nvidia-earnings-and-jackson-hole-what-to-watch-this-week-100000082.html",
-        "source": "Yahoo Finance",
-        "date": "2026-08-23T10:00:00Z",
-        "ko": "엔비디아 수입과 잭슨 홀: 이번 주 시청할 내용",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "이번 주 일정을 안내하는 예고성 기사입니다.",
-        "by": "ai"
-      },
-      {
-        "title": "Bessent's bond gambit aimed at calming markets is instead stirring inflation worries",
-        "link": "https://www.cnbc.com/2026/08/21/bessents-bond-gambit-aimed-at-calming-markets-is-instead-stirring-inflation-worries-.html",
-        "source": "CNBC",
-        "date": "Fri, 21 Aug 2026 17:51:10 GMT",
-        "ko": "시장을 진정시키기 위한 베센트의 채권 갬빗은 오히려 인플레이션 우려를 불러일으키고 있다.",
-        "act": "watch",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "채권·물가 정책 논쟁은 금리 흐름을 볼 참고 사항입니다.",
-        "by": "ai"
-      },
-      {
-        "title": "Alibaba shares tumble as investors question whether AI spending splurge is justified",
-        "link": "https://www.marketwatch.com/story/alibaba-shares-tumble-as-investors-question-whether-ai-spending-splurge-is-justified-6989038b?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "date": "Mon, 24 Aug 2026 09:13:00 GMT",
-        "ko": "투자자들이 AI 지출 과잉이 정당화되는지에 대해 의문을 제기함에 따라 알리바바 주식 텀블",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": "sector",
-        "why": "AI 투자 회수 여부에 대한 의문은 업종 전반의 장기 쟁점입니다.",
-        "by": "ai"
-      },
-      {
-        "title": "Nvidia's Q2 earnings to test resurgent AI trade",
-        "link": "https://finance.yahoo.com/news/nvidias-q2-earnings-to-test-resurgent-ai-trade-112502189.html",
-        "source": "Yahoo Finance",
-        "date": "2026-08-23T11:25:02Z",
-        "ko": "부활하는 AI 거래를 테스트하기 위한 엔비디아의 2분기 실적",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "sector",
-        "why": "분기 실적 발표 예고로, 결과 확인 전에는 할 일이 없습니다.",
+        "scope": "company",
+        "why": "한 회사의 서비스 확대 소식으로 제목만으로는 영향 크기를 알기 어렵습니다.",
         "by": "ai"
       }
     ]
@@ -496,7 +496,12 @@
     "Alibaba shares tumble as investors question whether AI spending splurge is justified": "투자자들이 AI 지출 과잉이 정당화되는지에 대해 의문을 제기함에 따라 알리바바 주식 텀블",
     "Nvidia earnings and Jackson Hole: What to watch this week": "엔비디아 수입과 잭슨 홀: 이번 주 시청할 내용",
     "Nvidia's Q2 earnings to test resurgent AI trade": "부활하는 AI 거래를 테스트하기 위한 엔비디아의 2분기 실적",
-    "The post-World War II market shift is here — and bond yields could have higher to go, says Morgan Stanley": "제2차 세계대전 이후의 시장 변화가 여기에 있으며 채권 수익률은 더 높을 수 있다고 모건 스탠리는 말합니다."
+    "The post-World War II market shift is here — and bond yields could have higher to go, says Morgan Stanley": "제2차 세계대전 이후의 시장 변화가 여기에 있으며 채권 수익률은 더 높을 수 있다고 모건 스탠리는 말합니다.",
+    "Bessent could tap near $1 trillion Treasury General Account to fund bond buybacks, sources said": "소식통에 따르면 베센트는 채권 환매 자금을 조달하기 위해 $1조에 가까운 재무부 일반 계좌를 활용할 수 있다고 말했다.",
+    "Trump, Vance and Bessent try to calm the bond market with ‘alternative facts’": "트럼프, 밴스, 베센트는 ‘대안적 사실‘ 로 채권 시장을 진정시키려 한다.",
+    "Gold, silver rally off ugly crash, but investors remain on edge": "금, 은 랠리는 추악한 추락에서 벗어났지만, 투자자들은 여전히 가장자리에 있습니다.",
+    "Here are two trades to make ahead of a critical week for markets as Nvidia results and Jackson Hole loom": "다음은 Nvidia 결과와 Jackson Hole 직기로 시장에 중요한 한 주를 앞두고 이루어지는 두 가지 거래입니다.",
+    "Gemini Expands Prediction Market Offering": "제미니, 예측 시장 제공 확대"
   },
   "nvCache": {
     "https://www.yna.co.kr/view/AKR20260824137251008": {
@@ -602,6 +607,41 @@
       "lasting": "structural",
       "scope": "market",
       "why": "금리 환경에 대한 증권사 전망일 뿐, 오늘 확인된 사실은 아닙니다.",
+      "by": "ai"
+    },
+    "https://www.cnbc.com/2026/08/24/bessent-1-trillion-treasury-general-account-bond-buybacks.html": {
+      "act": "watch",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "국채 수급·유동성 관련 정책 얘기라 시장 금리 흐름만 지켜보면 됩니다.",
+      "by": "ai"
+    },
+    "https://www.marketwatch.com/story/trump-vance-and-bessent-try-to-calm-the-bond-market-with-alternative-facts-8e424378?mod=mw_rss_topstories": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "발언과 논평 위주라 기업 이익을 바꾸는 내용은 아닙니다.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/markets/commodities/articles/gold-silver-rally-off-ugly-013700131.html": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "sector",
+      "why": "귀금속 가격 등락은 반복되는 단기 흐름입니다.",
+      "by": "ai"
+    },
+    "https://www.marketwatch.com/story/here-are-two-trades-to-make-ahead-of-a-critical-week-for-markets-as-nvidia-results-and-jackson-hole-loom-8ac3653c?mod=mw_rss_topstories": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "실적 발표와 행사 일정 안내라 오늘 할 일은 없습니다.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/markets/crypto/articles/gemini-expands-prediction-market-offering-133800875.html": {
+      "act": "none",
+      "lasting": "structural",
+      "scope": "company",
+      "why": "한 회사의 서비스 확대 소식으로 제목만으로는 영향 크기를 알기 어렵습니다.",
       "by": "ai"
     }
   },
