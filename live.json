@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-24T15:45:46.100Z",
+  "asOf": "2026-08-24T16:46:18.573Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -17,45 +17,45 @@
       "time": "2026-08-24T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1382.74,
+      "price": 1382.98,
       "prev": 1390.7900390625,
-      "chg": -0.58,
+      "chg": -0.56,
       "basis": "prev-daily-close",
-      "time": "2026-08-24T15:45:02.000Z"
+      "time": "2026-08-24T16:45:35.000Z"
     },
     "^GSPC": {
-      "price": 7661.8,
+      "price": 7660.7,
       "prev": 7674.3701171875,
-      "chg": -0.16,
+      "chg": -0.18,
       "basis": "prev-daily-close",
-      "time": "2026-08-24T15:45:03.000Z"
+      "time": "2026-08-24T16:45:41.000Z"
     },
     "^IXIC": {
-      "price": 26082.736,
+      "price": 26077.918,
       "prev": 26180.4609375,
-      "chg": -0.37,
+      "chg": -0.39,
       "basis": "prev-daily-close",
-      "time": "2026-08-24T15:45:02.000Z"
+      "time": "2026-08-24T16:45:40.000Z"
     },
     "^VIX": {
-      "price": 15.77,
+      "price": 15.68,
       "prev": 15.130000114440918,
-      "chg": 4.23,
+      "chg": 3.64,
       "basis": "prev-daily-close",
-      "time": "2026-08-24T15:30:01.000Z"
+      "time": "2026-08-24T16:30:31.000Z"
     },
     "^TNX": {
-      "price": 4.688,
+      "price": 4.692,
       "prev": 4.73799991607666,
-      "chg": -1.06,
+      "chg": -0.97,
       "basis": "prev-daily-close",
-      "time": "2026-08-24T15:30:02.000Z"
+      "time": "2026-08-24T16:30:32.000Z"
     }
   },
   "fx": {
     "low52": 1377.64,
     "high52": 1554.48,
-    "pct": 0.027
+    "pct": 0.03
   },
   "hist": {
     "^KS11": {
@@ -73,54 +73,54 @@
       "chg3m": -27.49
     },
     "KRW=X": {
-      "last": 1382.39,
+      "last": 1382.98,
       "low52": 1377.64,
       "high52": 1554.48,
-      "pct52": 0.027,
-      "chg3m": -8.03
+      "pct52": 0.03,
+      "chg3m": -7.99
     },
     "^GSPC": {
-      "last": 7661.62,
+      "last": 7660.57,
       "low52": 6343.72,
       "high52": 7798.99,
-      "pct52": 0.906,
-      "chg3m": 1.9
+      "pct52": 0.905,
+      "chg3m": 1.88
     },
     "^IXIC": {
-      "last": 26082.74,
+      "last": 26077.92,
       "low52": 20794.64,
       "high52": 27093.9,
       "pct52": 0.839,
-      "chg3m": -2.15
+      "chg3m": -2.17
     },
     "^VIX": {
-      "last": 15.77,
+      "last": 15.68,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.131,
-      "chg3m": -7.29
+      "pct52": 0.126,
+      "chg3m": -7.82
     },
     "^TNX": {
       "last": 4.69,
       "low52": 3.95,
       "high52": 4.74,
-      "pct52": 0.928,
-      "chg3m": 4.34
+      "pct52": 0.933,
+      "chg3m": 4.43
     }
   },
   "regime": {
     "by": "ai",
-    "asOf": "2026-08-24T15:45:41.040Z",
+    "asOf": "2026-08-24T16:46:14.342Z",
     "kr": {
       "why": {
-        "rates": "미 10년물(^TNX)이 4.69%로 1년범위 상단 93% 위치이고 3개월 +4.34%로 올랐지만, 국내 헤드라인은 '국고채 금리 일제히 하락'이라 방향이 엇갈려 근거가 약해 중립값(hold)으로 둡니다.",
-        "growth": "코스피가 6912.95로 1년범위 63% 위치는 유지하지만 3개월 변화가 -11.55%로 뚜렷하게 밀려, 확장보다는 둔화 구간으로 봅니다.",
-        "valuation": "코스피 1년범위 위치가 63%로 상단도 하단도 아닌 중간대여서 보통(fair)으로 분류합니다.",
-        "fx": "원/달러가 1382.39원으로 1년범위 위치 3%, 3개월 -8.03%이며 '13개월 만에 최저' 헤드라인까지 겹쳐 원화 강세 쪽입니다.",
-        "geo": "^VIX가 15.77로 1년범위 13% 위치까지 내려와 있고, 헤드라인도 배당·AI전략 등 기업 이슈 중심이라 평온으로 봅니다."
+        "rates": "기준으로 삼는 10년물 금리(^TNX)가 4.69로 1년 범위 3.95~4.74의 93% 위치, 3개월간 +4.43%로 올라와 있어 금리 상승 쪽으로 봤습니다(다만 '국고채 금리 일제히 하락' 헤드라인은 반대 방향이라 근거가 엇갈립니다).",
+        "growth": "코스피가 6912.95로 1년 범위의 63% 위치로 낮지 않지만 3개월 변화가 -11.55%로 크게 밀려 둔화 국면으로 분류했습니다.",
+        "valuation": "1년 범위 3142.93~9114.55에서 63% 위치로 고점(9114.55)과 저점 사이 중간보다 조금 위여서 보통 수준으로 봤습니다.",
+        "fx": "원/달러가 1382.98로 1년 범위 1377.64~1554.48의 3% 위치이고 3개월 -7.99%, '13개월 만에 최저' 헤드라인까지 있어 원화 강세입니다.",
+        "geo": "VIX가 15.68로 1년 범위의 13% 위치이고 헤드라인도 배당·업종 이슈 위주여서 뚜렷한 긴장 신호가 없습니다."
       },
-      "summary": "환율은 1382원으로 1년 만에 가장 낮은 수준까지 내려와 원화가 강한 편이고 변동성 지표(VIX 15.77)도 낮지만, 코스피는 3개월간 -11.55% 밀려 경기·수급 모두 숨 고르는 국면입니다. 금리 방향은 미 국채 상승과 국고채 하락 신호가 엇갈려 아직 한쪽으로 단정하기 어렵습니다.",
-      "rates": "hold",
+      "summary": "환율은 1,382원대로 1년 중 가장 낮은 축이고 변동성 지표도 낮아 분위기는 차분하지만, 코스피는 3개월 -11.55%로 조정을 받은 상태입니다. 시장금리가 1년 상단 근처(4.69)라는 점이 부담 요인으로 남아 있는 국면입니다.",
+      "rates": "hike",
       "growth": "slow",
       "valuation": "fair",
       "fx": "strong",
@@ -128,18 +128,18 @@
     },
     "us": {
       "why": {
-        "rates": "^TNX가 4.69%로 1년범위 3.95~4.74% 중 93% 위치이고 3개월 +4.34%로 올라, 시장금리는 위로 움직이는 상태입니다.",
-        "growth": "S&P500이 7661.62로 1년범위 상단 91% 위치이고 3개월 +1.9%로 완만하게 오르고 있어 경기 인식은 괜찮은 쪽입니다.",
-        "valuation": "지수가 1년범위의 91% 지점, 고점(7798.99) 근처라 가격대는 비싼 편으로 분류합니다.",
-        "fx": "원/달러가 1382.39원(1년범위 위치 3%, 3개월 -8.03%)으로 달러가 원화 대비 약해진 상태라 원화 기준으로는 강세입니다.",
-        "geo": "'미국 관세 발표 후 달러 상승', '트럼프·베센트가 채권시장을 진정시키려 한다'는 헤드라인처럼 정책 잡음이 있으나 ^VIX는 15.77(위치 13%)로 낮아, 충격은 아닌 긴장 수준으로 봅니다."
+        "rates": "10년물 금리(^TNX)가 4.69로 1년 범위 3.95~4.74의 93% 위치, 3개월 +4.43%로 상단에 붙어 있어 금리 상승 쪽입니다.",
+        "growth": "S&P500이 7660.57로 1년 범위의 91% 위치, 3개월 +1.88%로 완만히 올라 경기 인식은 양호한 편입니다.",
+        "valuation": "지수가 1년 범위 6343.72~7798.99에서 91% 위치로 고점 부근이라 비싼 편으로 분류했습니다.",
+        "fx": "원/달러가 1382.98로 1년 범위의 3% 위치, 3개월 -7.99%라 달러 대비 원화가 강한 상태입니다.",
+        "geo": "VIX 15.68(1년 범위의 13% 위치)로 낮고 헤드라인도 국채 환매·개별 종목 이슈 중심이어서 평온으로 봤습니다."
       },
-      "summary": "미국 주식은 1년 고점 근처(범위 91% 위치)까지 올라와 가격 부담이 있는 상태이고, 10년물 금리도 4.69%로 상단권입니다. 관세·국채 발행 관련 정책 잡음은 있지만 변동성 지표는 낮아, 아직 충격이라기보다 긴장 정도의 국면입니다.",
+      "summary": "지수는 1년 고점 부근(91% 위치)이고 변동성은 15.68로 낮아 시장 분위기 자체는 안정적입니다. 다만 10년물 금리가 4.69로 1년 최고 수준이고 채권 정책발 인플레 우려 헤드라인이 있어, 가격이 비싼 구간이라는 점은 함께 봐야 합니다.",
       "rates": "hike",
       "growth": "expand",
       "valuation": "rich",
       "fx": "strong",
-      "geo": "tense"
+      "geo": "calm"
     }
   },
   "stocks": {
@@ -238,95 +238,95 @@
     },
     "us": {
       "MSFT": {
-        "price": 489.082,
+        "price": 489.02,
         "prev": 483.239990234375,
-        "chg": 1.21,
+        "chg": 1.2,
         "basis": "prev-daily-close",
-        "time": "2026-08-24T15:45:11.000Z"
+        "time": "2026-08-24T16:45:48.000Z"
       },
       "AAPL": {
-        "price": 312.235,
+        "price": 312.26,
         "prev": 309.3500061035156,
-        "chg": 0.93,
+        "chg": 0.94,
         "basis": "prev-daily-close",
-        "time": "2026-08-24T15:45:12.000Z"
+        "time": "2026-08-24T16:45:47.000Z"
       },
       "GOOGL": {
-        "price": 351.38,
+        "price": 350.97,
         "prev": 344.82000732421875,
-        "chg": 1.9,
+        "chg": 1.78,
         "basis": "prev-daily-close",
-        "time": "2026-08-24T15:45:11.000Z"
+        "time": "2026-08-24T16:45:48.000Z"
       },
       "BRK.B": {
-        "price": 501.53,
+        "price": 501.33,
         "prev": 495.82000732421875,
-        "chg": 1.15,
+        "chg": 1.11,
         "basis": "prev-daily-close",
-        "time": "2026-08-24T15:45:11.000Z"
+        "time": "2026-08-24T16:45:34.000Z"
       },
       "V": {
-        "price": 381.106,
+        "price": 380.26,
         "prev": 371.0400085449219,
-        "chg": 2.71,
+        "chg": 2.48,
         "basis": "prev-daily-close",
-        "time": "2026-08-24T15:45:11.000Z"
+        "time": "2026-08-24T16:45:49.000Z"
       },
       "JNJ": {
-        "price": 272.855,
+        "price": 273.32,
         "prev": 270.239990234375,
-        "chg": 0.97,
+        "chg": 1.14,
         "basis": "prev-daily-close",
-        "time": "2026-08-24T15:45:07.000Z"
+        "time": "2026-08-24T16:45:46.000Z"
       },
       "PG": {
-        "price": 145.93,
+        "price": 145.745,
         "prev": 144.67999267578125,
-        "chg": 0.86,
+        "chg": 0.74,
         "basis": "prev-daily-close",
-        "time": "2026-08-24T15:45:04.000Z"
+        "time": "2026-08-24T16:45:38.000Z"
       },
       "KO": {
-        "price": 91.91,
+        "price": 91.755,
         "prev": 91.0999984741211,
-        "chg": 0.89,
+        "chg": 0.72,
         "basis": "prev-daily-close",
-        "time": "2026-08-24T15:45:02.000Z"
+        "time": "2026-08-24T16:45:48.000Z"
       },
       "COST": {
-        "price": 966.72,
+        "price": 969.26,
         "prev": 947.739990234375,
-        "chg": 2,
+        "chg": 2.27,
         "basis": "prev-daily-close",
-        "time": "2026-08-24T15:45:05.000Z"
+        "time": "2026-08-24T16:45:47.000Z"
       },
       "WM": {
-        "price": 227.28,
+        "price": 226.3,
         "prev": 224.05999755859375,
-        "chg": 1.44,
+        "chg": 1,
         "basis": "prev-daily-close",
-        "time": "2026-08-24T15:44:10.000Z"
+        "time": "2026-08-24T16:45:46.000Z"
       },
       "LIN": {
-        "price": 488.02,
+        "price": 485.39,
         "prev": 487.57000732421875,
-        "chg": 0.09,
+        "chg": -0.45,
         "basis": "prev-daily-close",
-        "time": "2026-08-24T15:44:01.000Z"
+        "time": "2026-08-24T16:45:18.000Z"
       },
       "XOM": {
-        "price": 162.665,
+        "price": 162.78,
         "prev": 165.11000061035156,
-        "chg": -1.48,
+        "chg": -1.41,
         "basis": "prev-daily-close",
-        "time": "2026-08-24T15:45:10.000Z"
+        "time": "2026-08-24T16:45:47.000Z"
       },
       "NVDA": {
-        "price": 210.12,
+        "price": 210.19,
         "prev": 214.72000122070312,
-        "chg": -2.14,
+        "chg": -2.11,
         "basis": "prev-daily-close",
-        "time": "2026-08-24T15:45:13.000Z"
+        "time": "2026-08-24T16:45:48.000Z"
       }
     }
   },
@@ -425,15 +425,15 @@
         "by": "ai"
       },
       {
-        "title": "IHCL to merge Oriental Hotels under proposed share-swap deal",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/ihcl-merge-oriental-hotels-under-152259508.html",
+        "title": "Analyst rethinks Nvidia stock ahead of earnings",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/analyst-rethinks-nvidia-stock-ahead-163300755.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-24T15:22:59Z",
-        "ko": "IHCL, 제안된 주식 스왑 계약에 따라 Oriental Hotels 합병 예정",
-        "act": "watch",
-        "lasting": "structural",
+        "date": "2026-08-24T16:33:00Z",
+        "ko": "분석가는 수익보다 엔비디아 주식을 먼저 생각합니다.",
+        "act": "none",
+        "lasting": "temporary",
         "scope": "company",
-        "why": "주식 스왑 합병은 지분과 사업 구조를 바꾸므로 진행 경과를 지켜볼 만합니다.",
+        "why": "분석가 의견일 뿐 회사의 장기 이익 구조가 바뀌는 소식은 아닙니다.",
         "by": "ai"
       },
       {
@@ -449,27 +449,27 @@
         "by": "ai"
       },
       {
-        "title": "Trump, Vance and Bessent try to calm the bond market with ‘alternative facts’",
-        "link": "https://www.marketwatch.com/story/trump-vance-and-bessent-try-to-calm-the-bond-market-with-alternative-facts-8e424378?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "date": "Mon, 24 Aug 2026 13:50:00 GMT",
-        "ko": "트럼프, 밴스, 베센트는 ‘대안적 사실‘ 로 채권 시장을 진정시키려 한다.",
+        "title": "President Trump’s Portfolio Added 2 Stocks Bill Gates and Bill Ackman Also Own",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/president-trump-portfolio-added-2-162941904.html",
+        "source": "Yahoo Finance",
+        "date": "2026-08-24T16:29:41Z",
+        "ko": "트럼프 대통령의 포트폴리오에 빌 게이츠 (Bill Gates) 와 빌 애크먼 (Bill Ackman) 도 2주를 추가했다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "발언과 논평 위주라 기업 이익을 바꾸는 내용은 아닙니다.",
+        "why": "유명 투자자의 보유 종목 소식은 기업 실적과 무관한 참고 정보입니다.",
         "by": "ai"
       },
       {
-        "title": "Dollar edges up, loonie drops after U.S. announces tariffs",
-        "link": "https://finance.yahoo.com/news/dollar-pinned-at-multi-month-lows-as-debt-nerves-unnerve-investors-084611780.html",
-        "source": "Yahoo Finance",
-        "date": "2026-08-24T15:07:00Z",
-        "ko": "미국 관세 발표 후 달러가 상승, 루니 하락",
-        "act": "none",
+        "title": "Bessent's bond gambit aimed at calming markets is instead stirring inflation worries",
+        "link": "https://www.cnbc.com/2026/08/21/bessents-bond-gambit-aimed-at-calming-markets-is-instead-stirring-inflation-worries-.html",
+        "source": "CNBC",
+        "date": "Fri, 21 Aug 2026 17:51:10 GMT",
+        "ko": "시장을 진정시키기 위한 베센트의 채권 갬빗은 오히려 인플레이션 우려를 불러일으키고 있다.",
+        "act": "watch",
         "lasting": "temporary",
         "scope": "market",
-        "why": "환율 변동은 흔한 단기 반응으로 오늘 할 일은 없습니다.",
+        "why": "채권·물가 정책 논쟁은 금리 흐름을 볼 참고 사항입니다.",
         "by": "ai"
       }
     ]
@@ -506,7 +506,9 @@
     "Mortgage rate history: 1972 to 2026": "주택담보대출금리 이력: 1972년 ~ 2026년",
     "It’s time to bet big on Nvidia’s stock, says this analyst who thinks the market has it all wrong": "시장이 모두 잘못되었다고 생각하는 이 애널리스트는 엔비디아의 주식에 큰 베팅을 할 때라고 말합니다.",
     "IHCL to merge Oriental Hotels under proposed share-swap deal": "IHCL, 제안된 주식 스왑 계약에 따라 Oriental Hotels 합병 예정",
-    "Dollar edges up, loonie drops after U.S. announces tariffs": "미국 관세 발표 후 달러가 상승, 루니 하락"
+    "Dollar edges up, loonie drops after U.S. announces tariffs": "미국 관세 발표 후 달러가 상승, 루니 하락",
+    "Analyst rethinks Nvidia stock ahead of earnings": "분석가는 수익보다 엔비디아 주식을 먼저 생각합니다.",
+    "President Trump’s Portfolio Added 2 Stocks Bill Gates and Bill Ackman Also Own": "트럼프 대통령의 포트폴리오에 빌 게이츠 (Bill Gates) 와 빌 애크먼 (Bill Ackman) 도 2주를 추가했다."
   },
   "nvCache": {
     "https://www.yna.co.kr/view/AKR20260824137251008": {
@@ -682,6 +684,20 @@
       "lasting": "temporary",
       "scope": "market",
       "why": "환율 변동은 흔한 단기 반응으로 오늘 할 일은 없습니다.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/markets/stocks/articles/analyst-rethinks-nvidia-stock-ahead-163300755.html": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "분석가 의견일 뿐 회사의 장기 이익 구조가 바뀌는 소식은 아닙니다.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/markets/stocks/articles/president-trump-portfolio-added-2-162941904.html": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "유명 투자자의 보유 종목 소식은 기업 실적과 무관한 참고 정보입니다.",
       "by": "ai"
     }
   },
