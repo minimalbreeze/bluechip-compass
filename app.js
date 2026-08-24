@@ -55,6 +55,8 @@
     folds:   load('folds', {}),
     /* 종목 추가 폼은 기본으로 숨긴다 — 매일 쓰는 기능이 아니다 */
     addOpen: false,
+    q: '',            // 종목 검색어
+    pickSel: null,    // 자동완성에서 고른 종목
     editWidgets: false,
     planTab: load('planTab', 'plan'),
     /* 미국 시장 금액을 달러로 볼지 원화로 볼지 */
@@ -310,6 +312,72 @@
             document.getElementById('view-' + current).innerHTML) render();
       })
       .catch(function () { /* 없으면 없는 대로 — 링크만 보여준다 */ });
+  }
+
+  /* ══════════════════════════════════════════════════════════════════
+     종목 이름 색인 (tickers.json)
+     ------------------------------------------------------------------
+     국내·미국 상장 종목 전체 목록이라 수백 KB쯤 된다. 홈을 열 때마다 받으면
+     낭비라서 **종목 추가 폼을 처음 열 때만** 내려받는다.
+     형식은 용량을 줄인 배열: [티커, 이름, ETF여부]
+     ══════════════════════════════════════════════════════════════ */
+  var TICKERS = null;
+  var tickersState = 'idle';   // idle | loading | ready | failed
+
+  function loadTickers() {
+    if (tickersState === 'loading' || tickersState === 'ready') return;
+    if (!window.fetch) { tickersState = 'failed'; return; }
+    tickersState = 'loading';
+    fetch('tickers.json', { cache: 'default' })
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (j) {
+        if (j && (j.kr || j.us)) { TICKERS = j; tickersState = 'ready'; }
+        else tickersState = 'failed';
+        if (state.addOpen) render();
+      })
+      .catch(function () { tickersState = 'failed'; if (state.addOpen) render(); });
+  }
+
+  /* 검색. 유니버스(50년 카드에 있는 종목)를 먼저 올린다 — 이 앱이 실제로
+     평가하고 시세도 갖고 있는 종목이라 사용자에게 가장 쓸모 있다. */
+  function searchTickers(q, mk) {
+    var query = String(q || '').trim();
+    if (!query) return [];
+    var lq = query.toLowerCase();
+    var isCode = /^[0-9]{2,6}$/.test(query);
+    var out = [], seen = {};
+
+    function push(t, n, etf, inUni) {
+      /* 티커가 있으면 티커로만 중복을 판단한다. 같은 종목이라도 유니버스와
+         상장 목록의 표기가 달라서("Microsoft" vs "Microsoft Corporation")
+         이름까지 키에 넣으면 같은 회사가 두 줄로 나온다. */
+      var key = t ? 't:' + t.toUpperCase() : 'n:' + n;
+      if (seen[key]) return;
+      seen[key] = 1;
+      out.push({ t: t, n: n, etf: etf, uni: inUni, price: priceIn(mk, t) });
+    }
+
+    D.markets[mk].picks.forEach(function (p) {
+      var hay = (p.name + ' ' + (p.korName || '') + ' ' + p.ticker).toLowerCase();
+      if (hay.indexOf(lq) >= 0) push(p.ticker, p.name, 0, true);
+    });
+
+    if (TICKERS && TICKERS[mk]) {
+      var list = TICKERS[mk];
+      var starts = [], contains = [];
+      for (var i = 0; i < list.length; i++) {
+        var t = list[i][0], n = list[i][1];
+        var lt = t.toLowerCase(), ln = n.toLowerCase();
+        if (isCode ? t.indexOf(query) === 0 : (lt === lq || lt.indexOf(lq) === 0 || ln.indexOf(lq) === 0)) {
+          starts.push(list[i]);
+        } else if (!isCode && ln.indexOf(lq) > 0) {
+          contains.push(list[i]);
+        }
+        if (starts.length > 40) break;
+      }
+      starts.concat(contains).forEach(function (r) { push(r[0], r[1], r[2], false); });
+    }
+    return out.slice(0, 8);
   }
 
   function minutesAgo(iso) {
@@ -624,19 +692,67 @@
 
     if (state.addOpen) {
       var unit = isUS ? '달러' : '원';
-      h.push('<div class="card addform">' +
-        '<input id="h-name" list="bc-picks" placeholder="종목명 (예: ' + (isUS ? 'Microsoft' : '삼성전자') + ')" autocomplete="off" />' +
-        '<datalist id="bc-picks">' +
-          mk.picks.map(function (p) { return '<option value="' + esc(p.name) + '"></option>'; }).join('') +
-        '</datalist>' +
-        '<div class="addrow">' +
+      var sel = state.pickSel;
+      var results = sel ? [] : searchTickers(state.q, mkey);
+
+      h.push('<div class="card addform">');
+
+      /* 고른 종목이 있으면 확정 카드로 보여준다 — 무엇을 넣는 중인지가
+         금액을 적는 동안에도 계속 보여야 한다. */
+      if (sel) {
+        h.push('<div class="picked"><span class="picked-n">' + esc(sel.n) + '</span>' +
+          (sel.t ? '<span class="picked-t">' + esc(sel.t) + '</span>' : '') +
+          (sel.uni ? '<span class="picked-b uni">50년 카드</span>' : '') +
+          (sel.etf ? '<span class="picked-b etf">ETF</span>' : '') +
+          '<button class="picked-x" id="pick-clear">✕</button></div>');
+        h.push(sel.price !== null && sel.price !== undefined
+          ? '<div class="pickednote">현재가 <b>' + perShare(sel.price, mkey) + '</b> — 평가액이 자동으로 계산됩니다.</div>'
+          : '<div class="pickednote warn">이 종목은 <b>시세를 받아오지 않습니다.</b> 아래에 현재가를 직접 적으면 평가액이 계산됩니다(비워두면 매수 원가로 표시).</div>');
+      } else {
+        h.push('<input id="h-name" type="text" autocomplete="off" value="' + esc(state.q) + '" ' +
+          'placeholder="종목명이나 ' + (isUS ? '티커 (예: Microsoft, MSFT)' : '종목코드 (예: 삼성전자, 005930)') + '" />');
+        if (state.q) {
+          if (results.length) {
+            h.push('<div class="acbox">');
+            results.forEach(function (r, i) {
+              h.push('<button class="acitem" data-ac="' + i + '">' +
+                '<span class="ac-n">' + esc(r.n) + '</span>' +
+                (r.t ? '<span class="ac-t">' + esc(r.t) + '</span>' : '') +
+                (r.uni ? '<span class="ac-b uni">50년 카드</span>' : '') +
+                (r.etf ? '<span class="ac-b etf">ETF</span>' : '') +
+                (r.price !== null && r.price !== undefined ? '<span class="ac-p">' + perShare(r.price, mkey) + '</span>' : '') +
+              '</button>');
+            });
+            h.push('</div>');
+          } else if (tickersState === 'loading') {
+            h.push('<div class="acbox"><div class="acmsg">종목 목록을 불러오는 중…</div></div>');
+          } else if (tickersState === 'failed') {
+            h.push('<div class="acbox"><div class="acmsg">종목 목록을 못 불러왔습니다. 이름을 직접 적어도 됩니다.</div></div>');
+          } else {
+            h.push('<div class="acbox"><div class="acmsg">일치하는 종목이 없습니다. ' +
+              '<button class="linkbtn" id="pick-free">‘' + esc(state.q) + '’ 그대로 쓰기</button></div></div>');
+          }
+        }
+      }
+
+      h.push('<div class="addrow">' +
           '<label>주당 매수단가<input id="h-avg" type="number" inputmode="decimal" placeholder="' + unit + '" min="0" step="any" /></label>' +
           '<label>수량<input id="h-qty" type="number" inputmode="decimal" placeholder="주" min="0" step="any" /></label>' +
-        '</div>' +
-        (isUS ? '<label class="cashline">매수 시점 환율<input id="h-fxat" type="number" inputmode="numeric" ' +
+        '</div>');
+
+      /* 시세를 못 받아오는 종목만 현재가를 직접 받는다. 유니버스 종목까지
+         물어보면 자동 계산이라는 장점이 사라진다. */
+      if (sel && (sel.price === null || sel.price === undefined)) {
+        h.push('<label class="cashline">현재가(선택)<input id="h-cur" type="number" inputmode="decimal" placeholder="' + unit + '" min="0" step="any" /><span>' + unit + '</span></label>');
+      }
+
+      if (isUS) {
+        h.push('<label class="cashline">매수 시점 환율<input id="h-fxat" type="number" inputmode="numeric" ' +
           'value="' + state.profile.fx + '" min="800" max="2500" step="1" /><span>원</span></label>' +
-          '<div class="addnote">이 값이 있어야 원화 손익을 <b>주가 때문인지 환율 때문인지</b> 나눠 볼 수 있습니다. 모르면 그대로 두세요.</div>' : '') +
-        '<button class="btn" id="h-add">추가하기</button>' +
+          '<div class="addnote">이 값이 있어야 원화 손익을 <b>주가 때문인지 환율 때문인지</b> 나눠 볼 수 있습니다. 모르면 그대로 두세요.</div>');
+      }
+
+      h.push('<button class="btn" id="h-add">추가하기</button>' +
         '<label class="cashline">' + (isUS ? '예수금(달러)' : '예수금·파킹(만원)') +
           '<input id="h-cash" type="number" inputmode="decimal" value="' +
           (isUS ? state.cash[mkey] : state.cash[mkey] / 10000) + '" min="0" step="any" /><span>' +
@@ -1317,6 +1433,8 @@
     }
     if (ev.target.id === 'add-toggle') {
       state.addOpen = !state.addOpen;
+      if (state.addOpen) loadTickers();
+      else { state.q = ''; state.pickSel = null; }
       render();
       if (state.addOpen) {
         var n = document.getElementById('h-name');
@@ -1361,29 +1479,56 @@
     if ((el = ev.target.closest('.term'))) { openSheet(el.dataset.term); return; }
     if (ev.target.closest('[data-close]'))  { document.getElementById('sheet').hidden = true; return; }
 
+    if ((el = ev.target.closest('.acitem'))) {
+      var res2 = searchTickers(state.q, state.market);
+      var got = res2[parseInt(el.dataset.ac, 10)];
+      if (got) { state.pickSel = got; render(); focusAmount(); }
+      return;
+    }
+    if (ev.target.id === 'pick-free') {
+      state.pickSel = { t: '', n: state.q.trim(), etf: 0, uni: false, price: null };
+      render(); focusAmount();
+      return;
+    }
+    if (ev.target.id === 'pick-clear') {
+      state.pickSel = null; state.q = ''; render();
+      var qi = document.getElementById('h-name');
+      if (qi) qi.focus();
+      return;
+    }
+
     if (ev.target.id === 'h-add') {
-      var nameEl = document.getElementById('h-name');
+      var sel = state.pickSel;
       var avgEl = document.getElementById('h-avg');
       var qtyEl = document.getElementById('h-qty');
+      var curEl = document.getElementById('h-cur');
       var fxAtEl = document.getElementById('h-fxat');
-      var nm = (nameEl.value || '').trim();
-      var avg = parseFloat(avgEl.value);
-      var qty = parseFloat(qtyEl.value);
-      if (!nm)          { nameEl.focus(); return; }
-      if (!(avg > 0))   { avgEl.focus(); return; }
-      if (!(qty > 0))   { qtyEl.focus(); return; }
-      var pick = findPick(nm);
+      if (!sel) {
+        var qi2 = document.getElementById('h-name');
+        if (qi2) qi2.focus();
+        return;
+      }
+      var avg = parseFloat(avgEl && avgEl.value);
+      var qty = parseFloat(qtyEl && qtyEl.value);
+      if (!(avg > 0)) { if (avgEl) avgEl.focus(); return; }
+      if (!(qty > 0)) { if (qtyEl) qtyEl.focus(); return; }
+
       var item = {
         id: Date.now() + Math.floor(Math.random() * 1000),
-        name: pick ? pick.name : nm,
-        ticker: pick ? pick.ticker : '',
+        name: sel.n,
+        ticker: sel.t || '',
         avg: avg,
         qty: qty
       };
-      /* 매수 시점 환율을 남겨야 원화 손익을 주가/환율로 쪼갤 수 있다 */
+      /* 시세를 못 받아오는 종목은 사용자가 적은 현재가를 쓴다 */
+      var manual = parseFloat(curEl && curEl.value);
+      if (manual > 0) item.cur = manual;
       if (state.market === 'us') item.fxAt = parseInt(fxAtEl && fxAtEl.value, 10) || state.profile.fx;
+
       state.holdings[state.market].push(item);
       save('holdings', state.holdings);
+      state.pickSel = null;
+      state.q = '';
       render();
       var again = document.getElementById('h-name');
       if (again) again.focus();
@@ -1489,6 +1634,44 @@
       var f = parseInt(ev.target.value, 10);
       if (f >= 800 && f <= 2500) { state.profile.fx = f; save('profile', state.profile); }
     }
+    if (ev.target.id === 'h-name') {
+      state.q = ev.target.value;
+      state.pickSel = null;
+      /* 전체를 다시 그리면 입력칸 포커스가 날아간다. 목록만 갈아 끼운다. */
+      var box = document.querySelector('.view.is-on .acbox');
+      var host = document.querySelector('.view.is-on .addform');
+      if (!host) return;
+      var html = '';
+      var res = searchTickers(state.q, state.market);
+      if (state.q) {
+        if (res.length) {
+          html = res.map(function (r, i) {
+            return '<button class="acitem" data-ac="' + i + '">' +
+              '<span class="ac-n">' + esc(r.n) + '</span>' +
+              (r.t ? '<span class="ac-t">' + esc(r.t) + '</span>' : '') +
+              (r.uni ? '<span class="ac-b uni">50년 카드</span>' : '') +
+              (r.etf ? '<span class="ac-b etf">ETF</span>' : '') +
+              (r.price !== null && r.price !== undefined ? '<span class="ac-p">' + perShare(r.price, state.market) + '</span>' : '') +
+            '</button>';
+          }).join('');
+        } else if (tickersState === 'loading') {
+          html = '<div class="acmsg">종목 목록을 불러오는 중…</div>';
+        } else if (tickersState === 'failed') {
+          html = '<div class="acmsg">종목 목록을 못 불러왔습니다. 이름을 직접 적어도 됩니다.</div>';
+        } else {
+          html = '<div class="acmsg">일치하는 종목이 없습니다. <button class="linkbtn" id="pick-free">‘' +
+            esc(state.q) + '’ 그대로 쓰기</button></div>';
+        }
+      }
+      if (box) { box.innerHTML = html; box.hidden = !html; }
+      else if (html) {
+        var el2 = document.createElement('div');
+        el2.className = 'acbox';
+        el2.innerHTML = html;
+        ev.target.parentNode.insertBefore(el2, ev.target.nextSibling);
+      }
+      return;
+    }
     if (ev.target.id === 'h-cash') {
       var c = parseFloat(ev.target.value);
       if (!(c >= 0)) c = 0;
@@ -1504,12 +1687,23 @@
   document.addEventListener('keydown', function (ev) {
     if (ev.key !== 'Enter') return;
     var id = ev.target.id;
-    if (id === 'h-name' || id === 'h-avg' || id === 'h-qty') {
+    if (id === 'h-name') {
+      ev.preventDefault();
+      var first = document.querySelector('.view.is-on .acitem');
+      if (first) first.click();
+      return;
+    }
+    if (id === 'h-avg' || id === 'h-qty' || id === 'h-cur') {
       ev.preventDefault();
       var btn = document.getElementById('h-add');
       if (btn) btn.click();
     }
   });
+
+  function focusAmount() {
+    var a = document.getElementById('h-avg');
+    if (a) a.focus();
+  }
 
   function openSheet(term) {
     var t = D.glossary[term];

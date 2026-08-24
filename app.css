@@ -911,6 +911,48 @@ body[data-market="us"] .ms-thumb { transform: translateX(100%); }
   padding-top: 10px; border-top: 1px solid var(--line-soft);
 }
 
+/* ── 종목 자동완성 ─────────────────────────────────────────────
+   목록에 없는 이름을 직접 적는 것도 막지 않는다 — 상장 목록이 낡았거나
+   해외 소형주라 빠져 있을 수 있고, 그때 입력을 막으면 앱이 쓸모없어진다. */
+.acbox {
+  border: 1.5px solid var(--accent); border-top: 0;
+  border-radius: 0 0 10px 10px; background: var(--card);
+  margin-top: -2px; overflow: hidden;
+  max-height: 330px; overflow-y: auto;
+}
+.acitem {
+  display: flex; align-items: baseline; gap: 7px; width: 100%;
+  border: 0; background: none; text-align: left;
+  padding: 11px 13px; border-bottom: 1px solid var(--line-soft);
+}
+.acitem:last-child { border-bottom: 0; }
+.acitem:hover, .acitem:focus { background: var(--accent-soft); }
+.ac-n { flex: 1; min-width: 0; font-size: 14.5px; font-weight: 700;
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.ac-t { font-size: 11px; color: var(--ink-dim); font-variant-numeric: tabular-nums; }
+.ac-b { font-size: 10px; font-weight: 800; border-radius: 5px; padding: 2px 6px; white-space: nowrap; }
+.ac-b.uni { background: var(--accent-soft); color: var(--accent-ink); }
+.ac-b.etf { background: var(--line-soft); color: var(--ink-dim); }
+.ac-p { font-size: 11.5px; color: var(--ink-mid); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.acmsg { padding: 12px 13px; font-size: 13px; color: var(--ink-dim); line-height: 1.55; }
+
+/* 고른 종목 확정 카드 — 금액을 적는 동안에도 무엇을 넣는 중인지 보여야 한다 */
+.picked {
+  display: flex; align-items: center; gap: 7px; flex-wrap: wrap;
+  background: var(--accent-soft); border-radius: 10px; padding: 11px 13px;
+}
+.picked-n { font-size: 15.5px; font-weight: 800; color: var(--accent-ink); }
+.picked-t { font-size: 11.5px; color: var(--ink-dim); font-variant-numeric: tabular-nums; }
+.picked-b { font-size: 10px; font-weight: 800; border-radius: 5px; padding: 2px 6px; }
+.picked-b.uni { background: var(--card); color: var(--accent-ink); }
+.picked-b.etf { background: var(--card); color: var(--ink-dim); }
+.picked-x {
+  margin-left: auto; border: 0; background: none;
+  font-size: 14px; color: var(--ink-dim); padding: 2px 6px;
+}
+.pickednote { font-size: 12.5px; color: var(--ink-mid); margin-top: 8px; line-height: 1.55; }
+.pickednote.warn { color: #8a5a12; }
+
 @media (max-width: 360px) {
   .dial-opts { grid-template-columns: 1fr; }
   .bar-l { flex: 0 0 70px; }

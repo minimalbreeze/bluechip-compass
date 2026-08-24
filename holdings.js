@@ -82,6 +82,9 @@ window.BCHoldings = (function () {
     var rows = items.map(function (it) {
       var r = { id: it.id, name: it.name, ticker: it.ticker || '' };
       var price = opts.priceOf ? opts.priceOf(r.ticker) : null;
+      /* 시세를 못 받아오는 종목은 사용자가 적어둔 현재가를 쓴다.
+         자동 시세가 있으면 그쪽이 항상 이긴다 — 사람이 적은 값은 낡기 때문이다. */
+      if (!(price > 0) && typeof it.cur === 'number' && it.cur > 0) price = it.cur;
 
       if (typeof it.qty === 'number' && typeof it.avg === 'number') {
         /* 새 방식: 단가 × 수량 */
