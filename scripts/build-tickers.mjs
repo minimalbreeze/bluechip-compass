@@ -102,8 +102,10 @@ async function fetchKR_kind() {
   const out = [];
   const seen = new Set();
   for (const tr of rows) {
-    const tds = (tr.match(/<td[^>]*>([\s\S]*?)<\/td>/gi) || [])
-      .map(td => clean(td.replace(/<[^>]*>/g, '')));
+    /* KIND 의 출력은 </td> 를 닫지 않는 조잡한 HTML 이다. 여는 태그로 쪼개야
+       셀이 잡힌다 — 닫는 태그를 기대하는 정규식은 0건을 낸다(실제로 겪었다). */
+    const tds = tr.split(/<t[dh][^>]*>/i).slice(1)
+      .map(c => clean(c.replace(/<[^>]*>/g, '')));
     if (tds.length < 2) continue;
     const name = tds[0];
     const code = (tds[1] || '').replace(/\D/g, '').padStart(6, '0');
@@ -119,7 +121,8 @@ async function fetchKR_kind() {
 }
 
 async function fetchKR() {
-  const tries = [['krx-json', fetchKR_krxJson], ['kind', fetchKR_kind]];
+  /* KIND 가 실제로 데이터를 내려주는 게 확인됐으므로 1순위. KRX JSON 은 예비. */
+  const tries = [['kind', fetchKR_kind], ['krx-json', fetchKR_krxJson]];
   const errs = [];
   for (const [name, fn] of tries) {
     try {
