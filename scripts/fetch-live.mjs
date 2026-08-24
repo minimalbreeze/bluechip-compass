@@ -492,8 +492,10 @@ if (process.env.ANTHROPIC_API_KEY) {
 /* ── 기사 판정 ──────────────────────────────────────────────
    기사마다 "그래서 오늘 뭘 해야 하나"를 붙인다. 사용자가 3문항을 스스로
    답하지 않아도 되게 하는 게 목적이다.
-   같은 기사를 30분마다 다시 판정할 이유가 없으므로 링크로 캐시한다 —
-   AI 를 쓸 때 비용이 여기서 대부분 줄어든다.                            */
+
+   ⚠️ 캐시에는 **AI 판정만** 담는다. 규칙 판정은 다시 계산해도 공짜인데,
+      캐시에 넣어 두면 규칙을 고쳐도 예전 판정이 그대로 남는다.
+      캐시의 목적은 API 호출을 아끼는 것이지 계산을 아끼는 게 아니다.    */
 let nvCache = {};
 if (existsSync(OUT)) {
   try { nvCache = JSON.parse(readFileSync(OUT, 'utf8')).nvCache || {}; }
@@ -506,7 +508,7 @@ for (const mk of ['kr', 'us']) {
   if (!list.length) continue;
 
   const rules = judgeAllByRules(list);
-  /* 캐시에 있는 건 그대로 쓰고, 처음 보는 기사만 새로 판정한다. */
+  /* AI 판정이 이미 있는 기사는 건너뛴다. 나머지만 새로 부른다. */
   const fresh = [];
   list.forEach((n, i) => { if (!nvCache[n.link]) fresh.push({ n, i }); });
 
@@ -521,23 +523,29 @@ for (const mk of ['kr', 'us']) {
       });
       judged = {};
       res.forEach(r => { if (r && r.i >= 1 && r.i <= fresh.length) judged[r.i - 1] = r; });
-      newsBy = 'ai';
     } catch (e) {
       failed.push('news-ai/' + mk + ': ' + e.message);
       console.error('기사 AI 판정 실패 — 규칙 판정을 쓴다:', e.message);
     }
   }
 
+  /* AI 가 답을 준 것만 캐시에 남긴다 */
   fresh.forEach((f, k) => {
-    const fb = rules[f.i];
-    const v = judged && judged[k] ? validateNews(judged[k], fb) : fb;
-    nvCache[f.n.link] = { ...v, by: judged && judged[k] ? 'ai' : 'rules' };
+    if (!judged || !judged[k]) return;
+    nvCache[f.n.link] = { ...validateNews(judged[k], rules[f.i]), by: 'ai' };
   });
 
   list.forEach((n, i) => {
     const v = nvCache[n.link] || rules[i];
-    n.act = v.act; n.lasting = v.lasting; n.scope = v.scope; n.why = v.why; n.by = v.by || 'rules';
+    n.act = v.act; n.lasting = v.lasting; n.scope = v.scope || null; n.why = v.why;
+    n.by = v.by || 'rules';
   });
+}
+
+/* 한 건이라도 AI 판정이면 화면에 'AI 판정'이라고 밝힌다. 이번 실행에서
+   새로 부른 게 없어도(전부 캐시) 그 판정을 만든 건 AI 다. */
+for (const mk of ['kr', 'us']) {
+  if (news[mk].some(n => n.by === 'ai')) { newsBy = 'ai'; break; }
 }
 
 /* 캐시가 무한정 자라지 않게 최근 것만 남긴다 */

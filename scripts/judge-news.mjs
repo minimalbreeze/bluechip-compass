@@ -27,10 +27,7 @@ const SCOPE   = ['market', 'sector', 'company'];
 /* 구조 변화를 의심할 만한 낱말. 규제·판결·기술 대체처럼 "10년 뒤 이익"을
    실제로 바꿀 수 있는 사건들이다. 키워드는 거친 잣대라 최대 'watch' 까지만
    올린다 — 제목 몇 글자로 "근거를 다시 확인하라"까지 말할 수는 없다. */
-const STRUCTURAL = /(규제|제재|판결|소송|특허|반독점|국유화|파산|회생|상장폐지|인수|합병|분할|관세|수출\s?통제|금수|리콜|불매|사업\s?철수|구조조정|감산|증설|공장\s?신설|기술\s?유출|해킹|담합|과징금|법인세|세제\s?개편|sanction|tariff|antitrust|lawsuit|verdict|patent|bankrupt|delist|merger|acquisition|recall|export\s+control|ban(?:ned|s)?\b|probe|indict)/i;
-
-/* 대부분의 뉴스가 여기에 해당한다. 분기 실적, 목표주가, 정치 발언, 하루 등락. */
-const TEMPORARY = /(전망|목표주가|의견|발언|기대|우려|급등|급락|강세|약세|반등|하락\s?마감|상승\s?마감|장중|주간|전문가|분석|추천|랠리|조정|forecast|outlook|target\s+price|analyst|rally|slip|jump|surge|tumble|close[sd]?\s+(?:up|down)|premarket|futures)/i;
+const STRUCTURAL = /(규제|제재|판결|소송|특허|반독점|국유화|파산|회생|상장폐지|인수|합병|분할|관세|무역\s?전쟁|보복\s?관세|수출\s?통제|금수|리콜|불매|사업\s?철수|구조조정|감산|증설|공장\s?신설|기술\s?유출|해킹|담합|과징금|법인세|세제\s?개편|보조금|sanction|tariff|trade\s+war|antitrust|lawsuit|verdict|patent|bankrupt|delist|merger|acquisition|recall|export\s+control|ban(?:ned|s)?\b|probe|indict|subsid)/i;
 
 const COMPANY = /(실적|영업이익|매출|배당|자사주|주주총회|CEO|대표이사|신제품|수주|계약|earnings|revenue|dividend|buyback|guidance|launch)/i;
 const MARKETW = /(코스피|코스닥|지수|환율|금리|연준|한국은행|물가|고용|국채|유가|S&P|Nasdaq|Dow|Fed|inflation|jobs|treasury|yield|oil)/i;
@@ -40,9 +37,18 @@ const MARKETW = /(코스피|코스닥|지수|환율|금리|연준|한국은행|�
    으로 두고, 구조 변화 신호어가 보일 때만 한 단계 올린다. 모르면 아무것도
    하지 않는 쪽으로 기우는 게 이 앱의 원칙이다.                             */
 export function judgeNewsByRules(item) {
-  const t = (item.ko || item.title || '');
-  const structural = STRUCTURAL.test(t) && !TEMPORARY.test(t);
-  const scope = MARKETW.test(t) ? 'market' : COMPANY.test(t) ? 'company' : 'sector';
+  /* 번역과 원문을 둘 다 본다. 기계 번역이 낱말을 흘려버리는 경우가 있어
+     한쪽만 보면 신호를 놓친다. */
+  const t = [item.ko, item.title].filter(Boolean).join(' / ');
+  /* "일시적 표현이 섞이면 제외"하는 조건을 뒀다가 뺐다. 한 제목에 구조적
+     사건과 시황 낱말이 같이 오는 게 오히려 보통이라("무역 전쟁으로 향하며
+     주식 선물 하락"), 그 조건이 진짜 신호를 지웠다.
+     규칙 판정은 어차피 'watch'(기억만 하고 오늘은 아무것도 안 함)까지만
+     올라가므로, 잘못 걸리는 비용보다 놓치는 비용이 크다. */
+  const structural = STRUCTURAL.test(t);
+  /* 어느 쪽인지 모르면 비워 둔다. 전부 '업종'으로 찍어두면 그건 정보가
+     아니라 고장 난 칸이다 — 모르면 모른다고 하는 게 낫다. */
+  const scope = MARKETW.test(t) ? 'market' : COMPANY.test(t) ? 'company' : null;
 
   if (structural) {
     return {
@@ -131,7 +137,9 @@ export function validateNews(judged, fallback) {
   const out = {
     act:     ACT.indexOf(judged.act) >= 0 ? judged.act : fallback.act,
     lasting: LASTING.indexOf(judged.lasting) >= 0 ? judged.lasting : fallback.lasting,
-    scope:   SCOPE.indexOf(judged.scope) >= 0 ? judged.scope : fallback.scope,
+    /* 규칙 판정은 모를 때 scope 를 비워 둔다(null). 그 값이 fallback 으로
+       들어와도 그대로 통과시킨다 — 없는 게 틀린 것보다 낫다. */
+    scope:   SCOPE.indexOf(judged.scope) >= 0 ? judged.scope : (fallback.scope || null),
     why:     typeof judged.why === 'string' && judged.why.trim() ? judged.why.trim() : fallback.why
   };
   if (SELL_WORDS.test(out.why)) return fallback;
