@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-24T08:04:41.636Z",
+  "asOf": "2026-08-24T08:21:43.555Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -17,11 +17,11 @@
       "time": "2026-08-24T06:33:00.000Z"
     },
     "KRW=X": {
-      "price": 1384.08,
+      "price": 1384.68,
       "prev": 1390.7900390625,
-      "chg": -0.48,
+      "chg": -0.44,
       "basis": "prev-daily-close",
-      "time": "2026-08-24T08:04:30.000Z"
+      "time": "2026-08-24T08:21:36.000Z"
     },
     "^GSPC": {
       "price": 7674.37,
@@ -38,11 +38,11 @@
       "time": "2026-08-21T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 15.93,
+      "price": 15.94,
       "prev": 15.130000114440918,
-      "chg": 5.29,
+      "chg": 5.35,
       "basis": "prev-daily-close",
-      "time": "2026-08-24T07:49:31.000Z"
+      "time": "2026-08-24T08:06:31.000Z"
     },
     "^TNX": {
       "price": 4.738,
@@ -55,7 +55,7 @@
   "fx": {
     "low52": 1377.64,
     "high52": 1554.48,
-    "pct": 0.036
+    "pct": 0.04
   },
   "hist": {
     "^KS11": {
@@ -73,11 +73,11 @@
       "chg3m": -29.95
     },
     "KRW=X": {
-      "last": 1384.08,
+      "last": 1384.68,
       "low52": 1377.64,
       "high52": 1554.48,
-      "pct52": 0.036,
-      "chg3m": -7.92
+      "pct52": 0.04,
+      "chg3m": -7.88
     },
     "^GSPC": {
       "last": 7674.37,
@@ -94,11 +94,11 @@
       "chg3m": -0.62
     },
     "^VIX": {
-      "last": 15.93,
+      "last": 15.94,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.14,
-      "chg3m": -6.35
+      "pct52": 0.141,
+      "chg3m": -6.29
     },
     "^TNX": {
       "last": 4.74,
@@ -110,14 +110,14 @@
   },
   "regime": {
     "by": "rules",
-    "asOf": "2026-08-24T08:04:41.635Z",
+    "asOf": "2026-08-24T08:21:43.553Z",
     "kr": {
       "why": {
         "rates": "미국 10년물 금리가 지금 4.74%로, 3개월 전보다 3.95% 높고 최근 1년 범위(3.95~4.74)의 99% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
         "growth": "지수가 3개월 전보다 -14.66% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
         "valuation": "지수가 최근 1년 범위의 60% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
-        "fx": "원/달러가 1384.08원으로 최근 1년(1377.64~1554.48) 범위의 4% 지점입니다.",
-        "geo": "VIX 가 15.93입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
+        "fx": "원/달러가 1384.68원으로 최근 1년(1377.64~1554.48) 범위의 4% 지점입니다.",
+        "geo": "VIX 가 15.94입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
       },
       "rates": "hike",
       "growth": "reces",
@@ -131,8 +131,8 @@
         "rates": "미국 10년물 금리가 지금 4.74%로, 3개월 전보다 3.95% 높고 최근 1년 범위(3.95~4.74)의 99% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
         "growth": "지수가 3개월 전보다 +2.69% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
         "valuation": "지수가 최근 1년 범위의 91% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
-        "fx": "원/달러가 1384.08원으로 최근 1년(1377.64~1554.48) 범위의 4% 지점입니다.",
-        "geo": "VIX 가 15.93입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
+        "fx": "원/달러가 1384.68원으로 최근 1년(1377.64~1554.48) 범위의 4% 지점입니다.",
+        "geo": "VIX 가 15.94입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
       },
       "rates": "hike",
       "growth": "expand",
@@ -333,10 +333,10 @@
   "news": {
     "kr": [
       {
-        "title": "원/달러 환율 13개월 만에 최저…장중 1,370원대로 하락(종합)",
-        "link": "https://www.yna.co.kr/view/AKR20260824075851002",
+        "title": "美 재무 발표 앞두고…국고채 금리 일제히 하락(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260824137251008",
         "source": "연합뉴스",
-        "date": "Mon, 24 Aug 2026 16:54:04 +0900",
+        "date": "Mon, 24 Aug 2026 17:05:17 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -355,10 +355,10 @@
         "by": "rules"
       },
       {
-        "title": "금감원, 제약·바이오 공시 개선안 실무 지원 나서…내달 릴레이 설명회",
-        "link": "https://www.mk.co.kr/news/stock/12134935",
+        "title": "기업거버넌스포럼 “SK하이닉스, 솔라다임 중복상장 문제 여전”",
+        "link": "https://www.mk.co.kr/news/stock/12134994",
         "source": "매일경제",
-        "date": "Mon, 24 Aug 2026 16:32:08 +09:00",
+        "date": "Mon, 24 Aug 2026 17:05:25 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -366,10 +366,10 @@
         "by": "rules"
       },
       {
-        "title": "국고채 금리 일제히 하락…3년물 연 3.836%",
-        "link": "https://www.yna.co.kr/view/AKR20260824137200008",
+        "title": "원/달러 환율 13개월 만에 최저…장중 1,370원대로 하락(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260824075851002",
         "source": "연합뉴스",
-        "date": "Mon, 24 Aug 2026 16:40:54 +0900",
+        "date": "Mon, 24 Aug 2026 16:54:04 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -388,10 +388,10 @@
         "by": "rules"
       },
       {
-        "title": "“AI 혁신 이끈다”…신한투자증권, ‘AX 챔피언스데이’ 개최",
-        "link": "https://www.mk.co.kr/news/stock/12134925",
+        "title": "금감원, 제약·바이오 공시 개선안 실무 지원 나서…내달 릴레이 설명회",
+        "link": "https://www.mk.co.kr/news/stock/12134935",
         "source": "매일경제",
-        "date": "Mon, 24 Aug 2026 16:25:07 +09:00",
+        "date": "Mon, 24 Aug 2026 16:32:08 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -413,15 +413,15 @@
         "by": "rules"
       },
       {
-        "title": "Stock futures flat as U.S. and Canada appear headed for trade war",
-        "link": "https://www.marketwatch.com/story/stock-futures-slip-as-u-s-and-canada-appear-headed-for-trade-war-a9814b24?mod=mw_rss_topstories",
+        "title": "There are six stocks that hedge funds and mutual funds are both overweight — and SpaceX is one",
+        "link": "https://www.marketwatch.com/story/there-are-six-stocks-that-hedge-funds-and-mutual-funds-are-both-overweight-and-spacex-is-one-2a17ffb1?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 24 Aug 2026 03:02:00 GMT",
-        "ko": "미국과 캐나다가 무역 전쟁으로 향하는 것처럼 보이기 때문에 주식 선물은 평평합니다.",
-        "act": "watch",
-        "lasting": "structural",
+        "date": "Mon, 24 Aug 2026 08:10:00 GMT",
+        "ko": "헤지펀드와 뮤추얼펀드가 모두 과체중인 주식은 6개이며 SpaceX는 1개입니다.",
+        "act": "none",
+        "lasting": "temporary",
         "scope": null,
-        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
@@ -449,15 +449,15 @@
         "by": "rules"
       },
       {
-        "title": "‘The market is obviously on fire’: Should I take $1,000 from my brokerage account to pay off my car loan?",
-        "link": "https://www.marketwatch.com/story/the-market-is-obviously-on-fire-is-it-a-mistake-to-take-1-000-from-my-brokerage-account-to-pay-my-car-loan-65800d1f?mod=mw_rss_topstories",
+        "title": "Stock futures flat as U.S. and Canada appear headed for trade war",
+        "link": "https://www.marketwatch.com/story/stock-futures-slip-as-u-s-and-canada-appear-headed-for-trade-war-a9814b24?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Sun, 23 Aug 2026 19:00:00 GMT",
-        "ko": "‘시장은 분명히 불타고 있습니다’: 자동차 대출금을 갚기 위해 중개 계좌에서 $1,000를 가져 가야합니까?",
-        "act": "none",
-        "lasting": "temporary",
+        "date": "Mon, 24 Aug 2026 03:02:00 GMT",
+        "ko": "미국과 캐나다가 무역 전쟁으로 향하는 것처럼 보이기 때문에 주식 선물은 평평합니다.",
+        "act": "watch",
+        "lasting": "structural",
         "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
         "by": "rules"
       },
       {
@@ -489,7 +489,8 @@
     "Singapore inflation hits highest in nearly two years, but undershoots expectations": "싱가포르 인플레이션은 거의 2년 만에 가장 높은 수준을 기록했지만 기대치를 밑돌았습니다.",
     "Nvidia Q2 Preview: Strong Earnings and Low Valuation Set the Stage for Upside": "Nvidia 2분기 미리보기: 강력한 수입 및 낮은 가치 평가로 거꾸로 전환",
     "Billionaire Stanley Druckenmiller Just Sold Some Sandisk Stock and Bought These 3 Unstoppable Artificial Intelligence (AI) Stocks": "억만장자 스탠리 드러켄밀러 (Stanley Druckenmiller) 는 방금 샌디스크 (Sandisk) 주식을 팔았고 막을 수 없는 인공 지능 (AI) 주식을 3개 구입했습니다.",
-    "Here’s What You Should Buy Over PayPal Holdings, Inc. (NASDAQ:PYPL) According To Jim Cramer": "짐 크레이머 (Jim Cramer) 에 따르면 PayPal Holdings, Inc. (NASDAQ: PYPL) 를 통해 구매해야 할 사항은 다음과 같습니다."
+    "Here’s What You Should Buy Over PayPal Holdings, Inc. (NASDAQ:PYPL) According To Jim Cramer": "짐 크레이머 (Jim Cramer) 에 따르면 PayPal Holdings, Inc. (NASDAQ: PYPL) 를 통해 구매해야 할 사항은 다음과 같습니다.",
+    "There are six stocks that hedge funds and mutual funds are both overweight — and SpaceX is one": "헤지펀드와 뮤추얼펀드가 모두 과체중인 주식은 6개이며 SpaceX는 1개입니다."
   },
   "nvCache": {},
   "failed": []
