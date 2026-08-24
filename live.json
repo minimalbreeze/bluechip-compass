@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-24T18:50:09.021Z",
+  "asOf": "2026-08-24T19:35:09.185Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -17,45 +17,45 @@
       "time": "2026-08-24T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1382.42,
+      "price": 1382.54,
       "prev": 1390.7900390625,
-      "chg": -0.6,
+      "chg": -0.59,
       "basis": "prev-daily-close",
-      "time": "2026-08-24T18:49:17.000Z"
+      "time": "2026-08-24T19:34:23.000Z"
     },
     "^GSPC": {
-      "price": 7661.01,
+      "price": 7657,
       "prev": 7674.3701171875,
-      "chg": -0.17,
+      "chg": -0.23,
       "basis": "prev-daily-close",
-      "time": "2026-08-24T18:49:22.000Z"
+      "time": "2026-08-24T19:34:30.000Z"
     },
     "^IXIC": {
-      "price": 26045.902,
+      "price": 26024.525,
       "prev": 26180.4609375,
-      "chg": -0.51,
+      "chg": -0.6,
       "basis": "prev-daily-close",
-      "time": "2026-08-24T18:49:20.000Z"
+      "time": "2026-08-24T19:34:29.000Z"
     },
     "^VIX": {
-      "price": 15.7,
+      "price": 15.77,
       "prev": 15.130000114440918,
-      "chg": 3.77,
+      "chg": 4.23,
       "basis": "prev-daily-close",
-      "time": "2026-08-24T18:34:16.000Z"
+      "time": "2026-08-24T19:19:16.000Z"
     },
     "^TNX": {
-      "price": 4.7,
+      "price": 4.704,
       "prev": 4.73799991607666,
-      "chg": -0.8,
+      "chg": -0.72,
       "basis": "prev-daily-close",
-      "time": "2026-08-24T18:34:12.000Z"
+      "time": "2026-08-24T18:59:52.000Z"
     }
   },
   "fx": {
     "low52": 1377.64,
     "high52": 1554.48,
-    "pct": 0.027
+    "pct": 0.028
   },
   "hist": {
     "^KS11": {
@@ -73,53 +73,53 @@
       "chg3m": -27.49
     },
     "KRW=X": {
-      "last": 1382.42,
+      "last": 1382.54,
       "low52": 1377.64,
       "high52": 1554.48,
-      "pct52": 0.027,
-      "chg3m": -8.03
+      "pct52": 0.028,
+      "chg3m": -8.02
     },
     "^GSPC": {
-      "last": 7661.03,
+      "last": 7656.9,
       "low52": 6343.72,
       "high52": 7798.99,
-      "pct52": 0.905,
-      "chg3m": 1.89
+      "pct52": 0.902,
+      "chg3m": 1.83
     },
     "^IXIC": {
-      "last": 26047.78,
+      "last": 26024.53,
       "low52": 20794.64,
       "high52": 27093.9,
-      "pct52": 0.834,
-      "chg3m": -2.28
+      "pct52": 0.83,
+      "chg3m": -2.37
     },
     "^VIX": {
-      "last": 15.7,
+      "last": 15.77,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.127,
-      "chg3m": -7.7
+      "pct52": 0.131,
+      "chg3m": -7.29
     },
     "^TNX": {
       "last": 4.7,
       "low52": 3.95,
       "high52": 4.74,
-      "pct52": 0.943,
-      "chg3m": 4.61
+      "pct52": 0.948,
+      "chg3m": 4.7
     }
   },
   "regime": {
     "by": "ai",
-    "asOf": "2026-08-24T18:50:02.908Z",
+    "asOf": "2026-08-24T19:35:04.435Z",
     "kr": {
       "why": {
-        "rates": "미국 10년물(^TNX)은 4.7%로 1년 범위 94% 지점·3개월 +4.61%로 오름세지만, 헤드라인에서는 '국고채 금리 일제히 하락'이라 국내 금리 방향은 신호가 엇갈려 중립인 hold로 둡니다.",
-        "growth": "코스피가 6912.95로 1년 범위의 63% 지점이지만 3개월 동안 -11.55% 밀려, 침체까지는 아니어도 둔화 흐름으로 봅니다.",
-        "valuation": "코스피 1년 범위 위치가 63%로 고점(9114.55)과 저점(3142.93) 사이 중간보다 조금 위인 수준이라 극단적으로 싸거나 비싸다고 보기 어렵습니다.",
-        "fx": "원/달러가 1382.42로 1년 범위(1377.64~1554.48)의 3% 지점, 3개월 -8.03%이며 '13개월 만에 최저' 헤드라인까지 겹쳐 원화가 강세입니다.",
-        "geo": "VIX가 15.7로 1년 범위의 13% 지점이고 3개월 -7.7%로 낮아, 헤드라인도 배당·업종 이슈 위주여서 평온한 편입니다."
+        "rates": "미 10년물(^TNX) 4.7%가 1년범위 95% 위치이고 3개월 +4.7%로 위쪽 압력이 있지만, '국고채 금리 일제히 하락' 헤드라인과 방향이 엇갈려 근거가 약해 중립인 hold로 둡니다.",
+        "growth": "코스피가 6912.95로 1년범위 63% 위치이나 3개월 동안 -11.55% 밀려 상승 동력이 꺾인 둔화 구간으로 봅니다.",
+        "valuation": "1년범위(3142.93~9114.55) 안에서 63% 위치로 고점도 저점도 아닌 중간대라 보통 수준으로 분류합니다.",
+        "fx": "원/달러 1382.54로 1년범위 3% 위치, 3개월 -8.02%이고 '환율 13개월 만에 최저' 헤드라인도 있어 원화 강세입니다.",
+        "geo": "VIX 15.77로 1년범위 13% 위치이고 3개월 -7.29%이며 헤드라인도 배당·업종 뉴스 위주라 긴장 신호가 없습니다."
       },
-      "summary": "원화는 1382.42원으로 13개월 만의 강세이고 변동성 지표(VIX 15.7)도 낮아 시장 분위기 자체는 차분합니다. 다만 코스피가 3개월간 -11.55% 조정을 받아 경기·이익 흐름은 둔화 국면으로 분류합니다.",
+      "summary": "환율은 1382.54로 13개월 최저 수준까지 내려온 원화 강세이고 변동성 지표(VIX 15.77)도 낮아 시장 분위기는 차분합니다. 다만 코스피가 3개월간 -11.55% 조정을 받아 지수 자체는 힘이 빠진 둔화 국면으로 읽힙니다.",
       "rates": "hold",
       "growth": "slow",
       "valuation": "fair",
@@ -128,13 +128,13 @@
     },
     "us": {
       "why": {
-        "rates": "10년물 금리(^TNX)가 4.7%로 1년 범위(3.95~4.74) 상단인 94% 지점, 3개월 +4.61%라 시장금리는 위로 올라가는 방향입니다.",
-        "growth": "S&P500이 7661.03으로 1년 범위 91% 지점이고 3개월 +1.89%로 견조해, 성장 흐름은 아직 괜찮은 쪽으로 봅니다.",
-        "valuation": "지수가 1년 고점(7798.99)에 근접한 91% 지점이고 '주식시장이 얼마나 과대평가됐는지' 같은 헤드라인이 나오는 상황이라 비싼 편으로 분류합니다.",
-        "fx": "원/달러 1382.42원, 1년 범위 위치 3%, 3개월 -8.03%로 달러 대비 원화가 강해진 상태입니다.",
-        "geo": "VIX 15.7(1년 범위 13% 지점, 3개월 -7.7%)로 낮고 헤드라인도 재무부 자금·개별 기업 실적 위주라 큰 충격 신호는 보이지 않습니다."
+        "rates": "^TNX가 4.7%로 1년범위(3.95~4.74) 95% 위치이고 3개월 +4.7%로 장기금리가 상단에서 오르는 흐름입니다.",
+        "growth": "S&P500이 7656.9로 1년범위 90% 위치이고 3개월 +1.83%로 완만하게나마 상승세를 유지해 괜찮은 상태로 봅니다.",
+        "valuation": "지수가 1년범위 상단 90% 위치에 있고 '주식시장이 얼마나 과대평가됐는지' 같은 헤드라인도 나와 비싼 편으로 분류합니다.",
+        "fx": "원/달러 1382.54는 1년범위 3% 위치, 3개월 -8.02%로 달러 대비 원화가 강해진 상태입니다.",
+        "geo": "VIX 15.77(1년범위 13% 위치, 3개월 -7.29%)로 낮고 헤드라인도 실적·재무부 자금운용 등 시장 이슈여서 평온으로 봅니다."
       },
-      "summary": "지수는 1년 고점 부근(위치 91%)이고 변동성도 낮아 분위기는 좋지만, 밸류에이션은 비싼 편으로 분류됩니다. 동시에 10년물 금리가 4.7%로 1년 상단이라 금리 부담이 함께 있는 국면입니다.",
+      "summary": "미국 지수는 1년 고점 부근(범위 90% 위치)에 있고 변동성은 낮아 분위기는 좋지만, 가격대는 비싼 편에 속합니다. 동시에 10년물 금리가 4.7%로 1년 최고 수준까지 올라와 있어 금리 부담은 남아 있는 국면입니다.",
       "rates": "hike",
       "growth": "expand",
       "valuation": "rich",
@@ -238,95 +238,95 @@
     },
     "us": {
       "MSFT": {
-        "price": 488.249,
+        "price": 488.38,
         "prev": 483.239990234375,
-        "chg": 1.04,
+        "chg": 1.06,
         "basis": "prev-daily-close",
-        "time": "2026-08-24T18:49:29.000Z"
+        "time": "2026-08-24T19:34:34.000Z"
       },
       "AAPL": {
-        "price": 311.465,
+        "price": 311.075,
         "prev": 309.3500061035156,
-        "chg": 0.68,
+        "chg": 0.56,
         "basis": "prev-daily-close",
-        "time": "2026-08-24T18:49:30.000Z"
+        "time": "2026-08-24T19:34:37.000Z"
       },
       "GOOGL": {
-        "price": 348,
+        "price": 349.18,
         "prev": 344.82000732421875,
-        "chg": 0.92,
+        "chg": 1.26,
         "basis": "prev-daily-close",
-        "time": "2026-08-24T18:49:30.000Z"
+        "time": "2026-08-24T19:34:37.000Z"
       },
       "BRK.B": {
-        "price": 502.55,
+        "price": 502.5,
         "prev": 495.82000732421875,
-        "chg": 1.36,
+        "chg": 1.35,
         "basis": "prev-daily-close",
-        "time": "2026-08-24T18:49:26.000Z"
+        "time": "2026-08-24T19:34:34.000Z"
       },
       "V": {
-        "price": 381.091,
+        "price": 382.435,
         "prev": 371.0400085449219,
-        "chg": 2.71,
+        "chg": 3.07,
         "basis": "prev-daily-close",
-        "time": "2026-08-24T18:49:29.000Z"
+        "time": "2026-08-24T19:34:36.000Z"
       },
       "JNJ": {
-        "price": 272.6,
+        "price": 272.37,
         "prev": 270.239990234375,
-        "chg": 0.87,
+        "chg": 0.79,
         "basis": "prev-daily-close",
-        "time": "2026-08-24T18:49:27.000Z"
+        "time": "2026-08-24T19:34:37.000Z"
       },
       "PG": {
-        "price": 146.04,
+        "price": 146.32,
         "prev": 144.67999267578125,
-        "chg": 0.94,
+        "chg": 1.13,
         "basis": "prev-daily-close",
-        "time": "2026-08-24T18:49:26.000Z"
+        "time": "2026-08-24T19:34:35.000Z"
       },
       "KO": {
-        "price": 91.68,
+        "price": 91.555,
         "prev": 91.0999984741211,
-        "chg": 0.64,
+        "chg": 0.5,
         "basis": "prev-daily-close",
-        "time": "2026-08-24T18:49:26.000Z"
+        "time": "2026-08-24T19:34:31.000Z"
       },
       "COST": {
-        "price": 968.07,
+        "price": 971.61,
         "prev": 947.739990234375,
-        "chg": 2.15,
+        "chg": 2.52,
         "basis": "prev-daily-close",
-        "time": "2026-08-24T18:49:17.000Z"
+        "time": "2026-08-24T19:34:30.000Z"
       },
       "WM": {
-        "price": 226.15,
+        "price": 225.975,
         "prev": 224.05999755859375,
-        "chg": 0.93,
+        "chg": 0.85,
         "basis": "prev-daily-close",
-        "time": "2026-08-24T18:49:29.000Z"
+        "time": "2026-08-24T19:34:33.000Z"
       },
       "LIN": {
-        "price": 486.95,
+        "price": 487.76,
         "prev": 487.57000732421875,
-        "chg": -0.13,
+        "chg": 0.04,
         "basis": "prev-daily-close",
-        "time": "2026-08-24T18:49:25.000Z"
+        "time": "2026-08-24T19:34:34.000Z"
       },
       "XOM": {
-        "price": 163.65,
+        "price": 163.83,
         "prev": 165.11000061035156,
-        "chg": -0.88,
+        "chg": -0.78,
         "basis": "prev-daily-close",
-        "time": "2026-08-24T18:49:25.000Z"
+        "time": "2026-08-24T19:34:34.000Z"
       },
       "NVDA": {
-        "price": 209.575,
+        "price": 208.96,
         "prev": 214.72000122070312,
-        "chg": -2.4,
+        "chg": -2.68,
         "basis": "prev-daily-close",
-        "time": "2026-08-24T18:49:30.000Z"
+        "time": "2026-08-24T19:34:34.000Z"
       }
     }
   },
@@ -461,15 +461,15 @@
         "by": "ai"
       },
       {
-        "title": "Tesla Stock in 2027: Why I Think It Still Has Room to Run",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-stock-2027-why-think-093500285.html",
+        "title": "Grant Cardone says ‘America will become a renter nation.’ Can you make the most of the market without a mortgage?",
+        "link": "https://finance.yahoo.com/real-estate/articles/grant-cardone-says-america-become-101500797.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-23T09:35:00Z",
-        "ko": "2027년 테슬라 주식: 아직도 실행할 여지가 있다고 생각하는 이유",
+        "date": "2026-08-23T10:15:00Z",
+        "ko": "그랜트 카르돈 (Grant Cardone) 은 '미국은 세입자 국가가 될 것이다.’ 모기지 없이 시장을 최대한 활용할 수 있습니까?",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
-        "why": "특정 기업 전망 의견 기사로, 실제 실적 변화를 담고 있지 않습니다.",
+        "scope": "market",
+        "why": "개인 의견성 전망으로, 기업 이익을 바꾸는 사실 확인은 어렵습니다.",
         "by": "ai"
       }
     ]
@@ -514,7 +514,8 @@
     "Bessent tapping Treasury’s rainy-day fund for buybacks isn’t a ‘bazooka’ to get markets to move his way": "Bessent tapping Treasury's rainy-day funds for buybacks is not a ‘bazooka’ to get markets to move his way",
     "Trump bought shares in Elon Musk's SpaceX in June, financial disclosure shows": "트럼프는 지난 6월 일론 머스크의 스페이스X 지분을 매입했다.",
     "Here’s how overvalued the stock market really is": "주식 시장이 실제로 얼마나 과대평가되었는지는 다음과 같습니다.",
-    "Tesla Stock in 2027: Why I Think It Still Has Room to Run": "2027년 테슬라 주식: 아직도 실행할 여지가 있다고 생각하는 이유"
+    "Tesla Stock in 2027: Why I Think It Still Has Room to Run": "2027년 테슬라 주식: 아직도 실행할 여지가 있다고 생각하는 이유",
+    "Grant Cardone says ‘America will become a renter nation.’ Can you make the most of the market without a mortgage?": "그랜트 카르돈 (Grant Cardone) 은 '미국은 세입자 국가가 될 것이다.’ 모기지 없이 시장을 최대한 활용할 수 있습니까?"
   },
   "nvCache": {
     "https://www.yna.co.kr/view/AKR20260824137251008": {
@@ -746,6 +747,13 @@
       "lasting": "temporary",
       "scope": "company",
       "why": "특정 기업 전망 의견 기사로, 실제 실적 변화를 담고 있지 않습니다.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/real-estate/articles/grant-cardone-says-america-become-101500797.html": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "개인 의견성 전망으로, 기업 이익을 바꾸는 사실 확인은 어렵습니다.",
       "by": "ai"
     }
   },
