@@ -498,8 +498,12 @@ if (process.env.ANTHROPIC_API_KEY) {
       캐시의 목적은 API 호출을 아끼는 것이지 계산을 아끼는 게 아니다.    */
 let nvCache = {};
 if (existsSync(OUT)) {
-  try { nvCache = JSON.parse(readFileSync(OUT, 'utf8')).nvCache || {}; }
-  catch { nvCache = {}; }
+  try {
+    /* 예전 파일에는 규칙 판정도 담겨 있다. 그걸 그대로 읽으면 규칙을 고쳐도
+       예전 판정이 계속 이긴다 — 읽는 단계에서 AI 판정만 남긴다. */
+    const raw = JSON.parse(readFileSync(OUT, 'utf8')).nvCache || {};
+    for (const k in raw) if (raw[k] && raw[k].by === 'ai') nvCache[k] = raw[k];
+  } catch { nvCache = {}; }
 }
 
 let newsBy = 'rules';
