@@ -70,6 +70,10 @@
   };
   ['kr', 'us'].forEach(function (mk) {
     if (!state.sim[mk] || !state.sim[mk].pos) state.sim[mk] = SIM.blank();
+    /* 자동 운용이 생기기 전에 시작한 계좌에는 auto 가 없다. 켜서 이관한다 —
+       기존 계좌도 오늘부터 앱의 판단을 따라가야 비교가 성립한다. */
+    if (typeof state.sim[mk].auto !== 'boolean') state.sim[mk].auto = true;
+    if (state.sim[mk].lastAuto === undefined) state.sim[mk].lastAuto = null;
   });
   /* 예전에는 현금을 두 시장 모두 '만원'으로 저장했다. 이제는 그 시장 통화의
      기본 단위(국내: 원, 미국: 달러)로 저장하므로 한 번만 이관한다. */
@@ -263,12 +267,34 @@
   }
 
   /* 모의투자 계산에 쓰는 값 묶음 — live·시장·환율을 매번 넘겨야 해서 모아둔다 */
-  function simCtx() {
-    return { live: LIVE, market: state.market, fx: state.profile.fx, today: ymd(today()) };
+  /* 모의투자의 목표는 "지금 국면으로 다시 계산한 배분"이다.
+     국면이 바뀌면 목표가 바뀌고, 자동 운용이 계좌를 그쪽으로 끌고 간다. */
+  function simModel(mk) {
+    return P.build(mk, state.sim[mk].style || state.style, M.tilt(regimeOf(mk)).cash).holdings;
+  }
+  function simCtx(mk) {
+    var m = mk || state.market;
+    return { live: LIVE, market: m, fx: state.profile.fx, today: ymd(today()), model: simModel(m) };
   }
   function simState() { return state.sim[state.market]; }
   function simSave() { save('sim', state.sim); }
   function simRunning() { return !!simState().started; }
+
+  /* ── 자동 운용을 돌린다 ────────────────────────────────────────
+     화면을 그리기 전에 두 시장 모두 한 번씩 확인한다. 사용자가 국내 탭만
+     보고 있어도 미국 계좌가 방치되면 안 된다 — 그러면 나중에 "앱의 판단"이
+     아니라 "그날의 판단"이 남는다. 하루 한 번까지만 움직인다(sim.js).      */
+  function simAutoTick() {
+    if (!LIVE || !LIVE.stocks) return;
+    var moved = false;
+    ['kr', 'us'].forEach(function (mk) {
+      var st = state.sim[mk];
+      if (!st || !st.started || !st.auto) return;
+      var res = SIM.autoRun(st, simCtx(mk));
+      if (res.ran) moved = true;
+    });
+    if (moved) simSave();
+  }
 
   /* ══════════════════════════════════════════════════════════════════
      홈 위젯 + 접이식 영역
@@ -482,8 +508,8 @@
     { i: '🧺', t: '보유 종목들이 같이 빠지는 종목인지 확인하세요', d: '종목 수가 많아도 같은 업종이면 분산이 아닙니다.' },
     { i: '💱', t: '증권사 환전 우대율을 한 번 비교해보세요', d: '장기 적립이면 우대율이 매매 수수료보다 크게 작용합니다.' },
     { i: '📅', t: '자동이체 날짜가 월급날 다음 날로 걸려 있는지 보세요', d: '의지력을 쓰지 않게 만드는 게 핵심입니다.' },
-    { i: '🗞️', t: '오늘 본 뉴스가 10년 뒤 이익을 바꾸는지 자문해보세요', d: '아니라면 오늘 할 일은 없습니다. 대부분의 뉴스가 그렇습니다.' },
-    { i: '⚖️', t: '목표 비중에서 5%p 이상 벌어진 종목이 있는지 확인하세요', d: '있으면 되돌리고, 없으면 아무것도 하지 않습니다.' },
+    { i: '🗞️', t: '오늘 기사 판정이 전부 “할 일 없음”이면 계좌를 열지 마세요', d: '판정을 보고 안심한 뒤 굳이 계좌를 확인하면, 결국 아무 이유 없이 매매하게 됩니다.' },
+    { i: '⚖️', t: '실제 계좌의 비중을 모의투자의 목표 비중과 비교해보세요', d: '모의투자는 국면이 바뀔 때마다 자동으로 맞춰집니다. 내 계좌는 얼마나 벌어져 있나요.' },
     { i: '💸', t: '고배당 종목의 배당성향이 무리하지 않은지 확인하세요', d: '수익률이 높은 게 아니라 주가가 빠져서 높아 보이는 경우가 많습니다.' },
     { i: '🎯', t: '이번 달 넣을 금액을 몇 번에 나눌지 정해두세요', d: '정해두면 급등·급락에 계획이 흔들리지 않습니다.' }
   ];
@@ -581,10 +607,40 @@
     return h.join('');
   }
 
+  /* ── 기사 판정 표시 ────────────────────────────────────────────
+     예전에는 뉴스 밑에 3문항 자가점검을 두고 사용자가 스스로 답하게 했다.
+     좋은 질문이었지만 헤드라인마다 세 번씩 자문하는 사람은 없었고, 결국
+     헤드라인만 읽고 불안해지는 화면이 됐다. 지금은 판정기가 대신 답한다.
+
+     판정값은 셋뿐이다. 어느 것도 매매 지시가 아니다 — 이 앱은 추천하지 않는다. */
+  var ACTS = {
+    none:   { i: '✅', l: '오늘 할 일 없음', c: 'act-none' },
+    watch:  { i: '👀', l: '지켜보기',        c: 'act-watch' },
+    review: { i: '🔍', l: '근거 다시 확인',  c: 'act-review' }
+  };
+  var SCOPES = { market: '시장 전체', sector: '업종', company: '개별 회사' };
+
+  /* 오늘 기사 전체를 한 줄로 요약한다. 여섯 건을 다 읽지 않아도
+     "오늘은 할 일이 없다"를 먼저 알 수 있어야 한다. */
+  function newsRollup(list) {
+    var n = { none: 0, watch: 0, review: 0 };
+    list.forEach(function (x) { if (n[x.act] !== undefined) n[x.act]++; else n.none++; });
+    var by = LIVE && LIVE.newsBy === 'ai' ? '🤖 AI' : '📐 규칙';
+    if (!n.watch && !n.review) {
+      return '<div class="rollup ok"><b>오늘 할 일은 없습니다.</b> 기사 ' + list.length +
+        '건 모두 이미 가격에 반영됐을 이야기로 봤습니다. <span class="rollup-by">' + by + ' 판정</span></div>';
+    }
+    var parts = [];
+    if (n.review) parts.push('<b>' + n.review + '건</b>은 투자 근거를 다시 확인');
+    if (n.watch) parts.push('<b>' + n.watch + '건</b>은 지켜보기');
+    return '<div class="rollup warn">기사 ' + list.length + '건 중 ' + parts.join(', ') +
+      ', 나머지 ' + n.none + '건은 할 일 없음. <b>오늘 매매하라는 뜻이 아닙니다.</b>' +
+      ' <span class="rollup-by">' + by + ' 판정</span></div>';
+  }
+
   /* ── 위젯: 뉴스 ──
      뉴스는 이 앱의 목적(감정 매매 줄이기)과 부딪히기 쉬운 콘텐츠다.
-     그래서 헤드라인만 주고, 바로 아래에 "이 뉴스에 팔아야 하나?" 3문항으로
-     가는 길을 붙인다. 읽고 나서 바로 매매하러 가지 않게 하는 장치다. */
+     그래서 헤드라인마다 판정 한 줄을 붙이고, 위에 오늘 전체 요약을 둔다. */
   function newsWidget() {
     var list = LIVE && LIVE.news ? LIVE.news[state.market] : null;
     var h = [];
@@ -597,6 +653,7 @@
       return h.join('');
     }
     var translated = 0;
+    h.push(newsRollup(list));
     h.push('<div class="newslist">');
     list.forEach(function (n) {
       var u = safeUrl(n.link);
@@ -606,20 +663,29 @@
          사용자가 확인할 방법이 없어진다. */
       var hasKo = !!n.ko;
       if (hasKo) translated++;
-      h.push('<a class="newsitem" href="' + esc(u) + '" target="_blank" rel="noopener">' +
-        '<span class="news-body">' +
-          '<span class="news-t">' + esc(hasKo ? n.ko : n.title) + '</span>' +
-          (hasKo ? '<span class="news-o">' + esc(n.title) + '</span>' : '') +
-        '</span>' +
-        '<span class="news-s">' + esc(n.source) + '</span></a>');
+      var act = ACTS[n.act] || ACTS.none;
+      h.push('<div class="newsitem">' +
+        '<a class="news-hd" href="' + esc(u) + '" target="_blank" rel="noopener">' +
+          '<span class="news-body">' +
+            '<span class="news-t">' + esc(hasKo ? n.ko : n.title) + '</span>' +
+            (hasKo ? '<span class="news-o">' + esc(n.title) + '</span>' : '') +
+          '</span>' +
+          '<span class="news-s">' + esc(n.source) + '</span></a>' +
+        '<div class="news-v ' + act.c + '">' +
+          '<span class="nv-tag">' + act.i + ' ' + act.l + '</span>' +
+          (n.scope && SCOPES[n.scope] ? '<span class="nv-scope">' + SCOPES[n.scope] + '</span>' : '') +
+          (n.lasting === 'structural' ? '<span class="nv-scope">구조 변화 가능성</span>' : '') +
+          '<span class="nv-why">' + esc(n.why || '') + '</span>' +
+        '</div></div>');
     });
     h.push('</div>');
     if (translated) {
       h.push('<div class="newstr">🌐 미국 기사는 <b>기계 번역</b>입니다 (' + translated + '/' + list.length + '건). ' +
         '뜻이 뒤집히는 경우가 있어 원문을 함께 보여줍니다.</div>');
     }
-    h.push('<div class="newsguard">📌 <b>읽고 바로 매매하지 마세요.</b> 대부분의 뉴스는 이미 가격에 반영돼 있습니다. ' +
-      '<button class="linkbtn" data-go="learn" data-sub="study">‘이 뉴스에 팔아야 하나?’ 3문항 보기 →</button></div>');
+    h.push('<div class="newsguard">📌 <b>판정은 매매 지시가 아닙니다.</b> “근거 다시 확인”도 파는 게 아니라 ' +
+      '처음 산 이유가 아직 유효한지 보라는 뜻입니다. ' +
+      '<button class="linkbtn" data-go="learn" data-sub="study">판정 기준 보기 →</button></div>');
     if (LIVE && LIVE.asOf) h.push('<div class="idxnote">🕒 ' + agoText(LIVE.asOf) + ' 받아온 목록입니다.</div>');
     return h.join('');
   }
@@ -711,7 +777,8 @@
         '<div><span>총 손익</span><b class="' + plClass(v.pl) + '">' + signWon(v.pl) + '</b></div>' +
         '<div><span>수익률</span><b class="' + plClass(v.pl) + '">' + signPct(v.plPct) + '</b></div>' +
       '</div>' +
-      '<div class="sum-cash">' + simState().started + ' 시작 · ' + styleLabelOf(simState().style) +
+      '<div class="sum-cash">' + (simState().auto ? '🤖 자동 운용 중 · ' : '✋ 수동 · ') +
+        simState().started + ' 시작 · ' + styleLabelOf(simState().style) +
         ' · 보유 ' + v.rows.length + '종목 · 현금 ' + v.cashWeight + '%</div></div>' +
       '<button class="btn" data-go="plan" data-psub="sim" style="margin-top:10px">모의투자 열기 →</button>';
   }
@@ -902,6 +969,7 @@
     });
     h.push(fold('my-news', '🗞️', '팔지 말지 헷갈릴 때', newsHtml, { open: false }));
 
+
     h.push('<div class="foot"><b>고지.</b> 위 판단은 <b>목표 비중과의 차이</b>와 이 앱의 <b>정성 평가 점수</b>만으로 기계적으로 계산한 것입니다. ' +
       '시세는 30분마다 갱신되는 스냅샷이며, 특정 종목의 매수·매도 권유가 아닙니다.</div>');
 
@@ -1031,8 +1099,8 @@
     /* ── 시작 전 ── */
     if (!st.started) {
       h.push('<div class="sec-head"><h2>🎮 모의투자</h2>' +
-        '<p>이 앱이 제안한 배분을 그대로 굴려봅니다. ' +
-        '<b>앱의 판단과 실제 내 투자를 나란히 비교</b>하는 게 목적입니다.</p></div>');
+        '<p>이 앱이 제안한 배분을 <b>앱이 알아서 굴립니다.</b> ' +
+        '국면이 바뀌면 자동으로 조정되므로, <b>앱의 판단과 실제 내 투자를 나란히 비교</b>할 수 있습니다.</p></div>');
 
       if (!priced) {
         h.push('<div class="note" style="background:#fdf1ef;color:#9a3a31">⚠️ 아직 종목 시세를 받아오지 못해 시작할 수 없습니다. 잠시 뒤 다시 열어보세요.</div>');
@@ -1052,7 +1120,9 @@
           '<span class="style-i">' + s.icon + '</span><span class="style-l">' + s.label + '</span>' +
           '<span class="style-m">' + s.mdd + '</span></button>');
       });
-      h.push('</div><div class="stepnote">고른 방식의 모델 구성 그대로 담습니다. 시작한 뒤에도 사고팔 수 있습니다.</div></div>');
+      h.push('</div><div class="stepnote">고른 방식의 모델 구성 그대로 담습니다. ' +
+        '그 뒤로는 <b>앱이 알아서 굴립니다</b> — 국면이 바뀌어 목표 배분이 달라지면 ' +
+        '하루 한 번 사고팔아 맞춥니다. 직접 사고팔거나 자동을 끌 수도 있습니다.</div></div>');
 
       h.push('<button class="btn" id="sim-start">🎮 ' + won(p.seed) + '으로 시작하기</button>');
       h.push(simDisclaimer());
@@ -1064,13 +1134,33 @@
     h.push('<div class="sec-head"><h2>🎮 모의투자</h2>' +
       '<p>' + st.started + ' 시작 · <b>' + styleLabelOf(st.style) + '</b> · 시드 ' + won(st.seed) + '</p></div>');
 
+    /* ── 자동 운용 ──
+       사용자가 매일 들어와 사고팔지 않아도 앱의 판단대로 계좌가 움직인다.
+       무엇을 향해 가는지(목표)와 다음에 뭘 할 예정인지를 먼저 보여준다. */
+    var pending = st.auto ? [] : SIM.drift(st, simCtx());
+    h.push('<div class="autobox' + (st.auto ? ' on' : '') + '">' +
+      '<div class="autobox-h">' +
+        '<span>' + (st.auto ? '🤖 자동 운용 중' : '✋ 수동 운용') + '</span>' +
+        '<button class="autotgl" id="sim-auto">' + (st.auto ? '끄기' : '켜기') + '</button>' +
+      '</div>' +
+      '<div class="autobox-d">' + (st.auto
+        ? '오늘 국면(<b>' + M.labelRegime(regime()).full + '</b>)으로 다시 계산한 배분을 목표로 삼고, ' +
+          '목표에서 <b>' + SIM.band + '%p</b> 넘게 벌어진 자리만 <b>하루 한 번</b> 조정합니다. ' +
+          '사고파는 이유는 아래 거래 내역에 남습니다.'
+        : '자동 조정을 멈췄습니다. 계좌는 지금 상태 그대로 두고, 사고파는 건 직접 하시면 됩니다.' +
+          (pending.length ? ' 지금 목표와 <b>' + pending.length + '자리</b>가 벌어져 있습니다.' : ' 지금은 목표와 크게 벌어진 자리가 없습니다.')) +
+      '</div>' +
+      (st.lastAuto ? '<div class="autobox-t">마지막 조정 확인: ' + st.lastAuto + '</div>' : '') +
+    '</div>');
+
     h.push('<div class="card sum simsum">' +
       '<div class="sum-top"><span class="sum-l">모의 평가금액</span><span class="sum-v">' + money(v.total) + '</span></div>' +
       '<div class="simpl ' + plClass(v.pl) + '">' + signWon(v.pl) + ' <span>' + signPct(v.plPct) + '</span></div>' +
       '<div class="sum-grid">' +
         '<div><span>주식 평가</span><b>' + won(v.invested) + '</b></div>' +
         '<div><span>현금</span><b>' + won(v.cash) + '</b></div>' +
-        '<div><span>현금 비중</span><b>' + v.cashWeight + '%</b><small class="wsub">시작 ' + v.cashW0 + '%</small></div>' +
+        '<div><span>현금 비중</span><b>' + v.cashWeight + '%</b><small class="wsub">' +
+          (v.cashWT === null ? '시작 ' + v.cashW0 + '%' : '목표 ' + v.cashWT + '%') + '</small></div>' +
       '</div>' +
       (LIVE && LIVE.asOf ? '<div class="sum-cash">🕒 ' + agoText(LIVE.asOf) + ' 시세 기준' +
         (state.market === 'us' ? ' · 환율 ' + p.fx + '원 적용' : '') + '</div>' : '') +
@@ -1089,14 +1179,17 @@
         '<div class="simrow-num">평가 <b>' + won(r.value) + '</b> · 원가 ' + won(r.cost) +
           ' · 손익 <b class="' + plClass(r.pl) + '">' + signWon(r.pl) + '</b>' +
           (r.known ? '' : ' · <b>시세 없음</b>') + '</div>' +
-        /* 비중이 시작보다 얼마나 벌어졌는지 — 오른 종목은 저절로 커지고
-           내린 종목은 작아진다. 그 차이가 곧 리밸런싱이 필요한 정도다. */
+        /* 지금 비중이 목표에서 얼마나 벌어졌는지. 자동 운용이 끌고 가는 값이
+           목표이므로 눈금은 목표에 둔다. 시작 비중은 참고로 함께 적는다. */
         '<div class="wbar"><span class="wbar-t" style="width:' + Math.min(100, r.weight) + '%"></span>' +
-          '<span class="wbar-goal" style="left:' + Math.min(100, r.w0) + '%"></span></div>' +
-        '<div class="wlab">비중 <b>' + r.weight + '%</b> · 시작 ' + r.w0 + '%' +
-          (Math.abs(r.dw) >= 0.1
-            ? ' · <b class="' + (r.dw > 0 ? 'pl-up' : 'pl-dn') + '">' + (r.dw > 0 ? '+' : '') + r.dw + '%p</b>'
-            : ' · 변화 없음') + '</div>' +
+          '<span class="wbar-goal" style="left:' + Math.min(100, r.wT === null ? r.w0 : r.wT) + '%"></span></div>' +
+        '<div class="wlab">비중 <b>' + r.weight + '%</b>' +
+          (r.wT === null ? '' : ' · 목표 ' + r.wT + '%') +
+          (r.dT !== null && Math.abs(r.dT) >= 0.1
+            ? ' · <b class="' + (r.dT > 0 ? 'pl-up' : 'pl-dn') + '">' + (r.dT > 0 ? '+' : '') + r.dT + '%p</b>'
+            : ' · 목표대로') +
+          '<span class="wsub2">시작 ' + r.w0 + '%' +
+            (Math.abs(r.dw) >= 0.1 ? ' (' + (r.dw > 0 ? '+' : '') + r.dw + '%p)' : '') + '</span></div>' +
         '<div class="simrow-act">' +
           '<button class="sbtn buy" data-trade="buy" data-t="' + esc(r.t) + '" data-n="' + esc(r.n) + '">추가 매수</button>' +
           '<button class="sbtn sell" data-trade="sell" data-t="' + esc(r.t) + '" data-n="' + esc(r.n) + '">매도</button>' +
@@ -1121,9 +1214,12 @@
     var logHtml = '';
     st.log.slice(0, 30).forEach(function (l) {
       logHtml += '<div class="logrow"><span class="log-k ' + l.kind + '">' + (l.kind === 'buy' ? '매수' : '매도') + '</span>' +
-        '<span class="log-n">' + esc(l.n) + '</span>' +
+        '<span class="log-n">' + esc(l.n) + (l.auto ? '<span class="log-auto">자동</span>' : '') + '</span>' +
         '<span class="log-a">' + won(l.amt) + '</span>' +
-        '<span class="log-d">' + l.ts + '</span></div>';
+        '<span class="log-d">' + l.ts + '</span>' +
+        /* 왜 사고팔았는지를 남긴다. 근거 없이 잔고가 바뀌면 사용자는 그
+           계좌를 이해할 수 없고, 그러면 비교할 것도 없어진다. */
+        (l.why ? '<span class="log-w">' + esc(l.why) + '</span>' : '') + '</div>';
     });
     if (st.log.length > 30) logHtml += '<div class="logrow more">외 ' + (st.log.length - 30) + '건</div>';
     h.push(fold('sim-log', '🧾', '거래 내역', logHtml || '<div class="slot-d">아직 없습니다.</div>',
@@ -1157,7 +1253,8 @@
       '<div class="cmp-diff">차이 <b class="' + plClass(diff) + '">' + (diff > 0 ? '+' : '') + diff + '%p</b>' +
         (diff > 0 ? ' — 실제 투자가 앞서 있습니다.' : diff < 0 ? ' — 모의투자가 앞서 있습니다.' : ' — 같습니다.') + '</div>' +
       '<div class="cmp-note">⚠️ <b>단순 비교가 아닙니다.</b> 모의투자는 ' + simState().started +
-        '에 한 번에 담은 결과이고, 실제 보유는 종목마다 산 시점이 다릅니다. ' +
+        '에 담아 ' + (simState().auto ? '국면에 따라 자동으로 조정해온' : '그 뒤로는 직접 굴린') +
+        ' 결과이고, 실제 보유는 종목마다 산 시점이 다릅니다. ' +
         '기간이 다르면 수익률은 원래 다르게 나옵니다. 숫자보다 <b>어느 쪽이 덜 흔들렸는지</b>를 보세요.</div>' +
     '</div>';
   }
@@ -1388,14 +1485,28 @@
     });
     h.push(fold('lr-theme', '🔭', '방향이 거의 정해진 흐름', themeHtml, { open: false, badge: M.themes.length }));
 
-    var newsHtml = '<div class="card">';
+    /* 예전에는 이 세 질문을 사용자가 직접 답했다. 지금은 판정기가 답하고
+       기사 옆에 결과를 붙인다. 그래도 기준은 공개한다 — 어떤 잣대로 판정
+       했는지 모르면 사용자가 그 판정을 검증할 수 없다. */
+    var newsHtml = '<div class="slot-d">홈의 기사마다 붙는 판정은 아래 세 질문에 답한 결과입니다. ' +
+      '<b>사용자가 직접 답하지 않아도 됩니다</b> — 다만 기준은 알고 계셔야 그 판정을 검증할 수 있습니다.</div><div class="card">';
     D.newsRules.forEach(function (r, i) {
       newsHtml += '<div class="newsq"><div class="newsq-q">' + (i + 1) + '. ' + r.q + '</div>' +
         '<div class="newsq-a y">예 — ' + linkTerms(r.yes) + '</div>' +
         '<div class="newsq-a n">아니오 — ' + linkTerms(r.no) + '</div></div>';
     });
-    newsHtml += '<div class="note" style="margin-top:12px">셋 다 “아니오”라면 <b>오늘 할 일은 없습니다.</b></div></div>';
-    h.push(fold('lr-news', '🗞️', '이 뉴스에 팔아야 하나요?', newsHtml));
+    newsHtml += '</div><div class="card">';
+    ['none', 'watch', 'review'].forEach(function (k) {
+      newsHtml += '<div class="newsq"><div class="newsq-q">' + ACTS[k].i + ' ' + ACTS[k].l + '</div>' +
+        '<div class="newsq-a n">' + {
+          none:   '셋 다 “아니오”. 대부분의 기사가 여기입니다. <b>계좌를 열지 않는 게 정답</b>입니다.',
+          watch:  '구조를 바꿀 수 있는 사건이지만 아직 내 종목의 이야기인지 불분명합니다. <b>기억만 해두고 오늘은 아무것도 하지 않습니다.</b>',
+          review: '투자 근거 자체가 흔들릴 수 있습니다. <b>파는 게 아니라</b>, 처음 이 종목을 산 이유를 다시 읽어보라는 뜻입니다.'
+        }[k] + '</div></div>';
+    });
+    newsHtml += '</div><div class="note" style="margin-top:12px">판정에 <b>“파세요·사세요”는 들어가지 않습니다.</b> ' +
+      '들어간 문장은 걸러내고 기본 판정으로 되돌립니다 — 이 앱은 매매를 권하지 않습니다.</div>';
+    h.push(fold('lr-news', '🗞️', '기사 판정은 무엇을 보나', newsHtml));
 
     var misHtml = '';
     D.mistakes.forEach(function (m) {
@@ -1461,6 +1572,8 @@
   var current = 'home';
 
   function render() {
+    /* 그리기 전에 자동 운용을 한 번 확인한다 — 하루 한 번만 실제로 움직인다 */
+    simAutoTick();
     document.body.setAttribute('data-market', state.market);
     document.getElementById('view-' + current).innerHTML = VIEWS[current]();
 
@@ -1649,9 +1762,24 @@
       ctx.seed = state.profile.seed;
       ctx.model = model;
       state.sim[state.market] = SIM.start(ctx);
+      /* 방금 목표대로 담았으므로 오늘은 더 조정하지 않는다 */
+      state.sim[state.market].lastAuto = ymd(today());
       simSave();
       state.folds['sim-pos'] = true;
       save('folds', state.folds);
+      render();
+      return;
+    }
+    if (ev.target.id === 'sim-auto') {
+      var sa = simState();
+      sa.auto = !sa.auto;
+      /* 켤 때는 오늘 바로 한 번 돌게 한다 — 켜놓고 아무 일도 안 일어나면
+         무엇이 켜진 건지 알 수 없다. */
+      if (sa.auto) sa.lastAuto = null;
+      simSave();
+      state.simMsg = sa.auto ? '자동 운용을 켰습니다. 목표에서 벌어진 자리를 지금 조정합니다.'
+                             : '자동 운용을 껐습니다. 계좌는 지금 상태로 둡니다.';
+      state.folds['sim-log'] = true;
       render();
       return;
     }

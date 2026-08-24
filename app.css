@@ -765,11 +765,37 @@ body[data-market="us"] .ms-thumb { transform: translateX(100%); }
 
 /* ── 뉴스 ───────────────────────────────────────────────────── */
 .newslist { display: grid; }
-.newsitem {
-  display: flex; align-items: baseline; gap: 9px; text-decoration: none;
-  padding: 11px 0; border-bottom: 1px solid var(--line-soft);
-}
+.newsitem { padding: 11px 0; border-bottom: 1px solid var(--line-soft); }
 .newsitem:last-child { border-bottom: 0; }
+.news-hd {
+  display: flex; align-items: baseline; gap: 9px; text-decoration: none;
+}
+
+/* 기사 판정 — 헤드라인 바로 아래. 매매 지시가 아니라 행동 강도라
+   색은 신호등이 아니라 차분한 3단계로 둔다. */
+.news-v {
+  margin-top: 7px; padding: 8px 10px; border-radius: var(--r-s);
+  font-size: 12.5px; line-height: 1.55;
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px;
+}
+.nv-tag { font-weight: 800; white-space: nowrap; }
+.nv-scope {
+  font-size: 11px; padding: 1px 6px; border-radius: 999px;
+  background: rgba(255,255,255,.65); white-space: nowrap;
+}
+.nv-why { flex: 1 1 100%; }
+.act-none   { background: #eef6f0; border: 1px solid #d3e7da; color: #2f6b4a; }
+.act-watch  { background: #fff8ec; border: 1px solid #f3e0bd; color: #6f5019; }
+.act-review { background: #fdf1ef; border: 1px solid #f3cfcd; color: #93362f; }
+
+/* 오늘 기사 전체 한 줄 요약 — 여섯 건을 다 읽지 않아도 결론이 먼저 보인다 */
+.rollup {
+  margin-bottom: 10px; padding: 10px 12px; border-radius: var(--r-s);
+  font-size: 13px; line-height: 1.6;
+}
+.rollup.ok   { background: #eef6f0; border: 1px solid #d3e7da; color: #2f6b4a; }
+.rollup.warn { background: #fff8ec; border: 1px solid #f3e0bd; color: #6f5019; }
+.rollup-by { font-size: 11px; opacity: .75; white-space: nowrap; }
 .news-body { flex: 1; min-width: 0; display: block; }
 .news-t { display: block; font-size: 14px; color: var(--ink); line-height: 1.55; }
 /* 원문은 확인용이라 눈에 덜 띄게. 다만 읽을 수는 있어야 한다. */
@@ -843,9 +869,35 @@ body[data-market="us"] .ms-thumb { transform: translateX(100%); }
 }
 .addform input:disabled { background: var(--line-soft); color: var(--ink-dim); }
 
+/* ── 모의투자: 자동 운용 ────────────────────────────────────── */
+.autobox {
+  border: 1px solid var(--line); border-radius: var(--r-s);
+  padding: 11px 13px; margin-bottom: 11px; background: var(--card);
+}
+.autobox.on { background: var(--accent-soft); border-color: transparent; }
+.autobox-h {
+  display: flex; align-items: center; justify-content: space-between; gap: 10px;
+  font-size: 14px; font-weight: 800; color: var(--accent-ink);
+}
+.autotgl {
+  border: 1px solid var(--line); background: var(--card); color: var(--ink-mid);
+  font: inherit; font-size: 12px; font-weight: 700;
+  border-radius: 999px; padding: 4px 12px; cursor: pointer;
+}
+.autobox-d { font-size: 12.5px; line-height: 1.6; color: var(--ink-mid); margin-top: 6px; }
+.autobox-d b { color: var(--ink); }
+.autobox-t { font-size: 11px; color: var(--ink-dim); margin-top: 6px; }
+
 .logrow {
-  display: flex; align-items: baseline; gap: 8px;
+  display: flex; align-items: baseline; flex-wrap: wrap; gap: 8px;
   padding: 9px 0; border-bottom: 1px solid var(--line-soft); font-size: 13px;
+}
+/* 왜 사고팔았는지 — 줄을 통째로 차지해 잘리지 않게 한다 */
+.log-w { flex: 1 1 100%; font-size: 11.5px; color: var(--ink-dim); line-height: 1.5; }
+.log-auto {
+  font-size: 10px; font-weight: 800; margin-left: 5px; padding: 1px 5px;
+  border-radius: 4px; background: var(--accent-soft); color: var(--accent-ink);
+  vertical-align: 1px;
 }
 .logrow:last-child { border-bottom: 0; }
 .log-k {
@@ -907,6 +959,7 @@ body[data-market="us"] .ms-thumb { transform: translateX(100%); }
 .fxline span { color: var(--ink-dim); font-size: 11.5px; }
 
 .wsub { display: block; font-size: 10.5px; color: var(--ink-dim); font-weight: 600; margin-top: 1px; }
+.wsub2 { display: block; font-size: 11px; color: var(--ink-dim); margin-top: 2px; }
 
 /* ── 앱의 판단 vs 내 투자 ─────────────────────────────────────── */
 .cmp {

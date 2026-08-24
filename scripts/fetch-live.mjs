@@ -20,6 +20,7 @@
 
 import { writeFileSync, existsSync, readFileSync } from 'node:fs';
 import { judgeByRules, judgeByAI, validate } from './judge-regime.mjs';
+import { judgeAllByRules, judgeNewsByAI, validateNews } from './judge-news.mjs';
 
 const SYMBOLS = ['^KS11', '^KQ11', 'KRW=X', '^GSPC', '^IXIC', '^VIX', '^TNX'];
 
@@ -57,6 +58,7 @@ const NEWS_PER_MARKET = 6;
        MYMEMORY_EMAIL 을 넣으면 한도가 늘어난다                            */
 const TR_MAX_PER_RUN = 12;     // 한 번에 새로 번역할 최대 건수
 const TR_CACHE_MAX = 300;      // 캐시에 보관할 최대 항목 수
+const NV_CACHE_MAX = 300;      // 기사 판정 캐시(같은 기사를 30분마다 다시 판정할 이유가 없다)
 const PER_FEED = 20;
 
 /* ── 개별 종목 시세 ───────────────────────────────────────────
@@ -487,6 +489,65 @@ if (process.env.ANTHROPIC_API_KEY) {
   }
 }
 
+/* ── 기사 판정 ──────────────────────────────────────────────
+   기사마다 "그래서 오늘 뭘 해야 하나"를 붙인다. 사용자가 3문항을 스스로
+   답하지 않아도 되게 하는 게 목적이다.
+   같은 기사를 30분마다 다시 판정할 이유가 없으므로 링크로 캐시한다 —
+   AI 를 쓸 때 비용이 여기서 대부분 줄어든다.                            */
+let nvCache = {};
+if (existsSync(OUT)) {
+  try { nvCache = JSON.parse(readFileSync(OUT, 'utf8')).nvCache || {}; }
+  catch { nvCache = {}; }
+}
+
+let newsBy = 'rules';
+for (const mk of ['kr', 'us']) {
+  const list = news[mk];
+  if (!list.length) continue;
+
+  const rules = judgeAllByRules(list);
+  /* 캐시에 있는 건 그대로 쓰고, 처음 보는 기사만 새로 판정한다. */
+  const fresh = [];
+  list.forEach((n, i) => { if (!nvCache[n.link]) fresh.push({ n, i }); });
+
+  let judged = null;
+  if (process.env.ANTHROPIC_API_KEY && fresh.length) {
+    try {
+      const res = await judgeNewsByAI({
+        list: fresh.map(f => f.n),
+        marketKey: mk,
+        apiKey: process.env.ANTHROPIC_API_KEY,
+        model: process.env.ANTHROPIC_MODEL
+      });
+      judged = {};
+      res.forEach(r => { if (r && r.i >= 1 && r.i <= fresh.length) judged[r.i - 1] = r; });
+      newsBy = 'ai';
+    } catch (e) {
+      failed.push('news-ai/' + mk + ': ' + e.message);
+      console.error('기사 AI 판정 실패 — 규칙 판정을 쓴다:', e.message);
+    }
+  }
+
+  fresh.forEach((f, k) => {
+    const fb = rules[f.i];
+    const v = judged && judged[k] ? validateNews(judged[k], fb) : fb;
+    nvCache[f.n.link] = { ...v, by: judged && judged[k] ? 'ai' : 'rules' };
+  });
+
+  list.forEach((n, i) => {
+    const v = nvCache[n.link] || rules[i];
+    n.act = v.act; n.lasting = v.lasting; n.scope = v.scope; n.why = v.why; n.by = v.by || 'rules';
+  });
+}
+
+/* 캐시가 무한정 자라지 않게 최근 것만 남긴다 */
+const nvKeys = Object.keys(nvCache);
+if (nvKeys.length > NV_CACHE_MAX) {
+  const keep = {};
+  nvKeys.slice(-NV_CACHE_MAX).forEach(k => { keep[k] = nvCache[k]; });
+  nvCache = keep;
+}
+
 writeFileSync(OUT, JSON.stringify({
   asOf: new Date().toISOString(),
   source: 'Yahoo Finance chart API',
@@ -496,7 +557,9 @@ writeFileSync(OUT, JSON.stringify({
   regime,
   stocks,
   news,
+  newsBy,
   trCache,
+  nvCache,
   failed
 }, null, 2) + '\n');
 
