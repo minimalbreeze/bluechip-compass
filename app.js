@@ -1271,7 +1271,7 @@
     h.push('<div class="regime">' +
       '<div class="regime-eyebrow">' + mk.flag + ' ' + mk.full + ' · 지금의 국면</div>' +
       '<div class="regime-name">' + reg.emoji + ' ' + reg.name + '</div>' +
-      '<div class="regime-full">' + reg.full + '</div>' +
+      (reg.full !== reg.name ? '<div class="regime-full">' + reg.full + '</div>' : '') +
       '<div class="regime-tilt">현금 비중 <b>' + (tilt.cash >= 0 ? '+' : '') + tilt.cash + '%p</b> 조정 중</div>' +
     '</div>');
 
@@ -1289,7 +1289,7 @@
       '</div></div>';
     });
     judgeHtml += '</div>';
-    if (why && (by === 'ai' || by === 'rules')) {
+    if (by === 'ai') {
       var a = autoRegime(state.market);
       if (a && a.summary) judgeHtml += '<div class="note">🧭 ' + esc(a.summary) + '</div>';
     }
