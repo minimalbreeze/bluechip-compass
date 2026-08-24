@@ -500,6 +500,27 @@
     '케이티': 'kt', '엘엑스': 'lx', '에이치디': 'hd', '디비': 'db'
   };
 
+  /* 미국에 ADR 로 상장된 한국 기업. 이름이 영문뿐이라 "하이닉스"로는
+     한 줄도 안 나왔다. 그러면 사용자는 이름을 직접 적어버리고, 티커가 안 붙어
+     시세도 손익도 멈춘다(§18). 티커별로 한글 표기를 적어 둔다. */
+  var US_KOR = {
+    SKHY: '에스케이하이닉스 sk하이닉스 하이닉스',
+    SKM: '에스케이텔레콤 sk텔레콤',
+    KB: '케이비금융 kb금융',
+    SHG: '신한지주 신한금융',
+    WF: '우리금융',
+    KEP: '한국전력 한전',
+    PKX: '포스코홀딩스 포스코',
+    LPL: '엘지디스플레이 lg디스플레이',
+    CPNG: '쿠팡',
+    GRVY: '그라비티'
+  };
+
+  /* 배율·인버스 상품. "SK"를 치면 'Corgi SK hynix 2x Daily ETF'가
+     티커 정확 일치로 1등이었다 — 그걸 고르면 원주 대신 2배 ETF 가 등록된다.
+     ETF 로 표시된 줄에만 적용한다(Ultra Clean 같은 실제 기업은 건드리지 않음). */
+  var LEV = /(\b[123]x\b|ultra|inverse|leverage|\bbull\b|\bbear\b)/i;
+
   function searchTickers(q, mk) {
     var query = String(q || '').trim();
     if (!query) return [];
@@ -554,6 +575,8 @@
         } else if (ln.indexOf(lq) === 0) {
           /* 이름이 질의로 시작 — 바로 뒤가 낱말 끝이면 훨씬 좋은 매치다 */
           rank = /[a-z0-9]/.test(ln.charAt(lq.length) || ' ') ? 4 : 2;
+        } else if (US_KOR[t] && mk === 'us' && US_KOR[t].indexOf(lq) >= 0) {
+          rank = 2;                                   /* 한글 표기로 찾은 ADR */
         } else if (lt.indexOf(lq) === 0) {
           rank = 3;                                   /* 티커가 질의로 시작 */
         } else if (ln.indexOf(lq) > 0) {
@@ -564,7 +587,8 @@
           rank = 5.2;
         }
         if (rank < 0) continue;
-        if (list[i][2]) rank += 0.5;                  /* ETF 는 반 칸 뒤로 */
+        /* ETF 는 반 칸 뒤로, 배율·인버스 상품은 두 칸 뒤로 */
+        if (list[i][2]) rank += LEV.test(n) ? 2 : 0.5;
         hits.push({ r: rank, len: n.length, row: list[i] });
       }
       /* 같은 점수면 이름이 짧은 쪽 — "Intel Corporation"이

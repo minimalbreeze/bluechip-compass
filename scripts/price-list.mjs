@@ -58,8 +58,10 @@ export const US = [
   'T','VZ','TMUS','CMCSA','DIS','WBD','PARA','CHTR','NEE','DUK',
   'SO','D','AEP','EXC','SRE','XEL','ED','PEG','AMT','PLD',
   'CCI','EQIX','DLR','SPG','O','PSA','WELL','VICI','WM','RSG',
-  /* 한국 기업의 미국 상장 — 보유 사례가 실제로 있었다 */
-  'SKHY'
+  /* 한국 기업의 미국 상장(ADR) — 보유 사례가 실제로 있었다.
+     자동완성에서 한글로 찾히는 종목(app.js 의 US_KOR)과 이 목록은 같이 간다.
+     찾히는데 시세가 없으면 손익이 멈춘 채로 보인다 — 그게 원래 버그였다. */
+  'SKHY','SKM','KB','SHG','WF','KEP','PKX','LPL','CPNG','GRVY'
 ];
 
 /* 국내 — 코스피 대형주 중심 */
