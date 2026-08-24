@@ -41,20 +41,14 @@ jobs:
       - name: 시세 받아오기
         run: node scripts/fetch-live.mjs
 
-      # 상장 목록은 하루 몇 종목씩만 바뀌지만 요청이 3개뿐이라 같이 돌린다.
-      # 실패해도 워크플로를 세우지 않는다 — 시세가 더 중요하다.
-      - name: 종목 이름 색인 갱신
-        run: node scripts/build-tickers.mjs
-        continue-on-error: true
-
       - name: 바뀐 게 있으면 커밋
         run: |
-          if git diff --quiet -- live.json tickers.json; then
+          if git diff --quiet -- live.json; then
             echo "변화 없음 — 커밋하지 않는다"
             exit 0
           fi
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add live.json tickers.json
-          git commit -m "chore: 시세·종목색인 갱신 [skip ci]"
+          git add live.json
+          git commit -m "chore: 시세 스냅샷 갱신 [skip ci]"
           git push

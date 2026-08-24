@@ -1,0 +1,46 @@
+# 상장 종목 이름 색인을 하루 한 번 갱신한다.
+#
+# 왜 시세와 분리했나: 상장 목록은 하루에 몇 종목씩만 바뀐다. 시세 워크플로에
+# 얹어 30분마다 KRX를 두드렸더니 몇 분 만에 HTTP 403 으로 막혔다. 필요 이상으로
+# 남의 서버를 두드리지 않는 게 맞고, 그래야 우리 쪽도 안 막힌다.
+#
+# 실패해도 tickers.json 은 그대로 둔다(스크립트가 그렇게 동작한다).
+# 자동완성이 하루 낡는 것보다 목록이 비어 버리는 쪽이 나쁘다.
+
+name: ticker index
+
+on:
+  schedule:
+    - cron: '40 20 * * *'     # 매일 UTC 20:40 (한국 05:40) — 장 시작 전
+  workflow_dispatch:
+
+concurrency:
+  group: ticker-index
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: 종목 목록 받아오기
+        run: node scripts/build-tickers.mjs
+
+      - name: 바뀐 게 있으면 커밋
+        run: |
+          if git diff --quiet -- tickers.json; then
+            echo "변화 없음 — 커밋하지 않는다"
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add tickers.json
+          git commit -m "chore: 종목 이름 색인 갱신 [skip ci]"
+          git push

@@ -21,14 +21,35 @@ import { writeFileSync, existsSync, readFileSync } from 'node:fs';
 const UA = 'Mozilla/5.0 (compatible; bluechip-compass/1.0)';
 const OUT = 'tickers.json';
 
-async function getBuffer(url, ms = 25000) {
+const sleep = (ms) => new Promise(r => setTimeout(r, ms));
+
+async function getBuffer(url, ms = 25000, headers) {
   const ctl = new AbortController();
   const t = setTimeout(() => ctl.abort(), ms);
   try {
-    const r = await fetch(url, { signal: ctl.signal, headers: { 'User-Agent': UA } });
+    const r = await fetch(url, {
+      signal: ctl.signal,
+      headers: Object.assign({
+        'User-Agent': UA,
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+        'Accept-Language': 'ko-KR,ko;q=0.9,en;q=0.8'
+      }, headers || {})
+    });
     if (!r.ok) throw new Error('HTTP ' + r.status);
     return Buffer.from(await r.arrayBuffer());
   } finally { clearTimeout(t); }
+}
+
+/* 일시적인 거절(403·429·5xx)은 한 번만 쉬었다 다시 해본다.
+   여러 번 조르면 차단이 길어질 뿐이라 재시도는 1회로 제한한다. */
+async function getBufferRetry(url, headers) {
+  try {
+    return await getBuffer(url, 25000, headers);
+  } catch (e) {
+    if (!/HTTP (403|429|5\d\d)/.test(String(e.message))) throw e;
+    await sleep(8000);
+    return await getBuffer(url, 25000, headers);
+  }
 }
 
 function clean(s) {
@@ -93,7 +114,9 @@ async function fetchKR_krxJson() {
 
 /* B. KRX KIND 상장법인목록 — EUC-KR HTML 표 */
 async function fetchKR_kind() {
-  const buf = await getBuffer('https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13');
+  const buf = await getBufferRetry(
+    'https://kind.krx.co.kr/corpgeneral/corpList.do?method=download&searchType=13',
+    { 'Referer': 'https://kind.krx.co.kr/corpgeneral/corpList.do?method=loadInitPage' });
   let html;
   try { html = new TextDecoder('euc-kr').decode(buf); }
   catch { html = buf.toString('utf8'); }
