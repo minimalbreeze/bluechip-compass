@@ -1,27 +1,27 @@
 {
-  "asOf": "2026-08-24T06:05:13.899Z",
+  "asOf": "2026-08-24T07:39:20.953Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
-      "price": 6684.73,
+      "price": 6696.96,
       "prev": 6912.9501953125,
-      "chg": -3.3,
+      "chg": -3.12,
       "basis": "prev-daily-close",
-      "time": "2026-08-24T05:45:00.000Z"
+      "time": "2026-08-24T06:32:20.000Z"
     },
     "^KQ11": {
-      "price": 812.17,
+      "price": 813.33,
       "prev": 801.9400024414062,
-      "chg": 1.28,
+      "chg": 1.42,
       "basis": "prev-daily-close",
-      "time": "2026-08-24T05:45:00.000Z"
+      "time": "2026-08-24T06:33:00.000Z"
     },
     "KRW=X": {
-      "price": 1379.63,
+      "price": 1383.63,
       "prev": 1390.7900390625,
-      "chg": -0.8,
+      "chg": -0.51,
       "basis": "prev-daily-close",
-      "time": "2026-08-24T06:05:05.000Z"
+      "time": "2026-08-24T07:39:07.000Z"
     },
     "^GSPC": {
       "price": 7674.37,
@@ -38,11 +38,11 @@
       "time": "2026-08-21T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 15.13,
-      "prev": 16.010000228881836,
-      "chg": -5.5,
+      "price": 15.91,
+      "prev": 15.130000114440918,
+      "chg": 5.16,
       "basis": "prev-daily-close",
-      "time": "2026-08-21T20:15:01.000Z"
+      "time": "2026-08-24T07:24:01.000Z"
     },
     "^TNX": {
       "price": 4.738,
@@ -55,29 +55,29 @@
   "fx": {
     "low52": 1377.64,
     "high52": 1554.48,
-    "pct": 0.011
+    "pct": 0.034
   },
   "hist": {
     "^KS11": {
-      "last": 6684.73,
+      "last": 6696.96,
       "low52": 3142.93,
       "high52": 9114.55,
-      "pct52": 0.593,
-      "chg3m": -14.82
+      "pct52": 0.595,
+      "chg3m": -14.66
     },
     "^KQ11": {
-      "last": 812.17,
+      "last": 813.33,
       "low52": 644.78,
       "high52": 1226.18,
-      "pct52": 0.288,
-      "chg3m": -30.05
+      "pct52": 0.29,
+      "chg3m": -29.95
     },
     "KRW=X": {
-      "last": 1379.63,
+      "last": 1383.63,
       "low52": 1377.64,
       "high52": 1554.48,
-      "pct52": 0.011,
-      "chg3m": -8.21
+      "pct52": 0.034,
+      "chg3m": -7.95
     },
     "^GSPC": {
       "last": 7674.37,
@@ -94,11 +94,11 @@
       "chg3m": -0.62
     },
     "^VIX": {
-      "last": 15.13,
+      "last": 15.91,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.094,
-      "chg3m": -8.8
+      "pct52": 0.139,
+      "chg3m": -6.47
     },
     "^TNX": {
       "last": 4.74,
@@ -110,14 +110,14 @@
   },
   "regime": {
     "by": "rules",
-    "asOf": "2026-08-24T06:05:13.898Z",
+    "asOf": "2026-08-24T07:39:20.952Z",
     "kr": {
       "why": {
         "rates": "미국 10년물 금리가 지금 4.74%로, 3개월 전보다 3.95% 높고 최근 1년 범위(3.95~4.74)의 99% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
-        "growth": "지수가 3개월 전보다 -14.82% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
-        "valuation": "지수가 최근 1년 범위의 59% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
-        "fx": "원/달러가 1379.63원으로 최근 1년(1377.64~1554.48) 범위의 1% 지점입니다.",
-        "geo": "VIX 가 15.13입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
+        "growth": "지수가 3개월 전보다 -14.66% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
+        "valuation": "지수가 최근 1년 범위의 60% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
+        "fx": "원/달러가 1383.63원으로 최근 1년(1377.64~1554.48) 범위의 3% 지점입니다.",
+        "geo": "VIX 가 15.91입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
       },
       "rates": "hike",
       "growth": "reces",
@@ -131,8 +131,8 @@
         "rates": "미국 10년물 금리가 지금 4.74%로, 3개월 전보다 3.95% 높고 최근 1년 범위(3.95~4.74)의 99% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
         "growth": "지수가 3개월 전보다 +2.69% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
         "valuation": "지수가 최근 1년 범위의 91% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
-        "fx": "원/달러가 1379.63원으로 최근 1년(1377.64~1554.48) 범위의 1% 지점입니다.",
-        "geo": "VIX 가 15.13입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
+        "fx": "원/달러가 1383.63원으로 최근 1년(1377.64~1554.48) 범위의 3% 지점입니다.",
+        "geo": "VIX 가 15.91입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
       },
       "rates": "hike",
       "growth": "expand",
@@ -145,95 +145,95 @@
   "stocks": {
     "kr": {
       "105560": {
-        "price": 162200,
+        "price": 163100,
         "prev": 164300,
-        "chg": -1.28,
+        "chg": -0.73,
         "basis": "prev-daily-close",
-        "time": "2026-08-24T05:45:12.000Z"
+        "time": "2026-08-24T06:30:30.000Z"
       },
       "207940": {
-        "price": 1563000,
+        "price": 1573000,
         "prev": 1551000,
-        "chg": 0.77,
+        "chg": 1.42,
         "basis": "prev-daily-close",
-        "time": "2026-08-24T05:45:10.000Z"
+        "time": "2026-08-24T06:30:10.000Z"
       },
       "005930": {
-        "price": 256500,
+        "price": 257000,
         "prev": 281500,
-        "chg": -8.88,
+        "chg": -8.7,
         "basis": "prev-daily-close",
-        "time": "2026-08-24T05:45:13.000Z"
+        "time": "2026-08-24T06:30:29.000Z"
       },
       "000660": {
-        "price": 1679000,
+        "price": 1671000,
         "prev": 1730000,
-        "chg": -2.95,
+        "chg": -3.41,
         "basis": "prev-daily-close",
-        "time": "2026-08-24T05:45:13.000Z"
+        "time": "2026-08-24T06:30:23.000Z"
       },
       "005380": {
-        "price": 410500,
+        "price": 414000,
         "prev": 415000,
-        "chg": -1.08,
+        "chg": -0.24,
         "basis": "prev-daily-close",
-        "time": "2026-08-24T05:45:12.000Z"
+        "time": "2026-08-24T06:30:03.000Z"
       },
       "055550": {
-        "price": 103600,
+        "price": 103300,
         "prev": 104100,
-        "chg": -0.48,
+        "chg": -0.77,
         "basis": "prev-daily-close",
-        "time": "2026-08-24T05:45:12.000Z"
+        "time": "2026-08-24T06:30:22.000Z"
       },
       "000810": {
-        "price": 630000,
+        "price": 636000,
         "prev": 661000,
-        "chg": -4.69,
+        "chg": -3.78,
         "basis": "prev-daily-close",
-        "time": "2026-08-24T05:45:09.000Z"
+        "time": "2026-08-24T06:30:10.000Z"
       },
       "033780": {
-        "price": 172500,
+        "price": 173200,
         "prev": 172300,
-        "chg": 0.12,
+        "chg": 0.52,
         "basis": "prev-daily-close",
-        "time": "2026-08-24T05:45:09.000Z"
+        "time": "2026-08-24T06:30:01.000Z"
       },
       "035420": {
-        "price": 224000,
+        "price": 223500,
         "prev": 222000,
-        "chg": 0.9,
+        "chg": 0.68,
         "basis": "prev-daily-close",
-        "time": "2026-08-24T05:45:12.000Z"
+        "time": "2026-08-24T06:30:28.000Z"
       },
       "005490": {
-        "price": 326500,
+        "price": 327500,
         "prev": 310000,
-        "chg": 5.32,
+        "chg": 5.65,
         "basis": "prev-daily-close",
-        "time": "2026-08-24T05:45:13.000Z"
+        "time": "2026-08-24T06:30:22.000Z"
       },
       "028260": {
-        "price": 362000,
+        "price": 364500,
         "prev": 395500,
-        "chg": -8.47,
+        "chg": -7.84,
         "basis": "prev-daily-close",
-        "time": "2026-08-24T05:45:12.000Z"
+        "time": "2026-08-24T06:30:20.000Z"
       },
       "012450": {
-        "price": 1104000,
+        "price": 1105000,
         "prev": 1085000,
-        "chg": 1.75,
+        "chg": 1.84,
         "basis": "prev-daily-close",
-        "time": "2026-08-24T05:45:11.000Z"
+        "time": "2026-08-24T06:30:02.000Z"
       },
       "017670": {
-        "price": 103600,
+        "price": 102300,
         "prev": 102200,
-        "chg": 1.37,
+        "chg": 0.1,
         "basis": "prev-daily-close",
-        "time": "2026-08-24T05:45:13.000Z"
+        "time": "2026-08-24T06:30:14.000Z"
       }
     },
     "us": {
@@ -333,21 +333,32 @@
   "news": {
     "kr": [
       {
-        "title": "DB증권, '부산 탄소감축 사업 STO 비즈니스설명회' 개최",
-        "link": "https://www.hankyung.com/article/2026082486066",
+        "title": "삼성전자, 사상 최대 주주환원에도 주가 8%↓…그룹주도 약세(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260824036751008",
+        "source": "연합뉴스",
+        "date": "Mon, 24 Aug 2026 16:29:19 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "삼성전자 배당 낙수효과?…계열사 주주환원은 '온도차'",
+        "link": "https://www.hankyung.com/article/202608248834i",
         "source": "한국경제",
-        "date": "Mon, 24 Aug 2026 13:09:13 +0900",
+        "date": "Mon, 24 Aug 2026 15:55:14 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "“110조 푼다는 데 주가는 왜 빠지나” … 삼성전자 주주환원 발목 잡은 ‘10% 족쇄’",
-        "link": "https://www.mk.co.kr/news/business/12134733",
+        "title": "금감원, 제약·바이오 공시 개선안 실무 지원 나서…내달 릴레이 설명회",
+        "link": "https://www.mk.co.kr/news/stock/12134935",
         "source": "매일경제",
-        "date": "Mon, 24 Aug 2026 14:29:23 +09:00",
+        "date": "Mon, 24 Aug 2026 16:32:08 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -355,43 +366,32 @@
         "by": "rules"
       },
       {
-        "title": "SK증권, '비지오 테크놀로지스' 국내 로드쇼 주관",
-        "link": "https://www.hankyung.com/article/2026082486006",
+        "title": "교보생명, 3천억 규모 신종자본증권 수요예측서 4천460억원 확보",
+        "link": "https://www.yna.co.kr/view/AKR20260824133000008",
+        "source": "연합뉴스",
+        "date": "Mon, 24 Aug 2026 16:23:51 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "코스피, 삼전 급락에 6700선 아래로…외인·기관 '팔자'",
+        "link": "https://www.hankyung.com/article/2026082491356",
         "source": "한국경제",
-        "date": "Mon, 24 Aug 2026 13:00:53 +0900",
+        "date": "Mon, 24 Aug 2026 15:49:36 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "증거금 2.5조원 모았던 니어스랩, 상장 첫날 20%대 급락",
-        "link": "https://www.mk.co.kr/news/stock/12134729",
+        "title": "“AI 혁신 이끈다”…신한투자증권, ‘AX 챔피언스데이’ 개최",
+        "link": "https://www.mk.co.kr/news/stock/12134925",
         "source": "매일경제",
-        "date": "Mon, 24 Aug 2026 14:27:49 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "한투운용, 'ACE 삼성전자SK하이닉스플러스채권혼합50' ETF 상장",
-        "link": "https://www.hankyung.com/article/2026082481236",
-        "source": "한국경제",
-        "date": "Mon, 24 Aug 2026 10:15:09 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "“돈 더 푸는데 주가는 왜 더 빠지죠?”…삼성전자 주가 8% 급락 이유는",
-        "link": "https://www.mk.co.kr/news/stock/12134696",
-        "source": "매일경제",
-        "date": "Mon, 24 Aug 2026 14:12:49 +09:00",
+        "date": "Mon, 24 Aug 2026 16:25:07 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -405,6 +405,7 @@
         "link": "https://www.cnbc.com/2026/08/24/singapore-inflation-budget-iran-war.html",
         "source": "CNBC",
         "date": "Mon, 24 Aug 2026 05:24:43 GMT",
+        "ko": "싱가포르 인플레이션은 거의 2년 만에 가장 높은 수준을 기록했지만 기대치를 밑돌았습니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -424,13 +425,14 @@
         "by": "rules"
       },
       {
-        "title": "Powerful Growth, Multiple Endorsements Bode Well for Oracle Stock",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/powerful-growth-multiple-endorsements-bode-183002613.html",
+        "title": "Nvidia Q2 Preview: Strong Earnings and Low Valuation Set the Stage for Upside",
+        "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-q2-preview-strong-earnings-205208968.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-22T18:30:02Z",
+        "date": "2026-08-22T20:52:08Z",
+        "ko": "Nvidia 2분기 미리보기: 강력한 수입 및 낮은 가치 평가로 거꾸로 전환",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -459,10 +461,11 @@
         "by": "rules"
       },
       {
-        "title": "Third Point Starts to Raise Alarm Bells on Broadcom After Dumping AVGO Stock in Q2",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/third-point-starts-raise-alarm-193002621.html",
+        "title": "Billionaire Stanley Druckenmiller Just Sold Some Sandisk Stock and Bought These 3 Unstoppable Artificial Intelligence (AI) Stocks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/billionaire-stanley-druckenmiller-just-sold-200400662.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-22T19:30:02Z",
+        "date": "2026-08-22T20:04:00Z",
+        "ko": "억만장자 스탠리 드러켄밀러 (Stanley Druckenmiller) 는 방금 샌디스크 (Sandisk) 주식을 팔았고 막을 수 없는 인공 지능 (AI) 주식을 3개 구입했습니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -482,10 +485,11 @@
     "Mohamed El-Erian says 30-year Treasury yield at 5.27% signals a structural shift that will make America more expensive": "모하메드 엘-에리언 (Mohamed El-Erian) 은 30년 국채 수익률이 5.27% 로 미국을 더 비싸게 만들 구조적 변화를 나타낸다고 말합니다.",
     "Nvidia Stock Trades at a Reasonable Valuation With Ample Growth Headroom": "충분한 성장 헤드룸으로 합리적인 가치로 엔비디아 주식 거래",
     "Why 1 Analyst Says Vera Rubin Is Key for Nvidia Stock in Q2": "1명의 애널리스트가 Vera Rubin이 2분기 엔비디아 주식의 핵심이라고 말하는 이유",
-    "Stock Market Week Ahead: A Choppy Market Heads For Nvidia Earnings, Jackson Hole": "주식 시장 주간: 삭막한 시장이 엔비디아 수익으로 향하고 있다, 잭슨 홀"
+    "Stock Market Week Ahead: A Choppy Market Heads For Nvidia Earnings, Jackson Hole": "주식 시장 주간: 삭막한 시장이 엔비디아 수익으로 향하고 있다, 잭슨 홀",
+    "Singapore inflation hits highest in nearly two years, but undershoots expectations": "싱가포르 인플레이션은 거의 2년 만에 가장 높은 수준을 기록했지만 기대치를 밑돌았습니다.",
+    "Nvidia Q2 Preview: Strong Earnings and Low Valuation Set the Stage for Upside": "Nvidia 2분기 미리보기: 강력한 수입 및 낮은 가치 평가로 거꾸로 전환",
+    "Billionaire Stanley Druckenmiller Just Sold Some Sandisk Stock and Bought These 3 Unstoppable Artificial Intelligence (AI) Stocks": "억만장자 스탠리 드러켄밀러 (Stanley Druckenmiller) 는 방금 샌디스크 (Sandisk) 주식을 팔았고 막을 수 없는 인공 지능 (AI) 주식을 3개 구입했습니다."
   },
   "nvCache": {},
-  "failed": [
-    "translate: HTTP 429"
-  ]
+  "failed": []
 }
