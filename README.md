@@ -166,7 +166,13 @@ live.json  커밋 → GitHub Pages
   (같은 헤드라인을 반복해 번역하지 않도록 캐시한다). 기본은 키가 필요 없는
   MyMemory 를 쓰고, 저장소 시크릿에 `DEEPL_API_KEY` 를 넣으면 DeepL 을 쓴다
   (품질이 낫다). `MYMEMORY_EMAIL` 을 넣으면 무료 한도가 늘어난다.
-  번역에 실패한 기사는 원문 그대로 나간다. 국내는 연합뉴스·한국경제·매일경제, 미국은
+  번역에 실패한 기사는 원문 그대로 나간다.
+
+> **번역 품질을 올리려면** 저장소 **Settings → Secrets and variables → Actions →
+> New repository secret** 에 `DEEPL_API_KEY` 를 넣으세요. DeepL 무료 플랜은
+> 월 50만 자까지 무료인데 이 앱이 쓰는 건 하루 수백 자 수준이라 남습니다.
+> 기본값인 MyMemory 는 키 없이 되는 대신 "주식 선물은 평평합니다" 같은
+> 어색한 문장이 나옵니다. 국내는 연합뉴스·한국경제·매일경제, 미국은
   Yahoo Finance·CNBC·MarketWatch RSS를 위에서부터 시도해 채운다.
   한 곳이 죽어도 다음 곳으로 메워진다.
 

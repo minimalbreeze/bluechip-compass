@@ -215,7 +215,17 @@ async function fetchNews(marketKey) {
 /* 번역 결과도 남의 서버에서 온 문자열이다. 저장 단계에서 꺾쇠를 지운다
    (앱에서도 다시 이스케이프한다). */
 function sanitizeTr(x) {
-  return String(x || '').replace(/[<>]/g, '').replace(/\s+/g, ' ').trim();
+  return String(x || '')
+    .replace(/[<>]/g, '')
+    .replace(/\s+/g, ' ')
+    /* 무료 번역기가 흔히 내는 자잘한 흠을 다듬는다. 뜻을 바꾸지 않는
+       표기 수준만 손대고, 어색한 번역 자체는 건드리지 않는다 —
+       원문을 나란히 보여주는 게 그 몫이다. */
+    .replace(/([$€£¥₩])\s+(?=[\d.,])/g, '$1')   // "$ 1,000" → "$1,000"
+    .replace(/\s+([%,.])/g, '$1')                 // " %" " ," 앞 공백
+    .replace(/\s*:\s*/g, ': ')
+    .replace(/\s+/g, ' ')
+    .trim();
 }
 
 async function translateDeepL(texts, key) {
@@ -259,7 +269,13 @@ async function translateNews(items, cache) {
   const key = process.env.DEEPL_API_KEY;
   const need = [];
   for (const it of items) {
-    if (cache[it.title]) { it.ko = cache[it.title]; continue; }
+    if (cache[it.title]) {
+      /* 캐시에 담긴 예전 번역에도 다듬기를 다시 적용한다 — 후처리 규칙을
+         고쳤을 때 이미 저장된 것만 낡은 표기로 남는 걸 막는다. */
+      it.ko = sanitizeTr(cache[it.title]);
+      cache[it.title] = it.ko;
+      continue;
+    }
     if (need.length < TR_MAX_PER_RUN) need.push(it);
   }
   if (!need.length) return;
