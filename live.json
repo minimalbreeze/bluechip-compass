@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-24T09:09:55.736Z",
+  "asOf": "2026-08-24T09:17:46.728Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -17,11 +17,11 @@
       "time": "2026-08-24T06:33:00.000Z"
     },
     "KRW=X": {
-      "price": 1383.39,
+      "price": 1382.68,
       "prev": 1390.7900390625,
-      "chg": -0.53,
+      "chg": -0.58,
       "basis": "prev-daily-close",
-      "time": "2026-08-24T09:09:46.000Z"
+      "time": "2026-08-24T09:16:42.000Z"
     },
     "^GSPC": {
       "price": 7674.37,
@@ -38,11 +38,11 @@
       "time": "2026-08-21T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 15.87,
+      "price": 15.92,
       "prev": 15.130000114440918,
-      "chg": 4.89,
+      "chg": 5.22,
       "basis": "prev-daily-close",
-      "time": "2026-08-24T08:54:46.000Z"
+      "time": "2026-08-24T09:01:31.000Z"
     },
     "^TNX": {
       "price": 4.738,
@@ -55,7 +55,7 @@
   "fx": {
     "low52": 1377.64,
     "high52": 1554.48,
-    "pct": 0.033
+    "pct": 0.029
   },
   "hist": {
     "^KS11": {
@@ -73,11 +73,11 @@
       "chg3m": -29.95
     },
     "KRW=X": {
-      "last": 1383.39,
+      "last": 1382.68,
       "low52": 1377.64,
       "high52": 1554.48,
-      "pct52": 0.033,
-      "chg3m": -7.96
+      "pct52": 0.029,
+      "chg3m": -8.01
     },
     "^GSPC": {
       "last": 7674.37,
@@ -94,11 +94,11 @@
       "chg3m": -0.62
     },
     "^VIX": {
-      "last": 15.87,
+      "last": 15.92,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.137,
-      "chg3m": -6.7
+      "pct52": 0.139,
+      "chg3m": -6.41
     },
     "^TNX": {
       "last": 4.74,
@@ -109,37 +109,37 @@
     }
   },
   "regime": {
-    "by": "rules",
-    "asOf": "2026-08-24T09:09:55.470Z",
+    "by": "ai",
+    "asOf": "2026-08-24T09:17:29.802Z",
     "kr": {
       "why": {
-        "rates": "미국 10년물 금리가 지금 4.74%로, 3개월 전보다 3.95% 높고 최근 1년 범위(3.95~4.74)의 99% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
-        "growth": "지수가 3개월 전보다 -14.66% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
-        "valuation": "지수가 최근 1년 범위의 60% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
-        "fx": "원/달러가 1383.39원으로 최근 1년(1377.64~1554.48) 범위의 3% 지점입니다.",
-        "geo": "VIX 가 15.87입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
+        "rates": "미 10년물(^TNX)은 4.74%로 1년범위 99% 위치에 3개월 +3.95%로 상승 압력이 있지만, 헤드라인은 '국고채 금리 일제히 하락'을 전하고 있어 방향이 엇갈리므로 중립인 hold로 둡니다.",
+        "growth": "코스피가 6696.96으로 1년범위의 60% 위치를 지키고 있지만 3개월 동안 -14.66% 하락해, 침체 신호로 단정하기보다 둔화 국면으로 봅니다.",
+        "valuation": "코스피 지수 위치가 1년범위(3142.93~9114.55)의 60%로 상단도 하단도 아닌 중간대라 보통 수준으로 분류합니다.",
+        "fx": "원/달러가 1382.68로 1년범위(1377.64~1554.48)의 3% 위치, 3개월 -8.01%이고 '13개월 만에 최저' 헤드라인도 있어 원화 강세입니다.",
+        "geo": "VIX가 15.92로 1년범위의 14% 위치이고 헤드라인도 삼성전자 주주환원·2차전지·AI 전략 등 기업 이슈 위주라 특별한 긴장 신호는 보이지 않습니다."
       },
-      "rates": "hike",
-      "growth": "reces",
+      "summary": "원화가 1382.68원으로 13개월 만에 최저 수준까지 내려온 원화 강세 국면이며, 지수는 3개월 -14.66%로 밀렸지만 1년범위 60% 자리를 지키는 둔화 구간입니다. 변동성(VIX 15.92)은 낮아 시장이 크게 놀란 상태는 아닙니다.",
+      "rates": "hold",
+      "growth": "slow",
       "valuation": "fair",
       "fx": "strong",
-      "geo": "calm",
-      "summary": "실제 수치에서 기계적으로 도출한 판정입니다. 금리·경기·밸류에이션은 대용 지표라 한계가 있습니다."
+      "geo": "calm"
     },
     "us": {
       "why": {
-        "rates": "미국 10년물 금리가 지금 4.74%로, 3개월 전보다 3.95% 높고 최근 1년 범위(3.95~4.74)의 99% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
-        "growth": "지수가 3개월 전보다 +2.69% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
-        "valuation": "지수가 최근 1년 범위의 91% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
-        "fx": "원/달러가 1383.39원으로 최근 1년(1377.64~1554.48) 범위의 3% 지점입니다.",
-        "geo": "VIX 가 15.87입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
+        "rates": "미 10년물 금리(^TNX)가 4.74%로 1년범위(3.95~4.74)의 99% 위치, 3개월 +3.95%로 상단에 붙어 있어 금리 상승 방향으로 봅니다.",
+        "growth": "S&P500이 7674.37로 1년범위의 91% 위치, 3개월 +2.69%로 상승세를 유지하고 VIX도 15.92로 낮아 경기 우려가 크게 반영되지 않은 상태입니다.",
+        "valuation": "지수가 1년범위(6343.72~7798.99)의 91% 위치로 상단 부근이라 가격 부담이 있는 구간으로 분류합니다.",
+        "fx": "원/달러가 1382.68로 1년범위의 3% 위치, 3개월 -8.01%라 달러 대비 원화가 강한 쪽으로 치우쳐 있습니다.",
+        "geo": "VIX 15.92(1년범위 14% 위치)로 낮고 헤드라인도 엔비디아 실적·AI 투자 논쟁 등 기업 이슈 중심이라 평온으로 판단합니다."
       },
+      "summary": "미국 증시는 S&P500이 1년 고점권(범위 91%)에 있고 변동성도 낮아 분위기는 양호하지만, 10년물 금리가 4.74%로 1년 최고 수준이라 금리 부담이 함께 있는 국면입니다. 지수 위치가 높은 만큼 가격은 비싼 편으로 분류됩니다.",
       "rates": "hike",
       "growth": "expand",
       "valuation": "rich",
       "fx": "strong",
-      "geo": "calm",
-      "summary": "실제 수치에서 기계적으로 도출한 판정입니다. 금리·경기·밸류에이션은 대용 지표라 한계가 있습니다."
+      "geo": "calm"
     }
   },
   "stocks": {
@@ -340,30 +340,30 @@
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
+        "why": "금리 일별 변동은 장기 기업 이익과 직접 관련이 적습니다.",
+        "by": "ai"
       },
       {
         "title": "110兆 환원에도 주가 급락한 삼성전자...배당·자사주 소각 황금 비율은?",
         "link": "https://www.hankyung.com/article/202608248774i",
         "source": "한국경제",
         "date": "Mon, 24 Aug 2026 16:47:41 +0900",
-        "act": "none",
-        "lasting": "temporary",
+        "act": "watch",
+        "lasting": "structural",
         "scope": "company",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
+        "why": "대규모 주주환원 정책은 장기 자본배분 구조 변화라 지켜볼 만합니다.",
+        "by": "ai"
       },
       {
-        "title": "AI사업 전략에 엇갈린 네카오 주가",
-        "link": "https://www.mk.co.kr/news/stock/12135128",
+        "title": "“이 주식 있다고 하면 동정받았는데”...4.5조 실탄 기대에 2차전지株 랠리",
+        "link": "https://www.mk.co.kr/news/stock/12135156",
         "source": "매일경제",
-        "date": "Mon, 24 Aug 2026 17:55:23 +09:00",
+        "date": "Mon, 24 Aug 2026 18:11:38 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
+        "scope": "sector",
+        "why": "기대감에 따른 단기 주가 랠리로 실적 변화는 확인되지 않았습니다.",
+        "by": "ai"
       },
       {
         "title": "원/달러 환율 13개월 만에 최저…장중 1,370원대로 하락(종합)",
@@ -373,8 +373,8 @@
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
+        "why": "환율 등락은 반복되는 흐름으로 오늘 할 일은 없습니다.",
+        "by": "ai"
       },
       {
         "title": "삼성전자 배당 낙수효과?…계열사 주주환원은 '온도차'",
@@ -383,20 +383,20 @@
         "date": "Mon, 24 Aug 2026 15:55:14 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
+        "scope": "sector",
+        "why": "계열사별 환원 온도차는 제목만으로 판단하기 어렵습니다.",
+        "by": "ai"
       },
       {
-        "title": "은행서 증권사로 … 퇴직연금 상반기 5조 옮겨가",
-        "link": "https://www.mk.co.kr/news/stock/12135104",
+        "title": "AI사업 전략에 엇갈린 네카오 주가",
+        "link": "https://www.mk.co.kr/news/stock/12135128",
         "source": "매일경제",
-        "date": "Mon, 24 Aug 2026 17:49:54 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
+        "date": "Mon, 24 Aug 2026 17:55:23 +09:00",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": "sector",
+        "why": "AI 전략 차이는 장기 경쟁력을 가를 수 있어 관찰 대상입니다.",
+        "by": "ai"
       }
     ],
     "us": [
@@ -409,8 +409,44 @@
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
+        "why": "해외 물가 지표는 월별 변동이며 기대치도 밑돌았습니다.",
+        "by": "ai"
+      },
+      {
+        "title": "Alibaba shares tumble as investors question whether AI spending splurge is justified",
+        "link": "https://www.marketwatch.com/story/alibaba-shares-tumble-as-investors-question-whether-ai-spending-splurge-is-justified-6989038b?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "date": "Mon, 24 Aug 2026 09:13:00 GMT",
+        "ko": "투자자들이 AI 지출 과잉이 정당화되는지에 대해 의문을 제기함에 따라 알리바바 주식 텀블",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": "sector",
+        "why": "AI 투자 회수 여부에 대한 의문은 업종 전반의 장기 쟁점입니다.",
+        "by": "ai"
+      },
+      {
+        "title": "Nvidia earnings and Jackson Hole: What to watch this week",
+        "link": "https://finance.yahoo.com/markets/article/nvidia-earnings-and-jackson-hole-what-to-watch-this-week-100000082.html",
+        "source": "Yahoo Finance",
+        "date": "2026-08-23T10:00:00Z",
+        "ko": "엔비디아 수입과 잭슨 홀: 이번 주 시청할 내용",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "이번 주 일정을 안내하는 예고성 기사입니다.",
+        "by": "ai"
+      },
+      {
+        "title": "Bessent's bond gambit aimed at calming markets is instead stirring inflation worries",
+        "link": "https://www.cnbc.com/2026/08/21/bessents-bond-gambit-aimed-at-calming-markets-is-instead-stirring-inflation-worries-.html",
+        "source": "CNBC",
+        "date": "Fri, 21 Aug 2026 17:51:10 GMT",
+        "ko": "시장을 진정시키기 위한 베센트의 채권 갬빗은 오히려 인플레이션 우려를 불러일으키고 있다.",
+        "act": "watch",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "채권·물가 정책 논쟁은 금리 흐름을 볼 참고 사항입니다.",
+        "by": "ai"
       },
       {
         "title": "Samsung Electronics stock had its worst day in three weeks, and the other memory stocks are lower as well",
@@ -420,61 +456,25 @@
         "ko": "삼성전자 주가는 3주 만에 최악의 하루를 보냈고, 다른 메모리 주가도 낮아졌다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
+        "scope": "sector",
+        "why": "하루 주가 급락은 기업 이익 구조와 무관한 변동입니다.",
+        "by": "ai"
       },
       {
-        "title": "Here’s What You Should Buy Over PayPal Holdings, Inc. (NASDAQ:PYPL) According To Jim Cramer",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/buy-over-paypal-holdings-inc-235243531.html",
+        "title": "Nvidia's Q2 earnings to test resurgent AI trade",
+        "link": "https://finance.yahoo.com/news/nvidias-q2-earnings-to-test-resurgent-ai-trade-112502189.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-22T23:52:43Z",
-        "ko": "짐 크레이머 (Jim Cramer) 에 따르면 PayPal Holdings, Inc. (NASDAQ: PYPL) 를 통해 구매해야 할 사항은 다음과 같습니다.",
+        "date": "2026-08-23T11:25:02Z",
+        "ko": "부활하는 AI 거래를 테스트하기 위한 엔비디아의 2분기 실적",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "Bessent's bond gambit aimed at calming markets is instead stirring inflation worries",
-        "link": "https://www.cnbc.com/2026/08/21/bessents-bond-gambit-aimed-at-calming-markets-is-instead-stirring-inflation-worries-.html",
-        "source": "CNBC",
-        "date": "Fri, 21 Aug 2026 17:51:10 GMT",
-        "ko": "시장을 진정시키기 위한 베센트의 채권 갬빗은 오히려 인플레이션 우려를 불러일으키고 있다.",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "There are six stocks that hedge funds and mutual funds are both overweight — and SpaceX is one",
-        "link": "https://www.marketwatch.com/story/there-are-six-stocks-that-hedge-funds-and-mutual-funds-are-both-overweight-and-spacex-is-one-2a17ffb1?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "date": "Mon, 24 Aug 2026 08:10:00 GMT",
-        "ko": "헤지펀드와 뮤추얼펀드가 모두 과체중인 주식은 6개이며 SpaceX는 1개입니다.",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "Jim Cramer Was Left Impressed By Microsoft Corporation (NASDAQ:MSFT)’s Conference Call",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-left-impressed-microsoft-235426446.html",
-        "source": "Yahoo Finance",
-        "date": "2026-08-22T23:54:26Z",
-        "ko": "Jim Cramer는 Microsoft Corporation (NASDAQ: MSFT) 의 컨퍼런스 콜에 깊은 인상을 받았습니다.",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
+        "scope": "sector",
+        "why": "분기 실적 발표 예고로, 결과 확인 전에는 할 일이 없습니다.",
+        "by": "ai"
       }
     ]
   },
-  "newsBy": "rules",
+  "newsBy": "ai",
   "trCache": {
     "Bessent's bond gambit aimed at calming markets is instead stirring inflation worries": "시장을 진정시키기 위한 베센트의 채권 갬빗은 오히려 인플레이션 우려를 불러일으키고 있다.",
     "Stock futures flat as U.S. and Canada appear headed for trade war": "미국과 캐나다가 무역 전쟁으로 향하는 것처럼 보이기 때문에 주식 선물은 평평합니다.",
@@ -492,12 +492,96 @@
     "Here’s What You Should Buy Over PayPal Holdings, Inc. (NASDAQ:PYPL) According To Jim Cramer": "짐 크레이머 (Jim Cramer) 에 따르면 PayPal Holdings, Inc. (NASDAQ: PYPL) 를 통해 구매해야 할 사항은 다음과 같습니다.",
     "There are six stocks that hedge funds and mutual funds are both overweight — and SpaceX is one": "헤지펀드와 뮤추얼펀드가 모두 과체중인 주식은 6개이며 SpaceX는 1개입니다.",
     "Samsung Electronics stock had its worst day in three weeks, and the other memory stocks are lower as well": "삼성전자 주가는 3주 만에 최악의 하루를 보냈고, 다른 메모리 주가도 낮아졌다.",
-    "Jim Cramer Was Left Impressed By Microsoft Corporation (NASDAQ:MSFT)’s Conference Call": "Jim Cramer는 Microsoft Corporation (NASDAQ: MSFT) 의 컨퍼런스 콜에 깊은 인상을 받았습니다."
+    "Jim Cramer Was Left Impressed By Microsoft Corporation (NASDAQ:MSFT)’s Conference Call": "Jim Cramer는 Microsoft Corporation (NASDAQ: MSFT) 의 컨퍼런스 콜에 깊은 인상을 받았습니다.",
+    "Alibaba shares tumble as investors question whether AI spending splurge is justified": "투자자들이 AI 지출 과잉이 정당화되는지에 대해 의문을 제기함에 따라 알리바바 주식 텀블",
+    "Nvidia earnings and Jackson Hole: What to watch this week": "엔비디아 수입과 잭슨 홀: 이번 주 시청할 내용",
+    "Nvidia's Q2 earnings to test resurgent AI trade": "부활하는 AI 거래를 테스트하기 위한 엔비디아의 2분기 실적"
   },
-  "nvCache": {},
-  "failed": [
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"API key is invalid.\"},\"request_id\":null}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"API key is invalid.\"},\"request_id\":null}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"API key is invalid.\"},\"request_id\":null}"
-  ]
+  "nvCache": {
+    "https://www.yna.co.kr/view/AKR20260824137251008": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "금리 일별 변동은 장기 기업 이익과 직접 관련이 적습니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/202608248774i": {
+      "act": "watch",
+      "lasting": "structural",
+      "scope": "company",
+      "why": "대규모 주주환원 정책은 장기 자본배분 구조 변화라 지켜볼 만합니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12135156": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "sector",
+      "why": "기대감에 따른 단기 주가 랠리로 실적 변화는 확인되지 않았습니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20260824075851002": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "환율 등락은 반복되는 흐름으로 오늘 할 일은 없습니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/202608248834i": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "sector",
+      "why": "계열사별 환원 온도차는 제목만으로 판단하기 어렵습니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12135128": {
+      "act": "watch",
+      "lasting": "structural",
+      "scope": "sector",
+      "why": "AI 전략 차이는 장기 경쟁력을 가를 수 있어 관찰 대상입니다.",
+      "by": "ai"
+    },
+    "https://www.cnbc.com/2026/08/24/singapore-inflation-budget-iran-war.html": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "해외 물가 지표는 월별 변동이며 기대치도 밑돌았습니다.",
+      "by": "ai"
+    },
+    "https://www.marketwatch.com/story/alibaba-shares-tumble-as-investors-question-whether-ai-spending-splurge-is-justified-6989038b?mod=mw_rss_topstories": {
+      "act": "watch",
+      "lasting": "structural",
+      "scope": "sector",
+      "why": "AI 투자 회수 여부에 대한 의문은 업종 전반의 장기 쟁점입니다.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/markets/article/nvidia-earnings-and-jackson-hole-what-to-watch-this-week-100000082.html": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "이번 주 일정을 안내하는 예고성 기사입니다.",
+      "by": "ai"
+    },
+    "https://www.cnbc.com/2026/08/21/bessents-bond-gambit-aimed-at-calming-markets-is-instead-stirring-inflation-worries-.html": {
+      "act": "watch",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "채권·물가 정책 논쟁은 금리 흐름을 볼 참고 사항입니다.",
+      "by": "ai"
+    },
+    "https://www.marketwatch.com/story/samsung-electronics-stock-had-its-worst-day-in-three-weeks-and-the-other-memory-stocks-are-lower-as-well-2080834f?mod=mw_rss_topstories": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "sector",
+      "why": "하루 주가 급락은 기업 이익 구조와 무관한 변동입니다.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/news/nvidias-q2-earnings-to-test-resurgent-ai-trade-112502189.html": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "sector",
+      "why": "분기 실적 발표 예고로, 결과 확인 전에는 할 일이 없습니다.",
+      "by": "ai"
+    }
+  },
+  "failed": []
 }
