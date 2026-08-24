@@ -41,13 +41,19 @@ export function judgeByRules(marketKey, hist) {
   const tnx = hist['^TNX'];
   const out = { why: {} };
 
-  /* 금리 — 미국 10년물 국채금리의 3개월 방향을 대용으로 쓴다.
-     정책금리 자체는 무료로 안정적으로 받을 곳이 마땅치 않다. */
+  /* 금리 — 미국 10년물 국채금리를 대용으로 쓴다. 정책금리 자체는 무료로
+     안정적으로 받을 곳이 마땅치 않다.
+     방향(3개월 변화)만 보면 1년 최고 구간에 눌러앉은 금리를 "멈춰 있음"으로
+     읽는다. 그건 시장이 받는 압력과 다르다. 그래서 1년 범위 위치도 같이 본다:
+     방향이 완만해도 극단에 있으면 그 극단 쪽으로 판정한다. */
   if (tnx && tnx.chg3m !== null) {
-    out.rates = tnx.chg3m > 8 ? 'hike' : tnx.chg3m < -8 ? 'cut' : 'hold';
+    if (tnx.chg3m > 8 || (tnx.chg3m > 2 && tnx.pct52 >= 0.85)) out.rates = 'hike';
+    else if (tnx.chg3m < -8 || (tnx.chg3m < -2 && tnx.pct52 <= 0.15)) out.rates = 'cut';
+    else out.rates = 'hold';
     out.why.rates = '미국 10년물 금리가 지금 ' + tnx.last + '%로, 3개월 전보다 ' +
-      Math.abs(tnx.chg3m) + '% ' + (tnx.chg3m >= 0 ? '높습니다' : '낮습니다') +
-      '. 정책금리 자체가 아니라 대용 지표입니다.';
+      Math.abs(tnx.chg3m) + '% ' + (tnx.chg3m >= 0 ? '높고' : '낮고') +
+      ' 최근 1년 범위(' + tnx.low52 + '~' + tnx.high52 + ')의 ' +
+      Math.round(tnx.pct52 * 100) + '% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.';
   } else {
     out.rates = 'hold';
     out.why.rates = '금리 지표를 못 받아와 중립으로 뒀습니다.';
