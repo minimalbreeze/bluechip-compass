@@ -543,15 +543,28 @@
         '에서 확인하세요.</div>');
       return h.join('');
     }
+    var translated = 0;
     h.push('<div class="newslist">');
     list.forEach(function (n) {
       var u = safeUrl(n.link);
       if (!u) return;
+      /* 번역이 있으면 한국어를 앞에 세우고 원문을 아래에 남긴다.
+         기계 번역은 금융 헤드라인의 뜻을 뒤집을 때가 있어서, 원문을 감추면
+         사용자가 확인할 방법이 없어진다. */
+      var hasKo = !!n.ko;
+      if (hasKo) translated++;
       h.push('<a class="newsitem" href="' + esc(u) + '" target="_blank" rel="noopener">' +
-        '<span class="news-t">' + esc(n.title) + '</span>' +
+        '<span class="news-body">' +
+          '<span class="news-t">' + esc(hasKo ? n.ko : n.title) + '</span>' +
+          (hasKo ? '<span class="news-o">' + esc(n.title) + '</span>' : '') +
+        '</span>' +
         '<span class="news-s">' + esc(n.source) + '</span></a>');
     });
     h.push('</div>');
+    if (translated) {
+      h.push('<div class="newstr">🌐 미국 기사는 <b>기계 번역</b>입니다 (' + translated + '/' + list.length + '건). ' +
+        '뜻이 뒤집히는 경우가 있어 원문을 함께 보여줍니다.</div>');
+    }
     h.push('<div class="newsguard">📌 <b>읽고 바로 매매하지 마세요.</b> 대부분의 뉴스는 이미 가격에 반영돼 있습니다. ' +
       '<button class="linkbtn" data-go="learn" data-sub="study">‘이 뉴스에 팔아야 하나?’ 3문항 보기 →</button></div>');
     if (LIVE && LIVE.asOf) h.push('<div class="idxnote">🕒 ' + agoText(LIVE.asOf) + ' 받아온 목록입니다.</div>');

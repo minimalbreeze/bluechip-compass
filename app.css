@@ -760,8 +760,17 @@ body[data-market="us"] .ms-thumb { transform: translateX(100%); }
   padding: 11px 0; border-bottom: 1px solid var(--line-soft);
 }
 .newsitem:last-child { border-bottom: 0; }
-.news-t { flex: 1; min-width: 0; font-size: 14px; color: var(--ink); line-height: 1.55; }
+.news-body { flex: 1; min-width: 0; display: block; }
+.news-t { display: block; font-size: 14px; color: var(--ink); line-height: 1.55; }
+/* 원문은 확인용이라 눈에 덜 띄게. 다만 읽을 수는 있어야 한다. */
+.news-o {
+  display: block; font-size: 11.5px; color: var(--ink-dim);
+  line-height: 1.45; margin-top: 3px;
+}
 .news-s { font-size: 11px; color: var(--ink-dim); white-space: nowrap; }
+.newstr {
+  font-size: 12px; color: var(--ink-dim); line-height: 1.55; margin-top: 9px;
+}
 .newsguard {
   margin-top: 10px; font-size: 12.5px; line-height: 1.6;
   background: #fff8ec; border: 1px solid #f3e0bd; color: #6f5019;

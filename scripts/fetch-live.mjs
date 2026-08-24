@@ -37,6 +37,21 @@ const FEEDS = {
   ]
 };
 const NEWS_PER_MARKET = 6;
+
+/* ── 미국 기사 한국어 번역 ─────────────────────────────────────
+   기계 번역은 금융 헤드라인의 뜻을 뒤집을 때가 있다("beat expectations"를
+   "기대를 이겼다"로 옮기는 식). 그래서 앱은 **번역과 원문을 나란히** 보여주고
+   기계 번역임을 밝힌다. 번역을 못 해도 원문이 그대로 보이므로 손해는 없다.
+
+   같은 헤드라인을 30분마다 다시 번역할 이유가 없어 결과를 캐시한다.
+   실제로 새로 번역해야 하는 건 하루 수십 건 수준이다.
+
+   제공자:
+     · DEEPL_API_KEY 를 저장소 시크릿에 넣으면 DeepL 을 쓴다(품질이 낫다)
+     · 없으면 MyMemory 공개 API 를 쓴다(키 없이 되지만 하루 한도가 있다)
+       MYMEMORY_EMAIL 을 넣으면 한도가 늘어난다                            */
+const TR_MAX_PER_RUN = 12;     // 한 번에 새로 번역할 최대 건수
+const TR_CACHE_MAX = 300;      // 캐시에 보관할 최대 항목 수
 const PER_FEED = 20;
 
 /* ── 개별 종목 시세 ───────────────────────────────────────────
@@ -197,6 +212,77 @@ async function fetchNews(marketKey) {
   return out;
 }
 
+/* 번역 결과도 남의 서버에서 온 문자열이다. 저장 단계에서 꺾쇠를 지운다
+   (앱에서도 다시 이스케이프한다). */
+function sanitizeTr(x) {
+  return String(x || '').replace(/[<>]/g, '').replace(/\s+/g, ' ').trim();
+}
+
+async function translateDeepL(texts, key) {
+  const host = /:fx$/.test(key) ? 'https://api-free.deepl.com' : 'https://api.deepl.com';
+  const body = new URLSearchParams();
+  body.set('target_lang', 'KO');
+  body.set('source_lang', 'EN');
+  texts.forEach(t => body.append('text', t));
+  const ctl = new AbortController();
+  const timer = setTimeout(() => ctl.abort(), 20000);
+  try {
+    const r = await fetch(host + '/v2/translate', {
+      method: 'POST',
+      signal: ctl.signal,
+      headers: {
+        'Authorization': 'DeepL-Auth-Key ' + key,
+        'Content-Type': 'application/x-www-form-urlencoded'
+      },
+      body: body.toString()
+    });
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    const j = await r.json();
+    return (j.translations || []).map(t => sanitizeTr(t.text));
+  } finally { clearTimeout(timer); }
+}
+
+async function translateMyMemory(text) {
+  const email = process.env.MYMEMORY_EMAIL;
+  const url = 'https://api.mymemory.translated.net/get?q=' + encodeURIComponent(text.slice(0, 480)) +
+    '&langpair=en|ko' + (email ? '&de=' + encodeURIComponent(email) : '');
+  const j = await getJson(url, 15000);
+  const out = j && j.responseData ? String(j.responseData.translatedText || '') : '';
+  /* 한도 초과나 오류일 때 경고 문구를 번역문인 척 돌려준다 — 걸러내야 한다 */
+  if (!out || /MYMEMORY WARNING|QUERY LENGTH LIMIT|INVALID/i.test(out)) throw new Error('사용 불가 응답');
+  if (j.responseStatus && Number(j.responseStatus) !== 200) throw new Error('status ' + j.responseStatus);
+  return sanitizeTr(out);
+}
+
+/* items 의 title 을 한국어로 채운다. 캐시에 있으면 건너뛴다. */
+async function translateNews(items, cache) {
+  const key = process.env.DEEPL_API_KEY;
+  const need = [];
+  for (const it of items) {
+    if (cache[it.title]) { it.ko = cache[it.title]; continue; }
+    if (need.length < TR_MAX_PER_RUN) need.push(it);
+  }
+  if (!need.length) return;
+
+  try {
+    if (key) {
+      const res = await translateDeepL(need.map(x => x.title), key);
+      need.forEach((it, i) => {
+        if (res[i] && res[i] !== it.title) { it.ko = res[i]; cache[it.title] = res[i]; }
+      });
+    } else {
+      /* MyMemory 는 한 번에 하나씩만 받는다. 순차로 돌리되 실패하면 멈춘다 —
+         한도에 걸린 상태에서 계속 두드릴 이유가 없다. */
+      for (const it of need) {
+        const ko = await translateMyMemory(it.title);
+        if (ko && ko !== it.title) { it.ko = ko; cache[it.title] = ko; }
+      }
+    }
+  } catch (e) {
+    failed.push('translate: ' + e.message);
+  }
+}
+
 /* Yahoo chart API. meta 에 현재가와 전일 종가가 같이 들어온다. */
 function chartUrl(sym, range, interval) {
   return 'https://query1.finance.yahoo.com/v8/finance/chart/' +
@@ -263,6 +349,22 @@ try { fx = await fxRange(); } catch (e) { failed.push('fxRange: ' + e.message); 
 
 const news = { kr: await fetchNews('kr'), us: await fetchNews('us') };
 
+/* 미국 기사만 번역한다. 국내 기사는 이미 한국어다. */
+let trCache = {};
+if (existsSync(OUT)) {
+  try { trCache = JSON.parse(readFileSync(OUT, 'utf8')).trCache || {}; }
+  catch { trCache = {}; }
+}
+await translateNews(news.us, trCache);
+
+/* 캐시가 무한정 자라지 않게 최근 것만 남긴다 */
+const trKeys = Object.keys(trCache);
+if (trKeys.length > TR_CACHE_MAX) {
+  const keep = {};
+  trKeys.slice(-TR_CACHE_MAX).forEach(k => { keep[k] = trCache[k]; });
+  trCache = keep;
+}
+
 /* 개별 종목 시세 — 모의투자용 */
 const stocks = { kr: {}, us: {} };
 try {
@@ -312,9 +414,11 @@ writeFileSync(OUT, JSON.stringify({
   fx,
   stocks,
   news,
+  trCache,
   failed
 }, null, 2) + '\n');
 
 console.log('완료: 지수 ' + Object.keys(quotes).length + '/' + SYMBOLS.length,
   '· 종목 kr ' + Object.keys(stocks.kr).length + ' / us ' + Object.keys(stocks.us).length,
-  '· 뉴스 kr ' + news.kr.length + ' / us ' + news.us.length);
+  '· 뉴스 kr ' + news.kr.length + ' / us ' + news.us.length +
+  ' (번역 ' + news.us.filter(n => n.ko).length + ')');
