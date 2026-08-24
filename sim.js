@@ -56,7 +56,7 @@ window.BCSim = (function () {
       var p = priceOf(opts.live, opts.market, m.t, opts.fx);
       if (!p || amt <= 0) return;
       /* 시작 비중을 같이 남긴다 — 나중에 "얼마나 벌어졌나"를 보려면 기준이 필요하다 */
-      st.pos.push({ t: m.t, n: m.n, qty: amt / p, cost: amt, w0: m.w });
+      st.pos.push({ t: m.t, n: m.n, qty: amt / p, cost: amt, w0: m.w, first: opts.today });
       st.cash -= amt;
       st.log.push({ ts: opts.today, kind: 'buy', t: m.t, n: m.n, amt: amt, price: p, why: '시작 배분' });
     });
@@ -73,7 +73,7 @@ window.BCSim = (function () {
     var hit = null;
     st.pos.forEach(function (x) { if (x.t === o.ticker) hit = x; });
     if (hit) { hit.qty += o.amount / p; hit.cost += o.amount; }
-    else st.pos.push({ t: o.ticker, n: o.name, qty: o.amount / p, cost: o.amount, w0: 0 });
+    else st.pos.push({ t: o.ticker, n: o.name, qty: o.amount / p, cost: o.amount, w0: 0, first: o.today });
 
     st.cash -= o.amount;
     st.log.unshift({ ts: o.today, kind: 'buy', t: o.ticker, n: o.name, amt: o.amount, price: p,
@@ -95,12 +95,27 @@ window.BCSim = (function () {
     if (!(amount > 0)) return { ok: false, msg: '금액을 입력하세요.' };
     if (amount > value + 1e-9) return { ok: false, msg: '보유 평가액보다 많이 팔 수 없습니다. (평가 ' + Math.floor(value) + '만원)' };
 
+    /* 실현 손익 — 판 만큼의 원가를 빼서 남는 차액이다.
+       평균 매수 단가로 계산한다(선입선출이 아니라). 국내 증권사 표기와 같고,
+       무엇보다 "이 종목에 넣은 돈 대비 얼마 건졌나"가 초보자에게 읽히는 셈법이다. */
     var ratio = amount / value;
-    hit.qty -= hit.qty * ratio;
-    hit.cost -= hit.cost * ratio;
+    var costOut = hit.cost * ratio;         // 이번에 빠져나간 원가
+    var avgIn = hit.qty > 0 ? hit.cost / hit.qty : 0;   // 팔기 전 평단(만원/주)
+    var qtyOut = hit.qty * ratio;
+
+    hit.qty -= qtyOut;
+    hit.cost -= costOut;
     st.cash += amount;
-    st.log.unshift({ ts: o.today, kind: 'sell', t: o.ticker, n: hit.n, amt: amount, price: p,
-      why: o.why || null, auto: !!o.auto });
+    st.log.unshift({
+      ts: o.today, kind: 'sell', t: o.ticker, n: hit.n, amt: amount, price: p,
+      why: o.why || null, auto: !!o.auto,
+      /* 장부에 쓸 값들 */
+      cost: costOut,                        // 판 만큼의 원가
+      real: amount - costOut,               // 실현 손익
+      avg: avgIn,                           // 그때의 평단
+      qty: qtyOut,
+      since: hit.first || null              // 언제부터 들고 있던 것인지
+    });
     if (hit.qty <= 1e-9 || o.all) st.pos.splice(idx, 1);
     return { ok: true };
   }
@@ -141,9 +156,18 @@ window.BCSim = (function () {
       r.wT = hasModel ? (want[r.t] || 0) : null;
       r.dT = r.wT === null ? null : Math.round((r.weight - r.wT) * 10) / 10;
     });
+    /* 지금까지 팔아서 확정된 손익. 평가손익과 성격이 다르니 따로 낸다 —
+       평가손익은 아직 되돌릴 수 있고, 실현손익은 되돌릴 수 없다. */
+    var realized = st.log.reduce(function (a, l) {
+      return a + (l.kind === 'sell' && typeof l.real === 'number' ? l.real : 0);
+    }, 0);
+
     var pl = total - st.seed;
     return {
       rows: rows,
+      realized: realized,
+      /* 아직 안 판 것의 손익. 실현 + 평가 = 총 손익이 되도록 뺀다. */
+      unrealized: pl - realized,
       invested: invested,
       cash: st.cash,
       total: total,

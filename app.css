@@ -869,6 +869,89 @@ body[data-market="us"] .ms-thumb { transform: translateX(100%); }
 }
 .addform input:disabled { background: var(--line-soft); color: var(--ink-dim); }
 
+/* ── 언제까지 · 언제 파나 ──────────────────────────────────── */
+.hzrow { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 11px; }
+.hzchip {
+  text-align: left; border: 1.5px solid var(--line); background: var(--card);
+  border-radius: var(--r-s); padding: 9px 11px; cursor: pointer; font: inherit;
+  display: grid; gap: 2px;
+}
+.hzchip.is-on { border-color: var(--accent); background: var(--accent-soft); }
+.hz-l { font-size: 13.5px; font-weight: 700; color: var(--ink); }
+.hz-d { font-size: 11px; color: var(--ink-dim); line-height: 1.4; }
+.hzwarn {
+  margin-top: 10px; padding: 11px 13px; border-radius: var(--r-s);
+  font-size: 12.5px; line-height: 1.6;
+  background: var(--accent-soft); color: var(--accent-ink);
+}
+.hzwarn.bad { background: #fdf1ef; color: #93362f; }
+.hzwarn b { color: inherit; font-weight: 700; }
+
+.hzcard {
+  background: var(--card); border: 1px solid var(--line);
+  border-radius: var(--r-s); padding: 14px 15px;
+}
+.hzcard-h { font-size: 14px; font-weight: 800; color: var(--accent-ink); margin-bottom: 9px; }
+.hzcard-d { font-size: 13px; color: var(--ink-mid); line-height: 1.65; }
+.hzcard-d b { color: var(--ink); }
+/* 남은 기간을 막대로도 보여준다 — 숫자보다 "얼마나 왔나"가 먼저 읽힌다 */
+.hzbar {
+  height: 7px; background: var(--line-soft); border-radius: 4px;
+  overflow: hidden; margin-bottom: 10px;
+}
+.hzbar span { display: block; height: 100%; background: var(--accent); border-radius: 4px; }
+.hznear {
+  margin-top: 10px; padding: 10px 12px; border-radius: var(--r-s);
+  background: #fff8ec; border: 1px solid #f3e0bd; color: #6f5019;
+  font-size: 12.5px; line-height: 1.6;
+}
+.hznear b { color: inherit; }
+
+.srule { margin-top: 9px; }
+.sr-h {
+  display: flex; align-items: baseline; gap: 8px;
+  font-size: 14.5px; font-weight: 700; margin-bottom: 7px;
+}
+.sr-n {
+  flex: 0 0 19px; height: 19px; border-radius: 50%;
+  background: var(--accent-soft); color: var(--accent-ink);
+  display: grid; place-items: center; font-size: 11px; font-weight: 800;
+}
+.sr-d { font-size: 13.5px; color: var(--ink-mid); line-height: 1.65; }
+.sr-d b { color: var(--ink); }
+.sr-how {
+  margin-top: 8px; padding-top: 8px; border-top: 1px solid var(--line-soft);
+  font-size: 12px; color: var(--ink-dim); line-height: 1.55;
+}
+.sr-how b { color: var(--ink-mid); }
+
+/* ── 매매 장부 ──────────────────────────────────────────────
+   지나고 나서 읽는 화면이라, 한 건이 한눈에 읽히는 게 목록 밀도보다 중요하다 */
+.ledger { display: grid; gap: 10px; }
+.ldg {
+  border: 1px solid var(--line-soft); border-radius: var(--r-s);
+  padding: 11px 13px; background: var(--card);
+}
+.ldg-top {
+  display: flex; align-items: baseline; justify-content: space-between;
+  gap: 10px; margin-bottom: 7px;
+}
+.ldg-n { font-weight: 700; font-size: 14.5px; min-width: 0; }
+.ldg-r { font-weight: 800; font-size: 15px; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.ldg-r small { font-weight: 700; font-size: 11.5px; opacity: .8; }
+/* 샀을 때 / 팔았을 때를 표처럼 읽히게 한다. 그리드라서 줄이 넘어가도
+   본문이 라벨 아래로 파고들지 않고 값 열에 그대로 이어진다. */
+.ldg-line {
+  display: grid; grid-template-columns: 58px 1fr; gap: 8px;
+  font-size: 12.5px; color: var(--ink-mid); line-height: 1.6;
+  font-variant-numeric: tabular-nums;
+}
+.ldg-k { font-size: 11px; color: var(--ink-dim); font-weight: 600; padding-top: 1px; }
+.ldg-why {
+  font-size: 11.5px; color: var(--ink-dim); line-height: 1.5;
+  margin-top: 6px; padding-top: 6px; border-top: 1px solid var(--line-soft);
+}
+
 /* ── 모의투자: 자동 운용 ────────────────────────────────────── */
 .autobox {
   border: 1px solid var(--line); border-radius: var(--r-s);

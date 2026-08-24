@@ -44,7 +44,9 @@
     /* 'auto' = 서버가 실제 수치로 판정한 값을 쓴다(기본).
        'manual' = 사용자가 직접 고친 값을 쓴다. 고치는 순간 manual 이 된다. */
     regimeMode: load('regimeMode', 'auto'),
-    profile: load('profile', { seed: 1000, fx: 1350 }),
+    /* horizon(언제 쓸 돈인가)은 시장이 아니라 사용자의 돈 사정이 정한다.
+       이 앱에서 유일하게 자동 판정하지 않고 물어보는 값이다. */
+    profile: load('profile', { seed: 1000, fx: 1350, horizon: 10, startedAt: null }),
     /* 보유 종목은 시장별로 따로 둔다 — 국내 계좌와 해외 계좌는 다른 지갑이다. */
     holdings: load('holdings', { kr: [], us: [] }),
     cash:     load('cash', { kr: 0, us: 0 }),
@@ -89,6 +91,9 @@
     if (!state.holdings[mk]) state.holdings[mk] = [];
     if (typeof state.cash[mk] !== 'number') state.cash[mk] = 0;
   });
+  /* 기간이 생기기 전 저장본 이관 — 10년(이 앱이 가정하는 기간)으로 둔다 */
+  if (typeof state.profile.horizon !== 'number') state.profile.horizon = 10;
+  if (state.profile.startedAt === undefined) state.profile.startedAt = null;
 
   /* 저장본에 새 다이얼이 빠져 있을 수 있으니 기본값으로 메운다. */
   ['kr', 'us'].forEach(function (mk) {
@@ -99,6 +104,30 @@
   });
 
   function market() { return D.markets[state.market]; }
+
+  /* 지금 고른 투자 기간. 저장본이 이상해도 10년으로 떨어지게 둔다. */
+  function horizonOf() {
+    var y = state.profile.horizon, hit = null;
+    D.horizons.forEach(function (x) { if (x.y === y) hit = x; });
+    return hit || D.horizons[2];
+  }
+
+  /* 시작일부터 얼마나 왔고 얼마나 남았나. 시작일은 처음 종목을 등록한 날로
+     잡는다 — 이것 하나 더 묻는 것도 부담이라(원칙 15) 따로 묻지 않는다. */
+  function horizonProgress() {
+    var start = state.profile.startedAt;
+    if (!start) return null;
+    var days = daysSince(start);
+    var total = horizonOf().y * 365;
+    return {
+      start: start,
+      years: Math.floor(days / 365),
+      months: Math.floor((days % 365) / 30),
+      leftY: Math.max(0, Math.round((total - days) / 365 * 10) / 10),
+      pct: Math.max(0, Math.min(100, Math.round(days / total * 1000) / 10)),
+      near: (total - days) <= 730      /* 쓸 때가 2년 안 — 현금으로 옮기기 시작할 때 */
+    };
+  }
 
   /* ── 지금 쓰이는 국면 ──────────────────────────────────────────
      예전에는 사용자가 다이얼 5개를 매일 맞춰야 했다. 배우는 효과는 있었지만
@@ -232,6 +261,16 @@
     return (v > 0 ? '+' : v < 0 ? '−' : '') + nMoney(Math.abs(v), mk);
   }
   /* 주당 가격은 언제나 그 시장 통화로 보여준다 — 주당 원화 환산은 의미가 없다. */
+  /* 모의투자 내부 가격은 만원/주 단위다(sim.js priceOf 참고).
+     화면에는 그 시장이 쓰는 단위로 되돌린다 — 장부에 "0.0257만원"이 찍히면
+     아무도 못 읽는다. */
+  function simPerShare(v) {
+    if (typeof v !== 'number' || !(v > 0)) return '–';
+    return state.market === 'kr'
+      ? perShare(v * 10000, 'kr')
+      : perShare(v * 10000 / (state.profile.fx || 1350), 'us');
+  }
+
   function perShare(v, mk) {
     if (v === null || v === undefined) return '–';
     return mk === 'kr'
@@ -796,6 +835,54 @@
      판단 근거는 "목표 비중 대비 어긋난 정도"와 "50년 점수"뿐이다.
      손익은 보여주기만 하고 판단에 쓰지 않는다 — 이유는 holdings.js 참고.
      ══════════════════════════════════════════════════════════════ */
+  /* ── 언제까지 · 언제 파나 ────────────────────────────────────
+     "언제 팔아야 하나"에 날짜로 답하지 않는다. 아무도 모르고, 안다고 말하는
+     순간 이 앱은 거짓말을 시작한다(원칙 5).
+
+     대신 답할 수 있는 둘을 준다.
+       · 남은 기간 — 시장이 아니라 사용자의 돈 사정이 정한다.
+       · 매도 조건 — 날짜가 아니라 미리 정해둔 규칙. 급락장에서는 판단력이
+         남아 있지 않아서, 평온할 때 적어둔 것만 그때 작동한다.
+
+     보유 종목이 없어도 보여준다 — 사기 전에 정해두는 쪽이 낫다. */
+  function whenFold() {
+    var hz = horizonOf(), pr = horizonProgress();
+
+    var html = '<div class="hzcard">' +
+      '<div class="hzcard-h">📅 언제까지</div>' +
+      (pr
+        ? '<div class="hzbar"><span style="width:' + pr.pct + '%"></span></div>' +
+          '<div class="hzcard-d"><b>' + pr.start + '</b>에 시작해 ' +
+            (pr.years ? pr.years + '년 ' : '') + pr.months + '개월 지났습니다. ' +
+            '목표 ' + hz.label + ' 기준으로 <b>' + pr.leftY + '년</b> 남았습니다.</div>' +
+          (pr.near
+            ? '<div class="hznear">⏳ <b>쓸 때가 2년 안으로 들어왔습니다.</b> 지금부터는 나눠서 ' +
+              '현금으로 옮길 때입니다 — 하루아침에 전부 파는 것보다 최악의 날을 피합니다.</div>'
+            : '')
+        : '<div class="hzcard-d">보유 종목을 등록하면 그날을 시작일로 잡고 남은 기간을 세어 드립니다. ' +
+          '지금 목표 기간은 <b>' + hz.label + '</b>으로 잡혀 있습니다.</div>') +
+      '<button class="linkbtn" data-go="plan" data-psub="plan">기간 바꾸기 →</button>' +
+    '</div>';
+
+    html += '<div class="stepnote">파는 이유는 셋뿐입니다. ' +
+      '<b>주가가 얼마가 됐는지는 여기 없습니다</b> — 일부러 없습니다.</div>';
+
+    D.sellRules.forEach(function (r, i) {
+      html += '<div class="card srule">' +
+        '<div class="sr-h"><span class="sr-n">' + (i + 1) + '</span>' + r.icon + ' ' + r.t + '</div>' +
+        '<div class="sr-d">' + linkTerms(r.d) + '</div>' +
+        '<div class="sr-how">확인하는 법 — ' + linkTerms(r.how) + '</div>' +
+      '</div>';
+    });
+
+    html += '<div class="note">⚠️ <b>“몇 월에 파세요”는 알려드리지 않습니다.</b> ' +
+      '아무도 모르고, 안다고 말하는 순간 이 앱은 거짓말을 시작합니다. ' +
+      '대신 위 세 가지를 <b>평온할 때 미리 정해두는 것</b>이 이 화면의 목적입니다.</div>';
+
+    return fold('my-when', '📅', '언제까지 · 언제 팔까', html,
+      { open: false, badge: pr && pr.near ? '⏳' : '' });
+  }
+
   function renderMy() {
     var mk = market();
     var mkey = state.market;
@@ -896,6 +983,7 @@
 
     if (!list.length) {
       h.push('<div class="note" style="margin-top:14px">아직 등록된 종목이 없습니다. 위 <b>＋ 종목 추가</b>로 하나만 넣어보세요.</div>');
+      h.push(whenFold());
       return h.join('');
     }
 
@@ -968,6 +1056,7 @@
         '<div class="newsq-a n">아니오 — ' + linkTerms(r.no) + '</div></div>';
     });
     h.push(fold('my-news', '🗞️', '팔지 말지 헷갈릴 때', newsHtml, { open: false }));
+    h.push(whenFold());
 
 
     h.push('<div class="foot"><b>고지.</b> 위 판단은 <b>목표 비중과의 차이</b>와 이 앱의 <b>정성 평가 점수</b>만으로 기계적으로 계산한 것입니다. ' +
@@ -1008,7 +1097,15 @@
     if (state.market === 'us') {
       h.push('<div class="seedfx">환율 <input type="number" id="fxrate" value="' + p.fx + '" min="800" max="2500" step="10" inputmode="numeric" /> 원/달러로 환산</div>');
     }
-    h.push('<div class="stepnote">3년 안에 쓸 돈과 비상금(생활비 3~6개월치)은 <b>빼고</b> 넣으세요.</div></div>');
+    h.push('<div class="stepnote">3년 안에 쓸 돈과 비상금(생활비 3~6개월치)은 <b>빼고</b> 넣으세요.</div>');
+
+    /* 언제 쓸 돈인가 — 이게 곧 투자 기간이고, 매도 규칙 셋 중 하나의 근거가 된다 */
+    h.push('<div class="hzrow">' + D.horizons.map(function (x) {
+      return '<button class="hzchip' + (p.horizon === x.y ? ' is-on' : '') + '" data-hz="' + x.y + '">' +
+        '<span class="hz-l">' + x.label + '</span><span class="hz-d">' + x.d + '</span></button>';
+    }).join('') + '</div>');
+    h.push('<div class="hzwarn' + (p.horizon <= 3 ? ' bad' : '') + '">' +
+      (p.horizon <= 3 ? '⚠️ ' : '📅 ') + linkTerms(horizonOf().warn) + '</div></div>');
 
     /* ── 2단계: 성향 ── */
     h.push('<div class="step"><div class="step-h"><span class="step-n">2</span>어떤 성향으로 갈까요</div>' +
@@ -1157,7 +1254,10 @@
       '<div class="sum-top"><span class="sum-l">모의 평가금액</span><span class="sum-v">' + money(v.total) + '</span></div>' +
       '<div class="simpl ' + plClass(v.pl) + '">' + signWon(v.pl) + ' <span>' + signPct(v.plPct) + '</span></div>' +
       '<div class="sum-grid">' +
-        '<div><span>주식 평가</span><b>' + won(v.invested) + '</b></div>' +
+        '<div><span>실현 손익</span><b class="' + plClass(v.realized) + '">' + signWon(v.realized) + '</b>' +
+          '<small class="wsub">판 것 확정</small></div>' +
+        '<div><span>평가 손익</span><b class="' + plClass(v.unrealized) + '">' + signWon(v.unrealized) + '</b>' +
+          '<small class="wsub">아직 안 판 것</small></div>' +
         '<div><span>현금</span><b>' + won(v.cash) + '</b></div>' +
         '<div><span>현금 비중</span><b>' + v.cashWeight + '%</b><small class="wsub">' +
           (v.cashWT === null ? '시작 ' + v.cashW0 + '%' : '목표 ' + v.cashWT + '%') + '</small></div>' +
@@ -1211,8 +1311,44 @@
       '<div class="addnote">체결가는 <b>30분마다 갱신되는 스냅샷 가격</b>입니다. 실제 체결가가 아닙니다.</div></div>';
     h.push(fold('sim-buy', '🛒', '새로 사기', buyHtml, { open: false }));
 
+    /* ── 매매 장부 ──
+       "무엇을 언제 얼마에 사서, 언제 얼마에 팔아 얼마 남았나."
+       모의투자를 중단할 때까지 한 줄도 지우지 않는다 — 지나고 나서 읽는 게
+       이 화면의 목적이라, 최근 몇 건만 남기면 쓸모가 없다. */
+    var sells = st.log.filter(function (l) { return l.kind === 'sell'; });
+    var ledgerHtml;
+    if (!sells.length) {
+      ledgerHtml = '<div class="slot-d">아직 판 종목이 없습니다. 팔고 나면 ' +
+        '<b>언제 얼마에 사서 언제 얼마에 팔았는지</b>와 그때 확정된 손익이 여기 쌓입니다.</div>';
+    } else {
+      ledgerHtml = '<div class="ledger">';
+      sells.forEach(function (l) {
+        var real = typeof l.real === 'number' ? l.real : null;
+        var pct = (real !== null && l.cost > 0) ? real / l.cost * 100 : null;
+        ledgerHtml += '<div class="ldg">' +
+          '<div class="ldg-top"><span class="ldg-n">' + esc(l.n) +
+            (l.auto ? '<span class="log-auto">자동</span>' : '') + '</span>' +
+            (real === null ? '' : '<span class="ldg-r ' + plClass(real) + '">' + signWon(real) +
+              (pct === null ? '' : ' <small>' + signPct(pct) + '</small>') + '</span>') +
+          '</div>' +
+          '<div class="ldg-line"><span class="ldg-k">샀을 때</span><span>' +
+            (l.since ? l.since + ' 부터 · ' : '') + '평단 ' + simPerShare(l.avg) +
+            (typeof l.cost === 'number' ? ' · 원가 ' + won(l.cost) : '') +
+          '</span></div>' +
+          '<div class="ldg-line"><span class="ldg-k">팔았을 때</span><span>' +
+            l.ts + ' · ' + simPerShare(l.price) + ' · 받은 돈 ' + won(l.amt) +
+          '</span></div>' +
+          (l.why ? '<div class="ldg-why">' + esc(l.why) + '</div>' : '') +
+        '</div>';
+      });
+      ledgerHtml += '</div><div class="note">평단은 <b>평균 매수 단가</b> 기준입니다. ' +
+        '같은 종목을 여러 번 나눠 샀으면 그 평균으로 계산합니다 — 증권사 앱과 같은 방식입니다.</div>';
+    }
+    h.push(fold('sim-ledger', '📒', '매매 장부', ledgerHtml,
+      { open: false, badge: sells.length || '' }));
+
     var logHtml = '';
-    st.log.slice(0, 30).forEach(function (l) {
+    st.log.forEach(function (l) {
       logHtml += '<div class="logrow"><span class="log-k ' + l.kind + '">' + (l.kind === 'buy' ? '매수' : '매도') + '</span>' +
         '<span class="log-n">' + esc(l.n) + (l.auto ? '<span class="log-auto">자동</span>' : '') + '</span>' +
         '<span class="log-a">' + won(l.amt) + '</span>' +
@@ -1221,8 +1357,7 @@
            계좌를 이해할 수 없고, 그러면 비교할 것도 없어진다. */
         (l.why ? '<span class="log-w">' + esc(l.why) + '</span>' : '') + '</div>';
     });
-    if (st.log.length > 30) logHtml += '<div class="logrow more">외 ' + (st.log.length - 30) + '건</div>';
-    h.push(fold('sim-log', '🧾', '거래 내역', logHtml || '<div class="slot-d">아직 없습니다.</div>',
+    h.push(fold('sim-log', '🧾', '전체 거래 내역', logHtml || '<div class="slot-d">아직 없습니다.</div>',
       { open: false, badge: st.log.length }));
 
     h.push(compareBlock(v));
@@ -1659,6 +1794,10 @@
       return;
     }
 
+    if ((el = ev.target.closest('.hzchip'))) {
+      state.profile.horizon = parseInt(el.dataset.hz, 10);
+      save('profile', state.profile); render(); return;
+    }
     if ((el = ev.target.closest('.seedchip'))) {
       state.profile.seed = parseInt(el.dataset.seed, 10);
       save('profile', state.profile); render(); return;
@@ -1737,6 +1876,12 @@
       if (manual > 0) item.cur = manual;
       if (state.market === 'us') item.fxAt = parseInt(fxAtEl && fxAtEl.value, 10) || state.profile.fx;
 
+      /* 처음 종목을 등록한 날을 투자 시작일로 잡는다 — 따로 묻지 않기 위해서다.
+         한 번 잡히면 종목을 지웠다 다시 넣어도 바뀌지 않는다. */
+      if (!state.profile.startedAt) {
+        state.profile.startedAt = ymd(today());
+        save('profile', state.profile);
+      }
       state.holdings[state.market].push(item);
       save('holdings', state.holdings);
       state.pickSel = null;
