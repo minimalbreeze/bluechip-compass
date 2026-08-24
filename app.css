@@ -869,6 +869,15 @@ body[data-market="us"] .ms-thumb { transform: translateX(100%); }
 }
 .addform input:disabled { background: var(--line-soft); color: var(--ink-dim); }
 
+/* 시세를 못 받아오는 종목 — 손익이 멈춰 있다는 걸 줄에서 바로 알린다 */
+.nop { color: #b8342c; white-space: nowrap; }
+.nopline {
+  margin-top: 6px; padding: 8px 10px; border-radius: 8px;
+  background: #fff4e6; border: 1px solid #f3e0bd; color: #6f5019;
+  font-size: 12px; line-height: 1.55;
+}
+.nopline b { color: inherit; font-weight: 700; }
+
 /* ── 언제까지 · 언제 파나 ──────────────────────────────────── */
 .hzrow { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 11px; }
 .hzchip {

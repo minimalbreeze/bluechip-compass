@@ -243,9 +243,14 @@
   }
 
   /* 그 시장 통화의 현재가. 국내는 원, 미국은 달러. */
+  /* 유니버스(live.json)를 먼저 보고, 없으면 넓은 목록(prices.json)을 본다.
+     유니버스 쪽이 30분마다 갱신돼 더 신선하므로 순서를 바꾸지 않는다. */
   function priceIn(mk, ticker) {
-    var s = LIVE && LIVE.stocks ? LIVE.stocks[mk] : null;
-    var q = s && ticker ? s[ticker] : null;
+    if (!ticker) return null;
+    var q = LIVE && LIVE.stocks && LIVE.stocks[mk] ? LIVE.stocks[mk][ticker] : null;
+    if (!(q && typeof q.price === 'number' && q.price > 0)) {
+      q = PRICES && PRICES.stocks && PRICES.stocks[mk] ? PRICES.stocks[mk][ticker] : null;
+    }
     return q && typeof q.price === 'number' && q.price > 0 ? q.price : null;
   }
 
@@ -427,6 +432,37 @@
       .catch(function () { /* 없으면 없는 대로 — 링크만 보여준다 */ });
   }
 
+  /* ── 보유 종목 시세 (prices.json) ──────────────────────────────
+     유니버스 26종목 밖의 종목은 live.json 에 없어서 손익이 0원에 멈춘다.
+     그래서 넓은 시세 목록을 따로 받아둔다(scripts/fetch-prices.mjs).
+
+     이 파일은 **보유 종목이나 모의투자 계좌가 있을 때만** 내려받는다.
+     아무것도 등록하지 않은 사람까지 매번 그 무게를 질 이유가 없다. */
+  var PRICES = null, pricesTried = false;
+
+  function needPrices() {
+    return ['kr', 'us'].some(function (mk) {
+      return (state.holdings[mk] && state.holdings[mk].length) ||
+             (state.sim[mk] && state.sim[mk].pos && state.sim[mk].pos.length);
+    });
+  }
+
+  function loadPrices() {
+    if (pricesTried || !needPrices()) return;
+    pricesTried = true;
+    if (window.BC_PRICES_INLINE) { PRICES = window.BC_PRICES_INLINE; return; }
+    if (!window.fetch) return;
+    fetch('prices.json?t=' + Math.floor(Date.now() / 3600000), { cache: 'no-store' })
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (j) {
+        if (!j || !j.stocks) return;
+        PRICES = j;
+        if (document.getElementById('view-' + current) &&
+            document.getElementById('view-' + current).innerHTML) render();
+      })
+      .catch(function () { /* 없으면 없는 대로 — 직접 적은 현재가를 쓴다 */ });
+  }
+
   /* ══════════════════════════════════════════════════════════════════
      종목 이름 색인 (tickers.json)
      ------------------------------------------------------------------
@@ -453,10 +489,26 @@
 
   /* 검색. 유니버스(50년 카드에 있는 종목)를 먼저 올린다 — 이 앱이 실제로
      평가하고 시세도 갖고 있는 종목이라 사용자에게 가장 쓸모 있다. */
+  /* KRX 공식 약칭이 영문인 종목이 있다. "네이버"를 쳐도 안 나오면 사용자는
+     그 종목이 없다고 생각하고 이름을 직접 적어버린다 — 그러면 티커가 안 붙어
+     시세도 판정도 못 붙는다. 실제로 검색되던 자리를 막지 않으려고, 원래
+     질의와 치환한 질의를 **둘 다** 본다. */
+  var KOR_ALIAS = {
+    '네이버': 'naver', '엘지': 'lg', '포스코': 'posco', '케이비': 'kb',
+    '신한': 'shinhan', '하나': 'hana', '우리': 'woori', '기업은행': 'ibk',
+    '에스케이': 'sk', '지에스': 'gs', '씨제이': 'cj', '한국전력': '한국전력',
+    '케이티': 'kt', '엘엑스': 'lx', '에이치디': 'hd', '디비': 'db'
+  };
+
   function searchTickers(q, mk) {
     var query = String(q || '').trim();
     if (!query) return [];
     var lq = query.toLowerCase();
+    /* 별칭이 있으면 그것도 후보 질의로 함께 쓴다 */
+    var alt = null;
+    for (var k in KOR_ALIAS) {
+      if (lq.indexOf(k) === 0) { alt = KOR_ALIAS[k] + lq.slice(k.length); break; }
+    }
     var isCode = /^[0-9]{2,6}$/.test(query);
     var out = [], seen = {};
 
@@ -472,23 +524,53 @@
 
     D.markets[mk].picks.forEach(function (p) {
       var hay = (p.name + ' ' + (p.korName || '') + ' ' + p.ticker).toLowerCase();
-      if (hay.indexOf(lq) >= 0) push(p.ticker, p.name, 0, true);
+      if (hay.indexOf(lq) >= 0 || (alt && hay.indexOf(alt) >= 0)) push(p.ticker, p.name, 0, true);
     });
 
     if (TICKERS && TICKERS[mk]) {
+      /* ── 순위 ──
+         예전에는 "이름이 질의로 시작하면" 전부 한 묶음에 넣고 색인 순서(=알파벳
+         티커 순) 그대로 보여줬다. 그래서 "Intel"을 치면 Intel Corporation 이
+         아니라 Intelligent Alpha Atlas ETF(GPT)가 첫 줄에 왔다. 실제로 그걸
+         고르면 엉뚱한 종목이 등록된다.
+
+         이제 점수로 정렬한다. 낮을수록 먼저다. 핵심은 "Intel " 처럼 낱말이
+         거기서 끝나는 경우를, "Intelligent" 처럼 이어지는 경우보다 위에 두는
+         것이다. ETF 는 같은 점수대에서 뒤로 민다 — 이 앱이 다루는 대상이
+         아니지만 들고 있을 수는 있어서 지우지는 않는다. */
       var list = TICKERS[mk];
-      var starts = [], contains = [];
+      var hits = [];
       for (var i = 0; i < list.length; i++) {
         var t = list[i][0], n = list[i][1];
         var lt = t.toLowerCase(), ln = n.toLowerCase();
-        if (isCode ? t.indexOf(query) === 0 : (lt === lq || lt.indexOf(lq) === 0 || ln.indexOf(lq) === 0)) {
-          starts.push(list[i]);
-        } else if (!isCode && ln.indexOf(lq) > 0) {
-          contains.push(list[i]);
+        var rank = -1;
+
+        if (isCode) {
+          if (t.indexOf(query) === 0) rank = t === query ? 0 : 2;
+        } else if (lt === lq) {
+          rank = 0;                                   /* 티커가 정확히 일치 */
+        } else if (ln === lq) {
+          rank = 1;                                   /* 이름이 정확히 일치 */
+        } else if (ln.indexOf(lq) === 0) {
+          /* 이름이 질의로 시작 — 바로 뒤가 낱말 끝이면 훨씬 좋은 매치다 */
+          rank = /[a-z0-9]/.test(ln.charAt(lq.length) || ' ') ? 4 : 2;
+        } else if (lt.indexOf(lq) === 0) {
+          rank = 3;                                   /* 티커가 질의로 시작 */
+        } else if (ln.indexOf(lq) > 0) {
+          rank = 5;                                   /* 이름 중간에 포함 */
+        } else if (alt && ln.indexOf(alt) === 0) {
+          rank = 4.2;                                 /* 별칭으로 찾음 */
+        } else if (alt && ln.indexOf(alt) > 0) {
+          rank = 5.2;
         }
-        if (starts.length > 40) break;
+        if (rank < 0) continue;
+        if (list[i][2]) rank += 0.5;                  /* ETF 는 반 칸 뒤로 */
+        hits.push({ r: rank, len: n.length, row: list[i] });
       }
-      starts.concat(contains).forEach(function (r) { push(r[0], r[1], r[2], false); });
+      /* 같은 점수면 이름이 짧은 쪽 — "Intel Corporation"이
+         "Intel Corporation Warrant"보다 먼저 나오게 한다. */
+      hits.sort(function (a, b) { return a.r - b.r || a.len - b.len; });
+      hits.slice(0, 40).forEach(function (x) { push(x.row[0], x.row[1], x.row[2], false); });
     }
     return out.slice(0, 8);
   }
@@ -993,8 +1075,13 @@
         '지우고 <b>단가·수량</b>으로 다시 넣으면 더 정확해집니다.</div>');
     }
     if (a.noPrice) {
-      h.push('<div class="note" style="background:#fff4e6;color:#8a5a12">' + a.noPrice +
-        '개는 시세를 못 받아와 <b>매수 원가로 표시</b>했습니다.</div>');
+      /* 예전에는 "매수 원가로 표시했습니다"라고만 적었다. 그게 곧
+         "이 종목의 손익은 영원히 0원"이라는 뜻인데 아무도 그렇게 못 읽었다.
+         실제로 "미국 보유 종목 변화가 안 보인다"는 말을 듣고서야 알았다. */
+      h.push('<div class="note" style="background:#fff4e6;color:#8a5a12">⚠️ <b>' + a.noPrice +
+        '개는 시세를 못 받아옵니다.</b> 그 종목은 매수 원가가 그대로 찍혀 ' +
+        '<b>손익이 움직이지 않습니다.</b> 아래에서 ⚠️ 표시된 종목의 ' +
+        '<b>현재가를 직접 적으면</b> 그때부터 계산됩니다.</div>');
     }
 
     /* 요약 */
@@ -1026,8 +1113,13 @@
           ? '<div class="hrow-nums"><span>평가 <b>' + nMoney(r.value, mkey) + '</b></span><span>예전 방식 입력</span></div>'
           : '<div class="hrow-nums">' +
               '<span>' + r.qty + '주 · 평단 <b>' + perShare(r.avg, mkey) + '</b></span>' +
-              '<span>현재 <b>' + perShare(r.price, mkey) + '</b></span>' +
+              '<span>' + (r.hasPrice
+                ? '현재 <b>' + perShare(r.price, mkey) + '</b>'
+                : '<b class="nop">⚠️ 시세 없음</b>') + '</span>' +
             '</div>' +
+            (r.hasPrice ? '' :
+              '<div class="nopline">이 종목은 시세를 받아오지 않아 <b>손익이 움직이지 않습니다.</b> ' +
+              '삭제 후 다시 등록하면서 <b>현재가</b>를 적어주세요.</div>') +
             '<div class="hrow-nums">' +
               '<span>평가 <b>' + nMoney(r.value, mkey) + '</b></span>' +
               '<span>손익 <b class="' + plClass(r.pl) + '">' + nSign(r.pl, mkey) + ' (' + signPct(r.plPct) + ')</b></span>' +
@@ -1883,6 +1975,8 @@
         save('profile', state.profile);
       }
       state.holdings[state.market].push(item);
+      /* 방금 등록한 종목이 유니버스 밖이면 이제 넓은 시세 목록이 필요하다 */
+      loadPrices();
       save('holdings', state.holdings);
       state.pickSel = null;
       state.q = '';
@@ -2126,5 +2220,6 @@
   }
 
   loadLive();
+  loadPrices();
   initGate();
 })();

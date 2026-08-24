@@ -1,0 +1,50 @@
+# 보유 종목 시세를 넓게 받아 prices.json 에 커밋한다.
+#
+# live.yml 과 나눈 이유는 scripts/fetch-prices.mjs 상단 주석 참고.
+# 요약하면 (1) 앱을 열 때마다 받는 파일을 무겁게 하지 않기 위해,
+# (2) 자기 보유 종목은 하루 두 번이면 충분하기 때문이다.
+
+name: holding prices
+
+on:
+  schedule:
+    # 국내장 마감 뒤(07:00 UTC = 16:00 KST)와 미국장 마감 뒤(21:30 UTC)
+    - cron: '5 7 * * 1-5'
+    - cron: '30 21 * * 1-5'
+  workflow_dispatch:
+
+concurrency:
+  group: holding-prices
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  prices:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # 목록에 오타가 있으면 매번 헛되이 두드리게 된다. 받아오기 전에 막는다.
+      - name: 종목 목록 검증
+        run: node scripts/check-list.mjs
+
+      - name: 시세 받아오기
+        run: node scripts/fetch-prices.mjs
+
+      - name: 바뀐 게 있으면 커밋
+        run: |
+          if git diff --quiet -- prices.json; then
+            echo "변화 없음 — 커밋하지 않는다"
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add prices.json
+          git commit -m "chore: 보유 종목 시세 갱신 [skip ci]"
+          git push
