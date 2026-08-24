@@ -31,12 +31,25 @@ permissions:
 jobs:
   snapshot:
     runs-on: ubuntu-latest
+    # 셋 다 선택 사항이다. 없으면 각각 조용히 대체 경로로 간다:
+    #   ANTHROPIC_API_KEY 없음 → 규칙 기반 국면 판정
+    #   DEEPL_API_KEY     없음 → MyMemory 무료 번역
+    #   MYMEMORY_EMAIL    없음 → 익명 호출(하루 한도가 더 낮다)
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
+      MYMEMORY_EMAIL: ${{ secrets.MYMEMORY_EMAIL }}
     steps:
       - uses: actions/checkout@v4
 
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
+
+      # 키가 있을 때만 설치한다 — 없는 날은 규칙 판정으로 가므로 받을 이유가 없다.
+      - name: AI 판정용 패키지 설치
+        if: env.ANTHROPIC_API_KEY != ''
+        run: npm install --no-save --no-audit --no-fund @anthropic-ai/sdk zod
 
       - name: 시세 받아오기
         run: node scripts/fetch-live.mjs

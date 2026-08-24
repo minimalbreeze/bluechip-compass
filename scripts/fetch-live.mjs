@@ -19,8 +19,13 @@
    ========================================================================== */
 
 import { writeFileSync, existsSync, readFileSync } from 'node:fs';
+import { judgeByRules, judgeByAI, validate } from './judge-regime.mjs';
 
-const SYMBOLS = ['^KS11', '^KQ11', 'KRW=X', '^GSPC', '^IXIC', '^VIX'];
+const SYMBOLS = ['^KS11', '^KQ11', 'KRW=X', '^GSPC', '^IXIC', '^VIX', '^TNX'];
+
+/* 국면 판정에 쓸 1년 히스토리. 지금 값 하나로는 "비싼가/싼가"를 말할 수 없다 —
+   같은 지수라도 1년 범위의 어디쯤인지를 알아야 판단이 선다. */
+const HIST_SYMBOLS = ['^KS11', '^KQ11', 'KRW=X', '^GSPC', '^IXIC', '^VIX', '^TNX'];
 
 /* 뉴스 RSS. 위에서부터 시도해서 필요한 개수가 차면 멈춘다.
    한 곳이 죽어도 다른 곳으로 메워지도록 여러 개를 둔다. */
@@ -336,6 +341,27 @@ async function quote(sym) {
   };
 }
 
+/* 1년 종가에서 판정에 쓸 요약치를 뽑는다.
+     pct52  최근 1년 범위에서 지금 위치 (0=최저, 1=최고)
+     chg3m  3개월 전 대비 변화율(%)
+   둘 다 "지금 값 하나"로는 알 수 없는 것들이다. */
+async function history(sym) {
+  const j = await getJson(chartUrl(sym, '1y', '1d'));
+  const res = j?.chart?.result?.[0];
+  const closes = (res?.indicators?.quote?.[0]?.close || []).filter(v => typeof v === 'number');
+  if (closes.length < 60) throw new Error('종가가 부족하다: ' + closes.length);
+  const last = closes[closes.length - 1];
+  const low = Math.min(...closes), high = Math.max(...closes);
+  const back = closes[Math.max(0, closes.length - 63)];   // 약 3개월(거래일 기준)
+  return {
+    last: Math.round(last * 100) / 100,
+    low52: Math.round(low * 100) / 100,
+    high52: Math.round(high * 100) / 100,
+    pct52: high === low ? 0.5 : Math.round((last - low) / (high - low) * 1000) / 1000,
+    chg3m: back ? Math.round((last - back) / back * 10000) / 100 : null
+  };
+}
+
 /* 원/달러는 1년 범위 안에서 지금 어디쯤인지도 같이 낸다.
    "원화 약세인가"를 감이 아니라 위치로 판단하게 하기 위해서다. */
 async function fxRange() {
@@ -362,6 +388,13 @@ for (const s of SYMBOLS) {
 
 let fx = null;
 try { fx = await fxRange(); } catch (e) { failed.push('fxRange: ' + e.message); }
+
+/* 판정용 히스토리 */
+const hist = {};
+for (const sym of HIST_SYMBOLS) {
+  try { hist[sym] = await history(sym); }
+  catch (e) { failed.push('hist/' + sym + ': ' + e.message); }
+}
 
 const news = { kr: await fetchNews('kr'), us: await fetchNews('us') };
 
@@ -420,7 +453,38 @@ if (existsSync(OUT)) {
         if (!stocks[mk][t]) { stocks[mk][t] = old.stocks[mk][t]; stocks[mk][t].stale = true; }
       }
     }
+    /* 히스토리도 빠진 것만 메운다 — 판정이 통째로 중립으로 무너지는 걸 막는다 */
+    for (const sym of HIST_SYMBOLS) {
+      if (!hist[sym] && old.hist?.[sym]) hist[sym] = old.hist[sym];
+    }
   } catch { /* 이전 파일이 깨졌으면 무시하고 새로 쓴다 */ }
+}
+
+/* ── 국면 판정 ──────────────────────────────────────────────
+   먼저 규칙으로 판정한다(키 없이도 항상 나온다). 키가 있으면 AI 가 같은
+   수치와 헤드라인을 읽고 다시 판정하고, 실패하면 규칙 값을 그대로 쓴다.
+   어느 쪽으로 판정했는지는 by 에 남겨 화면에 밝힌다.                     */
+const rulesKR = judgeByRules('kr', hist);
+const rulesUS = judgeByRules('us', hist);
+let regime = { by: 'rules', asOf: new Date().toISOString(), kr: rulesKR, us: rulesUS };
+
+if (process.env.ANTHROPIC_API_KEY) {
+  try {
+    const ai = await judgeByAI({
+      hist, news, rulesKR, rulesUS,
+      apiKey: process.env.ANTHROPIC_API_KEY,
+      model: process.env.ANTHROPIC_MODEL
+    });
+    regime = {
+      by: 'ai',
+      asOf: new Date().toISOString(),
+      kr: validate(ai.kr, rulesKR),
+      us: validate(ai.us, rulesUS)
+    };
+  } catch (e) {
+    failed.push('regime-ai: ' + e.message);
+    console.error('AI 판정 실패 — 규칙 판정을 쓴다:', e.message);
+  }
 }
 
 writeFileSync(OUT, JSON.stringify({
@@ -428,6 +492,8 @@ writeFileSync(OUT, JSON.stringify({
   source: 'Yahoo Finance chart API',
   quotes,
   fx,
+  hist,
+  regime,
   stocks,
   news,
   trCache,

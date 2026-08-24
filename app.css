@@ -194,6 +194,16 @@ body[data-market="us"] .ms-thumb { transform: translateX(100%); }
 }
 .regime-tilt b { color: #fff; }
 
+/* 자동 판정 근거 — 항목 / 판정값 / 왜 그렇게 봤는지 세 줄 */
+.jrow { display: flex; gap: 11px; padding: 12px 0; border-bottom: 1px solid var(--line-soft); }
+.jrow:last-child { border-bottom: 0; }
+.jico { font-size: 18px; flex: 0 0 22px; line-height: 1.3; }
+.jbody { min-width: 0; }
+.jq { font-size: 12.5px; color: var(--ink-dim); }
+.jv { font-size: 16px; font-weight: 800; color: var(--accent-ink); margin: 1px 0 3px; }
+.jwhy { font-size: 13.5px; color: var(--ink-mid); line-height: 1.55; }
+.jwhy b { color: var(--ink); }
+
 .read-item { display: flex; gap: 11px; padding: 11px 0; border-bottom: 1px solid var(--line-soft); }
 .read-item:last-child { border-bottom: 0; }
 .read-ico { font-size: 18px; flex: 0 0 22px; }

@@ -41,6 +41,9 @@
     })(),
     style:   load('style', 'balanced'),
     regime:  load('regime', { kr: copy(M.defaults.kr), us: copy(M.defaults.us) }),
+    /* 'auto' = 서버가 실제 수치로 판정한 값을 쓴다(기본).
+       'manual' = 사용자가 직접 고친 값을 쓴다. 고치는 순간 manual 이 된다. */
+    regimeMode: load('regimeMode', 'auto'),
     profile: load('profile', { seed: 1000, fx: 1350 }),
     /* 보유 종목은 시장별로 따로 둔다 — 국내 계좌와 해외 계좌는 다른 지갑이다. */
     holdings: load('holdings', { kr: [], us: [] }),
@@ -92,7 +95,52 @@
   });
 
   function market() { return D.markets[state.market]; }
-  function regime() { return state.regime[state.market]; }
+
+  /* ── 지금 쓰이는 국면 ──────────────────────────────────────────
+     예전에는 사용자가 다이얼 5개를 매일 맞춰야 했다. 배우는 효과는 있었지만
+     "매일 확인하세요"라는 요구 자체가 부담이라 결국 낡은 값으로 앱을 쓰게 됐다.
+     이제는 서버(GitHub Actions)가 실제 수치를 받아 판정해 live.json 에 넣어두고,
+     앱은 그 값을 읽어 쓴다. 사용자가 직접 고치면 그 순간부터 그 값이 우선한다 —
+     자동 판정은 출발점이지 결론이 아니다.                                  */
+  function autoRegime(mk) {
+    return (LIVE && LIVE.regime && LIVE.regime[mk]) ? LIVE.regime[mk] : null;
+  }
+  function regimeOf(mk) {
+    if (state.regimeMode !== 'manual') {
+      var a = autoRegime(mk);
+      if (a) return a;
+    }
+    return state.regime[mk];
+  }
+  function regime() { return regimeOf(state.market); }
+  /* 이 판정을 만든 주체. 화면에 항상 밝힌다 — 근거 없이 바뀌는 값은
+     "그냥 믿으세요"와 같고, 이 앱은 그걸 하지 않는다. */
+  function regimeBy() {
+    if (state.regimeMode === 'manual') return 'manual';
+    if (!autoRegime(state.market)) return 'default';
+    return (LIVE.regime && LIVE.regime.by) === 'ai' ? 'ai' : 'rules';
+  }
+  /* 자동 판정에는 항목마다 한국어 근거가 붙어 온다. 직접 고친 값에는 없다. */
+  function regimeWhy() {
+    if (state.regimeMode === 'manual') return null;
+    var a = autoRegime(state.market);
+    return a && a.why ? a.why : null;
+  }
+  /* 다이얼을 하나라도 건드리면 직접 고치기 모드로 넘어간다.
+     이때 나머지 항목은 지금 화면에 보이던 자동 판정 값을 그대로 물려받는다 —
+     하나 고쳤다고 나머지가 옛 기본값으로 돌아가면 사용자가 놀란다. */
+  function setDial(key, val) {
+    var mk = state.market;
+    if (state.regimeMode !== 'manual') {
+      state.regime[mk] = copy(regimeOf(mk));
+      state.regimeMode = 'manual';
+      save('regimeMode', state.regimeMode);
+    }
+    state.regime[mk][key] = val;
+    save('regime', state.regime);
+    state.touched[mk] = ymd(today());
+    save('touched', state.touched);
+  }
 
   /* ── 용어 자동 링크 ────────────────────────────────────────────
      태그 안(<b class="…">)을 건드리면 마크업이 깨지므로 태그와 텍스트를
@@ -190,7 +238,7 @@
   /* 지금 성향·국면에서의 목표 구성 */
   function modelNow(mk) {
     mk = mk || state.market;
-    return P.build(mk, state.style, M.tilt(state.regime[mk]).cash).holdings;
+    return P.build(mk, state.style, M.tilt(regimeOf(mk)).cash).holdings;
   }
   /* 시장을 인자로 받는다 — 홈에서 국내·미국을 동시에 보여줘야 하기 때문이다. */
   function analyzeMarket(mk) {
@@ -451,8 +499,6 @@
     var mk = market(), st = regime();
     var reg = M.labelRegime(st);
     var now = today();
-    var touched = state.touched[state.market];
-    var age = touched ? daysSince(touched) : null;
     var h = [];
 
     h.push('<div class="todaybar">' +
@@ -471,14 +517,21 @@
       h.push('<div class="wgt-note">끈 내용은 해당 탭에서 그대로 볼 수 있습니다. 선택은 이 브라우저에 저장됩니다.</div></div>');
     }
 
-    /* 시장 확인 신선도는 위젯과 무관하게 항상 보여준다 —
-       이 앱의 판단이 며칠 된 값에 기대고 있는지는 숨기면 안 된다. */
-    if (age === null) {
-      h.push('<button class="freshcta" data-go="market">⚠️ ' + mk.flag + ' <b>' + mk.label + ' — 아직 확인하지 않았습니다.</b> 1분이면 아래 내용이 오늘 기준이 됩니다 →</button>');
-    } else if (age >= 3) {
-      h.push('<button class="freshcta" data-go="market">🕐 ' + mk.flag + ' ' + mk.label + ' — 확인한 지 <b>' + age + '일</b> 지났습니다. 다시 맞추기 →</button>');
+    /* 아래 모든 계산이 어떤 판정에 기대고 있는지는 위젯과 무관하게 항상
+       보여준다. 판정 주체를 숨기면 사용자가 결과를 검증할 수 없다. */
+    var by = regimeBy();
+    if (by === 'manual') {
+      var mage = state.touched[state.market] ? daysSince(state.touched[state.market]) : null;
+      h.push('<button class="freshcta" data-go="market">✍️ ' + mk.flag + ' ' + mk.label +
+        ' — <b>직접 고친 값</b>으로 계산 중입니다' +
+        (mage === null ? '' : ' (' + (mage === 0 ? '오늘' : mage + '일 전') + ' 수정)') +
+        '. 자동 판정 보기 →</button>');
+    } else if (by === 'default') {
+      h.push('<button class="freshcta" data-go="market">⚠️ ' + mk.flag + ' ' + mk.label +
+        ' — <b>자동 판정을 아직 못 받아왔습니다.</b> 지금은 미리 채워둔 출발값 기준입니다 →</button>');
     } else {
-      h.push('<div class="freshok">✅ ' + mk.flag + ' ' + mk.label + ' — ' + (age === 0 ? '오늘' : age + '일 전') + ' 확인한 값 기준</div>');
+      h.push('<div class="freshok">' + (by === 'ai' ? '🤖 AI' : '📐 규칙') + ' 자동 판정 · ' +
+        mk.flag + ' ' + mk.label + ' — ' + agoText(LIVE.regime.asOf) + ' 갱신된 값 기준</div>');
     }
 
     if (widgetOn('market'))    h.push(fold('w-market', '📊', mk.full, marketWidget()));
@@ -1186,7 +1239,12 @@
   }
 
   /* ══════════════════════════════════════════════════════════════════
-     뷰 3 — 시장 (다이얼 5개 + 국면 + 이번 달 행동)
+     뷰 3 — 시장 (자동 판정 + 근거 + 이번 달 행동)
+     ------------------------------------------------------------------
+     예전 이 화면의 첫 요구는 "5개만 확인하세요"였다. 부담이 커서 결국
+     아무도 확인하지 않았고, 앱 전체가 낡은 값으로 굴러갔다. 지금은 서버가
+     실제 수치로 판정해 두고 이 화면은 **그 결론과 근거를 읽어준다.**
+     직접 고치는 길은 남겨 두되(자동 판정은 결론이 아니다), 기본은 자동이다.
      ══════════════════════════════════════════════════════════════ */
   function renderMarket() {
     var mk = market(), st = regime();
@@ -1194,16 +1252,21 @@
     var tilt = M.tilt(st);
     var h = [];
 
-    var touched = state.touched[state.market];
-    var base = touched || M.defaults.asOf;
-    var age = daysSince(base);
-    var cls = touched ? (age <= 3 ? 'ok' : age <= 14 ? 'old' : 'stale-bad') : 'stale-bad';
-    h.push('<div class="stale ' + cls + '"><span>' + (cls === 'ok' ? '✅' : cls === 'old' ? '🕐' : '⚠️') + '</span><div>' +
-      (touched
-        ? '<b>' + base + '</b>에 직접 맞춘 값입니다 (' + age + '일 전).' + (age > 3 ? ' 정세는 빨리 바뀝니다 — 다시 확인해주세요.' : '')
-        : '아직 <b>한 번도 확인하지 않았습니다.</b> 지금 값은 ' + M.defaults.asOf + ' 기준으로 미리 채워둔 출발점입니다. ' +
-          '<b>1분만 들이면</b> 홈의 제안이 오늘 기준으로 다시 계산됩니다.') +
-      '</div></div>');
+    var by = regimeBy(), why = regimeWhy();
+    var BY = {
+      ai:      { i: '🤖', c: 'ok',        t: 'AI 자동 판정',
+                 d: '지수·환율·VIX·미국 10년물 금리의 실제 수치와 오늘 헤드라인을 함께 읽고 판정했습니다.' },
+      rules:   { i: '📐', c: 'ok',        t: '규칙 자동 판정',
+                 d: '실제 수치에서 규칙으로 도출했습니다. 금리·경기·밸류에이션은 <b>대용 지표</b>라 한계가 있습니다.' },
+      manual:  { i: '✍️', c: 'old',       t: '직접 고친 값',
+                 d: '자동 판정 대신 직접 맞춘 값으로 계산 중입니다. 아래에서 자동으로 되돌릴 수 있습니다.' },
+      'default': { i: '⚠️', c: 'stale-bad', t: '자동 판정을 아직 못 받아왔습니다',
+                 d: '판정 파일을 못 읽어 ' + M.defaults.asOf + ' 기준 출발값을 쓰고 있습니다. 잠시 뒤 다시 열거나, 아래에서 직접 맞추세요.' }
+    }[by];
+    var stampedAt = (by === 'ai' || by === 'rules') && LIVE.regime && LIVE.regime.asOf
+      ? ' · ' + agoText(LIVE.regime.asOf) + ' 갱신' : '';
+    h.push('<div class="stale ' + BY.c + '"><span>' + BY.i + '</span><div>' +
+      '<b>' + BY.t + '</b>' + stampedAt + '<br>' + BY.d + '</div></div>');
 
     h.push('<div class="regime">' +
       '<div class="regime-eyebrow">' + mk.flag + ' ' + mk.full + ' · 지금의 국면</div>' +
@@ -1212,7 +1275,32 @@
       '<div class="regime-tilt">현금 비중 <b>' + (tilt.cash >= 0 ? '+' : '') + tilt.cash + '%p</b> 조정 중</div>' +
     '</div>');
 
-    var dialsHtml = '<div class="stepnote" style="margin-top:0">각 항목의 링크에서 30초면 됩니다. 바꾸는 즉시 홈과 제안이 다시 계산됩니다.</div><div class="card">';
+    /* ── 5개 항목의 판정과 근거 ────────────────────────────────
+       값만 보여주면 사용자가 검증할 수 없다. 판정마다 어떤 수치를 보고
+       그렇게 정했는지 한 줄로 같이 낸다.                              */
+    var judgeHtml = '<div class="card">';
+    M.dials.forEach(function (d) {
+      var chosen = null;
+      d.options.forEach(function (o) { if (o.v === st[d.key]) chosen = o; });
+      judgeHtml += '<div class="jrow"><div class="jico">' + d.icon + '</div><div class="jbody">' +
+        '<div class="jq">' + d.title + '</div>' +
+        '<div class="jv">' + esc(chosen ? chosen.label : st[d.key]) + '</div>' +
+        '<div class="jwhy">' + (why && why[d.key] ? esc(why[d.key]) : linkTerms(chosen ? chosen.read : '')) + '</div>' +
+      '</div></div>';
+    });
+    judgeHtml += '</div>';
+    if (why && (by === 'ai' || by === 'rules')) {
+      var a = autoRegime(state.market);
+      if (a && a.summary) judgeHtml += '<div class="note">🧭 ' + esc(a.summary) + '</div>';
+    }
+    judgeHtml += '<div class="note">이 판정은 <b>지금 상태를 분류한 것</b>이지 앞날의 예측이 아닙니다. ' +
+      '아래 링크로 직접 확인하고, 다르다고 생각되면 “직접 고치기”에서 바꾸세요 — 바꾸는 즉시 홈과 제안이 다시 계산됩니다.</div>';
+    h.push(fold('mk-judge', '🧭', '이렇게 판정한 이유', judgeHtml));
+
+    var dialsHtml = '<div class="stepnote" style="margin-top:0">자동 판정이 지금 시장과 다르다고 느껴질 때만 쓰세요. ' +
+      '하나라도 고치면 그 시장은 <b>직접 고치기 모드</b>가 되고, 자동 판정이 갱신돼도 덮어쓰지 않습니다.</div>' +
+      (by === 'manual' ? '<button class="btn ghost" id="regime-auto">↩️ 자동 판정으로 되돌리기</button>' : '') +
+      '<div class="card">';
     M.dials.forEach(function (d) {
       dialsHtml += '<div class="dial"><div class="dial-q"><span>' + d.icon + '</span><span>' + d.title + '</span></div>' +
         '<div class="dial-why">' + linkTerms(d.why) + '</div><div class="dial-opts">';
@@ -1245,8 +1333,9 @@
       });
       dialsHtml += '</div></div>';
     });
-    dialsHtml += '</div><div class="note">' + M.defaults.note + '</div>';
-    h.push(fold('mk-dials', '🎛️', '5개만 확인하세요', dialsHtml));
+    dialsHtml += '</div><div class="note">직접 고친 값은 이 브라우저에만 저장됩니다. ' +
+      '자동 판정으로 되돌리면 다시 서버가 받아온 수치 기준으로 계산합니다.</div>';
+    h.push(fold('mk-dials', '✍️', '직접 고치기', dialsHtml, { open: false }));
 
     var readHtml = '<div class="card">';
     M.readings(st).forEach(function (r) {
@@ -1353,7 +1442,8 @@
     h.push('<div class="foot"><b>고지.</b> 이 앱은 투자 교육 자료입니다. 특정 종목의 매수·매도를 권유하지 않으며 어떤 수익도 보장하지 않습니다. ' +
       '종목 점수는 공개된 사업 구조를 바탕으로 한 정성 평가이고 가격·실적 데이터가 아닙니다. 세법과 제도는 수시로 바뀌므로 반드시 ' +
       '국세청·증권사에서 확인하세요. 투자 판단과 그 결과는 전적으로 본인의 책임입니다.<br><br>' +
-      '기본 시장 스냅샷 기준일: <b>' + M.defaults.asOf + '</b> · 저장은 이 브라우저에만 남고 서버로 전송되지 않습니다.</div>');
+      '시장 국면은 30분마다 받아오는 실제 수치로 <b>자동 판정</b>합니다. 자동 판정을 못 받아오면 ' +
+      M.defaults.asOf + ' 기준 출발값을 씁니다. 저장은 이 브라우저에만 남고 서버로 전송되지 않습니다.</div>');
 
     return h.join('');
   }
@@ -1463,19 +1553,15 @@
     if ((el = ev.target.closest('.stylebtn'))) {
       state.style = el.dataset.style; save('style', state.style); render(); return;
     }
-    if ((el = ev.target.closest('.dialapply'))) {
-      state.regime[state.market][el.dataset.dial] = el.dataset.val;
-      save('regime', state.regime);
-      state.touched[state.market] = ymd(today());
-      save('touched', state.touched);
-      render();
-      return;
+    if ((el = ev.target.closest('.dialapply')) || (el = ev.target.closest('.dial-opt'))) {
+      setDial(el.dataset.dial, el.dataset.val);
+      render(); return;
     }
-    if ((el = ev.target.closest('.dial-opt'))) {
-      state.regime[state.market][el.dataset.dial] = el.dataset.val;
-      save('regime', state.regime);
-      state.touched[state.market] = ymd(today());
-      save('touched', state.touched);
+    /* 자동으로 되돌리기 — 직접 고친 값은 지우지 않고 모드만 되돌린다.
+       다시 "직접 고치기"로 왔을 때 예전에 맞춰둔 값이 그대로 있어야 한다. */
+    if (ev.target.closest('#regime-auto')) {
+      state.regimeMode = 'auto';
+      save('regimeMode', state.regimeMode);
       render(); return;
     }
     if ((el = ev.target.closest('[data-psub]'))) {
@@ -1612,12 +1698,13 @@
     }
 
     if (ev.target.id === 'reset') {
-      ['market', 'style', 'regime', 'profile', 'touched', 'holdings', 'cash', 'widgets', 'folds', 'sim', 'planTab', 'learnTab', 'cur'].forEach(function (k) {
+      ['market', 'style', 'regime', 'regimeMode', 'profile', 'touched', 'holdings', 'cash', 'widgets', 'folds', 'sim', 'planTab', 'learnTab', 'cur'].forEach(function (k) {
         try { localStorage.removeItem(KEY + k); } catch (e) {}
       });
       state.market = 'kr';
       state.style = 'balanced';
       state.regime = { kr: copy(M.defaults.kr), us: copy(M.defaults.us) };
+      state.regimeMode = 'auto';
       state.touched = { kr: null, us: null };
       state.holdings = { kr: [], us: [] };
       state.cash = { kr: 0, us: 0 };
