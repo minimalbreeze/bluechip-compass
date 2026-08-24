@@ -108,8 +108,14 @@ async function fetchKR_kind() {
       .map(c => clean(c.replace(/<[^>]*>/g, '')));
     if (tds.length < 2) continue;
     const name = tds[0];
-    const code = (tds[1] || '').replace(/\D/g, '').padStart(6, '0');
-    if (!name || !/^\d{6}$/.test(code) || code === '000000' || seen.has(code)) continue;
+    /* 열 순서는 회사명 / 시장구분 / 종목코드 / 업종 … 이다. 고정 인덱스로
+       집으면 열이 하나만 늘어도 깨지므로, 앞쪽 셀에서 6자리 코드를 찾는다. */
+    let code = '';
+    for (let i = 1; i < Math.min(tds.length, 5); i++) {
+      const c = (tds[i] || '').trim();
+      if (/^\d{6}$/.test(c)) { code = c; break; }
+    }
+    if (!name || !code || code === '000000' || seen.has(code)) continue;
     seen.add(code);
     out.push([code, name, 0]);
   }
