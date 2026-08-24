@@ -114,8 +114,12 @@ async function fetchKR_kind() {
     out.push([code, name, 0]);
   }
   if (out.length < 500) {
-    throw new Error('행이 너무 적다: ' + out.length +
-      ' (tr ' + rows.length + '개, 응답 앞부분: ' + html.slice(0, 120).replace(/\s+/g, ' ') + ')');
+    /* 무엇이 어긋났는지 알아야 고칠 수 있다 — 실제로 파싱된 셀을 그대로 찍는다 */
+    const sample = rows.slice(1, 4).map(tr =>
+      JSON.stringify(tr.split(/<t[dh][^>]*>/i).slice(1)
+        .map(c => clean(c.replace(/<[^>]*>/g, ''))).slice(0, 4))).join(' ');
+    throw new Error('행이 너무 적다: ' + out.length + ' (tr ' + rows.length +
+      '개, 셀 표본: ' + sample + ', 응답 앞부분: ' + html.slice(0, 100).replace(/\s+/g, ' ') + ')');
   }
   return out;
 }
