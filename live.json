@@ -1,27 +1,27 @@
 {
-  "asOf": "2026-08-24T03:09:52.213Z",
+  "asOf": "2026-08-24T03:45:55.659Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
-      "price": 6749.16,
+      "price": 6691.97,
       "prev": 6912.9501953125,
-      "chg": -2.37,
+      "chg": -3.2,
       "basis": "prev-daily-close",
-      "time": "2026-08-24T02:49:40.000Z"
+      "time": "2026-08-24T03:25:40.000Z"
     },
     "^KQ11": {
-      "price": 819.62,
+      "price": 813.33,
       "prev": 801.9400024414062,
-      "chg": 2.2,
+      "chg": 1.42,
       "basis": "prev-daily-close",
-      "time": "2026-08-24T02:49:40.000Z"
+      "time": "2026-08-24T03:25:40.000Z"
     },
     "KRW=X": {
-      "price": 1380.28,
+      "price": 1380.03,
       "prev": 1390.7900390625,
-      "chg": -0.76,
+      "chg": -0.77,
       "basis": "prev-daily-close",
-      "time": "2026-08-24T03:09:45.000Z"
+      "time": "2026-08-24T03:45:42.000Z"
     },
     "^GSPC": {
       "price": 7674.37,
@@ -43,105 +43,197 @@
       "chg": -5.5,
       "basis": "prev-daily-close",
       "time": "2026-08-21T20:15:01.000Z"
+    },
+    "^TNX": {
+      "price": 4.738,
+      "prev": 4.696000099182129,
+      "chg": 0.89,
+      "basis": "prev-daily-close",
+      "time": "2026-08-21T18:59:54.000Z"
     }
   },
   "fx": {
     "low52": 1377.64,
     "high52": 1554.48,
-    "pct": 0.015
+    "pct": 0.014
+  },
+  "hist": {
+    "^KS11": {
+      "last": 6691.97,
+      "low52": 3142.93,
+      "high52": 9114.55,
+      "pct52": 0.594,
+      "chg3m": -14.73
+    },
+    "^KQ11": {
+      "last": 813.33,
+      "low52": 644.78,
+      "high52": 1226.18,
+      "pct52": 0.29,
+      "chg3m": -29.95
+    },
+    "KRW=X": {
+      "last": 1380.03,
+      "low52": 1377.64,
+      "high52": 1554.48,
+      "pct52": 0.014,
+      "chg3m": -8.19
+    },
+    "^GSPC": {
+      "last": 7674.37,
+      "low52": 6343.72,
+      "high52": 7798.99,
+      "pct52": 0.914,
+      "chg3m": 2.69
+    },
+    "^IXIC": {
+      "last": 26180.46,
+      "low52": 20794.64,
+      "high52": 27093.9,
+      "pct52": 0.855,
+      "chg3m": -0.62
+    },
+    "^VIX": {
+      "last": 15.13,
+      "low52": 13.47,
+      "high52": 31.05,
+      "pct52": 0.094,
+      "chg3m": -8.8
+    },
+    "^TNX": {
+      "last": 4.74,
+      "low52": 3.95,
+      "high52": 4.74,
+      "pct52": 0.991,
+      "chg3m": 3.95
+    }
+  },
+  "regime": {
+    "by": "rules",
+    "asOf": "2026-08-24T03:45:55.659Z",
+    "kr": {
+      "why": {
+        "rates": "미국 10년물 금리가 지금 4.74%로, 3개월 전보다 3.95% 높습니다. 정책금리 자체가 아니라 대용 지표입니다.",
+        "growth": "지수가 3개월 전보다 -14.73% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
+        "valuation": "지수가 최근 1년 범위의 59% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
+        "fx": "원/달러가 1380.03원으로 최근 1년(1377.64~1554.48) 범위의 1% 지점입니다.",
+        "geo": "VIX 가 15.13입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
+      },
+      "rates": "hold",
+      "growth": "reces",
+      "valuation": "fair",
+      "fx": "strong",
+      "geo": "calm",
+      "summary": "실제 수치에서 기계적으로 도출한 판정입니다. 금리·경기·밸류에이션은 대용 지표라 한계가 있습니다."
+    },
+    "us": {
+      "why": {
+        "rates": "미국 10년물 금리가 지금 4.74%로, 3개월 전보다 3.95% 높습니다. 정책금리 자체가 아니라 대용 지표입니다.",
+        "growth": "지수가 3개월 전보다 +2.69% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
+        "valuation": "지수가 최근 1년 범위의 91% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
+        "fx": "원/달러가 1380.03원으로 최근 1년(1377.64~1554.48) 범위의 1% 지점입니다.",
+        "geo": "VIX 가 15.13입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
+      },
+      "rates": "hold",
+      "growth": "expand",
+      "valuation": "rich",
+      "fx": "strong",
+      "geo": "calm",
+      "summary": "실제 수치에서 기계적으로 도출한 판정입니다. 금리·경기·밸류에이션은 대용 지표라 한계가 있습니다."
+    }
   },
   "stocks": {
     "kr": {
       "105560": {
-        "price": 161400,
+        "price": 161900,
         "prev": 164300,
-        "chg": -1.77,
+        "chg": -1.46,
         "basis": "prev-daily-close",
-        "time": "2026-08-24T02:49:46.000Z"
+        "time": "2026-08-24T03:25:51.000Z"
       },
       "207940": {
-        "price": 1566000,
+        "price": 1565000,
         "prev": 1551000,
-        "chg": 0.97,
+        "chg": 0.9,
         "basis": "prev-daily-close",
-        "time": "2026-08-24T02:49:39.000Z"
+        "time": "2026-08-24T03:25:50.000Z"
       },
       "005930": {
-        "price": 260250,
+        "price": 257500,
         "prev": 281500,
-        "chg": -7.55,
+        "chg": -8.53,
         "basis": "prev-daily-close",
-        "time": "2026-08-24T02:49:50.000Z"
+        "time": "2026-08-24T03:25:53.000Z"
       },
       "000660": {
-        "price": 1709000,
+        "price": 1681000,
         "prev": 1730000,
-        "chg": -1.21,
+        "chg": -2.83,
         "basis": "prev-daily-close",
-        "time": "2026-08-24T02:49:50.000Z"
+        "time": "2026-08-24T03:25:54.000Z"
       },
       "005380": {
-        "price": 412500,
+        "price": 410250,
         "prev": 415000,
-        "chg": -0.6,
+        "chg": -1.14,
         "basis": "prev-daily-close",
-        "time": "2026-08-24T02:49:43.000Z"
+        "time": "2026-08-24T03:25:52.000Z"
       },
       "055550": {
-        "price": 102800,
+        "price": 102900,
         "prev": 104100,
-        "chg": -1.25,
+        "chg": -1.15,
         "basis": "prev-daily-close",
-        "time": "2026-08-24T02:49:49.000Z"
+        "time": "2026-08-24T03:25:37.000Z"
       },
       "000810": {
         "price": 628000,
         "prev": 661000,
         "chg": -4.99,
         "basis": "prev-daily-close",
-        "time": "2026-08-24T02:49:49.000Z"
+        "time": "2026-08-24T03:25:41.000Z"
       },
       "033780": {
-        "price": 171900,
+        "price": 172300,
         "prev": 172300,
-        "chg": -0.23,
+        "chg": 0,
         "basis": "prev-daily-close",
-        "time": "2026-08-24T02:49:45.000Z"
+        "time": "2026-08-24T03:25:51.000Z"
       },
       "035420": {
-        "price": 223500,
+        "price": 222500,
         "prev": 222000,
-        "chg": 0.68,
+        "chg": 0.23,
         "basis": "prev-daily-close",
-        "time": "2026-08-24T02:49:50.000Z"
+        "time": "2026-08-24T03:25:53.000Z"
       },
       "005490": {
-        "price": 328000,
+        "price": 327500,
         "prev": 310000,
-        "chg": 5.81,
+        "chg": 5.65,
         "basis": "prev-daily-close",
-        "time": "2026-08-24T02:49:50.000Z"
+        "time": "2026-08-24T03:25:52.000Z"
       },
       "028260": {
-        "price": 364500,
+        "price": 359500,
         "prev": 395500,
-        "chg": -7.84,
+        "chg": -9.1,
         "basis": "prev-daily-close",
-        "time": "2026-08-24T02:49:50.000Z"
+        "time": "2026-08-24T03:25:54.000Z"
       },
       "012450": {
-        "price": 1112000,
+        "price": 1117000,
         "prev": 1085000,
-        "chg": 2.49,
+        "chg": 2.95,
         "basis": "prev-daily-close",
-        "time": "2026-08-24T02:49:48.000Z"
+        "time": "2026-08-24T03:25:54.000Z"
       },
       "017670": {
-        "price": 103900,
+        "price": 103100,
         "prev": 102200,
-        "chg": 1.66,
+        "chg": 0.88,
         "basis": "prev-daily-close",
-        "time": "2026-08-24T02:49:49.000Z"
+        "time": "2026-08-24T03:25:53.000Z"
       }
     },
     "us": {
@@ -314,11 +406,11 @@
         "ko": "‘시장은 분명히 불타고 있습니다’: 자동차 대출금을 갚기 위해 중개 계좌에서 $1,000를 가져 가야합니까?"
       },
       {
-        "title": "McDonald’s Just Started Selling Energy Drinks. How to Play MCD Stock Here.",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/mcdonald-just-started-selling-energy-153002015.html",
+        "title": "Nvidia Stock Trades at a Reasonable Valuation With Ample Growth Headroom",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-stock-trades-reasonable-valuation-173002313.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-22T15:30:02Z",
-        "ko": "맥도날드는 이제 막 에너지 음료 판매를 시작했습니다. 여기에서 MCD 주식을 재생하는 방법."
+        "date": "2026-08-22T17:30:02Z",
+        "ko": "충분한 성장 헤드룸으로 합리적인 가치로 엔비디아 주식 거래"
       }
     ]
   },
@@ -329,7 +421,8 @@
     "Bessent's efforts in the Treasury market so far haven't worked. Here's what else he can try": "지금까지 재무 시장에서 베센트의 노력은 효과가 없었습니다. 그가 시도할 수 있는 다른 방법은 다음과 같습니다.",
     "‘The market is obviously on fire’: Should I take $1,000 from my brokerage account to pay off my car loan?": "‘시장은 분명히 불타고 있습니다’: 자동차 대출금을 갚기 위해 중개 계좌에서 $1,000를 가져 가야합니까?",
     "McDonald’s Just Started Selling Energy Drinks. How to Play MCD Stock Here.": "맥도날드는 이제 막 에너지 음료 판매를 시작했습니다. 여기에서 MCD 주식을 재생하는 방법.",
-    "Mohamed El-Erian says 30-year Treasury yield at 5.27% signals a structural shift that will make America more expensive": "모하메드 엘-에리언 (Mohamed El-Erian) 은 30년 국채 수익률이 5.27% 로 미국을 더 비싸게 만들 구조적 변화를 나타낸다고 말합니다."
+    "Mohamed El-Erian says 30-year Treasury yield at 5.27% signals a structural shift that will make America more expensive": "모하메드 엘-에리언 (Mohamed El-Erian) 은 30년 국채 수익률이 5.27% 로 미국을 더 비싸게 만들 구조적 변화를 나타낸다고 말합니다.",
+    "Nvidia Stock Trades at a Reasonable Valuation With Ample Growth Headroom": "충분한 성장 헤드룸으로 합리적인 가치로 엔비디아 주식 거래"
   },
   "failed": []
 }
