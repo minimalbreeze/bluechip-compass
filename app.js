@@ -776,9 +776,11 @@
     if (widgetOn('portfolio')) h.push(fold('w-portfolio', '💼', '내 투자 현황', portfolioWidget(), { badge: portfolioBadge() }));
     /* 안 본 거래가 있으면 건수를 먼저 알린다 — 홈에서 접힌 채로도 보인다 */
     if (widgetOn('sim')) {
-      var un = simUnseen(state.market);
+      /* 뱃지도 두 시장을 합쳐서 본다 — 홈은 전체를 보는 자리다 */
+      var un = simUnseen('kr') + simUnseen('us');
+      var anyRun = !!(state.sim.kr.started || state.sim.us.started);
       h.push(fold('w-sim', '🎮', '모의투자 현황', simWidget(),
-        { badge: un ? '🆕 ' + un + '건' : (simRunning() ? '진행 중' : '') }));
+        { badge: un ? '🆕 ' + un + '건' : (anyRun ? '진행 중' : '') }));
     }
     if (widgetOn('daily'))     h.push(fold('w-daily', '🗓️', '오늘의 점검 한 가지', dailyWidget()));
 
@@ -1138,27 +1140,67 @@
   }
 
   /* ── 위젯: 모의투자 ── */
+  /* 홈은 **전체 금액**을 보는 자리다. 시장을 고르는 화면이 아니다.
+     예전에는 지금 고른 시장 하나만 보여줘서, 국내를 보는 동안 미국 계좌가
+     어떻게 됐는지 알 수 없었다. 두 계좌는 자동 운용으로 각자 굴러가는데
+     한쪽만 보이면 "내 모의투자 전체가 얼마"인지를 홈에서 알 수가 없다.
+
+     이제 합계를 위에 두고 시장별로 한 줄씩 잇는다. 종목별 상세는 모의투자
+     탭에서 본다 — 홈에 다 펼치면 스크롤만 길어지고 결론이 안 보인다.
+
+     두 시장 값을 그냥 더해도 되는 이유: sim.js 의 priceOf 가 국내는 원→만원,
+     미국은 달러→원→만원으로 바꿔 담는다. 둘 다 이미 원화(만원) 기준이다. */
   function simWidget() {
-    if (!simRunning()) {
+    var runs = ['kr', 'us'].filter(function (mk) { return !!state.sim[mk].started; });
+    if (!runs.length) {
       return '<button class="emptycard" data-go="plan" data-psub="sim">' +
         '<div class="empty-i">🎮</div>' +
         '<div><div class="empty-t">모의투자로 먼저 겪어보세요</div>' +
         '<div class="empty-d">시드와 성향만 고르면 그 배분대로 담아 굴려봅니다. ' +
         '실제 돈이 아니니 <b>하락을 견딜 수 있는지</b>를 안전하게 시험할 수 있습니다.</div></div></button>';
     }
-    var v = SIM.value(simState(), simCtx());
+
+    var tot = 0, cost = 0, unseen = 0, rows = '';
+    ['kr', 'us'].forEach(function (mk) {
+      var st = state.sim[mk];
+      var m = D.markets[mk];
+      if (!st.started) {
+        rows += '<div class="mkblock empty"><div class="mkblock-h">' + m.flag + ' ' + m.label +
+          '<span class="mkblock-v">시작 안 함</span></div></div>';
+        return;
+      }
+      var v = SIM.value(st, simCtx(mk));
+      tot += v.total;
+      cost += st.seed;
+      unseen += simUnseen(mk);
+      rows += '<div class="mkblock"><div class="mkblock-h">' + m.flag + ' ' + m.label +
+        '<span class="mkblock-v">' + won(v.total) + '</span>' +
+        '<span class="mkblock-p ' + plClass(v.pl) + '">' + signPct(v.plPct) + '</span></div>' +
+        '<div class="simline">' +
+          '<span class="simline-d">' + (st.auto ? '🤖 자동' : '✋ 수동') +
+            ' · ' + styleLabelOf(st.style) +
+            ' · 보유 ' + v.rows.length + '종목 · 현금 ' + v.cashWeight + '%</span>' +
+          '<span class="simline-pl ' + plClass(v.pl) + '">' + signWon(v.pl) + '</span>' +
+        '</div></div>';
+    });
+
+    var pl = tot - cost;
+    var plPct = cost > 0 ? pl / cost * 100 : 0;
+    var both = runs.length > 1;
+
     return '<div class="sum">' +
-      '<div class="sum-top"><span class="sum-l">모의 평가금액</span><span class="sum-v">' + money(v.total) + '</span></div>' +
+      '<div class="sum-top"><span class="sum-l">모의 평가금액' +
+        (both ? ' <small class="sum-note">국내+미국</small>' : '') + '</span>' +
+        '<span class="sum-v">' + won(tot) + '</span></div>' +
+      '<div class="simpl ' + plClass(pl) + '">' + signWon(pl) + ' <span>' + signPct(plPct) + '</span></div>' +
       '<div class="sum-grid">' +
-        '<div><span>시드</span><b>' + won(simState().seed) + '</b></div>' +
-        '<div><span>총 손익</span><b class="' + plClass(v.pl) + '">' + signWon(v.pl) + '</b></div>' +
-        '<div><span>수익률</span><b class="' + plClass(v.pl) + '">' + signPct(v.plPct) + '</b></div>' +
-      '</div>' +
-      '<div class="sum-cash">' + (simState().auto ? '🤖 자동 운용 중 · ' : '✋ 수동 · ') +
-        simState().started + ' 시작 · ' + styleLabelOf(simState().style) +
-        ' · 보유 ' + v.rows.length + '종목 · 현금 ' + v.cashWeight + '%</div></div>' +
-      (simUnseen(state.market)
-        ? '<div class="simnew-tip">🆕 지난번 본 뒤로 <b>' + simUnseen(state.market) + '건</b>이 오갔습니다. ' +
+        '<div><span>시드 합계</span><b>' + won(cost) + '</b></div>' +
+        '<div><span>총 손익</span><b class="' + plClass(pl) + '">' + signWon(pl) + '</b></div>' +
+        '<div><span>수익률</span><b class="' + plClass(pl) + '">' + signPct(plPct) + '</b></div>' +
+      '</div></div>' +
+      rows +
+      (unseen
+        ? '<div class="simnew-tip">🆕 지난번 본 뒤로 <b>' + unseen + '건</b>이 오갔습니다. ' +
           '무엇을 언제 얼마에 사고팔았는지 안에서 볼 수 있습니다.</div>'
         : '<div class="simnew-tip quiet">📒 사고판 기록은 <b>매매 장부</b>에 모두 남습니다.</div>') +
       '<button class="btn" data-go="plan" data-psub="sim" style="margin-top:10px">모의투자 · 매매 장부 열기 →</button>';
