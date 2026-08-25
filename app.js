@@ -71,7 +71,9 @@
     simMsg: '',
     /* 알아보기 탭: sq 검색어, sSel 고른 종목 */
     sq: '',
-    sSel: null
+    sSel: null,
+    /* 기록을 '지난 것까지' 펴 놨는지 (기록별로 따로) */
+    logMore: {}
   };
   ['kr', 'us'].forEach(function (mk) {
     if (!state.sim[mk] || !state.sim[mk].pos) state.sim[mk] = SIM.blank();
@@ -1529,6 +1531,71 @@
     return l;
   }
 
+  /* ── 기록을 날짜로 묶어 최근 것부터 ──────────────────────────
+     장부가 길어지면 오래된 것까지 한 번에 쏟아져 읽을 수가 없다. 그래서
+     **가장 최근 날짜만 펴 두고** 나머지는 버튼 뒤에 둔다.
+
+     정렬을 배열 순서에 맡기지 않는다. 시작 배분은 push, 그 뒤 매매는
+     unshift 로 들어가서 순서가 한결같지 않다. 날짜로 내림차순 정렬하되,
+     같은 날이면 원래 자리(작을수록 최근)로 가른다 — ts 가 하루 단위라
+     같은 날 여러 건은 날짜만으로 못 가린다. */
+  function logSorted(list) {
+    return list.map(function (l, i) { return { l: l, i: i }; })
+      .sort(function (a, b) {
+        if (a.l.ts !== b.l.ts) return a.l.ts < b.l.ts ? 1 : -1;
+        return a.i - b.i;
+      })
+      .map(function (x) { return x.l; });
+  }
+  /* [{ ts, label, rows }] — 최근 날짜가 앞 */
+  function logGroups(list) {
+    var out = [], by = {};
+    logSorted(list).forEach(function (l) {
+      if (!by[l.ts]) { by[l.ts] = { ts: l.ts, label: dayLabel(l.ts), rows: [] }; out.push(by[l.ts]); }
+      by[l.ts].rows.push(l);
+    });
+    return out;
+  }
+  /* 날짜를 사람 말로. "2026-08-25"보다 "오늘"이 먼저 읽힌다. */
+  function dayLabel(ts) {
+    var t = ymd(today());
+    if (ts === t) return '오늘';
+    var d0 = new Date(ts + 'T00:00:00'), d1 = new Date(t + 'T00:00:00');
+    var diff = Math.round((d1 - d0) / 86400000);
+    if (diff === 1) return '어제';
+    if (diff > 1 && diff < 7) return diff + '일 전';
+    return ts.slice(5).replace('-', '월 ') + '일';
+  }
+
+  /* 날짜 묶음을 화면에 편다. 최근 한 날만 보이고 나머지는 버튼 뒤에 있다.
+       key   접기 상태를 기억할 이름
+       rowFn 한 건을 그리는 함수                                        */
+  function logFoldHtml(list, key, rowFn, emptyMsg) {
+    if (!list.length) return '<div class="slot-d">' + emptyMsg + '</div>';
+    var gs = logGroups(list);
+    var open = !!state.logMore[key];
+    var show = open ? gs : gs.slice(0, 1);
+    var restDays = gs.length - show.length;
+    var restRows = gs.slice(show.length).reduce(function (a, g) { return a + g.rows.length; }, 0);
+
+    var h = show.map(function (g) {
+      return '<div class="lgrp">' +
+        '<div class="lgrp-h"><span class="lgrp-d">' + g.label + '</span>' +
+          '<span class="lgrp-t">' + g.ts + '</span>' +
+          '<span class="lgrp-c">' + g.rows.length + '건</span></div>' +
+        g.rows.map(rowFn).join('') +
+      '</div>';
+    }).join('');
+
+    if (restDays > 0) {
+      h += '<button class="logmore" data-logmore="' + key + '">' +
+        '📂 지난 기록 더 보기 <span>' + restDays + '일 · ' + restRows + '건</span></button>';
+    } else if (open && gs.length > 1) {
+      h += '<button class="logmore" data-logmore="' + key + '">▴ 최근 것만 보기</button>';
+    }
+    return h;
+  }
+
   /* ── 지난번 본 뒤로 바뀐 것 ──────────────────────────────────
      "어디에 사고팔고 기록이 남아서 볼 수 있냐"는 물음에 대한 답이 이 칸이다.
      장부(📒)와 전체 내역(🧾)은 진작 있었지만 **접혀 있어서**, 열어보기 전에는
@@ -1700,48 +1767,43 @@
        모의투자를 중단할 때까지 한 줄도 지우지 않는다 — 지나고 나서 읽는 게
        이 화면의 목적이라, 최근 몇 건만 남기면 쓸모가 없다. */
     var sells = st.log.filter(function (l) { return l.kind === 'sell'; });
-    var ledgerHtml;
-    if (!sells.length) {
-      ledgerHtml = '<div class="slot-d">아직 판 종목이 없습니다. 팔고 나면 ' +
-        '<b>언제 얼마에 사서 언제 얼마에 팔았는지</b>와 그때 확정된 손익이 여기 쌓입니다.</div>';
-    } else {
-      ledgerHtml = '<div class="ledger">';
-      sells.forEach(function (l) {
-        var real = typeof l.real === 'number' ? l.real : null;
-        var pct = (real !== null && l.cost > 0) ? real / l.cost * 100 : null;
-        ledgerHtml += '<div class="ldg">' +
-          '<div class="ldg-top"><span class="ldg-n">' + esc(l.n) +
-            (l.auto ? '<span class="log-auto">자동</span>' : '') + '</span>' +
-            (real === null ? '' : '<span class="ldg-r ' + plClass(real) + '">' + signWon(real) +
-              (pct === null ? '' : ' <small>' + signPct(pct) + '</small>') + '</span>') +
-          '</div>' +
-          '<div class="ldg-line"><span class="ldg-k">샀을 때</span><span>' +
-            (l.since ? l.since + ' 부터 · ' : '') + '평단 ' + simPerShare(l.avg) +
-            (typeof l.cost === 'number' ? ' · 원가 ' + won(l.cost) : '') +
-          '</span></div>' +
-          '<div class="ldg-line"><span class="ldg-k">팔았을 때</span><span>' +
-            l.ts + ' · ' + simPerShare(l.price) + ' · 받은 돈 ' + won(l.amt) +
-          '</span></div>' +
-          (l.why ? '<div class="ldg-why">' + esc(l.why) + '</div>' : '') +
-        '</div>';
-      });
-      ledgerHtml += '</div><div class="note">평단은 <b>평균 매수 단가</b> 기준입니다. ' +
+    var ledgerHtml = logFoldHtml(sells, 'ledger', function (l) {
+      var real = typeof l.real === 'number' ? l.real : null;
+      var pct = (real !== null && l.cost > 0) ? real / l.cost * 100 : null;
+      return '<div class="ldg">' +
+        '<div class="ldg-top"><span class="ldg-n">' + esc(l.n) +
+          (l.auto ? '<span class="log-auto">자동</span>' : '') + '</span>' +
+          (real === null ? '' : '<span class="ldg-r ' + plClass(real) + '">' + signWon(real) +
+            (pct === null ? '' : ' <small>' + signPct(pct) + '</small>') + '</span>') +
+        '</div>' +
+        '<div class="ldg-line"><span class="ldg-k">샀을 때</span><span>' +
+          (l.since ? l.since + ' 부터 · ' : '') + '평단 ' + simPerShare(l.avg) +
+          (typeof l.cost === 'number' ? ' · 원가 ' + won(l.cost) : '') +
+        '</span></div>' +
+        '<div class="ldg-line"><span class="ldg-k">팔았을 때</span><span>' +
+          l.ts + ' · ' + simPerShare(l.price) + ' · 받은 돈 ' + won(l.amt) +
+        '</span></div>' +
+        (l.why ? '<div class="ldg-why">' + esc(l.why) + '</div>' : '') +
+      '</div>';
+    }, '아직 판 종목이 없습니다. 팔고 나면 <b>언제 얼마에 사서 언제 얼마에 팔았는지</b>와 ' +
+       '그때 확정된 손익이 여기 쌓입니다.');
+    if (sells.length) {
+      ledgerHtml += '<div class="note">평단은 <b>평균 매수 단가</b> 기준입니다. ' +
         '같은 종목을 여러 번 나눠 샀으면 그 평균으로 계산합니다 — 증권사 앱과 같은 방식입니다.</div>';
     }
     h.push(fold('sim-ledger', '📒', '매매 장부', ledgerHtml,
       { open: sells.length > 0, badge: sells.length || '' }));
 
-    var logHtml = '';
-    st.log.forEach(function (l) {
-      logHtml += '<div class="logrow"><span class="log-k ' + l.kind + '">' + (l.kind === 'buy' ? '매수' : '매도') + '</span>' +
+    var logHtml = logFoldHtml(st.log, 'log', function (l) {
+      return '<div class="logrow"><span class="log-k ' + l.kind + '">' +
+        (l.kind === 'buy' ? '매수' : '매도') + '</span>' +
         '<span class="log-n">' + esc(l.n) + (l.auto ? '<span class="log-auto">자동</span>' : '') + '</span>' +
         '<span class="log-a">' + won(l.amt) + '</span>' +
-        '<span class="log-d">' + l.ts + '</span>' +
         /* 왜 사고팔았는지를 남긴다. 근거 없이 잔고가 바뀌면 사용자는 그
            계좌를 이해할 수 없고, 그러면 비교할 것도 없어진다. */
         (l.why ? '<span class="log-w">' + esc(l.why) + '</span>' : '') + '</div>';
-    });
-    h.push(fold('sim-log', '🧾', '전체 거래 내역', logHtml || '<div class="slot-d">아직 없습니다.</div>',
+    }, '아직 없습니다.');
+    h.push(fold('sim-log', '🧾', '전체 거래 내역', logHtml,
       { open: false, badge: st.log.length }));
 
     h.push(compareBlock(v));
@@ -2392,6 +2454,12 @@
         if (p.ticker === el.dataset.spick) pk = p;
       });
       if (pk) { state.sq = pk.name; state.sSel = { t: pk.ticker, n: pk.name, etf: 0, uni: true }; render(); }
+      return;
+    }
+    if ((el = ev.target.closest('[data-logmore]'))) {
+      var lk = el.dataset.logmore;
+      state.logMore[lk] = !state.logMore[lk];
+      render();
       return;
     }
     if (ev.target.id === 'sq-clear') {

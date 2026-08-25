@@ -1290,3 +1290,24 @@ body[data-market="us"] .ms-thumb { transform: translateX(100%); }
   cursor: pointer; font-family: inherit;
 }
 .sub-h { font-size: 14px; font-weight: 800; color: var(--ink); }
+
+/* ── 기록: 날짜로 묶고, 최근 것부터 ─────────────────────────────
+   장부가 길어지면 오래된 것까지 한 번에 쏟아져 읽을 수가 없다.
+   가장 최근 날짜만 펴 두고 나머지는 버튼 뒤에 둔다. */
+.lgrp + .lgrp { margin-top: 12px; }
+.lgrp-h {
+  display: flex; align-items: baseline; gap: 8px;
+  padding: 6px 0 7px; margin-bottom: 6px;
+  border-bottom: 1px solid var(--line-soft);
+  position: sticky; top: 0; background: var(--card); z-index: 1;
+}
+.lgrp-d { font-size: 13px; font-weight: 800; color: var(--ink); }
+.lgrp-t { font-size: 11.5px; color: var(--ink-dim); font-variant-numeric: tabular-nums; }
+.lgrp-c { margin-left: auto; font-size: 11.5px; color: var(--ink-dim); }
+.logmore {
+  display: block; width: 100%; margin-top: 12px; padding: 10px;
+  border: 1px dashed var(--line); border-radius: var(--r-s);
+  background: transparent; color: var(--ink-mid);
+  font-size: 13px; font-weight: 700; font-family: inherit; cursor: pointer;
+}
+.logmore span { color: var(--ink-dim); font-weight: 600; }
