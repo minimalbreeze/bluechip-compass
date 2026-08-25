@@ -1,27 +1,27 @@
 {
-  "asOf": "2026-08-25T05:59:56.300Z",
+  "asOf": "2026-08-25T08:10:13.251Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
-      "price": 6742.17,
+      "price": 6742.74,
       "prev": 6696.9599609375,
       "chg": 0.68,
       "basis": "prev-daily-close",
-      "time": "2026-08-25T05:39:10.000Z"
+      "time": "2026-08-25T06:32:30.000Z"
     },
     "^KQ11": {
-      "price": 822.47,
+      "price": 827.15,
       "prev": 813.3300170898438,
-      "chg": 1.12,
+      "chg": 1.7,
       "basis": "prev-daily-close",
-      "time": "2026-08-25T05:39:10.000Z"
+      "time": "2026-08-25T06:32:40.000Z"
     },
     "KRW=X": {
-      "price": 1385.28,
+      "price": 1385.48,
       "prev": 1384.97998046875,
-      "chg": 0.02,
+      "chg": 0.04,
       "basis": "prev-daily-close",
-      "time": "2026-08-25T05:59:14.000Z"
+      "time": "2026-08-25T08:09:23.000Z"
     },
     "^GSPC": {
       "price": 7652.86,
@@ -38,11 +38,11 @@
       "time": "2026-08-24T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 15.85,
-      "prev": 15.130000114440918,
-      "chg": 4.76,
+      "price": 15.81,
+      "prev": 15.850000381469727,
+      "chg": -0.25,
       "basis": "prev-daily-close",
-      "time": "2026-08-24T20:15:01.000Z"
+      "time": "2026-08-25T07:54:16.000Z"
     },
     "^TNX": {
       "price": 4.704,
@@ -55,29 +55,29 @@
   "fx": {
     "low52": 1377.64,
     "high52": 1554.48,
-    "pct": 0.043
+    "pct": 0.044
   },
   "hist": {
     "^KS11": {
-      "last": 6742.17,
+      "last": 6742.74,
       "low52": 3142.93,
       "high52": 9114.55,
       "pct52": 0.603,
-      "chg3m": -16.22
+      "chg3m": -16.21
     },
     "^KQ11": {
-      "last": 822.47,
+      "last": 827.15,
       "low52": 644.78,
       "high52": 1226.18,
-      "pct52": 0.306,
-      "chg3m": -29.85
+      "pct52": 0.314,
+      "chg3m": -29.46
     },
     "KRW=X": {
-      "last": 1385.28,
+      "last": 1385.48,
       "low52": 1377.64,
       "high52": 1554.48,
-      "pct52": 0.043,
-      "chg3m": -7.36
+      "pct52": 0.044,
+      "chg3m": -7.34
     },
     "^GSPC": {
       "last": 7652.86,
@@ -94,11 +94,11 @@
       "chg3m": -2.54
     },
     "^VIX": {
-      "last": 15.85,
+      "last": 15.81,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.135,
-      "chg3m": -6.82
+      "pct52": 0.133,
+      "chg3m": -2.95
     },
     "^TNX": {
       "last": 4.7,
@@ -110,17 +110,17 @@
   },
   "regime": {
     "by": "ai",
-    "asOf": "2026-08-25T05:59:42.421Z",
+    "asOf": "2026-08-25T08:10:00.405Z",
     "kr": {
       "why": {
-        "rates": "미국 10년물 금리(^TNX)가 4.7%로 1년 범위 3.95~4.74% 중 95% 위치이고 3개월간 +4.7% 올라 금리 상승 압력이 이어지는 국면입니다.",
-        "growth": "코스피가 3개월간 -16.22% 하락하고 장중 6600선이 붕괴됐다는 헤드라인이 있으나, 1년 범위 내 위치는 아직 60%이고 '반도체 호황' 언급도 있어 침체까지 단정할 근거는 약해 둔화로 봅니다.",
-        "valuation": "^KS11 현재 6742.17이 1년 범위 3142.93~9114.55의 60% 위치로 고점도 저점도 아닌 중간권이라 보통으로 분류합니다.",
-        "fx": "원/달러가 1385.28로 1년 범위 1377.64~1554.48 중 4% 위치이고 3개월간 -7.36% 하락해 원화가 강한 쪽에 있습니다.",
-        "geo": "VIX가 15.85로 1년 범위 13.47~31.05 중 14% 위치이고 3개월 -6.82%로 낮아, 헤드라인에도 지정학 충격 언급이 없어 평온으로 봅니다."
+        "rates": "미 10년물(^TNX)은 4.7%로 1년범위 95% 위치·3개월 +4.7%로 올라 있지만 헤드라인에서는 국고채 3년물이 연 3.830%로 하락했다고 하여 방향이 엇갈리므로 중립인 hold로 둡니다.",
+        "growth": "코스피가 6742.74로 3개월간 -16.21% 하락한 점은 부담이지만 1년범위 내 위치가 60%이고 VIX가 15.81로 낮아 침체 신호까지는 아닌 둔화 국면으로 봅니다.",
+        "valuation": "^KS11이 1년범위 3142.93~9114.55의 60% 위치이고 3개월간 -16.21% 조정을 받은 상태라 극단적으로 싸거나 비싸다고 보기 어려운 보통 수준입니다.",
+        "fx": "원/달러가 1385.48로 1년범위 1377.64~1554.48의 4% 위치, 3개월 -7.34%로 내려와 원화가 상대적으로 강한 쪽입니다.",
+        "geo": "VIX가 15.81로 1년범위의 13% 위치이고 헤드라인도 반도체·인프라 투자 등 국내 정책 이슈 중심이라 특별한 충격 신호는 없습니다."
       },
-      "summary": "금리는 높은 수준에서 더 오르는 쪽이고, 원화는 강해졌지만 코스피는 3개월간 16% 넘게 밀려 경기 둔화 신호가 보이는 구간입니다. 변동성 지표는 낮아 시장 자체가 공포 상태는 아닙니다.",
-      "rates": "hike",
+      "summary": "금리 방향은 국내외 신호가 엇갈려 판단을 보류했고, 지수는 3개월간 크게 밀려 경기 둔화 쪽으로 읽힙니다. 원화는 1년 중 가장 강한 구간이고 변동성 지표는 낮아 시장 분위기 자체는 비교적 조용한 상태입니다.",
+      "rates": "hold",
       "growth": "slow",
       "valuation": "fair",
       "fx": "strong",
@@ -128,13 +128,13 @@
     },
     "us": {
       "why": {
-        "rates": "^TNX가 4.7%로 1년 범위(3.95~4.74%)의 95% 위치이고 3개월간 +4.7% 상승해 시장금리가 위로 향하고 있습니다.",
-        "growth": "S&P500이 3개월 +1.78%로 완만히 오르고 비자·마스터카드 신고가로 '탄력적인 미국 소비자'가 언급되는 등 경기 흐름은 무난합니다.",
-        "valuation": "^GSPC 7652.86이 1년 범위 6343.72~7798.99의 90% 위치이고 '주식 시장이 얼마나 과대평가되었는지' 헤드라인도 있어 비싼 편으로 분류합니다.",
-        "fx": "원/달러 1385.28이 1년 범위의 4% 위치, 3개월 -7.36%로 달러 대비 원화가 강세 쪽입니다.",
-        "geo": "VIX 15.85(1년 위치 14%)로 낮고 헤드라인에 충격성 사건이 없어 평온으로 봅니다."
+        "rates": "^TNX가 4.7%로 1년범위 3.95~4.74의 95% 위치이고 3개월간 +4.7% 올라 시장금리가 상단으로 밀려 올라간 상태입니다.",
+        "growth": "S&P500이 7652.86으로 1년범위의 90% 위치, 3개월 +1.78%이고 헤드라인도 카드사 신고가로 소비자 탄력을 언급해 경기 흐름은 괜찮은 편입니다.",
+        "valuation": "^GSPC가 1년범위 6343.72~7798.99의 90% 위치로 고점 근처에 있어 가격 부담이 있는 구간입니다.",
+        "fx": "원/달러가 1385.48로 1년범위 4% 위치, 3개월 -7.34%여서 달러 대비 원화가 강한 쪽으로 기울어 있습니다.",
+        "geo": "VIX가 15.81로 1년범위 13% 위치까지 내려와 있고 헤드라인에 급격한 충격 사건은 보이지 않습니다."
       },
-      "summary": "지수는 1년 고점권(위치 90%)에 있고 소비 관련 소식도 견조해 경기는 괜찮지만 가격은 비싼 편입니다. 다만 장기금리가 1년 최고 수준까지 올라와 있어 금리 부담이 함께 커진 국면입니다.",
+      "summary": "지수는 1년 고점권(위치 90%)이라 가격 부담이 있는 반면 변동성은 낮아 겉으로는 안정적인 국면입니다. 다만 10년물 금리가 4.7%로 범위 상단이라 금리 부담이 함께 붙어 있는 상태입니다.",
       "rates": "hike",
       "growth": "expand",
       "valuation": "rich",
@@ -145,95 +145,95 @@
   "stocks": {
     "kr": {
       "105560": {
-        "price": 165400,
+        "price": 166400,
         "prev": 163100,
-        "chg": 1.41,
+        "chg": 2.02,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T05:39:18.000Z"
+        "time": "2026-08-25T06:30:01.000Z"
       },
       "207940": {
-        "price": 1586000,
+        "price": 1585000,
         "prev": 1573000,
-        "chg": 0.83,
+        "chg": 0.76,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T05:39:10.000Z"
+        "time": "2026-08-25T06:30:11.000Z"
       },
       "005930": {
-        "price": 257500,
+        "price": 257000,
         "prev": 257000,
-        "chg": 0.19,
+        "chg": 0,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T05:39:19.000Z"
+        "time": "2026-08-25T06:30:04.000Z"
       },
       "000660": {
-        "price": 1679000,
+        "price": 1678000,
         "prev": 1671000,
-        "chg": 0.48,
+        "chg": 0.42,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T05:39:19.000Z"
+        "time": "2026-08-25T06:30:29.000Z"
       },
       "005380": {
-        "price": 420000,
+        "price": 421000,
         "prev": 414000,
-        "chg": 1.45,
+        "chg": 1.69,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T05:39:19.000Z"
+        "time": "2026-08-25T06:30:22.000Z"
       },
       "055550": {
-        "price": 106800,
+        "price": 106500,
         "prev": 103300,
-        "chg": 3.39,
+        "chg": 3.1,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T05:39:17.000Z"
+        "time": "2026-08-25T06:30:04.000Z"
       },
       "000810": {
-        "price": 647000,
+        "price": 648000,
         "prev": 636000,
-        "chg": 1.73,
+        "chg": 1.89,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T05:39:18.000Z"
+        "time": "2026-08-25T06:30:27.000Z"
       },
       "033780": {
-        "price": 174900,
+        "price": 175400,
         "prev": 173200,
-        "chg": 0.98,
+        "chg": 1.27,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T05:39:15.000Z"
+        "time": "2026-08-25T06:30:02.000Z"
       },
       "035420": {
         "price": 220500,
         "prev": 223500,
         "chg": -1.34,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T05:39:18.000Z"
+        "time": "2026-08-25T06:30:11.000Z"
       },
       "005490": {
-        "price": 327500,
+        "price": 332000,
         "prev": 327500,
-        "chg": 0,
+        "chg": 1.37,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T05:39:19.000Z"
+        "time": "2026-08-25T06:30:05.000Z"
       },
       "028260": {
         "price": 367000,
         "prev": 364500,
         "chg": 0.69,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T05:39:19.000Z"
+        "time": "2026-08-25T06:30:15.000Z"
       },
       "012450": {
-        "price": 1095000,
+        "price": 1102000,
         "prev": 1105000,
-        "chg": -0.9,
+        "chg": -0.27,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T05:39:17.000Z"
+        "time": "2026-08-25T06:30:25.000Z"
       },
       "017670": {
-        "price": 98200,
+        "price": 98900,
         "prev": 102300,
-        "chg": -4.01,
+        "chg": -3.32,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T05:39:19.000Z"
+        "time": "2026-08-25T06:30:03.000Z"
       }
     },
     "us": {
@@ -333,69 +333,69 @@
   "news": {
     "kr": [
       {
-        "title": "코스피, 장중 상승전환해 소폭 강세…삼전닉스도 강보합",
-        "link": "https://www.yna.co.kr/view/AKR20260825117800008",
+        "title": "호남 반도체·AIDC 인프라 예타 무더기 면제…'3대 메가' 속도",
+        "link": "https://www.yna.co.kr/view/AKR20260825149700001",
         "source": "연합뉴스",
-        "date": "Tue, 25 Aug 2026 14:40:20 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "장중 지수 등락은 일상적인 변동으로 장기 판단과 무관합니다.",
-        "by": "ai"
-      },
-      {
-        "title": "자사주 vs 배당 차이 봤지?…SK하이닉스 다음 타자는 [분석+]",
-        "link": "https://www.hankyung.com/article/2026082513126",
-        "source": "한국경제",
-        "date": "Tue, 25 Aug 2026 14:02:17 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "sector",
-        "why": "주주환원 방식 비교 분석글로, 확정된 사실 변화는 아닙니다.",
-        "by": "ai"
-      },
-      {
-        "title": "연일 빠지는 삼성전자… 초고수는 매수 찬스로 [주식 초고수는 지금]",
-        "link": "https://www.mk.co.kr/news/stock/12135545",
-        "source": "매일경제",
-        "date": "Tue, 25 Aug 2026 11:17:42 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "주가 등락과 매매 동향일 뿐 사업의 구조가 달라진 건 아닙니다.",
-        "by": "ai"
-      },
-      {
-        "title": "대동 \"계열사 대동모빌리티 주식 339억원에 추가취득\"",
-        "link": "https://www.yna.co.kr/view/AKR20260825117200008",
-        "source": "연합뉴스",
-        "date": "Tue, 25 Aug 2026 14:38:44 +0900",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": "company",
-        "why": "계열사 지분 추가취득은 사업 구조에 영향을 줄 수 있어 흐름만 봐두세요.",
-        "by": "ai"
-      },
-      {
-        "title": "반도체 호황은 어디까지 번지는가",
-        "link": "https://www.hankyung.com/article/202608214792i",
-        "source": "한국경제",
-        "date": "Tue, 25 Aug 2026 10:17:56 +0900",
+        "date": "Tue, 25 Aug 2026 17:01:30 +0900",
         "act": "watch",
         "lasting": "structural",
         "scope": "sector",
-        "why": "업종 사이클 확산을 다룬 분석 기사라 흐름만 지켜보면 됩니다.",
+        "why": "인프라 예타 면제는 반도체 업종 투자 환경을 장기적으로 바꿀 수 있어 지켜볼 만합니다.",
         "by": "ai"
       },
       {
-        "title": "삼성전자 4%↓·하이닉스 6%↓…코스피 장 열자마자 6600선 붕괴",
-        "link": "https://www.mk.co.kr/news/stock/12135420",
+        "title": "\"반도체 반등 트리거 될까\"…대망의 엔비디아 실적발표 '주목 포인트'는",
+        "link": "https://www.hankyung.com/article/202608251796i",
+        "source": "한국경제",
+        "date": "Tue, 25 Aug 2026 16:20:17 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "sector",
+        "why": "실적 발표 기대감 자체는 일시적 이벤트이며 결과는 아직 나오지 않았습니다.",
+        "by": "ai"
+      },
+      {
+        "title": "“-4.3%까지 빠졌다가 +0.6% 마감, 오늘도 롤러코스피”…코스닥은 1%대 상승",
+        "link": "https://www.mk.co.kr/news/stock/12135854",
         "source": "매일경제",
-        "date": "Tue, 25 Aug 2026 09:40:52 +09:00",
+        "date": "Tue, 25 Aug 2026 16:04:07 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "하루 지수·주가 변동은 장기 이익을 바꾸지 않습니다.",
+        "why": "하루 변동성 기사로 장기 보유 근거와는 관계가 없습니다.",
+        "by": "ai"
+      },
+      {
+        "title": "유가·美금리 하락에 국고채 금리 하락…3년물 연 3.830%(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260825148051008",
+        "source": "연합뉴스",
+        "date": "Tue, 25 Aug 2026 16:59:38 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "금리·유가의 단기 움직임으로 오늘 할 일은 없습니다.",
+        "by": "ai"
+      },
+      {
+        "title": "환율 내려오자 달러 '줍줍'…예금부터 ETF까지 돈 몰렸다",
+        "link": "https://www.hankyung.com/article/202608251781i",
+        "source": "한국경제",
+        "date": "Tue, 25 Aug 2026 16:10:01 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "환율에 따른 자금 이동 흐름 소개로 구조 변화로 보기 어렵습니다.",
+        "by": "ai"
+      },
+      {
+        "title": "10억 이상 ‘큰 손’이 사랑했던 이 주식…1년 만에 완전히 버림받았다",
+        "link": "https://www.mk.co.kr/news/economy/12135787",
+        "source": "매일경제",
+        "date": "Tue, 25 Aug 2026 15:37:07 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "특정 투자자층의 수급 변화일 뿐 기업 이익 구조를 알려주지 않습니다.",
         "by": "ai"
       }
     ],
@@ -413,27 +413,27 @@
         "by": "ai"
       },
       {
-        "title": "Visa and Mastercard stocks hit fresh records, underscoring a resilient U.S. consumer",
-        "link": "https://www.marketwatch.com/story/visa-and-mastercard-shares-hit-fresh-records-underscoring-a-resilient-u-s-consumer-ef328548?mod=mw_rss_topstories",
+        "title": "Bitcoin has beaten stocks and gold over six months. Now it’s crossed the $80,000 mark.",
+        "link": "https://www.marketwatch.com/story/bitcoin-has-beaten-stocks-and-gold-over-six-months-now-its-closing-in-on-80-000-b8aa48f9?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 24 Aug 2026 21:55:00 GMT",
-        "ko": "Visa 및 Mastercard 주식은 새로운 기록을 달성하여 탄력적인 미국 소비자를 강조합니다.",
+        "date": "Tue, 25 Aug 2026 08:00:00 GMT",
+        "ko": "비트코인은 6개월 동안 주식과 금을 이겼습니다. 이제 $80,000을 초과했습니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "sector",
-        "why": "신고가와 소비 견조는 이미 가격에 반영된 흐름입니다.",
+        "scope": "market",
+        "why": "가격 등락 소식으로 기업 이익 구조와는 무관합니다.",
         "by": "ai"
       },
       {
-        "title": "How to Play MRVL Stock Now as Marvell Technology Expands Its Relationship With Google",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/play-mrvl-stock-now-marvell-183002715.html",
+        "title": "Thermo Fisher vs. Intuitive Surgical: Which Premium Healthcare Stock Deserves its Valuation?",
+        "link": "https://finance.yahoo.com/healthcare/articles/thermo-fisher-vs-intuitive-surgical-221530352.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-23T18:30:02Z",
-        "ko": "Marvell Technology가 Google과의 관계를 확장함에 따라 MRVL Stock을 플레이하는 방법",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": "company",
-        "why": "대형 고객사와의 협력 확대는 장기 실적 기반과 연결될 수 있어 진행 상황만 지켜보면 됩니다.",
+        "date": "2026-08-23T22:15:30Z",
+        "ko": "Thermo Fisher vs. Intuitive Surgical: 평가할 가치가 있는 프리미엄 헬스케어 주식은 무엇입니까?",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "sector",
+        "why": "두 종목 비교 의견 기사로, 기업 이익 구조와는 무관합니다.",
         "by": "ai"
       },
       {
@@ -449,27 +449,27 @@
         "by": "ai"
       },
       {
-        "title": "Here’s how overvalued the stock market really is",
-        "link": "https://www.marketwatch.com/story/heres-how-overvalued-the-stock-market-really-is-f26540c5?mod=mw_rss_topstories",
+        "title": "Visa and Mastercard stocks hit fresh records, underscoring a resilient U.S. consumer",
+        "link": "https://www.marketwatch.com/story/visa-and-mastercard-shares-hit-fresh-records-underscoring-a-resilient-u-s-consumer-ef328548?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 24 Aug 2026 20:54:00 GMT",
-        "ko": "주식 시장이 실제로 얼마나 과대평가되었는지는 다음과 같습니다.",
+        "date": "Mon, 24 Aug 2026 21:55:00 GMT",
+        "ko": "Visa 및 Mastercard 주식은 새로운 기록을 달성하여 탄력적인 미국 소비자를 강조합니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
-        "why": "밸류에이션 논평은 시장 전체 관점 참고 자료일 뿐, 오늘 할 일은 없습니다.",
+        "scope": "sector",
+        "why": "신고가와 소비 견조는 이미 가격에 반영된 흐름입니다.",
         "by": "ai"
       },
       {
-        "title": "Private Equity Is Circling Utilities as AI Reshapes the Grid",
-        "link": "https://finance.yahoo.com/energy/articles/private-equity-circling-utilities-ai-180000273.html",
+        "title": "Fabrinet Just Lost Billions in Market Value Due to Nvidia. Here’s Why the Reaction Is Overdone.",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/fabrinet-just-lost-billions-market-232736801.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-23T18:00:00Z",
-        "ko": "사모펀드는 AI가 그리드를 재구성함에 따라 유틸리티를 순환하는 것입니다.",
+        "date": "2026-08-23T23:27:36Z",
+        "ko": "Fabrinet은 Nvidia로 인해 수십억 달러의 시장 가치를 잃었습니다. 반응이 지나친 이유는 다음과 같습니다.",
         "act": "watch",
-        "lasting": "structural",
-        "scope": "sector",
-        "why": "AI 전력 수요로 유틸리티 자금 흐름이 바뀌는 흐름이라 업종 차원에서 지켜볼 만합니다.",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "주가 급락과 과잉반응 주장일 뿐, 실제 사업 변화는 제목만으로 확인되지 않습니다.",
         "by": "ai"
       }
     ]
@@ -528,7 +528,10 @@
     "Nvidia Earnings, Jackson Hole and Other Key Things to Watch this Week": "엔비디아 수입, 잭슨 홀 등 이번 주 시청해야 할 주요 사항",
     "Soros Fund Management Opened a New Position in Nebius During Q2. What This Means for NBIS Stock.": "소로스 펀드 매니지먼트는 2분기 동안 네비우스에서 새로운 포지션을 열었습니다. NBIS 주식에 대한 의미.",
     "Private Equity Is Circling Utilities as AI Reshapes the Grid": "사모펀드는 AI가 그리드를 재구성함에 따라 유틸리티를 순환하는 것입니다.",
-    "How to Play MRVL Stock Now as Marvell Technology Expands Its Relationship With Google": "Marvell Technology가 Google과의 관계를 확장함에 따라 MRVL Stock을 플레이하는 방법"
+    "How to Play MRVL Stock Now as Marvell Technology Expands Its Relationship With Google": "Marvell Technology가 Google과의 관계를 확장함에 따라 MRVL Stock을 플레이하는 방법",
+    "Bitcoin has beaten stocks and gold over six months. Now it’s crossed the $80,000 mark.": "비트코인은 6개월 동안 주식과 금을 이겼습니다. 이제 $80,000을 초과했습니다.",
+    "Thermo Fisher vs. Intuitive Surgical: Which Premium Healthcare Stock Deserves its Valuation?": "Thermo Fisher vs. Intuitive Surgical: 평가할 가치가 있는 프리미엄 헬스케어 주식은 무엇입니까?",
+    "Fabrinet Just Lost Billions in Market Value Due to Nvidia. Here’s Why the Reaction Is Overdone.": "Fabrinet은 Nvidia로 인해 수십억 달러의 시장 가치를 잃었습니다. 반응이 지나친 이유는 다음과 같습니다."
   },
   "nvCache": {
     "https://www.yna.co.kr/view/AKR20260824137251008": {
@@ -991,6 +994,62 @@
       "lasting": "structural",
       "scope": "company",
       "why": "대형 고객사와의 협력 확대는 장기 실적 기반과 연결될 수 있어 진행 상황만 지켜보면 됩니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20260825149700001": {
+      "act": "watch",
+      "lasting": "structural",
+      "scope": "sector",
+      "why": "인프라 예타 면제는 반도체 업종 투자 환경을 장기적으로 바꿀 수 있어 지켜볼 만합니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/202608251796i": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "sector",
+      "why": "실적 발표 기대감 자체는 일시적 이벤트이며 결과는 아직 나오지 않았습니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12135854": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "하루 변동성 기사로 장기 보유 근거와는 관계가 없습니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20260825148051008": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "금리·유가의 단기 움직임으로 오늘 할 일은 없습니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/202608251781i": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "환율에 따른 자금 이동 흐름 소개로 구조 변화로 보기 어렵습니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/economy/12135787": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "특정 투자자층의 수급 변화일 뿐 기업 이익 구조를 알려주지 않습니다.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/healthcare/articles/thermo-fisher-vs-intuitive-surgical-221530352.html": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "sector",
+      "why": "두 종목 비교 의견 기사로, 기업 이익 구조와는 무관합니다.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/markets/stocks/articles/fabrinet-just-lost-billions-market-232736801.html": {
+      "act": "watch",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "주가 급락과 과잉반응 주장일 뿐, 실제 사업 변화는 제목만으로 확인되지 않습니다.",
       "by": "ai"
     }
   },
