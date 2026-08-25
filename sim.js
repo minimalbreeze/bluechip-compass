@@ -240,6 +240,7 @@ window.BCSim = (function () {
     v.rows.forEach(function (r) {
       if (want[r.t] === undefined && r.value > 0 && r.known) {
         moves.push({ kind: 'sell', t: r.t, n: r.n, amt: r.value, all: true,
+          w: r.weight, wT: 0,
           why: '목표 배분에서 빠진 자리' });
       }
     });
@@ -253,6 +254,7 @@ window.BCSim = (function () {
       var desired = total * want[t] / 100;
       if (r.value - desired > band) {
         moves.push({ kind: 'sell', t: t, n: r.n, amt: r.value - desired, all: false,
+          w: r.weight, wT: want[t],
           why: (cashOff ? '현금을 목표 ' + cashWant + '%로 되돌리며 · ' : '') +
                '목표 ' + want[t] + '% 보다 ' + pp(r.weight - want[t]) + ' 많아짐' });
       }
@@ -266,6 +268,11 @@ window.BCSim = (function () {
       if (r && !r.known) return;                 // 시세를 모르면 손대지 않는다
       if (desired - cur > band) {
         moves.push({ kind: 'buy', t: t, n: (r ? r.n : names[t]), amt: desired - cur,
+          /* 비중을 값으로도 담는다. 알림에서 "18% → 12%" 로 보여주려면
+             문자열(why) 안에 묻혀 있으면 안 된다. 계좌 크기가 저마다 달라서
+             금액보다 비중이 옮기기 쉽다 — 직장인이 실제 계좌에 반영할 때
+             필요한 건 "얼마"가 아니라 "몇 %"다. */
+          w: r ? r.weight : 0, wT: want[t],
           why: r ? (cashOff ? '현금을 목표 ' + cashWant + '%로 되돌리며 · ' : '') +
                    '목표 ' + want[t] + '% 보다 ' + pp(want[t] - r.weight) + ' 모자람'
                  : '목표 배분에 새로 들어온 자리' });
@@ -282,9 +289,29 @@ window.BCSim = (function () {
   }
 
   /* 계획을 실제로 실행한다. 매도를 먼저 끝내고 매수로 넘어간다. */
+  /* 조정할 날인가.
+     매일 조정하면 계좌는 목표에 딱 붙지만, 그걸 실제 계좌로 옮기는 사람은
+     매일 사고팔아야 한다. 직장인에게는 불가능하고, 이 앱의 실수 목록에도
+     "매일 계좌를 본다"가 들어 있다. 그래서 **주 1회(금요일)** 로 모으되,
+     국면이 바뀐 날은 기다리지 않는다 — 국면이 바로 목표를 바꾸는 값이라
+     그때까지 미루면 알림이 늦는다.
+       o.cadence: 'weekly'(기본) | 'daily'
+       o.regimeKey: 국면 이름 같은 문자열. 바뀌면 즉시 조정한다.            */
+  function dueToday(st, o) {
+    if (o.cadence === 'daily') return true;
+    if (o.regimeKey && st.lastRegime && st.lastRegime !== o.regimeKey) return true;
+    if (!st.lastAuto) return true;                    /* 시작 직후 한 번 */
+    var d = new Date(o.today + 'T00:00:00');
+    if (d.getDay() === 5) return true;                /* 금요일 */
+    /* 금요일을 건너뛴 채 일주일이 지났으면(장 안 열린 날 등) 그때 한다 */
+    return (d - new Date(st.lastAuto + 'T00:00:00')) / 86400000 >= 7;
+  }
+
   function autoRun(st, o) {
     if (!st.started || !st.auto) return { ran: false };
     if (st.lastAuto === o.today) return { ran: false, reason: 'today' };
+    if (!dueToday(st, o)) return { ran: false, reason: 'not-due' };
+    if (o.regimeKey) st.lastRegime = o.regimeKey;
 
     var moves = plan(st, o);
     if (!moves.length) {
@@ -306,7 +333,9 @@ window.BCSim = (function () {
       if (!(amt > 0.01)) return;
       var res = buy(st, { live: o.live, market: o.market, fx: o.fx, today: o.today,
         ticker: m.t, name: m.n, amount: amt, why: m.why, auto: true });
-      if (res.ok) done.push({ kind: 'buy', t: m.t, n: m.n, amt: amt, why: m.why });
+      /* 계획(m)을 그대로 넘기고 실제 체결 금액만 덮어쓴다. 예전에는 객체를
+         새로 만들면서 w·wT 를 흘렸고, 알림의 매수 줄에서만 비중이 사라졌다. */
+      if (res.ok) done.push(Object.assign({}, m, { amt: amt }));
     });
 
     st.lastAuto = o.today;
@@ -321,6 +350,6 @@ window.BCSim = (function () {
 
   return {
     blank: blank, start: start, buy: buy, sell: sell, value: value, priceOf: priceOf,
-    autoRun: autoRun, drift: drift, band: BAND
+    autoRun: autoRun, drift: drift, band: BAND, dueToday: dueToday
   };
 })();

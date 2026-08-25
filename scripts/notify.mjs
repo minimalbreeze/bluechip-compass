@@ -77,7 +77,13 @@ export function buildMessages({ prev, live, W, today }) {
 
     /* 2) 기준 계좌 매매 */
     let st = before.sim;
-    const ctx = { live, market: mk, fx: prev.fx || 1350, today, model };
+    const ctx = {
+      live, market: mk, fx: prev.fx || 1350, today, model,
+      /* 앱과 같은 주기를 쓴다. 여기만 매일 돌면 알림과 앱 화면이 서로 다른
+         계좌를 보게 된다. */
+      cadence: 'weekly',
+      regimeKey: label.full
+    };
     if (!st || !st.started) {
       st = SIM.start({ live, market: mk, fx: ctx.fx, today,
         seed: prev.seed || 1000, style: prev.style || 'balanced', model });
@@ -86,20 +92,29 @@ export function buildMessages({ prev, live, W, today }) {
       const done = (r && r.done) || [];
       if (done.length) {
         const v = SIM.value(st, ctx);
-        /* 한 번의 재조정에서 나온 매매는 **이유가 같다**(목표에서 벌어져서).
-           줄마다 그 긴 문장을 반복하면 200자를 넘겨 정작 중요한 평가액이
-           잘려 나간다 — 실제로 그렇게 잘렸다. 공통 이유는 맨 아래 한 번만. */
+        /* ── 왜 금액이 아니라 비중인가 ─────────────────────────────
+           기준 계좌는 시드가 1,000만원이다. 받는 사람 계좌는 크기가 다르다.
+           "매수 KB금융 67만원"은 그 사람 계좌에 그대로 옮길 수가 없다.
+           **비중**으로 적으면 계좌가 얼마든 그대로 쓸 수 있다 —
+           "6% → 9%" 는 500만원 계좌에서도 5,000만원 계좌에서도 뜻이 같다.
+
+           한 번의 재조정에서 나온 매매는 이유가 같다(목표에서 벌어져서).
+           줄마다 반복하면 180자를 넘겨 정작 중요한 게 잘려 나간다.
+           공통 이유는 맨 아래 한 번만 적는다.                            */
         const why = common(done.map(d => String(d.why || '')));
-        const rows = done.slice(0, 3).map(d =>
-          `${d.kind === 'buy' ? '🔵 매수' : '🔴 매도'} ${d.n} ${won(d.amt)}`);
-        if (done.length > 3) rows.push(`  … 외 ${done.length - 3}건`);
+        const rows = done.slice(0, 3).map(d => {
+          const arrow = (typeof d.w === 'number' && typeof d.wT === 'number')
+            ? ` ${pct(d.w)} → ${pct(d.wT)}` : '';
+          return `${d.kind === 'buy' ? '🔵 매수' : '🔴 매도'} ${d.n}${arrow}`;
+        });
+        if (done.length > 3) rows.push(`… 외 ${done.length - 3}곳`);
         msgs.push({
           kind: 'trade',
-          title: `${flag} 기준 계좌가 ${done.length}건 조정했습니다`,
+          title: `${flag} 비중을 ${done.length}곳 조정했습니다`,
           desc: [
             rows.join('\n'),
-            `평가 ${won(v.total)} (${v.pl >= 0 ? '+' : '−'}${Math.abs(v.plPct).toFixed(1)}%)`,
-            why ? `왜: ${cut(why, 50)}` : ''
+            why ? `왜: ${cut(why, 46)}` : '',
+            '👉 금액이 아니라 비중을 내 계좌에 맞춰 옮기세요.'
           ].filter(Boolean).join('\n')
         });
       }
@@ -192,6 +207,12 @@ function cut(s, n) {
   const head = s.slice(0, n);
   const at = Math.max(head.lastIndexOf('. '), head.lastIndexOf(', '), head.lastIndexOf(' '));
   return (at > n * 0.5 ? head.slice(0, at) : head) + '…';
+}
+
+/* 비중 표기. 0.5%p 미만 차이는 소수점이 오히려 방해라 정수로 줄인다. */
+function pct(v) {
+  const n = Number(v) || 0;
+  return (Math.abs(n - Math.round(n)) < 0.05 ? Math.round(n) : n.toFixed(1)) + '%';
 }
 
 function won(manwon) {

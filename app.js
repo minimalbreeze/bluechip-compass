@@ -325,7 +325,13 @@
   }
   function simCtx(mk) {
     var m = mk || state.market;
-    return { live: LIVE, market: m, fx: state.profile.fx, today: ymd(today()), model: simModel(m) };
+    return {
+      live: LIVE, market: m, fx: state.profile.fx, today: ymd(today()), model: simModel(m),
+      /* 주 1회로 모으고, 국면이 바뀐 날은 기다리지 않는다(sim.js dueToday).
+         알림을 받는 사람이 실제 계좌를 그만큼 자주 고칠 수 있어야 한다. */
+      cadence: 'weekly',
+      regimeKey: M.labelRegime(regimeOf(m)).full
+    };
   }
   function simState() { return state.sim[state.market]; }
   function simSave() { save('sim', state.sim); }
