@@ -1,27 +1,27 @@
 {
-  "asOf": "2026-08-25T01:38:49.115Z",
+  "asOf": "2026-08-25T03:04:59.907Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
-      "price": 6516.84,
-      "prev": 6912.9501953125,
-      "chg": -5.73,
+      "price": 6558.55,
+      "prev": 6696.9599609375,
+      "chg": -2.07,
       "basis": "prev-daily-close",
-      "time": "2026-08-25T01:18:00.000Z"
+      "time": "2026-08-25T02:44:10.000Z"
     },
     "^KQ11": {
-      "price": 793.27,
-      "prev": 801.9400024414062,
-      "chg": -1.08,
+      "price": 800.7,
+      "prev": 813.3300170898438,
+      "chg": -1.55,
       "basis": "prev-daily-close",
-      "time": "2026-08-25T01:18:00.000Z"
+      "time": "2026-08-25T02:44:10.000Z"
     },
     "KRW=X": {
-      "price": 1382.68,
+      "price": 1382.58,
       "prev": 1384.97998046875,
       "chg": -0.17,
       "basis": "prev-daily-close",
-      "time": "2026-08-25T01:38:09.000Z"
+      "time": "2026-08-25T03:04:13.000Z"
     },
     "^GSPC": {
       "price": 7652.86,
@@ -55,29 +55,29 @@
   "fx": {
     "low52": 1377.64,
     "high52": 1554.48,
-    "pct": 0.029
+    "pct": 0.028
   },
   "hist": {
     "^KS11": {
-      "last": 6516.84,
+      "last": 6558.55,
       "low52": 3142.93,
       "high52": 9114.55,
-      "pct52": 0.565,
-      "chg3m": -16.96
+      "pct52": 0.572,
+      "chg3m": -18.5
     },
     "^KQ11": {
-      "last": 792.74,
+      "last": 800.7,
       "low52": 644.78,
       "high52": 1226.18,
-      "pct52": 0.254,
-      "chg3m": -31.73
+      "pct52": 0.268,
+      "chg3m": -31.71
     },
     "KRW=X": {
-      "last": 1382.68,
+      "last": 1382.58,
       "low52": 1377.64,
       "high52": 1554.48,
-      "pct52": 0.029,
-      "chg3m": -7.53
+      "pct52": 0.028,
+      "chg3m": -7.54
     },
     "^GSPC": {
       "last": 7652.86,
@@ -110,31 +110,31 @@
   },
   "regime": {
     "by": "ai",
-    "asOf": "2026-08-25T01:38:34.741Z",
+    "asOf": "2026-08-25T03:04:47.079Z",
     "kr": {
       "why": {
-        "rates": "미 10년물 금리(^TNX)가 4.70%로 1년 범위 상단 95% 지점이고 3개월간 +4.7% 올라 금리가 오르는 쪽에 가깝습니다.",
-        "growth": "코스피가 3개월간 -16.96% 하락했지만 1년 범위 위치는 여전히 56%이고 '반도체 호황' 언급도 있어, 침체 단정보다 둔화 국면으로 봅니다.",
-        "valuation": "코스피 1년 범위 내 위치 56%로 중간 수준이며 밸류 지표가 따로 주어지지 않아 중립인 보통으로 판정합니다.",
-        "fx": "원/달러가 1382.68로 1년 범위(1377.64~1554.48) 하단 3% 지점이고 3개월간 -7.53% 내려 원화가 강해진 상태입니다.",
-        "geo": "VIX 15.85로 낮아 시장 전반은 평온하지만, 삼성전자 -4%·하이닉스 -6%로 코스피 6600선이 붕괴됐다는 헤드라인이 있어 약한 긴장으로 봅니다."
+        "rates": "미 국채 10년물(^TNX)은 4.7%로 1년 범위의 95% 지점이지만 헤드라인에서는 국고채 3년물이 장중 연 3.844%로 하락했다고 해 방향이 엇갈리므로 중립값인 hold로 봅니다.",
+        "growth": "코스피가 3개월간 -18.5% 하락하고 삼성전자 -4%·하이닉스 -6%로 6600선이 붕괴됐지만, 지수는 1년 범위의 57% 위치이고 '반도체 호황' 언급도 있어 침체보다는 둔화로 판단합니다.",
+        "valuation": "^KS11 6558.55는 1년범위 3142.93~9114.55의 57% 위치로 중간 수준이며, PER 등 별도 밸류 지표가 없어 보통(fair)으로 둡니다.",
+        "fx": "원/달러 1382.58은 1년 범위(1377.64~1554.48)의 3% 지점이고 3개월간 -7.54% 내려와 원화가 상대적으로 강한 상태입니다.",
+        "geo": "^VIX가 15.85로 1년 범위의 14% 지점까지 낮아졌고(3개월 -6.82%) 지정학 관련 헤드라인도 없어 평온으로 봅니다."
       },
-      "summary": "원화는 1년 중 가장 강한 수준이고 변동성 지표도 낮지만, 코스피는 3개월간 약 17% 밀리며 대형 반도체주 급락이 이어지는 둔화 국면입니다. 장기금리가 1년 고점권이라는 점도 함께 보아야 할 상태입니다.",
-      "rates": "hike",
+      "summary": "금리 방향은 미 국채 4.7%와 국고채 3년물 3.844% 하락이 엇갈려 판단을 보류하는 국면이고, 원화는 1382.58로 강세이며 변동성(VIX 15.85)은 낮습니다. 다만 코스피는 3개월 -18.5%로 반도체 대형주 급락과 함께 성장 동력이 둔화되는 모습입니다.",
+      "rates": "hold",
       "growth": "slow",
       "valuation": "fair",
       "fx": "strong",
-      "geo": "tense"
+      "geo": "calm"
     },
     "us": {
       "why": {
-        "rates": "^TNX가 4.70%로 1년 범위 상단 95% 지점, 3개월 +4.7%로 장기금리가 오르는 방향입니다.",
-        "growth": "S&P500이 1년 범위 90% 지점(7652.86)에 있고 3개월 +1.78%, 비자·마스터카드 신기록으로 소비가 견조하다는 헤드라인이 있습니다.",
-        "valuation": "지수가 1년 범위 90% 지점까지 올라와 있고 '주식시장이 얼마나 과대평가됐나'는 헤드라인도 있어 비싼 편으로 봅니다.",
-        "fx": "원/달러 1382.68은 1년 범위 3% 지점으로, 달러 대비 원화가 강한 쪽에 위치합니다.",
-        "geo": "VIX 15.85(범위 14% 지점, 3개월 -6.82%)로 낮고 헤드라인에 충돌·제재 등 긴장 소재가 없어 평온으로 봅니다."
+        "rates": "^TNX가 4.7%로 1년 범위(3.95~4.74)의 95% 지점이고 3개월간 +4.7% 올라 시장금리가 위로 향하는 상태입니다.",
+        "growth": "S&P500이 7652.86으로 1년 범위의 90% 위치이고 3개월 +1.78%, 비자·마스터카드 신기록이 '탄력적인 미국 소비자'를 시사해 경기는 아직 괜찮은 편으로 봅니다.",
+        "valuation": "지수가 1년 고점권(90% 위치)에 있고 '주식 시장이 실제로 얼마나 과대평가되었는지' 같은 헤드라인이 나오는 점에서 비싼 편으로 분류합니다.",
+        "fx": "원/달러 1382.58은 1년 범위(1377.64~1554.48)의 3% 지점, 3개월 -7.54%로 달러 대비 원화가 강한 구간입니다.",
+        "geo": "^VIX 15.85(1년 범위의 14% 지점, 3개월 -6.82%)로 위험 지표가 낮고 충격성 지정학 헤드라인이 없어 평온으로 판단합니다."
       },
-      "summary": "미국 지수는 1년 고점 근처이고 변동성은 낮아 분위기는 안정적이지만, 밸류에이션은 비싼 편으로 분류됩니다. 장기금리가 1년 최고 수준(4.70%)이라는 점이 이 국면의 부담 요인입니다.",
+      "summary": "미국은 소비 지표가 버티며 지수가 1년 고점권(90% 위치)에 있지만, 국채금리 4.7%가 1년 최고 수준이라 밸류에이션 부담이 큰 국면입니다. 변동성은 VIX 15.85로 낮고 원화는 1382.58로 강세입니다.",
       "rates": "hike",
       "growth": "expand",
       "valuation": "rich",
@@ -145,95 +145,95 @@
   "stocks": {
     "kr": {
       "105560": {
-        "price": 165200,
+        "price": 165800,
         "prev": 163100,
-        "chg": 1.29,
+        "chg": 1.66,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T01:18:15.000Z"
+        "time": "2026-08-25T02:44:16.000Z"
       },
       "207940": {
-        "price": 1557000,
+        "price": 1570000,
         "prev": 1573000,
-        "chg": -1.02,
+        "chg": -0.19,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T01:18:10.000Z"
+        "time": "2026-08-25T02:44:20.000Z"
       },
       "005930": {
-        "price": 248500,
+        "price": 250750,
         "prev": 257000,
-        "chg": -3.31,
+        "chg": -2.43,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T01:18:15.000Z"
+        "time": "2026-08-25T02:44:20.000Z"
       },
       "000660": {
-        "price": 1575000,
+        "price": 1594000,
         "prev": 1671000,
-        "chg": -5.75,
+        "chg": -4.61,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T01:18:15.000Z"
+        "time": "2026-08-25T02:44:19.000Z"
       },
       "005380": {
-        "price": 413000,
+        "price": 414000,
         "prev": 414000,
-        "chg": -0.24,
+        "chg": 0,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T01:18:12.000Z"
+        "time": "2026-08-25T02:44:19.000Z"
       },
       "055550": {
-        "price": 106300,
+        "price": 106800,
         "prev": 103300,
-        "chg": 2.9,
+        "chg": 3.39,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T01:18:15.000Z"
+        "time": "2026-08-25T02:44:17.000Z"
       },
       "000810": {
-        "price": 638000,
+        "price": 640000,
         "prev": 636000,
-        "chg": 0.31,
+        "chg": 0.63,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T01:18:09.000Z"
+        "time": "2026-08-25T02:44:09.000Z"
       },
       "033780": {
         "price": 175500,
         "prev": 173200,
         "chg": 1.33,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T01:18:09.000Z"
+        "time": "2026-08-25T02:44:08.000Z"
       },
       "035420": {
-        "price": 214000,
+        "price": 217500,
         "prev": 223500,
-        "chg": -4.25,
+        "chg": -2.68,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T01:18:13.000Z"
+        "time": "2026-08-25T02:44:20.000Z"
       },
       "005490": {
-        "price": 327000,
+        "price": 326500,
         "prev": 327500,
-        "chg": -0.15,
+        "chg": -0.31,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T01:18:15.000Z"
+        "time": "2026-08-25T02:44:17.000Z"
       },
       "028260": {
-        "price": 360000,
+        "price": 357000,
         "prev": 364500,
-        "chg": -1.23,
+        "chg": -2.06,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T01:18:08.000Z"
+        "time": "2026-08-25T02:44:19.000Z"
       },
       "012450": {
-        "price": 1109000,
+        "price": 1096000,
         "prev": 1105000,
-        "chg": 0.36,
+        "chg": -0.81,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T01:18:14.000Z"
+        "time": "2026-08-25T02:44:19.000Z"
       },
       "017670": {
-        "price": 102500,
+        "price": 100100,
         "prev": 102300,
-        "chg": 0.2,
+        "chg": -2.15,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T01:18:16.000Z"
+        "time": "2026-08-25T02:44:20.000Z"
       }
     },
     "us": {
@@ -333,14 +333,47 @@
   "news": {
     "kr": [
       {
-        "title": "현대차증권, 리서치센터 4개팀으로 개편…장문수 센터장 선임",
-        "link": "https://www.yna.co.kr/view/AKR20260825068700008",
+        "title": "국고채 금리 대체로 하락…3년물 장중 연 3.844%",
+        "link": "https://www.yna.co.kr/view/AKR20260825092400008",
         "source": "연합뉴스",
-        "date": "Tue, 25 Aug 2026 10:28:46 +0900",
+        "date": "Tue, 25 Aug 2026 11:41:22 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "금리 일간 등락은 늘 있는 일로 기업 이익과는 거리가 멉니다.",
+        "by": "ai"
+      },
+      {
+        "title": "증시 짓누르는 국채금리…시나리오별 유망종목은? [한경우의 케이스스터디]",
+        "link": "https://www.hankyung.com/article/2026082508976",
+        "source": "한국경제",
+        "date": "Tue, 25 Aug 2026 11:06:59 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "시나리오별 종목 추천 기사로 투자 근거를 바꿀 내용은 아닙니다.",
+        "by": "ai"
+      },
+      {
+        "title": "연일 빠지는 삼성전자… 초고수는 매수 찬스로 [주식 초고수는 지금]",
+        "link": "https://www.mk.co.kr/news/stock/12135545",
+        "source": "매일경제",
+        "date": "Tue, 25 Aug 2026 11:17:42 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
-        "why": "증권사 내부 조직·인사 개편으로 장기 이익과 무관합니다.",
+        "why": "주가 등락과 매매 동향일 뿐 사업의 구조가 달라진 건 아닙니다.",
+        "by": "ai"
+      },
+      {
+        "title": "NH증권 \"10억 이상 자산가, IMA 관심 확대…3호 판매 비중 68%\"",
+        "link": "https://www.yna.co.kr/view/AKR20260825088300008",
+        "source": "연합뉴스",
+        "date": "Tue, 25 Aug 2026 11:34:57 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "sector",
+        "why": "특정 상품 판매 현황 소식으로 장기 보유 판단과는 무관합니다.",
         "by": "ai"
       },
       {
@@ -363,39 +396,6 @@
         "lasting": "temporary",
         "scope": "market",
         "why": "하루 지수·주가 변동은 장기 이익을 바꾸지 않습니다.",
-        "by": "ai"
-      },
-      {
-        "title": "[게시판] 핀크, 정부지원대출 진단 서비스…서금원 전용대출 금리 등 확인",
-        "link": "https://www.yna.co.kr/view/AKR20260825062400002",
-        "source": "연합뉴스",
-        "date": "Tue, 25 Aug 2026 10:28:10 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "단순 서비스 출시 공지로 투자 근거와 관련이 적습니다.",
-        "by": "ai"
-      },
-      {
-        "title": "삼성운용, 'KODEX 코리아TDF2065액티브 적격' ETF 상장",
-        "link": "https://www.hankyung.com/article/2026082507076",
-        "source": "한국경제",
-        "date": "Tue, 25 Aug 2026 10:03:36 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "sector",
-        "why": "신규 ETF 상장 소식으로 개별 기업 이익과는 무관합니다.",
-        "by": "ai"
-      },
-      {
-        "title": "[MK시그널] 이오테크닉스, HBM 후공정 장비 독점력 및 유리기판 신사업 기대감 등에 주가 상승세... MK시그널 추천 후 상승률 16.32%",
-        "link": "https://www.mk.co.kr/news/stock/12135402",
-        "source": "매일경제",
-        "date": "Tue, 25 Aug 2026 09:19:46 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "추천 성과를 앞세운 홍보성 기사라 판단 근거로 삼기 어렵습니다.",
         "by": "ai"
       }
     ],
@@ -425,15 +425,15 @@
         "by": "ai"
       },
       {
-        "title": "Applied Digital vs. TeraWulf: Which AI Data Center Stock Is the Better Buy?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/applied-digital-vs-terawulf-ai-134000419.html",
+        "title": "Rocket Mortgage pushes home equity loans to wipe out credit card debt — here's how that could backfire on homeowners",
+        "link": "https://finance.yahoo.com/real-estate/articles/rocket-mortgage-pushes-home-equity-150000372.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-23T13:40:00Z",
-        "ko": "Applied Digital vs. TeraWulf: 어떤 AI 데이터 센터 스톡이 더 나은 구매입니까?",
+        "date": "2026-08-23T15:00:00Z",
+        "ko": "로켓 모기지 (Rocket Mortgage) 는 신용 카드 부채를 없애기 위해 주택 담보 대출을 추진합니다. 주택 소유자에게 역효과를 줄 수있는 방법은 다음과 같습니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "sector",
-        "why": "두 종목 비교 기사로 기업 이익 구조가 바뀐 내용은 없습니다.",
+        "scope": "company",
+        "why": "특정 대출 상품 관련 논의로, 제목만으로는 장기 이익 변화를 알기 어렵습니다.",
         "by": "ai"
       },
       {
@@ -461,15 +461,15 @@
         "by": "ai"
       },
       {
-        "title": "Duolingo Stock Is Shaking Off AI Fears",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/duolingo-stock-shaking-off-ai-141502170.html",
+        "title": "Luxury auto CEOs say there's a K-shaped economy even at the very top of the market",
+        "link": "https://finance.yahoo.com/markets/article/luxury-auto-ceos-say-theres-a-k-shaped-economy-even-at-the-very-top-of-the-market-145500874.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-23T14:15:02Z",
-        "ko": "듀오링고 주식이 AI 공포를 떨쳐내고 있다",
+        "date": "2026-08-23T14:55:00Z",
+        "ko": "명품 자동차 CEO들은 시장의 맨 꼭대기에도 K자형 경제가 존재한다고 말합니다.",
         "act": "watch",
         "lasting": "structural",
-        "scope": "company",
-        "why": "AI가 서비스를 대체할지 여부는 장기 근거와 닿아 지켜볼 만합니다.",
+        "scope": "sector",
+        "why": "소비 양극화 언급은 고가 소비 업종의 수요 구조와 이어질 수 있어 흐름만 지켜보면 됩니다.",
         "by": "ai"
       }
     ]
@@ -521,7 +521,9 @@
     "Trump made a multimillion-dollar bond bet — and Fed Chair Kevin Warsh could shape the outcome. What investors can learn": "트럼프는 수백만 달러의 채권 베팅을 했고, 케빈 워시 연준 의장은 그 결과를 형성할 수 있다. 투자자가 배울 수 있는 것",
     "Visa and Mastercard stocks hit fresh records, underscoring a resilient U.S. consumer": "Visa 및 Mastercard 주식은 새로운 기록을 달성하여 탄력적인 미국 소비자를 강조합니다.",
     "Applied Digital vs. TeraWulf: Which AI Data Center Stock Is the Better Buy?": "Applied Digital vs. TeraWulf: 어떤 AI 데이터 센터 스톡이 더 나은 구매입니까?",
-    "Duolingo Stock Is Shaking Off AI Fears": "듀오링고 주식이 AI 공포를 떨쳐내고 있다"
+    "Duolingo Stock Is Shaking Off AI Fears": "듀오링고 주식이 AI 공포를 떨쳐내고 있다",
+    "Rocket Mortgage pushes home equity loans to wipe out credit card debt — here's how that could backfire on homeowners": "로켓 모기지 (Rocket Mortgage) 는 신용 카드 부채를 없애기 위해 주택 담보 대출을 추진합니다. 주택 소유자에게 역효과를 줄 수있는 방법은 다음과 같습니다.",
+    "Luxury auto CEOs say there's a K-shaped economy even at the very top of the market": "명품 자동차 CEO들은 시장의 맨 꼭대기에도 K자형 경제가 존재한다고 말합니다."
   },
   "nvCache": {
     "https://www.yna.co.kr/view/AKR20260824137251008": {
@@ -879,6 +881,48 @@
       "lasting": "structural",
       "scope": "company",
       "why": "AI가 서비스를 대체할지 여부는 장기 근거와 닿아 지켜볼 만합니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20260825092400008": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "금리 일간 등락은 늘 있는 일로 기업 이익과는 거리가 멉니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/2026082508976": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "시나리오별 종목 추천 기사로 투자 근거를 바꿀 내용은 아닙니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12135545": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "주가 등락과 매매 동향일 뿐 사업의 구조가 달라진 건 아닙니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20260825088300008": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "sector",
+      "why": "특정 상품 판매 현황 소식으로 장기 보유 판단과는 무관합니다.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/real-estate/articles/rocket-mortgage-pushes-home-equity-150000372.html": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "특정 대출 상품 관련 논의로, 제목만으로는 장기 이익 변화를 알기 어렵습니다.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/markets/article/luxury-auto-ceos-say-theres-a-k-shaped-economy-even-at-the-very-top-of-the-market-145500874.html": {
+      "act": "watch",
+      "lasting": "structural",
+      "scope": "sector",
+      "why": "소비 양극화 언급은 고가 소비 업종의 수요 구조와 이어질 수 있어 흐름만 지켜보면 됩니다.",
       "by": "ai"
     }
   },
