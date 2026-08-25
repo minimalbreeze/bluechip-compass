@@ -54,14 +54,82 @@ window.BCHoldings = (function () {
     return hit ? hit.w : 0;
   }
 
+  /* 한 종목이 넘어서면 안 되는 상한. judge() 의 concent 기준과 같은 값이다. */
+  var CAP = 25;
+
   function judge(row, known) {
     if (!known)                      return VERDICTS.unknown;
     if (row.score !== null && row.score < 62) return VERDICTS.weak;
-    if (row.weight > 25)             return VERDICTS.concent;
+    if (row.weight > CAP)            return VERDICTS.concent;
     if (row.target === 0)            return VERDICTS.offplan;
     if (row.weight - row.target > 5) return VERDICTS.trim;
     if (row.target - row.weight > 5) return VERDICTS.add;
     return VERDICTS.hold;
+  }
+
+  /* ── 얼마나 어긋났는지를 금액으로 ────────────────────────────
+     판정은 여태 말로만 했다 — "일부를 덜어 목표에 맞추면". 그러면 사용자는
+     "그래서 얼마?"를 스스로 계산해야 하고, 아무도 하지 않는다.
+
+     여기서 내는 숫자는 **예측이 아니라 산수**다. 사용자가 고른 목표 비중과
+     지금 비중의 차이를 금액으로 바꾼 것뿐이다. 그래서 "오를 것 같으니 사라"는
+     말은 못 해도 "목표보다 6,400만원어치 많다"는 말은 할 수 있다.
+
+     judge() 와 달리 **평가 못 한 종목에도 계산한다.** 한 종목이 98%인 것은
+     그 회사를 이 앱이 아는지와 무관한 사실이기 때문이다. 여태 이런 종목은
+     "왜 샀는지 적어보세요"만 나오고 숫자가 한 개도 없었다.                */
+  function actionOf(row, grand) {
+    var over = null;
+    if (row.weight > CAP) {
+      /* 목표가 있으면 목표까지, 없으면 집중 상한까지 */
+      over = { kind: 'cut', to: row.target > 0 ? Math.min(row.target, CAP) : CAP };
+    } else if (row.target > 0 && row.weight - row.target > 5) {
+      over = { kind: 'trim', to: row.target };
+    } else if (row.target > 0 && row.target - row.weight > 5) {
+      over = { kind: 'add', to: row.target };
+    }
+    if (!over || !(grand > 0)) return null;
+
+    var diff = Math.abs(row.weight - over.to);          /* %p */
+    var amount = diff / 100 * grand;                    /* 그 시장 통화 */
+    var qty = (row.hasPrice && row.price > 0) ? Math.floor(amount / row.price) : null;
+    /* 덜어내는 쪽은 가진 것보다 많이 팔 수 없다 */
+    if (qty !== null && over.kind !== 'add' && row.qty) qty = Math.min(qty, row.qty);
+    return {
+      kind: over.kind, from: row.weight, to: over.to,
+      diff: Math.round(diff * 10) / 10, amount: amount, qty: qty
+    };
+  }
+
+  /* ── 물타기: 넣으면 평단이 어떻게 되는지 ─────────────────────
+     ⚠️ 이 앱은 물타기를 권하지 않는다. 실수 목록에 "손실 난 종목을 물타기로
+        키운다"가 그대로 들어 있다 — 가장 틀린 판단에 가장 큰 돈을 넣게 된다.
+
+     그래도 계산은 준다. "평단을 낮추고 싶다"고 생각할 때 실제로 얼마가 드는지
+     모르면 막연히 "조금 더 사면 되겠지" 하고 넣는다. 숫자를 보면 대부분 그
+     생각이 사라진다. 권유가 아니라 **비용 청구서**로 쓰라고 만든 계산이다.
+
+     처음엔 반대로 계산했다 — "평단을 5% 낮추려면 얼마?". 그런데 현재가가
+     평단보다 2.9%밖에 안 낮으면 5%는 아예 불가능해서(현재가 밑으로는 못
+     내려간다) 대부분 "계산 불가"만 나왔다. 그래서 방향을 뒤집었다.
+     **얼마를 넣으면 평단이 어디까지 내려가는가.** 이건 항상 답이 있고,
+     "원금만큼 더 넣어도 평단은 2%밖에 안 내려간다"는 사실이 그대로 보인다. */
+  function avgDownBy(row, addAmount, grand) {
+    if (!row || row.legacy || !row.hasPrice) return null;
+    if (!(row.qty > 0) || !(row.avg > 0) || !(row.price > 0)) return null;
+    if (!(addAmount > 0)) return null;
+    var n = Math.floor(addAmount / row.price);
+    if (!(n > 0)) return null;
+    var spend = n * row.price;
+    var newAvg = (row.qty * row.avg + n * row.price) / (row.qty + n);
+    return {
+      qty: n, amount: spend,
+      newAvg: newAvg,
+      dropPct: Math.round((row.avg - newAvg) / row.avg * 1000) / 10,
+      newWeight: grand > 0
+        ? Math.round((row.value + spend) / (grand + spend) * 1000) / 10 : null,
+      ofCost: row.cost > 0 ? Math.round(spend / row.cost * 1000) / 10 : null
+    };
   }
 
   /* opts: { items, cash, model, market, priceOf, scoreOf, fx }
@@ -150,6 +218,7 @@ window.BCHoldings = (function () {
       if (!r.known && r.target > 0) r.known = true;
       r.gap = Math.round((r.weight - r.target) * 10) / 10;
       r.verdict = judge(r, r.known);
+      r.action = actionOf(r, grand);
     });
     rows.sort(function (a, b) { return b.value - a.value; });
 
@@ -176,5 +245,5 @@ window.BCHoldings = (function () {
     };
   }
 
-  return { verdicts: VERDICTS, analyze: analyze };
+  return { verdicts: VERDICTS, analyze: analyze, avgDownBy: avgDownBy, cap: CAP };
 })();

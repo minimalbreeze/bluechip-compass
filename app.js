@@ -765,22 +765,107 @@
   };
   var SCOPES = { market: '시장 전체', sector: '업종', company: '개별 회사' };
 
+  /* ── 기사가 내 종목 이야기인가 ────────────────────────────────
+     판정이 온통 "오늘 할 일 없음"으로 보였던 진짜 이유는 판정이 짜서가 아니라,
+     **기사와 보유 종목이 아예 연결돼 있지 않아서**였다. SK하이닉스를 98%
+     들고 있는 사람과 한 주도 없는 사람에게 같은 기사가 같은 무게일 수 없다.
+
+     대조는 브라우저에서 한다. 보유 종목은 기기 밖으로 나가지 않으므로
+     워크플로는 이 대조를 대신 해 줄 수 없다(설계상 그렇다).             */
+  var NAME_TAIL = /[,\s]*(inc|corp|corporation|co|company|ltd|limited|holdings|group|plc|sa|ag|nv)\.?$/i;
+  function aliasesOf(it, mk) {
+    var out = [];
+    if (it.ticker) out.push(it.ticker);
+    if (it.name) {
+      var n = String(it.name).trim();
+      out.push(n);
+      /* "SK hynix Inc." → "SK hynix" — 기사 제목은 법인 접미어를 안 쓴다 */
+      var short = n.replace(NAME_TAIL, '').replace(NAME_TAIL, '').trim();
+      if (short && short !== n) out.push(short);
+    }
+    D.markets[mk].picks.forEach(function (p) {
+      if (!it.ticker || p.ticker.toUpperCase() !== String(it.ticker).toUpperCase()) return;
+      out.push(p.name);
+      if (p.korName) out.push(p.korName);
+    });
+    if (mk === 'us' && US_KOR[String(it.ticker || '').toUpperCase()]) {
+      out = out.concat(US_KOR[String(it.ticker).toUpperCase()].split(' '));
+    }
+    /* 너무 짧은 조각은 버린다. "SK" 두 글자로 대조하면 관계없는 기사가
+       죄다 걸린다 — 잘못 걸린 경고는 안 하느니만 못하다. */
+    var seen = {}, keep = [];
+    out.forEach(function (a) {
+      a = String(a || '').trim().toLowerCase();
+      var min = /[가-힣]/.test(a) ? 3 : 4;
+      if (a.length < min || seen[a]) return;
+      seen[a] = 1; keep.push(a);
+    });
+    return keep;
+  }
+
+  /* 별칭 하나가 제목에 나오는지.
+     영문은 **낱말 경계**를 본다. 그냥 포함으로 보면 "Intelligent Alpha Atlas
+     ETF"가 'intel'에 걸려서 인텔 기사로 둔갑한다(자동완성에서 똑같은 걸
+     겪었다 — §18). 한글은 조사가 붙어 다녀서("삼성전자가") 포함으로 본다. */
+  function aliasHit(hay, a) {
+    if (/[가-힣]/.test(a)) return hay.indexOf(a) >= 0;
+    var esc = a.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    return new RegExp('(^|[^a-z0-9])' + esc + '($|[^a-z0-9])', 'i').test(hay);
+  }
+
+  /* 기사 하나가 어떤 보유 종목을 가리키는지. 없으면 빈 배열. */
+  function newsHits(n, rows, mk) {
+    var hay = [(n.ko || ''), (n.title || '')].join(' ').toLowerCase();
+    if (!hay.trim()) return [];
+    return (rows || []).filter(function (r) {
+      return aliasesOf(r, mk).some(function (a) { return aliasHit(hay, a); });
+    });
+  }
+
+  /* 그 기사 밑에 붙는 줄. 여기서만 금액이 나온다 — 기사 때문이 아니라
+     "지금 내 자리가 이렇다"는 사실을 같은 자리에서 보여주는 것이다. */
+  function newsHoldHtml(hits, mk) {
+    if (!hits.length) return '';
+    return '<div class="nv-hold">' + hits.map(function (r) {
+      var x = r.action;
+      var line = '<b>' + esc(r.name) + '</b> 비중 <b>' + r.weight + '%</b>';
+      if (x && x.kind !== 'add') {
+        line += ' · ' + (x.to === H.cap ? '집중 상한 ' + H.cap + '%' : '목표 ' + x.to + '%') +
+          ' 초과분 <b>' + nMoney(x.amount, mk) + '</b>' +
+          (x.qty !== null ? '(' + x.qty.toLocaleString('ko-KR') + '주)' : '');
+      } else if (x && x.kind === 'add') {
+        line += ' · 목표 ' + x.to + '% 까지 <b>' + nMoney(x.amount, mk) + '</b> 여유';
+      } else {
+        line += ' · 목표와 크게 다르지 않습니다';
+      }
+      return '<span class="nvh-row">📌 보유 중 — ' + line + '</span>';
+    }).join('') +
+    '<button class="linkbtn" data-go="my">내 주식에서 보기 →</button></div>';
+  }
+
   /* 오늘 기사 전체를 한 줄로 요약한다. 여섯 건을 다 읽지 않아도
      "오늘은 할 일이 없다"를 먼저 알 수 있어야 한다. */
-  function newsRollup(list) {
+  function newsRollup(list, mine) {
     var n = { none: 0, watch: 0, review: 0 };
     list.forEach(function (x) { if (n[x.act] !== undefined) n[x.act]++; else n.none++; });
     var by = LIVE && LIVE.newsBy === 'ai' ? '🤖 AI' : '📐 규칙';
+    /* 보유 종목이 걸린 기사는 맨 앞에 세운다. 여섯 건 중 내 이야기가 몇 건인지가
+       "오늘 할 일 없음"보다 먼저 알아야 할 사실이다. */
+    var mineLine = mine && mine.n
+      ? '<div class="rollup-mine">📌 이 중 <b>' + mine.n + '건</b>이 회원님이 들고 있는 ' +
+        '<b>' + esc(mine.names.join(', ')) + '</b> 이야기입니다.</div>'
+      : '';
     if (!n.watch && !n.review) {
-      return '<div class="rollup ok"><b>오늘 할 일은 없습니다.</b> 기사 ' + list.length +
-        '건 모두 이미 가격에 반영됐을 이야기로 봤습니다. <span class="rollup-by">' + by + ' 판정</span></div>';
+      return '<div class="rollup ' + (mine && mine.n ? 'warn' : 'ok') + '"><b>오늘 할 일은 없습니다.</b> 기사 ' + list.length +
+        '건 모두 이미 가격에 반영됐을 이야기로 봤습니다. <span class="rollup-by">' + by + ' 판정</span>' +
+        mineLine + '</div>';
     }
     var parts = [];
     if (n.review) parts.push('<b>' + n.review + '건</b>은 투자 근거를 다시 확인');
     if (n.watch) parts.push('<b>' + n.watch + '건</b>은 지켜보기');
     return '<div class="rollup warn">기사 ' + list.length + '건 중 ' + parts.join(', ') +
       ', 나머지 ' + n.none + '건은 할 일 없음. <b>오늘 매매하라는 뜻이 아닙니다.</b>' +
-      ' <span class="rollup-by">' + by + ' 판정</span></div>';
+      ' <span class="rollup-by">' + by + ' 판정</span>' + mineLine + '</div>';
   }
 
   /* ── 위젯: 뉴스 ──
@@ -798,9 +883,21 @@
       return h.join('');
     }
     var translated = 0;
-    h.push(newsRollup(list));
+    /* 보유 분석을 한 번만 돌려서 기사마다 대조한다 */
+    var mk = state.market;
+    var rows = [];
+    if (state.holdings[mk] && state.holdings[mk].length) {
+      rows = analyzeMarket(mk).rows;
+    }
+    var mineNames = {}, mineCount = 0;
+    var hitsBy = list.map(function (n) {
+      var hh = rows.length ? newsHits(n, rows, mk) : [];
+      if (hh.length) { mineCount++; hh.forEach(function (r) { mineNames[r.name] = 1; }); }
+      return hh;
+    });
+    h.push(newsRollup(list, { n: mineCount, names: Object.keys(mineNames) }));
     h.push('<div class="newslist">');
-    list.forEach(function (n) {
+    list.forEach(function (n, ni) {
       var u = safeUrl(n.link);
       if (!u) return;
       /* 번역이 있으면 한국어를 앞에 세우고 원문을 아래에 남긴다.
@@ -821,6 +918,7 @@
           (n.scope && SCOPES[n.scope] ? '<span class="nv-scope">' + SCOPES[n.scope] + '</span>' : '') +
           (n.lasting === 'structural' ? '<span class="nv-scope">구조 변화 가능성</span>' : '') +
           '<span class="nv-why">' + esc(n.why || '') + '</span>' +
+          newsHoldHtml(hitsBy[ni] || [], mk) +
         '</div></div>');
     });
     h.push('</div>');
@@ -833,6 +931,69 @@
       '<button class="linkbtn" data-go="learn" data-sub="study">판정 기준 보기 →</button></div>');
     if (LIVE && LIVE.asOf) h.push('<div class="idxnote">🕒 ' + agoText(LIVE.asOf) + ' 받아온 목록입니다.</div>');
     return h.join('');
+  }
+
+  /* ── 얼마나 어긋났는지를 금액으로 ────────────────────────────
+     판정은 여태 말로만 했다("일부를 덜어 목표에 맞추면"). 그러면 사용자는
+     "그래서 얼마?"를 스스로 계산해야 하고, 아무도 하지 않는다. 그래서 화면이
+     늘 "확인하세요"로 끝나 보였다.
+
+     여기 나오는 숫자는 **예측이 아니라 산수**다. 사용자가 고른 목표 비중과
+     지금 비중의 차이를 금액과 주수로 바꾼 것뿐이다. "오를 것 같으니 사라"는
+     못 해도 "목표보다 6,400만원어치 많다"는 사실은 말할 수 있다.        */
+  var ACTLAB = {
+    cut:  { i: '✂️', t: '덜어낼 자리', c: 'ax-cut' },
+    trim: { i: '✂️', t: '덜어낼 자리', c: 'ax-cut' },
+    add:  { i: '➕', t: '채울 자리',   c: 'ax-add' }
+  };
+  function actionHtml(r, mk) {
+    var x = r.action;
+    if (!x) return '';
+    var lab = ACTLAB[x.kind];
+    var qty = x.qty !== null ? ' <span class="ax-q">(' + x.qty.toLocaleString('ko-KR') + '주)</span>' : '';
+    var head, tail;
+    if (x.kind === 'add') {
+      head = '목표 ' + x.to + '% 까지 <b>' + x.diff + '%p 모자랍니다.</b>';
+      tail = '이번에 넣을 돈이 있다면 <b>' + nMoney(x.amount, mk) + '</b>' + qty + ' 까지가 이 자리입니다.';
+    } else {
+      head = (r.weight > H.cap && x.to === H.cap)
+        ? '한 종목이 <b>' + r.weight + '%</b> 입니다. 집중 상한 ' + H.cap + '% 까지 <b>' + x.diff + '%p 초과</b>'
+        : '목표 ' + x.to + '% 보다 <b>' + x.diff + '%p 많습니다.</b>';
+      tail = '여기에 해당하는 금액은 <b>' + nMoney(x.amount, mk) + '</b>' + qty + ' 입니다.';
+    }
+    return '<div class="axline ' + lab.c + '">' +
+      '<span class="ax-h">' + lab.i + ' ' + lab.t + '</span>' +
+      '<span class="ax-b">' + head + ' ' + tail + '</span>' +
+      '<span class="ax-n">숫자는 <b>지금 비중과 목표의 차이</b>일 뿐, 오늘 매매하라는 뜻이 아닙니다.</span>' +
+      '</div>';
+  }
+
+  /* ── 물타기: 넣으면 평단이 어디까지 ──────────────────────────
+     이 앱은 물타기를 권하지 않는다 — 실수 목록에 그대로 들어 있다. 그런데
+     "권하지 않는다"만 적어두면 사용자는 그냥 감으로 넣는다. 그래서 금액을
+     보여준다. 대부분 여기서 생각이 바뀐다: 원금만큼 더 넣어도 평단은 1.5%
+     내려가고 비중은 99.4%가 된다. 권유가 아니라 **비용 청구서**다.       */
+  function avgDownHtml(r, grand, mk) {
+    if (!r.hasPrice || r.legacy || !(r.price < r.avg)) return '';
+    var rows = [0.25, 0.5, 1].map(function (f) {
+      return H.avgDownBy(r, r.cost * f, grand);
+    }).filter(Boolean);
+    if (!rows.length) return '';
+    var body = rows.map(function (x) {
+      return '<tr><td>' + nMoney(x.amount, mk) + '<span class="ad-q">' + x.qty.toLocaleString('ko-KR') + '주</span></td>' +
+        '<td>' + perShare(x.newAvg, mk) + '<span class="ad-d">−' + x.dropPct + '%</span></td>' +
+        '<td class="' + (x.newWeight > r.weight ? 'ad-up' : '') + '">' + x.newWeight + '%</td></tr>';
+    }).join('');
+    return fold('ad-' + r.id, '🔁', '평단을 낮추려면 얼마가 드나',
+      '<div class="ad-note">지금 <b>' + perShare(r.avg, mk) + '</b> 평단이 ' +
+        '<b>' + perShare(r.price, mk) + '</b> 아래에 있습니다. 더 사면 평단은 내려갑니다 — ' +
+        '얼마나 내려가는지 먼저 보세요.</div>' +
+      '<table class="adtab"><thead><tr><th>추가로 넣는 돈</th><th>새 평단</th><th>비중</th></tr></thead>' +
+      '<tbody>' + body + '</tbody></table>' +
+      '<div class="ad-warn">⚠️ <b>이 앱은 물타기를 권하지 않습니다.</b> 평단이 내려가도 ' +
+        '<b>비중은 올라갑니다</b> — 가장 틀린 판단에 가장 큰 돈이 들어가는 길입니다. ' +
+        '추가 매수는 “가격이 내려서”가 아니라 <b>“회사에 대한 판단이 여전히 맞아서”</b>일 때만 하세요.</div>',
+      { open: false });
   }
 
   /* ── 위젯: 내 투자 현황 ── */
@@ -1159,6 +1320,8 @@
         '<div class="wlab">현재 <b>' + r.weight + '%</b>' + (r.target ? ' · 목표 <b>' + r.target + '%</b>' : ' · 목표 없음') +
           (r.score !== null ? ' · 50년 점수 <b>' + r.score + '</b>' : '') + '</div>' +
         '<div class="hrow-say">' + linkTerms(r.verdict.say) + '</div>' +
+        actionHtml(r, mkey) +
+        avgDownHtml(r, a.grand, mkey) +
         '<button class="hrow-del" data-del="' + r.id + '">삭제</button>' +
       '</div>';
     });

@@ -1126,3 +1126,46 @@ body[data-market="us"] .ms-thumb { transform: translateX(100%); }
   .sum-grid { grid-template-columns: 1fr 1fr; }
   .tab-txt { font-size: 10.5px; }
 }
+
+/* ── 금액으로 말하는 판단 ────────────────────────────────────────
+   판정이 "확인하세요"로만 끝나 보이던 걸 고친 자리다. 여기 나오는 숫자는
+   예측이 아니라 목표 비중과 지금 비중의 차이를 금액으로 바꾼 산수다. */
+.axline {
+  margin-top: 9px; padding: 9px 11px; border-radius: var(--r-s);
+  font-size: 13px; line-height: 1.65; display: flex; flex-wrap: wrap; gap: 4px 8px;
+}
+.ax-cut { background: #fdf1ef; border: 1px solid #f3cfcd; color: #93362f; }
+.ax-add { background: #eef4fb; border: 1px solid #d4e3f4; color: #2f5c8f; }
+.ax-h { font-weight: 800; white-space: nowrap; }
+.ax-b { flex: 1 1 100%; }
+.ax-q { opacity: .8; }
+.ax-n { flex: 1 1 100%; font-size: 11.5px; opacity: .78; }
+
+/* 물타기 비용 청구서 — 권유가 아니라 얼마가 드는지 보여주는 표다 */
+.ad-note { font-size: 13px; color: var(--ink-mid); line-height: 1.65; margin-bottom: 8px; }
+.adtab { width: 100%; border-collapse: collapse; font-size: 13px; }
+.adtab th, .adtab td {
+  padding: 7px 6px; text-align: right; border-bottom: 1px solid var(--line-soft);
+}
+.adtab th { font-size: 11.5px; color: var(--ink-dim); font-weight: 700; }
+.adtab th:first-child, .adtab td:first-child { text-align: left; }
+.adtab td { font-variant-numeric: tabular-nums; }
+.ad-q, .ad-d { display: block; font-size: 11px; color: var(--ink-dim); }
+.ad-up { color: var(--bad); font-weight: 700; }
+.ad-warn {
+  margin-top: 10px; padding: 9px 11px; border-radius: var(--r-s);
+  background: #fdf1ef; border: 1px solid #f3cfcd; color: #93362f;
+  font-size: 12.5px; line-height: 1.65;
+}
+
+/* 기사 ↔ 보유 종목 연결 */
+.nv-hold {
+  flex: 1 1 100%; margin-top: 7px; padding-top: 7px;
+  border-top: 1px dashed rgba(0,0,0,.14);
+  display: flex; flex-direction: column; gap: 4px; align-items: flex-start;
+}
+.nvh-row { font-size: 12.5px; line-height: 1.6; }
+.rollup-mine {
+  margin-top: 7px; padding-top: 7px; border-top: 1px dashed rgba(0,0,0,.14);
+  font-size: 12.5px; line-height: 1.6;
+}
