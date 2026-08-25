@@ -322,6 +322,35 @@
   }
   function simState() { return state.sim[state.market]; }
   function simSave() { save('sim', state.sim); }
+
+  /* ── 지난번 본 뒤로 늘어난 거래 ──────────────────────────────
+     자동 운용은 사용자가 없는 사이에 사고판다. 장부는 진작 있었지만 접혀
+     있어서, 열어보기 전에는 무슨 일이 있었는지 알 수 없었다. "따라서 투자하려면
+     기록이 보여야 한다"는 게 이 화면의 목적이라, 새로 생긴 거래는 먼저 보여준다.
+
+     날짜가 아니라 **건수**로 센다. ts 는 하루 단위라 같은 날 두 건이 생기면
+     날짜로는 구분되지 않는다. 로그는 줄어들지 않으므로 건수 차이가 곧 새 거래다.
+
+     한 번 계산하면 그 방문 동안은 유지한다(state.simFresh). 안 그러면 접기
+     하나만 눌러도 다시 그려지면서 "바뀐 것" 칸이 사라진다. */
+  var simFresh = { kr: null, us: null };
+  function simNew(mk) {
+    var st = state.sim[mk];
+    if (simFresh[mk]) return simFresh[mk];
+    var seen = Math.max(0, Math.min(st.seen || 0, st.log.length));   /* 초기화 뒤 대비 */
+    var n = st.log.length - seen;
+    /* 로그는 새 것이 앞(unshift)이므로 앞에서 n개가 새 거래다 */
+    simFresh[mk] = n > 0 ? st.log.slice(0, n) : [];
+    if (st.seen !== st.log.length) { st.seen = st.log.length; simSave(); }
+    return simFresh[mk];
+  }
+  /* 아직 안 본 거래가 몇 건인지 — 화면을 그리지 않고 세기만 한다(뱃지용) */
+  function simUnseen(mk) {
+    var st = state.sim[mk];
+    if (!st.started) return 0;
+    if (simFresh[mk]) return simFresh[mk].length;
+    return Math.max(0, st.log.length - Math.max(0, Math.min(st.seen || 0, st.log.length)));
+  }
   function simRunning() { return !!simState().started; }
 
   /* ── 자동 운용을 돌린다 ────────────────────────────────────────
@@ -708,7 +737,12 @@
     if (widgetOn('market'))    h.push(fold('w-market', '📊', mk.full, marketWidget()));
     if (widgetOn('news'))      h.push(fold('w-news', '📰', '오늘의 증권 뉴스', newsWidget()));
     if (widgetOn('portfolio')) h.push(fold('w-portfolio', '💼', '내 투자 현황', portfolioWidget(), { badge: portfolioBadge() }));
-    if (widgetOn('sim'))       h.push(fold('w-sim', '🎮', '모의투자 현황', simWidget(), { badge: simRunning() ? '진행 중' : '' }));
+    /* 안 본 거래가 있으면 건수를 먼저 알린다 — 홈에서 접힌 채로도 보인다 */
+    if (widgetOn('sim')) {
+      var un = simUnseen(state.market);
+      h.push(fold('w-sim', '🎮', '모의투자 현황', simWidget(),
+        { badge: un ? '🆕 ' + un + '건' : (simRunning() ? '진행 중' : '') }));
+    }
     if (widgetOn('daily'))     h.push(fold('w-daily', '🗓️', '오늘의 점검 한 가지', dailyWidget()));
 
     if (!WIDGETS.some(function (w) { return widgetOn(w.key); })) {
@@ -1086,7 +1120,11 @@
       '<div class="sum-cash">' + (simState().auto ? '🤖 자동 운용 중 · ' : '✋ 수동 · ') +
         simState().started + ' 시작 · ' + styleLabelOf(simState().style) +
         ' · 보유 ' + v.rows.length + '종목 · 현금 ' + v.cashWeight + '%</div></div>' +
-      '<button class="btn" data-go="plan" data-psub="sim" style="margin-top:10px">모의투자 열기 →</button>';
+      (simUnseen(state.market)
+        ? '<div class="simnew-tip">🆕 지난번 본 뒤로 <b>' + simUnseen(state.market) + '건</b>이 오갔습니다. ' +
+          '무엇을 언제 얼마에 사고팔았는지 안에서 볼 수 있습니다.</div>'
+        : '<div class="simnew-tip quiet">📒 사고판 기록은 <b>매매 장부</b>에 모두 남습니다.</div>') +
+      '<button class="btn" data-go="plan" data-psub="sim" style="margin-top:10px">모의투자 · 매매 장부 열기 →</button>';
   }
 
   /* ── 위젯: 오늘의 점검 ── */
@@ -1458,6 +1496,38 @@
     return l;
   }
 
+  /* ── 지난번 본 뒤로 바뀐 것 ──────────────────────────────────
+     "어디에 사고팔고 기록이 남아서 볼 수 있냐"는 물음에 대한 답이 이 칸이다.
+     장부(📒)와 전체 내역(🧾)은 진작 있었지만 **접혀 있어서**, 열어보기 전에는
+     자동 운용이 무슨 일을 했는지 알 수 없었다. 기록이 없던 게 아니라 보이지
+     않았던 것이다.
+
+     따라 투자하려면 "무엇을 언제 얼마에"가 한눈에 보여야 하므로, 새 거래는
+     접지 않고 위에 편다. 본 뒤에는 사라진다 — 매번 같은 걸 보여주면 그것도
+     금방 배경이 된다. */
+  function simNewHtml(mk) {
+    var fresh = simNew(mk);
+    if (!fresh.length) return '';
+    var rows = fresh.map(function (l) {
+      var side = l.kind === 'buy' ? '샀습니다' : '팔았습니다';
+      return '<div class="snw-row">' +
+        '<span class="snw-k ' + l.kind + '">' + (l.kind === 'buy' ? '매수' : '매도') + '</span>' +
+        '<span class="snw-b"><b>' + esc(l.n) + '</b> ' +
+          simPerShare(l.price) + ' 에 <b>' + won(l.amt) + '</b> ' + side +
+          (l.auto ? ' <span class="log-auto">자동</span>' : '') +
+          (typeof l.real === 'number'
+            ? ' <span class="' + plClass(l.real) + '">확정 손익 ' + signWon(l.real) + '</span>' : '') +
+          '<span class="snw-d">' + l.ts + (l.why ? ' · ' + esc(l.why) : '') + '</span>' +
+        '</span></div>';
+    }).join('');
+    return '<div class="simnew">' +
+      '<div class="simnew-h">🆕 지난번 본 뒤로 <b>' + fresh.length + '건</b>이 오갔습니다</div>' +
+      rows +
+      '<div class="simnew-f">이 기록은 <b>📒 매매 장부</b>와 <b>🧾 전체 거래 내역</b>에 그대로 쌓입니다. ' +
+        '모의투자를 초기화하기 전까지 한 줄도 지우지 않습니다.</div>' +
+      '</div>';
+  }
+
   function renderSim() {
     var st = simState();
     var p = state.profile;
@@ -1528,6 +1598,8 @@
       '</div>' +
       (st.lastAuto ? '<div class="autobox-t">마지막 조정 확인: ' + st.lastAuto + '</div>' : '') +
     '</div>');
+
+    h.push(simNewHtml(state.market));
 
     h.push('<div class="card sum simsum">' +
       '<div class="sum-top"><span class="sum-l">모의 평가금액</span><span class="sum-v">' + money(v.total) + '</span></div>' +
@@ -1624,7 +1696,7 @@
         '같은 종목을 여러 번 나눠 샀으면 그 평균으로 계산합니다 — 증권사 앱과 같은 방식입니다.</div>';
     }
     h.push(fold('sim-ledger', '📒', '매매 장부', ledgerHtml,
-      { open: false, badge: sells.length || '' }));
+      { open: sells.length > 0, badge: sells.length || '' }));
 
     var logHtml = '';
     st.log.forEach(function (l) {

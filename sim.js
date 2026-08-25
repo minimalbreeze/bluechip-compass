@@ -27,8 +27,14 @@ window.BCSim = (function () {
   var BAND = 3;
 
   function blank() {
-    /* auto: 자동 운용 여부. lastAuto: 마지막으로 자동 조정한 날짜(하루 한 번) */
-    return { started: null, style: null, seed: 0, cash: 0, pos: [], log: [], auto: true, lastAuto: null };
+    /* auto: 자동 운용 여부. lastAuto: 마지막으로 자동 조정한 날짜(하루 한 번)
+       seen: 사용자가 마지막으로 본 시점의 거래 건수. 자동 운용은 사용자가
+             없는 사이에 사고파는데, 그걸 알려줄 방법이 없으면 장부가 있어도
+             "언제 뭐가 늘었는지"를 알 수 없다. 로그는 줄어들지 않으므로
+             건수만 기억하면 새 거래를 정확히 집어낼 수 있다(날짜는 하루
+             단위라 같은 날 여러 건이면 구분이 안 된다). */
+    return { started: null, style: null, seed: 0, cash: 0, pos: [], log: [], auto: true,
+             lastAuto: null, seen: 0 };
   }
 
   /* 시세 한 종목의 "만원 단위 가격". 없으면 null. */
