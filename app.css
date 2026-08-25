@@ -396,12 +396,33 @@ body[data-market="us"] .ms-thumb { transform: translateX(100%); }
 .tagpill.income { background: #fdf0e2; color: #96601c; }
 .tagpill.satellite { background: #fdeae7; color: #b8342c; }
 
-.bars { display: grid; gap: 6px; margin-bottom: 4px; }
-.bar { display: flex; align-items: center; gap: 8px; font-size: 12px; }
-.bar-l { flex: 0 0 82px; color: var(--ink-dim); }
-.bar-t { flex: 1; height: 7px; background: var(--line-soft); border-radius: 4px; overflow: hidden; }
-.bar-f { height: 100%; border-radius: 4px; background: linear-gradient(90deg, var(--accent), color-mix(in srgb, var(--accent) 45%, var(--sky))); }
-.bar-v { flex: 0 0 22px; text-align: right; color: var(--ink-dim); font-variant-numeric: tabular-nums; }
+/* 점수 막대.
+   고쳐야 했던 두 가지:
+   1) 라벨을 82px 로 고정해 뒀더니 "주주환원 지속성", "지정학·규제 내성"처럼
+      긴 축이 두 줄로 접혀서 그 행만 높이가 두 배가 됐다(19px vs 39px).
+      → .bars 를 3열 격자로 만들고 각 행은 display:contents 로 열에 편입시킨다.
+        열 폭을 행마다 따로 잡지 않으니 여섯 줄의 라벨·막대·숫자가 모두 맞는다.
+   2) .bar-f 가 <span> 이라 display:inline 이었다. 인라인 요소는 width·height 를
+      무시한다 — 그래서 점수가 5든 2든 **채움이 폭 0** 이었고, 여섯 막대가 죄다
+      빈 트랙(연한 하늘색)으로 똑같이 보였다. display:block 을 준다. */
+.bars {
+  display: grid;
+  grid-template-columns: max-content minmax(48px, 1fr) 22px;
+  gap: 7px 8px; align-items: center;
+  margin-bottom: 4px; font-size: 12px;
+}
+.bar { display: contents; }
+.bar-l { color: var(--ink-dim); white-space: nowrap; }
+.bar-t { height: 7px; background: var(--line-soft); border-radius: 4px; overflow: hidden; }
+.bar-f {
+  display: block; height: 100%; border-radius: 4px;
+  background: linear-gradient(90deg, var(--accent), color-mix(in srgb, var(--accent) 45%, var(--sky)));
+}
+/* color-mix 를 모르는 브라우저에서도 채움이 보이게 단색을 먼저 깐다 */
+.bar-f { background-color: var(--accent); }
+.bar-v { text-align: right; color: var(--ink-dim); font-variant-numeric: tabular-nums; }
+/* 좁은 화면에서 라벨이 길어 막대가 눌리지 않도록 글자만 살짝 줄인다 */
+@media (max-width: 360px) { .bars { font-size: 11px; gap: 7px 6px; } }
 
 .stock-body { padding: 0 16px 16px; display: none; }
 .stock.is-open .stock-body { display: block; }
