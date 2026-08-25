@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-25T20:35:42.601Z",
+  "asOf": "2026-08-25T21:34:30.265Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -17,11 +17,11 @@
       "time": "2026-08-25T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1381.87,
+      "price": 1381.52,
       "prev": 1380.760009765625,
-      "chg": 0.08,
+      "chg": 0.06,
       "basis": "prev-daily-close",
-      "time": "2026-08-25T20:35:25.000Z"
+      "time": "2026-08-25T21:32:47.000Z"
     },
     "^GSPC": {
       "price": 7677.28,
@@ -35,7 +35,7 @@
       "prev": 25980.189453125,
       "chg": 0.66,
       "basis": "prev-daily-close",
-      "time": "2026-08-25T20:35:34.000Z"
+      "time": "2026-08-25T21:15:59.000Z"
     },
     "^VIX": {
       "price": 15.45,
@@ -55,7 +55,7 @@
   "fx": {
     "low52": 1377.64,
     "high52": 1554.48,
-    "pct": 0.024
+    "pct": 0.022
   },
   "hist": {
     "^KS11": {
@@ -73,11 +73,11 @@
       "chg3m": -29.95
     },
     "KRW=X": {
-      "last": 1381.87,
+      "last": 1381.52,
       "low52": 1377.64,
       "high52": 1554.48,
-      "pct52": 0.024,
-      "chg3m": -8.29
+      "pct52": 0.022,
+      "chg3m": -8.32
     },
     "^GSPC": {
       "last": 7677.28,
@@ -110,13 +110,13 @@
   },
   "regime": {
     "by": "rules",
-    "asOf": "2026-08-25T20:35:42.189Z",
+    "asOf": "2026-08-25T21:34:29.724Z",
     "kr": {
       "why": {
         "rates": "미국 10년물 금리가 지금 4.64%로, 3개월 전보다 3.53% 높고 최근 1년 범위(3.95~4.74)의 87% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
         "growth": "지수가 3개월 전보다 -14.66% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
         "valuation": "지수가 최근 1년 범위의 60% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
-        "fx": "원/달러가 1381.87원으로 최근 1년(1377.64~1554.48) 범위의 2% 지점입니다.",
+        "fx": "원/달러가 1381.52원으로 최근 1년(1377.64~1554.48) 범위의 2% 지점입니다.",
         "geo": "VIX 가 15.45입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
       },
       "rates": "hike",
@@ -131,7 +131,7 @@
         "rates": "미국 10년물 금리가 지금 4.64%로, 3개월 전보다 3.53% 높고 최근 1년 범위(3.95~4.74)의 87% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
         "growth": "지수가 3개월 전보다 +2.09% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
         "valuation": "지수가 최근 1년 범위의 92% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
-        "fx": "원/달러가 1381.87원으로 최근 1년(1377.64~1554.48) 범위의 2% 지점입니다.",
+        "fx": "원/달러가 1381.52원으로 최근 1년(1377.64~1554.48) 범위의 2% 지점입니다.",
         "geo": "VIX 가 15.45입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
       },
       "rates": "hike",
@@ -333,15 +333,15 @@
   "news": {
     "kr": [
       {
-        "title": "화순군, '반도체 배후도시' 삼천지구 개발…2029년 착공 목표",
-        "link": "https://www.yna.co.kr/view/AKR20260825162600054",
+        "title": "\"배임 기소 공시 후 기업 현금 보유 확대…투자 위축 우려\"",
+        "link": "https://www.yna.co.kr/view/AKR20260825136500003",
         "source": "연합뉴스",
-        "date": "Tue, 25 Aug 2026 18:12:33 +0900",
+        "date": "Wed, 26 Aug 2026 06:00:08 +0900",
         "act": "none",
-        "lasting": "structural",
-        "scope": "sector",
-        "why": "착공까지 수년 남은 지역 개발 계획으로 당장 이익 변화는 없습니다.",
-        "by": "ai"
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
       },
       {
         "title": "사상 최대 실적 전망에도 7일째 하락…'엔비디아 쇼크' 오나 [분석+]",
@@ -355,26 +355,26 @@
         "by": "ai"
       },
       {
-        "title": "韓美 금리 불확실성에 … 외국인 '일단 팔자'",
-        "link": "https://www.mk.co.kr/news/stock/12136054",
+        "title": "“죽다 겨우 살아났는데”…개미들 27·28일 주식창만 봐야하는 이유",
+        "link": "https://www.mk.co.kr/news/stock/12136319",
         "source": "매일경제",
-        "date": "Tue, 25 Aug 2026 17:47:56 +09:00",
+        "date": "Wed, 26 Aug 2026 06:10:28 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
-        "why": "금리 이벤트 전후 외국인 수급은 흔한 단기 흐름입니다.",
-        "by": "ai"
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
       },
       {
-        "title": "호남 반도체·AIDC 인프라 예타 무더기 면제…'3대 메가' 속도",
-        "link": "https://www.yna.co.kr/view/AKR20260825149700001",
+        "title": "7월 한화솔루션 유증에 주식발행 373%↑…단기사채는 줄어",
+        "link": "https://www.yna.co.kr/view/AKR20260825153600002",
         "source": "연합뉴스",
-        "date": "Tue, 25 Aug 2026 17:01:30 +0900",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": "sector",
-        "why": "인프라 예타 면제는 반도체 업종 투자 환경을 장기적으로 바꿀 수 있어 지켜볼 만합니다.",
-        "by": "ai"
+        "date": "Wed, 26 Aug 2026 06:00:02 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
       },
       {
         "title": "\"14조 증자한다더니\"…마윈, 알리바바 주식 1000억어치 샀다",
@@ -388,15 +388,15 @@
         "by": "ai"
       },
       {
-        "title": "26일만에 돌아온 (주)한화 … 주가 17% 급등",
-        "link": "https://www.mk.co.kr/news/stock/12136032",
+        "title": "“반도체 주주님들, 간만에 큰 거 옵니다”…내일 새벽 엔비디아 실적발표",
+        "link": "https://www.mk.co.kr/news/stock/12136316",
         "source": "매일경제",
-        "date": "Tue, 25 Aug 2026 17:42:06 +09:00",
+        "date": "Wed, 26 Aug 2026 05:59:37 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
-        "why": "거래 재개 직후 급등은 단기 가격 변동에 가깝습니다.",
-        "by": "ai"
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
       }
     ],
     "us": [
@@ -413,16 +413,16 @@
         "by": "ai"
       },
       {
-        "title": "Options traders are betting on the quietest Nvidia earnings reaction in years. It could be an opportunity for AI bulls.",
-        "link": "https://www.marketwatch.com/story/options-traders-are-betting-on-the-quietest-nvidia-earnings-reaction-in-years-it-could-be-an-opportunity-for-ai-bulls-91955793?mod=mw_rss_topstories",
+        "title": "Why Meta’s stock could see a 50% rally, thanks to an overlooked AI wild card",
+        "link": "https://www.marketwatch.com/story/why-metas-stock-could-see-a-50-rally-thanks-to-an-overlooked-ai-wild-card-28cea54b?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Tue, 25 Aug 2026 20:07:00 GMT",
-        "ko": "옵션 거래자들은 몇 년 만에 가장 조용한 엔비디아 수익 반응에 베팅하고 있습니다. AI 황소에게 기회가 될 수 있습니다.",
+        "date": "Tue, 25 Aug 2026 21:01:00 GMT",
+        "ko": "간과된 인공지능 와일드 카드 덕분에 메타의 주식이 50% 의 랠리를 볼 수 있었던 이유",
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
+        "why": "목표주가 전망을 다룬 의견 기사로, 장기 이익 구조와는 무관합니다.",
+        "by": "ai"
       },
       {
         "title": "Stanley Druckenmiller and Cathie Wood agree on 2 tech giant stocks",
@@ -449,11 +449,11 @@
         "by": "ai"
       },
       {
-        "title": "Has AI gotten any better at stock picking?",
-        "link": "https://www.marketwatch.com/story/has-ai-gotten-any-better-at-stock-picking-a7cfb998?mod=mw_rss_topstories",
+        "title": "Why AMD can beat rivals Intel and Nvidia in the market for data-center CPUs",
+        "link": "https://www.marketwatch.com/story/why-amd-can-beat-rivals-intel-and-nvidia-in-the-market-for-data-center-cpus-e49a53f1?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Tue, 25 Aug 2026 19:35:00 GMT",
-        "ko": "인공지능이 주식 선별을 더 잘했나요?",
+        "date": "Tue, 25 Aug 2026 20:59:00 GMT",
+        "ko": "AMD가 데이터 센터 CPU 시장에서 경쟁사인 인텔과 엔비디아를 이길 수 있는 이유",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -461,11 +461,11 @@
         "by": "rules"
       },
       {
-        "title": "Is Wall Street Bullish or Bearish on BXP Stock?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/wall-street-bullish-bearish-bxp-115852610.html",
+        "title": "What Are Wall Street Analysts' Target Price for CDW Corporation Stock?",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-target-price-124719584.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-24T11:58:52Z",
-        "ko": "BXP 주식에서 월스트리트가 강세입니까, 아니면 약세입니까?",
+        "date": "2026-08-24T12:47:19Z",
+        "ko": "CDW Corporation 주식에 대한 월스트리트 애널리스트의 목표 가격은 얼마입니까?",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -554,7 +554,8 @@
     "U.S.-Canada trade war threatens to worsen inflation for both economies. Neither can afford it.": "미국과 캐나다의 무역 전쟁은 두 경제의 인플레이션을 악화시킬 위협이 있다. 그것도 감당할 수 없습니다.",
     "Vulcan Materials Stock: Analyst Estimates & Ratings": "Vulcan Materials Stock: 애널리스트 추정 및 평가",
     "Options traders are betting on the quietest Nvidia earnings reaction in years. It could be an opportunity for AI bulls.": "옵션 거래자들은 몇 년 만에 가장 조용한 엔비디아 수익 반응에 베팅하고 있습니다. AI 황소에게 기회가 될 수 있습니다.",
-    "Is Wall Street Bullish or Bearish on BXP Stock?": "BXP 주식에서 월스트리트가 강세입니까, 아니면 약세입니까?"
+    "Is Wall Street Bullish or Bearish on BXP Stock?": "BXP 주식에서 월스트리트가 강세입니까, 아니면 약세입니까?",
+    "What Are Wall Street Analysts' Target Price for CDW Corporation Stock?": "CDW Corporation 주식에 대한 월스트리트 애널리스트의 목표 가격은 얼마입니까?"
   },
   "nvCache": {
     "https://www.yna.co.kr/view/AKR20260824137251008": {
@@ -1231,7 +1232,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeQ7BbjkvNMdVyML5F5Gm\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeQ7BcNTj1DMPmuC1yYCb\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeQBfdRTpFUwNr6ZkMzHM\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeQBfe6Pj6gkexdwbQkUu\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeQBfeeNu8UpVYrEd9XJf\"}"
   ]
 }
