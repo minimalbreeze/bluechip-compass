@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="robots" content="noindex" />
+<title>카카오 알림 연결 · 블루칩 나침반</title>
+<!--
+  카카오 로그인이 끝나면 여기로 돌아온다(Redirect URI).
+  주소창의 ?code=... 를 크게 보여주고 복사 단추를 준다.
+
+  왜 이 페이지가 필요한가
+    예전 안내는 "주소창에서 code= 뒤를 직접 복사하세요"였다. 휴대폰에서는
+    주소창이 짧게 보이고 코드가 길어서 사실상 못 한다. 여기서 통째로
+    보여주고 한 번에 복사하게 한다.
+
+  ⚠️ 이 페이지는 토큰을 만들지 않는다. 그러려면 REST 키가 필요한데, 그걸
+     페이지에 심으면 소스에 그대로 노출된다. 토큰 교환은 워크플로가 한다.
+-->
+<style>
+  :root{--ink:#13334f;--mid:#3f6483;--dim:#7391ae;--line:#d2e3f3;--soft:#e6f0fa;--acc:#0e6ba8}
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font:16px/1.7 -apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Noto Sans KR',sans-serif;
+       color:var(--ink);background:#f4f9fd;padding:22px 18px 60px;max-width:620px;margin:0 auto}
+  h1{font-size:20px;font-weight:800;margin-bottom:6px}
+  .sub{color:var(--mid);font-size:14px;margin-bottom:18px}
+  .card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px;margin-bottom:14px}
+  .lab{font-size:12px;font-weight:800;color:var(--dim);letter-spacing:.04em;margin-bottom:8px}
+  code{display:block;background:var(--soft);border-radius:10px;padding:12px;
+       font:13px/1.6 ui-monospace,SFMono-Regular,Menlo,monospace;word-break:break-all;color:var(--ink)}
+  button{width:100%;margin-top:10px;padding:13px;border:0;border-radius:10px;background:var(--acc);
+         color:#fff;font:700 15px inherit;font-family:inherit;cursor:pointer}
+  button:active{opacity:.85}
+  .ok{background:#eef6f0;border:1px solid #d3e7da;color:#2f6b4a;padding:11px 13px;border-radius:10px;
+      font-size:14px;margin-top:10px}
+  .bad{background:#fdf1ef;border:1px solid #f3cfcd;color:#93362f;padding:12px 14px;border-radius:10px;font-size:14px}
+  ol{margin:8px 0 0 18px;font-size:14px;color:var(--mid)}
+  li{margin-bottom:7px}
+  .note{font-size:12.5px;color:var(--dim);margin-top:10px;line-height:1.65}
+  a{color:var(--acc)}
+</style>
+</head>
+<body>
+  <h1>🧭 카카오 알림 연결</h1>
+  <div class="sub" id="sub"></div>
+  <div id="out"></div>
+
+<script>
+(function () {
+  var code = new URLSearchParams(location.search).get('code');
+  var err  = new URLSearchParams(location.search).get('error');
+  var out  = document.getElementById('out');
+  var sub  = document.getElementById('sub');
+  /* 머리글도 상태에 맞춘다 — 실패했는데 "코드를 받았습니다"가 떠 있으면
+     무엇이 잘못됐는지 더 헷갈린다. */
+  sub.textContent = err ? '연결이 끝나지 않았습니다.'
+    : (new URLSearchParams(location.search).get('code')
+        ? '인증 코드를 받았습니다. 아래 값을 복사해 다음 단계에 쓰세요.'
+        : '카카오 로그인 뒤에 자동으로 열리는 페이지입니다.');
+
+  if (err) {
+    out.innerHTML = '<div class="bad"><b>인증이 취소됐거나 실패했습니다.</b><br>' +
+      '(' + err.replace(/[<>&]/g, '') + ')<br><br>' +
+      '카카오 개발자센터에서 <b>카카오톡 메시지 전송(talk_message)</b> 동의항목이 ' +
+      '켜져 있는지 확인하고 다시 시도하세요.</div>';
+    return;
+  }
+  if (!code) {
+    out.innerHTML = '<div class="card"><div class="lab">아직 인증 전입니다</div>' +
+      '<div style="font-size:14px;color:var(--mid)">이 페이지는 카카오 로그인 뒤에 ' +
+      '자동으로 열립니다. 직접 열면 보여줄 코드가 없습니다.</div>' +
+      '<ol><li>카카오 개발자센터에서 앱을 만들고 REST API 키를 복사</li>' +
+      '<li>이 주소를 <b>Redirect URI</b> 로 등록: <code>' + location.origin + location.pathname + '</code></li>' +
+      '<li>동의항목에서 <b>talk_message</b> 를 켜기</li>' +
+      '<li>인증 주소로 들어가 동의하면 여기로 돌아옵니다</li></ol></div>';
+    return;
+  }
+
+  out.innerHTML =
+    '<div class="card"><div class="lab">인증 코드 (10분 안에 쓰세요)</div>' +
+      '<code id="c">' + code.replace(/[<>&]/g, '') + '</code>' +
+      '<button id="cp">📋 코드 복사</button>' +
+      '<div id="msg"></div>' +
+      '<div class="note">이 코드는 <b>한 번만</b> 쓸 수 있고 10분이면 만료됩니다. ' +
+      '다음 단계에서 실패하면 인증 주소로 다시 들어와 새 코드를 받으세요.</div>' +
+    '</div>' +
+    '<div class="card"><div class="lab">다음에 할 일</div>' +
+      '<ol><li>저장소 <b>Actions</b> → <b>kakao token</b> → <b>Run workflow</b></li>' +
+      '<li><b>code</b> 칸에 위 코드를 붙여넣고 실행</li>' +
+      '<li>끝나면 <b>Summary</b> 에 refresh token 이 나옵니다</li>' +
+      '<li>그 값을 <b>Settings → Secrets</b> 의 <code style="display:inline;padding:2px 6px">KAKAO_REFRESH_TOKEN</code> 에 저장</li></ol>' +
+    '</div>';
+
+  document.getElementById('cp').onclick = function () {
+    var t = document.getElementById('c').textContent;
+    var done = function () {
+      document.getElementById('msg').innerHTML = '<div class="ok">✅ 복사했습니다.</div>';
+    };
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(t).then(done, fallback);
+    } else fallback();
+    function fallback() {
+      /* 오래된 인앱 브라우저 대비 — 선택 상태로 만들어 길게 눌러 복사하게 한다 */
+      var r = document.createRange();
+      r.selectNodeContents(document.getElementById('c'));
+      var s = window.getSelection(); s.removeAllRanges(); s.addRange(r);
+      document.getElementById('msg').innerHTML =
+        '<div class="ok">코드를 선택해 뒀습니다. 길게 눌러 <b>복사</b>를 고르세요.</div>';
+    }
+  };
+})();
+</script>
+</body>
+</html>

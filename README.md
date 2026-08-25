@@ -486,49 +486,78 @@ Access 정책에 지인 이메일만 넣으면, 링크를 알아도 인증 없�
 **바뀐 게 없으면 아무것도 보내지 않는다.** 매일 "변화 없음"이 오면 이틀 만에
 알림을 꺼 버린다. 알림의 값어치는 뜸한 데서 온다.
 
-### 설정 (한 번만)
+### 설정 (한 번만) — 휴대폰만으로 됩니다
 
 친구에게 보내기·알림톡은 카카오 검수와 사업자등록이 필요해서 개인 앱에서는
 못 쓴다. **나에게 보내기**만 쓴다 — 어차피 본인이 받을 알림이라 이걸로 된다.
 
-1. [카카오 개발자센터](https://developers.kakao.com) → **내 애플리케이션** →
-   **애플리케이션 추가하기**
-2. 만든 앱 → **앱 키** 에서 **REST API 키** 를 복사해 둔다
-3. **카카오 로그인** 메뉴 → 활성화 **ON**, **Redirect URI** 에
-   `https://localhost:5000/oauth` 를 넣고 저장
-4. **동의항목** 메뉴 → **카카오톡 메시지 전송(talk_message)** 을 **필수 동의**로
-5. 브라우저 주소창에 아래를 넣고 들어가서 동의한다 (`{REST키}` 자리에 2번 값)
+⚠️ **REST 키와 토큰은 채팅·이슈·커밋 어디에도 적지 않는다.** Secrets 에만 넣는다.
 
-   ```
-   https://kauth.kakao.com/oauth/authorize?client_id={REST키}&redirect_uri=https://localhost:5000/oauth&response_type=code&scope=talk_message
-   ```
+**1. 카카오 앱 만들기**
+[카카오 개발자센터](https://developers.kakao.com) → 로그인 →
+**내 애플리케이션** → **애플리케이션 추가하기** → 앱 이름·회사명 아무거나 입력
 
-   동의하면 주소창이 `https://localhost:5000/oauth?code=XXXX` 로 바뀐다.
-   페이지는 안 열려도 된다 — **주소창의 `code=` 뒤 값**만 복사한다.
-6. 그 코드로 refresh token 을 받는다 (터미널에서 한 번만)
+**2. REST API 키 복사**
+만든 앱 → **앱 키** → **REST API 키** 를 복사
 
-   ```bash
-   curl -X POST "https://kauth.kakao.com/oauth/token" \
-     -d "grant_type=authorization_code" \
-     -d "client_id={REST키}" \
-     -d "redirect_uri=https://localhost:5000/oauth" \
-     -d "code={5번에서 복사한 코드}"
-   ```
+**3. 키를 저장소에 저장**
+저장소 → **Settings** → **Secrets and variables** → **Actions** →
+**New repository secret**
+- Name: `KAKAO_REST_KEY`
+- Secret: 2번에서 복사한 값
 
-   응답의 **`refresh_token`** 값을 쓴다. (`code` 는 한 번만 쓸 수 있다 —
-   실패하면 5번부터 다시)
-7. 저장소 **Settings → Secrets and variables → Actions** 에 두 개를 넣는다
-   - `KAKAO_REST_KEY` — 2번의 REST API 키
-   - `KAKAO_REFRESH_TOKEN` — 6번의 refresh_token
+**4. 카카오 로그인 켜기**
+카카오 개발자센터 → **카카오 로그인** → 활성화 **ON** →
+**Redirect URI 등록** 에 아래를 그대로 붙여넣기
 
-   ⚠️ **키와 토큰은 채팅·이슈·커밋 어디에도 적지 않는다.** Secrets 에만 넣는다.
+```
+https://minimalbreeze.github.io/bluechip-compass/kakao.html
+```
 
-### 확인
+**5. 메시지 권한 켜기**
+**카카오 로그인 → 동의항목** → **카카오톡 메시지 전송(talk_message)** 을
+**필수 동의** 로 설정
 
-**Actions → kakao notify → Run workflow** 를 눌러 본다. 시크릿이 없어도
-**보낼 내용은 로그에 그대로 찍힌다** — 설정 전에 무엇이 올지 먼저 볼 수 있다.
+**6. 인증하기**
+아래 주소에서 `{REST키}` 자리에 2번 값을 넣고 브라우저로 들어가 **동의**
 
-refresh token 은 두 달 넘게 안 쓰면 만료된다. 이 워크플로가 매일 돌면서
+```
+https://kauth.kakao.com/oauth/authorize?client_id={REST키}&redirect_uri=https://minimalbreeze.github.io/bluechip-compass/kakao.html&response_type=code&scope=talk_message
+```
+
+동의하면 **연결 페이지가 열리고 인증 코드가 큰 글씨로 보인다.**
+**📋 코드 복사** 를 누른다. (코드는 **10분 안에, 한 번만** 쓸 수 있다)
+
+**7. 토큰 받기**
+저장소 → **Actions** → 왼쪽에서 **kakao token** → **Run workflow**
+- `code` 칸에 6번에서 복사한 코드를 붙여넣기
+- `redirect_uri` 는 기본값 그대로 두기
+- **Run workflow** 클릭
+
+**8. 토큰 저장**
+실행이 끝나면 그 실행의 **Summary** 에 refresh token 이 나온다.
+3번과 같은 방법으로 저장한다.
+- Name: `KAKAO_REFRESH_TOKEN`
+- Secret: Summary 의 값
+
+저장한 뒤에는 **그 실행 기록을 지우는 것을 권한다** (Actions → 해당 실행 →
+오른쪽 위 `···` → Delete workflow run). 토큰이 Summary 에 남아 있기 때문이다.
+
+**9. 확인**
+**Actions** → **kakao notify** → **Run workflow**
+바뀐 게 있으면 카카오톡 "나와의 채팅"으로 카드가 온다. 없으면 로그에
+"바뀐 게 없습니다"만 남는다 — 정상이다.
+
+### 잘 안 될 때
+
+| 증상 | 원인 |
+|---|---|
+| `KOE320` / `invalid_grant` | 코드를 이미 썼거나 10분이 지났다. 6번부터 다시 |
+| `KOE006` | Redirect URI 가 등록한 것과 다르다. 글자 하나까지 같아야 한다 |
+| `insufficient scope` | 5번의 talk_message 가 안 켜졌다 |
+| 아무것도 안 온다 | 바뀐 게 없어서다. 로그를 보면 무엇을 판단했는지 나온다 |
+
+refresh token 은 두 달 넘게 안 쓰면 만료된다. 매일 도는 알림 워크플로가
 갱신하므로 그냥 두면 된다. 카카오가 새 토큰을 주면 로그에 "시크릿을 바꿔
 주세요"라고 남는다(값은 로그에 남기지 않는다).
 

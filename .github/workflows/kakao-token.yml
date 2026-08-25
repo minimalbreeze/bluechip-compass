@@ -1,0 +1,36 @@
+# 카카오 인증 코드 → refresh token 을 한 번만 발급받는 워크플로.
+#
+# 왜 워크플로로 하나
+#   원래는 터미널에서 curl 한 줄이면 되는 일인데, 휴대폰에서는 못 한다.
+#   여기서 대신 해 주고 결과를 Summary 로 돌려준다.
+#
+# 토큰 값은 **로그에 남기지 않는다.** Job Summary 에만 쓴다 — 저장소 접근
+# 권한이 있어야 볼 수 있다. 저장한 뒤에는 실행 기록을 지우는 걸 권한다.
+
+name: kakao token
+
+on:
+  workflow_dispatch:
+    inputs:
+      code:
+        description: '카카오 인증 코드 (kakao.html 에서 복사한 값)'
+        required: true
+      redirect_uri:
+        description: 'Redirect URI (카카오에 등록한 것과 글자까지 같아야 함)'
+        required: true
+        default: 'https://minimalbreeze.github.io/bluechip-compass/kakao.html'
+
+jobs:
+  token:
+    runs-on: ubuntu-latest
+    env:
+      KAKAO_REST_KEY:      ${{ secrets.KAKAO_REST_KEY }}
+      KAKAO_CODE:          ${{ github.event.inputs.code }}
+      KAKAO_REDIRECT_URI:  ${{ github.event.inputs.redirect_uri }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: 토큰 발급
+        run: node scripts/kakao-token.mjs
