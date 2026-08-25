@@ -462,16 +462,26 @@ body[data-market="us"] .ms-thumb { transform: translateX(100%); }
 /* ── 하단 탭 ────────────────────────────────────────────────────── */
 .tabbar {
   position: fixed; left: 0; right: 0; bottom: 0; z-index: 50;
-  display: grid; grid-template-columns: repeat(5, 1fr);
+  /* 칸 수를 숫자로 박아두면(예전엔 repeat(5,1fr)) 탭을 하나 더할 때마다
+     넘친 탭이 둘째 줄로 내려간다. 실제로 6번째 탭을 더했을 때 그렇게 됐다.
+     auto-flow 로 두면 몇 개가 되든 한 줄에 고르게 나뉜다. */
+  display: grid; grid-auto-flow: column; grid-auto-columns: 1fr;
   max-width: 620px; margin: 0 auto;
   background: rgba(255,255,255,.94);
   backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
   border-top: 1px solid var(--line);
   padding-bottom: var(--safe-bottom);
 }
-.tab { border: 0; background: none; padding: 9px 2px 8px; color: var(--ink-dim); }
+.tab { border: 0; background: none; padding: 9px 1px 8px; color: var(--ink-dim); min-width: 0; }
 .tab-ico { display: block; font-size: 19px; line-height: 1.2; filter: grayscale(1); opacity: .55; transition: all .16s; }
-.tab-txt { display: block; font-size: 11px; font-weight: 700; margin-top: 2px; white-space: nowrap; }
+/* 좁은 화면에서 글자가 칸을 넘지 않도록. 줄바꿈이 아니라 살짝 줄인다 —
+   탭 글자가 두 줄이 되면 탭바 높이가 들쭉날쭉해진다. */
+.tab-txt {
+  display: block; font-size: 11px; font-weight: 700; margin-top: 2px;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+@media (max-width: 400px) { .tab-txt { font-size: 10px; letter-spacing: -.3px; } }
+@media (max-width: 340px) { .tab-txt { font-size: 9.5px; letter-spacing: -.5px; } }
 .tab.is-on { color: var(--accent-ink); }
 .tab.is-on .tab-ico { filter: none; opacity: 1; transform: translateY(-1px); }
 
