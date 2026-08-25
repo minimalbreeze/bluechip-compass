@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-25T08:10:13.251Z",
+  "asOf": "2026-08-25T09:55:54.392Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -7,21 +7,21 @@
       "prev": 6696.9599609375,
       "chg": 0.68,
       "basis": "prev-daily-close",
-      "time": "2026-08-25T06:32:30.000Z"
+      "time": "2026-08-25T09:05:40.000Z"
     },
     "^KQ11": {
       "price": 827.15,
       "prev": 813.3300170898438,
       "chg": 1.7,
       "basis": "prev-daily-close",
-      "time": "2026-08-25T06:32:40.000Z"
+      "time": "2026-08-25T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1385.48,
+      "price": 1383.58,
       "prev": 1384.97998046875,
-      "chg": 0.04,
+      "chg": -0.1,
       "basis": "prev-daily-close",
-      "time": "2026-08-25T08:09:23.000Z"
+      "time": "2026-08-25T09:54:56.000Z"
     },
     "^GSPC": {
       "price": 7652.86,
@@ -38,11 +38,11 @@
       "time": "2026-08-24T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 15.81,
+      "price": 15.8,
       "prev": 15.850000381469727,
-      "chg": -0.25,
+      "chg": -0.32,
       "basis": "prev-daily-close",
-      "time": "2026-08-25T07:54:16.000Z"
+      "time": "2026-08-25T09:40:01.000Z"
     },
     "^TNX": {
       "price": 4.704,
@@ -55,7 +55,7 @@
   "fx": {
     "low52": 1377.64,
     "high52": 1554.48,
-    "pct": 0.044
+    "pct": 0.034
   },
   "hist": {
     "^KS11": {
@@ -73,11 +73,11 @@
       "chg3m": -29.46
     },
     "KRW=X": {
-      "last": 1385.48,
+      "last": 1383.58,
       "low52": 1377.64,
       "high52": 1554.48,
-      "pct52": 0.044,
-      "chg3m": -7.34
+      "pct52": 0.034,
+      "chg3m": -7.47
     },
     "^GSPC": {
       "last": 7652.86,
@@ -94,11 +94,11 @@
       "chg3m": -2.54
     },
     "^VIX": {
-      "last": 15.81,
+      "last": 15.8,
       "low52": 13.47,
       "high52": 31.05,
       "pct52": 0.133,
-      "chg3m": -2.95
+      "chg3m": -3.01
     },
     "^TNX": {
       "last": 4.7,
@@ -110,17 +110,17 @@
   },
   "regime": {
     "by": "ai",
-    "asOf": "2026-08-25T08:10:00.405Z",
+    "asOf": "2026-08-25T09:55:41.692Z",
     "kr": {
       "why": {
-        "rates": "미 10년물(^TNX)은 4.7%로 1년범위 95% 위치·3개월 +4.7%로 올라 있지만 헤드라인에서는 국고채 3년물이 연 3.830%로 하락했다고 하여 방향이 엇갈리므로 중립인 hold로 둡니다.",
-        "growth": "코스피가 6742.74로 3개월간 -16.21% 하락한 점은 부담이지만 1년범위 내 위치가 60%이고 VIX가 15.81로 낮아 침체 신호까지는 아닌 둔화 국면으로 봅니다.",
-        "valuation": "^KS11이 1년범위 3142.93~9114.55의 60% 위치이고 3개월간 -16.21% 조정을 받은 상태라 극단적으로 싸거나 비싸다고 보기 어려운 보통 수준입니다.",
-        "fx": "원/달러가 1385.48로 1년범위 1377.64~1554.48의 4% 위치, 3개월 -7.34%로 내려와 원화가 상대적으로 강한 쪽입니다.",
-        "geo": "VIX가 15.81로 1년범위의 13% 위치이고 헤드라인도 반도체·인프라 투자 등 국내 정책 이슈 중심이라 특별한 충격 신호는 없습니다."
+        "rates": "금리 지표(^TNX)가 4.7%로 1년범위 3.95~4.74의 95% 위치이고 3개월간 +4.7%여서 금리가 위로 향하는 국면으로 봅니다.",
+        "growth": "코스피가 3개월간 -16.21% 하락했지만 현재 6742.74로 1년범위 3142.93~9114.55의 60% 위치에 남아 있어, 침체 확정보다는 둔화 신호로 분류합니다.",
+        "valuation": "지수 위치가 1년범위의 60%로 중간권이고 제시된 헤드라인의 고평가 언급은 미국 증시에 관한 것이어서, 한국 밸류에이션은 보통으로 둡니다.",
+        "fx": "원/달러가 1383.58로 1년범위 1377.64~1554.48의 3% 위치이고 3개월간 -7.47%(원화 가치 상승)이라 원화 강세로 봅니다.",
+        "geo": "^VIX가 15.8로 1년범위의 13% 위치인 낮은 수준이고 제시된 헤드라인은 반도체 배후도시·기업 합병 등 국내 산업 소식이 중심이어서 평온으로 봅니다."
       },
-      "summary": "금리 방향은 국내외 신호가 엇갈려 판단을 보류했고, 지수는 3개월간 크게 밀려 경기 둔화 쪽으로 읽힙니다. 원화는 1년 중 가장 강한 구간이고 변동성 지표는 낮아 시장 분위기 자체는 비교적 조용한 상태입니다.",
-      "rates": "hold",
+      "summary": "금리 지표는 4.7%로 고점권에 있고 코스피는 3개월간 -16.21% 밀려 경기 둔화 색이 짙은 국면입니다. 다만 원/달러 1383.58로 원화는 강세이고 VIX 15.8로 시장 불안 자체는 낮은 편입니다.",
+      "rates": "hike",
       "growth": "slow",
       "valuation": "fair",
       "fx": "strong",
@@ -128,18 +128,18 @@
     },
     "us": {
       "why": {
-        "rates": "^TNX가 4.7%로 1년범위 3.95~4.74의 95% 위치이고 3개월간 +4.7% 올라 시장금리가 상단으로 밀려 올라간 상태입니다.",
-        "growth": "S&P500이 7652.86으로 1년범위의 90% 위치, 3개월 +1.78%이고 헤드라인도 카드사 신고가로 소비자 탄력을 언급해 경기 흐름은 괜찮은 편입니다.",
-        "valuation": "^GSPC가 1년범위 6343.72~7798.99의 90% 위치로 고점 근처에 있어 가격 부담이 있는 구간입니다.",
-        "fx": "원/달러가 1385.48로 1년범위 4% 위치, 3개월 -7.34%여서 달러 대비 원화가 강한 쪽으로 기울어 있습니다.",
-        "geo": "VIX가 15.81로 1년범위 13% 위치까지 내려와 있고 헤드라인에 급격한 충격 사건은 보이지 않습니다."
+        "rates": "미 10년물(^TNX)이 4.7%로 1년범위 3.95~4.74의 95% 위치, 3개월 변화 +4.7%로 금리가 오르는 방향입니다.",
+        "growth": "S&P500이 7652.86으로 1년범위 6343.72~7798.99의 90% 위치이고 3개월간 +1.78%로 완만히 올라 경기 흐름은 괜찮은 쪽으로 분류합니다.",
+        "valuation": "지수가 1년범위의 90% 위치인 고점권이고 '가계 금융자산 절반이 주식…증시 고평가 신호' 헤드라인이 있어 비싼 편으로 봅니다.",
+        "fx": "원/달러 1383.58은 1년범위의 3% 위치이고 3개월간 -7.47%로, '달러 상승' 헤드라인과는 방향이 다르지만 수치 기준으로는 원화 강세입니다.",
+        "geo": "이란 제재·국채 환매 이슈와 '시장 취약성 측정치가 가능한 최고 수준' 헤드라인이 있어, VIX 15.8의 낮은 수준에도 정책·지정학 긴장은 tense로 둡니다."
       },
-      "summary": "지수는 1년 고점권(위치 90%)이라 가격 부담이 있는 반면 변동성은 낮아 겉으로는 안정적인 국면입니다. 다만 10년물 금리가 4.7%로 범위 상단이라 금리 부담이 함께 붙어 있는 상태입니다.",
+      "summary": "미국은 지수가 1년 고점권(90% 위치)까지 올라 밸류에이션이 부담스러운 반면, 10년 금리 4.7%도 고점권에 있는 국면입니다. 표면 변동성(VIX 15.8)은 낮지만 이란 제재·국채 환매 같은 정책·지정학 이슈가 깔려 있습니다.",
       "rates": "hike",
       "growth": "expand",
       "valuation": "rich",
       "fx": "strong",
-      "geo": "calm"
+      "geo": "tense"
     }
   },
   "stocks": {
@@ -333,6 +333,39 @@
   "news": {
     "kr": [
       {
+        "title": "화순군, '반도체 배후도시' 삼천지구 개발…2029년 착공 목표",
+        "link": "https://www.yna.co.kr/view/AKR20260825162600054",
+        "source": "연합뉴스",
+        "date": "Tue, 25 Aug 2026 18:12:33 +0900",
+        "act": "none",
+        "lasting": "structural",
+        "scope": "sector",
+        "why": "착공까지 수년 남은 지역 개발 계획으로 당장 이익 변화는 없습니다.",
+        "by": "ai"
+      },
+      {
+        "title": "\"가계 금융자산 절반이 주식\"…증시 고평가 신호 켜진 미국",
+        "link": "https://www.hankyung.com/article/2026082522151",
+        "source": "한국경제",
+        "date": "Tue, 25 Aug 2026 17:49:29 +0900",
+        "act": "watch",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "밸류에이션 논란은 반복되는 시장 분위기 지표입니다.",
+        "by": "ai"
+      },
+      {
+        "title": "금리 슈퍼위크…외인 1주일새 9.4조 순매도",
+        "link": "https://www.mk.co.kr/news/stock/12136054",
+        "source": "매일경제",
+        "date": "Tue, 25 Aug 2026 17:47:56 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "금리 이벤트 전후 외국인 수급은 흔한 단기 흐름입니다.",
+        "by": "ai"
+      },
+      {
         "title": "호남 반도체·AIDC 인프라 예타 무더기 면제…'3대 메가' 속도",
         "link": "https://www.yna.co.kr/view/AKR20260825149700001",
         "source": "연합뉴스",
@@ -344,58 +377,25 @@
         "by": "ai"
       },
       {
-        "title": "\"반도체 반등 트리거 될까\"…대망의 엔비디아 실적발표 '주목 포인트'는",
-        "link": "https://www.hankyung.com/article/202608251796i",
+        "title": "[속보] SK이노베이션 \"자회사 SKIET 흡수합병 결정\"",
+        "link": "https://www.hankyung.com/article/2026082520647",
         "source": "한국경제",
-        "date": "Tue, 25 Aug 2026 16:20:17 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "sector",
-        "why": "실적 발표 기대감 자체는 일시적 이벤트이며 결과는 아직 나오지 않았습니다.",
+        "date": "Tue, 25 Aug 2026 17:14:26 +0900",
+        "act": "review",
+        "lasting": "structural",
+        "scope": "company",
+        "why": "자회사 흡수합병은 지배구조와 주주가치 전제를 바꿉니다.",
         "by": "ai"
       },
       {
-        "title": "“-4.3%까지 빠졌다가 +0.6% 마감, 오늘도 롤러코스피”…코스닥은 1%대 상승",
-        "link": "https://www.mk.co.kr/news/stock/12135854",
+        "title": "26일만에 돌아온 (주)한화 … 주가 17% 급등",
+        "link": "https://www.mk.co.kr/news/stock/12136032",
         "source": "매일경제",
-        "date": "Tue, 25 Aug 2026 16:04:07 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "하루 변동성 기사로 장기 보유 근거와는 관계가 없습니다.",
-        "by": "ai"
-      },
-      {
-        "title": "유가·美금리 하락에 국고채 금리 하락…3년물 연 3.830%(종합)",
-        "link": "https://www.yna.co.kr/view/AKR20260825148051008",
-        "source": "연합뉴스",
-        "date": "Tue, 25 Aug 2026 16:59:38 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "금리·유가의 단기 움직임으로 오늘 할 일은 없습니다.",
-        "by": "ai"
-      },
-      {
-        "title": "환율 내려오자 달러 '줍줍'…예금부터 ETF까지 돈 몰렸다",
-        "link": "https://www.hankyung.com/article/202608251781i",
-        "source": "한국경제",
-        "date": "Tue, 25 Aug 2026 16:10:01 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "환율에 따른 자금 이동 흐름 소개로 구조 변화로 보기 어렵습니다.",
-        "by": "ai"
-      },
-      {
-        "title": "10억 이상 ‘큰 손’이 사랑했던 이 주식…1년 만에 완전히 버림받았다",
-        "link": "https://www.mk.co.kr/news/economy/12135787",
-        "source": "매일경제",
-        "date": "Tue, 25 Aug 2026 15:37:07 +09:00",
+        "date": "Tue, 25 Aug 2026 17:42:06 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
-        "why": "특정 투자자층의 수급 변화일 뿐 기업 이익 구조를 알려주지 않습니다.",
+        "why": "거래 재개 직후 급등은 단기 가격 변동에 가깝습니다.",
         "by": "ai"
       }
     ],
@@ -413,27 +413,27 @@
         "by": "ai"
       },
       {
-        "title": "Bitcoin has beaten stocks and gold over six months. Now it’s crossed the $80,000 mark.",
-        "link": "https://www.marketwatch.com/story/bitcoin-has-beaten-stocks-and-gold-over-six-months-now-its-closing-in-on-80-000-b8aa48f9?mod=mw_rss_topstories",
+        "title": "One Wall Street measure of market fragility just hit its highest possible level. The last time it did, volatility spiked.",
+        "link": "https://www.marketwatch.com/story/one-wall-street-measure-of-market-fragility-just-hit-its-highest-possible-level-the-last-time-it-did-volatility-spiked-c5441009?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Tue, 25 Aug 2026 08:00:00 GMT",
-        "ko": "비트코인은 6개월 동안 주식과 금을 이겼습니다. 이제 $80,000을 초과했습니다.",
-        "act": "none",
+        "date": "Tue, 25 Aug 2026 09:49:00 GMT",
+        "ko": "시장 취약성에 대한 월스트리트의 측정치가 가능한 한 가장 높은 수준에 도달했습니다. 마지막으로 변동성이 급증했습니다.",
+        "act": "watch",
         "lasting": "temporary",
         "scope": "market",
-        "why": "가격 등락 소식으로 기업 이익 구조와는 무관합니다.",
+        "why": "변동성 지표가 높아진 상태로, 단기 흔들림은 있어도 기업 이익 구조와는 무관합니다.",
         "by": "ai"
       },
       {
-        "title": "Thermo Fisher vs. Intuitive Surgical: Which Premium Healthcare Stock Deserves its Valuation?",
-        "link": "https://finance.yahoo.com/healthcare/articles/thermo-fisher-vs-intuitive-surgical-221530352.html",
+        "title": "Dollar edges higher as investors weigh Iran sanctions, Treasury buybacks",
+        "link": "https://finance.yahoo.com/news/dollar-struggles-traction-markets-weigh-013056238.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-23T22:15:30Z",
-        "ko": "Thermo Fisher vs. Intuitive Surgical: 평가할 가치가 있는 프리미엄 헬스케어 주식은 무엇입니까?",
+        "date": "2026-08-25T09:18:51Z",
+        "ko": "투자자들이 이란 제재, 국채 환매에 무게를 두면서 달러가 상승",
         "act": "none",
         "lasting": "temporary",
-        "scope": "sector",
-        "why": "두 종목 비교 의견 기사로, 기업 이익 구조와는 무관합니다.",
+        "scope": "market",
+        "why": "환율은 수시로 오르내리는 변수라 장기 보유 판단을 바꾸지 않습니다.",
         "by": "ai"
       },
       {
@@ -449,27 +449,27 @@
         "by": "ai"
       },
       {
-        "title": "Visa and Mastercard stocks hit fresh records, underscoring a resilient U.S. consumer",
-        "link": "https://www.marketwatch.com/story/visa-and-mastercard-shares-hit-fresh-records-underscoring-a-resilient-u-s-consumer-ef328548?mod=mw_rss_topstories",
+        "title": "He once mentored Scott Bessent. Now Stanley Druckenmiller is criticizing the treasury secretary.",
+        "link": "https://www.marketwatch.com/story/he-once-mentored-scott-bessent-now-stanley-druckenmiller-is-criticizing-the-treasury-secretary-c229d410?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 24 Aug 2026 21:55:00 GMT",
-        "ko": "Visa 및 Mastercard 주식은 새로운 기록을 달성하여 탄력적인 미국 소비자를 강조합니다.",
+        "date": "Tue, 25 Aug 2026 09:17:00 GMT",
+        "ko": "그는 한때 스콧 베슨트 (Scott Bessent) 를 멘토링했습니다. 현재 Stanley Druckenmiller는 재무장관을 비판하고 있습니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "sector",
-        "why": "신고가와 소비 견조는 이미 가격에 반영된 흐름입니다.",
+        "scope": "market",
+        "why": "유명 투자자의 정책 비판일 뿐, 확정된 변화는 아닙니다.",
         "by": "ai"
       },
       {
-        "title": "Fabrinet Just Lost Billions in Market Value Due to Nvidia. Here’s Why the Reaction Is Overdone.",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/fabrinet-just-lost-billions-market-232736801.html",
+        "title": "Stock market today: S&P 500, Nasdaq futures recover in countdown to Nvidia earnings, Fed Jackson Hole summit",
+        "link": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-august-25-dow-sp-500-nasdaq-080527092.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-23T23:27:36Z",
-        "ko": "Fabrinet은 Nvidia로 인해 수십억 달러의 시장 가치를 잃었습니다. 반응이 지나친 이유는 다음과 같습니다.",
-        "act": "watch",
+        "date": "2026-08-25T08:05:27Z",
+        "ko": "오늘의 주식 시장: S&P 500, Nasdaq 선물은 엔비디아 수익 카운트다운에서 회복, Fed Jackson Hole summit",
+        "act": "none",
         "lasting": "temporary",
-        "scope": "company",
-        "why": "주가 급락과 과잉반응 주장일 뿐, 실제 사업 변화는 제목만으로 확인되지 않습니다.",
+        "scope": "market",
+        "why": "실적 발표와 회의를 앞둔 선물 시세 움직임으로 오늘 할 일은 없습니다.",
         "by": "ai"
       }
     ]
@@ -531,7 +531,11 @@
     "How to Play MRVL Stock Now as Marvell Technology Expands Its Relationship With Google": "Marvell Technology가 Google과의 관계를 확장함에 따라 MRVL Stock을 플레이하는 방법",
     "Bitcoin has beaten stocks and gold over six months. Now it’s crossed the $80,000 mark.": "비트코인은 6개월 동안 주식과 금을 이겼습니다. 이제 $80,000을 초과했습니다.",
     "Thermo Fisher vs. Intuitive Surgical: Which Premium Healthcare Stock Deserves its Valuation?": "Thermo Fisher vs. Intuitive Surgical: 평가할 가치가 있는 프리미엄 헬스케어 주식은 무엇입니까?",
-    "Fabrinet Just Lost Billions in Market Value Due to Nvidia. Here’s Why the Reaction Is Overdone.": "Fabrinet은 Nvidia로 인해 수십억 달러의 시장 가치를 잃었습니다. 반응이 지나친 이유는 다음과 같습니다."
+    "Fabrinet Just Lost Billions in Market Value Due to Nvidia. Here’s Why the Reaction Is Overdone.": "Fabrinet은 Nvidia로 인해 수십억 달러의 시장 가치를 잃었습니다. 반응이 지나친 이유는 다음과 같습니다.",
+    "One Wall Street measure of market fragility just hit its highest possible level. The last time it did, volatility spiked.": "시장 취약성에 대한 월스트리트의 측정치가 가능한 한 가장 높은 수준에 도달했습니다. 마지막으로 변동성이 급증했습니다.",
+    "Dollar edges higher as investors weigh Iran sanctions, Treasury buybacks": "투자자들이 이란 제재, 국채 환매에 무게를 두면서 달러가 상승",
+    "He once mentored Scott Bessent. Now Stanley Druckenmiller is criticizing the treasury secretary.": "그는 한때 스콧 베슨트 (Scott Bessent) 를 멘토링했습니다. 현재 Stanley Druckenmiller는 재무장관을 비판하고 있습니다.",
+    "Stock market today: S&P 500, Nasdaq futures recover in countdown to Nvidia earnings, Fed Jackson Hole summit": "오늘의 주식 시장: S&P 500, Nasdaq 선물은 엔비디아 수익 카운트다운에서 회복, Fed Jackson Hole summit"
   },
   "nvCache": {
     "https://www.yna.co.kr/view/AKR20260824137251008": {
@@ -1050,6 +1054,69 @@
       "lasting": "temporary",
       "scope": "company",
       "why": "주가 급락과 과잉반응 주장일 뿐, 실제 사업 변화는 제목만으로 확인되지 않습니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20260825162600054": {
+      "act": "none",
+      "lasting": "structural",
+      "scope": "sector",
+      "why": "착공까지 수년 남은 지역 개발 계획으로 당장 이익 변화는 없습니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/2026082522151": {
+      "act": "watch",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "밸류에이션 논란은 반복되는 시장 분위기 지표입니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12136054": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "금리 이벤트 전후 외국인 수급은 흔한 단기 흐름입니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/2026082520647": {
+      "act": "review",
+      "lasting": "structural",
+      "scope": "company",
+      "why": "자회사 흡수합병은 지배구조와 주주가치 전제를 바꿉니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12136032": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "거래 재개 직후 급등은 단기 가격 변동에 가깝습니다.",
+      "by": "ai"
+    },
+    "https://www.marketwatch.com/story/one-wall-street-measure-of-market-fragility-just-hit-its-highest-possible-level-the-last-time-it-did-volatility-spiked-c5441009?mod=mw_rss_topstories": {
+      "act": "watch",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "변동성 지표가 높아진 상태로, 단기 흔들림은 있어도 기업 이익 구조와는 무관합니다.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/news/dollar-struggles-traction-markets-weigh-013056238.html": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "환율은 수시로 오르내리는 변수라 장기 보유 판단을 바꾸지 않습니다.",
+      "by": "ai"
+    },
+    "https://www.marketwatch.com/story/he-once-mentored-scott-bessent-now-stanley-druckenmiller-is-criticizing-the-treasury-secretary-c229d410?mod=mw_rss_topstories": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "유명 투자자의 정책 비판일 뿐, 확정된 변화는 아닙니다.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-august-25-dow-sp-500-nasdaq-080527092.html": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "실적 발표와 회의를 앞둔 선물 시세 움직임으로 오늘 할 일은 없습니다.",
       "by": "ai"
     }
   },
