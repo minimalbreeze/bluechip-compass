@@ -64,6 +64,50 @@ export function fit(lines, limit = LIMIT) {
   return out.join('\n').slice(0, limit);
 }
 
+/* ── 피드 템플릿 ───────────────────────────────────────────────
+   글자만 보내면 알림함에서 다른 메시지와 구분이 안 되고, 눈에 안 들어오면
+   결국 안 읽는다. 카카오 기본 템플릿 중 **feed** 는 머리 이미지 + 제목 +
+   설명 + 버튼을 준다. 이미지는 GitHub Pages 에 올려 둔 배너를 쓴다
+   (notify-img/, 종류마다 색과 아이콘이 다르다).
+
+   길이 제약은 텍스트 템플릿과 다르다. 제목은 두 줄쯤에서 잘려 보이므로
+   짧게, 설명에 본문을 담는다.                                            */
+const IMG_BASE = 'https://minimalbreeze.github.io/bluechip-compass/notify-img/';
+
+export async function sendFeed({ kind, title, desc, link, buttonTitle }) {
+  const token = await accessToken();
+  const template = {
+    object_type: 'feed',
+    content: {
+      title: cutHard(title, 60),
+      description: cutHard(desc, 180),
+      image_url: IMG_BASE + kind + '.png',
+      image_width: 800,
+      image_height: 400,
+      link: { web_url: link, mobile_web_url: link }
+    },
+    buttons: [{ title: buttonTitle || '앱에서 열기', link: { web_url: link, mobile_web_url: link } }]
+  };
+  const r = await fetch(SEND_URL, {
+    method: 'POST',
+    headers: {
+      Authorization: `Bearer ${token}`,
+      'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8'
+    },
+    body: new URLSearchParams({ template_object: JSON.stringify(template) })
+  });
+  const j = await r.json().catch(() => ({}));
+  if (!r.ok || j.result_code !== 0) {
+    throw new Error(`전송 실패 (${r.status} ${j.code || ''} ${j.msg || ''})`);
+  }
+  return { ok: true, kind, chars: template.content.description.length };
+}
+
+export function cutHard(s, n) {
+  s = String(s || '').trim();
+  return s.length <= n ? s : s.slice(0, n - 1) + '…';
+}
+
 export async function sendKakao(lines, linkUrl) {
   const text = Array.isArray(lines) ? fit(lines) : String(lines).slice(0, LIMIT);
   if (!text.trim()) return { ok: false, skipped: '빈 메시지' };

@@ -21,7 +21,7 @@
      이틀 만에 알림을 꺼 버린다. 알림의 값어치는 뜸한 데서 온다.
    ========================================================================== */
 import { readFileSync, writeFileSync, existsSync } from 'node:fs';
-import { kakaoReady, sendKakao } from './kakao.mjs';
+import { kakaoReady, sendFeed } from './kakao.mjs';
 
 const APP_URL = 'https://minimalbreeze.github.io/bluechip-compass/';
 const STATE = 'sim-run.json';
@@ -65,12 +65,14 @@ export function buildMessages({ prev, live, W, today }) {
     if (before.regime && before.regime !== label.full) {
       const moved = DIALS.filter(k => before.dials && before.dials[k] !== dials[k]);
       const why = moved.length && dials.why ? String(dials.why[moved[0]] || '') : '';
-      msgs.push([
-        '🧭 국면이 바뀌었습니다',
-        `${flag} ${before.regime} → ${label.full}`,
-        why ? `이유: ${cut(why, 90)}` : '',
-        `현금 목표 ${before.cash ?? '–'}% → ${tilt.cash}%`
-      ].filter(Boolean));
+      msgs.push({
+        kind: 'regime',
+        title: `${flag} ${before.regime} → ${label.full}`,
+        desc: [
+          why ? `왜: ${cut(why, 110)}` : '',
+          `현금 목표 ${before.cash ?? '–'}% → ${tilt.cash}%`
+        ].filter(Boolean).join('\n')
+      });
     }
 
     /* 2) 기준 계좌 매매 */
@@ -88,15 +90,44 @@ export function buildMessages({ prev, live, W, today }) {
            줄마다 그 긴 문장을 반복하면 200자를 넘겨 정작 중요한 평가액이
            잘려 나간다 — 실제로 그렇게 잘렸다. 공통 이유는 맨 아래 한 번만. */
         const why = common(done.map(d => String(d.why || '')));
-        const lines = [`🧭 기준 계좌 조정 · ${name}`];
-        for (const d of done.slice(0, 3)) {
-          lines.push(`${d.kind === 'buy' ? '매수' : '매도'} ${d.n} ${won(d.amt)}`);
-        }
-        lines.push((done.length > 3 ? `외 ${done.length - 3}건 · ` : '') +
-          `평가 ${won(v.total)} (${v.pl >= 0 ? '+' : '−'}${Math.abs(v.plPct).toFixed(1)}%)`);
-        if (why) lines.push(`이유: ${cut(why, 60)}`);
-        msgs.push(lines);
+        const rows = done.slice(0, 3).map(d =>
+          `${d.kind === 'buy' ? '🔵 매수' : '🔴 매도'} ${d.n} ${won(d.amt)}`);
+        if (done.length > 3) rows.push(`  … 외 ${done.length - 3}건`);
+        msgs.push({
+          kind: 'trade',
+          title: `${flag} 기준 계좌가 ${done.length}건 조정했습니다`,
+          desc: [
+            rows.join('\n'),
+            `평가 ${won(v.total)} (${v.pl >= 0 ? '+' : '−'}${Math.abs(v.plPct).toFixed(1)}%)`,
+            why ? `왜: ${cut(why, 50)}` : ''
+          ].filter(Boolean).join('\n')
+        });
       }
+    }
+
+    /* 4) 전략 점검 — 목표 배분이 크게 달라졌을 때
+       "시장이 좋아지면 공격적으로 바꿔야 하나?"에 대한 이 앱의 답이 여기다.
+       **성향(공격/균형/방어)은 시장이 아니라 내 사정으로 바꾸는 것이다** —
+       쓸 시점이 멀어졌거나, 견딜 수 있는 폭이 커졌거나. 시장이 좋아 보인다고
+       공격적으로 옮기면 오른 뒤에 더 사고 빠진 뒤에 줄이게 된다.
+
+       시장에 맞춰 움직이는 몫은 **현금 비중**이 맡는다. 그래서 알림도
+       "공격적으로 바꾸세요"가 아니라 "목표가 이만큼 달라졌고 이유는 이것"
+       까지만 말한다. 성향을 바꿀지는 회원님이 정한다. */
+    const cashMoved = before.cash !== undefined && Math.abs(tilt.cash - before.cash) >= 5;
+    if (cashMoved && before.regime === label.full) {
+      const moved2 = DIALS.filter(k => before.dials && before.dials[k] !== dials[k]);
+      const why2 = moved2.length && dials.why ? String(dials.why[moved2[0]] || '') : '';
+      const dir = tilt.cash > before.cash ? '늘리는' : '줄이는';
+      msgs.push({
+        kind: 'strategy',
+        title: `${flag} 목표 배분이 달라졌습니다 · 현금 ${before.cash}% → ${tilt.cash}%`,
+        desc: [
+          `국면은 그대로(${label.full})인데 현금을 ${dir} 쪽으로 목표가 움직였습니다.`,
+          why2 ? `왜: ${cut(why2, 90)}` : '',
+          '성향은 시장이 아니라 내 사정으로 바꾸는 것입니다.'
+        ].filter(Boolean).join('\n')
+      });
     }
 
     out.markets[mk] = { regime: label.full, cash: tilt.cash, dials: pick(dials), sim: st };
@@ -110,10 +141,14 @@ export function buildMessages({ prev, live, W, today }) {
     const seen = (state[mk] || {}).newsKey;
     const key = hot.map(n => n.title).join('|').slice(0, 120);
     if (hot.length && key !== seen) {
-      const lines = [`🗞️ ${mk === 'kr' ? '국내' : '미국'} 기사 ${hot.length}건이 "근거 다시 확인"입니다`];
-      for (const n of hot.slice(0, 2)) lines.push(`· ${(n.ko || n.title).slice(0, 40)}`);
-      lines.push('파라는 뜻이 아니라, 처음 산 이유가 아직 맞는지 보라는 뜻입니다.');
-      msgs.push(lines);
+      msgs.push({
+        kind: 'news',
+        title: `${mk === 'kr' ? '🇰🇷 국내' : '🇺🇸 미국'} 기사 ${hot.length}건 — 근거 다시 확인`,
+        desc: [
+          hot.slice(0, 2).map(n => `• ${cut(n.ko || n.title, 46)}`).join('\n'),
+          '팔라는 뜻이 아닙니다. 처음 산 이유가 아직 맞는지만 보세요.'
+        ].join('\n')
+      });
     }
     if (out.markets[mk]) out.markets[mk].newsKey = key;
     if (out.markets[mk]) out.markets[mk].watch = watch.length;
@@ -180,7 +215,11 @@ if (import.meta.url === `file://${process.argv[1]}`) {
     process.exit(0);
   }
   console.log(`보낼 것 ${msgs.length}건`);
-  for (const m of msgs) console.log('---\n' + m.join('\n'));
+  for (const m of msgs) {
+    console.log(`\n┌─ [${m.kind}] ${m.title}`);
+    m.desc.split('\n').forEach(l => console.log('│  ' + l));
+    console.log('└─');
+  }
 
   if (!kakaoReady()) {
     console.log('\n📭 KAKAO_REST_KEY / KAKAO_REFRESH_TOKEN 시크릿이 없어 전송은 건너뜁니다.');
@@ -189,8 +228,10 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   }
   let sent = 0;
   for (const m of msgs) {
-    try { const r = await sendKakao(m, APP_URL); sent++; console.log(`✓ 보냄 (${r.chars}자)`); }
-    catch (e) { console.log(`✕ ${e.message}`); }
+    try {
+      const r = await sendFeed({ kind: m.kind, title: m.title, desc: m.desc, link: APP_URL });
+      sent++; console.log(`✓ 보냄 [${r.kind}]`);
+    } catch (e) { console.log(`✕ [${m.kind}] ${e.message}`); }
   }
   console.log(`\n${sent}/${msgs.length}건 전송`);
 }

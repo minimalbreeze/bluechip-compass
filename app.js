@@ -73,7 +73,9 @@
     sq: '',
     sSel: null,
     /* 기록을 '지난 것까지' 펴 놨는지 (기록별로 따로) */
-    logMore: {}
+    logMore: {},
+    /* 성향 바꾸기 칸을 폈는지 */
+    styleOpen: false
   };
   ['kr', 'us'].forEach(function (mk) {
     if (!state.sim[mk] || !state.sim[mk].pos) state.sim[mk] = SIM.blank();
@@ -1531,6 +1533,49 @@
     return l;
   }
 
+  /* ── 성향 바꾸기 ─────────────────────────────────────────────
+     여태 성향은 시작할 때 한 번 정하면 초기화 말고는 못 바꿨다. 그런데
+     성향을 바꿔야 할 일은 실제로 생긴다 — 쓸 시점이 멀어졌다거나, 소득이
+     늘어 견딜 수 있는 폭이 커졌다거나.
+
+     ⚠️ 다만 **시장이 좋아 보인다고 공격적으로 옮기는 건 이 앱이 권하지
+     않는다.** 그건 오른 뒤에 더 사고 빠진 뒤에 줄이는, 정확히 반대로 하는
+     길이다. 시장에 맞춰 움직이는 몫은 이미 **현금 비중**이 맡고 있다
+     (국면이 바뀌면 현금 목표가 자동으로 바뀐다). 그래서 고르는 자리에
+     그 말을 같이 붙인다 — 막지는 않되, 무엇을 하는 것인지는 알린다. */
+  function styleSwitchHtml(st, mk) {
+    var open = state.styleOpen;
+    var cur = st.style;
+    var body = P.styles.map(function (o) {
+      var on = o.key === cur;
+      var cash = P.build(mk, o.key, M.tilt(regimeOf(mk)).cash).holdings
+        .filter(function (x) { return x.k === 'cash'; })[0];
+      return '<button class="stopt' + (on ? ' is-on' : '') + '" data-style="' + o.key + '">' +
+        '<span class="stopt-h">' + o.icon + ' <b>' + o.label + '</b>' +
+          (on ? '<span class="stopt-now">지금</span>' : '') + '</span>' +
+        '<span class="stopt-o">' + esc(o.one) + '</span>' +
+        '<span class="stopt-m">견딜 폭 ' + esc(o.mdd) + ' · 현금 목표 ' + (cash ? cash.w : 0) + '%</span>' +
+      '</button>';
+    }).join('');
+    return '<div class="stybox">' +
+      '<button class="styhead" id="sty-toggle">' +
+        '<span>🎚️ 성향 <b>' + styleLabelOf(cur) + '</b></span>' +
+        '<span class="styhead-a">' + (open ? '닫기' : '바꾸기') + '</span>' +
+      '</button>' +
+      (open
+        ? '<div class="stybody">' + body +
+          '<div class="stywarn">⚠️ <b>시장이 좋아 보여서 공격적으로 옮기는 것은 권하지 않습니다.</b> ' +
+            '오른 뒤에 더 사고 빠진 뒤에 줄이는, 정확히 반대로 가는 길입니다. ' +
+            '시장에 맞추는 몫은 <b>현금 비중</b>이 이미 맡고 있습니다 — 국면이 바뀌면 자동으로 바뀝니다.<br>' +
+            '성향은 <b>시장이 아니라 내 사정</b>으로 바꾸는 것입니다: 쓸 시점이 멀어졌거나, ' +
+            '반토막을 견딜 수 있게 됐거나.</div>' +
+          '<div class="stynote">바꾸면 다음 조정 때 새 목표에 맞춰 사고팝니다. ' +
+            '지금까지의 기록은 그대로 남습니다.</div>' +
+          '</div>'
+        : '') +
+    '</div>';
+  }
+
   /* ── 기록을 날짜로 묶어 최근 것부터 ──────────────────────────
      장부가 길어지면 오래된 것까지 한 번에 쏟아져 읽을 수가 없다. 그래서
      **가장 최근 날짜만 펴 두고** 나머지는 버튼 뒤에 둔다.
@@ -1609,6 +1654,13 @@
     var fresh = simNew(mk);
     if (!fresh.length) return '';
     var rows = fresh.map(function (l) {
+      if (l.kind === 'note') {
+        return '<div class="snw-row">' +
+          '<span class="snw-k note">변경</span>' +
+          '<span class="snw-b"><b>' + esc(l.n) + '</b>' +
+            '<span class="snw-d">' + l.ts + (l.why ? ' · ' + esc(l.why) : '') + '</span>' +
+          '</span></div>';
+      }
       var side = l.kind === 'buy' ? '샀습니다' : '팔았습니다';
       return '<div class="snw-row">' +
         '<span class="snw-k ' + l.kind + '">' + (l.kind === 'buy' ? '매수' : '매도') + '</span>' +
@@ -1700,6 +1752,7 @@
     '</div>');
 
     h.push(simNewHtml(state.market));
+    h.push(styleSwitchHtml(st, state.market));
 
     h.push('<div class="card sum simsum">' +
       '<div class="sum-top"><span class="sum-l">모의 평가금액</span><span class="sum-v">' + money(v.total) + '</span></div>' +
@@ -1795,10 +1848,12 @@
       { open: sells.length > 0, badge: sells.length || '' }));
 
     var logHtml = logFoldHtml(st.log, 'log', function (l) {
-      return '<div class="logrow"><span class="log-k ' + l.kind + '">' +
-        (l.kind === 'buy' ? '매수' : '매도') + '</span>' +
+      /* 성향 변경 같은 '거래가 아닌 기록'도 같은 줄에 남긴다. 계좌가 왜
+         달라졌는지는 매매만으로는 설명되지 않는다. */
+      var kindLab = l.kind === 'buy' ? '매수' : l.kind === 'sell' ? '매도' : '변경';
+      return '<div class="logrow"><span class="log-k ' + l.kind + '">' + kindLab + '</span>' +
         '<span class="log-n">' + esc(l.n) + (l.auto ? '<span class="log-auto">자동</span>' : '') + '</span>' +
-        '<span class="log-a">' + won(l.amt) + '</span>' +
+        '<span class="log-a">' + (l.kind === 'note' ? '' : won(l.amt)) + '</span>' +
         /* 왜 사고팔았는지를 남긴다. 근거 없이 잔고가 바뀌면 사용자는 그
            계좌를 이해할 수 없고, 그러면 비교할 것도 없어진다. */
         (l.why ? '<span class="log-w">' + esc(l.why) + '</span>' : '') + '</div>';
@@ -2454,6 +2509,29 @@
         if (p.ticker === el.dataset.spick) pk = p;
       });
       if (pk) { state.sq = pk.name; state.sSel = { t: pk.ticker, n: pk.name, etf: 0, uni: true }; render(); }
+      return;
+    }
+    if (ev.target.id === 'sty-toggle' || ev.target.closest('#sty-toggle')) {
+      state.styleOpen = !state.styleOpen;
+      render();
+      return;
+    }
+    if ((el = ev.target.closest('[data-style]'))) {
+      var nk = el.dataset.style;
+      var sst = simState();
+      if (sst.started && nk && nk !== sst.style) {
+        var before = styleLabelOf(sst.style);
+        sst.style = nk;
+        /* 오늘 이미 조정했더라도 성향이 바뀌었으면 다시 맞춘다 —
+           안 그러면 내일까지 옛 목표로 남는다. */
+        sst.lastAuto = null;
+        sst.log.unshift({ ts: ymd(today()), kind: 'note', n: '성향 변경',
+          amt: 0, why: before + ' → ' + styleLabelOf(nk) });
+        simSave();
+        state.simMsg = '성향을 ' + styleLabelOf(nk) + '으로 바꿨습니다. 다음 조정 때 새 목표에 맞춥니다.';
+      }
+      state.styleOpen = false;
+      render();
       return;
     }
     if ((el = ev.target.closest('[data-logmore]'))) {

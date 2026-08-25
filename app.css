@@ -1311,3 +1311,35 @@ body[data-market="us"] .ms-thumb { transform: translateX(100%); }
   font-size: 13px; font-weight: 700; font-family: inherit; cursor: pointer;
 }
 .logmore span { color: var(--ink-dim); font-weight: 600; }
+
+/* ── 성향 바꾸기 ────────────────────────────────────────────────
+   시장이 좋아 보인다고 공격적으로 옮기는 건 권하지 않는다. 막지는 않되
+   무엇을 하는 것인지는 고르는 자리에서 알린다. */
+.stybox { margin: 10px 0; border: 1px solid var(--line); border-radius: var(--r-s); overflow: hidden; }
+.styhead {
+  width: 100%; display: flex; align-items: center; justify-content: space-between;
+  gap: 8px; padding: 11px 12px; border: 0; background: var(--card);
+  font-size: 13.5px; color: var(--ink); font-family: inherit; cursor: pointer;
+}
+.styhead b { font-weight: 800; }
+.styhead-a { font-size: 12.5px; color: var(--accent); font-weight: 700; }
+.stybody { padding: 0 12px 12px; display: flex; flex-direction: column; gap: 8px; }
+.stopt {
+  display: flex; flex-direction: column; gap: 3px; text-align: left;
+  padding: 10px 12px; border: 1px solid var(--line); border-radius: var(--r-s);
+  background: var(--card); font-family: inherit; cursor: pointer; color: var(--ink);
+}
+.stopt.is-on { border-color: var(--accent); background: var(--accent-soft); }
+.stopt-h { font-size: 14px; display: flex; align-items: center; gap: 6px; }
+.stopt-now {
+  font-size: 10.5px; font-weight: 800; color: var(--accent-ink);
+  background: rgba(255,255,255,.7); border-radius: 999px; padding: 1px 7px;
+}
+.stopt-o { font-size: 12.5px; color: var(--ink-mid); line-height: 1.55; }
+.stopt-m { font-size: 11.5px; color: var(--ink-dim); }
+.stywarn {
+  font-size: 12px; line-height: 1.7; color: #93362f;
+  background: #fdf1ef; border: 1px solid #f3cfcd; border-radius: var(--r-s); padding: 9px 11px;
+}
+.stynote { font-size: 11.5px; color: var(--ink-dim); line-height: 1.6; }
+.snw-k.note, .log-k.note { background: var(--line-soft); color: var(--ink-mid); }
