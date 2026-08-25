@@ -27,6 +27,8 @@ jobs:
       KAKAO_REST_KEY:      ${{ secrets.KAKAO_REST_KEY }}
       KAKAO_CODE:          ${{ github.event.inputs.code }}
       KAKAO_REDIRECT_URI:  ${{ github.event.inputs.redirect_uri }}
+      # 카카오 콘솔에서 클라이언트 시크릿을 켠 경우에만 필요하다. 없으면 안 보낸다.
+      KAKAO_CLIENT_SECRET: ${{ secrets.KAKAO_CLIENT_SECRET }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4

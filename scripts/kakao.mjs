@@ -29,11 +29,16 @@ export function kakaoReady() {
 }
 
 async function accessToken() {
-  const body = new URLSearchParams({
+  /* 클라이언트 시크릿이 켜져 있으면 갱신 때도 같이 보내야 한다.
+     토큰 발급만 고치고 여기를 빠뜨리면 첫날은 되고 다음날부터 조용히
+     실패한다 — 그게 더 찾기 어렵다. */
+  const form = {
     grant_type: 'refresh_token',
     client_id: process.env.KAKAO_REST_KEY,
     refresh_token: process.env.KAKAO_REFRESH_TOKEN
-  });
+  };
+  if (process.env.KAKAO_CLIENT_SECRET) form.client_secret = process.env.KAKAO_CLIENT_SECRET;
+  const body = new URLSearchParams(form);
   const r = await fetch(TOKEN_URL, {
     method: 'POST',
     headers: { 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8' },

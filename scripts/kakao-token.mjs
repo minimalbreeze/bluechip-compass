@@ -7,15 +7,22 @@ const uri  = process.env.KAKAO_REDIRECT_URI;
 if (!code) { console.log('❌ code 가 비었습니다.'); process.exit(1); }
 if (!key)  { console.log('❌ KAKAO_REST_KEY 시크릿이 없습니다. 먼저 저장하세요.'); process.exit(1); }
 
+/* 클라이언트 시크릿이 카카오 콘솔에서 켜져 있으면 이 값을 같이 보내야 한다.
+   안 보내면 401 invalid_client 로 거절당한다(실제로 그렇게 막혔다).
+   꺼져 있으면 시크릿을 안 넣어도 되고, 보내도 무시된다 — 그래서 있으면
+   보내고 없으면 안 보내는 쪽으로 둔다. 어느 설정이든 동작한다. */
+const body = {
+  grant_type: 'authorization_code',
+  client_id: key,
+  redirect_uri: uri,
+  code
+};
+if (process.env.KAKAO_CLIENT_SECRET) body.client_secret = process.env.KAKAO_CLIENT_SECRET;
+
 const r = await fetch('https://kauth.kakao.com/oauth/token', {
   method: 'POST',
   headers: { 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8' },
-  body: new URLSearchParams({
-    grant_type: 'authorization_code',
-    client_id: key,
-    redirect_uri: uri,
-    code
-  })
+  body: new URLSearchParams(body)
 });
 const j = await r.json().catch(() => ({}));
 
@@ -28,6 +35,14 @@ if (!r.ok || !j.refresh_token) {
   console.log(' · Redirect URI 가 카카오에 등록한 것과 다르다 → 글자 하나까지 같아야 합니다.');
   console.log(`   지금 쓴 값: ${uri}`);
   console.log(' · talk_message 동의항목이 꺼져 있다 → 켜고 다시 인증하세요.');
+  if (j.error === 'invalid_client') {
+    console.log('');
+    console.log('⚠️ invalid_client 은 위 원인들이 아니라 **자격증명 문제**입니다. 둘 중 하나입니다.');
+    console.log(' 1) 카카오 콘솔에서 "클라이언트 시크릿"이 켜져 있는데 그 값을 안 보냈다.');
+    console.log('    → 시크릿을 끄거나, KAKAO_CLIENT_SECRET 시크릿에 그 값을 저장하세요.');
+    console.log(` 2) KAKAO_REST_KEY 가 REST API 키가 아니다(길이 ${key.length}자).`);
+    console.log('    → 네이티브 앱 키·JavaScript 키·Admin 키가 아니라 **REST API 키**여야 합니다.');
+  }
   process.exit(1);
 }
 
