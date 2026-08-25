@@ -1,27 +1,27 @@
 {
-  "asOf": "2026-08-25T05:07:44.384Z",
+  "asOf": "2026-08-25T05:59:56.300Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
-      "price": 6688.01,
+      "price": 6742.17,
       "prev": 6696.9599609375,
-      "chg": -0.13,
+      "chg": 0.68,
       "basis": "prev-daily-close",
-      "time": "2026-08-25T04:47:00.000Z"
+      "time": "2026-08-25T05:39:10.000Z"
     },
     "^KQ11": {
-      "price": 819.09,
+      "price": 822.47,
       "prev": 813.3300170898438,
-      "chg": 0.71,
+      "chg": 1.12,
       "basis": "prev-daily-close",
-      "time": "2026-08-25T04:47:00.000Z"
+      "time": "2026-08-25T05:39:10.000Z"
     },
     "KRW=X": {
-      "price": 1381.99,
+      "price": 1385.28,
       "prev": 1384.97998046875,
-      "chg": -0.22,
+      "chg": 0.02,
       "basis": "prev-daily-close",
-      "time": "2026-08-25T05:07:07.000Z"
+      "time": "2026-08-25T05:59:14.000Z"
     },
     "^GSPC": {
       "price": 7652.86,
@@ -55,29 +55,29 @@
   "fx": {
     "low52": 1377.64,
     "high52": 1554.48,
-    "pct": 0.023
+    "pct": 0.043
   },
   "hist": {
     "^KS11": {
-      "last": 6688.01,
+      "last": 6742.17,
       "low52": 3142.93,
       "high52": 9114.55,
-      "pct52": 0.594,
-      "chg3m": -16.89
+      "pct52": 0.603,
+      "chg3m": -16.22
     },
     "^KQ11": {
-      "last": 819.09,
+      "last": 822.47,
       "low52": 644.78,
       "high52": 1226.18,
-      "pct52": 0.3,
-      "chg3m": -30.14
+      "pct52": 0.306,
+      "chg3m": -29.85
     },
     "KRW=X": {
-      "last": 1381.78,
+      "last": 1385.28,
       "low52": 1377.64,
       "high52": 1554.48,
-      "pct52": 0.023,
-      "chg3m": -7.59
+      "pct52": 0.043,
+      "chg3m": -7.36
     },
     "^GSPC": {
       "last": 7652.86,
@@ -110,17 +110,17 @@
   },
   "regime": {
     "by": "ai",
-    "asOf": "2026-08-25T05:07:39.177Z",
+    "asOf": "2026-08-25T05:59:42.421Z",
     "kr": {
       "why": {
-        "rates": "미 10년물(^TNX) 4.7%로 1년범위 95% 위치·3개월 +4.7%지만 헤드라인은 '국고채 금리 대체로 하락, 3년물 3.844%'라 방향이 엇갈려 중립값으로 둡니다.",
-        "growth": "코스피 3개월 -16.89%, '삼성전자 4%↓·하이닉스 6%↓ 6600선 붕괴' 헤드라인이 있으나 지수는 1년범위 59% 위치이고 '반도체 호황' 언급도 있어 침체보다는 둔화로 봅니다.",
-        "valuation": "^KS11 6688.01이 1년범위 3142.93~9114.55의 59% 위치이고 3개월 -16.89%로 고점에서 물러난 상태라 보통 수준입니다.",
-        "fx": "KRW=X 1381.78로 1년범위(1377.64~1554.48) 하단 2% 위치, 3개월 -7.59%라 원화가 강해진 구간입니다.",
-        "geo": "^VIX 15.85(1년범위 14% 위치, 3개월 -6.82%)로 낮고 헤드라인도 레버리지 공시·ETF 상장 등 국내 제도 이슈뿐이라 평온으로 봅니다."
+        "rates": "미국 10년물 금리(^TNX)가 4.7%로 1년 범위 3.95~4.74% 중 95% 위치이고 3개월간 +4.7% 올라 금리 상승 압력이 이어지는 국면입니다.",
+        "growth": "코스피가 3개월간 -16.22% 하락하고 장중 6600선이 붕괴됐다는 헤드라인이 있으나, 1년 범위 내 위치는 아직 60%이고 '반도체 호황' 언급도 있어 침체까지 단정할 근거는 약해 둔화로 봅니다.",
+        "valuation": "^KS11 현재 6742.17이 1년 범위 3142.93~9114.55의 60% 위치로 고점도 저점도 아닌 중간권이라 보통으로 분류합니다.",
+        "fx": "원/달러가 1385.28로 1년 범위 1377.64~1554.48 중 4% 위치이고 3개월간 -7.36% 하락해 원화가 강한 쪽에 있습니다.",
+        "geo": "VIX가 15.85로 1년 범위 13.47~31.05 중 14% 위치이고 3개월 -6.82%로 낮아, 헤드라인에도 지정학 충격 언급이 없어 평온으로 봅니다."
       },
-      "summary": "원화는 1381.78원까지 강해지고 변동성(VIX 15.85)은 낮은데, 코스피는 3개월 -16.89%로 반도체 대형주 하락과 함께 식은 국면입니다. 금리 신호가 엇갈려 지금은 '둔화 속 밸류 보통' 정도로 분류합니다.",
-      "rates": "hold",
+      "summary": "금리는 높은 수준에서 더 오르는 쪽이고, 원화는 강해졌지만 코스피는 3개월간 16% 넘게 밀려 경기 둔화 신호가 보이는 구간입니다. 변동성 지표는 낮아 시장 자체가 공포 상태는 아닙니다.",
+      "rates": "hike",
       "growth": "slow",
       "valuation": "fair",
       "fx": "strong",
@@ -128,13 +128,13 @@
     },
     "us": {
       "why": {
-        "rates": "^TNX 4.7%가 1년범위 3.95~4.74의 95% 위치이고 3개월 +4.7%로 시장금리가 위로 밀리는 모습입니다.",
-        "growth": "^GSPC 7652.86이 1년범위 90% 위치·3개월 +1.78%이고 '비자·마스터카드 신기록으로 탄력적 미국 소비자' 헤드라인이 있어 괜찮은 편입니다.",
-        "valuation": "지수가 1년범위 6343.72~7798.99의 90% 위치이고 '주식 시장이 얼마나 과대평가되었는지' 헤드라인까지 나와 비싼 구간으로 봅니다.",
-        "fx": "KRW=X 1381.78, 1년범위 2% 위치·3개월 -7.59%로 달러 대비 원화가 강해진 상태입니다.",
-        "geo": "^VIX 15.85(1년범위 14% 위치)로 낮고 재무부 자금운용·사모펀드 유틸리티 투자 등 시장 이슈 중심 헤드라인이라 평온으로 판단합니다."
+        "rates": "^TNX가 4.7%로 1년 범위(3.95~4.74%)의 95% 위치이고 3개월간 +4.7% 상승해 시장금리가 위로 향하고 있습니다.",
+        "growth": "S&P500이 3개월 +1.78%로 완만히 오르고 비자·마스터카드 신고가로 '탄력적인 미국 소비자'가 언급되는 등 경기 흐름은 무난합니다.",
+        "valuation": "^GSPC 7652.86이 1년 범위 6343.72~7798.99의 90% 위치이고 '주식 시장이 얼마나 과대평가되었는지' 헤드라인도 있어 비싼 편으로 분류합니다.",
+        "fx": "원/달러 1385.28이 1년 범위의 4% 위치, 3개월 -7.36%로 달러 대비 원화가 강세 쪽입니다.",
+        "geo": "VIX 15.85(1년 위치 14%)로 낮고 헤드라인에 충격성 사건이 없어 평온으로 봅니다."
       },
-      "summary": "미국은 지수가 1년 고점권(90% 위치)에 있고 소비도 버티는 반면, 10년물 금리 4.7%가 범위 상단이라 금리 부담이 함께 있는 국면입니다. 변동성은 낮지만 가격대는 비싼 편으로 분류됩니다.",
+      "summary": "지수는 1년 고점권(위치 90%)에 있고 소비 관련 소식도 견조해 경기는 괜찮지만 가격은 비싼 편입니다. 다만 장기금리가 1년 최고 수준까지 올라와 있어 금리 부담이 함께 커진 국면입니다.",
       "rates": "hike",
       "growth": "expand",
       "valuation": "rich",
@@ -145,95 +145,95 @@
   "stocks": {
     "kr": {
       "105560": {
-        "price": 165800,
+        "price": 165400,
         "prev": 163100,
-        "chg": 1.66,
+        "chg": 1.41,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T04:47:14.000Z"
+        "time": "2026-08-25T05:39:18.000Z"
       },
       "207940": {
-        "price": 1589000,
+        "price": 1586000,
         "prev": 1573000,
-        "chg": 1.02,
+        "chg": 0.83,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T04:47:14.000Z"
+        "time": "2026-08-25T05:39:10.000Z"
       },
       "005930": {
-        "price": 255000,
+        "price": 257500,
         "prev": 257000,
-        "chg": -0.78,
+        "chg": 0.19,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T04:47:14.000Z"
+        "time": "2026-08-25T05:39:19.000Z"
       },
       "000660": {
-        "price": 1653500,
+        "price": 1679000,
         "prev": 1671000,
-        "chg": -1.05,
+        "chg": 0.48,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T04:47:15.000Z"
+        "time": "2026-08-25T05:39:19.000Z"
       },
       "005380": {
-        "price": 417750,
+        "price": 420000,
         "prev": 414000,
-        "chg": 0.91,
+        "chg": 1.45,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T04:47:14.000Z"
+        "time": "2026-08-25T05:39:19.000Z"
       },
       "055550": {
         "price": 106800,
         "prev": 103300,
         "chg": 3.39,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T04:47:14.000Z"
+        "time": "2026-08-25T05:39:17.000Z"
       },
       "000810": {
-        "price": 642000,
+        "price": 647000,
         "prev": 636000,
-        "chg": 0.94,
+        "chg": 1.73,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T04:47:11.000Z"
+        "time": "2026-08-25T05:39:18.000Z"
       },
       "033780": {
-        "price": 175200,
+        "price": 174900,
         "prev": 173200,
-        "chg": 1.15,
+        "chg": 0.98,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T04:47:13.000Z"
+        "time": "2026-08-25T05:39:15.000Z"
       },
       "035420": {
         "price": 220500,
         "prev": 223500,
         "chg": -1.34,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T04:47:14.000Z"
+        "time": "2026-08-25T05:39:18.000Z"
       },
       "005490": {
         "price": 327500,
         "prev": 327500,
         "chg": 0,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T04:47:10.000Z"
+        "time": "2026-08-25T05:39:19.000Z"
       },
       "028260": {
-        "price": 363000,
+        "price": 367000,
         "prev": 364500,
-        "chg": -0.41,
+        "chg": 0.69,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T04:47:15.000Z"
+        "time": "2026-08-25T05:39:19.000Z"
       },
       "012450": {
-        "price": 1102000,
+        "price": 1095000,
         "prev": 1105000,
-        "chg": -0.27,
+        "chg": -0.9,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T04:47:15.000Z"
+        "time": "2026-08-25T05:39:17.000Z"
       },
       "017670": {
-        "price": 99500,
+        "price": 98200,
         "prev": 102300,
-        "chg": -2.74,
+        "chg": -4.01,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T04:47:14.000Z"
+        "time": "2026-08-25T05:39:19.000Z"
       }
     },
     "us": {
@@ -333,25 +333,25 @@
   "news": {
     "kr": [
       {
-        "title": "레버리지 출시땐 '최대손실률' 알려야…과거 대규모 손실도 공시",
-        "link": "https://www.yna.co.kr/view/AKR20260825078500002",
+        "title": "코스피, 장중 상승전환해 소폭 강세…삼전닉스도 강보합",
+        "link": "https://www.yna.co.kr/view/AKR20260825117800008",
         "source": "연합뉴스",
-        "date": "Tue, 25 Aug 2026 12:00:03 +0900",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": "sector",
-        "why": "레버리지 상품 공시 규제 강화로 판매 관행이 바뀔 수 있어 지켜볼 사안입니다.",
+        "date": "Tue, 25 Aug 2026 14:40:20 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "장중 지수 등락은 일상적인 변동으로 장기 판단과 무관합니다.",
         "by": "ai"
       },
       {
-        "title": "반도체 호황은 어디까지 번지는가",
-        "link": "https://www.hankyung.com/article/202608214792i",
+        "title": "자사주 vs 배당 차이 봤지?…SK하이닉스 다음 타자는 [분석+]",
+        "link": "https://www.hankyung.com/article/2026082513126",
         "source": "한국경제",
-        "date": "Tue, 25 Aug 2026 10:17:56 +0900",
-        "act": "watch",
-        "lasting": "structural",
+        "date": "Tue, 25 Aug 2026 14:02:17 +0900",
+        "act": "none",
+        "lasting": "temporary",
         "scope": "sector",
-        "why": "업종 사이클 확산을 다룬 분석 기사라 흐름만 지켜보면 됩니다.",
+        "why": "주주환원 방식 비교 분석글로, 확정된 사실 변화는 아닙니다.",
         "by": "ai"
       },
       {
@@ -366,25 +366,25 @@
         "by": "ai"
       },
       {
-        "title": "국고채 금리 대체로 하락…3년물 장중 연 3.844%",
-        "link": "https://www.yna.co.kr/view/AKR20260825092400008",
+        "title": "대동 \"계열사 대동모빌리티 주식 339억원에 추가취득\"",
+        "link": "https://www.yna.co.kr/view/AKR20260825117200008",
         "source": "연합뉴스",
-        "date": "Tue, 25 Aug 2026 11:41:22 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "금리 일간 등락은 늘 있는 일로 기업 이익과는 거리가 멉니다.",
+        "date": "Tue, 25 Aug 2026 14:38:44 +0900",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": "company",
+        "why": "계열사 지분 추가취득은 사업 구조에 영향을 줄 수 있어 흐름만 봐두세요.",
         "by": "ai"
       },
       {
-        "title": "삼성운용, 'KODEX 코리아TDF2065액티브 적격' ETF 상장",
-        "link": "https://www.hankyung.com/article/2026082507076",
+        "title": "반도체 호황은 어디까지 번지는가",
+        "link": "https://www.hankyung.com/article/202608214792i",
         "source": "한국경제",
-        "date": "Tue, 25 Aug 2026 10:03:36 +0900",
-        "act": "none",
-        "lasting": "temporary",
+        "date": "Tue, 25 Aug 2026 10:17:56 +0900",
+        "act": "watch",
+        "lasting": "structural",
         "scope": "sector",
-        "why": "신규 ETF 상장 소식으로 개별 기업 이익과는 무관합니다.",
+        "why": "업종 사이클 확산을 다룬 분석 기사라 흐름만 지켜보면 됩니다.",
         "by": "ai"
       },
       {
@@ -425,15 +425,15 @@
         "by": "ai"
       },
       {
-        "title": "Soros Fund Management Opened a New Position in Nebius During Q2. What This Means for NBIS Stock.",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/soros-fund-management-opened-position-173002452.html",
+        "title": "How to Play MRVL Stock Now as Marvell Technology Expands Its Relationship With Google",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/play-mrvl-stock-now-marvell-183002715.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-23T17:30:02Z",
-        "ko": "소로스 펀드 매니지먼트는 2분기 동안 네비우스에서 새로운 포지션을 열었습니다. NBIS 주식에 대한 의미.",
-        "act": "none",
-        "lasting": "temporary",
+        "date": "2026-08-23T18:30:02Z",
+        "ko": "Marvell Technology가 Google과의 관계를 확장함에 따라 MRVL Stock을 플레이하는 방법",
+        "act": "watch",
+        "lasting": "structural",
         "scope": "company",
-        "why": "유명 펀드의 분기 지분 공시는 과거 기록일 뿐, 회사의 장기 이익과는 무관합니다.",
+        "why": "대형 고객사와의 협력 확대는 장기 실적 기반과 연결될 수 있어 진행 상황만 지켜보면 됩니다.",
         "by": "ai"
       },
       {
@@ -527,7 +527,8 @@
     "Is This $7 Stock Your Ticket to Becoming a Millionaire?": "이것은 $7 백만장자가 되기 위해 티켓을 비축하고 있습니까?",
     "Nvidia Earnings, Jackson Hole and Other Key Things to Watch this Week": "엔비디아 수입, 잭슨 홀 등 이번 주 시청해야 할 주요 사항",
     "Soros Fund Management Opened a New Position in Nebius During Q2. What This Means for NBIS Stock.": "소로스 펀드 매니지먼트는 2분기 동안 네비우스에서 새로운 포지션을 열었습니다. NBIS 주식에 대한 의미.",
-    "Private Equity Is Circling Utilities as AI Reshapes the Grid": "사모펀드는 AI가 그리드를 재구성함에 따라 유틸리티를 순환하는 것입니다."
+    "Private Equity Is Circling Utilities as AI Reshapes the Grid": "사모펀드는 AI가 그리드를 재구성함에 따라 유틸리티를 순환하는 것입니다.",
+    "How to Play MRVL Stock Now as Marvell Technology Expands Its Relationship With Google": "Marvell Technology가 Google과의 관계를 확장함에 따라 MRVL Stock을 플레이하는 방법"
   },
   "nvCache": {
     "https://www.yna.co.kr/view/AKR20260824137251008": {
@@ -962,6 +963,34 @@
       "lasting": "structural",
       "scope": "sector",
       "why": "AI 전력 수요로 유틸리티 자금 흐름이 바뀌는 흐름이라 업종 차원에서 지켜볼 만합니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20260825117800008": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "장중 지수 등락은 일상적인 변동으로 장기 판단과 무관합니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/2026082513126": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "sector",
+      "why": "주주환원 방식 비교 분석글로, 확정된 사실 변화는 아닙니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20260825117200008": {
+      "act": "watch",
+      "lasting": "structural",
+      "scope": "company",
+      "why": "계열사 지분 추가취득은 사업 구조에 영향을 줄 수 있어 흐름만 봐두세요.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/markets/stocks/articles/play-mrvl-stock-now-marvell-183002715.html": {
+      "act": "watch",
+      "lasting": "structural",
+      "scope": "company",
+      "why": "대형 고객사와의 협력 확대는 장기 실적 기반과 연결될 수 있어 진행 상황만 지켜보면 됩니다.",
       "by": "ai"
     }
   },
