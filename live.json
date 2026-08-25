@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-25T17:36:48.453Z",
+  "asOf": "2026-08-25T18:47:49.341Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -17,45 +17,45 @@
       "time": "2026-08-25T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1382.68,
+      "price": 1382.58,
       "prev": 1384.97998046875,
       "chg": -0.17,
       "basis": "prev-daily-close",
-      "time": "2026-08-25T17:36:39.000Z"
+      "time": "2026-08-25T18:47:31.000Z"
     },
     "^GSPC": {
-      "price": 7666.12,
+      "price": 7675.9,
       "prev": 7652.85986328125,
-      "chg": 0.17,
+      "chg": 0.3,
       "basis": "prev-daily-close",
-      "time": "2026-08-25T17:36:39.000Z"
+      "time": "2026-08-25T18:47:40.000Z"
     },
     "^IXIC": {
-      "price": 26103.273,
+      "price": 26134.137,
       "prev": 25980.189453125,
-      "chg": 0.47,
+      "chg": 0.59,
       "basis": "prev-daily-close",
-      "time": "2026-08-25T17:36:38.000Z"
+      "time": "2026-08-25T18:47:38.000Z"
     },
     "^VIX": {
-      "price": 15.53,
+      "price": 15.47,
       "prev": 15.850000381469727,
-      "chg": -2.02,
+      "chg": -2.4,
       "basis": "prev-daily-close",
-      "time": "2026-08-25T17:21:31.000Z"
+      "time": "2026-08-25T18:32:31.000Z"
     },
     "^TNX": {
-      "price": 4.645,
+      "price": 4.641,
       "prev": 4.703999996185303,
-      "chg": -1.25,
+      "chg": -1.34,
       "basis": "prev-daily-close",
-      "time": "2026-08-25T17:21:33.000Z"
+      "time": "2026-08-25T18:32:33.000Z"
     }
   },
   "fx": {
     "low52": 1377.64,
     "high52": 1554.48,
-    "pct": 0.029
+    "pct": 0.028
   },
   "hist": {
     "^KS11": {
@@ -73,51 +73,51 @@
       "chg3m": -29.95
     },
     "KRW=X": {
-      "last": 1382.68,
+      "last": 1382.58,
       "low52": 1377.64,
       "high52": 1554.48,
-      "pct52": 0.029,
-      "chg3m": -7.53
+      "pct52": 0.028,
+      "chg3m": -7.54
     },
     "^GSPC": {
-      "last": 7666.12,
+      "last": 7675.9,
       "low52": 6343.72,
       "high52": 7798.99,
-      "pct52": 0.909,
-      "chg3m": 1.94
+      "pct52": 0.915,
+      "chg3m": 2.07
     },
     "^IXIC": {
-      "last": 26103.27,
+      "last": 26133.33,
       "low52": 20794.64,
       "high52": 27093.9,
-      "pct52": 0.843,
-      "chg3m": -2.14
+      "pct52": 0.848,
+      "chg3m": -2.03
     },
     "^VIX": {
-      "last": 15.53,
+      "last": 15.47,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.117,
-      "chg3m": -4.67
+      "pct52": 0.114,
+      "chg3m": -5.03
     },
     "^TNX": {
       "last": 4.64,
       "low52": 3.95,
       "high52": 4.74,
-      "pct52": 0.874,
-      "chg3m": 3.66
+      "pct52": 0.869,
+      "chg3m": 3.57
     }
   },
   "regime": {
     "by": "rules",
-    "asOf": "2026-08-25T17:36:48.042Z",
+    "asOf": "2026-08-25T18:47:48.826Z",
     "kr": {
       "why": {
-        "rates": "미국 10년물 금리가 지금 4.64%로, 3개월 전보다 3.66% 높고 최근 1년 범위(3.95~4.74)의 87% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
+        "rates": "미국 10년물 금리가 지금 4.64%로, 3개월 전보다 3.57% 높고 최근 1년 범위(3.95~4.74)의 87% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
         "growth": "지수가 3개월 전보다 -14.66% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
         "valuation": "지수가 최근 1년 범위의 60% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
-        "fx": "원/달러가 1382.68원으로 최근 1년(1377.64~1554.48) 범위의 3% 지점입니다.",
-        "geo": "VIX 가 15.53입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
+        "fx": "원/달러가 1382.58원으로 최근 1년(1377.64~1554.48) 범위의 3% 지점입니다.",
+        "geo": "VIX 가 15.47입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
       },
       "rates": "hike",
       "growth": "reces",
@@ -128,11 +128,11 @@
     },
     "us": {
       "why": {
-        "rates": "미국 10년물 금리가 지금 4.64%로, 3개월 전보다 3.66% 높고 최근 1년 범위(3.95~4.74)의 87% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
-        "growth": "지수가 3개월 전보다 +1.94% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
-        "valuation": "지수가 최근 1년 범위의 91% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
-        "fx": "원/달러가 1382.68원으로 최근 1년(1377.64~1554.48) 범위의 3% 지점입니다.",
-        "geo": "VIX 가 15.53입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
+        "rates": "미국 10년물 금리가 지금 4.64%로, 3개월 전보다 3.57% 높고 최근 1년 범위(3.95~4.74)의 87% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
+        "growth": "지수가 3개월 전보다 +2.07% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
+        "valuation": "지수가 최근 1년 범위의 92% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
+        "fx": "원/달러가 1382.58원으로 최근 1년(1377.64~1554.48) 범위의 3% 지점입니다.",
+        "geo": "VIX 가 15.47입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
       },
       "rates": "hike",
       "growth": "expand",
@@ -238,95 +238,95 @@
     },
     "us": {
       "MSFT": {
-        "price": 489.46,
+        "price": 490.615,
         "prev": 487.30999755859375,
-        "chg": 0.44,
+        "chg": 0.68,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T17:36:46.000Z"
+        "time": "2026-08-25T18:47:47.000Z"
       },
       "AAPL": {
-        "price": 309.6,
+        "price": 309.05,
         "prev": 310.3399963378906,
-        "chg": -0.24,
+        "chg": -0.42,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T17:36:44.000Z"
+        "time": "2026-08-25T18:47:48.000Z"
       },
       "GOOGL": {
-        "price": 346.69,
+        "price": 346.23,
         "prev": 348.05999755859375,
-        "chg": -0.39,
+        "chg": -0.53,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T17:36:46.000Z"
+        "time": "2026-08-25T18:47:46.000Z"
       },
       "BRK.B": {
-        "price": 504.3,
+        "price": 504.18,
         "prev": 504.32000732421875,
-        "chg": 0,
+        "chg": -0.03,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T17:36:40.000Z"
+        "time": "2026-08-25T18:47:41.000Z"
       },
       "V": {
-        "price": 382.42,
+        "price": 383.12,
         "prev": 382.4100036621094,
-        "chg": 0,
+        "chg": 0.19,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T17:36:25.000Z"
+        "time": "2026-08-25T18:47:41.000Z"
       },
       "JNJ": {
-        "price": 272.89,
+        "price": 273.16,
         "prev": 273.0400085449219,
-        "chg": -0.05,
+        "chg": 0.04,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T17:36:42.000Z"
+        "time": "2026-08-25T18:47:48.000Z"
       },
       "PG": {
-        "price": 145.345,
+        "price": 145.41,
         "prev": 146.60000610351562,
-        "chg": -0.86,
+        "chg": -0.81,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T17:36:44.000Z"
+        "time": "2026-08-25T18:47:47.000Z"
       },
       "KO": {
-        "price": 91.715,
+        "price": 91.62,
         "prev": 91.98999786376953,
-        "chg": -0.3,
+        "chg": -0.4,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T17:36:42.000Z"
+        "time": "2026-08-25T18:47:38.000Z"
       },
       "COST": {
-        "price": 961.605,
+        "price": 962.63,
         "prev": 971.4000244140625,
-        "chg": -1.01,
+        "chg": -0.9,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T17:36:29.000Z"
+        "time": "2026-08-25T18:47:42.000Z"
       },
       "WM": {
-        "price": 223.21,
+        "price": 223.03,
         "prev": 226.4600067138672,
-        "chg": -1.44,
+        "chg": -1.51,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T17:36:29.000Z"
+        "time": "2026-08-25T18:47:47.000Z"
       },
       "LIN": {
-        "price": 486.01,
+        "price": 486.725,
         "prev": 490.0299987792969,
-        "chg": -0.82,
+        "chg": -0.67,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T17:36:44.000Z"
+        "time": "2026-08-25T18:47:44.000Z"
       },
       "XOM": {
-        "price": 161.781,
+        "price": 161.47,
         "prev": 164.0500030517578,
-        "chg": -1.38,
+        "chg": -1.57,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T17:36:21.000Z"
+        "time": "2026-08-25T18:47:47.000Z"
       },
       "NVDA": {
-        "price": 212.38,
-        "prev": 208.47999572753906,
-        "chg": 1.87,
-        "basis": "prev-daily-close",
-        "time": "2026-08-25T17:36:45.000Z"
+        "price": 213.033,
+        "prev": 213.0325927734375,
+        "chg": 0,
+        "basis": "last-daily-close",
+        "time": "2026-08-25T18:47:47.000Z"
       }
     }
   },
@@ -413,11 +413,11 @@
         "by": "ai"
       },
       {
-        "title": "This driverless-truck company could be a ‘long-term winner’ in a market Tesla plans to enter soon",
-        "link": "https://www.marketwatch.com/story/this-driverless-truck-company-could-be-a-long-term-winner-in-a-market-tesla-plans-to-enter-soon-193bc8fe?mod=mw_rss_topstories",
+        "title": "Why AMD can beat rivals Intel and Nvidia in the market for data-center CPUs",
+        "link": "https://www.marketwatch.com/story/why-amd-can-beat-rivals-intel-and-nvidia-in-the-market-for-data-center-cpus-e49a53f1?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Tue, 25 Aug 2026 17:32:00 GMT",
-        "ko": "이 무인 트럭 회사는 테슬라가 곧 진입 할 계획 인 시장에서 ‘장기 우승자’ 가 될 수 있습니다.",
+        "date": "Tue, 25 Aug 2026 18:29:00 GMT",
+        "ko": "AMD가 데이터 센터 CPU 시장에서 경쟁사인 인텔과 엔비디아를 이길 수 있는 이유",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -449,28 +449,28 @@
         "by": "ai"
       },
       {
-        "title": "These growth stocks are still cheap, despite the S&P 500 being near a record high price-to-sales valuation",
-        "link": "https://www.marketwatch.com/story/these-growth-stocks-are-still-cheap-despite-the-s-p-500-being-near-a-record-high-price-to-sales-valuation-03602260?mod=mw_rss_topstories",
+        "title": "This driverless-truck company could be a ‘long-term winner’ in a market Tesla plans to enter soon",
+        "link": "https://www.marketwatch.com/story/this-driverless-truck-company-could-be-a-long-term-winner-in-a-market-tesla-plans-to-enter-soon-193bc8fe?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Tue, 25 Aug 2026 16:04:00 GMT",
-        "ko": "S&P 500 지수가 사상 최고치에 근접했음에도 불구하고 이러한 성장 주식은 여전히 저렴합니다.",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "저평가 여부를 다룬 의견성 기사로, 오늘 할 일은 없습니다.",
-        "by": "ai"
-      },
-      {
-        "title": "HELOC, refinance or home equity loan: What’s the best way to borrow against your home?",
-        "link": "https://finance.yahoo.com/news/home-equity-loan-heloc-vs-214358568.html",
-        "source": "Yahoo Finance",
-        "date": "2026-08-25T17:22:02Z",
-        "ko": "HELOC, 재융자 또는 주택 담보 대출: 주택 담보 대출을 받을 수 있는 가장 좋은 방법은 무엇인가요?",
+        "date": "Tue, 25 Aug 2026 17:32:00 GMT",
+        "ko": "이 무인 트럭 회사는 테슬라가 곧 진입 할 계획 인 시장에서 ‘장기 우승자’ 가 될 수 있습니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
+      },
+      {
+        "title": "Nvidia earnings and Jackson Hole: What to watch this week",
+        "link": "https://finance.yahoo.com/markets/article/nvidia-earnings-and-jackson-hole-what-to-watch-this-week-100000082.html",
+        "source": "Yahoo Finance",
+        "date": "2026-08-23T10:00:00Z",
+        "ko": "엔비디아 수입과 잭슨 홀: 이번 주 시청할 내용",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "이번 주 일정을 안내하는 예고성 기사입니다.",
+        "by": "ai"
       }
     ]
   },
@@ -548,7 +548,8 @@
     "Stanley Druckenmiller leads doubters who think Bessent's bond ploys will fail": "스탠리 드러켄밀러 (Stanley Druckenmiller) 는 베센트의 채권 책략이 실패할 것이라고 생각하는 의심하는 사람들을 이끈다.",
     "These growth stocks are still cheap, despite the S&P 500 being near a record high price-to-sales valuation": "S&P 500 지수가 사상 최고치에 근접했음에도 불구하고 이러한 성장 주식은 여전히 저렴합니다.",
     "This driverless-truck company could be a ‘long-term winner’ in a market Tesla plans to enter soon": "이 무인 트럭 회사는 테슬라가 곧 진입 할 계획 인 시장에서 ‘장기 우승자’ 가 될 수 있습니다.",
-    "HELOC, refinance or home equity loan: What’s the best way to borrow against your home?": "HELOC, 재융자 또는 주택 담보 대출: 주택 담보 대출을 받을 수 있는 가장 좋은 방법은 무엇인가요?"
+    "HELOC, refinance or home equity loan: What’s the best way to borrow against your home?": "HELOC, 재융자 또는 주택 담보 대출: 주택 담보 대출을 받을 수 있는 가장 좋은 방법은 무엇인가요?",
+    "Why AMD can beat rivals Intel and Nvidia in the market for data-center CPUs": "AMD가 데이터 센터 CPU 시장에서 경쟁사인 인텔과 엔비디아를 이길 수 있는 이유"
   },
   "nvCache": {
     "https://www.yna.co.kr/view/AKR20260824137251008": {
@@ -1225,7 +1226,7 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CePsYLbtA4JEQjd9PsztJ\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CePsYMKJ3VLRWG9NBH6dA\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CePxxRckwXALHpPdXQALZ\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CePxxSPtrCRYGEoyHk3XQ\"}"
   ]
 }
