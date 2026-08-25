@@ -1140,6 +1140,17 @@
   }
 
   /* ── 위젯: 모의투자 ── */
+  /* 모의투자 종목의 표시등. 목표 비중에서 얼마나 벗어났는지를 말한다.
+     자동 운용이 SIM.band(%p) 넘게 벌어진 자리만 조정하므로, 그 기준을
+     그대로 쓴다 — 화면과 실제 동작이 다른 말을 하지 않게. */
+  function simMark(r) {
+    if (!r.known) return '⚠️';
+    if (r.dT === null || r.dT === undefined) return '·';
+    if (r.dT > SIM.band) return '🔴';
+    if (r.dT < -SIM.band) return '🔵';
+    return '🟢';
+  }
+
   /* 홈은 **전체 금액**을 보는 자리다. 시장을 고르는 화면이 아니다.
      예전에는 지금 고른 시장 하나만 보여줘서, 국내를 보는 동안 미국 계좌가
      어떻게 됐는지 알 수 없었다. 두 계좌는 자동 운용으로 각자 굴러가는데
@@ -1181,7 +1192,21 @@
             ' · ' + styleLabelOf(st.style) +
             ' · 보유 ' + v.rows.length + '종목 · 현금 ' + v.cashWeight + '%</span>' +
           '<span class="simline-pl ' + plClass(v.pl) + '">' + signWon(v.pl) + '</span>' +
-        '</div></div>';
+        '</div>' +
+        /* 종목도 내 주식 위젯과 같은 줄 모양(.mini)으로 보여준다. 홈에서 두
+           위젯이 같은 말투로 읽혀야 "내 투자 vs 앱의 판단"을 나란히 볼 수 있다.
+           표시등은 목표 비중과의 차이다 — 자동 운용이 다음에 무엇을 건드릴지
+           미리 보여준다(내 주식의 판정 마크와 같은 자리, 같은 역할). */
+        v.rows.slice(0, 3).map(function (r) {
+          return '<div class="mini"><span class="mini-m">' + simMark(r) + '</span>' +
+            '<span class="mini-n">' + esc(r.n) + '</span>' +
+            '<span class="mini-w">' + r.weight + '%</span>' +
+            '<span class="mini-r ' + plClass(r.pl) + '">' + signPct(r.plPct) + '</span></div>';
+        }).join('') +
+        (v.rows.length > 3
+          ? '<div class="mini more">외 ' + (v.rows.length - 3) + '종목</div>' : '') +
+        (v.rows.length ? '' : '<div class="mini more">아직 담은 종목이 없습니다</div>') +
+      '</div>';
     });
 
     var pl = tot - cost;
