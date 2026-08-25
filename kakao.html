@@ -6,108 +6,182 @@
 <meta name="robots" content="noindex" />
 <title>카카오 알림 연결 · 블루칩 나침반</title>
 <!--
-  카카오 로그인이 끝나면 여기로 돌아온다(Redirect URI).
-  주소창의 ?code=... 를 크게 보여주고 복사 단추를 준다.
+  휴대폰만으로 카카오 알림을 연결하는 안내 페이지.
 
   왜 이 페이지가 필요한가
-    예전 안내는 "주소창에서 code= 뒤를 직접 복사하세요"였다. 휴대폰에서는
-    주소창이 짧게 보이고 코드가 길어서 사실상 못 한다. 여기서 통째로
-    보여주고 한 번에 복사하게 한다.
+    회원님이 직접 해야 하는 일은 세 가지뿐이다 — 카카오 로그인, 동의 누르기,
+    GitHub 에 비밀값 저장. 그 밖의 복잡한 건(토큰 교환, 시험 발송, 확인) 전부
+    워크플로가 한다. 그런데 그 세 가지 사이에 "긴 주소를 손으로 고치기",
+    "주소창에서 코드 긁기" 같은 휴대폰에서 사실상 불가능한 일이 끼어 있었다.
+    그걸 이 페이지가 대신한다.
 
-  ⚠️ 이 페이지는 토큰을 만들지 않는다. 그러려면 REST 키가 필요한데, 그걸
-     페이지에 심으면 소스에 그대로 노출된다. 토큰 교환은 워크플로가 한다.
+  ⚠️ REST 키는 이 기기 안에만 둔다(localStorage). 어디로도 보내지 않는다.
+     토큰 교환은 워크플로가 한다 — 키를 페이지에 심으면 소스에 노출된다.
 -->
 <style>
-  :root{--ink:#13334f;--mid:#3f6483;--dim:#7391ae;--line:#d2e3f3;--soft:#e6f0fa;--acc:#0e6ba8}
-  *{margin:0;padding:0;box-sizing:border-box}
+  :root{--ink:#13334f;--mid:#3f6483;--dim:#7391ae;--line:#d2e3f3;--soft:#e6f0fa;
+        --acc:#0e6ba8;--ok:#2f6b4a;--okbg:#eef6f0;--okln:#d3e7da;
+        --bad:#93362f;--badbg:#fdf1ef;--badln:#f3cfcd}
+  *{margin:0;padding:0;box-sizing:border-box;-webkit-text-size-adjust:100%}
   body{font:16px/1.7 -apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Noto Sans KR',sans-serif;
-       color:var(--ink);background:#f4f9fd;padding:22px 18px 60px;max-width:620px;margin:0 auto}
-  h1{font-size:20px;font-weight:800;margin-bottom:6px}
-  .sub{color:var(--mid);font-size:14px;margin-bottom:18px}
+       color:var(--ink);background:#f4f9fd;padding:20px 16px 70px;max-width:620px;margin:0 auto}
+  h1{font-size:21px;font-weight:800;margin-bottom:4px}
+  .sub{color:var(--mid);font-size:14px;margin-bottom:8px}
+  .prog{display:flex;gap:6px;margin:14px 0 18px}
+  .pd{flex:1;height:5px;border-radius:99px;background:var(--line)}
+  .pd.on{background:var(--acc)}
   .card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px;margin-bottom:14px}
-  .lab{font-size:12px;font-weight:800;color:var(--dim);letter-spacing:.04em;margin-bottom:8px}
-  code{display:block;background:var(--soft);border-radius:10px;padding:12px;
-       font:13px/1.6 ui-monospace,SFMono-Regular,Menlo,monospace;word-break:break-all;color:var(--ink)}
-  button{width:100%;margin-top:10px;padding:13px;border:0;border-radius:10px;background:var(--acc);
-         color:#fff;font:700 15px inherit;font-family:inherit;cursor:pointer}
-  button:active{opacity:.85}
-  .ok{background:#eef6f0;border:1px solid #d3e7da;color:#2f6b4a;padding:11px 13px;border-radius:10px;
-      font-size:14px;margin-top:10px}
-  .bad{background:#fdf1ef;border:1px solid #f3cfcd;color:#93362f;padding:12px 14px;border-radius:10px;font-size:14px}
-  ol{margin:8px 0 0 18px;font-size:14px;color:var(--mid)}
-  li{margin-bottom:7px}
+  .step{display:flex;align-items:center;gap:8px;font-size:17px;font-weight:800;margin-bottom:4px}
+  .num{flex:none;width:26px;height:26px;border-radius:50%;background:var(--acc);color:#fff;
+       font-size:14px;display:flex;align-items:center;justify-content:center}
+  .card > p{font-size:14px;color:var(--mid);margin:8px 0}
+  ol{margin:10px 0 0 20px;font-size:14.5px}
+  ol li{margin-bottom:10px}
+  .copyrow{display:flex;gap:8px;align-items:stretch;margin:8px 0}
+  code{flex:1;min-width:0;background:var(--soft);border-radius:9px;padding:11px;
+       font:12.5px/1.55 ui-monospace,SFMono-Regular,Menlo,monospace;word-break:break-all}
+  .mini{flex:none;padding:0 14px;border:0;border-radius:9px;background:var(--acc);color:#fff;
+        font:700 13px inherit;font-family:inherit;cursor:pointer}
+  input{width:100%;padding:13px;border:1px solid var(--line);border-radius:10px;font-size:16px;
+        font-family:inherit;color:var(--ink);background:#fff}
+  input:focus{outline:2px solid var(--acc);outline-offset:-1px}
+  .btn{display:block;width:100%;margin-top:12px;padding:15px;border:0;border-radius:11px;
+       background:var(--acc);color:#fff;font:800 16px inherit;font-family:inherit;
+       cursor:pointer;text-align:center;text-decoration:none}
+  .btn[disabled]{background:var(--line);color:var(--dim)}
+  .ok{background:var(--okbg);border:1px solid var(--okln);color:var(--ok);
+      padding:11px 13px;border-radius:10px;font-size:14px;margin-top:10px}
+  .bad{background:var(--badbg);border:1px solid var(--badln);color:var(--bad);
+       padding:12px 14px;border-radius:10px;font-size:14px}
   .note{font-size:12.5px;color:var(--dim);margin-top:10px;line-height:1.65}
+  .big{font:700 18px/1.5 ui-monospace,SFMono-Regular,Menlo,monospace;word-break:break-all;
+       background:var(--soft);border-radius:10px;padding:14px;text-align:center}
   a{color:var(--acc)}
+  .kv{font-size:13px;color:var(--mid);margin-top:6px}
+  .kv b{color:var(--ink)}
 </style>
 </head>
 <body>
   <h1>🧭 카카오 알림 연결</h1>
-  <div class="sub" id="sub"></div>
+  <div class="sub">휴대폰으로만 하시면 됩니다. 3단계, 5분이면 끝납니다.</div>
+  <div class="prog"><span class="pd" id="p1"></span><span class="pd" id="p2"></span><span class="pd" id="p3"></span></div>
   <div id="out"></div>
 
 <script>
 (function () {
-  var code = new URLSearchParams(location.search).get('code');
-  var err  = new URLSearchParams(location.search).get('error');
-  var out  = document.getElementById('out');
-  var sub  = document.getElementById('sub');
-  /* 머리글도 상태에 맞춘다 — 실패했는데 "코드를 받았습니다"가 떠 있으면
-     무엇이 잘못됐는지 더 헷갈린다. */
-  sub.textContent = err ? '연결이 끝나지 않았습니다.'
-    : (new URLSearchParams(location.search).get('code')
-        ? '인증 코드를 받았습니다. 아래 값을 복사해 다음 단계에 쓰세요.'
-        : '카카오 로그인 뒤에 자동으로 열리는 페이지입니다.');
+  var KEY = 'bcc:kakaoRestKey';
+  var REDIRECT = location.origin + location.pathname;
+  var qs = new URLSearchParams(location.search);
+  var code = qs.get('code'), err = qs.get('error');
+  var out = document.getElementById('out');
 
+  function esc(s) { return String(s == null ? '' : s).replace(/[<>&"]/g, function (c) {
+    return { '<': '&lt;', '>': '&gt;', '&': '&amp;', '"': '&quot;' }[c]; }); }
+  function store(k, v) { try { v === null ? localStorage.removeItem(k) : localStorage.setItem(k, v); } catch (e) {} }
+  function read(k) { try { return localStorage.getItem(k) || ''; } catch (e) { return ''; } }
+  function lit(n) { for (var i = 1; i <= 3; i++)
+    document.getElementById('p' + i).className = 'pd' + (i <= n ? ' on' : ''); }
+
+  /* 눌러서 복사. 안 되는 브라우저에서는 선택 상태로 만들어 준다. */
+  function wireCopy(btnId, srcId, msgId) {
+    var b = document.getElementById(btnId); if (!b) return;
+    b.onclick = function () {
+      var el = document.getElementById(srcId);
+      var t = el.value !== undefined ? el.value : el.textContent;
+      var done = function () { say('✅ 복사했습니다.'); };
+      function say(m) { var x = document.getElementById(msgId); if (x) x.innerHTML = '<div class="ok">' + m + '</div>'; }
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(t).then(done, sel);
+      } else sel();
+      function sel() {
+        try {
+          var r = document.createRange(); r.selectNodeContents(el);
+          var s = window.getSelection(); s.removeAllRanges(); s.addRange(r);
+          say('길게 눌러 <b>복사</b>를 골라주세요.');
+        } catch (e) { say('직접 길게 눌러 복사해 주세요.'); }
+      }
+    };
+  }
+
+  /* ── 인증 실패 ── */
   if (err) {
-    out.innerHTML = '<div class="bad"><b>인증이 취소됐거나 실패했습니다.</b><br>' +
-      '(' + err.replace(/[<>&]/g, '') + ')<br><br>' +
-      '카카오 개발자센터에서 <b>카카오톡 메시지 전송(talk_message)</b> 동의항목이 ' +
-      '켜져 있는지 확인하고 다시 시도하세요.</div>';
-    return;
-  }
-  if (!code) {
-    out.innerHTML = '<div class="card"><div class="lab">아직 인증 전입니다</div>' +
-      '<div style="font-size:14px;color:var(--mid)">이 페이지는 카카오 로그인 뒤에 ' +
-      '자동으로 열립니다. 직접 열면 보여줄 코드가 없습니다.</div>' +
-      '<ol><li>카카오 개발자센터에서 앱을 만들고 REST API 키를 복사</li>' +
-      '<li>이 주소를 <b>Redirect URI</b> 로 등록: <code>' + location.origin + location.pathname + '</code></li>' +
-      '<li>동의항목에서 <b>talk_message</b> 를 켜기</li>' +
-      '<li>인증 주소로 들어가 동의하면 여기로 돌아옵니다</li></ol></div>';
+    lit(2);
+    out.innerHTML =
+      '<div class="bad"><b>동의가 취소됐거나 실패했습니다.</b><br>(' + esc(err) + ')</div>' +
+      '<div class="card"><p>대개 <b>카카오톡 메시지 전송(talk_message)</b> 동의항목이 ' +
+      '꺼져 있을 때 이렇게 됩니다. 카카오 개발자센터에서 켠 뒤 다시 해주세요.</p>' +
+      '<a class="btn" href="' + esc(REDIRECT) + '">처음으로 돌아가기</a></div>';
     return;
   }
 
+  /* ── 3단계: 코드를 받았다 ── */
+  if (code) {
+    lit(3);
+    out.innerHTML =
+      '<div class="card"><div class="step"><span class="num">3</span>거의 끝났습니다</div>' +
+        '<p>아래 코드를 복사해서 저에게 알려주시거나, 직접 넣으셔도 됩니다.</p>' +
+        '<div class="big" id="code">' + esc(code) + '</div>' +
+        '<button class="btn" id="cp">📋 코드 복사하기</button>' +
+        '<div id="m1"></div>' +
+        '<div class="note">이 코드는 <b>10분 안에 한 번만</b> 쓸 수 있습니다. ' +
+        '늦었으면 아래에서 다시 받으시면 됩니다.</div>' +
+      '</div>' +
+      '<div class="card"><div class="step"><span class="num">✓</span>다음은 제가 합니다</div>' +
+        '<p>코드를 알려주시면 토큰 발급·저장·시험 발송까지 제가 처리하겠습니다.<br>' +
+        '직접 하시려면: <b>Actions → kakao token → Run workflow</b> 에 코드를 넣고 실행하세요.</p>' +
+        '<a class="btn" id="again" href="#" style="background:#fff;color:var(--acc);border:1px solid var(--line)">↻ 코드 다시 받기</a>' +
+      '</div>';
+    wireCopy('cp', 'code', 'm1');
+    var k = read(KEY);
+    document.getElementById('again').href = k ? authUrl(k) : REDIRECT;
+    return;
+  }
+
+  function authUrl(k) {
+    return 'https://kauth.kakao.com/oauth/authorize?client_id=' + encodeURIComponent(k) +
+      '&redirect_uri=' + encodeURIComponent(REDIRECT) +
+      '&response_type=code&scope=talk_message';
+  }
+
+  /* ── 1~2단계 ── */
+  lit(1);
   out.innerHTML =
-    '<div class="card"><div class="lab">인증 코드 (10분 안에 쓰세요)</div>' +
-      '<code id="c">' + code.replace(/[<>&]/g, '') + '</code>' +
-      '<button id="cp">📋 코드 복사</button>' +
-      '<div id="msg"></div>' +
-      '<div class="note">이 코드는 <b>한 번만</b> 쓸 수 있고 10분이면 만료됩니다. ' +
-      '다음 단계에서 실패하면 인증 주소로 다시 들어와 새 코드를 받으세요.</div>' +
+    '<div class="card"><div class="step"><span class="num">1</span>카카오에서 앱 만들기</div>' +
+      '<p><a href="https://developers.kakao.com" target="_blank" rel="noopener">developers.kakao.com ↗</a>' +
+      ' 에 카카오 계정으로 로그인한 뒤, 아래 네 가지만 해주세요.</p>' +
+      '<ol>' +
+        '<li><b>내 애플리케이션 → 애플리케이션 추가하기</b><br>' +
+          '<span class="kv">이름·회사명은 아무거나 (예: 블루칩 나침반)</span></li>' +
+        '<li><b>앱 키</b> 에서 <b>REST API 키</b> 복사<br>' +
+          '<span class="kv">아래 2단계에 붙여넣을 값입니다</span></li>' +
+        '<li><b>카카오 로그인</b> 켜고, <b>Redirect URI</b> 에 이 주소 등록' +
+          '<div class="copyrow"><code id="ru">' + esc(REDIRECT) + '</code>' +
+          '<button class="mini" id="cpru">복사</button></div>' +
+          '<div id="m2"></div></li>' +
+        '<li><b>카카오 로그인 → 동의항목</b> 에서<br>' +
+          '<b>카카오톡 메시지 전송(talk_message)</b> 을 <b>필수 동의</b>로</li>' +
+      '</ol>' +
     '</div>' +
-    '<div class="card"><div class="lab">다음에 할 일</div>' +
-      '<ol><li>저장소 <b>Actions</b> → <b>kakao token</b> → <b>Run workflow</b></li>' +
-      '<li><b>code</b> 칸에 위 코드를 붙여넣고 실행</li>' +
-      '<li>끝나면 <b>Summary</b> 에 refresh token 이 나옵니다</li>' +
-      '<li>그 값을 <b>Settings → Secrets</b> 의 <code style="display:inline;padding:2px 6px">KAKAO_REFRESH_TOKEN</code> 에 저장</li></ol>' +
+    '<div class="card"><div class="step"><span class="num">2</span>키를 넣고 동의하기</div>' +
+      '<p>1단계에서 복사한 <b>REST API 키</b>를 붙여넣으세요.<br>' +
+      '이 값은 <b>이 휴대폰 안에만</b> 저장되고 어디로도 보내지 않습니다.</p>' +
+      '<input id="key" type="text" inputmode="latin" autocapitalize="off" autocorrect="off" ' +
+        'spellcheck="false" placeholder="REST API 키 붙여넣기" value="' + esc(read(KEY)) + '" />' +
+      '<a class="btn" id="go" href="#">카카오 동의하러 가기 →</a>' +
+      '<div class="note">누르면 카카오 동의 화면이 열리고, 동의하면 이 페이지로 다시 돌아옵니다.</div>' +
     '</div>';
 
-  document.getElementById('cp').onclick = function () {
-    var t = document.getElementById('c').textContent;
-    var done = function () {
-      document.getElementById('msg').innerHTML = '<div class="ok">✅ 복사했습니다.</div>';
-    };
-    if (navigator.clipboard && navigator.clipboard.writeText) {
-      navigator.clipboard.writeText(t).then(done, fallback);
-    } else fallback();
-    function fallback() {
-      /* 오래된 인앱 브라우저 대비 — 선택 상태로 만들어 길게 눌러 복사하게 한다 */
-      var r = document.createRange();
-      r.selectNodeContents(document.getElementById('c'));
-      var s = window.getSelection(); s.removeAllRanges(); s.addRange(r);
-      document.getElementById('msg').innerHTML =
-        '<div class="ok">코드를 선택해 뒀습니다. 길게 눌러 <b>복사</b>를 고르세요.</div>';
-    }
-  };
+  wireCopy('cpru', 'ru', 'm2');
+  var input = document.getElementById('key');
+  var go = document.getElementById('go');
+  function sync() {
+    var k = input.value.trim();
+    if (k.length >= 20) { go.href = authUrl(k); go.removeAttribute('disabled'); store(KEY, k); lit(2); }
+    else { go.href = '#'; go.setAttribute('disabled', ''); lit(1); }
+  }
+  input.addEventListener('input', sync);
+  go.addEventListener('click', function (e) { if (go.getAttribute('href') === '#') e.preventDefault(); });
+  sync();
 })();
 </script>
 </body>

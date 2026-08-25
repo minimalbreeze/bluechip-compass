@@ -488,65 +488,39 @@ Access 정책에 지인 이메일만 넣으면, 링크를 알아도 인증 없�
 
 ### 설정 (한 번만) — 휴대폰만으로 됩니다
 
-친구에게 보내기·알림톡은 카카오 검수와 사업자등록이 필요해서 개인 앱에서는
-못 쓴다. **나에게 보내기**만 쓴다 — 어차피 본인이 받을 알림이라 이걸로 된다.
+연결 안내 페이지가 대신 해 준다. 여기로 들어가면 3단계로 끝난다.
 
-⚠️ **REST 키와 토큰은 채팅·이슈·커밋 어디에도 적지 않는다.** Secrets 에만 넣는다.
+**https://minimalbreeze.github.io/bluechip-compass/kakao.html**
 
-**1. 카카오 앱 만들기**
-[카카오 개발자센터](https://developers.kakao.com) → 로그인 →
-**내 애플리케이션** → **애플리케이션 추가하기** → 앱 이름·회사명 아무거나 입력
+| 단계 | 하는 일 |
+|---|---|
+| 1 | 카카오 개발자센터에서 앱 만들기 · REST 키 복사 · Redirect URI 등록 · talk_message 켜기 |
+| 2 | 페이지에 REST 키 붙여넣고 **카카오 동의하러 가기** 누르기 |
+| 3 | 돌아온 페이지에 뜬 **인증 코드** 복사 |
 
-**2. REST API 키 복사**
-만든 앱 → **앱 키** → **REST API 키** 를 복사
+페이지가 대신하는 것 — 긴 인증 주소를 손으로 고칠 필요가 없고(키만 넣으면
+만들어 준다), 주소창에서 코드를 긁을 필요도 없다(큰 글씨로 보여준다).
+REST 키는 **그 기기 안에만** 저장되고 어디로도 보내지 않는다.
 
-**3. 키를 저장소에 저장**
-저장소 → **Settings** → **Secrets and variables** → **Actions** →
-**New repository secret**
-- Name: `KAKAO_REST_KEY`
-- Secret: 2번에서 복사한 값
+그 뒤 **저장소에 넣을 비밀값 두 개**:
 
-**4. 카카오 로그인 켜기**
-카카오 개발자센터 → **카카오 로그인** → 활성화 **ON** →
-**Redirect URI 등록** 에 아래를 그대로 붙여넣기
+| 이름 | 값 |
+|---|---|
+| `KAKAO_REST_KEY` | 1단계의 REST API 키 |
+| `KAKAO_REFRESH_TOKEN` | `kakao token` 워크플로가 발급한 값 |
 
-```
-https://minimalbreeze.github.io/bluechip-compass/kakao.html
-```
+넣는 곳: **Settings → Secrets and variables → Actions → New repository secret**
 
-**5. 메시지 권한 켜기**
-**카카오 로그인 → 동의항목** → **카카오톡 메시지 전송(talk_message)** 을
-**필수 동의** 로 설정
+토큰 발급은 **Actions → kakao token → Run workflow** 에 3단계 코드를 넣으면
+된다. 결과는 그 실행의 **Summary** 에 나온다(로그에는 남기지 않는다).
+저장한 뒤에는 그 실행 기록을 지우는 걸 권한다.
 
-**6. 인증하기**
-아래 주소에서 `{REST키}` 자리에 2번 값을 넣고 브라우저로 들어가 **동의**
+### 연결됐는지 확인
 
-```
-https://kauth.kakao.com/oauth/authorize?client_id={REST키}&redirect_uri=https://minimalbreeze.github.io/bluechip-compass/kakao.html&response_type=code&scope=talk_message
-```
+**Actions → kakao notify → Run workflow → "연결 시험" 체크 → 실행**
 
-동의하면 **연결 페이지가 열리고 인증 코드가 큰 글씨로 보인다.**
-**📋 코드 복사** 를 누른다. (코드는 **10분 안에, 한 번만** 쓸 수 있다)
-
-**7. 토큰 받기**
-저장소 → **Actions** → 왼쪽에서 **kakao token** → **Run workflow**
-- `code` 칸에 6번에서 복사한 코드를 붙여넣기
-- `redirect_uri` 는 기본값 그대로 두기
-- **Run workflow** 클릭
-
-**8. 토큰 저장**
-실행이 끝나면 그 실행의 **Summary** 에 refresh token 이 나온다.
-3번과 같은 방법으로 저장한다.
-- Name: `KAKAO_REFRESH_TOKEN`
-- Secret: Summary 의 값
-
-저장한 뒤에는 **그 실행 기록을 지우는 것을 권한다** (Actions → 해당 실행 →
-오른쪽 위 `···` → Delete workflow run). 토큰이 Summary 에 남아 있기 때문이다.
-
-**9. 확인**
-**Actions** → **kakao notify** → **Run workflow**
-바뀐 게 있으면 카카오톡 "나와의 채팅"으로 카드가 온다. 없으면 로그에
-"바뀐 게 없습니다"만 남는다 — 정상이다.
+바뀐 게 없어도 견본 카드를 한 장 보낸다. 이게 없으면 "안 오는 게 정상인지
+고장인지"를 알 수 없다.
 
 ### 잘 안 될 때
 
