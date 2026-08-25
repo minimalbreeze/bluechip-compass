@@ -68,7 +68,10 @@
     cur: load('cur', 'krw'),
     /* 모의투자는 시장별로 따로 굴린다 */
     sim: load('sim', { kr: SIM.blank(), us: SIM.blank() }),
-    simMsg: ''
+    simMsg: '',
+    /* 알아보기 탭: sq 검색어, sSel 고른 종목 */
+    sq: '',
+    sSel: null
   };
   ['kr', 'us'].forEach(function (mk) {
     if (!state.sim[mk] || !state.sim[mk].pos) state.sim[mk] = SIM.blank();
@@ -490,6 +493,36 @@
             document.getElementById('view-' + current).innerHTML) render();
       })
       .catch(function () { /* 없으면 없는 대로 — 직접 적은 현재가를 쓴다 */ });
+  }
+
+  /* ══════════════════════════════════════════════════════════════════
+     종목 해설 (analysis.json)
+     ------------------------------------------------------------------
+     "궁금한 주식을 치면 답을 받는" 화면의 자료다. 브라우저에서 AI 를 부를
+     수는 없다 — 정적 사이트라 키를 심으면 소스에 그대로 노출된다. 그래서
+     워크플로가 미리 만들어 두고(scripts/analyze-stocks.mjs) 앱은 읽기만 한다.
+
+     파일이 크므로 **알아보기 탭을 열 때만** 받는다. 다른 탭만 쓰는 사람은
+     한 번도 받지 않는다.
+     ══════════════════════════════════════════════════════════════════ */
+  var ANALYSIS = null, anaTried = false, anaFailed = false;
+  function loadAnalysis() {
+    if (anaTried) return;
+    anaTried = true;
+    if (window.BC_ANALYSIS_INLINE) { ANALYSIS = window.BC_ANALYSIS_INLINE; return; }
+    if (!window.fetch) { anaFailed = true; return; }
+    fetch('analysis.json?t=' + Math.floor(Date.now() / 86400000), { cache: 'no-store' })
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (j) {
+        if (!j || !j.items) { anaFailed = true; }
+        else ANALYSIS = j;
+        if (current === 'stock') render();
+      })
+      .catch(function () { anaFailed = true; if (current === 'stock') render(); });
+  }
+  function analysisOf(ticker) {
+    if (!ANALYSIS || !ANALYSIS.items || !ticker) return null;
+    return ANALYSIS.items[ticker] || ANALYSIS.items[String(ticker).toUpperCase()] || null;
   }
 
   /* ══════════════════════════════════════════════════════════════════
@@ -1822,6 +1855,170 @@
   }
 
   /* ══════════════════════════════════════════════════════════════════
+     뷰 — 알아보기 (종목 하나를 검색해서 읽는다)
+     ------------------------------------------------------------------
+     "궁금한 주식을 치면 뭐하는 회사인지, 어떤 상태인지 알려달라"는 요청에서
+     나온 화면이다. 답할 수 있는 것과 없는 것을 갈라 두었다.
+
+       답한다  뭐하는 회사인가 / 돈을 어떻게 버는가 / 50년 존속 가능성 6축과
+               등급 / 무엇이 이 판단을 깨뜨리나 / 직접 확인할 지표의 이름
+       안 한다 매수·매도 의견, PER 같은 수치, 주가 예측
+
+     "미래에 어떨 것인가"에는 주가가 아니라 **50년 뒤에도 이 회사가 있을까**로
+     답한다. 그게 이 앱이 답할 수 있는 유일한 미래다(최상위 원칙 5).
+
+     유니버스 13종목은 사람이 쓴 카드가 더 정확하므로 그쪽을 먼저 쓴다.
+     어느 쪽인지 화면에 표시한다 — 출처를 감추지 않는다.               */
+  function stockCardOf(mk, ticker) {
+    var hit = null;
+    D.markets[mk].picks.forEach(function (p) {
+      if (p.ticker.toUpperCase() === String(ticker).toUpperCase()) hit = p;
+    });
+    if (hit) return { src: 'pick', d: hit };
+    var a = analysisOf(ticker);
+    return a ? { src: 'ai', d: a } : null;
+  }
+
+  function renderStock() {
+    loadAnalysis();
+    /* 검색하려면 종목 색인이 있어야 한다. 이 탭을 열 때 받는다. */
+    loadTickers();
+    var mk = state.market;
+    var h = [];
+    h.push('<div class="sec-head"><h2>🔎 종목 알아보기</h2>' +
+      '<p>궁금한 종목을 찾아보세요. <b>뭐하는 회사인지, 50년 뒤에도 있을 회사인지</b>를 정리해 둡니다.</p></div>');
+
+    h.push('<div class="card sform">' +
+      '<input id="sq" type="text" autocomplete="off" placeholder="' +
+        (mk === 'kr' ? '삼성전자, 005930…' : 'Microsoft, MSFT, 하이닉스…') +
+      '" value="' + esc(state.sq || '') + '" />' +
+      (state.sq ? '<button class="sq-x" id="sq-clear">✕</button>' : '') +
+    '</div>');
+
+    /* 결과는 이 칸만 갈아 끼운다 — 전체를 다시 그리면 입력 포커스가 날아간다 */
+    h.push('<div class="sqres">' + stockResultHtml(mk) + '</div>');
+
+    h.push('<div class="foot"><b>고지.</b> 이 화면은 <b>회사에 대한 설명</b>이지 ' +
+      '특정 종목의 매수·매도 권유가 아닙니다. 어떤 수익도 보장하지 않습니다. ' +
+      '투자 판단과 그 결과는 본인에게 있습니다.</div>');
+    return h.join('');
+  }
+
+  /* 검색창 아래 칸. 고르기 전에는 후보 목록, 고른 뒤에는 해설. */
+  function stockResultHtml(mk) {
+    if (state.sSel) return stockDetailHtml(mk, state.sSel);
+    if (!state.sq) return stockEmptyHtml(mk);
+    var res = searchTickers(state.sq, mk);
+    if (!res.length) {
+      return '<div class="note">‘' + esc(state.sq) + '’과 맞는 종목이 없습니다. ' +
+        (tickersState === 'loading' ? '종목 목록을 불러오는 중입니다…'
+         : tickersState === 'failed' ? '종목 목록을 못 불러왔습니다.'
+         : '이름 일부나 티커로 다시 찾아보세요.') + '</div>';
+    }
+    return '<div class="acbox open">' + res.map(function (r, i) {
+      return '<button class="acitem" data-sac="' + i + '">' +
+        '<span class="ac-n">' + esc(r.n) + '</span>' +
+        (r.t ? '<span class="ac-t">' + esc(r.t) + '</span>' : '') +
+        (r.uni ? '<span class="ac-b uni">50년 카드</span>' : '') +
+        (r.etf ? '<span class="ac-b etf">ETF</span>' : '') +
+        (r.price !== null && r.price !== undefined ? '<span class="ac-p">' + perShare(r.price, mk) + '</span>' : '') +
+      '</button>';
+    }).join('') + '</div>';
+  }
+
+  /* 아직 아무것도 안 친 상태 — 빈 화면 대신 뭘 할 수 있는지 보여준다 */
+  function stockEmptyHtml(mk) {
+    var picks = D.markets[mk].picks.slice(0, 6);
+    return '<div class="sec-head" style="margin-top:14px"><h3 class="sub-h">이 앱이 직접 뜯어본 ' +
+      D.markets[mk].picks.length + '종목</h3></div>' +
+      '<div class="chips">' + picks.map(function (p) {
+        return '<button class="chip" data-spick="' + esc(p.ticker) + '">' + esc(p.name) + '</button>';
+      }).join('') + '</div>' +
+      '<div class="note">그 밖의 종목도 찾아볼 수 있습니다. ' +
+      '해설이 아직 없는 종목은 <b>없다고 말합니다</b> — 지어내지 않습니다.</div>';
+  }
+
+  function stockDetailHtml(mk, sel) {
+    var card = stockCardOf(mk, sel.t);
+    var price = priceIn(mk, sel.t);
+    var h = [];
+
+    h.push('<div class="card sdet">' +
+      '<div class="sdet-top">' +
+        '<span class="sdet-n">' + esc(sel.n) + '</span>' +
+        (sel.t ? '<span class="sdet-t">' + esc(sel.t) + '</span>' : '') +
+      '</div>' +
+      (price !== null
+        ? '<div class="sdet-p">현재 <b>' + perShare(price, mk) + '</b>' +
+          (LIVE && LIVE.asOf ? ' <span class="sdet-ago">' + agoText(LIVE.asOf) + ' 기준</span>' : '') + '</div>'
+        : '<div class="sdet-p muted">시세를 받아오지 않는 종목입니다.</div>') +
+    '</div>');
+
+    if (!card) {
+      /* 없으면 없다고 한다. 지어내지 않는 게 이 앱의 기본이다. */
+      h.push('<div class="card nodata">' +
+        '<div class="nd-h">📭 아직 이 종목 해설이 없습니다</div>' +
+        (anaFailed
+          ? '<div class="nd-b">해설 자료를 불러오지 못했습니다. 잠시 뒤 다시 열어보세요.</div>'
+          : '<div class="nd-b">해설은 <b>하루에 몇 종목씩</b> 채워집니다. 아직 차례가 오지 않았습니다. ' +
+            '없는 내용을 지어내느니 <b>없다고 말하는 쪽</b>을 골랐습니다.</div>') +
+        '<div class="nd-b">그동안은 원자료를 직접 보시는 게 가장 정확합니다.</div>' +
+        '<div class="srcrow">' + D.markets[mk].sources.map(function (s) {
+          return '<a href="' + s.url + '" target="_blank" rel="noopener">' + esc(s.name) + ' ↗</a>';
+        }).join('') + '</div>' +
+      '</div>');
+      return h.join('');
+    }
+
+    var d = card.d;
+    var pct = total(d.scores), g = grade(pct);
+    h.push('<div class="card sdet-body">' +
+      '<div class="sd-src">' + (card.src === 'pick'
+        ? '✍️ 이 앱이 직접 뜯어본 종목입니다'
+        : '🤖 AI 가 정리했습니다 · 매매 의견이 아닙니다') + '</div>' +
+
+      '<div class="sd-h">🏢 뭐하는 회사인가</div>' +
+      '<div class="sd-one">' + linkTerms(d.one) + '</div>' +
+      (d.how ? '<div class="sd-how">' + linkTerms(d.how) + '</div>' : '') +
+
+      '<div class="sd-h">📊 50년 뒤에도 있을 회사인가</div>' +
+      '<div class="sd-grade"><span class="grade"><b>' + g.code + '</b><small>' + pct + '</small></span>' +
+        '<span class="sd-gl"><b>' + g.label + '</b><small>' + esc(g.desc) + '</small></span></div>' +
+      '<div class="bars">' + D.axes.map(function (a) {
+        var v = d.scores[a.key];
+        return '<div class="bar"><span class="bar-l">' + a.icon + ' ' + a.label + '</span>' +
+          '<span class="bar-t"><span class="bar-f" style="width:' + (v / 5 * 100) + '%"></span></span>' +
+          '<span class="bar-v">' + v + '</span></div>';
+      }).join('') + '</div>' +
+
+      '<div class="sd-h">💡 왜 그렇게 봤나</div>' +
+      '<ul class="sb-list">' + d.why.map(function (w) { return '<li>' + linkTerms(w) + '</li>'; }).join('') + '</ul>' +
+
+      '<div class="sd-h">⚠️ 무엇이 이 판단을 깨뜨리나</div>' +
+      '<div class="sb-risk">' + linkTerms(d.risk) + '</div>' +
+
+      '<div class="sd-h">🌱 초보자에게 한마디</div>' +
+      '<div class="sb-beg">' + linkTerms(d.beginner) + '</div>' +
+
+      '<div class="sd-h">🔍 직접 확인할 지표</div>' +
+      '<div class="sb-check">' + d.check.map(function (c) { return '<span>' + esc(c) + '</span>'; }).join('') + '</div>' +
+      '<div class="sd-note">이 앱은 <b>PER·부채비율 같은 수치를 담지 않습니다.</b> ' +
+        '넣는 순간 낡고, 낡은 숫자를 믿는 게 안 보는 것보다 위험하기 때문입니다. ' +
+        '위 지표는 아래 원자료에서 직접 확인하세요.</div>' +
+      '<div class="srcrow">' + D.markets[mk].sources.map(function (s) {
+        return '<a href="' + s.url + '" target="_blank" rel="noopener">' + esc(s.name) + ' ↗</a>';
+      }).join('') + '</div>' +
+    '</div>');
+
+    /* 읽고 끝나는 화면을 만들지 않는다 — 다음 걸음을 붙인다 */
+    h.push('<div class="sd-cta">' +
+      '<button class="btn ghost" data-go="my">💼 내 주식에 등록하기 →</button>' +
+      '<button class="btn ghost" data-go="plan">🎯 얼마나 담을지 보기 →</button>' +
+    '</div>');
+    return h.join('');
+  }
+
+  /* ══════════════════════════════════════════════════════════════════
      뷰 3 — 시장 (자동 판정 + 근거 + 이번 달 행동)
      ------------------------------------------------------------------
      예전 이 화면의 첫 요구는 "5개만 확인하세요"였다. 부담이 커서 결국
@@ -2052,6 +2249,7 @@
     home:   renderHome,
     my:     renderMy,
     plan:   renderPlan,
+    stock:  renderStock,
     market: renderMarket,
     learn:  renderLearn
   };
@@ -2181,6 +2379,27 @@
     if ((el = ev.target.closest('.term'))) { openSheet(el.dataset.term); return; }
     if (ev.target.closest('[data-close]'))  { document.getElementById('sheet').hidden = true; return; }
 
+    /* 알아보기 탭에서 고른 경우. data-ac 보다 먼저 본다. */
+    if ((el = ev.target.closest('.acitem')) && el.dataset.sac !== undefined) {
+      var sres = searchTickers(state.sq, state.market);
+      var sgot = sres[parseInt(el.dataset.sac, 10)];
+      if (sgot) { state.sSel = sgot; render(); }
+      return;
+    }
+    if ((el = ev.target.closest('[data-spick]'))) {
+      var pk = null;
+      D.markets[state.market].picks.forEach(function (p) {
+        if (p.ticker === el.dataset.spick) pk = p;
+      });
+      if (pk) { state.sq = pk.name; state.sSel = { t: pk.ticker, n: pk.name, etf: 0, uni: true }; render(); }
+      return;
+    }
+    if (ev.target.id === 'sq-clear') {
+      state.sq = ''; state.sSel = null; render();
+      var sqi = document.getElementById('sq');
+      if (sqi) sqi.focus();
+      return;
+    }
     if ((el = ev.target.closest('.acitem'))) {
       var res2 = searchTickers(state.q, state.market);
       var got = res2[parseInt(el.dataset.ac, 10)];
@@ -2359,6 +2578,13 @@
     if (ev.target.id === 'fxrate') {
       var f = parseInt(ev.target.value, 10);
       if (f >= 800 && f <= 2500) { state.profile.fx = f; save('profile', state.profile); }
+    }
+    if (ev.target.id === 'sq') {
+      state.sq = ev.target.value;
+      state.sSel = null;
+      var host = document.querySelector('.view.is-on .sqres');
+      if (host) host.innerHTML = stockResultHtml(state.market);
+      return;
     }
     if (ev.target.id === 'h-name') {
       state.q = ev.target.value;

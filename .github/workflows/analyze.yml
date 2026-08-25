@@ -1,0 +1,69 @@
+# 종목 해설(analysis.json)을 조금씩 채운다.
+#
+# 브라우저에서 AI 를 부를 수 없어서(정적 사이트라 키가 소스에 노출된다)
+# 워크플로가 미리 만들어 커밋한다. 앱은 그 파일을 읽기만 한다.
+#
+# 회사 설명은 자주 바뀌는 자료가 아니다. 이미 만든 종목은 다시 만들지 않는다 —
+# 매번 다시 부르면 같은 회사가 날마다 다른 점수를 받는다.
+
+name: stock analysis
+
+on:
+  schedule:
+    # 매일 한 번, 한국 시각 새벽 4시(19:00 UTC). 조금씩 채워 나간다.
+    - cron: '0 19 * * *'
+  workflow_dispatch:
+    inputs:
+      count:
+        description: '이번에 정리할 종목 수'
+        required: false
+        default: '40'
+
+concurrency:
+  group: stock-analysis
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      ANALYZE_LIMIT: ${{ github.event.inputs.count || '40' }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: 시크릿 확인
+        run: |
+          if [ -n "$ANTHROPIC_API_KEY" ]; then
+            echo "🤖 ANTHROPIC_API_KEY 있음 (길이 ${#ANTHROPIC_API_KEY})"
+          else
+            echo "⚠️ ANTHROPIC_API_KEY 없음 — 이 워크플로는 아무것도 하지 않습니다"
+          fi
+
+      - name: SDK 설치
+        if: env.ANTHROPIC_API_KEY != ''
+        run: npm install --no-save --no-audit --no-fund @anthropic-ai/sdk zod
+
+      - name: 종목 해설 만들기
+        if: env.ANTHROPIC_API_KEY != ''
+        run: node scripts/build-analysis.mjs
+
+      - name: 바뀐 게 있으면 커밋
+        if: env.ANTHROPIC_API_KEY != ''
+        run: |
+          if git diff --quiet -- analysis.json; then
+            echo "변화 없음 — 커밋하지 않는다"
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add analysis.json
+          git commit -m "chore: 종목 해설 갱신 [skip ci]"
+          git push
