@@ -7,6 +7,23 @@ const uri  = process.env.KAKAO_REDIRECT_URI;
 if (!code) { console.log('❌ code 가 비었습니다.'); process.exit(1); }
 if (!key)  { console.log('❌ KAKAO_REST_KEY 시크릿이 없습니다. 먼저 저장하세요.'); process.exit(1); }
 
+/* ── 보내기 전에 값의 '모양'을 확인한다 ─────────────────────────
+   invalid_client 로 세 번 막혔는데, 원인이 시크릿인지 키인지 추측만 했다.
+   값을 로그에 찍을 수는 없으니(자격증명이다) **모양만** 남긴다.
+   REST API 키는 32자 소문자 16진수다. 다른 키를 붙여넣었으면 여기서 걸린다. */
+const looksHex32 = /^[0-9a-f]{32}$/.test(key);
+console.log('— 보내기 전 확인 —');
+console.log(`  REST 키      : ${key.length}자, 모양 ${looksHex32 ? '맞음(32자 소문자 16진수)' : '⚠️ 다름'}`);
+if (!looksHex32) {
+  console.log(`                 앞 4자 "${key.slice(0, 4)}", 뒤 4자 "${key.slice(-4)}"`);
+  console.log('                 REST API 키는 32자 소문자 16진수입니다.');
+  console.log('                 대문자·하이픈이 섞였거나 길이가 다르면 다른 키입니다.');
+}
+console.log(`  클라이언트 시크릿: ${process.env.KAKAO_CLIENT_SECRET ? '보냄' : '안 보냄(시크릿 미저장)'}`);
+console.log(`  Redirect URI : ${uri}`);
+console.log(`  코드 길이     : ${code.length}자`);
+console.log('');
+
 /* 클라이언트 시크릿이 카카오 콘솔에서 켜져 있으면 이 값을 같이 보내야 한다.
    안 보내면 401 invalid_client 로 거절당한다(실제로 그렇게 막혔다).
    꺼져 있으면 시크릿을 안 넣어도 되고, 보내도 무시된다 — 그래서 있으면
