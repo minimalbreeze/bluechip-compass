@@ -1,0 +1,62 @@
+# 바뀐 게 있으면 카카오톡으로 알린다.
+#
+# 왜 서버에서 도는가
+#   브라우저의 모의투자는 앱을 열 때만 하루치를 돌린다. 즉 앱을 안 열면 매매
+#   자체가 일어나지 않아 알릴 것도 없다. 알림을 주려면 계좌를 굴리는 쪽이
+#   서버여야 한다. 여기서 굴리는 건 "앱이 굴리는 기준 계좌"(sim-run.json)이고,
+#   회원님 개인 보유·개인 모의계좌는 여전히 기기 밖으로 나가지 않는다.
+#
+# 시크릿이 없으면 전송만 건너뛰고 내용은 로그에 남긴다 — 설정 전에도
+# "무엇이 올지" 확인할 수 있다.
+
+name: kakao notify
+
+on:
+  schedule:
+    # 국내장 마감 뒤(07:20 UTC = 16:20 KST) — live.yml·prices.yml 이 끝난 뒤로 둔다
+    - cron: '20 7 * * 1-5'
+  workflow_dispatch:
+
+concurrency:
+  group: kakao-notify
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    env:
+      KAKAO_REST_KEY:      ${{ secrets.KAKAO_REST_KEY }}
+      KAKAO_REFRESH_TOKEN: ${{ secrets.KAKAO_REFRESH_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # 값은 절대 찍지 않는다. 있는지 없는지와 길이만 남긴다.
+      - name: 시크릿 확인
+        run: |
+          if [ -n "$KAKAO_REST_KEY" ] && [ -n "$KAKAO_REFRESH_TOKEN" ]; then
+            echo "💬 카카오 시크릿 있음 (키 ${#KAKAO_REST_KEY}자, 토큰 ${#KAKAO_REFRESH_TOKEN}자)"
+          else
+            echo "📭 카카오 시크릿 없음 — 보낼 내용만 로그에 남기고 전송은 건너뜁니다."
+          fi
+
+      - name: 바뀐 것 확인하고 알리기
+        run: node scripts/notify.mjs
+
+      - name: 기준 계좌 상태 커밋
+        run: |
+          git add sim-run.json
+          if git diff --cached --quiet -- sim-run.json; then
+            echo "변화 없음 — 커밋하지 않는다"
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: 기준 계좌 갱신 [skip ci]"
+          git push
