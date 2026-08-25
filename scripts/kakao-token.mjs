@@ -13,9 +13,14 @@ if (!key)  { console.log('❌ KAKAO_REST_KEY 시크릿이 없습니다. 먼저 �
    REST API 키는 32자 소문자 16진수다. 다른 키를 붙여넣었으면 여기서 걸린다. */
 const looksHex32 = /^[0-9a-f]{32}$/.test(key);
 console.log('— 보내기 전 확인 —');
-console.log(`  REST 키      : ${key.length}자, 모양 ${looksHex32 ? '맞음(32자 소문자 16진수)' : '⚠️ 다름'}`);
+/* 앞뒤 4자만 보여준다. 32자 중 8자라 값을 복원할 수는 없고, 카카오 콘솔의
+   앱별 REST 키와 눈으로 대조하기에는 충분하다.
+   실제로 앱이 두 개인데 동의는 A 앱 키로, 토큰 발급은 B 앱 키로 하고 있어서
+   invalid_client 이 났다. 그 어긋남은 이 여덟 글자만 있으면 바로 보인다. */
+console.log(`  REST 키      : ${key.length}자, 모양 ${looksHex32 ? '맞음' : '⚠️ 다름'}` +
+            ` · ${key.slice(0, 4)}…${key.slice(-4)}`);
+console.log('                 ↑ 카카오 콘솔 > 해당 앱 > 앱 키 > REST API 키 와 대조하세요.');
 if (!looksHex32) {
-  console.log(`                 앞 4자 "${key.slice(0, 4)}", 뒤 4자 "${key.slice(-4)}"`);
   console.log('                 REST API 키는 32자 소문자 16진수입니다.');
   console.log('                 대문자·하이픈이 섞였거나 길이가 다르면 다른 키입니다.');
 }
@@ -54,11 +59,19 @@ if (!r.ok || !j.refresh_token) {
   console.log(' · talk_message 동의항목이 꺼져 있다 → 켜고 다시 인증하세요.');
   if (j.error === 'invalid_client') {
     console.log('');
-    console.log('⚠️ invalid_client 은 위 원인들이 아니라 **자격증명 문제**입니다. 둘 중 하나입니다.');
-    console.log(' 1) 카카오 콘솔에서 "클라이언트 시크릿"이 켜져 있는데 그 값을 안 보냈다.');
-    console.log('    → 시크릿을 끄거나, KAKAO_CLIENT_SECRET 시크릿에 그 값을 저장하세요.');
-    console.log(` 2) KAKAO_REST_KEY 가 REST API 키가 아니다(길이 ${key.length}자).`);
-    console.log('    → 네이티브 앱 키·JavaScript 키·Admin 키가 아니라 **REST API 키**여야 합니다.');
+    console.log('⚠️ invalid_client 은 위 원인들이 아니라 **자격증명 문제**입니다.');
+    console.log('');
+    console.log(' 가장 흔한 것 — 앱이 여러 개일 때 키가 섞였다.');
+    console.log('   동의(코드 발급)는 회원님이 페이지에 붙여넣은 키로 하고,');
+    console.log('   토큰 발급은 KAKAO_REST_KEY 로 합니다. 이 둘이 다른 앱이면');
+    console.log('   "A 앱 코드를 들고 B 앱이라 주장"하는 꼴이라 거절당합니다.');
+    console.log(`   → 위에 찍힌 ${key.slice(0, 4)}…${key.slice(-4)} 가 **동의할 때 쓴 앱**의`);
+    console.log('     REST API 키가 맞는지 확인하세요. 시크릿도 같은 앱 것이어야 합니다.');
+    console.log('');
+    console.log(' 그 밖에');
+    console.log('   · 클라이언트 시크릿이 켜져 있는데 값을 안 보냈다(지금은 ' +
+      (process.env.KAKAO_CLIENT_SECRET ? '보내는 중' : '안 보내는 중') + ').');
+    console.log('   · REST API 키가 아닌 다른 키(네이티브·JavaScript·Admin)를 넣었다.');
   }
   process.exit(1);
 }
