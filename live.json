@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-25T19:36:41.614Z",
+  "asOf": "2026-08-25T20:35:42.601Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -17,32 +17,32 @@
       "time": "2026-08-25T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1382.55,
-      "prev": 1384.97998046875,
-      "chg": -0.18,
+      "price": 1381.87,
+      "prev": 1380.760009765625,
+      "chg": 0.08,
       "basis": "prev-daily-close",
-      "time": "2026-08-25T19:36:26.000Z"
+      "time": "2026-08-25T20:35:25.000Z"
     },
     "^GSPC": {
-      "price": 7670.82,
+      "price": 7677.28,
       "prev": 7652.85986328125,
-      "chg": 0.23,
+      "chg": 0.32,
       "basis": "prev-daily-close",
-      "time": "2026-08-25T19:36:33.000Z"
+      "time": "2026-08-25T20:20:01.000Z"
     },
     "^IXIC": {
-      "price": 26112.7,
+      "price": 26151.299,
       "prev": 25980.189453125,
-      "chg": 0.51,
+      "chg": 0.66,
       "basis": "prev-daily-close",
-      "time": "2026-08-25T19:36:31.000Z"
+      "time": "2026-08-25T20:35:34.000Z"
     },
     "^VIX": {
-      "price": 15.5,
+      "price": 15.45,
       "prev": 15.850000381469727,
-      "chg": -2.21,
+      "chg": -2.52,
       "basis": "prev-daily-close",
-      "time": "2026-08-25T19:21:31.000Z"
+      "time": "2026-08-25T20:15:01.000Z"
     },
     "^TNX": {
       "price": 4.639,
@@ -55,7 +55,7 @@
   "fx": {
     "low52": 1377.64,
     "high52": 1554.48,
-    "pct": 0.028
+    "pct": 0.024
   },
   "hist": {
     "^KS11": {
@@ -73,32 +73,32 @@
       "chg3m": -29.95
     },
     "KRW=X": {
-      "last": 1382.55,
+      "last": 1381.87,
       "low52": 1377.64,
       "high52": 1554.48,
-      "pct52": 0.028,
-      "chg3m": -7.54
+      "pct52": 0.024,
+      "chg3m": -8.29
     },
     "^GSPC": {
-      "last": 7670.82,
+      "last": 7677.28,
       "low52": 6343.72,
       "high52": 7798.99,
-      "pct52": 0.912,
-      "chg3m": 2
+      "pct52": 0.916,
+      "chg3m": 2.09
     },
     "^IXIC": {
-      "last": 26112.7,
+      "last": 26151.3,
       "low52": 20794.64,
       "high52": 27093.9,
-      "pct52": 0.844,
-      "chg3m": -2.11
+      "pct52": 0.85,
+      "chg3m": -1.96
     },
     "^VIX": {
-      "last": 15.5,
+      "last": 15.45,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.115,
-      "chg3m": -4.85
+      "pct52": 0.113,
+      "chg3m": -5.16
     },
     "^TNX": {
       "last": 4.64,
@@ -110,14 +110,14 @@
   },
   "regime": {
     "by": "rules",
-    "asOf": "2026-08-25T19:36:41.246Z",
+    "asOf": "2026-08-25T20:35:42.189Z",
     "kr": {
       "why": {
         "rates": "미국 10년물 금리가 지금 4.64%로, 3개월 전보다 3.53% 높고 최근 1년 범위(3.95~4.74)의 87% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
         "growth": "지수가 3개월 전보다 -14.66% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
         "valuation": "지수가 최근 1년 범위의 60% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
-        "fx": "원/달러가 1382.55원으로 최근 1년(1377.64~1554.48) 범위의 3% 지점입니다.",
-        "geo": "VIX 가 15.5입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
+        "fx": "원/달러가 1381.87원으로 최근 1년(1377.64~1554.48) 범위의 2% 지점입니다.",
+        "geo": "VIX 가 15.45입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
       },
       "rates": "hike",
       "growth": "reces",
@@ -129,10 +129,10 @@
     "us": {
       "why": {
         "rates": "미국 10년물 금리가 지금 4.64%로, 3개월 전보다 3.53% 높고 최근 1년 범위(3.95~4.74)의 87% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
-        "growth": "지수가 3개월 전보다 +2% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
-        "valuation": "지수가 최근 1년 범위의 91% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
-        "fx": "원/달러가 1382.55원으로 최근 1년(1377.64~1554.48) 범위의 3% 지점입니다.",
-        "geo": "VIX 가 15.5입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
+        "growth": "지수가 3개월 전보다 +2.09% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
+        "valuation": "지수가 최근 1년 범위의 92% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
+        "fx": "원/달러가 1381.87원으로 최근 1년(1377.64~1554.48) 범위의 2% 지점입니다.",
+        "geo": "VIX 가 15.45입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
       },
       "rates": "hike",
       "growth": "expand",
@@ -238,95 +238,95 @@
     },
     "us": {
       "MSFT": {
-        "price": 491.035,
+        "price": 491.71,
         "prev": 487.30999755859375,
-        "chg": 0.76,
+        "chg": 0.9,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T19:36:39.000Z"
+        "time": "2026-08-25T20:00:01.000Z"
       },
       "AAPL": {
-        "price": 308.91,
+        "price": 309.9,
         "prev": 310.3399963378906,
-        "chg": -0.46,
+        "chg": -0.14,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T19:36:39.000Z"
+        "time": "2026-08-25T20:00:01.000Z"
       },
       "GOOGL": {
-        "price": 347.06,
+        "price": 346.96,
         "prev": 348.05999755859375,
-        "chg": -0.29,
+        "chg": -0.32,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T19:36:38.000Z"
+        "time": "2026-08-25T20:00:01.000Z"
       },
       "BRK.B": {
-        "price": 503.772,
+        "price": 504.32,
         "prev": 504.32000732421875,
-        "chg": -0.11,
+        "chg": 0,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T19:36:39.000Z"
+        "time": "2026-08-25T20:00:02.000Z"
       },
       "V": {
-        "price": 382.875,
+        "price": 384.14,
         "prev": 382.4100036621094,
-        "chg": 0.12,
+        "chg": 0.45,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T19:36:39.000Z"
+        "time": "2026-08-25T20:00:02.000Z"
       },
       "JNJ": {
-        "price": 272.765,
+        "price": 273.14,
         "prev": 273.0400085449219,
-        "chg": -0.1,
+        "chg": 0.04,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T19:36:36.000Z"
+        "time": "2026-08-25T20:00:02.000Z"
       },
       "PG": {
-        "price": 145.195,
+        "price": 145.4,
         "prev": 146.60000610351562,
-        "chg": -0.96,
+        "chg": -0.82,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T19:36:33.000Z"
+        "time": "2026-08-25T20:02:43.000Z"
       },
       "KO": {
-        "price": 91.705,
+        "price": 91.64,
         "prev": 91.98999786376953,
-        "chg": -0.31,
+        "chg": -0.38,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T19:36:40.000Z"
+        "time": "2026-08-25T20:00:02.000Z"
       },
       "COST": {
-        "price": 961.023,
+        "price": 960.01,
         "prev": 971.4000244140625,
-        "chg": -1.07,
+        "chg": -1.17,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T19:36:37.000Z"
+        "time": "2026-08-25T20:00:00.000Z"
       },
       "WM": {
-        "price": 223.06,
+        "price": 222.13,
         "prev": 226.4600067138672,
-        "chg": -1.5,
+        "chg": -1.91,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T19:36:29.000Z"
+        "time": "2026-08-25T20:00:02.000Z"
       },
       "LIN": {
-        "price": 487,
+        "price": 487.2,
         "prev": 490.0299987792969,
-        "chg": -0.62,
+        "chg": -0.58,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T19:36:34.000Z"
+        "time": "2026-08-25T20:00:01.000Z"
       },
       "XOM": {
-        "price": 161.29,
+        "price": 160.64,
         "prev": 164.0500030517578,
-        "chg": -1.68,
+        "chg": -2.08,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T19:36:40.000Z"
+        "time": "2026-08-25T20:04:07.000Z"
       },
       "NVDA": {
-        "price": 212.35,
+        "price": 213.05,
         "prev": 208.47999572753906,
-        "chg": 1.86,
+        "chg": 2.19,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T19:36:40.000Z"
+        "time": "2026-08-25T20:00:00.000Z"
       }
     }
   },
@@ -413,14 +413,14 @@
         "by": "ai"
       },
       {
-        "title": "Has AI gotten any better at stock picking?",
-        "link": "https://www.marketwatch.com/story/has-ai-gotten-any-better-at-stock-picking-a7cfb998?mod=mw_rss_topstories",
+        "title": "Options traders are betting on the quietest Nvidia earnings reaction in years. It could be an opportunity for AI bulls.",
+        "link": "https://www.marketwatch.com/story/options-traders-are-betting-on-the-quietest-nvidia-earnings-reaction-in-years-it-could-be-an-opportunity-for-ai-bulls-91955793?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Tue, 25 Aug 2026 19:35:00 GMT",
-        "ko": "인공지능이 주식 선별을 더 잘했나요?",
+        "date": "Tue, 25 Aug 2026 20:07:00 GMT",
+        "ko": "옵션 거래자들은 몇 년 만에 가장 조용한 엔비디아 수익 반응에 베팅하고 있습니다. AI 황소에게 기회가 될 수 있습니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -449,23 +449,23 @@
         "by": "ai"
       },
       {
-        "title": "U.S.-Canada trade war threatens to worsen inflation for both economies. Neither can afford it.",
-        "link": "https://www.marketwatch.com/story/u-s-canada-trade-war-threatens-to-worsen-inflation-for-both-economies-neither-can-afford-it-bd797506?mod=mw_rss_topstories",
+        "title": "Has AI gotten any better at stock picking?",
+        "link": "https://www.marketwatch.com/story/has-ai-gotten-any-better-at-stock-picking-a7cfb998?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Tue, 25 Aug 2026 19:24:00 GMT",
-        "ko": "미국과 캐나다의 무역 전쟁은 두 경제의 인플레이션을 악화시킬 위협이 있다. 그것도 감당할 수 없습니다.",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": "market",
-        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
+        "date": "Tue, 25 Aug 2026 19:35:00 GMT",
+        "ko": "인공지능이 주식 선별을 더 잘했나요?",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "Vulcan Materials Stock: Analyst Estimates & Ratings",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/vulcan-materials-stock-analyst-estimates-102558096.html",
+        "title": "Is Wall Street Bullish or Bearish on BXP Stock?",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/wall-street-bullish-bearish-bxp-115852610.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-24T10:25:58Z",
-        "ko": "Vulcan Materials Stock: 애널리스트 추정 및 평가",
+        "date": "2026-08-24T11:58:52Z",
+        "ko": "BXP 주식에서 월스트리트가 강세입니까, 아니면 약세입니까?",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -552,7 +552,9 @@
     "Why AMD can beat rivals Intel and Nvidia in the market for data-center CPUs": "AMD가 데이터 센터 CPU 시장에서 경쟁사인 인텔과 엔비디아를 이길 수 있는 이유",
     "Has AI gotten any better at stock picking?": "인공지능이 주식 선별을 더 잘했나요?",
     "U.S.-Canada trade war threatens to worsen inflation for both economies. Neither can afford it.": "미국과 캐나다의 무역 전쟁은 두 경제의 인플레이션을 악화시킬 위협이 있다. 그것도 감당할 수 없습니다.",
-    "Vulcan Materials Stock: Analyst Estimates & Ratings": "Vulcan Materials Stock: 애널리스트 추정 및 평가"
+    "Vulcan Materials Stock: Analyst Estimates & Ratings": "Vulcan Materials Stock: 애널리스트 추정 및 평가",
+    "Options traders are betting on the quietest Nvidia earnings reaction in years. It could be an opportunity for AI bulls.": "옵션 거래자들은 몇 년 만에 가장 조용한 엔비디아 수익 반응에 베팅하고 있습니다. AI 황소에게 기회가 될 수 있습니다.",
+    "Is Wall Street Bullish or Bearish on BXP Stock?": "BXP 주식에서 월스트리트가 강세입니까, 아니면 약세입니까?"
   },
   "nvCache": {
     "https://www.yna.co.kr/view/AKR20260824137251008": {
@@ -1229,7 +1231,7 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeQ2gaaHkFWmHN9urYbHP\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeQ2gb7nLEzebNpNVpcU3\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeQ7BbjkvNMdVyML5F5Gm\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeQ7BcNTj1DMPmuC1yYCb\"}"
   ]
 }
