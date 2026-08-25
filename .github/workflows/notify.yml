@@ -16,6 +16,11 @@ on:
     # 국내장 마감 뒤(07:20 UTC = 16:20 KST) — live.yml·prices.yml 이 끝난 뒤로 둔다
     - cron: '20 7 * * 1-5'
   workflow_dispatch:
+    inputs:
+      test:
+        description: '연결 시험 — 바뀐 게 없어도 견본 카드를 한 장 보냅니다'
+        type: boolean
+        default: false
 
 concurrency:
   group: kakao-notify
@@ -30,6 +35,7 @@ jobs:
     env:
       KAKAO_REST_KEY:      ${{ secrets.KAKAO_REST_KEY }}
       KAKAO_REFRESH_TOKEN: ${{ secrets.KAKAO_REFRESH_TOKEN }}
+      NOTIFY_TEST:         ${{ github.event.inputs.test }}
     steps:
       - uses: actions/checkout@v4
 

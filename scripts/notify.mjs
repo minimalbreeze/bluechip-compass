@@ -209,9 +209,29 @@ if (import.meta.url === `file://${process.argv[1]}`) {
 
   writeFileSync(STATE, JSON.stringify(next, null, 0));
 
+  /* 연결 시험. 설정을 마쳐도 "바뀐 게 없으면" 아무것도 안 오니, 제대로
+     연결됐는지 확인할 방법이 없다. 그래서 견본 카드를 한 장 보내는 길을 둔다.
+     — 처음 설정할 때 이게 없으면 "안 오는 게 정상인지 고장인지"를 알 수 없다. */
+  if (String(process.env.NOTIFY_TEST) === 'true') {
+    msgs.length = 0;
+    const kr = next.markets.kr || {};
+    msgs.push({
+      kind: 'regime',
+      title: '🧭 연결 시험 — 이 카드가 보이면 성공입니다',
+      desc: [
+        '카카오톡 알림이 정상으로 연결됐습니다.',
+        `지금 국내 국면은 "${kr.regime || '–'}", 현금 목표는 ${kr.cash ?? '–'}% 입니다.`,
+        '앞으로는 바뀐 게 있을 때만 옵니다. 조용한 게 정상입니다.'
+      ].join('\n')
+    });
+  }
+
   if (!msgs.length) {
     console.log('바뀐 게 없습니다 — 아무것도 보내지 않습니다.');
     console.log('(매일 "변화 없음"이 오면 이틀 만에 알림을 끄게 됩니다.)');
+    console.log('');
+    console.log('연결이 됐는지 확인하고 싶으면:');
+    console.log('  Actions → kakao notify → Run workflow → "연결 시험" 체크 후 실행');
     process.exit(0);
   }
   console.log(`보낼 것 ${msgs.length}건`);
@@ -231,7 +251,15 @@ if (import.meta.url === `file://${process.argv[1]}`) {
     try {
       const r = await sendFeed({ kind: m.kind, title: m.title, desc: m.desc, link: APP_URL });
       sent++; console.log(`✓ 보냄 [${r.kind}]`);
-    } catch (e) { console.log(`✕ [${m.kind}] ${e.message}`); }
+    } catch (e) {
+      console.log(`✕ [${m.kind}] ${e.message}`);
+      if (/토큰 갱신 실패/.test(e.message)) {
+        console.log('   → KAKAO_REFRESH_TOKEN 이 틀렸거나 만료됐습니다.');
+        console.log('     README 의 6~8번(인증 → kakao token 워크플로 → 시크릿 저장)을 다시 하세요.');
+      } else if (/insufficient|scope/i.test(e.message)) {
+        console.log('   → 카카오 개발자센터에서 talk_message 동의항목을 켜고 다시 인증하세요.');
+      }
+    }
   }
   console.log(`\n${sent}/${msgs.length}건 전송`);
 }
