@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-25T16:44:19.692Z",
+  "asOf": "2026-08-25T17:36:48.453Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -17,45 +17,45 @@
       "time": "2026-08-25T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1383.23,
+      "price": 1382.68,
       "prev": 1384.97998046875,
-      "chg": -0.13,
+      "chg": -0.17,
       "basis": "prev-daily-close",
-      "time": "2026-08-25T16:43:30.000Z"
+      "time": "2026-08-25T17:36:39.000Z"
     },
     "^GSPC": {
-      "price": 7674.82,
+      "price": 7666.12,
       "prev": 7652.85986328125,
-      "chg": 0.29,
+      "chg": 0.17,
       "basis": "prev-daily-close",
-      "time": "2026-08-25T16:43:34.000Z"
+      "time": "2026-08-25T17:36:39.000Z"
     },
     "^IXIC": {
-      "price": 26133.066,
+      "price": 26103.273,
       "prev": 25980.189453125,
-      "chg": 0.59,
+      "chg": 0.47,
       "basis": "prev-daily-close",
-      "time": "2026-08-25T16:43:33.000Z"
+      "time": "2026-08-25T17:36:38.000Z"
     },
     "^VIX": {
-      "price": 15.49,
+      "price": 15.53,
       "prev": 15.850000381469727,
-      "chg": -2.27,
+      "chg": -2.02,
       "basis": "prev-daily-close",
-      "time": "2026-08-25T16:28:31.000Z"
+      "time": "2026-08-25T17:21:31.000Z"
     },
     "^TNX": {
       "price": 4.645,
       "prev": 4.703999996185303,
       "chg": -1.25,
       "basis": "prev-daily-close",
-      "time": "2026-08-25T16:28:33.000Z"
+      "time": "2026-08-25T17:21:33.000Z"
     }
   },
   "fx": {
     "low52": 1377.64,
     "high52": 1554.48,
-    "pct": 0.032
+    "pct": 0.029
   },
   "hist": {
     "^KS11": {
@@ -73,32 +73,32 @@
       "chg3m": -29.95
     },
     "KRW=X": {
-      "last": 1383.23,
+      "last": 1382.68,
       "low52": 1377.64,
       "high52": 1554.48,
-      "pct52": 0.032,
-      "chg3m": -7.49
+      "pct52": 0.029,
+      "chg3m": -7.53
     },
     "^GSPC": {
-      "last": 7674.78,
+      "last": 7666.12,
       "low52": 6343.72,
       "high52": 7798.99,
-      "pct52": 0.915,
-      "chg3m": 2.05
+      "pct52": 0.909,
+      "chg3m": 1.94
     },
     "^IXIC": {
-      "last": 26133.07,
+      "last": 26103.27,
       "low52": 20794.64,
       "high52": 27093.9,
-      "pct52": 0.847,
-      "chg3m": -2.03
+      "pct52": 0.843,
+      "chg3m": -2.14
     },
     "^VIX": {
-      "last": 15.49,
+      "last": 15.53,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.115,
-      "chg3m": -4.91
+      "pct52": 0.117,
+      "chg3m": -4.67
     },
     "^TNX": {
       "last": 4.64,
@@ -109,37 +109,37 @@
     }
   },
   "regime": {
-    "by": "ai",
-    "asOf": "2026-08-25T16:44:13.169Z",
+    "by": "rules",
+    "asOf": "2026-08-25T17:36:48.042Z",
     "kr": {
       "why": {
-        "rates": "제공된 금리 지표인 ^TNX가 4.64로 1년 범위(3.95~4.74)의 87% 지점이고 3개월간 +3.66% 올라 금리가 위쪽으로 움직이는 국면이며, 다만 한국 정책금리 자료는 주어지지 않아 시장금리 기준의 판단입니다.",
-        "growth": "^KS11이 3개월간 -14.66% 하락했지만 여전히 1년 범위의 60% 위치에 있고 '사상 최대 실적 전망에도 7일째 하락' 같은 조정 성격의 헤드라인이라 침체 신호로 보기엔 근거가 약해 둔화로 봅니다.",
-        "valuation": "^KS11 현재 6696.96은 1년범위 3142.93~9114.55의 60% 지점으로 극단적으로 싸지도 비싸지도 않은 중간 수준입니다.",
-        "fx": "KRW=X가 1383.23으로 1년 범위(1377.64~1554.48)의 3% 지점이고 3개월간 -7.49% 내려 원화가 상대적으로 강한 상태입니다.",
-        "geo": "'韓美 금리 불확실성에 외국인 일단 팔자' 정도의 정책 불확실성 언급만 있고 ^VIX가 15.49로 1년 범위의 12% 수준에 머물러 시장이 느끼는 긴장은 낮습니다."
+        "rates": "미국 10년물 금리가 지금 4.64%로, 3개월 전보다 3.66% 높고 최근 1년 범위(3.95~4.74)의 87% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
+        "growth": "지수가 3개월 전보다 -14.66% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
+        "valuation": "지수가 최근 1년 범위의 60% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
+        "fx": "원/달러가 1382.68원으로 최근 1년(1377.64~1554.48) 범위의 3% 지점입니다.",
+        "geo": "VIX 가 15.53입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
       },
-      "summary": "원화는 1년 중 가장 강한 편(1383.23, 위치 3%)이고 변동성 지표도 낮지만, 코스피는 3개월간 -14.66% 조정을 받아 경기 둔화 구간으로 분류됩니다. 시장금리(^TNX 4.64, 위치 87%)가 위쪽에 있어 금리 부담이 남아 있는 국면입니다.",
       "rates": "hike",
-      "growth": "slow",
+      "growth": "reces",
       "valuation": "fair",
       "fx": "strong",
-      "geo": "calm"
+      "geo": "calm",
+      "summary": "실제 수치에서 기계적으로 도출한 판정입니다. 금리·경기·밸류에이션은 대용 지표라 한계가 있습니다."
     },
     "us": {
       "why": {
-        "rates": "^TNX가 4.64로 1년 범위(3.95~4.74)의 87% 지점이며 3개월간 +3.66% 상승해 장기금리가 오르는 쪽으로 기울어 있습니다.",
-        "growth": "^GSPC가 7674.78로 1년 범위의 92% 위치이고 3개월간 +2.05% 상승해 지수 흐름상 확장 국면으로 읽힙니다.",
-        "valuation": "^GSPC가 1년범위 6343.72~7798.99의 92% 지점, 즉 사상 최고치 근접 구간에 있어 가격 수준이 높은 편입니다.",
-        "fx": "KRW=X 1383.23은 1년 범위의 3% 지점이고 3개월 -7.49%로, 달러 대비 원화가 강해진 상태(달러 약세 방향)입니다.",
-        "geo": "^VIX가 15.49로 1년 범위(13.47~31.05)의 12% 수준이고 헤드라인도 국채 환매·기업 실적 관련 논쟁 위주여서 충격 징후는 확인되지 않습니다."
+        "rates": "미국 10년물 금리가 지금 4.64%로, 3개월 전보다 3.66% 높고 최근 1년 범위(3.95~4.74)의 87% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
+        "growth": "지수가 3개월 전보다 +1.94% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
+        "valuation": "지수가 최근 1년 범위의 91% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
+        "fx": "원/달러가 1382.68원으로 최근 1년(1377.64~1554.48) 범위의 3% 지점입니다.",
+        "geo": "VIX 가 15.53입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
       },
-      "summary": "S&P500이 1년 범위 92% 지점에서 사상 최고치에 근접해 있고 변동성은 낮아 겉으로는 안정적인 상승 국면입니다. 다만 장기금리(^TNX 4.64, 위치 87%)가 높은 곳에 있어 가격 수준이 비싼 편이라는 점은 함께 볼 필요가 있습니다.",
       "rates": "hike",
       "growth": "expand",
       "valuation": "rich",
       "fx": "strong",
-      "geo": "calm"
+      "geo": "calm",
+      "summary": "실제 수치에서 기계적으로 도출한 판정입니다. 금리·경기·밸류에이션은 대용 지표라 한계가 있습니다."
     }
   },
   "stocks": {
@@ -238,95 +238,95 @@
     },
     "us": {
       "MSFT": {
-        "price": 489.49,
+        "price": 489.46,
         "prev": 487.30999755859375,
-        "chg": 0.45,
+        "chg": 0.44,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T16:43:41.000Z"
+        "time": "2026-08-25T17:36:46.000Z"
       },
       "AAPL": {
-        "price": 309.765,
+        "price": 309.6,
         "prev": 310.3399963378906,
-        "chg": -0.19,
+        "chg": -0.24,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T16:43:41.000Z"
+        "time": "2026-08-25T17:36:44.000Z"
       },
       "GOOGL": {
-        "price": 346.55,
+        "price": 346.69,
         "prev": 348.05999755859375,
-        "chg": -0.43,
+        "chg": -0.39,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T16:43:41.000Z"
+        "time": "2026-08-25T17:36:46.000Z"
       },
       "BRK.B": {
-        "price": 504.047,
+        "price": 504.3,
         "prev": 504.32000732421875,
-        "chg": -0.05,
+        "chg": 0,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T16:43:36.000Z"
+        "time": "2026-08-25T17:36:40.000Z"
       },
       "V": {
-        "price": 382.57,
+        "price": 382.42,
         "prev": 382.4100036621094,
-        "chg": 0.04,
+        "chg": 0,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T16:43:37.000Z"
+        "time": "2026-08-25T17:36:25.000Z"
       },
       "JNJ": {
-        "price": 273.11,
+        "price": 272.89,
         "prev": 273.0400085449219,
-        "chg": 0.03,
+        "chg": -0.05,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T16:43:22.000Z"
+        "time": "2026-08-25T17:36:42.000Z"
       },
       "PG": {
-        "price": 145.42,
+        "price": 145.345,
         "prev": 146.60000610351562,
-        "chg": -0.8,
+        "chg": -0.86,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T16:43:41.000Z"
+        "time": "2026-08-25T17:36:44.000Z"
       },
       "KO": {
-        "price": 91.548,
-        "prev": 91.54750061035156,
-        "chg": 0,
-        "basis": "last-daily-close",
-        "time": "2026-08-25T16:43:40.000Z"
+        "price": 91.715,
+        "prev": 91.98999786376953,
+        "chg": -0.3,
+        "basis": "prev-daily-close",
+        "time": "2026-08-25T17:36:42.000Z"
       },
       "COST": {
-        "price": 963.82,
+        "price": 961.605,
         "prev": 971.4000244140625,
-        "chg": -0.78,
+        "chg": -1.01,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T16:43:21.000Z"
+        "time": "2026-08-25T17:36:29.000Z"
       },
       "WM": {
-        "price": 223.265,
+        "price": 223.21,
         "prev": 226.4600067138672,
-        "chg": -1.41,
+        "chg": -1.44,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T16:43:39.000Z"
+        "time": "2026-08-25T17:36:29.000Z"
       },
       "LIN": {
-        "price": 486.555,
+        "price": 486.01,
         "prev": 490.0299987792969,
-        "chg": -0.71,
+        "chg": -0.82,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T16:43:21.000Z"
+        "time": "2026-08-25T17:36:44.000Z"
       },
       "XOM": {
-        "price": 162.18,
+        "price": 161.781,
         "prev": 164.0500030517578,
-        "chg": -1.14,
+        "chg": -1.38,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T16:43:29.000Z"
+        "time": "2026-08-25T17:36:21.000Z"
       },
       "NVDA": {
-        "price": 212.26,
+        "price": 212.38,
         "prev": 208.47999572753906,
-        "chg": 1.81,
+        "chg": 1.87,
         "basis": "prev-daily-close",
-        "time": "2026-08-25T16:43:41.000Z"
+        "time": "2026-08-25T17:36:45.000Z"
       }
     }
   },
@@ -404,7 +404,7 @@
         "title": "Stanley Druckenmiller leads doubters who think Bessent's bond ploys will fail",
         "link": "https://www.cnbc.com/2026/08/25/stanley-druckenmiller-leads-doubters-who-think-bessents-bond-ploys-will-fail.html",
         "source": "CNBC",
-        "date": "Tue, 25 Aug 2026 16:27:34 GMT",
+        "date": "Tue, 25 Aug 2026 17:15:50 GMT",
         "ko": "스탠리 드러켄밀러 (Stanley Druckenmiller) 는 베센트의 채권 책략이 실패할 것이라고 생각하는 의심하는 사람들을 이끈다.",
         "act": "none",
         "lasting": "temporary",
@@ -413,16 +413,16 @@
         "by": "ai"
       },
       {
-        "title": "These growth stocks are still cheap, despite the S&P 500 being near a record high price-to-sales valuation",
-        "link": "https://www.marketwatch.com/story/these-growth-stocks-are-still-cheap-despite-the-s-p-500-being-near-a-record-high-price-to-sales-valuation-03602260?mod=mw_rss_topstories",
+        "title": "This driverless-truck company could be a ‘long-term winner’ in a market Tesla plans to enter soon",
+        "link": "https://www.marketwatch.com/story/this-driverless-truck-company-could-be-a-long-term-winner-in-a-market-tesla-plans-to-enter-soon-193bc8fe?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Tue, 25 Aug 2026 16:04:00 GMT",
-        "ko": "S&P 500 지수가 사상 최고치에 근접했음에도 불구하고 이러한 성장 주식은 여전히 저렴합니다.",
+        "date": "Tue, 25 Aug 2026 17:32:00 GMT",
+        "ko": "이 무인 트럭 회사는 테슬라가 곧 진입 할 계획 인 시장에서 ‘장기 우승자’ 가 될 수 있습니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
-        "why": "저평가 여부를 다룬 의견성 기사로, 오늘 할 일은 없습니다.",
-        "by": "ai"
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
       },
       {
         "title": "Stanley Druckenmiller and Cathie Wood agree on 2 tech giant stocks",
@@ -449,28 +449,28 @@
         "by": "ai"
       },
       {
-        "title": "Why Meta’s stock could see a 50% rally, thanks to an overlooked AI wild card",
-        "link": "https://www.marketwatch.com/story/why-metas-stock-could-see-a-50-rally-thanks-to-an-overlooked-ai-wild-card-28cea54b?mod=mw_rss_topstories",
+        "title": "These growth stocks are still cheap, despite the S&P 500 being near a record high price-to-sales valuation",
+        "link": "https://www.marketwatch.com/story/these-growth-stocks-are-still-cheap-despite-the-s-p-500-being-near-a-record-high-price-to-sales-valuation-03602260?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Tue, 25 Aug 2026 15:10:00 GMT",
-        "ko": "간과된 인공지능 와일드 카드 덕분에 메타의 주식이 50% 의 랠리를 볼 수 있었던 이유",
+        "date": "Tue, 25 Aug 2026 16:04:00 GMT",
+        "ko": "S&P 500 지수가 사상 최고치에 근접했음에도 불구하고 이러한 성장 주식은 여전히 저렴합니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
-        "why": "목표주가 전망을 다룬 의견 기사로, 장기 이익 구조와는 무관합니다.",
+        "scope": "market",
+        "why": "저평가 여부를 다룬 의견성 기사로, 오늘 할 일은 없습니다.",
         "by": "ai"
       },
       {
-        "title": "Tech stocks today: All eyes on Nvidia earnings, as Apple debuts new Mac Mini, Mac Studio aimed at AI developers",
-        "link": "https://finance.yahoo.com/technology/live/tech-stocks-today-all-eyes-on-nvidia-earnings-as-apple-debuts-new-mac-mini-mac-studio-aimed-at-ai-developers-125406169.html",
+        "title": "HELOC, refinance or home equity loan: What’s the best way to borrow against your home?",
+        "link": "https://finance.yahoo.com/news/home-equity-loan-heloc-vs-214358568.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-24T12:54:06Z",
-        "ko": "오늘날의 기술 주식: 애플이 AI 개발자를 겨냥한 새로운 Mac Mini, Mac Studio를 출시함에 따라 엔비디아 수익에 대한 모든 시선",
+        "date": "2026-08-25T17:22:02Z",
+        "ko": "HELOC, 재융자 또는 주택 담보 대출: 주택 담보 대출을 받을 수 있는 가장 좋은 방법은 무엇인가요?",
         "act": "none",
         "lasting": "temporary",
-        "scope": "sector",
-        "why": "신제품 출시와 실적 발표 대기 소식으로 장기 근거는 그대로입니다.",
-        "by": "ai"
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
       }
     ]
   },
@@ -546,7 +546,9 @@
     "What Nvidia says on Wednesday to address concerns about its competitiveness could be key for the stock": "엔비디아가 경쟁력에 대한 우려를 해결하기 위해 수요일에 한 말은 주식의 핵심이 될 수 있습니다.",
     "Stock market today: Dow, S&P 500, Nasdaq hold steady as US-Canada trade tensions heat up": "오늘날의 주식 시장: 다우, S&P 500, 나스닥은 미국-캐나다 무역 긴장이 가열됨에 따라 안정적으로 유지되고 있습니다.",
     "Stanley Druckenmiller leads doubters who think Bessent's bond ploys will fail": "스탠리 드러켄밀러 (Stanley Druckenmiller) 는 베센트의 채권 책략이 실패할 것이라고 생각하는 의심하는 사람들을 이끈다.",
-    "These growth stocks are still cheap, despite the S&P 500 being near a record high price-to-sales valuation": "S&P 500 지수가 사상 최고치에 근접했음에도 불구하고 이러한 성장 주식은 여전히 저렴합니다."
+    "These growth stocks are still cheap, despite the S&P 500 being near a record high price-to-sales valuation": "S&P 500 지수가 사상 최고치에 근접했음에도 불구하고 이러한 성장 주식은 여전히 저렴합니다.",
+    "This driverless-truck company could be a ‘long-term winner’ in a market Tesla plans to enter soon": "이 무인 트럭 회사는 테슬라가 곧 진입 할 계획 인 시장에서 ‘장기 우승자’ 가 될 수 있습니다.",
+    "HELOC, refinance or home equity loan: What’s the best way to borrow against your home?": "HELOC, 재융자 또는 주택 담보 대출: 주택 담보 대출을 받을 수 있는 가장 좋은 방법은 무엇인가요?"
   },
   "nvCache": {
     "https://www.yna.co.kr/view/AKR20260824137251008": {
@@ -1222,5 +1224,8 @@
       "by": "ai"
     }
   },
-  "failed": []
+  "failed": [
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CePsYLbtA4JEQjd9PsztJ\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CePsYMKJ3VLRWG9NBH6dA\"}"
+  ]
 }
