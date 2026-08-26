@@ -1360,3 +1360,24 @@ body[data-market="us"] .ms-thumb { transform: translateX(100%); }
 }
 .simline-pl { flex: 0 0 auto; margin-left: auto; font-weight: 700; white-space: nowrap; }
 @media (max-width: 400px) { .simline { font-size: 11px; gap: 6px; } }
+
+/* 투자 금액 바꾸기 */
+.seedq-row { display: flex; flex-wrap: wrap; gap: 6px; }
+.seedq {
+  flex: 1 1 auto; min-width: 68px; padding: 9px 6px;
+  border: 1px solid var(--line); border-radius: 9px; background: var(--card);
+  color: var(--accent); font: 700 13px inherit; font-family: inherit; cursor: pointer;
+}
+.seedq.minus { color: var(--bad); }
+.seedin { display: flex; align-items: center; gap: 6px; margin-top: 4px; }
+.seedin input {
+  flex: 1; min-width: 0; padding: 11px; border: 1px solid var(--line);
+  border-radius: 9px; font-size: 16px; font-family: inherit; color: var(--ink); background: #fff;
+}
+.seedin .seedunit { flex: none; font-size: 13px; color: var(--ink-dim); }
+.seedgo {
+  flex: none; padding: 11px 13px; border: 0; border-radius: 9px;
+  background: var(--accent); color: #fff; font: 700 13.5px inherit;
+  font-family: inherit; cursor: pointer;
+}
+.seedgo.minus { background: var(--bad); }

@@ -75,7 +75,10 @@
     /* 기록을 '지난 것까지' 펴 놨는지 (기록별로 따로) */
     logMore: {},
     /* 성향 바꾸기 칸을 폈는지 */
-    styleOpen: false
+    styleOpen: false,
+    /* 투자 금액 바꾸기 */
+    seedOpen: false,
+    seedAmt: ''
   };
   ['kr', 'us'].forEach(function (mk) {
     if (!state.sim[mk] || !state.sim[mk].pos) state.sim[mk] = SIM.blank();
@@ -1606,6 +1609,51 @@
     return l;
   }
 
+  /* ── 투자 금액 바꾸기 ────────────────────────────────────────
+     실제로 넣을 수 있는 돈은 달라진다 — 상여가 들어오기도 하고 목돈이
+     필요해 빼기도 한다. 그때 **뭘 팔고 뭘 남기고 뭘 더 살지**가 가장
+     궁금한데, 여태 시드는 시작할 때 정하면 끝이었다.
+
+     넣으면 목표 비중에 맞춰 나눠 담고, 빼면 목표보다 많던 자리부터 판다.
+     그 결과가 곧 "이럴 때 무엇을 파는가"에 대한 이 앱의 답이다.         */
+  function seedBoxHtml(st, v) {
+    var open = state.seedOpen;
+    var mk = state.market;
+    var chips = [100, 300, 500, 1000].map(function (n) {
+      return '<button class="seedq" data-seedadd="' + n + '">+' + won(n) + '</button>';
+    }).join('') +
+    [100, 300, 500].map(function (n) {
+      return '<button class="seedq minus" data-seedadd="-' + n + '">−' + won(n) + '</button>';
+    }).join('');
+
+    return '<div class="stybox">' +
+      '<button class="styhead" id="seed-toggle">' +
+        '<span>💰 투자 금액 <b>' + won(st.seed) + '</b></span>' +
+        '<span class="styhead-a">' + (open ? '닫기' : '바꾸기') + '</span>' +
+      '</button>' +
+      (open
+        ? '<div class="stybody">' +
+          '<div class="seedq-row">' + chips + '</div>' +
+          '<div class="seedin">' +
+            '<input id="seed-amt" type="number" inputmode="numeric" step="10" ' +
+              'placeholder="직접 입력" value="' + esc(state.seedAmt || '') + '" />' +
+            '<span class="seedunit">만원</span>' +
+            '<button class="seedgo" data-seedadd="in">넣기</button>' +
+            '<button class="seedgo minus" data-seedadd="out">빼기</button>' +
+          '</div>' +
+          '<div class="stynote">' +
+            '<b>넣으면</b> 목표 비중에 맞춰 나눠 담습니다.<br>' +
+            '<b>빼면</b> 현금이 모자란 만큼 <b>목표보다 많던 자리부터</b> 팝니다 — ' +
+            '오른 종목은 저절로 비중이 커져 있으니 자연히 비싸진 것부터 덜어냅니다.<br>' +
+            '넣고 뺀 돈은 <b>손익이 아닙니다.</b> 수익률은 그대로 유지됩니다.' +
+          '</div>' +
+          '<div class="stynote">지금 현금 <b>' + won(v.cash) + '</b> · ' +
+            '평가금액 <b>' + won(v.total) + '</b> (여기까지 뺄 수 있습니다)</div>' +
+          '</div>'
+        : '') +
+    '</div>';
+  }
+
   /* ── 성향 바꾸기 ─────────────────────────────────────────────
      여태 성향은 시작할 때 한 번 정하면 초기화 말고는 못 바꿨다. 그런데
      성향을 바꿔야 할 일은 실제로 생긴다 — 쓸 시점이 멀어졌다거나, 소득이
@@ -1727,6 +1775,14 @@
     var fresh = simNew(mk);
     if (!fresh.length) return '';
     var rows = fresh.map(function (l) {
+      if (l.kind === 'cash') {
+        var into = l.n === '투자 금액 추가';
+        return '<div class="snw-row">' +
+          '<span class="snw-k ' + (into ? 'buy' : 'sell') + '">' + (into ? '입금' : '출금') + '</span>' +
+          '<span class="snw-b"><b>' + won(l.amt) + '</b> ' + (into ? '넣었습니다' : '뺐습니다') +
+            '<span class="snw-d">' + l.ts + (l.why ? ' · ' + esc(l.why) : '') + '</span>' +
+          '</span></div>';
+      }
       if (l.kind === 'note') {
         return '<div class="snw-row">' +
           '<span class="snw-k note">변경</span>' +
@@ -1826,6 +1882,7 @@
 
     h.push(simNewHtml(state.market));
     h.push(styleSwitchHtml(st, state.market));
+    h.push(seedBoxHtml(st, v));
 
     h.push('<div class="card sum simsum">' +
       '<div class="sum-top"><span class="sum-l">모의 평가금액</span><span class="sum-v">' + money(v.total) + '</span></div>' +
@@ -1923,7 +1980,8 @@
     var logHtml = logFoldHtml(st.log, 'log', function (l) {
       /* 성향 변경 같은 '거래가 아닌 기록'도 같은 줄에 남긴다. 계좌가 왜
          달라졌는지는 매매만으로는 설명되지 않는다. */
-      var kindLab = l.kind === 'buy' ? '매수' : l.kind === 'sell' ? '매도' : '변경';
+      var kindLab = l.kind === 'buy' ? '매수' : l.kind === 'sell' ? '매도'
+        : l.kind === 'cash' ? (l.n === '투자 금액 추가' ? '입금' : '출금') : '변경';
       return '<div class="logrow"><span class="log-k ' + l.kind + '">' + kindLab + '</span>' +
         '<span class="log-n">' + esc(l.n) + (l.auto ? '<span class="log-auto">자동</span>' : '') + '</span>' +
         '<span class="log-a">' + (l.kind === 'note' ? '' : won(l.amt)) + '</span>' +
@@ -2584,6 +2642,37 @@
       if (pk) { state.sq = pk.name; state.sSel = { t: pk.ticker, n: pk.name, etf: 0, uni: true }; render(); }
       return;
     }
+    if (ev.target.id === 'seed-toggle' || ev.target.closest('#seed-toggle')) {
+      state.seedOpen = !state.seedOpen;
+      render();
+      return;
+    }
+    if ((el = ev.target.closest('[data-seedadd]'))) {
+      var raw = el.dataset.seedadd;
+      var amt;
+      if (raw === 'in' || raw === 'out') {
+        var box = document.getElementById('seed-amt');
+        amt = Math.abs(parseFloat(box && box.value) || 0);
+        if (raw === 'out') amt = -amt;
+      } else {
+        amt = parseFloat(raw) || 0;
+      }
+      if (!amt) { state.simMsg = '넣거나 뺄 금액을 적어주세요.'; render(); return; }
+      var res = SIM.resize(simState(), Object.assign(simCtx(), { amount: amt }));
+      if (!res.ok) {
+        state.simMsg = '⚠️ ' + res.why;
+      } else {
+        var sold = (res.sold || []).length;
+        state.simMsg = (amt > 0 ? won(amt) + '을 넣었습니다.' : won(-amt) + '을 뺐습니다.') +
+          (sold ? ' ' + sold + '곳에서 마련했습니다.' : '') +
+          ' 목표 비중에 맞춰 정리합니다.';
+        state.seedAmt = '';
+        simSave();
+      }
+      state.seedOpen = false;
+      render();
+      return;
+    }
     if (ev.target.id === 'sty-toggle' || ev.target.closest('#sty-toggle')) {
       state.styleOpen = !state.styleOpen;
       render();
@@ -2798,6 +2887,7 @@
       var f = parseInt(ev.target.value, 10);
       if (f >= 800 && f <= 2500) { state.profile.fx = f; save('profile', state.profile); }
     }
+    if (ev.target.id === 'seed-amt') { state.seedAmt = ev.target.value; return; }
     if (ev.target.id === 'sq') {
       state.sq = ev.target.value;
       state.sSel = null;

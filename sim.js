@@ -289,6 +289,80 @@ window.BCSim = (function () {
   }
 
   /* 계획을 실제로 실행한다. 매도를 먼저 끝내고 매수로 넘어간다. */
+  /* ── 투자 금액 바꾸기 ────────────────────────────────────────
+     실제로 넣을 수 있는 돈은 달라진다. 상여가 들어오기도 하고, 목돈이
+     필요해 빼기도 한다. 그때 **뭘 팔고 뭘 남기고 뭘 더 살지**가 가장
+     궁금한 대목인데, 여태 모의투자는 시작할 때 정한 시드로 고정이었다.
+
+     회계
+       입금·출금은 **손익이 아니다.** cash 와 함께 seed 도 같이 움직여야
+       수익률이 거짓말을 하지 않는다. (pl = total − seed 이므로, 돈만
+       넣고 seed 를 그대로 두면 넣은 돈이 수익으로 잡힌다.)
+
+     뺄 때 무엇을 파는가
+       목표 비중에서 **가장 많이 벗어난 자리부터** 판다. 오른 종목은
+       저절로 비중이 커져 있으므로, 자연히 "비싸진 것부터 덜어내는" 순서가
+       된다. 균등하게 나눠 파는 것보다 목표에 가까워진다.                */
+  function raiseCash(st, o, want) {
+    if (!(want > 0)) return [];
+    var v = value(st, o);
+    var sold = [];
+    /* 목표 초과분이 큰 순서. 목표를 모르면(모델 없음) 평가액 큰 순서. */
+    var order = v.rows.filter(function (r) { return r.known && r.value > 0; })
+      .sort(function (a, b) {
+        var da = a.dT === null ? a.weight : a.dT;
+        var db = b.dT === null ? b.weight : b.dT;
+        return db - da;
+      });
+    for (var i = 0; i < order.length && want > 0.01; i++) {
+      var r = order[i];
+      var take = Math.min(r.value, want);
+      var res = sell(st, { live: o.live, market: o.market, fx: o.fx, today: o.today,
+        ticker: r.t, amount: take, all: take >= r.value - 0.01,
+        why: '투자 금액을 줄이며 · 목표보다 많던 자리부터', auto: true });
+      if (res.ok) { want -= take; sold.push({ t: r.t, n: r.n, amt: take }); }
+    }
+    return sold;
+  }
+
+  /* amount: 만원. 양수면 입금, 음수면 출금. */
+  function resize(st, o) {
+    var amt = Math.round((Number(o.amount) || 0) * 100) / 100;
+    if (!st.started) return { ok: false, why: '아직 시작하지 않았습니다' };
+    if (!amt) return { ok: false, why: '금액이 0입니다' };
+
+    var sold = [];
+    if (amt > 0) {
+      st.cash += amt;
+      st.seed += amt;
+    } else {
+      var need = -amt;
+      var v = value(st, o);
+      if (need > v.total + 0.01) {
+        return { ok: false, why: '전체 평가금액(' + Math.round(v.total) + '만원)보다 많이 뺄 수는 없습니다' };
+      }
+      if (st.cash < need) sold = raiseCash(st, o, need - st.cash);
+      /* 시세를 못 받아온 종목이 섞여 있으면 다 못 팔 수도 있다 */
+      if (st.cash < need - 0.01) {
+        return { ok: false, why: '현금을 다 만들지 못했습니다(시세 없는 종목이 있습니다)' };
+      }
+      st.cash -= need;
+      st.seed -= need;
+    }
+
+    st.log.unshift({
+      ts: o.today, kind: 'cash', n: amt > 0 ? '투자 금액 추가' : '투자 금액 회수',
+      amt: Math.abs(amt), seed: st.seed,
+      why: (amt > 0 ? '시드 ' : '시드 ') + Math.round(st.seed - amt) + '만원 → ' +
+           Math.round(st.seed) + '만원' +
+           (sold.length ? ' · ' + sold.length + '곳에서 마련' : '')
+    });
+    /* 바뀐 금액에 맞춰 곧바로 목표 비중으로 맞춘다. 다음 금요일까지
+       기다리면 "돈을 넣었는데 아무 일도 안 일어나는" 상태가 된다. */
+    st.lastAuto = null;
+    return { ok: true, added: amt, sold: sold, seed: st.seed };
+  }
+
   /* 조정할 날인가.
      매일 조정하면 계좌는 목표에 딱 붙지만, 그걸 실제 계좌로 옮기는 사람은
      매일 사고팔아야 한다. 직장인에게는 불가능하고, 이 앱의 실수 목록에도
@@ -350,6 +424,6 @@ window.BCSim = (function () {
 
   return {
     blank: blank, start: start, buy: buy, sell: sell, value: value, priceOf: priceOf,
-    autoRun: autoRun, drift: drift, band: BAND, dueToday: dueToday
+    autoRun: autoRun, drift: drift, band: BAND, dueToday: dueToday, resize: resize
   };
 })();
