@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-26T08:11:38.424Z",
+  "asOf": "2026-08-26T10:01:08.374Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -7,21 +7,21 @@
       "prev": 6742.740234375,
       "chg": 0.97,
       "basis": "prev-daily-close",
-      "time": "2026-08-26T06:33:00.000Z"
+      "time": "2026-08-26T09:05:40.000Z"
     },
     "^KQ11": {
       "price": 826.87,
       "prev": 827.1500244140625,
       "chg": -0.03,
       "basis": "prev-daily-close",
-      "time": "2026-08-26T06:32:50.000Z"
+      "time": "2026-08-26T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1384.2,
+      "price": 1384.73,
       "prev": 1380.760009765625,
-      "chg": 0.25,
+      "chg": 0.29,
       "basis": "prev-daily-close",
-      "time": "2026-08-26T08:08:09.000Z"
+      "time": "2026-08-26T10:00:56.000Z"
     },
     "^GSPC": {
       "price": 7677.28,
@@ -38,11 +38,11 @@
       "time": "2026-08-25T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 15.68,
+      "price": 15.7,
       "prev": 15.449999809265137,
-      "chg": 1.49,
+      "chg": 1.62,
       "basis": "prev-daily-close",
-      "time": "2026-08-26T07:53:16.000Z"
+      "time": "2026-08-26T09:45:46.000Z"
     },
     "^TNX": {
       "price": 4.639,
@@ -55,7 +55,7 @@
   "fx": {
     "low52": 1377.64,
     "high52": 1554.48,
-    "pct": 0.037
+    "pct": 0.04
   },
   "hist": {
     "^KS11": {
@@ -73,11 +73,11 @@
       "chg3m": -27.03
     },
     "KRW=X": {
-      "last": 1384.2,
+      "last": 1384.73,
       "low52": 1377.64,
       "high52": 1554.48,
-      "pct52": 0.037,
-      "chg3m": -8.14
+      "pct52": 0.04,
+      "chg3m": -8.1
     },
     "^GSPC": {
       "last": 7677.28,
@@ -94,11 +94,11 @@
       "chg3m": -1.96
     },
     "^VIX": {
-      "last": 15.68,
+      "last": 15.7,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.126,
-      "chg3m": -0.38
+      "pct52": 0.127,
+      "chg3m": -0.25
     },
     "^TNX": {
       "last": 4.64,
@@ -110,14 +110,14 @@
   },
   "regime": {
     "by": "rules",
-    "asOf": "2026-08-26T08:11:37.727Z",
+    "asOf": "2026-08-26T10:01:07.854Z",
     "kr": {
       "why": {
         "rates": "미국 10년물 금리가 지금 4.64%로, 3개월 전보다 3.53% 높고 최근 1년 범위(3.95~4.74)의 87% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
         "growth": "지수가 3개월 전보다 -17.26% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
         "valuation": "지수가 최근 1년 범위의 61% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
-        "fx": "원/달러가 1384.2원으로 최근 1년(1377.64~1554.48) 범위의 4% 지점입니다.",
-        "geo": "VIX 가 15.68입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
+        "fx": "원/달러가 1384.73원으로 최근 1년(1377.64~1554.48) 범위의 4% 지점입니다.",
+        "geo": "VIX 가 15.7입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
       },
       "rates": "hike",
       "growth": "reces",
@@ -131,8 +131,8 @@
         "rates": "미국 10년물 금리가 지금 4.64%로, 3개월 전보다 3.53% 높고 최근 1년 범위(3.95~4.74)의 87% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
         "growth": "지수가 3개월 전보다 +2.09% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
         "valuation": "지수가 최근 1년 범위의 92% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
-        "fx": "원/달러가 1384.2원으로 최근 1년(1377.64~1554.48) 범위의 4% 지점입니다.",
-        "geo": "VIX 가 15.68입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
+        "fx": "원/달러가 1384.73원으로 최근 1년(1377.64~1554.48) 범위의 4% 지점입니다.",
+        "geo": "VIX 가 15.7입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
       },
       "rates": "hike",
       "growth": "expand",
@@ -333,6 +333,39 @@
   "news": {
     "kr": [
       {
+        "title": "'금통위 경계' 국고채 금리 하락폭 축소…3년물 연 3.816%(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260826151251008",
+        "source": "연합뉴스",
+        "date": "Wed, 26 Aug 2026 17:12:49 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "올 코스피 신규상장 4건…2022년 이후 '최저'",
+        "link": "https://www.hankyung.com/article/2026082648831",
+        "source": "한국경제",
+        "date": "Wed, 26 Aug 2026 17:57:19 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "에코글로우, 50억원 규모 유상증자 실시",
+        "link": "https://www.mk.co.kr/news/stock/12137040",
+        "source": "매일경제",
+        "date": "Wed, 26 Aug 2026 17:56:15 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
         "title": "국고채 금리 대체로 하락…3년물 연 3.816%",
         "link": "https://www.yna.co.kr/view/AKR20260826151200008",
         "source": "연합뉴스",
@@ -344,10 +377,10 @@
         "by": "rules"
       },
       {
-        "title": "카카오 쪼개기에 싸늘한 시장…\"중복상장 디스카운트 더 커진다\"",
-        "link": "https://www.hankyung.com/article/202608264386i",
+        "title": "“반도체 호황, 2030년까지 간다” [한경 프리미엄9 TODAY]",
+        "link": "https://www.hankyung.com/article/2026082648061",
         "source": "한국경제",
-        "date": "Wed, 26 Aug 2026 16:03:54 +0900",
+        "date": "Wed, 26 Aug 2026 17:55:29 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -355,46 +388,13 @@
         "by": "rules"
       },
       {
-        "title": "美 IBKR, 다올투자증권과 전략적 제휴 …양방향 글로벌 투자 플랫폼 구축 ‘맞손’",
-        "link": "https://www.mk.co.kr/news/stock/12136883",
+        "title": "삼성FN리츠, 971억원 규모 유상증자 실시",
+        "link": "https://www.mk.co.kr/news/stock/12137041",
         "source": "매일경제",
-        "date": "Wed, 26 Aug 2026 16:37:03 +09:00",
+        "date": "Wed, 26 Aug 2026 17:56:15 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "에코글로우, 50억원 유상증자…글로벌시티 등에 3자 배정",
-        "link": "https://www.yna.co.kr/view/AKR20260826150800008",
-        "source": "연합뉴스",
-        "date": "Wed, 26 Aug 2026 16:39:19 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "\"호실적도 안 먹힌다\"…월가 시선, 엔비디아서 '금리'로",
-        "link": "https://www.hankyung.com/article/202608264289i",
-        "source": "한국경제",
-        "date": "Wed, 26 Aug 2026 15:49:42 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "‘전약후강’ 코스피 6800선 회복…개인 2조원 ‘팔자’에도 0.97% 상승",
-        "link": "https://www.mk.co.kr/news/stock/12136869",
-        "source": "매일경제",
-        "date": "Wed, 26 Aug 2026 16:20:51 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -413,16 +413,16 @@
         "by": "ai"
       },
       {
-        "title": "Why Meta’s stock could see a 50% rally, thanks to an overlooked AI wild card",
-        "link": "https://www.marketwatch.com/story/why-metas-stock-could-see-a-50-rally-thanks-to-an-overlooked-ai-wild-card-28cea54b?mod=mw_rss_topstories",
+        "title": "Customers are fleeing TurboTax over price, and Intuit’s stock is sliding",
+        "link": "https://www.marketwatch.com/story/customers-are-fleeing-turbotax-over-price-and-intuits-stock-is-sliding-a37dcce0?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Tue, 25 Aug 2026 21:01:00 GMT",
-        "ko": "간과된 인공지능 와일드 카드 덕분에 메타의 주식이 50% 의 랠리를 볼 수 있었던 이유",
+        "date": "Wed, 26 Aug 2026 09:50:00 GMT",
+        "ko": "고객은 가격 때문에 TurboTax를 피하고 있으며, Intuit의 재고는 미끄러지고 있습니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
-        "why": "목표주가 전망을 다룬 의견 기사로, 장기 이익 구조와는 무관합니다.",
-        "by": "ai"
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
       },
       {
         "title": "Louis Navellier has blunt message on Nvidia’s reign before earnings",
@@ -449,11 +449,11 @@
         "by": "ai"
       },
       {
-        "title": "Why AMD can beat rivals Intel and Nvidia in the market for data-center CPUs",
-        "link": "https://www.marketwatch.com/story/why-amd-can-beat-rivals-intel-and-nvidia-in-the-market-for-data-center-cpus-e49a53f1?mod=mw_rss_topstories",
+        "title": "Japan got caught in the tech selloff. Now it’s time to buy the dip, says strategist.",
+        "link": "https://www.marketwatch.com/story/japan-got-caught-in-the-tech-selloff-now-its-time-to-buy-the-dip-says-strategist-c7b4ed5f?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Tue, 25 Aug 2026 20:59:00 GMT",
-        "ko": "AMD가 데이터 센터 CPU 시장에서 경쟁사인 인텔과 엔비디아를 이길 수 있는 이유",
+        "date": "Wed, 26 Aug 2026 09:09:00 GMT",
+        "ko": "일본은 기술 매도에 휘말렸습니다. 전략가는 이제 딥을 구입할 때라고 말합니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -461,14 +461,14 @@
         "by": "rules"
       },
       {
-        "title": "Coinbase Debuts Tokenized Stocks On Base Network",
-        "link": "https://finance.yahoo.com/markets/crypto/articles/coinbase-debuts-tokenized-stocks-network-201600568.html",
+        "title": "Treasuries Have Reclaimed the Yield Crown From Dividend Stocks. Here’s How Income Investors Can Adapt.",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/treasuries-reclaimed-yield-crown-dividend-233002409.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-24T20:16:00Z",
-        "ko": "Coinbase, 기본 네트워크에서 토큰화된 주식 출시",
+        "date": "2026-08-24T23:30:02Z",
+        "ko": "재무부는 배당주로부터 수익률 왕관을 되찾았습니다. 다음은 소득 투자자가 적응할 수 있는 방법입니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -560,7 +560,10 @@
     "SK hynix Could Close Its Valuation Gap Soon, Says Wedbush. That’s Good News for SKHY Stock.": "Wedbush는 SK hynix가 곧 평가 격차를 좁힐 수 있다고 말합니다. SKHY 주식에 좋은 소식입니다.",
     "Louis Navellier has blunt message on Nvidia’s reign before earnings": "루이 나벨리에 (Louis Navellier) 는 수입을 올리기 전에 엔비디아의 통치에 대한 무뚝뚝한 메시지를 전합니다.",
     "Case Closed: How to Play Super Micro Computer Stock as Smuggling Investigation Ends": "사안 종결됨: 밀수 수사가 종료됨에 따라 슈퍼 마이크로 컴퓨터 주식을 재생하는 방법",
-    "Coinbase Debuts Tokenized Stocks On Base Network": "Coinbase, 기본 네트워크에서 토큰화된 주식 출시"
+    "Coinbase Debuts Tokenized Stocks On Base Network": "Coinbase, 기본 네트워크에서 토큰화된 주식 출시",
+    "Customers are fleeing TurboTax over price, and Intuit’s stock is sliding": "고객은 가격 때문에 TurboTax를 피하고 있으며, Intuit의 재고는 미끄러지고 있습니다.",
+    "Japan got caught in the tech selloff. Now it’s time to buy the dip, says strategist.": "일본은 기술 매도에 휘말렸습니다. 전략가는 이제 딥을 구입할 때라고 말합니다.",
+    "Treasuries Have Reclaimed the Yield Crown From Dividend Stocks. Here’s How Income Investors Can Adapt.": "재무부는 배당주로부터 수익률 왕관을 되찾았습니다. 다음은 소득 투자자가 적응할 수 있는 방법입니다."
   },
   "nvCache": {
     "https://www.yna.co.kr/view/AKR20260824137251008": {
@@ -1237,8 +1240,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeR2FahY6tETnRSSz61CJ\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeR2FbxSUGg8S85SkJM1g\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeR2FcSxkxM9eEQRwChqD\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeRAbthzrzc68utTyuR1h\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeRAbuQfJcWjMqxyDmjqn\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeRAbuqiAH1MEWcXcN1o5\"}"
   ]
 }
