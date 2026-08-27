@@ -1,0 +1,146 @@
+# ============================================================================
+# beat.yml — 스스로 이어 도는 심장박동
+# ----------------------------------------------------------------------------
+# 왜 이게 필요한가
+#   GitHub 크론이 이 저장소의 예약을 거의 안 잡아 준다. 확인한 것:
+#   워크플로는 active, 손으로 돌리면 15초에 끝남, 공개 저장소라 사용량 제한도
+#   아님. '*/30' 을 '8,38' 로 풀고 정각을 피해 봤지만 그 뒤로도 한 번도 안
+#   걸렸다. 크론을 더 만지는 건 의미가 없다.
+#
+#   대신 GITHUB_TOKEN 으로 workflow_dispatch 를 부르면 새 실행이 뜬다는 걸
+#   확인했다(diag.yml 의 selftest — github-actions[bot] 이 띄운 실행이 실제로
+#   생겼다). 그래서 **한 회차가 끝나면서 다음 회차를 직접 부른다.**
+#
+# 무엇을 하는가 (한 회차)
+#   1. 다른 회차가 이미 돌고 있으면 조용히 빠진다 — 두 줄기가 되면 두 배로
+#      돈다. 이게 이 파일에서 제일 중요한 안전장치다.
+#   2. 시세를 받아 live.json 에 커밋한다.
+#   3. 기준 계좌를 굴리고(sim-run.json) 알릴 게 있으면 카카오톡을 보낸다.
+#   4. 다음 회차까지 기다렸다가 자기 자신을 다시 부른다.
+#
+# ⚠️ 어떤 단계가 실패해도 **다음 회차 호출은 반드시 한다**(if: always()).
+#    한 번 끊기면 스스로 되살아나지 못하기 때문이다. 그래도 끊길 경우를 대비해
+#    크론도 남겨 둔다 — 어쩌다 한 번이라도 걸리면 거기서 다시 이어진다.
+#
+# ⚠️ 이 방식은 러너를 계속 붙들고 있는다(대기 시간 포함). 공개 저장소라
+#    요금은 없지만 무료 자원을 점유하는 구조다. 멈추려면 이 워크플로를
+#    Actions 탭에서 disable 하면 된다 — 다음 호출이 거절되면서 자연히 끊긴다.
+# ============================================================================
+
+name: beat
+
+on:
+  workflow_dispatch:
+    inputs:
+      chain:
+        description: '(내부용) 이어달리기로 들어왔음을 표시'
+        required: false
+        default: ''
+  schedule:
+    # 사슬이 끊겼을 때 되살리는 용도. 안 걸려도 그만이고, 걸리면 거기서 잇는다.
+    - cron: '13 * * * *'
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  beat:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      ANTHROPIC_API_KEY:   ${{ secrets.ANTHROPIC_API_KEY }}
+      DEEPL_API_KEY:       ${{ secrets.DEEPL_API_KEY }}
+      MYMEMORY_EMAIL:      ${{ secrets.MYMEMORY_EMAIL }}
+      KAKAO_REST_KEY:      ${{ secrets.KAKAO_REST_KEY }}
+      KAKAO_REFRESH_TOKEN: ${{ secrets.KAKAO_REFRESH_TOKEN }}
+      KAKAO_CLIENT_SECRET: ${{ secrets.KAKAO_CLIENT_SECRET }}
+      NOTIFY_CAP:          '5'
+      GH_TOKEN:            ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+
+      # ── 두 줄기가 되지 않게 ────────────────────────────────────
+      # 크론과 이어달리기가 겹치면 사슬이 둘이 되고, 그때부터 두 배로 돈다.
+      # 나 말고 다른 회차가 이미 돌고 있으면 여기서 끝낸다(다음 호출도 안 한다).
+      - name: 겹치는지 본다
+        id: solo
+        run: |
+          n=$(curl -sS -H "Authorization: Bearer $GH_TOKEN" \
+              "https://api.github.com/repos/${GITHUB_REPOSITORY}/actions/workflows/beat.yml/runs?status=in_progress&per_page=20" \
+              | python3 -c "import sys,json;print(len(json.load(sys.stdin).get('workflow_runs',[])))")
+          echo "지금 도는 회차 수: $n (나 포함)"
+          if [ "${n:-1}" -gt 1 ]; then
+            echo "다른 회차가 이미 돌고 있습니다 — 이번 회차는 빠집니다."
+            echo "solo=false" >> $GITHUB_OUTPUT
+          else
+            echo "solo=true" >> $GITHUB_OUTPUT
+          fi
+
+      - uses: actions/setup-node@v4
+        if: steps.solo.outputs.solo == 'true'
+        with:
+          node-version: '20'
+
+      - name: AI 판정용 패키지
+        if: steps.solo.outputs.solo == 'true' && env.ANTHROPIC_API_KEY != ''
+        run: npm install --no-save --no-audit --no-fund @anthropic-ai/sdk zod
+
+      - name: 시세 받아오기
+        if: steps.solo.outputs.solo == 'true'
+        continue-on-error: true
+        run: node scripts/fetch-live.mjs
+
+      - name: 기준 계좌 굴리고 알리기
+        if: steps.solo.outputs.solo == 'true'
+        continue-on-error: true
+        run: node scripts/notify.mjs
+
+      - name: 바뀐 게 있으면 커밋
+        if: steps.solo.outputs.solo == 'true'
+        continue-on-error: true
+        run: |
+          git add live.json sim-run.json
+          if git diff --cached --quiet; then
+            echo "변화 없음 — 커밋하지 않는다"
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: 시세·기준계좌 갱신 [skip ci]"
+          for i in 1 2 3 4 5; do
+            git push && exit 0
+            echo "push 거절 — 다시 받아 얹습니다 ($i/5)"
+            git pull --rebase --autostash origin main || exit 1
+            sleep $((i * 3))
+          done
+          git push
+
+      # ── 다음 회차까지 기다린다 ─────────────────────────────────
+      # 장중에는 촘촘하게, 그 밖에는 뜸하게. 24시간 도는 건 같지만 값이 안
+      # 움직이는 시간에까지 20분마다 두드릴 이유는 없다.
+      #   한국장 00:00~06:40 UTC · 미국장 13:20~21:00 UTC (평일)
+      - name: 다음 회차까지 대기
+        if: steps.solo.outputs.solo == 'true'
+        run: |
+          H=$(date -u +%-H); D=$(date -u +%u)
+          MIN=60
+          if [ "$D" -le 5 ]; then
+            if [ "$H" -le 6 ] || { [ "$H" -ge 13 ] && [ "$H" -le 20 ]; }; then MIN=20; fi
+          fi
+          echo "$MIN 분 뒤에 다음 회차를 부릅니다 (UTC ${H}시, 요일 ${D})"
+          sleep $((MIN * 60))
+
+      # ── 반드시 다음 회차를 부른다 ──────────────────────────────
+      # 위에서 무엇이 실패했든 사슬은 이어야 한다. 한 번 끊기면 스스로
+      # 되살아나지 못한다(그래서 continue-on-error 를 곳곳에 뒀다).
+      - name: 다음 회차 부르기
+        if: always() && steps.solo.outputs.solo == 'true'
+        run: |
+          code=$(curl -sS -o /dev/null -w '%{http_code}' -X POST \
+            -H "Authorization: Bearer $GH_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/${GITHUB_REPOSITORY}/actions/workflows/beat.yml/dispatches" \
+            -d '{"ref":"main","inputs":{"chain":"1"}}')
+          echo "다음 회차 호출 → HTTP $code"
+          [ "$code" = "204" ] || echo "⚠️ 호출 실패. 크론이 걸릴 때 다시 이어집니다."
