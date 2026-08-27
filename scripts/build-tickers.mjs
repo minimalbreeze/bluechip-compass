@@ -138,16 +138,23 @@ async function fetchKR_kind() {
       const c = (tds[i] || '').trim();
       if (/^\d{6}$/.test(c)) { code = c; break; }
     }
+    /* ── 코스피만 남긴다 ────────────────────────────────────
+       이 앱이 다루는 시장은 코스피와 나스닥 둘뿐이다. 코스닥까지 담으면
+       목록이 두 배가 되는데, 정작 앱이 시세도 해설도 붙여 주지 못하는
+       종목이 검색에 잡혀 "등록은 되는데 아무것도 안 뜨는" 자리가 생긴다.
+       KIND 출력의 둘째 열이 시장구분(유가증권/코스닥/코넥스)이다. */
+    const mkt = (tds[1] || '') + ' ' + (tds[2] || '');
+    if (/코스닥|코넥스|KOSDAQ|KONEX/i.test(mkt)) continue;
     if (!name || !code || code === '000000' || seen.has(code)) continue;
     seen.add(code);
     out.push([code, name, 0]);
   }
-  if (out.length < 500) {
+  if (out.length < 300) {
     /* 무엇이 어긋났는지 알아야 고칠 수 있다 — 실제로 파싱된 셀을 그대로 찍는다 */
     const sample = rows.slice(1, 4).map(tr =>
       JSON.stringify(tr.split(/<t[dh][^>]*>/i).slice(1)
         .map(c => clean(c.replace(/<[^>]*>/g, ''))).slice(0, 4))).join(' ');
-    throw new Error('행이 너무 적다: ' + out.length + ' (tr ' + rows.length +
+    throw new Error('코스피 행이 너무 적다: ' + out.length + ' (tr ' + rows.length +
       '개, 셀 표본: ' + sample + ', 응답 앞부분: ' + html.slice(0, 100).replace(/\s+/g, ' ') + ')');
   }
   return out;
@@ -202,14 +209,14 @@ function tidyUSName(n) {
 }
 
 async function fetchUS() {
-  const [a, b] = await Promise.all([
-    getBuffer('https://www.nasdaqtrader.com/dynamic/SymDir/nasdaqlisted.txt').then(x => x.toString('utf8')),
-    getBuffer('https://www.nasdaqtrader.com/dynamic/SymDir/otherlisted.txt').then(x => x.toString('utf8'))
-  ]);
-  const rows = [
-    ...parsePipe(a, { sym: 'Symbol', name: 'Security Name', etf: 'ETF', test: 'Test Issue' }),
-    ...parsePipe(b, { sym: 'ACT Symbol', name: 'Security Name', etf: 'ETF', test: 'Test Issue' })
-  ];
+  /* ── 나스닥 상장만 ──────────────────────────────────────────
+     예전에는 otherlisted.txt(NYSE·AMEX 등)까지 합쳐 12,000종목을 담았다.
+     이 앱이 다루기로 한 시장은 나스닥이므로 그쪽만 받는다. 목록이 절반으로
+     줄어 파일도 가벼워지고, 검색 결과에 "시세도 해설도 없는 종목"이 섞이는
+     일도 줄어든다. */
+  const a = await getBuffer('https://www.nasdaqtrader.com/dynamic/SymDir/nasdaqlisted.txt')
+    .then(x => x.toString('utf8'));
+  const rows = parsePipe(a, { sym: 'Symbol', name: 'Security Name', etf: 'ETF', test: 'Test Issue' });
   const seen = new Set();
   const out = [];
   for (const r of rows) {
@@ -221,7 +228,7 @@ async function fetchUS() {
     seen.add(r.sym);
     out.push([r.sym, tidyUSName(r.name), r.etf ? 1 : 0]);
   }
-  if (out.length < 1000) throw new Error('미국 목록이 너무 적다: ' + out.length);
+  if (out.length < 800) throw new Error('나스닥 목록이 너무 적다: ' + out.length);
   return out;
 }
 

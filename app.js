@@ -258,12 +258,7 @@
 
   /* 그 점수가 어디서 왔는지. 화면에 출처를 밝히려고 쓴다 —
      직접 뜯어본 것과 AI 가 정리한 것을 같은 것처럼 보이게 하지 않는다. */
-  function scoreSrcIn(mk, it) {
-    var picks = D.markets[mk].picks, p = null;
-    if (it.ticker) picks.forEach(function (q) { if (q.ticker === it.ticker) p = q; });
-    if (p) return 'pick';
-    return (it.ticker && analysisOf(it.ticker)) ? 'ai' : null;
-  }
+
 
   /* 그 시장 통화의 현재가. 국내는 원, 미국은 달러. */
   /* 유니버스(live.json)를 먼저 보고, 없으면 넓은 목록(prices.json)을 본다.
@@ -417,10 +412,10 @@
      선택은 전부 저장되므로 한 번 정리해두면 계속 그 모습으로 열린다.
      ══════════════════════════════════════════════════════════════ */
   var WIDGETS = [
-    { key: 'market',    icon: '📊', title: '시장 지수와 등락 요인', on: true },
-    { key: 'news',      icon: '📰', title: '오늘의 증권 뉴스',      on: true },
     { key: 'portfolio', icon: '💼', title: '내 투자 현황',          on: true },
     { key: 'sim',       icon: '🎮', title: '모의투자 현황',        on: true },
+    { key: 'market',    icon: '📊', title: '시장 지수와 등락 요인', on: true },
+    { key: 'news',      icon: '📰', title: '오늘의 증권 뉴스',      on: true },
     { key: 'daily',     icon: '🗓️', title: '오늘의 점검 한 가지',   on: true }
   ];
 
@@ -1021,18 +1016,29 @@
         mk.flag + ' ' + mk.label + ' — ' + agoText(LIVE.regime.asOf) + ' 갱신된 값 기준</div>');
     }
 
-    if (widgetOn('market'))    h.push(fold('w-market', '📊', mk.full, marketWidget()));
-    if (widgetOn('news'))      h.push(fold('w-news', '📰', '오늘의 증권 뉴스', newsWidget()));
+    /* ── 홈의 순서 ────────────────────────────────────────────────
+       이 앱의 목적은 "AI 가 굴리는 계좌를 보고 내 계좌를 맞춘다"이다.
+       그러면 홈에서 제일 먼저 보여야 하는 건 **내 계좌와 AI 계좌**다.
+
+       예전 순서는 지수 → 뉴스 → 내 투자 → 모의투자였다. 그런데 뉴스가
+       여섯 건씩 펼쳐져 홈의 절반을 먹었고(게다가 여섯 건 모두 "오늘 할 일
+       없음"이라 같은 문장이 여섯 번 반복됐다), 정작 목적에 해당하는 두
+       칸은 세 화면쯤 스크롤해야 나왔다. 순서를 뒤집는다.
+
+       지수와 뉴스는 참고 자료다. 접어 두고, 필요할 때 편다. */
     if (widgetOn('portfolio')) h.push(fold('w-portfolio', '💼', '내 투자 현황', portfolioWidget(), { badge: portfolioBadge() }));
-    /* 안 본 거래가 있으면 건수를 먼저 알린다 — 홈에서 접힌 채로도 보인다 */
     if (widgetOn('sim')) {
-      /* 뱃지도 두 시장을 합쳐서 본다 — 홈은 전체를 보는 자리다 */
+      /* 안 본 거래가 있으면 건수를 먼저 알린다 — 접힌 채로도 보인다.
+         뱃지도 두 시장을 합쳐서 본다 — 홈은 전체를 보는 자리다. */
       var un = simUnseen('kr') + simUnseen('us');
       var anyRun = !!(state.sim.kr.started || state.sim.us.started);
       h.push(fold('w-sim', '🎮', '모의투자 현황', simWidget(),
         { badge: un ? '🆕 ' + un + '건' : (anyRun ? '진행 중' : '') }));
     }
-    if (widgetOn('daily'))     h.push(fold('w-daily', '🗓️', '오늘의 점검 한 가지', dailyWidget()));
+    if (widgetOn('market'))    h.push(fold('w-market', '📊', mk.full, marketWidget()));
+    if (widgetOn('news'))      h.push(fold('w-news', '📰', '오늘의 증권 뉴스', newsWidget(),
+      { open: false, badge: newsBadge() }));
+    if (widgetOn('daily'))     h.push(fold('w-daily', '🗓️', '오늘의 점검 한 가지', dailyWidget(), { open: false }));
 
     if (!WIDGETS.some(function (w) { return widgetOn(w.key); })) {
       h.push('<div class="note">홈에 올린 내용이 없습니다. 오른쪽 위 ⚙️ 로 다시 켤 수 있습니다.</div>');
@@ -1068,15 +1074,27 @@
     h.push('</div>');
 
     var hasQuote = LIVE && LIVE.quotes && Object.keys(LIVE.quotes).length > 0;
+    /* ── 시세가 언제 것인지 ────────────────────────────────────
+       ⚠️ 클래스 이름은 반드시 새로 짓는다. 처음엔 여기에 `.stale` 을 썼는데
+          그 이름은 이미 국면 진단 배지가 쓰고 있었고(display:flex), 그래서
+          글자 조각이 전부 flex 칸이 되어 세로로 쪼개졌다. 이름을 겹쳐 쓰면
+          남의 레이아웃을 그대로 물려받는다. */
     var stale = liveStale();
-    h.push('<div class="idxnote' + (stale ? ' stale' : '') + '">' + (hasQuote && LIVE.asOf
+    var body = hasQuote && LIVE.asOf
       ? (stale
-          ? '⚠️ <b>지금 장이 열려 있는데 시세가 ' + agoText(LIVE.asOf) + ' 것입니다.</b> ' +
-            '자동 수집이 밀리면 이런 일이 생깁니다. 아래 숫자는 그때 기준이니, ' +
-            '판단하기 전에 <b>다시 받아 주세요.</b>'
-          : '🕒 <b>' + agoText(LIVE.asOf) + '</b> 받아온 값입니다. 실시간 호가가 아니라 <b>장중에 30분~1시간 간격으로 받아오는 스냅샷</b>이고, 장 마감 뒤에는 마지막 종가가 유지됩니다. 위 시각이 이 화면이 아는 전부입니다.') +
-        '<button class="linkbtn refresh" id="live-refresh">🔄 지금 다시 받기</button>'
-      : '시세를 아직 못 받아왔습니다. <button class="linkbtn refresh" id="live-refresh">🔄 다시 받기</button>') + '</div>');
+          ? '<b>장중인데 시세가 ' + agoText(LIVE.asOf) + ' 값입니다</b>' +
+            '<span>아래 숫자는 그때 기준입니다. 판단 전에 다시 받아 주세요.</span>'
+          /* 평상시에는 한 줄로 끝낸다. 매번 세 줄짜리 설명을 읽히면
+             정작 중요한 "언제 값인가"가 묻힌다. 자세한 사정은 낡았을 때만
+             말한다 — 그때가 실제로 알아야 하는 순간이다. */
+          : '<span><b>' + agoText(LIVE.asOf) + '</b> 받아온 값</span>')
+      : '<span>시세를 아직 못 받아왔습니다.</span>';
+
+    h.push('<div class="freshbar' + (stale ? ' is-old' : '') + '">' +
+      '<span class="fresh-i">' + (stale ? '⚠️' : '🕒') + '</span>' +
+      '<div class="fresh-t">' + body + '</div>' +
+      '<button class="fresh-b" id="live-refresh">다시 받기</button>' +
+    '</div>');
 
     return h.join('');
   }
@@ -1195,6 +1213,16 @@
     return '<div class="rollup warn">기사 ' + list.length + '건 중 ' + parts.join(', ') +
       ', 나머지 ' + n.none + '건은 할 일 없음. <b>오늘 매매하라는 뜻이 아닙니다.</b>' +
       ' <span class="rollup-by">' + by + ' 판정</span>' + mineLine + '</div>';
+  }
+
+  /* 접힌 채로도 "오늘 볼 게 있나"만은 알 수 있어야 한다.
+     펴야만 알 수 있으면 결국 매일 펴게 되고, 접어 둔 뜻이 없어진다. */
+  function newsBadge() {
+    var list = (LIVE && LIVE.news && LIVE.news[state.market]) || [];
+    if (!list.length) return '';
+    var n = 0;
+    list.forEach(function (x) { if (x.act === 'review' || x.act === 'watch') n++; });
+    return n ? '🔎 ' + n + '건' : '할 일 없음';
   }
 
   /* ── 위젯: 뉴스 ──
@@ -2190,26 +2218,16 @@
             : ' · 목표대로') +
           '<span class="wsub2">시작 ' + r.w0 + '%' +
             (Math.abs(r.dw) >= 0.1 ? ' (' + (r.dw > 0 ? '+' : '') + r.dw + '%p)' : '') + '</span></div>' +
-        '<div class="simrow-act">' +
-          '<button class="sbtn buy" data-trade="buy" data-t="' + esc(r.t) + '" data-n="' + esc(r.n) + '">추가 매수</button>' +
-          '<button class="sbtn sell" data-trade="sell" data-t="' + esc(r.t) + '" data-n="' + esc(r.n) + '">매도</button>' +
-          '<button class="sbtn" data-trade="sellall" data-t="' + esc(r.t) + '" data-n="' + esc(r.n) + '">전량</button>' +
-        '</div></div>';
+        '</div>';
     });
     if (!v.rows.length) rowsHtml = '<div class="slot-d">보유 종목이 없습니다. 아래에서 사보세요.</div>';
     h.push(fold('sim-pos', '📦', '보유 종목', rowsHtml, { badge: v.rows.length || '' }));
 
-    var buyHtml = '<div class="addform">' +
-      '<select id="sim-pick">' + mk.picks.map(function (x) {
-        var pr = SIM.priceOf(LIVE, state.market, x.ticker, p.fx);
-        return '<option value="' + esc(x.ticker) + '"' + (pr ? '' : ' disabled') + '>' +
-          esc(x.name) + (pr ? '' : ' (시세 없음)') + '</option>';
-      }).join('') + '</select>' +
-      '<div class="addrow"><label>금액<input id="sim-amt" type="number" inputmode="numeric" placeholder="만원" min="0" step="10" /></label>' +
-      '<label>보유 현금<input value="' + Math.floor(v.cash) + '" disabled /></label></div>' +
-      '<button class="btn" id="sim-buy">매수</button>' +
-      '<div class="addnote">체결가는 <b>30분마다 갱신되는 스냅샷 가격</b>입니다. 실제 체결가가 아닙니다.</div></div>';
-    h.push(fold('sim-buy', '🛒', '새로 사기', buyHtml, { open: false }));
+    /* ⚠️ 여기에 있던 "새로 사기" 폼과 종목별 추가매수·매도·전량 단추를 뺐다.
+       이 계좌는 **AI 가 굴리는 기준 계좌**다. 사용자가 할 일은 여기서 손으로
+       사고파는 게 아니라, 여기서 일어난 일을 보고 **자기 계좌를 맞추는 것**이다.
+       손으로 사는 칸을 두면 "내 두 번째 계좌"가 되어 버려서, 따라 할 기준이
+       사라진다. 손대고 싶으면 성향·금액을 바꾸면 되고, 그건 위에 있다. */
 
     /* ── 매매 장부 ──
        "무엇을 언제 얼마에 사서, 언제 얼마에 팔아 얼마 남았나."
@@ -2240,8 +2258,12 @@
       ledgerHtml += '<div class="note">평단은 <b>평균 매수 단가</b> 기준입니다. ' +
         '같은 종목을 여러 번 나눠 샀으면 그 평균으로 계산합니다 — 증권사 앱과 같은 방식입니다.</div>';
     }
-    h.push(fold('sim-ledger', '📒', '매매 장부', ledgerHtml,
-      { open: sells.length > 0, badge: sells.length || '' }));
+    /* 판 것만 모은 칸. 확정 손익을 보려는 자리라 부차적이다 — 접어 둔다.
+       따라 하려는 사람에게 먼저 필요한 건 "언제 뭘 왜 샀나"이고 그건 아래
+       'AI 매매 내역'이다. 예전에는 이 둘이 나란히 펼쳐져 있어서 무엇을
+       봐야 하는지가 흐려졌다. */
+    var ledgerFold = fold('sim-ledger', '💰', '판 종목 손익', ledgerHtml,
+      { open: false, badge: sells.length || '' });
 
     var logHtml = logFoldHtml(st.log, 'log', function (l) {
       /* 성향 변경 같은 '거래가 아닌 기록'도 같은 줄에 남긴다. 계좌가 왜
@@ -2255,12 +2277,17 @@
            계좌를 이해할 수 없고, 그러면 비교할 것도 없어진다. */
         (l.why ? '<span class="log-w">' + esc(l.why) + '</span>' : '') + '</div>';
     }, '아직 없습니다.');
-    h.push(fold('sim-log', '🧾', '전체 거래 내역', logHtml,
-      { open: false, badge: st.log.length }));
+    /* 이 화면의 주인공. AI 가 무엇을 언제 왜 사고팔았는지가 여기 있고,
+       따라 하려는 사람이 실제로 읽는 건 이 칸이다. 기본으로 펴 둔다. */
+    h.push(fold('sim-log', '🧾', 'AI 매매 내역', logHtml,
+      { open: true, badge: st.log.length }));
+    h.push(ledgerFold);
 
     h.push(compareBlock(v));
-    h.push('<button class="btn danger" id="sim-reset" style="margin-top:6px">↺ 초기화하고 다시 설정</button>');
     h.push(simDisclaimer());
+    /* 초기화는 되돌릴 수 없는 동작이다. 눈에 띄는 빨간 단추로 두면 손이
+       먼저 간다 — 맨 아래, 고지 뒤에, 조용한 모양으로 둔다. */
+    h.push('<button class="quietbtn" id="sim-reset">모의투자 초기화하고 다시 설정</button>');
     return h.join('');
   }
 
@@ -3175,40 +3202,9 @@
       render();
       return;
     }
-    if (ev.target.id === 'sim-buy') {
-      var sel = document.getElementById('sim-pick');
-      var amtEl = document.getElementById('sim-amt');
-      var tkr = sel ? sel.value : '';
-      var nm = tkr;
-      market().picks.forEach(function (x) { if (x.ticker === tkr) nm = x.name; });
-      var o = simCtx();
-      o.ticker = tkr; o.name = nm; o.amount = parseFloat(amtEl ? amtEl.value : '');
-      var r = SIM.buy(state.sim[state.market], o);
-      state.simMsg = r.ok ? nm + ' ' + won(o.amount) + ' 매수했습니다.' : r.msg;
-      if (r.ok) simSave();
-      render();
-      return;
-    }
-    if ((el = ev.target.closest('[data-trade]'))) {
-      var kind = el.dataset.trade, t = el.dataset.t, n = el.dataset.n;
-      var o2 = simCtx();
-      o2.ticker = t; o2.name = n;
-      var res;
-      if (kind === 'sellall') {
-        o2.all = true;
-        res = SIM.sell(state.sim[state.market], o2);
-        state.simMsg = res.ok ? n + ' 전량 매도했습니다.' : res.msg;
-      } else {
-        var raw = window.prompt((kind === 'buy' ? '추가 매수' : '매도') + ' 금액 (만원)\n' + n, '');
-        if (raw === null) return;
-        o2.amount = parseFloat(raw);
-        res = kind === 'buy' ? SIM.buy(state.sim[state.market], o2) : SIM.sell(state.sim[state.market], o2);
-        state.simMsg = res.ok ? n + ' ' + won(o2.amount) + ' ' + (kind === 'buy' ? '매수' : '매도') + '했습니다.' : res.msg;
-      }
-      if (res.ok) simSave();
-      render();
-      return;
-    }
+    /* (여기 있던 sim-buy · data-trade 처리기를 뺐다 — 화면에서 손으로 사고파는
+       칸을 없앴으므로 부를 곳이 없다. 엔진의 buy/sell 자체는 자동 운용이
+       계속 쓴다.) */
 
     if (ev.target.id === 'reset') {
       ['market', 'style', 'regime', 'regimeMode', 'profile', 'touched', 'holdings', 'cash', 'widgets', 'folds', 'sim', 'planTab', 'learnTab', 'cur'].forEach(function (k) {

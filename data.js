@@ -575,9 +575,10 @@ window.BCData = (function () {
         picks: KR_PICKS,
         /* sym 은 live.json 의 키와 맞춘다(.github/workflows/live.yml 참고).
            수치는 파일에 넣지 않는다 — 워크플로가 주기적으로 채워 넣는다. */
+        /* 코스닥은 뺐다 — 이 앱이 종목을 다루는 시장이 아니라서, 지수만
+           띄워 두면 "여기 종목도 되나" 하고 헛걸음하게 된다. */
         indices: [
           { sym: '^KS11', name: '코스피',  unit: '',   url: 'https://finance.naver.com/sise/sise_index.naver?code=KOSPI' },
-          { sym: '^KQ11', name: '코스닥',  unit: '',   url: 'https://finance.naver.com/sise/sise_index.naver?code=KOSDAQ' },
           { sym: 'KRW=X', name: '원/달러', unit: '원', url: 'https://finance.naver.com/marketindex/' }
         ],
         sources: [
@@ -587,12 +588,14 @@ window.BCData = (function () {
         ]
       },
       us: {
-        key: 'us', label: '미국', flag: '🇺🇸', full: '미국 (NYSE·NASDAQ)',
+        key: 'us', label: '미국', flag: '🇺🇸', full: '미국 (NASDAQ)',
         currency: 'USD', symbol: '$', unit: 1, unitLabel: '달러',
         picks: US_PICKS,
+        /* 나스닥이 먼저다 — 이 앱이 종목을 다루는 시장이 그쪽이다.
+           S&P500 은 시장 전체 분위기를 보는 참고값으로 옆에 둔다. */
         indices: [
-          { sym: '^GSPC', name: 'S&P500', unit: '', url: 'https://finance.yahoo.com/quote/%5EGSPC' },
           { sym: '^IXIC', name: '나스닥', unit: '', url: 'https://finance.yahoo.com/quote/%5EIXIC' },
+          { sym: '^GSPC', name: 'S&P500', unit: '', url: 'https://finance.yahoo.com/quote/%5EGSPC' },
           { sym: '^VIX',  name: 'VIX',    unit: '', url: 'https://finance.yahoo.com/quote/%5EVIX' }
         ],
         sources: [
