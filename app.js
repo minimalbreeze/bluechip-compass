@@ -239,12 +239,30 @@
   /* 사용자가 적은 종목명을 이 앱의 유니버스와 맞춰본다.
      티커가 잡히면 50년 점수를 쓸 수 있고, 못 잡으면 "평가하지 않은 종목"이 된다. */
   function norm(x) { return String(x || '').replace(/\s|·|\(|\)/g, '').toLowerCase(); }
+  /* ── 점수는 두 군데서 온다 ─────────────────────────────────────
+     ① 이 앱이 직접 뜯어본 13종목(유니버스)
+     ② AI 가 정리해 둔 해설(analysis.json) — 같은 여섯 축, 같은 잣대다.
+
+     예전에는 ①만 봤다. 그래서 AMD 처럼 유니버스 밖의 종목을 들고 있으면
+     해설이 이미 만들어져 있어도 "이 앱이 평가하지 않은 종목"으로 떴다.
+     같은 잣대로 매긴 점수를 옆에 두고도 안 쓴 셈이라 고친다. */
   function scoreOfIn(mk, it) {
     var picks = D.markets[mk].picks;
     var p = null;
     if (it.ticker) picks.forEach(function (q) { if (q.ticker === it.ticker) p = q; });
     else picks.forEach(function (q) { if (!p && norm(q.name) === norm(it.name)) p = q; });
-    return p ? total(p.scores) : null;
+    if (p) return total(p.scores);
+    var a = it.ticker ? analysisOf(it.ticker) : null;
+    return a && a.scores ? total(a.scores) : null;
+  }
+
+  /* 그 점수가 어디서 왔는지. 화면에 출처를 밝히려고 쓴다 —
+     직접 뜯어본 것과 AI 가 정리한 것을 같은 것처럼 보이게 하지 않는다. */
+  function scoreSrcIn(mk, it) {
+    var picks = D.markets[mk].picks, p = null;
+    if (it.ticker) picks.forEach(function (q) { if (q.ticker === it.ticker) p = q; });
+    if (p) return 'pick';
+    return (it.ticker && analysisOf(it.ticker)) ? 'ai' : null;
   }
 
   /* 그 시장 통화의 현재가. 국내는 원, 미국은 달러. */
@@ -498,7 +516,16 @@
         liveBusy = false;
         if (!j || !j.quotes) return false;
         var was = LIVE && LIVE.asOf;
+        /* 직접 받아 둔 값이 있으면 스냅샷 위에 다시 얹는다 — 스냅샷은
+           보통 더 낡았으므로, 덮이면 방금 받은 값을 잃는다. */
+        var kept = LIVE && LIVE.stocks ? LIVE.stocks : null;
         LIVE = j;
+        if (kept) ['kr', 'us'].forEach(function (m) {
+          if (!kept[m] || !LIVE.stocks || !LIVE.stocks[m]) return;
+          Object.keys(kept[m]).forEach(function (t) {
+            if (kept[m][t] && kept[m][t].direct) LIVE.stocks[m][t] = kept[m][t];
+          });
+        });
         liveAt = Date.now();
         var fresh = was !== j.asOf;
         /* 값이 그대로면 다시 그리지 않는다. 다만 화면의 "몇 분 전"은
@@ -530,7 +557,8 @@
   function startLivePolling() {
     setInterval(function () {
       if (document.hidden) return;
-      loadLive();
+      loadLive().then(function () { return directQuotes(state.market); })
+        .then(function (moved) { if (moved) render(); });
     }, POLL_MS);
     var back = function () {
       if (document.hidden) return;
@@ -542,10 +570,114 @@
     window.addEventListener('focus', back);
   }
 
+  /* ══════════════════════════════════════════════════════════════════
+     브라우저가 직접 받아오는 시세 (선택 경로)
+     ------------------------------------------------------------------
+     원래 구조는 "증권 API 는 CORS 를 안 주니 러너가 대신 받아 커밋한다"
+     였다(scripts/fetch-live.mjs). 그런데 GitHub 크론이 예약을 안 잡아 주는
+     날이 생기면서 그 대가가 드러났다 — 미국장이 열려 있는데 여덟 시간 넘게
+     시세가 그대로인 날이 나왔다.
+
+     그래서 **브라우저에서 직접 받아보고, 되면 그걸 쓴다.** 안 되면 지금까지
+     하던 대로 live.json 을 쓴다. 손해 볼 게 없는 구조다.
+
+     되는지 안 되는지는 여기서 단정할 수 없다. 러너에서 확인해 봤더니 야후가
+     429(요청 과다)로 답했는데, 그건 GitHub 아이피가 많이 두드려서일 뿐
+     브라우저가 막힌다는 뜻은 아니다. 확실한 건 실제 기기에서만 알 수 있다.
+     그래서 **시도해 보고 결과로 판단한다** — 한 번 실패하면 그 방문 동안은
+     다시 시도하지 않는다(콘솔만 시끄러워진다).
+
+     ⚠️ 받아온 값은 live.json 을 덮지 않고 **위에 얹기만** 한다. 직접 받기가
+        반쯤 실패해도 나머지는 스냅샷 값이 그대로 남아야 한다.
+     ══════════════════════════════════════════════════════════════ */
+  var DIRECT = { ok: null, at: 0 };   /* ok: null 아직 모름 · true 됨 · false 막힘 */
+
+  /* 야후 표기. 국내는 .KS 접미사, 미국은 점 대신 하이픈(BRK.B → BRK-B).
+     러너 쪽(scripts/fetch-prices.mjs)과 같은 규칙을 쓴다. */
+  function ySym(mk, t) {
+    return mk === 'kr' ? t + '.KS' : String(t).replace(/\./g, '-');
+  }
+
+  /* 지금 화면에 값이 필요한 종목만 고른다. 유니버스 전체를 매번 두드릴
+     이유가 없다 — 내 보유와 모의계좌가 실제로 쓰는 자리다. */
+  function directWanted(mk) {
+    var out = {}, add = function (t) { if (t) out[t] = 1; };
+    (state.holdings[mk] || []).forEach(function (h) { add(h.ticker); });
+    var st = state.sim[mk];
+    if (st && st.pos) st.pos.forEach(function (p) { add(p.t); });
+    return Object.keys(out).slice(0, 24);
+  }
+
+  function oneQuote(mk, t) {
+    var url = 'https://query1.finance.yahoo.com/v8/finance/chart/' +
+      encodeURIComponent(ySym(mk, t)) + '?range=1d&interval=1d';
+    return fetch(url, { mode: 'cors', credentials: 'omit' })
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (j) {
+        var m = j && j.chart && j.chart.result && j.chart.result[0] &&
+                j.chart.result[0].meta;
+        var px = m && (m.regularMarketPrice || m.previousClose);
+        return (typeof px === 'number' && px > 0) ? { t: t, price: px } : null;
+      })
+      .catch(function () { return null; });
+  }
+
+  /* 몇 개씩 나눠 두드린다. 한꺼번에 스무 개를 던지면 상대 쪽에서 막는다. */
+  function directQuotes(mk) {
+    if (DIRECT.ok === false) return Promise.resolve(false);
+    if (!window.fetch || !window.Promise) return Promise.resolve(false);
+    var list = directWanted(mk);
+    if (!list.length) return Promise.resolve(false);
+
+    /* ── 한 개로 먼저 떠본다 ────────────────────────────────────
+       막혀 있는 환경(CORS 차단, 사내망 등)에서 스무 개를 한꺼번에 던지면
+       스무 개의 오류가 콘솔에 쌓인다. 실패의 대가가 그만큼 클 이유가 없다.
+       한 종목으로 먼저 확인하고, 되는 게 확인된 뒤에 나머지를 받는다. */
+    var probe = DIRECT.ok === true
+      ? Promise.resolve(true)
+      : oneQuote(mk, list[0]).then(function (r) {
+          DIRECT.ok = !!r;
+          return !!r;
+        });
+
+    return probe.then(function (alive) {
+      if (!alive) return false;
+      return fetchRest(mk, list);
+    });
+  }
+
+  function fetchRest(mk, list) {
+      var i = 0, got = [];
+      function worker() {
+        if (i >= list.length) return Promise.resolve();
+        var t = list[i++];
+        return oneQuote(mk, t).then(function (r) { if (r) got.push(r); return worker(); });
+      }
+      return Promise.all([worker(), worker(), worker()]).then(function () {
+      if (!got.length) return false;
+      DIRECT.ok = true; DIRECT.at = Date.now();
+      if (!LIVE) LIVE = { quotes: {}, stocks: { kr: {}, us: {} } };
+      if (!LIVE.stocks) LIVE.stocks = { kr: {}, us: {} };
+      if (!LIVE.stocks[mk]) LIVE.stocks[mk] = {};
+      got.forEach(function (r) {
+        var was = LIVE.stocks[mk][r.t] || {};
+        LIVE.stocks[mk][r.t] = { price: r.price, chg: was.chg, direct: true };
+      });
+      return true;
+    });
+  }
+
   /* 사용자가 직접 "지금 다시 보라"고 했을 때. 캐시도 주기도 무시하고 받는다. */
   function refreshNow() {
     liveBusy = false;
-    return Promise.all([loadLive({ quiet: true }), loadPrices({ force: true })]);
+    return Promise.all([
+      loadLive({ quiet: true }),
+      loadPrices({ force: true })
+    ]).then(function () {
+      /* 스냅샷을 먼저 깔고, 그 위에 직접 받은 값을 얹는다. 순서가 중요하다 —
+         반대로 하면 방금 직접 받은 값이 낡은 스냅샷에 덮인다. */
+      return directQuotes(state.market);
+    });
   }
 
   /* ── 보유 종목 시세 (prices.json) ──────────────────────────────
@@ -606,9 +738,16 @@
       .then(function (j) {
         if (!j || !j.items) { anaFailed = true; }
         else ANALYSIS = j;
-        if (current === 'stock') render();
+        /* 알아보기 탭만이 아니라 내 주식 판정에도 쓰인다(scoreOfIn).
+           도착하면 지금 보고 있는 화면을 다시 그린다. */
+        if (document.getElementById('view-' + current) &&
+            document.getElementById('view-' + current).innerHTML) render();
       })
-      .catch(function () { anaFailed = true; if (current === 'stock') render(); });
+      .catch(function () {
+        anaFailed = true;
+        if (document.getElementById('view-' + current) &&
+            document.getElementById('view-' + current).innerHTML) render();
+      });
   }
   function analysisOf(ticker) {
     if (!ANALYSIS || !ANALYSIS.items || !ticker) return null;
@@ -3236,6 +3375,12 @@
 
   loadLive();
   loadPrices();
+  /* 브라우저가 직접 받을 수 있는지 한 번 해 본다. 되면 크론과 무관하게
+     열 때마다 최신값이 되고, 안 되면 조용히 스냅샷만 쓴다(§33). */
+  if (window.Promise) setTimeout(function () { directQuotes(state.market); }, 300);
+  /* 들고 있는 종목이 있으면 해설도 받아 둔다 — 유니버스 밖 종목의 판정이
+     여기서 나온다(scoreOfIn). 아무것도 등록 안 한 사람은 안 받는다. */
+  if (needPrices()) loadAnalysis();
   /* 켜 둔 채로도 스냅샷이 계속 들어오게 한다. 새 스냅샷이 오면 render() 가
      다시 돌고, render() 는 simAutoTick() 으로 시작하므로 모의계좌도 같이
      따라 움직인다 — 앱을 열어 둔 동안에는 그게 "계속 거래한다"의 실체다. */

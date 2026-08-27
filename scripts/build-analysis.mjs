@@ -21,10 +21,21 @@ const nameOf = {};
 for (const [t, n] of names.kr) nameOf['kr:' + t] = n;
 for (const [t, n] of names.us) nameOf['us:' + t] = n;
 
-const want = [
-  ...KR.map(t => ({ ticker: t, market: 'kr', name: nameOf['kr:' + t] || t })),
-  ...US.map(t => ({ ticker: t, market: 'us', name: nameOf['us:' + t] || t }))
-];
+/* ── 국내·미국을 번갈아 넣는다 ────────────────────────────────
+   예전에는 국내를 다 넣고 그 뒤에 미국을 붙였다. 한 회차에 40종목씩
+   채우다 보니 국내 117종목이 끝날 때까지 미국은 **한 종목도** 안 만들어졌고,
+   미국 주식을 들고 있는 사람에게는 며칠째 "아직 정리되지 않았습니다"만
+   보였다(실제로 AMD 가 그랬다).
+
+   양쪽을 번갈아 넣으면 첫 회차부터 두 시장이 같이 채워진다. 목록 앞쪽이
+   시가총액 큰 종목이라, 많이들 들고 있는 종목이 먼저 나온다. */
+const krList = KR.map(t => ({ ticker: t, market: 'kr', name: nameOf['kr:' + t] || t }));
+const usList = US.map(t => ({ ticker: t, market: 'us', name: nameOf['us:' + t] || t }));
+const want = [];
+for (let i = 0; i < Math.max(krList.length, usList.length); i++) {
+  if (krList[i]) want.push(krList[i]);
+  if (usList[i]) want.push(usList[i]);
+}
 
 const r = await run({ want, apiKey, model: process.env.ANALYZE_MODEL, limit });
 console.log(`진행률: ${r.total} / ${want.length}`);
