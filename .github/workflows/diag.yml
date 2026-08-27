@@ -1,0 +1,21 @@
+# 진단 전용. 예약 없이 손으로만 돌린다.
+#
+# 이 저장소는 "증권 API 는 CORS 를 안 준다"는 전제 위에 서 있다. 그 전제가
+# 맞는지 실제 응답 헤더로 확인한다 — 틀렸다면 시세만큼은 브라우저가 직접
+# 받아올 수 있고, 그러면 크론이 밀려도 앱을 여는 순간 최신값을 보게 된다.
+
+name: diagnose
+
+on:
+  workflow_dispatch:
+
+jobs:
+  cors:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: 브라우저가 직접 부를 수 있는 주소인지 확인
+        run: node scripts/check-cors.mjs
