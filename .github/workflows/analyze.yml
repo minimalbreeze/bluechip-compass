@@ -47,9 +47,22 @@ jobs:
             echo "⚠️ ANTHROPIC_API_KEY 없음 — 이 워크플로는 아무것도 하지 않습니다"
           fi
 
+      # 설치가 조용히 실패하면 그다음 단계의 배치가 전부 즉시 실패한다.
+      # 실제로 그런 회차가 있었다(설치 1초, 해설 만들기 1초, 초록불).
+      # 설치 직후에 **실제로 불러와지는지** 확인해서, 여기서 끊는다.
       - name: SDK 설치
         if: env.ANTHROPIC_API_KEY != ''
-        run: npm install --no-save --no-audit --no-fund @anthropic-ai/sdk zod
+        run: |
+          npm install --no-save --no-audit --no-fund @anthropic-ai/sdk zod
+          node -e "
+            Promise.all([
+              import('@anthropic-ai/sdk'),
+              import('zod'),
+              import('@anthropic-ai/sdk/helpers/zod')
+            ]).then(([a,z,h]) => {
+              console.log('✅ SDK 불러오기 확인 · zodOutputFormat:', typeof h.zodOutputFormat);
+            }).catch(e => { console.error('❌ SDK 를 불러올 수 없습니다:', e.message); process.exit(1); });
+          "
 
       - name: 종목 해설 만들기
         if: env.ANTHROPIC_API_KEY != ''

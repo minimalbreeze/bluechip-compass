@@ -188,6 +188,7 @@ export async function run({ want, apiKey, model, limit }) {
   for (let i = 0; i < todo.length; i += PER_CALL) batches.push(todo.slice(i, i + PER_CALL));
 
   let added = 0, dropped = 0;
+  const failures = [];
   let bi = 0;
   async function worker() {
     while (bi < batches.length) {
@@ -212,11 +213,25 @@ export async function run({ want, apiKey, model, limit }) {
           console.log(`  ✓ ${want1.ticker} ${want1.name}`);
         }
       } catch (e) {
+        failures.push(e);
         console.log(`  ! 배치 실패(${batch.map(b => b.ticker).join(',')}): ${e.message}`);
+        /* 첫 실패는 원인을 통째로 남긴다. 메시지만으로는 "SDK 가 없다"와
+           "API 가 거절했다"를 구분할 수 없어서 헛다리를 짚게 된다. */
+        if (failures.length === 1 && e.stack) console.log(String(e.stack).split('\n').slice(0, 4).join('\n'));
       }
     }
   }
   await Promise.all(Array.from({ length: Math.min(CONC, batches.length) }, worker));
+
+  /* ⚠️ 하나도 못 만들었으면 **파일을 건드리지 않고 실패로 끝낸다.**
+     예전에는 이럴 때도 asOf 만 바꿔 써서, 워크플로가 "종목 해설 갱신"이라는
+     커밋을 남기고 초록불로 끝났다. 실제로는 열다섯 배치가 전부 즉시
+     실패한 회차였는데 로그를 열기 전에는 알 수가 없었다. 조용한 실패가
+     제일 비싸다 — 며칠을 그냥 흘려보낸다. */
+  if (todo.length && !added && !dropped) {
+    const why = failures.length ? failures[0].message : '알 수 없음';
+    throw new Error(`${todo.length}종목을 시도했지만 하나도 만들지 못했습니다 (첫 원인: ${why})`);
+  }
 
   writeFileSync(OUT, JSON.stringify({
     asOf: new Date().toISOString(),
