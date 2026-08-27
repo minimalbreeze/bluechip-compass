@@ -381,10 +381,31 @@ window.BCSim = (function () {
     return (d - new Date(st.lastAuto + 'T00:00:00')) / 86400000 >= 7;
   }
 
+  /* 다음 자동 조정이 언제인지. 화면에서 "언제 저절로 하나"를 알려주려고 쓴다.
+     주 1회로 모아 두면 오늘 아무 일도 안 일어나는 게 정상인데, 그 사실을
+     말해주지 않으면 고장으로 보인다. */
+  function nextDue(st, o) {
+    if (!st.started) return null;
+    if (o.cadence === 'daily') return o.today;
+    var d = new Date(o.today + 'T00:00:00');
+    for (var i = 0; i <= 7; i++) {
+      var t = new Date(d.getTime() + i * 86400000);
+      var iso = t.toISOString().slice(0, 10);
+      if (iso === st.lastAuto) continue;
+      if (dueToday(st, { today: iso, cadence: o.cadence, regimeKey: o.regimeKey })) return iso;
+    }
+    return null;
+  }
+
+  /* o.force 를 주면 주기와 자동 운용 스위치를 건너뛴다.
+     "앱에 들어온 김에 지금 확인하고 싶다"는 요구가 실제로 있었고, 주 1회로
+     모아 둔 뒤로는 더 그렇다. 다만 같은 날 두 번은 여전히 막는다 — 같은
+     가격으로 두 번 돌려봐야 두 번째는 할 일이 없다. */
   function autoRun(st, o) {
-    if (!st.started || !st.auto) return { ran: false };
+    if (!st.started) return { ran: false };
+    if (!o.force && !st.auto) return { ran: false };
     if (st.lastAuto === o.today) return { ran: false, reason: 'today' };
-    if (!dueToday(st, o)) return { ran: false, reason: 'not-due' };
+    if (!o.force && !dueToday(st, o)) return { ran: false, reason: 'not-due' };
     if (o.regimeKey) st.lastRegime = o.regimeKey;
 
     var moves = plan(st, o);
@@ -424,6 +445,6 @@ window.BCSim = (function () {
 
   return {
     blank: blank, start: start, buy: buy, sell: sell, value: value, priceOf: priceOf,
-    autoRun: autoRun, drift: drift, band: BAND, dueToday: dueToday, resize: resize
+    autoRun: autoRun, drift: drift, band: BAND, dueToday: dueToday, nextDue: nextDue, resize: resize
   };
 })();

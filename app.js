@@ -350,6 +350,10 @@
      한 번 계산하면 그 방문 동안은 유지한다(state.simFresh). 안 그러면 접기
      하나만 눌러도 다시 그려지면서 "바뀐 것" 칸이 사라진다. */
   var simFresh = { kr: null, us: null };
+  /* 계산해 둔 "새 거래" 목록을 버린다. 방금 화면에서 조정을 돌렸을 때처럼
+     로그가 늘어난 직후에 부른다 — 안 버리면 그 방문에 이미 계산해 둔 빈
+     목록이 남아서, 눌러서 일곱 곳을 조정하고도 🆕 칸에 아무것도 안 뜬다. */
+  function simFreshReset(mk) { simFresh[mk] = null; }
   function simNew(mk) {
     var st = state.sim[mk];
     if (simFresh[mk]) return simFresh[mk];
@@ -1864,7 +1868,11 @@
     /* ── 자동 운용 ──
        사용자가 매일 들어와 사고팔지 않아도 앱의 판단대로 계좌가 움직인다.
        무엇을 향해 가는지(목표)와 다음에 뭘 할 예정인지를 먼저 보여준다. */
-    var pending = st.auto ? [] : SIM.drift(st, simCtx());
+    /* 지금 목표에서 얼마나 벌어져 있는지. 자동이든 수동이든 보여준다 —
+       "지금 눌러도 할 일이 있나"를 알고 눌러야 헛걸음하지 않는다. */
+    var pending = SIM.drift(st, simCtx());
+    var doneToday = st.lastAuto === ymd(today());
+    var nextAt = SIM.nextDue(st, simCtx());
     h.push('<div class="autobox' + (st.auto ? ' on' : '') + '">' +
       '<div class="autobox-h">' +
         '<span>' + (st.auto ? '🤖 자동 운용 중' : '✋ 수동 운용') + '</span>' +
@@ -1872,10 +1880,25 @@
       '</div>' +
       '<div class="autobox-d">' + (st.auto
         ? '오늘 국면(<b>' + M.labelRegime(regime()).full + '</b>)으로 다시 계산한 배분을 목표로 삼고, ' +
-          '목표에서 <b>' + SIM.band + '%p</b> 넘게 벌어진 자리만 <b>하루 한 번</b> 조정합니다. ' +
-          '사고파는 이유는 아래 거래 내역에 남습니다.'
-        : '자동 조정을 멈췄습니다. 계좌는 지금 상태 그대로 두고, 사고파는 건 직접 하시면 됩니다.' +
-          (pending.length ? ' 지금 목표와 <b>' + pending.length + '자리</b>가 벌어져 있습니다.' : ' 지금은 목표와 크게 벌어진 자리가 없습니다.')) +
+          '목표에서 <b>' + SIM.band + '%p</b> 넘게 벌어진 자리만 <b>주 1회(금요일)</b> 조정합니다. ' +
+          '국면이 바뀐 날은 기다리지 않습니다. 사고파는 이유는 아래 거래 내역에 남습니다.'
+        : '자동 조정을 멈췄습니다. 계좌는 지금 상태 그대로 두고, 사고파는 건 직접 하시면 됩니다.') +
+      '</div>' +
+      /* ── 지금 점검하기 ──
+         주 1회로 모아 두면 오늘 아무 일도 안 일어나는 게 정상인데, 앱에
+         들어온 사람은 그걸 고장으로 읽는다. 그래서 (1) 지금 벌어진 자리가
+         몇 곳인지, (2) 저절로는 언제 하는지를 적고, (3) 기다리지 않고
+         바로 돌릴 수 있는 단추를 준다. */
+      '<div class="autonow">' +
+        '<div class="autonow-s">' + (doneToday
+          ? '✅ 오늘 이미 점검했습니다.'
+          : pending.length
+            ? '지금 목표와 <b>' + pending.length + '자리</b>가 벌어져 있습니다.'
+            : '지금은 목표와 크게 벌어진 자리가 없습니다.') +
+          (nextAt && !doneToday ? ' 저절로는 <b>' + dayLabel(nextAt) + '</b>에 합니다.' : '') +
+        '</div>' +
+        '<button class="btn ghost" id="sim-now"' + (doneToday ? ' disabled' : '') + '>' +
+          '⚡ 지금 점검하기</button>' +
       '</div>' +
       (st.lastAuto ? '<div class="autobox-t">마지막 조정 확인: ' + st.lastAuto + '</div>' : '') +
     '</div>');
@@ -2642,6 +2665,23 @@
       if (pk) { state.sq = pk.name; state.sSel = { t: pk.ticker, n: pk.name, etf: 0, uni: true }; render(); }
       return;
     }
+    if (ev.target.id === 'sim-now') {
+      var stn = simState();
+      var rn = SIM.autoRun(stn, Object.assign(simCtx(), { force: true }));
+      if (!rn.ran) {
+        state.simMsg = rn.reason === 'today'
+          ? '오늘은 이미 점검했습니다. 같은 시세로 두 번 돌려도 결과는 같습니다.'
+          : '지금은 조정할 게 없습니다.';
+      } else if (!rn.done || !rn.done.length) {
+        state.simMsg = '점검했습니다. 목표와 크게 벌어진 자리가 없어 그대로 뒀습니다.';
+      } else {
+        state.simMsg = rn.done.length + '곳을 조정했습니다. 아래에서 무엇을 왜 사고팔았는지 볼 수 있습니다.';
+      }
+      simFreshReset(state.market);
+      simSave();
+      render();
+      return;
+    }
     if (ev.target.id === 'seed-toggle' || ev.target.closest('#seed-toggle')) {
       state.seedOpen = !state.seedOpen;
       render();
@@ -2667,6 +2707,7 @@
           (sold ? ' ' + sold + '곳에서 마련했습니다.' : '') +
           ' 목표 비중에 맞춰 정리합니다.';
         state.seedAmt = '';
+        simFreshReset(state.market);
         simSave();
       }
       state.seedOpen = false;
@@ -2690,6 +2731,7 @@
         sst.log.unshift({ ts: ymd(today()), kind: 'note', n: '성향 변경',
           amt: 0, why: before + ' → ' + styleLabelOf(nk) });
         simSave();
+        simFreshReset(state.market);
         state.simMsg = '성향을 ' + styleLabelOf(nk) + '으로 바꿨습니다. 다음 조정 때 새 목표에 맞춥니다.';
       }
       state.styleOpen = false;
