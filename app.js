@@ -33,12 +33,6 @@
 
   var state = {
     market:  load('market', 'kr'),
-    /* 종목마다 "왜 샀나" 메모. { kr: {id: {t, at}}, us: {...} }
-       이 기기 안에만 남는다 — 다른 기록과 같은 원칙이다. */
-    why:     (function () { var w = load('why', null);
-               return (w && typeof w === 'object') ? { kr: w.kr || {}, us: w.us || {} }
-                                                   : { kr: {}, us: {} }; })(),
-    whyEdit: null,
     /* 시장마다 따로 센다 — 국내를 확인했다고 미국까지 최신인 건 아니다. */
     touched: (function () {
       var t = load('touched', null);
@@ -963,9 +957,9 @@
      않고, 그날 해볼 만한 행동 하나만 준다.                          */
   var DAILY = [
     /* cta: 시키기만 하고 갈 곳이 없으면 그 점검은 아무도 못 한다.
-       할 자리가 앱 안에 있는 항목은 거기로 데려간다. */
-    { i: '📝', t: '보유 종목 하나를 골라 "왜 샀는지" 세 문장으로 적어보세요',
-      d: '적어두면 나중에 팔지 말지 헷갈릴 때 그 메모를 꺼내 볼 수 있습니다.', cta: 'why' },
+       할 자리가 앱 안에 있는 항목만 남기고, 그런 항목은 거기로 데려간다. */
+    { i: '🔍', t: '보유 종목 중 목표 비중에서 가장 많이 벗어난 자리를 확인하세요',
+      d: '벌어진 자리를 되돌리는 것만으로 "비싸게 팔고 싸게 사기"가 자동으로 됩니다.', cta: 'my' },
     { i: '🔕', t: '증권사 앱 푸시 알림을 꺼보세요', d: '확인 빈도를 줄이는 것만으로 불필요한 매매가 크게 줍니다.' },
     { i: '🏦', t: '비상금이 생활비 3~6개월치 있는지 확인하세요', d: '이게 없으면 하락장에서 주식을 팔아 생활비를 만들게 됩니다.' },
     { i: '🧾', t: '지금 쓰는 계좌가 ISA·연금저축인지 일반계좌인지 확인하세요', d: '같은 종목이라도 어느 계좌에 담느냐로 실수령액이 달라집니다.' },
@@ -1176,66 +1170,6 @@
     return (rows || []).filter(function (r) {
       return aliasesOf(r, mk).some(function (a) { return aliasHit(hay, a); });
     });
-  }
-
-  /* ══════════════════════════════════════════════════════════════════
-     왜 샀나 — 종목마다 남기는 세 문장
-     ------------------------------------------------------------------
-     이 앱은 여러 자리에서 "왜 샀는지 세 문장으로 적어보세요"라고 말하고,
-     "적어두면 나중에 팔지 말지를 그 메모가 대신 판단해줍니다"라고까지
-     약속한다. 그런데 **적을 곳이 없었다.** 있지도 않은 기능을 시키고 있었던
-     것이고, 하라는 대로 하려던 사람은 거기서 막힌다.
-
-     그래서 적는 자리를 만든다. 이 앱의 판정 원칙이 "지금 손익이 아니라
-     처음 산 이유가 아직 맞는가"이므로, 그 이유가 어딘가에 적혀 있어야
-     원칙이 성립한다. 메모는 다른 기록과 같이 **이 기기 안에만** 남는다.
-
-     ⚠️ 메모는 판정에 쓰지 않는다. 적었다고 점수를 올려주면 사람들은
-        점수를 위해 아무 문장이나 적는다. 이건 나중의 자신에게 남기는
-        쪽지이지 앱에 제출하는 답안이 아니다.                              */
-  var WHY_MAX = 300;
-
-  function whyOf(mk, id) {
-    var w = state.why && state.why[mk] ? state.why[mk][String(id)] : null;
-    return w && w.t ? w : null;
-  }
-  function whySave(mk, id, text) {
-    if (!state.why) state.why = { kr: {}, us: {} };
-    if (!state.why[mk]) state.why[mk] = {};
-    var t = String(text || '').trim().slice(0, WHY_MAX);
-    if (t) state.why[mk][String(id)] = { t: t, at: ymd(today()) };
-    else delete state.why[mk][String(id)];
-    save('why', state.why);
-  }
-  /* 아직 안 적은 보유 종목. "오늘의 점검"이 여기로 데려간다. */
-  function whyMissing(mk) {
-    return (state.holdings[mk] || []).filter(function (it) { return !whyOf(mk, it.id); });
-  }
-
-  function whyHtml(mk, it) {
-    var w = whyOf(mk, it.id);
-    var editing = state.whyEdit === String(it.id);
-    if (editing) {
-      return '<div class="why is-edit">' +
-        '<div class="why-h">📝 왜 샀나 <small>세 문장이면 충분합니다</small></div>' +
-        '<textarea class="why-i" id="why-input" maxlength="' + WHY_MAX + '" rows="4" ' +
-          'placeholder="예) 통신은 사람들이 계속 쓴다. 배당을 10년 넘게 줄이지 않았다. ' +
-          '요금제 규제가 조여도 망은 남는다.">' + esc(w ? w.t : '') + '</textarea>' +
-        '<div class="why-btns">' +
-          '<button class="why-ok" data-whysave="' + it.id + '">저장</button>' +
-          '<button class="why-no" data-whycancel="1">취소</button>' +
-          (w ? '<button class="why-del" data-whyclear="' + it.id + '">지우기</button>' : '') +
-        '</div></div>';
-    }
-    if (!w) {
-      return '<button class="why-add" data-whyedit="' + it.id + '">' +
-        '📝 왜 샀는지 적어두기' +
-        '<small>나중에 팔지 말지 헷갈릴 때 이 메모가 답을 줍니다</small></button>';
-    }
-    return '<div class="why">' +
-      '<div class="why-h">📝 왜 샀나 <small>' + esc(w.at) + '</small>' +
-        '<button class="why-edit" data-whyedit="' + it.id + '">고치기</button></div>' +
-      '<div class="why-t">' + esc(w.t) + '</div></div>';
   }
 
   /* 그 기사 밑에 붙는 줄. 여기서만 금액이 나온다 — 기사 때문이 아니라
@@ -1594,20 +1528,8 @@
        문장으로 적어보세요"라고만 하고 적을 곳을 주지 않았다 — 게다가 "그
        메모가 대신 판단해준다"고까지 했는데 메모 기능 자체가 없었다.
        하라는 대로 하려던 사람은 거기서 막힌다. */
-    if (chk.cta === 'why') {
-      var miss = whyMissing(state.market);
-      var mine = (state.holdings[state.market] || []).length;
-      if (!mine) {
-        h += '<button class="daily-cta" data-go="my">먼저 내 주식을 등록해 주세요 →</button>';
-      } else if (miss.length) {
-        h += '<button class="daily-cta" data-whygo="' + miss[0].id + '">' +
-             '📝 <b>' + esc(miss[0].name) + '</b> 부터 적어보기 →' +
-             (miss.length > 1 ? '<small>아직 안 적은 종목 ' + miss.length + '개</small>' : '') +
-             '</button>';
-      } else {
-        h += '<div class="daily-done">✅ 보유 종목 ' + mine + '개 모두 적어 두셨습니다. ' +
-             '팔지 말지 헷갈릴 때 <b>내 주식</b>에서 꺼내 보세요.</div>';
-      }
+    if (chk.cta === 'my') {
+      h += '<button class="daily-cta" data-go="my">💼 내 주식에서 종목별 판단 보기 →</button>';
     } else if (chk.cta === 'sim') {
       h += '<button class="daily-cta" data-go="plan">🎮 모의투자 목표 비중 보러가기 →</button>';
     }
@@ -1838,7 +1760,6 @@
         '<div class="wlab">현재 <b>' + r.weight + '%</b>' + (r.target ? ' · 목표 <b>' + r.target + '%</b>' : ' · 목표 없음') +
           (r.score !== null ? ' · 50년 점수 <b>' + r.score + '</b>' : '') + '</div>' +
         '<div class="hrow-say">' + linkTerms(r.verdict.say) + '</div>' +
-        whyHtml(mkey, r) +
         actionHtml(r, mkey) +
         avgDownHtml(r, a.grand, mkey) +
         '<button class="hrow-del" data-del="' + r.id + '">삭제</button>' +
@@ -1850,26 +1771,6 @@
     var newsHtml = '<div class="slot-d"><b>지금 손익은 판단 근거가 아닙니다.</b> 많이 떨어졌으니 팔아야 한다도, 많이 올랐으니 팔아야 한다도 둘 다 틀렸습니다. ' +
       '기준은 하나입니다 — <b>처음 산 이유가 아직 유효한가.</b></div>';
 
-    /* ── 그 "처음 산 이유"를 여기서 꺼내 준다 ────────────────────
-       기준이 "처음 산 이유"인데 그 이유를 다시 볼 방법이 없으면, 결국
-       기억에 의존하게 되고 기억은 지금 손익에 물든다. 적어 둔 메모를 이
-       자리에 그대로 펼쳐 놓는다 — 이 칸이 존재하는 이유가 그것이다. */
-    var mine = state.holdings[mkey] || [];
-    var wrote = mine.filter(function (it) { return whyOf(mkey, it.id); });
-    if (wrote.length) {
-      newsHtml += '<div class="whyback"><div class="whyback-h">📝 그때 적어 두신 이유</div>' +
-        wrote.map(function (it) {
-          var w = whyOf(mkey, it.id);
-          return '<div class="whyback-i"><b>' + esc(it.name) + '</b>' +
-            '<small>' + esc(w.at) + '</small>' +
-            '<div class="whyback-t">' + esc(w.t) + '</div></div>';
-        }).join('') +
-        '<div class="whyback-f">이 문장이 <b>아직도 맞다면</b> 오늘 기사와 상관없이 그대로 두면 됩니다. ' +
-        '틀렸다면 그때가 다시 볼 때입니다.</div></div>';
-    } else if (mine.length) {
-      newsHtml += '<div class="whyback empty">📝 아직 <b>왜 샀는지</b>를 적어 두신 종목이 없습니다. ' +
-        '<button class="linkbtn" data-openfold="my-rows">종목별 판단에서 적어두기 →</button></div>';
-    }
     D.newsRules.forEach(function (r, i) {
       newsHtml += '<div class="newsq"><div class="newsq-q">' + (i + 1) + '. ' + r.q + '</div>' +
         '<div class="newsq-a y">예 — ' + linkTerms(r.yes) + '</div>' +
@@ -3094,43 +2995,6 @@
     }
     /* 요약 줄에서 "아래에서 하나씩 보기"를 누르면, 그 칸을 펴고 거기로 옮겨준다.
        펴 놓기만 하고 그대로 두면 사용자는 무엇이 달라졌는지 못 찾는다. */
-    /* 홈의 점검에서 바로 적으러 간다 — 탭을 옮기고 그 종목 칸을 펴서
-       입력 상태로 만든 뒤 그 자리로 스크롤한다. "내 주식 탭에서 찾으세요"로
-       끝내면 대부분 거기서 그만둔다. */
-    if ((el = ev.target.closest('[data-whygo]'))) {
-      var wid = el.dataset.whygo;
-      state.folds['my-rows'] = true;
-      save('folds', state.folds);
-      state.whyEdit = wid;
-      go('my');                       /* 탭 전환은 여기 한 군데로만 한다 */
-      var ta0 = document.getElementById('why-input');
-      if (ta0) {
-        ta0.focus();
-        if (ta0.scrollIntoView) ta0.scrollIntoView({ block: 'center' });
-      }
-      return;
-    }
-    if ((el = ev.target.closest('[data-whyedit]'))) {
-      state.whyEdit = el.dataset.whyedit;
-      render();
-      var ta = document.getElementById('why-input');
-      if (ta) { ta.focus(); ta.setSelectionRange(ta.value.length, ta.value.length); }
-      return;
-    }
-    if ((el = ev.target.closest('[data-whysave]'))) {
-      var ta2 = document.getElementById('why-input');
-      whySave(state.market, el.dataset.whysave, ta2 ? ta2.value : '');
-      state.whyEdit = null;
-      render();
-      return;
-    }
-    if (ev.target.closest('[data-whycancel]')) {
-      state.whyEdit = null; render(); return;
-    }
-    if ((el = ev.target.closest('[data-whyclear]'))) {
-      whySave(state.market, el.dataset.whyclear, '');
-      state.whyEdit = null; render(); return;
-    }
     if ((el = ev.target.closest('[data-openfold]'))) {
       var fk = el.dataset.openfold;
       state.folds[fk] = true;
@@ -3314,9 +3178,6 @@
       var id = parseInt(el.dataset.del, 10);
       state.holdings[state.market] = state.holdings[state.market].filter(function (x) { return x.id !== id; });
       save('holdings', state.holdings);
-      /* 메모도 같이 지운다. 남겨 두면 나중에 등록한 다른 종목이 같은 id 를
-         받았을 때 엉뚱한 메모가 붙는다. */
-      whySave(state.market, id, '');
       render();
       return;
     }
@@ -3362,7 +3223,7 @@
        계속 쓴다.) */
 
     if (ev.target.id === 'reset') {
-      ['market', 'style', 'regime', 'regimeMode', 'profile', 'touched', 'holdings', 'cash', 'widgets', 'folds', 'sim', 'planTab', 'learnTab', 'cur', 'why'].forEach(function (k) {
+      ['market', 'style', 'regime', 'regimeMode', 'profile', 'touched', 'holdings', 'cash', 'widgets', 'folds', 'sim', 'planTab', 'learnTab', 'cur'].forEach(function (k) {
         try { localStorage.removeItem(KEY + k); } catch (e) {}
       });
       state.market = 'kr';

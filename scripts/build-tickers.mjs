@@ -208,15 +208,69 @@ function tidyUSName(n) {
     .trim();
 }
 
+/* ── S&P 500 구성 종목 ──────────────────────────────────────────
+   나스닥만으로 좁히면 버크셔·비자·J&J·P&G·코카콜라처럼 **뉴욕증권거래소에
+   상장된 대형주가 통째로 빠진다.** 이 앱이 직접 뜯어본 13종목 중 절반이
+   거기 해당하고, "50년 뒤에도 있을 회사"라는 이 앱의 주제와 가장 가까운
+   종목들이기도 하다. 그래서 나스닥 전체 + S&P 500 구성 종목을 합친다.
+
+   실패하면 빈 배열을 돌려준다 — 그러면 나스닥만 남고, 목록이 좁아질지언정
+   깨지지는 않는다. */
+async function fetchSP500() {
+  /* 1순위: 잘 관리되는 공개 데이터셋 */
+  try {
+    const csv = await getBuffer(
+      'https://raw.githubusercontent.com/datasets/s-and-p-500-companies/main/data/constituents.csv'
+    ).then(x => x.toString('utf8'));
+    const out = [];
+    for (const line of csv.split(/\r?\n/).slice(1)) {
+      if (!line.trim()) continue;
+      /* Symbol,Security,GICS Sector,... — 이름에 쉼표가 있을 수 있어 앞 두 칸만 본다 */
+      const m = line.match(/^([A-Z.\-]{1,6}),(".*?"|[^,]*),/);
+      if (!m) continue;
+      const sym = m[1].trim();
+      const name = m[2].replace(/^"|"$/g, '').trim();
+      if (sym && name) out.push([sym, name]);
+    }
+    if (out.length >= 400) { console.log(`S&P 500: ${out.length}종목 (데이터셋)`); return out; }
+    console.log(`S&P 500 데이터셋이 너무 적다(${out.length}) — 위키백과로 넘어간다`);
+  } catch (e) {
+    console.log('S&P 500 데이터셋 실패: ' + e.message + ' — 위키백과로 넘어간다');
+  }
+  /* 2순위: 위키백과 표 */
+  try {
+    const html = await getBuffer('https://en.wikipedia.org/wiki/List_of_S%26P_500_companies')
+      .then(x => x.toString('utf8'));
+    const table = html.slice(html.indexOf('id="constituents"'));
+    const out = [];
+    for (const tr of table.match(/<tr[\s\S]*?<\/tr>/gi) || []) {
+      const tds = tr.split(/<t[dh][^>]*>/i).slice(1).map(c => clean(c.replace(/<[^>]*>/g, '')));
+      if (tds.length < 2) continue;
+      const sym = (tds[0] || '').trim();
+      const name = (tds[1] || '').trim();
+      if (/^[A-Z.\-]{1,6}$/.test(sym) && name) out.push([sym, name]);
+    }
+    if (out.length >= 400) { console.log(`S&P 500: ${out.length}종목 (위키백과)`); return out; }
+    console.log(`위키백과도 너무 적다(${out.length}) — 나스닥만 담는다`);
+  } catch (e) {
+    console.log('위키백과 실패: ' + e.message + ' — 나스닥만 담는다');
+  }
+  return [];
+}
+
 async function fetchUS() {
-  /* ── 나스닥 상장만 ──────────────────────────────────────────
-     예전에는 otherlisted.txt(NYSE·AMEX 등)까지 합쳐 12,000종목을 담았다.
-     이 앱이 다루기로 한 시장은 나스닥이므로 그쪽만 받는다. 목록이 절반으로
-     줄어 파일도 가벼워지고, 검색 결과에 "시세도 해설도 없는 종목"이 섞이는
-     일도 줄어든다. */
-  const a = await getBuffer('https://www.nasdaqtrader.com/dynamic/SymDir/nasdaqlisted.txt')
-    .then(x => x.toString('utf8'));
+  /* ── 나스닥 전체 + S&P 500 ──────────────────────────────────
+     예전에는 otherlisted.txt(NYSE·AMEX 전체)까지 합쳐 12,000종목을 담았다.
+     그건 너무 넓다 — 시세도 해설도 못 붙이는 종목이 검색에 잡힌다.
+     반대로 나스닥만 담으면 S&P 500 의 뉴욕 상장 대형주가 빠진다.
+     둘을 합치는 게 "다룰 수 있는 만큼 넓게"에 가장 가깝다. */
+  const [a, sp] = await Promise.all([
+    getBuffer('https://www.nasdaqtrader.com/dynamic/SymDir/nasdaqlisted.txt').then(x => x.toString('utf8')),
+    fetchSP500()
+  ]);
   const rows = parsePipe(a, { sym: 'Symbol', name: 'Security Name', etf: 'ETF', test: 'Test Issue' });
+  /* S&P 500 은 뒤에 붙인다 — 나스닥 목록의 이름 표기를 우선한다 */
+  for (const [sym, name] of sp) rows.push({ sym, name, etf: '', test: '' });
   const seen = new Set();
   const out = [];
   for (const r of rows) {

@@ -588,11 +588,12 @@ window.BCData = (function () {
         ]
       },
       us: {
-        key: 'us', label: '미국', flag: '🇺🇸', full: '미국 (NASDAQ)',
+        key: 'us', label: '미국', flag: '🇺🇸', full: '미국 (나스닥 · S&P 500)',
         currency: 'USD', symbol: '$', unit: 1, unitLabel: '달러',
         picks: US_PICKS,
-        /* 나스닥이 먼저다 — 이 앱이 종목을 다루는 시장이 그쪽이다.
-           S&P500 은 시장 전체 분위기를 보는 참고값으로 옆에 둔다. */
+        /* 나스닥과 S&P 500 을 나란히 본다. 나스닥만으로는 뉴욕에 상장된
+           대형주(버크셔·비자·J&J…)가 안 보이고, 그 종목들이 이 앱의 주제인
+           "50년 뒤에도 있을 회사"에 가장 가깝다. VIX 는 불안의 온도계다. */
         indices: [
           { sym: '^IXIC', name: '나스닥', unit: '', url: 'https://finance.yahoo.com/quote/%5EIXIC' },
           { sym: '^GSPC', name: 'S&P500', unit: '', url: 'https://finance.yahoo.com/quote/%5EGSPC' },
