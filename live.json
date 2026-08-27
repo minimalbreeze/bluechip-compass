@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-27T16:30:35.338Z",
+  "asOf": "2026-08-27T16:50:59.997Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -21,35 +21,35 @@
       "prev": 1381.489990234375,
       "chg": -0.01,
       "basis": "prev-daily-close",
-      "time": "2026-08-27T16:30:22.000Z"
+      "time": "2026-08-27T16:50:52.000Z"
     },
     "^GSPC": {
-      "price": 7726.56,
+      "price": 7734.84,
       "prev": 7675.7001953125,
-      "chg": 0.66,
+      "chg": 0.77,
       "basis": "prev-daily-close",
-      "time": "2026-08-27T16:30:26.000Z"
+      "time": "2026-08-27T16:50:52.000Z"
     },
     "^IXIC": {
-      "price": 26495.2,
+      "price": 26523.18,
       "prev": 26130.19921875,
-      "chg": 1.4,
+      "chg": 1.5,
       "basis": "prev-daily-close",
-      "time": "2026-08-27T16:30:23.000Z"
+      "time": "2026-08-27T16:50:51.000Z"
     },
     "^VIX": {
-      "price": 14.47,
+      "price": 14.43,
       "prev": 15.210000038146973,
-      "chg": -4.87,
+      "chg": -5.13,
       "basis": "prev-daily-close",
-      "time": "2026-08-27T16:15:16.000Z"
+      "time": "2026-08-27T16:35:46.000Z"
     },
     "^TNX": {
       "price": 4.66,
       "prev": 4.664000034332275,
       "chg": -0.09,
       "basis": "prev-daily-close",
-      "time": "2026-08-27T16:15:24.000Z"
+      "time": "2026-08-27T16:35:44.000Z"
     }
   },
   "fx": {
@@ -80,25 +80,25 @@
       "chg3m": -8.6
     },
     "^GSPC": {
-      "last": 7726.55,
+      "last": 7734.84,
       "low52": 6343.72,
       "high52": 7798.99,
-      "pct52": 0.95,
-      "chg3m": 1.93
+      "pct52": 0.956,
+      "chg3m": 2.04
     },
     "^IXIC": {
-      "last": 26494.9,
+      "last": 26523.18,
       "low52": 20794.64,
       "high52": 27093.9,
-      "pct52": 0.905,
-      "chg3m": -1.77
+      "pct52": 0.909,
+      "chg3m": -1.67
     },
     "^VIX": {
-      "last": 14.47,
+      "last": 14.43,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.057,
-      "chg3m": -5.55
+      "pct52": 0.055,
+      "chg3m": -5.81
     },
     "^TNX": {
       "last": 4.66,
@@ -110,14 +110,14 @@
   },
   "regime": {
     "by": "rules",
-    "asOf": "2026-08-27T16:30:34.787Z",
+    "asOf": "2026-08-27T16:50:59.364Z",
     "kr": {
       "why": {
         "rates": "미국 10년물 금리가 지금 4.66%로, 3개월 전보다 4.65% 높고 최근 1년 범위(3.95~4.74)의 89% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
         "growth": "지수가 3개월 전보다 -17.26% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
         "valuation": "지수가 최근 1년 범위의 61% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
         "fx": "원/달러가 1381.34원으로 최근 1년(1377.64~1554.48) 범위의 2% 지점입니다.",
-        "geo": "VIX 가 14.47입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
+        "geo": "VIX 가 14.43입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
       },
       "rates": "hike",
       "growth": "reces",
@@ -129,10 +129,10 @@
     "us": {
       "why": {
         "rates": "미국 10년물 금리가 지금 4.66%로, 3개월 전보다 4.65% 높고 최근 1년 범위(3.95~4.74)의 89% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
-        "growth": "지수가 3개월 전보다 +1.93% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
-        "valuation": "지수가 최근 1년 범위의 95% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
+        "growth": "지수가 3개월 전보다 +2.04% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
+        "valuation": "지수가 최근 1년 범위의 96% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
         "fx": "원/달러가 1381.34원으로 최근 1년(1377.64~1554.48) 범위의 2% 지점입니다.",
-        "geo": "VIX 가 14.47입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
+        "geo": "VIX 가 14.43입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
       },
       "rates": "hike",
       "growth": "expand",
@@ -238,95 +238,95 @@
     },
     "us": {
       "MSFT": {
-        "price": 502.695,
+        "price": 504.31,
         "prev": 496.3699951171875,
-        "chg": 1.27,
+        "chg": 1.6,
         "basis": "prev-daily-close",
-        "time": "2026-08-27T16:30:33.000Z"
+        "time": "2026-08-27T16:50:58.000Z"
       },
       "AAPL": {
-        "price": 314.505,
+        "price": 314.63,
         "prev": 313.45001220703125,
-        "chg": 0.34,
+        "chg": 0.38,
         "basis": "prev-daily-close",
-        "time": "2026-08-27T16:30:33.000Z"
+        "time": "2026-08-27T16:50:57.000Z"
       },
       "GOOGL": {
-        "price": 341.505,
+        "price": 341.155,
         "prev": 342,
-        "chg": -0.14,
+        "chg": -0.25,
         "basis": "prev-daily-close",
-        "time": "2026-08-27T16:30:33.000Z"
+        "time": "2026-08-27T16:50:58.000Z"
       },
       "BRK.B": {
-        "price": 503.335,
+        "price": 503.415,
         "prev": 504.9100036621094,
-        "chg": -0.31,
+        "chg": -0.3,
         "basis": "prev-daily-close",
-        "time": "2026-08-27T16:30:28.000Z"
+        "time": "2026-08-27T16:50:53.000Z"
       },
       "V": {
-        "price": 380.78,
+        "price": 381.08,
         "prev": 383.8999938964844,
-        "chg": -0.81,
+        "chg": -0.73,
         "basis": "prev-daily-close",
-        "time": "2026-08-27T16:30:32.000Z"
+        "time": "2026-08-27T16:50:57.000Z"
       },
       "JNJ": {
-        "price": 266.77,
+        "price": 266.73,
         "prev": 270,
-        "chg": -1.2,
+        "chg": -1.21,
         "basis": "prev-daily-close",
-        "time": "2026-08-27T16:30:30.000Z"
+        "time": "2026-08-27T16:50:49.000Z"
       },
       "PG": {
-        "price": 143.76,
+        "price": 143.87,
         "prev": 145,
-        "chg": -0.86,
+        "chg": -0.78,
         "basis": "prev-daily-close",
-        "time": "2026-08-27T16:30:19.000Z"
+        "time": "2026-08-27T16:50:56.000Z"
       },
       "KO": {
-        "price": 89.632,
-        "prev": 89.63249969482422,
-        "chg": 0,
-        "basis": "last-daily-close",
-        "time": "2026-08-27T16:30:29.000Z"
+        "price": 89.675,
+        "prev": 90.08000183105469,
+        "chg": -0.45,
+        "basis": "prev-daily-close",
+        "time": "2026-08-27T16:50:56.000Z"
       },
       "COST": {
-        "price": 939.51,
+        "price": 941.28,
         "prev": 956.1199951171875,
-        "chg": -1.74,
+        "chg": -1.55,
         "basis": "prev-daily-close",
-        "time": "2026-08-27T16:30:03.000Z"
+        "time": "2026-08-27T16:50:55.000Z"
       },
       "WM": {
-        "price": 218.125,
+        "price": 218.23,
         "prev": 221.24000549316406,
-        "chg": -1.41,
+        "chg": -1.36,
         "basis": "prev-daily-close",
-        "time": "2026-08-27T16:30:30.000Z"
+        "time": "2026-08-27T16:50:50.000Z"
       },
       "LIN": {
-        "price": 483.34,
+        "price": 484.515,
         "prev": 490.3299865722656,
-        "chg": -1.43,
+        "chg": -1.19,
         "basis": "prev-daily-close",
-        "time": "2026-08-27T16:30:23.000Z"
+        "time": "2026-08-27T16:50:48.000Z"
       },
       "XOM": {
-        "price": 157.115,
+        "price": 157.63,
         "prev": 158.19000244140625,
-        "chg": -0.68,
+        "chg": -0.35,
         "basis": "prev-daily-close",
-        "time": "2026-08-27T16:30:32.000Z"
+        "time": "2026-08-27T16:50:44.000Z"
       },
       "NVDA": {
-        "price": 228.38,
+        "price": 228.96,
         "prev": 209.66000366210938,
-        "chg": 8.93,
+        "chg": 9.21,
         "basis": "prev-daily-close",
-        "time": "2026-08-27T16:30:34.000Z"
+        "time": "2026-08-27T16:50:57.000Z"
       }
     }
   },
@@ -344,10 +344,10 @@
         "by": "rules"
       },
       {
-        "title": "'백투백' 금리 인상한 한은…원화 강세 가속화되나 [분석+]",
-        "link": "https://www.hankyung.com/article/2026082772126",
+        "title": "무서웠던 금리 상승세…시타델의 예언 \"몇 달간 하락\" [김현석의 퀵브리프]",
+        "link": "https://www.hankyung.com/article/202608278041i",
         "source": "한국경제",
-        "date": "Thu, 27 Aug 2026 20:00:06 +0900",
+        "date": "Fri, 28 Aug 2026 00:46:48 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -377,13 +377,13 @@
         "by": "rules"
       },
       {
-        "title": "주요국 내년 증시 미리보기 [한경 프리미엄9 TODAY]",
-        "link": "https://www.hankyung.com/article/2026082776631",
+        "title": "'백투백' 금리 인상한 한은…원화 강세 가속화되나 [분석+]",
+        "link": "https://www.hankyung.com/article/2026082772126",
         "source": "한국경제",
-        "date": "Thu, 27 Aug 2026 17:40:18 +0900",
+        "date": "Thu, 27 Aug 2026 20:00:06 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -425,14 +425,14 @@
         "by": "rules"
       },
       {
-        "title": "Stock Market Today: Nasdaq Leads Gains; Cybersecurity Stocks Jump Off Key Level (Live Coverage)",
-        "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-nvidia-nvda-salesforce-crm-crowdstrike-crwd/?src=A00220&yptr=yahoo",
+        "title": "Is Versigent (VGNT) Undervalued With Margin Expansion and Buyback Potential Ahead?",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/versigent-vgnt-undervalued-margin-expansion-163610594.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-27T16:09:55Z",
-        "ko": "오늘의 주식 시장: 나스닥 리드 이익, 사이버 보안 주식이 주요 수준에서 뛰어내림 (실시간 범위)",
+        "date": "2026-08-27T16:36:10Z",
+        "ko": "Versigent (VGNT) 가 마진 확대 및 환매 가능성으로 저평가되어 있습니까?",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -461,11 +461,11 @@
         "by": "rules"
       },
       {
-        "title": "Kansas City Fed's Schmid warns payment innovation will be 'very disruptive'",
-        "link": "https://finance.yahoo.com/markets/crypto/article/kansas-city-feds-schmid-warns-payment-innovation-will-be-very-disruptive-160834131.html",
+        "title": "Stock market today: S&P 500, Nasdaq rise as Nvidia, Salesforce earnings boost tech",
+        "link": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-august-27-dow-sp-500-nasdaq-082144520.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-27T16:08:34Z",
-        "ko": "캔자스시티 연준 (Kansas City Fed) 의 슈미드 (Schmid) 는 결제 혁신이 '매우 파괴적일 것' 이라고 경고했다.",
+        "date": "2026-08-27T08:21:44Z",
+        "ko": "오늘의 주식 시장: S&P 500, Nasdaq 상승, Salesforce 수익 증대 기술",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -598,7 +598,8 @@
     "Salesforce’s stock rockets 20% and gives the software sector a major lift": "Salesforce의 스톡 로켓 20% 및 소프트웨어 부문에 대대적인 상승 제공",
     "Mortgage rates remain stuck near 6.7%: Mortgage and refinance interest rates today, Thursday, August 27, 2026": "주택담보대출 금리 6.7% 가까이 유지: 주택담보대출 및 재융자 금리 오늘, 2026년 8월 27일 목요일",
     "Stock Market Today: Nasdaq Leads Gains; Cybersecurity Stocks Jump Off Key Level (Live Coverage)": "오늘의 주식 시장: 나스닥 리드 이익, 사이버 보안 주식이 주요 수준에서 뛰어내림 (실시간 범위)",
-    "Kansas City Fed's Schmid warns payment innovation will be 'very disruptive'": "캔자스시티 연준 (Kansas City Fed) 의 슈미드 (Schmid) 는 결제 혁신이 '매우 파괴적일 것' 이라고 경고했다."
+    "Kansas City Fed's Schmid warns payment innovation will be 'very disruptive'": "캔자스시티 연준 (Kansas City Fed) 의 슈미드 (Schmid) 는 결제 혁신이 '매우 파괴적일 것' 이라고 경고했다.",
+    "Is Versigent (VGNT) Undervalued With Margin Expansion and Buyback Potential Ahead?": "Versigent (VGNT) 가 마진 확대 및 환매 가능성으로 저평가되어 있습니까?"
   },
   "nvCache": {
     "https://www.yna.co.kr/view/AKR20260824137251008": {
@@ -1275,8 +1276,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeTa7HN1cqBVN2U2XyupF\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeTa7J8tc6gAEGpidPp7p\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeTa7Jicr9dX4vUgTtEpq\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeTbfZC2F7TtE98q4A5bM\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeTbfZyeU7NzqDeH6B2Fy\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeTbfaas55gNDW8udXD9v\"}"
   ]
 }
