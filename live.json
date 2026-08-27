@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-27T20:55:46.997Z",
+  "asOf": "2026-08-27T21:16:07.477Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -17,25 +17,25 @@
       "time": "2026-08-27T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1381.14,
+      "price": 1380.85,
       "prev": 1383.489990234375,
-      "chg": -0.17,
+      "chg": -0.19,
       "basis": "prev-daily-close",
-      "time": "2026-08-27T20:55:34.000Z"
+      "time": "2026-08-27T21:15:57.000Z"
     },
     "^GSPC": {
       "price": 7730.99,
       "prev": 7675.7001953125,
       "chg": 0.72,
       "basis": "prev-daily-close",
-      "time": "2026-08-27T20:20:01.000Z"
+      "time": "2026-08-27T20:58:24.000Z"
     },
     "^IXIC": {
       "price": 26541.352,
       "prev": 26130.19921875,
       "chg": 1.57,
       "basis": "prev-daily-close",
-      "time": "2026-08-27T20:55:36.000Z"
+      "time": "2026-08-27T21:15:59.000Z"
     },
     "^VIX": {
       "price": 14.51,
@@ -55,7 +55,7 @@
   "fx": {
     "low52": 1377.64,
     "high52": 1554.48,
-    "pct": 0.02
+    "pct": 0.018
   },
   "hist": {
     "^KS11": {
@@ -73,11 +73,11 @@
       "chg3m": -27.03
     },
     "KRW=X": {
-      "last": 1381.14,
+      "last": 1380.85,
       "low52": 1377.64,
       "high52": 1554.48,
-      "pct52": 0.02,
-      "chg3m": -8.93
+      "pct52": 0.018,
+      "chg3m": -8.95
     },
     "^GSPC": {
       "last": 7730.99,
@@ -110,13 +110,13 @@
   },
   "regime": {
     "by": "rules",
-    "asOf": "2026-08-27T20:55:46.448Z",
+    "asOf": "2026-08-27T21:16:06.944Z",
     "kr": {
       "why": {
         "rates": "미국 10년물 금리가 지금 4.67%로, 3개월 전보다 4.92% 높고 최근 1년 범위(3.95~4.74)의 91% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
         "growth": "지수가 3개월 전보다 -17.26% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
         "valuation": "지수가 최근 1년 범위의 61% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
-        "fx": "원/달러가 1381.14원으로 최근 1년(1377.64~1554.48) 범위의 2% 지점입니다.",
+        "fx": "원/달러가 1380.85원으로 최근 1년(1377.64~1554.48) 범위의 2% 지점입니다.",
         "geo": "VIX 가 14.51입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
       },
       "rates": "hike",
@@ -131,7 +131,7 @@
         "rates": "미국 10년물 금리가 지금 4.67%로, 3개월 전보다 4.92% 높고 최근 1년 범위(3.95~4.74)의 91% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
         "growth": "지수가 3개월 전보다 +1.99% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
         "valuation": "지수가 최근 1년 범위의 95% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
-        "fx": "원/달러가 1381.14원으로 최근 1년(1377.64~1554.48) 범위의 2% 지점입니다.",
+        "fx": "원/달러가 1380.85원으로 최근 1년(1377.64~1554.48) 범위의 2% 지점입니다.",
         "geo": "VIX 가 14.51입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
       },
       "rates": "hike",
@@ -333,14 +333,14 @@
   "news": {
     "kr": [
       {
-        "title": "한투운용 유가증권펀드·MMF 사업, 한투밸류운용으로 흡수합병",
-        "link": "https://www.yna.co.kr/view/AKR20260827180200008",
+        "title": "상반기 보험사 대출채권 1.9조 증가…기업대출 연체·부실 악화",
+        "link": "https://www.yna.co.kr/view/AKR20260827188400002",
         "source": "연합뉴스",
-        "date": "Thu, 27 Aug 2026 18:33:48 +0900",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": "market",
-        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
+        "date": "Fri, 28 Aug 2026 06:00:01 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
@@ -366,14 +366,14 @@
         "by": "rules"
       },
       {
-        "title": "한은, 9월 최대 7조원 규모 통화안정증권 발행",
-        "link": "https://www.yna.co.kr/view/AKR20260827170300002",
+        "title": "한투운용 유가증권펀드·MMF 사업, 한투밸류운용으로 흡수합병",
+        "link": "https://www.yna.co.kr/view/AKR20260827180200008",
         "source": "연합뉴스",
-        "date": "Thu, 27 Aug 2026 17:27:35 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "date": "Thu, 27 Aug 2026 18:33:48 +0900",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": "market",
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
         "by": "rules"
       },
       {
@@ -413,11 +413,11 @@
         "by": "rules"
       },
       {
-        "title": "20 stocks likely to lose money even if the bull market continues",
-        "link": "https://www.marketwatch.com/story/20-stocks-likely-to-lose-money-even-if-the-bull-market-continues-3f931608?mod=mw_rss_topstories",
+        "title": "Marvell is boosting its forecasts, but that’s not enough to lift its stock",
+        "link": "https://www.marketwatch.com/story/marvell-is-boosting-its-forecasts-but-thats-not-enough-to-lift-its-stock-c769556a?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Thu, 27 Aug 2026 20:48:00 GMT",
-        "ko": "황소 시장이 계속되더라도 돈을 잃을 가능성이 있는 주식 20개",
+        "date": "Thu, 27 Aug 2026 21:12:00 GMT",
+        "ko": "Marvell은 예측치를 높이고 있지만 주가를 올리는 것만으로는 충분하지 않습니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -449,11 +449,11 @@
         "by": "rules"
       },
       {
-        "title": "My mother, 91, has dementia. Every bank says I need her signature to unlock her $100,000 stock certificate. What can I do?",
-        "link": "https://www.marketwatch.com/story/my-mother-91-has-dementia-every-bank-says-i-need-her-signature-to-unlock-her-100-000-stock-certificate-what-can-i-do-4a2b702f?mod=mw_rss_topstories",
+        "title": "20 stocks likely to lose money even if the bull market continues",
+        "link": "https://www.marketwatch.com/story/20-stocks-likely-to-lose-money-even-if-the-bull-market-continues-3f931608?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Thu, 27 Aug 2026 20:00:00 GMT",
-        "ko": "91세인 어머니는 치매를 앓고 계십니다. 모든 은행에서 $100,000의 주식 증서를 잠금 해제하려면 그녀의 서명이 필요하다고 말합니다. 어떻게 해야 하나요?",
+        "date": "Thu, 27 Aug 2026 20:48:00 GMT",
+        "ko": "황소 시장이 계속되더라도 돈을 잃을 가능성이 있는 주식 20개",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -461,11 +461,11 @@
         "by": "rules"
       },
       {
-        "title": "Are Wall Street Analysts Bullish on Zebra Technologies Stock?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-bullish-zebra-121734429.html",
+        "title": "3 Stocks to Buy Now to Invest Like President Trump",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/3-stocks-buy-now-invest-130002652.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-26T12:17:34Z",
-        "ko": "월스트리트 애널리스트들은 얼룩말 기술 주식에 낙관적입니까?",
+        "date": "2026-08-26T13:00:02Z",
+        "ko": "트럼프 대통령처럼 투자하기 위해 지금 매수해야 할 3가지 주식",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -617,7 +617,9 @@
     "Quantum Stocks Looked Like Nvidia in 2019. Then They Belly-Flopped 50%.": "2019년 양자 주식은 엔비디아처럼 보였습니다. 그런 다음 배꼽이 50% 떨어졌습니다.",
     "20 stocks likely to lose money even if the bull market continues": "황소 시장이 계속되더라도 돈을 잃을 가능성이 있는 주식 20개",
     "Cathie Wood bets on 'disrupter' stock with bullish analyst call": "Cathie Wood는 불리시 애널리스트 콜로 '디스럽터' 주식에 베팅합니다.",
-    "Are Wall Street Analysts Bullish on Zebra Technologies Stock?": "월스트리트 애널리스트들은 얼룩말 기술 주식에 낙관적입니까?"
+    "Are Wall Street Analysts Bullish on Zebra Technologies Stock?": "월스트리트 애널리스트들은 얼룩말 기술 주식에 낙관적입니까?",
+    "Marvell is boosting its forecasts, but that’s not enough to lift its stock": "Marvell은 예측치를 높이고 있지만 주가를 올리는 것만으로는 충분하지 않습니다.",
+    "3 Stocks to Buy Now to Invest Like President Trump": "트럼프 대통령처럼 투자하기 위해 지금 매수해야 할 3가지 주식"
   },
   "nvCache": {
     "https://www.yna.co.kr/view/AKR20260824137251008": {
@@ -1294,8 +1296,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeTvLCeBjxpLS82mv1uLg\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeTvLDNqmxz6mG3UGmHJH\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeTvLDvLJtSkri8AP3trb\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeTwtApokJZVfMSfabeWG\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeTwtBUzfsGHHbWJfeMFs\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeTwtBzkKwpU7g5QG8h5t\"}"
   ]
 }
