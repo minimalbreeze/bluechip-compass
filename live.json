@@ -1,27 +1,27 @@
 {
-  "asOf": "2026-08-26T20:41:24.171Z",
+  "asOf": "2026-08-27T00:36:31.604Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
-      "price": 6808.21,
-      "prev": 6742.740234375,
-      "chg": 0.97,
-      "basis": "last-daily-close",
-      "time": "2026-08-26T09:05:40.000Z"
+      "price": 6962.21,
+      "prev": 6808.2099609375,
+      "chg": 2.26,
+      "basis": "prev-daily-close",
+      "time": "2026-08-27T00:16:20.000Z"
     },
     "^KQ11": {
-      "price": 826.87,
+      "price": 831.78,
       "prev": 827.1500244140625,
-      "chg": -0.03,
-      "basis": "last-daily-close",
-      "time": "2026-08-26T09:05:40.000Z"
+      "chg": 0.56,
+      "basis": "prev-daily-close",
+      "time": "2026-08-27T00:16:20.000Z"
     },
     "KRW=X": {
-      "price": 1384.67,
+      "price": 1379.58,
       "prev": 1381.489990234375,
-      "chg": 0.23,
+      "chg": -0.14,
       "basis": "prev-daily-close",
-      "time": "2026-08-26T20:41:09.000Z"
+      "time": "2026-08-27T00:36:22.000Z"
     },
     "^GSPC": {
       "price": 7675.7,
@@ -35,7 +35,7 @@
       "prev": 26151.30078125,
       "chg": -0.08,
       "basis": "prev-daily-close",
-      "time": "2026-08-26T20:41:14.000Z"
+      "time": "2026-08-26T21:15:59.000Z"
     },
     "^VIX": {
       "price": 15.21,
@@ -55,29 +55,29 @@
   "fx": {
     "low52": 1377.64,
     "high52": 1554.48,
-    "pct": 0.04
+    "pct": 0.01
   },
   "hist": {
     "^KS11": {
-      "last": 6742.74,
+      "last": 6962.21,
       "low52": 3142.93,
       "high52": 9114.55,
-      "pct52": 0.603,
-      "chg3m": -16.21
+      "pct52": 0.64,
+      "chg3m": -14.94
     },
     "^KQ11": {
-      "last": 827.15,
+      "last": 831.78,
       "low52": 644.78,
       "high52": 1226.18,
-      "pct52": 0.314,
-      "chg3m": -29.46
+      "pct52": 0.322,
+      "chg3m": -26.59
     },
     "KRW=X": {
-      "last": 1384.67,
+      "last": 1379.48,
       "low52": 1377.64,
       "high52": 1554.48,
-      "pct52": 0.04,
-      "chg3m": -8.38
+      "pct52": 0.01,
+      "chg3m": -8.72
     },
     "^GSPC": {
       "last": 7675.7,
@@ -110,13 +110,13 @@
   },
   "regime": {
     "by": "rules",
-    "asOf": "2026-08-26T20:41:23.571Z",
+    "asOf": "2026-08-27T00:36:30.861Z",
     "kr": {
       "why": {
         "rates": "미국 10년물 금리가 지금 4.66%로, 3개월 전보다 4.69% 높고 최근 1년 범위(3.95~4.74)의 90% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
-        "growth": "지수가 3개월 전보다 -16.21% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
-        "valuation": "지수가 최근 1년 범위의 60% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
-        "fx": "원/달러가 1384.67원으로 최근 1년(1377.64~1554.48) 범위의 4% 지점입니다.",
+        "growth": "지수가 3개월 전보다 -14.94% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
+        "valuation": "지수가 최근 1년 범위의 64% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
+        "fx": "원/달러가 1379.48원으로 최근 1년(1377.64~1554.48) 범위의 1% 지점입니다.",
         "geo": "VIX 가 15.21입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
       },
       "rates": "hike",
@@ -131,7 +131,7 @@
         "rates": "미국 10년물 금리가 지금 4.66%로, 3개월 전보다 4.69% 높고 최근 1년 범위(3.95~4.74)의 90% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
         "growth": "지수가 3개월 전보다 +1.48% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
         "valuation": "지수가 최근 1년 범위의 92% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
-        "fx": "원/달러가 1384.67원으로 최근 1년(1377.64~1554.48) 범위의 4% 지점입니다.",
+        "fx": "원/달러가 1379.48원으로 최근 1년(1377.64~1554.48) 범위의 1% 지점입니다.",
         "geo": "VIX 가 15.21입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
       },
       "rates": "hike",
@@ -145,95 +145,95 @@
   "stocks": {
     "kr": {
       "105560": {
-        "price": 166600,
-        "prev": 166400,
-        "chg": 0.12,
-        "basis": "last-daily-close",
-        "time": "2026-08-26T06:30:29.000Z"
+        "price": 166900,
+        "prev": 166600,
+        "chg": 0.18,
+        "basis": "prev-daily-close",
+        "time": "2026-08-27T00:16:29.000Z"
       },
       "207940": {
-        "price": 1599000,
-        "prev": 1585000,
-        "chg": 0.88,
-        "basis": "last-daily-close",
-        "time": "2026-08-26T06:30:30.000Z"
+        "price": 1596000,
+        "prev": 1599000,
+        "chg": -0.19,
+        "basis": "prev-daily-close",
+        "time": "2026-08-27T00:16:22.000Z"
       },
       "005930": {
-        "price": 261500,
-        "prev": 257000,
-        "chg": 1.75,
-        "basis": "last-daily-close",
-        "time": "2026-08-26T06:30:19.000Z"
+        "price": 269000,
+        "prev": 261500,
+        "chg": 2.87,
+        "basis": "prev-daily-close",
+        "time": "2026-08-27T00:16:29.000Z"
       },
       "000660": {
-        "price": 1688000,
-        "prev": 1678000,
-        "chg": 0.6,
-        "basis": "last-daily-close",
-        "time": "2026-08-26T06:30:12.000Z"
+        "price": 1764000,
+        "prev": 1688000,
+        "chg": 4.5,
+        "basis": "prev-daily-close",
+        "time": "2026-08-27T00:16:29.000Z"
       },
       "005380": {
-        "price": 408000,
-        "prev": 421000,
-        "chg": -3.09,
-        "basis": "last-daily-close",
-        "time": "2026-08-26T06:30:06.000Z"
+        "price": 406500,
+        "prev": 408000,
+        "chg": -0.37,
+        "basis": "prev-daily-close",
+        "time": "2026-08-27T00:16:29.000Z"
       },
       "055550": {
-        "price": 107400,
-        "prev": 106500,
-        "chg": 0.85,
-        "basis": "last-daily-close",
-        "time": "2026-08-26T06:30:17.000Z"
+        "price": 107700,
+        "prev": 107400,
+        "chg": 0.28,
+        "basis": "prev-daily-close",
+        "time": "2026-08-27T00:16:27.000Z"
       },
       "000810": {
-        "price": 680000,
-        "prev": 648000,
-        "chg": 4.94,
-        "basis": "last-daily-close",
-        "time": "2026-08-26T06:30:17.000Z"
+        "price": 684000,
+        "prev": 680000,
+        "chg": 0.59,
+        "basis": "prev-daily-close",
+        "time": "2026-08-27T00:16:28.000Z"
       },
       "033780": {
-        "price": 174700,
-        "prev": 175400,
+        "price": 174000,
+        "prev": 174700,
         "chg": -0.4,
-        "basis": "last-daily-close",
-        "time": "2026-08-26T06:30:08.000Z"
+        "basis": "prev-daily-close",
+        "time": "2026-08-27T00:16:22.000Z"
       },
       "035420": {
-        "price": 220000,
-        "prev": 220500,
-        "chg": -0.23,
-        "basis": "last-daily-close",
-        "time": "2026-08-26T06:30:19.000Z"
+        "price": 223000,
+        "prev": 220000,
+        "chg": 1.36,
+        "basis": "prev-daily-close",
+        "time": "2026-08-27T00:16:29.000Z"
       },
       "005490": {
-        "price": 328000,
-        "prev": 332000,
-        "chg": -1.2,
-        "basis": "last-daily-close",
-        "time": "2026-08-26T06:30:09.000Z"
+        "price": 336500,
+        "prev": 328000,
+        "chg": 2.59,
+        "basis": "prev-daily-close",
+        "time": "2026-08-27T00:16:28.000Z"
       },
       "028260": {
-        "price": 387500,
-        "prev": 367000,
-        "chg": 5.59,
-        "basis": "last-daily-close",
-        "time": "2026-08-26T06:30:25.000Z"
+        "price": 389000,
+        "prev": 387500,
+        "chg": 0.39,
+        "basis": "prev-daily-close",
+        "time": "2026-08-27T00:16:29.000Z"
       },
       "012450": {
-        "price": 1087000,
-        "prev": 1102000,
-        "chg": -1.36,
-        "basis": "last-daily-close",
-        "time": "2026-08-26T06:30:14.000Z"
+        "price": 1108000,
+        "prev": 1087000,
+        "chg": 1.93,
+        "basis": "prev-daily-close",
+        "time": "2026-08-27T00:16:29.000Z"
       },
       "017670": {
-        "price": 99600,
-        "prev": 98900,
-        "chg": 0.71,
-        "basis": "last-daily-close",
-        "time": "2026-08-26T06:30:13.000Z"
+        "price": 99900,
+        "prev": 99600,
+        "chg": 0.3,
+        "basis": "prev-daily-close",
+        "time": "2026-08-27T00:16:29.000Z"
       }
     },
     "us": {
@@ -333,21 +333,10 @@
   "news": {
     "kr": [
       {
-        "title": "'금통위 경계' 국고채 금리 하락폭 축소…3년물 연 3.816%(종합)",
-        "link": "https://www.yna.co.kr/view/AKR20260826151251008",
+        "title": "한투증권, 하반기 대학생 채용·증시 설명회 '캠퍼스 투어'",
+        "link": "https://www.yna.co.kr/view/AKR20260827039800008",
         "source": "연합뉴스",
-        "date": "Wed, 26 Aug 2026 17:12:49 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "박현주 미래에셋 회장 \"대출까지 받아 비트코인 왜 하나…주식도 그렇게 하면 안돼\"",
-        "link": "https://www.hankyung.com/article/2026082651007",
-        "source": "한국경제",
-        "date": "Wed, 26 Aug 2026 20:20:56 +0900",
+        "date": "Thu, 27 Aug 2026 09:23:54 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -355,10 +344,21 @@
         "by": "rules"
       },
       {
-        "title": "“주식·채권, 지금은 숏” … 포트폴리오 지켜줄 3대 ETF는",
-        "link": "https://www.mk.co.kr/news/stock/12136914",
+        "title": "매출 106% 폭증·가이던스도 상회…엔비디아 2분기 실적 심층분석",
+        "link": "https://www.hankyung.com/article/202608275604i",
+        "source": "한국경제",
+        "date": "Thu, 27 Aug 2026 08:36:06 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "[MK시그널] 한솔아이원스,반도체 수요 대응 위한 910억 원 규모 신규 시설 투자 등에 주가상승세...MK시그널 추천 후 상승률 15.75%",
+        "link": "https://www.mk.co.kr/news/stock/12137461",
         "source": "매일경제",
-        "date": "Thu, 27 Aug 2026 05:00:00 +09:00",
+        "date": "Thu, 27 Aug 2026 09:21:05 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -366,35 +366,35 @@
         "by": "rules"
       },
       {
-        "title": "올 코스피 신규상장 4건…2022년 이후 '최저'",
-        "link": "https://www.hankyung.com/article/2026082648831",
-        "source": "한국경제",
-        "date": "Wed, 26 Aug 2026 17:57:19 +0900",
+        "title": "삼성액티브자산 'KoAct 고배당액티브' 첫 월분배금 지급",
+        "link": "https://www.yna.co.kr/view/AKR20260827038000008",
+        "source": "연합뉴스",
+        "date": "Thu, 27 Aug 2026 09:19:55 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "“적자 자회사를 왜 합병시키나”…주가 급락한 SK이노, 이유가 있습니다",
-        "link": "https://www.mk.co.kr/news/stock/12137266",
+        "title": "3개월 만에 또 기술 수출…한미약품, 올해 사상 최대 실적 거두나",
+        "link": "https://www.hankyung.com/article/202608275466i",
+        "source": "한국경제",
+        "date": "Thu, 27 Aug 2026 07:43:00 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "엔비디아 ‘호실적’에 반도체株 훈풍…삼성전자 3% SK하이닉스 4% 상승",
+        "link": "https://www.mk.co.kr/news/stock/12137459",
         "source": "매일경제",
-        "date": "Wed, 26 Aug 2026 22:40:01 +09:00",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": "market",
-        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
-        "by": "rules"
-      },
-      {
-        "title": "“반도체 호황, 2030년까지 간다” [한경 프리미엄9 TODAY]",
-        "link": "https://www.hankyung.com/article/2026082648061",
-        "source": "한국경제",
-        "date": "Wed, 26 Aug 2026 17:55:29 +0900",
+        "date": "Thu, 27 Aug 2026 09:19:24 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -413,14 +413,14 @@
         "by": "rules"
       },
       {
-        "title": "Salesforce’s stock surges as AI momentum fuels revenue growth",
-        "link": "https://www.marketwatch.com/story/salesforces-stock-surges-as-ai-momentums-fuel-revenue-growth-8c96eef3?mod=mw_rss_topstories",
+        "title": "Fed’s Lisa Cook denies committing mortgage fraud, says Trump has no grounds to remove her from office",
+        "link": "https://www.marketwatch.com/story/feds-lisa-cook-denies-committing-mortgage-fraud-says-trump-has-no-grounds-to-remove-her-from-office-4ea60c9d?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Wed, 26 Aug 2026 20:24:00 GMT",
-        "ko": "AI 모멘텀이 매출 성장을 촉진함에 따라 Salesforce의 재고가 급증",
+        "date": "Thu, 27 Aug 2026 00:14:00 GMT",
+        "ko": "Fed의 리사 쿡 (Lisa Cook) 은 모기지 사기 행위를 부인하며, 트럼프는 그녀를 공직에서 퇴출시킬 근거가 없다고 말합니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -449,11 +449,11 @@
         "by": "ai"
       },
       {
-        "title": "Nvidia stock is on a 7-day losing streak ahead of its big earnings report",
-        "link": "https://finance.yahoo.com/markets/stocks/article/nvidia-stock-is-on-a-7-day-losing-streak-ahead-of-its-big-earnings-report-121527754.html",
-        "source": "Yahoo Finance",
-        "date": "2026-08-25T12:15:27Z",
-        "ko": "엔비디아 주식은 큰 수익 보고서를 앞두고 7일 연속 손실을 보고 있습니다.",
+        "title": "Salesforce’s stock gets an Anthropic boost — and more highlights from earnings",
+        "link": "https://www.marketwatch.com/story/salesforces-stock-surges-as-ai-momentums-fuel-revenue-growth-8c96eef3?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "date": "Wed, 26 Aug 2026 22:50:00 GMT",
+        "ko": "Salesforce의 재고는 Anthropic Boost를 획득하고 수입에서 더 많은 하이라이트를 얻습니다",
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
@@ -461,16 +461,16 @@
         "by": "rules"
       },
       {
-        "title": "Bessent could tap near $1 trillion Treasury General Account to fund bond buybacks, sources said",
-        "link": "https://www.cnbc.com/2026/08/24/bessent-1-trillion-treasury-general-account-bond-buybacks.html",
-        "source": "CNBC",
-        "date": "Mon, 24 Aug 2026 13:17:35 GMT",
-        "ko": "소식통에 따르면 베센트는 채권 환매 자금을 조달하기 위해 $1조에 가까운 재무부 일반 계좌를 활용할 수 있다고 말했다.",
-        "act": "watch",
+        "title": "Constellation Brands Stock: Is Wall Street Bullish or Bearish?",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/constellation-brands-stock-wall-street-125532239.html",
+        "source": "Yahoo Finance",
+        "date": "2026-08-25T12:55:32Z",
+        "ko": "별자리 브랜드 주식: 월스트리트는 낙관적인가 아니면 곰스러운가?",
+        "act": "none",
         "lasting": "temporary",
-        "scope": "market",
-        "why": "국채 수급·유동성 관련 정책 얘기라 시장 금리 흐름만 지켜보면 됩니다.",
-        "by": "ai"
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
       }
     ]
   },
@@ -576,7 +576,10 @@
     "The ugly math on interest expenses, yields and the $40 trillion U.S. national debt": "이자 비용, 수익률 및 $40 조 달러의 미국 국가 부채에 대한 추악한 수학",
     "Nvidia's valuation looks surprisingly cheap heading into earnings. Could it be an issue for the stock?": "엔비디아의 가치 평가는 놀라울 정도로 저렴해 보입니다. 재고에 문제가 될 수 있나요?",
     "Salesforce’s stock surges as AI momentum fuels revenue growth": "AI 모멘텀이 매출 성장을 촉진함에 따라 Salesforce의 재고가 급증",
-    "Nvidia stock is on a 7-day losing streak ahead of its big earnings report": "엔비디아 주식은 큰 수익 보고서를 앞두고 7일 연속 손실을 보고 있습니다."
+    "Nvidia stock is on a 7-day losing streak ahead of its big earnings report": "엔비디아 주식은 큰 수익 보고서를 앞두고 7일 연속 손실을 보고 있습니다.",
+    "Fed’s Lisa Cook denies committing mortgage fraud, says Trump has no grounds to remove her from office": "Fed의 리사 쿡 (Lisa Cook) 은 모기지 사기 행위를 부인하며, 트럼프는 그녀를 공직에서 퇴출시킬 근거가 없다고 말합니다.",
+    "Salesforce’s stock gets an Anthropic boost — and more highlights from earnings": "Salesforce의 재고는 Anthropic Boost를 획득하고 수입에서 더 많은 하이라이트를 얻습니다",
+    "Constellation Brands Stock: Is Wall Street Bullish or Bearish?": "별자리 브랜드 주식: 월스트리트는 낙관적인가 아니면 곰스러운가?"
   },
   "nvCache": {
     "https://www.yna.co.kr/view/AKR20260824137251008": {
@@ -1253,8 +1256,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeS1RgXh7HfhyeewycWiu\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeS1RhHpx7oq8onzcRY5A\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeS1RhpanRFb8avi2bCRE\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeSKMbwqvH1cbTn2WzP5i\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeSKMcdGonN1bVkggWvDC\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeSKMd9mwDKXXYQT6DpVZ\"}"
   ]
 }
