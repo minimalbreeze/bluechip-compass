@@ -2047,41 +2047,31 @@
      따라 투자하려면 "무엇을 언제 얼마에"가 한눈에 보여야 하므로, 새 거래는
      접지 않고 위에 편다. 본 뒤에는 사라진다 — 매번 같은 걸 보여주면 그것도
      금방 배경이 된다. */
+  /* ── 지난번 본 뒤로 뭐가 있었나 ────────────────────────────────
+     예전에는 여기서 새 거래를 **줄줄이 다 적었다.** 그런데 바로 아래
+     'AI 매매 내역'이 같은 목록을 날짜별로 다시 보여준다 — 한 화면에 같은
+     일곱 줄이 두 번 있었다. 여기서는 **몇 건인지와 무엇이 움직였는지**만
+     한 줄로 말하고, 자세한 건 아래 한 곳에서 본다. */
   function simNewHtml(mk) {
     var fresh = simNew(mk);
     if (!fresh.length) return '';
-    var rows = fresh.map(function (l) {
-      if (l.kind === 'cash') {
-        var into = l.n === '투자 금액 추가';
-        return '<div class="snw-row">' +
-          '<span class="snw-k ' + (into ? 'buy' : 'sell') + '">' + (into ? '입금' : '출금') + '</span>' +
-          '<span class="snw-b"><b>' + won(l.amt) + '</b> ' + (into ? '넣었습니다' : '뺐습니다') +
-            '<span class="snw-d">' + l.ts + (l.why ? ' · ' + esc(l.why) : '') + '</span>' +
-          '</span></div>';
-      }
-      if (l.kind === 'note') {
-        return '<div class="snw-row">' +
-          '<span class="snw-k note">변경</span>' +
-          '<span class="snw-b"><b>' + esc(l.n) + '</b>' +
-            '<span class="snw-d">' + l.ts + (l.why ? ' · ' + esc(l.why) : '') + '</span>' +
-          '</span></div>';
-      }
-      var side = l.kind === 'buy' ? '샀습니다' : '팔았습니다';
-      return '<div class="snw-row">' +
-        '<span class="snw-k ' + l.kind + '">' + (l.kind === 'buy' ? '매수' : '매도') + '</span>' +
-        '<span class="snw-b"><b>' + esc(l.n) + '</b> ' +
-          simPerShare(l.price) + ' 에 <b>' + won(l.amt) + '</b> ' + side +
-          (l.auto ? ' <span class="log-auto">자동</span>' : '') +
-          (typeof l.real === 'number'
-            ? ' <span class="' + plClass(l.real) + '">확정 손익 ' + signWon(l.real) + '</span>' : '') +
-          '<span class="snw-d">' + l.ts + (l.why ? ' · ' + esc(l.why) : '') + '</span>' +
-        '</span></div>';
-    }).join('');
+    var buys = 0, sells = 0, other = 0, names = [];
+    fresh.forEach(function (l) {
+      if (l.kind === 'buy') buys++;
+      else if (l.kind === 'sell') sells++;
+      else other++;
+      if (l.n && names.indexOf(l.n) < 0 && names.length < 3) names.push(l.n);
+    });
+    var what = [];
+    if (buys) what.push('매수 ' + buys + '건');
+    if (sells) what.push('매도 ' + sells + '건');
+    if (other) what.push('그 밖 ' + other + '건');
     return '<div class="simnew">' +
       '<div class="simnew-h">🆕 지난번 본 뒤로 <b>' + fresh.length + '건</b>이 오갔습니다</div>' +
-      rows +
-      '<div class="simnew-f">이 기록은 <b>📒 매매 장부</b>와 <b>🧾 전체 거래 내역</b>에 그대로 쌓입니다. ' +
-        '모의투자를 초기화하기 전까지 한 줄도 지우지 않습니다.</div>' +
+      '<div class="simnew-s">' + what.join(' · ') +
+        (names.length ? ' — ' + esc(names.join(', ')) + (fresh.length > names.length ? ' 외' : '') : '') +
+      '</div>' +
+      '<button class="linkbtn" data-openfold="sim-log">아래 <b>AI 매매 내역</b>에서 하나씩 보기 →</button>' +
       '</div>';
   }
 
@@ -2986,6 +2976,17 @@
         if (p.ticker === el.dataset.spick) pk = p;
       });
       if (pk) { state.sq = pk.name; state.sSel = { t: pk.ticker, n: pk.name, etf: 0, uni: true }; render(); }
+      return;
+    }
+    /* 요약 줄에서 "아래에서 하나씩 보기"를 누르면, 그 칸을 펴고 거기로 옮겨준다.
+       펴 놓기만 하고 그대로 두면 사용자는 무엇이 달라졌는지 못 찾는다. */
+    if ((el = ev.target.closest('[data-openfold]'))) {
+      var fk = el.dataset.openfold;
+      state.folds[fk] = true;
+      save('folds', state.folds);
+      render();
+      var tgt = document.querySelector('[data-fold="' + fk + '"]');
+      if (tgt && tgt.scrollIntoView) tgt.scrollIntoView({ block: 'start' });
       return;
     }
     if (ev.target.id === 'live-refresh') {

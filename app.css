@@ -1442,3 +1442,7 @@ body[data-market="us"] .ms-thumb { transform: translateX(100%); }
   border-radius: var(--r-s); padding: 10px; cursor: pointer;
 }
 .quietbtn:hover { color: var(--bad); border-color: #f3cfcd; }
+
+/* 지난번 본 뒤로 달라진 것 — 요약 한 줄. 자세한 건 'AI 매매 내역' 한 곳에서 본다. */
+.simnew-s { font-size: 13px; color: var(--ink); line-height: 1.6; margin: 6px 0 2px;
+            word-break: keep-all; overflow-wrap: anywhere; }
