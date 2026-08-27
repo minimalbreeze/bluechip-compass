@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-27T22:16:30.944Z",
+  "asOf": "2026-08-27T23:16:53.549Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -17,11 +17,11 @@
       "time": "2026-08-27T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1381,
+      "price": 1381.19,
       "prev": 1383.489990234375,
-      "chg": -0.18,
+      "chg": -0.17,
       "basis": "prev-daily-close",
-      "time": "2026-08-27T22:16:21.000Z"
+      "time": "2026-08-27T23:16:45.000Z"
     },
     "^GSPC": {
       "price": 7730.99,
@@ -55,7 +55,7 @@
   "fx": {
     "low52": 1377.64,
     "high52": 1554.48,
-    "pct": 0.019
+    "pct": 0.02
   },
   "hist": {
     "^KS11": {
@@ -73,11 +73,11 @@
       "chg3m": -27.03
     },
     "KRW=X": {
-      "last": 1381,
+      "last": 1381.19,
       "low52": 1377.64,
       "high52": 1554.48,
-      "pct52": 0.019,
-      "chg3m": -8.94
+      "pct52": 0.02,
+      "chg3m": -8.93
     },
     "^GSPC": {
       "last": 7730.99,
@@ -110,13 +110,13 @@
   },
   "regime": {
     "by": "rules",
-    "asOf": "2026-08-27T22:16:30.405Z",
+    "asOf": "2026-08-27T23:16:53.019Z",
     "kr": {
       "why": {
         "rates": "미국 10년물 금리가 지금 4.67%로, 3개월 전보다 4.92% 높고 최근 1년 범위(3.95~4.74)의 91% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
         "growth": "지수가 3개월 전보다 -17.26% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
         "valuation": "지수가 최근 1년 범위의 61% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
-        "fx": "원/달러가 1381원으로 최근 1년(1377.64~1554.48) 범위의 2% 지점입니다.",
+        "fx": "원/달러가 1381.19원으로 최근 1년(1377.64~1554.48) 범위의 2% 지점입니다.",
         "geo": "VIX 가 14.51입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
       },
       "rates": "hike",
@@ -131,7 +131,7 @@
         "rates": "미국 10년물 금리가 지금 4.67%로, 3개월 전보다 4.92% 높고 최근 1년 범위(3.95~4.74)의 91% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
         "growth": "지수가 3개월 전보다 +1.99% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
         "valuation": "지수가 최근 1년 범위의 95% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
-        "fx": "원/달러가 1381원으로 최근 1년(1377.64~1554.48) 범위의 2% 지점입니다.",
+        "fx": "원/달러가 1381.19원으로 최근 1년(1377.64~1554.48) 범위의 2% 지점입니다.",
         "geo": "VIX 가 14.51입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
       },
       "rates": "hike",
@@ -333,10 +333,43 @@
   "news": {
     "kr": [
       {
-        "title": "상반기 보험사 대출채권 1.9조 증가…기업대출 연체·부실 악화",
-        "link": "https://www.yna.co.kr/view/AKR20260827188400002",
+        "title": "[마켓뷰] 연준 의장 잭슨홀 연설 주시…'엔비디아발 호재' 이어가나",
+        "link": "https://www.yna.co.kr/view/AKR20260828021100008",
         "source": "연합뉴스",
-        "date": "Fri, 28 Aug 2026 06:00:01 +0900",
+        "date": "Fri, 28 Aug 2026 08:04:13 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "\"S-Oil, 하반기 영업익 3조·배당 확대 기대…목표가↑\"-유안타",
+        "link": "https://www.hankyung.com/article/2026082882106",
+        "source": "한국경제",
+        "date": "Fri, 28 Aug 2026 07:29:15 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "SG, SK하이닉스 용인 반도체 클러스터에 ‘에코스틸아스콘’ 모크업 시공 완료",
+        "link": "https://www.mk.co.kr/news/stock/12138444",
+        "source": "매일경제",
+        "date": "Fri, 28 Aug 2026 08:07:37 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "삼성바이오로직스, 3조원 주주배정 유상증자 결정",
+        "link": "https://www.yna.co.kr/view/AKR20260828020800008",
+        "source": "연합뉴스",
+        "date": "Fri, 28 Aug 2026 07:55:07 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -364,39 +397,6 @@
         "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
-      },
-      {
-        "title": "한투운용 유가증권펀드·MMF 사업, 한투밸류운용으로 흡수합병",
-        "link": "https://www.yna.co.kr/view/AKR20260827180200008",
-        "source": "연합뉴스",
-        "date": "Thu, 27 Aug 2026 18:33:48 +0900",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": "market",
-        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
-        "by": "rules"
-      },
-      {
-        "title": "무서웠던 금리 상승세…시타델의 예언 \"몇 달간 하락\" [김현석의 퀵브리프]",
-        "link": "https://www.hankyung.com/article/202608278041i",
-        "source": "한국경제",
-        "date": "Fri, 28 Aug 2026 00:46:48 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "전산장애 잦은 토스증권…금감원, 현장 컨설팅 검사",
-        "link": "https://www.mk.co.kr/news/stock/12138166",
-        "source": "매일경제",
-        "date": "Thu, 27 Aug 2026 18:06:22 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
       }
     ],
     "us": [
@@ -413,11 +413,11 @@
         "by": "rules"
       },
       {
-        "title": "Marvell boosts its forecasts, but the stock slides as Wall Street wonders if there’s more to the story",
-        "link": "https://www.marketwatch.com/story/marvell-is-boosting-its-forecasts-but-thats-not-enough-to-lift-its-stock-c769556a?mod=mw_rss_topstories",
+        "title": "My mother, 91, has dementia. Every bank says I need her signature to unlock her $100,000 stock certificate. What can I do?",
+        "link": "https://www.marketwatch.com/story/my-mother-91-has-dementia-every-bank-says-i-need-her-signature-to-unlock-her-100-000-stock-certificate-what-can-i-do-4a2b702f?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Thu, 27 Aug 2026 22:13:00 GMT",
-        "ko": "Marvell은 예측을 높이지만 월스트리트가 더 많은 이야기가 있는지 궁금해하면서 주가가 미끄러집니다.",
+        "date": "Thu, 27 Aug 2026 23:00:00 GMT",
+        "ko": "91세인 어머니는 치매를 앓고 계십니다. 모든 은행에서 $100,000의 주식 증서를 잠금 해제하려면 그녀의 서명이 필요하다고 말합니다. 어떻게 해야 하나요?",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -449,23 +449,23 @@
         "by": "rules"
       },
       {
-        "title": "The options market is signaling further gains for the S&P 500, but one indicator is flashing a warning",
-        "link": "https://www.marketwatch.com/story/the-s-p-500-is-nearing-an-especially-positive-price-and-the-options-market-suggests-a-surge-is-likely-a54d866d?mod=mw_rss_topstories",
+        "title": "CrowdStrike’s stock jumps after record-breaking earnings. Wall Street is lapping it up.",
+        "link": "https://www.marketwatch.com/story/crowdstrikes-stock-has-jumped-after-record-breaking-earnings-wall-street-is-lapping-it-up-dbdaca83?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Thu, 27 Aug 2026 22:12:00 GMT",
-        "ko": "옵션 시장은 S&P 500에 대한 추가 상승 신호를 보내고 있지만, 한 지표는 경고를 깜박이고 있습니다.",
+        "date": "Thu, 27 Aug 2026 22:53:00 GMT",
+        "ko": "CrowdStrike의 주가는 기록적인 수익을 올린 후 뛰어오릅니다. 월스트리트가 그것을 쌓아 올리고 있습니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "Amidst a Big Addressable Market, SpaceX Has Ample Scope for Sustained Growth",
-        "link": "https://finance.yahoo.com/technology/ai/articles/amidst-big-addressable-market-spacex-143500144.html",
+        "title": "1 Penny Stock That Could Howl Its Way to the Top After a $150 Million Funding Boost",
+        "link": "https://finance.yahoo.com/healthcare/articles/1-penny-stock-could-howl-154753793.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-26T14:35:00Z",
-        "ko": "주소 지정이 가능한 큰 시장 속에서 SpaceX는 지속적인 성장을 위한 충분한 범위를 가지고 있습니다.",
+        "date": "2026-08-26T15:47:53Z",
+        "ko": "1 페니 주식, 1억 5천만 달러의 펀딩 부스트를 거친 후 정상에 오를 수 있음 (1 Penny Stock That Could Howl Its Way to the Top After a $150",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -622,7 +622,9 @@
     "3 Stocks to Buy Now to Invest Like President Trump": "트럼프 대통령처럼 투자하기 위해 지금 매수해야 할 3가지 주식",
     "Marvell boosts its forecasts, but the stock slides as Wall Street wonders if there’s more to the story": "Marvell은 예측을 높이지만 월스트리트가 더 많은 이야기가 있는지 궁금해하면서 주가가 미끄러집니다.",
     "The options market is signaling further gains for the S&P 500, but one indicator is flashing a warning": "옵션 시장은 S&P 500에 대한 추가 상승 신호를 보내고 있지만, 한 지표는 경고를 깜박이고 있습니다.",
-    "Amidst a Big Addressable Market, SpaceX Has Ample Scope for Sustained Growth": "주소 지정이 가능한 큰 시장 속에서 SpaceX는 지속적인 성장을 위한 충분한 범위를 가지고 있습니다."
+    "Amidst a Big Addressable Market, SpaceX Has Ample Scope for Sustained Growth": "주소 지정이 가능한 큰 시장 속에서 SpaceX는 지속적인 성장을 위한 충분한 범위를 가지고 있습니다.",
+    "CrowdStrike’s stock jumps after record-breaking earnings. Wall Street is lapping it up.": "CrowdStrike의 주가는 기록적인 수익을 올린 후 뛰어오릅니다. 월스트리트가 그것을 쌓아 올리고 있습니다.",
+    "1 Penny Stock That Could Howl Its Way to the Top After a $150 Million Funding Boost": "1 페니 주식, 1억 5천만 달러의 펀딩 부스트를 거친 후 정상에 오를 수 있음 (1 Penny Stock That Could Howl Its Way to the Top After a $150"
   },
   "nvCache": {
     "https://www.yna.co.kr/view/AKR20260824137251008": {
@@ -1299,8 +1301,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeU2VGiTev8EwrhFZfraS\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeU2VHMegQ8z1tcoUJyPi\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeU2VHrurGNTizP7No87G\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeU76Jw6oJg4FfCghMS6U\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeU76KZ3vHLgPugx8Tbe3\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeU76L3KqQxQTB1djm7eE\"}"
   ]
 }
