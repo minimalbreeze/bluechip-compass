@@ -1392,3 +1392,21 @@ body[data-market="us"] .ms-thumb { transform: translateX(100%); }
 .autonow-s { font-size: 12.5px; line-height: 1.6; }
 .autonow .btn { margin-top: 0; }
 .autonow .btn[disabled] { opacity: .5; }
+
+/* ── 종목 알아보기 · "지금은" 칸 ──────────────────────────────
+   해설(안 변하는 것) 위에 오늘(변하는 것)을 얹는 자리. 판정 배지는
+   뉴스 화면의 .act-* 를 그대로 쓴다 — 화면마다 새 팔레트를 만들지 않는다. */
+.snow { padding: 14px 16px }
+.snow-rg { font-size: 13px; color: var(--ink-mid); margin-bottom: 8px }
+.snow-rg b { color: var(--ink) }
+.snow-none { font-size: 12.5px; color: var(--ink-mid); line-height: 1.6 }
+.snow-n { display: flex; flex-direction: column; gap: 4px; padding: 9px 0;
+          border-top: 1px solid var(--line-soft) }
+.snow-n a, .snow-n > span:not(.snow-a) { font-size: 13px; color: var(--ink); line-height: 1.5;
+          word-break: keep-all; overflow-wrap: anywhere }
+.snow-n a { text-decoration: underline; text-underline-offset: 2px }
+.snow-n small { font-size: 11.5px; color: var(--ink-dim); line-height: 1.5 }
+.snow-a { align-self: flex-start; font-size: 10.5px; font-weight: 700;
+          padding: 2px 8px; border-radius: 999px }
+.snow-warn { margin-top: 9px; font-size: 11.5px; color: var(--ink-mid); line-height: 1.6;
+             border-top: 1px solid var(--line-soft); padding-top: 8px }

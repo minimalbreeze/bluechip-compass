@@ -83,6 +83,10 @@ export function buildMessages({ prev, live, W, today }) {
       /* 앱과 같은 주기를 쓴다. 한쪽만 다르게 돌면 알림과 앱 화면이 서로 다른
          계좌를 보게 된다. 조정은 계속 하고, 줄이는 건 알림 횟수다(아래 cap). */
       cadence: 'daily',
+      /* 앱과 같은 기준으로 끊는다 — 날짜가 아니라 시세 스냅샷이다.
+         날짜로 끊으면 하루 다섯 번 도는 이 워크플로가 첫 회차에만
+         계좌를 굴리고 나머지 네 번은 아무것도 안 한다. */
+      snap: live.asOf || null,
       regimeKey: label.full
     };
     if (!st || !st.started) {
@@ -251,23 +255,20 @@ if (import.meta.url === `file://${process.argv[1]}`) {
         60 근거 재확인 기사
         20 잔손질 조정      — 상한에 걸리면 이건 먼저 밀린다        */
   const CAP = Number(process.env.NOTIFY_CAP || 5);
-  const sentToday = (prev.sent && prev.sent.date === today) ? (prev.sent.n || 0) : 0;
-  const room = Math.max(0, CAP - sentToday);
+  const TEST = String(process.env.NOTIFY_TEST) === 'true';
 
-  msgs.sort((a, b) => (b.rank || 0) - (a.rank || 0));
-  const held = msgs.slice(room);
-  const going = msgs.slice(0, room);
+  /* ── 연결 시험 ───────────────────────────────────────────────
+     설정을 마쳐도 "바뀐 게 없으면" 아무것도 안 오니, 제대로 연결됐는지
+     확인할 방법이 없다. 그래서 견본 카드를 한 장 보내는 길을 둔다.
 
-  next.sent = { date: today, n: sentToday + going.length };
-  writeFileSync(STATE, JSON.stringify(next, null, 0));
-
-  /* 연결 시험. 설정을 마쳐도 "바뀐 게 없으면" 아무것도 안 오니, 제대로
-     연결됐는지 확인할 방법이 없다. 그래서 견본 카드를 한 장 보내는 길을 둔다.
-     — 처음 설정할 때 이게 없으면 "안 오는 게 정상인지 고장인지"를 알 수 없다. */
-  if (String(process.env.NOTIFY_TEST) === 'true') {
-    msgs.length = 0;
+     ⚠️ 이 처리는 **상한 계산보다 먼저** 와야 한다. 예전에는 뒤에 있었는데,
+     그러면 (1) 보낼 목록(going)이 이미 정해진 뒤라 견본 대신 진짜 카드가
+     나가고, (2) 바뀐 게 없는 날에는 going 이 비어 있어서 "상한을 다
+     썼습니다"라며 아무것도 안 보냈다. 손으로 누르는 단추이므로 상한을
+     쓰지도, 상한에 걸리지도 않는다.                                    */
+  if (TEST) {
     const kr = next.markets.kr || {};
-    msgs.push({
+    const card = {
       rank: 999,
       kind: 'regime',
       title: '🧭 연결 시험 — 이 카드가 보이면 성공입니다',
@@ -276,18 +277,53 @@ if (import.meta.url === `file://${process.argv[1]}`) {
         `지금 국내 국면은 "${kr.regime || '–'}", 현금 목표는 ${kr.cash ?? '–'}% 입니다.`,
         '앞으로는 바뀐 게 있을 때만 옵니다. 조용한 게 정상입니다.'
       ].join('\n')
-    });
+    };
+    /* 오늘 몇 건 보냈는지와 밀려 있는 카드는 그대로 넘긴다. 안 그러면
+       연결 시험을 한 번 누르는 것만으로 그날 상한이 초기화되고, 미뤄 둔
+       카드가 사라진다. 시험은 상한 밖의 일이지 상태를 지우는 일이 아니다. */
+    if (prev.sent) next.sent = prev.sent;
+    if (prev.pending) next.pending = prev.pending;
+    writeFileSync(STATE, JSON.stringify(next, null, 0));
+    await deliver([card], { label: '연결 시험' });
+    process.exit(0);
   }
+
+  /* ── 미룬 카드를 정말로 다시 본다 ─────────────────────────────
+     예전에는 상한에 걸린 카드를 slice 로 잘라내고 "다음 회차에 다시
+     봅니다"라고 로그만 찍었다. 그런데 다음 회차에는 그 카드가 **영영 오지
+     않는다** — 국면 카드는 next.markets[mk].regime 이 이미 새 값으로
+     덮여 있어 "바뀐 게 없음"이 되고, 기사 카드는 newsKey 가, 매매 카드는
+     이미 체결된 거래가 같은 이유로 사라진다. 즉 미루기가 아니라 **버리기**
+     였고, 하필 국면 변화 같은 제일 중요한 카드가 조용히 없어질 수 있었다.
+
+     그래서 밀린 카드를 상태 파일(next.pending)에 넣어 다음 회차에 다시
+     꺼낸다. 날이 바뀌면 버린다 — 어제 국면이 오늘 오면 그게 더 헷갈린다. */
+  const carried = (prev.pending && prev.pending.date === today)
+    ? (prev.pending.msgs || []) : [];
+  const all = carried.concat(msgs);
+
+  const sentToday = (prev.sent && prev.sent.date === today) ? (prev.sent.n || 0) : 0;
+  const room = Math.max(0, CAP - sentToday);
+
+  all.sort((a, b) => (b.rank || 0) - (a.rank || 0));
+  const held = all.slice(room);
+  const going = all.slice(0, room);
+
+  next.pending = held.length ? { date: today, msgs: held } : null;
+  /* 오늘 몇 건 보냈는지를 먼저 넣어 둔다. 아래 조기 종료 갈래에서 이걸
+     빠뜨리면 상한 카운터가 통째로 사라져, 다음 회차에 상한이 초기화된다. */
+  next.sent = { date: today, n: sentToday };
 
   if (held.length) {
     console.log(`오늘 ${sentToday}건 보냈고 상한이 ${CAP}건이라 ${held.length}건은 미룹니다 ` +
-      `(${held.map(m => m.kind).join(', ')}). 다음 회차에 다시 봅니다.`);
+      `(${held.map(m => m.kind).join(', ')}). 다음 회차에 다시 꺼냅니다.`);
   }
-  if (!going.length && msgs.length) {
-    console.log(`오늘 상한(${CAP}건)을 다 썼습니다 — 보내지 않습니다.`);
+  if (!going.length && all.length) {
+    console.log(`오늘 상한(${CAP}건)을 다 썼습니다 — 보관해 두고 내일 이후에 보냅니다.`);
+    writeFileSync(STATE, JSON.stringify(next, null, 0));
     process.exit(0);
   }
-  if (!msgs.length) {
+  if (!all.length) {
     console.log('바뀐 게 없습니다 — 아무것도 보내지 않습니다.');
     console.log('(매일 "변화 없음"이 오면 이틀 만에 알림을 끄게 됩니다.)');
     console.log('');
@@ -295,20 +331,43 @@ if (import.meta.url === `file://${process.argv[1]}`) {
     console.log('  Actions → kakao notify → Run workflow → "연결 시험" 체크 후 실행');
     process.exit(0);
   }
-  console.log(`보낼 것 ${going.length}건 (오늘 누적 ${sentToday}/${CAP})`);
-  for (const m of going) {
+  const res = await deliver(going, { sentToday, cap: CAP });
+  /* 시크릿이 없어 로그로만 찍은 회차는 **보낸 것으로 친다.** 안 그러면
+     설정 전에는 pending 이 비질 않아서, 회차마다 같은 카드가 로그에
+     끝없이 다시 찍힌다. */
+  const okCount = res.skipped ? going.length : res.sent;
+  /* 보낸 만큼만 상한을 깎는다. 예전에는 보내기 **전에** going.length 를
+     더해 놨는데, 그러면 토큰 만료로 한 장도 못 보낸 날에도 상한이 줄어
+     그날 남은 회차가 통째로 막혔다. */
+  next.sent = { date: today, n: sentToday + okCount };
+  /* 못 보낸 카드는 버리지 않고 다시 보관한다 — 실패는 미룰 이유이지
+     없앨 이유가 아니다. */
+  const failed = res.skipped ? [] : going.slice(res.sent);
+  const keep = failed.concat(held);
+  next.pending = keep.length ? { date: today, msgs: keep } : null;
+  writeFileSync(STATE, JSON.stringify(next, null, 0));
+}
+
+/* 카드를 실제로 보낸다. 몇 장이 나갔는지 돌려준다.
+   시크릿이 없으면 내용만 찍고 0 을 준다 — 설정 전에도 "무엇이 올지"를
+   먼저 볼 수 있어야 한다. */
+async function deliver(list, o = {}) {
+  const head = o.label
+    ? `${o.label} 1건`
+    : `보낼 것 ${list.length}건 (오늘 누적 ${o.sentToday}/${o.cap})`;
+  console.log(head);
+  for (const m of list) {
     console.log(`\n┌─ [${m.kind}] ${m.title}`);
     m.desc.split('\n').forEach(l => console.log('│  ' + l));
     console.log('└─');
   }
-
   if (!kakaoReady()) {
     console.log('\n📭 KAKAO_REST_KEY / KAKAO_REFRESH_TOKEN 시크릿이 없어 전송은 건너뜁니다.');
     console.log('   (내용은 위에 그대로 찍었습니다. 설정법은 README 의 카카오 알림 참고)');
-    process.exit(0);
+    return { sent: 0, skipped: true };
   }
   let sent = 0;
-  for (const m of going) {
+  for (const m of list) {
     try {
       const r = await sendFeed({ kind: m.kind, title: m.title, desc: m.desc, link: APP_URL });
       sent++; console.log(`✓ 보냄 [${r.kind}]`);
@@ -320,7 +379,11 @@ if (import.meta.url === `file://${process.argv[1]}`) {
       } else if (/insufficient|scope/i.test(e.message)) {
         console.log('   → 카카오 개발자센터에서 talk_message 동의항목을 켜고 다시 인증하세요.');
       }
+      /* 한 장이 실패하면 나머지도 같은 이유로 실패할 가능성이 크다.
+         줄줄이 두드리지 않고 멈춘다 — 남은 건 pending 으로 넘어간다. */
+      break;
     }
   }
-  console.log(`\n${sent}/${going.length}건 전송 (오늘 누적 ${sentToday + sent}/${CAP})`);
+  if (!o.label) console.log(`\n${sent}/${list.length}건 전송 (오늘 누적 ${(o.sentToday || 0) + sent}/${o.cap})`);
+  return { sent: sent, skipped: false };
 }

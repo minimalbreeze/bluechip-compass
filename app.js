@@ -86,6 +86,9 @@
        기존 계좌도 오늘부터 앱의 판단을 따라가야 비교가 성립한다. */
     if (typeof state.sim[mk].auto !== 'boolean') state.sim[mk].auto = true;
     if (state.sim[mk].lastAuto === undefined) state.sim[mk].lastAuto = null;
+    /* 예전 저장분에는 없던 칸이다. 없으면 null 로 둔다 — 그러면 다음 스냅샷을
+       "새 것"으로 보고 한 번 맞춘 뒤 정상 흐름으로 들어간다. */
+    if (state.sim[mk].lastSnap === undefined) state.sim[mk].lastSnap = null;
   });
   /* 예전에는 현금을 두 시장 모두 '만원'으로 저장했다. 이제는 그 시장 통화의
      기본 단위(국내: 원, 미국: 달러)로 저장하므로 한 번만 이관한다. */
@@ -236,14 +239,6 @@
   /* 사용자가 적은 종목명을 이 앱의 유니버스와 맞춰본다.
      티커가 잡히면 50년 점수를 쓸 수 있고, 못 잡으면 "평가하지 않은 종목"이 된다. */
   function norm(x) { return String(x || '').replace(/\s|·|\(|\)/g, '').toLowerCase(); }
-  function findPick(name) {
-    var n = norm(name), hit = null;
-    market().picks.forEach(function (p) {
-      if (hit) return;
-      if (norm(p.name) === n || norm(p.korName) === n || norm(p.ticker) === n) hit = p;
-    });
-    return hit;
-  }
   function scoreOfIn(mk, it) {
     var picks = D.markets[mk].picks;
     var p = null;
@@ -335,6 +330,10 @@
          계좌도 계속 따라가야 하고, 줄여야 하는 건 **알림 횟수**다.
          알림 쪽에서 중요도로 거르고 하루 상한을 둔다(scripts/notify.mjs). */
       cadence: 'daily',
+      /* 자동 조정을 끊는 기준. 날짜가 아니라 **시세 스냅샷**이다 —
+         날짜로 끊으면 아침에 앱을 연 순간 그날 몫이 끝나 버려서, 장중에
+         값이 아무리 움직여도 오후에는 아무 일도 일어나지 않는다(sim.js). */
+      snap: LIVE && LIVE.asOf ? LIVE.asOf : null,
       regimeKey: M.labelRegime(regimeOf(m)).full
     };
   }
@@ -373,12 +372,12 @@
     if (simFresh[mk]) return simFresh[mk].length;
     return Math.max(0, st.log.length - Math.max(0, Math.min(st.seen || 0, st.log.length)));
   }
-  function simRunning() { return !!simState().started; }
 
   /* ── 자동 운용을 돌린다 ────────────────────────────────────────
      화면을 그리기 전에 두 시장 모두 한 번씩 확인한다. 사용자가 국내 탭만
      보고 있어도 미국 계좌가 방치되면 안 된다 — 그러면 나중에 "앱의 판단"이
-     아니라 "그날의 판단"이 남는다. 하루 한 번까지만 움직인다(sim.js).      */
+     아니라 "그날의 판단"이 남는다. 같은 시세 스냅샷으로는 두 번 돌지
+     않는다 — 새 스냅샷이 올 때마다 한 번씩이다(sim.js).                   */
   function simAutoTick() {
     if (!LIVE || !LIVE.stocks) return;
     var moved = false;
@@ -464,23 +463,89 @@
      파일이 없거나 실패해도 앱은 그대로 돌아간다(링크만 보여준다).
      ══════════════════════════════════════════════════════════════ */
   var LIVE = null;
+  var liveAt = 0;          /* 마지막으로 스냅샷을 **받아온** 시각 (ms) */
+  var liveBusy = false;
 
-  function loadLive() {
+  /* ── 켜 둔 채로도 계속 받아온다 ────────────────────────────────
+     예전에는 앱을 켤 때 딱 한 번만 받았다. 그래서 앱을 열어 둔 채 한 시간이
+     지나면 화면은 한 시간 전 값을 붙들고 있었고, 모의투자도 그 값으로
+     계산했다. "시세를 계속 따라간다"는 말과 실제가 어긋나 있었던 것이다.
+
+     그래서 세 가지 계기에 다시 받는다.
+       1. 켜 둔 동안 주기적으로 (POLL_MS)
+       2. 다른 앱을 보다 돌아왔을 때 (visibilitychange / pageshow / focus)
+       3. "지금 점검하기"를 눌렀을 때 (아래 refreshNow)
+
+     받을 때마다 다시 그리지는 않는다. asOf 가 그대로면 화면도 그대로다 —
+     읽던 자리가 이유 없이 새로 그려지면 그게 더 나쁘다.                */
+  var POLL_MS  = 5 * 60 * 1000;   /* 켜 둔 동안: 5분마다 */
+  var STALE_MS = 60 * 1000;       /* 돌아왔을 때: 1분 넘었으면 다시 */
+
+  /* opts.quiet 를 주면 값이 그대로일 때 아무것도 하지 않는다.
+     받아온 뒤에 무엇이 달라졌는지 알아야 하는 쪽이 있어서 Promise 를 준다. */
+  function loadLive(opts) {
+    opts = opts || {};
     /* 미리보기(단일 파일 번들)에서는 fetch 로 live.json 을 가져올 수 없어
        스냅샷을 인라인으로 심어둔다. 실제 배포본에는 이 변수가 없다. */
-    if (window.BC_LIVE_INLINE) LIVE = window.BC_LIVE_INLINE;
-    if (!window.fetch) return;
+    if (window.BC_LIVE_INLINE && !LIVE) LIVE = window.BC_LIVE_INLINE;
+    if (!window.fetch) return Promise.resolve(false);
+    if (liveBusy) return Promise.resolve(false);
+    liveBusy = true;
     /* 캐시를 우회해야 갱신된 스냅샷이 바로 보인다. */
-    fetch('live.json?t=' + Math.floor(Date.now() / 60000), { cache: 'no-store' })
+    return fetch('live.json?t=' + Date.now(), { cache: 'no-store' })
       .then(function (r) { return r.ok ? r.json() : null; })
       .then(function (j) {
-        if (!j || !j.quotes) return;
+        liveBusy = false;
+        if (!j || !j.quotes) return false;
+        var was = LIVE && LIVE.asOf;
         LIVE = j;
-        /* 이미 그려진 화면이 있으면 다시 그린다 */
+        liveAt = Date.now();
+        var fresh = was !== j.asOf;
+        /* 값이 그대로면 다시 그리지 않는다. 다만 화면의 "몇 분 전"은
+           시간이 갈수록 틀려지므로, 눈에 보이는 그 문구만 갈아 끼운다. */
+        if (!fresh) { touchAgo(); return false; }
         if (document.getElementById('view-' + current) &&
             document.getElementById('view-' + current).innerHTML) render();
+        return true;
       })
-      .catch(function () { /* 없으면 없는 대로 — 링크만 보여준다 */ });
+      .catch(function () { liveBusy = false; return false; });
+  }
+
+  /* 새 스냅샷이 아니어도 "3분 전"은 계속 늙는다. 통째로 다시 그리는 대신
+     그 문구가 든 자리만 바꾼다 — 스크롤과 접힘 상태를 건드리지 않으려고. */
+  function touchAgo() {
+    if (!LIVE || !LIVE.asOf) return;
+    var t = agoText(LIVE.asOf);
+    ['.idxnote b', '.sdet-ago'].forEach(function (sel) {
+      Array.prototype.forEach.call(document.querySelectorAll(sel), function (el) {
+        if (/(전|방금)/.test(el.textContent)) {
+          el.textContent = el.className === 'sdet-ago' ? t + ' 기준' : t;
+        }
+      });
+    });
+  }
+
+  /* 앱을 켜 둔 동안 주기적으로. 화면이 안 보일 때는 받지 않는다 —
+     주머니 속에서 5분마다 두드릴 이유가 없다. */
+  function startLivePolling() {
+    setInterval(function () {
+      if (document.hidden) return;
+      loadLive();
+    }, POLL_MS);
+    var back = function () {
+      if (document.hidden) return;
+      if (Date.now() - liveAt < STALE_MS) return;
+      loadLive();
+    };
+    document.addEventListener('visibilitychange', back);
+    window.addEventListener('pageshow', back);
+    window.addEventListener('focus', back);
+  }
+
+  /* 사용자가 직접 "지금 다시 보라"고 했을 때. 캐시도 주기도 무시하고 받는다. */
+  function refreshNow() {
+    liveBusy = false;
+    return Promise.all([loadLive({ quiet: true }), loadPrices({ force: true })]);
   }
 
   /* ── 보유 종목 시세 (prices.json) ──────────────────────────────
@@ -498,20 +563,26 @@
     });
   }
 
-  function loadPrices() {
-    if (pricesTried || !needPrices()) return;
+  /* opts.force 를 주면 이미 받아왔더라도 다시 받는다("지금 점검하기"). */
+  function loadPrices(opts) {
+    opts = opts || {};
+    if (!needPrices()) return Promise.resolve(false);
+    if (pricesTried && !opts.force) return Promise.resolve(false);
     pricesTried = true;
-    if (window.BC_PRICES_INLINE) { PRICES = window.BC_PRICES_INLINE; return; }
-    if (!window.fetch) return;
-    fetch('prices.json?t=' + Math.floor(Date.now() / 3600000), { cache: 'no-store' })
+    if (window.BC_PRICES_INLINE) { PRICES = window.BC_PRICES_INLINE; return Promise.resolve(false); }
+    if (!window.fetch) return Promise.resolve(false);
+    return fetch('prices.json?t=' + Date.now(), { cache: 'no-store' })
       .then(function (r) { return r.ok ? r.json() : null; })
       .then(function (j) {
-        if (!j || !j.stocks) return;
+        if (!j || !j.stocks) return false;
+        var was = PRICES && PRICES.asOf;
         PRICES = j;
+        if (was === j.asOf) return false;
         if (document.getElementById('view-' + current) &&
             document.getElementById('view-' + current).innerHTML) render();
+        return true;
       })
-      .catch(function () { /* 없으면 없는 대로 — 직접 적은 현재가를 쓴다 */ });
+      .catch(function () { return false; /* 없으면 없는 대로 — 직접 적은 현재가를 쓴다 */ });
   }
 
   /* ══════════════════════════════════════════════════════════════════
@@ -834,7 +905,7 @@
 
     var hasQuote = LIVE && LIVE.quotes && Object.keys(LIVE.quotes).length > 0;
     h.push('<div class="idxnote">' + (hasQuote && LIVE.asOf
-      ? '🕒 <b>' + agoText(LIVE.asOf) + '</b> 받아온 값입니다. 실시간이 아니라 <b>30분마다 갱신되는 스냅샷</b>이고, 장 마감 뒤에는 마지막 종가가 유지됩니다.'
+      ? '🕒 <b>' + agoText(LIVE.asOf) + '</b> 받아온 값입니다. 실시간 호가가 아니라 <b>장중에 30분~1시간 간격으로 받아오는 스냅샷</b>이고, 장 마감 뒤에는 마지막 종가가 유지됩니다. 위 시각이 이 화면이 아는 전부입니다.'
       : '시세를 아직 못 받아왔습니다. 지수를 누르면 바로 확인할 수 있습니다.') + '</div>');
 
     return h.join('');
@@ -1882,22 +1953,23 @@
       '</div>' +
       '<div class="autobox-d">' + (st.auto
         ? '오늘 국면(<b>' + M.labelRegime(regime()).full + '</b>)으로 다시 계산한 배분을 목표로 삼고, ' +
-          '목표에서 <b>' + SIM.band + '%p</b> 넘게 벌어진 자리를 <b>하루 한 번</b> 조정합니다. ' +
+          '목표에서 <b>' + SIM.band + '%p</b> 넘게 벌어진 자리를 조정합니다. ' +
+          '<b>새 시세가 들어올 때마다</b> 다시 보므로, 앱을 켜 둔 동안에도 계좌는 계속 따라갑니다. ' +
           '사고파는 이유는 아래 거래 내역에 남습니다. ' +
           '<b>카카오톡 알림은 중요한 것만</b> 골라 보냅니다 — 조정이 잦아도 알림이 잦지는 않습니다.'
         : '자동 조정을 멈췄습니다. 계좌는 지금 상태 그대로 두고, 사고파는 건 직접 하시면 됩니다.') +
       '</div>' +
       /* ── 지금 점검하기 ──
-         주 1회로 모아 두면 오늘 아무 일도 안 일어나는 게 정상인데, 앱에
-         들어온 사람은 그걸 고장으로 읽는다. 그래서 (1) 지금 벌어진 자리가
-         몇 곳인지, (2) 저절로는 언제 하는지를 적고, (3) 기다리지 않고
-         바로 돌릴 수 있는 단추를 준다. */
+         저절로도 돌지만, 들어온 김에 바로 확인하고 싶은 사람이 있다.
+         (1) 지금 벌어진 자리가 몇 곳인지 적고, (2) 새 시세를 받아온 뒤
+         조정하는 단추를 준다. 눌러서 할 일이 없으면 없다고 말한다 —
+         아무 반응이 없으면 고장으로 읽히기 때문이다. */
       '<div class="autonow">' +
         '<div class="autonow-s">' + (pending.length
             ? '지금 목표와 <b>' + pending.length + '자리</b>가 벌어져 있습니다.'
             : '지금은 목표와 크게 벌어진 자리가 없습니다.') +
           (doneToday ? ' 오늘 한 번 점검했습니다.' : '') +
-          ' 시세는 <b>30분마다</b> 갱신되니 다시 눌러도 됩니다.' +
+          ' 누르면 <b>새 시세를 받아온 뒤</b> 다시 봅니다.' +
         '</div>' +
         '<button class="btn ghost" id="sim-now">⚡ 지금 점검하기</button>' +
       '</div>' +
@@ -2210,6 +2282,49 @@
       '해설이 아직 없는 종목은 <b>없다고 말합니다</b> — 지어내지 않습니다.</div>';
   }
 
+  /* 오늘 이 종목을 가리키는 기사 + 지금 시장 국면.
+     기사 대조는 보유 종목에 쓰던 것(aliasesOf/aliasHit)을 그대로 쓴다 —
+     같은 일을 두 벌로 만들면 한쪽만 고쳐져서 서로 다른 말을 하게 된다. */
+  function stockNowHtml(mk, sel) {
+    var list = (LIVE && LIVE.news && LIVE.news[mk]) || [];
+    var al = aliasesOf({ ticker: sel.t, name: sel.n }, mk);
+    var hits = list.filter(function (n) {
+      var hay = [(n.ko || ''), (n.title || '')].join(' ').toLowerCase();
+      return al.some(function (a) { return aliasHit(hay, a); });
+    });
+    var rg = M.labelRegime(regimeOf(mk));
+    var h = '<div class="card snow">' +
+      '<div class="sd-h" style="margin-top:0">📡 지금은</div>' +
+      '<div class="snow-rg">시장 국면 <b>' + esc(rg.full) + '</b>' +
+        (LIVE && LIVE.regime && LIVE.regime.asOf
+          ? ' <span class="sdet-ago">' + agoText(LIVE.regime.asOf) + ' 판정</span>' : '') +
+      '</div>';
+    if (!list.length) {
+      h += '<div class="snow-none">오늘 기사를 아직 받아오지 못했습니다.</div>';
+    } else if (!hits.length) {
+      h += '<div class="snow-none">오늘 받아온 기사 ' + list.length +
+        '건 중 이 종목을 가리키는 것은 <b>없습니다.</b> ' +
+        '조용한 게 나쁜 소식은 아닙니다.</div>';
+    } else {
+      h += hits.slice(0, 3).map(function (n) {
+        /* 판정 표기는 뉴스 화면과 같은 것을 쓴다 — 같은 판정이 화면마다
+           다른 말로 보이면 그게 제일 헷갈린다. */
+        var act = ACTS[n.act] || ACTS.none;
+        var url = safeUrl(n.link);
+        return '<div class="snow-n">' +
+          '<span class="snow-a ' + act.c + '">' + act.i + ' ' + act.l + '</span>' +
+          (url ? '<a href="' + url + '" target="_blank" rel="noopener">' + esc(n.ko || n.title) + ' ↗</a>'
+               : '<span>' + esc(n.ko || n.title) + '</span>') +
+          (n.why ? '<small>' + esc(n.why) + '</small>' : '') +
+        '</div>';
+      }).join('');
+      if (hits.length > 3) h += '<div class="snow-none">… 외 ' + (hits.length - 3) + '건</div>';
+      h += '<div class="snow-warn">기사가 났다고 사고팔라는 뜻이 아닙니다. ' +
+        '<b>처음 산 이유가 아직 맞는지</b>만 보세요.</div>';
+    }
+    return h + '</div>';
+  }
+
   function stockDetailHtml(mk, sel) {
     var card = stockCardOf(mk, sel.t);
     var price = priceIn(mk, sel.t);
@@ -2225,6 +2340,13 @@
           (LIVE && LIVE.asOf ? ' <span class="sdet-ago">' + agoText(LIVE.asOf) + ' 기준</span>' : '') + '</div>'
         : '<div class="sdet-p muted">시세를 받아오지 않는 종목입니다.</div>') +
     '</div>');
+
+    /* ── 오늘 이 종목 이야기 ──────────────────────────────────
+       아래 해설은 **일부러 낡지 않게** 썼다 — 수치도 예측도 없고, 50년
+       존속 가능성만 본다. 그래서 다시 만들 필요가 없다. 대신 "그래서 지금은
+       어떤가"가 빠지는데, 그 자리를 오늘 기사와 시장 국면이 메운다.
+       해설(안 변하는 것)과 오늘(변하는 것)을 같은 화면에서 나란히 본다. */
+    h.push(stockNowHtml(mk, sel));
 
     if (!card) {
       /* 없으면 없다고 한다. 지어내지 않는 게 이 앱의 기본이다. */
@@ -2247,7 +2369,10 @@
     h.push('<div class="card sdet-body">' +
       '<div class="sd-src">' + (card.src === 'pick'
         ? '✍️ 이 앱이 직접 뜯어본 종목입니다'
-        : '🤖 AI 가 정리했습니다 · 매매 의견이 아닙니다') + '</div>' +
+        /* 언제 정리한 것인지 적는다. 아래 내용은 수치도 예측도 없어서 잘
+           낡지 않지만, 그 판단은 읽는 사람이 하는 게 맞다. */
+        : '🤖 AI 가 정리했습니다' + (d.at ? ' · ' + esc(d.at) : '') +
+          ' · 매매 의견이 아닙니다') + '</div>' +
 
       '<div class="sd-h">🏢 뭐하는 회사인가</div>' +
       '<div class="sd-one">' + linkTerms(d.one) + '</div>' +
@@ -2667,18 +2792,29 @@
       return;
     }
     if (ev.target.id === 'sim-now') {
-      var stn = simState();
-      var rn = SIM.autoRun(stn, Object.assign(simCtx(), { force: true }));
-      if (!rn.ran) {
-        state.simMsg = '지금은 조정할 게 없습니다.';
-      } else if (!rn.done || !rn.done.length) {
-        state.simMsg = '점검했습니다. 목표와 크게 벌어진 자리가 없어 그대로 뒀습니다.';
-      } else {
-        state.simMsg = rn.done.length + '곳을 조정했습니다. 아래에서 무엇을 왜 사고팔았는지 볼 수 있습니다.';
-      }
-      simFreshReset(state.market);
-      simSave();
-      render();
+      /* ── 누르면 **먼저 새 시세를 받아온다** ────────────────────
+         예전에는 화면에 남아 있는 스냅샷으로 다시 계산만 했다. 그러면
+         앱을 켜 둔 지 한 시간 지난 사람이 눌러도 한 시간 전 값으로
+         판단하게 된다 — "들어갔을 때 바로 확인한다"는 이 단추의 목적과
+         정반대다. 받아온 다음에 조정한다.                              */
+      var btn = ev.target;
+      btn.disabled = true;
+      btn.textContent = '⏳ 새 시세를 받는 중…';
+      refreshNow().then(function () {
+        var stn = simState();
+        var rn = SIM.autoRun(stn, Object.assign(simCtx(), { force: true }));
+        var when = LIVE && LIVE.asOf ? agoText(LIVE.asOf) + ' 시세로 ' : '';
+        if (!rn.ran) {
+          state.simMsg = when + '점검했습니다. 지금은 조정할 게 없습니다.';
+        } else if (!rn.done || !rn.done.length) {
+          state.simMsg = when + '점검했습니다. 목표와 크게 벌어진 자리가 없어 그대로 뒀습니다.';
+        } else {
+          state.simMsg = when + rn.done.length + '곳을 조정했습니다. 아래에서 무엇을 왜 사고팔았는지 볼 수 있습니다.';
+        }
+        simFreshReset(state.market);
+        simSave();
+        render();
+      });
       return;
     }
     if (ev.target.id === 'seed-toggle' || ev.target.closest('#seed-toggle')) {
@@ -2724,9 +2860,12 @@
       if (sst.started && nk && nk !== sst.style) {
         var before = styleLabelOf(sst.style);
         sst.style = nk;
-        /* 오늘 이미 조정했더라도 성향이 바뀌었으면 다시 맞춘다 —
-           안 그러면 내일까지 옛 목표로 남는다. */
+        /* 이미 조정했더라도 성향이 바뀌었으면 다시 맞춘다 — 안 그러면
+           다음 시세가 올 때까지 옛 목표로 남는다. 자동 운용을 끊는 기준이
+           lastSnap 이므로 그쪽도 같이 비운다(lastAuto 만 비우면 "이 스냅샷은
+           이미 봤다"에 걸려 아무 일도 안 일어난다). */
         sst.lastAuto = null;
+        sst.lastSnap = null;
         sst.log.unshift({ ts: ymd(today()), kind: 'note', n: '성향 변경',
           amt: 0, why: before + ' → ' + styleLabelOf(nk) });
         simSave();
@@ -2839,9 +2978,9 @@
     if (ev.target.id === 'sim-auto') {
       var sa = simState();
       sa.auto = !sa.auto;
-      /* 켤 때는 오늘 바로 한 번 돌게 한다 — 켜놓고 아무 일도 안 일어나면
-         무엇이 켜진 건지 알 수 없다. */
-      if (sa.auto) sa.lastAuto = null;
+      /* 켤 때는 바로 한 번 돌게 한다 — 켜놓고 아무 일도 안 일어나면
+         무엇이 켜진 건지 알 수 없다. lastSnap 도 같이 비운다(위와 같은 이유). */
+      if (sa.auto) { sa.lastAuto = null; sa.lastSnap = null; }
       simSave();
       state.simMsg = sa.auto ? '자동 운용을 켰습니다. 목표에서 벌어진 자리를 지금 조정합니다.'
                              : '자동 운용을 껐습니다. 계좌는 지금 상태로 둡니다.';
@@ -3056,5 +3195,9 @@
 
   loadLive();
   loadPrices();
+  /* 켜 둔 채로도 스냅샷이 계속 들어오게 한다. 새 스냅샷이 오면 render() 가
+     다시 돌고, render() 는 simAutoTick() 으로 시작하므로 모의계좌도 같이
+     따라 움직인다 — 앱을 열어 둔 동안에는 그게 "계속 거래한다"의 실체다. */
+  startLivePolling();
   initGate();
 })();

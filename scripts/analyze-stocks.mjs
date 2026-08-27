@@ -150,11 +150,39 @@ export async function run({ want, apiKey, model, limit }) {
   /* 이미 있는 건 다시 만들지 않는다. 회사 설명은 자주 바뀌는 자료가 아니고,
      매번 다시 부르면 같은 회사가 날마다 다른 점수를 받는다. */
   const todo = want.filter(w => !items[w.ticker]).slice(0, limit);
+
+  /* ── 아주 오래된 것만 다시 본다 ────────────────────────────────
+     이 파일의 내용은 **일부러 낡지 않게** 썼다 — 수치도 예측도 없고 50년
+     존속 가능성만 본다. 그래서 매일 다시 만들 이유가 없다.
+
+     그래도 회사는 가끔 실제로 달라진다(분할·합병·주력 사업 교체). 전부
+     채우고 나면 이 워크플로는 영영 아무것도 하지 않게 되는데, 그러면 그런
+     변화를 반영할 길이 사라진다. 그래서 다 채운 뒤에는 **가장 오래된 것부터
+     조금씩** 다시 본다. 기본 180일이면 한 바퀴에 몇 달이 걸려, 같은 회사가
+     날마다 다른 점수를 받는 일은 생기지 않는다.                        */
+  const REFRESH_DAYS = Number(process.env.ANALYZE_REFRESH_DAYS || 180);
+  const REFRESH_MAX  = Number(process.env.ANALYZE_REFRESH_MAX || 10);
+  let stale = [];
   if (!todo.length) {
-    console.log(`할 일 없음 — ${Object.keys(items).length}종목 이미 정리돼 있습니다.`);
-    return { added: 0, total: Object.keys(items).length };
+    const cutoff = Date.now() - REFRESH_DAYS * 86400000;
+    stale = want
+      .filter(w => items[w.ticker])
+      .map(w => ({ w, at: Date.parse(items[w.ticker].at || '') || 0 }))
+      .filter(x => x.at < cutoff)
+      .sort((a, b) => a.at - b.at)
+      .slice(0, Math.min(REFRESH_MAX, limit))
+      .map(x => x.w);
+    if (!stale.length) {
+      console.log(`할 일 없음 — ${Object.keys(items).length}종목 이미 정리돼 있고, ` +
+        `${REFRESH_DAYS}일이 지난 것도 없습니다.`);
+      return { added: 0, total: Object.keys(items).length };
+    }
+    console.log(`새로 만들 것은 없습니다. ${REFRESH_DAYS}일이 지난 ${stale.length}건을 다시 봅니다: ` +
+      stale.map(w => w.ticker).join(', '));
+    todo.push(...stale);
+  } else {
+    console.log(`정리할 종목 ${todo.length}건 (이미 있음 ${Object.keys(items).length}건)`);
   }
-  console.log(`정리할 종목 ${todo.length}건 (이미 있음 ${Object.keys(items).length}건)`);
 
   const batches = [];
   for (let i = 0; i < todo.length; i += PER_CALL) batches.push(todo.slice(i, i + PER_CALL));
@@ -176,7 +204,10 @@ export async function run({ want, apiKey, model, limit }) {
             console.log(`  ✕ ${want1.ticker} ${want1.name} — 규칙 위반(${ok ? ok.bad : 'empty'}), 버립니다`);
             continue;
           }
-          items[want1.ticker] = Object.assign({ name: want1.name, market: mk }, ok);
+          /* at: 이 해설을 만든 날. 화면에 "언제 정리한 것인지"를 적고,
+             다시 볼 차례를 정하는 데도 쓴다. */
+          items[want1.ticker] = Object.assign(
+            { name: want1.name, market: mk }, ok, { at: new Date().toISOString().slice(0, 10) });
           added++;
           console.log(`  ✓ ${want1.ticker} ${want1.name}`);
         }
@@ -193,6 +224,6 @@ export async function run({ want, apiKey, model, limit }) {
     items
   }, null, 0));
   const total = Object.keys(items).length;
-  console.log(`\n새로 ${added}건, 버린 것 ${dropped}건. 파일에 모두 ${total}종목.`);
-  return { added, dropped, total };
+  console.log(`\n${stale.length ? '다시 본 것' : '새로'} ${added}건, 버린 것 ${dropped}건. 파일에 모두 ${total}종목.`);
+  return { added, dropped, total, refreshed: stale.length };
 }

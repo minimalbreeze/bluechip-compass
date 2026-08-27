@@ -27,14 +27,18 @@ window.BCSim = (function () {
   var BAND = 3;
 
   function blank() {
-    /* auto: 자동 운용 여부. lastAuto: 마지막으로 자동 조정한 날짜(하루 한 번)
+    /* auto: 자동 운용 여부.
+       lastAuto: 마지막으로 자동 조정한 날짜(화면 표시용).
+       lastSnap: 마지막으로 확인한 시세 스냅샷(live.json 의 asOf). 자동 운용을
+             날짜가 아니라 이 값으로 끊는다 — 그래야 장중에 값이 움직일 때마다
+             계좌가 따라간다(autoRun 주석 참고).
        seen: 사용자가 마지막으로 본 시점의 거래 건수. 자동 운용은 사용자가
              없는 사이에 사고파는데, 그걸 알려줄 방법이 없으면 장부가 있어도
              "언제 뭐가 늘었는지"를 알 수 없다. 로그는 줄어들지 않으므로
              건수만 기억하면 새 거래를 정확히 집어낼 수 있다(날짜는 하루
              단위라 같은 날 여러 건이면 구분이 안 된다). */
     return { started: null, style: null, seed: 0, cash: 0, pos: [], log: [], auto: true,
-             lastAuto: null, seen: 0 };
+             lastAuto: null, lastSnap: null, seen: 0 };
   }
 
   /* 시세 한 종목의 "만원 단위 가격". 없으면 null. */
@@ -357,22 +361,26 @@ window.BCSim = (function () {
            Math.round(st.seed) + '만원' +
            (sold.length ? ' · ' + sold.length + '곳에서 마련' : '')
     });
-    /* 바뀐 금액에 맞춰 곧바로 목표 비중으로 맞춘다. 다음 금요일까지
-       기다리면 "돈을 넣었는데 아무 일도 안 일어나는" 상태가 된다. */
+    /* 바뀐 금액에 맞춰 곧바로 목표 비중으로 맞춘다. 다음 회차까지
+       기다리면 "돈을 넣었는데 아무 일도 안 일어나는" 상태가 된다.
+       스냅샷 표시도 같이 비운다 — 안 그러면 지금 스냅샷으로는 이미 봤다고
+       판단해서, 넣은 돈이 다음 시세가 올 때까지 현금으로 남는다. */
     st.lastAuto = null;
+    st.lastSnap = null;
     return { ok: true, added: amt, sold: sold, seed: st.seed };
   }
 
   /* 조정할 날인가.
-     매일 조정하면 계좌는 목표에 딱 붙지만, 그걸 실제 계좌로 옮기는 사람은
-     매일 사고팔아야 한다. 직장인에게는 불가능하고, 이 앱의 실수 목록에도
-     "매일 계좌를 본다"가 들어 있다. 그래서 **주 1회(금요일)** 로 모으되,
-     국면이 바뀐 날은 기다리지 않는다 — 국면이 바로 목표를 바꾸는 값이라
-     그때까지 미루면 알림이 늦는다.
-       o.cadence: 'weekly'(기본) | 'daily'
+     기본은 **'daily'** 다. 시세도 기사도 계속 움직이므로 계좌도 계속 따라가야
+     한다. 한때 기본을 'weekly' 로 두었는데, 그건 "카톡이 너무 자주 온다"는
+     문제를 엉뚱한 곳에서 푼 것이었다 — 줄여야 하는 건 조정이 아니라 **알림
+     횟수**이고, 그건 scripts/notify.mjs 의 중요도·상한이 맡는다.
+     기본값을 'daily' 로 둔 이유도 같다. 부르는 쪽이 cadence 를 빠뜨렸을 때
+     조용히 주 1회로 돌아가 버리면 같은 실수가 되풀이된다.
+       o.cadence: 'daily'(기본) | 'weekly'
        o.regimeKey: 국면 이름 같은 문자열. 바뀌면 즉시 조정한다.            */
   function dueToday(st, o) {
-    if (o.cadence === 'daily') return true;
+    if (o.cadence !== 'weekly') return true;
     if (o.regimeKey && st.lastRegime && st.lastRegime !== o.regimeKey) return true;
     if (!st.lastAuto) return true;                    /* 시작 직후 한 번 */
     var d = new Date(o.today + 'T00:00:00');
@@ -386,7 +394,7 @@ window.BCSim = (function () {
      말해주지 않으면 고장으로 보인다. */
   function nextDue(st, o) {
     if (!st.started) return null;
-    if (o.cadence === 'daily') return o.today;
+    if (o.cadence !== 'weekly') return o.today;
     var d = new Date(o.today + 'T00:00:00');
     for (var i = 0; i <= 7; i++) {
       var t = new Date(d.getTime() + i * 86400000);
@@ -397,22 +405,34 @@ window.BCSim = (function () {
     return null;
   }
 
-  /* o.force 를 주면 주기·자동 스위치·"오늘 이미 함"을 모두 건너뛴다.
+  /* o.force 를 주면 주기·자동 스위치·"이미 봤음"을 모두 건너뛴다.
 
-     처음엔 같은 날 두 번을 막았다. 주 1회로 조정하던 때는 맞는 규칙이었지만,
-     지금은 시세가 30분마다 갱신된다 — 아침에 한 번 돌았어도 오후에는 값이
-     달라져 있고, 그때 다시 보는 건 헛일이 아니다. 게다가 자동이 켜져 있으면
-     앱을 여는 순간 이미 오늘 몫이 돌아가서, 단추가 늘 잠긴 채로 남았다.
+     ── 무엇이 "한 번"인가 ────────────────────────────────────────
+     예전엔 **하루에 한 번**만 자동으로 돌았다(st.lastAuto === today 면 중단).
+     주 1회로 조정하던 시절의 잔재인데, 그대로 두니 "계좌가 시세를 계속
+     따라간다"는 말과 실제가 어긋났다 — 아침 9시에 앱을 열면 그날 몫이
+     끝나 버려서, 장중에 값이 아무리 움직여도 오후에는 자동으로 아무 일도
+     일어나지 않았다.
 
-     대신 눌러서 할 일이 없으면 "벌어진 자리가 없다"고 말해준다. 막는 것보다
-     그게 정직하다.
+     그래서 기준을 **날짜가 아니라 시세 스냅샷(o.snap = live.json 의 asOf)**
+     으로 바꿨다. 새 스냅샷이 오면 다시 보고, 같은 스냅샷으로는 두 번 돌지
+     않는다. 값이 그대로인데 다시 계산해 봐야 결론은 같고 기록만 늘어난다.
+     스냅샷을 모르는 호출(오래된 파일 등)은 예전처럼 하루 한 번으로 돌아간다.
 
-     자동 실행(화면 그릴 때·서버)은 여전히 하루 한 번이다.               */
+     눌러서 할 일이 없으면 "벌어진 자리가 없다"고 말해준다. 막는 것보다
+     그게 정직하다.                                                       */
   function autoRun(st, o) {
     if (!st.started) return { ran: false };
-    if (!o.force && !st.auto) return { ran: false };
-    if (!o.force && st.lastAuto === o.today) return { ran: false, reason: 'today' };
-    if (!o.force && !dueToday(st, o)) return { ran: false, reason: 'not-due' };
+    if (!o.force) {
+      if (!st.auto) return { ran: false };
+      if (o.snap) {
+        if (st.lastSnap === o.snap) return { ran: false, reason: 'same-snapshot' };
+      } else if (st.lastAuto === o.today) {
+        return { ran: false, reason: 'today' };
+      }
+      if (!dueToday(st, o)) return { ran: false, reason: 'not-due' };
+    }
+    if (o.snap) st.lastSnap = o.snap;
     if (o.regimeKey) st.lastRegime = o.regimeKey;
 
     var moves = plan(st, o);
