@@ -13,8 +13,15 @@ name: kakao notify
 
 on:
   schedule:
-    # 국내장 마감 뒤(07:20 UTC = 16:20 KST) — live.yml·prices.yml 이 끝난 뒤로 둔다
-    - cron: '20 7 * * 1-5'
+    # 하루 다섯 번 확인한다. 시세도 기사도 계속 움직이므로 하루 한 번으로는
+    # 늦다. 대신 **보내는 건 중요도로 거르고 하루 상한(NOTIFY_CAP)을 둔다** —
+    # 다섯 번 확인해도 보내는 날은 드물어야 정상이다.
+    # 직장인이 볼 수 있는 시간에 맞췄다(KST = UTC+9).
+    - cron: '30 22 * * 0-4'   # 07:30 KST 출근 전 (미국장 마감 반영)
+    - cron: '30 3 * * 1-5'    # 12:30 KST 점심
+    - cron: '0 7 * * 1-5'     # 16:00 KST 국내장 마감 뒤
+    - cron: '0 11 * * 1-5'    # 20:00 KST 저녁
+    - cron: '30 13 * * 1-5'   # 22:30 KST 미국장 개장
   workflow_dispatch:
     inputs:
       test:
@@ -36,6 +43,8 @@ jobs:
       KAKAO_REST_KEY:      ${{ secrets.KAKAO_REST_KEY }}
       KAKAO_REFRESH_TOKEN: ${{ secrets.KAKAO_REFRESH_TOKEN }}
       NOTIFY_TEST:         ${{ github.event.inputs.test }}
+      # 하루에 보낼 수 있는 카드 수. 넘치면 중요도가 낮은 것부터 미룬다.
+      NOTIFY_CAP:          '5'
       # 카카오 콘솔에서 클라이언트 시크릿을 켠 경우에만 필요하다. 없으면 안 보낸다.
       KAKAO_CLIENT_SECRET: ${{ secrets.KAKAO_CLIENT_SECRET }}
     steps:

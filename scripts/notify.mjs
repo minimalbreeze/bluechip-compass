@@ -66,6 +66,7 @@ export function buildMessages({ prev, live, W, today }) {
       const moved = DIALS.filter(k => before.dials && before.dials[k] !== dials[k]);
       const why = moved.length && dials.why ? String(dials.why[moved[0]] || '') : '';
       msgs.push({
+        rank: 100,                 /* 국면 변화 — 목표 자체가 바뀐다 */
         kind: 'regime',
         title: `${flag} ${before.regime} → ${label.full}`,
         desc: [
@@ -79,9 +80,9 @@ export function buildMessages({ prev, live, W, today }) {
     let st = before.sim;
     const ctx = {
       live, market: mk, fx: prev.fx || 1350, today, model,
-      /* 앱과 같은 주기를 쓴다. 여기만 매일 돌면 알림과 앱 화면이 서로 다른
-         계좌를 보게 된다. */
-      cadence: 'weekly',
+      /* 앱과 같은 주기를 쓴다. 한쪽만 다르게 돌면 알림과 앱 화면이 서로 다른
+         계좌를 보게 된다. 조정은 계속 하고, 줄이는 건 알림 횟수다(아래 cap). */
+      cadence: 'daily',
       regimeKey: label.full
     };
     if (!st || !st.started) {
@@ -92,6 +93,9 @@ export function buildMessages({ prev, live, W, today }) {
       const done = (r && r.done) || [];
       if (done.length) {
         const v = SIM.value(st, ctx);
+        /* 이번 조정으로 계좌의 몇 %가 움직였나 */
+        const traded = done.reduce((a, d) => a + Math.abs(Number(d.amt) || 0), 0);
+        const moved = v.total > 0 ? traded / v.total * 100 : 0;
         /* ── 왜 금액이 아니라 비중인가 ─────────────────────────────
            기준 계좌는 시드가 1,000만원이다. 받는 사람 계좌는 크기가 다르다.
            "매수 KB금융 67만원"은 그 사람 계좌에 그대로 옮길 수가 없다.
@@ -109,6 +113,10 @@ export function buildMessages({ prev, live, W, today }) {
         });
         if (done.length > 3) rows.push(`… 외 ${done.length - 3}곳`);
         msgs.push({
+          /* 매매는 조정 규모에 따라 중요도가 다르다. 잔손질까지 알리면
+             하루에도 몇 번씩 울린다 — 계좌의 5% 이상이 움직였을 때만
+             '알릴 만한 조정'으로 친다. */
+          rank: moved >= 5 ? 70 : 20,
           kind: 'trade',
           title: `${flag} 비중을 ${done.length}곳 조정했습니다`,
           desc: [
@@ -135,6 +143,7 @@ export function buildMessages({ prev, live, W, today }) {
       const why2 = moved2.length && dials.why ? String(dials.why[moved2[0]] || '') : '';
       const dir = tilt.cash > before.cash ? '늘리는' : '줄이는';
       msgs.push({
+        rank: 80,                  /* 목표 배분이 크게 달라짐 */
         kind: 'strategy',
         title: `${flag} 목표 배분이 달라졌습니다 · 현금 ${before.cash}% → ${tilt.cash}%`,
         desc: [
@@ -157,6 +166,7 @@ export function buildMessages({ prev, live, W, today }) {
     const key = hot.map(n => n.title).join('|').slice(0, 120);
     if (hot.length && key !== seen) {
       msgs.push({
+        rank: 60,                  /* 근거를 다시 볼 기사 */
         kind: 'news',
         title: `${mk === 'kr' ? '🇰🇷 국내' : '🇺🇸 미국'} 기사 ${hot.length}건 — 근거 다시 확인`,
         desc: [
@@ -226,8 +236,29 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   const live = JSON.parse(readFileSync('live.json', 'utf8'));
   const prev = existsSync(STATE) ? JSON.parse(readFileSync(STATE, 'utf8')) : {};
   const W = loadBrowserGlobals();
-  const { msgs, next } = buildMessages({ prev, live, W, today: ymd(new Date()) });
+  const today = ymd(new Date());
+  const { msgs, next } = buildMessages({ prev, live, W, today });
 
+  /* ── 하루에 몇 번까지 보낼 것인가 ─────────────────────────────
+     시세도 기사도 계속 움직이고 계좌도 계속 따라간다. 그렇다고 그때마다
+     카톡이 오면 이틀 만에 알림을 꺼 버린다. **조정은 계속하되 알림만
+     고른다** — 중요한 것 위주로 하루 몇 번까지.
+
+     중요도(rank)
+       100 국면 변화        — 목표 자체가 바뀐다
+        80 전략 점검        — 목표 배분이 크게 달라졌다
+        70 큰 조정          — 계좌의 5% 이상이 움직였다
+        60 근거 재확인 기사
+        20 잔손질 조정      — 상한에 걸리면 이건 먼저 밀린다        */
+  const CAP = Number(process.env.NOTIFY_CAP || 5);
+  const sentToday = (prev.sent && prev.sent.date === today) ? (prev.sent.n || 0) : 0;
+  const room = Math.max(0, CAP - sentToday);
+
+  msgs.sort((a, b) => (b.rank || 0) - (a.rank || 0));
+  const held = msgs.slice(room);
+  const going = msgs.slice(0, room);
+
+  next.sent = { date: today, n: sentToday + going.length };
   writeFileSync(STATE, JSON.stringify(next, null, 0));
 
   /* 연결 시험. 설정을 마쳐도 "바뀐 게 없으면" 아무것도 안 오니, 제대로
@@ -237,6 +268,7 @@ if (import.meta.url === `file://${process.argv[1]}`) {
     msgs.length = 0;
     const kr = next.markets.kr || {};
     msgs.push({
+      rank: 999,
       kind: 'regime',
       title: '🧭 연결 시험 — 이 카드가 보이면 성공입니다',
       desc: [
@@ -247,6 +279,14 @@ if (import.meta.url === `file://${process.argv[1]}`) {
     });
   }
 
+  if (held.length) {
+    console.log(`오늘 ${sentToday}건 보냈고 상한이 ${CAP}건이라 ${held.length}건은 미룹니다 ` +
+      `(${held.map(m => m.kind).join(', ')}). 다음 회차에 다시 봅니다.`);
+  }
+  if (!going.length && msgs.length) {
+    console.log(`오늘 상한(${CAP}건)을 다 썼습니다 — 보내지 않습니다.`);
+    process.exit(0);
+  }
   if (!msgs.length) {
     console.log('바뀐 게 없습니다 — 아무것도 보내지 않습니다.');
     console.log('(매일 "변화 없음"이 오면 이틀 만에 알림을 끄게 됩니다.)');
@@ -255,8 +295,8 @@ if (import.meta.url === `file://${process.argv[1]}`) {
     console.log('  Actions → kakao notify → Run workflow → "연결 시험" 체크 후 실행');
     process.exit(0);
   }
-  console.log(`보낼 것 ${msgs.length}건`);
-  for (const m of msgs) {
+  console.log(`보낼 것 ${going.length}건 (오늘 누적 ${sentToday}/${CAP})`);
+  for (const m of going) {
     console.log(`\n┌─ [${m.kind}] ${m.title}`);
     m.desc.split('\n').forEach(l => console.log('│  ' + l));
     console.log('└─');
@@ -268,7 +308,7 @@ if (import.meta.url === `file://${process.argv[1]}`) {
     process.exit(0);
   }
   let sent = 0;
-  for (const m of msgs) {
+  for (const m of going) {
     try {
       const r = await sendFeed({ kind: m.kind, title: m.title, desc: m.desc, link: APP_URL });
       sent++; console.log(`✓ 보냄 [${r.kind}]`);
@@ -282,5 +322,5 @@ if (import.meta.url === `file://${process.argv[1]}`) {
       }
     }
   }
-  console.log(`\n${sent}/${msgs.length}건 전송`);
+  console.log(`\n${sent}/${going.length}건 전송 (오늘 누적 ${sentToday + sent}/${CAP})`);
 }

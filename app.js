@@ -330,9 +330,11 @@
     var m = mk || state.market;
     return {
       live: LIVE, market: m, fx: state.profile.fx, today: ymd(today()), model: simModel(m),
-      /* 주 1회로 모으고, 국면이 바뀐 날은 기다리지 않는다(sim.js dueToday).
-         알림을 받는 사람이 실제 계좌를 그만큼 자주 고칠 수 있어야 한다. */
-      cadence: 'weekly',
+      /* 조정은 계속 돈다. 한때 주 1회로 묶었는데, 그건 "카톡이 자주 오는"
+         문제를 엉뚱한 곳에서 푼 것이었다 — 시세와 기사는 계속 움직이므로
+         계좌도 계속 따라가야 하고, 줄여야 하는 건 **알림 횟수**다.
+         알림 쪽에서 중요도로 거르고 하루 상한을 둔다(scripts/notify.mjs). */
+      cadence: 'daily',
       regimeKey: M.labelRegime(regimeOf(m)).full
     };
   }
@@ -1480,7 +1482,8 @@
         '<button class="hrow-del" data-del="' + r.id + '">삭제</button>' +
       '</div>';
     });
-    h.push(fold('my-rows', '🔍', '자리마다 판단', rowsHtml, { badge: a.alerts ? '⚠️ ' + a.alerts : '' }));
+    /* "자리마다 판단"은 위아래(전체 요약·보유 종목)와 말투가 달라 혼자 겉돌았다 */
+    h.push(fold('my-rows', '🔍', '종목별 판단', rowsHtml, { badge: a.alerts ? '⚠️ ' + a.alerts : '' }));
 
     var newsHtml = '<div class="slot-d"><b>지금 손익은 판단 근거가 아닙니다.</b> 많이 떨어졌으니 팔아야 한다도, 많이 올랐으니 팔아야 한다도 둘 다 틀렸습니다. ' +
       '기준은 하나입니다 — <b>처음 산 이유가 아직 유효한가.</b></div>';
@@ -1872,7 +1875,6 @@
        "지금 눌러도 할 일이 있나"를 알고 눌러야 헛걸음하지 않는다. */
     var pending = SIM.drift(st, simCtx());
     var doneToday = st.lastAuto === ymd(today());
-    var nextAt = SIM.nextDue(st, simCtx());
     h.push('<div class="autobox' + (st.auto ? ' on' : '') + '">' +
       '<div class="autobox-h">' +
         '<span>' + (st.auto ? '🤖 자동 운용 중' : '✋ 수동 운용') + '</span>' +
@@ -1880,8 +1882,9 @@
       '</div>' +
       '<div class="autobox-d">' + (st.auto
         ? '오늘 국면(<b>' + M.labelRegime(regime()).full + '</b>)으로 다시 계산한 배분을 목표로 삼고, ' +
-          '목표에서 <b>' + SIM.band + '%p</b> 넘게 벌어진 자리만 <b>주 1회(금요일)</b> 조정합니다. ' +
-          '국면이 바뀐 날은 기다리지 않습니다. 사고파는 이유는 아래 거래 내역에 남습니다.'
+          '목표에서 <b>' + SIM.band + '%p</b> 넘게 벌어진 자리를 <b>하루 한 번</b> 조정합니다. ' +
+          '사고파는 이유는 아래 거래 내역에 남습니다. ' +
+          '<b>카카오톡 알림은 중요한 것만</b> 골라 보냅니다 — 조정이 잦아도 알림이 잦지는 않습니다.'
         : '자동 조정을 멈췄습니다. 계좌는 지금 상태 그대로 두고, 사고파는 건 직접 하시면 됩니다.') +
       '</div>' +
       /* ── 지금 점검하기 ──
@@ -1890,15 +1893,13 @@
          몇 곳인지, (2) 저절로는 언제 하는지를 적고, (3) 기다리지 않고
          바로 돌릴 수 있는 단추를 준다. */
       '<div class="autonow">' +
-        '<div class="autonow-s">' + (doneToday
-          ? '✅ 오늘 이미 점검했습니다.'
-          : pending.length
+        '<div class="autonow-s">' + (pending.length
             ? '지금 목표와 <b>' + pending.length + '자리</b>가 벌어져 있습니다.'
             : '지금은 목표와 크게 벌어진 자리가 없습니다.') +
-          (nextAt && !doneToday ? ' 저절로는 <b>' + dayLabel(nextAt) + '</b>에 합니다.' : '') +
+          (doneToday ? ' 오늘 한 번 점검했습니다.' : '') +
+          ' 시세는 <b>30분마다</b> 갱신되니 다시 눌러도 됩니다.' +
         '</div>' +
-        '<button class="btn ghost" id="sim-now"' + (doneToday ? ' disabled' : '') + '>' +
-          '⚡ 지금 점검하기</button>' +
+        '<button class="btn ghost" id="sim-now">⚡ 지금 점검하기</button>' +
       '</div>' +
       (st.lastAuto ? '<div class="autobox-t">마지막 조정 확인: ' + st.lastAuto + '</div>' : '') +
     '</div>');
@@ -2669,9 +2670,7 @@
       var stn = simState();
       var rn = SIM.autoRun(stn, Object.assign(simCtx(), { force: true }));
       if (!rn.ran) {
-        state.simMsg = rn.reason === 'today'
-          ? '오늘은 이미 점검했습니다. 같은 시세로 두 번 돌려도 결과는 같습니다.'
-          : '지금은 조정할 게 없습니다.';
+        state.simMsg = '지금은 조정할 게 없습니다.';
       } else if (!rn.done || !rn.done.length) {
         state.simMsg = '점검했습니다. 목표와 크게 벌어진 자리가 없어 그대로 뒀습니다.';
       } else {

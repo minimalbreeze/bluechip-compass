@@ -397,14 +397,21 @@ window.BCSim = (function () {
     return null;
   }
 
-  /* o.force 를 주면 주기와 자동 운용 스위치를 건너뛴다.
-     "앱에 들어온 김에 지금 확인하고 싶다"는 요구가 실제로 있었고, 주 1회로
-     모아 둔 뒤로는 더 그렇다. 다만 같은 날 두 번은 여전히 막는다 — 같은
-     가격으로 두 번 돌려봐야 두 번째는 할 일이 없다. */
+  /* o.force 를 주면 주기·자동 스위치·"오늘 이미 함"을 모두 건너뛴다.
+
+     처음엔 같은 날 두 번을 막았다. 주 1회로 조정하던 때는 맞는 규칙이었지만,
+     지금은 시세가 30분마다 갱신된다 — 아침에 한 번 돌았어도 오후에는 값이
+     달라져 있고, 그때 다시 보는 건 헛일이 아니다. 게다가 자동이 켜져 있으면
+     앱을 여는 순간 이미 오늘 몫이 돌아가서, 단추가 늘 잠긴 채로 남았다.
+
+     대신 눌러서 할 일이 없으면 "벌어진 자리가 없다"고 말해준다. 막는 것보다
+     그게 정직하다.
+
+     자동 실행(화면 그릴 때·서버)은 여전히 하루 한 번이다.               */
   function autoRun(st, o) {
     if (!st.started) return { ran: false };
     if (!o.force && !st.auto) return { ran: false };
-    if (st.lastAuto === o.today) return { ran: false, reason: 'today' };
+    if (!o.force && st.lastAuto === o.today) return { ran: false, reason: 'today' };
     if (!o.force && !dueToday(st, o)) return { ran: false, reason: 'not-due' };
     if (o.regimeKey) st.lastRegime = o.regimeKey;
 
