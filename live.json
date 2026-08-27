@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-27T23:16:53.549Z",
+  "asOf": "2026-08-27T23:54:15.278Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -17,11 +17,11 @@
       "time": "2026-08-27T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1381.19,
+      "price": 1381.16,
       "prev": 1383.489990234375,
       "chg": -0.17,
       "basis": "prev-daily-close",
-      "time": "2026-08-27T23:16:45.000Z"
+      "time": "2026-08-27T23:53:29.000Z"
     },
     "^GSPC": {
       "price": 7730.99,
@@ -73,7 +73,7 @@
       "chg3m": -27.03
     },
     "KRW=X": {
-      "last": 1381.19,
+      "last": 1381.16,
       "low52": 1377.64,
       "high52": 1554.48,
       "pct52": 0.02,
@@ -109,37 +109,37 @@
     }
   },
   "regime": {
-    "by": "rules",
-    "asOf": "2026-08-27T23:16:53.019Z",
+    "by": "ai",
+    "asOf": "2026-08-27T23:53:57.491Z",
     "kr": {
       "why": {
-        "rates": "미국 10년물 금리가 지금 4.67%로, 3개월 전보다 4.92% 높고 최근 1년 범위(3.95~4.74)의 91% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
-        "growth": "지수가 3개월 전보다 -17.26% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
-        "valuation": "지수가 최근 1년 범위의 61% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
-        "fx": "원/달러가 1381.19원으로 최근 1년(1377.64~1554.48) 범위의 2% 지점입니다.",
-        "geo": "VIX 가 14.51입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
+        "rates": "미 10년물 금리(^TNX)가 4.67%로 1년범위 상단 91% 위치이고 3개월간 +4.92% 올라 금리가 위로 향하는 국면입니다.",
+        "growth": "코스피가 3개월간 -17.26% 하락했으나 1년범위 내 61% 위치를 유지하고 반도체 클러스터·정유 실적 기대 헤드라인이 섞여 있어 침체 확정보다는 둔화로 봅니다.",
+        "valuation": "코스피 1년범위 위치 61%는 중간보다 약간 높은 수준이고 별도 밸류에이션 지표가 주어지지 않아 중립인 '보통'으로 둡니다.",
+        "fx": "원/달러가 1381.16으로 1년범위(1377.64~1554.48) 하단 2% 위치이고 3개월간 -8.93% 하락해 원화가 강한 쪽입니다.",
+        "geo": "VIX가 14.51로 1년범위 6% 위치의 낮은 수준이며 헤드라인은 중국 전력장비 규제 언급 정도로 충격 신호는 없어 평온으로 봅니다."
       },
+      "summary": "원화는 1년 중 가장 강한 쪽이고 변동성 지표도 낮아 시장 심리는 차분한 편입니다. 다만 미 장기금리가 범위 상단이고 코스피는 3개월간 -17.26% 조정을 받아, 금리는 위로 경기는 둔화 쪽으로 읽히는 국면입니다.",
       "rates": "hike",
-      "growth": "reces",
+      "growth": "slow",
       "valuation": "fair",
       "fx": "strong",
-      "geo": "calm",
-      "summary": "실제 수치에서 기계적으로 도출한 판정입니다. 금리·경기·밸류에이션은 대용 지표라 한계가 있습니다."
+      "geo": "calm"
     },
     "us": {
       "why": {
-        "rates": "미국 10년물 금리가 지금 4.67%로, 3개월 전보다 4.92% 높고 최근 1년 범위(3.95~4.74)의 91% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
-        "growth": "지수가 3개월 전보다 +1.99% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
-        "valuation": "지수가 최근 1년 범위의 95% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
-        "fx": "원/달러가 1381.19원으로 최근 1년(1377.64~1554.48) 범위의 2% 지점입니다.",
-        "geo": "VIX 가 14.51입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
+        "rates": "^TNX 4.67%로 1년범위 91% 위치이자 3개월 +4.92%이고, 연준 해맥 위원이 '금리 인상, 지금이 행동할 때'라고 언급해 위쪽 방향입니다.",
+        "growth": "S&P500이 7730.99로 1년범위 95% 위치, 3개월 +1.99%이며 코어 물가 3.3% 상승·기업 실적 호조 헤드라인이 함께 나와 경기는 괜찮은 쪽으로 분류합니다.",
+        "valuation": "S&P500이 1년 고점(7798.99) 근처인 95% 위치에 있어 가격 부담이 큰 편으로 봅니다.",
+        "fx": "원/달러 1381.16은 1년범위 2% 위치로 달러 대비 원화가 강한 상태이며 3개월간 -8.93% 내렸습니다.",
+        "geo": "VIX 14.51(1년범위 6% 위치)로 낮고 제시된 헤드라인에 정책·지정학 충격 사건이 없어 평온으로 판단합니다."
       },
+      "summary": "미국 주가지수는 1년 범위의 95% 지점으로 높은 편이고 변동성은 낮아 표면적으로 안정적입니다. 다만 코어 물가 3.3%와 장기금리 4.67%(범위 91%), 인상 발언까지 겹쳐 금리 부담이 남아 있는 국면입니다.",
       "rates": "hike",
       "growth": "expand",
       "valuation": "rich",
       "fx": "strong",
-      "geo": "calm",
-      "summary": "실제 수치에서 기계적으로 도출한 판정입니다. 금리·경기·밸류에이션은 대용 지표라 한계가 있습니다."
+      "geo": "calm"
     }
   },
   "stocks": {
@@ -333,15 +333,15 @@
   "news": {
     "kr": [
       {
-        "title": "[마켓뷰] 연준 의장 잭슨홀 연설 주시…'엔비디아발 호재' 이어가나",
-        "link": "https://www.yna.co.kr/view/AKR20260828021100008",
+        "title": "키움증권 \"세계 중앙은행 금 순매수 부진…매수 기조는 지속\"",
+        "link": "https://www.yna.co.kr/view/AKR20260828026900008",
         "source": "연합뉴스",
-        "date": "Fri, 28 Aug 2026 08:04:13 +0900",
+        "date": "Fri, 28 Aug 2026 08:37:50 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
+        "why": "금 수요에 대한 증권사 전망일 뿐, 기업 이익 구조와는 거리가 있습니다.",
+        "by": "ai"
       },
       {
         "title": "\"S-Oil, 하반기 영업익 3조·배당 확대 기대…목표가↑\"-유안타",
@@ -350,9 +350,9 @@
         "date": "Fri, 28 Aug 2026 07:29:15 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
+        "scope": "company",
+        "why": "실적·목표주가 전망은 증권사 의견이라 오늘 할 일은 없습니다.",
+        "by": "ai"
       },
       {
         "title": "SG, SK하이닉스 용인 반도체 클러스터에 ‘에코스틸아스콘’ 모크업 시공 완료",
@@ -361,20 +361,20 @@
         "date": "Fri, 28 Aug 2026 08:07:37 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
+        "scope": "company",
+        "why": "개별 시공 완료 소식으로 장기 이익을 바꿀 규모인지 알기 어렵습니다.",
+        "by": "ai"
       },
       {
-        "title": "삼성바이오로직스, 3조원 주주배정 유상증자 결정",
-        "link": "https://www.yna.co.kr/view/AKR20260828020800008",
+        "title": "신영증권 \"트럼프 中전력장비 규제에 韓배터리 수혜구조 강화\"",
+        "link": "https://www.yna.co.kr/view/AKR20260828026400008",
         "source": "연합뉴스",
-        "date": "Fri, 28 Aug 2026 07:55:07 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
+        "date": "Fri, 28 Aug 2026 08:31:39 +0900",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": "sector",
+        "why": "규제로 인한 경쟁 구도 변화 가능성이라 흐름만 지켜보면 됩니다.",
+        "by": "ai"
       },
       {
         "title": "엔비디아 8.7% 급등…기술주 랠리에 나스닥 1.57%↑ [뉴욕증시 브리핑]",
@@ -383,9 +383,9 @@
         "date": "Fri, 28 Aug 2026 07:03:04 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
+        "scope": "market",
+        "why": "하루치 지수와 주가 등락은 투자 근거를 바꾸지 않습니다.",
+        "by": "ai"
       },
       {
         "title": "\"향후 증시 조정땐 AI 생태계에 분산투자하라\"",
@@ -394,9 +394,9 @@
         "date": "Thu, 27 Aug 2026 18:06:24 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
+        "scope": "market",
+        "why": "조정 대응을 다룬 의견 기사로 확인된 사실은 없습니다.",
+        "by": "ai"
       }
     ],
     "us": [
@@ -406,11 +406,11 @@
         "source": "CNBC",
         "date": "Thu, 27 Aug 2026 17:31:09 GMT",
         "ko": "Fed의 Hammack은 금리 인상에 대해 '지금이 행동할 때' 라고 말합니다.",
-        "act": "none",
+        "act": "watch",
         "lasting": "temporary",
         "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
+        "why": "통화정책 발언은 시장 전반 변수지만 개별 기업 이익 구조는 그대로입니다.",
+        "by": "ai"
       },
       {
         "title": "My mother, 91, has dementia. Every bank says I need her signature to unlock her $100,000 stock certificate. What can I do?",
@@ -420,9 +420,9 @@
         "ko": "91세인 어머니는 치매를 앓고 계십니다. 모든 은행에서 $100,000의 주식 증서를 잠금 해제하려면 그녀의 서명이 필요하다고 말합니다. 어떻게 해야 하나요?",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
+        "scope": "market",
+        "why": "개인 상속·명의 관련 사연으로 투자 판단과 직접 관련이 없습니다.",
+        "by": "ai"
       },
       {
         "title": "Cathie Wood bets on 'disrupter' stock with bullish analyst call",
@@ -432,9 +432,9 @@
         "ko": "Cathie Wood는 불리시 애널리스트 콜로 '디스럽터' 주식에 베팅합니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
+        "scope": "market",
+        "why": "유명 투자자의 개별 베팅 소식일 뿐 기업 실적 변화는 아닙니다.",
+        "by": "ai"
       },
       {
         "title": "Fed’s preferred inflation gauge shows core prices rose 3.3% annually in July",
@@ -442,11 +442,11 @@
         "source": "CNBC",
         "date": "Wed, 26 Aug 2026 13:35:50 GMT",
         "ko": "Fed가 선호하는 인플레이션 게이지에 따르면 7월에 코어 가격이 매년 3.3% 상승한 것으로 나타났습니다.",
-        "act": "none",
+        "act": "watch",
         "lasting": "temporary",
         "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
+        "why": "물가 지표는 매달 나오는 흐름으로 방향만 확인하면 됩니다.",
+        "by": "ai"
       },
       {
         "title": "CrowdStrike’s stock jumps after record-breaking earnings. Wall Street is lapping it up.",
@@ -457,24 +457,24 @@
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
+        "why": "실적 발표 후 주가 반응으로 대개 이미 가격에 반영됩니다.",
+        "by": "ai"
       },
       {
-        "title": "1 Penny Stock That Could Howl Its Way to the Top After a $150 Million Funding Boost",
-        "link": "https://finance.yahoo.com/healthcare/articles/1-penny-stock-could-howl-154753793.html",
+        "title": "Vivmark Residential Stock: Analyst Estimates & Ratings",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/vivmark-residential-stock-analyst-estimates-161725943.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-26T15:47:53Z",
-        "ko": "1 페니 주식, 1억 5천만 달러의 펀딩 부스트를 거친 후 정상에 오를 수 있음 (1 Penny Stock That Could Howl Its Way to the Top After a $150",
+        "date": "2026-08-26T16:17:25Z",
+        "ko": "Vivmark 주거용 주식: 애널리스트 추정 및 평가",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
+        "scope": "company",
+        "why": "애널리스트 추정치 소개 기사로 제목만으로는 새로운 사실이 없습니다.",
+        "by": "ai"
       }
     ]
   },
-  "newsBy": "rules",
+  "newsBy": "ai",
   "trCache": {
     "Bessent's bond gambit aimed at calming markets is instead stirring inflation worries": "시장을 진정시키기 위한 베센트의 채권 갬빗은 오히려 인플레이션 우려를 불러일으키고 있다.",
     "Stock futures flat as U.S. and Canada appear headed for trade war": "미국과 캐나다가 무역 전쟁으로 향하는 것처럼 보이기 때문에 주식 선물은 평평합니다.",
@@ -624,7 +624,8 @@
     "The options market is signaling further gains for the S&P 500, but one indicator is flashing a warning": "옵션 시장은 S&P 500에 대한 추가 상승 신호를 보내고 있지만, 한 지표는 경고를 깜박이고 있습니다.",
     "Amidst a Big Addressable Market, SpaceX Has Ample Scope for Sustained Growth": "주소 지정이 가능한 큰 시장 속에서 SpaceX는 지속적인 성장을 위한 충분한 범위를 가지고 있습니다.",
     "CrowdStrike’s stock jumps after record-breaking earnings. Wall Street is lapping it up.": "CrowdStrike의 주가는 기록적인 수익을 올린 후 뛰어오릅니다. 월스트리트가 그것을 쌓아 올리고 있습니다.",
-    "1 Penny Stock That Could Howl Its Way to the Top After a $150 Million Funding Boost": "1 페니 주식, 1억 5천만 달러의 펀딩 부스트를 거친 후 정상에 오를 수 있음 (1 Penny Stock That Could Howl Its Way to the Top After a $150"
+    "1 Penny Stock That Could Howl Its Way to the Top After a $150 Million Funding Boost": "1 페니 주식, 1억 5천만 달러의 펀딩 부스트를 거친 후 정상에 오를 수 있음 (1 Penny Stock That Could Howl Its Way to the Top After a $150",
+    "Vivmark Residential Stock: Analyst Estimates & Ratings": "Vivmark 주거용 주식: 애널리스트 추정 및 평가"
   },
   "nvCache": {
     "https://www.yna.co.kr/view/AKR20260824137251008": {
@@ -1298,11 +1299,91 @@
       "scope": "market",
       "why": "저평가 여부를 다룬 의견성 기사로, 오늘 할 일은 없습니다.",
       "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20260828026900008": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "금 수요에 대한 증권사 전망일 뿐, 기업 이익 구조와는 거리가 있습니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/2026082882106": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "실적·목표주가 전망은 증권사 의견이라 오늘 할 일은 없습니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12138444": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "개별 시공 완료 소식으로 장기 이익을 바꿀 규모인지 알기 어렵습니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20260828026400008": {
+      "act": "watch",
+      "lasting": "structural",
+      "scope": "sector",
+      "why": "규제로 인한 경쟁 구도 변화 가능성이라 흐름만 지켜보면 됩니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/2026082881806": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "하루치 지수와 주가 등락은 투자 근거를 바꾸지 않습니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12138170": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "조정 대응을 다룬 의견 기사로 확인된 사실은 없습니다.",
+      "by": "ai"
+    },
+    "https://www.cnbc.com/2026/08/27/feds-hammack-says-now-is-the-time-to-act-on-raising-interest-rates.html": {
+      "act": "watch",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "통화정책 발언은 시장 전반 변수지만 개별 기업 이익 구조는 그대로입니다.",
+      "by": "ai"
+    },
+    "https://www.marketwatch.com/story/my-mother-91-has-dementia-every-bank-says-i-need-her-signature-to-unlock-her-100-000-stock-certificate-what-can-i-do-4a2b702f?mod=mw_rss_topstories": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "개인 상속·명의 관련 사연으로 투자 판단과 직접 관련이 없습니다.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/markets/crypto/articles/cathie-wood-bets-disrupter-stock-171503487.html": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "유명 투자자의 개별 베팅 소식일 뿐 기업 실적 변화는 아닙니다.",
+      "by": "ai"
+    },
+    "https://www.cnbc.com/2026/08/26/feds-preferred-inflation-gauge-shows-core-prices-rose-3point3percent-annually-in-july.html": {
+      "act": "watch",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "물가 지표는 매달 나오는 흐름으로 방향만 확인하면 됩니다.",
+      "by": "ai"
+    },
+    "https://www.marketwatch.com/story/crowdstrikes-stock-has-jumped-after-record-breaking-earnings-wall-street-is-lapping-it-up-dbdaca83?mod=mw_rss_topstories": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "실적 발표 후 주가 반응으로 대개 이미 가격에 반영됩니다.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/markets/stocks/articles/vivmark-residential-stock-analyst-estimates-161725943.html": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "애널리스트 추정치 소개 기사로 제목만으로는 새로운 사실이 없습니다.",
+      "by": "ai"
     }
   },
-  "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeU76Jw6oJg4FfCghMS6U\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeU76KZ3vHLgPugx8Tbe3\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeU76L3KqQxQTB1djm7eE\"}"
-  ]
+  "failed": []
 }
