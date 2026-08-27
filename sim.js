@@ -25,6 +25,20 @@ window.BCSim = (function () {
      너무 작게 잡으면 매일 잔손질을 하게 되고, 그건 이 앱이 줄이려는 바로
      그 행동이다. 3%p 는 "그냥 두면 포트폴리오가 다른 물건이 되는" 선이다. */
   var BAND = 3;
+  /* ── 왜 상대 기준이 필요한가 ────────────────────────────────────
+     밴드를 3%p 하나로만 쓰면 **작은 자리가 사실상 얼어붙는다.**
+     목표 9%인 종목이 3%p 를 벗어나려면 6% 나 12% 가 되어야 하는데,
+     그건 그 종목만 33% 움직여야 한다는 뜻이다. 실제로 계좌가 나흘 동안
+     한 건도 안 움직였고, 화면은 고장난 것처럼 보였다.
+
+     그래서 **목표의 20%** 와 3%p 중 더 좁은 쪽을 쓴다. 목표 9% 자리는
+     1.8%p(= 그 종목 20% 변동)에서 걸리고, 목표 18% 자리는 여전히 3%p 에서
+     걸린다. 자산배분에서 오래 쓰는 "5/25 규칙"과 같은 얼개다.
+     (수치를 낮춘다고 수익이 늘지는 않는다. 얼어붙은 걸 푸는 것뿐이다.) */
+  var REL = 20;
+  function bandFor(wantW, total) {
+    return total * Math.min(BAND, wantW * REL / 100) / 100;
+  }
 
   function blank() {
     /* auto: 자동 운용 여부.
@@ -228,6 +242,7 @@ window.BCSim = (function () {
     var cashWant = 100 - wantSum;
 
     var moves = [];
+    /* 자리마다 기준이 다르다 — bandFor 참고. cashOff 인 날은 아래에서 푼다. */
     var band = total * BAND / 100;
 
     /* ⚠️ 자리마다 밴드를 걸면 현금이 조용히 어긋난다.
@@ -256,7 +271,8 @@ window.BCSim = (function () {
       var r = held[t];
       if (!r || !r.known) return;
       var desired = total * want[t] / 100;
-      if (r.value - desired > band) {
+      var bd = cashOff ? band : bandFor(want[t], total);
+      if (r.value - desired > bd) {
         moves.push({ kind: 'sell', t: t, n: r.n, amt: r.value - desired, all: false,
           w: r.weight, wT: want[t],
           why: (cashOff ? '현금을 목표 ' + cashWant + '%로 되돌리며 · ' : '') +
@@ -270,7 +286,8 @@ window.BCSim = (function () {
       var cur = r && r.known ? r.value : (r ? r.value : 0);
       var desired = total * want[t] / 100;
       if (r && !r.known) return;                 // 시세를 모르면 손대지 않는다
-      if (desired - cur > band) {
+      var bd2 = cashOff ? band : bandFor(want[t], total);
+      if (desired - cur > bd2) {
         moves.push({ kind: 'buy', t: t, n: (r ? r.n : names[t]), amt: desired - cur,
           /* 비중을 값으로도 담는다. 알림에서 "18% → 12%" 로 보여주려면
              문자열(why) 안에 묻혀 있으면 안 된다. 계좌 크기가 저마다 달라서

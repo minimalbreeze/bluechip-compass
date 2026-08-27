@@ -2284,7 +2284,25 @@
     }, '아직 없습니다.');
     /* 이 화면의 주인공. AI 가 무엇을 언제 왜 사고팔았는지가 여기 있고,
        따라 하려는 사람이 실제로 읽는 건 이 칸이다. 기본으로 펴 둔다. */
-    h.push(fold('sim-log', '🧾', 'AI 매매 내역', logHtml,
+    /* ── 마지막에 언제 보고, 뭐라고 판단했나 ──────────────────────
+       내역만 보여주면 "4일 전"이 맨 위에 떠 있고, 그건 **멈춘 것처럼**
+       읽힌다. 실제로는 새 시세가 올 때마다 보고 있고 다만 손댈 자리가
+       없었을 뿐인데, 그 사실이 화면 어디에도 없었다.
+
+       거래가 없는 날에도 "봤다"는 사실과 "왜 안 했나"를 적는다.
+       조용한 것과 고장난 것은 다르다. */
+    var pend = SIM.drift(st, simCtx());
+    var seenAt = st.lastSnap ? agoText(st.lastSnap) : (st.lastAuto || null);
+    var checkLine = '<div class="lastchk' + (pend.length ? ' has' : '') + '">' +
+      '<b>🕒 ' + (seenAt ? seenAt + ' 확인' : '아직 확인 전') + '</b>' +
+      (pend.length
+        ? '<span>목표와 벌어진 자리 <b>' + pend.length + '곳</b> — 다음 시세에 조정합니다.</span>'
+        : '<span>모든 자리가 목표 안에 있어 <b>사고팔지 않았습니다.</b> ' +
+          '조정은 한 종목이 목표에서 20% 넘게 벌어졌을 때만 합니다 — ' +
+          '자주 사고판다고 수익이 늘지는 않습니다.</span>') +
+      '</div>';
+
+    h.push(fold('sim-log', '🧾', 'AI 매매 내역', checkLine + logHtml,
       { open: true, badge: st.log.length }));
     h.push(ledgerFold);
 
