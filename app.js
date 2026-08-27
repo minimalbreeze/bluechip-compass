@@ -751,6 +751,31 @@
     return out.slice(0, 8);
   }
 
+  /* ── 지금 장이 열려 있나 ────────────────────────────────────────
+     UTC 로 따진다. 기기 시간대가 무엇이든 같은 답이 나와야 하기 때문이다.
+       국내 09:00~15:30 KST = 00:00~06:30 UTC
+       미국 09:30~16:00 ET  = 13:30~20:00 UTC (서머타임 기준, 겨울엔 한 시간 뒤)
+     경계는 넉넉하게 잡는다 — 여기서 하는 일은 "낡았다"고 알려줄지 말지를
+     정하는 것뿐이라, 조금 넓게 봐서 손해 볼 게 없다. */
+  function marketOpenNow(mk) {
+    var d = new Date(), wd = d.getUTCDay();
+    if (wd === 0 || wd === 6) return false;
+    var m = d.getUTCHours() * 60 + d.getUTCMinutes();
+    return mk === 'kr' ? (m >= 0 && m <= 400)      /* 00:00~06:40 UTC */
+                       : (m >= 800 && m <= 1260);  /* 13:20~21:00 UTC */
+  }
+
+  /* 장중인데 스냅샷이 이만큼 낡았으면 그 사실을 눈에 보이게 말한다.
+     크론이 밀리는 일이 실제로 있었다(다섯 시간 동안 한 번도 안 돈 날). 그때
+     화면은 아무 일 없다는 듯 옛 숫자를 보여줬다 — 그게 제일 나쁘다. */
+  var STALE_WARN_MIN = 45;
+  function liveStale() {
+    if (!LIVE || !LIVE.asOf) return null;
+    if (!marketOpenNow('kr') && !marketOpenNow('us')) return null;
+    var m = minutesAgo(LIVE.asOf);
+    return (m !== null && m >= STALE_WARN_MIN) ? m : null;
+  }
+
   function minutesAgo(iso) {
     var t = new Date(iso).getTime();
     if (!t) return null;
@@ -904,9 +929,15 @@
     h.push('</div>');
 
     var hasQuote = LIVE && LIVE.quotes && Object.keys(LIVE.quotes).length > 0;
-    h.push('<div class="idxnote">' + (hasQuote && LIVE.asOf
-      ? '🕒 <b>' + agoText(LIVE.asOf) + '</b> 받아온 값입니다. 실시간 호가가 아니라 <b>장중에 30분~1시간 간격으로 받아오는 스냅샷</b>이고, 장 마감 뒤에는 마지막 종가가 유지됩니다. 위 시각이 이 화면이 아는 전부입니다.'
-      : '시세를 아직 못 받아왔습니다. 지수를 누르면 바로 확인할 수 있습니다.') + '</div>');
+    var stale = liveStale();
+    h.push('<div class="idxnote' + (stale ? ' stale' : '') + '">' + (hasQuote && LIVE.asOf
+      ? (stale
+          ? '⚠️ <b>지금 장이 열려 있는데 시세가 ' + agoText(LIVE.asOf) + ' 것입니다.</b> ' +
+            '자동 수집이 밀리면 이런 일이 생깁니다. 아래 숫자는 그때 기준이니, ' +
+            '판단하기 전에 <b>다시 받아 주세요.</b>'
+          : '🕒 <b>' + agoText(LIVE.asOf) + '</b> 받아온 값입니다. 실시간 호가가 아니라 <b>장중에 30분~1시간 간격으로 받아오는 스냅샷</b>이고, 장 마감 뒤에는 마지막 종가가 유지됩니다. 위 시각이 이 화면이 아는 전부입니다.') +
+        '<button class="linkbtn refresh" id="live-refresh">🔄 지금 다시 받기</button>'
+      : '시세를 아직 못 받아왔습니다. <button class="linkbtn refresh" id="live-refresh">🔄 다시 받기</button>') + '</div>');
 
     return h.join('');
   }
@@ -2789,6 +2820,16 @@
         if (p.ticker === el.dataset.spick) pk = p;
       });
       if (pk) { state.sq = pk.name; state.sSel = { t: pk.ticker, n: pk.name, etf: 0, uni: true }; render(); }
+      return;
+    }
+    if (ev.target.id === 'live-refresh') {
+      var rb = ev.target;
+      rb.disabled = true; rb.textContent = '⏳ 받는 중…';
+      refreshNow().then(function () {
+        /* 값이 그대로여도 다시 그린다 — 눌렀는데 아무 반응이 없으면
+           고장으로 읽힌다. 바뀐 게 없으면 그렇다고 말해주는 편이 낫다. */
+        render();
+      });
       return;
     }
     if (ev.target.id === 'sim-now') {
