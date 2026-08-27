@@ -13,40 +13,63 @@
    ========================================================================== */
 const ORIGIN = 'https://maumjaro.minimalbreeze.com';
 const TARGETS = [
-  ['야후 시세(차트)', 'https://query1.finance.yahoo.com/v8/finance/chart/AAPL?range=1d&interval=1d'],
-  ['야후 시세(대체)', 'https://query2.finance.yahoo.com/v8/finance/chart/005930.KS?range=1d&interval=1d'],
-  ['연합뉴스 RSS',   'https://www.yna.co.kr/rss/economy.xml'],
-  ['CNBC RSS',       'https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=20910258']
+  ['야후 시세(query1)', 'https://query1.finance.yahoo.com/v8/finance/chart/AAPL?range=1d&interval=1d'],
+  ['야후 시세(query2)', 'https://query2.finance.yahoo.com/v8/finance/chart/005930.KS?range=1d&interval=1d'],
+  ['스투크(stooq)',     'https://stooq.com/q/l/?s=aapl.us&f=sd2t2ohlcv&h&e=csv'],
+  ['연합뉴스 RSS',      'https://www.yna.co.kr/rss/economy.xml'],
+  ['CNBC RSS',          'https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=20910258']
 ];
 
 const UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 ' +
            '(KHTML, like Gecko) Chrome/124.0 Safari/537.36';
 
-function verdict(h, status) {
-  const allow = h.get('access-control-allow-origin');
-  if (!allow) return ['❌', '브라우저가 막는다 (Access-Control-Allow-Origin 없음)'];
-  if (allow === '*') return ['✅', '브라우저가 직접 부를 수 있다 (허용: *)'];
-  if (allow === ORIGIN) return ['✅', `브라우저가 직접 부를 수 있다 (허용: ${allow})`];
-  return ['⚠️', `다른 출처만 허용한다 (${allow})`];
+const sleep = ms => new Promise(r => setTimeout(r, ms));
+
+/* 한 번 두드려 본다. withOrigin 이면 브라우저처럼 Origin 을 실어 보낸다.
+   429 는 잠깐 쉬었다 두 번 더 본다 — 한 번의 429 로 "막혔다"고 단정하면
+   일시적인 혼잡을 영구적인 차단으로 오독하게 된다. */
+async function probe(url, withOrigin) {
+  const h = { 'User-Agent': UA, 'Accept': '*/*' };
+  if (withOrigin) h['Origin'] = ORIGIN;
+  for (let i = 0; i < 3; i++) {
+    try {
+      const ctl = new AbortController();
+      const t = setTimeout(() => ctl.abort(), 15000);
+      const r = await fetch(url, { signal: ctl.signal, headers: h });
+      clearTimeout(t);
+      if (r.status === 429 && i < 2) { await sleep(3000 * (i + 1)); continue; }
+      return { status: r.status, acao: r.headers.get('access-control-allow-origin') };
+    } catch (e) {
+      if (i === 2) return { err: e.message };
+      await sleep(2000);
+    }
+  }
+  return { status: 429, acao: null, throttled: true };
 }
 
-for (const [name, url] of TARGETS) {
-  try {
-    const ctl = new AbortController();
-    const t = setTimeout(() => ctl.abort(), 15000);
-    /* 브라우저가 보내는 것과 같은 Origin 을 실어 보낸다 */
-    const r = await fetch(url, { signal: ctl.signal,
-      headers: { 'User-Agent': UA, 'Origin': ORIGIN, 'Accept': '*/*' } });
-    clearTimeout(t);
-    const [mark, say] = verdict(r.headers, r.status);
-    console.log(`${mark} ${name}`);
-    console.log(`     HTTP ${r.status} · ${say}`);
-    const vary = r.headers.get('vary');
-    if (vary && /origin/i.test(vary)) console.log(`     (Vary: ${vary})`);
-  } catch (e) {
-    console.log(`❌ ${name}`);
-    console.log(`     못 불렀다: ${e.message}`);
-  }
+function say(r) {
+  if (r.err) return '못 부름 — ' + r.err;
+  const a = r.acao;
+  const cors = a === '*' ? '허용 *' : a ? '허용 ' + a : 'CORS 헤더 없음';
+  return 'HTTP ' + r.status + (r.throttled ? '(계속 429)' : '') + ' · ' + cors;
 }
-console.log('\n판단 기준: ✅ 가 하나라도 있으면 그 자료는 브라우저가 직접 받아올 수 있고,');
-console.log('           크론이 밀려도 앱을 여는 순간 최신값을 볼 수 있다.');
+
+console.log('각 주소를 두 가지로 두드린다 — Origin 없이(서버처럼) / Origin 실어서(브라우저처럼)\n');
+for (const [name, url] of TARGETS) {
+  const plain = await probe(url, false);
+  await sleep(700);
+  const cross = await probe(url, true);
+  /* 브라우저가 실제로 쓸 수 있으려면: Origin 을 실어 보냈을 때 2xx 이고
+     Access-Control-Allow-Origin 이 * 이거나 우리 출처여야 한다. */
+  const usable = !cross.err && cross.status >= 200 && cross.status < 300 &&
+                 (cross.acao === '*' || cross.acao === ORIGIN);
+  console.log((usable ? '✅' : '❌') + ' ' + name);
+  console.log('     서버처럼   : ' + say(plain));
+  console.log('     브라우저처럼: ' + say(cross));
+  if (!usable && plain.status >= 200 && plain.status < 300)
+    console.log('     → 러너는 받을 수 있지만 브라우저는 막힌다. 지금 구조(러너가 대신 받기)가 맞다.');
+  console.log('');
+  await sleep(800);
+}
+console.log('판단: ✅ 인 자료만 브라우저가 직접 받아올 수 있다.');
+console.log('      ❌ 는 크론이 밀리면 낡을 수밖에 없고, 앱은 그 사실을 화면에 적어야 한다.');
