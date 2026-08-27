@@ -1446,3 +1446,63 @@ body[data-market="us"] .ms-thumb { transform: translateX(100%); }
 /* 지난번 본 뒤로 달라진 것 — 요약 한 줄. 자세한 건 'AI 매매 내역' 한 곳에서 본다. */
 .simnew-s { font-size: 13px; color: var(--ink); line-height: 1.6; margin: 6px 0 2px;
             word-break: keep-all; overflow-wrap: anywhere; }
+
+/* ── 왜 샀나 메모 ────────────────────────────────────────────────
+   나중의 자신에게 남기는 쪽지다. 판정 블록과 구분되게 종이 느낌으로 두되,
+   경고색은 쓰지 않는다 — 이건 잘잘못을 따지는 자리가 아니다. */
+.why-add {
+  display: block; width: 100%; text-align: left; margin-top: 10px;
+  font: inherit; font-size: 13px; font-weight: 700; color: var(--accent-ink);
+  background: var(--accent-soft); border: 1px dashed var(--accent);
+  border-radius: var(--r-s); padding: 11px 13px; cursor: pointer;
+}
+.why-add small { display: block; margin-top: 3px; font-size: 11.5px;
+                 font-weight: 400; color: var(--ink-mid); line-height: 1.5; }
+.why { margin-top: 10px; padding: 11px 13px; border-radius: var(--r-s);
+       background: #fffdf5; border: 1px solid #ece2c4; }
+.why-h { display: flex; align-items: center; gap: 6px; font-size: 12px;
+         font-weight: 700; color: #7a6427; margin-bottom: 5px; }
+.why-h small { font-weight: 400; color: var(--ink-dim); font-size: 11px; }
+.why-edit { margin-left: auto; font: inherit; font-size: 11.5px; font-weight: 700;
+            color: var(--accent); background: none; border: 0; cursor: pointer;
+            padding: 2px 4px; text-decoration: underline; text-underline-offset: 2px; }
+.why-t { font-size: 13.5px; color: var(--ink); line-height: 1.65;
+         white-space: pre-wrap; word-break: keep-all; overflow-wrap: anywhere; }
+.why-i { display: block; width: 100%; box-sizing: border-box; margin-bottom: 8px;
+         font: inherit; font-size: 13.5px; line-height: 1.6; color: var(--ink);
+         background: var(--card); border: 1px solid var(--line);
+         border-radius: var(--r-s); padding: 10px; resize: vertical; }
+.why-i:focus { outline: 2px solid var(--accent); outline-offset: 1px; border-color: transparent; }
+.why-btns { display: flex; gap: 7px; }
+.why-btns button { font: inherit; font-size: 12.5px; font-weight: 700;
+                   border-radius: 999px; padding: 8px 15px; cursor: pointer; border: 1px solid transparent; }
+.why-ok  { background: var(--accent); color: #fff; }
+.why-no  { background: var(--card); color: var(--ink-mid); border-color: var(--line); }
+.why-del { margin-left: auto; background: none; color: var(--ink-dim); text-decoration: underline; }
+
+/* 오늘의 점검에서 바로 그 자리로 데려가는 단추 */
+.daily-cta {
+  display: block; width: 100%; text-align: left; margin-top: 11px;
+  font: inherit; font-size: 13.5px; font-weight: 700; color: var(--accent-ink);
+  background: var(--accent-soft); border: 1px solid var(--accent);
+  border-radius: var(--r-s); padding: 12px 14px; cursor: pointer;
+}
+.daily-cta small { display: block; margin-top: 3px; font-size: 11.5px;
+                   font-weight: 400; color: var(--ink-mid); }
+.daily-done { margin-top: 11px; font-size: 12.5px; color: var(--ink-mid);
+              line-height: 1.6; background: #eef6f0; border: 1px solid #d3e7da;
+              border-radius: var(--r-s); padding: 10px 12px; }
+
+/* "팔지 말지 헷갈릴 때" 칸에서 그때 적어 둔 이유를 되돌려 보여주는 자리 */
+.whyback { margin: 12px 0; padding: 12px 14px; border-radius: var(--r-s);
+           background: #fffdf5; border: 1px solid #ece2c4; }
+.whyback.empty { font-size: 12.5px; color: var(--ink-mid); line-height: 1.6; }
+.whyback-h { font-size: 12.5px; font-weight: 700; color: #7a6427; margin-bottom: 8px; }
+.whyback-i { padding: 8px 0; border-top: 1px solid #ece2c4; }
+.whyback-i:first-of-type { border-top: 0; padding-top: 0; }
+.whyback-i b { font-size: 13px; color: var(--ink); }
+.whyback-i small { margin-left: 6px; font-size: 11px; color: var(--ink-dim); }
+.whyback-t { margin-top: 3px; font-size: 13px; color: var(--ink); line-height: 1.65;
+             white-space: pre-wrap; word-break: keep-all; overflow-wrap: anywhere; }
+.whyback-f { margin-top: 9px; padding-top: 8px; border-top: 1px solid #ece2c4;
+             font-size: 11.5px; color: var(--ink-mid); line-height: 1.6; }
