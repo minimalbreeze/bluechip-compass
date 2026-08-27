@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-27T17:31:46.105Z",
+  "asOf": "2026-08-27T17:52:13.291Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -17,45 +17,45 @@
       "time": "2026-08-27T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1380.78,
+      "price": 1381.32,
       "prev": 1381.489990234375,
-      "chg": -0.05,
+      "chg": -0.01,
       "basis": "prev-daily-close",
-      "time": "2026-08-27T17:31:38.000Z"
+      "time": "2026-08-27T17:51:57.000Z"
     },
     "^GSPC": {
-      "price": 7735.13,
+      "price": 7731.22,
       "prev": 7675.7001953125,
-      "chg": 0.77,
+      "chg": 0.72,
       "basis": "prev-daily-close",
-      "time": "2026-08-27T17:31:38.000Z"
+      "time": "2026-08-27T17:52:03.000Z"
     },
     "^IXIC": {
-      "price": 26518.545,
+      "price": 26499.982,
       "prev": 26130.19921875,
-      "chg": 1.49,
+      "chg": 1.42,
       "basis": "prev-daily-close",
-      "time": "2026-08-27T17:31:38.000Z"
+      "time": "2026-08-27T17:52:02.000Z"
     },
     "^VIX": {
-      "price": 14.5,
+      "price": 14.66,
       "prev": 15.210000038146973,
-      "chg": -4.67,
+      "chg": -3.62,
       "basis": "prev-daily-close",
-      "time": "2026-08-27T17:16:31.000Z"
+      "time": "2026-08-27T17:37:01.000Z"
     },
     "^TNX": {
-      "price": 4.664,
+      "price": 4.662,
       "prev": 4.664000034332275,
-      "chg": 0,
+      "chg": -0.04,
       "basis": "prev-daily-close",
-      "time": "2026-08-27T17:16:34.000Z"
+      "time": "2026-08-27T17:37:04.000Z"
     }
   },
   "fx": {
     "low52": 1377.64,
     "high52": 1554.48,
-    "pct": 0.018
+    "pct": 0.021
   },
   "hist": {
     "^KS11": {
@@ -73,51 +73,51 @@
       "chg3m": -27.03
     },
     "KRW=X": {
-      "last": 1380.78,
+      "last": 1381.32,
       "low52": 1377.64,
       "high52": 1554.48,
-      "pct52": 0.018,
-      "chg3m": -8.63
+      "pct52": 0.021,
+      "chg3m": -8.6
     },
     "^GSPC": {
-      "last": 7735.13,
+      "last": 7731.22,
       "low52": 6343.72,
       "high52": 7798.99,
-      "pct52": 0.956,
-      "chg3m": 2.05
+      "pct52": 0.953,
+      "chg3m": 1.99
     },
     "^IXIC": {
-      "last": 26518.54,
+      "last": 26499.98,
       "low52": 20794.64,
       "high52": 27093.9,
-      "pct52": 0.909,
-      "chg3m": -1.68
+      "pct52": 0.906,
+      "chg3m": -1.75
     },
     "^VIX": {
-      "last": 14.5,
+      "last": 14.66,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.059,
-      "chg3m": -5.35
+      "pct52": 0.068,
+      "chg3m": -4.31
     },
     "^TNX": {
       "last": 4.66,
       "low52": 3.95,
       "high52": 4.74,
-      "pct52": 0.898,
-      "chg3m": 4.74
+      "pct52": 0.895,
+      "chg3m": 4.69
     }
   },
   "regime": {
     "by": "rules",
-    "asOf": "2026-08-27T17:31:45.569Z",
+    "asOf": "2026-08-27T17:52:12.684Z",
     "kr": {
       "why": {
-        "rates": "미국 10년물 금리가 지금 4.66%로, 3개월 전보다 4.74% 높고 최근 1년 범위(3.95~4.74)의 90% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
+        "rates": "미국 10년물 금리가 지금 4.66%로, 3개월 전보다 4.69% 높고 최근 1년 범위(3.95~4.74)의 90% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
         "growth": "지수가 3개월 전보다 -17.26% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
         "valuation": "지수가 최근 1년 범위의 61% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
-        "fx": "원/달러가 1380.78원으로 최근 1년(1377.64~1554.48) 범위의 2% 지점입니다.",
-        "geo": "VIX 가 14.5입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
+        "fx": "원/달러가 1381.32원으로 최근 1년(1377.64~1554.48) 범위의 2% 지점입니다.",
+        "geo": "VIX 가 14.66입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
       },
       "rates": "hike",
       "growth": "reces",
@@ -128,11 +128,11 @@
     },
     "us": {
       "why": {
-        "rates": "미국 10년물 금리가 지금 4.66%로, 3개월 전보다 4.74% 높고 최근 1년 범위(3.95~4.74)의 90% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
-        "growth": "지수가 3개월 전보다 +2.05% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
-        "valuation": "지수가 최근 1년 범위의 96% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
-        "fx": "원/달러가 1380.78원으로 최근 1년(1377.64~1554.48) 범위의 2% 지점입니다.",
-        "geo": "VIX 가 14.5입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
+        "rates": "미국 10년물 금리가 지금 4.66%로, 3개월 전보다 4.69% 높고 최근 1년 범위(3.95~4.74)의 90% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
+        "growth": "지수가 3개월 전보다 +1.99% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
+        "valuation": "지수가 최근 1년 범위의 95% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
+        "fx": "원/달러가 1381.32원으로 최근 1년(1377.64~1554.48) 범위의 2% 지점입니다.",
+        "geo": "VIX 가 14.66입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
       },
       "rates": "hike",
       "growth": "expand",
@@ -238,95 +238,95 @@
     },
     "us": {
       "MSFT": {
-        "price": 503.68,
+        "price": 504.36,
         "prev": 496.3699951171875,
-        "chg": 1.47,
+        "chg": 1.61,
         "basis": "prev-daily-close",
-        "time": "2026-08-27T17:31:44.000Z"
+        "time": "2026-08-27T17:52:10.000Z"
       },
       "AAPL": {
-        "price": 315.28,
-        "prev": 313.45001220703125,
-        "chg": 0.58,
-        "basis": "prev-daily-close",
-        "time": "2026-08-27T17:31:43.000Z"
-      },
-      "GOOGL": {
-        "price": 340.99,
-        "prev": 342,
-        "chg": -0.3,
-        "basis": "prev-daily-close",
-        "time": "2026-08-27T17:31:40.000Z"
-      },
-      "BRK.B": {
-        "price": 504.18,
-        "prev": 504.9100036621094,
-        "chg": -0.14,
-        "basis": "prev-daily-close",
-        "time": "2026-08-27T17:31:38.000Z"
-      },
-      "V": {
-        "price": 381.07,
-        "prev": 383.8999938964844,
-        "chg": -0.74,
-        "basis": "prev-daily-close",
-        "time": "2026-08-27T17:31:36.000Z"
-      },
-      "JNJ": {
-        "price": 266.853,
-        "prev": 266.8525085449219,
+        "price": 314.739,
+        "prev": 314.7394104003906,
         "chg": 0,
         "basis": "last-daily-close",
-        "time": "2026-08-27T17:31:33.000Z"
+        "time": "2026-08-27T17:52:10.000Z"
+      },
+      "GOOGL": {
+        "price": 340.52,
+        "prev": 342,
+        "chg": -0.43,
+        "basis": "prev-daily-close",
+        "time": "2026-08-27T17:52:11.000Z"
+      },
+      "BRK.B": {
+        "price": 504.17,
+        "prev": 504.9100036621094,
+        "chg": -0.15,
+        "basis": "prev-daily-close",
+        "time": "2026-08-27T17:52:07.000Z"
+      },
+      "V": {
+        "price": 380.86,
+        "prev": 383.8999938964844,
+        "chg": -0.79,
+        "basis": "prev-daily-close",
+        "time": "2026-08-27T17:52:00.000Z"
+      },
+      "JNJ": {
+        "price": 266.72,
+        "prev": 270,
+        "chg": -1.21,
+        "basis": "prev-daily-close",
+        "time": "2026-08-27T17:51:44.000Z"
       },
       "PG": {
-        "price": 143.63,
+        "price": 143.56,
         "prev": 145,
-        "chg": -0.94,
+        "chg": -0.99,
         "basis": "prev-daily-close",
-        "time": "2026-08-27T17:31:44.000Z"
+        "time": "2026-08-27T17:51:59.000Z"
       },
       "KO": {
-        "price": 89.71,
+        "price": 89.605,
         "prev": 90.08000183105469,
-        "chg": -0.41,
+        "chg": -0.53,
         "basis": "prev-daily-close",
-        "time": "2026-08-27T17:31:44.000Z"
+        "time": "2026-08-27T17:51:56.000Z"
       },
       "COST": {
-        "price": 940.56,
+        "price": 941.853,
         "prev": 956.1199951171875,
-        "chg": -1.63,
+        "chg": -1.49,
         "basis": "prev-daily-close",
-        "time": "2026-08-27T17:31:40.000Z"
+        "time": "2026-08-27T17:51:45.000Z"
       },
       "WM": {
-        "price": 217.86,
-        "prev": 221.24000549316406,
-        "chg": -1.53,
-        "basis": "prev-daily-close",
-        "time": "2026-08-27T17:31:12.000Z"
+        "price": 217.936,
+        "prev": 217.93629455566406,
+        "chg": 0,
+        "basis": "last-daily-close",
+        "time": "2026-08-27T17:51:44.000Z"
       },
       "LIN": {
-        "price": 484.995,
+        "price": 485.625,
         "prev": 490.3299865722656,
-        "chg": -1.09,
+        "chg": -0.96,
         "basis": "prev-daily-close",
-        "time": "2026-08-27T17:31:38.000Z"
+        "time": "2026-08-27T17:51:31.000Z"
       },
       "XOM": {
-        "price": 157.37,
-        "prev": 158.19000244140625,
-        "chg": -0.52,
-        "basis": "prev-daily-close",
-        "time": "2026-08-27T17:31:45.000Z"
+        "price": 157.181,
+        "prev": 157.1811981201172,
+        "chg": 0,
+        "basis": "last-daily-close",
+        "time": "2026-08-27T17:52:09.000Z"
       },
       "NVDA": {
-        "price": 229.17,
+        "price": 228.71,
         "prev": 209.66000366210938,
-        "chg": 9.31,
+        "chg": 9.09,
         "basis": "prev-daily-close",
-        "time": "2026-08-27T17:31:44.000Z"
+        "time": "2026-08-27T17:52:11.000Z"
       }
     }
   },
@@ -425,14 +425,14 @@
         "by": "rules"
       },
       {
-        "title": "ServiceNow, IBD Stock Of The Day, Clears Early Buy Point As 'SaaSpocalypse' Fears Fade",
-        "link": "https://www.investors.com/research/ibd-stock-of-the-day/servicenow-stock-now-buy-point-software-saaspocalypse-ai-disruption/?src=A00220&yptr=yahoo",
+        "title": "Ripple Prime Expands Into Stock Trading With New Delta One Derivatives Launch",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/ripple-prime-expands-stock-trading-173200885.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-27T17:10:29Z",
-        "ko": "ServiceNow, 오늘의 IBD 재고, 'SaaSpocalypse' 공포가 사라짐에 따라 조기 매수 포인트를 삭제합니다",
+        "date": "2026-08-27T17:32:00Z",
+        "ko": "Ripple Prime, 새로운 Delta One 파생 상품 출시로 주식 거래로 확장",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -449,14 +449,14 @@
         "by": "rules"
       },
       {
-        "title": "Alpha Modus Stock Falls 29% After $200M Bitcoin Treasury Plan",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/alpha-modus-stock-falls-29-170500265.html",
+        "title": "Nvidia Stock Breaks Out On Bullish Quarterly Report, Outlook",
+        "link": "https://www.investors.com/news/technology/nvidia-stock-jumps-on-bullish-quarterly-report-outlook/?src=A00220&yptr=yahoo",
         "source": "Yahoo Finance",
-        "date": "2026-08-27T17:05:00Z",
-        "ko": "Alpha Modus Stock은 $200M Bitcoin 재무 계획 후 29% 하락",
+        "date": "2026-08-27T17:20:29Z",
+        "ko": "Nvidia Stock, Bullish Quarterly Report, Outlook 발표",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -602,7 +602,9 @@
     "Is Versigent (VGNT) Undervalued With Margin Expansion and Buyback Potential Ahead?": "Versigent (VGNT) 가 마진 확대 및 환매 가능성으로 저평가되어 있습니까?",
     "Best Buy beats Q2 earnings across the board, raises outlook amid computing strength": "Best Buy는 전반적으로 2분기 실적을 능가하며 컴퓨팅 강세 속에서 전망을 높입니다.",
     "ServiceNow, IBD Stock Of The Day, Clears Early Buy Point As 'SaaSpocalypse' Fears Fade": "ServiceNow, 오늘의 IBD 재고, 'SaaSpocalypse' 공포가 사라짐에 따라 조기 매수 포인트를 삭제합니다",
-    "Alpha Modus Stock Falls 29% After $200M Bitcoin Treasury Plan": "Alpha Modus Stock은 $200M Bitcoin 재무 계획 후 29% 하락"
+    "Alpha Modus Stock Falls 29% After $200M Bitcoin Treasury Plan": "Alpha Modus Stock은 $200M Bitcoin 재무 계획 후 29% 하락",
+    "Ripple Prime Expands Into Stock Trading With New Delta One Derivatives Launch": "Ripple Prime, 새로운 Delta One 파생 상품 출시로 주식 거래로 확장",
+    "Nvidia Stock Breaks Out On Bullish Quarterly Report, Outlook": "Nvidia Stock, Bullish Quarterly Report, Outlook 발표"
   },
   "nvCache": {
     "https://www.yna.co.kr/view/AKR20260824137251008": {
@@ -1279,8 +1281,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeTemshGm4eMu6mtQYWxh\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeTemtMD86NJ6CDTfQ4J8\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeTemtqEJvb69FA53mKZ6\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeTgLLHSVJoTbJQVmykaa\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeTgLLxsBZgvm2yNxZ3oj\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeTgLMX6tmbaevWc7Vafd\"}"
   ]
 }
