@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-27T19:54:41.017Z",
+  "asOf": "2026-08-27T20:15:03.551Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -17,32 +17,32 @@
       "time": "2026-08-27T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1381.68,
-      "prev": 1381.489990234375,
-      "chg": 0.01,
+      "price": 1381.54,
+      "prev": 1383.489990234375,
+      "chg": -0.14,
       "basis": "prev-daily-close",
-      "time": "2026-08-27T19:54:23.000Z"
+      "time": "2026-08-27T20:14:52.000Z"
     },
     "^GSPC": {
-      "price": 7729.39,
+      "price": 7730.99,
       "prev": 7675.7001953125,
-      "chg": 0.7,
+      "chg": 0.72,
       "basis": "prev-daily-close",
-      "time": "2026-08-27T19:54:32.000Z"
+      "time": "2026-08-27T20:14:56.000Z"
     },
     "^IXIC": {
-      "price": 26535.473,
+      "price": 26541.352,
       "prev": 26130.19921875,
-      "chg": 1.55,
+      "chg": 1.57,
       "basis": "prev-daily-close",
-      "time": "2026-08-27T19:54:30.000Z"
+      "time": "2026-08-27T20:14:55.000Z"
     },
     "^VIX": {
       "price": 14.49,
       "prev": 15.210000038146973,
       "chg": -4.73,
       "basis": "prev-daily-close",
-      "time": "2026-08-27T19:39:31.000Z"
+      "time": "2026-08-27T19:59:46.000Z"
     },
     "^TNX": {
       "price": 4.672,
@@ -55,7 +55,7 @@
   "fx": {
     "low52": 1377.64,
     "high52": 1554.48,
-    "pct": 0.023
+    "pct": 0.022
   },
   "hist": {
     "^KS11": {
@@ -73,25 +73,25 @@
       "chg3m": -27.03
     },
     "KRW=X": {
-      "last": 1381.68,
+      "last": 1381.54,
       "low52": 1377.64,
       "high52": 1554.48,
-      "pct52": 0.023,
-      "chg3m": -8.57
+      "pct52": 0.022,
+      "chg3m": -8.91
     },
     "^GSPC": {
-      "last": 7729.52,
+      "last": 7730.99,
       "low52": 6343.72,
       "high52": 7798.99,
-      "pct52": 0.952,
-      "chg3m": 1.97
+      "pct52": 0.953,
+      "chg3m": 1.99
     },
     "^IXIC": {
-      "last": 26535.47,
+      "last": 26541.35,
       "low52": 20794.64,
       "high52": 27093.9,
-      "pct52": 0.911,
-      "chg3m": -1.62
+      "pct52": 0.912,
+      "chg3m": -1.6
     },
     "^VIX": {
       "last": 14.49,
@@ -110,13 +110,13 @@
   },
   "regime": {
     "by": "rules",
-    "asOf": "2026-08-27T19:54:40.481Z",
+    "asOf": "2026-08-27T20:15:03.047Z",
     "kr": {
       "why": {
         "rates": "미국 10년물 금리가 지금 4.67%로, 3개월 전보다 4.92% 높고 최근 1년 범위(3.95~4.74)의 91% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
         "growth": "지수가 3개월 전보다 -17.26% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
         "valuation": "지수가 최근 1년 범위의 61% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
-        "fx": "원/달러가 1381.68원으로 최근 1년(1377.64~1554.48) 범위의 2% 지점입니다.",
+        "fx": "원/달러가 1381.54원으로 최근 1년(1377.64~1554.48) 범위의 2% 지점입니다.",
         "geo": "VIX 가 14.49입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
       },
       "rates": "hike",
@@ -129,9 +129,9 @@
     "us": {
       "why": {
         "rates": "미국 10년물 금리가 지금 4.67%로, 3개월 전보다 4.92% 높고 최근 1년 범위(3.95~4.74)의 91% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
-        "growth": "지수가 3개월 전보다 +1.97% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
+        "growth": "지수가 3개월 전보다 +1.99% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
         "valuation": "지수가 최근 1년 범위의 95% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
-        "fx": "원/달러가 1381.68원으로 최근 1년(1377.64~1554.48) 범위의 2% 지점입니다.",
+        "fx": "원/달러가 1381.54원으로 최근 1년(1377.64~1554.48) 범위의 2% 지점입니다.",
         "geo": "VIX 가 14.49입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
       },
       "rates": "hike",
@@ -238,95 +238,95 @@
     },
     "us": {
       "MSFT": {
-        "price": 504.63,
+        "price": 505.06,
         "prev": 496.3699951171875,
-        "chg": 1.66,
+        "chg": 1.75,
         "basis": "prev-daily-close",
-        "time": "2026-08-27T19:54:39.000Z"
+        "time": "2026-08-27T20:00:01.000Z"
       },
       "AAPL": {
-        "price": 314.96,
+        "price": 314.58,
         "prev": 313.45001220703125,
-        "chg": 0.48,
+        "chg": 0.36,
         "basis": "prev-daily-close",
-        "time": "2026-08-27T19:54:38.000Z"
+        "time": "2026-08-27T20:00:01.000Z"
       },
       "GOOGL": {
-        "price": 341.01,
+        "price": 340.65,
         "prev": 342,
-        "chg": -0.29,
+        "chg": -0.39,
         "basis": "prev-daily-close",
-        "time": "2026-08-27T19:54:39.000Z"
+        "time": "2026-08-27T20:00:01.000Z"
       },
       "BRK.B": {
-        "price": 503.52,
+        "price": 503.6,
         "prev": 504.9100036621094,
-        "chg": -0.28,
+        "chg": -0.26,
         "basis": "prev-daily-close",
-        "time": "2026-08-27T19:54:38.000Z"
+        "time": "2026-08-27T19:59:59.000Z"
       },
       "V": {
-        "price": 379.905,
+        "price": 379.62,
         "prev": 383.8999938964844,
-        "chg": -1.04,
+        "chg": -1.11,
         "basis": "prev-daily-close",
-        "time": "2026-08-27T19:54:38.000Z"
+        "time": "2026-08-27T19:59:59.000Z"
       },
       "JNJ": {
-        "price": 265.91,
+        "price": 265.76,
         "prev": 270,
-        "chg": -1.51,
+        "chg": -1.57,
         "basis": "prev-daily-close",
-        "time": "2026-08-27T19:54:37.000Z"
+        "time": "2026-08-27T19:59:59.000Z"
       },
       "PG": {
-        "price": 143.42,
+        "price": 143.14,
         "prev": 145,
-        "chg": -1.09,
+        "chg": -1.28,
         "basis": "prev-daily-close",
-        "time": "2026-08-27T19:54:39.000Z"
+        "time": "2026-08-27T20:00:00.000Z"
       },
       "KO": {
-        "price": 89.3,
+        "price": 89.06,
         "prev": 90.08000183105469,
-        "chg": -0.87,
+        "chg": -1.13,
         "basis": "prev-daily-close",
-        "time": "2026-08-27T19:54:40.000Z"
+        "time": "2026-08-27T19:59:59.000Z"
       },
       "COST": {
-        "price": 933.885,
+        "price": 934.66,
         "prev": 956.1199951171875,
-        "chg": -2.33,
+        "chg": -2.24,
         "basis": "prev-daily-close",
-        "time": "2026-08-27T19:54:39.000Z"
+        "time": "2026-08-27T20:00:01.000Z"
       },
       "WM": {
-        "price": 217.82,
+        "price": 217.78,
         "prev": 221.24000549316406,
-        "chg": -1.55,
+        "chg": -1.56,
         "basis": "prev-daily-close",
-        "time": "2026-08-27T19:54:37.000Z"
+        "time": "2026-08-27T19:59:57.000Z"
       },
       "LIN": {
-        "price": 484.55,
+        "price": 485.35,
         "prev": 490.3299865722656,
-        "chg": -1.18,
+        "chg": -1.02,
         "basis": "prev-daily-close",
-        "time": "2026-08-27T19:54:39.000Z"
+        "time": "2026-08-27T20:00:01.000Z"
       },
       "XOM": {
-        "price": 156.37,
+        "price": 156.415,
         "prev": 158.19000244140625,
-        "chg": -1.15,
+        "chg": -1.12,
         "basis": "prev-daily-close",
-        "time": "2026-08-27T19:54:40.000Z"
+        "time": "2026-08-27T19:59:59.000Z"
       },
       "NVDA": {
-        "price": 228.61,
+        "price": 227.98,
         "prev": 209.66000366210938,
-        "chg": 9.04,
+        "chg": 8.74,
         "basis": "prev-daily-close",
-        "time": "2026-08-27T19:54:39.000Z"
+        "time": "2026-08-27T20:00:00.000Z"
       }
     }
   },
@@ -413,38 +413,14 @@
         "by": "rules"
       },
       {
-        "title": "How will stocks perform when the Fed chair speaks at Jackson Hole? Here’s what history tells us.",
-        "link": "https://www.marketwatch.com/story/how-will-stocks-perform-when-the-fed-chair-speaks-at-jackson-hole-heres-what-history-tells-us-1f9466d0?mod=mw_rss_topstories",
+        "title": "My mother, 91, has dementia. Every bank says I need her signature to unlock her $100,000 stock certificate. What can I do?",
+        "link": "https://www.marketwatch.com/story/my-mother-91-has-dementia-every-bank-says-i-need-her-signature-to-unlock-her-100-000-stock-certificate-what-can-i-do-4a2b702f?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Thu, 27 Aug 2026 18:31:00 GMT",
-        "ko": "Fed 의자가 Jackson Hole에서 연설할 때 주식은 어떻게 작동할까요? 역사가 우리에게 말해주는 것은 다음과 같습니다.",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "Are Wall Street Analysts Predicting Paramount Skydance Stock Will Climb or Sink?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-predicting-paramount-094317134.html",
-        "source": "Yahoo Finance",
-        "date": "2026-08-26T09:43:17Z",
-        "ko": "월스트리트 애널리스트들은 파라마운트 스카이댄스 주식이 오르거나 가라앉을 것으로 예측하고 있습니까?",
+        "date": "Thu, 27 Aug 2026 20:00:00 GMT",
+        "ko": "91세인 어머니는 치매를 앓고 계십니다. 모든 은행에서 $100,000의 주식 증서를 잠금 해제하려면 그녀의 서명이 필요하다고 말합니다. 어떻게 해야 하나요?",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "Fed’s preferred inflation gauge shows core prices rose 3.3% annually in July",
-        "link": "https://www.cnbc.com/2026/08/26/feds-preferred-inflation-gauge-shows-core-prices-rose-3point3percent-annually-in-july.html",
-        "source": "CNBC",
-        "date": "Wed, 26 Aug 2026 13:35:50 GMT",
-        "ko": "Fed가 선호하는 인플레이션 게이지에 따르면 7월에 코어 가격이 매년 3.3% 상승한 것으로 나타났습니다.",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -461,20 +437,44 @@
         "by": "rules"
       },
       {
-        "title": "Stanley Druckenmiller leads doubters who think Bessent's bond ploys will fail",
-        "link": "https://www.cnbc.com/2026/08/25/stanley-druckenmiller-leads-doubters-who-think-bessents-bond-ploys-will-fail.html",
+        "title": "Fed’s preferred inflation gauge shows core prices rose 3.3% annually in July",
+        "link": "https://www.cnbc.com/2026/08/26/feds-preferred-inflation-gauge-shows-core-prices-rose-3point3percent-annually-in-july.html",
         "source": "CNBC",
-        "date": "Tue, 25 Aug 2026 17:15:50 GMT",
-        "ko": "스탠리 드러켄밀러 (Stanley Druckenmiller) 는 베센트의 채권 책략이 실패할 것이라고 생각하는 의심하는 사람들을 이끈다.",
+        "date": "Wed, 26 Aug 2026 13:35:50 GMT",
+        "ko": "Fed가 선호하는 인플레이션 게이지에 따르면 7월에 코어 가격이 매년 3.3% 상승한 것으로 나타났습니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "유명 투자자의 전망 의견일 뿐, 기업 이익이 바뀐 사실은 없습니다.",
-        "by": "ai"
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "How will stocks perform when the Fed chair speaks at Jackson Hole? Here’s what history tells us.",
+        "link": "https://www.marketwatch.com/story/how-will-stocks-perform-when-the-fed-chair-speaks-at-jackson-hole-heres-what-history-tells-us-1f9466d0?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "date": "Thu, 27 Aug 2026 18:31:00 GMT",
+        "ko": "Fed 의자가 Jackson Hole에서 연설할 때 주식은 어떻게 작동할까요? 역사가 우리에게 말해주는 것은 다음과 같습니다.",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "Bank of America doubles down on Nvidia stock",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/bank-america-doubles-down-nvidia-153054071.html",
+        "source": "Yahoo Finance",
+        "date": "2026-08-27T15:30:54Z",
+        "ko": "뱅크오브아메리카, 엔비디아 주가 2배 하락",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
       }
     ]
   },
-  "newsBy": "ai",
+  "newsBy": "rules",
   "trCache": {
     "Bessent's bond gambit aimed at calming markets is instead stirring inflation worries": "시장을 진정시키기 위한 베센트의 채권 갬빗은 오히려 인플레이션 우려를 불러일으키고 있다.",
     "Stock futures flat as U.S. and Canada appear headed for trade war": "미국과 캐나다가 무역 전쟁으로 향하는 것처럼 보이기 때문에 주식 선물은 평평합니다.",
@@ -1289,8 +1289,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeTqfxy92kqBcB4JRz6TW\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeTqfyf4Q6tiyKYDd4u19\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeTqfzEHoyUKqXJpkMVAh\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeTsE6AVP54t4EDkGSLwg\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeTsE6jiTeJTdey6JHNrC\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeTsE7B1T5rpma37Epq9q\"}"
   ]
 }
