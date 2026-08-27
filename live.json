@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-27T14:04:19.842Z",
+  "asOf": "2026-08-27T14:28:04.175Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -17,45 +17,45 @@
       "time": "2026-08-27T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1382.88,
+      "price": 1382.61,
       "prev": 1381.489990234375,
-      "chg": 0.1,
+      "chg": 0.08,
       "basis": "prev-daily-close",
-      "time": "2026-08-27T14:04:09.000Z"
+      "time": "2026-08-27T14:27:55.000Z"
     },
     "^GSPC": {
-      "price": 7707.14,
+      "price": 7715.42,
       "prev": 7675.7001953125,
-      "chg": 0.41,
+      "chg": 0.52,
       "basis": "prev-daily-close",
-      "time": "2026-08-27T14:04:09.000Z"
+      "time": "2026-08-27T14:27:55.000Z"
     },
     "^IXIC": {
-      "price": 26399.045,
+      "price": 26458.879,
       "prev": 26130.19921875,
-      "chg": 1.03,
+      "chg": 1.26,
       "basis": "prev-daily-close",
-      "time": "2026-08-27T14:04:04.000Z"
+      "time": "2026-08-27T14:27:51.000Z"
     },
     "^VIX": {
-      "price": 14.98,
+      "price": 14.72,
       "prev": 15.210000038146973,
-      "chg": -1.51,
+      "chg": -3.22,
       "basis": "prev-daily-close",
-      "time": "2026-08-27T13:49:01.000Z"
+      "time": "2026-08-27T14:12:46.000Z"
     },
     "^TNX": {
       "price": 4.66,
       "prev": 4.664000034332275,
       "chg": -0.09,
       "basis": "prev-daily-close",
-      "time": "2026-08-27T13:49:04.000Z"
+      "time": "2026-08-27T14:12:54.000Z"
     }
   },
   "fx": {
     "low52": 1377.64,
     "high52": 1554.48,
-    "pct": 0.03
+    "pct": 0.028
   },
   "hist": {
     "^KS11": {
@@ -73,32 +73,32 @@
       "chg3m": -24.15
     },
     "KRW=X": {
-      "last": 1382.88,
+      "last": 1382.61,
       "low52": 1377.64,
       "high52": 1554.48,
-      "pct52": 0.03,
-      "chg3m": -8.5
+      "pct52": 0.028,
+      "chg3m": -8.51
     },
     "^GSPC": {
-      "last": 7707.14,
+      "last": 7715.38,
       "low52": 6343.72,
       "high52": 7798.99,
-      "pct52": 0.937,
-      "chg3m": 1.68
+      "pct52": 0.943,
+      "chg3m": 1.79
     },
     "^IXIC": {
-      "last": 26394.66,
+      "last": 26458.88,
       "low52": 20794.64,
       "high52": 27093.9,
-      "pct52": 0.889,
-      "chg3m": -2.14
+      "pct52": 0.899,
+      "chg3m": -1.9
     },
     "^VIX": {
-      "last": 14.98,
+      "last": 14.72,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.086,
-      "chg3m": -2.22
+      "pct52": 0.071,
+      "chg3m": -3.92
     },
     "^TNX": {
       "last": 4.66,
@@ -110,14 +110,14 @@
   },
   "regime": {
     "by": "rules",
-    "asOf": "2026-08-27T14:04:19.109Z",
+    "asOf": "2026-08-27T14:28:03.652Z",
     "kr": {
       "why": {
         "rates": "미국 10년물 금리가 지금 4.66%로, 3개월 전보다 4.65% 높고 최근 1년 범위(3.95~4.74)의 89% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
         "growth": "지수가 3개월 전보다 -15.55% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
         "valuation": "지수가 최근 1년 범위의 63% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
-        "fx": "원/달러가 1382.88원으로 최근 1년(1377.64~1554.48) 범위의 3% 지점입니다.",
-        "geo": "VIX 가 14.98입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
+        "fx": "원/달러가 1382.61원으로 최근 1년(1377.64~1554.48) 범위의 3% 지점입니다.",
+        "geo": "VIX 가 14.72입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
       },
       "rates": "hike",
       "growth": "reces",
@@ -129,10 +129,10 @@
     "us": {
       "why": {
         "rates": "미국 10년물 금리가 지금 4.66%로, 3개월 전보다 4.65% 높고 최근 1년 범위(3.95~4.74)의 89% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
-        "growth": "지수가 3개월 전보다 +1.68% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
+        "growth": "지수가 3개월 전보다 +1.79% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
         "valuation": "지수가 최근 1년 범위의 94% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
-        "fx": "원/달러가 1382.88원으로 최근 1년(1377.64~1554.48) 범위의 3% 지점입니다.",
-        "geo": "VIX 가 14.98입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
+        "fx": "원/달러가 1382.61원으로 최근 1년(1377.64~1554.48) 범위의 3% 지점입니다.",
+        "geo": "VIX 가 14.72입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
       },
       "rates": "hike",
       "growth": "expand",
@@ -238,95 +238,95 @@
     },
     "us": {
       "MSFT": {
-        "price": 500.675,
+        "price": 504.705,
         "prev": 496.3699951171875,
-        "chg": 0.87,
+        "chg": 1.68,
         "basis": "prev-daily-close",
-        "time": "2026-08-27T14:04:17.000Z"
+        "time": "2026-08-27T14:28:00.000Z"
       },
       "AAPL": {
-        "price": 311.55,
+        "price": 310.785,
         "prev": 313.45001220703125,
-        "chg": -0.61,
+        "chg": -0.85,
         "basis": "prev-daily-close",
-        "time": "2026-08-27T14:04:16.000Z"
+        "time": "2026-08-27T14:28:02.000Z"
       },
       "GOOGL": {
-        "price": 340.39,
+        "price": 339.92,
         "prev": 342,
-        "chg": -0.47,
+        "chg": -0.61,
         "basis": "prev-daily-close",
-        "time": "2026-08-27T14:04:18.000Z"
+        "time": "2026-08-27T14:28:02.000Z"
       },
       "BRK.B": {
-        "price": 501.78,
+        "price": 501.115,
         "prev": 504.9100036621094,
-        "chg": -0.62,
+        "chg": -0.75,
         "basis": "prev-daily-close",
-        "time": "2026-08-27T14:04:09.000Z"
+        "time": "2026-08-27T14:27:59.000Z"
       },
       "V": {
-        "price": 380.71,
+        "price": 379.1,
         "prev": 383.8999938964844,
-        "chg": -0.83,
+        "chg": -1.25,
         "basis": "prev-daily-close",
-        "time": "2026-08-27T14:04:12.000Z"
+        "time": "2026-08-27T14:28:02.000Z"
       },
       "JNJ": {
-        "price": 264.68,
+        "price": 265.16,
         "prev": 270,
-        "chg": -1.97,
+        "chg": -1.79,
         "basis": "prev-daily-close",
-        "time": "2026-08-27T14:04:10.000Z"
+        "time": "2026-08-27T14:28:03.000Z"
       },
       "PG": {
-        "price": 143.385,
+        "price": 143.495,
         "prev": 145,
-        "chg": -1.11,
+        "chg": -1.04,
         "basis": "prev-daily-close",
-        "time": "2026-08-27T14:04:09.000Z"
+        "time": "2026-08-27T14:28:02.000Z"
       },
       "KO": {
-        "price": 89.48,
+        "price": 89.415,
         "prev": 90.08000183105469,
-        "chg": -0.67,
+        "chg": -0.74,
         "basis": "prev-daily-close",
-        "time": "2026-08-27T14:04:17.000Z"
+        "time": "2026-08-27T14:28:01.000Z"
       },
       "COST": {
-        "price": 944.645,
+        "price": 942.562,
         "prev": 956.1199951171875,
-        "chg": -1.2,
+        "chg": -1.42,
         "basis": "prev-daily-close",
-        "time": "2026-08-27T14:04:06.000Z"
+        "time": "2026-08-27T14:27:56.000Z"
       },
       "WM": {
-        "price": 218.325,
+        "price": 217.91,
         "prev": 221.24000549316406,
-        "chg": -1.32,
+        "chg": -1.51,
         "basis": "prev-daily-close",
-        "time": "2026-08-27T14:04:10.000Z"
+        "time": "2026-08-27T14:28:02.000Z"
       },
       "LIN": {
         "price": 482.995,
         "prev": 490.3299865722656,
         "chg": -1.5,
         "basis": "prev-daily-close",
-        "time": "2026-08-27T14:04:13.000Z"
+        "time": "2026-08-27T14:27:58.000Z"
       },
       "XOM": {
-        "price": 156.59,
+        "price": 156.915,
         "prev": 158.19000244140625,
-        "chg": -1.01,
+        "chg": -0.81,
         "basis": "prev-daily-close",
-        "time": "2026-08-27T14:04:17.000Z"
+        "time": "2026-08-27T14:28:02.000Z"
       },
       "NVDA": {
-        "price": 225.322,
+        "price": 226.08,
         "prev": 209.66000366210938,
-        "chg": 7.47,
+        "chg": 7.83,
         "basis": "prev-daily-close",
-        "time": "2026-08-27T14:04:18.000Z"
+        "time": "2026-08-27T14:28:03.000Z"
       }
     }
   },
@@ -425,14 +425,14 @@
         "by": "rules"
       },
       {
-        "title": "Stock market today: S&P 500, Nasdaq rise as Nvidia, Salesforce earnings boost tech",
-        "link": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-august-27-dow-sp-500-nasdaq-082144520.html",
+        "title": "Hut 8 CFO Sells Company Stock",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/hut-8-cfo-sells-company-141600052.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-27T08:21:44Z",
-        "ko": "오늘의 주식 시장: S&P 500, Nasdaq 상승, Salesforce 수익 증대 기술",
+        "date": "2026-08-27T14:16:00Z",
+        "ko": "HUT 8 CFO Sells Company Stock",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -461,14 +461,14 @@
         "by": "rules"
       },
       {
-        "title": "3 High-Yield Dividend Stocks Near Their 52-Week Lows That Income Investors Are Sleeping On",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/3-high-yield-dividend-stocks-135000784.html",
+        "title": "Energy CEO Sells 10,000 Shares, Valued at $2.1 Million, Following 53% Rally",
+        "link": "https://finance.yahoo.com/energy/articles/energy-ceo-sells-10-000-140501680.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-27T13:50:00Z",
-        "ko": "소득 투자자들이 잠자고 있는 52주 최저치에 근접한 고수익 배당주 3주",
+        "date": "2026-08-27T14:05:01Z",
+        "ko": "에너지 CEO, 53% 랠리 후 10,000주 매각, $210만 가치",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -585,7 +585,9 @@
     "Copper’s record run is sending three clear messages about the state of financial markets today": "Copper의 기록적인 실행은 오늘날 금융 시장의 상태에 대한 세 가지 명확한 메시지를 보내고 있습니다.",
     "Stock market today: S&P 500, Nasdaq rise as Nvidia, Salesforce earnings boost tech": "오늘의 주식 시장: S&P 500, Nasdaq 상승, Salesforce 수익 증대 기술",
     "Salesforce sparks a software-stock rally — and pushes back on AI doomsday fears": "Salesforce는 소프트웨어 재고 랠리를 촉발하고 AI 종말의 두려움에 반발합니다.",
-    "3 High-Yield Dividend Stocks Near Their 52-Week Lows That Income Investors Are Sleeping On": "소득 투자자들이 잠자고 있는 52주 최저치에 근접한 고수익 배당주 3주"
+    "3 High-Yield Dividend Stocks Near Their 52-Week Lows That Income Investors Are Sleeping On": "소득 투자자들이 잠자고 있는 52주 최저치에 근접한 고수익 배당주 3주",
+    "Hut 8 CFO Sells Company Stock": "HUT 8 CFO Sells Company Stock",
+    "Energy CEO Sells 10,000 Shares, Valued at $2.1 Million, Following 53% Rally": "에너지 CEO, 53% 랠리 후 10,000주 매각, $210만 가치"
   },
   "nvCache": {
     "https://www.yna.co.kr/view/AKR20260824137251008": {
@@ -1262,8 +1264,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeTNxQ4Z8tYQMGz6GGPTc\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeTNxQsB9bMvKw25XCrdj\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeTNxRbLCZreknhss3LNu\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeTQmQGPRpwn56dFZGHjr\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeTQmQupq1jSMYTi8xQjF\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeTQmRNrnCdDf5vPSCAFP\"}"
   ]
 }
