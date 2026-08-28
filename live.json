@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-28T07:15:49.365Z",
+  "asOf": "2026-08-28T08:16:46.166Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -17,11 +17,11 @@
       "time": "2026-08-28T06:33:00.000Z"
     },
     "KRW=X": {
-      "price": 1372.18,
+      "price": 1372.04,
       "prev": 1383.489990234375,
-      "chg": -0.82,
+      "chg": -0.83,
       "basis": "prev-daily-close",
-      "time": "2026-08-28T07:15:07.000Z"
+      "time": "2026-08-28T08:15:59.000Z"
     },
     "^GSPC": {
       "price": 7730.99,
@@ -38,11 +38,11 @@
       "time": "2026-08-27T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 14.51,
-      "prev": 15.210000038146973,
-      "chg": -4.6,
+      "price": 14.55,
+      "prev": 14.510000228881836,
+      "chg": 0.28,
       "basis": "prev-daily-close",
-      "time": "2026-08-27T20:15:00.000Z"
+      "time": "2026-08-28T08:01:01.000Z"
     },
     "^TNX": {
       "price": 4.672,
@@ -53,7 +53,7 @@
     }
   },
   "fx": {
-    "low52": 1372.18,
+    "low52": 1372.04,
     "high52": 1554.48,
     "pct": 0
   },
@@ -73,11 +73,11 @@
       "chg3m": -21.99
     },
     "KRW=X": {
-      "last": 1372.18,
-      "low52": 1372.18,
+      "last": 1372.04,
+      "low52": 1372.04,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -9.52
+      "chg3m": -9.53
     },
     "^GSPC": {
       "last": 7730.99,
@@ -94,11 +94,11 @@
       "chg3m": -1.6
     },
     "^VIX": {
-      "last": 14.51,
+      "last": 14.55,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.059,
-      "chg3m": -5.29
+      "pct52": 0.061,
+      "chg3m": -9.35
     },
     "^TNX": {
       "last": 4.67,
@@ -110,16 +110,16 @@
   },
   "regime": {
     "by": "ai",
-    "asOf": "2026-08-28T07:15:41.199Z",
+    "asOf": "2026-08-28T08:16:36.051Z",
     "kr": {
       "why": {
-        "rates": "제시된 자료 중 금리 지표는 미국 10년물(^TNX) 4.67%로 1년 범위 상단(위치 91%)이고 3개월간 +4.92% 올라 금리 상방 압력이 이어지는 국면으로 봅니다(한국 기준금리 자료는 제공되지 않아 간접 판단입니다).",
-        "growth": "코스피가 3개월간 -19.91% 하락하고 6800선을 하회했지만 1년 범위 내 위치는 61%로 여전히 중상단이고 VIX도 14.51로 낮아, 침체 확정보다는 둔화 국면으로 봅니다.",
-        "valuation": "^KS11 6788.88은 1년 범위 3142.93~9114.55의 61% 지점으로 극단적 고평가·저평가 구간이 아니어서 보통으로 판정합니다.",
-        "fx": "원/달러 1372.18은 1년 범위(1372.18~1554.48) 최저점(위치 0%)이고 3개월간 -9.52% 하락해 원화 강세입니다.",
-        "geo": "VIX 14.51(1년 위치 6%)로 변동성이 매우 낮고 헤드라인도 개별 종목·수급 이야기에 그쳐 별도 긴장 요인이 확인되지 않습니다."
+        "rates": "국고채 3년물이 연 3.788%로 상승했고 미 10년물(^TNX)도 4.67%로 1년 범위의 91% 지점, 3개월 +4.92%라 금리는 올라가는 쪽입니다.",
+        "growth": "코스피가 3개월간 -19.91% 하락하고 외국인 1.7조 순매도·반도체주 약세로 6800선을 내줬지만, 지수 위치는 여전히 1년 범위의 61%여서 침체 확정보다는 둔화 국면으로 봅니다.",
+        "valuation": "코스피 6788.88은 1년 범위 3142.93~9114.55의 61% 지점으로 극단적으로 싸지도 비싸지도 않아 보통 수준입니다.",
+        "fx": "원/달러가 1372.04원으로 1년 범위의 0%(최저)이고 3개월 -9.53%라 원화가 뚜렷한 강세입니다.",
+        "geo": "VIX가 14.55로 1년 범위의 6% 수준이고 제시된 헤드라인에 지정학적 충돌 언급이 없어 평온으로 분류합니다."
       },
-      "summary": "원화는 1년 최저치(1372.18)까지 내려올 정도로 강세이고 변동성도 낮지만, 코스피는 3개월 -19.91%로 반도체 약세에 밀려 숨을 고르는 둔화 국면입니다. 지수 위치는 61%로 중간 수준이어서 지금은 방향이 갈리는 구간으로 이해하면 됩니다.",
+      "summary": "금리는 오르고 원화는 1년 최저 환율(1372원)까지 강세인데, 코스피는 3개월 -19.91%로 외국인 매도 속에 힘이 빠진 둔화 국면입니다. 다만 변동성 지표(VIX 14.55)는 낮아 시장이 공포 상태는 아닙니다.",
       "rates": "hike",
       "growth": "slow",
       "valuation": "fair",
@@ -128,13 +128,13 @@
     },
     "us": {
       "why": {
-        "rates": "미 10년물 4.67%로 1년 범위 91% 지점이고 3개월 +4.92% 상승했으며, 헤드라인에서 연준 해맥 위원이 '금리 인상에 지금이 행동할 때'라고 언급하고 코어 물가가 전년비 3.3%로 나와 인상 쪽 압력이 우세합니다.",
-        "growth": "S&P500 7730.99는 1년 범위 6343.72~7798.99의 95% 지점이며 3개월 +1.99%로 상승세를 유지해 경기 여건은 괜찮은 쪽으로 분류합니다.",
-        "valuation": "지수가 1년 범위 상단 95% 위치까지 올라와 있어 가격 부담이 큰 구간으로 봅니다.",
-        "fx": "원/달러 1372.18이 1년 범위 최저(위치 0%), 3개월 -9.52%로 달러 대비 원화가 강세인 상태입니다.",
-        "geo": "VIX 14.51(1년 위치 6%)로 시장 불안이 매우 낮고 헤드라인에도 충격성 사건이 없어 평온으로 판정합니다."
+        "rates": "10년물 금리(^TNX)가 4.67%로 1년 범위의 91% 지점, 3개월 +4.92%이고 연준 해먹 위원의 '금리 인상은 지금이 행동할 때' 발언과 코어 인플레 3.3%가 함께 나왔습니다.",
+        "growth": "S&P500이 7730.99로 1년 범위의 95% 지점, 3개월 +1.99%로 상승세를 유지하고 있어 경기 흐름은 아직 괜찮은 편입니다.",
+        "valuation": "지수가 1년 범위 6343.72~7798.99의 95% 지점, 즉 고점 부근이라 가격 부담이 큰 구간입니다.",
+        "fx": "원/달러 1372.04원은 1년 범위 최저(위치 0%)로 3개월 -9.53%, 즉 달러 대비 원화 강세 구간입니다.",
+        "geo": "VIX 14.55(1년 범위 6%)로 낮고 제시된 헤드라인은 개별 기업·물가 이슈 위주여서 긴장 신호는 약합니다."
       },
-      "summary": "미국 지수는 1년 범위 95% 지점까지 올라와 가격 부담이 큰 반면, 코어 물가 3.3%와 10년물 4.67%로 금리는 다시 위를 보는 조합입니다. 변동성은 VIX 14.51로 매우 낮아 겉으로는 조용한 강세 국면입니다.",
+      "summary": "미국 증시는 1년 고점 부근(위치 95%)에서 버티고 있지만, 코어 물가 3.3%와 10년물 4.67%로 금리 부담이 커지는 국면입니다. 변동성은 낮아 조용하지만 가격은 비싼 편이라는 점을 함께 보시면 됩니다.",
       "rates": "hike",
       "growth": "expand",
       "valuation": "rich",
@@ -333,25 +333,25 @@
   "news": {
     "kr": [
       {
-        "title": "삼전·닉스 내리자 코스피 1.79% 하락 마감…코스닥은 강보합(종합)",
-        "link": "https://www.yna.co.kr/view/AKR20260828123351008",
+        "title": "환율 1,370원선 접근, 13개월 만에 최저…원/엔 850엔대로",
+        "link": "https://www.yna.co.kr/view/AKR20260828135000002",
         "source": "연합뉴스",
-        "date": "Fri, 28 Aug 2026 16:06:36 +0900",
-        "act": "none",
+        "date": "Fri, 28 Aug 2026 17:07:29 +0900",
+        "act": "watch",
         "lasting": "temporary",
         "scope": "market",
-        "why": "하루 지수 등락은 기업 이익과 무관한 일시적 흐름입니다.",
+        "why": "환율 흐름은 수출·수입 기업 실적에 영향을 주지만 방향은 수시로 바뀝니다.",
         "by": "ai"
       },
       {
-        "title": "반도체·방산·원전 다 담았네…순환매서 웃은 전략산업 ETF",
-        "link": "https://www.hankyung.com/article/202608289243i",
+        "title": "\"주식 팔아야 하나\"…오늘 밤 11시, 코스피 운명 가를 한마디",
+        "link": "https://www.hankyung.com/article/202608289633i",
         "source": "한국경제",
-        "date": "Fri, 28 Aug 2026 14:59:32 +0900",
+        "date": "Fri, 28 Aug 2026 15:48:32 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "순환매 흐름을 정리한 시황성 기사로 장기 이익과는 무관합니다.",
+        "why": "불안을 자극하는 제목으로, 구체적 사실 확인이 어렵습니다.",
         "by": "ai"
       },
       {
@@ -366,25 +366,25 @@
         "by": "ai"
       },
       {
-        "title": "HLB이노베이션, 360억원 유상증자…HLB생명과학에 제3자배정",
-        "link": "https://www.yna.co.kr/view/AKR20260828128200008",
+        "title": "외인 선물 매도에 국고채 금리 상승…3년물 연 3.788%(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260828142351008",
         "source": "연합뉴스",
-        "date": "Fri, 28 Aug 2026 15:51:36 +0900",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": "company",
-        "why": "제3자배정 증자는 지분 희석과 자금사정에 영향을 줄 수 있어 지켜볼 만합니다.",
-        "by": "ai"
-      },
-      {
-        "title": "코스피 7000 재돌파할까…다음주 증시 향방 가를 3대 변수는?",
-        "link": "https://www.hankyung.com/article/202608289441i",
-        "source": "한국경제",
-        "date": "Fri, 28 Aug 2026 14:55:48 +0900",
+        "date": "Fri, 28 Aug 2026 16:49:20 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "다음 주 지수 전망은 예측성 기사라 오늘 할 일은 없습니다.",
+        "why": "금리와 수급의 하루 변동으로 장기 이익 구조와는 거리가 있습니다.",
+        "by": "ai"
+      },
+      {
+        "title": "코스피, 반도체주 약세에 6800선 내줘…외국인 1.7조 순매도",
+        "link": "https://www.hankyung.com/article/2026082897216",
+        "source": "한국경제",
+        "date": "Fri, 28 Aug 2026 15:40:22 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "지수와 외국인 수급의 단기 움직임이며 기업 근거를 바꾸지 않습니다.",
         "by": "ai"
       },
       {
@@ -461,15 +461,15 @@
         "by": "ai"
       },
       {
-        "title": "Five Things to Watch in Nvidia’s Earnings",
-        "link": "https://www.wsj.com/livecoverage/nvidia-earnings-stock-market-today-08-26-2026/card/five-things-to-watch-in-nvidia-s-earnings-ayjeJmsaUyX5i5bShBpy?siteid=yhoof2&yptr=yahoo",
+        "title": "Meta Stock Rises As $18 Billion Teen Social Media Settlement Addresses 'Major Overhang'",
+        "link": "https://www.investors.com/news/technology/meta-stock-federal-social-media-addiction-suit/?src=A00220&yptr=yahoo",
         "source": "Yahoo Finance",
-        "date": "2026-08-26T19:08:24Z",
-        "ko": "엔비디아 수입에서 주의해야 할 5가지 사항",
+        "date": "2026-08-26T20:45:34Z",
+        "ko": "$180억 십대 소셜 미디어 결제가 '주요 오버행' 을 해결함에 따라 메타 주식이 상승합니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
-        "why": "실적 발표 관전 포인트를 정리한 기사로, 오늘 당장 할 일은 없습니다.",
+        "why": "일회성 소송 비용 해소로 불확실성이 줄어든 사건이며 장기 수익 구조는 그대로입니다.",
         "by": "ai"
       }
     ]
@@ -642,7 +642,8 @@
     "Will the housing market crash in 2026? What the economy says": "2026년 주택 시장이 붕괴될까요? 경제가 말하는 것",
     "Tesla Just Lost Its Top Chip Engineer to Another Firm. Consider It a Manageable Setback for TSLA Stock.": "테슬라는 다른 회사에 최고의 칩 엔지니어를 잃었습니다. TSLA 주식에 대한 관리 가능한 차질이라고 생각하십시오.",
     "Novavax Stock Pulls Back After Milestone Vaccine Success": "노바백스 주식, 마일스톤 백신 성공 후 철수",
-    "Five Things to Watch in Nvidia’s Earnings": "엔비디아 수입에서 주의해야 할 5가지 사항"
+    "Five Things to Watch in Nvidia’s Earnings": "엔비디아 수입에서 주의해야 할 5가지 사항",
+    "Meta Stock Rises As $18 Billion Teen Social Media Settlement Addresses 'Major Overhang'": "$180억 십대 소셜 미디어 결제가 '주요 오버행' 을 해결함에 따라 메타 주식이 상승합니다."
   },
   "nvCache": {
     "https://www.yna.co.kr/view/AKR20260824137251008": {
@@ -1798,6 +1799,41 @@
       "lasting": "temporary",
       "scope": "company",
       "why": "실적 발표 관전 포인트를 정리한 기사로, 오늘 당장 할 일은 없습니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20260828135000002": {
+      "act": "watch",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "환율 흐름은 수출·수입 기업 실적에 영향을 주지만 방향은 수시로 바뀝니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/202608289633i": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "불안을 자극하는 제목으로, 구체적 사실 확인이 어렵습니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20260828142351008": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "금리와 수급의 하루 변동으로 장기 이익 구조와는 거리가 있습니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/2026082897216": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "지수와 외국인 수급의 단기 움직임이며 기업 근거를 바꾸지 않습니다.",
+      "by": "ai"
+    },
+    "https://www.investors.com/news/technology/meta-stock-federal-social-media-addiction-suit/?src=A00220&yptr=yahoo": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "일회성 소송 비용 해소로 불확실성이 줄어든 사건이며 장기 수익 구조는 그대로입니다.",
       "by": "ai"
     }
   },
