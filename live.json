@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-27T23:54:15.278Z",
+  "asOf": "2026-08-28T00:17:51.817Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -17,11 +17,11 @@
       "time": "2026-08-27T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1381.16,
+      "price": 1379.88,
       "prev": 1383.489990234375,
-      "chg": -0.17,
+      "chg": -0.26,
       "basis": "prev-daily-close",
-      "time": "2026-08-27T23:53:29.000Z"
+      "time": "2026-08-28T00:17:06.000Z"
     },
     "^GSPC": {
       "price": 7730.99,
@@ -55,7 +55,7 @@
   "fx": {
     "low52": 1377.64,
     "high52": 1554.48,
-    "pct": 0.02
+    "pct": 0.013
   },
   "hist": {
     "^KS11": {
@@ -73,11 +73,11 @@
       "chg3m": -27.03
     },
     "KRW=X": {
-      "last": 1381.16,
+      "last": 1379.88,
       "low52": 1377.64,
       "high52": 1554.48,
-      "pct52": 0.02,
-      "chg3m": -8.93
+      "pct52": 0.013,
+      "chg3m": -9.01
     },
     "^GSPC": {
       "last": 7730.99,
@@ -110,17 +110,17 @@
   },
   "regime": {
     "by": "ai",
-    "asOf": "2026-08-27T23:53:57.491Z",
+    "asOf": "2026-08-28T00:17:39.891Z",
     "kr": {
       "why": {
-        "rates": "미 10년물 금리(^TNX)가 4.67%로 1년범위 상단 91% 위치이고 3개월간 +4.92% 올라 금리가 위로 향하는 국면입니다.",
-        "growth": "코스피가 3개월간 -17.26% 하락했으나 1년범위 내 61% 위치를 유지하고 반도체 클러스터·정유 실적 기대 헤드라인이 섞여 있어 침체 확정보다는 둔화로 봅니다.",
-        "valuation": "코스피 1년범위 위치 61%는 중간보다 약간 높은 수준이고 별도 밸류에이션 지표가 주어지지 않아 중립인 '보통'으로 둡니다.",
-        "fx": "원/달러가 1381.16으로 1년범위(1377.64~1554.48) 하단 2% 위치이고 3개월간 -8.93% 하락해 원화가 강한 쪽입니다.",
-        "geo": "VIX가 14.51로 1년범위 6% 위치의 낮은 수준이며 헤드라인은 중국 전력장비 규제 언급 정도로 충격 신호는 없어 평온으로 봅니다."
+        "rates": "한국 기준금리·국고채 수치는 자료에 없고 미국 10년물(^TNX 4.67, 1년범위 위치 91%, 3개월 +4.92%)만 주어져 근거가 약하므로 중립값(hold)으로 둡니다.",
+        "growth": "코스피가 3개월 -17.26%로 크게 밀렸지만 현재 6808.21로 1년범위(3142.93~9114.55) 위치 61%를 유지하고 VIX도 14.51(위치 6%)로 낮아, 침체 확정보다는 둔화 국면으로 봅니다.",
+        "valuation": "코스피가 1년범위 위치 61%로 고점(9114.55)에서 내려온 중간 수준이고 3개월 -17.26% 조정을 거쳤어 보통(fair) 구간입니다.",
+        "fx": "원/달러가 1379.88로 1년범위(1377.64~1554.48) 위치 1%, 3개월 -9.01%로 하락해 원화가 뚜렷한 강세입니다.",
+        "geo": "헤드라인이 자사주 취득·반도체 투자·증권가 분석 등 기업 이슈 위주이고 VIX 14.51(위치 6%)로 낮아 특별한 긴장 신호가 없습니다."
       },
-      "summary": "원화는 1년 중 가장 강한 쪽이고 변동성 지표도 낮아 시장 심리는 차분한 편입니다. 다만 미 장기금리가 범위 상단이고 코스피는 3개월간 -17.26% 조정을 받아, 금리는 위로 경기는 둔화 쪽으로 읽히는 국면입니다.",
-      "rates": "hike",
+      "summary": "원화는 1년 최저 수준(1379.88, 위치 1%)까지 내려올 만큼 강세인데, 코스피는 3개월 -17.26%로 조정을 받아 지수 위치는 61%로 중간입니다. 공포지수(14.51)는 낮아 패닉은 아니고, 상승세가 식은 둔화 국면으로 이해하면 됩니다.",
+      "rates": "hold",
       "growth": "slow",
       "valuation": "fair",
       "fx": "strong",
@@ -128,13 +128,13 @@
     },
     "us": {
       "why": {
-        "rates": "^TNX 4.67%로 1년범위 91% 위치이자 3개월 +4.92%이고, 연준 해맥 위원이 '금리 인상, 지금이 행동할 때'라고 언급해 위쪽 방향입니다.",
-        "growth": "S&P500이 7730.99로 1년범위 95% 위치, 3개월 +1.99%이며 코어 물가 3.3% 상승·기업 실적 호조 헤드라인이 함께 나와 경기는 괜찮은 쪽으로 분류합니다.",
-        "valuation": "S&P500이 1년 고점(7798.99) 근처인 95% 위치에 있어 가격 부담이 큰 편으로 봅니다.",
-        "fx": "원/달러 1381.16은 1년범위 2% 위치로 달러 대비 원화가 강한 상태이며 3개월간 -8.93% 내렸습니다.",
-        "geo": "VIX 14.51(1년범위 6% 위치)로 낮고 제시된 헤드라인에 정책·지정학 충격 사건이 없어 평온으로 판단합니다."
+        "rates": "연준 해맥이 '지금이 (금리 인상에) 행동할 때'라고 언급했고 근원 물가가 전년비 3.3%, 미 10년물도 4.67(1년범위 위치 91%, 3개월 +4.92%)로 상단이라 인상 압력 방향입니다.",
+        "growth": "S&P500이 7730.99로 1년범위(6343.72~7798.99) 위치 95%, 3개월 +1.99%이고 실적 호조(크라우드스트라이크 기록적 실적) 헤드라인이 나와 경기 흐름은 괜찮은 편입니다.",
+        "valuation": "지수가 1년범위 위치 95%로 고점(7798.99) 바로 아래에 있어 가격 부담이 있는 비싼 편입니다.",
+        "fx": "원/달러가 1379.88로 1년범위 위치 1%, 3개월 -9.01%이므로 달러 대비 원화 강세(달러 약세) 쪽입니다.",
+        "geo": "VIX가 14.51로 1년범위 위치 6%까지 낮아졌고 헤드라인도 개별 기업·금리 발언 중심이라 뚜렷한 지정학 충격 신호는 없습니다."
       },
-      "summary": "미국 주가지수는 1년 범위의 95% 지점으로 높은 편이고 변동성은 낮아 표면적으로 안정적입니다. 다만 코어 물가 3.3%와 장기금리 4.67%(범위 91%), 인상 발언까지 겹쳐 금리 부담이 남아 있는 국면입니다.",
+      "summary": "주가는 1년 고점권(위치 95%)이고 변동성(VIX 14.51)은 낮은데, 근원 물가 3.3%와 10년물 4.67%가 겹쳐 금리 부담이 남아 있는 국면입니다. 즉 경기 지표는 양호하지만 가격은 비싼 편이라는 뜻입니다.",
       "rates": "hike",
       "growth": "expand",
       "valuation": "rich",
@@ -333,25 +333,58 @@
   "news": {
     "kr": [
       {
-        "title": "키움증권 \"세계 중앙은행 금 순매수 부진…매수 기조는 지속\"",
-        "link": "https://www.yna.co.kr/view/AKR20260828026900008",
+        "title": "코스피, 1%대 하락 출발…코스닥 보합권",
+        "link": "https://www.yna.co.kr/view/AKR20260828035800008",
         "source": "연합뉴스",
-        "date": "Fri, 28 Aug 2026 08:37:50 +0900",
+        "date": "Fri, 28 Aug 2026 09:06:06 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "금 수요에 대한 증권사 전망일 뿐, 기업 이익 구조와는 거리가 있습니다.",
+        "why": "하루 지수 등락은 기업 이익과 무관한 단기 흐름입니다.",
         "by": "ai"
       },
       {
-        "title": "\"S-Oil, 하반기 영업익 3조·배당 확대 기대…목표가↑\"-유안타",
-        "link": "https://www.hankyung.com/article/2026082882106",
+        "title": "오길호 에스씨디 대표, 자사주 신규 취득",
+        "link": "https://www.hankyung.com/article/2026082884476",
         "source": "한국경제",
-        "date": "Fri, 28 Aug 2026 07:29:15 +0900",
+        "date": "Fri, 28 Aug 2026 08:53:16 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
-        "why": "실적·목표주가 전망은 증권사 의견이라 오늘 할 일은 없습니다.",
+        "why": "경영진 지분 취득은 참고 사항이며 이익 구조를 바꾸지 않습니다.",
+        "by": "ai"
+      },
+      {
+        "title": "“삼성전자, 중국 반도체 국산화 수혜주라고?”…증권가 분석 이유는",
+        "link": "https://www.mk.co.kr/news/stock/12138463",
+        "source": "매일경제",
+        "date": "Fri, 28 Aug 2026 08:53:33 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "증권가 해석일 뿐, 실적으로 확인된 변화는 아닙니다.",
+        "by": "ai"
+      },
+      {
+        "title": "증권가, 'SK호라이즌 신설·3조 투자' SK텔레콤에 \"가치 재평가\"",
+        "link": "https://www.yna.co.kr/view/AKR20260828028700008",
+        "source": "연합뉴스",
+        "date": "Fri, 28 Aug 2026 08:53:57 +0900",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": "company",
+        "why": "대규모 투자와 조직 신설은 사업 구조를 바꿀 수 있어 진행 상황만 지켜보세요.",
+        "by": "ai"
+      },
+      {
+        "title": "\"조정 전 싹 팔았다\"…한가인 매도 타이밍에 주식고수도 '깜짝'",
+        "link": "https://www.hankyung.com/article/202608288374H",
+        "source": "한국경제",
+        "date": "Fri, 28 Aug 2026 08:50:40 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "개인의 매매 시점 화제는 투자 판단 근거가 되지 않습니다.",
         "by": "ai"
       },
       {
@@ -363,39 +396,6 @@
         "lasting": "temporary",
         "scope": "company",
         "why": "개별 시공 완료 소식으로 장기 이익을 바꿀 규모인지 알기 어렵습니다.",
-        "by": "ai"
-      },
-      {
-        "title": "신영증권 \"트럼프 中전력장비 규제에 韓배터리 수혜구조 강화\"",
-        "link": "https://www.yna.co.kr/view/AKR20260828026400008",
-        "source": "연합뉴스",
-        "date": "Fri, 28 Aug 2026 08:31:39 +0900",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": "sector",
-        "why": "규제로 인한 경쟁 구도 변화 가능성이라 흐름만 지켜보면 됩니다.",
-        "by": "ai"
-      },
-      {
-        "title": "엔비디아 8.7% 급등…기술주 랠리에 나스닥 1.57%↑ [뉴욕증시 브리핑]",
-        "link": "https://www.hankyung.com/article/2026082881806",
-        "source": "한국경제",
-        "date": "Fri, 28 Aug 2026 07:03:04 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "하루치 지수와 주가 등락은 투자 근거를 바꾸지 않습니다.",
-        "by": "ai"
-      },
-      {
-        "title": "\"향후 증시 조정땐 AI 생태계에 분산투자하라\"",
-        "link": "https://www.mk.co.kr/news/stock/12138170",
-        "source": "매일경제",
-        "date": "Thu, 27 Aug 2026 18:06:24 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "조정 대응을 다룬 의견 기사로 확인된 사실은 없습니다.",
         "by": "ai"
       }
     ],
@@ -461,15 +461,15 @@
         "by": "ai"
       },
       {
-        "title": "Vivmark Residential Stock: Analyst Estimates & Ratings",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/vivmark-residential-stock-analyst-estimates-161725943.html",
+        "title": "Oracle's historic stock rout could be a buying opportunity",
+        "link": "https://finance.yahoo.com/technology/article/oracles-historic-stock-rout-could-be-a-buying-opportunity-121656990.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-26T16:17:25Z",
-        "ko": "Vivmark 주거용 주식: 애널리스트 추정 및 평가",
+        "date": "2026-08-26T12:16:56Z",
+        "ko": "오라클의 역사적인 재고 라우트는 구매 기회가 될 수 있습니다",
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
-        "why": "애널리스트 추정치 소개 기사로 제목만으로는 새로운 사실이 없습니다.",
+        "why": "주가 급락과 매수 기회를 논한 의견성 기사로, 기업 이익 구조와는 무관합니다.",
         "by": "ai"
       }
     ]
@@ -625,7 +625,8 @@
     "Amidst a Big Addressable Market, SpaceX Has Ample Scope for Sustained Growth": "주소 지정이 가능한 큰 시장 속에서 SpaceX는 지속적인 성장을 위한 충분한 범위를 가지고 있습니다.",
     "CrowdStrike’s stock jumps after record-breaking earnings. Wall Street is lapping it up.": "CrowdStrike의 주가는 기록적인 수익을 올린 후 뛰어오릅니다. 월스트리트가 그것을 쌓아 올리고 있습니다.",
     "1 Penny Stock That Could Howl Its Way to the Top After a $150 Million Funding Boost": "1 페니 주식, 1억 5천만 달러의 펀딩 부스트를 거친 후 정상에 오를 수 있음 (1 Penny Stock That Could Howl Its Way to the Top After a $150",
-    "Vivmark Residential Stock: Analyst Estimates & Ratings": "Vivmark 주거용 주식: 애널리스트 추정 및 평가"
+    "Vivmark Residential Stock: Analyst Estimates & Ratings": "Vivmark 주거용 주식: 애널리스트 추정 및 평가",
+    "Oracle's historic stock rout could be a buying opportunity": "오라클의 역사적인 재고 라우트는 구매 기회가 될 수 있습니다"
   },
   "nvCache": {
     "https://www.yna.co.kr/view/AKR20260824137251008": {
@@ -1382,6 +1383,48 @@
       "lasting": "temporary",
       "scope": "company",
       "why": "애널리스트 추정치 소개 기사로 제목만으로는 새로운 사실이 없습니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20260828035800008": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "하루 지수 등락은 기업 이익과 무관한 단기 흐름입니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/2026082884476": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "경영진 지분 취득은 참고 사항이며 이익 구조를 바꾸지 않습니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12138463": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "증권가 해석일 뿐, 실적으로 확인된 변화는 아닙니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20260828028700008": {
+      "act": "watch",
+      "lasting": "structural",
+      "scope": "company",
+      "why": "대규모 투자와 조직 신설은 사업 구조를 바꿀 수 있어 진행 상황만 지켜보세요.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/202608288374H": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "개인의 매매 시점 화제는 투자 판단 근거가 되지 않습니다.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/technology/article/oracles-historic-stock-rout-could-be-a-buying-opportunity-121656990.html": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "주가 급락과 매수 기회를 논한 의견성 기사로, 기업 이익 구조와는 무관합니다.",
       "by": "ai"
     }
   },
