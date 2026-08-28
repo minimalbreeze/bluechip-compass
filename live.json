@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-28T16:09:29.837Z",
+  "asOf": "2026-08-28T16:30:16.723Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -17,45 +17,45 @@
       "time": "2026-08-28T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1379.47,
+      "price": 1379.54,
       "prev": 1383.489990234375,
       "chg": -0.29,
       "basis": "prev-daily-close",
-      "time": "2026-08-28T16:08:38.000Z"
+      "time": "2026-08-28T16:29:43.000Z"
     },
     "^GSPC": {
-      "price": 7732.22,
+      "price": 7714.07,
       "prev": 7730.990234375,
-      "chg": 0.02,
+      "chg": -0.22,
       "basis": "prev-daily-close",
-      "time": "2026-08-28T16:08:48.000Z"
+      "time": "2026-08-28T16:29:43.000Z"
     },
     "^IXIC": {
-      "price": 26493.658,
+      "price": 26425.299,
       "prev": 26541.349609375,
-      "chg": -0.18,
+      "chg": -0.44,
       "basis": "prev-daily-close",
-      "time": "2026-08-28T16:08:46.000Z"
+      "time": "2026-08-28T16:29:43.000Z"
     },
     "^VIX": {
-      "price": 14.48,
+      "price": 14.46,
       "prev": 14.510000228881836,
-      "chg": -0.21,
+      "chg": -0.34,
       "basis": "prev-daily-close",
-      "time": "2026-08-28T15:53:31.000Z"
+      "time": "2026-08-28T16:14:31.000Z"
     },
     "^TNX": {
-      "price": 4.708,
+      "price": 4.712,
       "prev": 4.671999931335449,
-      "chg": 0.77,
+      "chg": 0.86,
       "basis": "prev-daily-close",
-      "time": "2026-08-28T15:53:44.000Z"
+      "time": "2026-08-28T16:14:34.000Z"
     }
   },
   "fx": {
     "low52": 1377.64,
     "high52": 1554.48,
-    "pct": 0.01
+    "pct": 0.011
   },
   "hist": {
     "^KS11": {
@@ -73,53 +73,53 @@
       "chg3m": -24.15
     },
     "KRW=X": {
-      "last": 1379.47,
+      "last": 1379.54,
       "low52": 1377.64,
       "high52": 1554.48,
-      "pct52": 0.01,
+      "pct52": 0.011,
       "chg3m": -9.04
     },
     "^GSPC": {
-      "last": 7731.83,
+      "last": 7714.07,
       "low52": 6343.72,
       "high52": 7798.99,
-      "pct52": 0.954,
-      "chg3m": 1.74
+      "pct52": 0.942,
+      "chg3m": 1.5
     },
     "^IXIC": {
-      "last": 26493.66,
+      "last": 26425.3,
       "low52": 20794.64,
       "high52": 27093.9,
-      "pct52": 0.905,
-      "chg3m": -2.19
+      "pct52": 0.894,
+      "chg3m": -2.44
     },
     "^VIX": {
-      "last": 14.47,
+      "last": 14.46,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.057,
-      "chg3m": -9.84
+      "pct52": 0.056,
+      "chg3m": -9.91
     },
     "^TNX": {
       "last": 4.71,
       "low52": 3.95,
       "high52": 4.74,
-      "pct52": 0.953,
-      "chg3m": 5.21
+      "pct52": 0.958,
+      "chg3m": 5.3
     }
   },
   "regime": {
     "by": "ai",
-    "asOf": "2026-08-28T16:09:22.300Z",
+    "asOf": "2026-08-28T16:30:13.190Z",
     "kr": {
       "why": {
-        "rates": "제시된 금리 지표인 ^TNX가 4.71로 1년 범위(3.95~4.74) 상단 95% 위치이고 3개월간 +5.21% 올라, 금리가 오르는 쪽으로 분류합니다(한국 기준금리 자료는 없어 이 지표에만 근거).",
-        "growth": "^KS11이 6912.37로 1년 범위 안에서는 63% 위치로 중상단이지만 3개월 동안 -15.55% 조정을 받아, 침체 단정보다는 둔화 국면으로 봅니다.",
-        "valuation": "^KS11의 1년 범위 내 위치가 63%로 극단이 아니고 최근 3개월 -15.55% 되돌림이 있었으며, PER 등 밸류 지표가 자료에 없어 중립값 fair로 둡니다.",
-        "fx": "KRW=X가 1379.47로 1년 범위(1377.64~1554.48)의 1% 지점, 3개월간 -9.04%로 원화 값이 오른 상태입니다.",
-        "geo": "^VIX가 14.47로 1년 범위(13.47~31.05) 하위 6%이고 3개월 -9.84%이며, 헤드라인도 개별 기업·정책 이슈 위주라 시장 긴장 신호는 약합니다."
+        "rates": "제시된 금리 지표인 ^TNX가 4.71로 1년 범위(3.95~4.74)의 96% 위치이고 3개월간 +5.3% 올라 금리가 오르는 쪽에 가깝습니다.",
+        "growth": "코스피가 6912.37로 1년 범위의 63% 위치를 유지하지만 3개월 동안 -15.55% 하락해, 침체라 단정하기보다 둔화 신호로 보는 편이 자료에 맞습니다.",
+        "valuation": "밸류에이션 지표(PER 등)가 제공되지 않아 근거가 약하며, 지수 위치가 1년 범위의 63%로 중간권이라 중립인 보통으로 둡니다.",
+        "fx": "원/달러가 1379.54로 1년 범위(1377.64~1554.48)의 1% 위치, 3개월 -9.04%로 원화가 뚜렷하게 강해진 상태입니다.",
+        "geo": "VIX가 14.46으로 1년 범위의 6% 수준이고 헤드라인도 배당·유상증자 등 기업 이슈 중심이라 특별한 긴장 신호가 없습니다."
       },
-      "summary": "금리 지표는 1년 최고 부근(4.71)인데 코스피는 3개월간 -15.55% 밀린, '금리 부담 속 조정' 국면입니다. 다만 원/달러 1379.47로 원화가 강하고 VIX 14.47로 시장 불안은 낮아, 공포보다는 숨 고르기에 가까운 상태로 분류됩니다.",
+      "summary": "원화가 1379.54까지 강해지고 변동성지수는 14.46로 낮아 시장 분위기 자체는 차분하지만, 코스피는 3개월간 -15.55% 밀려 속도가 꺾인 구간입니다. 금리 지표(^TNX 4.71, 범위 96%)가 높은 편이라는 점만 함께 확인해 두면 좋습니다.",
       "rates": "hike",
       "growth": "slow",
       "valuation": "fair",
@@ -128,13 +128,13 @@
     },
     "us": {
       "why": {
-        "rates": "^TNX 4.71로 1년 범위 상단 95%, 3개월 +5.21%이고 헤드라인에서도 연준 해맥의 '금리 인상, 지금이 행동할 때' 발언과 워시의 인플레이션 우려가 언급됩니다.",
-        "growth": "^GSPC가 7731.83으로 1년 범위(6343.72~7798.99)의 95% 지점이고 3개월 +1.74%로 상승세를 유지해 경기 흐름은 괜찮은 쪽으로 봅니다.",
-        "valuation": "^GSPC가 1년 범위 95% 위치인 사상 고가권이라 가격 부담이 큰 편이며, 이익 대비 지표는 자료에 없어 지수 위치만 근거로 판단했습니다.",
-        "fx": "KRW=X 1379.47로 1년 범위 하단 1%, 3개월 -9.04%여서 달러 대비 원화가 강한 상태입니다.",
-        "geo": "^VIX 14.47(1년 범위 6% 위치, 3개월 -9.84%)로 낮고, 헤드라인도 개별 기업·연준 커뮤니케이션 이슈라 충격 신호는 보이지 않습니다."
+        "rates": "^TNX가 4.71로 1년 범위의 96% 위치, 3개월 +5.3%이고 헤드라인에서도 연준 해맥 위원의 '금리 인상, 지금이 행동할 때' 발언이 언급됩니다.",
+        "growth": "S&P500이 7714.07로 1년 범위(6343.72~7798.99)의 94% 위치이고 3개월 +1.5%로 상승 흐름이 유지되고 있습니다.",
+        "valuation": "밸류에이션 수치는 없지만 지수가 1년 고점 부근(위치 94%)까지 올라와 있어 가격 부담이 있는 쪽으로 분류합니다.",
+        "fx": "원/달러가 1379.54로 1년 범위의 1% 위치, 3개월 -9.04%여서 달러 대비 원화가 강한 상태입니다.",
+        "geo": "VIX 14.46(1년 범위 6% 위치)로 낮고, 헤드라인도 개별 기업·연준 발언 위주라 지정학적 충격 근거는 보이지 않습니다."
       },
-      "summary": "주가는 1년 최고 부근(위치 95%)인데 10년물 금리도 4.71로 고점권이라, 비싼 가격과 높은 금리가 함께 있는 국면입니다. VIX 14.47로 시장은 조용하지만 연준 인사들의 인상 발언이 나오는 점은 참고할 필요가 있습니다.",
+      "summary": "S&P500이 1년 고점 근처(위치 94%)에 있고 변동성은 14.46로 낮아 겉으로는 안정적인 상승 국면입니다. 다만 10년 금리가 4.71로 1년 최고치 부근이라 금리 부담이 함께 있는 상태입니다.",
       "rates": "hike",
       "growth": "expand",
       "valuation": "rich",
@@ -238,95 +238,95 @@
     },
     "us": {
       "MSFT": {
-        "price": 515.8,
+        "price": 516.62,
         "prev": 505.05999755859375,
-        "chg": 2.13,
+        "chg": 2.29,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T16:08:54.000Z"
+        "time": "2026-08-28T16:29:48.000Z"
       },
       "AAPL": {
-        "price": 321.4,
+        "price": 320.87,
         "prev": 314.5799865722656,
-        "chg": 2.17,
+        "chg": 2,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T16:08:54.000Z"
+        "time": "2026-08-28T16:29:47.000Z"
       },
       "GOOGL": {
-        "price": 347.015,
+        "price": 346.55,
         "prev": 340.6499938964844,
-        "chg": 1.87,
+        "chg": 1.73,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T16:08:54.000Z"
+        "time": "2026-08-28T16:29:46.000Z"
       },
       "BRK.B": {
-        "price": 505.655,
+        "price": 504.93,
         "prev": 503.70001220703125,
-        "chg": 0.39,
-        "basis": "prev-daily-close",
-        "time": "2026-08-28T16:08:53.000Z"
-      },
-      "V": {
-        "price": 383.25,
-        "prev": 379.6600036621094,
-        "chg": 0.95,
-        "basis": "prev-daily-close",
-        "time": "2026-08-28T16:08:44.000Z"
-      },
-      "JNJ": {
-        "price": 266.19,
-        "prev": 265.7699890136719,
-        "chg": 0.16,
-        "basis": "prev-daily-close",
-        "time": "2026-08-28T16:08:48.000Z"
-      },
-      "PG": {
-        "price": 143.48,
-        "prev": 143.13999938964844,
         "chg": 0.24,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T16:08:52.000Z"
+        "time": "2026-08-28T16:29:47.000Z"
+      },
+      "V": {
+        "price": 382.26,
+        "prev": 379.6600036621094,
+        "chg": 0.68,
+        "basis": "prev-daily-close",
+        "time": "2026-08-28T16:29:39.000Z"
+      },
+      "JNJ": {
+        "price": 265.98,
+        "prev": 265.7699890136719,
+        "chg": 0.08,
+        "basis": "prev-daily-close",
+        "time": "2026-08-28T16:29:33.000Z"
+      },
+      "PG": {
+        "price": 143.24,
+        "prev": 143.13999938964844,
+        "chg": 0.07,
+        "basis": "prev-daily-close",
+        "time": "2026-08-28T16:29:45.000Z"
       },
       "KO": {
-        "price": 89.8,
+        "price": 89.755,
         "prev": 89.05999755859375,
-        "chg": 0.83,
+        "chg": 0.78,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T16:08:54.000Z"
+        "time": "2026-08-28T16:29:44.000Z"
       },
       "COST": {
-        "price": 951.629,
+        "price": 946.93,
         "prev": 934.6599731445312,
-        "chg": 1.82,
+        "chg": 1.31,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T16:08:50.000Z"
+        "time": "2026-08-28T16:29:48.000Z"
       },
       "WM": {
-        "price": 219.057,
-        "prev": 219.0574951171875,
-        "chg": 0,
-        "basis": "last-daily-close",
-        "time": "2026-08-28T16:08:33.000Z"
+        "price": 218.975,
+        "prev": 217.75999450683594,
+        "chg": 0.56,
+        "basis": "prev-daily-close",
+        "time": "2026-08-28T16:29:45.000Z"
       },
       "LIN": {
-        "price": 488.9,
+        "price": 487.799,
         "prev": 485.3500061035156,
-        "chg": 0.73,
+        "chg": 0.5,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T16:08:46.000Z"
+        "time": "2026-08-28T16:29:25.000Z"
       },
       "XOM": {
-        "price": 156.02,
+        "price": 156.19,
         "prev": 156.44000244140625,
-        "chg": -0.27,
+        "chg": -0.16,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T16:08:40.000Z"
+        "time": "2026-08-28T16:29:47.000Z"
       },
       "NVDA": {
-        "price": 221.02,
+        "price": 220.17,
         "prev": 227.97999572753906,
-        "chg": -3.05,
+        "chg": -3.43,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T16:08:54.000Z"
+        "time": "2026-08-28T16:29:48.000Z"
       }
     }
   },
@@ -404,7 +404,7 @@
         "title": "Fed Chairman Warsh expresses concern about inflation, advocates for 'quieter' central bank",
         "link": "https://www.cnbc.com/2026/08/28/kevin-warsh-jackson-hole-federal-reserve-inflation.html",
         "source": "CNBC",
-        "date": "Fri, 28 Aug 2026 15:56:47 GMT",
+        "date": "Fri, 28 Aug 2026 16:11:51 GMT",
         "ko": "워시 연준 의장은 인플레이션에 대한 우려를 표명하며, '더 조용한' 중앙은행을 지지한다.",
         "act": "watch",
         "lasting": "structural",
@@ -461,15 +461,15 @@
         "by": "ai"
       },
       {
-        "title": "Jackson Hole Fed summit live: Kevin Warsh's keynote speech comes at a pivotal moment for the Federal Reserve",
-        "link": "https://finance.yahoo.com/economy/live/jackson-hole-fed-summit-live-kevin-warsh-keynote-speech-180442096.html",
+        "title": "Microsoft, Stock Of The Day, Flashes New Buy Signal. Why It's Still An 'AI Winner.'",
+        "link": "https://www.investors.com/research/ibd-stock-of-the-day/microsoft-stock-msft-remains-ai-winner/?src=A00220&yptr=yahoo",
         "source": "Yahoo Finance",
-        "date": "2026-08-27T18:04:42Z",
-        "ko": "잭슨 홀 연준 정상 회담 생중계: 케빈 워시의 기조 연설은 연방 준비 제도 이사회를 위한 중추적 인 순간에 온다",
-        "act": "watch",
+        "date": "2026-08-28T16:17:22Z",
+        "ko": "Microsoft, Stock of the Day, 새로운 구매 신호를 깜박입니다. 여전히 'AI 승자' 인 이유.",
+        "act": "none",
         "lasting": "temporary",
-        "scope": "market",
-        "why": "통화정책 발언은 시장 전체 분위기를 흔들 수 있지만 기업의 10년 이익을 바꾸진 않습니다.",
+        "scope": "company",
+        "why": "차트 신호와 전망 언급일 뿐, 10년 이익 구조와는 무관합니다.",
         "by": "ai"
       }
     ]
@@ -663,7 +663,8 @@
     "PayPal’s stock slides as a takeover bid is said to fall through. What’s next for the company?": "인수 입찰로서 PayPal의 주식 슬라이드는 하락한다고 합니다. 회사의 다음 단계는 무엇인가요?",
     "When will mortgage rates go down? Or maybe they're poised to move higher.": "주택담보대출 금리는 언제 인하되나요? 아니면 더 높이 올라갈 준비가 되어 있는 것일 수도 있습니다.",
     "Job Market Uncertainty Pushes Commercial Staffing Stocks Up 80% This Year": "취업 시장의 불확실성으로 올해 상업 인력 재고가 80% 증가했습니다.",
-    "Jackson Hole Fed summit live: Kevin Warsh's keynote speech comes at a pivotal moment for the Federal Reserve": "잭슨 홀 연준 정상 회담 생중계: 케빈 워시의 기조 연설은 연방 준비 제도 이사회를 위한 중추적 인 순간에 온다"
+    "Jackson Hole Fed summit live: Kevin Warsh's keynote speech comes at a pivotal moment for the Federal Reserve": "잭슨 홀 연준 정상 회담 생중계: 케빈 워시의 기조 연설은 연방 준비 제도 이사회를 위한 중추적 인 순간에 온다",
+    "Microsoft, Stock Of The Day, Flashes New Buy Signal. Why It's Still An 'AI Winner.'": "Microsoft, Stock of the Day, 새로운 구매 신호를 깜박입니다. 여전히 'AI 승자' 인 이유."
   },
   "nvCache": {
     "https://www.yna.co.kr/view/AKR20260824137251008": {
@@ -2050,6 +2051,13 @@
       "lasting": "temporary",
       "scope": "market",
       "why": "통화정책 발언은 시장 전체 분위기를 흔들 수 있지만 기업의 10년 이익을 바꾸진 않습니다.",
+      "by": "ai"
+    },
+    "https://www.investors.com/research/ibd-stock-of-the-day/microsoft-stock-msft-remains-ai-winner/?src=A00220&yptr=yahoo": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "차트 신호와 전망 언급일 뿐, 10년 이익 구조와는 무관합니다.",
       "by": "ai"
     }
   },
