@@ -1498,3 +1498,74 @@ body[data-market="us"] .ms-thumb { transform: translateX(100%); }
 .fit-warn { margin-top: 12px; padding-top: 10px; border-top: 1px solid var(--line);
             font-size: 11.5px; color: var(--ink-mid); line-height: 1.65;
             word-break: keep-all; overflow-wrap: anywhere; }
+
+/* ── 물어보기 ───────────────────────────────────────────────────
+   답이 길다. 읽는 사람은 휴대폰이고 초보자다 — 줄 간격을 넉넉히 주고
+   본문 글자는 13.5px 아래로 내리지 않는다. */
+.ask { padding: 14px 16px; margin-top: 14px; }
+.ask-t { font-size: 15px; font-weight: 800; color: var(--ink); }
+.ask-lead { font-size: 13px; color: var(--ink-mid); line-height: 1.65; margin: 6px 0 10px; }
+.ask textarea {
+  width: 100%; box-sizing: border-box; resize: vertical; min-height: 74px;
+  padding: 11px 12px; border: 1px solid var(--line); border-radius: var(--r-s);
+  background: var(--bg); color: var(--ink); font: inherit; font-size: 14px; line-height: 1.6;
+}
+.ask textarea:focus { outline: none; border-color: var(--accent); background: #fff; }
+.ask textarea::placeholder { color: var(--ink-dim); }
+.ask #asksend { width: 100%; margin-top: 9px; }
+.ask-warn {
+  margin-top: 9px; font-size: 11.5px; color: var(--ink-mid); line-height: 1.6;
+  padding-left: 10px; border-left: 2px solid var(--line);
+}
+.ask-listh {
+  display: flex; align-items: center; justify-content: space-between; gap: 10px;
+  margin-top: 16px; padding-top: 12px; border-top: 1px solid var(--line);
+  font-size: 12.5px; font-weight: 700; color: var(--ink-mid);
+}
+.ask-listh > span { flex: none; }
+/* .quietbtn 은 원래 화면 폭을 다 쓰는 버튼이다. 여기서는 제목 옆에 서야
+   해서 폭과 위 여백만 되돌린다. */
+.ask-listh .quietbtn { width: auto; margin-top: 0; padding: 7px 12px; flex: none; }
+.ask-note { font-size: 12.5px; color: var(--ink-dim); line-height: 1.6; padding: 8px 0; }
+
+.ask-item { border-top: 1px solid var(--line-soft); }
+.ask-item:first-of-type { border-top: 0; }
+.ask-q {
+  display: flex; align-items: center; gap: 10px; width: 100%;
+  padding: 11px 0; background: none; border: 0; text-align: left; cursor: pointer;
+}
+.ask-qt {
+  flex: 1; min-width: 0; font-size: 13.5px; color: var(--ink); line-height: 1.5;
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.ask-st {
+  flex: none; font-size: 11px; font-weight: 700; padding: 3px 8px; border-radius: 999px;
+  white-space: nowrap;
+}
+.ask-st.done { background: var(--accent-soft); color: var(--accent-ink); }
+.ask-st.wait { background: var(--line-soft); color: var(--ink-dim); }
+
+.ask-a { padding: 2px 0 14px; }
+.ask-a p { font-size: 13.5px; color: var(--ink); line-height: 1.75; margin: 0 0 9px; }
+.ask-a code { font-size: 12.5px; background: var(--line-soft); padding: 1px 5px; border-radius: 5px; }
+.ask-a a { color: var(--accent-ink); }
+.ask-h { font-size: 13px; font-weight: 800; color: var(--ink); margin: 13px 0 6px; }
+.ask-ul { margin: 0 0 9px; padding-left: 18px; }
+.ask-ul li { font-size: 13.5px; color: var(--ink); line-height: 1.7; margin-bottom: 4px; }
+
+/* 비율로 온 답을 이 기기에서만 금액으로 바꿔 적는 칸.
+   답 본문과 섞이면 AI 가 금액을 말한 것처럼 보인다 — 따로 떼어 놓는다. */
+.ask-amt {
+  margin: 12px 0; padding: 12px 14px; border-radius: var(--r-s);
+  background: var(--accent-soft);
+}
+.ask-amt-h { font-size: 12px; font-weight: 700; color: var(--accent-ink); }
+.ask-amt-v {
+  font-size: 19px; font-weight: 800; color: var(--ink); margin: 3px 0 5px;
+  font-variant-numeric: tabular-nums; letter-spacing: -.4px;
+}
+.ask-amt-n { font-size: 11.5px; color: var(--ink-mid); line-height: 1.6; }
+.ask-foot {
+  margin-top: 10px; padding-top: 9px; border-top: 1px solid var(--line);
+  font-size: 11.5px; color: var(--ink-mid); line-height: 1.6;
+}

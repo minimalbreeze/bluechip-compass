@@ -1,0 +1,132 @@
+# 앱에서 올라온 질문에 AI 로 답한다.
+#
+# 정적 사이트라 브라우저에서 AI 를 부를 수 없다(키를 심으면 소스에 노출된다).
+# 그래서 질문은 **이슈**로 올라오고, 여기서 답을 만들어 댓글로 붙인다.
+# 앱은 공개 GitHub API 로 그 댓글을 읽어 화면에 보여준다.
+#
+# ⚠️ 이슈는 공개 저장소에 남는다. 그래서 질문 본문에 **금액을 담지 않는다** —
+#    앱이 그렇게 만들어 보내고, 답도 "전체 투자금의 몇 %"로만 나온다.
+#    원 단위 환산은 사용자 기기 안에서만 일어난다.
+
+name: ask
+
+on:
+  issues:
+    types: [opened]
+
+concurrency:
+  # 여러 질문이 겹쳐도 하나씩. 답이 섞이지 않게.
+  group: ask-${{ github.event.issue.number }}
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  answer:
+    # 앱이 만든 질문만 답한다. 제목 접두사로 거르고, 저장소 주인이 올린
+    # 것만 받는다 — 공개 저장소라 아무나 이슈를 열 수 있고, 그때마다
+    # AI 를 부르면 남의 돈으로 남이 질문하는 꼴이 된다.
+    if: >-
+      startsWith(github.event.issue.title, '[물어보기]') &&
+      github.event.issue.user.login == github.repository_owner
+    runs-on: ubuntu-latest
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: 시크릿 확인
+        run: |
+          if [ -n "$ANTHROPIC_API_KEY" ]; then
+            echo "🤖 ANTHROPIC_API_KEY 있음 (길이 ${#ANTHROPIC_API_KEY})"
+          else
+            echo "⚠️ ANTHROPIC_API_KEY 없음"
+          fi
+
+      # 설치가 조용히 실패하면 다음 단계가 통째로 실패한다.
+      # 실제로 불러와지는지 여기서 확인하고 끊는다.
+      - name: SDK 설치
+        if: env.ANTHROPIC_API_KEY != ''
+        run: |
+          npm install --no-save --no-audit --no-fund @anthropic-ai/sdk zod
+          node -e "
+            Promise.all([
+              import('@anthropic-ai/sdk'),
+              import('zod'),
+              import('@anthropic-ai/sdk/helpers/zod')
+            ]).then(([a,z,h]) => {
+              console.log('✅ SDK 불러오기 확인 · zodOutputFormat:', typeof h.zodOutputFormat);
+            }).catch(e => { console.error('❌ SDK 를 불러올 수 없습니다:', e.message); process.exit(1); });
+          "
+
+      - name: 답 만들기
+        id: answer
+        if: env.ANTHROPIC_API_KEY != ''
+        env:
+          # 이슈 본문을 셸 명령에 직접 끼워 넣지 않는다. 사용자가 쓴 글이
+          # 명령으로 해석되면 안 된다. 환경변수로만 넘긴다.
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: |
+          node -e "
+            import('./scripts/ask.mjs').then(async (m) => {
+              const r = await m.run({
+                body: process.env.ISSUE_BODY || '',
+                apiKey: process.env.ANTHROPIC_API_KEY
+              });
+              const fs = await import('node:fs');
+              let out = r.answer;
+              if (r.meta) {
+                // 앱이 읽을 값. 사람 눈에는 안 보이는 주석으로 붙인다.
+                out += '\n\n<!--bcc ' + JSON.stringify({
+                  v: 1,
+                  verdict: r.meta.verdict,
+                  headline: r.meta.headline,
+                  pct: [r.meta.pctLo, r.meta.pctHi],
+                  checks: r.meta.checks,
+                  ticker: r.stock ? r.stock.ticker : null
+                }) + ' -->';
+              }
+              fs.writeFileSync('/tmp/answer.md', out);
+              console.log('답 길이:', out.length);
+            }).catch(e => { console.error('❌', e.message); process.exit(1); });
+          "
+
+      - name: 답을 댓글로 붙이고 닫는다
+        if: success() && env.ANTHROPIC_API_KEY != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          N: ${{ github.event.issue.number }}
+        run: |
+          BODY=$(cat /tmp/answer.md)
+          jq -n --arg b "$BODY" '{body:$b}' > /tmp/c.json
+          curl -sS -X POST \
+            -H "Authorization: Bearer $GH_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            -d @/tmp/c.json \
+            "https://api.github.com/repos/${{ github.repository }}/issues/$N/comments" > /dev/null
+          # 닫아야 앱이 "답이 왔다"를 상태 하나로 알 수 있다.
+          curl -sS -X PATCH \
+            -H "Authorization: Bearer $GH_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            -d '{"state":"closed","state_reason":"completed"}' \
+            "https://api.github.com/repos/${{ github.repository }}/issues/$N" > /dev/null
+          echo "✅ #$N 에 답을 붙였습니다"
+
+      # 실패했을 때 질문이 조용히 사라지면 사용자는 영영 기다린다.
+      # 무슨 일이 있었는지 이슈에 적는다.
+      - name: 실패하면 그렇게 적는다
+        if: failure()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          N: ${{ github.event.issue.number }}
+        run: |
+          curl -sS -X POST \
+            -H "Authorization: Bearer $GH_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            -d '{"body":"⚠️ 답을 만들지 못했습니다. 잠시 뒤 같은 질문을 다시 올려 보세요. (자세한 내용은 Actions 기록에 남아 있습니다.)"}' \
+            "https://api.github.com/repos/${{ github.repository }}/issues/$N/comments" > /dev/null

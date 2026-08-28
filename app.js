@@ -2520,10 +2520,31 @@
     /* 결과는 이 칸만 갈아 끼운다 — 전체를 다시 그리면 입력 포커스가 날아간다 */
     h.push('<div class="sqres">' + stockResultHtml(mk) + '</div>');
 
+    /* 검색은 "이 앱이 이미 정리해 둔 것"만 답한다. 그 밖의 것을 물을
+       자리가 없으면 사용자는 앱을 닫고 다른 데로 간다 — 물어보는 자리를
+       같은 탭에 붙인다. 답이 오면 다시 이 흐름(얼마나 담을까)으로 돌아온다. */
+    if (window.BCAsk && BCAsk.on) {
+      BCAsk.load();
+      h.push(BCAsk.html(askCtx()));
+    }
+
     h.push('<div class="foot"><b>고지.</b> 이 화면은 <b>회사에 대한 설명</b>이지 ' +
       '특정 종목의 매수·매도 권유가 아닙니다. 어떤 수익도 보장하지 않습니다. ' +
       '투자 판단과 그 결과는 본인에게 있습니다.</div>');
     return h.join('');
+  }
+
+  /* 물어보기에 넘길 것. **금액은 넘어가지 않는다** — seed 는 답으로 온
+     비율을 이 브라우저에서 금액으로 바꿔 적을 때만 쓰이고, 질문 본문에는
+     들어가지 않는다(ask.js 주석 참고). */
+  function askCtx() {
+    return {
+      mk: state.market,
+      style: styleLabelOf(state.style),
+      seed: state.profile.seed || 0,
+      stock: state.sSel && state.sSel.t ? { n: state.sSel.n, t: state.sSel.t } : null,
+      won: won
+    };
   }
 
   /* 검색창 아래 칸. 고르기 전에는 후보 목록, 고른 뒤에는 해설. */
@@ -2793,6 +2814,8 @@
      해설이 있든 없든 같은 걸음을 붙이려고 따로 뺐다. */
   function sdCta() {
     return '<div class="sd-cta">' +
+      (window.BCAsk && BCAsk.on
+        ? '<button class="btn ghost" id="go-ask">🙋 이 종목, AI에게 물어보기 →</button>' : '') +
       '<button class="btn ghost" data-go="my">💼 내 주식에 등록하기 →</button>' +
       '<button class="btn ghost" data-go="plan">🎯 얼마나 담을지 보기 →</button>' +
     '</div>';
@@ -3065,6 +3088,22 @@
 
   document.addEventListener('click', function (ev) {
     var el;
+
+    /* 물어보기 카드 안의 클릭은 그쪽이 먼저 본다 */
+    if (window.BCAsk && BCAsk.on && ev.target.closest('.ask') &&
+        BCAsk.click(ev.target, askCtx())) return;
+
+    /* 종목 해설 아래의 "물어보기"는 같은 화면 아래 칸으로 내려가는 것이다.
+       탭을 새로 만들지 않는다 — 탭이 늘면 어디서 뭘 하는지 흐려진다. */
+    if ((el = ev.target.closest('#go-ask'))) {
+      var box = document.querySelector('.view.is-on .ask');
+      if (box) {
+        box.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        var ta = document.getElementById('askq');
+        if (ta) setTimeout(function () { ta.focus(); }, 350);
+      }
+      return;
+    }
 
     /* 시장 전환 — 탭은 유지한다. 같은 화면을 시장별로 비교하는 게 목적이라
        전환할 때마다 첫 탭으로 돌아가면 비교가 끊긴다. */
@@ -3440,6 +3479,7 @@
   /* 숫자 입력은 타이핑 중 전체를 다시 그리면 커서가 튄다.
      입력 중에는 상태만 갱신하고, 포커스가 빠질 때(change) 다시 그린다. */
   document.addEventListener('input', function (ev) {
+    if (window.BCAsk && BCAsk.on && BCAsk.input(ev.target)) return;
     if (ev.target.id === 'seed') {
       var n = parseInt(ev.target.value, 10);
       if (n >= 10 && n <= 1000000) { state.profile.seed = n; save('profile', state.profile); }
@@ -3590,5 +3630,25 @@
      다시 돌고, render() 는 simAutoTick() 으로 시작하므로 모의계좌도 같이
      따라 움직인다 — 앱을 열어 둔 동안에는 그게 "계속 거래한다"의 실체다. */
   startLivePolling();
+
+  /* 물어보기가 답을 받아오면 지금 화면만 다시 그린다. 전체를 다시 그리면
+     질문 입력칸의 커서가 날아간다 — 실제로 그렇게 만들어 봤다가 글을 쓰다
+     말고 포커스를 잃었다. 그래서 알아보기 탭을 보고 있을 때만 그린다. */
+  if (window.BCAsk && BCAsk.on) {
+    BCAsk.onChange(function () {
+      if (current !== 'stock') return;
+      var host = document.getElementById('view-stock');
+      if (!host || !host.innerHTML) return;
+      var ta = document.getElementById('askq');
+      var focused = ta && document.activeElement === ta;
+      var pos = focused ? ta.selectionStart : 0;
+      host.innerHTML = renderStock();
+      if (focused) {
+        var t2 = document.getElementById('askq');
+        if (t2) { t2.focus(); try { t2.setSelectionRange(pos, pos); } catch (e) {} }
+      }
+    });
+  }
+
   initGate();
 })();
