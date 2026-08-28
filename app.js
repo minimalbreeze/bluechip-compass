@@ -2603,6 +2603,94 @@
     return h + '</div>';
   }
 
+  /* ══════════════════════════════════════════════════════════════════
+     "나라면 얼마나 담아야 하나" — 이 종목에 대한 내 답
+     ------------------------------------------------------------------
+     회원님이 예로 든 질문: "LG헬로비전 좀 살까 하는데, 그 회사 미래와 요즘
+     상황은 어떤지, 투자한다면 지금 시드로 얼마 정도가 좋은지, 아니면 안 하는
+     게 좋은지."
+
+     이 질문은 네 조각인데, 셋은 앱이 이미 아는 것으로 답할 수 있다.
+       · 뭐하는 회사인가        → 종목 해설 (위쪽 카드)
+       · 요즘 어떤가            → 오늘 기사 + 시장 국면 (📡 지금은)
+       · 얼마나 담나            → **여기.** 내 시드 × 목표 비중 = 산수다
+       · 할까 말까              → 여기. 다만 "이 앱의 기준으로는" 까지만
+
+     ⚠️ 넷째를 답하는 방식이 이 화면의 전부다. 이 앱은 매수·매도를 권하지
+        않는다(최상위 원칙). 그래서 "사세요/사지 마세요"라고 하지 않고,
+        **회원님이 이미 정한 성향과 시드에 이 종목을 넣으면 산수로 얼마가
+        되는지**를 보여준다. 예측이 아니라 계산이라 틀릴 여지가 없고,
+        결정은 회원님이 한다.
+
+        금액이 나온다고 해서 "이만큼 사라"가 아니다. 그 문구를 반드시
+        같이 적는다 — 숫자만 있으면 사람은 지시로 읽는다.               */
+  function fitHtml(mk, sel) {
+    if (!sel || !sel.t) return '';
+    var seed = state.profile.seed || 1000;                 /* 만원 단위 */
+    var model = simModel(mk);                              /* 지금 국면의 목표 배분 */
+    var inModel = null;
+    model.forEach(function (m) {
+      if (m.t && m.t.toUpperCase() === String(sel.t).toUpperCase()) inModel = m;
+    });
+    /* 이미 들고 있나 */
+    var mine = null;
+    (state.holdings[mk] || []).forEach(function (it) {
+      if (it.ticker && it.ticker.toUpperCase() === String(sel.t).toUpperCase()) mine = it;
+    });
+    var a = analyzeMarket(mk);
+    var mineRow = null;
+    if (mine) a.rows.forEach(function (r) { if (r.id === mine.id) mineRow = r; });
+
+    var h = '<div class="card fit">' +
+      '<div class="sd-h" style="margin-top:0">🧮 내 시드로는 얼마나</div>';
+
+    if (inModel) {
+      var amt = Math.round(seed * inModel.w / 100);
+      h += '<div class="fit-lead">지금 성향(<b>' + styleLabelOf(state.style) + '</b>)과 ' +
+        '국면(<b>' + M.labelRegime(regimeOf(mk)).full + '</b>)에서 이 종목은 ' +
+        '<b>목표 배분에 들어 있습니다.</b></div>' +
+        '<div class="fit-row"><span>목표 비중</span><b>' + inModel.w + '%</b></div>' +
+        '<div class="fit-row"><span>시드 ' + won(seed) + ' 기준</span><b>' + won(amt) + '</b></div>';
+      if (mineRow) {
+        var now = Math.round(a.grand * mineRow.weight / 100);
+        h += '<div class="fit-row"><span>지금 들고 있는 것</span><b>' + nMoney(mineRow.value, mk) +
+          ' · 비중 ' + mineRow.weight + '%</b></div>' +
+          '<div class="fit-note">' + (mineRow.weight > inModel.w + 1
+            ? '목표보다 <b>' + (mineRow.weight - inModel.w).toFixed(1) + '%p 많습니다.</b>'
+            : mineRow.weight < inModel.w - 1
+              ? '목표까지 <b>' + (inModel.w - mineRow.weight).toFixed(1) + '%p 남았습니다.</b>'
+              : '목표와 <b>거의 같습니다.</b> 그대로 두면 됩니다.') + '</div>';
+      }
+    } else {
+      var capAmt = Math.round(seed * H.cap / 100);
+      h += '<div class="fit-lead">이 종목은 지금 성향의 <b>목표 배분에 없습니다.</b> ' +
+        '나쁘다는 뜻이 아니라, 이 앱이 코어로 고른 자리가 아니라는 뜻입니다.</div>' +
+        '<div class="fit-row"><span>담는다면</span><b>위성 자리</b></div>' +
+        '<div class="fit-row"><span>한 종목 상한 ' + H.cap + '%</span><b>' + won(capAmt) + ' 까지</b></div>' +
+        '<div class="fit-note">코어(목표 배분)를 먼저 채우고 남는 돈으로 보는 자리입니다. ' +
+        '한 종목이 ' + H.cap + '%를 넘으면 그 회사 하나에 계획 전체가 걸립니다.</div>';
+    }
+
+    /* 이 앱의 기준으로는 어떤가 — 점수와 그 뜻만. 권유가 아니다. */
+    var card = stockCardOf(mk, sel.t);
+    if (card) {
+      var pct = total(card.d.scores), g = grade(pct);
+      var old = card.src !== 'pick' && (card.d.v || 1) < 2;
+      h += '<div class="fit-row"><span>' + (old ? '예전 50년 점수' : '10년 점수') + '</span>' +
+        '<b>' + g.code + ' · ' + pct + '점</b></div>' +
+        '<div class="fit-note">' + esc(g.desc) + '</div>';
+    } else {
+      h += '<div class="fit-note">이 종목은 아직 해설이 없어 점수를 매기지 않았습니다. ' +
+        '없는 판단을 지어내지 않습니다.</div>';
+    }
+
+    h += '<div class="fit-warn">위 금액은 <b>회원님이 정한 시드와 성향에 이 종목을 넣으면 ' +
+      '산수로 얼마가 되는지</b>일 뿐, 사라는 뜻이 아닙니다. ' +
+      '이 앱은 특정 종목의 매수·매도를 권하지 않습니다 — ' +
+      '<b>살지 말지는 회원님이 정하고, 그 결과도 회원님의 것</b>입니다.</div>';
+    return h + '</div>';
+  }
+
   function stockDetailHtml(mk, sel) {
     var card = stockCardOf(mk, sel.t);
     var price = priceIn(mk, sel.t);
@@ -2639,6 +2727,11 @@
           return '<a href="' + s.url + '" target="_blank" rel="noopener">' + esc(s.name) + ' ↗</a>';
         }).join('') + '</div>' +
       '</div>');
+      /* 해설이 없다고 화면을 여기서 끝내지 않는다 — "얼마나 담을까"는
+         해설과 상관없이 회원님의 시드와 성향만으로 답할 수 있고,
+         읽고 끝나는 화면을 만들지 않는 게 이 앱의 규칙이다. */
+      h.push(fitHtml(mk, sel));
+      h.push(sdCta());
       return h.join('');
     }
 
@@ -2691,12 +2784,18 @@
       }).join('') + '</div>' +
     '</div>');
 
-    /* 읽고 끝나는 화면을 만들지 않는다 — 다음 걸음을 붙인다 */
-    h.push('<div class="sd-cta">' +
+    h.push(fitHtml(mk, sel));
+    h.push(sdCta());
+    return h.join('');
+  }
+
+  /* 읽고 끝나는 화면을 만들지 않는다 — 다음 걸음을 붙인다.
+     해설이 있든 없든 같은 걸음을 붙이려고 따로 뺐다. */
+  function sdCta() {
+    return '<div class="sd-cta">' +
       '<button class="btn ghost" data-go="my">💼 내 주식에 등록하기 →</button>' +
       '<button class="btn ghost" data-go="plan">🎯 얼마나 담을지 보기 →</button>' +
-    '</div>');
-    return h.join('');
+    '</div>';
   }
 
   /* ══════════════════════════════════════════════════════════════════
