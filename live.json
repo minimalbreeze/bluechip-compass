@@ -1,27 +1,27 @@
 {
-  "asOf": "2026-08-28T06:12:55.201Z",
+  "asOf": "2026-08-28T06:33:57.153Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
-      "price": 6784.94,
+      "price": 6796.06,
       "prev": 6912.3701171875,
-      "chg": -1.84,
+      "chg": -1.68,
       "basis": "prev-daily-close",
-      "time": "2026-08-28T05:51:40.000Z"
+      "time": "2026-08-28T06:13:00.000Z"
     },
     "^KQ11": {
-      "price": 835.19,
+      "price": 837.71,
       "prev": 837.6500244140625,
-      "chg": -0.29,
+      "chg": 0.01,
       "basis": "prev-daily-close",
-      "time": "2026-08-28T05:51:40.000Z"
+      "time": "2026-08-28T06:13:00.000Z"
     },
     "KRW=X": {
-      "price": 1372.28,
+      "price": 1372.48,
       "prev": 1383.489990234375,
-      "chg": -0.81,
+      "chg": -0.8,
       "basis": "prev-daily-close",
-      "time": "2026-08-28T06:11:43.000Z"
+      "time": "2026-08-28T06:33:07.000Z"
     },
     "^GSPC": {
       "price": 7730.99,
@@ -53,31 +53,31 @@
     }
   },
   "fx": {
-    "low52": 1372.28,
+    "low52": 1372.48,
     "high52": 1554.48,
     "pct": 0
   },
   "hist": {
     "^KS11": {
-      "last": 6784.94,
+      "last": 6796.06,
       "low52": 3142.93,
       "high52": 9114.55,
-      "pct52": 0.61,
-      "chg3m": -19.95
+      "pct52": 0.612,
+      "chg3m": -19.82
     },
     "^KQ11": {
-      "last": 835.19,
+      "last": 837.71,
       "low52": 644.78,
       "high52": 1226.18,
-      "pct52": 0.328,
-      "chg3m": -22.29
+      "pct52": 0.332,
+      "chg3m": -22.06
     },
     "KRW=X": {
-      "last": 1372.28,
-      "low52": 1372.28,
+      "last": 1372.48,
+      "low52": 1372.48,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -9.52
+      "chg3m": -9.5
     },
     "^GSPC": {
       "last": 7730.99,
@@ -110,16 +110,16 @@
   },
   "regime": {
     "by": "ai",
-    "asOf": "2026-08-28T06:12:19.651Z",
+    "asOf": "2026-08-28T06:33:47.157Z",
     "kr": {
       "why": {
-        "rates": "제시된 금리 지표는 미국 10년물(^TNX 4.67, 1년범위 91% 위치, 3개월 +4.92%)뿐이어서 한국 정책금리 방향을 판단할 근거가 약해 중립값(hold)으로 둡니다.",
-        "growth": "코스피가 3개월 -19.95% 급락했지만 1년범위(3142.93~9114.55) 내 61% 위치를 유지하고 ^VIX도 14.51(6% 위치)로 낮아, 침체 확정보다는 둔화 국면으로 봅니다.",
-        "valuation": "^KS11 6784.94는 1년범위에서 61% 위치이고 최근 3개월 -19.95%로 되돌림이 있었어 고평가·저평가 어느 쪽도 뚜렷하지 않은 보통 수준입니다.",
-        "fx": "KRW=X 1372.28은 1년범위(1372.28~1554.48)의 0% 위치이고 3개월 -9.52%로, 원화가 1년 중 가장 강한 쪽입니다.",
-        "geo": "헤드라인이 지역 건설·증권사 행사 등 국내 일반 소식에 그치고 ^VIX 14.51(1년범위 6% 위치)로 낮아 긴장 신호가 보이지 않습니다."
+        "rates": "제시된 금리 지표는 미국 10년물(^TNX 4.67, 1년범위 위치 91%, 3개월 +4.92%)뿐이고 한국 정책금리 자료가 없어 근거가 약하므로 중립값(hold)으로 둡니다.",
+        "growth": "^KS11이 3개월간 -19.82% 급락했지만 현재 6796.06으로 1년범위 위치 61%를 유지하고 있어 침체 확정보다는 둔화 국면으로 봅니다.",
+        "valuation": "코스피가 1년범위 위치 61%로 중간보다 약간 위이면서 3개월 -19.82% 조정을 거친 상태라 싸지도 비싸지도 않은 보통 수준입니다.",
+        "fx": "KRW=X가 1372.48로 1년범위 최저(위치 0%)이고 3개월 -9.5%로 원화가 뚜렷하게 강해진 모습입니다.",
+        "geo": "^VIX 14.51(1년범위 위치 6%)로 변동성이 매우 낮고 헤드라인도 유상증자·ETF 순환매·투자설명회 등 일상적 소식에 그칩니다."
       },
-      "summary": "원화는 1년 중 가장 강하고 변동성 지표(VIX 14.51)는 낮은데, 코스피만 3개월 -19.95%로 크게 밀린 상태입니다. 즉 시장 공포가 커진 국면은 아니지만 국내 주식 쪽 흐름은 둔화된 모습으로 분류됩니다.",
+      "summary": "원화는 1년 내 최강 수준(1372.48)이고 변동성 지표는 매우 낮지만, 코스피는 3개월간 -19.82% 조정을 받아 경기 둔화 신호가 남아 있는 국면입니다. 금리 방향은 한국 자료가 없어 판단을 보류했습니다.",
       "rates": "hold",
       "growth": "slow",
       "valuation": "fair",
@@ -128,13 +128,13 @@
     },
     "us": {
       "why": {
-        "rates": "^TNX가 4.67로 1년범위(3.95~4.74)의 91% 위치이고 3개월 +4.92% 상승했으며, 헤드라인에서 Fed 인사가 금리 인상에 대해 '지금이 행동할 때'라고 언급하고 코어 물가가 전년 대비 3.3%로 나와 인상 쪽 압력이 읽힙니다.",
-        "growth": "^GSPC 7730.99가 1년범위의 95% 위치에 있고 3개월 +1.99%로 상승세를 유지해, 주택시장 우려 헤드라인이 있어도 현재 지표상으로는 확장 국면입니다.",
-        "valuation": "^GSPC가 1년범위(6343.72~7798.99) 상단 95% 위치까지 올라와 있어 가격 부담이 큰 편으로 분류합니다.",
-        "fx": "KRW=X 1372.28이 1년범위 0% 위치(3개월 -9.52%)로, 원/달러 기준으로는 달러가 약하고 원화가 강한 상태입니다.",
-        "geo": "^VIX 14.51은 1년범위 13.47~31.05의 6% 위치로 낮고, 헤드라인도 개별 기업·물가 지표 위주라 충격성 사건은 확인되지 않습니다."
+        "rates": "^TNX가 4.67로 1년범위 위치 91%까지 올라오고 3개월 +4.92%인 가운데, 연준 해먹 위원의 '지금이 (인상) 행동할 때' 발언과 7월 코어 물가 전년비 3.3% 헤드라인이 긴축 방향을 가리킵니다.",
+        "growth": "^GSPC가 7730.99로 1년범위 위치 95%, 3개월 +1.99% 상승세를 유지하고 ^VIX 14.51로 낮아 경기 위축 신호는 보이지 않습니다.",
+        "valuation": "S&P500이 1년범위 상단 근처인 위치 95%(7798.99가 고점)에 있어 가격 부담이 큰 편으로 분류합니다.",
+        "fx": "원/달러가 1372.48로 1년범위 위치 0%, 3개월 -9.5%여서 달러 대비 원화 강세(달러 약세) 상태입니다.",
+        "geo": "^VIX 14.51(1년범위 위치 6%)로 매우 안정적이고 개별 기업·금융 상식 위주 헤드라인이라 충격 징후는 없으나, 연준 인상 발언은 정책 변수로 남아 있습니다."
       },
-      "summary": "미국 주가는 1년 고점 근처(95% 위치)이고 변동성은 낮지만, 국채금리가 4.67%로 1년 중 가장 높은 수준까지 오르며 금리 인상 쪽 이야기가 나오는 국면입니다. 경기 지표는 아직 괜찮게 분류되지만 가격 부담은 높은 상태입니다.",
+      "summary": "주가지수는 1년 고점권(위치 95%)이고 변동성은 낮은데, 코어 물가 3.3%와 국채금리 4.67% 상승으로 금리는 조이는 쪽을 향하는 국면입니다. 즉 분위기는 차분하지만 가격은 비싼 편으로 분류됩니다.",
       "rates": "hike",
       "growth": "expand",
       "valuation": "rich",
@@ -145,95 +145,95 @@
   "stocks": {
     "kr": {
       "105560": {
-        "price": 170900,
+        "price": 171200,
         "prev": 168100,
-        "chg": 1.67,
+        "chg": 1.84,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T05:51:49.000Z"
+        "time": "2026-08-28T06:13:13.000Z"
       },
       "207940": {
-        "price": 1482000,
+        "price": 1488000,
         "prev": 1594000,
-        "chg": -7.03,
+        "chg": -6.65,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T05:51:50.000Z"
+        "time": "2026-08-28T06:13:13.000Z"
       },
       "005930": {
-        "price": 256750,
+        "price": 257000,
         "prev": 266000,
-        "chg": -3.48,
+        "chg": -3.38,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T05:51:49.000Z"
+        "time": "2026-08-28T06:13:14.000Z"
       },
       "000660": {
-        "price": 1671000,
+        "price": 1666000,
         "prev": 1730000,
-        "chg": -3.41,
+        "chg": -3.7,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T05:51:50.000Z"
+        "time": "2026-08-28T06:13:14.000Z"
       },
       "005380": {
-        "price": 398000,
+        "price": 399000,
         "prev": 398000,
-        "chg": 0,
+        "chg": 0.25,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T05:51:49.000Z"
+        "time": "2026-08-28T06:13:09.000Z"
       },
       "055550": {
-        "price": 109250,
+        "price": 109400,
         "prev": 108800,
-        "chg": 0.41,
+        "chg": 0.55,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T05:51:50.000Z"
+        "time": "2026-08-28T06:13:14.000Z"
       },
       "000810": {
-        "price": 685000,
+        "price": 686000,
         "prev": 682000,
-        "chg": 0.44,
+        "chg": 0.59,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T05:51:48.000Z"
+        "time": "2026-08-28T06:13:08.000Z"
       },
       "033780": {
-        "price": 175600,
+        "price": 175400,
         "prev": 174500,
-        "chg": 0.63,
+        "chg": 0.52,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T05:51:49.000Z"
+        "time": "2026-08-28T06:13:12.000Z"
       },
       "035420": {
-        "price": 219000,
+        "price": 219500,
         "prev": 216500,
-        "chg": 1.15,
+        "chg": 1.39,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T05:51:49.000Z"
+        "time": "2026-08-28T06:13:11.000Z"
       },
       "005490": {
-        "price": 336000,
+        "price": 337000,
         "prev": 339500,
-        "chg": -1.03,
+        "chg": -0.74,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T05:51:48.000Z"
+        "time": "2026-08-28T06:13:09.000Z"
       },
       "028260": {
-        "price": 373000,
+        "price": 375000,
         "prev": 375500,
-        "chg": -0.67,
+        "chg": -0.13,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T05:51:50.000Z"
+        "time": "2026-08-28T06:13:12.000Z"
       },
       "012450": {
-        "price": 1150000,
+        "price": 1151000,
         "prev": 1150000,
-        "chg": 0,
+        "chg": 0.09,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T05:51:49.000Z"
+        "time": "2026-08-28T06:13:14.000Z"
       },
       "017670": {
-        "price": 97800,
+        "price": 98600,
         "prev": 99100,
-        "chg": -1.31,
+        "chg": -0.5,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T05:51:49.000Z"
+        "time": "2026-08-28T06:13:13.000Z"
       }
     },
     "us": {
@@ -333,25 +333,25 @@
   "news": {
     "kr": [
       {
-        "title": "완주군, 공공기관에 '지역 건설업체·자재 활용' 요청",
-        "link": "https://www.yna.co.kr/view/AKR20260828111100055",
+        "title": "일월지엠엘, 30억원 제3자배정 유상증자",
+        "link": "https://www.yna.co.kr/view/AKR20260828114800008",
         "source": "연합뉴스",
-        "date": "Fri, 28 Aug 2026 14:58:08 +0900",
-        "act": "none",
+        "date": "Fri, 28 Aug 2026 15:13:11 +0900",
+        "act": "watch",
         "lasting": "temporary",
-        "scope": "sector",
-        "why": "지자체의 지역업체 활용 요청으로, 기업 장기 이익과는 거리가 먼 사안입니다.",
+        "scope": "company",
+        "why": "제3자배정 증자는 지분 희석 요인이라 자금 사용처를 확인해 볼 만합니다.",
         "by": "ai"
       },
       {
-        "title": "다시 반도체 대형주로 몰리는 투심?...초고수는 '이 종목' 가장 많이 담았다",
-        "link": "https://www.hankyung.com/article/202608288940i",
+        "title": "반도체·방산·원전 다 담았네…순환매서 웃은 전략산업 ETF",
+        "link": "https://www.hankyung.com/article/202608289243i",
         "source": "한국경제",
-        "date": "Fri, 28 Aug 2026 11:00:13 +0900",
+        "date": "Fri, 28 Aug 2026 14:59:32 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "sector",
-        "why": "단기 수급과 매매 동향 소개로 투자 근거와는 별개입니다.",
+        "scope": "market",
+        "why": "순환매 흐름을 정리한 시황성 기사로 장기 이익과는 무관합니다.",
         "by": "ai"
       },
       {
@@ -366,25 +366,25 @@
         "by": "ai"
       },
       {
-        "title": "광주은행, 서울 가산디지털단지에 '외국인금융센터' 열어",
-        "link": "https://www.yna.co.kr/view/AKR20260828101500054",
+        "title": "부천시, 인도네시아서 의료기관·기업 진출 확대 모색",
+        "link": "https://www.yna.co.kr/view/AKR20260828115000065",
         "source": "연합뉴스",
-        "date": "Fri, 28 Aug 2026 14:23:44 +0900",
+        "date": "Fri, 28 Aug 2026 15:08:44 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
-        "why": "점포 한 곳 개설 소식으로 장기 이익엔 영향이 작습니다.",
+        "scope": "sector",
+        "why": "지자체 해외 협력 단계로 실적 변화로 이어질지는 아직 알 수 없습니다.",
         "by": "ai"
       },
       {
-        "title": "키움증권, 서울대기술지주와 유망기업 발굴 '맞손'",
-        "link": "https://www.hankyung.com/article/202608289032i",
+        "title": "코스피 7000 재돌파할까…다음주 증시 향방 가를 3대 변수는?",
+        "link": "https://www.hankyung.com/article/202608289441i",
         "source": "한국경제",
-        "date": "Fri, 28 Aug 2026 10:48:57 +0900",
+        "date": "Fri, 28 Aug 2026 14:55:48 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
-        "why": "업무 협약 단계로 실적 영향은 아직 확인되지 않습니다.",
+        "scope": "market",
+        "why": "다음 주 지수 전망은 예측성 기사라 오늘 할 일은 없습니다.",
         "by": "ai"
       },
       {
@@ -461,15 +461,15 @@
         "by": "ai"
       },
       {
-        "title": "Will the housing market crash in 2026? What the economy says",
-        "link": "https://finance.yahoo.com/personal-finance/mortgages/article/will-the-housing-market-crash-in-2026-what-the-economy-says-170038540.html",
+        "title": "Tesla Just Lost Its Top Chip Engineer to Another Firm. Consider It a Manageable Setback for TSLA Stock.",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-just-lost-top-chip-183304321.html",
         "source": "Yahoo Finance",
-        "date": "2024-07-05T17:00:38Z",
-        "ko": "2026년 주택 시장이 붕괴될까요? 경제가 말하는 것",
+        "date": "2026-08-26T18:33:04Z",
+        "ko": "테슬라는 다른 회사에 최고의 칩 엔지니어를 잃었습니다. TSLA 주식에 대한 관리 가능한 차질이라고 생각하십시오.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
-        "why": "확정된 사실이 아닌 전망성 기사라 오늘 할 일은 없습니다.",
+        "scope": "company",
+        "why": "핵심 인력 이탈은 아쉽지만 사업 구조나 투자 근거를 바꾸는 사건은 아닙니다.",
         "by": "ai"
       }
     ]
@@ -639,7 +639,8 @@
     "Ahead of Marvell Technology Earnings, Here's What Barchart Data Says Comes Next for MRVL Stock": "Marvell 기술 실적을 앞두고 MRVL 주식에 대한 Barchart 데이터의 다음 내용은 다음과 같습니다.",
     "Ferrari (RACE) vs. Tesla (TSLA): Ferrari’s $40M EV Record Shows How Luxury Scarcity Beats Tesla’s Mass-Market Volume": "Ferrari (RACE) vs. Tesla (TSLA): Ferrari의 $40M EV 기록은 럭셔리 희소성이 Tesla의 대량 시장 볼륨을 능가하는 방법을 보여줍니다.",
     "NVIDIA Corporation (NVDA) & Blackstone (BX): Nvidia Wants Wall Street to Lend Against AI Chips Like They’re Mortgages": "엔비디아 코퍼레이션 (NVDA) 및 블랙스톤 (BX): 엔비디아는 월스트리트가 인공지능 칩을 모기지처럼 빌려주기를 원합니다.",
-    "Will the housing market crash in 2026? What the economy says": "2026년 주택 시장이 붕괴될까요? 경제가 말하는 것"
+    "Will the housing market crash in 2026? What the economy says": "2026년 주택 시장이 붕괴될까요? 경제가 말하는 것",
+    "Tesla Just Lost Its Top Chip Engineer to Another Firm. Consider It a Manageable Setback for TSLA Stock.": "테슬라는 다른 회사에 최고의 칩 엔지니어를 잃었습니다. TSLA 주식에 대한 관리 가능한 차질이라고 생각하십시오."
   },
   "nvCache": {
     "https://www.yna.co.kr/view/AKR20260824137251008": {
@@ -1704,6 +1705,41 @@
       "lasting": "temporary",
       "scope": "market",
       "why": "확정된 사실이 아닌 전망성 기사라 오늘 할 일은 없습니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20260828114800008": {
+      "act": "watch",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "제3자배정 증자는 지분 희석 요인이라 자금 사용처를 확인해 볼 만합니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/202608289243i": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "순환매 흐름을 정리한 시황성 기사로 장기 이익과는 무관합니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20260828115000065": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "sector",
+      "why": "지자체 해외 협력 단계로 실적 변화로 이어질지는 아직 알 수 없습니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/202608289441i": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "다음 주 지수 전망은 예측성 기사라 오늘 할 일은 없습니다.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/markets/stocks/articles/tesla-just-lost-top-chip-183304321.html": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "핵심 인력 이탈은 아쉽지만 사업 구조나 투자 근거를 바꾸는 사건은 아닙니다.",
       "by": "ai"
     }
   },
