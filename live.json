@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-28T09:17:53.616Z",
+  "asOf": "2026-08-28T10:19:02.322Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -7,21 +7,21 @@
       "prev": 6912.3701171875,
       "chg": -1.79,
       "basis": "prev-daily-close",
-      "time": "2026-08-28T06:32:50.000Z"
+      "time": "2026-08-28T09:05:40.000Z"
     },
     "^KQ11": {
       "price": 838.41,
       "prev": 837.6500244140625,
       "chg": 0.09,
       "basis": "prev-daily-close",
-      "time": "2026-08-28T06:33:00.000Z"
+      "time": "2026-08-28T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1371.89,
+      "price": 1371.82,
       "prev": 1383.489990234375,
       "chg": -0.84,
       "basis": "prev-daily-close",
-      "time": "2026-08-28T09:17:02.000Z"
+      "time": "2026-08-28T10:18:06.000Z"
     },
     "^GSPC": {
       "price": 7730.99,
@@ -38,11 +38,11 @@
       "time": "2026-08-27T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 14.5,
+      "price": 14.48,
       "prev": 14.510000228881836,
-      "chg": -0.07,
+      "chg": -0.21,
       "basis": "prev-daily-close",
-      "time": "2026-08-28T09:02:01.000Z"
+      "time": "2026-08-28T10:03:01.000Z"
     },
     "^TNX": {
       "price": 4.672,
@@ -53,7 +53,7 @@
     }
   },
   "fx": {
-    "low52": 1371.89,
+    "low52": 1371.82,
     "high52": 1554.48,
     "pct": 0
   },
@@ -73,11 +73,11 @@
       "chg3m": -21.99
     },
     "KRW=X": {
-      "last": 1371.89,
-      "low52": 1371.89,
+      "last": 1371.82,
+      "low52": 1371.82,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -9.54
+      "chg3m": -9.55
     },
     "^GSPC": {
       "last": 7730.99,
@@ -94,11 +94,11 @@
       "chg3m": -1.6
     },
     "^VIX": {
-      "last": 14.5,
+      "last": 14.48,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.059,
-      "chg3m": -9.66
+      "pct52": 0.057,
+      "chg3m": -9.78
     },
     "^TNX": {
       "last": 4.67,
@@ -110,16 +110,16 @@
   },
   "regime": {
     "by": "ai",
-    "asOf": "2026-08-28T09:17:44.267Z",
+    "asOf": "2026-08-28T10:18:49.720Z",
     "kr": {
       "why": {
-        "rates": "제시된 금리 지표는 미국 10년물(^TNX) 4.67로 1년범위 상단(위치 91%)이며 3개월간 +4.92% 올라 금리 상승 압력이 이어지는 모습이나, 한국은행 정책금리 자료는 주어지지 않아 이 판정은 장기금리 지표에 의존한 것입니다.",
-        "growth": "코스피가 3개월간 -19.91% 하락해 6800선을 내주고 백화점주가 두 달 만에 반토막 났다는 헤드라인이 있으나, 지수 위치는 여전히 1년범위의 61%이고 VIX가 14.5로 낮아 침체 신호까지는 근거가 약해 둔화로 봅니다.",
-        "valuation": "현재 6788.88은 1년범위 3142.93~9114.55의 61% 지점으로 고점 대비 조정을 받았지만 하단과도 거리가 있어 보통 수준입니다.",
-        "fx": "원/달러가 1371.89로 1년범위(1371.89~1554.48)의 0% 지점이자 3개월간 -9.54% 하락해 원화가 뚜렷한 강세입니다.",
-        "geo": "VIX가 14.5로 1년범위의 6% 수준이고 제시된 헤드라인은 상장·증자·업종 이슈 중심이라 긴장 요인이 확인되지 않습니다."
+        "rates": "제시된 금리 지표인 미 10년물(^TNX)이 4.67로 1년 범위의 91% 지점이고 3개월간 +4.92% 올라 금리가 위로 향하는 국면으로 봅니다(한국 기준금리 자료는 주어지지 않음).",
+        "growth": "코스피가 3개월 -19.91%로 크게 밀리며 6800선을 하회했지만, 1년 범위 내 위치는 여전히 61%이고 VIX도 14.48로 낮아 침체 확정보다는 둔화로 분류합니다.",
+        "valuation": "PER 등 밸류에이션 지표가 주어지지 않았고 지수 위치가 1년 범위의 61%로 중간대여서 근거가 약해 중립인 fair로 둡니다.",
+        "fx": "원/달러가 1371.82로 1년 범위의 0%(최저 구간), 3개월 -9.55%여서 원화가 뚜렷이 강해진 상태입니다.",
+        "geo": "헤드라인에 트럼프의 중국 제재 언급이 있으나 구체적 충격 사건은 없고 VIX가 14.48로 1년 범위의 6%에 머물러 시장이 반영하는 긴장은 낮습니다."
       },
-      "summary": "원화는 강해졌지만 코스피는 3개월간 약 20% 밀려 지수 자체는 힘이 빠진 국면입니다. 다만 변동성 지표(VIX 14.5)는 낮아 시장이 공포에 빠진 상태는 아닙니다.",
+      "summary": "원화는 1371.82로 1년 최저 구간까지 강해졌지만 코스피는 3개월 -19.91%로 반도체 쏠림 속에 크게 조정받은 상태입니다. 금리 지표는 위쪽을 보고 있고 변동성(VIX 14.48)은 낮아, 공포보다는 성장 둔화가 가격에 반영되는 국면으로 분류합니다.",
       "rates": "hike",
       "growth": "slow",
       "valuation": "fair",
@@ -128,18 +128,18 @@
     },
     "us": {
       "why": {
-        "rates": "연준 해맥 위원이 '지금이 금리 인상에 행동할 때'라고 언급했고 근원 물가가 전년비 3.3% 상승한 가운데 10년물(^TNX)이 4.67로 1년범위의 91%, 3개월간 +4.92%로 올랐습니다.",
-        "growth": "S&P500이 7730.99로 1년범위의 95% 지점이고 3개월간 +1.99% 상승해 시장이 반영하는 경기 상태는 아직 양호하며, 주택시장 우려 헤드라인은 질문 형태라 확정적 침체 근거로 보기 어렵습니다.",
-        "valuation": "현재 7730.99는 1년 고점 7798.99에 근접한 위치 95%로 밴드 상단권이라 비싼 편으로 분류합니다.",
-        "fx": "원/달러 1371.89는 1년범위의 0% 지점이고 3개월간 -9.54%로, 달러 대비 원화가 강세인 상태입니다.",
-        "geo": "VIX가 14.5로 1년범위의 6%에 머물고 제시된 헤드라인은 개별 기업·물가 이슈 중심이라 지정학적 충격 근거는 없습니다."
+        "rates": "Fed 해맥이 '금리 인상, 지금이 행동할 때'라고 언급했고 코어 인플레이션이 전년비 3.3%, 10년물 금리는 4.67로 1년 범위 91% 지점이어서 긴축 방향으로 봅니다.",
+        "growth": "S&P500이 7730.99로 1년 범위의 95% 지점이며 3개월 +1.99%로 상승 흐름을 유지해 경기 지표상 위축 신호는 보이지 않습니다.",
+        "valuation": "지수가 1년 고점권(범위 위치 95%)에 있어 가격 부담이 큰 구간으로 분류하며, 별도 이익·PER 자료는 주어지지 않았습니다.",
+        "fx": "제시된 환율은 원/달러 1371.82(1년 범위 0%, 3개월 -9.55%) 하나뿐이며, 이는 달러 대비 원화 강세를 뜻합니다.",
+        "geo": "'이란 전쟁 6개월'과 유가 경로 분열 언급이 있어 긴장 요인이 남아 있으나, VIX가 14.48(1년 범위 6%)로 낮아 충격 단계는 아닙니다."
       },
-      "summary": "미국 증시는 1년 고점 부근(위치 95%)에 있고 변동성도 낮지만, 근원물가 3.3%와 금리 인상 발언으로 금리 부담이 함께 커진 국면입니다. 즉 '주가는 높고 금리도 높은' 상태로 이해하면 됩니다.",
+      "summary": "미국 증시는 S&P500이 1년 고점권(위치 95%)에 머물러 경기 자체는 양호하지만 가격은 비싼 편입니다. 다만 코어 물가 3.3%와 10년물 4.67% 등 금리 압력, 중동 관련 긴장이 함께 있는 국면입니다.",
       "rates": "hike",
       "growth": "expand",
       "valuation": "rich",
       "fx": "strong",
-      "geo": "calm"
+      "geo": "tense"
     }
   },
   "stocks": {
@@ -333,6 +333,39 @@
   "news": {
     "kr": [
       {
+        "title": "[부고] 이귀원(연합뉴스 증권부장)씨 부친상",
+        "link": "https://www.yna.co.kr/view/AKR20260828163300008",
+        "source": "연합뉴스",
+        "date": "Fri, 28 Aug 2026 18:28:04 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "투자 판단과 무관한 부고 기사입니다.",
+        "by": "ai"
+      },
+      {
+        "title": "삼전닉스 쏠림장의 역설…흑자기업도 증시 퇴출 위기",
+        "link": "https://www.hankyung.com/article/2026082800541",
+        "source": "한국경제",
+        "date": "Fri, 28 Aug 2026 18:16:15 +0900",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": "market",
+        "why": "대형주 쏠림과 상장 유지 요건은 시장 구조 이슈라 흐름만 지켜보면 됩니다.",
+        "by": "ai"
+      },
+      {
+        "title": "엔비디아 6분기째 어닝 서프라이즈…트럼프의 중국 제재와 삼전닉스의 복잡한 함수 [플러스 관심 종목]",
+        "link": "https://www.mk.co.kr/news/business/12139125",
+        "source": "매일경제",
+        "date": "Fri, 28 Aug 2026 19:01:39 +09:00",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": "sector",
+        "why": "해외 규제 변수는 반도체 업황에 오래 남을 수 있어 관찰 대상입니다.",
+        "by": "ai"
+      },
+      {
         "title": "DB손보 \"2030년 주주환원율 50%로 확대…배당 매년 10% 이상↑\"",
         "link": "https://www.yna.co.kr/view/AKR20260828153700002",
         "source": "연합뉴스",
@@ -344,14 +377,14 @@
         "by": "ai"
       },
       {
-        "title": "코스닥 상폐 피하려고…'低시총 기업' 유상증자 주의보",
-        "link": "https://www.hankyung.com/article/202608289804i",
+        "title": "국민연금 수익률 '역대 최고'…상반기 韓주식으로 107% 벌어",
+        "link": "https://www.hankyung.com/article/2026082800551",
         "source": "한국경제",
-        "date": "Fri, 28 Aug 2026 16:41:12 +0900",
+        "date": "Fri, 28 Aug 2026 18:13:32 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "소형 종목 일반론 주의 보도이며 개별 근거를 흔들 내용은 아닙니다.",
+        "why": "지나간 기간의 수익률 집계라 앞으로의 이익을 바꾸지는 않습니다.",
         "by": "ai"
       },
       {
@@ -363,39 +396,6 @@
         "lasting": "temporary",
         "scope": "sector",
         "why": "업종 주가 단기 약세일 뿐 장기 수익구조 변화로 보긴 어렵습니다.",
-        "by": "ai"
-      },
-      {
-        "title": "다비오·하나에어로다이내믹스 코스닥시장 상장예심 통과",
-        "link": "https://www.yna.co.kr/view/AKR20260828155700008",
-        "source": "연합뉴스",
-        "date": "Fri, 28 Aug 2026 17:40:22 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "신규 상장 절차 소식으로 보유 기업 이익과는 무관합니다.",
-        "by": "ai"
-      },
-      {
-        "title": "두 달 만에 반토막 난 백화점주…\"주식 자산효과 끝물, 다음 모멘텀은 2027년\"",
-        "link": "https://www.hankyung.com/article/202608289340i",
-        "source": "한국경제",
-        "date": "Fri, 28 Aug 2026 16:38:13 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "sector",
-        "why": "주가 급락과 전망 코멘트일 뿐, 업종 구조가 바뀐 신호는 아닙니다.",
-        "by": "ai"
-      },
-      {
-        "title": "초고수 오후에도 삼성전기 담아…바이오주도 관심[주식 초고수는 지금]",
-        "link": "https://www.mk.co.kr/news/stock/12138870",
-        "source": "매일경제",
-        "date": "Fri, 28 Aug 2026 15:45:20 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "단기 매매 동향 소개일 뿐 기업의 장기 실적과는 무관합니다.",
         "by": "ai"
       }
     ],
@@ -413,15 +413,15 @@
         "by": "ai"
       },
       {
-        "title": "Marvell Technology shares slump as investors question Google deal. Here’s what Wall Street is saying.",
-        "link": "https://www.marketwatch.com/story/marvell-technology-shares-slump-as-investors-question-google-deal-heres-what-wall-street-is-saying-d69d8e0c?mod=mw_rss_topstories",
+        "title": "My mother, 91, has dementia. Every bank says I need her signature to unlock her $100,000 stock certificate. What can I do?",
+        "link": "https://www.marketwatch.com/story/my-mother-91-has-dementia-every-bank-says-i-need-her-signature-to-unlock-her-100-000-stock-certificate-what-can-i-do-4a2b702f?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Fri, 28 Aug 2026 09:05:00 GMT",
-        "ko": "Marvell Technology 주식은 투자자들이 Google 거래에 의문을 제기함에 따라 부진합니다. 월스트리트는 이렇게 말합니다.",
-        "act": "watch",
+        "date": "Fri, 28 Aug 2026 10:15:00 GMT",
+        "ko": "91세인 어머니는 치매를 앓고 계십니다. 모든 은행에서 $100,000의 주식 증서를 잠금 해제하려면 그녀의 서명이 필요하다고 말합니다. 어떻게 해야 하나요?",
+        "act": "none",
         "lasting": "temporary",
-        "scope": "company",
-        "why": "대형 고객 계약에 대한 시장 의문 제기 단계로, 실제 실적 변화는 아직 확인되지 않았습니다.",
+        "scope": "market",
+        "why": "개인 상속·명의 관련 사연으로 투자 판단과 직접 관련이 없습니다.",
         "by": "ai"
       },
       {
@@ -449,27 +449,27 @@
         "by": "ai"
       },
       {
-        "title": "Marvell boosts its forecasts, but the stock slides as Wall Street wonders if there’s more to the story",
-        "link": "https://www.marketwatch.com/story/marvell-is-boosting-its-forecasts-but-thats-not-enough-to-lift-its-stock-c769556a?mod=mw_rss_topstories",
+        "title": "On the six-month anniversary of the Iran war, divisions appear on Wall Street over the trajectory for oil prices",
+        "link": "https://www.marketwatch.com/story/on-the-six-month-anniversary-of-the-iran-war-divisions-appear-on-wall-street-over-the-trajectory-for-oil-prices-c27c07aa?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Fri, 28 Aug 2026 00:20:00 GMT",
-        "ko": "Marvell은 예측을 높이지만 월스트리트가 더 많은 이야기가 있는지 궁금해하면서 주가가 미끄러집니다.",
-        "act": "none",
+        "date": "Fri, 28 Aug 2026 09:28:00 GMT",
+        "ko": "이란 전쟁 6 개월 기념일에, 분열은 유가를위한 궤도를 통해 월스트리트에 나타납니다.",
+        "act": "watch",
         "lasting": "temporary",
-        "scope": "company",
-        "why": "실적 전망 상향에도 주가가 흔들린 단기 기대치 조정으로 보입니다.",
+        "scope": "market",
+        "why": "지정학 긴장과 유가 변동은 대체로 일시적 흔들림입니다.",
         "by": "ai"
       },
       {
-        "title": "Will the housing market crash in 2026? What the economy says",
-        "link": "https://finance.yahoo.com/personal-finance/mortgages/article/will-the-housing-market-crash-in-2026-what-the-economy-says-170038540.html",
+        "title": "Mortgage rate predictions through 2030: Economic factors at plays",
+        "link": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-rate-predictions-through-2030-economic-factors-at-plays-195826935.html",
         "source": "Yahoo Finance",
-        "date": "2024-07-05T17:00:38Z",
-        "ko": "2026년 주택 시장이 붕괴될까요? 경제가 말하는 것",
+        "date": "2025-08-18T19:58:26Z",
+        "ko": "2030년까지의 주택담보대출 금리 예측: PLAYS의 경제적 요인",
         "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "확정된 사실이 아닌 전망성 기사라 오늘 할 일은 없습니다.",
+        "lasting": "structural",
+        "scope": "sector",
+        "why": "장기 금리 전망은 예측일 뿐, 오늘 할 일은 없습니다.",
         "by": "ai"
       }
     ]
@@ -644,7 +644,9 @@
     "Novavax Stock Pulls Back After Milestone Vaccine Success": "노바백스 주식, 마일스톤 백신 성공 후 철수",
     "Five Things to Watch in Nvidia’s Earnings": "엔비디아 수입에서 주의해야 할 5가지 사항",
     "Meta Stock Rises As $18 Billion Teen Social Media Settlement Addresses 'Major Overhang'": "$180억 십대 소셜 미디어 결제가 '주요 오버행' 을 해결함에 따라 메타 주식이 상승합니다.",
-    "Marvell Technology shares slump as investors question Google deal. Here’s what Wall Street is saying.": "Marvell Technology 주식은 투자자들이 Google 거래에 의문을 제기함에 따라 부진합니다. 월스트리트는 이렇게 말합니다."
+    "Marvell Technology shares slump as investors question Google deal. Here’s what Wall Street is saying.": "Marvell Technology 주식은 투자자들이 Google 거래에 의문을 제기함에 따라 부진합니다. 월스트리트는 이렇게 말합니다.",
+    "On the six-month anniversary of the Iran war, divisions appear on Wall Street over the trajectory for oil prices": "이란 전쟁 6 개월 기념일에, 분열은 유가를위한 궤도를 통해 월스트리트에 나타납니다.",
+    "Mortgage rate predictions through 2030: Economic factors at plays": "2030년까지의 주택담보대출 금리 예측: PLAYS의 경제적 요인"
   },
   "nvCache": {
     "https://www.yna.co.kr/view/AKR20260824137251008": {
@@ -1870,6 +1872,48 @@
       "lasting": "temporary",
       "scope": "company",
       "why": "대형 고객 계약에 대한 시장 의문 제기 단계로, 실제 실적 변화는 아직 확인되지 않았습니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20260828163300008": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "투자 판단과 무관한 부고 기사입니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/2026082800541": {
+      "act": "watch",
+      "lasting": "structural",
+      "scope": "market",
+      "why": "대형주 쏠림과 상장 유지 요건은 시장 구조 이슈라 흐름만 지켜보면 됩니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/business/12139125": {
+      "act": "watch",
+      "lasting": "structural",
+      "scope": "sector",
+      "why": "해외 규제 변수는 반도체 업황에 오래 남을 수 있어 관찰 대상입니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/2026082800551": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "지나간 기간의 수익률 집계라 앞으로의 이익을 바꾸지는 않습니다.",
+      "by": "ai"
+    },
+    "https://www.marketwatch.com/story/on-the-six-month-anniversary-of-the-iran-war-divisions-appear-on-wall-street-over-the-trajectory-for-oil-prices-c27c07aa?mod=mw_rss_topstories": {
+      "act": "watch",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "지정학 긴장과 유가 변동은 대체로 일시적 흔들림입니다.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-rate-predictions-through-2030-economic-factors-at-plays-195826935.html": {
+      "act": "none",
+      "lasting": "structural",
+      "scope": "sector",
+      "why": "장기 금리 전망은 예측일 뿐, 오늘 할 일은 없습니다.",
       "by": "ai"
     }
   },
