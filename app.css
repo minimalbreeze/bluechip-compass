@@ -504,8 +504,14 @@ body[data-market="us"] .ms-thumb { transform: translateX(100%); }
      auto-flow 로 두면 몇 개가 되든 한 줄에 고르게 나뉜다. */
   display: grid; grid-auto-flow: column; grid-auto-columns: 1fr;
   max-width: 620px; margin: 0 auto;
-  background: rgba(255,255,255,.94);
-  backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+  /* ⚠️ 여기에 backdrop-filter 를 넣지 말 것.
+     예전엔 rgba(255,255,255,.94) + blur(12px) 이었는데, iOS 사파리에서
+     backdrop-filter 가 걸린 position:fixed 요소는 **따로 합성되는 층**이
+     되고, 스크롤이 흐르는 동안 그 층이 직전 위치에 그려진 채로 남는다.
+     그래서 탭바가 화면 한가운데 떠 있고 그 아래로 본문이 비쳐 보인다
+     ("아래 메뉴가 딸려 올라간다"). 불투명하게 칠하면 애초에 흐릴 배경이
+     없으니 이 층 자체가 안 생긴다. 원래도 94% 라 보이는 차이는 거의 없다. */
+  background: #fff;
   border-top: 1px solid var(--line);
   padding-bottom: var(--safe-bottom);
 }
