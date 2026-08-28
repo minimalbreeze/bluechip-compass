@@ -1,27 +1,27 @@
 {
-  "asOf": "2026-08-28T00:38:50.319Z",
+  "asOf": "2026-08-28T00:59:58.308Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
-      "price": 6815.88,
+      "price": 6856.46,
       "prev": 6808.2099609375,
-      "chg": 0.11,
+      "chg": 0.71,
       "basis": "prev-daily-close",
-      "time": "2026-08-28T00:18:00.000Z"
+      "time": "2026-08-28T00:39:10.000Z"
     },
     "^KQ11": {
-      "price": 832.68,
+      "price": 831.63,
       "prev": 826.8699951171875,
-      "chg": 0.7,
+      "chg": 0.58,
       "basis": "prev-daily-close",
-      "time": "2026-08-28T00:18:00.000Z"
+      "time": "2026-08-28T00:39:10.000Z"
     },
     "KRW=X": {
-      "price": 1377.88,
+      "price": 1378.98,
       "prev": 1383.489990234375,
-      "chg": -0.41,
+      "chg": -0.33,
       "basis": "prev-daily-close",
-      "time": "2026-08-28T00:38:06.000Z"
+      "time": "2026-08-28T00:59:11.000Z"
     },
     "^GSPC": {
       "price": 7730.99,
@@ -55,29 +55,29 @@
   "fx": {
     "low52": 1377.64,
     "high52": 1554.48,
-    "pct": 0.001
+    "pct": 0.008
   },
   "hist": {
     "^KS11": {
-      "last": 6815.88,
+      "last": 6856.46,
       "low52": 3142.93,
       "high52": 9114.55,
-      "pct52": 0.615,
-      "chg3m": -16.73
+      "pct52": 0.622,
+      "chg3m": -16.23
     },
     "^KQ11": {
-      "last": 832.68,
+      "last": 831.63,
       "low52": 644.78,
       "high52": 1226.18,
-      "pct52": 0.323,
-      "chg3m": -24.6
+      "pct52": 0.321,
+      "chg3m": -24.7
     },
     "KRW=X": {
-      "last": 1377.88,
+      "last": 1379.08,
       "low52": 1377.64,
       "high52": 1554.48,
-      "pct52": 0.001,
-      "chg3m": -9.15
+      "pct52": 0.008,
+      "chg3m": -9.07
     },
     "^GSPC": {
       "last": 7730.99,
@@ -110,16 +110,16 @@
   },
   "regime": {
     "by": "ai",
-    "asOf": "2026-08-28T00:38:39.283Z",
+    "asOf": "2026-08-28T00:59:49.355Z",
     "kr": {
       "why": {
-        "rates": "미 10년물(^TNX)이 4.67%로 1년범위 상단 91% 위치이고 3개월간 +4.92% 올랐으며, '저금리 시대가 끝났다'는 헤드라인도 금리 상승 방향을 가리킵니다.",
-        "growth": "코스피가 3개월 -16.73%로 크게 밀렸지만 1년범위 내 위치는 여전히 62%이고 VIX도 14.51(6% 위치)로 낮아, 침체 신호로 단정하기보다 둔화 국면으로 봅니다.",
-        "valuation": "코스피 6815.88은 1년범위 3142.93~9114.55의 62% 지점으로 고점도 저점도 아니어서 보통 수준으로 분류하며, PER 등 추가 지표는 주어지지 않았습니다.",
-        "fx": "원/달러가 1377.88로 1년범위 1377.64~1554.48의 0% 위치, 3개월 -9.15%로 원화가 1년 중 가장 강한 구간입니다.",
-        "geo": "VIX 14.51(1년범위 13.47~31.05의 6% 위치)로 변동성이 매우 낮고, 제시된 헤드라인에도 지정학·정책 충격 내용이 없습니다."
+        "rates": "자료에 한국 기준금리는 없고 참고 가능한 장기금리 지표인 ^TNX가 4.67로 1년범위 상단 91% 위치, 3개월 +4.92%로 올라와 있어 금리 상승 압력 국면으로 봤습니다(국내 정책금리 직접 근거는 아님).",
+        "growth": "^KS11이 3개월 -16.23% 하락했지만 1년범위 62% 위치를 유지하고 국민연금 상반기 코스피 수익률 27% 언급도 있어, 침체 신호까지는 아닌 둔화 국면으로 분류했습니다.",
+        "valuation": "^KS11 현재 6856.46이 1년범위 3142.93~9114.55의 62% 지점으로 상단도 하단도 아니어서 보통 수준입니다.",
+        "fx": "KRW=X가 1379.08로 1년범위 1377.64~1554.48의 1% 지점, 3개월 -9.07%로 원화가 크게 강해진 상태입니다.",
+        "geo": "헤드라인이 삼성바이오로직스 3조원 유상증자, 자사주 취득, 투자설명회 등 개별 기업·시장 이슈뿐이고 ^VIX도 14.51(범위 6%)로 낮아 긴장 신호가 없습니다."
       },
-      "summary": "금리는 오르는 쪽이고 원화는 1년 중 가장 강한데, 코스피는 3개월간 16.73% 조정을 받아 경기 둔화 색이 짙습니다. 다만 VIX가 14.51로 낮아 시장이 공포에 빠진 상태는 아닌, 조용한 둔화 국면입니다.",
+      "summary": "금리는 높은 편이고 원화는 1년 중 가장 강한 수준인데, 코스피는 3개월 -16.23% 조정을 받아 열기가 식은 상태입니다. 밸류에이션은 1년범위 중간(62%)이고 변동성(VIX 14.51)도 낮아, 급한 충격보다는 '숨 고르는 둔화' 국면으로 볼 수 있습니다.",
       "rates": "hike",
       "growth": "slow",
       "valuation": "fair",
@@ -128,13 +128,13 @@
     },
     "us": {
       "why": {
-        "rates": "^TNX가 4.67%로 1년범위 상단 91% 위치이고 3개월 +4.92%이며, 연준 해맥의 '금리 인상, 지금이 행동할 때' 발언과 코어 물가 연 3.3% 상승 소식이 겹칩니다.",
-        "growth": "S&P500이 7730.99로 1년범위의 95% 위치이고 3개월 +1.99%로 상승세를 유지해 경기 둔화 신호는 수치상 보이지 않습니다.",
-        "valuation": "지수가 1년범위 6343.72~7798.99의 95% 지점, 즉 고점 근처에 있어 가격 부담이 있는 편으로 분류합니다.",
-        "fx": "원/달러 1377.88은 1년범위 0% 위치이고 3개월 -9.15%로, 달러 대비 원화가 강한 상태입니다.",
-        "geo": "VIX 14.51(1년 위치 6%)로 매우 낮고, 헤드라인은 개별 기업·물가 관련 내용뿐이어서 긴장 근거가 약합니다."
+        "rates": "Fed의 해맥이 금리 인상에 대해 '지금이 행동할 때'라고 언급했고, 코어 인플레이션이 전년 대비 3.3%로 나왔으며 ^TNX 4.67(1년범위 91% 위치, 3개월 +4.92%)도 함께 올라 있습니다.",
+        "growth": "^GSPC가 7730.99로 1년범위 95% 지점에 있고 3개월 +1.99%로 우상향 중이며, ^VIX 14.51(범위 6%)로 불안 지표도 낮습니다.",
+        "valuation": "^GSPC 현재가가 1년범위 6343.72~7798.99의 95% 지점으로 상단에 거의 붙어 있어 비싼 편으로 분류했습니다.",
+        "fx": "KRW=X 1379.08은 1년범위의 1% 지점이고 3개월 -9.07%로, 달러 대비 원화가 강세인 상태입니다.",
+        "geo": "헤드라인이 개별 기업(Marvell, Charles River)과 인플레이션 지표 등 시장 내부 이슈에 한정되고 ^VIX 14.51도 1년 저점권이라 지정학 긴장 근거가 없습니다."
       },
-      "summary": "미국 지수는 1년 고점 부근(95% 위치)에서 버티고 있지만, 코어 물가 3.3%와 국채금리 4.67%로 금리 부담이 커진 국면입니다. 변동성은 낮아 겉으로는 조용하나 가격이 비싼 편이라는 점을 기억해 두면 좋습니다.",
+      "summary": "주가지수는 1년 고점 부근(범위 95%)이고 변동성은 낮지만, 코어 인플레이션 3.3%와 금리 인상 발언·국채금리 4.67% 상승이 겹쳐 있습니다. 경기 자체는 괜찮아 보이나 가격은 비싼 편이고 금리 부담이 남아 있는 국면입니다.",
       "rates": "hike",
       "growth": "expand",
       "valuation": "rich",
@@ -145,95 +145,95 @@
   "stocks": {
     "kr": {
       "105560": {
-        "price": 166800,
+        "price": 167400,
         "prev": 168100,
-        "chg": -0.77,
+        "chg": -0.42,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T00:18:13.000Z"
+        "time": "2026-08-28T00:39:15.000Z"
       },
       "207940": {
-        "price": 1502000,
+        "price": 1511000,
         "prev": 1594000,
-        "chg": -5.77,
+        "chg": -5.21,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T00:18:13.000Z"
+        "time": "2026-08-28T00:39:17.000Z"
       },
       "005930": {
-        "price": 260000,
+        "price": 263500,
         "prev": 266000,
-        "chg": -2.26,
+        "chg": -0.94,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T00:18:13.000Z"
+        "time": "2026-08-28T00:39:19.000Z"
       },
       "000660": {
-        "price": 1695000,
+        "price": 1710000,
         "prev": 1730000,
-        "chg": -2.02,
+        "chg": -1.16,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T00:18:13.000Z"
+        "time": "2026-08-28T00:39:19.000Z"
       },
       "005380": {
-        "price": 400250,
+        "price": 398500,
         "prev": 398000,
-        "chg": 0.57,
+        "chg": 0.13,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T00:18:13.000Z"
+        "time": "2026-08-28T00:39:18.000Z"
       },
       "055550": {
-        "price": 108100,
+        "price": 107900,
         "prev": 108800,
-        "chg": -0.64,
+        "chg": -0.83,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T00:18:13.000Z"
+        "time": "2026-08-28T00:39:12.000Z"
       },
       "000810": {
-        "price": 663000,
+        "price": 665500,
         "prev": 682000,
-        "chg": -2.79,
+        "chg": -2.42,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T00:18:13.000Z"
+        "time": "2026-08-28T00:39:15.000Z"
       },
       "033780": {
-        "price": 173000,
+        "price": 173100,
         "prev": 174500,
-        "chg": -0.86,
+        "chg": -0.8,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T00:18:11.000Z"
+        "time": "2026-08-28T00:39:14.000Z"
       },
       "035420": {
-        "price": 224000,
+        "price": 222000,
         "prev": 216500,
-        "chg": 3.46,
+        "chg": 2.54,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T00:18:14.000Z"
+        "time": "2026-08-28T00:39:19.000Z"
       },
       "005490": {
         "price": 335000,
         "prev": 339500,
         "chg": -1.33,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T00:18:14.000Z"
+        "time": "2026-08-28T00:39:19.000Z"
       },
       "028260": {
-        "price": 369000,
+        "price": 372500,
         "prev": 375500,
-        "chg": -1.73,
+        "chg": -0.8,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T00:18:13.000Z"
+        "time": "2026-08-28T00:39:18.000Z"
       },
       "012450": {
-        "price": 1130000,
+        "price": 1119000,
         "prev": 1150000,
-        "chg": -1.74,
+        "chg": -2.7,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T00:18:13.000Z"
+        "time": "2026-08-28T00:39:16.000Z"
       },
       "017670": {
-        "price": 100100,
+        "price": 100000,
         "prev": 99100,
-        "chg": 1.01,
+        "chg": 0.91,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T00:18:14.000Z"
+        "time": "2026-08-28T00:39:19.000Z"
       }
     },
     "us": {
@@ -333,14 +333,14 @@
   "news": {
     "kr": [
       {
-        "title": "코스피, 1%대 하락 출발…코스닥 보합권",
-        "link": "https://www.yna.co.kr/view/AKR20260828035800008",
+        "title": "[특징주] '3조원 유상증자' 삼바, 장 초반 6% 급락",
+        "link": "https://www.yna.co.kr/view/AKR20260828045500008",
         "source": "연합뉴스",
-        "date": "Fri, 28 Aug 2026 09:06:06 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "하루 지수 등락은 기업 이익과 무관한 단기 흐름입니다.",
+        "date": "Fri, 28 Aug 2026 09:36:41 +0900",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": "company",
+        "why": "대규모 유상증자는 지분 희석과 자금 용도를 함께 볼 사안입니다.",
         "by": "ai"
       },
       {
@@ -355,25 +355,25 @@
         "by": "ai"
       },
       {
-        "title": "“저금리 시대가 끝났다” 월가가 찾은 새 주도주는",
-        "link": "https://www.mk.co.kr/news/stock/12138488",
+        "title": "KB증권 둔촌역PB센터, 다음달 3일 하반기 투자설명회 개최",
+        "link": "https://www.mk.co.kr/news/stock/12138501",
         "source": "매일경제",
-        "date": "Fri, 28 Aug 2026 09:26:48 +09:00",
+        "date": "Fri, 28 Aug 2026 09:39:41 +09:00",
         "act": "none",
-        "lasting": "structural",
+        "lasting": "temporary",
         "scope": "market",
-        "why": "금리 환경 변화는 구조적 주제지만 전망 기사라 오늘 확인할 일은 없습니다.",
+        "why": "증권사 행사 안내로 기업 이익과 무관합니다.",
         "by": "ai"
       },
       {
-        "title": "증권가, 'SK호라이즌 신설·3조 투자' SK텔레콤에 \"가치 재평가\"",
-        "link": "https://www.yna.co.kr/view/AKR20260828028700008",
+        "title": "국민연금, 상반기 코스피 상승에 수익률 27%…적립금 1천866조원",
+        "link": "https://www.yna.co.kr/view/AKR20260828044600530",
         "source": "연합뉴스",
-        "date": "Fri, 28 Aug 2026 08:53:57 +0900",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": "company",
-        "why": "대규모 투자와 조직 신설은 사업 구조를 바꿀 수 있어 진행 상황만 지켜보세요.",
+        "date": "Fri, 28 Aug 2026 09:35:06 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "과거 수익률 집계이며 앞으로를 알려주지 않습니다.",
         "by": "ai"
       },
       {
@@ -388,14 +388,14 @@
         "by": "ai"
       },
       {
-        "title": "[MK시그널] 이수페타시스, AI 서버 수요 기반 PQC 성장 사이클 진입 등에 주가 상승세... MK시그널 추천 후 상승률 17.07% 기록",
-        "link": "https://www.mk.co.kr/news/stock/12138481",
+        "title": "삼성바이오로직스, 3조 규모 유상증자 소식에 6%대 급락",
+        "link": "https://www.mk.co.kr/news/stock/12138498",
         "source": "매일경제",
-        "date": "Fri, 28 Aug 2026 09:20:07 +09:00",
-        "act": "none",
-        "lasting": "temporary",
+        "date": "Fri, 28 Aug 2026 09:38:19 +09:00",
+        "act": "watch",
+        "lasting": "structural",
         "scope": "company",
-        "why": "추천 후 수익률을 알리는 홍보성 기사로, 10년 이익과는 무관합니다.",
+        "why": "같은 증자 소식으로, 조달 자금이 어디 쓰이는지가 핵심입니다.",
         "by": "ai"
       }
     ],
@@ -461,15 +461,15 @@
         "by": "ai"
       },
       {
-        "title": "Stock Spirits gains UK supermarket listing for Sierra RTDs",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/stock-spirits-gains-uk-supermarket-123137445.html",
+        "title": "Is Wall Street Bullish or Bearish on Charles River Laboratories Stock?",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/wall-street-bullish-bearish-charles-124331922.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-26T12:31:37Z",
-        "ko": "Stock Spirits, Sierra RTD로 영국 슈퍼마켓 상장",
+        "date": "2026-08-26T12:43:31Z",
+        "ko": "Charles River Laboratories 주식에서 월스트리트가 강세입니까, 아니면 약세입니까?",
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
-        "why": "신제품 유통망 확대 소식으로, 장기 이익 구조를 바꿀 크기는 아닙니다.",
+        "why": "애널리스트 시각 정리 기사로 회사의 장기 이익과는 무관합니다.",
         "by": "ai"
       }
     ]
@@ -627,7 +627,8 @@
     "1 Penny Stock That Could Howl Its Way to the Top After a $150 Million Funding Boost": "1 페니 주식, 1억 5천만 달러의 펀딩 부스트를 거친 후 정상에 오를 수 있음 (1 Penny Stock That Could Howl Its Way to the Top After a $150",
     "Vivmark Residential Stock: Analyst Estimates & Ratings": "Vivmark 주거용 주식: 애널리스트 추정 및 평가",
     "Oracle's historic stock rout could be a buying opportunity": "오라클의 역사적인 재고 라우트는 구매 기회가 될 수 있습니다",
-    "Stock Spirits gains UK supermarket listing for Sierra RTDs": "Stock Spirits, Sierra RTD로 영국 슈퍼마켓 상장"
+    "Stock Spirits gains UK supermarket listing for Sierra RTDs": "Stock Spirits, Sierra RTD로 영국 슈퍼마켓 상장",
+    "Is Wall Street Bullish or Bearish on Charles River Laboratories Stock?": "Charles River Laboratories 주식에서 월스트리트가 강세입니까, 아니면 약세입니까?"
   },
   "nvCache": {
     "https://www.yna.co.kr/view/AKR20260824137251008": {
@@ -1454,6 +1455,41 @@
       "lasting": "temporary",
       "scope": "company",
       "why": "신제품 유통망 확대 소식으로, 장기 이익 구조를 바꿀 크기는 아닙니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20260828045500008": {
+      "act": "watch",
+      "lasting": "structural",
+      "scope": "company",
+      "why": "대규모 유상증자는 지분 희석과 자금 용도를 함께 볼 사안입니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12138501": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "증권사 행사 안내로 기업 이익과 무관합니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20260828044600530": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "과거 수익률 집계이며 앞으로를 알려주지 않습니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12138498": {
+      "act": "watch",
+      "lasting": "structural",
+      "scope": "company",
+      "why": "같은 증자 소식으로, 조달 자금이 어디 쓰이는지가 핵심입니다.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/markets/stocks/articles/wall-street-bullish-bearish-charles-124331922.html": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "애널리스트 시각 정리 기사로 회사의 장기 이익과는 무관합니다.",
       "by": "ai"
     }
   },
