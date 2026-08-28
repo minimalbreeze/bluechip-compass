@@ -96,18 +96,49 @@ jobs:
         continue-on-error: true
         run: node scripts/notify.mjs
 
+      # ── 종목 해설을 하루 한 번 조금씩 채운다 ─────────────────────
+      # analyze.yml 은 크론에 매여 있는데 이 저장소에서는 크론이 안 걸린다
+      # (그게 이 워크플로가 생긴 이유다). 그대로 두면 해설은 손으로 돌릴
+      # 때만 늘어난다 — 실제로 미국 종목이 며칠째 0건이었다.
+      #
+      # 그래서 여기에 붙인다. analysis.json 의 asOf 가 20시간보다 오래됐을
+      # 때만 돌아서, 20분마다 도는 이 사슬 안에서도 하루 한 번으로 묶인다.
+      - name: 해설을 채울 차례인가
+        if: steps.solo.outputs.solo == 'true' && env.ANTHROPIC_API_KEY != ''
+        id: ana
+        continue-on-error: true
+        run: |
+          due=$(node -e "
+            const fs=require('fs');
+            let at=0;
+            try { at = Date.parse(JSON.parse(fs.readFileSync('analysis.json','utf8')).asOf) || 0; } catch (e) {}
+            const hours = (Date.now() - at) / 3600000;
+            console.log(hours >= 20 ? 'yes' : 'no');
+          ")
+          echo "마지막 해설 갱신 이후 20시간 지났나: $due"
+          echo "due=$due" >> $GITHUB_OUTPUT
+
+      - name: 해설 채우기
+        if: steps.solo.outputs.solo == 'true' && steps.ana.outputs.due == 'yes'
+        continue-on-error: true
+        env:
+          ANALYZE_LIMIT: '40'
+        run: |
+          npm install --no-save --no-audit --no-fund @anthropic-ai/sdk zod
+          node scripts/build-analysis.mjs
+
       - name: 바뀐 게 있으면 커밋
         if: steps.solo.outputs.solo == 'true'
         continue-on-error: true
         run: |
-          git add live.json sim-run.json
+          git add live.json sim-run.json analysis.json
           if git diff --cached --quiet; then
             echo "변화 없음 — 커밋하지 않는다"
             exit 0
           fi
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "chore: 시세·기준계좌 갱신 [skip ci]"
+          git commit -m "chore: 시세·기준계좌·해설 갱신 [skip ci]"
           for i in 1 2 3 4 5; do
             git push && exit 0
             echo "push 거절 — 다시 받아 얹습니다 ($i/5)"
