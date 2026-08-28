@@ -211,7 +211,7 @@ window.BCAsk = (function () {
         var hi = Math.round(ctx.seed * m.pct[1] / 100);
         h += '<div class="ask-amt"><div class="ask-amt-h">🧮 회원님 시드로 바꾸면</div>' +
           '<div class="ask-amt-v">' + (lo > 0 && lo !== hi ? ctx.won(lo) + ' ~ ' : '') +
-          ctx.won(hi) + (lo > 0 && lo !== hi ? '' : ' 까지') + '</div>' +
+          ctx.won(hi) + (lo > 0 && lo !== hi ? '' : '까지') + '</div>' +
           '<div class="ask-amt-n">전체 투자금의 ' +
           (m.pct[0] !== m.pct[1] ? m.pct[0] + '~' + m.pct[1] : m.pct[1]) + '% 입니다. ' +
           '이 계산은 <b>회원님 기기 안에서만</b> 했습니다 — 금액은 어디에도 보내지 않았습니다.</div></div>';

@@ -1350,13 +1350,13 @@
     var qty = x.qty !== null ? ' <span class="ax-q">(' + x.qty.toLocaleString('ko-KR') + '주)</span>' : '';
     var head, tail;
     if (x.kind === 'add') {
-      head = '목표 ' + x.to + '% 까지 <b>' + x.diff + '%p 모자랍니다.</b>';
-      tail = '이번에 넣을 돈이 있다면 <b>' + nMoney(x.amount, mk) + '</b>' + qty + ' 까지가 이 자리입니다.';
+      head = '목표 ' + x.to + '%까지 <b>' + x.diff + '%p 모자랍니다.</b>';
+      tail = '이번에 넣을 돈이 있다면 <b>' + nMoney(x.amount, mk) + '</b>' + qty + '까지가 이 자리입니다.';
     } else {
       head = (r.weight > H.cap && x.to === H.cap)
-        ? '한 종목이 <b>' + r.weight + '%</b> 입니다. 집중 상한 ' + H.cap + '% 까지 <b>' + x.diff + '%p 초과</b>'
+        ? '한 종목이 <b>' + r.weight + '%</b>입니다. 집중 상한 ' + H.cap + '%까지 <b>' + x.diff + '%p 초과</b>'
         : '목표 ' + x.to + '% 보다 <b>' + x.diff + '%p 많습니다.</b>';
-      tail = '여기에 해당하는 금액은 <b>' + nMoney(x.amount, mk) + '</b>' + qty + ' 입니다.';
+      tail = '여기에 해당하는 금액은 <b>' + nMoney(x.amount, mk) + '</b>' + qty + '입니다.';
     }
     return '<div class="axline ' + lab.c + '">' +
       '<span class="ax-h">' + lab.i + ' ' + lab.t + '</span>' +
@@ -2307,7 +2307,7 @@
             (pct === null ? '' : ' <small>' + signPct(pct) + '</small>') + '</span>') +
         '</div>' +
         '<div class="ldg-line"><span class="ldg-k">샀을 때</span><span>' +
-          (l.since ? l.since + ' 부터 · ' : '') + '평단 ' + simPerShare(l.avg) +
+          (l.since ? l.since + '부터 · ' : '') + '평단 ' + simPerShare(l.avg) +
           (typeof l.cost === 'number' ? ' · 원가 ' + won(l.cost) : '') +
         '</span></div>' +
         '<div class="ldg-line"><span class="ldg-k">팔았을 때</span><span>' +
@@ -2687,7 +2687,7 @@
       h += '<div class="fit-lead">이 종목은 지금 성향의 <b>목표 배분에 없습니다.</b> ' +
         '나쁘다는 뜻이 아니라, 이 앱이 코어로 고른 자리가 아니라는 뜻입니다.</div>' +
         '<div class="fit-row"><span>담는다면</span><b>위성 자리</b></div>' +
-        '<div class="fit-row"><span>한 종목 상한 ' + H.cap + '%</span><b>' + won(capAmt) + ' 까지</b></div>' +
+        '<div class="fit-row"><span>한 종목 상한 ' + H.cap + '%</span><b>' + won(capAmt) + '까지</b></div>' +
         '<div class="fit-note">코어(목표 배분)를 먼저 채우고 남는 돈으로 보는 자리입니다. ' +
         '한 종목이 ' + H.cap + '%를 넘으면 그 회사 하나에 계획 전체가 걸립니다.</div>';
     }

@@ -92,7 +92,11 @@ jobs:
                 }) + ' -->';
               }
               fs.writeFileSync('/tmp/answer.md', out);
-              console.log('답 길이:', out.length);
+              // 앱이 금액으로 바꿔 적으려면 이 블록이 있어야 한다.
+              // 없으면 답은 나와도 '내 시드로 얼마' 칸이 안 뜬다 —
+              // 조용히 빠지면 알 길이 없어서 회차마다 적어 둔다.
+              console.log('답 길이:', out.length, '· 앱이 읽을 값:', r.meta ? '있음' : '없음');
+              console.log('꼬리 160자:', JSON.stringify(out.slice(-160)));
             }).catch(e => { console.error('❌', e.message); process.exit(1); });
           "
 

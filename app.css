@@ -50,6 +50,18 @@ body[data-market="us"] {
 
 * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
 
+/* 한글은 기본값이면 **글자 단위**로 줄이 바뀐다. 그래서 좁은 화면에서
+   "비중을 줄인 / 다", "1,695만 / 원" 처럼 낱말 한가운데가 끊긴다.
+   읽는 사람은 두 번 읽어야 하고, 무엇보다 지저분하다.
+   keep-all 로 **띄어쓰기에서만** 줄을 바꾼다. 대신 띄어쓰기 없는 긴
+   덩어리(주소 등)가 칸을 뚫고 나갈 수 있으니 anywhere 로 받쳐 둔다.
+   ⚠️ 이건 화면 전체에 걸리는 규칙이다. 칸마다 따로 적지 않는다 —
+      따로 적으면 새로 만든 칸에서 또 빠뜨린다. */
+body {
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+}
+
 /* [hidden]의 display:none은 브라우저 기본 스타일이라, 클래스 선택자가
    display를 지정하면 그쪽이 이긴다. 그러면 "숨겼다고 생각한" 전체화면
    오버레이가 투명하게 남아 화면 전체의 클릭을 삼킨다.
@@ -706,7 +718,14 @@ body[data-market="us"] .ms-thumb { transform: translateX(100%); }
   background: var(--line-soft); color: var(--ink-dim); border-radius: 5px; padding: 2px 6px;
 }
 .hrow-v { font-size: 12px; font-weight: 800; color: var(--ink-mid); white-space: nowrap; }
-.hrow-nums { display: flex; gap: 14px; font-size: 13px; color: var(--ink-dim); margin-top: 6px; }
+/* 금액은 한 덩어리다. 좁은 화면에서 "1,695만" / "원" 으로 끊기면 읽는 사람이
+   두 번 읽어야 하고, 무엇보다 지저분하다. 칸이 모자라면 **줄을 바꿔서**
+   덩어리를 지킨다 — 덩어리를 쪼개서 칸에 맞추지 않는다. */
+.hrow-nums {
+  display: flex; flex-wrap: wrap; gap: 4px 14px;
+  font-size: 13px; color: var(--ink-dim); margin-top: 6px;
+}
+.hrow-nums > span { white-space: nowrap; }
 .hrow-nums b { font-variant-numeric: tabular-nums; }
 
 /* 현재 비중 막대 위에 목표 비중을 눈금으로 얹는다 — 숫자보다 어긋난 정도가 먼저 보인다. */
