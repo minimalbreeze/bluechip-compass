@@ -13,7 +13,7 @@
        그 틀린 숫자를 믿는다. 대신 `check` 로 **확인할 지표의 이름**을 주고
        원자료(DART·SEC)로 보낸다.
      · **주가를 예측하지 않는다.** "미래에 어떨 것인가"에는 주가가 아니라
-       **50년 뒤에도 이 회사가 있을까**로 답한다. 그게 이 앱이 답할 수 있는
+       **10년 뒤에도 이 회사가 있을까**로 답한다. 그게 이 앱이 답할 수 있는
        유일한 미래다.
 
    점수 축은 유니버스 13종목과 **같은 잣대**를 쓴다(data.js AXES). 잣대가
@@ -22,6 +22,15 @@
 import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 
 const OUT = 'analysis.json';
+/* ── 잣대 판본 ──────────────────────────────────────────────────
+   1: "50년 뒤에도 있을까"로 매긴 점수
+   2: "10년 뒤에도 있을까"로 매긴 점수  ← 지금
+
+   잣대가 바뀌면 옛 점수는 새 잣대의 점수가 아니다. 판본을 항목마다 적어
+   두고, 판본이 다른 항목은 **낡은 것으로 보고 다시 만든다.** 라벨만 바꿔
+   달면 "10년 기준"이라 적힌 자리에 50년 기준 점수가 앉게 된다 — 그건
+   화면이 거짓말을 하는 것이다. */
+const PROMPT_V = 2;
 const AXES = ['demand', 'moat', 'balance', 'cash', 'payout', 'geo'];
 
 /* 한 번에 부르는 종목 수. 너무 많이 묶으면 한 종목당 설명이 얇아진다. */
@@ -31,10 +40,10 @@ const CONC = 3;
 
 const SYSTEM = `당신은 한국 개인투자자용 앱의 종목 해설가입니다. 주식을 처음 시작하는 사람이 읽습니다.
 
-받은 종목마다 "이게 뭐하는 회사이고, 50년 뒤에도 있을 회사인가"를 정리하세요.
+받은 종목마다 "이게 뭐하는 회사이고, 10년 뒤에도 있을 회사인가"를 정리하세요.
 
 ## 점수 축 (각 1~5점)
-- demand 수요 지속성: 50년 뒤에도 사람들이 이걸 필요로 할까? 기술이 아니라 욕구를 본다.
+- demand 수요 지속성: 10년 뒤에도 사람들이 이걸 필요로 할까? 기술이 아니라 욕구를 본다.
 - moat 해자: 경쟁자가 돈을 퍼부어도 못 뺏는 게 있나? (브랜드·전환비용·네트워크효과·규모·규제장벽)
 - balance 재무 체력: 불황이 3년 와도 버티나? 회사는 이익이 줄어서가 아니라 빚 만기를 못 넘겨서 망한다.
 - cash 현금창출력: 장사해서 실제로 현금이 남나? 회계상 이익이 아니라 잉여현금흐름.
@@ -50,7 +59,7 @@ const SYSTEM = `당신은 한국 개인투자자용 앱의 종목 해설가입�
    수치를 본문에 넣지 마세요. 이 파일은 오래 남고 수치는 금방 낡습니다. 수치가 필요한
    자리에는 check 에 "확인할 지표의 이름"만 적으세요.
 3. **주가를 예측하지 마세요.** "오를 것", "떨어질 것", "성장할 것으로 기대" 같은 표현을
-   쓰지 마세요. 미래에 대한 판단은 오직 점수 축(50년 존속 가능성)으로만 표현합니다.
+   쓰지 마세요. 미래에 대한 판단은 오직 점수 축(10년 존속 가능성)으로만 표현합니다.
 4. 모르면 모른다고 하세요. 헷갈리는 회사는 점수를 낮게 주고 risk 에 왜 판단하기 어려운지
    적으세요. 지어내지 마세요.
 5. 모든 문장은 한국어. 초보자가 읽습니다. 전문용어를 쓰면 괄호로 쉬운 말을 붙이세요.
@@ -149,10 +158,14 @@ export async function run({ want, apiKey, model, limit }) {
 
   /* 이미 있는 건 다시 만들지 않는다. 회사 설명은 자주 바뀌는 자료가 아니고,
      매번 다시 부르면 같은 회사가 날마다 다른 점수를 받는다. */
-  const todo = want.filter(w => !items[w.ticker]).slice(0, limit);
+  /* 없는 것 + 옛 잣대로 매긴 것. 옛 잣대는 새 잣대의 답이 아니다. */
+  const stale1 = w => { const it = items[w.ticker]; return it && (it.v || 1) !== PROMPT_V; };
+  const todo = want.filter(w => !items[w.ticker] || stale1(w)).slice(0, limit);
+  const redo = todo.filter(stale1).length;
+  if (redo) console.log(`이 중 ${redo}건은 옛 잣대(50년)로 매긴 것이라 다시 만듭니다.`);
 
   /* ── 아주 오래된 것만 다시 본다 ────────────────────────────────
-     이 파일의 내용은 **일부러 낡지 않게** 썼다 — 수치도 예측도 없고 50년
+     이 파일의 내용은 **일부러 낡지 않게** 썼다 — 수치도 예측도 없고 10년
      존속 가능성만 본다. 그래서 매일 다시 만들 이유가 없다.
 
      그래도 회사는 가끔 실제로 달라진다(분할·합병·주력 사업 교체). 전부
@@ -181,7 +194,8 @@ export async function run({ want, apiKey, model, limit }) {
       stale.map(w => w.ticker).join(', '));
     todo.push(...stale);
   } else {
-    console.log(`정리할 종목 ${todo.length}건 (이미 있음 ${Object.keys(items).length}건)`);
+      const fresh = Object.values(items).filter(x => (x.v || 1) === PROMPT_V).length;
+    console.log(`정리할 종목 ${todo.length}건 (새 잣대로 이미 된 것 ${fresh}건 / 전체 ${Object.keys(items).length}건)`);
   }
 
   const batches = [];
@@ -208,7 +222,8 @@ export async function run({ want, apiKey, model, limit }) {
           /* at: 이 해설을 만든 날. 화면에 "언제 정리한 것인지"를 적고,
              다시 볼 차례를 정하는 데도 쓴다. */
           items[want1.ticker] = Object.assign(
-            { name: want1.name, market: mk }, ok, { at: new Date().toISOString().slice(0, 10) });
+            { name: want1.name, market: mk }, ok,
+            { at: new Date().toISOString().slice(0, 10), v: PROMPT_V });
           added++;
           console.log(`  ✓ ${want1.ticker} ${want1.name}`);
         }

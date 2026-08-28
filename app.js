@@ -237,7 +237,7 @@
   }
 
   /* 사용자가 적은 종목명을 이 앱의 유니버스와 맞춰본다.
-     티커가 잡히면 50년 점수를 쓸 수 있고, 못 잡으면 "평가하지 않은 종목"이 된다. */
+     티커가 잡히면 10년 점수를 쓸 수 있고, 못 잡으면 "평가하지 않은 종목"이 된다. */
   function norm(x) { return String(x || '').replace(/\s|·|\(|\)/g, '').toLowerCase(); }
   /* ── 점수는 두 군데서 온다 ─────────────────────────────────────
      ① 이 앱이 직접 뜯어본 13종목(유니버스)
@@ -259,6 +259,17 @@
   /* 그 점수가 어디서 왔는지. 화면에 출처를 밝히려고 쓴다 —
      직접 뜯어본 것과 AI 가 정리한 것을 같은 것처럼 보이게 하지 않는다. */
 
+
+  /* 이 점수가 옛 잣대(50년)로 매긴 것인가. 유니버스 카드는 사람이 쓴 것이라
+     이미 10년 기준으로 고쳤으므로 해당 없음. */
+  function scoreIsOld(mk, it) {
+    if (!it || !it.ticker) return false;
+    var picks = D.markets[mk].picks, hit = false;
+    picks.forEach(function (q) { if (q.ticker === it.ticker) hit = true; });
+    if (hit) return false;
+    var a = analysisOf(it.ticker);
+    return !!(a && (a.v || 1) < 2);
+  }
 
   /* 그 시장 통화의 현재가. 국내는 원, 미국은 달러. */
   /* 유니버스(live.json)를 먼저 보고, 없으면 넓은 목록(prices.json)을 본다.
@@ -799,7 +810,7 @@
       .catch(function () { tickersState = 'failed'; if (state.addOpen) render(); });
   }
 
-  /* 검색. 유니버스(50년 카드에 있는 종목)를 먼저 올린다 — 이 앱이 실제로
+  /* 검색. 유니버스(10년 카드에 있는 종목)를 먼저 올린다 — 이 앱이 실제로
      평가하고 시세도 갖고 있는 종목이라 사용자에게 가장 쓸모 있다. */
   /* KRX 공식 약칭이 영문인 종목이 있다. "네이버"를 쳐도 안 나오면 사용자는
      그 종목이 없다고 생각하고 이름을 직접 적어버린다 — 그러면 티커가 안 붙어
@@ -1568,7 +1579,7 @@
   /* ══════════════════════════════════════════════════════════════════
      뷰 2 — 내 주식: 팔까 / 둘까 / 더 살까
      ------------------------------------------------------------------
-     판단 근거는 "목표 비중 대비 어긋난 정도"와 "50년 점수"뿐이다.
+     판단 근거는 "목표 비중 대비 어긋난 정도"와 "10년 점수"뿐이다.
      손익은 보여주기만 하고 판단에 쓰지 않는다 — 이유는 holdings.js 참고.
      ══════════════════════════════════════════════════════════════ */
   /* ── 언제까지 · 언제 파나 ────────────────────────────────────
@@ -1662,7 +1673,7 @@
       if (sel) {
         h.push('<div class="picked"><span class="picked-n">' + esc(sel.n) + '</span>' +
           (sel.t ? '<span class="picked-t">' + esc(sel.t) + '</span>' : '') +
-          (sel.uni ? '<span class="picked-b uni">50년 카드</span>' : '') +
+          (sel.uni ? '<span class="picked-b uni">10년 카드</span>' : '') +
           (sel.etf ? '<span class="picked-b etf">ETF</span>' : '') +
           '<button class="picked-x" id="pick-clear">✕</button></div>');
         h.push(sel.price !== null && sel.price !== undefined
@@ -1678,7 +1689,7 @@
               h.push('<button class="acitem" data-ac="' + i + '">' +
                 '<span class="ac-n">' + esc(r.n) + '</span>' +
                 (r.t ? '<span class="ac-t">' + esc(r.t) + '</span>' : '') +
-                (r.uni ? '<span class="ac-b uni">50년 카드</span>' : '') +
+                (r.uni ? '<span class="ac-b uni">10년 카드</span>' : '') +
                 (r.etf ? '<span class="ac-b etf">ETF</span>' : '') +
                 (r.price !== null && r.price !== undefined ? '<span class="ac-p">' + perShare(r.price, mkey) + '</span>' : '') +
               '</button>');
@@ -1791,7 +1802,10 @@
         '<div class="wbar"><span class="wbar-t" style="width:' + Math.min(100, r.weight) + '%"></span>' +
           (r.target ? '<span class="wbar-goal" style="left:' + Math.min(100, r.target) + '%"></span>' : '') + '</div>' +
         '<div class="wlab">현재 <b>' + r.weight + '%</b>' + (r.target ? ' · 목표 <b>' + r.target + '%</b>' : ' · 목표 없음') +
-          (r.score !== null ? ' · 50년 점수 <b>' + r.score + '</b>' : '') + '</div>' +
+          (r.score !== null
+            ? ' · ' + (scoreIsOld(mkey, r) ? '예전 50년 점수' : '10년 점수') +
+              ' <b>' + r.score + '</b>'
+            : '') + '</div>' +
         '<div class="hrow-say">' + linkTerms(r.verdict.say) + '</div>' +
         actionHtml(r, mkey) +
         avgDownHtml(r, a.grand, mkey) +
@@ -2385,7 +2399,7 @@
   }
 
   /* ══════════════════════════════════════════════════════════════════
-     뷰 2 — 종목 (50년 생존 카드). 기본은 접힘, 필요할 때만 펼친다.
+     뷰 2 — 종목 (10년 생존 카드). 기본은 접힘, 필요할 때만 펼친다.
      ══════════════════════════════════════════════════════════════ */
   var FILTERS = [
     { v: 'all', l: '전체' }, { v: 'core', l: '코어' },
@@ -2397,7 +2411,7 @@
     var h = [];
 
     h.push('<div class="sec-head"><h2>' + mk.flag + ' ' + mk.full + '</h2>' +
-      '<p>“얼마나 오를까”가 아니라 <b>“50년 뒤에도 있을까”</b>만 채점했습니다. 정성 평가이며 추천이 아닙니다.</p></div>');
+      '<p>“얼마나 오를까”가 아니라 <b>“10년 뒤에도 있을까”</b>만 채점했습니다. 정성 평가이며 추천이 아닙니다.</p></div>');
 
     h.push('<div class="filters">');
     FILTERS.forEach(function (f) {
@@ -2457,11 +2471,11 @@
      "궁금한 주식을 치면 뭐하는 회사인지, 어떤 상태인지 알려달라"는 요청에서
      나온 화면이다. 답할 수 있는 것과 없는 것을 갈라 두었다.
 
-       답한다  뭐하는 회사인가 / 돈을 어떻게 버는가 / 50년 존속 가능성 6축과
+       답한다  뭐하는 회사인가 / 돈을 어떻게 버는가 / 10년 존속 가능성 6축과
                등급 / 무엇이 이 판단을 깨뜨리나 / 직접 확인할 지표의 이름
        안 한다 매수·매도 의견, PER 같은 수치, 주가 예측
 
-     "미래에 어떨 것인가"에는 주가가 아니라 **50년 뒤에도 이 회사가 있을까**로
+     "미래에 어떨 것인가"에는 주가가 아니라 **10년 뒤에도 이 회사가 있을까**로
      답한다. 그게 이 앱이 답할 수 있는 유일한 미래다(최상위 원칙 5).
 
      유니버스 13종목은 사람이 쓴 카드가 더 정확하므로 그쪽을 먼저 쓴다.
@@ -2483,7 +2497,7 @@
     var mk = state.market;
     var h = [];
     h.push('<div class="sec-head"><h2>🔎 종목 알아보기</h2>' +
-      '<p>궁금한 종목을 찾아보세요. <b>뭐하는 회사인지, 50년 뒤에도 있을 회사인지</b>를 정리해 둡니다.</p></div>');
+      '<p>궁금한 종목을 찾아보세요. <b>뭐하는 회사인지, 10년 뒤에도 있을 회사인지</b>를 정리해 둡니다.</p></div>');
 
     h.push('<div class="card sform">' +
       '<input id="sq" type="text" autocomplete="off" placeholder="' +
@@ -2516,7 +2530,7 @@
       return '<button class="acitem" data-sac="' + i + '">' +
         '<span class="ac-n">' + esc(r.n) + '</span>' +
         (r.t ? '<span class="ac-t">' + esc(r.t) + '</span>' : '') +
-        (r.uni ? '<span class="ac-b uni">50년 카드</span>' : '') +
+        (r.uni ? '<span class="ac-b uni">10년 카드</span>' : '') +
         (r.etf ? '<span class="ac-b etf">ETF</span>' : '') +
         (r.price !== null && r.price !== undefined ? '<span class="ac-p">' + perShare(r.price, mk) + '</span>' : '') +
       '</button>';
@@ -2595,7 +2609,7 @@
     '</div>');
 
     /* ── 오늘 이 종목 이야기 ──────────────────────────────────
-       아래 해설은 **일부러 낡지 않게** 썼다 — 수치도 예측도 없고, 50년
+       아래 해설은 **일부러 낡지 않게** 썼다 — 수치도 예측도 없고, 10년
        존속 가능성만 본다. 그래서 다시 만들 필요가 없다. 대신 "그래서 지금은
        어떤가"가 빠지는데, 그 자리를 오늘 기사와 시장 국면이 메운다.
        해설(안 변하는 것)과 오늘(변하는 것)을 같은 화면에서 나란히 본다. */
@@ -2626,12 +2640,18 @@
            낡지 않지만, 그 판단은 읽는 사람이 하는 게 맞다. */
         : '🤖 AI 가 정리했습니다' + (d.at ? ' · ' + esc(d.at) : '') +
           ' · 매매 의견이 아닙니다') + '</div>' +
+      /* ⚠️ 잣대를 50년에서 10년으로 바꿨다. 옛 점수를 새 이름으로 부르면
+         화면이 거짓말을 하는 것이다 — 다시 만들기 전까지는 그렇게 적는다. */
+      (card.src !== 'pick' && (d.v || 1) < 2
+        ? '<div class="oldscale">📐 이 점수는 <b>예전 50년 잣대</b>로 매긴 것입니다. ' +
+          '10년 잣대로 다시 만드는 중이며, 차례가 오면 자동으로 바뀝니다.</div>'
+        : '') +
 
       '<div class="sd-h">🏢 뭐하는 회사인가</div>' +
       '<div class="sd-one">' + linkTerms(d.one) + '</div>' +
       (d.how ? '<div class="sd-how">' + linkTerms(d.how) + '</div>' : '') +
 
-      '<div class="sd-h">📊 50년 뒤에도 있을 회사인가</div>' +
+      '<div class="sd-h">📊 10년 뒤에도 있을 회사인가</div>' +
       '<div class="sd-grade"><span class="grade"><b>' + g.code + '</b><small>' + pct + '</small></span>' +
         '<span class="sd-gl"><b>' + g.label + '</b><small>' + esc(g.desc) + '</small></span></div>' +
       '<div class="bars">' + D.axes.map(function (a) {
@@ -3345,7 +3365,7 @@
             return '<button class="acitem" data-ac="' + i + '">' +
               '<span class="ac-n">' + esc(r.n) + '</span>' +
               (r.t ? '<span class="ac-t">' + esc(r.t) + '</span>' : '') +
-              (r.uni ? '<span class="ac-b uni">50년 카드</span>' : '') +
+              (r.uni ? '<span class="ac-b uni">10년 카드</span>' : '') +
               (r.etf ? '<span class="ac-b etf">ETF</span>' : '') +
               (r.price !== null && r.price !== undefined ? '<span class="ac-p">' + perShare(r.price, state.market) + '</span>' : '') +
             '</button>';
