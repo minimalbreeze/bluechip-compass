@@ -1451,9 +1451,18 @@
         '<span class="mkblock-v">' + won(a.krwGrand / 10000) + '</span>' +
         '<span class="mkblock-p ' + plClass(a.krwPl) + '">' + signPct(a.krwPlPct) + '</span></div>');
       a.rows.slice(0, 3).forEach(function (r) {
+        /* ── 왜 금액을 같이 적나 ────────────────────────────────
+           비중과 수익률만 있으면 "이게 얼마짜리지"를 매번 머리로 계산하게
+           된다. 정작 옮길지 말지를 정할 때 필요한 건 그 금액이다.
+           이름 아래 한 줄로 붙여 가로를 늘리지 않는다 — 좁은 화면에서
+           칸을 하나 더 만들면 종목명이 먼저 잘린다. */
         h.push('<div class="mini"><span class="mini-m">' + r.verdict.mark + '</span>' +
-          '<span class="mini-n">' + esc(r.name) + '</span>' +
-          '<span class="mini-w">' + r.weight + '%</span>' +
+          '<span class="mini-b">' +
+            '<span class="mini-n">' + esc(r.name) + '</span>' +
+            /* 홈은 국내·미국을 원화로 합쳐 보는 자리다. 시장 블록 머리도 원화라
+               행만 달러로 적으면 위아래가 다른 통화가 된다. */
+            '<span class="mini-s">' + won(r.krwValue / 10000) + ' · 비중 ' + r.weight + '%</span>' +
+          '</span>' +
           '<span class="mini-r ' + plClass(r.pl) + '">' + signPct(r.plPct) + '</span></div>');
       });
       if (a.rows.length > 3) h.push('<div class="mini more">외 ' + (a.rows.length - 3) + '종목</div>');
@@ -1526,8 +1535,10 @@
            미리 보여준다(내 주식의 판정 마크와 같은 자리, 같은 역할). */
         v.rows.slice(0, 3).map(function (r) {
           return '<div class="mini"><span class="mini-m">' + simMark(r) + '</span>' +
-            '<span class="mini-n">' + esc(r.n) + '</span>' +
-            '<span class="mini-w">' + r.weight + '%</span>' +
+            '<span class="mini-b">' +
+              '<span class="mini-n">' + esc(r.n) + '</span>' +
+              '<span class="mini-s">' + won(r.value) + ' · 비중 ' + r.weight + '%</span>' +
+            '</span>' +
             '<span class="mini-r ' + plClass(r.pl) + '">' + signPct(r.plPct) + '</span></div>';
         }).join('') +
         (v.rows.length > 3
