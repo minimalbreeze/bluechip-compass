@@ -2564,12 +2564,30 @@
      비율을 이 브라우저에서 금액으로 바꿔 적을 때만 쓰이고, 질문 본문에는
      들어가지 않는다(ask.js 주석 참고). */
   function askCtx() {
+    var mk = state.market;
+    var sel = state.sSel && state.sSel.t ? state.sSel : null;
     return {
-      mk: state.market,
+      mk: mk,
       style: styleLabelOf(state.style),
       seed: state.profile.seed || 0,
-      stock: state.sSel && state.sSel.t ? { n: state.sSel.n, t: state.sSel.t } : null,
-      won: won
+      stock: sel ? { n: sel.n, t: sel.t } : null,
+      won: won,
+      /* 앱에서 바로 물을 때 쓸 맥락. GitHub 길과 **같은 두뇌**(ask-brain.js)에
+         넘기므로 어느 길로 물어도 같은 답이 나온다. 금액은 넣지 않는다. */
+      brainCtx: function (q) {
+        var px = LIVE && LIVE.stocks && LIVE.stocks[mk] && sel ? LIVE.stocks[mk][sel.t] : null;
+        return {
+          style: styleLabelOf(state.style),
+          mk: mk,
+          question: q,
+          regime: (LIVE && LIVE.regime && LIVE.regime[mk]) || null,
+          news: (LIVE && LIVE.news && LIVE.news[mk]) || [],
+          asOf: (LIVE && LIVE.asOf) || '',
+          stock: sel ? { name: sel.n, ticker: sel.t } : null,
+          card: sel ? analysisOf(sel.t) : null,
+          chg: px && typeof px.chg === 'number' ? px.chg : null
+        };
+      }
     };
   }
 
