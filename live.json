@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-28T15:27:42.335Z",
+  "asOf": "2026-08-28T15:48:35.993Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -17,45 +17,45 @@
       "time": "2026-08-28T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1377.54,
+      "price": 1378.48,
       "prev": 1383.489990234375,
-      "chg": -0.43,
+      "chg": -0.36,
       "basis": "prev-daily-close",
-      "time": "2026-08-28T15:26:51.000Z"
+      "time": "2026-08-28T15:47:53.000Z"
     },
     "^GSPC": {
-      "price": 7768.58,
+      "price": 7743.89,
       "prev": 7730.990234375,
-      "chg": 0.49,
+      "chg": 0.17,
       "basis": "prev-daily-close",
-      "time": "2026-08-28T15:26:53.000Z"
+      "time": "2026-08-28T15:47:55.000Z"
     },
     "^IXIC": {
-      "price": 26666.52,
+      "price": 26574.58,
       "prev": 26541.349609375,
-      "chg": 0.47,
+      "chg": 0.13,
       "basis": "prev-daily-close",
-      "time": "2026-08-28T15:26:49.000Z"
+      "time": "2026-08-28T15:47:53.000Z"
     },
     "^VIX": {
-      "price": 14.23,
+      "price": 14.16,
       "prev": 14.510000228881836,
-      "chg": -1.93,
+      "chg": -2.41,
       "basis": "prev-daily-close",
-      "time": "2026-08-28T15:11:46.000Z"
+      "time": "2026-08-28T15:32:46.000Z"
     },
     "^TNX": {
-      "price": 4.696,
+      "price": 4.702,
       "prev": 4.671999931335449,
-      "chg": 0.51,
+      "chg": 0.64,
       "basis": "prev-daily-close",
-      "time": "2026-08-28T15:11:44.000Z"
+      "time": "2026-08-28T15:32:54.000Z"
     }
   },
   "fx": {
-    "low52": 1377.54,
+    "low52": 1377.64,
     "high52": 1554.48,
-    "pct": 0
+    "pct": 0.005
   },
   "hist": {
     "^KS11": {
@@ -73,53 +73,53 @@
       "chg3m": -24.15
     },
     "KRW=X": {
-      "last": 1377.54,
-      "low52": 1377.54,
+      "last": 1378.48,
+      "low52": 1377.64,
       "high52": 1554.48,
-      "pct52": 0,
-      "chg3m": -9.17
+      "pct52": 0.005,
+      "chg3m": -9.11
     },
     "^GSPC": {
-      "last": 7768.58,
+      "last": 7743.89,
       "low52": 6343.72,
       "high52": 7798.99,
-      "pct52": 0.979,
-      "chg3m": 2.22
+      "pct52": 0.962,
+      "chg3m": 1.89
     },
     "^IXIC": {
-      "last": 26666.52,
+      "last": 26574.58,
       "low52": 20794.64,
       "high52": 27093.9,
-      "pct52": 0.932,
-      "chg3m": -1.55
+      "pct52": 0.918,
+      "chg3m": -1.89
     },
     "^VIX": {
-      "last": 14.23,
+      "last": 14.16,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.043,
-      "chg3m": -11.34
+      "pct52": 0.039,
+      "chg3m": -11.78
     },
     "^TNX": {
       "last": 4.7,
       "low52": 3.95,
       "high52": 4.74,
-      "pct52": 0.938,
-      "chg3m": 4.94
+      "pct52": 0.946,
+      "chg3m": 5.07
     }
   },
   "regime": {
     "by": "ai",
-    "asOf": "2026-08-28T15:27:37.615Z",
+    "asOf": "2026-08-28T15:48:29.112Z",
     "kr": {
       "why": {
-        "rates": "기준금리 자료는 없지만 참고 지표인 10년물 금리(^TNX)가 4.7%로 1년 범위의 94% 지점이고 3개월간 +4.94% 올라 금리가 오르는 쪽으로 분류했습니다.",
-        "growth": "코스피가 3개월간 -15.55%로 크게 밀렸지만 여전히 1년 범위의 63% 지점에 있고 '흑자기업도 증시 퇴출 위기' 같은 헤드라인이 있어 침체 신호보다는 둔화 국면으로 봤습니다.",
-        "valuation": "지수 위치가 1년 범위의 63%로 고점도 저점도 아니고 최근 3개월 -15.55% 조정을 거친 상태라 보통 수준으로 분류했습니다.",
-        "fx": "원/달러가 1377.54원으로 1년 범위의 0% 지점(최저)이고 3개월간 -9.17% 내려 원화가 강세입니다.",
-        "geo": "VIX가 14.23으로 1년 범위의 4% 지점까지 낮아졌고 제시된 헤드라인에 지정학·정책 충돌 내용이 없어 평온으로 봤습니다."
+        "rates": "참고 지표인 10년물 금리(^TNX)가 4.7%로 1년 범위 상단 95% 위치이고 3개월간 +5.07% 올라, 금리는 내려가기보다 올라가는 쪽입니다.",
+        "growth": "코스피가 3개월간 -15.55% 조정받아 둔화 신호는 뚜렷하지만, 여전히 1년 범위의 63% 위치(6912.37)에 있어 침체 단정 근거는 부족해 중간값인 '둔화'로 봅니다.",
+        "valuation": "1년 범위 내 63% 위치이면서 3개월 -15.55% 하락으로 고점 부담이 일부 해소돼, 싸지도 비싸지도 않은 보통 수준으로 분류합니다.",
+        "fx": "원/달러가 1378.48원으로 1년 범위(1377.64~1554.48) 하단 1% 위치이고 3개월간 -9.11% 하락해 원화가 강세입니다.",
+        "geo": "VIX가 14.16으로 1년 범위 4% 위치까지 낮아졌고, 제시된 헤드라인도 기업·정책 뉴스 위주여서 긴장 신호는 확인되지 않습니다."
       },
-      "summary": "금리는 오르는 흐름이고 원화는 1년 내 가장 강한 수준인데, 코스피는 3개월간 -15.55% 조정을 받아 열기가 식은 둔화 국면입니다. 변동성 지표는 매우 낮아 시장 분위기 자체는 조용한 편입니다.",
+      "summary": "금리는 높은 수준에서 더 오르는 쪽이고 지수는 3개월간 15% 넘게 조정받아 경기 둔화 색채가 있습니다. 다만 원화가 1년 내 가장 강하고 변동성 지표도 매우 낮아, 시장 분위기 자체는 차분한 국면입니다.",
       "rates": "hike",
       "growth": "slow",
       "valuation": "fair",
@@ -128,18 +128,18 @@
     },
     "us": {
       "why": {
-        "rates": "10년물 금리(^TNX)가 4.7%로 1년 범위의 94% 지점이고 3개월간 +4.94% 상승했으며, '연준 해맥, 금리 인상 지금이 행동할 때' 헤드라인도 같은 방향입니다.",
-        "growth": "S&P500이 7768.58로 1년 범위의 98% 지점이고 3개월간 +2.22% 올라 시장이 보는 경기 상태는 괜찮은 쪽으로 분류했습니다.",
-        "valuation": "지수가 1년 범위의 98% 지점(고점 7798.99 근처)에 있어 가격 부담이 큰 구간으로 봤습니다.",
-        "fx": "원/달러가 1377.54원으로 1년 범위의 0% 지점이고 3개월간 -9.17% 하락해 달러 대비 원화가 강세입니다.",
-        "geo": "VIX는 14.23으로 매우 낮지만 연준 인플레이션 우려·금리 인상 발언 헤드라인이 겹쳐 정책 측면의 긴장은 남아 있는 것으로 봤습니다."
+        "rates": "10년물 금리가 4.7%로 1년 범위 95% 위치, 3개월 +5.07%이고 헤드라인에서도 연준 인사(해맥)가 금리 인상을 언급해 상승 방향입니다.",
+        "growth": "S&P500이 7743.89로 1년 범위 96% 위치이고 3개월 +1.89% 상승해 표면적으로는 양호하나, '취업 시장 불확실성으로 인력 재고 80% 증가' 헤드라인은 반대 신호라 확장 판정에 단서가 붙습니다.",
+        "valuation": "지수가 1년 최고가(7798.99)에 근접한 96% 위치여서 가격 부담이 큰 편으로 분류합니다.",
+        "fx": "원/달러 1378.48원은 1년 범위 하단 1% 위치이며 3개월 -9.11%로, 달러 대비 원화가 강한 상태입니다.",
+        "geo": "VIX 14.16(1년 범위 4% 위치, 3개월 -11.78%)로 매우 낮고 제시된 헤드라인에 지정학적 충격 내용이 없어 평온으로 봅니다."
       },
-      "summary": "미국 증시는 1년 고점 부근(범위의 98%)까지 올라 가격 부담이 큰 상태이고, 금리는 4.7%로 높은 쪽에서 더 오르는 흐름입니다. 변동성은 낮아 조용해 보이지만 연준의 매파적 발언이 이어지는 국면입니다.",
+      "summary": "지수는 1년 최고 부근(96% 위치)이고 변동성은 최저권이라 겉으로는 순항하지만, 금리가 4.7%로 범위 상단까지 올라와 있어 가격 부담이 큰 국면입니다. 고용 관련 불확실성 헤드라인은 확장 판정의 약한 고리입니다.",
       "rates": "hike",
       "growth": "expand",
       "valuation": "rich",
       "fx": "strong",
-      "geo": "tense"
+      "geo": "calm"
     }
   },
   "stocks": {
@@ -238,95 +238,95 @@
     },
     "us": {
       "MSFT": {
-        "price": 515.307,
+        "price": 514.68,
         "prev": 505.05999755859375,
-        "chg": 2.03,
+        "chg": 1.9,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T15:27:08.000Z"
+        "time": "2026-08-28T15:48:02.000Z"
       },
       "AAPL": {
-        "price": 321.79,
+        "price": 322.055,
         "prev": 314.5799865722656,
-        "chg": 2.29,
+        "chg": 2.38,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T15:27:06.000Z"
+        "time": "2026-08-28T15:47:57.000Z"
       },
       "GOOGL": {
-        "price": 348.2,
+        "price": 348.24,
         "prev": 340.6499938964844,
-        "chg": 2.22,
+        "chg": 2.23,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T15:27:06.000Z"
+        "time": "2026-08-28T15:48:01.000Z"
       },
       "BRK.B": {
-        "price": 505.95,
+        "price": 505.66,
         "prev": 503.70001220703125,
-        "chg": 0.45,
+        "chg": 0.39,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T15:26:57.000Z"
+        "time": "2026-08-28T15:48:00.000Z"
       },
       "V": {
-        "price": 383.31,
+        "price": 383.47,
         "prev": 379.6600036621094,
-        "chg": 0.96,
+        "chg": 1,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T15:26:57.000Z"
+        "time": "2026-08-28T15:48:00.000Z"
       },
       "JNJ": {
-        "price": 266.52,
+        "price": 265.945,
         "prev": 265.7699890136719,
-        "chg": 0.28,
+        "chg": 0.07,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T15:26:48.000Z"
+        "time": "2026-08-28T15:47:55.000Z"
       },
       "PG": {
-        "price": 143.36,
+        "price": 143.38,
         "prev": 143.13999938964844,
-        "chg": 0.15,
+        "chg": 0.17,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T15:27:05.000Z"
+        "time": "2026-08-28T15:48:01.000Z"
       },
       "KO": {
-        "price": 89.61,
+        "price": 89.76,
         "prev": 89.05999755859375,
-        "chg": 0.62,
+        "chg": 0.79,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T15:26:56.000Z"
+        "time": "2026-08-28T15:47:55.000Z"
       },
       "COST": {
-        "price": 945.77,
+        "price": 948.68,
         "prev": 934.6599731445312,
-        "chg": 1.19,
+        "chg": 1.5,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T15:27:06.000Z"
+        "time": "2026-08-28T15:48:00.000Z"
       },
       "WM": {
-        "price": 219.54,
+        "price": 218.935,
         "prev": 217.75999450683594,
-        "chg": 0.82,
+        "chg": 0.54,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T15:27:02.000Z"
+        "time": "2026-08-28T15:47:42.000Z"
       },
       "LIN": {
-        "price": 489.085,
+        "price": 488.17,
         "prev": 485.3500061035156,
-        "chg": 0.77,
+        "chg": 0.58,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T15:27:00.000Z"
+        "time": "2026-08-28T15:47:54.000Z"
       },
       "XOM": {
-        "price": 156.23,
+        "price": 155.71,
         "prev": 156.44000244140625,
-        "chg": -0.13,
+        "chg": -0.47,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T15:27:01.000Z"
+        "time": "2026-08-28T15:48:00.000Z"
       },
       "NVDA": {
-        "price": 223.93,
+        "price": 222.76,
         "prev": 227.97999572753906,
-        "chg": -1.78,
+        "chg": -2.29,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T15:27:07.000Z"
+        "time": "2026-08-28T15:47:50.000Z"
       }
     }
   },
@@ -461,15 +461,15 @@
         "by": "ai"
       },
       {
-        "title": "When will mortgage rates go down? Or maybe they're poised to move higher.",
-        "link": "https://finance.yahoo.com/personal-finance/mortgages/article/when-will-mortgage-rates-go-down-or-maybe-theyre-poised-to-move-higher-190610094.html",
+        "title": "Job Market Uncertainty Pushes Commercial Staffing Stocks Up 80% This Year",
+        "link": "https://www.investors.com/news/job-market-staffing-services-ai-labor-hiring/?src=A00220&yptr=yahoo",
         "source": "Yahoo Finance",
-        "date": "2025-04-22T19:06:10Z",
-        "ko": "주택담보대출 금리는 언제 인하되나요? 아니면 더 높이 올라갈 준비가 되어 있는 것일 수도 있습니다.",
+        "date": "2026-08-28T15:39:08Z",
+        "ko": "취업 시장의 불확실성으로 올해 상업 인력 재고가 80% 증가했습니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "금리 방향 전망 기사로, 확정된 사실 변화는 없습니다.",
+        "why": "고용 관련 경기 지표 변화로, 제목만으로는 장기 이익 구조와의 연결이 불분명합니다.",
         "by": "ai"
       }
     ]
@@ -661,7 +661,8 @@
     "The bull market for stocks is defying everything, but Bank of America warns that an autumn reality check is coming": "주식에 대한 황소 시장은 모든 것을 거스르고 있지만, 뱅크 오브 아메리카는 가을 현실 점검이 다가오고 있다고 경고합니다.",
     "Fed Chair Warsh Leans Hawkish In Jackson Hole Speech (Live Coverage)": "Fed Chair Warsh Leans Hawkish In Jackson Hole 연설 (라이브 커버리지)",
     "PayPal’s stock slides as a takeover bid is said to fall through. What’s next for the company?": "인수 입찰로서 PayPal의 주식 슬라이드는 하락한다고 합니다. 회사의 다음 단계는 무엇인가요?",
-    "When will mortgage rates go down? Or maybe they're poised to move higher.": "주택담보대출 금리는 언제 인하되나요? 아니면 더 높이 올라갈 준비가 되어 있는 것일 수도 있습니다."
+    "When will mortgage rates go down? Or maybe they're poised to move higher.": "주택담보대출 금리는 언제 인하되나요? 아니면 더 높이 올라갈 준비가 되어 있는 것일 수도 있습니다.",
+    "Job Market Uncertainty Pushes Commercial Staffing Stocks Up 80% This Year": "취업 시장의 불확실성으로 올해 상업 인력 재고가 80% 증가했습니다."
   },
   "nvCache": {
     "https://www.yna.co.kr/view/AKR20260824137251008": {
@@ -2034,6 +2035,13 @@
       "lasting": "temporary",
       "scope": "market",
       "why": "금리 방향 전망 기사로, 확정된 사실 변화는 없습니다.",
+      "by": "ai"
+    },
+    "https://www.investors.com/news/job-market-staffing-services-ai-labor-hiring/?src=A00220&yptr=yahoo": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "고용 관련 경기 지표 변화로, 제목만으로는 장기 이익 구조와의 연결이 불분명합니다.",
       "by": "ai"
     }
   },
