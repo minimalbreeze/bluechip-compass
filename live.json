@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-28T19:59:09.973Z",
+  "asOf": "2026-08-28T20:20:08.330Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -17,32 +17,32 @@
       "time": "2026-08-28T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1378.11,
+      "price": 1378.58,
       "prev": 1383.489990234375,
-      "chg": -0.39,
+      "chg": -0.35,
       "basis": "prev-daily-close",
-      "time": "2026-08-28T19:58:23.000Z"
+      "time": "2026-08-28T20:19:18.000Z"
     },
     "^GSPC": {
-      "price": 7715.41,
+      "price": 7711.76,
       "prev": 7730.990234375,
-      "chg": -0.2,
+      "chg": -0.25,
       "basis": "prev-daily-close",
-      "time": "2026-08-28T19:58:30.000Z"
+      "time": "2026-08-28T20:19:23.000Z"
     },
     "^IXIC": {
-      "price": 26417.615,
+      "price": 26402.424,
       "prev": 26541.349609375,
-      "chg": -0.47,
+      "chg": -0.52,
       "basis": "prev-daily-close",
-      "time": "2026-08-28T19:58:30.000Z"
+      "time": "2026-08-28T20:19:22.000Z"
     },
     "^VIX": {
-      "price": 14.46,
+      "price": 14.38,
       "prev": 14.510000228881836,
-      "chg": -0.34,
+      "chg": -0.9,
       "basis": "prev-daily-close",
-      "time": "2026-08-28T19:43:16.000Z"
+      "time": "2026-08-28T20:04:16.000Z"
     },
     "^TNX": {
       "price": 4.72,
@@ -55,7 +55,7 @@
   "fx": {
     "low52": 1377.64,
     "high52": 1554.48,
-    "pct": 0.003
+    "pct": 0.005
   },
   "hist": {
     "^KS11": {
@@ -73,32 +73,32 @@
       "chg3m": -24.15
     },
     "KRW=X": {
-      "last": 1378.11,
+      "last": 1378.58,
       "low52": 1377.64,
       "high52": 1554.48,
-      "pct52": 0.003,
-      "chg3m": -9.13
+      "pct52": 0.005,
+      "chg3m": -9.1
     },
     "^GSPC": {
-      "last": 7715.41,
+      "last": 7711.76,
       "low52": 6343.72,
       "high52": 7798.99,
-      "pct52": 0.943,
-      "chg3m": 1.52
+      "pct52": 0.94,
+      "chg3m": 1.47
     },
     "^IXIC": {
-      "last": 26417.62,
+      "last": 26402.42,
       "low52": 20794.64,
       "high52": 27093.9,
-      "pct52": 0.893,
-      "chg3m": -2.47
+      "pct52": 0.89,
+      "chg3m": -2.53
     },
     "^VIX": {
-      "last": 14.46,
+      "last": 14.38,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.056,
-      "chg3m": -9.91
+      "pct52": 0.052,
+      "chg3m": -10.4
     },
     "^TNX": {
       "last": 4.72,
@@ -110,16 +110,16 @@
   },
   "regime": {
     "by": "ai",
-    "asOf": "2026-08-28T19:59:05.318Z",
+    "asOf": "2026-08-28T20:20:04.033Z",
     "kr": {
       "why": {
-        "rates": "^TNX가 4.72로 1년범위(3.95~4.74)의 97% 위치이고 3개월간 +5.47% 올라, 금리는 내려가는 국면이 아니라 위쪽으로 밀리는 상태입니다.",
-        "growth": "^KS11이 3개월간 -15.55%로 크게 밀렸지만 여전히 1년범위의 63% 위치이고 ^VIX도 14.46(6% 위치)로 낮아, 침체 신호라기보다 상승 뒤 둔화 국면으로 봤습니다(자료가 제한적이라 중립에 가까운 판정).",
-        "valuation": "^KS11 현재 6912.37은 1년범위 3142.93~9114.55의 63% 위치로 고점도 저점도 아닌 중간 영역이며, 최근 3개월 -15.55% 조정으로 과열 정도는 낮아진 상태입니다.",
-        "fx": "KRW=X가 1378.11로 1년범위(1377.64~1554.48)의 0% 위치이고 3개월간 -9.13% 내려, 원화가 1년 중 가장 강한 쪽에 있습니다.",
-        "geo": "제시된 헤드라인은 상장사 유상증자·주주환원·연기금 수익률 등 국내 기업/제도 이슈뿐이고 ^VIX도 14.46으로 낮아 긴장 요인이 확인되지 않습니다."
+        "rates": "참고 금리 지표인 ^TNX가 4.72로 1년 범위(3.95~4.74)의 97% 지점이고 3개월 동안 +5.47% 올라, 금리가 위로 향하는 국면으로 분류했습니다.",
+        "growth": "^KS11이 3개월간 -15.55%로 크게 밀렸지만 1년 범위(3142.93~9114.55) 안에서 여전히 63% 위치이고 VIX도 14.38로 낮아, 침체 신호까지 보기는 근거가 약해 둔화로 두었습니다.",
+        "valuation": "^KS11 현재 6912.37은 1년 범위의 63% 지점으로 고점(9114.55)과 저점(3142.93)의 중간보다 약간 위여서 보통 수준으로 봤습니다.",
+        "fx": "KRW=X가 1378.58로 1년 범위(1377.64~1554.48)의 1% 지점, 3개월 -9.1%라 원화가 1년 중 가장 강한 쪽에 있습니다.",
+        "geo": "^VIX가 14.38로 1년 범위의 5% 지점이고 제시된 헤드라인도 유상증자·배당·디지털자산 등 개별 기업/제도 뉴스뿐이라 평온으로 분류했습니다."
       },
-      "summary": "금리는 위쪽(^TNX 4.72, 97% 위치), 원화는 1년 중 가장 강한 수준(1378.11)인 가운데 코스피는 3개월 -15.55%로 조정받아 열기가 식은 국면입니다. 변동성 지표(VIX 14.46)는 낮아 시장이 크게 놀란 상태는 아니며, 이 자료만으로는 침체로 단정하기 어렵습니다.",
+      "summary": "금리는 위쪽을 가리키고 원화는 1년 중 가장 강한 구간이며, 지수는 3개월간 -15.55% 조정을 받았지만 1년 범위로는 아직 중상단입니다. 변동성 지표가 낮아 시장 분위기 자체는 조용한 둔화 국면으로 읽힙니다.",
       "rates": "hike",
       "growth": "slow",
       "valuation": "fair",
@@ -128,13 +128,13 @@
     },
     "us": {
       "why": {
-        "rates": "^TNX가 4.72로 1년범위 상단(97% 위치, 3개월 +5.47%)이고, 헤드라인에서 연준 해맥 위원이 '금리 인상에 지금이 행동할 때'라 말하고 워시 의장이 인플레이션 우려를 표명해 방향이 위쪽입니다.",
-        "growth": "^GSPC가 7715.41로 1년범위(6343.72~7798.99)의 94% 위치이고 3개월 +1.52%로 완만히 올라, 지수만 보면 위축 신호는 없습니다.",
-        "valuation": "^GSPC가 1년 고점(7798.99) 부근인 94% 위치까지 올라와 있어 가격 부담이 큰 구간으로 분류했습니다.",
-        "fx": "KRW=X 1378.11은 1년범위의 0% 위치로 3개월간 -9.13%, 즉 달러 대비 원화가 강한 상태입니다(달러는 원화 대비 약한 쪽).",
-        "geo": "주어진 헤드라인은 연준 발언과 개별 기업(엔비디아·씨게이트 등) 이슈 위주이고 ^VIX 14.46(6% 위치)으로 낮아 긴장 징후가 확인되지 않습니다."
+        "rates": "^TNX가 4.72로 1년 범위(3.95~4.74)의 97% 지점이고 3개월 +5.47%인 데다, 헤드라인에서도 연준 인사가 '금리 인상에 대해 지금이 행동할 때'라고 언급해 상승 방향으로 봤습니다.",
+        "growth": "^GSPC가 7711.76으로 1년 범위(6343.72~7798.99)의 94% 지점이고 3개월 +1.47%로 완만하게나마 올라, 경기 인식은 괜찮은 쪽으로 분류했습니다.",
+        "valuation": "^GSPC가 1년 고점(7798.99) 바로 아래인 94% 위치라 가격 부담이 있는 구간으로 봤습니다.",
+        "fx": "KRW=X 1378.58은 1년 범위의 1% 지점, 3개월 -9.1%로 달러 대비 원화가 강한 상태입니다.",
+        "geo": "^VIX가 14.38로 1년 범위의 5% 지점이라 시장이 느끼는 긴장은 낮으며, 제시된 헤드라인에 지정학 충돌 내용은 없어 평온으로 두었습니다(다만 연준 매파 발언은 정책 변수로 남아 있습니다)."
       },
-      "summary": "미국 증시는 1년 고점 부근(94% 위치)에 있고 변동성은 낮지만, 국채금리 4.72와 연준 인사들의 인상 발언으로 금리 부담이 함께 커진 국면입니다. 즉 '주가는 높고 금리도 높은' 상태로, 가격이 싸다고 보기는 어려운 구간입니다.",
+      "summary": "지수는 1년 고점 부근(94% 위치)이고 변동성은 매우 낮지만, 장기금리가 1년 최고 수준이라 금리 부담이 함께 있는 국면입니다. 가격은 비싼 편으로 분류되며 원화는 달러 대비 강한 상태입니다.",
       "rates": "hike",
       "growth": "expand",
       "valuation": "rich",
@@ -238,95 +238,95 @@
     },
     "us": {
       "MSFT": {
-        "price": 513.68,
+        "price": 513.53,
         "prev": 505.05999755859375,
-        "chg": 1.71,
-        "basis": "prev-daily-close",
-        "time": "2026-08-28T19:58:30.000Z"
-      },
-      "AAPL": {
-        "price": 319.87,
-        "prev": 314.5799865722656,
         "chg": 1.68,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T19:58:36.000Z"
+        "time": "2026-08-28T20:00:01.000Z"
+      },
+      "AAPL": {
+        "price": 319.7,
+        "prev": 314.5799865722656,
+        "chg": 1.63,
+        "basis": "prev-daily-close",
+        "time": "2026-08-28T20:00:01.000Z"
       },
       "GOOGL": {
-        "price": 346.71,
+        "price": 346.59,
         "prev": 340.6499938964844,
-        "chg": 1.78,
+        "chg": 1.74,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T19:58:37.000Z"
+        "time": "2026-08-28T20:00:01.000Z"
       },
       "BRK.B": {
-        "price": 505.83,
+        "price": 505,
         "prev": 503.70001220703125,
-        "chg": 0.42,
+        "chg": 0.26,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T19:58:36.000Z"
+        "time": "2026-08-28T20:00:03.000Z"
       },
       "V": {
-        "price": 381.815,
+        "price": 381.6,
         "prev": 379.6600036621094,
-        "chg": 0.57,
+        "chg": 0.51,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T19:58:35.000Z"
+        "time": "2026-08-28T20:00:02.000Z"
       },
       "JNJ": {
-        "price": 267.905,
+        "price": 268.04,
         "prev": 265.7699890136719,
-        "chg": 0.8,
+        "chg": 0.85,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T19:58:36.000Z"
+        "time": "2026-08-28T20:00:02.000Z"
       },
       "PG": {
-        "price": 143.71,
+        "price": 143.78,
         "prev": 143.13999938964844,
-        "chg": 0.4,
+        "chg": 0.45,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T19:58:35.000Z"
+        "time": "2026-08-28T20:03:21.000Z"
       },
       "KO": {
-        "price": 89.675,
+        "price": 89.66,
         "prev": 89.05999755859375,
-        "chg": 0.69,
+        "chg": 0.67,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T19:58:36.000Z"
+        "time": "2026-08-28T20:00:02.000Z"
       },
       "COST": {
-        "price": 945.88,
+        "price": 945.47,
         "prev": 934.6599731445312,
-        "chg": 1.2,
+        "chg": 1.16,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T19:58:36.000Z"
+        "time": "2026-08-28T20:00:01.000Z"
       },
       "WM": {
-        "price": 219.85,
+        "price": 219.66,
         "prev": 217.75999450683594,
-        "chg": 0.96,
+        "chg": 0.87,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T19:58:34.000Z"
+        "time": "2026-08-28T20:00:02.000Z"
       },
       "LIN": {
-        "price": 489.24,
+        "price": 489.51,
         "prev": 485.3500061035156,
-        "chg": 0.8,
+        "chg": 0.86,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T19:58:35.000Z"
+        "time": "2026-08-28T20:00:01.000Z"
       },
       "XOM": {
-        "price": 156.89,
+        "price": 156.71,
         "prev": 156.44000244140625,
-        "chg": 0.29,
+        "chg": 0.17,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T19:58:36.000Z"
+        "time": "2026-08-28T20:03:03.000Z"
       },
       "NVDA": {
-        "price": 217.885,
+        "price": 217.55,
         "prev": 227.97999572753906,
-        "chg": -4.43,
+        "chg": -4.57,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T19:58:35.000Z"
+        "time": "2026-08-28T20:00:00.000Z"
       }
     }
   },
@@ -344,14 +344,14 @@
         "by": "ai"
       },
       {
-        "title": "[P전송금지]삼전닉스 쏠림장의 역설 … 흑자기업도 증시 퇴출 위기",
-        "link": "https://www.hankyung.com/article/2026082800541",
+        "title": "국민연금 수익률 '역대 최고'…상반기 韓주식으로 107% 벌어",
+        "link": "https://www.hankyung.com/article/2026082800551",
         "source": "한국경제",
-        "date": "Fri, 28 Aug 2026 18:16:15 +0900",
-        "act": "watch",
-        "lasting": "structural",
+        "date": "Fri, 28 Aug 2026 18:13:32 +0900",
+        "act": "none",
+        "lasting": "temporary",
         "scope": "market",
-        "why": "대형주 쏠림과 상장 유지 요건은 시장 구조 이슈라 흐름만 지켜보면 됩니다.",
+        "why": "지나간 기간의 수익률 집계라 앞으로의 이익을 바꾸지는 않습니다.",
         "by": "ai"
       },
       {
@@ -377,14 +377,14 @@
         "by": "ai"
       },
       {
-        "title": "국민연금 수익률 '역대 최고'…상반기 韓주식으로 107% 벌어",
-        "link": "https://www.hankyung.com/article/2026082800551",
+        "title": "삼성바이오, 인수자금 마련 위해 3조 유증",
+        "link": "https://www.hankyung.com/article/2026082800571",
         "source": "한국경제",
-        "date": "Fri, 28 Aug 2026 18:13:32 +0900",
+        "date": "Fri, 28 Aug 2026 18:12:35 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
-        "why": "지나간 기간의 수익률 집계라 앞으로의 이익을 바꾸지는 않습니다.",
+        "scope": "company",
+        "why": "하루 주가 급락 자체는 일시적 반응이라 오늘 할 일은 없습니다.",
         "by": "ai"
       },
       {
@@ -413,10 +413,10 @@
         "by": "ai"
       },
       {
-        "title": "Kevin Warsh gets what every Fed chair hopes for: A bond market that trust his words",
+        "title": "Kevin Warsh gets what every Fed chair hopes for: a bond market that trusts his word",
         "link": "https://www.marketwatch.com/story/kevin-warsh-gets-what-every-fed-chair-hopes-for-a-bond-market-that-trust-his-words-5103dad5?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Fri, 28 Aug 2026 19:52:00 GMT",
+        "date": "Fri, 28 Aug 2026 20:10:00 GMT",
         "ko": "케빈 워시 (Kevin Warsh) 는 모든 연준 의장이 원하는 것을 얻습니다: 그의 말을 신뢰하는 채권 시장",
         "act": "watch",
         "lasting": "structural",
@@ -461,15 +461,15 @@
         "by": "ai"
       },
       {
-        "title": "Seagate vs. Western Digital: Which One is The Best AI Storage Play for Dividend Investors?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/seagate-vs-western-digital-one-095857311.html",
+        "title": "Ameriprise Financial Stock: Analyst Estimates & Ratings",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/ameriprise-financial-stock-analyst-estimates-103020399.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-27T09:58:57Z",
-        "ko": "Seagate vs. Western Digital: 배당 투자자를 위한 최고의 AI 스토리지 플레이는 무엇입니까?",
+        "date": "2026-08-27T10:30:20Z",
+        "ko": "Ameriprise Financial Stock: 애널리스트 추정 및 평가",
         "act": "none",
         "lasting": "temporary",
-        "scope": "sector",
-        "why": "두 기업 비교 형식의 의견성 기사로, 투자 근거를 바꿀 사실은 없습니다.",
+        "scope": "company",
+        "why": "애널리스트 추정치 변경은 기업 이익 구조와 무관한 일상적 정보입니다.",
         "by": "ai"
       }
     ]
@@ -672,7 +672,9 @@
     "Druckenmiller tells former protégé Bessent his $4B bond buyback plan could spiral — and mortgage rates may not budge": "Druckenmiller는 전 친애하는 Bessent에게 자신의 $4B 채권 매입 계획이 나선형이 될 수 있으며 모기지 금리가 변하지 않을 수 있다고 말합니다.",
     "Chipotle CEO Scott Boatwright offloaded $1.1M in stock — but it wasn't a bearish signal for investors": "Chipotle의 CEO Scott Boatwright는 $110만 달러의 주식을 오프로드했지만 투자자들에게는 약한 신호가 아니었습니다.",
     "Kevin Warsh gets what every Fed chair hopes for: A bond market that trust his words": "케빈 워시 (Kevin Warsh) 는 모든 연준 의장이 원하는 것을 얻습니다: 그의 말을 신뢰하는 채권 시장",
-    "Seagate vs. Western Digital: Which One is The Best AI Storage Play for Dividend Investors?": "Seagate vs. Western Digital: 배당 투자자를 위한 최고의 AI 스토리지 플레이는 무엇입니까?"
+    "Seagate vs. Western Digital: Which One is The Best AI Storage Play for Dividend Investors?": "Seagate vs. Western Digital: 배당 투자자를 위한 최고의 AI 스토리지 플레이는 무엇입니까?",
+    "Kevin Warsh gets what every Fed chair hopes for: a bond market that trusts his word": "케빈 워시 (Kevin Warsh) 는 모든 연준 의장이 원하는 것을 얻습니다: 그의 말을 신뢰하는 채권 시장",
+    "Ameriprise Financial Stock: Analyst Estimates & Ratings": "Ameriprise Financial Stock: 애널리스트 추정 및 평가"
   },
   "nvCache": {
     "https://www.yna.co.kr/view/AKR20260824137251008": {
@@ -2129,6 +2131,13 @@
       "lasting": "temporary",
       "scope": "sector",
       "why": "두 기업 비교 형식의 의견성 기사로, 투자 근거를 바꿀 사실은 없습니다.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/markets/stocks/articles/ameriprise-financial-stock-analyst-estimates-103020399.html": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "애널리스트 추정치 변경은 기업 이익 구조와 무관한 일상적 정보입니다.",
       "by": "ai"
     }
   },
