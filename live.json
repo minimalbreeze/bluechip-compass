@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-28T20:20:08.330Z",
+  "asOf": "2026-08-28T20:41:06.257Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -17,32 +17,32 @@
       "time": "2026-08-28T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1378.58,
+      "price": 1378.18,
       "prev": 1383.489990234375,
-      "chg": -0.35,
+      "chg": -0.38,
       "basis": "prev-daily-close",
-      "time": "2026-08-28T20:19:18.000Z"
+      "time": "2026-08-28T20:40:19.000Z"
     },
     "^GSPC": {
       "price": 7711.76,
       "prev": 7730.990234375,
       "chg": -0.25,
       "basis": "prev-daily-close",
-      "time": "2026-08-28T20:19:23.000Z"
+      "time": "2026-08-28T20:37:00.000Z"
     },
     "^IXIC": {
       "price": 26402.424,
       "prev": 26541.349609375,
       "chg": -0.52,
       "basis": "prev-daily-close",
-      "time": "2026-08-28T20:19:22.000Z"
+      "time": "2026-08-28T20:40:26.000Z"
     },
     "^VIX": {
-      "price": 14.38,
+      "price": 14.43,
       "prev": 14.510000228881836,
-      "chg": -0.9,
+      "chg": -0.55,
       "basis": "prev-daily-close",
-      "time": "2026-08-28T20:04:16.000Z"
+      "time": "2026-08-28T20:15:01.000Z"
     },
     "^TNX": {
       "price": 4.72,
@@ -55,7 +55,7 @@
   "fx": {
     "low52": 1377.64,
     "high52": 1554.48,
-    "pct": 0.005
+    "pct": 0.003
   },
   "hist": {
     "^KS11": {
@@ -73,11 +73,11 @@
       "chg3m": -24.15
     },
     "KRW=X": {
-      "last": 1378.58,
+      "last": 1378.18,
       "low52": 1377.64,
       "high52": 1554.48,
-      "pct52": 0.005,
-      "chg3m": -9.1
+      "pct52": 0.003,
+      "chg3m": -9.13
     },
     "^GSPC": {
       "last": 7711.76,
@@ -94,11 +94,11 @@
       "chg3m": -2.53
     },
     "^VIX": {
-      "last": 14.38,
+      "last": 14.43,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.052,
-      "chg3m": -10.4
+      "pct52": 0.055,
+      "chg3m": -10.09
     },
     "^TNX": {
       "last": 4.72,
@@ -110,16 +110,16 @@
   },
   "regime": {
     "by": "ai",
-    "asOf": "2026-08-28T20:20:04.033Z",
+    "asOf": "2026-08-28T20:40:58.971Z",
     "kr": {
       "why": {
-        "rates": "참고 금리 지표인 ^TNX가 4.72로 1년 범위(3.95~4.74)의 97% 지점이고 3개월 동안 +5.47% 올라, 금리가 위로 향하는 국면으로 분류했습니다.",
-        "growth": "^KS11이 3개월간 -15.55%로 크게 밀렸지만 1년 범위(3142.93~9114.55) 안에서 여전히 63% 위치이고 VIX도 14.38로 낮아, 침체 신호까지 보기는 근거가 약해 둔화로 두었습니다.",
-        "valuation": "^KS11 현재 6912.37은 1년 범위의 63% 지점으로 고점(9114.55)과 저점(3142.93)의 중간보다 약간 위여서 보통 수준으로 봤습니다.",
-        "fx": "KRW=X가 1378.58로 1년 범위(1377.64~1554.48)의 1% 지점, 3개월 -9.1%라 원화가 1년 중 가장 강한 쪽에 있습니다.",
-        "geo": "^VIX가 14.38로 1년 범위의 5% 지점이고 제시된 헤드라인도 유상증자·배당·디지털자산 등 개별 기업/제도 뉴스뿐이라 평온으로 분류했습니다."
+        "rates": "제시된 금리 지표 ^TNX가 4.72로 1년범위(3.95~4.74)의 97% 지점이고 3개월간 +5.47% 올라 금리가 오르는 쪽으로 분류했습니다.",
+        "growth": "코스피가 3개월간 -15.55%로 크게 밀렸지만 여전히 1년범위(3142.93~9114.55)의 63% 위치이고 침체를 직접 보여주는 지표는 자료에 없어, 침체보다는 둔화 국면으로 봤습니다.",
+        "valuation": "PER 등 밸류에이션 수치는 제공되지 않았고 지수 위치가 1년범위의 63%로 중간보다 조금 위인 정도라 근거가 약해 중립인 '보통'으로 두었습니다.",
+        "fx": "원/달러가 1378.18로 1년범위(1377.64~1554.48)의 0% 지점이자 3개월간 -9.13%로 내려, 원화가 상대적으로 강한 상태입니다.",
+        "geo": "변동성지수 VIX가 14.43으로 1년범위(13.47~31.05)의 6% 수준이고 3개월간 -10.09%라 시장이 느끼는 긴장은 낮으며, 헤드라인도 개별 기업·정책 소식 위주입니다."
       },
-      "summary": "금리는 위쪽을 가리키고 원화는 1년 중 가장 강한 구간이며, 지수는 3개월간 -15.55% 조정을 받았지만 1년 범위로는 아직 중상단입니다. 변동성 지표가 낮아 시장 분위기 자체는 조용한 둔화 국면으로 읽힙니다.",
+      "summary": "금리 지표는 1년 최고 부근(4.72)까지 오른 가운데 코스피는 3개월간 -15.55%로 조정을 받아 '둔화' 성격이 강한 국면입니다. 다만 원/달러는 1378.18로 1년 최저 수준이고 VIX도 14.43으로 낮아, 불안이 크게 번진 상태는 아닙니다.",
       "rates": "hike",
       "growth": "slow",
       "valuation": "fair",
@@ -128,13 +128,13 @@
     },
     "us": {
       "why": {
-        "rates": "^TNX가 4.72로 1년 범위(3.95~4.74)의 97% 지점이고 3개월 +5.47%인 데다, 헤드라인에서도 연준 인사가 '금리 인상에 대해 지금이 행동할 때'라고 언급해 상승 방향으로 봤습니다.",
-        "growth": "^GSPC가 7711.76으로 1년 범위(6343.72~7798.99)의 94% 지점이고 3개월 +1.47%로 완만하게나마 올라, 경기 인식은 괜찮은 쪽으로 분류했습니다.",
-        "valuation": "^GSPC가 1년 고점(7798.99) 바로 아래인 94% 위치라 가격 부담이 있는 구간으로 봤습니다.",
-        "fx": "KRW=X 1378.58은 1년 범위의 1% 지점, 3개월 -9.1%로 달러 대비 원화가 강한 상태입니다.",
-        "geo": "^VIX가 14.38로 1년 범위의 5% 지점이라 시장이 느끼는 긴장은 낮으며, 제시된 헤드라인에 지정학 충돌 내용은 없어 평온으로 두었습니다(다만 연준 매파 발언은 정책 변수로 남아 있습니다)."
+        "rates": "미 10년물 ^TNX가 4.72로 1년범위(3.95~4.74)의 97% 지점, 3개월 +5.47%이고 헤드라인에서도 연준 인사(해맥)의 '금리 인상' 언급과 워시 의장의 인플레이션 우려가 함께 나옵니다.",
+        "growth": "S&P500이 7711.76으로 1년범위(6343.72~7798.99)의 94% 위치이고 3개월간 +1.47%로 완만히 올라 경기 둔화 신호보다는 양호한 쪽으로 분류했습니다.",
+        "valuation": "지수가 1년 고점(7798.99) 근처인 94% 위치에 있어 가격 부담이 있는 편으로 봤으며, 이익 대비 배수 자료는 제공되지 않았습니다.",
+        "fx": "원/달러 1378.18은 1년범위의 0% 지점이고 3개월 -9.13%로, 달러 대비 원화가 강한 상태입니다.",
+        "geo": "VIX가 14.43으로 1년범위의 6% 수준까지 내려와 있고 제시된 헤드라인에 지정학적 충돌 사건이 없어 평온으로 판단했습니다."
       },
-      "summary": "지수는 1년 고점 부근(94% 위치)이고 변동성은 매우 낮지만, 장기금리가 1년 최고 수준이라 금리 부담이 함께 있는 국면입니다. 가격은 비싼 편으로 분류되며 원화는 달러 대비 강한 상태입니다.",
+      "summary": "주가지수는 1년 고점 부근(94% 위치)이고 변동성은 14.43으로 낮아 겉으로는 차분하지만, 금리가 1년 최고 수준(4.72)까지 올라 있어 금리 부담이 큰 국면입니다. 가격이 높은 구간이라는 점만 상태로 확인해 두시면 됩니다.",
       "rates": "hike",
       "growth": "expand",
       "valuation": "rich",
@@ -461,15 +461,15 @@
         "by": "ai"
       },
       {
-        "title": "Ameriprise Financial Stock: Analyst Estimates & Ratings",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/ameriprise-financial-stock-analyst-estimates-103020399.html",
+        "title": "ReNew Energy (RNW) Q1 Earnings: Expanding Portfolio Meets a Pending Buyout Offer",
+        "link": "https://finance.yahoo.com/energy/articles/renew-energy-rnw-q1-earnings-104058662.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-27T10:30:20Z",
-        "ko": "Ameriprise Financial Stock: 애널리스트 추정 및 평가",
-        "act": "none",
+        "date": "2026-08-27T10:40:58Z",
+        "ko": "ReNew Energy (RNW) 1분기 실적: 포트폴리오 확장, 보류 중인 바이아웃 제안에 부합",
+        "act": "watch",
         "lasting": "temporary",
         "scope": "company",
-        "why": "애널리스트 추정치 변경은 기업 이익 구조와 무관한 일상적 정보입니다.",
+        "why": "분기 실적은 일시적이고, 인수 제안은 아직 결론이 나지 않아 진행 여부만 지켜보면 됩니다.",
         "by": "ai"
       }
     ]
@@ -674,7 +674,8 @@
     "Kevin Warsh gets what every Fed chair hopes for: A bond market that trust his words": "케빈 워시 (Kevin Warsh) 는 모든 연준 의장이 원하는 것을 얻습니다: 그의 말을 신뢰하는 채권 시장",
     "Seagate vs. Western Digital: Which One is The Best AI Storage Play for Dividend Investors?": "Seagate vs. Western Digital: 배당 투자자를 위한 최고의 AI 스토리지 플레이는 무엇입니까?",
     "Kevin Warsh gets what every Fed chair hopes for: a bond market that trusts his word": "케빈 워시 (Kevin Warsh) 는 모든 연준 의장이 원하는 것을 얻습니다: 그의 말을 신뢰하는 채권 시장",
-    "Ameriprise Financial Stock: Analyst Estimates & Ratings": "Ameriprise Financial Stock: 애널리스트 추정 및 평가"
+    "Ameriprise Financial Stock: Analyst Estimates & Ratings": "Ameriprise Financial Stock: 애널리스트 추정 및 평가",
+    "ReNew Energy (RNW) Q1 Earnings: Expanding Portfolio Meets a Pending Buyout Offer": "ReNew Energy (RNW) 1분기 실적: 포트폴리오 확장, 보류 중인 바이아웃 제안에 부합"
   },
   "nvCache": {
     "https://www.yna.co.kr/view/AKR20260824137251008": {
@@ -2138,6 +2139,13 @@
       "lasting": "temporary",
       "scope": "company",
       "why": "애널리스트 추정치 변경은 기업 이익 구조와 무관한 일상적 정보입니다.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/energy/articles/renew-energy-rnw-q1-earnings-104058662.html": {
+      "act": "watch",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "분기 실적은 일시적이고, 인수 제안은 아직 결론이 나지 않아 진행 여부만 지켜보면 됩니다.",
       "by": "ai"
     }
   },
