@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-28T11:20:19.020Z",
+  "asOf": "2026-08-28T12:21:10.730Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -17,11 +17,11 @@
       "time": "2026-08-28T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1375.23,
+      "price": 1374.22,
       "prev": 1383.489990234375,
-      "chg": -0.6,
+      "chg": -0.67,
       "basis": "prev-daily-close",
-      "time": "2026-08-28T11:19:11.000Z"
+      "time": "2026-08-28T12:20:30.000Z"
     },
     "^GSPC": {
       "price": 7730.99,
@@ -42,7 +42,7 @@
       "prev": 14.510000228881836,
       "chg": -0.28,
       "basis": "prev-daily-close",
-      "time": "2026-08-28T11:04:16.000Z"
+      "time": "2026-08-28T12:05:31.000Z"
     },
     "^TNX": {
       "price": 4.672,
@@ -53,7 +53,7 @@
     }
   },
   "fx": {
-    "low52": 1375.23,
+    "low52": 1374.22,
     "high52": 1554.48,
     "pct": 0
   },
@@ -73,11 +73,11 @@
       "chg3m": -21.99
     },
     "KRW=X": {
-      "last": 1375.23,
-      "low52": 1375.23,
+      "last": 1374.22,
+      "low52": 1374.22,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -9.32
+      "chg3m": -9.39
     },
     "^GSPC": {
       "last": 7730.99,
@@ -110,16 +110,16 @@
   },
   "regime": {
     "by": "ai",
-    "asOf": "2026-08-28T11:20:03.665Z",
+    "asOf": "2026-08-28T12:21:07.169Z",
     "kr": {
       "why": {
-        "rates": "참고 지표인 미 10년물 금리(^TNX)가 4.67%로 1년 범위 상단 91% 위치이고 3개월간 +4.92% 올랐으며, 헤드라인에도 연준 해맥 위원의 금리 인상 언급이 있어 금리는 오르는 쪽으로 봅니다.",
-        "growth": "코스피가 3개월간 -19.91% 하락해 둔화 신호가 뚜렷하지만, 지수 위치는 여전히 1년 범위의 61%이고 VIX도 14.47로 낮아 침체 단정은 근거가 약해 중간값인 '둔화'로 봅니다.",
-        "valuation": "코스피 6788.88은 1년 범위(3142.93~9114.55)의 61% 지점으로 고점도 저점도 아니며, 밸류에이션 지표(PER 등)가 제시되지 않아 보통으로 분류합니다.",
-        "fx": "원/달러가 1375.23원으로 1년 범위(1375.23~1554.48)의 0% 즉 최저치이고 3개월간 -9.32% 내려 원화가 1년 중 가장 강한 상태입니다.",
-        "geo": "'트럼프의 중국 제재' 언급이 있으나 구체적 충격 사건은 없고 VIX가 14.47(1년 범위 6% 위치)로 매우 낮아 평온으로 봅니다."
+        "rates": "국내 정책금리 자료는 없지만 제시된 유일한 금리 지표인 미 10년물(^TNX)이 4.67%로 1년 범위 91% 위치이고 3개월간 +4.92% 올라 금리 상승 압력 국면으로 분류했습니다.",
+        "growth": "코스피가 3개월간 -19.91% 급락한 점은 둔화 신호지만, 현재 6788.88로 1년 범위 61% 위치이고 VIX도 14.47(범위 6%)로 낮아 침체 신호까지는 근거가 부족해 중간값인 둔화로 봤습니다.",
+        "valuation": "코스피 6788.88은 1년 범위 3142.93~9114.55의 61% 위치로 고점도 저점도 아닌 중간 구간이어서 보통으로 분류했습니다.",
+        "fx": "원/달러가 1374.22로 1년 범위(1374.22~1554.48)의 0% 위치, 3개월간 -9.39% 하락해 원화가 가장 강한 수준입니다.",
+        "geo": "제시된 헤드라인은 기업 유상증자·주주환원·디지털자산 등 국내 이슈이고 VIX가 14.47(범위 6%)로 낮아 긴장 신호가 보이지 않습니다."
       },
-      "summary": "금리는 오르는데 코스피는 3개월간 20% 가까이 빠져 지수는 쉬어가는 국면이고, 원화는 1년 중 가장 강합니다. 변동성 지표(VIX 14.47)는 낮아 시장이 크게 놀란 상태는 아닙니다.",
+      "summary": "원화는 1년 중 가장 강하고 변동성 지표는 낮지만, 코스피가 3개월간 약 20% 빠져 지수 자체는 힘이 빠진 구간입니다. 금리 지표는 위로 향해 있어 '차분하지만 지수는 둔화된' 국면으로 보입니다.",
       "rates": "hike",
       "growth": "slow",
       "valuation": "fair",
@@ -128,13 +128,13 @@
     },
     "us": {
       "why": {
-        "rates": "^TNX가 4.67%로 1년 범위의 91% 위치이며 3개월간 +4.92% 상승했고, 헤드라인상 연준 해맥 위원이 '지금이 행동할 때'라며 인상을 언급했고 근원 물가는 연 3.3%로 나와 인상 방향으로 판정합니다.",
-        "growth": "S&P500이 7730.99로 1년 범위의 95% 위치이고 3개월간 +1.99% 상승해 시장이 반영하는 경기 상태는 양호한 편입니다.",
-        "valuation": "지수가 1년 범위 상단 95% 지점에 있어 가격 수준 자체는 높은 편이며, 이는 이익 대비 지표가 아닌 가격 위치 기준의 판단입니다.",
-        "fx": "원/달러가 1375.23원으로 1년 최저(위치 0%), 3개월간 -9.32%로 달러가 원화 대비 약해진 상태여서 원화 강세로 분류합니다.",
-        "geo": "VIX가 14.47로 1년 범위 6% 위치의 낮은 수준이고 제시된 헤드라인은 개별 기업·물가 이슈 중심이어서 평온으로 봅니다."
+        "rates": "미 10년물이 4.67%로 1년 범위 91% 위치이며 3개월간 +4.92% 상승했고, 헤드라인에서 Fed 해맥 위원이 금리 인상에 대해 '지금이 행동할 때'라고 언급하고 코어 인플레이션이 연 3.3%로 나타난 점을 인용했습니다.",
+        "growth": "S&P500이 7730.99로 1년 범위 95% 위치, 3개월 +1.99%이고 VIX가 14.47(범위 6%)로 낮아 시장이 확인하는 경기 상태는 아직 괜찮은 쪽입니다.",
+        "valuation": "S&P500이 1년 범위 6343.72~7798.99의 95% 위치로 고점 부근에 있어 비싼 편으로 분류했습니다.",
+        "fx": "원/달러가 1374.22로 1년 범위 0% 위치(3개월 -9.39%)여서 달러 대비 원화가 강한 상태입니다.",
+        "geo": "헤드라인은 Fed 정책·개별 기업 이슈에 국한되고 VIX가 14.47(범위 6%)로 낮아 지정학적 충격 근거는 없습니다."
       },
-      "summary": "미국 증시는 1년 고점 부근(범위의 95%)에 있고 변동성은 낮지만, 금리는 4.67%로 높은 구간이고 근원 물가도 3.3%라 긴축 쪽 부담이 남아 있는 국면입니다. 가격이 이미 높은 자리라는 점은 기억해 둘 필요가 있습니다.",
+      "summary": "지수는 1년 최고치 근처(범위 95%)이고 변동성은 낮지만, 코어 물가 3.3%와 10년물 4.67%로 금리는 위를 보고 있습니다. '분위기는 좋은데 가격은 높고 금리 부담이 있는' 국면입니다.",
       "rates": "hike",
       "growth": "expand",
       "valuation": "rich",
@@ -333,6 +333,17 @@
   "news": {
     "kr": [
       {
+        "title": "[부고] 이귀원(연합뉴스 증권부장)씨 부친상",
+        "link": "https://www.yna.co.kr/view/AKR20260828163300008",
+        "source": "연합뉴스",
+        "date": "Fri, 28 Aug 2026 18:28:04 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "투자 판단과 무관한 부고 기사입니다.",
+        "by": "ai"
+      },
+      {
         "title": "[P전송금지]삼전닉스 쏠림장의 역설 … 흑자기업도 증시 퇴출 위기",
         "link": "https://www.hankyung.com/article/2026082800541",
         "source": "한국경제",
@@ -352,6 +363,17 @@
         "lasting": "structural",
         "scope": "company",
         "why": "대규모 증자는 지분 희석과 증설 효과를 함께 보므로 자금 사용처를 지켜보세요.",
+        "by": "ai"
+      },
+      {
+        "title": "DB손보 \"2030년 주주환원율 50%로 확대…배당 매년 10% 이상↑\"",
+        "link": "https://www.yna.co.kr/view/AKR20260828153700002",
+        "source": "연합뉴스",
+        "date": "Fri, 28 Aug 2026 17:43:15 +0900",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": "company",
+        "why": "주주환원 정책의 장기 목표 제시로, 실제 이행 여부를 지켜볼 만합니다.",
         "by": "ai"
       },
       {
@@ -375,28 +397,6 @@
         "scope": "sector",
         "why": "금융업의 디지털자산 확대는 업종 구조가 서서히 바뀌는 흐름입니다.",
         "by": "ai"
-      },
-      {
-        "title": "삼성바이오, 3조 유상증자 소식에 7% 급락",
-        "link": "https://www.hankyung.com/article/2026082800571",
-        "source": "한국경제",
-        "date": "Fri, 28 Aug 2026 18:12:35 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "하루 주가 급락 자체는 일시적 반응이라 오늘 할 일은 없습니다.",
-        "by": "ai"
-      },
-      {
-        "title": "엔비디아 6분기째 어닝 서프라이즈…트럼프의 중국 제재와 삼전닉스의 복잡한 함수 [플러스 관심 종목]",
-        "link": "https://www.mk.co.kr/news/business/12139125",
-        "source": "매일경제",
-        "date": "Fri, 28 Aug 2026 19:01:39 +09:00",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": "sector",
-        "why": "해외 규제 변수는 반도체 업황에 오래 남을 수 있어 관찰 대상입니다.",
-        "by": "ai"
       }
     ],
     "us": [
@@ -413,15 +413,15 @@
         "by": "ai"
       },
       {
-        "title": "PayPal’s stock sinks as suitors reportedly walk away from their takeover bid",
-        "link": "https://www.marketwatch.com/story/paypals-stock-sinks-as-suitors-reportedly-walk-away-from-their-takeover-bid-b943e5ec?mod=mw_rss_topstories",
+        "title": "How Bank of America and three other lenders could win big from Scott Bessent’s and Kevin Warsh’s bond-market machinations",
+        "link": "https://www.marketwatch.com/story/how-bank-of-america-and-three-other-lenders-could-win-big-from-scott-bessents-and-kevin-warshs-bond-market-mechanations-4e56b581?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Fri, 28 Aug 2026 11:10:00 GMT",
-        "ko": "구혼자가 인수 입찰에서 멀어지면서 PayPal의 재고가 가라앉고 있는 것으로 알려졌습니다.",
+        "date": "Fri, 28 Aug 2026 11:18:00 GMT",
+        "ko": "뱅크 오브 아메리카와 다른 세 명의 대출 기관이 Scott Bessent와 Kevin Warsh의 채권 시장 음모에서 큰 승리를 거둘 수있는 방법",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
-        "why": "인수설 관련 주가 변동은 사업 자체의 장기 이익과는 거리가 있습니다.",
+        "scope": "sector",
+        "why": "정책 인물 관련 추측성 전망으로, 실제 이익 변화는 확인되지 않았습니다.",
         "by": "ai"
       },
       {
@@ -449,27 +449,27 @@
         "by": "ai"
       },
       {
-        "title": "Is Anthropic worth $2 trillion? Here’s how the company is trading in a new tokenized market.",
-        "link": "https://www.marketwatch.com/story/is-anthropic-worth-2-trillion-heres-how-the-company-is-trading-in-a-new-tokenized-market-390bc152?mod=mw_rss_topstories",
+        "title": "PayPal’s stock sinks as suitors reportedly walk away from their takeover bid",
+        "link": "https://www.marketwatch.com/story/paypals-stock-sinks-as-suitors-reportedly-walk-away-from-their-takeover-bid-b943e5ec?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Fri, 28 Aug 2026 10:29:00 GMT",
-        "ko": "Anthropic은 $2 조의 가치가 있습니까? 회사가 새로운 토큰화된 시장에서 거래하는 방법은 다음과 같습니다.",
+        "date": "Fri, 28 Aug 2026 11:10:00 GMT",
+        "ko": "구혼자가 인수 입찰에서 멀어지면서 PayPal의 재고가 가라앉고 있는 것으로 알려졌습니다.",
         "act": "none",
-        "lasting": "structural",
-        "scope": "sector",
-        "why": "비상장 기업 밸류에이션 논의로, 보유 종목의 근거를 바꾸지는 않습니다.",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "인수설 관련 주가 변동은 사업 자체의 장기 이익과는 거리가 있습니다.",
         "by": "ai"
       },
       {
-        "title": "Pfizer vs. Abbott: Which Dividend Healthcare Stock Offers the Better Risk-Reward?",
-        "link": "https://finance.yahoo.com/healthcare/articles/pfizer-vs-abbott-dividend-healthcare-231502743.html",
+        "title": "Is UnitedHealth (UNH) the Healthcare Stock to Watch Right Now?",
+        "link": "https://finance.yahoo.com/healthcare/articles/unitedhealth-unh-healthcare-stock-watch-002642031.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-26T23:15:02Z",
-        "ko": "화이자 vs. 애보트: 더 나은 위험 보상을 제공하는 배당 헬스케어 주식은 무엇입니까?",
+        "date": "2026-08-27T00:26:42Z",
+        "ko": "UnitedHealth (UNH) 는 지금 당장 시청해야 할 헬스케어 주식입니까?",
         "act": "none",
         "lasting": "temporary",
-        "scope": "sector",
-        "why": "두 종목을 비교하는 의견성 기사라 오늘 할 일은 없습니다.",
+        "scope": "company",
+        "why": "주목 종목 여부를 묻는 의견성 기사로 새로운 사실이 없습니다.",
         "by": "ai"
       }
     ]
@@ -649,7 +649,9 @@
     "Mortgage rate predictions through 2030: Economic factors at plays": "2030년까지의 주택담보대출 금리 예측: PLAYS의 경제적 요인",
     "PayPal’s stock sinks as suitors reportedly walk away from their takeover bid": "구혼자가 인수 입찰에서 멀어지면서 PayPal의 재고가 가라앉고 있는 것으로 알려졌습니다.",
     "Is Anthropic worth $2 trillion? Here’s how the company is trading in a new tokenized market.": "Anthropic은 $2 조의 가치가 있습니까? 회사가 새로운 토큰화된 시장에서 거래하는 방법은 다음과 같습니다.",
-    "Pfizer vs. Abbott: Which Dividend Healthcare Stock Offers the Better Risk-Reward?": "화이자 vs. 애보트: 더 나은 위험 보상을 제공하는 배당 헬스케어 주식은 무엇입니까?"
+    "Pfizer vs. Abbott: Which Dividend Healthcare Stock Offers the Better Risk-Reward?": "화이자 vs. 애보트: 더 나은 위험 보상을 제공하는 배당 헬스케어 주식은 무엇입니까?",
+    "How Bank of America and three other lenders could win big from Scott Bessent’s and Kevin Warsh’s bond-market machinations": "뱅크 오브 아메리카와 다른 세 명의 대출 기관이 Scott Bessent와 Kevin Warsh의 채권 시장 음모에서 큰 승리를 거둘 수있는 방법",
+    "Is UnitedHealth (UNH) the Healthcare Stock to Watch Right Now?": "UnitedHealth (UNH) 는 지금 당장 시청해야 할 헬스케어 주식입니까?"
   },
   "nvCache": {
     "https://www.yna.co.kr/view/AKR20260824137251008": {
@@ -1960,9 +1962,21 @@
       "scope": "sector",
       "why": "두 종목을 비교하는 의견성 기사라 오늘 할 일은 없습니다.",
       "by": "ai"
+    },
+    "https://www.marketwatch.com/story/how-bank-of-america-and-three-other-lenders-could-win-big-from-scott-bessents-and-kevin-warshs-bond-market-mechanations-4e56b581?mod=mw_rss_topstories": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "sector",
+      "why": "정책 인물 관련 추측성 전망으로, 실제 이익 변화는 확인되지 않았습니다.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/healthcare/articles/unitedhealth-unh-healthcare-stock-watch-002642031.html": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "주목 종목 여부를 묻는 의견성 기사로 새로운 사실이 없습니다.",
+      "by": "ai"
     }
   },
-  "failed": [
-    "news/kr/연합뉴스: fetch failed"
-  ]
+  "failed": []
 }
