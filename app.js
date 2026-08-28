@@ -95,7 +95,7 @@
   if (!load('cashUnit2', 0)) {
     ['kr', 'us'].forEach(function (mk) {
       var v = Number(state.cash[mk]) || 0;
-      state.cash[mk] = mk === 'kr' ? v * 10000 : v * 10000 / (state.profile.fx || 1350);
+      state.cash[mk] = mk === 'kr' ? v * 10000 : v * 10000 / fxNow();
     });
     save('cash', state.cash);
     save('cashUnit2', 1);
@@ -218,7 +218,7 @@
     return Math.round(manwon * 10000).toLocaleString('ko-KR') + '원';
   }
   function usd(manwon) {
-    var d = manwon * 10000 / state.profile.fx;
+    var d = manwon * 10000 / fxNow();
     return '$' + (d < 10 ? d.toFixed(1) : Math.round(d).toLocaleString('en-US'));
   }
   function money(manwon) {
@@ -278,7 +278,7 @@
     if (state.cur === 'usd') {
       return '$' + (Math.abs(v) < 10 ? v.toFixed(2) : Math.round(v).toLocaleString('en-US'));
     }
-    return won(v * state.profile.fx / 10000);
+    return won(v * fxNow() / 10000);
   }
   function nSign(v, mk) {
     return (v > 0 ? '+' : v < 0 ? '−' : '') + nMoney(Math.abs(v), mk);
@@ -291,7 +291,7 @@
     if (typeof v !== 'number' || !(v > 0)) return '–';
     return state.market === 'kr'
       ? perShare(v * 10000, 'kr')
-      : perShare(v * 10000 / (state.profile.fx || 1350), 'us');
+      : perShare(v * 10000 / fxNow(), 'us');
   }
 
   function perShare(v, mk) {
@@ -313,12 +313,38 @@
       cash: state.cash[mk],
       model: modelNow(mk),
       market: mk,
-      fx: state.profile.fx,
+      fx: fxNow(),
       priceOf: function (t) { return priceIn(mk, t); },
       scoreOf: function (r) { return scoreOfIn(mk, r); }
     });
   }
   function analyzeNow() { return analyzeMarket(state.market); }
+
+  /* ══════════════════════════════════════════════════════════════════
+     환율 — 살아 있는 값을 쓴다
+     ------------------------------------------------------------------
+     예전에는 profile.fx(기본 1350원)를 그대로 썼고, 실제 환율을 반영하려면
+     사용자가 "지금 N원 적용"을 눌러야 했다. 누를 이유를 모르는 사람은 영영
+     안 누른다 — 실제로 실제 환율이 1,381원인데 앱은 1,350원으로 계산하고
+     있었다. 미국 주식 평가액이 통째로 2.3% 어긋난다.
+
+     환율은 시세와 똑같은 성격의 값이다. live.json 의 KRW=X 가 20분마다
+     갱신되므로 그걸 기준으로 삼는다. 직접 정하고 싶은 사람을 위해 잠금
+     (fxLock)을 두되, 기본은 자동이다.
+     ══════════════════════════════════════════════════════════════ */
+  function fxNow() {
+    if (!state.profile.fxLock) {
+      var q = LIVE && LIVE.quotes ? LIVE.quotes['KRW=X'] : null;
+      if (q && typeof q.price === 'number' && q.price > 0) return Math.round(q.price);
+    }
+    return state.profile.fx || 1350;
+  }
+  /* 이 환율이 언제 값인지. 화면에 같이 적는다 — 숫자만 두면 언제 것인지
+     알 수 없고, 그러면 "안 변한다"는 오해가 다시 생긴다. */
+  function fxLive() {
+    var q = LIVE && LIVE.quotes ? LIVE.quotes['KRW=X'] : null;
+    return (q && q.price > 0) ? Math.round(q.price) : null;
+  }
 
   /* 손익 표기. 부호와 절제된 색까지만 쓴다 — 배경색·큰 강조는 쓰지 않는다.
      화면이 등락에 반응하기 시작하면 이 앱의 목적(감정 매매 줄이기)과 충돌한다. */
@@ -337,7 +363,7 @@
   function simCtx(mk) {
     var m = mk || state.market;
     return {
-      live: LIVE, market: m, fx: state.profile.fx, today: ymd(today()), model: simModel(m),
+      live: LIVE, market: m, fx: fxNow(), today: ymd(today()), model: simModel(m),
       /* 조정은 계속 돈다. 한때 주 1회로 묶었는데, 그건 "카톡이 자주 오는"
          문제를 엉뚱한 곳에서 푼 것이었다 — 시세와 기사는 계속 움직이므로
          계좌도 계속 따라가야 하고, 줄여야 하는 건 **알림 횟수**다.
@@ -1397,7 +1423,10 @@
         '<div><span>평가 손익</span><b class="' + plClass(krwPl) + '">' + signWon(krwPl / 10000) + '</b></div>' +
         '<div><span>수익률</span><b class="' + plClass(krwPl) + '">' + signPct(krwPlPct) + '</b></div>' +
       '</div>' +
-      '<div class="sum-cash">환율 ' + state.profile.fx + '원 기준으로 합쳤습니다. 미국 원금은 <b>매수 시점 환율</b>로 잡습니다.</div></div>');
+      '<div class="sum-cash">환율 <b>' + fxNow() + '원</b>' +
+        (state.profile.fxLock ? ' (직접 정하신 값)'
+          : (LIVE && LIVE.asOf ? ' · ' + agoText(LIVE.asOf) + ' 값' : '')) +
+        ' 기준으로 합쳤습니다. 미국 원금은 <b>매수 시점 환율</b>로 잡습니다.</div></div>');
 
     ['kr', 'us'].forEach(function (mk) {
       var a = A[mk];
@@ -1607,10 +1636,14 @@
       h.push('<div class="curtoggle">' +
         '<button class="curbtn' + (state.cur === 'krw' ? ' is-on' : '') + '" data-cur="krw">₩ 원화</button>' +
         '<button class="curbtn' + (state.cur === 'usd' ? ' is-on' : '') + '" data-cur="usd">$ 달러</button>' +
-        '<span class="curfx">환율 <input id="fxrate" type="number" value="' + state.profile.fx +
-          '" min="800" max="2500" step="1" inputmode="numeric" />원' +
-          (LIVE && LIVE.quotes && LIVE.quotes['KRW=X']
-            ? ' <button class="curnow" id="fx-now">지금 ' + Math.round(LIVE.quotes['KRW=X'].price) + '원 적용</button>' : '') +
+        /* 기본은 자동이다. 눌러야만 반영되는 값으로 두면 아무도 안 누른다. */
+        '<span class="curfx">' + (state.profile.fxLock
+          ? '환율 <input id="fxrate" type="number" value="' + state.profile.fx +
+            '" min="800" max="2500" step="1" inputmode="numeric" />원' +
+            ' <button class="curnow" id="fx-auto">자동으로</button>'
+          : '환율 <b>' + fxNow() + '원</b>' +
+            (LIVE && LIVE.asOf ? ' <small>' + agoText(LIVE.asOf) + '</small>' : '') +
+            ' <button class="curnow" id="fx-lock">직접 정하기</button>') +
         '</span></div>');
     }
 
@@ -1675,7 +1708,7 @@
 
       if (isUS) {
         h.push('<label class="cashline">매수 시점 환율<input id="h-fxat" type="number" inputmode="numeric" ' +
-          'value="' + state.profile.fx + '" min="800" max="2500" step="1" /><span>원</span></label>' +
+          'value="' + fxNow() + '" min="800" max="2500" step="1" /><span>원</span></label>' +
           '<div class="addnote">이 값이 있어야 원화 손익을 <b>주가 때문인지 환율 때문인지</b> 나눠 볼 수 있습니다. 모르면 그대로 두세요.</div>');
       }
 
@@ -1752,7 +1785,7 @@
             (isUS && (r.plByFx > 1 || r.plByFx < -1)
               ? '<div class="fxline">원화 손익 <b class="' + plClass(r.krwPl) + '">' + signWon(r.krwPl / 10000) + '</b> = ' +
                 '주가 ' + signWon(r.plByPrice / 10000) + ' + 환율 ' + signWon(r.plByFx / 10000) +
-                ' <span>(매수 시점 ' + r.fxAt + '원 → 지금 ' + state.profile.fx + '원)</span></div>'
+                ' <span>(매수 시점 ' + r.fxAt + '원 → 지금 ' + fxNow() + '원)</span></div>'
               : '')
         ) +
         '<div class="wbar"><span class="wbar-t" style="width:' + Math.min(100, r.weight) + '%"></span>' +
@@ -1816,7 +1849,7 @@
         }).join('') +
       '</div>');
     if (state.market === 'us') {
-      h.push('<div class="seedfx">환율 <input type="number" id="fxrate" value="' + p.fx + '" min="800" max="2500" step="10" inputmode="numeric" /> 원/달러로 환산</div>');
+      h.push('<div class="seedfx">환율 <input type="number" id="fxrate" value="' + fxNow() + '" min="800" max="2500" step="10" inputmode="numeric" /> 원/달러로 환산</div>');
     }
     h.push('<div class="stepnote">3년 안에 쓸 돈과 비상금(생활비 3~6개월치)은 <b>빼고</b> 넣으세요.</div>');
 
@@ -2930,6 +2963,19 @@
       render();
       return;
     }
+    /* ── 환율 잠금 ──
+       기본은 자동(살아 있는 값). 직접 정하고 싶을 때만 잠근다. */
+    if (ev.target.id === 'fx-lock') {
+      state.profile.fx = fxNow();
+      state.profile.fxLock = true;
+      save('profile', state.profile);
+      render(); return;
+    }
+    if (ev.target.id === 'fx-auto') {
+      state.profile.fxLock = false;
+      save('profile', state.profile);
+      render(); return;
+    }
     /* 홈 위젯 편집 */
     if (ev.target.id === 'wgt-toggle') {
       state.editWidgets = !state.editWidgets; render(); return;
@@ -2942,11 +2988,6 @@
     /* 종목 추가 폼 열고 닫기 */
     if ((el = ev.target.closest('[data-cur]'))) {
       state.cur = el.dataset.cur; save('cur', state.cur); render(); return;
-    }
-    if (ev.target.id === 'fx-now') {
-      var live = LIVE && LIVE.quotes ? LIVE.quotes['KRW=X'] : null;
-      if (live) { state.profile.fx = Math.round(live.price); save('profile', state.profile); render(); }
-      return;
     }
     if (ev.target.id === 'add-toggle') {
       state.addOpen = !state.addOpen;
@@ -3173,7 +3214,7 @@
       /* 시세를 못 받아오는 종목은 사용자가 적은 현재가를 쓴다 */
       var manual = parseFloat(curEl && curEl.value);
       if (manual > 0) item.cur = manual;
-      if (state.market === 'us') item.fxAt = parseInt(fxAtEl && fxAtEl.value, 10) || state.profile.fx;
+      if (state.market === 'us') item.fxAt = parseInt(fxAtEl && fxAtEl.value, 10) || fxNow();
 
       /* 처음 종목을 등록한 날을 투자 시작일로 잡는다 — 따로 묻지 않기 위해서다.
          한 번 잡히면 종목을 지웠다 다시 넣어도 바뀌지 않는다. */
@@ -3275,7 +3316,11 @@
     }
     if (ev.target.id === 'fxrate') {
       var f = parseInt(ev.target.value, 10);
-      if (f >= 800 && f <= 2500) { state.profile.fx = f; save('profile', state.profile); }
+      if (f >= 800 && f <= 2500) {
+        /* 손으로 적었다는 건 직접 정하겠다는 뜻이다 — 자동을 끈다. */
+        state.profile.fx = f; state.profile.fxLock = true;
+        save('profile', state.profile);
+      }
     }
     if (ev.target.id === 'seed-amt') { state.seedAmt = ev.target.value; return; }
     if (ev.target.id === 'sq') {
