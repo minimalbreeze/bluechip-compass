@@ -64,6 +64,8 @@
     pickSel: null,    // 자동완성에서 고른 종목
     editWidgets: false,
     planTab: load('planTab', 'plan'),
+    /* 알아보기 탭의 서브탭: 'find'(종목 찾아보기) | 'ask'(물어보기) */
+    stockTab: load('stockTab', 'find'),
     /* 미국 시장 금액을 달러로 볼지 원화로 볼지 */
     cur: load('cur', 'krw'),
     /* 모의투자는 시장별로 따로 굴린다 */
@@ -2501,8 +2503,23 @@
     return a ? { src: 'ai', d: a } : null;
   }
 
+  /* 이 탭은 두 가지 일을 한다 — 앱이 **이미 정리해 둔 것**을 찾아보는 일과,
+     정리돼 있지 않은 것을 **물어보는** 일이다.
+
+     처음엔 물어보기를 검색 결과 아래에 그냥 붙였는데, 만든 사람도 "문의하는
+     곳이 어디냐"고 물었다. 화면 맨 아래는 없는 것과 같다. 탭을 하나 더
+     만드는 대신(탭이 일곱 개가 되면 어디서 뭘 하는지 흐려진다) 제안·자료
+     탭에 이미 있는 서브탭 방식을 그대로 쓴다. 열자마자 두 자리가 다 보인다. */
   function renderStock() {
     loadAnalysis();
+    var head = '<div class="subnav">' +
+      '<button class="subbtn' + (state.stockTab !== 'ask' ? ' is-on' : '') + '" data-ssub="find">🔎 종목 찾아보기</button>' +
+      '<button class="subbtn' + (state.stockTab === 'ask' ? ' is-on' : '') + '" data-ssub="ask">🙋 물어보기</button>' +
+    '</div>';
+    return head + (state.stockTab === 'ask' ? renderAsk() : renderFind());
+  }
+
+  function renderFind() {
     /* 검색하려면 종목 색인이 있어야 한다. 이 탭을 열 때 받는다. */
     loadTickers();
     var mk = state.market;
@@ -2520,16 +2537,25 @@
     /* 결과는 이 칸만 갈아 끼운다 — 전체를 다시 그리면 입력 포커스가 날아간다 */
     h.push('<div class="sqres">' + stockResultHtml(mk) + '</div>');
 
-    /* 검색은 "이 앱이 이미 정리해 둔 것"만 답한다. 그 밖의 것을 물을
-       자리가 없으면 사용자는 앱을 닫고 다른 데로 간다 — 물어보는 자리를
-       같은 탭에 붙인다. 답이 오면 다시 이 흐름(얼마나 담을까)으로 돌아온다. */
-    if (window.BCAsk && BCAsk.on) {
-      BCAsk.load();
-      h.push(BCAsk.html(askCtx()));
-    }
-
     h.push('<div class="foot"><b>고지.</b> 이 화면은 <b>회사에 대한 설명</b>이지 ' +
       '특정 종목의 매수·매도 권유가 아닙니다. 어떤 수익도 보장하지 않습니다. ' +
+      '투자 판단과 그 결과는 본인에게 있습니다.</div>');
+    return h.join('');
+  }
+
+  function renderAsk() {
+    if (!(window.BCAsk && BCAsk.on)) {
+      return '<div class="note">지금은 물어보기를 쓸 수 없습니다.</div>';
+    }
+    loadTickers();
+    BCAsk.load();
+    var h = [];
+    h.push('<div class="sec-head"><h2>🙋 물어보기</h2>' +
+      '<p>투자하면서 궁금한 걸 물어보세요. <b>지금 시장 국면과 오늘 기사</b>를 ' +
+      '같이 놓고 AI 가 답합니다.</p></div>');
+    h.push(BCAsk.html(askCtx()));
+    h.push('<div class="foot"><b>고지.</b> 답은 <b>참고 자료</b>이지 특정 종목의 ' +
+      '매수·매도 권유가 아닙니다. 어떤 수익도 보장하지 않습니다. ' +
       '투자 판단과 그 결과는 본인에게 있습니다.</div>');
     return h.join('');
   }
@@ -3093,15 +3119,15 @@
     if (window.BCAsk && BCAsk.on && ev.target.closest('.ask') &&
         BCAsk.click(ev.target, askCtx())) return;
 
-    /* 종목 해설 아래의 "물어보기"는 같은 화면 아래 칸으로 내려가는 것이다.
-       탭을 새로 만들지 않는다 — 탭이 늘면 어디서 뭘 하는지 흐려진다. */
+    /* 종목 해설 아래의 "물어보기"는 같은 탭의 물어보기 칸으로 넘어간다.
+       state.sSel 은 그대로 두므로 질문에 이 종목이 자동으로 붙는다. */
     if ((el = ev.target.closest('#go-ask'))) {
-      var box = document.querySelector('.view.is-on .ask');
-      if (box) {
-        box.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        var ta = document.getElementById('askq');
-        if (ta) setTimeout(function () { ta.focus(); }, 350);
-      }
+      state.stockTab = 'ask';
+      save('stockTab', state.stockTab);
+      render();
+      window.scrollTo(0, 0);
+      var ta = document.getElementById('askq');
+      if (ta) ta.focus();
       return;
     }
 
@@ -3191,6 +3217,12 @@
       state.regimeMode = 'auto';
       save('regimeMode', state.regimeMode);
       render(); return;
+    }
+    if ((el = ev.target.closest('[data-ssub]'))) {
+      state.stockTab = el.dataset.ssub;
+      save('stockTab', state.stockTab);
+      if (current !== 'stock') { go('stock'); } else { render(); }
+      return;
     }
     if ((el = ev.target.closest('[data-psub]'))) {
       state.planTab = el.dataset.psub;
@@ -3451,7 +3483,7 @@
        계속 쓴다.) */
 
     if (ev.target.id === 'reset') {
-      ['market', 'style', 'regime', 'regimeMode', 'profile', 'touched', 'holdings', 'cash', 'widgets', 'folds', 'sim', 'planTab', 'learnTab', 'cur'].forEach(function (k) {
+      ['market', 'style', 'regime', 'regimeMode', 'profile', 'touched', 'holdings', 'cash', 'widgets', 'folds', 'sim', 'planTab', 'stockTab', 'learnTab', 'cur'].forEach(function (k) {
         try { localStorage.removeItem(KEY + k); } catch (e) {}
       });
       state.market = 'kr';
@@ -3465,6 +3497,7 @@
       state.folds = {};
       state.sim = { kr: SIM.blank(), us: SIM.blank() };
       state.planTab = 'plan';
+    state.stockTab = 'find';
       state.learnTab = 'picks';
       state.cur = 'krw';
       state.addOpen = false;

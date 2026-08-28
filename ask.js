@@ -159,14 +159,17 @@ window.BCAsk = (function () {
      seed 는 화면에 원 단위로 적기 위해서만 쓴다. 밖으로 나가지 않는다. */
   function html(ctx) {
     if (!ON) return '';
+    /* 제목은 화면 쪽 sec-head 가 단다. 여기서 또 달면 같은 말이 두 번 나온다. */
     var h = '<div class="card ask">' +
-      '<div class="ask-t">🙋 AI에게 물어보기</div>' +
-      '<div class="ask-lead">투자하면서 궁금한 걸 물어보세요. 지금 시장 국면과 오늘 기사를 ' +
-      '같이 놓고 답합니다. <b>노후자금 기준</b>으로만 답하고, 단타 질문에는 그렇게 말합니다.</div>' +
-      '<textarea id="askq" rows="3" placeholder="' +
+      '<div class="ask-lead"><b>노후자금 기준</b>으로만 답합니다. ' +
+      '단타(며칠 안의 등락·매수 타이밍) 질문에는 그렇게 말하고 답하지 않습니다.' +
+      '</div>' +
+      (ctx.stock && ctx.stock.n
+        ? '<div class="ask-with">함께 보내는 종목 · <b>' + esc(ctx.stock.n) + '</b></div>' : '') +
+      '<textarea id="askq" rows="4" placeholder="' +
       esc(ctx.stock && ctx.stock.n
-        ? ctx.stock.n + ' 을(를) 좀 살까 하는데 요즘 상황이 어떤지, 노후자금으로는 어떤 자리인지 알려주세요'
-        : '예) LG헬로비전을 좀 살까 하는데 요즘 상황이 어떤지, 노후자금으로는 어떤 자리이고 얼마나 담으면 될지 알려주세요') +
+        ? ctx.stock.n + ' 어떤가요? 좀 살까 하는데 요즘 상황이 어떤지, 노후자금으로는 어떤 자리이고 얼마나 담으면 될지 알려주세요'
+        : '예) LG헬로비전 어떤가요? 좀 살까 하는데 요즘 상황이 어떤지, 노후자금으로는 어떤 자리이고 얼마나 담으면 될지 알려주세요') +
       '">' + esc(cache.draft || '') + '</textarea>' +
       '<button class="btn" id="asksend">질문 보내기 →</button>' +
       '<div class="ask-warn">질문은 <b>공개 저장소에 이슈로 남습니다.</b> ' +
