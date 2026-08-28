@@ -138,6 +138,46 @@ window.BCAsk = (function () {
       });
   }
 
+  /* ── 보낸 직후 자동 재확인 ──────────────────────────────────
+     GitHub 비로그인 API 는 시간당 60번이다. 그래서 "계속 확인"이 아니라
+     **횟수를 정해 놓고** 돈다: 20초 간격으로 최대 12번(약 4분). 답은 보통
+     1~3분이면 온다. 그 안에 안 오면 멈추고 "새로 확인" 단추로 넘긴다 —
+     사용자가 앱을 열어 둔 채 잊어버려도 요청이 계속 나가지 않게. */
+  var timer = null, left = 0;
+  var AUTO_EVERY = 20000, AUTO_MAX = 12;
+
+  function autoWaiting() { return left > 0; }
+
+  function autoCheck() {
+    if (timer) return;
+    left = AUTO_MAX;
+    tick();
+  }
+  function stopAuto() { if (timer) { clearTimeout(timer); timer = null; } left = 0; }
+
+  function tick() {
+    timer = setTimeout(function () {
+      timer = null;
+      if (left <= 0) return;
+      left--;
+      /* 화면을 안 보고 있으면 세지 않는다 — 주머니 속에서 요청을 태우지 않는다 */
+      if (document.hidden) { tick(); return; }
+      var before = answered();
+      load(true);
+      /* load 가 끝나면 onChange 가 불린다. 거기서 새 답이 생겼는지 본다. */
+      var check = setInterval(function () {
+        if (st === 'loading') return;
+        clearInterval(check);
+        if (answered() > before) { stopAuto(); onChange(); return; }
+        if (left > 0) tick(); else onChange();
+      }, 500);
+    }, AUTO_EVERY);
+    onChange();
+  }
+  function answered() {
+    return (list || []).filter(function (i) { return !!cache[i.number]; }).length;
+  }
+
   /* ── 질문 보내기 ────────────────────────────────────────────
      앱이 대신 올릴 수 없다(위 주석 참고). GitHub 의 새 이슈 화면을
      **미리 채워서** 열어 준다. 사용자는 초록 버튼 한 번만 누르면 된다. */
@@ -175,9 +215,22 @@ window.BCAsk = (function () {
       '<div class="ask-warn">질문은 <b>공개 저장소에 이슈로 남습니다.</b> ' +
       '금액·계좌번호처럼 남에게 보이면 안 되는 건 적지 마세요. ' +
       '답은 <b>“전체 투자금의 몇 %”</b>로 오고, 금액 환산은 이 기기 안에서만 합니다.</div>' +
-      '<div class="ask-warn">보내기를 누르면 GitHub 의 질문 등록 화면이 열립니다. ' +
-      '(로그인돼 있어야 하고, 그 화면에서 한 번 더 눌러야 올라갑니다.) ' +
-      '답은 보통 <b>1~3분</b> 뒤에 아래에 나타납니다.</div>';
+      /* 예전엔 "GitHub 화면이 열립니다"라고만 적었다. 그랬더니 영어 화면이
+         떠서 "이게 맞나" 하고 멈추셨다. **무엇을 누르면 되는지**를 적는다. */
+      '<div class="ask-how"><div class="ask-how-h">보내기를 누르면 이렇게 됩니다</div>' +
+        '<div class="ask-step"><b>1</b><span>GitHub 라는 <b>영어 화면</b>이 열립니다. ' +
+          '제목과 내용은 <b>이미 채워져 있습니다</b> — 고치실 필요 없습니다.</span></div>' +
+        '<div class="ask-step"><b>2</b><span>맨 아래 <b class="ask-green">초록색 Create</b> 단추를 ' +
+          '한 번 누르세요. 그게 전부입니다.</span></div>' +
+        '<div class="ask-step"><b>3</b><span>이 앱으로 돌아오시면 ' +
+          '<b>답이 올 때까지 알아서 확인합니다.</b> 보통 1~3분 걸립니다.</span></div>' +
+      '</div>';
+
+    if (autoWaiting()) {
+      h += '<div class="ask-wait">⏳ <b>답을 기다리는 중입니다.</b> ' +
+        '앱이 알아서 확인하고 있으니 이 화면을 그냥 두세요. ' +
+        '(보통 1~3분, 남은 확인 ' + left + '회)</div>';
+    }
 
     h += '<div class="ask-listh"><span>지난 질문과 답</span>' +
       '<button class="quietbtn" id="askre">' +
@@ -236,10 +289,14 @@ window.BCAsk = (function () {
       var q = ta ? ta.value.trim() : '';
       if (!q) { if (ta) ta.focus(); return true; }
       cache.draft = ''; save();
+      /* 보낸 시각을 적어 둔다. 돌아오셨을 때 앱이 알아서 답을 확인하는
+         근거가 된다 — 직접 "새로 확인"을 누르게 두면, 답이 왔는데도
+         안 온 줄 알고 앱을 닫으신다. */
+      cache.sentAt = Date.now(); save();
       window.open(issueUrl(q, ctx), '_blank', 'noopener');
-      /* 올리고 돌아오면 바로 보이도록 다음 확인을 강제한다 */
       st = 'idle';
       onChange();
+      autoCheck();
       return true;
     }
     if (t.id === 'askre' || (t.closest && t.closest('#askre'))) { load(true); return true; }
@@ -261,7 +318,7 @@ window.BCAsk = (function () {
   }
 
   return {
-    on: ON, html: html, load: load, click: click, input: input,
+    on: ON, html: html, load: load, click: click, input: input, stopAuto: stopAuto,
     onChange: function (f) { onChange = f; }
   };
 })();
