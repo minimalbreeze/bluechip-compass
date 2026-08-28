@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-28T22:02:57.872Z",
+  "asOf": "2026-08-28T23:03:49.662Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -18,10 +18,10 @@
     },
     "KRW=X": {
       "price": 1375.67,
-      "prev": 1380.449951171875,
-      "chg": -0.35,
+      "prev": 1383.489990234375,
+      "chg": -0.57,
       "basis": "prev-daily-close",
-      "time": "2026-08-28T20:59:52.000Z"
+      "time": "2026-08-28T22:13:40.000Z"
     },
     "^GSPC": {
       "price": 7711.76,
@@ -77,7 +77,7 @@
       "low52": 1375.67,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -10.09
+      "chg3m": -9.29
     },
     "^GSPC": {
       "last": 7711.76,
@@ -110,16 +110,16 @@
   },
   "regime": {
     "by": "ai",
-    "asOf": "2026-08-28T22:02:54.047Z",
+    "asOf": "2026-08-28T23:03:42.003Z",
     "kr": {
       "why": {
-        "rates": "^TNX가 4.72로 1년범위(3.95~4.74) 상단 97% 위치이고 3개월간 +5.47% 올라 금리가 오르는 쪽에 가깝습니다.",
-        "growth": "코스피가 3개월간 -15.55% 조정받았지만 여전히 1년범위의 63% 위치이고 VIX도 14.43으로 낮아, 침체 신호라기보다 둔화 국면으로 봅니다(근거가 강하지 않아 중간값 선택).",
-        "valuation": "^KS11 6912.37은 1년범위 3142.93~9114.55의 63% 위치로 극단적으로 싸거나 비싸다고 보기 어려운 보통 수준입니다.",
-        "fx": "KRW=X가 1375.67로 1년범위(1375.67~1554.48)의 0% 최저 구간이고 3개월간 -10.09% 하락해 원화가 강세입니다.",
-        "geo": "^VIX 14.43은 1년범위(13.47~31.05)의 6% 수준이고 헤드라인도 유상증자·주주환원 등 개별 기업 이슈여서 긴장 신호가 보이지 않습니다."
+        "rates": "미 10년물 금리(^TNX)가 4.72%로 1년 범위(3.95~4.74%) 상단 97% 위치이고 3개월간 +5.47% 올랐으며, 헤드라인에도 '워시 매파 발언', 'Fed 인사 금리 인상 발언'이 있어 긴축 방향으로 봅니다.",
+        "growth": "코스피가 6912.37로 3개월간 -15.55% 하락했지만 1년 범위(3142.93~9114.55)에서 여전히 63% 위치이고 VIX도 14.43으로 낮아, 침체 신호라기보다 둔화 국면으로 분류합니다.",
+        "valuation": "코스피 1년 범위 내 위치가 63%로 중간보다 약간 높은 수준이라 극단적 저평가·고평가 근거가 부족해 보통으로 둡니다.",
+        "fx": "원/달러가 1375.67원으로 1년 범위(1375.67~1554.48) 최저점(위치 0%)이고 3개월간 -9.29% 하락해 원화가 강세입니다.",
+        "geo": "VIX가 14.43으로 1년 범위 하위 6%에 있고 제시된 헤드라인에 지정학적 충돌·정책 충격 내용이 없어 평온으로 봅니다."
       },
-      "summary": "원화는 1375.67로 1년 최저 수준까지 강해지고 변동성지표(VIX 14.43)는 매우 낮아 시장 분위기는 차분합니다. 다만 코스피가 3개월간 -15.55% 밀리고 금리(^TNX 4.72)는 1년 최고 부근이어서, 경기 흐름은 둔화 쪽으로 읽히는 구간입니다.",
+      "summary": "금리는 오르는 쪽인데 코스피는 3개월간 15% 넘게 빠진, 지수 조정과 원화 강세가 겹친 둔화 국면입니다. 다만 VIX가 낮아 시장 전체가 공포에 빠진 상태는 아닙니다.",
       "rates": "hike",
       "growth": "slow",
       "valuation": "fair",
@@ -128,13 +128,13 @@
     },
     "us": {
       "why": {
-        "rates": "^TNX 4.72는 1년범위(3.95~4.74)의 97% 위치이고 3개월 +5.47%이며, 헤드라인에서도 연준 인사(해먹)가 '금리 인상은 지금이 행동할 때'라고 언급했습니다.",
-        "growth": "^GSPC가 7711.76으로 1년범위의 94% 위치이고 3개월 +1.47%로 상승세를 유지해 경기 우려 신호는 보이지 않습니다.",
-        "valuation": "S&P500이 1년 고점(7798.99)에 근접한 94% 위치여서 가격대가 높은 편으로 분류합니다.",
-        "fx": "원/달러 기준 KRW=X 1375.67은 1년범위 최저(0% 위치, 3개월 -10.09%)로 원화 강세, 즉 달러가 상대적으로 약한 상태입니다.",
-        "geo": "^VIX 14.43(1년범위 6% 위치)로 매우 낮고, 제시된 헤드라인은 기업·통화정책 이슈 위주여서 지정학적 충격 근거가 없습니다."
+        "rates": "^TNX가 4.72%로 1년 범위 97% 위치, 3개월 +5.47%이며 'Fed의 Hammack, 금리 인상은 지금이 행동할 때', '워시 의장 인플레 우려' 헤드라인이 함께 나와 긴축 방향입니다.",
+        "growth": "S&P500이 7711.76으로 1년 범위(6343.72~7798.99)의 94% 위치이고 3개월 +1.47%로 상승세를 유지해 경기 흐름은 괜찮은 쪽으로 분류합니다.",
+        "valuation": "지수가 1년 고점 부근인 94% 위치에 있어 가격 부담이 있는 구간(비싼 편)으로 봅니다. 다만 이는 가격 위치만 본 판단입니다.",
+        "fx": "원/달러 1375.67원은 1년 범위 최저(위치 0%)이고 3개월 -9.29%로, 달러 대비 원화가 강해진 상태입니다.",
+        "geo": "VIX 14.43(1년 범위 하위 6%)으로 변동성이 낮고 제시된 헤드라인에 지정학적 충격 사건이 없어 평온으로 판단합니다."
       },
-      "summary": "S&P500이 1년 고점 부근(94% 위치)까지 올라온 반면 국채금리(^TNX 4.72)도 1년 최고 수준이라, 주가는 강하지만 가격 부담과 금리 상승 압력이 함께 있는 국면입니다. 변동성(VIX 14.43)은 낮아 시장 심리 자체는 안정적입니다.",
+      "summary": "미국 증시는 1년 고점 부근(94% 위치)에 있고 변동성도 낮지만, 국채금리 4.72%와 연준 인사들의 매파 발언이 겹친 '비싼데 금리는 높은' 국면입니다. 가격 위치만 놓고 보면 부담 구간에 가깝습니다.",
       "rates": "hike",
       "growth": "expand",
       "valuation": "rich",
@@ -344,14 +344,14 @@
         "by": "ai"
       },
       {
-        "title": "국민연금 수익률 '역대 최고'…상반기 韓주식으로 107% 벌어",
-        "link": "https://www.hankyung.com/article/2026082800551",
+        "title": "워시 매파 발언에 3대 지수 하락…나스닥 0.52%↓ [뉴욕증시 브리핑]",
+        "link": "https://www.hankyung.com/article/2026082905057",
         "source": "한국경제",
-        "date": "Fri, 28 Aug 2026 18:13:32 +0900",
+        "date": "Sat, 29 Aug 2026 07:12:31 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "지나간 기간의 수익률 집계라 앞으로의 이익을 바꾸지는 않습니다.",
+        "why": "통화정책 발언에 따른 하루 변동으로 장기 이익과는 무관합니다.",
         "by": "ai"
       },
       {
@@ -377,14 +377,14 @@
         "by": "ai"
       },
       {
-        "title": "삼성바이오, 인수자금 마련 위해 3조 유증",
-        "link": "https://www.hankyung.com/article/2026082800571",
+        "title": "\"주가 급락한 날엔 ○○○ 따져봐야\"…32조 굴리는 30대 운용역 조언 보니",
+        "link": "https://www.hankyung.com/article/202608249322i",
         "source": "한국경제",
-        "date": "Fri, 28 Aug 2026 18:12:35 +0900",
+        "date": "Sat, 29 Aug 2026 07:00:02 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
-        "why": "하루 주가 급락 자체는 일시적 반응이라 오늘 할 일은 없습니다.",
+        "scope": "market",
+        "why": "투자 조언 성격의 기사로 기업 실적을 바꾸는 사실이 없습니다.",
         "by": "ai"
       },
       {
@@ -413,15 +413,15 @@
         "by": "ai"
       },
       {
-        "title": "Microsoft’s stock seals its longest winning streak of the year as AI software fears fade",
-        "link": "https://www.marketwatch.com/story/microsofts-stock-seals-its-longest-winning-streak-of-the-year-as-ai-software-fears-fade-e5669f5b?mod=mw_rss_topstories",
+        "title": "My mother, 91, has dementia. Every bank says I need her signature to unlock her $100,000 stock certificate. What can I do?",
+        "link": "https://www.marketwatch.com/story/my-mother-91-has-dementia-every-bank-says-i-need-her-signature-to-unlock-her-100-000-stock-certificate-what-can-i-do-4a2b702f?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Fri, 28 Aug 2026 21:34:00 GMT",
-        "ko": "Microsoft의 주식은 AI 소프트웨어가 사라질 것을 우려함에 따라 올해 가장 긴 연승 행진을 기록했습니다.",
+        "date": "Fri, 28 Aug 2026 23:00:00 GMT",
+        "ko": "91세인 어머니는 치매를 앓고 계십니다. 모든 은행에서 $100,000의 주식 증서를 잠금 해제하려면 그녀의 서명이 필요하다고 말합니다. 어떻게 해야 하나요?",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
-        "why": "연속 상승은 단기 주가 흐름이라 장기 이익과 무관합니다.",
+        "scope": "market",
+        "why": "개인 상속·명의 관련 사연으로 투자 판단과 직접 관련이 없습니다.",
         "by": "ai"
       },
       {
@@ -449,27 +449,27 @@
         "by": "ai"
       },
       {
-        "title": "Nvidia’s revenue forecast is so huge that Wall Street wonders if SpaceX is the reason",
-        "link": "https://www.marketwatch.com/story/nvidias-revenue-forecast-is-so-huge-that-wall-street-wonders-if-spacex-is-the-reason-1ee7a8a9?mod=mw_rss_topstories",
+        "title": "Microsoft’s stock seals its longest winning streak of the year as AI software fears fade",
+        "link": "https://www.marketwatch.com/story/microsofts-stock-seals-its-longest-winning-streak-of-the-year-as-ai-software-fears-fade-e5669f5b?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Fri, 28 Aug 2026 20:58:00 GMT",
-        "ko": "월스트리트는 엔비디아의 매출 전망이 너무 커서 스페이스X가 그 이유인지 궁금합니다.",
+        "date": "Fri, 28 Aug 2026 21:34:00 GMT",
+        "ko": "Microsoft의 주식은 AI 소프트웨어가 사라질 것을 우려함에 따라 올해 가장 긴 연승 행진을 기록했습니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "sector",
-        "why": "전망 배경을 둘러싼 추측성 보도라 실적 근거가 확인되지 않았습니다.",
+        "scope": "company",
+        "why": "연속 상승은 단기 주가 흐름이라 장기 이익과 무관합니다.",
         "by": "ai"
       },
       {
-        "title": "Dollar Little Changed as Stocks Rally",
-        "link": "https://finance.yahoo.com/markets/currencies/articles/dollar-little-changed-stocks-rally-143205261.html",
+        "title": "Meta Just Removed a Major Risk From Its Stock. Now AI Spending Is the $145 Billion Question.",
+        "link": "https://finance.yahoo.com/technology/ai/articles/meta-just-removed-major-risk-153100072.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-27T14:32:05Z",
-        "ko": "주식 랠리에 따라 달라진 달러 리틀",
+        "date": "2026-08-27T15:31:00Z",
+        "ko": "메타가 주식에서 주요 위험을 제거했습니다. 이제 AI 지출은 $145억의 질문입니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
-        "why": "환율 소폭 변동은 일상적 흐름으로 오늘 할 일은 없습니다.",
+        "scope": "company",
+        "why": "AI 투자 규모에 대한 시각 차이로, 장기 이익 구조가 확인된 변화는 아닙니다.",
         "by": "ai"
       }
     ]
@@ -679,7 +679,8 @@
     "Nvidia’s revenue forecast is so huge that Wall Street wonders if SpaceX is the reason": "월스트리트는 엔비디아의 매출 전망이 너무 커서 스페이스X가 그 이유인지 궁금합니다.",
     "Williams-Sonoma Stock Outlook: Is Wall Street Bullish or Bearish?": "윌리엄스-소노마 주식 전망: 월스트리트는 강세입니까, 아니면 약세입니까?",
     "Microsoft’s stock seals its longest winning streak of the year as AI software fears fade": "Microsoft의 주식은 AI 소프트웨어가 사라질 것을 우려함에 따라 올해 가장 긴 연승 행진을 기록했습니다.",
-    "Dollar Little Changed as Stocks Rally": "주식 랠리에 따라 달라진 달러 리틀"
+    "Dollar Little Changed as Stocks Rally": "주식 랠리에 따라 달라진 달러 리틀",
+    "Meta Just Removed a Major Risk From Its Stock. Now AI Spending Is the $145 Billion Question.": "메타가 주식에서 주요 위험을 제거했습니다. 이제 AI 지출은 $145억의 질문입니다."
   },
   "nvCache": {
     "https://www.yna.co.kr/view/AKR20260824137251008": {
@@ -2178,6 +2179,27 @@
       "lasting": "temporary",
       "scope": "market",
       "why": "환율 소폭 변동은 일상적 흐름으로 오늘 할 일은 없습니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/2026082905057": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "통화정책 발언에 따른 하루 변동으로 장기 이익과는 무관합니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/202608249322i": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "투자 조언 성격의 기사로 기업 실적을 바꾸는 사실이 없습니다.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/technology/ai/articles/meta-just-removed-major-risk-153100072.html": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "AI 투자 규모에 대한 시각 차이로, 장기 이익 구조가 확인된 변화는 아닙니다.",
       "by": "ai"
     }
   },
