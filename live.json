@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-28T19:17:18.030Z",
+  "asOf": "2026-08-28T19:38:13.939Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -17,32 +17,32 @@
       "time": "2026-08-28T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1378.58,
+      "price": 1378.65,
       "prev": 1383.489990234375,
       "chg": -0.35,
       "basis": "prev-daily-close",
-      "time": "2026-08-28T19:16:45.000Z"
+      "time": "2026-08-28T19:37:34.000Z"
     },
     "^GSPC": {
-      "price": 7708.66,
+      "price": 7710.22,
       "prev": 7730.990234375,
-      "chg": -0.29,
+      "chg": -0.27,
       "basis": "prev-daily-close",
-      "time": "2026-08-28T19:16:47.000Z"
+      "time": "2026-08-28T19:37:35.000Z"
     },
     "^IXIC": {
-      "price": 26388.875,
+      "price": 26401.71,
       "prev": 26541.349609375,
-      "chg": -0.57,
+      "chg": -0.53,
       "basis": "prev-daily-close",
-      "time": "2026-08-28T19:16:46.000Z"
+      "time": "2026-08-28T19:37:34.000Z"
     },
     "^VIX": {
-      "price": 14.54,
+      "price": 14.44,
       "prev": 14.510000228881836,
-      "chg": 0.21,
+      "chg": -0.48,
       "basis": "prev-daily-close",
-      "time": "2026-08-28T19:01:46.000Z"
+      "time": "2026-08-28T19:22:31.000Z"
     },
     "^TNX": {
       "price": 4.72,
@@ -55,7 +55,7 @@
   "fx": {
     "low52": 1377.64,
     "high52": 1554.48,
-    "pct": 0.005
+    "pct": 0.006
   },
   "hist": {
     "^KS11": {
@@ -73,32 +73,32 @@
       "chg3m": -24.15
     },
     "KRW=X": {
-      "last": 1378.58,
+      "last": 1378.65,
       "low52": 1377.64,
       "high52": 1554.48,
-      "pct52": 0.005,
+      "pct52": 0.006,
       "chg3m": -9.1
     },
     "^GSPC": {
-      "last": 7708.75,
+      "last": 7710.21,
       "low52": 6343.72,
       "high52": 7798.99,
-      "pct52": 0.938,
-      "chg3m": 1.43
+      "pct52": 0.939,
+      "chg3m": 1.45
     },
     "^IXIC": {
-      "last": 26388.88,
+      "last": 26401.71,
       "low52": 20794.64,
       "high52": 27093.9,
-      "pct52": 0.888,
-      "chg3m": -2.58
+      "pct52": 0.89,
+      "chg3m": -2.53
     },
     "^VIX": {
-      "last": 14.54,
+      "last": 14.44,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.061,
-      "chg3m": -9.41
+      "pct52": 0.055,
+      "chg3m": -10.03
     },
     "^TNX": {
       "last": 4.72,
@@ -110,16 +110,16 @@
   },
   "regime": {
     "by": "ai",
-    "asOf": "2026-08-28T19:17:18.028Z",
+    "asOf": "2026-08-28T19:38:10.218Z",
     "kr": {
       "why": {
-        "rates": "^TNX가 4.72로 1년범위(3.95~4.74) 상단 97% 위치이고 3개월간 +5.47% 올라 금리가 오르는 쪽으로 움직이고 있습니다.",
-        "growth": "^KS11이 3개월간 -15.55% 밀렸지만 1년범위 내 위치는 여전히 63%라 침체 신호로 단정하기엔 근거가 약해 중간값인 둔화로 봅니다.",
-        "valuation": "^KS11 현재 6912.37이 1년범위 3142.93~9114.55의 63% 지점으로 극단적으로 싸거나 비싸다고 보기 어려운 보통 수준입니다.",
-        "fx": "KRW=X가 1378.58로 1년범위 1377.64~1554.48의 1% 지점(3개월 -9.1%)이라 원화가 1년 중 가장 강한 편입니다.",
-        "geo": "^VIX가 14.54로 1년범위 6% 지점이고 제시된 헤드라인도 개별 기업·연금 수익률 등 국내 이슈 위주라 긴장 신호가 보이지 않습니다."
+        "rates": "제시된 금리 지표인 ^TNX가 4.72로 1년 범위(3.95~4.74) 상 97% 위치이고 3개월간 +5.47% 올라, 금리는 내려가는 국면이 아니라 위로 눌리는 쪽으로 봅니다.",
+        "growth": "코스피가 6912.37로 3개월간 -15.55% 조정을 받았지만 1년 범위(3142.93~9114.55) 안에서는 아직 63% 위치라, 침체로 단정할 근거는 약하고 둔화 정도로 봅니다.",
+        "valuation": "^KS11이 1년 범위의 63% 지점으로 고점(9114.55)과 저점(3142.93)의 중간보다 약간 위에 있어 극단적으로 싸지도 비싸지도 않은 보통 수준입니다.",
+        "fx": "원/달러가 1378.65로 1년 범위(1377.64~1554.48)의 1% 지점, 3개월간 -9.1%라 원화가 1년 중 가장 강한 축에 있습니다.",
+        "geo": "^VIX가 14.44로 1년 범위의 6% 수준까지 낮아졌고 제시된 헤드라인도 배당·유상증자·디지털자산 등 국내 기업 이슈여서 별도 긴장 신호는 확인되지 않습니다."
       },
-      "summary": "금리는 오르는 쪽이고 원화는 1년 중 가장 강한 상태이며, 지수는 3개월 -15.55%로 밀렸지만 1년 범위로는 중간 위쪽입니다. 변동성 지표(VIX 14.54)는 낮아 시장 자체는 조용한 가운데 성장 둔화 색깔이 섞인 국면입니다.",
+      "summary": "금리는 높은 곳에 머물러 있고 원화는 1년 중 가장 강한 구간인데, 코스피는 3개월간 -15.55% 조정을 받은 상태입니다. 변동성 지표는 낮아 시장이 놀란 국면은 아니지만, 지수 상승 속도는 한 번 꺾인 자리로 보면 됩니다.",
       "rates": "hike",
       "growth": "slow",
       "valuation": "fair",
@@ -128,13 +128,13 @@
     },
     "us": {
       "why": {
-        "rates": "^TNX 4.72로 1년범위 상단 97% 위치, 3개월 +5.47%이며 헤드라인에서도 연준 해맥이 '금리 인상은 지금이 행동할 때'라 언급하고 코어 물가가 연 3.3%로 제시됐습니다.",
-        "growth": "^GSPC가 7708.75로 1년범위 6343.72~7798.99의 94% 지점이고 3개월 +1.43%로 상승세를 유지해 경기 둔화 신호는 수치상 보이지 않습니다.",
-        "valuation": "^GSPC가 1년범위 상단 94% 위치까지 올라와 있어 가격 수준 자체는 높은 편으로 분류합니다.",
-        "fx": "KRW=X 1378.58은 1년범위 1% 지점(3개월 -9.1%)으로 달러 대비 원화가 강한 상태입니다.",
-        "geo": "^VIX 14.54(1년범위 6% 지점)로 매우 낮고, 헤드라인도 통화정책·기업 이슈 중심이라 지정학적 충격 근거는 없습니다."
+        "rates": "^TNX 4.72(1년 범위 97% 위치, 3개월 +5.47%)에 더해 '연준 해맥의 금리 인상, 지금이 행동할 때' 발언과 코어 물가 전년비 3.3% 헤드라인이 함께 나와 인상 쪽으로 기운 국면입니다.",
+        "growth": "S&P500이 7710.21로 1년 범위(6343.72~7798.99)의 94% 지점이고 3개월 +1.45%로 완만히 오르고 있어, 주어진 자료 안에서는 경기 위축 신호가 보이지 않습니다.",
+        "valuation": "지수가 1년 고점 7798.99에 근접한 94% 위치라 가격대 자체는 1년 중 비싼 구간에 속합니다.",
+        "fx": "원/달러 1378.65가 1년 범위의 1% 지점(3개월 -9.1%)이라 한국 투자자 기준으로는 원화 강세, 즉 달러가 약한 쪽입니다.",
+        "geo": "^VIX가 14.44로 1년 범위 6% 수준이고 제시된 헤드라인도 물가·연준·개별 기업 이야기라 충격성 사건은 확인되지 않습니다."
       },
-      "summary": "지수는 1년 고점 부근(범위 94%)이고 변동성은 낮은데, 금리는 4.72%로 1년 최고 수준까지 올라 있는 상태입니다. 즉 경기·주가는 견조해 보이지만 금리와 물가(코어 3.3%) 부담이 함께 있는 국면입니다.",
+      "summary": "미국 증시는 1년 고점 근처(94% 위치)에 있고 변동성도 낮지만, 금리는 4.72%로 1년 최고 수준이고 코어 물가 3.3% 이야기가 이어지는 국면입니다. 즉 '주가는 높고 금리도 높은' 상태이며, 원화 강세는 환차손 쪽으로 작용하는 조건이라는 점만 알아두면 됩니다.",
       "rates": "hike",
       "growth": "expand",
       "valuation": "rich",
@@ -238,95 +238,95 @@
     },
     "us": {
       "MSFT": {
-        "price": 514.21,
+        "price": 513.65,
         "prev": 505.05999755859375,
-        "chg": 1.81,
+        "chg": 1.7,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T19:16:52.000Z"
+        "time": "2026-08-28T19:37:40.000Z"
       },
       "AAPL": {
-        "price": 319.82,
+        "price": 319.91,
         "prev": 314.5799865722656,
-        "chg": 1.67,
+        "chg": 1.69,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T19:16:53.000Z"
+        "time": "2026-08-28T19:37:39.000Z"
       },
       "GOOGL": {
-        "price": 347.6,
+        "price": 347.34,
         "prev": 340.6499938964844,
-        "chg": 2.04,
+        "chg": 1.96,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T19:16:53.000Z"
+        "time": "2026-08-28T19:37:40.000Z"
       },
       "BRK.B": {
-        "price": 505.292,
+        "price": 505.665,
         "prev": 503.70001220703125,
-        "chg": 0.32,
+        "chg": 0.39,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T19:16:50.000Z"
+        "time": "2026-08-28T19:37:38.000Z"
       },
       "V": {
-        "price": 382.215,
+        "price": 381.354,
         "prev": 379.6600036621094,
-        "chg": 0.67,
+        "chg": 0.45,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T19:16:46.000Z"
+        "time": "2026-08-28T19:37:39.000Z"
       },
       "JNJ": {
-        "price": 267.02,
+        "price": 267.49,
         "prev": 265.7699890136719,
-        "chg": 0.47,
+        "chg": 0.65,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T19:16:03.000Z"
+        "time": "2026-08-28T19:37:32.000Z"
       },
       "PG": {
-        "price": 143.495,
+        "price": 143.395,
         "prev": 143.13999938964844,
-        "chg": 0.25,
+        "chg": 0.18,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T19:16:51.000Z"
+        "time": "2026-08-28T19:37:37.000Z"
       },
       "KO": {
-        "price": 89.725,
-        "prev": 89.05999755859375,
-        "chg": 0.75,
-        "basis": "prev-daily-close",
-        "time": "2026-08-28T19:16:51.000Z"
+        "price": 89.6,
+        "prev": 89.60009765625,
+        "chg": 0,
+        "basis": "last-daily-close",
+        "time": "2026-08-28T19:37:39.000Z"
       },
       "COST": {
-        "price": 944.955,
+        "price": 945.61,
         "prev": 934.6599731445312,
-        "chg": 1.1,
+        "chg": 1.17,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T19:16:50.000Z"
+        "time": "2026-08-28T19:37:35.000Z"
       },
       "WM": {
-        "price": 219.6,
+        "price": 219.58,
         "prev": 217.75999450683594,
         "chg": 0.84,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T19:16:43.000Z"
+        "time": "2026-08-28T19:37:39.000Z"
       },
       "LIN": {
-        "price": 487.78,
+        "price": 487.75,
         "prev": 485.3500061035156,
-        "chg": 0.5,
+        "chg": 0.49,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T19:16:41.000Z"
+        "time": "2026-08-28T19:37:36.000Z"
       },
       "XOM": {
-        "price": 155.75,
+        "price": 155.94,
         "prev": 156.44000244140625,
-        "chg": -0.44,
+        "chg": -0.32,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T19:16:53.000Z"
+        "time": "2026-08-28T19:37:38.000Z"
       },
       "NVDA": {
-        "price": 217.11,
+        "price": 217.37,
         "prev": 227.97999572753906,
-        "chg": -4.77,
+        "chg": -4.65,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T19:16:53.000Z"
+        "time": "2026-08-28T19:37:39.000Z"
       }
     }
   },
@@ -449,15 +449,15 @@
         "by": "ai"
       },
       {
-        "title": "Druckenmiller tells former protégé Bessent his $4B bond buyback plan could spiral — and mortgage rates may not budge",
-        "link": "https://finance.yahoo.com/economy/policy/articles/druckenmiller-tells-former-prot-g-093000190.html",
+        "title": "Chipotle CEO Scott Boatwright offloaded $1.1M in stock — but it wasn't a bearish signal for investors",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/chipotle-ceo-scott-boatwright-offloaded-094500742.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-27T09:30:00Z",
-        "ko": "Druckenmiller는 전 친애하는 Bessent에게 자신의 $4B 채권 매입 계획이 나선형이 될 수 있으며 모기지 금리가 변하지 않을 수 있다고 말합니다.",
+        "date": "2026-08-27T09:45:00Z",
+        "ko": "Chipotle의 CEO Scott Boatwright는 $110만 달러의 주식을 오프로드했지만 투자자들에게는 약한 신호가 아니었습니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
-        "why": "유명 투자자의 정책 전망 발언일 뿐, 기업 이익 구조가 바뀐 건 아닙니다.",
+        "scope": "company",
+        "why": "경영진 주식 매도는 개인 사정일 수 있어 장기 이익과 직접 연결되지 않습니다.",
         "by": "ai"
       },
       {
@@ -669,7 +669,8 @@
     "Rate-hike expectations rise on Warsh speech at Jackson Hole": "잭슨 홀의 워시 연설에서 금리 인상 기대치 상승",
     "Moderna (MRNA) & Merck (MRK): What’s Happening With These Two Stocks?": "Moderna (MRNA) & Merck (MRK): 이 두 주식은 어떻게 되나요?",
     "Tim Cook Warned of a \"100-Year Flood\" in Memory Chip Pricing on His Last Earnings Call. Should Apple Investors Be Worried About Margins?": "Tim Cook은 마지막 수입 통화에서 메모리 칩 가격의 \"100년 홍수\" 에 대해 경고했습니다. Apple 투자자는 마진에 대해 걱정해야 합니까?",
-    "Druckenmiller tells former protégé Bessent his $4B bond buyback plan could spiral — and mortgage rates may not budge": "Druckenmiller는 전 친애하는 Bessent에게 자신의 $4B 채권 매입 계획이 나선형이 될 수 있으며 모기지 금리가 변하지 않을 수 있다고 말합니다."
+    "Druckenmiller tells former protégé Bessent his $4B bond buyback plan could spiral — and mortgage rates may not budge": "Druckenmiller는 전 친애하는 Bessent에게 자신의 $4B 채권 매입 계획이 나선형이 될 수 있으며 모기지 금리가 변하지 않을 수 있다고 말합니다.",
+    "Chipotle CEO Scott Boatwright offloaded $1.1M in stock — but it wasn't a bearish signal for investors": "Chipotle의 CEO Scott Boatwright는 $110만 달러의 주식을 오프로드했지만 투자자들에게는 약한 신호가 아니었습니다."
   },
   "nvCache": {
     "https://www.yna.co.kr/view/AKR20260824137251008": {
@@ -2105,6 +2106,13 @@
       "lasting": "temporary",
       "scope": "market",
       "why": "유명 투자자의 정책 전망 발언일 뿐, 기업 이익 구조가 바뀐 건 아닙니다.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/markets/stocks/articles/chipotle-ceo-scott-boatwright-offloaded-094500742.html": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "경영진 주식 매도는 개인 사정일 수 있어 장기 이익과 직접 연결되지 않습니다.",
       "by": "ai"
     }
   },
