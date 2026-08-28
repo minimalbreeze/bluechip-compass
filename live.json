@@ -1,27 +1,27 @@
 {
-  "asOf": "2026-08-28T00:59:58.308Z",
+  "asOf": "2026-08-28T01:20:51.795Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
-      "price": 6856.46,
+      "price": 6848.06,
       "prev": 6808.2099609375,
-      "chg": 0.71,
+      "chg": 0.59,
       "basis": "prev-daily-close",
-      "time": "2026-08-28T00:39:10.000Z"
+      "time": "2026-08-28T01:00:10.000Z"
     },
     "^KQ11": {
-      "price": 831.63,
+      "price": 834.48,
       "prev": 826.8699951171875,
-      "chg": 0.58,
+      "chg": 0.92,
       "basis": "prev-daily-close",
-      "time": "2026-08-28T00:39:10.000Z"
+      "time": "2026-08-28T01:00:10.000Z"
     },
     "KRW=X": {
-      "price": 1378.98,
+      "price": 1378.08,
       "prev": 1383.489990234375,
-      "chg": -0.33,
+      "chg": -0.39,
       "basis": "prev-daily-close",
-      "time": "2026-08-28T00:59:11.000Z"
+      "time": "2026-08-28T01:20:09.000Z"
     },
     "^GSPC": {
       "price": 7730.99,
@@ -55,29 +55,29 @@
   "fx": {
     "low52": 1377.64,
     "high52": 1554.48,
-    "pct": 0.008
+    "pct": 0.002
   },
   "hist": {
     "^KS11": {
-      "last": 6856.46,
+      "last": 6848.06,
       "low52": 3142.93,
       "high52": 9114.55,
-      "pct52": 0.622,
-      "chg3m": -16.23
+      "pct52": 0.62,
+      "chg3m": -16.34
     },
     "^KQ11": {
-      "last": 831.63,
+      "last": 834.48,
       "low52": 644.78,
       "high52": 1226.18,
-      "pct52": 0.321,
-      "chg3m": -24.7
+      "pct52": 0.326,
+      "chg3m": -24.44
     },
     "KRW=X": {
-      "last": 1379.08,
+      "last": 1378.08,
       "low52": 1377.64,
       "high52": 1554.48,
-      "pct52": 0.008,
-      "chg3m": -9.07
+      "pct52": 0.002,
+      "chg3m": -9.13
     },
     "^GSPC": {
       "last": 7730.99,
@@ -110,16 +110,16 @@
   },
   "regime": {
     "by": "ai",
-    "asOf": "2026-08-28T00:59:49.355Z",
+    "asOf": "2026-08-28T01:20:40.751Z",
     "kr": {
       "why": {
-        "rates": "자료에 한국 기준금리는 없고 참고 가능한 장기금리 지표인 ^TNX가 4.67로 1년범위 상단 91% 위치, 3개월 +4.92%로 올라와 있어 금리 상승 압력 국면으로 봤습니다(국내 정책금리 직접 근거는 아님).",
-        "growth": "^KS11이 3개월 -16.23% 하락했지만 1년범위 62% 위치를 유지하고 국민연금 상반기 코스피 수익률 27% 언급도 있어, 침체 신호까지는 아닌 둔화 국면으로 분류했습니다.",
-        "valuation": "^KS11 현재 6856.46이 1년범위 3142.93~9114.55의 62% 지점으로 상단도 하단도 아니어서 보통 수준입니다.",
-        "fx": "KRW=X가 1379.08로 1년범위 1377.64~1554.48의 1% 지점, 3개월 -9.07%로 원화가 크게 강해진 상태입니다.",
-        "geo": "헤드라인이 삼성바이오로직스 3조원 유상증자, 자사주 취득, 투자설명회 등 개별 기업·시장 이슈뿐이고 ^VIX도 14.51(범위 6%)로 낮아 긴장 신호가 없습니다."
+        "rates": "미 10년물 금리(^TNX)가 4.67%로 1년범위 상단 91% 위치이고 3개월간 +4.92% 올라 금리 상방 압력이 이어지는 모습입니다.",
+        "growth": "코스피가 6848.06으로 3개월간 -16.34% 조정받았지만 1년범위 내 62% 위치이고 VIX도 14.51로 낮아, 침체 신호로 보기엔 근거가 약해 둔화 쪽 중립적 판정입니다.",
+        "valuation": "코스피 1년범위(3142.93~9114.55) 내 62% 위치로 극단적 고평가·저평가 구간이 아니며, 별도 밸류에이션 지표가 주어지지 않아 보통으로 둡니다.",
+        "fx": "원/달러가 1378.08로 1년범위(1377.64~1554.48) 최하단 0% 위치, 3개월간 -9.13% 하락해 원화가 뚜렷이 강해진 상태입니다.",
+        "geo": "헤드라인이 계절근로자 모집, 삼성바이오 유상증자 7% 급락, 국민연금 수익률, 금감원 증권신고서 규제 등 국내 이슈에 한정되고 VIX가 14.51로 낮아 평온으로 봅니다."
       },
-      "summary": "금리는 높은 편이고 원화는 1년 중 가장 강한 수준인데, 코스피는 3개월 -16.23% 조정을 받아 열기가 식은 상태입니다. 밸류에이션은 1년범위 중간(62%)이고 변동성(VIX 14.51)도 낮아, 급한 충격보다는 '숨 고르는 둔화' 국면으로 볼 수 있습니다.",
+      "summary": "원화는 1378원으로 1년 중 가장 강하고 변동성(VIX 14.51)도 낮아 겉으로는 차분하지만, 코스피는 3개월간 -16.34% 밀리며 숨을 고르는 국면입니다. 미 10년물 4.67%(범위 91%)의 금리 상방 압력이 지수에 부담으로 남아 있는 상태로 이해하면 됩니다.",
       "rates": "hike",
       "growth": "slow",
       "valuation": "fair",
@@ -128,112 +128,112 @@
     },
     "us": {
       "why": {
-        "rates": "Fed의 해맥이 금리 인상에 대해 '지금이 행동할 때'라고 언급했고, 코어 인플레이션이 전년 대비 3.3%로 나왔으며 ^TNX 4.67(1년범위 91% 위치, 3개월 +4.92%)도 함께 올라 있습니다.",
-        "growth": "^GSPC가 7730.99로 1년범위 95% 지점에 있고 3개월 +1.99%로 우상향 중이며, ^VIX 14.51(범위 6%)로 불안 지표도 낮습니다.",
-        "valuation": "^GSPC 현재가가 1년범위 6343.72~7798.99의 95% 지점으로 상단에 거의 붙어 있어 비싼 편으로 분류했습니다.",
-        "fx": "KRW=X 1379.08은 1년범위의 1% 지점이고 3개월 -9.07%로, 달러 대비 원화가 강세인 상태입니다.",
-        "geo": "헤드라인이 개별 기업(Marvell, Charles River)과 인플레이션 지표 등 시장 내부 이슈에 한정되고 ^VIX 14.51도 1년 저점권이라 지정학 긴장 근거가 없습니다."
+        "rates": "^TNX가 4.67%로 1년범위 91% 위치, 3개월 +4.92%이고 Fed 해맥의 '지금이 행동할 때'라는 금리 인상 발언과 코어 물가 연 3.3% 상승 소식이 함께 나와 인상 방향으로 판정합니다.",
+        "growth": "S&P500이 7730.99로 1년범위 95% 위치이고 3개월간 +1.99% 상승, VIX도 14.51로 낮아 경기 위축 신호가 보이지 않습니다.",
+        "valuation": "S&P500이 1년범위(6343.72~7798.99) 상단 95% 위치까지 올라온 반면 금리는 4.67%로 높아 가격 부담이 큰 편으로 봅니다.",
+        "fx": "원/달러 1378.08은 1년범위 0% 위치이자 3개월 -9.13%로, 달러 대비 원화가 강한 쪽에 있음을 보여줍니다.",
+        "geo": "전쟁·정책 충격 헤드라인은 없지만 Fed 인사의 금리 인상 발언과 코어 인플레 3.3%가 정책 불확실성을 키우고 있어 평온보다는 긴장으로 둡니다."
       },
-      "summary": "주가지수는 1년 고점 부근(범위 95%)이고 변동성은 낮지만, 코어 인플레이션 3.3%와 금리 인상 발언·국채금리 4.67% 상승이 겹쳐 있습니다. 경기 자체는 괜찮아 보이나 가격은 비싼 편이고 금리 부담이 남아 있는 국면입니다.",
+      "summary": "미국 주식은 1년 고점 근처(범위 95%)이고 변동성도 낮지만, 코어 물가 3.3%와 금리 4.67% 상단, Fed 인사의 인상 발언이 겹쳐 정책 쪽 긴장이 남아 있는 국면입니다. 경기 자체는 괜찮아 보이나 가격은 비싼 편으로 분류됩니다.",
       "rates": "hike",
       "growth": "expand",
       "valuation": "rich",
       "fx": "strong",
-      "geo": "calm"
+      "geo": "tense"
     }
   },
   "stocks": {
     "kr": {
       "105560": {
-        "price": 167400,
+        "price": 168250,
         "prev": 168100,
-        "chg": -0.42,
+        "chg": 0.09,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T00:39:15.000Z"
+        "time": "2026-08-28T01:00:17.000Z"
       },
       "207940": {
-        "price": 1511000,
+        "price": 1535000,
         "prev": 1594000,
-        "chg": -5.21,
+        "chg": -3.7,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T00:39:17.000Z"
+        "time": "2026-08-28T01:00:18.000Z"
       },
       "005930": {
-        "price": 263500,
+        "price": 262000,
         "prev": 266000,
-        "chg": -0.94,
+        "chg": -1.5,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T00:39:19.000Z"
+        "time": "2026-08-28T01:00:18.000Z"
       },
       "000660": {
-        "price": 1710000,
+        "price": 1709000,
         "prev": 1730000,
-        "chg": -1.16,
+        "chg": -1.21,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T00:39:19.000Z"
+        "time": "2026-08-28T01:00:18.000Z"
       },
       "005380": {
-        "price": 398500,
+        "price": 400000,
         "prev": 398000,
-        "chg": 0.13,
+        "chg": 0.5,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T00:39:18.000Z"
+        "time": "2026-08-28T01:00:15.000Z"
       },
       "055550": {
-        "price": 107900,
+        "price": 108400,
         "prev": 108800,
-        "chg": -0.83,
+        "chg": -0.37,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T00:39:12.000Z"
+        "time": "2026-08-28T01:00:18.000Z"
       },
       "000810": {
-        "price": 665500,
+        "price": 671000,
         "prev": 682000,
-        "chg": -2.42,
+        "chg": -1.61,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T00:39:15.000Z"
+        "time": "2026-08-28T01:00:11.000Z"
       },
       "033780": {
-        "price": 173100,
+        "price": 173700,
         "prev": 174500,
-        "chg": -0.8,
+        "chg": -0.46,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T00:39:14.000Z"
+        "time": "2026-08-28T01:00:11.000Z"
       },
       "035420": {
-        "price": 222000,
+        "price": 222750,
         "prev": 216500,
-        "chg": 2.54,
+        "chg": 2.89,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T00:39:19.000Z"
+        "time": "2026-08-28T01:00:18.000Z"
       },
       "005490": {
-        "price": 335000,
+        "price": 334500,
         "prev": 339500,
-        "chg": -1.33,
+        "chg": -1.47,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T00:39:19.000Z"
+        "time": "2026-08-28T01:00:09.000Z"
       },
       "028260": {
-        "price": 372500,
+        "price": 374000,
         "prev": 375500,
-        "chg": -0.8,
+        "chg": -0.4,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T00:39:18.000Z"
+        "time": "2026-08-28T01:00:03.000Z"
       },
       "012450": {
-        "price": 1119000,
+        "price": 1123000,
         "prev": 1150000,
-        "chg": -2.7,
+        "chg": -2.35,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T00:39:16.000Z"
+        "time": "2026-08-28T01:00:17.000Z"
       },
       "017670": {
-        "price": 100000,
+        "price": 99400,
         "prev": 99100,
-        "chg": 0.91,
+        "chg": 0.3,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T00:39:19.000Z"
+        "time": "2026-08-28T01:00:18.000Z"
       }
     },
     "us": {
@@ -333,25 +333,58 @@
   "news": {
     "kr": [
       {
-        "title": "[특징주] '3조원 유상증자' 삼바, 장 초반 6% 급락",
-        "link": "https://www.yna.co.kr/view/AKR20260828045500008",
+        "title": "\"농번기 인력난 해소\" 군산시, 외국인 계절근로자·고용주 모집",
+        "link": "https://www.yna.co.kr/view/AKR20260828052900055",
         "source": "연합뉴스",
-        "date": "Fri, 28 Aug 2026 09:36:41 +0900",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": "company",
-        "why": "대규모 유상증자는 지분 희석과 자금 용도를 함께 볼 사안입니다.",
+        "date": "Fri, 28 Aug 2026 10:05:07 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "지역 행정 소식으로 기업 이익과 직접 연결되지 않습니다.",
         "by": "ai"
       },
       {
-        "title": "오길호 에스씨디 대표, 자사주 신규 취득",
-        "link": "https://www.hankyung.com/article/2026082884476",
+        "title": "\"주주가치 희석 어쩌나\"…삼성바이오, 3조 유증에 7% 급락",
+        "link": "https://www.hankyung.com/article/2026082886066",
         "source": "한국경제",
-        "date": "Fri, 28 Aug 2026 08:53:16 +0900",
+        "date": "Fri, 28 Aug 2026 09:25:17 +0900",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": "company",
+        "why": "대규모 유상증자는 지분 희석 구조를 바꿀 수 있어 흐름만 지켜보면 됩니다.",
+        "by": "ai"
+      },
+      {
+        "title": "국민연금 상반기 수익률 27%…국내주식서만 107% 벌었다는데",
+        "link": "https://www.mk.co.kr/news/stock/12138540",
+        "source": "매일경제",
+        "date": "Fri, 28 Aug 2026 10:02:52 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
-        "why": "경영진 지분 취득은 참고 사항이며 이익 구조를 바꾸지 않습니다.",
+        "scope": "market",
+        "why": "과거 수익률 발표로 앞으로의 기업 이익과는 무관합니다.",
+        "by": "ai"
+      },
+      {
+        "title": "증권신고서 무한 정정 막는다…금감원, 보완 미흡 기업 공개",
+        "link": "https://www.yna.co.kr/view/AKR20260828048500002",
+        "source": "연합뉴스",
+        "date": "Fri, 28 Aug 2026 10:00:28 +0900",
+        "act": "none",
+        "lasting": "structural",
+        "scope": "market",
+        "why": "공시 심사 관행 변화지만 개별 기업 이익에 미치는 영향은 제한적입니다.",
+        "by": "ai"
+      },
+      {
+        "title": "코스피, 美 기술주 훈풍에도 6800선 약세…삼전·하이닉스 하락",
+        "link": "https://www.hankyung.com/article/2026082885316",
+        "source": "한국경제",
+        "date": "Fri, 28 Aug 2026 09:11:17 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "하루 지수와 대형주 등락은 장기 보유 판단을 바꾸지 않습니다.",
         "by": "ai"
       },
       {
@@ -363,39 +396,6 @@
         "lasting": "temporary",
         "scope": "market",
         "why": "증권사 행사 안내로 기업 이익과 무관합니다.",
-        "by": "ai"
-      },
-      {
-        "title": "국민연금, 상반기 코스피 상승에 수익률 27%…적립금 1천866조원",
-        "link": "https://www.yna.co.kr/view/AKR20260828044600530",
-        "source": "연합뉴스",
-        "date": "Fri, 28 Aug 2026 09:35:06 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "과거 수익률 집계이며 앞으로를 알려주지 않습니다.",
-        "by": "ai"
-      },
-      {
-        "title": "\"조정 전 싹 팔았다\"…한가인 매도 타이밍에 주식고수도 '깜짝'",
-        "link": "https://www.hankyung.com/article/202608288374H",
-        "source": "한국경제",
-        "date": "Fri, 28 Aug 2026 08:50:40 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "개인의 매매 시점 화제는 투자 판단 근거가 되지 않습니다.",
-        "by": "ai"
-      },
-      {
-        "title": "삼성바이오로직스, 3조 규모 유상증자 소식에 6%대 급락",
-        "link": "https://www.mk.co.kr/news/stock/12138498",
-        "source": "매일경제",
-        "date": "Fri, 28 Aug 2026 09:38:19 +09:00",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": "company",
-        "why": "같은 증자 소식으로, 조달 자금이 어디 쓰이는지가 핵심입니다.",
         "by": "ai"
       }
     ],
@@ -461,15 +461,15 @@
         "by": "ai"
       },
       {
-        "title": "Is Wall Street Bullish or Bearish on Charles River Laboratories Stock?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/wall-street-bullish-bearish-charles-124331922.html",
+        "title": "News Corporation Stock: Analyst Estimates & Ratings",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/news-corporation-stock-analyst-estimates-131745216.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-26T12:43:31Z",
-        "ko": "Charles River Laboratories 주식에서 월스트리트가 강세입니까, 아니면 약세입니까?",
+        "date": "2026-08-26T13:17:45Z",
+        "ko": "뉴스 코퍼레이션 주식: 애널리스트 추정 및 평가",
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
-        "why": "애널리스트 시각 정리 기사로 회사의 장기 이익과는 무관합니다.",
+        "why": "애널리스트 추정·평가 자료는 회사의 장기 이익을 바꾸지 않습니다.",
         "by": "ai"
       }
     ]
@@ -628,7 +628,8 @@
     "Vivmark Residential Stock: Analyst Estimates & Ratings": "Vivmark 주거용 주식: 애널리스트 추정 및 평가",
     "Oracle's historic stock rout could be a buying opportunity": "오라클의 역사적인 재고 라우트는 구매 기회가 될 수 있습니다",
     "Stock Spirits gains UK supermarket listing for Sierra RTDs": "Stock Spirits, Sierra RTD로 영국 슈퍼마켓 상장",
-    "Is Wall Street Bullish or Bearish on Charles River Laboratories Stock?": "Charles River Laboratories 주식에서 월스트리트가 강세입니까, 아니면 약세입니까?"
+    "Is Wall Street Bullish or Bearish on Charles River Laboratories Stock?": "Charles River Laboratories 주식에서 월스트리트가 강세입니까, 아니면 약세입니까?",
+    "News Corporation Stock: Analyst Estimates & Ratings": "뉴스 코퍼레이션 주식: 애널리스트 추정 및 평가"
   },
   "nvCache": {
     "https://www.yna.co.kr/view/AKR20260824137251008": {
@@ -1490,6 +1491,48 @@
       "lasting": "temporary",
       "scope": "company",
       "why": "애널리스트 시각 정리 기사로 회사의 장기 이익과는 무관합니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20260828052900055": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "지역 행정 소식으로 기업 이익과 직접 연결되지 않습니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/2026082886066": {
+      "act": "watch",
+      "lasting": "structural",
+      "scope": "company",
+      "why": "대규모 유상증자는 지분 희석 구조를 바꿀 수 있어 흐름만 지켜보면 됩니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12138540": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "과거 수익률 발표로 앞으로의 기업 이익과는 무관합니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20260828048500002": {
+      "act": "none",
+      "lasting": "structural",
+      "scope": "market",
+      "why": "공시 심사 관행 변화지만 개별 기업 이익에 미치는 영향은 제한적입니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/2026082885316": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "하루 지수와 대형주 등락은 장기 보유 판단을 바꾸지 않습니다.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/markets/stocks/articles/news-corporation-stock-analyst-estimates-131745216.html": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "애널리스트 추정·평가 자료는 회사의 장기 이익을 바꾸지 않습니다.",
       "by": "ai"
     }
   },
