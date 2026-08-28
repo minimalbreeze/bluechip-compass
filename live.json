@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-28T18:14:44.218Z",
+  "asOf": "2026-08-28T18:35:36.110Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -17,39 +17,39 @@
       "time": "2026-08-28T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1379.16,
+      "price": 1379.17,
       "prev": 1383.489990234375,
       "chg": -0.31,
       "basis": "prev-daily-close",
-      "time": "2026-08-28T18:14:00.000Z"
+      "time": "2026-08-28T18:34:50.000Z"
     },
     "^GSPC": {
-      "price": 7712.74,
+      "price": 7711.32,
       "prev": 7730.990234375,
-      "chg": -0.24,
+      "chg": -0.25,
       "basis": "prev-daily-close",
-      "time": "2026-08-28T18:13:59.000Z"
+      "time": "2026-08-28T18:34:58.000Z"
     },
     "^IXIC": {
-      "price": 26419.316,
+      "price": 26409.633,
       "prev": 26541.349609375,
-      "chg": -0.46,
+      "chg": -0.5,
       "basis": "prev-daily-close",
-      "time": "2026-08-28T18:13:59.000Z"
+      "time": "2026-08-28T18:34:55.000Z"
     },
     "^VIX": {
-      "price": 14.54,
+      "price": 14.52,
       "prev": 14.510000228881836,
-      "chg": 0.21,
+      "chg": 0.07,
       "basis": "prev-daily-close",
-      "time": "2026-08-28T17:58:46.000Z"
+      "time": "2026-08-28T18:19:46.000Z"
     },
     "^TNX": {
       "price": 4.728,
       "prev": 4.671999931335449,
       "chg": 1.2,
       "basis": "prev-daily-close",
-      "time": "2026-08-28T17:58:54.000Z"
+      "time": "2026-08-28T18:19:54.000Z"
     }
   },
   "fx": {
@@ -73,32 +73,32 @@
       "chg3m": -24.15
     },
     "KRW=X": {
-      "last": 1379.16,
+      "last": 1379.17,
       "low52": 1377.64,
       "high52": 1554.48,
       "pct52": 0.009,
       "chg3m": -9.06
     },
     "^GSPC": {
-      "last": 7712.74,
+      "last": 7711.32,
       "low52": 6343.72,
       "high52": 7798.99,
-      "pct52": 0.941,
-      "chg3m": 1.48
+      "pct52": 0.94,
+      "chg3m": 1.47
     },
     "^IXIC": {
-      "last": 26419.32,
+      "last": 26409.63,
       "low52": 20794.64,
       "high52": 27093.9,
-      "pct52": 0.893,
-      "chg3m": -2.46
+      "pct52": 0.891,
+      "chg3m": -2.5
     },
     "^VIX": {
-      "last": 14.54,
+      "last": 14.52,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.061,
-      "chg3m": -9.41
+      "pct52": 0.06,
+      "chg3m": -9.53
     },
     "^TNX": {
       "last": 4.73,
@@ -110,16 +110,16 @@
   },
   "regime": {
     "by": "ai",
-    "asOf": "2026-08-28T18:14:38.737Z",
+    "asOf": "2026-08-28T18:35:32.516Z",
     "kr": {
       "why": {
-        "rates": "참고 지표인 미 10년물(^TNX)이 4.73%로 1년 범위 상단(위치 98%)에 있고 3개월간 +5.65% 올라, 금리는 내려가는 국면이 아니라 위쪽으로 눌리는 상태로 봅니다.",
-        "growth": "코스피가 6912.37로 1년 범위의 63% 위치에 있어 침체로 단정하긴 어렵지만, 3개월 변화가 -15.55%로 크게 밀려 둔화 쪽으로 분류합니다.",
-        "valuation": "지수 위치가 1년 범위 63%로 상단도 하단도 아닌 중간대라, 주어진 수치만으로는 보통 수준으로 봅니다.",
-        "fx": "원/달러가 1379.16으로 1년 범위(1377.64~1554.48)의 1% 위치이고 3개월간 -9.06% 하락해 원화가 뚜렷하게 강한 상태입니다.",
-        "geo": "VIX가 14.54로 1년 범위 6% 위치까지 낮아졌고 제시된 헤드라인에도 지정학·정책 충격 내용이 없어 평온으로 판단합니다."
+        "rates": "제시된 금리 지표인 ^TNX가 4.73으로 1년 범위 상단(위치 98%)에 있고 3개월간 +5.65% 올라 금리가 오르는 쪽으로 분류했습니다(다만 이는 미국 10년물 기준이라 한국 정책금리를 직접 보여주는 자료는 없습니다).",
+        "growth": "^KS11이 3개월간 -15.55% 하락한 점은 둔화 신호지만, 지수가 1년 범위의 63% 위치에 있고 ^VIX도 14.52로 낮아 침체 신호로 보기엔 근거가 약해 중간값인 둔화로 판정했습니다.",
+        "valuation": "^KS11 현재 6912.37은 1년 범위 3142.93~9114.55의 63% 위치로 고점도 저점도 아니며, 3개월 -15.55% 조정을 감안해 보통으로 봤습니다(밸류 지표 자체는 자료에 없습니다).",
+        "fx": "KRW=X가 1379.17로 1년 범위 1377.64~1554.48의 1% 위치이고 3개월간 -9.06% 하락해 원화가 뚜렷한 강세 구간입니다.",
+        "geo": "^VIX 14.52(1년 범위 6% 위치)로 불안 지표가 낮고, 제시된 헤드라인도 배당·유상증자 등 기업 이슈 위주라 평온으로 분류했습니다."
       },
-      "summary": "금리는 높은 자리에 머물고 원화는 1379원으로 1년 중 가장 강한 편인데, 코스피는 3개월 -15.55%로 숨 고르는 국면입니다. 변동성 지표(VIX 14.54)는 낮아 시장 분위기 자체는 조용한 편입니다.",
+      "summary": "금리는 높은 수준에서 더 오르는 흐름이고 원/달러는 1379원으로 1년 내 가장 낮은 편(원화 강세)입니다. 코스피는 3개월간 15% 넘게 밀렸지만 지수 위치와 변동성 지표는 아직 침체까지는 아닌 둔화 국면으로 보입니다.",
       "rates": "hike",
       "growth": "slow",
       "valuation": "fair",
@@ -128,18 +128,18 @@
     },
     "us": {
       "why": {
-        "rates": "^TNX가 4.73%로 1년 범위 98% 위치이고 3개월 +5.65%인 데다, 헤드라인에서 연준 인사(해맥)가 '금리 인상은 지금이 행동할 때'라고 언급해 인상 쪽 압력으로 봅니다.",
-        "growth": "S&P500이 7712.74로 1년 범위 94% 위치이고 3개월 +1.48%로 완만히 올라, 경기 신호는 아직 괜찮은 쪽으로 분류합니다.",
-        "valuation": "지수가 1년 범위 상단 94% 위치까지 올라와 있어 가격 부담이 있는 구간으로 봅니다.",
-        "fx": "원/달러 1379.16은 1년 범위 1% 위치로, 달러 대비 원화가 강한 상태(3개월 -9.06%)입니다.",
-        "geo": "VIX는 14.54로 낮지만 코어 물가 연 3.3%와 연준 내 금리 인상 발언 등 정책 관련 논쟁이 헤드라인에 반복돼, 충격은 아니되 긴장 정도로 봅니다."
+        "rates": "^TNX가 4.73으로 1년 범위 3.95~4.74의 98% 위치이고 3개월 +5.65% 상승했으며, 헤드라인에서도 코어 물가 연 3.3%와 연준 인사의 '지금이 행동할 때' 발언이 언급돼 긴축 방향으로 판정했습니다.",
+        "growth": "^GSPC가 7711.32로 1년 범위의 94% 위치이고 3개월 +1.47%로 상승 흐름을 유지해 경기 인식은 아직 양호한 쪽으로 봤습니다.",
+        "valuation": "S&P500이 1년 고점 7798.99에 근접한 94% 위치라 가격 부담이 있는 구간으로 분류했습니다(PER 등 실제 밸류 지표는 자료에 없습니다).",
+        "fx": "KRW=X 1379.17은 1년 범위의 1% 위치로, 원화 기준으로는 강세이고 달러는 상대적으로 약한 편입니다.",
+        "geo": "^VIX 14.52(1년 범위 6% 위치)로 시장 불안이 낮고, 헤드라인도 물가·연준 정책 논의 중심이라 지정학 충격 근거는 없어 평온으로 봤습니다."
       },
-      "summary": "주가지수는 1년 최고 부근(94% 위치)까지 올라 가격 부담이 있는 반면, 금리는 4.73%로 1년 최고 수준이고 물가는 3.3%로 아직 높습니다. 시장은 조용하지만 통화정책을 둘러싼 긴장이 남아 있는 국면입니다.",
+      "summary": "주가지수는 1년 고점 부근(94% 위치)이라 가격은 비싼 편이고, 물가 3.3%와 국채금리 4.73%로 금리는 높은 쪽으로 기울어 있습니다. 변동성은 낮아 표면은 조용하지만 금리 부담과 높은 지수 위치가 함께 있는 국면입니다.",
       "rates": "hike",
       "growth": "expand",
       "valuation": "rich",
       "fx": "strong",
-      "geo": "tense"
+      "geo": "calm"
     }
   },
   "stocks": {
@@ -238,95 +238,95 @@
     },
     "us": {
       "MSFT": {
-        "price": 514.865,
+        "price": 514.989,
         "prev": 505.05999755859375,
-        "chg": 1.94,
+        "chg": 1.97,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T18:14:06.000Z"
+        "time": "2026-08-28T18:35:03.000Z"
       },
       "AAPL": {
-        "price": 319.72,
+        "price": 319.65,
         "prev": 314.5799865722656,
-        "chg": 1.63,
+        "chg": 1.61,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T18:14:06.000Z"
+        "time": "2026-08-28T18:35:03.000Z"
       },
       "GOOGL": {
-        "price": 346.86,
+        "price": 346.415,
         "prev": 340.6499938964844,
-        "chg": 1.82,
+        "chg": 1.69,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T18:14:06.000Z"
+        "time": "2026-08-28T18:35:04.000Z"
       },
       "BRK.B": {
-        "price": 505.749,
+        "price": 505.7,
         "prev": 503.70001220703125,
-        "chg": 0.41,
+        "chg": 0.4,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T18:14:04.000Z"
+        "time": "2026-08-28T18:34:41.000Z"
       },
       "V": {
-        "price": 382.3,
+        "price": 381.9,
         "prev": 379.6600036621094,
-        "chg": 0.7,
+        "chg": 0.59,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T18:14:06.000Z"
+        "time": "2026-08-28T18:35:01.000Z"
       },
       "JNJ": {
-        "price": 265.71,
+        "price": 265.93,
         "prev": 265.7699890136719,
-        "chg": -0.02,
+        "chg": 0.06,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T18:13:56.000Z"
+        "time": "2026-08-28T18:34:59.000Z"
       },
       "PG": {
-        "price": 143.285,
+        "price": 143.29,
         "prev": 143.13999938964844,
         "chg": 0.1,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T18:13:59.000Z"
+        "time": "2026-08-28T18:34:33.000Z"
       },
       "KO": {
-        "price": 89.793,
-        "prev": 89.7927017211914,
-        "chg": 0,
-        "basis": "last-daily-close",
-        "time": "2026-08-28T18:14:07.000Z"
+        "price": 89.695,
+        "prev": 89.05999755859375,
+        "chg": 0.71,
+        "basis": "prev-daily-close",
+        "time": "2026-08-28T18:35:00.000Z"
       },
       "COST": {
-        "price": 947.13,
+        "price": 945.6,
         "prev": 934.6599731445312,
-        "chg": 1.33,
+        "chg": 1.17,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T18:13:54.000Z"
+        "time": "2026-08-28T18:34:36.000Z"
       },
       "WM": {
-        "price": 219.265,
+        "price": 219.47,
         "prev": 217.75999450683594,
-        "chg": 0.69,
+        "chg": 0.79,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T18:13:45.000Z"
+        "time": "2026-08-28T18:34:41.000Z"
       },
       "LIN": {
-        "price": 488.105,
+        "price": 488.025,
         "prev": 485.3500061035156,
-        "chg": 0.57,
+        "chg": 0.55,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T18:13:43.000Z"
+        "time": "2026-08-28T18:35:04.000Z"
       },
       "XOM": {
-        "price": 155.68,
+        "price": 155.76,
         "prev": 156.44000244140625,
-        "chg": -0.49,
+        "chg": -0.43,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T18:14:02.000Z"
+        "time": "2026-08-28T18:34:52.000Z"
       },
       "NVDA": {
-        "price": 218.74,
+        "price": 218.63,
         "prev": 227.97999572753906,
-        "chg": -4.05,
+        "chg": -4.1,
         "basis": "prev-daily-close",
-        "time": "2026-08-28T18:14:07.000Z"
+        "time": "2026-08-28T18:35:03.000Z"
       }
     }
   },
@@ -449,15 +449,15 @@
         "by": "ai"
       },
       {
-        "title": "Tim Cook Warned of a \"100-Year Flood\" in Memory Chip Pricing on His Last Earnings Call. Should Apple Investors Be Worried About Margins?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/tim-cook-warned-100-flood-081500902.html",
+        "title": "Druckenmiller tells former protégé Bessent his $4B bond buyback plan could spiral — and mortgage rates may not budge",
+        "link": "https://finance.yahoo.com/economy/policy/articles/druckenmiller-tells-former-prot-g-093000190.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-27T08:15:00Z",
-        "ko": "Tim Cook은 마지막 수입 통화에서 메모리 칩 가격의 \"100년 홍수\" 에 대해 경고했습니다. Apple 투자자는 마진에 대해 걱정해야 합니까?",
-        "act": "watch",
+        "date": "2026-08-27T09:30:00Z",
+        "ko": "Druckenmiller는 전 친애하는 Bessent에게 자신의 $4B 채권 매입 계획이 나선형이 될 수 있으며 모기지 금리가 변하지 않을 수 있다고 말합니다.",
+        "act": "none",
         "lasting": "temporary",
-        "scope": "company",
-        "why": "메모리 가격 급등은 주기적 비용 요인으로, 마진 영향만 지켜보면 되는 사안입니다.",
+        "scope": "market",
+        "why": "유명 투자자의 정책 전망 발언일 뿐, 기업 이익 구조가 바뀐 건 아닙니다.",
         "by": "ai"
       },
       {
@@ -668,7 +668,8 @@
     "Stock market today: Dow, S&P 500, Nasdaq moderate as markets digest Warsh's Jackson Hole speech": "오늘의 주식 시장: 다우, S&P 500, 나스닥 시장이 워시의 잭슨 홀 연설을 소화함에 따라 중간",
     "Rate-hike expectations rise on Warsh speech at Jackson Hole": "잭슨 홀의 워시 연설에서 금리 인상 기대치 상승",
     "Moderna (MRNA) & Merck (MRK): What’s Happening With These Two Stocks?": "Moderna (MRNA) & Merck (MRK): 이 두 주식은 어떻게 되나요?",
-    "Tim Cook Warned of a \"100-Year Flood\" in Memory Chip Pricing on His Last Earnings Call. Should Apple Investors Be Worried About Margins?": "Tim Cook은 마지막 수입 통화에서 메모리 칩 가격의 \"100년 홍수\" 에 대해 경고했습니다. Apple 투자자는 마진에 대해 걱정해야 합니까?"
+    "Tim Cook Warned of a \"100-Year Flood\" in Memory Chip Pricing on His Last Earnings Call. Should Apple Investors Be Worried About Margins?": "Tim Cook은 마지막 수입 통화에서 메모리 칩 가격의 \"100년 홍수\" 에 대해 경고했습니다. Apple 투자자는 마진에 대해 걱정해야 합니까?",
+    "Druckenmiller tells former protégé Bessent his $4B bond buyback plan could spiral — and mortgage rates may not budge": "Druckenmiller는 전 친애하는 Bessent에게 자신의 $4B 채권 매입 계획이 나선형이 될 수 있으며 모기지 금리가 변하지 않을 수 있다고 말합니다."
   },
   "nvCache": {
     "https://www.yna.co.kr/view/AKR20260824137251008": {
@@ -2097,6 +2098,13 @@
       "lasting": "temporary",
       "scope": "company",
       "why": "메모리 가격 급등은 주기적 비용 요인으로, 마진 영향만 지켜보면 되는 사안입니다.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/economy/policy/articles/druckenmiller-tells-former-prot-g-093000190.html": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "유명 투자자의 정책 전망 발언일 뿐, 기업 이익 구조가 바뀐 건 아닙니다.",
       "by": "ai"
     }
   },
