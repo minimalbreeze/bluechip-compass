@@ -45,7 +45,12 @@ function pickStyle(body) {
 /* 본문에서 "질문:" 아래 전부가 사람이 쓴 말이다. 없으면 본문 전체. */
 function pickQuestion(body) {
   const i = (body || '').indexOf('질문:');
-  return (i >= 0 ? body.slice(i + 3) : (body || '')).trim().slice(0, 4000);
+  let q = (i >= 0 ? body.slice(i + 3) : (body || ''));
+  /* 앱이 맨 아래 붙이는 꼬리표는 사람이 쓴 말이 아니다. 떼어 낸다 —
+     안 떼면 "블루칩 나침반 앱에서 보낸…"까지 질문으로 읽는다. */
+  const cut = q.indexOf('\n---');
+  if (cut >= 0) q = q.slice(0, cut);
+  return q.trim().slice(0, 4000);
 }
 
 const SYSTEM = `당신은 한국 개인투자자용 앱 "블루칩 나침반"의 상담 담당입니다.
@@ -147,7 +152,10 @@ export async function run({ body, apiKey, model }) {
   }
 
   if (stock) {
-    parts.push('\n## 물어본 종목\n- ' + stock.name + ' (' + stock.ticker + ')');
+    /* 사용자가 이 종목 화면에서 물었다는 뜻이지, 반드시 이 종목을 묻는다는
+       뜻은 아니다. 삼성전자를 보다가 다른 회사를 물을 수도 있다. */
+    parts.push('\n## 질문할 때 보고 있던 종목 (참고용. 질문의 주제가 아닐 수도 있습니다)\n- ' +
+      stock.name + ' (' + stock.ticker + ')');
     const card = ana[stock.ticker];
     if (card) {
       parts.push('\n### 이 앱이 이미 정리해 둔 내용 (여기서 벗어나는 말을 할 때는 왜인지 적으세요)');
@@ -175,6 +183,13 @@ export async function run({ body, apiKey, model }) {
     '**직접 확인할 것** / **한 줄 고지**');
 
   const ctx = parts.join('\n');
+
+  /* 무엇을 보내는지 눈으로 확인하는 길. 크레딧을 쓰지 않는다.
+     금액이 새어 나가지 않는지 보는 데에도 이걸 쓴다. */
+  if (process.env.ASK_DRYRUN) {
+    console.log(ctx);
+    return { answer: '(dry run)', meta: null, stock };
+  }
 
   const [{ default: Anthropic }, { z }, { zodOutputFormat }] = await Promise.all([
     import('@anthropic-ai/sdk'), import('zod'), import('@anthropic-ai/sdk/helpers/zod')
