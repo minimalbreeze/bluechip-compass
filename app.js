@@ -1694,7 +1694,7 @@
           : '<div class="pickednote warn">이 종목은 <b>시세를 받아오지 않습니다.</b> 아래에 현재가를 직접 적으면 평가액이 계산됩니다(비워두면 매수 원가로 표시).</div>');
       } else {
         h.push('<input id="h-name" type="text" autocomplete="off" value="' + esc(state.q) + '" ' +
-          'placeholder="종목명이나 ' + (isUS ? '티커 (예: Microsoft, MSFT)' : '종목코드 (예: 삼성전자, 005930)') + '" />');
+          'placeholder="종목명 또는 ' + (isUS ? '티커' : '종목코드') + '" />');
         if (state.q) {
           if (results.length) {
             h.push('<div class="acbox">');
@@ -2528,9 +2528,10 @@
       '<p>궁금한 종목을 찾아보세요. <b>뭐하는 회사인지, 10년 뒤에도 있을 회사인지</b>를 정리해 둡니다.</p></div>');
 
     h.push('<div class="card sform">' +
-      '<input id="sq" type="text" autocomplete="off" placeholder="' +
-        (mk === 'kr' ? '삼성전자, 005930…' : 'Microsoft, MSFT, 하이닉스…') +
-      '" value="' + esc(state.sq || '') + '" />' +
+      /* 예시 종목을 적어 두면 그 종목을 권하는 것처럼 읽힌다. 무엇을 치면
+         되는지만 말한다. */
+      '<input id="sq" type="text" autocomplete="off" placeholder="종목명 · 종목코드 · 티커로 찾기" ' +
+      'value="' + esc(state.sq || '') + '" />' +
       (state.sq ? '<button class="sq-x" id="sq-clear">✕</button>' : '') +
     '</div>');
 
@@ -2548,7 +2549,6 @@
       return '<div class="note">지금은 물어보기를 쓸 수 없습니다.</div>';
     }
     loadTickers();
-    BCAsk.load();
     var h = [];
     h.push('<div class="sec-head"><h2>🙋 물어보기</h2>' +
       '<p>투자하면서 궁금한 걸 물어보세요. <b>지금 시장 국면과 오늘 기사</b>를 ' +
