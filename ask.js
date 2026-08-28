@@ -96,7 +96,10 @@ window.BCAsk = (function () {
          권하는 것처럼 읽히고, 예시가 있으면 그 틀 안에서만 묻게 된다. */
       '<textarea id="askq" rows="4" placeholder="궁금한 것을 적어 보세요">' +
         esc(cache.draft || '') + '</textarea>' +
-      '<button class="btn" id="asksend">질문하기 →</button>' +
+      /* 열쇠 칸이 떠 있을 때는 이 단추를 숨긴다. 그때 눌러야 할 것은
+         "저장하고 질문하기" 하나뿐인데, 큰 단추가 둘이면 어느 걸 눌러야
+         하는지 또 고르게 된다. 한 번에 하나만 보인다. */
+      (cache.keyOpen ? '' : '<button class="btn" id="asksend">질문하기 →</button>') +
       keyBoxHtml() +
       '<div class="ask-warn">답은 <b>“전체 투자금의 몇 %”</b>로 옵니다. ' +
       '금액 환산은 <b>이 기기 안에서만</b> 하고, 회원님의 투자 금액은 어디에도 ' +
@@ -301,9 +304,14 @@ window.BCAsk = (function () {
       /* 모양만 본다. 맞는지는 실제로 물어봐야 안다 — 확인만 하려고 요청을
          한 번 더 쓰지 않는다. */
       if (v && !/^sk-/.test(v)) { alert('열쇠는 보통 sk-ant- 로 시작합니다. 다시 확인해 주세요.'); return true; }
-      setKey(v); cache.keyOpen = false; save();
-      /* 넣자마자 아까 적어 둔 질문을 그대로 보낸다 — 두 번 누르게 하지 않는다. */
-      if (hasKey() && cache.draft) { var q0 = cache.draft; cache.draft = ''; save(); askNow(q0, ctx); }
+      setKey(v); cache.keyOpen = false;
+      /* 넣자마자 아까 적어 둔 질문을 그대로 보낸다 — 두 번 누르게 하지 않는다.
+         열쇠 칸이 떠 있는 동안 글을 고쳤을 수 있으니 **화면에 적힌 것**을
+         먼저 본다. */
+      var ta0 = document.getElementById('askq');
+      var q0 = (ta0 ? ta0.value.trim() : '') || cache.draft || '';
+      cache.draft = ''; save();
+      if (hasKey() && q0) { if (ta0) ta0.value = ''; askNow(q0, ctx); }
       else onChange();
       return true;
     }
