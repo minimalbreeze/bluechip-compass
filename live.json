@@ -1,19 +1,19 @@
 {
-  "asOf": "2026-08-29T15:22:22.232Z",
+  "asOf": "2026-08-29T16:23:09.695Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
       "price": 6788.88,
       "prev": 6912.3701171875,
       "chg": -1.79,
-      "basis": "prev-daily-close",
+      "basis": "last-daily-close",
       "time": "2026-08-28T09:05:40.000Z"
     },
     "^KQ11": {
       "price": 838.41,
       "prev": 837.6500244140625,
       "chg": 0.09,
-      "basis": "prev-daily-close",
+      "basis": "last-daily-close",
       "time": "2026-08-28T09:05:40.000Z"
     },
     "KRW=X": {
@@ -27,28 +27,28 @@
       "price": 7711.76,
       "prev": 7730.990234375,
       "chg": -0.25,
-      "basis": "prev-daily-close",
+      "basis": "last-daily-close",
       "time": "2026-08-28T20:37:00.000Z"
     },
     "^IXIC": {
       "price": 26402.424,
       "prev": 26541.349609375,
       "chg": -0.52,
-      "basis": "prev-daily-close",
+      "basis": "last-daily-close",
       "time": "2026-08-28T21:15:59.000Z"
     },
     "^VIX": {
       "price": 14.43,
       "prev": 14.510000228881836,
       "chg": -0.55,
-      "basis": "prev-daily-close",
+      "basis": "last-daily-close",
       "time": "2026-08-28T20:15:01.000Z"
     },
     "^TNX": {
       "price": 4.72,
       "prev": 4.671999931335449,
       "chg": 1.03,
-      "basis": "prev-daily-close",
+      "basis": "last-daily-close",
       "time": "2026-08-28T18:59:54.000Z"
     }
   },
@@ -59,18 +59,18 @@
   },
   "hist": {
     "^KS11": {
-      "last": 6788.88,
+      "last": 6912.37,
       "low52": 3142.93,
       "high52": 9114.55,
-      "pct52": 0.611,
-      "chg3m": -19.91
+      "pct52": 0.631,
+      "chg3m": -15.55
     },
     "^KQ11": {
-      "last": 838.41,
+      "last": 837.65,
       "low52": 644.78,
       "high52": 1226.18,
-      "pct52": 0.333,
-      "chg3m": -21.99
+      "pct52": 0.332,
+      "chg3m": -24.15
     },
     "KRW=X": {
       "last": 1371.5,
@@ -80,66 +80,66 @@
       "chg3m": -10.37
     },
     "^GSPC": {
-      "last": 7711.76,
+      "last": 7730.99,
       "low52": 6343.72,
       "high52": 7798.99,
-      "pct52": 0.94,
-      "chg3m": 1.47
+      "pct52": 0.953,
+      "chg3m": 1.99
     },
     "^IXIC": {
-      "last": 26402.42,
+      "last": 26541.35,
       "low52": 20794.64,
       "high52": 27093.9,
-      "pct52": 0.89,
-      "chg3m": -2.53
+      "pct52": 0.912,
+      "chg3m": -1.6
     },
     "^VIX": {
-      "last": 14.43,
+      "last": 14.51,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.055,
-      "chg3m": -10.09
+      "pct52": 0.059,
+      "chg3m": -5.29
     },
     "^TNX": {
-      "last": 4.72,
+      "last": 4.67,
       "low52": 3.95,
       "high52": 4.74,
-      "pct52": 0.968,
-      "chg3m": 5.47
+      "pct52": 0.908,
+      "chg3m": 4.92
     }
   },
   "regime": {
     "by": "ai",
-    "asOf": "2026-08-29T15:22:17.771Z",
+    "asOf": "2026-08-29T16:23:09.693Z",
     "kr": {
       "why": {
-        "rates": "미 10년물 금리(^TNX)가 4.72%로 1년범위 97% 지점이고 3개월간 +5.47% 올랐으며, 헤드라인도 '워시 9월 인상 시사', '매파 발언'을 전하고 있어 금리는 올라가는 쪽입니다.",
-        "growth": "코스피가 3개월간 -19.91% 하락했지만 1년범위 내 위치는 61%로 여전히 중상단이고 VIX는 14.43(위치 6%)로 낮아, 침체 확정보다는 둔화 신호로 보는 것이 근거에 맞습니다.",
-        "valuation": "코스피 6788.88은 1년범위 3142.93~9114.55의 61% 지점으로 고점권에서 20% 가까이 내려온 중간 수준이어서 싸다고도 비싸다고도 말하기 어렵습니다.",
-        "fx": "원/달러 1371.5는 1년범위 1371.5~1554.48의 0% 지점(1년 최저)이고 3개월간 -10.37% 하락해 원화가 뚜렷하게 강세 구간입니다.",
-        "geo": "'베선트 엔화 개입 의도', '워시 매파 발언에 3대 지수 하락' 등 정책 관련 긴장 헤드라인이 이어지지만 VIX 14.43(위치 6%)처럼 시장 공포지표는 낮아 충격이 아닌 긴장 수준입니다."
+        "rates": "미 10년물(^TNX)이 4.67%로 1년범위 상단 91% 위치이고 3개월간 +4.92% 올랐으며, '워시 9월 인상 시사', 'Hammack 금리 인상 지금이 행동할 때' 헤드라인이 겹칩니다.",
+        "growth": "코스피가 3개월 -15.55% 급락했지만 지수 자체는 6912.37로 1년범위 63% 위치에 있고 성장·고용 지표가 제시되지 않아, 침체 단정보다 둔화로 중립적으로 봅니다.",
+        "valuation": "코스피 6912.37은 1년범위 3142.93~9114.55의 63% 위치로 상단도 하단도 아니어서 보통 수준입니다.",
+        "fx": "원/달러가 1371.5로 1년범위(1371.5~1554.48) 최저인 0% 위치이고 3개월 -10.37%로 내려, 원화가 뚜렷이 강세입니다.",
+        "geo": "^VIX가 14.51로 1년범위 6% 위치(3개월 -5.29%)로 매우 낮아 시장이 반영한 긴장은 낮으며, '엔화 개입 의도' 같은 정책 발언은 있으나 충격으로 볼 근거는 약합니다."
       },
-      "summary": "금리는 오르는 방향(^TNX 4.72%, 위치 97%)인데 코스피는 3개월 -19.91% 조정을 받아 성장 쪽 힘이 약해진 국면입니다. 원화는 1년 최저인 1371.5로 강세이고 VIX는 14.43로 낮아, 공포보다는 정책 불확실성이 눌러앉은 상태로 분류합니다.",
+      "summary": "금리는 오르는 쪽으로 기울고 원화는 1371.5로 1년 최저 수준까지 강해진 국면입니다. 지수는 3개월 -15.55% 조정을 받았지만 밸류에이션과 변동성(VIX 14.51)은 아직 과열도 공포도 아닌 상태입니다.",
       "rates": "hike",
       "growth": "slow",
       "valuation": "fair",
       "fx": "strong",
-      "geo": "tense"
+      "geo": "calm"
     },
     "us": {
       "why": {
-        "rates": "^TNX가 4.72%로 1년범위(3.95~4.74) 97% 지점, 3개월 +5.47%이며 'Fed의 Hammack: 지금이 행동할 때', 워시 의장의 인플레 우려 발언까지 겹쳐 인상 방향입니다.",
-        "growth": "S&P500이 7711.76으로 1년범위 94% 지점이고 3개월 +1.47% 상승, 헤드라인도 '기업 수익이 빠른 속도로 증가'라고 전해 경기·이익 흐름은 아직 괜찮은 편입니다.",
-        "valuation": "지수가 1년범위 6343.72~7798.99에서 94% 지점(고점 근처)에 있어 가격 부담이 큰 구간으로 분류합니다.",
-        "fx": "원/달러가 1371.5로 1년 최저(위치 0%), 3개월 -10.37%여서 달러 대비 원화 강세, 즉 달러가 약해진 쪽입니다.",
-        "geo": "연준 의장 관련 '정치적 압력에 저항' 등 정책 긴장 헤드라인이 있지만 VIX 14.43(1년범위 위치 6%)로 낮아 충격 단계는 아닙니다."
+        "rates": "^TNX 4.67%가 1년범위 3.95~4.74의 91% 위치이고 3개월 +4.92%이며, 워시 의장의 인플레 우려·Hammack의 '인상 행동할 때' 발언이 인상 방향을 가리킵니다.",
+        "growth": "S&P500이 7730.99로 1년범위 95% 위치이고 3개월 +1.99% 상승, '기업 수익이 빠른 속도로 증가' 헤드라인도 있어 현재 경기는 괜찮은 쪽으로 분류합니다.",
+        "valuation": "지수가 1년범위 6343.72~7798.99의 95% 위치인데 장기금리는 4.67%로 상단 91%에 있어, 가격 부담이 있는 비싼 편으로 봅니다.",
+        "fx": "원/달러 1371.5는 1년범위 0% 위치, 3개월 -10.37%로 달러 대비 원화 강세(달러 약세) 쪽입니다.",
+        "geo": "^VIX 14.51(1년범위 6% 위치, 3개월 -5.29%)로 매우 낮고 제시된 헤드라인에 지정학 충격 사건이 없어 평온으로 봅니다."
       },
-      "summary": "미국은 지수가 1년 고점권(위치 94%)까지 오른 반면 장기금리는 4.72%로 1년 최고 수준이라 '이익은 좋지만 가격과 금리 부담이 큰' 국면입니다. VIX 14.43으로 시장은 차분하나 연준 인상 논의가 배경 긴장으로 남아 있습니다.",
+      "summary": "주가는 1년 고점 부근(범위 95%)인데 장기금리도 4.67%로 높은, '좋지만 비싼' 국면입니다. 연준 인사들의 인상 발언이 잇따르는 가운데 변동성은 VIX 14.51로 낮게 눌려 있습니다.",
       "rates": "hike",
       "growth": "expand",
       "valuation": "rich",
       "fx": "strong",
-      "geo": "tense"
+      "geo": "calm"
     }
   },
   "stocks": {
@@ -241,91 +241,91 @@
         "price": 513.53,
         "prev": 505.05999755859375,
         "chg": 1.68,
-        "basis": "prev-daily-close",
+        "basis": "last-daily-close",
         "time": "2026-08-28T20:00:01.000Z"
       },
       "AAPL": {
         "price": 319.7,
         "prev": 314.5799865722656,
         "chg": 1.63,
-        "basis": "prev-daily-close",
+        "basis": "last-daily-close",
         "time": "2026-08-28T20:00:01.000Z"
       },
       "GOOGL": {
         "price": 346.59,
         "prev": 340.6499938964844,
         "chg": 1.74,
-        "basis": "prev-daily-close",
+        "basis": "last-daily-close",
         "time": "2026-08-28T20:00:01.000Z"
       },
       "BRK.B": {
         "price": 505,
         "prev": 503.70001220703125,
         "chg": 0.26,
-        "basis": "prev-daily-close",
+        "basis": "last-daily-close",
         "time": "2026-08-28T20:00:03.000Z"
       },
       "V": {
         "price": 381.6,
         "prev": 379.6600036621094,
         "chg": 0.51,
-        "basis": "prev-daily-close",
+        "basis": "last-daily-close",
         "time": "2026-08-28T20:00:02.000Z"
       },
       "JNJ": {
         "price": 268.04,
         "prev": 265.7699890136719,
         "chg": 0.85,
-        "basis": "prev-daily-close",
+        "basis": "last-daily-close",
         "time": "2026-08-28T20:00:02.000Z"
       },
       "PG": {
         "price": 143.78,
         "prev": 143.13999938964844,
         "chg": 0.45,
-        "basis": "prev-daily-close",
+        "basis": "last-daily-close",
         "time": "2026-08-28T20:03:21.000Z"
       },
       "KO": {
         "price": 89.66,
         "prev": 89.05999755859375,
         "chg": 0.67,
-        "basis": "prev-daily-close",
+        "basis": "last-daily-close",
         "time": "2026-08-28T20:00:02.000Z"
       },
       "COST": {
         "price": 945.47,
         "prev": 934.6599731445312,
         "chg": 1.16,
-        "basis": "prev-daily-close",
+        "basis": "last-daily-close",
         "time": "2026-08-28T20:00:01.000Z"
       },
       "WM": {
         "price": 219.66,
         "prev": 217.75999450683594,
         "chg": 0.87,
-        "basis": "prev-daily-close",
+        "basis": "last-daily-close",
         "time": "2026-08-28T20:00:02.000Z"
       },
       "LIN": {
         "price": 489.51,
         "prev": 485.3500061035156,
         "chg": 0.86,
-        "basis": "prev-daily-close",
+        "basis": "last-daily-close",
         "time": "2026-08-28T20:00:01.000Z"
       },
       "XOM": {
         "price": 156.71,
         "prev": 156.44000244140625,
         "chg": 0.17,
-        "basis": "prev-daily-close",
+        "basis": "last-daily-close",
         "time": "2026-08-28T20:03:03.000Z"
       },
       "NVDA": {
         "price": 217.55,
         "prev": 227.97999572753906,
         "chg": -4.57,
-        "basis": "prev-daily-close",
+        "basis": "last-daily-close",
         "time": "2026-08-28T20:00:00.000Z"
       }
     }
@@ -413,15 +413,15 @@
         "by": "ai"
       },
       {
-        "title": "Corporate earnings have been growing at a blistering pace. Here’s why that’s not likely to last.",
-        "link": "https://www.marketwatch.com/story/corporate-earnings-have-been-growing-at-a-blistering-pace-heres-why-thats-not-likely-to-last-28810eac?mod=mw_rss_topstories",
+        "title": "My mother, 91, has dementia. Every bank says I need her signature to unlock her $100,000 stock certificate. What can I do?",
+        "link": "https://www.marketwatch.com/story/my-mother-91-has-dementia-every-bank-says-i-need-her-signature-to-unlock-her-100-000-stock-certificate-what-can-i-do-4a2b702f?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Sat, 29 Aug 2026 11:30:00 GMT",
-        "ko": "기업 수익은 빠른 속도로 증가하고 있습니다. 이것이 지속되지 않는 이유입니다.",
+        "date": "Sat, 29 Aug 2026 16:00:00 GMT",
+        "ko": "91세인 어머니는 치매를 앓고 계십니다. 모든 은행에서 $100,000의 주식 증서를 잠금 해제하려면 그녀의 서명이 필요하다고 말합니다. 어떻게 해야 하나요?",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "이익 증가 지속성에 대한 전망 기사로, 오늘 할 일은 없습니다.",
+        "why": "개인 상속·명의 관련 사연으로 투자 판단과 직접 관련이 없습니다.",
         "by": "ai"
       },
       {
@@ -449,15 +449,15 @@
         "by": "ai"
       },
       {
-        "title": "The S&P 500 keeps climbing on days when stocks broadly struggle. Here’s what’s going on.",
-        "link": "https://www.marketwatch.com/story/the-s-p-500-keeps-climbing-on-days-when-stocks-broadly-struggle-heres-whats-going-on-60ad5c72?mod=mw_rss_topstories",
+        "title": "Corporate earnings have been growing at a blistering pace. Here’s why that’s not likely to last.",
+        "link": "https://www.marketwatch.com/story/corporate-earnings-have-been-growing-at-a-blistering-pace-heres-why-thats-not-likely-to-last-28810eac?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Sat, 29 Aug 2026 11:00:00 GMT",
-        "ko": "S&P 500은 주식이 광범위하게 어려움을 겪는 날에도 계속 상승하고 있습니다. 현재 상황은 다음과 같습니다.",
+        "date": "Sat, 29 Aug 2026 11:30:00 GMT",
+        "ko": "기업 수익은 빠른 속도로 증가하고 있습니다. 이것이 지속되지 않는 이유입니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "지수 흐름과 종목별 온도차를 설명하는 시황으로, 기업 이익 구조와는 무관합니다.",
+        "why": "이익 증가 지속성에 대한 전망 기사로, 오늘 할 일은 없습니다.",
         "by": "ai"
       },
       {
