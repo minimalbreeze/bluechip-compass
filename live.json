@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-29T07:15:23.624Z",
+  "asOf": "2026-08-29T08:16:19.958Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -42,7 +42,7 @@
       "prev": 14.510000228881836,
       "chg": -0.55,
       "basis": "last-daily-close",
-      "time": "2026-08-28T20:15:00.000Z"
+      "time": "2026-08-28T20:15:01.000Z"
     },
     "^TNX": {
       "price": 4.72,
@@ -110,36 +110,36 @@
   },
   "regime": {
     "by": "ai",
-    "asOf": "2026-08-29T07:15:17.855Z",
+    "asOf": "2026-08-29T08:16:16.223Z",
     "kr": {
       "why": {
-        "rates": "미국 10년물 금리(^TNX) 4.67%가 1년범위 3.95~4.74의 91% 지점이고 3개월 +4.92% 상승했으며, '기준금리 3% 시대'·'워시 9월 인상 시사' 헤드라인까지 겹쳐 인상 쪽으로 기울어 있습니다.",
-        "growth": "코스피가 3개월 -15.55% 하락한 점은 둔화 신호이지만 지수 위치가 1년범위의 63%로 아직 상단권이고 VIX 14.51(위치 6%)로 낮아, 침체로 단정할 근거는 약해 '둔화 중'으로 봅니다.",
-        "valuation": "코스피 6912.37은 1년범위 3142.93~9114.55의 63% 지점으로 극단적인 고평가·저평가 구간이 아니어서 보통으로 분류합니다.",
-        "fx": "원/달러 1371.5는 1년범위 1371.5~1554.48의 0% 지점(최저)이며 3개월 -10.37% 하락해 원화가 강세입니다.",
-        "geo": "VIX 14.51(위치 6%)로 변동성이 낮고, 헤드라인은 엔화 개입 언급 등 정책 관련 발언 위주여서 충격 수준의 사건은 확인되지 않습니다."
+        "rates": "미 10년물(^TNX)이 4.67%로 1년 범위 상단(위치 91%)이고 3개월간 +4.92% 올랐으며, '기준금리 3% 시대'·'워시 9월 인상 시사' 헤드라인이 인상 쪽 압력을 가리킵니다.",
+        "growth": "코스피가 3개월간 -15.55% 조정받았지만 지수 위치는 여전히 1년 범위의 63%(6912.37, 범위 3142.93~9114.55)이고 VIX도 14.51(위치 6%)로 낮아, 침체 신호로 단정하기보다 둔화 국면으로 봅니다.",
+        "valuation": "코스피 6912.37은 1년 범위에서 위치 63%로 중간보다 약간 위이고 3개월 -15.55% 조정도 있었으니, 싸다·비싸다로 가르기 어려운 보통 수준입니다.",
+        "fx": "원/달러가 1371.5로 1년 범위(1371.5~1554.48) 최저점(위치 0%)이며 3개월간 -10.37% 하락해 원화가 뚜렷한 강세입니다.",
+        "geo": "VIX 14.51(위치 6%)로 시장 공포는 낮지만, '베선트 엔화 개입 의도'·'워시 매파 발언에 3대 지수 하락' 등 정책 관련 발언이 이어져 평온보다는 긴장 쪽으로 봅니다."
       },
-      "summary": "금리는 위로, 원화는 강세, 주가는 최근 3개월 -15.55%로 밀린 조정 국면입니다. 다만 VIX 14.51로 시장 불안 자체는 낮아 '금리 부담 속 둔화' 정도로 이해하면 됩니다.",
+      "summary": "금리는 오르는 쪽으로 기울고 원화는 1371.5원으로 1년 최저 수준의 강세인데, 코스피는 3개월 -15.55% 조정으로 성장 흐름이 둔화된 모습입니다. 공포지수(VIX 14.51)는 낮아 큰 충격 국면은 아니지만 정책 발언 관련 긴장은 남아 있습니다.",
       "rates": "hike",
       "growth": "slow",
       "valuation": "fair",
       "fx": "strong",
-      "geo": "calm"
+      "geo": "tense"
     },
     "us": {
       "why": {
-        "rates": "^TNX 4.67%가 1년범위의 91% 지점이고 3개월 +4.92% 오른 가운데, 연준 관계자(워시·해먹)의 인플레 우려와 '지금이 행동할 때' 발언이 겹쳐 인상 방향으로 판정합니다.",
-        "growth": "S&P500 7730.99가 1년범위 6343.72~7798.99의 95% 지점이고 3개월 +1.99%로 상승세를 유지해 경기 흐름은 괜찮은 편으로 봅니다.",
-        "valuation": "지수 위치가 1년범위의 95%로 연중 최고치 근처에 있어 가격 부담이 큰 구간(비싼 편)으로 분류합니다.",
-        "fx": "원/달러 1371.5가 1년범위 최저(위치 0%)이고 3개월 -10.37%로 원화가 달러 대비 강세입니다.",
-        "geo": "VIX 14.51(위치 6%)로 변동성이 매우 낮고 헤드라인도 개별 기업·통화정책 관련 내용이어서 충격 신호는 없습니다."
+        "rates": "^TNX가 4.67%로 1년 범위(3.95~4.74) 위치 91%, 3개월 +4.92%이고 'Fed 해맥, 금리 인상 지금이 행동할 때'·워시의 인플레 우려 발언이 인상 방향을 시사합니다.",
+        "growth": "S&P500이 7730.99로 1년 범위 위치 95%, 3개월 +1.99%로 상승세를 유지하고 있어 경기·실적 흐름이 괜찮은 편으로 분류합니다.",
+        "valuation": "지수가 1년 고점(7798.99) 근처인 위치 95%까지 올라와 있어 가격 부담이 큰 구간으로 봅니다.",
+        "fx": "원/달러 1371.5는 1년 범위 최저(위치 0%), 3개월 -10.37%로 달러 대비 원화가 강세 쪽입니다(제시된 환율 지표는 하나뿐이라 이 수치만 근거로 판단).",
+        "geo": "VIX가 14.51(위치 6%)로 매우 낮아 충격 국면은 아니지만, 연준 인사들의 인상 발언이 반복되는 정책 긴장이 있어 완전한 평온으로 보진 않습니다."
       },
-      "summary": "주가는 1년 최고치 근처(위치 95%)로 올라와 있고 변동성은 VIX 14.51로 낮은, 강세 분위기의 국면입니다. 다만 금리가 4.67%로 상단권이라 가격이 비싼 편이라는 점이 지금의 핵심 특징입니다.",
+      "summary": "미국 증시는 1년 고점 근처(위치 95%)에서 강한 흐름을 이어가지만, 국채금리 4.67%와 연준 인사들의 인상 발언이라는 부담이 함께 있는 국면입니다. 공포지수는 낮아 조용하지만 가격 수준은 비싼 편으로 분류됩니다.",
       "rates": "hike",
       "growth": "expand",
       "valuation": "rich",
       "fx": "strong",
-      "geo": "calm"
+      "geo": "tense"
     }
   },
   "stocks": {
@@ -425,15 +425,15 @@
         "by": "ai"
       },
       {
-        "title": "Solstice Scraps Element Deal and Launches $500 Million Buyback",
-        "link": "https://finance.yahoo.com/energy/articles/solstice-scraps-element-deal-launches-020153888.html",
+        "title": "Dunkin' comes back to major market after 12-year absence",
+        "link": "https://finance.yahoo.com/small-business/articles/dunkin-comes-back-major-market-161700314.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-28T02:01:53Z",
-        "ko": "Solstice, 요소 거래를 폐기하고 $5억 환매 개시",
-        "act": "watch",
+        "date": "2026-08-28T16:17:00Z",
+        "ko": "던킨은 12년간의 부재 끝에 주요 시장으로 돌아온다.",
+        "act": "none",
         "lasting": "temporary",
         "scope": "company",
-        "why": "거래 철회와 자사주 매입은 자본 배분 변화로, 성장 전략이 바뀌는지 지켜보면 됩니다.",
+        "why": "특정 시장 재진출 소식으로, 장기 이익 구조를 바꿀 정보는 제목만으로 확인되지 않습니다.",
         "by": "ai"
       },
       {
@@ -461,15 +461,15 @@
         "by": "ai"
       },
       {
-        "title": "Dunkin' comes back to major market after 12-year absence",
-        "link": "https://finance.yahoo.com/small-business/articles/dunkin-comes-back-major-market-161700314.html",
+        "title": "SaaSpocalypse Is ‘Nonsense’ Says Salesforce CEO Amid Earnings Beat and Anthropic Partnership",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/saaspocalypse-nonsense-says-salesforce-ceo-040100123.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-28T16:17:00Z",
-        "ko": "던킨은 12년간의 부재 끝에 주요 시장으로 돌아온다.",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "특정 시장 재진출 소식으로, 장기 이익 구조를 바꿀 정보는 제목만으로 확인되지 않습니다.",
+        "date": "2026-08-28T04:01:00Z",
+        "ko": "SaaSpocalypse는 '말도 안되는’ 수익 비트와 인류 파트너십 가운데 세일즈 포스 CEO 말한다",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": "sector",
+        "why": "AI가 소프트웨어 수요를 대체할지는 업종 전체의 장기 구조 논쟁이라 지켜볼 사안입니다.",
         "by": "ai"
       }
     ]
@@ -688,7 +688,8 @@
     "Nancy Pelosi Buys Intel. What Comes Next and If You Should Buy INTC Stock Too.": "낸시 펠로시 (Nancy Pelosi) 는 인텔을 구입합니다. 다음에 오는 것과 INTC 주식을 너무 사야하는 경우.",
     "Affirm Stock Climbs As Key E-Commerce Metric Tops Views": "주가 상승을 주요 전자 상거래 지표 조회수로 확인",
     "Dunkin' comes back to major market after 12-year absence": "던킨은 12년간의 부재 끝에 주요 시장으로 돌아온다.",
-    "Solstice Scraps Element Deal and Launches $500 Million Buyback": "Solstice, 요소 거래를 폐기하고 $5억 환매 개시"
+    "Solstice Scraps Element Deal and Launches $500 Million Buyback": "Solstice, 요소 거래를 폐기하고 $5억 환매 개시",
+    "SaaSpocalypse Is ‘Nonsense’ Says Salesforce CEO Amid Earnings Beat and Anthropic Partnership": "SaaSpocalypse는 '말도 안되는’ 수익 비트와 인류 파트너십 가운데 세일즈 포스 CEO 말한다"
   },
   "nvCache": {
     "https://www.yna.co.kr/view/AKR20260824137251008": {
@@ -2320,6 +2321,13 @@
       "lasting": "temporary",
       "scope": "company",
       "why": "거래 철회와 자사주 매입은 자본 배분 변화로, 성장 전략이 바뀌는지 지켜보면 됩니다.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/markets/stocks/articles/saaspocalypse-nonsense-says-salesforce-ceo-040100123.html": {
+      "act": "watch",
+      "lasting": "structural",
+      "scope": "sector",
+      "why": "AI가 소프트웨어 수요를 대체할지는 업종 전체의 장기 구조 논쟁이라 지켜볼 사안입니다.",
       "by": "ai"
     }
   },
