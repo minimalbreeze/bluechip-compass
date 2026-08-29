@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-29T21:26:57.583Z",
+  "asOf": "2026-08-29T22:27:48.573Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -110,31 +110,31 @@
   },
   "regime": {
     "by": "ai",
-    "asOf": "2026-08-29T21:26:48.706Z",
+    "asOf": "2026-08-29T22:27:39.533Z",
     "kr": {
       "why": {
-        "rates": "미 10년물 금리(^TNX)가 4.72%로 1년 범위 상단(위치 97%)이고 3개월간 +5.47% 올랐으며, 헤드라인에도 '9월 인상 시사', 'Hammack: 지금이 행동할 때' 등 인상 쪽 발언이 언급됩니다.",
-        "growth": "코스피가 3개월간 -19.91% 급락했지만 1년 범위 내 위치는 여전히 61%이고 VIX는 14.43(위치 6%)으로 낮아, 침체 확정보다는 둔화 신호로 보는 것이 자료에 맞습니다.",
-        "valuation": "코스피 6788.88은 1년범위 3142.93~9114.55의 61% 지점으로 고점도 저점도 아니어서 근거가 약해 중립(fair)으로 둡니다.",
-        "fx": "원/달러가 1371.5로 1년 최저(위치 0%)이고 3개월간 -10.37% 하락해 원화가 뚜렷한 강세입니다.",
-        "geo": "전쟁·제재 같은 충격 헤드라인은 없지만 '금리 오르고 전셋값 뛰는데 대출 반토막', '환율 하락 영향 종목별로 갈렸다' 등 정책·금리 부담 기사가 이어져 평온보다는 약한 긴장으로 봅니다."
+        "rates": "미 국채 10년물(^TNX)이 4.72%로 1년 범위 97% 위치, 3개월 +5.47%이고 '워시 9월 인상 시사', '美 금리인상 우려' 헤드라인이 겹쳐 금리 상승(긴축) 국면으로 봅니다.",
+        "growth": "코스피가 3개월 -19.91%로 크게 밀렸지만 여전히 1년 범위 61% 위치이고 VIX도 14.43(6% 위치)로 낮아 침체 신호까지는 근거가 약해, 둔화(slow) 쪽 중립적 판단을 택했습니다.",
+        "valuation": "코스피 6788.88은 1년 범위 3142.93~9114.55의 61% 위치로 고점도 저점도 아닌 중간대라 보통으로 봅니다.",
+        "fx": "원/달러가 1371.5로 1년 범위 최저(위치 0%), 3개월 -10.37%로 원화가 뚜렷하게 강해졌고 '환율 하락' 헤드라인도 이를 뒷받침합니다.",
+        "geo": "VIX가 14.43으로 1년 범위 6% 위치이고 제시된 헤드라인에 지정학·정책 충격 사건이 없어 평온으로 분류합니다."
       },
-      "summary": "금리는 오르는 쪽, 원화는 1년 최저 환율(1371.5)로 강세인데 코스피는 3개월 -19.91% 밀린 국면입니다. 공포지수(VIX 14.43)는 낮아 패닉은 아니고, 금리·환율 변화에 업종별 명암이 갈리는 둔화 구간으로 이해하면 됩니다.",
+      "summary": "금리는 오르는 쪽(10년물 4.72%, 범위 97%)인데 코스피는 3개월 -19.91%로 식은 상태이고, 원화는 1371.5로 1년 중 가장 강합니다. 시장 공포(VIX 14.43)는 낮아 충격 국면이라기보다 '금리 부담 속 둔화' 구간으로 읽으면 됩니다.",
       "rates": "hike",
       "growth": "slow",
       "valuation": "fair",
       "fx": "strong",
-      "geo": "tense"
+      "geo": "calm"
     },
     "us": {
       "why": {
-        "rates": "^TNX가 4.72%로 1년 범위 97% 지점(3개월 +5.47%)이고, 헤드라인에서 연준 인사들이 인플레 우려와 금리 인상 필요성을 언급하고 모기지 고정금리도 상승 중입니다.",
-        "growth": "S&P500이 7711.76으로 1년 범위 94% 위치, 3개월 +1.47%이며 '기업 수익이 빠른 속도로 증가'라는 헤드라인이 있어 경기는 아직 괜찮은 편으로 분류합니다.",
-        "valuation": "지수가 1년 최고치(7798.99) 근처인 위치 94%에 있어 가격 부담이 있는 구간으로 봅니다(다만 이익 대비 배수 자료는 제공되지 않음).",
-        "fx": "원/달러 1371.5는 1년 범위 위치 0%, 3개월 -10.37%로 달러 대비 원화 강세(달러 약세) 방향입니다.",
-        "geo": "제시된 헤드라인에 분쟁·제재 등 충격 요인이 없고 VIX도 14.43(위치 6%)으로 매우 낮아 평온으로 판단합니다."
+        "rates": "10년물 금리가 4.72%로 1년 범위 97% 위치, 3개월 +5.47%이고 '해맥 위원: 금리 인상은 지금이 행동할 때', '워시 인플레 우려' 발언이 인상 방향을 가리킵니다.",
+        "growth": "S&P500이 7711.76으로 1년 범위 94% 위치, 3개월 +1.47%이고 '기업 수익이 빠른 속도로 증가' 헤드라인이 있어 아직 확장 국면으로 봅니다.",
+        "valuation": "지수가 1년 범위 6343.72~7798.99 중 94% 위치로 상단에 붙어 있어 비싼 편으로 분류합니다.",
+        "fx": "원/달러 1371.5는 1년 범위 최저(위치 0%), 3개월 -10.37%로 달러 대비 원화가 강세인 상태입니다.",
+        "geo": "VIX 14.43(1년 범위 6% 위치)에 3개월 -10.09%이고 제시된 헤드라인에 지정학 충격 소재가 없어 평온으로 판단합니다."
       },
-      "summary": "미국 주식은 1년 고점 부근(위치 94%)이고 기업 이익도 늘고 있지만, 10년 금리가 4.72%로 1년 최고 수준까지 올라 금리 부담이 커진 국면입니다. VIX 14.43으로 시장은 조용한 상태이며, 가격은 싸지 않은 구간이라는 점만 기억하면 됩니다.",
+      "summary": "S&P500은 1년 고점 부근(94% 위치)까지 올라 가격 부담이 있는 반면, 장기금리는 4.72%로 1년 중 가장 높은 수준입니다. 변동성 지표는 낮아 겉으로는 조용하지만 '금리 인상 얘기가 나오는 비싼 시장' 국면으로 이해하면 됩니다.",
       "rates": "hike",
       "growth": "expand",
       "valuation": "rich",
@@ -333,14 +333,14 @@
   "news": {
     "kr": [
       {
-        "title": "금리 오르고 전셋값 뛰는데…신혼부부 버팀목 대출 '반토막'",
-        "link": "https://www.yna.co.kr/view/AKR20260829033400003",
+        "title": "'롤러코스피' 멈췄지만…활력 위축에 7천선 문턱 걸린 코스피",
+        "link": "https://www.yna.co.kr/view/AKR20260829001400008",
         "source": "연합뉴스",
-        "date": "Sun, 30 Aug 2026 06:17:01 +0900",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": "sector",
-        "why": "금리와 전세 흐름은 가계대출·부동산 업종에 서서히 영향을 줍니다.",
+        "date": "Sun, 30 Aug 2026 07:05:17 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "지수 등락과 거래 활력에 관한 이야기로 기업 이익과는 무관합니다.",
         "by": "ai"
       },
       {
@@ -366,14 +366,14 @@
         "by": "ai"
       },
       {
-        "title": "개인, 두 달간 美 주식 10조 순매수…코스피보다 더 샀다",
-        "link": "https://www.yna.co.kr/view/AKR20260828147900008",
+        "title": "[마켓인사이트] 확 다가온 美 금리인상 우려…코스피 향방은",
+        "link": "https://www.yna.co.kr/view/AKR20260828181500008",
         "source": "연합뉴스",
-        "date": "Sun, 30 Aug 2026 06:00:02 +0900",
-        "act": "none",
+        "date": "Sun, 30 Aug 2026 07:00:11 +0900",
+        "act": "watch",
         "lasting": "temporary",
         "scope": "market",
-        "why": "자금 흐름 통계일 뿐, 기업 이익 구조를 바꾸는 소식은 아닙니다.",
+        "why": "금리 우려는 반복되는 시장 심리 요인이라 흐름만 봐두면 됩니다.",
         "by": "ai"
       },
       {
@@ -461,15 +461,15 @@
         "by": "ai"
       },
       {
-        "title": "Mortgage and refinance interest rates today, Saturday, August 29, 2026: Fixed rates move slightly higher into the weekend",
-        "link": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-saturday-august-29-2026-fixed-rates-move-slightly-higher-into-the-weekend-114438775.html",
+        "title": "Best CD rates today, Saturday, August 29, 2026: Lock in up to 4.30% APY with a 16- or 18-month CD",
+        "link": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-saturday-august-29-2026-lock-in-up-to-430-apy-with-a-16--or-18-month-cd-100000220.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-29T11:44:38Z",
-        "ko": "2026년 8월 29일 토요일 모기지 및 재융자 금리: 고정 금리가 주말에 약간 높아집니다.",
+        "date": "2026-08-29T10:00:00Z",
+        "ko": "2026년 8월 29일 토요일, 최고의 CD 요금: 16개월 또는 18개월 CD로 최대 4.30% APY 잠금",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "주말 금리 소폭 변동은 일상적 흐름이라 장기 판단에 영향이 적습니다.",
+        "why": "예금 금리 안내성 기사로 기업 이익과 무관합니다.",
         "by": "ai"
       }
     ]
@@ -704,7 +704,8 @@
     "These 7 Stocks Are Analyst Favorites For Magnificent Earnings Growth; Amazon Holds Key Level": "이 7개 주식은 애널리스트가 웅장한 수익 성장에 가장 선호하는 주식입니다. 아마존은 주요 수준을 보유하고 있습니다.",
     "72% of homebuyers have paused their search waiting for lower mortgage rates — and 41% already regret it": "주택 구매자의 72% 가 주택담보대출 금리 인하를 기다리며 검색을 일시 중지했으며, 41% 는 이미 후회하고 있습니다.",
     "Fed Chairman Warsh shows courage with Jackson Hole speech, defying political pressure, says Harvard's Rogoff": "워시 연준 의장은 잭슨 홀 연설을 통해 정치적 압력에 저항하는 용기를 보여준다고 하버드의 로고프는 말합니다.",
-    "Mortgage and refinance interest rates today, Saturday, August 29, 2026: Fixed rates move slightly higher into the weekend": "2026년 8월 29일 토요일 모기지 및 재융자 금리: 고정 금리가 주말에 약간 높아집니다."
+    "Mortgage and refinance interest rates today, Saturday, August 29, 2026: Fixed rates move slightly higher into the weekend": "2026년 8월 29일 토요일 모기지 및 재융자 금리: 고정 금리가 주말에 약간 높아집니다.",
+    "Best CD rates today, Saturday, August 29, 2026: Lock in up to 4.30% APY with a 16- or 18-month CD": "2026년 8월 29일 토요일, 최고의 CD 요금: 16개월 또는 18개월 CD로 최대 4.30% APY 잠금"
   },
   "nvCache": {
     "https://www.yna.co.kr/view/AKR20260824137251008": {
@@ -2469,6 +2470,27 @@
       "lasting": "temporary",
       "scope": "market",
       "why": "주말 금리 소폭 변동은 일상적 흐름이라 장기 판단에 영향이 적습니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20260829001400008": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "지수 등락과 거래 활력에 관한 이야기로 기업 이익과는 무관합니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20260828181500008": {
+      "act": "watch",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "금리 우려는 반복되는 시장 심리 요인이라 흐름만 봐두면 됩니다.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-saturday-august-29-2026-lock-in-up-to-430-apy-with-a-16--or-18-month-cd-100000220.html": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "예금 금리 안내성 기사로 기업 이익과 무관합니다.",
       "by": "ai"
     }
   },
