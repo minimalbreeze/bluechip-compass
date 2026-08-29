@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-29T09:17:13.169Z",
+  "asOf": "2026-08-29T10:18:00.349Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -110,16 +110,16 @@
   },
   "regime": {
     "by": "ai",
-    "asOf": "2026-08-29T09:17:04.152Z",
+    "asOf": "2026-08-29T10:17:55.513Z",
     "kr": {
       "why": {
-        "rates": "미 10년물 금리(^TNX)가 4.67%로 1년범위 상단 91% 위치이고 3개월간 +4.92% 올랐으며, 헤드라인에서 워시·해맥 등 연준 인사의 '9월 인상 시사' 매파 발언이 언급돼 인상 방향으로 봅니다.",
-        "growth": "코스피가 6912.37로 1년범위 63% 위치에 있어 아직 높은 편이지만 3개월 변화가 -15.55%로 큰 폭 조정이고, 헤드라인은 자사주 매입이 지수를 지지한다고 언급해 침체 확정보다는 둔화로 판정합니다.",
-        "valuation": "코스피 1년범위 내 위치가 63%로 중간 상단이나 3개월 -15.55% 하락으로 부담이 일부 해소됐고, 밸류에이션 지표(PER 등)가 자료에 없어 중립값 fair로 둡니다.",
-        "fx": "원/달러(KRW=X)가 1371.5로 1년범위 최저(위치 0%)이며 3개월간 -10.37% 하락해 원화 강세가 뚜렷하고, '환율 하락' 영향이 종목별로 갈린다는 헤드라인도 이를 뒷받침합니다.",
-        "geo": "VIX가 14.51로 1년범위 6% 수준의 낮은 변동성이라 충격은 없지만, 베선트의 엔화 개입 의도 발언과 연준 매파 발언에 따른 증시 하락 등 정책 관련 잡음이 있어 tense로 봅니다."
+        "rates": "미 10년물(^TNX) 4.67%로 1년범위 상단 91% 위치이고 3개월간 +4.92% 상승했으며, 헤드라인에서 워시·해먹 등 '9월 인상 시사', '지금이 행동할 때' 발언이 언급되어 금리 상승 방향으로 봅니다.",
+        "growth": "코스피가 6912.37로 1년범위 63% 위치를 지키고 있으나 3개월 변화가 -15.55%로 큰 폭 조정이라, 침체 신호로 단정하기보다 둔화 국면으로 판정합니다.",
+        "valuation": "지수 위치는 1년범위 63%로 중간보다 약간 높지만 3개월 -15.55% 하락으로 되돌림이 진행됐어, 싸다·비싸다 판단 근거가 약해 보통으로 둡니다.",
+        "fx": "원/달러가 1371.5로 1년범위 최저(위치 0%)이고 3개월간 -10.37% 하락해 원화가 뚜렷하게 강세입니다.",
+        "geo": "헤드라인에 베선트 장관의 엔화 개입 의도 발언과 워시의 매파 발언 등 정책 변수가 언급되어 평온보다는 긴장으로 봅니다."
       },
-      "summary": "금리는 오르는 쪽으로 분위기가 기울고, 원화는 1년 중 가장 강한 수준(1371.5원)입니다. 코스피는 3개월간 -15.55% 조정을 받아 상승세가 꺾인 둔화 국면으로, 변동성 지표는 아직 낮은 편입니다.",
+      "summary": "금리가 위쪽을 향하고 원화는 1년 중 가장 강한 수준인데, 코스피는 3개월간 15% 넘게 밀린 조정·둔화 국면입니다. 변동성지수(VIX 14.51)는 낮아 시장이 크게 흔들리는 상태는 아니지만, 통화·환율 정책 발언이 잦아 긴장감은 남아 있습니다.",
       "rates": "hike",
       "growth": "slow",
       "valuation": "fair",
@@ -128,13 +128,13 @@
     },
     "us": {
       "why": {
-        "rates": "^TNX가 4.67%로 1년범위 91% 위치, 3개월 +4.92%로 상승했고 '해맥: 지금이 금리 인상에 행동할 때', 워시의 인플레 우려 발언 등 매파 헤드라인이 겹칩니다.",
-        "growth": "S&P500이 7730.99로 1년범위 95% 위치이고 3개월 +1.99% 상승, VIX도 14.51로 낮아 경기가 아직 괜찮은 상태로 분류합니다.",
-        "valuation": "지수가 1년범위 상단 95% 위치에서 사상 고가권(범위 상한 7798.99)에 근접해 가격 부담이 커 보이며, 다만 이는 이익 지표가 아닌 가격 위치에 근거한 판단입니다.",
-        "fx": "원/달러가 1371.5로 1년범위 0% 위치, 3개월 -10.37%로 달러 대비 원화가 강해진 상태입니다(자료상 통화 지표는 원/달러 하나뿐입니다).",
-        "geo": "VIX 14.51(위치 6%)로 시장은 평온하지만 연준 인사들의 금리 인상 발언과 '더 조용한 중앙은행' 논쟁 등 정책 불확실성이 있어 calm보다 tense로 둡니다."
+        "rates": "^TNX가 4.67%로 1년범위 91% 위치, 3개월 +4.92%이며 헤드라인에서 연준 인사들이 '금리 인상에 대해 지금이 행동할 때'라고 언급해 인상 방향으로 판정합니다.",
+        "growth": "S&P500이 7730.99로 1년범위 95% 위치이고 3개월 +1.99% 상승해 경기 위축 신호는 자료에서 확인되지 않습니다.",
+        "valuation": "지수가 1년 고점(7798.99)에 근접한 95% 위치까지 올라와 있어 가격 부담이 있는 구간으로 봅니다.",
+        "fx": "원/달러 1371.5는 1년범위 0% 위치이고 3개월 -10.37%로, 달러 대비 원화 강세(달러 약세) 쪽입니다.",
+        "geo": "전쟁·사고 같은 충격은 없지만 연준 의장 관련 매파 발언과 인상 시사 등 정책 불확실성 언급이 있어 긴장으로 둡니다."
       },
-      "summary": "미국 주가는 1년 범위의 95% 지점으로 고가권이고 변동성은 낮지만, 장기금리 4.67%와 연준의 인상 발언이 부담 요인입니다. 즉 '경기는 괜찮은데 가격과 금리는 부담'인 국면입니다.",
+      "summary": "미국 지수는 1년 고점 근처(위치 95%)까지 올라와 있고 변동성은 낮아 표면적으로는 양호하지만, 장기금리가 1년 상단에 붙어 있고 연준의 인상 언급이 나오는 상태입니다. 즉 '잘 오른 시장 + 금리 압박'이 함께 있는 국면입니다.",
       "rates": "hike",
       "growth": "expand",
       "valuation": "rich",
@@ -425,15 +425,15 @@
         "by": "ai"
       },
       {
-        "title": "Are Wall Street Analysts Bullish on Huntington Ingalls Stock?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-bullish-huntington-055811270.html",
+        "title": "How Is Microsoft’s Stock Performance Compared to Other Software Services Stocks?",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/microsoft-stock-performance-compared-other-072434228.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-28T05:58:11Z",
-        "ko": "헌팅턴 잉걸스 주식에 대해 월스트리트 애널리스트들은 낙관적인가?",
+        "date": "2026-08-28T07:24:34Z",
+        "ko": "Microsoft의 주식 실적은 다른 소프트웨어 서비스 주식과 어떻게 비교됩니까?",
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
-        "why": "애널리스트 의견은 10년 이익을 바꾸지 않습니다.",
+        "why": "주가 비교 기사일 뿐 사업 구조가 바뀐 내용은 없습니다.",
         "by": "ai"
       },
       {
@@ -461,15 +461,15 @@
         "by": "ai"
       },
       {
-        "title": "Is Apple Stock Outperforming the S&P 500?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/apple-stock-outperforming-p-500-063132268.html",
+        "title": "Alphabet Stock: Is GOOGL Underperforming the Technology Sector?",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/alphabet-stock-googl-underperforming-technology-070308550.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-28T06:31:32Z",
-        "ko": "Apple Stock이 S&P 500을 능가하나요?",
+        "date": "2026-08-28T07:03:08Z",
+        "ko": "알파벳 주식: GOOGL이 기술 부문의 실적을 낮추고 있습니까?",
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
-        "why": "단기 수익률 비교 기사로 투자 근거와 무관합니다.",
+        "why": "단기 주가 흐름 비교라 장기 수익력과는 무관합니다.",
         "by": "ai"
       }
     ]
@@ -691,7 +691,9 @@
     "Solstice Scraps Element Deal and Launches $500 Million Buyback": "Solstice, 요소 거래를 폐기하고 $5억 환매 개시",
     "SaaSpocalypse Is ‘Nonsense’ Says Salesforce CEO Amid Earnings Beat and Anthropic Partnership": "SaaSpocalypse는 '말도 안되는’ 수익 비트와 인류 파트너십 가운데 세일즈 포스 CEO 말한다",
     "Are Wall Street Analysts Bullish on Huntington Ingalls Stock?": "헌팅턴 잉걸스 주식에 대해 월스트리트 애널리스트들은 낙관적인가?",
-    "Is Apple Stock Outperforming the S&P 500?": "Apple Stock이 S&P 500을 능가하나요?"
+    "Is Apple Stock Outperforming the S&P 500?": "Apple Stock이 S&P 500을 능가하나요?",
+    "How Is Microsoft’s Stock Performance Compared to Other Software Services Stocks?": "Microsoft의 주식 실적은 다른 소프트웨어 서비스 주식과 어떻게 비교됩니까?",
+    "Alphabet Stock: Is GOOGL Underperforming the Technology Sector?": "알파벳 주식: GOOGL이 기술 부문의 실적을 낮추고 있습니까?"
   },
   "nvCache": {
     "https://www.yna.co.kr/view/AKR20260824137251008": {
@@ -2351,6 +2353,20 @@
       "lasting": "temporary",
       "scope": "company",
       "why": "단기 수익률 비교 기사로 투자 근거와 무관합니다.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/markets/stocks/articles/microsoft-stock-performance-compared-other-072434228.html": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "주가 비교 기사일 뿐 사업 구조가 바뀐 내용은 없습니다.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/markets/stocks/articles/alphabet-stock-googl-underperforming-technology-070308550.html": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "단기 주가 흐름 비교라 장기 수익력과는 무관합니다.",
       "by": "ai"
     }
   },
