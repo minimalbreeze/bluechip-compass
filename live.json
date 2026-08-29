@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-29T02:11:01.586Z",
+  "asOf": "2026-08-29T03:11:55.171Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -14,7 +14,7 @@
       "prev": 837.6500244140625,
       "chg": 0.09,
       "basis": "last-daily-close",
-      "time": "2026-08-28T09:05:40.000Z"
+      "time": "2026-08-28T06:00:00.000Z"
     },
     "KRW=X": {
       "price": 1375.67,
@@ -28,7 +28,7 @@
       "prev": 7730.990234375,
       "chg": -0.25,
       "basis": "prev-daily-close",
-      "time": "2026-08-28T20:37:00.000Z"
+      "time": "2026-08-28T20:00:00.000Z"
     },
     "^IXIC": {
       "price": 26402.424,
@@ -42,7 +42,7 @@
       "prev": 14.510000228881836,
       "chg": -0.55,
       "basis": "prev-daily-close",
-      "time": "2026-08-28T20:15:01.000Z"
+      "time": "2026-08-28T20:15:00.000Z"
     },
     "^TNX": {
       "price": 4.72,
@@ -110,36 +110,36 @@
   },
   "regime": {
     "by": "ai",
-    "asOf": "2026-08-29T02:10:55.439Z",
+    "asOf": "2026-08-29T03:11:51.524Z",
     "kr": {
       "why": {
-        "rates": "미국 10년물(^TNX)이 4.72%로 1년 범위 상단 97% 위치이고 3개월간 +5.47% 올랐으며, 헤드라인에서도 '워시, 9월 인상 시사'와 같은 긴축 발언이 언급돼 금리는 오르는 쪽으로 판단합니다.",
-        "growth": "코스피가 3개월간 -15.55% 하락했지만 여전히 1년 범위의 63% 위치이고 VIX도 14.43(범위 6%)으로 낮아, 침체 신호로 단정하기보다 둔화 국면으로 봅니다.",
-        "valuation": "^KS11 6912.37은 1년 범위 3142.93~9114.55의 63% 지점으로 극단적으로 싸지도 비싸지도 않은 중간권입니다.",
-        "fx": "원/달러가 1375.67로 1년 범위(1375.67~1554.48)의 최저점(위치 0%)이고 3개월간 -10.09% 내려 원화가 강해진 상태입니다.",
-        "geo": "VIX가 14.43으로 1년 범위 하위 6%에 머물러 시장이 반영하는 긴장도는 낮으며, 엔화 개입 언급 등 정책 발언은 있으나 충격 수준의 근거는 자료에 없습니다."
+        "rates": "미 10년물(^TNX)이 4.72%로 1년범위 3.95~4.74의 97% 지점이고 3개월 +5.47% 상승, 헤드라인도 '워시, 9월 인상 시사'를 언급해 금리 상방 압력이 우세합니다.",
+        "growth": "코스피가 3개월 -15.55%로 크게 조정됐지만 1년범위 위치는 여전히 63%이고 VIX도 14.43(위치 6%)으로 낮아 침체 신호로 단정하기보다 둔화 국면으로 봅니다.",
+        "valuation": "코스피 6912.37은 1년범위 3142.93~9114.55의 63% 지점으로 고점도 저점도 아니어서 보통 수준이며, 이 자료에는 이익 대비 밸류 지표가 없어 중립으로 둡니다.",
+        "fx": "원/달러가 1375.67로 1년범위 1375.67~1554.48의 0% 지점(최저)이고 3개월 -10.09%라 원화가 뚜렷한 강세입니다.",
+        "geo": "VIX 14.43은 낮지만 '베선트, 엔화 불안시 美 금리상승' 발언과 연준 인상 시사 헤드라인처럼 정책·환율 관련 신경전이 있어 평온보다 한 단계 높은 긴장으로 봅니다."
       },
-      "summary": "원화는 1년 만에 가장 강해졌지만 코스피는 3개월간 15% 넘게 빠져 지수 자체는 중간권으로 내려온 둔화 국면입니다. 금리는 오르는 쪽 압력이 있고 변동성 지표는 조용해, 방향보다 상태를 확인하며 지켜볼 구간입니다.",
+      "summary": "금리는 위로 향하고 원화는 1년 최저인 1375.67까지 강세인 가운데, 코스피는 3개월 -15.55% 조정을 겪은 둔화 국면입니다. 변동성 지표(VIX 14.43)는 낮아 공포 상황은 아니지만 정책·환율 관련 긴장은 남아 있는 상태입니다.",
       "rates": "hike",
       "growth": "slow",
       "valuation": "fair",
       "fx": "strong",
-      "geo": "calm"
+      "geo": "tense"
     },
     "us": {
       "why": {
-        "rates": "^TNX가 4.72%로 1년 범위(3.95~4.74) 상단 97% 위치이고 3개월 +5.47%인 데다, 헤드라인에서 연준 해맥이 '지금이 행동할 때'라며 인상을 거론해 상승 방향으로 봅니다.",
-        "growth": "S&P500이 7711.76로 1년 범위 94% 위치이고 3개월 +1.47%로 상승세를 유지하며, 엔비디아 실적이 AI 낙관론을 되살렸다는 헤드라인이 있어 경기 흐름은 양호한 쪽으로 분류합니다.",
-        "valuation": "^GSPC가 1년 범위 6343.72~7798.99에서 94% 지점으로 고점 부근이라 가격 부담이 있는 구간입니다.",
-        "fx": "원/달러가 1375.67로 1년 최저(위치 0%), 3개월 -10.09%로 달러 대비 원화가 강세인 상태입니다.",
-        "geo": "VIX 14.43(1년 범위 6% 위치)으로 시장이 느끼는 긴장은 매우 낮고, 자료에 충격성 사건은 나타나 있지 않습니다."
+        "rates": "^TNX 4.72%는 1년범위의 97% 지점이고 3개월 +5.47%이며, '연준 해맥, 금리 인상 지금이 행동할 때' 헤드라인까지 겹쳐 인상 방향으로 판정합니다.",
+        "growth": "S&P500이 7711.76으로 1년범위 6343.72~7798.99의 94% 지점, 3개월 +1.47%로 상승 흐름을 유지해 경기 인식이 나쁘지 않습니다.",
+        "valuation": "지수가 1년 고점 근처(위치 94%)에 머물러 가격 부담이 큰 구간으로 분류하며, 별도 이익 지표는 자료에 없습니다.",
+        "fx": "제시된 통화 지표는 원/달러 1375.67뿐이고 1년 최저(위치 0%), 3개월 -10.09%이므로 원화 강세(달러 약세) 쪽입니다.",
+        "geo": "VIX 14.43(위치 6%)은 매우 낮지만 연준 인사들의 인상 발언과 엔화 개입 언급 등 정책 발언이 잇따라 평온보다 긴장 쪽으로 둡니다."
       },
-      "summary": "미국 증시는 1년 고점 부근(94%)에서 AI 관련 낙관이 이어지는 반면, 10년물 금리는 4.72%로 상단에 붙어 있어 가격 부담과 금리 부담이 함께 있는 국면입니다. 변동성 지표는 조용하지만 밸류에이션이 높은 상태라는 점을 인식할 필요가 있습니다.",
+      "summary": "미국 주식은 1년 고점 근처(위치 94%)에서 버티고 있지만, 10년물 금리가 4.72%로 1년 최고 수준까지 올라 금리 부담이 커진 국면입니다. 변동성은 낮아 조용해 보여도 연준 인상 발언이 이어지는 점은 확인해 둘 만합니다.",
       "rates": "hike",
       "growth": "expand",
       "valuation": "rich",
       "fx": "strong",
-      "geo": "calm"
+      "geo": "tense"
     }
   },
   "stocks": {
@@ -148,91 +148,91 @@
         "price": 171600,
         "prev": 168100,
         "chg": 2.08,
-        "basis": "prev-daily-close",
+        "basis": "last-daily-close",
         "time": "2026-08-28T06:30:29.000Z"
       },
       "207940": {
         "price": 1486000,
         "prev": 1594000,
         "chg": -6.78,
-        "basis": "prev-daily-close",
+        "basis": "last-daily-close",
         "time": "2026-08-28T06:30:30.000Z"
       },
       "005930": {
         "price": 257000,
         "prev": 266000,
         "chg": -3.38,
-        "basis": "prev-daily-close",
+        "basis": "last-daily-close",
         "time": "2026-08-28T06:30:11.000Z"
       },
       "000660": {
         "price": 1653000,
         "prev": 1730000,
         "chg": -4.45,
-        "basis": "prev-daily-close",
+        "basis": "last-daily-close",
         "time": "2026-08-28T06:30:29.000Z"
       },
       "005380": {
         "price": 399500,
         "prev": 398000,
         "chg": 0.38,
-        "basis": "prev-daily-close",
+        "basis": "last-daily-close",
         "time": "2026-08-28T06:30:07.000Z"
       },
       "055550": {
         "price": 109700,
         "prev": 108800,
         "chg": 0.83,
-        "basis": "prev-daily-close",
+        "basis": "last-daily-close",
         "time": "2026-08-28T06:30:15.000Z"
       },
       "000810": {
         "price": 687000,
         "prev": 682000,
         "chg": 0.73,
-        "basis": "prev-daily-close",
+        "basis": "last-daily-close",
         "time": "2026-08-28T06:30:30.000Z"
       },
       "033780": {
         "price": 176300,
         "prev": 174500,
         "chg": 1.03,
-        "basis": "prev-daily-close",
+        "basis": "last-daily-close",
         "time": "2026-08-28T06:30:21.000Z"
       },
       "035420": {
         "price": 220500,
         "prev": 216500,
         "chg": 1.85,
-        "basis": "prev-daily-close",
+        "basis": "last-daily-close",
         "time": "2026-08-28T06:30:09.000Z"
       },
       "005490": {
         "price": 337500,
         "prev": 339500,
         "chg": -0.59,
-        "basis": "prev-daily-close",
+        "basis": "last-daily-close",
         "time": "2026-08-28T06:30:03.000Z"
       },
       "028260": {
         "price": 375000,
         "prev": 375500,
         "chg": -0.13,
-        "basis": "prev-daily-close",
+        "basis": "last-daily-close",
         "time": "2026-08-28T06:30:25.000Z"
       },
       "012450": {
         "price": 1157000,
         "prev": 1150000,
         "chg": 0.61,
-        "basis": "prev-daily-close",
+        "basis": "last-daily-close",
         "time": "2026-08-28T06:30:27.000Z"
       },
       "017670": {
         "price": 98600,
         "prev": 99100,
         "chg": -0.5,
-        "basis": "prev-daily-close",
+        "basis": "last-daily-close",
         "time": "2026-08-28T06:30:07.000Z"
       }
     },
@@ -461,15 +461,15 @@
         "by": "ai"
       },
       {
-        "title": "Stock market today: Dow, S&P 500, Nasdaq rally as Nvidia earnings revive AI optimism, software stocks roar back",
-        "link": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-august-27-dow-sp-500-nasdaq-082144520.html",
+        "title": "Can Regeneron (REGN)’s Rare-Disease Win Move the Earnings Needle?",
+        "link": "https://finance.yahoo.com/healthcare/articles/regeneron-regn-rare-disease-win-210410578.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-27T08:21:44Z",
-        "ko": "오늘날의 주식 시장: 엔비디아 수익이 AI 낙관론을 되살리면서 다우, S&P 500, 나스닥 랠리, 소프트웨어 주식이 다시 포효합니다.",
+        "date": "2026-08-27T21:04:10Z",
+        "ko": "Regeneron (REGN) 의 희귀 질환 승리는 수입 바늘을 움직일 수 있습니까?",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
-        "why": "실적 발표에 따른 하루 등락으로 장기 이익 구조와는 거리가 멉니다.",
+        "scope": "company",
+        "why": "신약 승인 관련 개별 기업 이슈로, 실적 기여는 제목만으로 확인되지 않습니다.",
         "by": "ai"
       }
     ]
@@ -682,7 +682,8 @@
     "Dollar Little Changed as Stocks Rally": "주식 랠리에 따라 달라진 달러 리틀",
     "Meta Just Removed a Major Risk From Its Stock. Now AI Spending Is the $145 Billion Question.": "메타가 주식에서 주요 위험을 제거했습니다. 이제 AI 지출은 $145억의 질문입니다.",
     "The Market Still Treats Micron Like a Boom-and-Bust Stock. That May Be Getting Outdated": "시장은 여전히 마이크론을 붐앤버스트 주식처럼 취급합니다. 시대에 뒤떨어질 수 있는",
-    "Stock market today: Dow, S&P 500, Nasdaq rally as Nvidia earnings revive AI optimism, software stocks roar back": "오늘날의 주식 시장: 엔비디아 수익이 AI 낙관론을 되살리면서 다우, S&P 500, 나스닥 랠리, 소프트웨어 주식이 다시 포효합니다."
+    "Stock market today: Dow, S&P 500, Nasdaq rally as Nvidia earnings revive AI optimism, software stocks roar back": "오늘날의 주식 시장: 엔비디아 수익이 AI 낙관론을 되살리면서 다우, S&P 500, 나스닥 랠리, 소프트웨어 주식이 다시 포효합니다.",
+    "Can Regeneron (REGN)’s Rare-Disease Win Move the Earnings Needle?": "Regeneron (REGN) 의 희귀 질환 승리는 수입 바늘을 움직일 수 있습니까?"
   },
   "nvCache": {
     "https://www.yna.co.kr/view/AKR20260824137251008": {
@@ -2258,6 +2259,13 @@
       "lasting": "temporary",
       "scope": "market",
       "why": "실적 발표에 따른 하루 등락으로 장기 이익 구조와는 거리가 멉니다.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/healthcare/articles/regeneron-regn-rare-disease-win-210410578.html": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "신약 승인 관련 개별 기업 이슈로, 실적 기여는 제목만으로 확인되지 않습니다.",
       "by": "ai"
     }
   },
