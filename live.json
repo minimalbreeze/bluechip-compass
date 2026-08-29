@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-29T05:13:38.190Z",
+  "asOf": "2026-08-29T06:14:29.882Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -110,36 +110,36 @@
   },
   "regime": {
     "by": "ai",
-    "asOf": "2026-08-29T05:13:28.850Z",
+    "asOf": "2026-08-29T06:14:22.907Z",
     "kr": {
       "why": {
-        "rates": "^TNX 10년물 금리가 4.67%로 1년범위 상단 91% 위치이고 3개월간 +4.92% 상승했으며, 헤드라인에도 \"이젠 기준금리 3%시대\", 9월 인상 시사 언급이 있어 인상 방향으로 봅니다.",
-        "growth": "코스피가 3개월간 -15.55% 하락하고 \"주식 무서워졌어요\"처럼 파킹형·커버드콜로 자금이 이동하는 흐름은 둔화 신호이나, 지수 위치가 여전히 1년범위 63%이고 VIX 14.51로 낮아 침체 단정 근거는 약해 slow로 봅니다.",
-        "valuation": "^KS11 6912.37은 1년범위 3142.93~9114.55의 63% 위치로 중간보다 약간 높은 수준이며, 밸류에이션 지표(PER 등)가 주어지지 않아 중립값 fair로 둡니다.",
-        "fx": "KRW=X가 1371.5로 1년범위(1371.5~1554.48) 최저인 0% 위치이고 3개월간 -10.37% 하락해 원화가 뚜렷한 강세입니다.",
-        "geo": "지정학적 충격 수치는 없지만 베선트의 엔화 개입 의도 발언, 환율 하락에 따른 업종별 손익 갈림 등 정책 관련 headline이 있어 calm보다는 tense로 봅니다."
+        "rates": "미 10년물(^TNX)이 4.67%로 1년범위 위치 91%, 3개월 +4.92%로 오르고 있고 헤드라인도 '이젠 기준금리 3% 시대', '워시 9월 인상 시사'를 언급해 금리는 올리는 방향입니다.",
+        "growth": "코스피가 3개월 -15.55%로 크게 밀렸지만 여전히 1년범위 위치 63%이고 VIX는 14.51(위치 6%)로 낮아, 침체 신호로 단정하기엔 근거가 약해 둔화로 봅니다.",
+        "valuation": "코스피 6912.37은 1년범위 3142.93~9114.55의 63% 지점으로 고점권도 저점권도 아니어서 보통 수준으로 분류합니다.",
+        "fx": "원/달러 1371.5는 1년범위 1371.5~1554.48에서 위치 0%(연중 최저), 3개월 -10.37%로 원화가 뚜렷하게 강해졌습니다.",
+        "geo": "엔화 개입 언급 등 정책 관련 헤드라인은 있으나 VIX가 14.51(위치 6%)로 매우 낮아 시장이 느끼는 긴장은 평온에 가깝습니다."
       },
-      "summary": "금리는 오르는 쪽이고 원화는 1년 중 가장 강한 수준인데, 코스피는 3개월간 -15.55% 밀려 투자자들이 안전한 곳으로 옮겨가는 국면입니다. 변동성(VIX 14.51)은 낮아 공포 국면은 아니지만 정책·환율 이슈로 긴장감이 있는 상태입니다.",
+      "summary": "금리는 오르고 원화는 1371.5로 연중 최강 수준인데, 코스피는 3개월간 -15.55% 조정받은 상태입니다. 공포지수(VIX 14.51)는 낮아 패닉은 아니고 '금리 부담 속 조정' 국면으로 이해하면 됩니다.",
       "rates": "hike",
       "growth": "slow",
       "valuation": "fair",
       "fx": "strong",
-      "geo": "tense"
+      "geo": "calm"
     },
     "us": {
       "why": {
-        "rates": "^TNX가 4.67%로 1년범위 91% 위치, 3개월 +4.92%이고 워시 의장의 인플레 우려와 Hammack의 \"지금이 행동할 때\" 금리 인상 발언이 겹쳐 인상 방향입니다.",
-        "growth": "^GSPC가 7730.99로 1년범위 95% 위치이고 3개월 +1.99% 상승, VIX 14.51의 낮은 변동성까지 더해 경기 우려보다는 확장 국면 신호로 읽힙니다.",
-        "valuation": "S&P500이 1년범위 6343.72~7798.99에서 95% 위치로 고점 부근이며, AI·전자상거래 관련 상승 headline까지 감안하면 비싼 편으로 분류합니다.",
-        "fx": "원/달러 1371.5는 1년범위 최저(0% 위치), 3개월 -10.37%로 달러 대비 원화가 강세이며 이는 달러 약세 쪽 신호입니다.",
-        "geo": "직접적 충격 지표는 없고 VIX 14.51로 낮지만, 연준 인상 시사 발언이 이어져 정책 긴장 요인이 있어 tense로 봅니다."
+        "rates": "^TNX 4.67%가 1년범위 위치 91%, 3개월 +4.92%로 상승했고 'Fed의 Hammack: 지금이 행동할 때', 워시 의장의 인플레 우려 발언이 겹쳐 인상 방향입니다.",
+        "growth": "S&P500이 7730.99로 1년범위 위치 95%, 3개월 +1.99% 상승을 유지해 경기 관련 신호는 아직 괜찮은 편입니다.",
+        "valuation": "S&P500이 1년 고점(7798.99) 바로 아래인 위치 95%에 있어 가격대는 비싼 편으로 분류합니다.",
+        "fx": "제시된 통화 지표는 원/달러 1371.5(1년범위 위치 0%, 3개월 -10.37%)뿐이며, 이는 달러 대비 원화 강세를 뜻합니다.",
+        "geo": "헤드라인에 분쟁·충격 관련 내용이 없고 VIX 14.51(위치 6%)로 매우 낮아 평온으로 봅니다."
       },
-      "summary": "미국 주식은 1년 최고치 근처(95% 위치)까지 올라 가격 부담이 큰 상태이고, 금리는 4.67%로 상단에서 더 오를 쪽으로 언급되고 있습니다. 시장 분위기 자체는 조용하지만(VIX 14.51) 연준 정책이 긴장 요인인 국면입니다.",
+      "summary": "미국 지수는 1년 고점 근처(위치 95%)로 비싼 편인데, 금리는 4.67%까지 올라 인상 쪽 발언이 이어지는 상황입니다. 변동성은 VIX 14.51로 조용해, '높은 가격대 + 금리 부담'이 공존하는 국면입니다.",
       "rates": "hike",
       "growth": "expand",
       "valuation": "rich",
       "fx": "strong",
-      "geo": "tense"
+      "geo": "calm"
     }
   },
   "stocks": {
@@ -355,25 +355,14 @@
         "by": "ai"
       },
       {
-        "title": "“이젠 기준금리 3%시대”…주식에 빚투·영끌 개미들 ‘비명’",
-        "link": "https://www.mk.co.kr/news/stock/12139369",
+        "title": "나혼자 산다 기타법인, 자사주 매입으로 홀로 코스피 지지",
+        "link": "https://www.mk.co.kr/news/stock/12139393",
         "source": "매일경제",
-        "date": "Sat, 29 Aug 2026 13:16:11 +09:00",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": "market",
-        "why": "금리 수준 변화는 시장 전반의 자금 여건에 영향을 주는 흐름이라 지켜볼 만합니다.",
-        "by": "ai"
-      },
-      {
-        "title": "[부고] 이귀원(연합뉴스 증권부장)씨 부친상",
-        "link": "https://www.yna.co.kr/view/AKR20260828163300008",
-        "source": "연합뉴스",
-        "date": "Fri, 28 Aug 2026 18:28:04 +0900",
+        "date": "Sat, 29 Aug 2026 14:25:31 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "투자 판단과 무관한 부고 기사입니다.",
+        "why": "수급 흐름과 자사주 매입 소식으로 기업 실적 구조와는 거리가 있습니다.",
         "by": "ai"
       },
       {
@@ -388,14 +377,25 @@
         "by": "ai"
       },
       {
-        "title": "“이제 주식 무서워졌어요” 파킹형·커버드콜에 몰리는 자금",
-        "link": "https://www.mk.co.kr/news/stock/12139336",
+        "title": "“이젠 기준금리 3%시대”…주식에 빚투·영끌 개미들 ‘비명’",
+        "link": "https://www.mk.co.kr/news/stock/12139369",
         "source": "매일경제",
-        "date": "Sat, 29 Aug 2026 11:02:42 +09:00",
+        "date": "Sat, 29 Aug 2026 13:16:11 +09:00",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": "market",
+        "why": "금리 수준 변화는 시장 전반의 자금 여건에 영향을 주는 흐름이라 지켜볼 만합니다.",
+        "by": "ai"
+      },
+      {
+        "title": "워시 매파 발언에 3대 지수 하락…나스닥 0.52%↓ [뉴욕증시 브리핑]",
+        "link": "https://www.hankyung.com/article/2026082905057",
+        "source": "한국경제",
+        "date": "Sat, 29 Aug 2026 07:12:31 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "투자 심리 변화 소식일 뿐, 기업 이익과는 무관합니다.",
+        "why": "통화정책 발언에 따른 하루 변동으로 장기 이익과는 무관합니다.",
         "by": "ai"
       }
     ],
@@ -425,15 +425,15 @@
         "by": "ai"
       },
       {
-        "title": "Nancy Pelosi Buys Intel. What Comes Next and If You Should Buy INTC Stock Too.",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/nancy-pelosi-buys-intel-comes-215722404.html",
+        "title": "Dunkin' comes back to major market after 12-year absence",
+        "link": "https://finance.yahoo.com/small-business/articles/dunkin-comes-back-major-market-161700314.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-27T21:57:22Z",
-        "ko": "낸시 펠로시 (Nancy Pelosi) 는 인텔을 구입합니다. 다음에 오는 것과 INTC 주식을 너무 사야하는 경우.",
+        "date": "2026-08-28T16:17:00Z",
+        "ko": "던킨은 12년간의 부재 끝에 주요 시장으로 돌아온다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
-        "why": "유명인 매수 소식은 기업 이익과 무관한 단기 화제입니다.",
+        "why": "특정 시장 재진출 소식으로, 장기 이익 구조를 바꿀 정보는 제목만으로 확인되지 않습니다.",
         "by": "ai"
       },
       {
@@ -461,15 +461,15 @@
         "by": "ai"
       },
       {
-        "title": "Affirm Stock Climbs As Key E-Commerce Metric Tops Views",
-        "link": "https://www.investors.com/news/technology/afrm-stock-affirm-earnings-news-q22026/?src=A00220&yptr=yahoo",
+        "title": "Nancy Pelosi Buys Intel. What Comes Next and If You Should Buy INTC Stock Too.",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/nancy-pelosi-buys-intel-comes-215722404.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-27T21:39:41Z",
-        "ko": "주가 상승을 주요 전자 상거래 지표 조회수로 확인",
+        "date": "2026-08-27T21:57:22Z",
+        "ko": "낸시 펠로시 (Nancy Pelosi) 는 인텔을 구입합니다. 다음에 오는 것과 INTC 주식을 너무 사야하는 경우.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "sector",
-        "why": "지표 조회 관련 내용으로 구체적 사실이 없어 판단이 어렵습니다.",
+        "scope": "company",
+        "why": "유명인 매수 소식은 기업 이익과 무관한 단기 화제입니다.",
         "by": "ai"
       }
     ]
@@ -686,7 +686,8 @@
     "Can Regeneron (REGN)’s Rare-Disease Win Move the Earnings Needle?": "Regeneron (REGN) 의 희귀 질환 승리는 수입 바늘을 움직일 수 있습니까?",
     "Spicy Stocks: Why BNP Thinks Jalapeño Could Benefit Broadcom Stock": "매운 주식: BNP가 할라피뇨가 브로드컴 주식에 도움이 될 수 있다고 생각하는 이유",
     "Nancy Pelosi Buys Intel. What Comes Next and If You Should Buy INTC Stock Too.": "낸시 펠로시 (Nancy Pelosi) 는 인텔을 구입합니다. 다음에 오는 것과 INTC 주식을 너무 사야하는 경우.",
-    "Affirm Stock Climbs As Key E-Commerce Metric Tops Views": "주가 상승을 주요 전자 상거래 지표 조회수로 확인"
+    "Affirm Stock Climbs As Key E-Commerce Metric Tops Views": "주가 상승을 주요 전자 상거래 지표 조회수로 확인",
+    "Dunkin' comes back to major market after 12-year absence": "던킨은 12년간의 부재 끝에 주요 시장으로 돌아온다."
   },
   "nvCache": {
     "https://www.yna.co.kr/view/AKR20260824137251008": {
@@ -2297,6 +2298,20 @@
       "lasting": "temporary",
       "scope": "sector",
       "why": "지표 조회 관련 내용으로 구체적 사실이 없어 판단이 어렵습니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12139393": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "수급 흐름과 자사주 매입 소식으로 기업 실적 구조와는 거리가 있습니다.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/small-business/articles/dunkin-comes-back-major-market-161700314.html": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "특정 시장 재진출 소식으로, 장기 이익 구조를 바꿀 정보는 제목만으로 확인되지 않습니다.",
       "by": "ai"
     }
   },
