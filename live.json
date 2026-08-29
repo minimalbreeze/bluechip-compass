@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-29T22:27:48.573Z",
+  "asOf": "2026-08-29T23:28:44.887Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -28,7 +28,7 @@
       "prev": 7730.990234375,
       "chg": -0.25,
       "basis": "prev-daily-close",
-      "time": "2026-08-28T20:37:00.000Z"
+      "time": "2026-08-28T20:00:00.000Z"
     },
     "^IXIC": {
       "price": 26402.424,
@@ -110,16 +110,16 @@
   },
   "regime": {
     "by": "ai",
-    "asOf": "2026-08-29T22:27:39.533Z",
+    "asOf": "2026-08-29T23:28:36.009Z",
     "kr": {
       "why": {
-        "rates": "미 국채 10년물(^TNX)이 4.72%로 1년 범위 97% 위치, 3개월 +5.47%이고 '워시 9월 인상 시사', '美 금리인상 우려' 헤드라인이 겹쳐 금리 상승(긴축) 국면으로 봅니다.",
-        "growth": "코스피가 3개월 -19.91%로 크게 밀렸지만 여전히 1년 범위 61% 위치이고 VIX도 14.43(6% 위치)로 낮아 침체 신호까지는 근거가 약해, 둔화(slow) 쪽 중립적 판단을 택했습니다.",
-        "valuation": "코스피 6788.88은 1년 범위 3142.93~9114.55의 61% 위치로 고점도 저점도 아닌 중간대라 보통으로 봅니다.",
-        "fx": "원/달러가 1371.5로 1년 범위 최저(위치 0%), 3개월 -10.37%로 원화가 뚜렷하게 강해졌고 '환율 하락' 헤드라인도 이를 뒷받침합니다.",
-        "geo": "VIX가 14.43으로 1년 범위 6% 위치이고 제시된 헤드라인에 지정학·정책 충격 사건이 없어 평온으로 분류합니다."
+        "rates": "미 10년물 금리(^TNX)가 4.72로 1년 범위 상단(위치 97%)이고 3개월간 +5.47% 올랐으며, 헤드라인도 '美 금리인상 우려'와 '9월 인상 시사'를 다루고 있습니다.",
+        "growth": "코스피가 3개월간 -19.91%로 크게 밀렸지만 1년 범위 내 위치는 61%로 중간 위쪽이고 '숨고르기·활력 위축' 수준의 표현에 그쳐, 침체 신호로 단정하기보다 둔화로 봅니다.",
+        "valuation": "코스피 6788.88이 1년 범위 3142.93~9114.55의 61% 지점으로 극단적으로 높지도 낮지도 않아 보통 수준으로 분류합니다.",
+        "fx": "원/달러가 1371.5로 1년 범위(1371.5~1554.48)의 최저점(위치 0%)이고 3개월간 -10.37% 하락해 원화가 강세입니다.",
+        "geo": "VIX가 14.43으로 1년 범위의 6% 수준까지 낮아졌고 제시된 헤드라인에 지정학·정책 충돌 관련 내용이 없어 평온으로 봅니다."
       },
-      "summary": "금리는 오르는 쪽(10년물 4.72%, 범위 97%)인데 코스피는 3개월 -19.91%로 식은 상태이고, 원화는 1371.5로 1년 중 가장 강합니다. 시장 공포(VIX 14.43)는 낮아 충격 국면이라기보다 '금리 부담 속 둔화' 구간으로 읽으면 됩니다.",
+      "summary": "금리는 오르는 쪽이고 코스피는 3개월간 크게 조정받아 활력이 둔화된 구간입니다. 다만 원화는 1년 최저 수준의 환율(1371.5)로 강세이고 변동성(VIX 14.43)은 낮아, 시장 자체는 비교적 조용한 상태입니다.",
       "rates": "hike",
       "growth": "slow",
       "valuation": "fair",
@@ -128,13 +128,13 @@
     },
     "us": {
       "why": {
-        "rates": "10년물 금리가 4.72%로 1년 범위 97% 위치, 3개월 +5.47%이고 '해맥 위원: 금리 인상은 지금이 행동할 때', '워시 인플레 우려' 발언이 인상 방향을 가리킵니다.",
-        "growth": "S&P500이 7711.76으로 1년 범위 94% 위치, 3개월 +1.47%이고 '기업 수익이 빠른 속도로 증가' 헤드라인이 있어 아직 확장 국면으로 봅니다.",
-        "valuation": "지수가 1년 범위 6343.72~7798.99 중 94% 위치로 상단에 붙어 있어 비싼 편으로 분류합니다.",
-        "fx": "원/달러 1371.5는 1년 범위 최저(위치 0%), 3개월 -10.37%로 달러 대비 원화가 강세인 상태입니다.",
-        "geo": "VIX 14.43(1년 범위 6% 위치)에 3개월 -10.09%이고 제시된 헤드라인에 지정학 충격 소재가 없어 평온으로 판단합니다."
+        "rates": "^TNX가 4.72로 1년 범위(3.95~4.74)의 97% 지점이고 3개월 +5.47%이며, 연준 인사(해맥)의 '지금이 금리 인상에 행동할 때' 발언 헤드라인이 같은 방향을 가리킵니다.",
+        "growth": "S&P500이 7711.76으로 1년 범위의 94% 위치이고 3개월간 +1.47% 상승했으며 '기업 수익이 빠른 속도로 증가' 헤드라인이 있어 현재까지는 괜찮은 상태로 봅니다.",
+        "valuation": "지수가 1년 범위 6343.72~7798.99의 94% 지점으로 고점 부근이어서 비싼 편으로 분류합니다.",
+        "fx": "원/달러 1371.5는 1년 범위의 0% 위치이자 3개월 -10.37%로, 달러 대비 원화가 강세인 상태입니다.",
+        "geo": "VIX 14.43(1년 위치 6%)으로 변동성이 매우 낮고 제시된 헤드라인에 지정학 충격 사안이 없어 평온으로 판단합니다."
       },
-      "summary": "S&P500은 1년 고점 부근(94% 위치)까지 올라 가격 부담이 있는 반면, 장기금리는 4.72%로 1년 중 가장 높은 수준입니다. 변동성 지표는 낮아 겉으로는 조용하지만 '금리 인상 얘기가 나오는 비싼 시장' 국면으로 이해하면 됩니다.",
+      "summary": "미국 증시는 1년 고점 부근(위치 94%)에서 기업 이익이 받쳐주는 국면이지만, 장기금리 4.72와 인상 시사 발언이 부담 요인입니다. 변동성은 낮고 원화는 강세라 시장 분위기는 차분한 편입니다.",
       "rates": "hike",
       "growth": "expand",
       "valuation": "rich",
@@ -344,14 +344,14 @@
         "by": "ai"
       },
       {
-        "title": "워시, 9월 인상 시사?…증시 하락 이유 : \"Fed와 싸우지 마라\" [김현석의 월스트리트나우]",
-        "link": "https://www.hankyung.com/article/202608290496i",
+        "title": "코스피 숨고르기 구간…\"반도체 더해 2차전지·AI 서비스주 주목\" [주간전망]",
+        "link": "https://www.hankyung.com/article/2026082894946",
         "source": "한국경제",
-        "date": "Sat, 29 Aug 2026 08:08:06 +0900",
+        "date": "Sun, 30 Aug 2026 08:00:06 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "통화정책 전망 해설로, 10년 뒤 기업 이익을 바꾸는 내용은 아닙니다.",
+        "why": "주간 시황 전망은 단기 흐름 얘기라 장기 판단에 영향이 적습니다.",
         "by": "ai"
       },
       {
@@ -377,14 +377,14 @@
         "by": "ai"
       },
       {
-        "title": "음식료는 수혜, 조선은 피해?…'환율 하락' 영향 종목별로 갈렸다",
-        "link": "https://www.hankyung.com/article/202608289849i",
+        "title": "워시, 9월 인상 시사?…증시 하락 이유 : \"Fed와 싸우지 마라\" [김현석의 월스트리트나우]",
+        "link": "https://www.hankyung.com/article/202608290496i",
         "source": "한국경제",
-        "date": "Sat, 29 Aug 2026 08:00:12 +0900",
+        "date": "Sat, 29 Aug 2026 08:08:06 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "sector",
-        "why": "환율 등락에 따른 업종별 손익 변화는 반복되는 일시적 요인입니다.",
+        "scope": "market",
+        "why": "통화정책 전망 해설로, 10년 뒤 기업 이익을 바꾸는 내용은 아닙니다.",
         "by": "ai"
       },
       {
@@ -425,15 +425,15 @@
         "by": "ai"
       },
       {
-        "title": "Dunkin' comes back to major market after 12-year absence",
-        "link": "https://finance.yahoo.com/small-business/articles/dunkin-comes-back-major-market-161700314.html",
+        "title": "Johnson & Johnson Stock: Is JNJ Outperforming the Consumer Staples Sector?",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/johnson-johnson-stock-jnj-outperforming-171212270.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-28T16:17:00Z",
-        "ko": "던킨은 12년간의 부재 끝에 주요 시장으로 돌아온다.",
+        "date": "2026-08-29T17:12:12Z",
+        "ko": "Johnson & Johnson Stock: JNJ가 소비자 스테이플 부문을 능가합니까?",
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
-        "why": "특정 시장 재진출 소식으로, 장기 이익 구조를 바꿀 정보는 제목만으로 확인되지 않습니다.",
+        "why": "단기 주가 비교 기사로 기업 이익 구조와는 무관합니다.",
         "by": "ai"
       },
       {
@@ -461,15 +461,15 @@
         "by": "ai"
       },
       {
-        "title": "Best CD rates today, Saturday, August 29, 2026: Lock in up to 4.30% APY with a 16- or 18-month CD",
-        "link": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-saturday-august-29-2026-lock-in-up-to-430-apy-with-a-16--or-18-month-cd-100000220.html",
+        "title": "Is Costco Stock Underperforming the Dow?",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/costco-stock-underperforming-dow-165446351.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-29T10:00:00Z",
-        "ko": "2026년 8월 29일 토요일, 최고의 CD 요금: 16개월 또는 18개월 CD로 최대 4.30% APY 잠금",
+        "date": "2026-08-29T16:54:46Z",
+        "ko": "코스트코 주식이 다우지수를 밑도는가?",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
-        "why": "예금 금리 안내성 기사로 기업 이익과 무관합니다.",
+        "scope": "company",
+        "why": "지수 대비 수익률 비교일 뿐 사업 근거를 바꾸지 않습니다.",
         "by": "ai"
       }
     ]
@@ -705,7 +705,9 @@
     "72% of homebuyers have paused their search waiting for lower mortgage rates — and 41% already regret it": "주택 구매자의 72% 가 주택담보대출 금리 인하를 기다리며 검색을 일시 중지했으며, 41% 는 이미 후회하고 있습니다.",
     "Fed Chairman Warsh shows courage with Jackson Hole speech, defying political pressure, says Harvard's Rogoff": "워시 연준 의장은 잭슨 홀 연설을 통해 정치적 압력에 저항하는 용기를 보여준다고 하버드의 로고프는 말합니다.",
     "Mortgage and refinance interest rates today, Saturday, August 29, 2026: Fixed rates move slightly higher into the weekend": "2026년 8월 29일 토요일 모기지 및 재융자 금리: 고정 금리가 주말에 약간 높아집니다.",
-    "Best CD rates today, Saturday, August 29, 2026: Lock in up to 4.30% APY with a 16- or 18-month CD": "2026년 8월 29일 토요일, 최고의 CD 요금: 16개월 또는 18개월 CD로 최대 4.30% APY 잠금"
+    "Best CD rates today, Saturday, August 29, 2026: Lock in up to 4.30% APY with a 16- or 18-month CD": "2026년 8월 29일 토요일, 최고의 CD 요금: 16개월 또는 18개월 CD로 최대 4.30% APY 잠금",
+    "Johnson & Johnson Stock: Is JNJ Outperforming the Consumer Staples Sector?": "Johnson & Johnson Stock: JNJ가 소비자 스테이플 부문을 능가합니까?",
+    "Is Costco Stock Underperforming the Dow?": "코스트코 주식이 다우지수를 밑도는가?"
   },
   "nvCache": {
     "https://www.yna.co.kr/view/AKR20260824137251008": {
@@ -2491,6 +2493,27 @@
       "lasting": "temporary",
       "scope": "market",
       "why": "예금 금리 안내성 기사로 기업 이익과 무관합니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/2026082894946": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "주간 시황 전망은 단기 흐름 얘기라 장기 판단에 영향이 적습니다.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/markets/stocks/articles/johnson-johnson-stock-jnj-outperforming-171212270.html": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "단기 주가 비교 기사로 기업 이익 구조와는 무관합니다.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/markets/stocks/articles/costco-stock-underperforming-dow-165446351.html": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "지수 대비 수익률 비교일 뿐 사업 근거를 바꾸지 않습니다.",
       "by": "ai"
     }
   },
