@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-29T00:08:59.809Z",
+  "asOf": "2026-08-29T01:10:01.423Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -110,16 +110,16 @@
   },
   "regime": {
     "by": "ai",
-    "asOf": "2026-08-29T00:08:51.026Z",
+    "asOf": "2026-08-29T01:09:47.947Z",
     "kr": {
       "why": {
-        "rates": "미 국채 10년물(^TNX)이 4.72%로 1년범위 3.95~4.74의 97% 지점이고 3개월간 +5.47% 올랐으며, 헤드라인에서도 '워시, 9월 인상 시사'가 언급돼 금리는 올라가는 쪽입니다.",
-        "growth": "코스피가 3개월간 -15.55% 하락했지만 여전히 1년범위의 63% 지점(6912.37)에 있어 침체 확정보다는 둔화 국면으로 봅니다.",
-        "valuation": "코스피 6912.37은 1년범위 3142.93~9114.55의 63% 위치로 극단적으로 싸지도 비싸지도 않아 보통 수준입니다.",
-        "fx": "원/달러가 1375.67로 1년범위 1375.67~1554.48의 최저(0% 위치)이고 3개월간 -10.09% 내려 원화가 강한 상태입니다.",
-        "geo": "VIX가 14.43으로 1년범위의 6% 지점까지 낮아졌고 제시된 헤드라인에 지정학적 충돌 언급이 없어 평온으로 봅니다."
+        "rates": "미 10년물 금리(^TNX)가 4.72로 1년 범위(3.95~4.74) 상단 97% 위치이고 3개월간 +5.47% 올랐으며, '워시 9월 인상 시사', '베선트: 엔화 불안시 美 금리상승' 헤드라인도 금리 상승 쪽을 가리킵니다.",
+        "growth": "코스피가 3개월간 -15.55%로 크게 밀렸지만 현재 6912.37은 1년 범위(3142.93~9114.55)의 63% 위치이고 VIX도 14.43으로 낮아, 침체 신호로 보기엔 근거가 약해 둔화(slow)로 봅니다.",
+        "valuation": "지수 위치가 1년 범위의 63%로 중간보다 약간 높지만 PER 등 밸류 지표가 제공되지 않아 중립값인 보통으로 둡니다.",
+        "fx": "원/달러가 1375.67로 1년 범위(1375.67~1554.48)의 0% 즉 최저 수준이고 3개월간 -10.09% 하락해 원화가 뚜렷이 강합니다.",
+        "geo": "VIX가 14.43으로 1년 범위(13.47~31.05)의 6% 수준이고 3개월간 -10.09% 내려, 헤드라인의 환율·연준 관련 잡음에도 시장이 느끼는 긴장은 낮습니다."
       },
-      "summary": "금리는 오르는 쪽이고 원화는 1년 최저 환율(1375.67)까지 강해진 반면, 코스피는 3개월간 -15.55% 밀려 성장세가 식는 모습입니다. 변동성 지표(VIX 14.43)는 낮아 시장 자체는 조용한 편이라, 지금은 '금리 부담 속 둔화' 국면으로 분류됩니다.",
+      "summary": "원화는 1년 최저 수준(1375.67)까지 강해졌고 변동성도 낮지만, 코스피는 3개월 -15.55%로 조정을 받은 둔화 국면입니다. 미 장기금리가 1년 고점권(4.72)이라 금리 상승 압력이 남아 있는 상태로 분류됩니다.",
       "rates": "hike",
       "growth": "slow",
       "valuation": "fair",
@@ -128,13 +128,13 @@
     },
     "us": {
       "why": {
-        "rates": "^TNX가 4.72%로 1년범위 상단(97% 위치)이고 3개월 +5.47%인 데다, 헤드라인에서 워시 의장의 인플레 우려와 해맥의 '지금이 행동할 때' 발언이 인상 방향을 가리킵니다.",
-        "growth": "S&P500이 7711.76으로 1년범위의 94% 지점이고 3개월간 +1.47% 상승해 경기 흐름은 아직 괜찮은 쪽으로 읽힙니다.",
-        "valuation": "지수가 1년범위 6343.72~7798.99의 94% 위치라 가격 부담이 큰 구간입니다.",
-        "fx": "원/달러 1375.67은 1년범위 0% 위치이고 3개월 -10.09%라, 달러 대비 원화가 강한(달러가 약해진) 상태입니다.",
-        "geo": "VIX 14.43(1년범위 6% 위치)로 위험지표가 낮고 헤드라인에도 지정학 충격 사안이 없어 평온으로 판단합니다."
+        "rates": "^TNX가 4.72로 1년 범위(3.95~4.74) 97% 위치, 3개월 +5.47%이며 'Fed 해맥: 지금이 금리 인상에 행동할 때', '워시 인플레 우려' 헤드라인이 인상 방향과 일치합니다.",
+        "growth": "S&P500이 7711.76으로 1년 범위(6343.72~7798.99)의 94% 위치이고 3개월 +1.47%로 상승세를 유지해 경기 여건은 괜찮은 편으로 분류합니다.",
+        "valuation": "지수가 1년 범위의 94% 위치인 고점권이라 가격 부담이 있는 상태(rich)로 봅니다. 단 이익 대비 지표는 제공되지 않았습니다.",
+        "fx": "원/달러 1375.67은 1년 범위의 0% 위치로 3개월 -10.09%, 즉 달러 대비 원화가 강한 국면입니다.",
+        "geo": "VIX 14.43(1년 범위의 6% 위치, 3개월 -10.09%)로 낮고 제시된 헤드라인에 지정학적 충격 사건이 없어 평온으로 봅니다."
       },
-      "summary": "미국 증시는 1년 고점권(94% 위치)에 있어 가격이 비싼 편이며, 동시에 10년물 금리는 4.72%로 상단이라 금리 부담이 함께 커진 상태입니다. 변동성은 낮아(VIX 14.43) 겉으로는 조용하지만 '비싼 시장 + 오르는 금리' 조합으로 분류됩니다.",
+      "summary": "미국 증시는 1년 고점 부근(범위의 94%)에서 변동성도 낮은 안정적 상승 국면이지만, 장기금리가 1년 최고치 부근(4.72)이라 금리 부담이 함께 있는 상태입니다. 지수 위치가 높아 가격 부담(rich)이 큰 구간으로 분류됩니다.",
       "rates": "hike",
       "growth": "expand",
       "valuation": "rich",
@@ -333,14 +333,14 @@
   "news": {
     "kr": [
       {
-        "title": "[부고] 이귀원(연합뉴스 증권부장)씨 부친상",
-        "link": "https://www.yna.co.kr/view/AKR20260828163300008",
+        "title": "베선트 \"엔화 불안시 美 금리상승\"…엔화 개입 의도 밝혀(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260829011451072",
         "source": "연합뉴스",
-        "date": "Fri, 28 Aug 2026 18:28:04 +0900",
-        "act": "none",
+        "date": "Sat, 29 Aug 2026 09:19:44 +0900",
+        "act": "watch",
         "lasting": "temporary",
         "scope": "market",
-        "why": "투자 판단과 무관한 부고 기사입니다.",
+        "why": "환율·금리 관련 당국자 발언은 흔들림을 줄 수 있지만 대개 일시적입니다.",
         "by": "ai"
       },
       {
@@ -355,25 +355,25 @@
         "by": "ai"
       },
       {
-        "title": "“저희는 건강한 유증입니다”...확장 위해 3조 조달 선언한 삼바, 주가는 뚝",
-        "link": "https://www.mk.co.kr/news/stock/12139162",
+        "title": "“월요일 삼전 주가 어떡해” CXMT 깜짝 어닝서프라이즈",
+        "link": "https://www.mk.co.kr/news/stock/12139317",
         "source": "매일경제",
-        "date": "Fri, 28 Aug 2026 20:06:40 +09:00",
+        "date": "Sat, 29 Aug 2026 09:37:58 +09:00",
         "act": "watch",
         "lasting": "structural",
-        "scope": "company",
-        "why": "대규모 증자는 지분 희석과 증설 효과를 함께 보므로 자금 사용처를 지켜보세요.",
+        "scope": "sector",
+        "why": "후발 경쟁사의 실적 개선은 업종 경쟁 구도 변화 신호일 수 있어 흐름만 지켜보면 됩니다.",
         "by": "ai"
       },
       {
-        "title": "DB손보 \"2030년 주주환원율 50%로 확대…배당 매년 10% 이상↑\"",
-        "link": "https://www.yna.co.kr/view/AKR20260828153700002",
+        "title": "[부고] 이귀원(연합뉴스 증권부장)씨 부친상",
+        "link": "https://www.yna.co.kr/view/AKR20260828163300008",
         "source": "연합뉴스",
-        "date": "Fri, 28 Aug 2026 17:43:15 +0900",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": "company",
-        "why": "주주환원 정책의 장기 목표 제시로, 실제 이행 여부를 지켜볼 만합니다.",
+        "date": "Fri, 28 Aug 2026 18:28:04 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "투자 판단과 무관한 부고 기사입니다.",
         "by": "ai"
       },
       {
@@ -388,14 +388,14 @@
         "by": "ai"
       },
       {
-        "title": "스테이블코인·RWA·토큰증권...금융사들 디지털자산 전선 확대[엠블록레터]",
-        "link": "https://www.mk.co.kr/news/stock/12139146",
+        "title": "“저희는 건강한 유증입니다”...확장 위해 3조 조달 선언한 삼바, 주가는 뚝",
+        "link": "https://www.mk.co.kr/news/stock/12139162",
         "source": "매일경제",
-        "date": "Fri, 28 Aug 2026 19:36:31 +09:00",
+        "date": "Fri, 28 Aug 2026 20:06:40 +09:00",
         "act": "watch",
         "lasting": "structural",
-        "scope": "sector",
-        "why": "금융업의 디지털자산 확대는 업종 구조가 서서히 바뀌는 흐름입니다.",
+        "scope": "company",
+        "why": "대규모 증자는 지분 희석과 증설 효과를 함께 보므로 자금 사용처를 지켜보세요.",
         "by": "ai"
       }
     ],
@@ -461,15 +461,15 @@
         "by": "ai"
       },
       {
-        "title": "Is Versigent (VGNT) Undervalued With Margin Expansion and Buyback Potential Ahead?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/versigent-vgnt-undervalued-margin-expansion-163610594.html",
+        "title": "The Market Still Treats Micron Like a Boom-and-Bust Stock. That May Be Getting Outdated",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/market-still-treats-micron-boom-180923948.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-27T16:36:10Z",
-        "ko": "Versigent (VGNT) 가 마진 확대 및 환매 가능성으로 저평가되어 있습니까?",
+        "date": "2026-08-27T18:09:23Z",
+        "ko": "시장은 여전히 마이크론을 붐앤버스트 주식처럼 취급합니다. 시대에 뒤떨어질 수 있는",
         "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "저평가 여부를 묻는 의견성 분석글로, 확인된 사실 변화는 없습니다.",
+        "lasting": "structural",
+        "scope": "sector",
+        "why": "메모리 업종의 사이클 성격을 다시 보자는 의견 기사로, 오늘 할 일은 없습니다.",
         "by": "ai"
       }
     ]
@@ -680,7 +680,8 @@
     "Williams-Sonoma Stock Outlook: Is Wall Street Bullish or Bearish?": "윌리엄스-소노마 주식 전망: 월스트리트는 강세입니까, 아니면 약세입니까?",
     "Microsoft’s stock seals its longest winning streak of the year as AI software fears fade": "Microsoft의 주식은 AI 소프트웨어가 사라질 것을 우려함에 따라 올해 가장 긴 연승 행진을 기록했습니다.",
     "Dollar Little Changed as Stocks Rally": "주식 랠리에 따라 달라진 달러 리틀",
-    "Meta Just Removed a Major Risk From Its Stock. Now AI Spending Is the $145 Billion Question.": "메타가 주식에서 주요 위험을 제거했습니다. 이제 AI 지출은 $145억의 질문입니다."
+    "Meta Just Removed a Major Risk From Its Stock. Now AI Spending Is the $145 Billion Question.": "메타가 주식에서 주요 위험을 제거했습니다. 이제 AI 지출은 $145억의 질문입니다.",
+    "The Market Still Treats Micron Like a Boom-and-Bust Stock. That May Be Getting Outdated": "시장은 여전히 마이크론을 붐앤버스트 주식처럼 취급합니다. 시대에 뒤떨어질 수 있는"
   },
   "nvCache": {
     "https://www.yna.co.kr/view/AKR20260824137251008": {
@@ -2221,6 +2222,27 @@
       "lasting": "temporary",
       "scope": "company",
       "why": "저평가 여부를 묻는 의견성 분석글로, 확인된 사실 변화는 없습니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20260829011451072": {
+      "act": "watch",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "환율·금리 관련 당국자 발언은 흔들림을 줄 수 있지만 대개 일시적입니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12139317": {
+      "act": "watch",
+      "lasting": "structural",
+      "scope": "sector",
+      "why": "후발 경쟁사의 실적 개선은 업종 경쟁 구도 변화 신호일 수 있어 흐름만 지켜보면 됩니다.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/markets/stocks/articles/market-still-treats-micron-boom-180923948.html": {
+      "act": "none",
+      "lasting": "structural",
+      "scope": "sector",
+      "why": "메모리 업종의 사이클 성격을 다시 보자는 의견 기사로, 오늘 할 일은 없습니다.",
       "by": "ai"
     }
   },
