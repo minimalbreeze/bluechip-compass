@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-30T20:35:42.630Z",
+  "asOf": "2026-08-30T21:36:39.613Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -17,11 +17,11 @@
       "time": "2026-08-28T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1375.67,
+      "price": 1377.14,
       "prev": 1380.449951171875,
-      "chg": -0.35,
+      "chg": -0.24,
       "basis": "prev-daily-close",
-      "time": "2026-08-30T20:24:47.000Z"
+      "time": "2026-08-30T21:35:51.000Z"
     },
     "^GSPC": {
       "price": 7711.76,
@@ -53,7 +53,7 @@
     }
   },
   "fx": {
-    "low52": 1375.67,
+    "low52": 1377.14,
     "high52": 1554.48,
     "pct": 0
   },
@@ -73,11 +73,11 @@
       "chg3m": -21.99
     },
     "KRW=X": {
-      "last": 1375.67,
-      "low52": 1375.67,
+      "last": 1377.14,
+      "low52": 1377.14,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -10.09
+      "chg3m": -10
     },
     "^GSPC": {
       "last": 7711.76,
@@ -110,17 +110,17 @@
   },
   "regime": {
     "by": "ai",
-    "asOf": "2026-08-30T20:35:38.239Z",
+    "asOf": "2026-08-30T21:36:30.344Z",
     "kr": {
       "why": {
-        "rates": "제시된 자료에는 한국 정책금리 지표가 없고 미국 10년물(^TNX) 4.72%가 1년 범위의 97% 수준까지 3개월 +5.47% 올랐다는 정보만 있어, 한국 금리 방향 근거가 약하므로 중립값인 hold로 둡니다.",
-        "growth": "코스피가 3개월 -19.91%로 큰 폭 조정을 받았지만 현재 6788.88로 1년범위(3142.93~9114.55) 61% 위치를 유지하고 있어 침체 확정보다는 둔화 국면으로 봅니다.",
-        "valuation": "지수 위치가 1년범위의 61%로 고점(9114.55)과 저점(3142.93) 사이 중간대이고 3개월간 -19.91% 조정으로 과열이 식은 상태여서 보통 수준입니다.",
-        "fx": "원/달러가 1375.67로 1년범위(1375.67~1554.48) 최하단인 0% 위치이고 3개월 -10.09%로 하락해 원화가 뚜렷한 강세입니다.",
-        "geo": "VIX가 14.43으로 1년범위의 6% 수준까지 낮아졌고 헤드라인도 한미 금리차·토큰증권 플랫폼 등 시장 구조 이슈에 그쳐 긴장 신호가 보이지 않습니다."
+        "rates": "미 10년물(^TNX)이 4.72%로 1년 범위 97% 지점이고 3개월간 +5.47% 올랐으며, 헤드라인도 '한국은 3%대 진입, 미국도 인상론 무게'와 '조달비용 상승'을 언급해 금리는 올라가는 쪽입니다.",
+        "growth": "코스피가 3개월간 -19.91% 하락하고 '상반기만 10만명 채무조정 확정' 같은 가계 부담 신호가 있어 둔화로 봅니다. 다만 지수 위치가 61%이고 VIX 14.43으로 낮아 침체 단정 근거는 약해 중간값인 slow를 골랐습니다.",
+        "valuation": "코스피 6788.88은 1년범위 3142.93~9114.55의 61% 지점으로 특별히 싸거나 비싸다고 볼 근거가 약해 보통으로 둡니다.",
+        "fx": "원/달러가 1377.14로 1년 범위(1377.14~1554.48)의 0% 지점, 3개월간 -10%여서 원화가 1년 중 가장 강한 수준입니다.",
+        "geo": "VIX가 14.43으로 1년 범위의 6% 지점까지 내려왔고 헤드라인에도 지정학 충격 언급이 없어 평온으로 판정합니다."
       },
-      "summary": "원/달러가 1년 최저인 1375.67까지 내려와 원화가 강한 반면, 코스피는 3개월 -19.91% 조정으로 성장 동력이 둔화된 국면입니다. 변동성(VIX 14.43)은 낮아 시장 자체는 평온하지만 지수 위치는 중간대(61%)로 밸류에이션은 보통 수준입니다.",
-      "rates": "hold",
+      "summary": "금리는 올라가는 흐름이고 원화는 1년 중 가장 강한 반면, 코스피는 3개월 -19.91%로 밀려 경기 둔화 신호가 보이는 국면입니다. 시장 불안 지표(VIX 14.43)는 낮아 공포 국면은 아니며, 밸류에이션은 중간 수준입니다.",
+      "rates": "hike",
       "growth": "slow",
       "valuation": "fair",
       "fx": "strong",
@@ -128,13 +128,13 @@
     },
     "us": {
       "why": {
-        "rates": "10년물 금리(^TNX)가 4.72%로 1년범위(3.95~4.74) 97% 위치이며 3개월 +5.47% 상승했고, 헤드라인에서 연준 해맥이 '금리 인상, 지금이 행동할 때'라 말하고 주택담보대출 금리도 지난주보다 높다고 언급됩니다.",
-        "growth": "S&P500이 7711.76으로 1년범위(6343.72~7798.99)의 94% 위치이고 3개월 +1.47%로 완만히 상승 중이어서 경기 위축 신호는 자료상 확인되지 않습니다(다만 고용지표는 발표 대기 중).",
-        "valuation": "지수가 1년 고점 7798.99에 근접한 94% 위치이고 헤드라인도 레버리지에 익숙해진 투자자 흐름을 언급해 가격 부담이 있는 편입니다.",
-        "fx": "동일 환율 지표에서 원/달러가 1375.67로 1년범위 0% 위치, 3개월 -10.09%를 기록해 달러 대비 원화 강세(달러 약세) 방향입니다.",
-        "geo": "VIX 14.43(1년범위 6% 위치)로 시장 불안 지표가 매우 낮고 헤드라인도 금리·예금상품 등 정책·생활금융 이슈여서 평온으로 분류합니다."
+        "rates": "^TNX가 4.72%로 1년 범위(3.95~4.74)의 97% 지점, 3개월 +5.47%이고 '연준 해맥, 금리 인상 지금이 행동할 때', '워시 인플레 우려' 헤드라인이 겹칩니다.",
+        "growth": "S&P500이 7711.76으로 1년 범위의 94% 지점이고 3개월 +1.47%로 상승세를 유지해 경기 인식은 아직 괜찮은 쪽입니다.",
+        "valuation": "지수가 1년 고점권(위치 94%)에 있고 '레버리지에 만족하는 투자자들' 같은 위험선호 헤드라인이 나와 비싼 편으로 봅니다.",
+        "fx": "원/달러 1377.14는 1년 범위 하단(위치 0%), 3개월 -10%로 달러 대비 원화가 강한 상태입니다.",
+        "geo": "VIX 14.43(1년 위치 6%)로 낮고 제시된 헤드라인에 지정학·정책 충격 사건이 없어 평온으로 분류합니다."
       },
-      "summary": "장기금리가 1년 최고 수준(4.72%)까지 올라 긴축 압력이 부각되는데도 S&P500은 고점 근처(94% 위치)에 있어 가격 부담이 큰 국면입니다. 변동성 지표는 14.43으로 매우 낮아 표면은 조용하지만 금리와 주가 위치가 엇갈린 상태라는 점만 확인하는 분류입니다.",
+      "summary": "미국은 주가가 1년 고점권(위치 94%)이지만 국채금리 4.72%와 연준 인상론이 함께 있는, 비싸면서 금리 부담이 큰 국면입니다. 변동성 지표는 낮아 시장은 아직 낙관적으로 반응하고 있습니다.",
       "rates": "hike",
       "growth": "expand",
       "valuation": "rich",
@@ -333,6 +333,17 @@
   "news": {
     "kr": [
       {
+        "title": "조달비용 상승에 중금리대출 어쩌나…여신업계 속내 복잡",
+        "link": "https://www.yna.co.kr/view/AKR20260830035900002",
+        "source": "연합뉴스",
+        "date": "Mon, 31 Aug 2026 05:55:01 +0900",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": "sector",
+        "why": "조달비용 상승은 여신업 수익 구조에 지속적으로 영향을 줍니다.",
+        "by": "ai"
+      },
+      {
         "title": "환율·채권, 좁아진 한미 금리차…원화 강세 이어질듯",
         "link": "https://www.hankyung.com/article/2026083019301",
         "source": "한국경제",
@@ -344,14 +355,25 @@
         "by": "ai"
       },
       {
-        "title": "'국민성장펀드 투자' 원익로보·CJ 4D플렉스, 중복상장 걸림돌",
-        "link": "https://www.mk.co.kr/news/stock/12139880",
+        "title": "한국은 3%대 진입, 미국도 인상론 무게...배당 매력 떨어지자 우선주 ‘찬밥’",
+        "link": "https://www.mk.co.kr/news/stock/12140021",
         "source": "매일경제",
-        "date": "Sun, 30 Aug 2026 17:27:31 +09:00",
-        "act": "watch",
+        "date": "Mon, 31 Aug 2026 05:49:59 +09:00",
+        "act": "none",
         "lasting": "temporary",
-        "scope": "company",
-        "why": "정책 자금 조달 절차상 걸림돌 언급으로, 결론이 나올 때까지 지켜볼 사안입니다.",
+        "scope": "market",
+        "why": "금리 수준에 따른 자산 선호 변화는 반복되는 흐름입니다.",
+        "by": "ai"
+      },
+      {
+        "title": "고금리 속 빚 못버틴 서민↑…상반기만 10만명 채무조정 확정",
+        "link": "https://www.yna.co.kr/view/AKR20260829044000002",
+        "source": "연합뉴스",
+        "date": "Mon, 31 Aug 2026 05:53:00 +0900",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": "sector",
+        "why": "채무조정 증가는 금융업 대출 건전성과 이어질 수 있습니다.",
         "by": "ai"
       },
       {
@@ -374,28 +396,6 @@
         "lasting": "structural",
         "scope": "sector",
         "why": "증권 거래 인프라가 바뀌는 방향이라 업종 차원에서 천천히 볼 만합니다.",
-        "by": "ai"
-      },
-      {
-        "title": "예탁금 3000만원의 벽…'삼전닉스 2배' 개미 1.7조원어치 순매도",
-        "link": "https://www.hankyung.com/article/202608301725i",
-        "source": "한국경제",
-        "date": "Sun, 30 Aug 2026 15:39:35 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "개인 수급·자금 흐름 이야기로 기업 이익과는 무관합니다.",
-        "by": "ai"
-      },
-      {
-        "title": "[미국 주식 돋보기] 자산운용 공룡 블랙록…두달간 주가 23%↑",
-        "link": "https://www.mk.co.kr/news/stock/12139876",
-        "source": "매일경제",
-        "date": "Sun, 30 Aug 2026 17:27:29 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "두 달간의 주가 상승 소식으로, 장기 이익 구조가 바뀐 근거는 없습니다.",
         "by": "ai"
       }
     ],
@@ -425,15 +425,15 @@
         "by": "ai"
       },
       {
-        "title": "Mortgage and refinance interest rates today, Sunday, August 30, 2026: Purchase rates higher than last week",
-        "link": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-sunday-august-30-2026-purchase-rates-higher-than-last-week-100000187.html",
+        "title": "CrowdStrike Just Lit a Fire Under Cybersecurity Stocks. Is Palo Alto Networks Next?",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/crowdstrike-just-lit-fire-under-211520650.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-30T10:00:00Z",
-        "ko": "2026년 8월 30일 일요일 주택담보대출 및 재융자 금리: 지난주보다 높은 매입금리",
+        "date": "2026-08-30T21:15:20Z",
+        "ko": "CrowdStrike는 사이버 보안 주식에 불을 붙였습니다. Palo Alto Networks는 다음 단계인가요?",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
-        "why": "주간 금리 변동은 흔한 일로 장기 이익과 직접 연결되지 않습니다.",
+        "scope": "sector",
+        "why": "한 기업 실적에 따른 업종 기대감으로, 10년 이익 구조와는 거리가 있습니다.",
         "by": "ai"
       },
       {
@@ -461,15 +461,15 @@
         "by": "ai"
       },
       {
-        "title": "Best CD rates today, Sunday, August 30, 2026: Lock in up to 4.30% APY",
-        "link": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-sunday-august-30-2026-lock-in-up-to-430-apy-100000110.html",
+        "title": "A $3.13 Billion Reason to Buy Zoom Communications Stock Now",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/3-13-billion-reason-buy-150002113.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-30T10:00:00Z",
-        "ko": "2026년 8월 30일 일요일, 오늘 최고 CD 가격: 최대 4.30% APY 고정",
+        "date": "2026-08-30T15:00:02Z",
+        "ko": "지금 Zoom Communications 주식을 구매해야 하는 $31억 3천만 이유",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
-        "why": "예금 금리 안내성 정보로 기업 실적과는 무관합니다.",
+        "scope": "company",
+        "why": "매수를 권하는 논평 형식이며 새로운 사실 변화는 확인되지 않습니다.",
         "by": "ai"
       }
     ]
@@ -735,44 +735,11 @@
     "Dow Jones Futures Due Amid Bullish, Bearish Market Signals. What To Do Now.": "강세장, 베어리쉬 마켓 시그널 가운데 다우 존스 선물 기한. 지금 해야 할 일.",
     "The 1 Metric I Check Before Buying Any Dividend Stock": "배당 주식을 사기 전에 확인하는 1 메트릭",
     "Mortgage and refinance interest rates today, Sunday, August 30, 2026: Purchase rates higher than last week": "2026년 8월 30일 일요일 주택담보대출 및 재융자 금리: 지난주보다 높은 매입금리",
-    "Best CD rates today, Sunday, August 30, 2026: Lock in up to 4.30% APY": "2026년 8월 30일 일요일, 오늘 최고 CD 가격: 최대 4.30% APY 고정"
+    "Best CD rates today, Sunday, August 30, 2026: Lock in up to 4.30% APY": "2026년 8월 30일 일요일, 오늘 최고 CD 가격: 최대 4.30% APY 고정",
+    "CrowdStrike Just Lit a Fire Under Cybersecurity Stocks. Is Palo Alto Networks Next?": "CrowdStrike는 사이버 보안 주식에 불을 붙였습니다. Palo Alto Networks는 다음 단계인가요?",
+    "A $3.13 Billion Reason to Buy Zoom Communications Stock Now": "지금 Zoom Communications 주식을 구매해야 하는 $31억 3천만 이유"
   },
   "nvCache": {
-    "https://www.yna.co.kr/view/AKR20260824075851002": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "환율 등락은 반복되는 흐름으로 오늘 할 일은 없습니다.",
-      "by": "ai"
-    },
-    "https://www.hankyung.com/article/202608248834i": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "sector",
-      "why": "계열사별 환원 온도차는 제목만으로 판단하기 어렵습니다.",
-      "by": "ai"
-    },
-    "https://www.mk.co.kr/news/stock/12135128": {
-      "act": "watch",
-      "lasting": "structural",
-      "scope": "sector",
-      "why": "AI 전략 차이는 장기 경쟁력을 가를 수 있어 관찰 대상입니다.",
-      "by": "ai"
-    },
-    "https://www.cnbc.com/2026/08/24/singapore-inflation-budget-iran-war.html": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "해외 물가 지표는 월별 변동이며 기대치도 밑돌았습니다.",
-      "by": "ai"
-    },
-    "https://www.marketwatch.com/story/alibaba-shares-tumble-as-investors-question-whether-ai-spending-splurge-is-justified-6989038b?mod=mw_rss_topstories": {
-      "act": "watch",
-      "lasting": "structural",
-      "scope": "sector",
-      "why": "AI 투자 회수 여부에 대한 의문은 업종 전반의 장기 쟁점입니다.",
-      "by": "ai"
-    },
     "https://finance.yahoo.com/markets/article/nvidia-earnings-and-jackson-hole-what-to-watch-this-week-100000082.html": {
       "act": "none",
       "lasting": "temporary",
@@ -2836,6 +2803,41 @@
       "lasting": "temporary",
       "scope": "market",
       "why": "예금 금리 안내성 정보로 기업 실적과는 무관합니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20260830035900002": {
+      "act": "watch",
+      "lasting": "structural",
+      "scope": "sector",
+      "why": "조달비용 상승은 여신업 수익 구조에 지속적으로 영향을 줍니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12140021": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "금리 수준에 따른 자산 선호 변화는 반복되는 흐름입니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20260829044000002": {
+      "act": "watch",
+      "lasting": "structural",
+      "scope": "sector",
+      "why": "채무조정 증가는 금융업 대출 건전성과 이어질 수 있습니다.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/markets/stocks/articles/crowdstrike-just-lit-fire-under-211520650.html": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "sector",
+      "why": "한 기업 실적에 따른 업종 기대감으로, 10년 이익 구조와는 거리가 있습니다.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/markets/stocks/articles/3-13-billion-reason-buy-150002113.html": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "매수를 권하는 논평 형식이며 새로운 사실 변화는 확인되지 않습니다.",
       "by": "ai"
     }
   },
