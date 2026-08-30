@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-30T09:21:52.697Z",
+  "asOf": "2026-08-30T10:22:44.938Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -110,16 +110,16 @@
   },
   "regime": {
     "by": "ai",
-    "asOf": "2026-08-30T09:21:35.363Z",
+    "asOf": "2026-08-30T10:22:37.032Z",
     "kr": {
       "why": {
-        "rates": "한은이 \"수요 압력에 물가 상승세가 더 광범위하게 확산 가능성\"을 언급했고 미 10년물(^TNX)도 4.72%로 1년범위 97% 위치·3개월 +5.47%라 금리 하락 국면으로 보기 어렵습니다.",
-        "growth": "코스피가 3개월 -19.91% 급락했지만 1년범위 내 위치는 여전히 61%이고 침체를 직접 가리키는 지표는 제시되지 않아, 근거가 약해 둔화(중간값)로 봅니다.",
-        "valuation": "^KS11 6788.88은 1년범위 3142.93~9114.55의 61% 위치로 고점도 저점도 아닌 중간 구간입니다.",
-        "fx": "KRW=X가 1371.5로 1년범위(1371.5~1554.48) 최저인 0% 위치, 3개월 -10.37%이며 \"좁아진 한미 금리차…원화 강세\" 헤드라인도 같은 방향입니다.",
-        "geo": "^VIX 14.43(1년범위 6% 위치, 3개월 -10.09%)로 낮고 헤드라인은 펀드·토큰증권 등 국내 이슈 위주여서 충격 징후가 없습니다."
+        "rates": "미 10년물 금리(^TNX)가 4.72%로 1년 범위 위치 97%, 3개월 +5.47%로 상단에 붙어 있고 헤드라인도 '좁아진 한미 금리차'를 언급해 금리 상승 압력 국면으로 봅니다.",
+        "growth": "코스피가 3개월간 -19.91% 급락했으나 1년 범위 위치는 여전히 61%이고 VIX가 14.43(위치 6%)로 낮아 침체 확정 신호로 보기엔 근거가 약해 둔화(slow)로 중립적으로 판정합니다.",
+        "valuation": "코스피 6788.88은 1년범위 3142.93~9114.55의 61% 지점으로 극단이 아니어서 보통(fair)입니다.",
+        "fx": "원/달러가 1371.5로 1년 범위 최저(위치 0%), 3개월 -10.37%로 원화가 뚜렷하게 강세입니다.",
+        "geo": "VIX 14.43(1년 위치 6%)에 헤드라인도 펀드·토큰증권·실적 등 일상적 소재여서 특별한 긴장 신호가 없습니다."
       },
-      "summary": "금리는 물가 부담 탓에 내려갈 분위기가 아니고, 지수는 3개월 -19.91%로 크게 밀렸지만 1년 위치는 61%로 중간권입니다. 원화는 1년 최저 환율(1371.5)까지 강해졌고 변동성 지표는 낮아 시장 긴장은 잠잠한 상태입니다.",
+      "summary": "금리는 위로, 환율은 원화 강세인 가운데 코스피만 3개월 -19.91% 크게 밀린 국면입니다. 지수 위치와 변동성은 아직 평온해 '침체'보다는 '둔화 중' 신호로 분류합니다.",
       "rates": "hike",
       "growth": "slow",
       "valuation": "fair",
@@ -128,13 +128,13 @@
     },
     "us": {
       "why": {
-        "rates": "^TNX 4.72%가 1년범위 3.95~4.74의 97% 위치이고 3개월 +5.47% 상승, 헤드라인에서도 연준 해먹이 \"금리 인상, 지금이 행동할 때\"라고 언급했습니다.",
-        "growth": "\"기업 수익이 빠른 속도로 증가\" 헤드라인과 함께 ^GSPC가 7711.76으로 1년범위 94% 위치, 3개월 +1.47%로 버티고 있습니다.",
-        "valuation": "S&P500이 1년범위 6343.72~7798.99의 94% 위치로 고점 근처에 있어 비싼 편으로 분류합니다.",
-        "fx": "KRW=X 1371.5는 1년범위 0% 위치, 3개월 -10.37%로 달러 대비 원화가 가장 강한 수준입니다.",
-        "geo": "^VIX 14.43(1년범위 6% 위치)로 매우 낮고 제시된 헤드라인에 충격성 사건이 없어 평온으로 봅니다."
+        "rates": "^TNX가 4.72%로 1년 범위 위치 97%, 3개월 +5.47%이며 헤드라인에서 연준 해맥의 '금리 인상, 지금이 행동할 때' 발언과 인플레이션 우려가 함께 언급됩니다.",
+        "growth": "S&P500이 7711.76으로 1년 범위 위치 94%, 3개월 +1.47%로 상단을 유지하고 '기업 수익이 빠른 속도로 증가' 헤드라인도 있어 확장 국면으로 봅니다.",
+        "valuation": "S&P500이 1년범위 6343.72~7798.99에서 94% 지점, 즉 고점 근처에 있어 비싼 편(rich)으로 분류합니다.",
+        "fx": "원/달러 1371.5는 1년 범위 위치 0%, 3개월 -10.37%로 달러 대비 원화가 강세인 상태입니다.",
+        "geo": "VIX 14.43(1년 위치 6%)으로 매우 낮고 헤드라인에 지정학·정책 충격 소재가 없어 평온으로 판정합니다."
       },
-      "summary": "기업 실적과 지수는 강한데(1년범위 94% 위치) 금리는 4.72%로 1년 최고권이라 '좋은 경기 + 높은 금리' 조합입니다. 지수 레벨이 비싼 편이고 변동성은 매우 낮아 시장이 낙관에 기울어 있는 국면입니다.",
+      "summary": "미국 지수는 1년 고점권(위치 94%)이고 변동성도 낮지만, 10년물 금리가 4.72%로 상단에 붙어 금리 상승 부담이 함께 있는 국면입니다. 경기는 괜찮아 보이나 가격은 싸지 않은 상태로 분류됩니다.",
       "rates": "hike",
       "growth": "expand",
       "valuation": "rich",
@@ -333,17 +333,6 @@
   "news": {
     "kr": [
       {
-        "title": "한은 \"수요 압력에 물가 상승세 더 광범위하게 확산 가능성\"",
-        "link": "https://www.yna.co.kr/view/AKR20260829033600002",
-        "source": "연합뉴스",
-        "date": "Sun, 30 Aug 2026 12:00:05 +0900",
-        "act": "watch",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "물가 확산은 금리 경로에 영향을 주지만 아직 가능성 언급 단계입니다.",
-        "by": "ai"
-      },
-      {
         "title": "좁아진 한미 금리차…원화 강세 이어질듯",
         "link": "https://www.hankyung.com/article/2026083019301",
         "source": "한국경제",
@@ -397,6 +386,17 @@
         "scope": "market",
         "why": "개인 수급·자금 흐름 이야기로 기업 이익과는 무관합니다.",
         "by": "ai"
+      },
+      {
+        "title": "[미국 주식 돋보기] 자산운용 공룡 블랙록…두달간 주가 23%↑",
+        "link": "https://www.mk.co.kr/news/stock/12139876",
+        "source": "매일경제",
+        "date": "Sun, 30 Aug 2026 17:27:29 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "두 달간의 주가 상승 소식으로, 장기 이익 구조가 바뀐 근거는 없습니다.",
+        "by": "ai"
       }
     ],
     "us": [
@@ -425,15 +425,15 @@
         "by": "ai"
       },
       {
-        "title": "Coinbase and Robinhood Rally as Bitcoin Marches Toward Its Best Week in Months",
-        "link": "https://finance.yahoo.com/markets/crypto/articles/coinbase-robinhood-rally-bitcoin-marches-035923976.html",
+        "title": "Berkshire Hathaway Roughly Tripled $10,000 in a Decade. Did It Beat the Market?",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/berkshire-hathaway-roughly-tripled-10-080101469.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-29T03:59:23Z",
-        "ko": "Bitcoin이 몇 달 만에 최고의 주간을 향해 행진함에 따라 Coinbase와 Robinhood Rally",
+        "date": "2026-08-29T08:01:01Z",
+        "ko": "버크셔 해서웨이 (Berkshire Hathaway) 는 약 10년 만에 $10,000를 세 배로 올렸습니다. 시장을 이겼습니까?",
         "act": "none",
         "lasting": "temporary",
-        "scope": "sector",
-        "why": "가상자산 가격 흐름에 따른 단기 주가 반응으로 보입니다.",
+        "scope": "company",
+        "why": "과거 수익률을 되돌아보는 기사로, 앞으로의 이익 구조를 바꾸는 내용은 없습니다.",
         "by": "ai"
       },
       {
@@ -461,15 +461,15 @@
         "by": "ai"
       },
       {
-        "title": "Alibaba Shares Fell on a $10 Billion AI Raise. Insiders Saw a Buying Opportunity",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/alibaba-shares-fell-10-billion-035502952.html",
+        "title": "Best CD rates today, Saturday, August 29, 2026: Lock in up to 4.30% APY with a 16- or 18-month CD",
+        "link": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-saturday-august-29-2026-lock-in-up-to-430-apy-with-a-16--or-18-month-cd-100000220.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-29T03:55:02Z",
-        "ko": "알리바바 주식은 $100억의 AI 자금 조달로 하락했습니다. 내부자가 본 구매 기회",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": "company",
-        "why": "대규모 AI 투자 자금 조달은 장기 수익 구조와 연결돼 지켜볼 만합니다.",
+        "date": "2026-08-29T10:00:00Z",
+        "ko": "2026년 8월 29일 토요일, 최고의 CD 요금: 16개월 또는 18개월 CD로 최대 4.30% APY 잠금",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "예금 금리 안내성 기사로 기업 이익과 무관합니다.",
         "by": "ai"
       }
     ]
@@ -721,7 +721,8 @@
     "BofA Just Put a $70 Target on This Overlooked AI Packaging Stock": "BofA는 이 간과된 AI 포장재고에 $70 타겟을 넣었습니다.",
     "Marvell Fell After Its Google Deal. Why Did Investors Sell These Two AI Optics Stocks Too?": "Marvell은 구글 딜 후 넘어졌습니다. 투자자들은 왜 이 두 인공지능 광학 주식을 너무 많이 팔았을까요?",
     "Coinbase and Robinhood Rally as Bitcoin Marches Toward Its Best Week in Months": "Bitcoin이 몇 달 만에 최고의 주간을 향해 행진함에 따라 Coinbase와 Robinhood Rally",
-    "Alibaba Shares Fell on a $10 Billion AI Raise. Insiders Saw a Buying Opportunity": "알리바바 주식은 $100억의 AI 자금 조달로 하락했습니다. 내부자가 본 구매 기회"
+    "Alibaba Shares Fell on a $10 Billion AI Raise. Insiders Saw a Buying Opportunity": "알리바바 주식은 $100억의 AI 자금 조달로 하락했습니다. 내부자가 본 구매 기회",
+    "Berkshire Hathaway Roughly Tripled $10,000 in a Decade. Did It Beat the Market?": "버크셔 해서웨이 (Berkshire Hathaway) 는 약 10년 만에 $10,000를 세 배로 올렸습니다. 시장을 이겼습니까?"
   },
   "nvCache": {
     "https://www.yna.co.kr/view/AKR20260824137251008": {
@@ -2745,6 +2746,20 @@
       "lasting": "structural",
       "scope": "company",
       "why": "대규모 AI 투자 자금 조달은 장기 수익 구조와 연결돼 지켜볼 만합니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12139876": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "두 달간의 주가 상승 소식으로, 장기 이익 구조가 바뀐 근거는 없습니다.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/markets/stocks/articles/berkshire-hathaway-roughly-tripled-10-080101469.html": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "과거 수익률을 되돌아보는 기사로, 앞으로의 이익 구조를 바꾸는 내용은 없습니다.",
       "by": "ai"
     }
   },
