@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-30T14:26:18.985Z",
+  "asOf": "2026-08-30T15:27:19.969Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -110,17 +110,17 @@
   },
   "regime": {
     "by": "ai",
-    "asOf": "2026-08-30T14:26:10.124Z",
+    "asOf": "2026-08-30T15:27:16.408Z",
     "kr": {
       "why": {
-        "rates": "미 10년물(^TNX)이 4.72%로 1년 범위 상단(위치 97%)에 있고 3개월간 +5.47% 올라 금리 상승 압력이 이어지는 국면으로 분류했습니다(다만 '한미 금리차 축소' 헤드라인도 있어 국내 정책금리 자체 근거는 제한적입니다).",
-        "growth": "코스피가 3개월 -19.91% 급락했지만 1년 범위 내 위치가 61%로 여전히 중상단이고 VIX도 14.43(위치 6%)로 낮아, 침체 신호보다는 둔화 국면으로 판정했습니다.",
-        "valuation": "코스피 6788.88은 1년 범위 3142.93~9114.55의 61% 지점으로 극단적 고평가·저평가 구간이 아니어서 보통으로 봤습니다.",
-        "fx": "원/달러가 1375.67로 1년 범위 최저(위치 0%)이고 3개월간 -10.09% 하락해 원화 강세입니다.",
-        "geo": "VIX 14.43(1년 위치 6%)로 변동성이 매우 낮고, 헤드라인은 중복상장·토큰증권 같은 국내 제도 이슈 위주여서 평온으로 분류했습니다."
+        "rates": "제시된 자료에 한국 정책금리 지표가 없고 미국 10년물(^TNX 4.72, 1년범위 위치 97%, 3개월 +5.47%)만 상승세여서 한국 기준으로는 근거가 약해 중립인 '멈춰 있음'으로 둡니다.",
+        "growth": "코스피가 3개월간 -19.91% 급락했지만 1년범위 위치는 여전히 61%이고 ^VIX도 14.43(위치 6%)로 낮아, 침체 확정보다는 둔화 국면으로 봅니다.",
+        "valuation": "^KS11 6788.88이 1년범위 3142.93~9114.55의 61% 위치로 고점도 저점도 아니며, 3개월 -19.91% 조정을 거친 만큼 '보통'으로 판정합니다.",
+        "fx": "KRW=X가 1375.67로 1년범위(1375.67~1554.48)의 0% 위치이고 3개월 -10.09%라 원화가 뚜렷한 강세이며, '좁아진 한미 금리차' 헤드라인도 같은 방향입니다.",
+        "geo": "^VIX 14.43(1년범위 위치 6%)로 변동성이 매우 낮고 헤드라인도 펀드·토큰증권·수급 관련 내용뿐이어서 특별한 긴장 신호가 없습니다."
       },
-      "summary": "금리는 높은 수준에 머물고 원화는 1년 최저 환율(1375.67)로 강세인데, 코스피는 3개월간 약 20% 빠져 성장 모멘텀이 식은 둔화 국면입니다. 다만 VIX가 14.43으로 매우 낮아 시장 전반의 공포는 크지 않은 상태입니다.",
-      "rates": "hike",
+      "summary": "원화는 1375.67로 1년 중 가장 강한 수준이고 변동성(VIX 14.43)도 낮아 시장 분위기는 차분하지만, 코스피는 3개월간 -19.91% 밀려 경기·수급이 둔화된 모습입니다. 지수 위치가 1년범위 61%로 중간이라 밸류에이션은 보통 구간으로 분류합니다.",
+      "rates": "hold",
       "growth": "slow",
       "valuation": "fair",
       "fx": "strong",
@@ -128,17 +128,17 @@
     },
     "us": {
       "why": {
-        "rates": "^TNX가 4.72%로 1년 범위(3.95~4.74) 상단 97% 지점이고 3개월 +5.47%인 데다, 연준 인사(Hammack)의 '금리 인상 행동' 발언과 인플레이션 우려 헤드라인이 함께 나와 인상 방향으로 판정했습니다.",
-        "growth": "S&P500이 7711.76으로 1년 범위 94% 지점, 3개월 +1.47%로 상승세를 유지해 경기·실적 흐름은 아직 괜찮은 쪽으로 봤습니다.",
-        "valuation": "지수가 1년 고점(7798.99) 근처인 94% 위치이고 레버리지 투자 확산 헤드라인이 함께 나와 비싼 편으로 분류했습니다.",
-        "fx": "원/달러 1375.67(1년 위치 0%, 3개월 -10.09%)은 달러 기준으로는 달러 약세 방향이므로 미국 관점에서는 자국 통화 약세로 봤습니다.",
-        "geo": "VIX 14.43(1년 위치 6%)로 매우 낮고 제시된 헤드라인에 구체적 지정학 충격 사건이 없어 평온으로 분류했습니다."
+        "rates": "^TNX가 4.72로 1년범위 3.95~4.74의 97% 위치이고 3개월 +5.47% 상승했으며, '금리 인상에 대해 지금이 행동할 때'라는 연준 인사 발언 헤드라인도 같은 방향입니다.",
+        "growth": "^GSPC 7711.76이 1년범위의 94% 위치이고 3개월 +1.47%로 완만한 상승세, ^VIX 14.43(위치 6%)의 낮은 변동성까지 감안하면 경기 인식은 '괜찮음' 쪽입니다.",
+        "valuation": "S&P500이 1년범위 6343.72~7798.99에서 94% 위치로 고점 부근이고 레버리지 투자 확대 언급 헤드라인도 있어 '비싼 편'으로 봅니다.",
+        "fx": "KRW=X 1375.67은 1년범위 0% 위치이고 3개월 -10.09%로, 원/달러 기준으로는 원화 강세(달러 약세) 상태입니다.",
+        "geo": "^VIX 14.43(1년범위 위치 6%)로 매우 낮고 헤드라인은 인플레이션·연준 정책 논쟁 수준이어서 충격이라 볼 근거는 없습니다."
       },
-      "summary": "미국 주식은 1년 고점 근처(범위의 94%)까지 올라 가격 부담이 있는 구간이고, 10년물 금리는 4.72%로 상단에 붙어 있어 금리 압력이 남아 있습니다. 변동성 지표(VIX 14.43)는 낮아 시장은 조용하지만, 높은 가격과 높은 금리가 동시에 있는 국면입니다.",
+      "summary": "미국 지수는 1년 고점 부근(위치 94%)이고 변동성은 낮아 겉으로는 안정적이지만, 10년물 금리가 4.72%로 1년 최고 수준까지 올라 금리 부담이 커지는 국면입니다. 가격 위치가 높아 밸류에이션은 비싼 편으로 분류합니다.",
       "rates": "hike",
       "growth": "expand",
       "valuation": "rich",
-      "fx": "weak",
+      "fx": "strong",
       "geo": "calm"
     }
   },
@@ -413,27 +413,27 @@
         "by": "ai"
       },
       {
-        "title": "These charts show how leverage-happy investors are transforming the stock market",
-        "link": "https://www.marketwatch.com/story/these-charts-show-how-leverage-happy-investors-are-transforming-the-stock-market-d4e350c3?mod=mw_rss_topstories",
+        "title": "My mother, 91, has dementia. Every bank says I need her signature to unlock her $100,000 stock certificate. What can I do?",
+        "link": "https://www.marketwatch.com/story/my-mother-91-has-dementia-every-bank-says-i-need-her-signature-to-unlock-her-100-000-stock-certificate-what-can-i-do-4a2b702f?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Sun, 30 Aug 2026 13:00:00 GMT",
-        "ko": "이 차트는 레버리지에 만족하는 투자자들이 주식 시장을 어떻게 변화시키고 있는지 보여줍니다.",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": "market",
-        "why": "레버리지 확대는 시장 변동성 구조와 관련될 수 있어 흐름만 지켜보면 됩니다.",
-        "by": "ai"
-      },
-      {
-        "title": "The 1 Thing Every Investor Needs to Know About Surviving a Bear Market",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/1-thing-every-investor-needs-124500630.html",
-        "source": "Yahoo Finance",
-        "date": "2026-08-29T12:45:00Z",
-        "ko": "베어 마켓에서 살아남기 위해 모든 투자자가 알아야 할 1가지",
+        "date": "Sun, 30 Aug 2026 14:30:00 GMT",
+        "ko": "91세인 어머니는 치매를 앓고 계십니다. 모든 은행에서 $100,000의 주식 증서를 잠금 해제하려면 그녀의 서명이 필요하다고 말합니다. 어떻게 해야 하나요?",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "특정 기업 이익과 무관한 일반적인 투자 조언성 기사입니다.",
+        "why": "개인 상속·명의 관련 사연으로 투자 판단과 직접 관련이 없습니다.",
+        "by": "ai"
+      },
+      {
+        "title": "Josh Brown Says ‘Take a Break From AI CapEx World,’ Highlights His 2 Top Healthcare Stock Picks",
+        "link": "https://finance.yahoo.com/healthcare/articles/josh-brown-says-break-ai-134507001.html",
+        "source": "Yahoo Finance",
+        "date": "2026-08-30T13:45:07Z",
+        "ko": "조쉬 브라운 (Josh Brown) 이 ‘AI CapEx 세계에서 휴식을 취하십시오’ 라고 말하면서, 그의 2 가지 주요 건강 관리 주식 추천을 강조합니다.",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "sector",
+        "why": "전문가 개인 의견이라 기업 이익 구조와는 무관합니다.",
         "by": "ai"
       },
       {
@@ -449,27 +449,27 @@
         "by": "ai"
       },
       {
-        "title": "AI isn’t eating software after all — and the sector’s ‘epic’ rally could run through October",
-        "link": "https://www.marketwatch.com/story/ai-isnt-eating-software-after-all-and-the-sectors-epic-rally-could-run-through-october-a4610583?mod=mw_rss_topstories",
+        "title": "These charts show how leverage-happy investors are transforming the stock market",
+        "link": "https://www.marketwatch.com/story/these-charts-show-how-leverage-happy-investors-are-transforming-the-stock-market-d4e350c3?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Sun, 30 Aug 2026 12:00:00 GMT",
-        "ko": "AI는 결국 소프트웨어를 먹지 않습니다 — 그리고 섹터의 ‘서사시‘ 랠리는 10 월까지 진행될 수 있습니다",
-        "act": "none",
+        "date": "Sun, 30 Aug 2026 13:00:00 GMT",
+        "ko": "이 차트는 레버리지에 만족하는 투자자들이 주식 시장을 어떻게 변화시키고 있는지 보여줍니다.",
+        "act": "watch",
         "lasting": "structural",
-        "scope": "sector",
-        "why": "AI가 소프트웨어를 대체하는지는 장기 논쟁이지만, 랠리 전망은 의견에 가깝습니다.",
+        "scope": "market",
+        "why": "레버리지 확대는 시장 변동성 구조와 관련될 수 있어 흐름만 지켜보면 됩니다.",
         "by": "ai"
       },
       {
-        "title": "The Last Time Money Fled U.S. Stocks, Emerging Markets Won for a Decade... But This Time Around, 'EM' Means Taiwan Semi and Samsung.",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/last-time-money-fled-u-124502477.html",
+        "title": "Dow Jones Futures Due Amid Bullish, Bearish Market Signals. What To Do Now.",
+        "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-microsoft-titans-mask-market-weakness/?src=A00220&yptr=yahoo",
         "source": "Yahoo Finance",
-        "date": "2026-08-29T12:45:02Z",
-        "ko": "마지막 돈은 미국 주식을 날려 버렸고, 신흥 시장은 10 년 동안 승리했습니다... 하지만 이번에는 'EM' 이 대만 세미와 삼성을 의미합니다.",
+        "date": "2026-08-30T13:28:30Z",
+        "ko": "강세장, 베어리쉬 마켓 시그널 가운데 다우 존스 선물 기한. 지금 해야 할 일.",
         "act": "none",
-        "lasting": "structural",
+        "lasting": "temporary",
         "scope": "market",
-        "why": "자금 흐름 변화 관측일 뿐, 오늘 확인할 근거 변화는 없습니다.",
+        "why": "대형주가 지수를 떠받치는 단기 시장 흐름 해설입니다.",
         "by": "ai"
       }
     ]
@@ -730,7 +730,9 @@
     "These charts show how leverage-happy investors are transforming the stock market": "이 차트는 레버리지에 만족하는 투자자들이 주식 시장을 어떻게 변화시키고 있는지 보여줍니다.",
     "Down 35% From Its High, Is Sandisk Stock a Screaming Bargain in September?": "샌디스크 재고가 9월에 비명을 지르는 거래입니까?",
     "The 1 Thing Every Investor Needs to Know About Surviving a Bear Market": "베어 마켓에서 살아남기 위해 모든 투자자가 알아야 할 1가지",
-    "The Last Time Money Fled U.S. Stocks, Emerging Markets Won for a Decade... But This Time Around, 'EM' Means Taiwan Semi and Samsung.": "마지막 돈은 미국 주식을 날려 버렸고, 신흥 시장은 10 년 동안 승리했습니다... 하지만 이번에는 'EM' 이 대만 세미와 삼성을 의미합니다."
+    "The Last Time Money Fled U.S. Stocks, Emerging Markets Won for a Decade... But This Time Around, 'EM' Means Taiwan Semi and Samsung.": "마지막 돈은 미국 주식을 날려 버렸고, 신흥 시장은 10 년 동안 승리했습니다... 하지만 이번에는 'EM' 이 대만 세미와 삼성을 의미합니다.",
+    "Josh Brown Says ‘Take a Break From AI CapEx World,’ Highlights His 2 Top Healthcare Stock Picks": "조쉬 브라운 (Josh Brown) 이 ‘AI CapEx 세계에서 휴식을 취하십시오’ 라고 말하면서, 그의 2 가지 주요 건강 관리 주식 추천을 강조합니다.",
+    "Dow Jones Futures Due Amid Bullish, Bearish Market Signals. What To Do Now.": "강세장, 베어리쉬 마켓 시그널 가운데 다우 존스 선물 기한. 지금 해야 할 일."
   },
   "nvCache": {
     "https://www.yna.co.kr/view/AKR20260824137251008": {
@@ -2824,6 +2826,13 @@
       "lasting": "structural",
       "scope": "market",
       "why": "자금 흐름 변화 관측일 뿐, 오늘 확인할 근거 변화는 없습니다.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/healthcare/articles/josh-brown-says-break-ai-134507001.html": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "sector",
+      "why": "전문가 개인 의견이라 기업 이익 구조와는 무관합니다.",
       "by": "ai"
     }
   },
