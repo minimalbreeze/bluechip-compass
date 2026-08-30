@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-29T23:28:44.887Z",
+  "asOf": "2026-08-30T00:29:38.515Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -28,7 +28,7 @@
       "prev": 7730.990234375,
       "chg": -0.25,
       "basis": "prev-daily-close",
-      "time": "2026-08-28T20:00:00.000Z"
+      "time": "2026-08-28T20:37:00.000Z"
     },
     "^IXIC": {
       "price": 26402.424,
@@ -110,16 +110,16 @@
   },
   "regime": {
     "by": "ai",
-    "asOf": "2026-08-29T23:28:36.009Z",
+    "asOf": "2026-08-30T00:29:30.235Z",
     "kr": {
       "why": {
-        "rates": "미 10년물 금리(^TNX)가 4.72로 1년 범위 상단(위치 97%)이고 3개월간 +5.47% 올랐으며, 헤드라인도 '美 금리인상 우려'와 '9월 인상 시사'를 다루고 있습니다.",
-        "growth": "코스피가 3개월간 -19.91%로 크게 밀렸지만 1년 범위 내 위치는 61%로 중간 위쪽이고 '숨고르기·활력 위축' 수준의 표현에 그쳐, 침체 신호로 단정하기보다 둔화로 봅니다.",
-        "valuation": "코스피 6788.88이 1년 범위 3142.93~9114.55의 61% 지점으로 극단적으로 높지도 낮지도 않아 보통 수준으로 분류합니다.",
-        "fx": "원/달러가 1371.5로 1년 범위(1371.5~1554.48)의 최저점(위치 0%)이고 3개월간 -10.37% 하락해 원화가 강세입니다.",
-        "geo": "VIX가 14.43으로 1년 범위의 6% 수준까지 낮아졌고 제시된 헤드라인에 지정학·정책 충돌 관련 내용이 없어 평온으로 봅니다."
+        "rates": "참고 금리 지표(^TNX)가 4.72로 1년범위 3.95~4.74의 97% 지점이고 3개월간 +5.47% 올라 금리가 위로 향하는 국면입니다.",
+        "growth": "코스피가 3개월 -19.91%로 크게 밀렸지만 1년범위 내 위치는 61%로 아직 중간 위, 헤드라인도 '활력 위축', '7000선 문턱 박스피'라 침체 확정보다는 둔화로 봅니다.",
+        "valuation": "코스피 6788.88은 1년범위 3142.93~9114.55의 61% 지점으로 특별히 싸지도 비싸지도 않은 중간 수준입니다.",
+        "fx": "원/달러가 1371.5로 1년범위 1371.5~1554.48의 최저점(위치 0%)이고 3개월 -10.37%로 원화가 뚜렷이 강해졌습니다.",
+        "geo": "VIX가 14.43으로 1년범위의 6% 지점에 머물고 헤드라인에도 충격성 사건이 없어 긴장도는 낮습니다."
       },
-      "summary": "금리는 오르는 쪽이고 코스피는 3개월간 크게 조정받아 활력이 둔화된 구간입니다. 다만 원화는 1년 최저 수준의 환율(1371.5)로 강세이고 변동성(VIX 14.43)은 낮아, 시장 자체는 비교적 조용한 상태입니다.",
+      "summary": "금리는 오르는 쪽인데 지수는 3개월 -19.91%로 쉬어가고 원화는 1년 최저 환율(1371.5)까지 강해진 국면입니다. 공포지표(VIX 14.43)는 낮아 시장은 조용한 편이며, 지금은 방향을 다시 잡는 정리 구간으로 볼 수 있습니다.",
       "rates": "hike",
       "growth": "slow",
       "valuation": "fair",
@@ -128,13 +128,13 @@
     },
     "us": {
       "why": {
-        "rates": "^TNX가 4.72로 1년 범위(3.95~4.74)의 97% 지점이고 3개월 +5.47%이며, 연준 인사(해맥)의 '지금이 금리 인상에 행동할 때' 발언 헤드라인이 같은 방향을 가리킵니다.",
-        "growth": "S&P500이 7711.76으로 1년 범위의 94% 위치이고 3개월간 +1.47% 상승했으며 '기업 수익이 빠른 속도로 증가' 헤드라인이 있어 현재까지는 괜찮은 상태로 봅니다.",
-        "valuation": "지수가 1년 범위 6343.72~7798.99의 94% 지점으로 고점 부근이어서 비싼 편으로 분류합니다.",
-        "fx": "원/달러 1371.5는 1년 범위의 0% 위치이자 3개월 -10.37%로, 달러 대비 원화가 강세인 상태입니다.",
-        "geo": "VIX 14.43(1년 위치 6%)으로 변동성이 매우 낮고 제시된 헤드라인에 지정학 충격 사안이 없어 평온으로 판단합니다."
+        "rates": "10년물 금리(^TNX)가 4.72로 1년범위 상단(97% 지점)이고 3개월 +5.47%인 데다 '지금이 금리 인상에 행동할 때'라는 연준 인사 발언까지 있어 상승 방향입니다.",
+        "growth": "S&P500이 7711.76으로 1년범위 6343.72~7798.99의 94% 지점이고 3개월 +1.47% 상승, '기업 수익이 빠른 속도로 증가'라는 헤드라인도 있어 경기 흐름은 아직 괜찮아 보입니다.",
+        "valuation": "지수가 1년 고점 7798.99에 근접한 94% 위치라 가격 부담이 있는 상태로 분류합니다.",
+        "fx": "원/달러가 1371.5로 1년 최저(위치 0%), 3개월 -10.37%라 달러 대비 원화가 강한 상태입니다.",
+        "geo": "VIX 14.43(1년범위 6% 지점)으로 변동성이 매우 낮고 제시된 헤드라인에 지정학적 충격 요인이 없습니다."
       },
-      "summary": "미국 증시는 1년 고점 부근(위치 94%)에서 기업 이익이 받쳐주는 국면이지만, 장기금리 4.72와 인상 시사 발언이 부담 요인입니다. 변동성은 낮고 원화는 강세라 시장 분위기는 차분한 편입니다.",
+      "summary": "지수는 1년 고점 부근(94% 위치)까지 올라와 있고 기업 이익도 좋다는 소식이 나오지만, 금리가 4.72로 1년 상단에 붙어 있는 점이 부담인 국면입니다. 변동성은 낮아 겉으로는 조용하지만 가격이 비싼 편이라는 점을 함께 봐야 합니다.",
       "rates": "hike",
       "growth": "expand",
       "valuation": "rich",
@@ -333,6 +333,39 @@
   "news": {
     "kr": [
       {
+        "title": "신현송 \"원화 면역력 생겨…대미 투자, 환율에 부담 안 돼\"",
+        "link": "https://www.yna.co.kr/view/AKR20260830008400072",
+        "source": "연합뉴스",
+        "date": "Sun, 30 Aug 2026 09:00:01 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "환율 관련 전문가 견해로, 기업 이익 구조를 바꾸는 사실은 아닙니다.",
+        "by": "ai"
+      },
+      {
+        "title": "'롤러코스피' 끝나니…7000선 문턱 '박스피' 됐다",
+        "link": "https://www.hankyung.com/article/2026083012997",
+        "source": "한국경제",
+        "date": "Sun, 30 Aug 2026 08:56:58 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "지수 등락과 흐름 묘사일 뿐, 오늘 할 일은 없습니다.",
+        "by": "ai"
+      },
+      {
+        "title": "9월 코스피 8100까지 간다...장기금리 진정될 것",
+        "link": "https://www.mk.co.kr/news/stock/12139452",
+        "source": "매일경제",
+        "date": "Sat, 29 Aug 2026 17:15:32 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "지수 전망은 예측일 뿐이라 오늘 할 일은 없습니다.",
+        "by": "ai"
+      },
+      {
         "title": "'롤러코스피' 멈췄지만…활력 위축에 7천선 문턱 걸린 코스피",
         "link": "https://www.yna.co.kr/view/AKR20260829001400008",
         "source": "연합뉴스",
@@ -352,39 +385,6 @@
         "lasting": "temporary",
         "scope": "market",
         "why": "주간 시황 전망은 단기 흐름 얘기라 장기 판단에 영향이 적습니다.",
-        "by": "ai"
-      },
-      {
-        "title": "9월 코스피 8100까지 간다...장기금리 진정될 것",
-        "link": "https://www.mk.co.kr/news/stock/12139452",
-        "source": "매일경제",
-        "date": "Sat, 29 Aug 2026 17:15:32 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "지수 전망은 예측일 뿐이라 오늘 할 일은 없습니다.",
-        "by": "ai"
-      },
-      {
-        "title": "[마켓인사이트] 확 다가온 美 금리인상 우려…코스피 향방은",
-        "link": "https://www.yna.co.kr/view/AKR20260828181500008",
-        "source": "연합뉴스",
-        "date": "Sun, 30 Aug 2026 07:00:11 +0900",
-        "act": "watch",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "금리 우려는 반복되는 시장 심리 요인이라 흐름만 봐두면 됩니다.",
-        "by": "ai"
-      },
-      {
-        "title": "워시, 9월 인상 시사?…증시 하락 이유 : \"Fed와 싸우지 마라\" [김현석의 월스트리트나우]",
-        "link": "https://www.hankyung.com/article/202608290496i",
-        "source": "한국경제",
-        "date": "Sat, 29 Aug 2026 08:08:06 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "통화정책 전망 해설로, 10년 뒤 기업 이익을 바꾸는 내용은 아닙니다.",
         "by": "ai"
       },
       {
@@ -425,15 +425,15 @@
         "by": "ai"
       },
       {
-        "title": "Johnson & Johnson Stock: Is JNJ Outperforming the Consumer Staples Sector?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/johnson-johnson-stock-jnj-outperforming-171212270.html",
+        "title": "Dunkin' comes back to major market after 12-year absence",
+        "link": "https://finance.yahoo.com/small-business/articles/dunkin-comes-back-major-market-161700314.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-29T17:12:12Z",
-        "ko": "Johnson & Johnson Stock: JNJ가 소비자 스테이플 부문을 능가합니까?",
+        "date": "2026-08-28T16:17:00Z",
+        "ko": "던킨은 12년간의 부재 끝에 주요 시장으로 돌아온다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
-        "why": "단기 주가 비교 기사로 기업 이익 구조와는 무관합니다.",
+        "why": "특정 시장 재진출 소식으로, 장기 이익 구조를 바꿀 정보는 제목만으로 확인되지 않습니다.",
         "by": "ai"
       },
       {
@@ -461,15 +461,14 @@
         "by": "ai"
       },
       {
-        "title": "Is Costco Stock Underperforming the Dow?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/costco-stock-underperforming-dow-165446351.html",
+        "title": "What Are Wall Street Analysts' Target Price for Fair Isaac Stock?",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-target-price-180356170.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-29T16:54:46Z",
-        "ko": "코스트코 주식이 다우지수를 밑도는가?",
+        "date": "2026-08-28T18:03:56Z",
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
-        "why": "지수 대비 수익률 비교일 뿐 사업 근거를 바꾸지 않습니다.",
+        "why": "애널리스트 목표주가는 의견일 뿐, 회사 실적 구조와는 무관합니다.",
         "by": "ai"
       }
     ]
@@ -2515,7 +2514,30 @@
       "scope": "company",
       "why": "지수 대비 수익률 비교일 뿐 사업 근거를 바꾸지 않습니다.",
       "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20260830008400072": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "환율 관련 전문가 견해로, 기업 이익 구조를 바꾸는 사실은 아닙니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/2026083012997": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "지수 등락과 흐름 묘사일 뿐, 오늘 할 일은 없습니다.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-target-price-180356170.html": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "애널리스트 목표주가는 의견일 뿐, 회사 실적 구조와는 무관합니다.",
+      "by": "ai"
     }
   },
-  "failed": []
+  "failed": [
+    "translate: HTTP 429"
+  ]
 }
