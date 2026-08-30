@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-30T10:22:44.938Z",
+  "asOf": "2026-08-30T11:23:35.618Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -110,16 +110,16 @@
   },
   "regime": {
     "by": "ai",
-    "asOf": "2026-08-30T10:22:37.032Z",
+    "asOf": "2026-08-30T11:23:31.885Z",
     "kr": {
       "why": {
-        "rates": "미 10년물 금리(^TNX)가 4.72%로 1년 범위 위치 97%, 3개월 +5.47%로 상단에 붙어 있고 헤드라인도 '좁아진 한미 금리차'를 언급해 금리 상승 압력 국면으로 봅니다.",
-        "growth": "코스피가 3개월간 -19.91% 급락했으나 1년 범위 위치는 여전히 61%이고 VIX가 14.43(위치 6%)로 낮아 침체 확정 신호로 보기엔 근거가 약해 둔화(slow)로 중립적으로 판정합니다.",
-        "valuation": "코스피 6788.88은 1년범위 3142.93~9114.55의 61% 지점으로 극단이 아니어서 보통(fair)입니다.",
-        "fx": "원/달러가 1371.5로 1년 범위 최저(위치 0%), 3개월 -10.37%로 원화가 뚜렷하게 강세입니다.",
-        "geo": "VIX 14.43(1년 위치 6%)에 헤드라인도 펀드·토큰증권·실적 등 일상적 소재여서 특별한 긴장 신호가 없습니다."
+        "rates": "참고 금리 지표인 ^TNX가 4.72로 1년범위 상단(위치 97%)에 있고 3개월간 +5.47% 올라, 금리는 오르는 쪽으로 분류합니다(다만 한국 기준금리 자체 수치는 자료에 없어 미 국채금리와 '좁아진 한미 금리차' 헤드라인으로 대신 판단했습니다).",
+        "growth": "^KS11이 3개월간 -19.91%로 크게 밀렸지만 현재 6788.88은 1년범위(3142.93~9114.55)의 61% 지점이고 ^VIX도 14.43으로 낮아, 침체 신호까지는 아니고 둔화 국면으로 봅니다.",
+        "valuation": "^KS11이 1년범위 안에서 위치 61%로 중간보다 조금 위일 뿐이고, PER 등 별도 밸류 지표가 자료에 없어 중립값인 '보통'으로 둡니다.",
+        "fx": "KRW=X가 1371.5로 1년범위(1371.5~1554.48)의 최저점(위치 0%)이고 3개월간 -10.37% 하락해, 원화가 뚜렷한 강세입니다.",
+        "geo": "^VIX가 14.43으로 1년범위 위치 6%까지 내려왔고 헤드라인도 펀드·토큰증권·수급 이야기 위주라 긴장 요인이 확인되지 않습니다."
       },
-      "summary": "금리는 위로, 환율은 원화 강세인 가운데 코스피만 3개월 -19.91% 크게 밀린 국면입니다. 지수 위치와 변동성은 아직 평온해 '침체'보다는 '둔화 중' 신호로 분류합니다.",
+      "summary": "원화는 1371.5로 1년 최저 수준까지 내려올 만큼 강해졌고 변동성지수도 14.43으로 잠잠하지만, 코스피는 3개월간 -19.91% 밀려 열기가 식은 둔화 국면입니다. 지수 위치는 1년범위의 61%로 중간권이어서 밸류에이션은 보통, 금리는 미 국채 4.72% 기준으로 오름세로 분류했습니다.",
       "rates": "hike",
       "growth": "slow",
       "valuation": "fair",
@@ -128,13 +128,13 @@
     },
     "us": {
       "why": {
-        "rates": "^TNX가 4.72%로 1년 범위 위치 97%, 3개월 +5.47%이며 헤드라인에서 연준 해맥의 '금리 인상, 지금이 행동할 때' 발언과 인플레이션 우려가 함께 언급됩니다.",
-        "growth": "S&P500이 7711.76으로 1년 범위 위치 94%, 3개월 +1.47%로 상단을 유지하고 '기업 수익이 빠른 속도로 증가' 헤드라인도 있어 확장 국면으로 봅니다.",
-        "valuation": "S&P500이 1년범위 6343.72~7798.99에서 94% 지점, 즉 고점 근처에 있어 비싼 편(rich)으로 분류합니다.",
-        "fx": "원/달러 1371.5는 1년 범위 위치 0%, 3개월 -10.37%로 달러 대비 원화가 강세인 상태입니다.",
-        "geo": "VIX 14.43(1년 위치 6%)으로 매우 낮고 헤드라인에 지정학·정책 충격 소재가 없어 평온으로 판정합니다."
+        "rates": "^TNX가 4.72로 1년범위(3.95~4.74) 위치 97%, 3개월 +5.47%이고 연준 인사(해맥)의 '금리 인상' 발언 헤드라인도 있어 금리는 오르는 방향입니다.",
+        "growth": "^GSPC가 7711.76으로 1년범위 위치 94%, 3개월 +1.47%로 상승세를 지키고 있고 '기업 수익이 빠르게 증가' 헤드라인도 있어 경기는 아직 괜찮은 쪽으로 봅니다.",
+        "valuation": "^GSPC가 1년범위(6343.72~7798.99)의 94% 지점인 고점 부근이라 가격 부담이 큰 편으로 분류합니다(밸류 지표 수치는 자료에 없어 지수 위치로만 판단).",
+        "fx": "KRW=X가 1371.5로 1년범위 최저(위치 0%), 3개월 -10.37%라 원화 기준으로는 강세, 즉 달러가 상대적으로 약해진 상태입니다.",
+        "geo": "^VIX가 14.43으로 1년범위 위치 6%의 낮은 수준이고 제시된 헤드라인에 지정학적 충돌 내용이 없어 평온으로 봅니다."
       },
-      "summary": "미국 지수는 1년 고점권(위치 94%)이고 변동성도 낮지만, 10년물 금리가 4.72%로 상단에 붙어 금리 상승 부담이 함께 있는 국면입니다. 경기는 괜찮아 보이나 가격은 싸지 않은 상태로 분류됩니다.",
+      "summary": "미국 증시는 1년 고점 부근(위치 94%)에서 변동성 14.43의 조용한 상승 국면이지만, 10년물 금리가 4.72%로 1년 최고 수준까지 올라 금리 부담이 함께 커진 상태입니다. 지수 위치가 높아 가격은 비싼 편으로 분류했고, 원/달러는 1371.5로 원화 강세 쪽입니다.",
       "rates": "hike",
       "growth": "expand",
       "valuation": "rich",
@@ -425,15 +425,15 @@
         "by": "ai"
       },
       {
-        "title": "Berkshire Hathaway Roughly Tripled $10,000 in a Decade. Did It Beat the Market?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/berkshire-hathaway-roughly-tripled-10-080101469.html",
+        "title": "If a Bear Market Is Coming, History Has Good News for Investors",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/bear-market-coming-history-good-102000573.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-29T08:01:01Z",
-        "ko": "버크셔 해서웨이 (Berkshire Hathaway) 는 약 10년 만에 $10,000를 세 배로 올렸습니다. 시장을 이겼습니까?",
+        "date": "2026-08-29T10:20:00Z",
+        "ko": "베어 마켓이 온다면, 역사는 투자자들에게 희소식을 가져다 줄 것입니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
-        "why": "과거 수익률을 되돌아보는 기사로, 앞으로의 이익 구조를 바꾸는 내용은 없습니다.",
+        "scope": "market",
+        "why": "과거 사례를 다룬 전망성 논평으로, 기업 이익과는 무관합니다.",
         "by": "ai"
       },
       {
@@ -722,7 +722,8 @@
     "Marvell Fell After Its Google Deal. Why Did Investors Sell These Two AI Optics Stocks Too?": "Marvell은 구글 딜 후 넘어졌습니다. 투자자들은 왜 이 두 인공지능 광학 주식을 너무 많이 팔았을까요?",
     "Coinbase and Robinhood Rally as Bitcoin Marches Toward Its Best Week in Months": "Bitcoin이 몇 달 만에 최고의 주간을 향해 행진함에 따라 Coinbase와 Robinhood Rally",
     "Alibaba Shares Fell on a $10 Billion AI Raise. Insiders Saw a Buying Opportunity": "알리바바 주식은 $100억의 AI 자금 조달로 하락했습니다. 내부자가 본 구매 기회",
-    "Berkshire Hathaway Roughly Tripled $10,000 in a Decade. Did It Beat the Market?": "버크셔 해서웨이 (Berkshire Hathaway) 는 약 10년 만에 $10,000를 세 배로 올렸습니다. 시장을 이겼습니까?"
+    "Berkshire Hathaway Roughly Tripled $10,000 in a Decade. Did It Beat the Market?": "버크셔 해서웨이 (Berkshire Hathaway) 는 약 10년 만에 $10,000를 세 배로 올렸습니다. 시장을 이겼습니까?",
+    "If a Bear Market Is Coming, History Has Good News for Investors": "베어 마켓이 온다면, 역사는 투자자들에게 희소식을 가져다 줄 것입니다."
   },
   "nvCache": {
     "https://www.yna.co.kr/view/AKR20260824137251008": {
@@ -2760,6 +2761,13 @@
       "lasting": "temporary",
       "scope": "company",
       "why": "과거 수익률을 되돌아보는 기사로, 앞으로의 이익 구조를 바꾸는 내용은 없습니다.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/markets/stocks/articles/bear-market-coming-history-good-102000573.html": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "과거 사례를 다룬 전망성 논평으로, 기업 이익과는 무관합니다.",
       "by": "ai"
     }
   },
