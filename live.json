@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-30T03:16:12.569Z",
+  "asOf": "2026-08-30T04:17:01.532Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -21,7 +21,7 @@
       "prev": 1380.449951171875,
       "chg": -0.65,
       "basis": "prev-daily-close",
-      "time": "2026-08-29T03:30:48.000Z"
+      "time": "2026-08-30T03:30:35.000Z"
     },
     "^GSPC": {
       "price": 7711.76,
@@ -110,16 +110,16 @@
   },
   "regime": {
     "by": "ai",
-    "asOf": "2026-08-30T03:15:56.405Z",
+    "asOf": "2026-08-30T04:16:55.087Z",
     "kr": {
       "why": {
-        "rates": "장기금리(^TNX)가 4.72로 1년 범위의 97% 지점이고 3개월간 +5.47% 올랐으며, 한은이 \"수요 압력에 물가 상승세가 더 광범위하게 확산될 가능성\"을 언급해 금리가 위쪽으로 눌리는 국면으로 봅니다.",
-        "growth": "코스피가 3개월간 -19.91%로 크게 밀렸지만 현재 6788.88로 1년범위(3142.93~9114.55)의 61% 위치이고 헤드라인도 '박스피·숨고르기'를 말해, 침체 신호라기보다 둔화 구간으로 판단합니다.",
-        "valuation": "코스피 6788.88은 1년 범위의 61% 지점으로 고점(9114.55)과 저점(3142.93)의 중간보다 약간 위여서 극단적으로 싸거나 비싸다고 볼 근거가 부족합니다.",
-        "fx": "원/달러가 1371.5로 1년 범위(1371.5~1554.48)의 0% 즉 1년 최저 수준이고 3개월간 -10.37% 내려 원화가 강한 쪽입니다.",
-        "geo": "VIX가 14.43으로 1년 범위의 6% 수준이고 3개월간 -10.09% 내렸으며 제시된 헤드라인에 지정학적 충격 소재가 없어 평온으로 봅니다."
+        "rates": "미국 10년물 금리(^TNX)가 4.72%로 1년 범위 상단(위치 97%)에 있고 3개월간 +5.47% 올랐으며, 한은도 \"수요 압력에 물가 상승세가 더 광범위하게 확산될 가능성\"을 언급해 금리 상승·긴축 쪽으로 판정합니다.",
+        "growth": "코스피가 3개월간 -19.91% 급락해 압박은 크지만 1년 범위상 위치는 아직 61%이고 '7000선 박스피' 헤드라인처럼 조정·정체 성격이 강해, 침체 확정보다는 둔화로 봅니다.",
+        "valuation": "코스피 6788.88은 1년 범위 3142.93~9114.55의 61% 지점으로 고점도 저점도 아니며, 밸류에이션 지표가 따로 주어지지 않아 중립인 fair로 둡니다.",
+        "fx": "원/달러가 1371.5로 1년 범위(1371.5~1554.48)의 최저치(위치 0%)이고 3개월간 -10.37% 하락해 원화가 뚜렷하게 강해진 상태입니다.",
+        "geo": "VIX가 14.43으로 1년 범위 위치 6%까지 낮아졌고 헤드라인도 물가·실적·주주환원 등 국내 이슈여서, 별다른 지정학 충격 신호는 확인되지 않습니다."
       },
-      "summary": "금리는 위쪽, 지수는 3개월간 크게 조정받은 뒤 6800선에서 숨고르기 중인 둔화 국면입니다. 원화는 1년 최저 수준(1371.5)까지 내려 강세이고 변동성 지표는 낮아 시장 분위기 자체는 조용한 편입니다.",
+      "summary": "금리는 높고 원화는 1년 최저(1371.5)까지 강해진 가운데, 코스피는 3개월 -19.91% 조정 후 7000선 아래에서 쉬어가는 국면입니다. 변동성 지표(VIX 14.43)는 낮아 시장 공포보다는 성장 둔화와 금리 부담이 주된 특징입니다.",
       "rates": "hike",
       "growth": "slow",
       "valuation": "fair",
@@ -128,13 +128,13 @@
     },
     "us": {
       "why": {
-        "rates": "10년물 금리(^TNX)가 4.72로 1년 범위(3.95~4.74)의 97% 지점이고 3개월 +5.47%인 데다, 연준 인사 해맥이 \"금리 인상에 지금이 행동할 때\"라고 언급해 인상 쪽 압력이 읽힙니다.",
-        "growth": "S&P500이 7711.76으로 1년 범위의 94% 지점이고 3개월 +1.47%로 상승세를 유지하며, \"기업 수익이 빠른 속도로 증가\"한다는 헤드라인도 확장 국면과 부합합니다.",
-        "valuation": "지수가 1년 고점(7798.99) 바로 아래인 94% 위치에 있어 가격대는 높은 편이며, 다만 실적 증가 지속성에 의문을 제기하는 헤드라인도 함께 있습니다.",
-        "fx": "원/달러가 1371.5로 1년 범위의 0%(최저)이고 3개월 -10.37%여서, 한국 투자자 입장에서 달러 대비 원화가 강한 상태입니다.",
-        "geo": "VIX 14.43(1년 범위 6%, 3개월 -10.09%)으로 낮고 제시된 헤드라인에 지정학·정책 충격 사건이 없어 평온으로 분류합니다."
+        "rates": "10년물 금리(^TNX)가 4.72%로 1년 범위 위치 97%, 3개월 +5.47%이며 연준 관계자(해맥)의 \"금리 인상, 지금이 행동할 때\" 발언과 인플레 우려 언급이 겹쳐 인상 방향으로 봅니다.",
+        "growth": "S&P500이 7711.76으로 1년 범위 94% 지점이고 3개월 +1.47%로 상승세를 유지하며, \"기업 수익이 빠른 속도로 증가\"라는 헤드라인도 확장 국면을 뒷받침합니다.",
+        "valuation": "지수가 1년 범위 6343.72~7798.99 중 94% 위치의 고점 근처이고 VIX는 14.43(위치 6%)로 안일한 편이어서, 가격 부담이 있는 rich로 판정합니다.",
+        "fx": "원/달러 1371.5는 1년 범위 최저(위치 0%)이고 3개월 -10.37%로, 달러 대비 원화 강세(달러 약세) 쪽 신호입니다.",
+        "geo": "VIX 14.43(1년 위치 6%)의 낮은 변동성과 통화정책·기업 이슈 중심 헤드라인만 주어져 지정학적 충격 근거는 없습니다."
       },
-      "summary": "지수는 1년 고점 부근(94% 위치)까지 올라와 가격은 비싼 편이고, 실적은 좋지만 장기금리 4.72%와 인상 발언이 부담으로 남아 있는 국면입니다. 변동성 지표는 매우 낮아 표면은 잔잔하며, 원화 강세로 환차손 방향의 환경이라는 점도 함께 보시면 됩니다.",
+      "summary": "미국은 지수가 1년 고점 근처(위치 94%)이고 기업 이익도 늘어나는 확장 국면이지만, 10년물 4.72%와 연준의 인상 발언처럼 금리 부담이 함께 있는 상태입니다. 변동성은 매우 낮아(VIX 14.43) 가격이 비싼 구간이라는 점만 기억하면 됩니다.",
       "rates": "hike",
       "growth": "expand",
       "valuation": "rich",
@@ -344,14 +344,14 @@
         "by": "ai"
       },
       {
-        "title": "박세익 \"대형주보다 코스닥과 중소형주에서 기회를 찾으라\"",
-        "link": "https://www.hankyung.com/article/202608289862i",
+        "title": "9월 증시, 조정에 대비해야 하는 이유 [이주영의 시장을 꿰뚫는 기술]",
+        "link": "https://www.hankyung.com/article/202608276761i",
         "source": "한국경제",
-        "date": "Sun, 30 Aug 2026 10:26:02 +0900",
+        "date": "Sun, 30 Aug 2026 12:00:02 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "전문가의 시장 전망 의견으로, 기업 이익 구조가 바뀌는 사안은 아닙니다.",
+        "why": "단기 조정 전망 칼럼으로, 기업 이익 구조와는 무관합니다.",
         "by": "ai"
       },
       {
@@ -366,14 +366,14 @@
         "by": "ai"
       },
       {
-        "title": "'롤러코스피' 끝나니…7000선 문턱 '박스피' 됐다",
-        "link": "https://www.hankyung.com/article/2026083012997",
+        "title": "박세익 \"대형주보다 코스닥과 중소형주에서 기회를 찾으라\"",
+        "link": "https://www.hankyung.com/article/202608289862i",
         "source": "한국경제",
-        "date": "Sun, 30 Aug 2026 08:56:58 +0900",
+        "date": "Sun, 30 Aug 2026 10:26:02 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "지수 등락과 흐름 묘사일 뿐, 오늘 할 일은 없습니다.",
+        "why": "전문가의 시장 전망 의견으로, 기업 이익 구조가 바뀌는 사안은 아닙니다.",
         "by": "ai"
       },
       {
@@ -388,14 +388,14 @@
         "by": "ai"
       },
       {
-        "title": "코스피 숨고르기 구간…\"반도체 더해 2차전지·AI 서비스주 주목\" [주간전망]",
-        "link": "https://www.hankyung.com/article/2026082894946",
+        "title": "'롤러코스피' 끝나니…7000선 문턱 '박스피' 됐다",
+        "link": "https://www.hankyung.com/article/2026083012997",
         "source": "한국경제",
-        "date": "Sun, 30 Aug 2026 08:00:06 +0900",
+        "date": "Sun, 30 Aug 2026 08:56:58 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "주간 시황 전망은 단기 흐름 얘기라 장기 판단에 영향이 적습니다.",
+        "why": "지수 등락과 흐름 묘사일 뿐, 오늘 할 일은 없습니다.",
         "by": "ai"
       }
     ],
@@ -461,15 +461,15 @@
         "by": "ai"
       },
       {
-        "title": "Netflix Stock Is Up 25% From Its 2026 Lows. More Gains for NFLX Could Be in Store.",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/netflix-stock-25-2026-lows-195638302.html",
+        "title": "Chagee Holdings Limited American Depositary Shares Q2 2026 Earnings Call Summary",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/chagee-holdings-limited-american-depositary-205201187.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-28T19:56:38Z",
-        "ko": "넷플릭스 주식은 2026년 최저치보다 25% 상승했습니다. NFLX에 대한 더 많은 이득이 매장에 있을 수 있습니다.",
+        "date": "2026-08-28T20:52:01Z",
+        "ko": "Chagee Holdings Limited 2026년 2분기 미국 예탁결제원 주식 이익 통화 요약",
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
-        "why": "주가 반등과 전망 언급일 뿐, 사업 구조가 바뀐 소식은 아닙니다.",
+        "why": "분기 실적 요약 제목만으로는 장기 이익 변화를 알 수 없습니다.",
         "by": "ai"
       }
     ]
@@ -710,7 +710,8 @@
     "Is Costco Stock Underperforming the Dow?": "코스트코 주식이 다우지수를 밑도는가?",
     "Jim Cramer Advised Letting Go Of Walmart Inc. (NASDAQ:WMT) Following Earnings": "Jim Cramer는 수입에 따라 Walmart Inc. (NASDAQ: WMT) 를 놓아 줄 것을 조언했습니다.",
     "Barrick Mining (B) Has an IPO Catalyst. Newmont Corporation (NEM) Has the Cash. Which Gold Stock Wins?": "배릭 마이닝 (B) 에 IPO 촉매가 있습니다. Newmont Corporation (NEM) 은 현금을 보유하고 있습니다. 어떤 금재고가 이길까요?",
-    "Netflix Stock Is Up 25% From Its 2026 Lows. More Gains for NFLX Could Be in Store.": "넷플릭스 주식은 2026년 최저치보다 25% 상승했습니다. NFLX에 대한 더 많은 이득이 매장에 있을 수 있습니다."
+    "Netflix Stock Is Up 25% From Its 2026 Lows. More Gains for NFLX Could Be in Store.": "넷플릭스 주식은 2026년 최저치보다 25% 상승했습니다. NFLX에 대한 더 많은 이득이 매장에 있을 수 있습니다.",
+    "Chagee Holdings Limited American Depositary Shares Q2 2026 Earnings Call Summary": "Chagee Holdings Limited 2026년 2분기 미국 예탁결제원 주식 이익 통화 요약"
   },
   "nvCache": {
     "https://www.yna.co.kr/view/AKR20260824137251008": {
@@ -2580,6 +2581,20 @@
       "lasting": "temporary",
       "scope": "company",
       "why": "주가 반등과 전망 언급일 뿐, 사업 구조가 바뀐 소식은 아닙니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/202608276761i": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "단기 조정 전망 칼럼으로, 기업 이익 구조와는 무관합니다.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/markets/stocks/articles/chagee-holdings-limited-american-depositary-205201187.html": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "분기 실적 요약 제목만으로는 장기 이익 변화를 알 수 없습니다.",
       "by": "ai"
     }
   },
