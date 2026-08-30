@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-30T11:23:35.618Z",
+  "asOf": "2026-08-30T12:24:30.041Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -110,16 +110,16 @@
   },
   "regime": {
     "by": "ai",
-    "asOf": "2026-08-30T11:23:31.885Z",
+    "asOf": "2026-08-30T12:24:24.779Z",
     "kr": {
       "why": {
-        "rates": "참고 금리 지표인 ^TNX가 4.72로 1년범위 상단(위치 97%)에 있고 3개월간 +5.47% 올라, 금리는 오르는 쪽으로 분류합니다(다만 한국 기준금리 자체 수치는 자료에 없어 미 국채금리와 '좁아진 한미 금리차' 헤드라인으로 대신 판단했습니다).",
-        "growth": "^KS11이 3개월간 -19.91%로 크게 밀렸지만 현재 6788.88은 1년범위(3142.93~9114.55)의 61% 지점이고 ^VIX도 14.43으로 낮아, 침체 신호까지는 아니고 둔화 국면으로 봅니다.",
-        "valuation": "^KS11이 1년범위 안에서 위치 61%로 중간보다 조금 위일 뿐이고, PER 등 별도 밸류 지표가 자료에 없어 중립값인 '보통'으로 둡니다.",
-        "fx": "KRW=X가 1371.5로 1년범위(1371.5~1554.48)의 최저점(위치 0%)이고 3개월간 -10.37% 하락해, 원화가 뚜렷한 강세입니다.",
-        "geo": "^VIX가 14.43으로 1년범위 위치 6%까지 내려왔고 헤드라인도 펀드·토큰증권·수급 이야기 위주라 긴장 요인이 확인되지 않습니다."
+        "rates": "미 10년물(^TNX)이 4.72%로 1년 범위 상단(위치 97%)에 있고 3개월간 +5.47% 올라 금리 상방 압력이 우세하며, 헤드라인도 '좁아진 한미 금리차'를 언급합니다.",
+        "growth": "코스피가 3개월간 -19.91% 급락한 점은 둔화 신호지만, 1년 범위 내 위치가 여전히 61%이고 VIX가 14.43(위치 6%)으로 낮아 침체 확정으로 보기엔 근거가 약해 중간값인 '둔화'로 봤습니다.",
+        "valuation": "코스피 6788.88은 1년 범위(3142.93~9114.55) 중 61% 지점으로 고점도 저점도 아니어서 보통 수준으로 분류했습니다.",
+        "fx": "원/달러가 1371.5로 1년 범위(1371.5~1554.48) 최저점(위치 0%)이고 3개월간 -10.37% 하락해 원화가 강세입니다.",
+        "geo": "VIX가 14.43으로 1년 범위 하단(위치 6%)이고 헤드라인도 펀드·토큰증권 등 국내 이슈 위주로, 뚜렷한 긴장 근거가 없습니다."
       },
-      "summary": "원화는 1371.5로 1년 최저 수준까지 내려올 만큼 강해졌고 변동성지수도 14.43으로 잠잠하지만, 코스피는 3개월간 -19.91% 밀려 열기가 식은 둔화 국면입니다. 지수 위치는 1년범위의 61%로 중간권이어서 밸류에이션은 보통, 금리는 미 국채 4.72% 기준으로 오름세로 분류했습니다.",
+      "summary": "금리는 위쪽을 보고 있고 원화는 1년 중 가장 강한 수준인데, 코스피는 3개월간 약 20% 내려 지수 자체는 둔화 국면입니다. 다만 VIX가 매우 낮아 시장이 공포에 빠진 상태는 아닙니다.",
       "rates": "hike",
       "growth": "slow",
       "valuation": "fair",
@@ -128,13 +128,13 @@
     },
     "us": {
       "why": {
-        "rates": "^TNX가 4.72로 1년범위(3.95~4.74) 위치 97%, 3개월 +5.47%이고 연준 인사(해맥)의 '금리 인상' 발언 헤드라인도 있어 금리는 오르는 방향입니다.",
-        "growth": "^GSPC가 7711.76으로 1년범위 위치 94%, 3개월 +1.47%로 상승세를 지키고 있고 '기업 수익이 빠르게 증가' 헤드라인도 있어 경기는 아직 괜찮은 쪽으로 봅니다.",
-        "valuation": "^GSPC가 1년범위(6343.72~7798.99)의 94% 지점인 고점 부근이라 가격 부담이 큰 편으로 분류합니다(밸류 지표 수치는 자료에 없어 지수 위치로만 판단).",
-        "fx": "KRW=X가 1371.5로 1년범위 최저(위치 0%), 3개월 -10.37%라 원화 기준으로는 강세, 즉 달러가 상대적으로 약해진 상태입니다.",
-        "geo": "^VIX가 14.43으로 1년범위 위치 6%의 낮은 수준이고 제시된 헤드라인에 지정학적 충돌 내용이 없어 평온으로 봅니다."
+        "rates": "^TNX가 4.72%로 1년 범위 상단(위치 97%), 3개월 +5.47%이며 헤드라인에서 연준 인사(해맥)의 '금리 인상' 발언과 인플레이션 우려가 함께 나옵니다.",
+        "growth": "S&P500이 7711.76로 1년 범위 위치 94%, 3개월 +1.47%로 상승 흐름을 유지하고 있어 경기 인식은 양호한 편입니다.",
+        "valuation": "지수가 1년 범위(6343.72~7798.99) 중 94% 지점으로 고점 근처여서 가격 부담이 있는 편으로 분류했습니다.",
+        "fx": "원/달러 1371.5는 1년 범위 최저(위치 0%), 3개월 -10.37%로 달러 대비 원화가 강세인 상태입니다.",
+        "geo": "VIX 14.43(위치 6%)이 매우 낮고 헤드라인에 분쟁·정책 충격 관련 내용이 없어 평온으로 봤습니다."
       },
-      "summary": "미국 증시는 1년 고점 부근(위치 94%)에서 변동성 14.43의 조용한 상승 국면이지만, 10년물 금리가 4.72%로 1년 최고 수준까지 올라 금리 부담이 함께 커진 상태입니다. 지수 위치가 높아 가격은 비싼 편으로 분류했고, 원/달러는 1371.5로 원화 강세 쪽입니다.",
+      "summary": "미국 주가는 1년 고점 근처(위치 94%)로 가격 부담이 있는데, 국채금리는 4.72%로 상단에 붙어 있어 금리 쪽 긴장이 남아 있는 국면입니다. 변동성 지표는 낮아 시장 분위기 자체는 차분합니다.",
       "rates": "hike",
       "growth": "expand",
       "valuation": "rich",
@@ -413,27 +413,27 @@
         "by": "ai"
       },
       {
-        "title": "My mother, 91, has dementia. Every bank says I need her signature to unlock her $100,000 stock certificate. What can I do?",
-        "link": "https://www.marketwatch.com/story/my-mother-91-has-dementia-every-bank-says-i-need-her-signature-to-unlock-her-100-000-stock-certificate-what-can-i-do-4a2b702f?mod=mw_rss_topstories",
+        "title": "AI isn’t eating software after all — and the sector’s ‘epic’ rally could run through October",
+        "link": "https://www.marketwatch.com/story/ai-isnt-eating-software-after-all-and-the-sectors-epic-rally-could-run-through-october-a4610583?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Sat, 29 Aug 2026 16:00:00 GMT",
-        "ko": "91세인 어머니는 치매를 앓고 계십니다. 모든 은행에서 $100,000의 주식 증서를 잠금 해제하려면 그녀의 서명이 필요하다고 말합니다. 어떻게 해야 하나요?",
+        "date": "Sun, 30 Aug 2026 12:00:00 GMT",
+        "ko": "AI는 결국 소프트웨어를 먹지 않습니다 — 그리고 섹터의 ‘서사시‘ 랠리는 10 월까지 진행될 수 있습니다",
         "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "개인 상속·명의 관련 사연으로 투자 판단과 직접 관련이 없습니다.",
+        "lasting": "structural",
+        "scope": "sector",
+        "why": "AI가 소프트웨어를 대체하는지는 장기 논쟁이지만, 랠리 전망은 의견에 가깝습니다.",
         "by": "ai"
       },
       {
-        "title": "If a Bear Market Is Coming, History Has Good News for Investors",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/bear-market-coming-history-good-102000573.html",
+        "title": "4 Dividend Stocks Yielding Over 6% That Every Roth Should Hold",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/4-dividend-stocks-yielding-over-110104644.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-29T10:20:00Z",
-        "ko": "베어 마켓이 온다면, 역사는 투자자들에게 희소식을 가져다 줄 것입니다.",
+        "date": "2026-08-29T11:01:04Z",
+        "ko": "모든 Roth가 보유해야 하는 6% 이상의 수익을 내는 4가지 배당주",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "과거 사례를 다룬 전망성 논평으로, 기업 이익과는 무관합니다.",
+        "why": "특정 종목을 추천하는 정보성 기사로, 투자 근거를 바꾸지 않습니다.",
         "by": "ai"
       },
       {
@@ -449,27 +449,27 @@
         "by": "ai"
       },
       {
-        "title": "Corporate earnings have been growing at a blistering pace. Here’s why that’s not likely to last.",
-        "link": "https://www.marketwatch.com/story/corporate-earnings-have-been-growing-at-a-blistering-pace-heres-why-thats-not-likely-to-last-28810eac?mod=mw_rss_topstories",
+        "title": "My mother, 91, has dementia. Every bank says I need her signature to unlock her $100,000 stock certificate. What can I do?",
+        "link": "https://www.marketwatch.com/story/my-mother-91-has-dementia-every-bank-says-i-need-her-signature-to-unlock-her-100-000-stock-certificate-what-can-i-do-4a2b702f?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Sat, 29 Aug 2026 11:30:00 GMT",
-        "ko": "기업 수익은 빠른 속도로 증가하고 있습니다. 이것이 지속되지 않는 이유입니다.",
+        "date": "Sat, 29 Aug 2026 16:00:00 GMT",
+        "ko": "91세인 어머니는 치매를 앓고 계십니다. 모든 은행에서 $100,000의 주식 증서를 잠금 해제하려면 그녀의 서명이 필요하다고 말합니다. 어떻게 해야 하나요?",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "이익 증가 지속성에 대한 전망 기사로, 오늘 할 일은 없습니다.",
+        "why": "개인 상속·명의 관련 사연으로 투자 판단과 직접 관련이 없습니다.",
         "by": "ai"
       },
       {
-        "title": "Best CD rates today, Saturday, August 29, 2026: Lock in up to 4.30% APY with a 16- or 18-month CD",
-        "link": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-saturday-august-29-2026-lock-in-up-to-430-apy-with-a-16--or-18-month-cd-100000220.html",
+        "title": "What Are The Top Defense Stocks This Year? These 5 Leaders Will Surprise You.",
+        "link": "https://www.investors.com/news/defense-aerospace-stock-leaders-2026-sifco-ducommun-ati-spire-astronics-space-contractors-lmt-ba-rtx/?src=A00220&yptr=yahoo",
         "source": "Yahoo Finance",
-        "date": "2026-08-29T10:00:00Z",
-        "ko": "2026년 8월 29일 토요일, 최고의 CD 요금: 16개월 또는 18개월 CD로 최대 4.30% APY 잠금",
+        "date": "2026-08-29T11:30:31Z",
+        "ko": "올해 최고의 방어 주식은 무엇입니까? 이 5명의 리더가 여러분을 놀라게 할 것입니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "예금 금리 안내성 기사로 기업 이익과 무관합니다.",
+        "why": "수익률 순위 소개 기사이며 기업 이익의 구조 변화는 아닙니다.",
         "by": "ai"
       }
     ]
@@ -723,7 +723,10 @@
     "Coinbase and Robinhood Rally as Bitcoin Marches Toward Its Best Week in Months": "Bitcoin이 몇 달 만에 최고의 주간을 향해 행진함에 따라 Coinbase와 Robinhood Rally",
     "Alibaba Shares Fell on a $10 Billion AI Raise. Insiders Saw a Buying Opportunity": "알리바바 주식은 $100억의 AI 자금 조달로 하락했습니다. 내부자가 본 구매 기회",
     "Berkshire Hathaway Roughly Tripled $10,000 in a Decade. Did It Beat the Market?": "버크셔 해서웨이 (Berkshire Hathaway) 는 약 10년 만에 $10,000를 세 배로 올렸습니다. 시장을 이겼습니까?",
-    "If a Bear Market Is Coming, History Has Good News for Investors": "베어 마켓이 온다면, 역사는 투자자들에게 희소식을 가져다 줄 것입니다."
+    "If a Bear Market Is Coming, History Has Good News for Investors": "베어 마켓이 온다면, 역사는 투자자들에게 희소식을 가져다 줄 것입니다.",
+    "AI isn’t eating software after all — and the sector’s ‘epic’ rally could run through October": "AI는 결국 소프트웨어를 먹지 않습니다 — 그리고 섹터의 ‘서사시‘ 랠리는 10 월까지 진행될 수 있습니다",
+    "4 Dividend Stocks Yielding Over 6% That Every Roth Should Hold": "모든 Roth가 보유해야 하는 6% 이상의 수익을 내는 4가지 배당주",
+    "What Are The Top Defense Stocks This Year? These 5 Leaders Will Surprise You.": "올해 최고의 방어 주식은 무엇입니까? 이 5명의 리더가 여러분을 놀라게 할 것입니다."
   },
   "nvCache": {
     "https://www.yna.co.kr/view/AKR20260824137251008": {
@@ -2768,6 +2771,27 @@
       "lasting": "temporary",
       "scope": "market",
       "why": "과거 사례를 다룬 전망성 논평으로, 기업 이익과는 무관합니다.",
+      "by": "ai"
+    },
+    "https://www.marketwatch.com/story/ai-isnt-eating-software-after-all-and-the-sectors-epic-rally-could-run-through-october-a4610583?mod=mw_rss_topstories": {
+      "act": "none",
+      "lasting": "structural",
+      "scope": "sector",
+      "why": "AI가 소프트웨어를 대체하는지는 장기 논쟁이지만, 랠리 전망은 의견에 가깝습니다.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/markets/stocks/articles/4-dividend-stocks-yielding-over-110104644.html": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "특정 종목을 추천하는 정보성 기사로, 투자 근거를 바꾸지 않습니다.",
+      "by": "ai"
+    },
+    "https://www.investors.com/news/defense-aerospace-stock-leaders-2026-sifco-ducommun-ati-spire-astronics-space-contractors-lmt-ba-rtx/?src=A00220&yptr=yahoo": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "수익률 순위 소개 기사이며 기업 이익의 구조 변화는 아닙니다.",
       "by": "ai"
     }
   },
