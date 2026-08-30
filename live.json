@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-30T02:15:02.353Z",
+  "asOf": "2026-08-30T03:16:12.569Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -110,16 +110,16 @@
   },
   "regime": {
     "by": "ai",
-    "asOf": "2026-08-30T02:14:54.218Z",
+    "asOf": "2026-08-30T03:15:56.405Z",
     "kr": {
       "why": {
-        "rates": "미 10년물(^TNX)이 4.72로 1년범위 상단(위치 97%)이고 3개월간 +5.47% 올랐으며, 헤드라인도 '9월 인상 시사'를 언급해 금리는 오르는 쪽으로 봅니다.",
-        "growth": "코스피가 3개월간 -19.91% 밀렸지만 1년범위 위치는 여전히 61%이고 헤드라인이 '숨고르기·박스피'를 말해, 침체 단정보다는 둔화 구간으로 봅니다.",
-        "valuation": "코스피 6788.88이 1년범위 3142.93~9114.55의 61% 위치로 위도 아래도 아닌 중간이라, 근거가 약해 보통으로 둡니다.",
-        "fx": "원/달러가 1371.5로 1년범위 최저(위치 0%)이고 3개월간 -10.37% 하락해 원화가 강해진 상태입니다.",
-        "geo": "VIX가 14.43으로 1년범위 6% 위치까지 내려왔고 지정학 관련 헤드라인이 없어 평온으로 봅니다."
+        "rates": "장기금리(^TNX)가 4.72로 1년 범위의 97% 지점이고 3개월간 +5.47% 올랐으며, 한은이 \"수요 압력에 물가 상승세가 더 광범위하게 확산될 가능성\"을 언급해 금리가 위쪽으로 눌리는 국면으로 봅니다.",
+        "growth": "코스피가 3개월간 -19.91%로 크게 밀렸지만 현재 6788.88로 1년범위(3142.93~9114.55)의 61% 위치이고 헤드라인도 '박스피·숨고르기'를 말해, 침체 신호라기보다 둔화 구간으로 판단합니다.",
+        "valuation": "코스피 6788.88은 1년 범위의 61% 지점으로 고점(9114.55)과 저점(3142.93)의 중간보다 약간 위여서 극단적으로 싸거나 비싸다고 볼 근거가 부족합니다.",
+        "fx": "원/달러가 1371.5로 1년 범위(1371.5~1554.48)의 0% 즉 1년 최저 수준이고 3개월간 -10.37% 내려 원화가 강한 쪽입니다.",
+        "geo": "VIX가 14.43으로 1년 범위의 6% 수준이고 3개월간 -10.09% 내렸으며 제시된 헤드라인에 지정학적 충격 소재가 없어 평온으로 봅니다."
       },
-      "summary": "금리는 오르는 쪽이고 원화는 1년 중 가장 강한 상태이지만, 코스피는 3개월 -19.91% 조정 뒤 중간 지대에서 숨고르는 국면입니다. 변동성 지표(VIX 14.43)는 매우 낮아 시장이 크게 겁먹은 상태는 아닙니다.",
+      "summary": "금리는 위쪽, 지수는 3개월간 크게 조정받은 뒤 6800선에서 숨고르기 중인 둔화 국면입니다. 원화는 1년 최저 수준(1371.5)까지 내려 강세이고 변동성 지표는 낮아 시장 분위기 자체는 조용한 편입니다.",
       "rates": "hike",
       "growth": "slow",
       "valuation": "fair",
@@ -128,13 +128,13 @@
     },
     "us": {
       "why": {
-        "rates": "^TNX가 4.72로 1년범위 3.95~4.74의 97% 위치, 3개월 +5.47%이며 헤드라인에서 연준 인사가 '지금이 (인상) 행동할 때'라고 말해 인상 방향으로 봅니다.",
-        "growth": "S&P500이 1년범위 94% 위치에 3개월 +1.47%로 버티고 있고 '기업 수익이 빠른 속도로 증가'한다는 헤드라인이 있어 괜찮은 편으로 봅니다.",
-        "valuation": "S&P500 7711.76이 1년범위 6343.72~7798.99의 94% 위치로 상단에 붙어 있어 비싼 편으로 분류합니다.",
-        "fx": "원/달러 1371.5는 1년범위 0% 위치이고 3개월 -10.37%로, 달러 대비 원화가 강한 상태입니다.",
-        "geo": "VIX 14.43(1년범위 6% 위치)에 지정학 충격 헤드라인이 없어 평온으로 봅니다."
+        "rates": "10년물 금리(^TNX)가 4.72로 1년 범위(3.95~4.74)의 97% 지점이고 3개월 +5.47%인 데다, 연준 인사 해맥이 \"금리 인상에 지금이 행동할 때\"라고 언급해 인상 쪽 압력이 읽힙니다.",
+        "growth": "S&P500이 7711.76으로 1년 범위의 94% 지점이고 3개월 +1.47%로 상승세를 유지하며, \"기업 수익이 빠른 속도로 증가\"한다는 헤드라인도 확장 국면과 부합합니다.",
+        "valuation": "지수가 1년 고점(7798.99) 바로 아래인 94% 위치에 있어 가격대는 높은 편이며, 다만 실적 증가 지속성에 의문을 제기하는 헤드라인도 함께 있습니다.",
+        "fx": "원/달러가 1371.5로 1년 범위의 0%(최저)이고 3개월 -10.37%여서, 한국 투자자 입장에서 달러 대비 원화가 강한 상태입니다.",
+        "geo": "VIX 14.43(1년 범위 6%, 3개월 -10.09%)으로 낮고 제시된 헤드라인에 지정학·정책 충격 사건이 없어 평온으로 분류합니다."
       },
-      "summary": "미국 주식은 1년 고점권(위치 94%)에서 실적 힘으로 버티는 중이지만, 장기금리 4.72와 연준의 인상 발언이 함께 있는 상태입니다. 변동성은 매우 낮아 겉으로는 조용하지만 가격은 싸지 않은 국면입니다.",
+      "summary": "지수는 1년 고점 부근(94% 위치)까지 올라와 가격은 비싼 편이고, 실적은 좋지만 장기금리 4.72%와 인상 발언이 부담으로 남아 있는 국면입니다. 변동성 지표는 매우 낮아 표면은 잔잔하며, 원화 강세로 환차손 방향의 환경이라는 점도 함께 보시면 됩니다.",
       "rates": "hike",
       "growth": "expand",
       "valuation": "rich",
@@ -333,25 +333,25 @@
   "news": {
     "kr": [
       {
-        "title": "신현송 \"원화 면역력 생겨…대미 투자, 환율에 부담 안 돼\"",
-        "link": "https://www.yna.co.kr/view/AKR20260830008400072",
+        "title": "한은 \"수요 압력에 물가 상승세 더 광범위하게 확산 가능성\"",
+        "link": "https://www.yna.co.kr/view/AKR20260829033600002",
         "source": "연합뉴스",
-        "date": "Sun, 30 Aug 2026 09:00:01 +0900",
-        "act": "none",
+        "date": "Sun, 30 Aug 2026 12:00:05 +0900",
+        "act": "watch",
         "lasting": "temporary",
         "scope": "market",
-        "why": "환율 관련 전문가 견해로, 기업 이익 구조를 바꾸는 사실은 아닙니다.",
+        "why": "물가 확산은 금리 경로에 영향을 주지만 아직 가능성 언급 단계입니다.",
         "by": "ai"
       },
       {
-        "title": "'롤러코스피' 끝나니…7000선 문턱 '박스피' 됐다",
-        "link": "https://www.hankyung.com/article/2026083012997",
+        "title": "박세익 \"대형주보다 코스닥과 중소형주에서 기회를 찾으라\"",
+        "link": "https://www.hankyung.com/article/202608289862i",
         "source": "한국경제",
-        "date": "Sun, 30 Aug 2026 08:56:58 +0900",
+        "date": "Sun, 30 Aug 2026 10:26:02 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "지수 등락과 흐름 묘사일 뿐, 오늘 할 일은 없습니다.",
+        "why": "전문가의 시장 전망 의견으로, 기업 이익 구조가 바뀌는 사안은 아닙니다.",
         "by": "ai"
       },
       {
@@ -366,14 +366,14 @@
         "by": "ai"
       },
       {
-        "title": "코스피 숨고르기 구간…\"반도체 더해 2차전지·AI 서비스주 주목\" [주간전망]",
-        "link": "https://www.hankyung.com/article/2026082894946",
+        "title": "'롤러코스피' 끝나니…7000선 문턱 '박스피' 됐다",
+        "link": "https://www.hankyung.com/article/2026083012997",
         "source": "한국경제",
-        "date": "Sun, 30 Aug 2026 08:00:06 +0900",
+        "date": "Sun, 30 Aug 2026 08:56:58 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "주간 시황 전망은 단기 흐름 얘기라 장기 판단에 영향이 적습니다.",
+        "why": "지수 등락과 흐름 묘사일 뿐, 오늘 할 일은 없습니다.",
         "by": "ai"
       },
       {
@@ -388,14 +388,14 @@
         "by": "ai"
       },
       {
-        "title": "워시, 9월 인상 시사?…증시 하락 이유 : \"Fed와 싸우지 마라\" [김현석의 월스트리트나우]",
-        "link": "https://www.hankyung.com/article/202608290496i",
+        "title": "코스피 숨고르기 구간…\"반도체 더해 2차전지·AI 서비스주 주목\" [주간전망]",
+        "link": "https://www.hankyung.com/article/2026082894946",
         "source": "한국경제",
-        "date": "Sat, 29 Aug 2026 08:08:06 +0900",
+        "date": "Sun, 30 Aug 2026 08:00:06 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "통화정책 전망 해설로, 10년 뒤 기업 이익을 바꾸는 내용은 아닙니다.",
+        "why": "주간 시황 전망은 단기 흐름 얘기라 장기 판단에 영향이 적습니다.",
         "by": "ai"
       }
     ],
@@ -461,15 +461,15 @@
         "by": "ai"
       },
       {
-        "title": "Barrick Mining (B) Has an IPO Catalyst. Newmont Corporation (NEM) Has the Cash. Which Gold Stock Wins?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/barrick-mining-b-ipo-catalyst-194819707.html",
+        "title": "Netflix Stock Is Up 25% From Its 2026 Lows. More Gains for NFLX Could Be in Store.",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/netflix-stock-25-2026-lows-195638302.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-28T19:48:19Z",
-        "ko": "배릭 마이닝 (B) 에 IPO 촉매가 있습니다. Newmont Corporation (NEM) 은 현금을 보유하고 있습니다. 어떤 금재고가 이길까요?",
+        "date": "2026-08-28T19:56:38Z",
+        "ko": "넷플릭스 주식은 2026년 최저치보다 25% 상승했습니다. NFLX에 대한 더 많은 이득이 매장에 있을 수 있습니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "sector",
-        "why": "두 기업을 비교하는 의견성 기사로, 장기 이익 구조를 바꾸는 내용은 확인되지 않습니다.",
+        "scope": "company",
+        "why": "주가 반등과 전망 언급일 뿐, 사업 구조가 바뀐 소식은 아닙니다.",
         "by": "ai"
       }
     ]
@@ -709,7 +709,8 @@
     "Johnson & Johnson Stock: Is JNJ Outperforming the Consumer Staples Sector?": "Johnson & Johnson Stock: JNJ가 소비자 스테이플 부문을 능가합니까?",
     "Is Costco Stock Underperforming the Dow?": "코스트코 주식이 다우지수를 밑도는가?",
     "Jim Cramer Advised Letting Go Of Walmart Inc. (NASDAQ:WMT) Following Earnings": "Jim Cramer는 수입에 따라 Walmart Inc. (NASDAQ: WMT) 를 놓아 줄 것을 조언했습니다.",
-    "Barrick Mining (B) Has an IPO Catalyst. Newmont Corporation (NEM) Has the Cash. Which Gold Stock Wins?": "배릭 마이닝 (B) 에 IPO 촉매가 있습니다. Newmont Corporation (NEM) 은 현금을 보유하고 있습니다. 어떤 금재고가 이길까요?"
+    "Barrick Mining (B) Has an IPO Catalyst. Newmont Corporation (NEM) Has the Cash. Which Gold Stock Wins?": "배릭 마이닝 (B) 에 IPO 촉매가 있습니다. Newmont Corporation (NEM) 은 현금을 보유하고 있습니다. 어떤 금재고가 이길까요?",
+    "Netflix Stock Is Up 25% From Its 2026 Lows. More Gains for NFLX Could Be in Store.": "넷플릭스 주식은 2026년 최저치보다 25% 상승했습니다. NFLX에 대한 더 많은 이득이 매장에 있을 수 있습니다."
   },
   "nvCache": {
     "https://www.yna.co.kr/view/AKR20260824137251008": {
@@ -2558,6 +2559,27 @@
       "lasting": "temporary",
       "scope": "sector",
       "why": "두 기업을 비교하는 의견성 기사로, 장기 이익 구조를 바꾸는 내용은 확인되지 않습니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20260829033600002": {
+      "act": "watch",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "물가 확산은 금리 경로에 영향을 주지만 아직 가능성 언급 단계입니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/202608289862i": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "전문가의 시장 전망 의견으로, 기업 이익 구조가 바뀌는 사안은 아닙니다.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/markets/stocks/articles/netflix-stock-25-2026-lows-195638302.html": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "주가 반등과 전망 언급일 뿐, 사업 구조가 바뀐 소식은 아닙니다.",
       "by": "ai"
     }
   },
