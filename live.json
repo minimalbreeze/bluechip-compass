@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-30T00:29:38.515Z",
+  "asOf": "2026-08-30T01:14:11.543Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -110,16 +110,16 @@
   },
   "regime": {
     "by": "ai",
-    "asOf": "2026-08-30T00:29:30.235Z",
+    "asOf": "2026-08-30T01:14:08.467Z",
     "kr": {
       "why": {
-        "rates": "참고 금리 지표(^TNX)가 4.72로 1년범위 3.95~4.74의 97% 지점이고 3개월간 +5.47% 올라 금리가 위로 향하는 국면입니다.",
-        "growth": "코스피가 3개월 -19.91%로 크게 밀렸지만 1년범위 내 위치는 61%로 아직 중간 위, 헤드라인도 '활력 위축', '7000선 문턱 박스피'라 침체 확정보다는 둔화로 봅니다.",
-        "valuation": "코스피 6788.88은 1년범위 3142.93~9114.55의 61% 지점으로 특별히 싸지도 비싸지도 않은 중간 수준입니다.",
-        "fx": "원/달러가 1371.5로 1년범위 1371.5~1554.48의 최저점(위치 0%)이고 3개월 -10.37%로 원화가 뚜렷이 강해졌습니다.",
-        "geo": "VIX가 14.43으로 1년범위의 6% 지점에 머물고 헤드라인에도 충격성 사건이 없어 긴장도는 낮습니다."
+        "rates": "^TNX 장기금리가 4.72로 1년 범위(3.95~4.74) 상단 97% 위치이고 3개월 +5.47%로 오르는 중이라 금리 상방 압력 국면으로 봤습니다(단 이는 미국 장기금리 지표라 한국 정책금리에 대한 직접 근거는 약합니다).",
+        "growth": "코스피가 3개월 -19.91%로 크게 밀렸지만 1년 범위 내 위치는 61%로 중간 이상이고 헤드라인도 '활력 위축', '7천선 문턱 박스피'라 침체 확정보다는 둔화로 판단했습니다.",
+        "valuation": "^KS11 6788.88이 1년범위 3142.93~9114.55의 61% 지점으로 고점도 저점도 아니어서 보통으로 봤습니다.",
+        "fx": "KRW=X 1371.5는 1년 범위(1371.5~1554.48)의 최저치(위치 0%)이고 3개월 -10.37%라 원화가 강세 쪽입니다.",
+        "geo": "^VIX 14.43으로 1년 범위 하단 6% 수준이고 제시된 헤드라인에 지정학·정책 충돌 내용이 없어 평온으로 분류했습니다."
       },
-      "summary": "금리는 오르는 쪽인데 지수는 3개월 -19.91%로 쉬어가고 원화는 1년 최저 환율(1371.5)까지 강해진 국면입니다. 공포지표(VIX 14.43)는 낮아 시장은 조용한 편이며, 지금은 방향을 다시 잡는 정리 구간으로 볼 수 있습니다.",
+      "summary": "금리는 위쪽을 보고 있고 지수는 3개월 -19.91%로 쉬어가는, 활력이 줄어든 구간입니다. 다만 변동성지표(VIX 14.43)는 낮고 원화는 1371.5로 1년 최저 수준까지 강해진 상태입니다.",
       "rates": "hike",
       "growth": "slow",
       "valuation": "fair",
@@ -128,13 +128,13 @@
     },
     "us": {
       "why": {
-        "rates": "10년물 금리(^TNX)가 4.72로 1년범위 상단(97% 지점)이고 3개월 +5.47%인 데다 '지금이 금리 인상에 행동할 때'라는 연준 인사 발언까지 있어 상승 방향입니다.",
-        "growth": "S&P500이 7711.76으로 1년범위 6343.72~7798.99의 94% 지점이고 3개월 +1.47% 상승, '기업 수익이 빠른 속도로 증가'라는 헤드라인도 있어 경기 흐름은 아직 괜찮아 보입니다.",
-        "valuation": "지수가 1년 고점 7798.99에 근접한 94% 위치라 가격 부담이 있는 상태로 분류합니다.",
-        "fx": "원/달러가 1371.5로 1년 최저(위치 0%), 3개월 -10.37%라 달러 대비 원화가 강한 상태입니다.",
-        "geo": "VIX 14.43(1년범위 6% 지점)으로 변동성이 매우 낮고 제시된 헤드라인에 지정학적 충격 요인이 없습니다."
+        "rates": "^TNX가 4.72로 1년 범위 97% 위치, 3개월 +5.47%이고 헤드라인에서도 Fed 해맥이 '금리 인상에 지금이 행동할 때', 워시는 인플레이션 우려를 언급해 인상 방향으로 봤습니다.",
+        "growth": "S&P500이 7711.76으로 1년 범위 94% 위치이며 3개월 +1.47% 상승, 헤드라인도 '기업 수익이 빠른 속도로 증가'라고 전해 아직 괜찮은 국면입니다.",
+        "valuation": "^GSPC 현재가가 1년 범위 6343.72~7798.99의 94% 지점으로 고점 부근이라 비싼 편으로 분류했습니다.",
+        "fx": "KRW=X 1371.5가 1년 범위 위치 0%, 3개월 -10.37%로 달러 대비 원화가 강해진 상태입니다.",
+        "geo": "^VIX 14.43(1년 위치 6%)으로 낮고 제시된 헤드라인에 지정학 충격 소재가 없어 평온으로 봤습니다."
       },
-      "summary": "지수는 1년 고점 부근(94% 위치)까지 올라와 있고 기업 이익도 좋다는 소식이 나오지만, 금리가 4.72로 1년 상단에 붙어 있는 점이 부담인 국면입니다. 변동성은 낮아 겉으로는 조용하지만 가격이 비싼 편이라는 점을 함께 봐야 합니다.",
+      "summary": "지수는 1년 범위 94% 지점까지 올라와 있고 실적도 늘고 있지만, 장기금리 4.72와 연준 인사들의 인상 발언이 함께 있는 구간입니다. 변동성은 낮은 대신 가격 부담은 큰 상태로 이해하면 됩니다.",
       "rates": "hike",
       "growth": "expand",
       "valuation": "rich",
@@ -461,14 +461,15 @@
         "by": "ai"
       },
       {
-        "title": "What Are Wall Street Analysts' Target Price for Fair Isaac Stock?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-target-price-180356170.html",
+        "title": "Jim Cramer Advised Letting Go Of Walmart Inc. (NASDAQ:WMT) Following Earnings",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-advised-letting-walmart-183823547.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-28T18:03:56Z",
+        "date": "2026-08-28T18:38:23Z",
+        "ko": "Jim Cramer는 수입에 따라 Walmart Inc. (NASDAQ: WMT) 를 놓아 줄 것을 조언했습니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
-        "why": "애널리스트 목표주가는 의견일 뿐, 회사 실적 구조와는 무관합니다.",
+        "why": "유명인의 개인 의견일 뿐, 기업의 장기 이익 구조와는 무관합니다.",
         "by": "ai"
       }
     ]
@@ -706,7 +707,8 @@
     "Mortgage and refinance interest rates today, Saturday, August 29, 2026: Fixed rates move slightly higher into the weekend": "2026년 8월 29일 토요일 모기지 및 재융자 금리: 고정 금리가 주말에 약간 높아집니다.",
     "Best CD rates today, Saturday, August 29, 2026: Lock in up to 4.30% APY with a 16- or 18-month CD": "2026년 8월 29일 토요일, 최고의 CD 요금: 16개월 또는 18개월 CD로 최대 4.30% APY 잠금",
     "Johnson & Johnson Stock: Is JNJ Outperforming the Consumer Staples Sector?": "Johnson & Johnson Stock: JNJ가 소비자 스테이플 부문을 능가합니까?",
-    "Is Costco Stock Underperforming the Dow?": "코스트코 주식이 다우지수를 밑도는가?"
+    "Is Costco Stock Underperforming the Dow?": "코스트코 주식이 다우지수를 밑도는가?",
+    "Jim Cramer Advised Letting Go Of Walmart Inc. (NASDAQ:WMT) Following Earnings": "Jim Cramer는 수입에 따라 Walmart Inc. (NASDAQ: WMT) 를 놓아 줄 것을 조언했습니다."
   },
   "nvCache": {
     "https://www.yna.co.kr/view/AKR20260824137251008": {
@@ -2535,9 +2537,14 @@
       "scope": "company",
       "why": "애널리스트 목표주가는 의견일 뿐, 회사 실적 구조와는 무관합니다.",
       "by": "ai"
+    },
+    "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-advised-letting-walmart-183823547.html": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "유명인의 개인 의견일 뿐, 기업의 장기 이익 구조와는 무관합니다.",
+      "by": "ai"
     }
   },
-  "failed": [
-    "translate: HTTP 429"
-  ]
+  "failed": []
 }
