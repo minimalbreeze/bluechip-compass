@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-30T18:29:40.587Z",
+  "asOf": "2026-08-30T19:34:44.360Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -21,7 +21,7 @@
       "prev": 1380.449951171875,
       "chg": -0.35,
       "basis": "prev-daily-close",
-      "time": "2026-08-30T14:01:05.000Z"
+      "time": "2026-08-30T19:26:05.000Z"
     },
     "^GSPC": {
       "price": 7711.76,
@@ -110,16 +110,16 @@
   },
   "regime": {
     "by": "ai",
-    "asOf": "2026-08-30T18:29:40.586Z",
+    "asOf": "2026-08-30T19:34:40.659Z",
     "kr": {
       "why": {
-        "rates": "참고 금리 지표(^TNX)가 4.72%로 1년 범위(3.95~4.74%) 중 97% 위치이고 3개월간 +5.47% 올라 금리는 오르는 쪽으로 분류했습니다. 다만 헤드라인은 '좁아진 한미 금리차'를 언급해 국내 정책금리 방향은 자료만으로 확정하기 어렵습니다.",
-        "growth": "코스피가 3개월간 -19.91%로 크게 밀렸지만 현재 6788.88은 1년범위(3142.93~9114.55) 중 61% 위치이고 VIX도 14.43(6% 위치)로 낮아, 침체 신호까지는 근거가 약해 둔화로 봤습니다.",
-        "valuation": "밸류에이션 지표(PER 등)가 주어지지 않았고, 지수 위치가 1년범위의 61%로 중간대라서 중립값인 보통으로 분류했습니다.",
-        "fx": "원/달러가 1375.67로 1년범위(1375.67~1554.48)의 0% 위치, 3개월 -10.09%로 원화가 뚜렷하게 강해진 상태입니다.",
-        "geo": "VIX가 14.43으로 1년범위 6% 위치까지 내려왔고 헤드라인도 펀드·토큰증권·수급 등 국내 이슈 위주라 긴장 신호가 보이지 않습니다."
+        "rates": "장기금리 지표인 ^TNX가 4.72로 1년 범위(3.95~4.74) 상단인 97% 위치이고 3개월간 +5.47% 올라, 금리가 위로 눌리는 국면으로 봅니다(헤드라인의 '좁아진 한미 금리차' 언급도 참고).",
+        "growth": "코스피가 6788.88로 3개월간 -19.91% 급락했지만 1년 범위 내 위치는 아직 61%이고 ^VIX도 14.43(6% 위치)로 낮아, 침체 확정보다는 둔화 신호로 중립적으로 봅니다.",
+        "valuation": "코스피 1년 범위 3142.93~9114.55 중 61% 위치로 상단도 하단도 아니어서 보통 수준입니다.",
+        "fx": "원/달러가 1375.67로 1년 범위(1375.67~1554.48) 최저인 0% 위치, 3개월간 -10.09%로 원화가 뚜렷하게 강해졌습니다.",
+        "geo": "^VIX가 14.43으로 1년 범위 6% 위치까지 낮아졌고 제시된 헤드라인에 분쟁·정책 충격 내용이 없어 평온으로 판단합니다."
       },
-      "summary": "원화는 1375.67원까지 강해졌고 변동성지표는 낮지만, 코스피는 3개월간 약 20% 밀려 경기 체감은 둔화 국면입니다. 금리 지표는 1년 고점권(4.72%)에 있어 지수 위치(61%)와 함께 '식어가는 중, 공포는 없음' 정도로 보면 됩니다.",
+      "summary": "금리는 높은 자리에 머물러 오르는 쪽이고 코스피는 3개월간 20% 가까이 빠져 경기 둔화 신호가 보이지만, 변동성 지표는 매우 낮아 공포 국면은 아닙니다. 원화는 1년 중 가장 강한 수준이라 환율 부담은 줄어든 상태입니다.",
       "rates": "hike",
       "growth": "slow",
       "valuation": "fair",
@@ -128,13 +128,13 @@
     },
     "us": {
       "why": {
-        "rates": "^TNX가 4.72%로 1년범위(3.95~4.74%)의 97% 위치, 3개월 +5.47%이고 헤드라인에서 연준 해먹이 '금리 인상, 지금이 행동할 때'라고 언급해 인상 방향으로 분류했습니다.",
-        "growth": "S&P500이 7711.76으로 1년범위(6343.72~7798.99)의 94% 위치이고 3개월 +1.47%로 상승 흐름이 유지되고 있습니다.",
-        "valuation": "지수가 1년 고점 근처인 94% 위치이고 헤드라인도 'AI CapEx에서 잠시 쉬어라', '레버리지 투자자 증가'를 언급해 비싼 편으로 봤습니다(PER 수치는 자료에 없음).",
-        "fx": "원/달러 1375.67은 1년범위의 0% 위치이고 3개월 -10.09%로, 달러 대비 원화 강세 상태입니다.",
-        "geo": "VIX 14.43(1년범위 6% 위치)로 매우 낮고 헤드라인에 지정학적 충격 사건이 없어 평온으로 분류했습니다."
+        "rates": "미 10년물 금리(^TNX)가 4.72로 1년 범위 97% 위치, 3개월 +5.47%이고 헤드라인에서 연준 해맥이 '금리 인상, 지금이 행동할 때'라고 언급해 인상 방향으로 봅니다.",
+        "growth": "S&P500이 7711.76으로 1년 범위 94% 위치이고 3개월 +1.47%로 완만히 상승 중이어서 경기 흐름은 아직 괜찮은 쪽으로 분류합니다.",
+        "valuation": "지수가 1년 범위 6343.72~7798.99의 상단 94% 위치까지 올라와 있어 가격 부담이 큰 편으로 봅니다(밸류 지표 자체는 제시되지 않아 가격 위치만 근거).",
+        "fx": "원/달러 1375.67은 1년 범위 0% 위치이고 3개월 -10.09%로, 달러 대비 원화가 강세인 상태입니다.",
+        "geo": "^VIX 14.43(1년 범위 6% 위치)으로 매우 낮고 제시된 헤드라인에 지정학·정책 충격 사건이 없어 평온으로 판단합니다."
       },
-      "summary": "미국 지수는 1년 고점권(94% 위치)이고 변동성은 낮아 분위기는 좋지만, 금리 지표가 4.72%로 1년 최고 수준이라 '비싼 값에 금리 부담이 얹힌' 국면입니다. 지금 상태 분류일 뿐이며 앞으로의 수익률을 뜻하지는 않습니다.",
+      "summary": "미국 증시는 1년 고점권(94% 위치)에서 완만히 오르는 중이고 변동성도 낮지만, 10년물 금리가 4.72로 1년 최고 수준이라 금리 부담이 함께 커진 국면입니다. 가격이 비싼 자리라는 점과 금리 방향을 같이 살펴볼 시점입니다.",
       "rates": "hike",
       "growth": "expand",
       "valuation": "rich",
@@ -344,14 +344,14 @@
         "by": "ai"
       },
       {
-        "title": "'국민성장펀드 투자' 원익로보·CJ 4D플렉스, 중복상장 걸림돌",
-        "link": "https://www.mk.co.kr/news/stock/12139880",
+        "title": "코스콤, 12개 증권사와 토큰증권 플랫폼 구축",
+        "link": "https://www.mk.co.kr/news/stock/12139879",
         "source": "매일경제",
         "date": "Sun, 30 Aug 2026 17:27:31 +09:00",
         "act": "watch",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "정책 자금 조달 절차상 걸림돌 언급으로, 결론이 나올 때까지 지켜볼 사안입니다.",
+        "lasting": "structural",
+        "scope": "sector",
+        "why": "증권 거래 인프라가 바뀌는 방향이라 업종 차원에서 천천히 볼 만합니다.",
         "by": "ai"
       },
       {
@@ -366,14 +366,14 @@
         "by": "ai"
       },
       {
-        "title": "코스콤, 12개 증권사와 토큰증권 플랫폼 구축",
-        "link": "https://www.mk.co.kr/news/stock/12139879",
+        "title": "'국민성장펀드 투자' 원익로보·CJ 4D플렉스, 중복상장 걸림돌",
+        "link": "https://www.mk.co.kr/news/stock/12139880",
         "source": "매일경제",
         "date": "Sun, 30 Aug 2026 17:27:31 +09:00",
         "act": "watch",
-        "lasting": "structural",
-        "scope": "sector",
-        "why": "증권 거래 인프라가 바뀌는 방향이라 업종 차원에서 천천히 볼 만합니다.",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "정책 자금 조달 절차상 걸림돌 언급으로, 결론이 나올 때까지 지켜볼 사안입니다.",
         "by": "ai"
       },
       {
@@ -461,15 +461,15 @@
         "by": "ai"
       },
       {
-        "title": "Dow Jones Futures Due Amid Bullish, Bearish Market Signals. What To Do Now.",
-        "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-microsoft-titans-mask-market-weakness/?src=A00220&yptr=yahoo",
+        "title": "The 1 Metric I Check Before Buying Any Dividend Stock",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/1-metric-check-buying-dividend-191100637.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-30T13:28:30Z",
-        "ko": "강세장, 베어리쉬 마켓 시그널 가운데 다우 존스 선물 기한. 지금 해야 할 일.",
+        "date": "2026-08-30T19:11:00Z",
+        "ko": "배당 주식을 사기 전에 확인하는 1 메트릭",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "대형주가 지수를 떠받치는 단기 시장 흐름 해설입니다.",
+        "why": "투자 방법을 설명하는 일반 정보성 기사로, 기업 이익과는 무관합니다.",
         "by": "ai"
       }
     ]
@@ -732,16 +732,10 @@
     "The 1 Thing Every Investor Needs to Know About Surviving a Bear Market": "베어 마켓에서 살아남기 위해 모든 투자자가 알아야 할 1가지",
     "The Last Time Money Fled U.S. Stocks, Emerging Markets Won for a Decade... But This Time Around, 'EM' Means Taiwan Semi and Samsung.": "마지막 돈은 미국 주식을 날려 버렸고, 신흥 시장은 10 년 동안 승리했습니다... 하지만 이번에는 'EM' 이 대만 세미와 삼성을 의미합니다.",
     "Josh Brown Says ‘Take a Break From AI CapEx World,’ Highlights His 2 Top Healthcare Stock Picks": "조쉬 브라운 (Josh Brown) 이 ‘AI CapEx 세계에서 휴식을 취하십시오’ 라고 말하면서, 그의 2 가지 주요 건강 관리 주식 추천을 강조합니다.",
-    "Dow Jones Futures Due Amid Bullish, Bearish Market Signals. What To Do Now.": "강세장, 베어리쉬 마켓 시그널 가운데 다우 존스 선물 기한. 지금 해야 할 일."
+    "Dow Jones Futures Due Amid Bullish, Bearish Market Signals. What To Do Now.": "강세장, 베어리쉬 마켓 시그널 가운데 다우 존스 선물 기한. 지금 해야 할 일.",
+    "The 1 Metric I Check Before Buying Any Dividend Stock": "배당 주식을 사기 전에 확인하는 1 메트릭"
   },
   "nvCache": {
-    "https://www.yna.co.kr/view/AKR20260824137251008": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "금리 일별 변동은 장기 기업 이익과 직접 관련이 적습니다.",
-      "by": "ai"
-    },
     "https://www.hankyung.com/article/202608248774i": {
       "act": "watch",
       "lasting": "structural",
@@ -2833,6 +2827,13 @@
       "lasting": "temporary",
       "scope": "sector",
       "why": "전문가 개인 의견이라 기업 이익 구조와는 무관합니다.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/markets/stocks/articles/1-metric-check-buying-dividend-191100637.html": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "투자 방법을 설명하는 일반 정보성 기사로, 기업 이익과는 무관합니다.",
       "by": "ai"
     }
   },
