@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-30T12:24:30.041Z",
+  "asOf": "2026-08-30T13:25:21.174Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -110,16 +110,16 @@
   },
   "regime": {
     "by": "ai",
-    "asOf": "2026-08-30T12:24:24.779Z",
+    "asOf": "2026-08-30T13:25:16.874Z",
     "kr": {
       "why": {
-        "rates": "미 10년물(^TNX)이 4.72%로 1년 범위 상단(위치 97%)에 있고 3개월간 +5.47% 올라 금리 상방 압력이 우세하며, 헤드라인도 '좁아진 한미 금리차'를 언급합니다.",
-        "growth": "코스피가 3개월간 -19.91% 급락한 점은 둔화 신호지만, 1년 범위 내 위치가 여전히 61%이고 VIX가 14.43(위치 6%)으로 낮아 침체 확정으로 보기엔 근거가 약해 중간값인 '둔화'로 봤습니다.",
-        "valuation": "코스피 6788.88은 1년 범위(3142.93~9114.55) 중 61% 지점으로 고점도 저점도 아니어서 보통 수준으로 분류했습니다.",
-        "fx": "원/달러가 1371.5로 1년 범위(1371.5~1554.48) 최저점(위치 0%)이고 3개월간 -10.37% 하락해 원화가 강세입니다.",
-        "geo": "VIX가 14.43으로 1년 범위 하단(위치 6%)이고 헤드라인도 펀드·토큰증권 등 국내 이슈 위주로, 뚜렷한 긴장 근거가 없습니다."
+        "rates": "제시된 금리 지표(^TNX)가 4.72로 1년 범위(3.95~4.74)의 97% 위치이고 3개월 +5.47%로 올라 금리 상승 국면으로 분류했습니다.",
+        "growth": "코스피가 3개월간 -19.91% 하락해 둔화 신호가 뚜렷하지만, 1년 범위 내 위치는 여전히 61%이고 VIX도 14.43으로 낮아 침체로 단정할 근거는 약해 중간값인 둔화로 봤습니다.",
+        "valuation": "코스피 6788.88은 1년 범위(3142.93~9114.55)의 61% 위치로 극단이 아니며, 밸류 지표(PER 등)가 주어지지 않아 보통으로 분류했습니다.",
+        "fx": "원/달러가 1371.5로 1년 범위(1371.5~1554.48)의 0% 위치, 3개월 -10.37%로 원화가 가장 강한 구간이며 '좁아진 한미 금리차…원화 강세' 헤드라인과도 일치합니다.",
+        "geo": "VIX가 14.43으로 1년 범위의 6% 위치이고 3개월 -10.09%로 낮아졌으며, 헤드라인도 펀드·토큰증권 등 시장 이슈 위주로 지정학 충격 근거가 없습니다."
       },
-      "summary": "금리는 위쪽을 보고 있고 원화는 1년 중 가장 강한 수준인데, 코스피는 3개월간 약 20% 내려 지수 자체는 둔화 국면입니다. 다만 VIX가 매우 낮아 시장이 공포에 빠진 상태는 아닙니다.",
+      "summary": "금리 지표는 1년 최고 근처(4.72)인데 코스피는 3개월 -19.91%로 밀려, 금리 부담 속 성장 둔화가 함께 나타난 국면입니다. 다만 원/달러 1371.5(1년 최저)와 VIX 14.43(낮음)처럼 시장 불안 자체는 크지 않은 상태입니다.",
       "rates": "hike",
       "growth": "slow",
       "valuation": "fair",
@@ -128,13 +128,13 @@
     },
     "us": {
       "why": {
-        "rates": "^TNX가 4.72%로 1년 범위 상단(위치 97%), 3개월 +5.47%이며 헤드라인에서 연준 인사(해맥)의 '금리 인상' 발언과 인플레이션 우려가 함께 나옵니다.",
-        "growth": "S&P500이 7711.76로 1년 범위 위치 94%, 3개월 +1.47%로 상승 흐름을 유지하고 있어 경기 인식은 양호한 편입니다.",
-        "valuation": "지수가 1년 범위(6343.72~7798.99) 중 94% 지점으로 고점 근처여서 가격 부담이 있는 편으로 분류했습니다.",
-        "fx": "원/달러 1371.5는 1년 범위 최저(위치 0%), 3개월 -10.37%로 달러 대비 원화가 강세인 상태입니다.",
-        "geo": "VIX 14.43(위치 6%)이 매우 낮고 헤드라인에 분쟁·정책 충격 관련 내용이 없어 평온으로 봤습니다."
+        "rates": "^TNX가 4.72로 1년 범위(3.95~4.74)의 97% 위치, 3개월 +5.47%이며 'Fed의 Hammack은 금리 인상에 대해 지금이 행동할 때' 헤드라인도 상승 방향을 가리킵니다.",
+        "growth": "S&P500이 7711.76으로 1년 범위(6343.72~7798.99)의 94% 위치이고 3개월 +1.47%로 상승세를 유지해 경기 양호로 분류했습니다.",
+        "valuation": "지수가 1년 범위의 94% 위치에 있고 '레버리지에 만족하는 투자자', 'AI 랠리' 등 위험선호 헤드라인이 겹쳐 비싼 편으로 봤습니다.",
+        "fx": "원/달러 1371.5는 1년 범위(1371.5~1554.48)의 0% 위치, 3개월 -10.37%로 원화 강세(달러 상대적 약세) 구간입니다.",
+        "geo": "VIX 14.43(1년 범위 6% 위치, 3개월 -10.09%)으로 낮고, 연준 인플레이션 우려 발언 외에 지정학 충격 관련 수치·헤드라인은 없어 평온으로 분류했습니다."
       },
-      "summary": "미국 주가는 1년 고점 근처(위치 94%)로 가격 부담이 있는데, 국채금리는 4.72%로 상단에 붙어 있어 금리 쪽 긴장이 남아 있는 국면입니다. 변동성 지표는 낮아 시장 분위기 자체는 차분합니다.",
+      "summary": "미국은 지수가 1년 고점권(94% 위치)에 있고 변동성(VIX 14.43)도 낮아 분위기는 좋지만, 국채금리 4.72가 1년 최고 수준이라 가격이 비싼 편인 국면입니다. 금리 인상 쪽 발언이 이어지는 점이 지금 국면의 핵심 체크포인트입니다.",
       "rates": "hike",
       "growth": "expand",
       "valuation": "rich",
@@ -413,27 +413,27 @@
         "by": "ai"
       },
       {
-        "title": "AI isn’t eating software after all — and the sector’s ‘epic’ rally could run through October",
-        "link": "https://www.marketwatch.com/story/ai-isnt-eating-software-after-all-and-the-sectors-epic-rally-could-run-through-october-a4610583?mod=mw_rss_topstories",
+        "title": "These charts show how leverage-happy investors are transforming the stock market",
+        "link": "https://www.marketwatch.com/story/these-charts-show-how-leverage-happy-investors-are-transforming-the-stock-market-d4e350c3?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Sun, 30 Aug 2026 12:00:00 GMT",
-        "ko": "AI는 결국 소프트웨어를 먹지 않습니다 — 그리고 섹터의 ‘서사시‘ 랠리는 10 월까지 진행될 수 있습니다",
-        "act": "none",
+        "date": "Sun, 30 Aug 2026 13:00:00 GMT",
+        "ko": "이 차트는 레버리지에 만족하는 투자자들이 주식 시장을 어떻게 변화시키고 있는지 보여줍니다.",
+        "act": "watch",
         "lasting": "structural",
-        "scope": "sector",
-        "why": "AI가 소프트웨어를 대체하는지는 장기 논쟁이지만, 랠리 전망은 의견에 가깝습니다.",
+        "scope": "market",
+        "why": "레버리지 확대는 시장 변동성 구조와 관련될 수 있어 흐름만 지켜보면 됩니다.",
         "by": "ai"
       },
       {
-        "title": "4 Dividend Stocks Yielding Over 6% That Every Roth Should Hold",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/4-dividend-stocks-yielding-over-110104644.html",
+        "title": "Down 35% From Its High, Is Sandisk Stock a Screaming Bargain in September?",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/down-35-high-sandisk-stock-112500118.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-29T11:01:04Z",
-        "ko": "모든 Roth가 보유해야 하는 6% 이상의 수익을 내는 4가지 배당주",
+        "date": "2026-08-29T11:25:00Z",
+        "ko": "샌디스크 재고가 9월에 비명을 지르는 거래입니까?",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
-        "why": "특정 종목을 추천하는 정보성 기사로, 투자 근거를 바꾸지 않습니다.",
+        "scope": "company",
+        "why": "단기 매매 아이디어성 기사로 장기 이익과는 무관합니다.",
         "by": "ai"
       },
       {
@@ -449,15 +449,15 @@
         "by": "ai"
       },
       {
-        "title": "My mother, 91, has dementia. Every bank says I need her signature to unlock her $100,000 stock certificate. What can I do?",
-        "link": "https://www.marketwatch.com/story/my-mother-91-has-dementia-every-bank-says-i-need-her-signature-to-unlock-her-100-000-stock-certificate-what-can-i-do-4a2b702f?mod=mw_rss_topstories",
+        "title": "AI isn’t eating software after all — and the sector’s ‘epic’ rally could run through October",
+        "link": "https://www.marketwatch.com/story/ai-isnt-eating-software-after-all-and-the-sectors-epic-rally-could-run-through-october-a4610583?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Sat, 29 Aug 2026 16:00:00 GMT",
-        "ko": "91세인 어머니는 치매를 앓고 계십니다. 모든 은행에서 $100,000의 주식 증서를 잠금 해제하려면 그녀의 서명이 필요하다고 말합니다. 어떻게 해야 하나요?",
+        "date": "Sun, 30 Aug 2026 12:00:00 GMT",
+        "ko": "AI는 결국 소프트웨어를 먹지 않습니다 — 그리고 섹터의 ‘서사시‘ 랠리는 10 월까지 진행될 수 있습니다",
         "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "개인 상속·명의 관련 사연으로 투자 판단과 직접 관련이 없습니다.",
+        "lasting": "structural",
+        "scope": "sector",
+        "why": "AI가 소프트웨어를 대체하는지는 장기 논쟁이지만, 랠리 전망은 의견에 가깝습니다.",
         "by": "ai"
       },
       {
@@ -726,7 +726,9 @@
     "If a Bear Market Is Coming, History Has Good News for Investors": "베어 마켓이 온다면, 역사는 투자자들에게 희소식을 가져다 줄 것입니다.",
     "AI isn’t eating software after all — and the sector’s ‘epic’ rally could run through October": "AI는 결국 소프트웨어를 먹지 않습니다 — 그리고 섹터의 ‘서사시‘ 랠리는 10 월까지 진행될 수 있습니다",
     "4 Dividend Stocks Yielding Over 6% That Every Roth Should Hold": "모든 Roth가 보유해야 하는 6% 이상의 수익을 내는 4가지 배당주",
-    "What Are The Top Defense Stocks This Year? These 5 Leaders Will Surprise You.": "올해 최고의 방어 주식은 무엇입니까? 이 5명의 리더가 여러분을 놀라게 할 것입니다."
+    "What Are The Top Defense Stocks This Year? These 5 Leaders Will Surprise You.": "올해 최고의 방어 주식은 무엇입니까? 이 5명의 리더가 여러분을 놀라게 할 것입니다.",
+    "These charts show how leverage-happy investors are transforming the stock market": "이 차트는 레버리지에 만족하는 투자자들이 주식 시장을 어떻게 변화시키고 있는지 보여줍니다.",
+    "Down 35% From Its High, Is Sandisk Stock a Screaming Bargain in September?": "샌디스크 재고가 9월에 비명을 지르는 거래입니까?"
   },
   "nvCache": {
     "https://www.yna.co.kr/view/AKR20260824137251008": {
@@ -2792,6 +2794,20 @@
       "lasting": "temporary",
       "scope": "market",
       "why": "수익률 순위 소개 기사이며 기업 이익의 구조 변화는 아닙니다.",
+      "by": "ai"
+    },
+    "https://www.marketwatch.com/story/these-charts-show-how-leverage-happy-investors-are-transforming-the-stock-market-d4e350c3?mod=mw_rss_topstories": {
+      "act": "watch",
+      "lasting": "structural",
+      "scope": "market",
+      "why": "레버리지 확대는 시장 변동성 구조와 관련될 수 있어 흐름만 지켜보면 됩니다.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/markets/stocks/articles/down-35-high-sandisk-stock-112500118.html": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "단기 매매 아이디어성 기사로 장기 이익과는 무관합니다.",
       "by": "ai"
     }
   },
