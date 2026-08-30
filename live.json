@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-30T21:36:39.613Z",
+  "asOf": "2026-08-30T22:37:38.834Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -17,11 +17,11 @@
       "time": "2026-08-28T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1377.14,
+      "price": 1377.35,
       "prev": 1380.449951171875,
-      "chg": -0.24,
+      "chg": -0.22,
       "basis": "prev-daily-close",
-      "time": "2026-08-30T21:35:51.000Z"
+      "time": "2026-08-30T22:36:53.000Z"
     },
     "^GSPC": {
       "price": 7711.76,
@@ -53,7 +53,7 @@
     }
   },
   "fx": {
-    "low52": 1377.14,
+    "low52": 1377.35,
     "high52": 1554.48,
     "pct": 0
   },
@@ -73,11 +73,11 @@
       "chg3m": -21.99
     },
     "KRW=X": {
-      "last": 1377.14,
-      "low52": 1377.14,
+      "last": 1377.35,
+      "low52": 1377.35,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -10
+      "chg3m": -9.98
     },
     "^GSPC": {
       "last": 7711.76,
@@ -110,16 +110,16 @@
   },
   "regime": {
     "by": "ai",
-    "asOf": "2026-08-30T21:36:30.344Z",
+    "asOf": "2026-08-30T22:37:30.719Z",
     "kr": {
       "why": {
-        "rates": "미 10년물(^TNX)이 4.72%로 1년 범위 97% 지점이고 3개월간 +5.47% 올랐으며, 헤드라인도 '한국은 3%대 진입, 미국도 인상론 무게'와 '조달비용 상승'을 언급해 금리는 올라가는 쪽입니다.",
-        "growth": "코스피가 3개월간 -19.91% 하락하고 '상반기만 10만명 채무조정 확정' 같은 가계 부담 신호가 있어 둔화로 봅니다. 다만 지수 위치가 61%이고 VIX 14.43으로 낮아 침체 단정 근거는 약해 중간값인 slow를 골랐습니다.",
-        "valuation": "코스피 6788.88은 1년범위 3142.93~9114.55의 61% 지점으로 특별히 싸거나 비싸다고 볼 근거가 약해 보통으로 둡니다.",
-        "fx": "원/달러가 1377.14로 1년 범위(1377.14~1554.48)의 0% 지점, 3개월간 -10%여서 원화가 1년 중 가장 강한 수준입니다.",
-        "geo": "VIX가 14.43으로 1년 범위의 6% 지점까지 내려왔고 헤드라인에도 지정학 충격 언급이 없어 평온으로 판정합니다."
+        "rates": "미 10년물 금리(^TNX)가 4.72%로 1년 범위 상단 97% 위치이고 3개월간 +5.47% 올랐으며, '한국은 3%대 진입, 미국도 인상론 무게', '조달비용 상승', '고금리' 헤드라인이 겹쳐 금리는 올라가는 쪽입니다.",
+        "growth": "코스피가 3개월간 -19.91% 하락하고 '상반기만 10만명 채무조정 확정' 같은 부채 부담 신호가 있지만, 지수가 아직 1년 범위 61% 위치이고 VIX도 14.43으로 낮아 침체 확정보다는 둔화 국면으로 봅니다.",
+        "valuation": "코스피 6788.88은 1년범위(3142.93~9114.55) 61% 위치로 중간보다 약간 위이고 이익·PER 자료가 제공되지 않아 보통(fair)으로 중립 판정합니다.",
+        "fx": "원/달러가 1377.35로 1년 범위 최하단(위치 0%)이고 3개월간 -9.98% 내렸으며, '좁아진 한미 금리차…원화 강세 이어질듯' 헤드라인도 같은 방향입니다.",
+        "geo": "VIX가 14.43으로 1년 범위 6% 위치까지 내려왔고 제공된 헤드라인은 금리·대출·플랫폼 등 국내 금융 이슈뿐이어서 지정학적 충격 근거는 없습니다."
       },
-      "summary": "금리는 올라가는 흐름이고 원화는 1년 중 가장 강한 반면, 코스피는 3개월 -19.91%로 밀려 경기 둔화 신호가 보이는 국면입니다. 시장 불안 지표(VIX 14.43)는 낮아 공포 국면은 아니며, 밸류에이션은 중간 수준입니다.",
+      "summary": "금리는 오르는 방향인데 주가는 3개월간 -19.91% 밀려 경기는 둔화 쪽으로 읽히는 국면입니다. 반면 원/달러는 1377.35로 1년 최저 수준이라 원화는 강세이고, VIX 14.43으로 시장 불안 자체는 낮습니다.",
       "rates": "hike",
       "growth": "slow",
       "valuation": "fair",
@@ -128,13 +128,13 @@
     },
     "us": {
       "why": {
-        "rates": "^TNX가 4.72%로 1년 범위(3.95~4.74)의 97% 지점, 3개월 +5.47%이고 '연준 해맥, 금리 인상 지금이 행동할 때', '워시 인플레 우려' 헤드라인이 겹칩니다.",
-        "growth": "S&P500이 7711.76으로 1년 범위의 94% 지점이고 3개월 +1.47%로 상승세를 유지해 경기 인식은 아직 괜찮은 쪽입니다.",
-        "valuation": "지수가 1년 고점권(위치 94%)에 있고 '레버리지에 만족하는 투자자들' 같은 위험선호 헤드라인이 나와 비싼 편으로 봅니다.",
-        "fx": "원/달러 1377.14는 1년 범위 하단(위치 0%), 3개월 -10%로 달러 대비 원화가 강한 상태입니다.",
-        "geo": "VIX 14.43(1년 위치 6%)로 낮고 제시된 헤드라인에 지정학·정책 충격 사건이 없어 평온으로 분류합니다."
+        "rates": "^TNX가 4.72%로 1년 범위 97% 위치, 3개월 +5.47%이며 '워시 인플레이션 우려', '해맥 금리 인상은 지금이 행동할 때' 등 인상론 헤드라인이 이어집니다.",
+        "growth": "S&P500이 7711.76으로 1년범위(6343.72~7798.99) 94% 위치이고 3개월 +1.47%로 상승세를 유지해 경기 신호는 아직 양호한 쪽입니다.",
+        "valuation": "지수가 1년 고점(7798.99) 근처인 94% 위치에 있어 가격 부담이 큰 구간이며(밸류에이션 지표는 제공되지 않아 위치 기준 판단), 비싼 편으로 봅니다.",
+        "fx": "원/달러 1377.35는 1년 범위 0% 위치이고 3개월 -9.98%로, 달러 대비 원화가 강한 상태입니다.",
+        "geo": "VIX가 14.43으로 1년 범위 6% 위치까지 낮고 제공된 헤드라인은 연준 발언·개별 종목 이슈 위주여서 지정학 긴장 근거는 확인되지 않습니다."
       },
-      "summary": "미국은 주가가 1년 고점권(위치 94%)이지만 국채금리 4.72%와 연준 인상론이 함께 있는, 비싸면서 금리 부담이 큰 국면입니다. 변동성 지표는 낮아 시장은 아직 낙관적으로 반응하고 있습니다.",
+      "summary": "주가는 1년 고점 근처(94% 위치)로 가격 부담이 있는데, 금리는 4.72%로 상단이고 연준 인상론이 나오는 조합입니다. 변동성 지표(VIX 14.43)는 낮아 겉으로는 조용하지만 금리 쪽 변수가 큰 국면입니다.",
       "rates": "hike",
       "growth": "expand",
       "valuation": "rich",
@@ -344,14 +344,14 @@
         "by": "ai"
       },
       {
-        "title": "환율·채권, 좁아진 한미 금리차…원화 강세 이어질듯",
-        "link": "https://www.hankyung.com/article/2026083019301",
+        "title": "고금리에 오히려 돈 번다…증권가 꼽은 '현금 부자' 기업들 [한경우의 케이스스터디]",
+        "link": "https://www.hankyung.com/article/2026083018736",
         "source": "한국경제",
-        "date": "Sun, 30 Aug 2026 17:35:48 +0900",
+        "date": "Mon, 31 Aug 2026 06:30:10 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "환율과 금리차는 계속 변하는 거시 변수로 장기 이익 구조와는 거리가 있습니다.",
+        "why": "금리 환경에 따른 시황 분석 기사로, 기업의 장기 이익 구조를 바꾸는 내용은 아닙니다.",
         "by": "ai"
       },
       {
@@ -377,14 +377,14 @@
         "by": "ai"
       },
       {
-        "title": "뉴욕·상하이 증시, 美 8월 고용지표·브로드컴 실적 주목",
-        "link": "https://www.hankyung.com/article/2026083019291",
+        "title": "환율·채권, 좁아진 한미 금리차…원화 강세 이어질듯",
+        "link": "https://www.hankyung.com/article/2026083019301",
         "source": "한국경제",
-        "date": "Sun, 30 Aug 2026 17:35:31 +0900",
+        "date": "Sun, 30 Aug 2026 17:35:48 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "지표와 실적 발표를 앞둔 대기성 기사로 오늘 할 일은 없습니다.",
+        "why": "환율과 금리차는 계속 변하는 거시 변수로 장기 이익 구조와는 거리가 있습니다.",
         "by": "ai"
       },
       {
@@ -413,27 +413,27 @@
         "by": "ai"
       },
       {
-        "title": "My mother, 91, has dementia. Every bank says I need her signature to unlock her $100,000 stock certificate. What can I do?",
-        "link": "https://www.marketwatch.com/story/my-mother-91-has-dementia-every-bank-says-i-need-her-signature-to-unlock-her-100-000-stock-certificate-what-can-i-do-4a2b702f?mod=mw_rss_topstories",
+        "title": "U.S. stock futures flat as chances of rate hike rise after Warsh’s Jackson Hole comments",
+        "link": "https://www.marketwatch.com/story/u-s-stock-futures-flat-as-chances-of-rate-hike-rise-after-warshs-jackson-hole-comments-1f5287f2?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Sun, 30 Aug 2026 14:30:00 GMT",
-        "ko": "91세인 어머니는 치매를 앓고 계십니다. 모든 은행에서 $100,000의 주식 증서를 잠금 해제하려면 그녀의 서명이 필요하다고 말합니다. 어떻게 해야 하나요?",
+        "date": "Sun, 30 Aug 2026 22:14:00 GMT",
+        "ko": "워시의 잭슨 홀 코멘트 이후 금리 인상 가능성이 높아짐에 따라 미국 주식 선물은 평평합니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "개인 상속·명의 관련 사연으로 투자 판단과 직접 관련이 없습니다.",
+        "why": "금리 발언에 따른 선물 보합은 단기 흐름일 뿐입니다.",
         "by": "ai"
       },
       {
-        "title": "CrowdStrike Just Lit a Fire Under Cybersecurity Stocks. Is Palo Alto Networks Next?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/crowdstrike-just-lit-fire-under-211520650.html",
+        "title": "Dow Jones Futures Fall Amid Bullish, Bearish Market Signals. What To Do Now.",
+        "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-microsoft-titans-mask-market-weakness/?src=A00220&yptr=yahoo",
         "source": "Yahoo Finance",
-        "date": "2026-08-30T21:15:20Z",
-        "ko": "CrowdStrike는 사이버 보안 주식에 불을 붙였습니다. Palo Alto Networks는 다음 단계인가요?",
+        "date": "2026-08-30T22:26:40Z",
+        "ko": "Dow Jones Futures는 강세장, 베어리쉬 마켓 시그널 속에서 추락합니다. 지금 해야 할 일.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "sector",
-        "why": "한 기업 실적에 따른 업종 기대감으로, 10년 이익 구조와는 거리가 있습니다.",
+        "scope": "market",
+        "why": "대형주가 지수를 떠받치는 단기 시장 흐름 해설입니다.",
         "by": "ai"
       },
       {
@@ -449,27 +449,27 @@
         "by": "ai"
       },
       {
-        "title": "These charts show how leverage-happy investors are transforming the stock market",
-        "link": "https://www.marketwatch.com/story/these-charts-show-how-leverage-happy-investors-are-transforming-the-stock-market-d4e350c3?mod=mw_rss_topstories",
+        "title": "My mother, 91, has dementia. Every bank says I need her signature to unlock her $100,000 stock certificate. What can I do?",
+        "link": "https://www.marketwatch.com/story/my-mother-91-has-dementia-every-bank-says-i-need-her-signature-to-unlock-her-100-000-stock-certificate-what-can-i-do-4a2b702f?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Sun, 30 Aug 2026 13:00:00 GMT",
-        "ko": "이 차트는 레버리지에 만족하는 투자자들이 주식 시장을 어떻게 변화시키고 있는지 보여줍니다.",
-        "act": "watch",
-        "lasting": "structural",
+        "date": "Sun, 30 Aug 2026 14:30:00 GMT",
+        "ko": "91세인 어머니는 치매를 앓고 계십니다. 모든 은행에서 $100,000의 주식 증서를 잠금 해제하려면 그녀의 서명이 필요하다고 말합니다. 어떻게 해야 하나요?",
+        "act": "none",
+        "lasting": "temporary",
         "scope": "market",
-        "why": "레버리지 확대는 시장 변동성 구조와 관련될 수 있어 흐름만 지켜보면 됩니다.",
+        "why": "개인 상속·명의 관련 사연으로 투자 판단과 직접 관련이 없습니다.",
         "by": "ai"
       },
       {
-        "title": "A $3.13 Billion Reason to Buy Zoom Communications Stock Now",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/3-13-billion-reason-buy-150002113.html",
+        "title": "This Is What Investors Should Watch Before Buying PANW Stock. Most Will Ignore It on September 1.",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/investors-watch-buying-panw-stock-153002874.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-30T15:00:02Z",
-        "ko": "지금 Zoom Communications 주식을 구매해야 하는 $31억 3천만 이유",
+        "date": "2026-08-30T15:30:02Z",
+        "ko": "이것은 투자자가 PANW 주식을 구매하기 전에 주의해야 할 사항입니다. 대부분은 9월 1일에 무시할 것입니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
-        "why": "매수를 권하는 논평 형식이며 새로운 사실 변화는 확인되지 않습니다.",
+        "why": "매수 시점을 다루는 홍보성 글로, 실적 근거와 무관합니다.",
         "by": "ai"
       }
     ]
@@ -737,30 +737,12 @@
     "Mortgage and refinance interest rates today, Sunday, August 30, 2026: Purchase rates higher than last week": "2026년 8월 30일 일요일 주택담보대출 및 재융자 금리: 지난주보다 높은 매입금리",
     "Best CD rates today, Sunday, August 30, 2026: Lock in up to 4.30% APY": "2026년 8월 30일 일요일, 오늘 최고 CD 가격: 최대 4.30% APY 고정",
     "CrowdStrike Just Lit a Fire Under Cybersecurity Stocks. Is Palo Alto Networks Next?": "CrowdStrike는 사이버 보안 주식에 불을 붙였습니다. Palo Alto Networks는 다음 단계인가요?",
-    "A $3.13 Billion Reason to Buy Zoom Communications Stock Now": "지금 Zoom Communications 주식을 구매해야 하는 $31억 3천만 이유"
+    "A $3.13 Billion Reason to Buy Zoom Communications Stock Now": "지금 Zoom Communications 주식을 구매해야 하는 $31억 3천만 이유",
+    "U.S. stock futures flat as chances of rate hike rise after Warsh’s Jackson Hole comments": "워시의 잭슨 홀 코멘트 이후 금리 인상 가능성이 높아짐에 따라 미국 주식 선물은 평평합니다.",
+    "Dow Jones Futures Fall Amid Bullish, Bearish Market Signals. What To Do Now.": "Dow Jones Futures는 강세장, 베어리쉬 마켓 시그널 속에서 추락합니다. 지금 해야 할 일.",
+    "This Is What Investors Should Watch Before Buying PANW Stock. Most Will Ignore It on September 1.": "이것은 투자자가 PANW 주식을 구매하기 전에 주의해야 할 사항입니다. 대부분은 9월 1일에 무시할 것입니다."
   },
   "nvCache": {
-    "https://finance.yahoo.com/markets/article/nvidia-earnings-and-jackson-hole-what-to-watch-this-week-100000082.html": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "이번 주 일정을 안내하는 예고성 기사입니다.",
-      "by": "ai"
-    },
-    "https://www.cnbc.com/2026/08/21/bessents-bond-gambit-aimed-at-calming-markets-is-instead-stirring-inflation-worries-.html": {
-      "act": "watch",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "채권·물가 정책 논쟁은 금리 흐름을 볼 참고 사항입니다.",
-      "by": "ai"
-    },
-    "https://www.marketwatch.com/story/samsung-electronics-stock-had-its-worst-day-in-three-weeks-and-the-other-memory-stocks-are-lower-as-well-2080834f?mod=mw_rss_topstories": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "sector",
-      "why": "하루 주가 급락은 기업 이익 구조와 무관한 변동입니다.",
-      "by": "ai"
-    },
     "https://finance.yahoo.com/news/nvidias-q2-earnings-to-test-resurgent-ai-trade-112502189.html": {
       "act": "none",
       "lasting": "temporary",
@@ -2838,6 +2820,27 @@
       "lasting": "temporary",
       "scope": "company",
       "why": "매수를 권하는 논평 형식이며 새로운 사실 변화는 확인되지 않습니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/2026083018736": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "금리 환경에 따른 시황 분석 기사로, 기업의 장기 이익 구조를 바꾸는 내용은 아닙니다.",
+      "by": "ai"
+    },
+    "https://www.marketwatch.com/story/u-s-stock-futures-flat-as-chances-of-rate-hike-rise-after-warshs-jackson-hole-comments-1f5287f2?mod=mw_rss_topstories": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "금리 발언에 따른 선물 보합은 단기 흐름일 뿐입니다.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/markets/stocks/articles/investors-watch-buying-panw-stock-153002874.html": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "매수 시점을 다루는 홍보성 글로, 실적 근거와 무관합니다.",
       "by": "ai"
     }
   },
