@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-30T19:34:44.360Z",
+  "asOf": "2026-08-30T20:35:42.630Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -21,7 +21,7 @@
       "prev": 1380.449951171875,
       "chg": -0.35,
       "basis": "prev-daily-close",
-      "time": "2026-08-30T19:26:05.000Z"
+      "time": "2026-08-30T20:24:47.000Z"
     },
     "^GSPC": {
       "price": 7711.76,
@@ -110,17 +110,17 @@
   },
   "regime": {
     "by": "ai",
-    "asOf": "2026-08-30T19:34:40.659Z",
+    "asOf": "2026-08-30T20:35:38.239Z",
     "kr": {
       "why": {
-        "rates": "장기금리 지표인 ^TNX가 4.72로 1년 범위(3.95~4.74) 상단인 97% 위치이고 3개월간 +5.47% 올라, 금리가 위로 눌리는 국면으로 봅니다(헤드라인의 '좁아진 한미 금리차' 언급도 참고).",
-        "growth": "코스피가 6788.88로 3개월간 -19.91% 급락했지만 1년 범위 내 위치는 아직 61%이고 ^VIX도 14.43(6% 위치)로 낮아, 침체 확정보다는 둔화 신호로 중립적으로 봅니다.",
-        "valuation": "코스피 1년 범위 3142.93~9114.55 중 61% 위치로 상단도 하단도 아니어서 보통 수준입니다.",
-        "fx": "원/달러가 1375.67로 1년 범위(1375.67~1554.48) 최저인 0% 위치, 3개월간 -10.09%로 원화가 뚜렷하게 강해졌습니다.",
-        "geo": "^VIX가 14.43으로 1년 범위 6% 위치까지 낮아졌고 제시된 헤드라인에 분쟁·정책 충격 내용이 없어 평온으로 판단합니다."
+        "rates": "제시된 자료에는 한국 정책금리 지표가 없고 미국 10년물(^TNX) 4.72%가 1년 범위의 97% 수준까지 3개월 +5.47% 올랐다는 정보만 있어, 한국 금리 방향 근거가 약하므로 중립값인 hold로 둡니다.",
+        "growth": "코스피가 3개월 -19.91%로 큰 폭 조정을 받았지만 현재 6788.88로 1년범위(3142.93~9114.55) 61% 위치를 유지하고 있어 침체 확정보다는 둔화 국면으로 봅니다.",
+        "valuation": "지수 위치가 1년범위의 61%로 고점(9114.55)과 저점(3142.93) 사이 중간대이고 3개월간 -19.91% 조정으로 과열이 식은 상태여서 보통 수준입니다.",
+        "fx": "원/달러가 1375.67로 1년범위(1375.67~1554.48) 최하단인 0% 위치이고 3개월 -10.09%로 하락해 원화가 뚜렷한 강세입니다.",
+        "geo": "VIX가 14.43으로 1년범위의 6% 수준까지 낮아졌고 헤드라인도 한미 금리차·토큰증권 플랫폼 등 시장 구조 이슈에 그쳐 긴장 신호가 보이지 않습니다."
       },
-      "summary": "금리는 높은 자리에 머물러 오르는 쪽이고 코스피는 3개월간 20% 가까이 빠져 경기 둔화 신호가 보이지만, 변동성 지표는 매우 낮아 공포 국면은 아닙니다. 원화는 1년 중 가장 강한 수준이라 환율 부담은 줄어든 상태입니다.",
-      "rates": "hike",
+      "summary": "원/달러가 1년 최저인 1375.67까지 내려와 원화가 강한 반면, 코스피는 3개월 -19.91% 조정으로 성장 동력이 둔화된 국면입니다. 변동성(VIX 14.43)은 낮아 시장 자체는 평온하지만 지수 위치는 중간대(61%)로 밸류에이션은 보통 수준입니다.",
+      "rates": "hold",
       "growth": "slow",
       "valuation": "fair",
       "fx": "strong",
@@ -128,13 +128,13 @@
     },
     "us": {
       "why": {
-        "rates": "미 10년물 금리(^TNX)가 4.72로 1년 범위 97% 위치, 3개월 +5.47%이고 헤드라인에서 연준 해맥이 '금리 인상, 지금이 행동할 때'라고 언급해 인상 방향으로 봅니다.",
-        "growth": "S&P500이 7711.76으로 1년 범위 94% 위치이고 3개월 +1.47%로 완만히 상승 중이어서 경기 흐름은 아직 괜찮은 쪽으로 분류합니다.",
-        "valuation": "지수가 1년 범위 6343.72~7798.99의 상단 94% 위치까지 올라와 있어 가격 부담이 큰 편으로 봅니다(밸류 지표 자체는 제시되지 않아 가격 위치만 근거).",
-        "fx": "원/달러 1375.67은 1년 범위 0% 위치이고 3개월 -10.09%로, 달러 대비 원화가 강세인 상태입니다.",
-        "geo": "^VIX 14.43(1년 범위 6% 위치)으로 매우 낮고 제시된 헤드라인에 지정학·정책 충격 사건이 없어 평온으로 판단합니다."
+        "rates": "10년물 금리(^TNX)가 4.72%로 1년범위(3.95~4.74) 97% 위치이며 3개월 +5.47% 상승했고, 헤드라인에서 연준 해맥이 '금리 인상, 지금이 행동할 때'라 말하고 주택담보대출 금리도 지난주보다 높다고 언급됩니다.",
+        "growth": "S&P500이 7711.76으로 1년범위(6343.72~7798.99)의 94% 위치이고 3개월 +1.47%로 완만히 상승 중이어서 경기 위축 신호는 자료상 확인되지 않습니다(다만 고용지표는 발표 대기 중).",
+        "valuation": "지수가 1년 고점 7798.99에 근접한 94% 위치이고 헤드라인도 레버리지에 익숙해진 투자자 흐름을 언급해 가격 부담이 있는 편입니다.",
+        "fx": "동일 환율 지표에서 원/달러가 1375.67로 1년범위 0% 위치, 3개월 -10.09%를 기록해 달러 대비 원화 강세(달러 약세) 방향입니다.",
+        "geo": "VIX 14.43(1년범위 6% 위치)로 시장 불안 지표가 매우 낮고 헤드라인도 금리·예금상품 등 정책·생활금융 이슈여서 평온으로 분류합니다."
       },
-      "summary": "미국 증시는 1년 고점권(94% 위치)에서 완만히 오르는 중이고 변동성도 낮지만, 10년물 금리가 4.72로 1년 최고 수준이라 금리 부담이 함께 커진 국면입니다. 가격이 비싼 자리라는 점과 금리 방향을 같이 살펴볼 시점입니다.",
+      "summary": "장기금리가 1년 최고 수준(4.72%)까지 올라 긴축 압력이 부각되는데도 S&P500은 고점 근처(94% 위치)에 있어 가격 부담이 큰 국면입니다. 변동성 지표는 14.43으로 매우 낮아 표면은 조용하지만 금리와 주가 위치가 엇갈린 상태라는 점만 확인하는 분류입니다.",
       "rates": "hike",
       "growth": "expand",
       "valuation": "rich",
@@ -344,14 +344,14 @@
         "by": "ai"
       },
       {
-        "title": "코스콤, 12개 증권사와 토큰증권 플랫폼 구축",
-        "link": "https://www.mk.co.kr/news/stock/12139879",
+        "title": "'국민성장펀드 투자' 원익로보·CJ 4D플렉스, 중복상장 걸림돌",
+        "link": "https://www.mk.co.kr/news/stock/12139880",
         "source": "매일경제",
         "date": "Sun, 30 Aug 2026 17:27:31 +09:00",
         "act": "watch",
-        "lasting": "structural",
-        "scope": "sector",
-        "why": "증권 거래 인프라가 바뀌는 방향이라 업종 차원에서 천천히 볼 만합니다.",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "정책 자금 조달 절차상 걸림돌 언급으로, 결론이 나올 때까지 지켜볼 사안입니다.",
         "by": "ai"
       },
       {
@@ -366,14 +366,14 @@
         "by": "ai"
       },
       {
-        "title": "'국민성장펀드 투자' 원익로보·CJ 4D플렉스, 중복상장 걸림돌",
-        "link": "https://www.mk.co.kr/news/stock/12139880",
+        "title": "코스콤, 12개 증권사와 토큰증권 플랫폼 구축",
+        "link": "https://www.mk.co.kr/news/stock/12139879",
         "source": "매일경제",
         "date": "Sun, 30 Aug 2026 17:27:31 +09:00",
         "act": "watch",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "정책 자금 조달 절차상 걸림돌 언급으로, 결론이 나올 때까지 지켜볼 사안입니다.",
+        "lasting": "structural",
+        "scope": "sector",
+        "why": "증권 거래 인프라가 바뀌는 방향이라 업종 차원에서 천천히 볼 만합니다.",
         "by": "ai"
       },
       {
@@ -425,15 +425,15 @@
         "by": "ai"
       },
       {
-        "title": "Josh Brown Says ‘Take a Break From AI CapEx World,’ Highlights His 2 Top Healthcare Stock Picks",
-        "link": "https://finance.yahoo.com/healthcare/articles/josh-brown-says-break-ai-134507001.html",
+        "title": "Mortgage and refinance interest rates today, Sunday, August 30, 2026: Purchase rates higher than last week",
+        "link": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-sunday-august-30-2026-purchase-rates-higher-than-last-week-100000187.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-30T13:45:07Z",
-        "ko": "조쉬 브라운 (Josh Brown) 이 ‘AI CapEx 세계에서 휴식을 취하십시오’ 라고 말하면서, 그의 2 가지 주요 건강 관리 주식 추천을 강조합니다.",
+        "date": "2026-08-30T10:00:00Z",
+        "ko": "2026년 8월 30일 일요일 주택담보대출 및 재융자 금리: 지난주보다 높은 매입금리",
         "act": "none",
         "lasting": "temporary",
-        "scope": "sector",
-        "why": "전문가 개인 의견이라 기업 이익 구조와는 무관합니다.",
+        "scope": "market",
+        "why": "주간 금리 변동은 흔한 일로 장기 이익과 직접 연결되지 않습니다.",
         "by": "ai"
       },
       {
@@ -461,15 +461,15 @@
         "by": "ai"
       },
       {
-        "title": "The 1 Metric I Check Before Buying Any Dividend Stock",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/1-metric-check-buying-dividend-191100637.html",
+        "title": "Best CD rates today, Sunday, August 30, 2026: Lock in up to 4.30% APY",
+        "link": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-sunday-august-30-2026-lock-in-up-to-430-apy-100000110.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-30T19:11:00Z",
-        "ko": "배당 주식을 사기 전에 확인하는 1 메트릭",
+        "date": "2026-08-30T10:00:00Z",
+        "ko": "2026년 8월 30일 일요일, 오늘 최고 CD 가격: 최대 4.30% APY 고정",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "투자 방법을 설명하는 일반 정보성 기사로, 기업 이익과는 무관합니다.",
+        "why": "예금 금리 안내성 정보로 기업 실적과는 무관합니다.",
         "by": "ai"
       }
     ]
@@ -733,23 +733,11 @@
     "The Last Time Money Fled U.S. Stocks, Emerging Markets Won for a Decade... But This Time Around, 'EM' Means Taiwan Semi and Samsung.": "마지막 돈은 미국 주식을 날려 버렸고, 신흥 시장은 10 년 동안 승리했습니다... 하지만 이번에는 'EM' 이 대만 세미와 삼성을 의미합니다.",
     "Josh Brown Says ‘Take a Break From AI CapEx World,’ Highlights His 2 Top Healthcare Stock Picks": "조쉬 브라운 (Josh Brown) 이 ‘AI CapEx 세계에서 휴식을 취하십시오’ 라고 말하면서, 그의 2 가지 주요 건강 관리 주식 추천을 강조합니다.",
     "Dow Jones Futures Due Amid Bullish, Bearish Market Signals. What To Do Now.": "강세장, 베어리쉬 마켓 시그널 가운데 다우 존스 선물 기한. 지금 해야 할 일.",
-    "The 1 Metric I Check Before Buying Any Dividend Stock": "배당 주식을 사기 전에 확인하는 1 메트릭"
+    "The 1 Metric I Check Before Buying Any Dividend Stock": "배당 주식을 사기 전에 확인하는 1 메트릭",
+    "Mortgage and refinance interest rates today, Sunday, August 30, 2026: Purchase rates higher than last week": "2026년 8월 30일 일요일 주택담보대출 및 재융자 금리: 지난주보다 높은 매입금리",
+    "Best CD rates today, Sunday, August 30, 2026: Lock in up to 4.30% APY": "2026년 8월 30일 일요일, 오늘 최고 CD 가격: 최대 4.30% APY 고정"
   },
   "nvCache": {
-    "https://www.hankyung.com/article/202608248774i": {
-      "act": "watch",
-      "lasting": "structural",
-      "scope": "company",
-      "why": "대규모 주주환원 정책은 장기 자본배분 구조 변화라 지켜볼 만합니다.",
-      "by": "ai"
-    },
-    "https://www.mk.co.kr/news/stock/12135156": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "sector",
-      "why": "기대감에 따른 단기 주가 랠리로 실적 변화는 확인되지 않았습니다.",
-      "by": "ai"
-    },
     "https://www.yna.co.kr/view/AKR20260824075851002": {
       "act": "none",
       "lasting": "temporary",
@@ -2834,6 +2822,20 @@
       "lasting": "temporary",
       "scope": "market",
       "why": "투자 방법을 설명하는 일반 정보성 기사로, 기업 이익과는 무관합니다.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-sunday-august-30-2026-purchase-rates-higher-than-last-week-100000187.html": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "주간 금리 변동은 흔한 일로 장기 이익과 직접 연결되지 않습니다.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-sunday-august-30-2026-lock-in-up-to-430-apy-100000110.html": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "예금 금리 안내성 정보로 기업 실적과는 무관합니다.",
       "by": "ai"
     }
   },
