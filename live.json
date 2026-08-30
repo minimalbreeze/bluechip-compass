@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-30T08:20:44.815Z",
+  "asOf": "2026-08-30T09:21:52.697Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -110,16 +110,16 @@
   },
   "regime": {
     "by": "ai",
-    "asOf": "2026-08-30T08:20:36.889Z",
+    "asOf": "2026-08-30T09:21:35.363Z",
     "kr": {
       "why": {
-        "rates": "한은이 \"수요 압력에 물가 상승세가 더 광범위하게 확산될 가능성\"을 언급했고, 미 10년물 금리(^TNX)도 4.72%로 1년범위 97% 위치·3개월 +5.47%라 금리는 내려가는 국면이 아니라 위쪽으로 압력이 걸린 상태입니다.",
-        "growth": "코스피가 3개월간 -19.91% 조정받았지만 현재 6788.88은 1년범위 61% 위치로 여전히 중간 위쪽이고, 성장률·고용 같은 실물 지표가 자료에 없어 침체로 단정하기보다 둔화(slow)로 봅니다.",
-        "valuation": "1년범위 3142.93~9114.55 안에서 61% 위치이고 3개월 -19.91%로 고점 부담을 일부 덜어낸 상태여서, 싸지도 비싸지도 않은 보통 구간으로 분류합니다.",
-        "fx": "원/달러가 1371.5로 1년범위(1371.5~1554.48)의 최저점, 즉 위치 0%이며 3개월 -10.37%로 원화가 뚜렷하게 강해졌습니다.",
-        "geo": "VIX가 14.43으로 1년범위 6% 위치, 3개월 -10.09%까지 내려와 있고 헤드라인도 물가·수급·업종 이야기 위주라 시장이 인식하는 긴장은 낮습니다."
+        "rates": "한은이 \"수요 압력에 물가 상승세가 더 광범위하게 확산 가능성\"을 언급했고 미 10년물(^TNX)도 4.72%로 1년범위 97% 위치·3개월 +5.47%라 금리 하락 국면으로 보기 어렵습니다.",
+        "growth": "코스피가 3개월 -19.91% 급락했지만 1년범위 내 위치는 여전히 61%이고 침체를 직접 가리키는 지표는 제시되지 않아, 근거가 약해 둔화(중간값)로 봅니다.",
+        "valuation": "^KS11 6788.88은 1년범위 3142.93~9114.55의 61% 위치로 고점도 저점도 아닌 중간 구간입니다.",
+        "fx": "KRW=X가 1371.5로 1년범위(1371.5~1554.48) 최저인 0% 위치, 3개월 -10.37%이며 \"좁아진 한미 금리차…원화 강세\" 헤드라인도 같은 방향입니다.",
+        "geo": "^VIX 14.43(1년범위 6% 위치, 3개월 -10.09%)로 낮고 헤드라인은 펀드·토큰증권 등 국내 이슈 위주여서 충격 징후가 없습니다."
       },
-      "summary": "금리 상승 압력은 남아 있는데 코스피는 3개월간 -19.91% 조정을 받아 '금리 부담 속 둔화' 국면입니다. 다만 원/달러가 1년 최저인 1371.5까지 내려오고 VIX도 14.43으로 낮아, 공포보다는 숨 고르기에 가까운 상태입니다.",
+      "summary": "금리는 물가 부담 탓에 내려갈 분위기가 아니고, 지수는 3개월 -19.91%로 크게 밀렸지만 1년 위치는 61%로 중간권입니다. 원화는 1년 최저 환율(1371.5)까지 강해졌고 변동성 지표는 낮아 시장 긴장은 잠잠한 상태입니다.",
       "rates": "hike",
       "growth": "slow",
       "valuation": "fair",
@@ -128,13 +128,13 @@
     },
     "us": {
       "why": {
-        "rates": "^TNX가 4.72%로 1년범위(3.95~4.74) 97% 위치이고 3개월 +5.47%인 가운데, 연준 해맥이 \"지금이 (금리 인상에) 행동할 때\"라고 말하고 워시도 인플레 우려를 표명해 인상 쪽 압력이 우세합니다.",
-        "growth": "S&P500이 7711.76으로 1년범위 94% 위치, 3개월 +1.47%로 완만히 오르고 있고 \"기업 수익이 빠른 속도로 증가\" 헤드라인도 있어 현재 경기 상태는 괜찮은 편으로 봅니다.",
-        "valuation": "현재 7711.76은 1년 고점 7798.99에 근접한 94% 위치라 가격 부담이 큰 구간으로 분류하며, \"이것이 지속되지 않는 이유\"라는 이익 지속성 의문 헤드라인도 함께 있습니다.",
-        "fx": "원/달러 1371.5는 1년범위 최저(위치 0%)이고 3개월 -10.37%로, 원화 기준으로는 강세이며 이는 해외자산 원화 환산액에 불리하게 작용하는 방향입니다.",
-        "geo": "VIX 14.43(1년범위 6% 위치, 3개월 -10.09%)으로 변동성이 매우 낮고, 헤드라인에 지정학 충격 관련 내용이 없어 평온으로 판단합니다."
+        "rates": "^TNX 4.72%가 1년범위 3.95~4.74의 97% 위치이고 3개월 +5.47% 상승, 헤드라인에서도 연준 해먹이 \"금리 인상, 지금이 행동할 때\"라고 언급했습니다.",
+        "growth": "\"기업 수익이 빠른 속도로 증가\" 헤드라인과 함께 ^GSPC가 7711.76으로 1년범위 94% 위치, 3개월 +1.47%로 버티고 있습니다.",
+        "valuation": "S&P500이 1년범위 6343.72~7798.99의 94% 위치로 고점 근처에 있어 비싼 편으로 분류합니다.",
+        "fx": "KRW=X 1371.5는 1년범위 0% 위치, 3개월 -10.37%로 달러 대비 원화가 가장 강한 수준입니다.",
+        "geo": "^VIX 14.43(1년범위 6% 위치)로 매우 낮고 제시된 헤드라인에 충격성 사건이 없어 평온으로 봅니다."
       },
-      "summary": "미국은 경기·실적은 괜찮지만 10년물 4.72%와 연준 인사들의 인상 발언으로 금리 부담이 커진 상태이고, 지수는 1년 고점 근처(94% 위치)라 가격이 비싼 편입니다. 변동성(VIX 14.43)은 낮지만 원/달러가 1년 최저라 환율 효과도 함께 봐야 하는 국면입니다.",
+      "summary": "기업 실적과 지수는 강한데(1년범위 94% 위치) 금리는 4.72%로 1년 최고권이라 '좋은 경기 + 높은 금리' 조합입니다. 지수 레벨이 비싼 편이고 변동성은 매우 낮아 시장이 낙관에 기울어 있는 국면입니다.",
       "rates": "hike",
       "growth": "expand",
       "valuation": "rich",
@@ -344,6 +344,50 @@
         "by": "ai"
       },
       {
+        "title": "좁아진 한미 금리차…원화 강세 이어질듯",
+        "link": "https://www.hankyung.com/article/2026083019301",
+        "source": "한국경제",
+        "date": "Sun, 30 Aug 2026 17:35:48 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "환율과 금리차는 계속 변하는 거시 변수로 장기 이익 구조와는 거리가 있습니다.",
+        "by": "ai"
+      },
+      {
+        "title": "'국민성장펀드 투자' 원익로보·CJ 4D플렉스, 중복상장 걸림돌",
+        "link": "https://www.mk.co.kr/news/stock/12139880",
+        "source": "매일경제",
+        "date": "Sun, 30 Aug 2026 17:27:31 +09:00",
+        "act": "watch",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "정책 자금 조달 절차상 걸림돌 언급으로, 결론이 나올 때까지 지켜볼 사안입니다.",
+        "by": "ai"
+      },
+      {
+        "title": "뉴욕·상하이 증시, 美 8월 고용지표·브로드컴 실적 주목",
+        "link": "https://www.hankyung.com/article/2026083019291",
+        "source": "한국경제",
+        "date": "Sun, 30 Aug 2026 17:35:31 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "지표와 실적 발표를 앞둔 대기성 기사로 오늘 할 일은 없습니다.",
+        "by": "ai"
+      },
+      {
+        "title": "코스콤, 12개 증권사와 토큰증권 플랫폼 구축",
+        "link": "https://www.mk.co.kr/news/stock/12139879",
+        "source": "매일경제",
+        "date": "Sun, 30 Aug 2026 17:27:31 +09:00",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": "sector",
+        "why": "증권 거래 인프라가 바뀌는 방향이라 업종 차원에서 천천히 볼 만합니다.",
+        "by": "ai"
+      },
+      {
         "title": "예탁금 3000만원의 벽…'삼전닉스 2배' 개미 1.7조원어치 순매도",
         "link": "https://www.hankyung.com/article/202608301725i",
         "source": "한국경제",
@@ -352,50 +396,6 @@
         "lasting": "temporary",
         "scope": "market",
         "why": "개인 수급·자금 흐름 이야기로 기업 이익과는 무관합니다.",
-        "by": "ai"
-      },
-      {
-        "title": "코스닥 ‘공매도 실탄’ 33조원 육박",
-        "link": "https://www.mk.co.kr/news/stock/12139806",
-        "source": "매일경제",
-        "date": "Sun, 30 Aug 2026 16:16:42 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "공매도 대기자금 규모는 수급 지표일 뿐 기업 이익과는 무관합니다.",
-        "by": "ai"
-      },
-      {
-        "title": "반도체 4% 뛸 동안 30% 가까이 상승한 건설주...데이터센터·원전 매력↑",
-        "link": "https://www.hankyung.com/article/202608301665i",
-        "source": "한국경제",
-        "date": "Sun, 30 Aug 2026 15:32:02 +0900",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": "sector",
-        "why": "데이터센터·원전 수요는 업종의 장기 성장 축이 될 수 있어 흐름만 지켜볼 사안입니다.",
-        "by": "ai"
-      },
-      {
-        "title": "엔트로픽 상장 기대감···SKT 주가 다시 달리나",
-        "link": "https://www.mk.co.kr/news/stock/12139803",
-        "source": "매일경제",
-        "date": "Sun, 30 Aug 2026 16:13:49 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "상장 기대감에 따른 주가 기대는 확정된 실적 변화가 아닙니다.",
-        "by": "ai"
-      },
-      {
-        "title": "\"'반도체 플러스'로 진화하는 韓 증시…'잠자는 호랑이'에 주목하라\"",
-        "link": "https://www.hankyung.com/article/202608290967i",
-        "source": "한국경제",
-        "date": "Sun, 30 Aug 2026 13:52:45 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "시장 전망을 다룬 논평으로, 기업 이익을 바꾸는 사실은 없습니다.",
         "by": "ai"
       }
     ],
@@ -425,15 +425,15 @@
         "by": "ai"
       },
       {
-        "title": "BofA Just Put a $70 Target on This Overlooked AI Packaging Stock",
-        "link": "https://finance.yahoo.com/technology/ai/articles/bofa-just-put-70-target-025736991.html",
+        "title": "Coinbase and Robinhood Rally as Bitcoin Marches Toward Its Best Week in Months",
+        "link": "https://finance.yahoo.com/markets/crypto/articles/coinbase-robinhood-rally-bitcoin-marches-035923976.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-29T02:57:36Z",
-        "ko": "BofA는 이 간과된 AI 포장재고에 $70 타겟을 넣었습니다.",
+        "date": "2026-08-29T03:59:23Z",
+        "ko": "Bitcoin이 몇 달 만에 최고의 주간을 향해 행진함에 따라 Coinbase와 Robinhood Rally",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
-        "why": "증권사 목표주가 제시는 의견일 뿐 기업의 장기 이익을 바꾸지 않습니다.",
+        "scope": "sector",
+        "why": "가상자산 가격 흐름에 따른 단기 주가 반응으로 보입니다.",
         "by": "ai"
       },
       {
@@ -461,15 +461,15 @@
         "by": "ai"
       },
       {
-        "title": "Marvell Fell After Its Google Deal. Why Did Investors Sell These Two AI Optics Stocks Too?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/marvell-fell-google-deal-why-025545596.html",
+        "title": "Alibaba Shares Fell on a $10 Billion AI Raise. Insiders Saw a Buying Opportunity",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/alibaba-shares-fell-10-billion-035502952.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-29T02:55:45Z",
-        "ko": "Marvell은 구글 딜 후 넘어졌습니다. 투자자들은 왜 이 두 인공지능 광학 주식을 너무 많이 팔았을까요?",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "sector",
-        "why": "단기 주가 급락과 수급 해석 기사로, 사업 구조 변화로 보긴 어렵습니다.",
+        "date": "2026-08-29T03:55:02Z",
+        "ko": "알리바바 주식은 $100억의 AI 자금 조달로 하락했습니다. 내부자가 본 구매 기회",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": "company",
+        "why": "대규모 AI 투자 자금 조달은 장기 수익 구조와 연결돼 지켜볼 만합니다.",
         "by": "ai"
       }
     ]
@@ -719,7 +719,9 @@
     "Forget Nvidia. Johnson & Johnson and 2 Other AI Stocks Are Beating the Market by 29 Points.": "엔비디아는 잊어버리세요. 존슨앤존슨 외 2곳의 AI 주식이 시장을 29포인트 앞서고 있습니다.",
     "Warsh Says Fed Has 'Work to Do' to Fight Inflation": "Warsh는 Fed가 인플레이션에 맞서 싸우기 위해 '해야 할 일' 을 가지고 있다고 말합니다.",
     "BofA Just Put a $70 Target on This Overlooked AI Packaging Stock": "BofA는 이 간과된 AI 포장재고에 $70 타겟을 넣었습니다.",
-    "Marvell Fell After Its Google Deal. Why Did Investors Sell These Two AI Optics Stocks Too?": "Marvell은 구글 딜 후 넘어졌습니다. 투자자들은 왜 이 두 인공지능 광학 주식을 너무 많이 팔았을까요?"
+    "Marvell Fell After Its Google Deal. Why Did Investors Sell These Two AI Optics Stocks Too?": "Marvell은 구글 딜 후 넘어졌습니다. 투자자들은 왜 이 두 인공지능 광학 주식을 너무 많이 팔았을까요?",
+    "Coinbase and Robinhood Rally as Bitcoin Marches Toward Its Best Week in Months": "Bitcoin이 몇 달 만에 최고의 주간을 향해 행진함에 따라 Coinbase와 Robinhood Rally",
+    "Alibaba Shares Fell on a $10 Billion AI Raise. Insiders Saw a Buying Opportunity": "알리바바 주식은 $100억의 AI 자금 조달로 하락했습니다. 내부자가 본 구매 기회"
   },
   "nvCache": {
     "https://www.yna.co.kr/view/AKR20260824137251008": {
@@ -2701,6 +2703,48 @@
       "lasting": "temporary",
       "scope": "sector",
       "why": "단기 주가 급락과 수급 해석 기사로, 사업 구조 변화로 보긴 어렵습니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/2026083019301": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "환율과 금리차는 계속 변하는 거시 변수로 장기 이익 구조와는 거리가 있습니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12139880": {
+      "act": "watch",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "정책 자금 조달 절차상 걸림돌 언급으로, 결론이 나올 때까지 지켜볼 사안입니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/2026083019291": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "지표와 실적 발표를 앞둔 대기성 기사로 오늘 할 일은 없습니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12139879": {
+      "act": "watch",
+      "lasting": "structural",
+      "scope": "sector",
+      "why": "증권 거래 인프라가 바뀌는 방향이라 업종 차원에서 천천히 볼 만합니다.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/markets/crypto/articles/coinbase-robinhood-rally-bitcoin-marches-035923976.html": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "sector",
+      "why": "가상자산 가격 흐름에 따른 단기 주가 반응으로 보입니다.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/markets/stocks/articles/alibaba-shares-fell-10-billion-035502952.html": {
+      "act": "watch",
+      "lasting": "structural",
+      "scope": "company",
+      "why": "대규모 AI 투자 자금 조달은 장기 수익 구조와 연결돼 지켜볼 만합니다.",
       "by": "ai"
     }
   },
