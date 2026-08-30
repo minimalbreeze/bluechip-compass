@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-30T22:37:38.834Z",
+  "asOf": "2026-08-30T23:38:41.574Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -17,11 +17,11 @@
       "time": "2026-08-28T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1377.35,
+      "price": 1377.91,
       "prev": 1380.449951171875,
-      "chg": -0.22,
+      "chg": -0.18,
       "basis": "prev-daily-close",
-      "time": "2026-08-30T22:36:53.000Z"
+      "time": "2026-08-30T23:37:52.000Z"
     },
     "^GSPC": {
       "price": 7711.76,
@@ -53,9 +53,9 @@
     }
   },
   "fx": {
-    "low52": 1377.35,
+    "low52": 1377.64,
     "high52": 1554.48,
-    "pct": 0
+    "pct": 0.002
   },
   "hist": {
     "^KS11": {
@@ -73,11 +73,11 @@
       "chg3m": -21.99
     },
     "KRW=X": {
-      "last": 1377.35,
-      "low52": 1377.35,
+      "last": 1377.91,
+      "low52": 1377.64,
       "high52": 1554.48,
-      "pct52": 0,
-      "chg3m": -9.98
+      "pct52": 0.002,
+      "chg3m": -9.95
     },
     "^GSPC": {
       "last": 7711.76,
@@ -110,16 +110,16 @@
   },
   "regime": {
     "by": "ai",
-    "asOf": "2026-08-30T22:37:30.719Z",
+    "asOf": "2026-08-30T23:38:31.717Z",
     "kr": {
       "why": {
-        "rates": "미 10년물 금리(^TNX)가 4.72%로 1년 범위 상단 97% 위치이고 3개월간 +5.47% 올랐으며, '한국은 3%대 진입, 미국도 인상론 무게', '조달비용 상승', '고금리' 헤드라인이 겹쳐 금리는 올라가는 쪽입니다.",
-        "growth": "코스피가 3개월간 -19.91% 하락하고 '상반기만 10만명 채무조정 확정' 같은 부채 부담 신호가 있지만, 지수가 아직 1년 범위 61% 위치이고 VIX도 14.43으로 낮아 침체 확정보다는 둔화 국면으로 봅니다.",
-        "valuation": "코스피 6788.88은 1년범위(3142.93~9114.55) 61% 위치로 중간보다 약간 위이고 이익·PER 자료가 제공되지 않아 보통(fair)으로 중립 판정합니다.",
-        "fx": "원/달러가 1377.35로 1년 범위 최하단(위치 0%)이고 3개월간 -9.98% 내렸으며, '좁아진 한미 금리차…원화 강세 이어질듯' 헤드라인도 같은 방향입니다.",
-        "geo": "VIX가 14.43으로 1년 범위 6% 위치까지 내려왔고 제공된 헤드라인은 금리·대출·플랫폼 등 국내 금융 이슈뿐이어서 지정학적 충격 근거는 없습니다."
+        "rates": "^TNX가 4.72로 1년범위 3.95~4.74의 97% 위치이고 3개월 +5.47% 상승했으며, 헤드라인에도 '美 연준 의장 매파 발언' 언급이 있어 금리 상방 압력이 우세합니다.",
+        "growth": "코스피가 3개월 -19.91%로 크게 밀렸지만 1년범위 3142.93~9114.55의 61% 위치를 유지하고 VIX도 14.43(6% 위치)로 낮아, 침체 신호로 단정하기보다 둔화 국면으로 봅니다.",
+        "valuation": "코스피 1년범위 내 61% 위치로 중간보다 약간 위이고 3개월 -19.91% 조정을 거친 상태라, 싸다고도 비싸다고도 보기 어려운 보통 수준입니다.",
+        "fx": "원/달러가 1377.91로 1년범위 1377.64~1554.48의 0% 위치(최저 근접), 3개월 -9.95%로 원화가 뚜렷하게 강해졌습니다.",
+        "geo": "VIX가 14.43으로 1년범위 6% 위치에 머물고 제시된 한국 헤드라인은 개별 기업 목표주가·연준 발언 등 시장 내부 이슈여서 긴장 신호가 약해 중립적으로 평온으로 봅니다."
       },
-      "summary": "금리는 오르는 방향인데 주가는 3개월간 -19.91% 밀려 경기는 둔화 쪽으로 읽히는 국면입니다. 반면 원/달러는 1377.35로 1년 최저 수준이라 원화는 강세이고, VIX 14.43으로 시장 불안 자체는 낮습니다.",
+      "summary": "금리는 ^TNX 4.72(1년 97% 위치)로 오르는 쪽이고, 코스피는 3개월 -19.91% 조정으로 둔화 국면입니다. 원/달러 1377.91은 1년 최저 근처로 원화가 강한 상태이며, VIX 14.43은 시장 불안이 낮다는 뜻입니다.",
       "rates": "hike",
       "growth": "slow",
       "valuation": "fair",
@@ -128,18 +128,18 @@
     },
     "us": {
       "why": {
-        "rates": "^TNX가 4.72%로 1년 범위 97% 위치, 3개월 +5.47%이며 '워시 인플레이션 우려', '해맥 금리 인상은 지금이 행동할 때' 등 인상론 헤드라인이 이어집니다.",
-        "growth": "S&P500이 7711.76으로 1년범위(6343.72~7798.99) 94% 위치이고 3개월 +1.47%로 상승세를 유지해 경기 신호는 아직 양호한 쪽입니다.",
-        "valuation": "지수가 1년 고점(7798.99) 근처인 94% 위치에 있어 가격 부담이 큰 구간이며(밸류에이션 지표는 제공되지 않아 위치 기준 판단), 비싼 편으로 봅니다.",
-        "fx": "원/달러 1377.35는 1년 범위 0% 위치이고 3개월 -9.98%로, 달러 대비 원화가 강한 상태입니다.",
-        "geo": "VIX가 14.43으로 1년 범위 6% 위치까지 낮고 제공된 헤드라인은 연준 발언·개별 종목 이슈 위주여서 지정학 긴장 근거는 확인되지 않습니다."
+        "rates": "^TNX 4.72로 1년범위의 97% 위치, 3개월 +5.47%이며 헤드라인에서 워시·해맥 등 연준 인사들이 금리 인상 가능성을 언급해 인상 방향입니다.",
+        "growth": "S&P500이 7711.76으로 1년범위 6343.72~7798.99의 94% 위치, 3개월 +1.47%로 지수가 고점 근처를 유지하고 있어 경기 둔화 신호가 보이지 않습니다.",
+        "valuation": "S&P500이 1년 고점(7798.99) 바로 아래인 94% 위치여서 가격 부담이 큰 편으로 분류합니다.",
+        "fx": "원/달러 1377.91이 1년범위의 0% 위치, 3개월 -9.95%로 달러 대비 원화가 강세인 상태입니다(달러 기준으로는 원화 강세 방향).",
+        "geo": "'미국이 이란을 타격'하며 유가가 올랐다는 헤드라인이 있어 긴장 요인이 존재하지만, VIX가 14.43(1년 6% 위치)로 낮아 충격보다는 긴장 단계로 봅니다."
       },
-      "summary": "주가는 1년 고점 근처(94% 위치)로 가격 부담이 있는데, 금리는 4.72%로 상단이고 연준 인상론이 나오는 조합입니다. 변동성 지표(VIX 14.43)는 낮아 겉으로는 조용하지만 금리 쪽 변수가 큰 국면입니다.",
+      "summary": "지수는 1년 고점 근처(94% 위치)로 경기 인식은 양호하지만 금리는 ^TNX 4.72로 상방, 밸류에이션은 비싼 편입니다. 이란 타격·유가 상승 뉴스로 긴장 요인이 있으나 VIX 14.43은 아직 낮은 수준입니다.",
       "rates": "hike",
       "growth": "expand",
       "valuation": "rich",
       "fx": "strong",
-      "geo": "calm"
+      "geo": "tense"
     }
   },
   "stocks": {
@@ -333,18 +333,51 @@
   "news": {
     "kr": [
       {
-        "title": "조달비용 상승에 중금리대출 어쩌나…여신업계 속내 복잡",
-        "link": "https://www.yna.co.kr/view/AKR20260830035900002",
+        "title": "DS증권, 삼성바이오 목표가↓…\"하반기엔 실적·투심 개선 기대\"",
+        "link": "https://www.yna.co.kr/view/AKR20260831022700008",
         "source": "연합뉴스",
-        "date": "Mon, 31 Aug 2026 05:55:01 +0900",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": "sector",
-        "why": "조달비용 상승은 여신업 수익 구조에 지속적으로 영향을 줍니다.",
+        "date": "Mon, 31 Aug 2026 08:31:55 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "증권사 목표가 조정은 전망치 변경일 뿐 기업 근본 가치와는 무관합니다.",
         "by": "ai"
       },
       {
-        "title": "고금리에 오히려 돈 번다…증권가 꼽은 '현금 부자' 기업들 [한경우의 케이스스터디]",
+        "title": "\"DB손해보험, 높아진 배당 하방…목표가↑\"-신한",
+        "link": "https://www.hankyung.com/article/2026083124956",
+        "source": "한국경제",
+        "date": "Mon, 31 Aug 2026 07:55:10 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "목표가 상향은 애널리스트 의견 변화로 장기 판단 근거는 아닙니다.",
+        "by": "ai"
+      },
+      {
+        "title": "“SK하이닉스, 목표가 330만원→240만원”…증권가 낮춘 이유는",
+        "link": "https://www.mk.co.kr/news/stock/12140049",
+        "source": "매일경제",
+        "date": "Mon, 31 Aug 2026 08:24:50 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "목표가 하향은 단기 전망 반영이며 사업 구조가 바뀐 소식은 아닙니다.",
+        "by": "ai"
+      },
+      {
+        "title": "[마켓뷰] 코스피, 美 연준 의장 '매파' 발언에 하방압력 받을 듯",
+        "link": "https://www.yna.co.kr/view/AKR20260831016500008",
+        "source": "연합뉴스",
+        "date": "Mon, 31 Aug 2026 08:00:39 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "금리 발언에 따른 지수 등락 전망은 반복되는 단기 변동입니다.",
+        "by": "ai"
+      },
+      {
+        "title": "'돈 비싼 시대' 이 종목 뜬다…증권가 콕 집은 기업들 [한경우의 케이스스터디]",
         "link": "https://www.hankyung.com/article/2026083018736",
         "source": "한국경제",
         "date": "Mon, 31 Aug 2026 06:30:10 +0900",
@@ -355,47 +388,14 @@
         "by": "ai"
       },
       {
-        "title": "한국은 3%대 진입, 미국도 인상론 무게...배당 매력 떨어지자 우선주 ‘찬밥’",
-        "link": "https://www.mk.co.kr/news/stock/12140021",
+        "title": "“삼성전자, 목표가 45만원 간다”…LS증권, 12.5% 상향 조정한 이유는",
+        "link": "https://www.mk.co.kr/news/stock/12140044",
         "source": "매일경제",
-        "date": "Mon, 31 Aug 2026 05:49:59 +09:00",
+        "date": "Mon, 31 Aug 2026 08:05:32 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
-        "why": "금리 수준에 따른 자산 선호 변화는 반복되는 흐름입니다.",
-        "by": "ai"
-      },
-      {
-        "title": "고금리 속 빚 못버틴 서민↑…상반기만 10만명 채무조정 확정",
-        "link": "https://www.yna.co.kr/view/AKR20260829044000002",
-        "source": "연합뉴스",
-        "date": "Mon, 31 Aug 2026 05:53:00 +0900",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": "sector",
-        "why": "채무조정 증가는 금융업 대출 건전성과 이어질 수 있습니다.",
-        "by": "ai"
-      },
-      {
-        "title": "환율·채권, 좁아진 한미 금리차…원화 강세 이어질듯",
-        "link": "https://www.hankyung.com/article/2026083019301",
-        "source": "한국경제",
-        "date": "Sun, 30 Aug 2026 17:35:48 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "환율과 금리차는 계속 변하는 거시 변수로 장기 이익 구조와는 거리가 있습니다.",
-        "by": "ai"
-      },
-      {
-        "title": "코스콤, 12개 증권사와 토큰증권 플랫폼 구축",
-        "link": "https://www.mk.co.kr/news/stock/12139879",
-        "source": "매일경제",
-        "date": "Sun, 30 Aug 2026 17:27:31 +09:00",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": "sector",
-        "why": "증권 거래 인프라가 바뀌는 방향이라 업종 차원에서 천천히 볼 만합니다.",
+        "scope": "company",
+        "why": "목표가 상향 자체는 오늘 할 일을 만들지 않습니다.",
         "by": "ai"
       }
     ],
@@ -413,11 +413,11 @@
         "by": "ai"
       },
       {
-        "title": "U.S. stock futures flat as chances of rate hike rise after Warsh’s Jackson Hole comments",
+        "title": "U.S. stock futures slip as chances of rate hike rise after Warsh’s Jackson Hole comments",
         "link": "https://www.marketwatch.com/story/u-s-stock-futures-flat-as-chances-of-rate-hike-rise-after-warshs-jackson-hole-comments-1f5287f2?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Sun, 30 Aug 2026 22:14:00 GMT",
-        "ko": "워시의 잭슨 홀 코멘트 이후 금리 인상 가능성이 높아짐에 따라 미국 주식 선물은 평평합니다.",
+        "date": "Sun, 30 Aug 2026 23:30:00 GMT",
+        "ko": "워시의 잭슨 홀 발언 이후 금리 인상 가능성이 높아지면서 미국 주식 선물이 미끄러진다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -425,11 +425,11 @@
         "by": "ai"
       },
       {
-        "title": "Dow Jones Futures Fall Amid Bullish, Bearish Market Signals. What To Do Now.",
+        "title": "Dow Jones Futures Fall, Oil Prices Jump As U.S. Strikes Iran",
         "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-microsoft-titans-mask-market-weakness/?src=A00220&yptr=yahoo",
         "source": "Yahoo Finance",
-        "date": "2026-08-30T22:26:40Z",
-        "ko": "Dow Jones Futures는 강세장, 베어리쉬 마켓 시그널 속에서 추락합니다. 지금 해야 할 일.",
+        "date": "2026-08-30T23:01:49Z",
+        "ko": "다우존스 선물 하락, 미국이 이란을 타격함에 따라 유가 상승",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -461,15 +461,15 @@
         "by": "ai"
       },
       {
-        "title": "This Is What Investors Should Watch Before Buying PANW Stock. Most Will Ignore It on September 1.",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/investors-watch-buying-panw-stock-153002874.html",
+        "title": "Jim Cramer reveals his 20% rule for winning stocks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-reveals-20-rule-231700789.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-30T15:30:02Z",
-        "ko": "이것은 투자자가 PANW 주식을 구매하기 전에 주의해야 할 사항입니다. 대부분은 9월 1일에 무시할 것입니다.",
+        "date": "2026-08-30T23:17:00Z",
+        "ko": "짐 크레이머 (Jim Cramer) 가 주식 수주에 대한 자신의 20% 규칙을 공개합니다",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
-        "why": "매수 시점을 다루는 홍보성 글로, 실적 근거와 무관합니다.",
+        "scope": "market",
+        "why": "유명인의 투자 규칙 소개일 뿐, 기업 이익과 무관합니다.",
         "by": "ai"
       }
     ]
@@ -740,51 +740,12 @@
     "A $3.13 Billion Reason to Buy Zoom Communications Stock Now": "지금 Zoom Communications 주식을 구매해야 하는 $31억 3천만 이유",
     "U.S. stock futures flat as chances of rate hike rise after Warsh’s Jackson Hole comments": "워시의 잭슨 홀 코멘트 이후 금리 인상 가능성이 높아짐에 따라 미국 주식 선물은 평평합니다.",
     "Dow Jones Futures Fall Amid Bullish, Bearish Market Signals. What To Do Now.": "Dow Jones Futures는 강세장, 베어리쉬 마켓 시그널 속에서 추락합니다. 지금 해야 할 일.",
-    "This Is What Investors Should Watch Before Buying PANW Stock. Most Will Ignore It on September 1.": "이것은 투자자가 PANW 주식을 구매하기 전에 주의해야 할 사항입니다. 대부분은 9월 1일에 무시할 것입니다."
+    "This Is What Investors Should Watch Before Buying PANW Stock. Most Will Ignore It on September 1.": "이것은 투자자가 PANW 주식을 구매하기 전에 주의해야 할 사항입니다. 대부분은 9월 1일에 무시할 것입니다.",
+    "U.S. stock futures slip as chances of rate hike rise after Warsh’s Jackson Hole comments": "워시의 잭슨 홀 발언 이후 금리 인상 가능성이 높아지면서 미국 주식 선물이 미끄러진다.",
+    "Dow Jones Futures Fall, Oil Prices Jump As U.S. Strikes Iran": "다우존스 선물 하락, 미국이 이란을 타격함에 따라 유가 상승",
+    "Jim Cramer reveals his 20% rule for winning stocks": "짐 크레이머 (Jim Cramer) 가 주식 수주에 대한 자신의 20% 규칙을 공개합니다"
   },
   "nvCache": {
-    "https://finance.yahoo.com/news/nvidias-q2-earnings-to-test-resurgent-ai-trade-112502189.html": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "sector",
-      "why": "분기 실적 발표 예고로, 결과 확인 전에는 할 일이 없습니다.",
-      "by": "ai"
-    },
-    "https://www.hankyung.com/article/2026082494731": {
-      "act": "watch",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "특별배당은 일회성 성격이 크고 추가 환원도 아직 추정 단계입니다.",
-      "by": "ai"
-    },
-    "https://www.hankyung.com/article/2026082494741": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "sector",
-      "why": "계열사별 환원 정책 차이는 이익 구조를 바꾸는 사안은 아닙니다.",
-      "by": "ai"
-    },
-    "https://www.marketwatch.com/story/the-post-world-war-ii-market-shift-is-here-and-bond-yields-could-have-higher-to-go-says-morgan-stanley-9381532c?mod=mw_rss_topstories": {
-      "act": "none",
-      "lasting": "structural",
-      "scope": "market",
-      "why": "금리 환경에 대한 증권사 전망일 뿐, 오늘 확인된 사실은 아닙니다.",
-      "by": "ai"
-    },
-    "https://www.cnbc.com/2026/08/24/bessent-1-trillion-treasury-general-account-bond-buybacks.html": {
-      "act": "watch",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "국채 수급·유동성 관련 정책 얘기라 시장 금리 흐름만 지켜보면 됩니다.",
-      "by": "ai"
-    },
-    "https://www.marketwatch.com/story/trump-vance-and-bessent-try-to-calm-the-bond-market-with-alternative-facts-8e424378?mod=mw_rss_topstories": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "발언과 논평 위주라 기업 이익을 바꾸는 내용은 아닙니다.",
-      "by": "ai"
-    },
     "https://finance.yahoo.com/markets/commodities/articles/gold-silver-rally-off-ugly-013700131.html": {
       "act": "none",
       "lasting": "temporary",
@@ -2841,6 +2802,48 @@
       "lasting": "temporary",
       "scope": "company",
       "why": "매수 시점을 다루는 홍보성 글로, 실적 근거와 무관합니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20260831022700008": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "증권사 목표가 조정은 전망치 변경일 뿐 기업 근본 가치와는 무관합니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/2026083124956": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "목표가 상향은 애널리스트 의견 변화로 장기 판단 근거는 아닙니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12140049": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "목표가 하향은 단기 전망 반영이며 사업 구조가 바뀐 소식은 아닙니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20260831016500008": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "금리 발언에 따른 지수 등락 전망은 반복되는 단기 변동입니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12140044": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "목표가 상향 자체는 오늘 할 일을 만들지 않습니다.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-reveals-20-rule-231700789.html": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "유명인의 투자 규칙 소개일 뿐, 기업 이익과 무관합니다.",
       "by": "ai"
     }
   },
