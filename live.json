@@ -1,27 +1,27 @@
 {
-  "asOf": "2026-08-31T02:45:21.765Z",
+  "asOf": "2026-08-31T03:06:18.638Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
-      "price": 6647.11,
+      "price": 6657.96,
       "prev": 6788.8798828125,
-      "chg": -2.09,
+      "chg": -1.93,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T02:24:40.000Z"
+      "time": "2026-08-31T02:45:30.000Z"
     },
     "^KQ11": {
-      "price": 810.63,
+      "price": 813.19,
       "prev": 838.4099731445312,
-      "chg": -3.31,
+      "chg": -3.01,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T02:24:40.000Z"
+      "time": "2026-08-31T02:45:30.000Z"
     },
     "KRW=X": {
-      "price": 1375.1,
+      "price": 1373.68,
       "prev": 1380.449951171875,
-      "chg": -0.39,
+      "chg": -0.49,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T02:44:46.000Z"
+      "time": "2026-08-31T03:05:38.000Z"
     },
     "^GSPC": {
       "price": 7711.76,
@@ -53,31 +53,31 @@
     }
   },
   "fx": {
-    "low52": 1375.1,
+    "low52": 1373.68,
     "high52": 1554.48,
     "pct": 0
   },
   "hist": {
     "^KS11": {
-      "last": 6647.11,
+      "last": 6657.96,
       "low52": 3142.93,
       "high52": 9114.55,
-      "pct52": 0.587,
-      "chg3m": -24.36
+      "pct52": 0.589,
+      "chg3m": -24.24
     },
     "^KQ11": {
-      "last": 810.63,
+      "last": 813.19,
       "low52": 644.78,
       "high52": 1226.18,
-      "pct52": 0.285,
-      "chg3m": -22.8
+      "pct52": 0.29,
+      "chg3m": -22.56
     },
     "KRW=X": {
-      "last": 1375.1,
-      "low52": 1375.1,
+      "last": 1373.68,
+      "low52": 1373.68,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -10.13
+      "chg3m": -10.22
     },
     "^GSPC": {
       "last": 7711.76,
@@ -110,16 +110,16 @@
   },
   "regime": {
     "by": "ai",
-    "asOf": "2026-08-31T02:45:17.093Z",
+    "asOf": "2026-08-31T03:06:09.938Z",
     "kr": {
       "why": {
-        "rates": "미 10년물 금리(^TNX)가 4.72%로 1년 범위 상단 97% 지점이고 3개월간 +5.47% 올랐으며, '美 금리 인상 우려' 헤드라인이 반복돼 인상 쪽 압력이 우세합니다.",
-        "growth": "코스피가 3개월간 -24.36% 급락했지만 여전히 1년 범위의 59% 지점에 있고 VIX는 14.43(범위 6%)로 낮아, 침체 확정보다는 둔화 국면으로 보는 것이 근거에 맞습니다.",
-        "valuation": "코스피 6647.11은 1년 범위 3142.93~9114.55의 59% 지점으로 상단도 하단도 아닌 중간권이어서 보통으로 분류합니다.",
-        "fx": "원/달러가 1375.1로 1년 범위(1375.1~1554.48) 최저인 0% 지점이고 3개월간 -10.13% 하락해 원화가 뚜렷이 강해진 상태입니다.",
-        "geo": "VIX 14.43(범위 6%)은 평온하지만 '美연준발 삭풍', '불확실성 우려↑' 등 정책 관련 헤드라인이 반복돼 완전한 평온보다 긴장 쪽 중립으로 둡니다."
+        "rates": "국고채 3년물이 장중 연 3.856%까지 오르고 미 10년물(^TNX)도 4.72%로 1년 범위 97% 위치, 3개월 +5.47%여서 금리는 오르는 방향입니다.",
+        "growth": "코스피가 3개월간 -24.24% 급락했지만 현재 6657.96은 1년 범위(3142.93~9114.55)의 59% 위치이고 VIX도 14.43으로 낮아, 침체 확정보다는 둔화 국면으로 봅니다.",
+        "valuation": "코스피 6657.96은 1년 범위의 59% 위치로 고점(9114.55)과 저점(3142.93) 사이 중간대에 있어 보통 수준입니다.",
+        "fx": "원/달러 1373.68은 1년 범위(1373.68~1554.48)의 0% 위치이자 3개월 -10.22%로, 원화가 1년 중 가장 강한 상태입니다.",
+        "geo": "VIX 14.43(1년 위치 6%)은 평온하지만 '美 금리 인상 우려 덮쳤다…코스피 6600선 하락 출발' 같은 정책 관련 헤드라인이 있어 중립값인 긴장으로 둡니다."
       },
-      "summary": "금리는 오르는 쪽 압력이 강하고 코스피는 3개월간 -24.36% 밀려 경기 둔화 신호가 보이는 국면입니다. 다만 원화는 1375.1로 1년 중 가장 강하고 변동성 지표(VIX 14.43)는 낮아 시장 공포 자체는 크지 않습니다.",
+      "summary": "금리는 국내외 모두 오르는 쪽이고, 코스피는 3개월 -24.24% 조정 뒤 1년 범위 중간대에 머물러 있는 둔화 국면입니다. 원/달러 1373.68로 원화는 1년 중 가장 강하며 변동성 지표는 낮지만 금리 인상 관련 정책 긴장이 남아 있습니다.",
       "rates": "hike",
       "growth": "slow",
       "valuation": "fair",
@@ -128,13 +128,13 @@
     },
     "us": {
       "why": {
-        "rates": "^TNX가 4.72%로 1년 범위 97% 지점(3개월 +5.47%)이고, 연준 인사들의 '지금이 행동할 때' 등 금리 인상 발언 헤드라인이 이어져 인상 방향입니다.",
-        "growth": "S&P500이 7711.76으로 1년 범위(6343.72~7798.99)의 94% 지점이고 3개월간 +1.47% 상승해 주가 흐름상 위축 신호는 확인되지 않습니다.",
-        "valuation": "지수가 1년 범위 상단 94% 지점에 위치해 가격 수준이 높은 편으로 분류됩니다.",
-        "fx": "원/달러가 1375.1로 1년 범위 0% 지점(3개월 -10.13%)이라 달러가 원화 대비 약해진, 원화 강세 상태입니다.",
-        "geo": "VIX 14.43(범위 6%)은 낮지만 잭슨홀 발언 이후 금리 인상 가능성으로 선물이 밀렸다는 헤드라인이 있어 정책 긴장은 남아 있는 중립 수준으로 봅니다."
+        "rates": "미 10년물(^TNX) 4.72%는 1년 범위 3.95~4.74의 97% 위치이고 3개월 +5.47%이며, 워시·해맥 발언 등 '금리 인상' 헤드라인이 이어져 상승 방향입니다.",
+        "growth": "S&P500 7711.76은 1년 범위의 94% 위치이고 3개월 +1.47%로 지수는 견조하지만, 주택 구매자 72%가 대출금리 인하를 기다린다는 헤드라인은 금리 민감 부문의 부담을 보여줍니다.",
+        "valuation": "S&P500이 1년 고점(7798.99)에 근접한 94% 위치여서 가격대는 비싼 편으로 분류합니다.",
+        "fx": "원/달러 1373.68은 1년 범위 0% 위치, 3개월 -10.22%로 달러 대비 원화가 강한 상태입니다.",
+        "geo": "VIX 14.43(1년 위치 6%)은 낮지만 잭슨홀 발언 이후 금리 인상 가능성으로 주식 선물이 밀렸다는 헤드라인이 있어 정책 긴장으로 판단합니다."
       },
-      "summary": "주가는 1년 고점권(범위 94%)에 있어 경기 흐름은 나쁘지 않지만 가격 부담은 큰 편입니다. 동시에 국채금리 4.72%와 연준의 인상 발언으로 정책 긴장이 남아 있는 국면입니다.",
+      "summary": "미국 지수는 1년 고점 근처(위치 94%)로 가격은 비싼 편이고 경기 지표상 흐름은 아직 괜찮은 편입니다. 다만 10년물 4.72%와 연준 인사들의 금리 인상 발언으로 정책 쪽 긴장이 커진 국면입니다.",
       "rates": "hike",
       "growth": "expand",
       "valuation": "rich",
@@ -145,95 +145,95 @@
   "stocks": {
     "kr": {
       "105560": {
-        "price": 173000,
+        "price": 172100,
         "prev": 171600,
-        "chg": 0.82,
+        "chg": 0.29,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T02:24:47.000Z"
+        "time": "2026-08-31T02:45:43.000Z"
       },
       "207940": {
-        "price": 1482000,
+        "price": 1491000,
         "prev": 1486000,
-        "chg": -0.27,
+        "chg": 0.34,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T02:24:43.000Z"
+        "time": "2026-08-31T02:45:37.000Z"
       },
       "005930": {
         "price": 251000,
         "prev": 257000,
         "chg": -2.33,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T02:24:50.000Z"
+        "time": "2026-08-31T02:45:43.000Z"
       },
       "000660": {
-        "price": 1616000,
+        "price": 1615000,
         "prev": 1653000,
-        "chg": -2.24,
+        "chg": -2.3,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T02:24:50.000Z"
+        "time": "2026-08-31T02:45:43.000Z"
       },
       "005380": {
-        "price": 397500,
+        "price": 397000,
         "prev": 399500,
-        "chg": -0.5,
+        "chg": -0.63,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T02:24:49.000Z"
+        "time": "2026-08-31T02:45:40.000Z"
       },
       "055550": {
-        "price": 109300,
+        "price": 109500,
         "prev": 109700,
-        "chg": -0.36,
+        "chg": -0.18,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T02:24:43.000Z"
+        "time": "2026-08-31T02:45:42.000Z"
       },
       "000810": {
-        "price": 665000,
+        "price": 664000,
         "prev": 687000,
-        "chg": -3.2,
+        "chg": -3.35,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T02:24:50.000Z"
+        "time": "2026-08-31T02:45:42.000Z"
       },
       "033780": {
-        "price": 175200,
+        "price": 175700,
         "prev": 176300,
-        "chg": -0.62,
+        "chg": -0.34,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T02:24:49.000Z"
+        "time": "2026-08-31T02:45:41.000Z"
       },
       "035420": {
         "price": 214500,
         "prev": 220500,
         "chg": -2.72,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T02:24:50.000Z"
+        "time": "2026-08-31T02:45:43.000Z"
       },
       "005490": {
-        "price": 333500,
+        "price": 334000,
         "prev": 337500,
-        "chg": -1.19,
+        "chg": -1.04,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T02:24:47.000Z"
+        "time": "2026-08-31T02:45:42.000Z"
       },
       "028260": {
-        "price": 368500,
+        "price": 369500,
         "prev": 375000,
-        "chg": -1.73,
+        "chg": -1.47,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T02:24:46.000Z"
+        "time": "2026-08-31T02:45:43.000Z"
       },
       "012450": {
-        "price": 1120000,
+        "price": 1113000,
         "prev": 1157000,
-        "chg": -3.2,
+        "chg": -3.8,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T02:24:50.000Z"
+        "time": "2026-08-31T02:45:42.000Z"
       },
       "017670": {
-        "price": 91700,
+        "price": 92400,
         "prev": 98600,
-        "chg": -7,
+        "chg": -6.29,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T02:24:50.000Z"
+        "time": "2026-08-31T02:45:42.000Z"
       }
     },
     "us": {
@@ -333,14 +333,14 @@
   "news": {
     "kr": [
       {
-        "title": "신한은행, 기보와 중소기업 기업승계·기술혁신 금융지원",
-        "link": "https://www.yna.co.kr/view/AKR20260831088000002",
+        "title": "국고채 금리 일제히 상승…3년물 장중 연 3.856%",
+        "link": "https://www.yna.co.kr/view/AKR20260831090200008",
         "source": "연합뉴스",
-        "date": "Mon, 31 Aug 2026 11:31:49 +0900",
-        "act": "none",
+        "date": "Mon, 31 Aug 2026 11:45:40 +0900",
+        "act": "watch",
         "lasting": "temporary",
-        "scope": "company",
-        "why": "통상적인 금융 협약 발표로 장기 이익 구조를 바꾸긴 어렵습니다.",
+        "scope": "market",
+        "why": "금리 변동은 시장 전반의 흐름으로, 방향이 이어지는지만 보면 됩니다.",
         "by": "ai"
       },
       {
@@ -366,14 +366,14 @@
         "by": "ai"
       },
       {
-        "title": "美연준발 삭풍에 6,600대로 밀린 코스피…불확실성 우려↑",
-        "link": "https://www.yna.co.kr/view/AKR20260831083000008",
+        "title": "셀트리온, 1천억원 규모 자사주 매입 결정",
+        "link": "https://www.yna.co.kr/view/AKR20260831089800017",
         "source": "연합뉴스",
-        "date": "Mon, 31 Aug 2026 11:29:53 +0900",
+        "date": "Mon, 31 Aug 2026 11:45:38 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
-        "why": "금리 불확실성에 따른 단기 지수 변동으로, 투자 근거와는 무관합니다.",
+        "scope": "company",
+        "why": "자사주 매입은 일회성 자본 정책으로 장기 이익 구조를 바꾸지 않습니다.",
         "by": "ai"
       },
       {
@@ -416,7 +416,7 @@
         "title": "U.S. stock futures slip as chances of rate hike rise after Warsh’s Jackson Hole comments",
         "link": "https://www.marketwatch.com/story/u-s-stock-futures-flat-as-chances-of-rate-hike-rise-after-warshs-jackson-hole-comments-1f5287f2?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 31 Aug 2026 02:20:00 GMT",
+        "date": "Mon, 31 Aug 2026 03:03:00 GMT",
         "ko": "워시의 잭슨 홀 발언 이후 금리 인상 가능성이 높아지면서 미국 주식 선물이 미끄러진다.",
         "act": "none",
         "lasting": "temporary",
@@ -425,15 +425,14 @@
         "by": "ai"
       },
       {
-        "title": "72% of homebuyers have paused their search waiting for lower mortgage rates — and 41% already regret it",
-        "link": "https://finance.yahoo.com/real-estate/articles/72-homebuyers-paused-search-waiting-150000785.html",
+        "title": "A $2 Billion Reason to Buy UPS Stock",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/2-billion-reason-buy-ups-161356676.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-29T15:00:00Z",
-        "ko": "주택 구매자의 72% 가 주택담보대출 금리 인하를 기다리며 검색을 일시 중지했으며, 41% 는 이미 후회하고 있습니다.",
+        "date": "2026-08-29T16:13:56Z",
         "act": "none",
         "lasting": "temporary",
-        "scope": "sector",
-        "why": "금리 기대에 따른 수요 지연으로, 주택 업종의 단기 심리 지표입니다.",
+        "scope": "company",
+        "why": "특정 종목 매수를 권하는 의견 기사로, 장기 이익 구조와는 무관합니다.",
         "by": "ai"
       },
       {
@@ -461,15 +460,15 @@
         "by": "ai"
       },
       {
-        "title": "Is Visa Stock Underperforming the Dow?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/visa-stock-underperforming-dow-145730618.html",
+        "title": "72% of homebuyers have paused their search waiting for lower mortgage rates — and 41% already regret it",
+        "link": "https://finance.yahoo.com/real-estate/articles/72-homebuyers-paused-search-waiting-150000785.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-29T14:57:30Z",
-        "ko": "Visa 주식이 다우지수를 밑도는가?",
+        "date": "2026-08-29T15:00:00Z",
+        "ko": "주택 구매자의 72% 가 주택담보대출 금리 인하를 기다리며 검색을 일시 중지했으며, 41% 는 이미 후회하고 있습니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
-        "why": "지수 대비 단기 수익률 비교로, 기업 이익 구조와는 무관합니다.",
+        "scope": "sector",
+        "why": "금리 기대에 따른 수요 지연으로, 주택 업종의 단기 심리 지표입니다.",
         "by": "ai"
       }
     ]
@@ -750,27 +749,6 @@
     "Is Visa Stock Underperforming the Dow?": "Visa 주식이 다우지수를 밑도는가?"
   },
   "nvCache": {
-    "https://www.mk.co.kr/news/stock/12135420": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "하루 지수·주가 변동은 장기 이익을 바꾸지 않습니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20260825062400002": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "단순 서비스 출시 공지로 투자 근거와 관련이 적습니다.",
-      "by": "ai"
-    },
-    "https://www.hankyung.com/article/2026082507076": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "sector",
-      "why": "신규 ETF 상장 소식으로 개별 기업 이익과는 무관합니다.",
-      "by": "ai"
-    },
     "https://www.mk.co.kr/news/stock/12135402": {
       "act": "none",
       "lasting": "temporary",
@@ -2849,7 +2827,30 @@
       "scope": "market",
       "why": "금리 불확실성에 따른 단기 지수 변동으로, 투자 근거와는 무관합니다.",
       "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20260831090200008": {
+      "act": "watch",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "금리 변동은 시장 전반의 흐름으로, 방향이 이어지는지만 보면 됩니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20260831089800017": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "자사주 매입은 일회성 자본 정책으로 장기 이익 구조를 바꾸지 않습니다.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/markets/stocks/articles/2-billion-reason-buy-ups-161356676.html": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "특정 종목 매수를 권하는 의견 기사로, 장기 이익 구조와는 무관합니다.",
+      "by": "ai"
     }
   },
-  "failed": []
+  "failed": [
+    "translate: HTTP 429"
+  ]
 }
