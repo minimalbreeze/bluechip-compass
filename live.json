@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-31T14:27:39.620Z",
+  "asOf": "2026-08-31T14:38:35.869Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -17,43 +17,43 @@
       "time": "2026-08-31T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1368.26,
+      "price": 1368.53,
       "prev": 1380.449951171875,
-      "chg": -0.88,
+      "chg": -0.86,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T14:26:55.000Z"
+      "time": "2026-08-31T14:37:50.000Z"
     },
     "^GSPC": {
-      "price": 7665.17,
+      "price": 7673.17,
       "prev": 7711.759765625,
-      "chg": -0.6,
+      "chg": -0.5,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T14:27:05.000Z"
+      "time": "2026-08-31T14:37:57.000Z"
     },
     "^IXIC": {
-      "price": 26251.617,
+      "price": 26291.842,
       "prev": 26402.419921875,
-      "chg": -0.57,
+      "chg": -0.42,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T14:27:05.000Z"
+      "time": "2026-08-31T14:37:55.000Z"
     },
     "^VIX": {
-      "price": 15.36,
+      "price": 15.27,
       "prev": 14.430000305175781,
-      "chg": 6.44,
+      "chg": 5.82,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T14:12:01.000Z"
+      "time": "2026-08-31T14:22:46.000Z"
     },
     "^TNX": {
       "price": 4.762,
       "prev": 4.71999979019165,
       "chg": 0.89,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T14:12:02.000Z"
+      "time": "2026-08-31T14:22:52.000Z"
     }
   },
   "fx": {
-    "low52": 1368.26,
+    "low52": 1368.53,
     "high52": 1554.48,
     "pct": 0
   },
@@ -73,32 +73,32 @@
       "chg3m": -20.55
     },
     "KRW=X": {
-      "last": 1368.26,
-      "low52": 1368.26,
+      "last": 1368.53,
+      "low52": 1368.53,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -10.58
+      "chg3m": -10.56
     },
     "^GSPC": {
-      "last": 7665.17,
+      "last": 7673.17,
       "low52": 6343.72,
       "high52": 7798.99,
-      "pct52": 0.908,
-      "chg3m": 0.73
+      "pct52": 0.914,
+      "chg3m": 0.83
     },
     "^IXIC": {
-      "last": 26251.62,
+      "last": 26291.84,
       "low52": 20794.64,
       "high52": 27093.9,
-      "pct52": 0.866,
-      "chg3m": -3.11
+      "pct52": 0.873,
+      "chg3m": -2.96
     },
     "^VIX": {
-      "last": 15.36,
+      "last": 15.27,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.108,
-      "chg3m": -2.6
+      "pct52": 0.102,
+      "chg3m": -3.17
     },
     "^TNX": {
       "last": 4.76,
@@ -110,31 +110,31 @@
   },
   "regime": {
     "by": "ai",
-    "asOf": "2026-08-31T14:27:34.757Z",
+    "asOf": "2026-08-31T14:38:32.590Z",
     "kr": {
       "why": {
-        "rates": "미 10년물 금리(^TNX)가 4.76%로 1년 범위 최상단(위치 100%), 3개월간 +6.89% 오르며 금리가 위로 향하는 국면입니다.",
-        "growth": "코스피가 1년 범위의 62% 위치로 아직 중상단이지만 3개월간 -22.4% 급락해 성장 모멘텀이 꺾인 둔화 신호로 봅니다(침체 단정은 근거 부족).",
-        "valuation": "^KS11 6820.02는 1년 범위 3142.93~9114.55의 62% 지점으로 극단이 아니어서 보통 수준으로 분류합니다.",
-        "fx": "KRW=X가 1368.26으로 1년 범위 최저(위치 0%), 3개월간 -10.58% 하락해 원화가 뚜렷한 강세입니다.",
-        "geo": "지정학 사건 언급은 없으나 '혼란한 증시', '외국인 빠진 코스피…사모펀드 단타 주의보' 등 수급 불안 헤드라인이 있어 평온보다는 긴장으로 봅니다."
+        "rates": "참고 금리 지표인 ^TNX가 4.76으로 1년 범위(3.95~4.76) 상단 100% 위치이고 3개월간 +6.89% 올라 금리가 오르는 방향입니다.",
+        "growth": "코스피가 3개월간 -22.4%로 크게 밀렸지만 현재 6820.02로 1년 범위(3142.93~9114.55) 내 62% 지점이고 VIX도 15.27로 낮아, 침체 확정보다는 둔화 국면으로 봅니다.",
+        "valuation": "지수 위치가 1년 범위의 62%로 중간보다 약간 위이고 최근 3개월 -22.4% 조정을 거쳐, 싸다 비싸다 판단 근거가 약해 중립인 보통으로 둡니다.",
+        "fx": "원/달러가 1368.53으로 1년 범위(1368.53~1554.48)의 0% 최저 수준이고 3개월간 -10.56% 하락해 원화가 강한 상태입니다.",
+        "geo": "VIX 15.27로 1년 범위의 10% 수준이고 헤드라인도 상장예비심사·유상증자 등 국내 기업 이슈 중심이라 특별한 긴장 신호가 보이지 않습니다."
       },
-      "summary": "금리는 오르고 원화는 크게 강해진 가운데, 코스피는 3개월간 -22.4% 밀리며 둔화 신호를 보이는 국면입니다. 지수 위치 자체는 62%로 중간권이라 밸류에이션은 보통, 다만 외국인 이탈 등 수급 불안이 남아 있습니다.",
+      "summary": "금리는 오르는 쪽이고 코스피는 3개월 -22.4%로 눌렸지만 공포지수는 낮은, 흔들리는 둔화 국면입니다. 원/달러는 1368.53으로 1년 최저 수준이라 원화가 강한 점이 특징입니다.",
       "rates": "hike",
       "growth": "slow",
       "valuation": "fair",
       "fx": "strong",
-      "geo": "tense"
+      "geo": "calm"
     },
     "us": {
       "why": {
-        "rates": "^TNX 4.76%가 1년 범위 상단 100%이고 3개월 +6.89%인 데다, '연준 해맥, 금리 인상에 지금이 행동할 때' 발언 헤드라인이 있어 금리는 위쪽 방향입니다.",
-        "growth": "S&P500이 7665.17로 1년 범위의 91% 위치, 3개월 +0.73%로 고점권을 유지하고 있어 경기 신호는 아직 괜찮은 쪽으로 분류합니다.",
-        "valuation": "지수가 1년 범위 상단 91% 지점(6343.72~7798.99)에 있어 가격 부담이 있는 비싼 편으로 봅니다.",
-        "fx": "KRW=X 1368.26은 1년 범위 최저치(위치 0%)로 달러 대비 원화가 강세이며, 이는 한국 투자자 기준 달러자산 환산액에 불리한 방향입니다.",
-        "geo": "헤드라인에 전쟁·제재 등 지정학 사건이 없고 ^VIX가 15.36으로 1년 범위 11% 수준의 낮은 변동성이라 평온으로 판단합니다."
+        "rates": "^TNX가 4.76으로 1년 범위 상단 100%, 3개월 +6.89%이고 '연준 해먹, 금리 인상에 지금이 행동할 때' 발언 헤드라인까지 있어 인상 방향입니다.",
+        "growth": "S&P500이 7673.17로 1년 범위(6343.72~7798.99)의 91% 지점이고 3개월 +0.83%로 버티고 있어 경기 흐름은 아직 괜찮은 쪽으로 분류합니다.",
+        "valuation": "지수가 1년 고점권인 91% 위치에 있어 가격 부담이 있는 편으로 봅니다(이익 지표는 자료에 없어 지수 위치만으로 판단).",
+        "fx": "원/달러가 1368.53으로 1년 범위 0% 지점, 3개월 -10.56%라 달러 대비 원화가 강세인 상태입니다.",
+        "geo": "VIX가 15.27로 1년 범위의 10% 수준이고 헤드라인은 인플레 우려·업종 이슈 정도라 충격 신호는 확인되지 않아 평온으로 둡니다."
       },
-      "summary": "주가는 1년 고점 부근(위치 91%)이고 변동성지수는 15.36으로 낮아 겉으로는 잔잔하지만, 10년물 금리가 4.76%로 1년 최고치라 금리 부담이 커진 국면입니다. 원/달러는 1368.26으로 원화가 강해 국내 투자자에게는 환율 영향도 함께 봐야 하는 상황입니다.",
+      "summary": "미국 증시는 1년 고점 부근(범위의 91%)에 있지만 10년물 금리가 4.76%로 1년 최고라 금리 부담이 같이 커진 국면입니다. 변동성 지표는 15.27로 낮아 시장 분위기 자체는 아직 차분합니다.",
       "rates": "hike",
       "growth": "expand",
       "valuation": "rich",
@@ -238,95 +238,95 @@
     },
     "us": {
       "MSFT": {
-        "price": 509.16,
+        "price": 509.1,
         "prev": 513.530029296875,
-        "chg": -0.85,
+        "chg": -0.86,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T14:27:11.000Z"
+        "time": "2026-08-31T14:38:03.000Z"
       },
       "AAPL": {
-        "price": 315.66,
+        "price": 315.1,
         "prev": 319.70001220703125,
-        "chg": -1.26,
+        "chg": -1.44,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T14:27:12.000Z"
+        "time": "2026-08-31T14:38:04.000Z"
       },
       "GOOGL": {
-        "price": 337.45,
+        "price": 338.08,
         "prev": 346.5899963378906,
-        "chg": -2.64,
+        "chg": -2.46,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T14:27:12.000Z"
+        "time": "2026-08-31T14:38:04.000Z"
       },
       "BRK.B": {
-        "price": 503.5,
+        "price": 503.431,
         "prev": 505,
-        "chg": -0.3,
+        "chg": -0.31,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T14:27:12.000Z"
+        "time": "2026-08-31T14:38:02.000Z"
       },
       "V": {
-        "price": 381.56,
+        "price": 381.63,
         "prev": 381.6000061035156,
-        "chg": -0.01,
+        "chg": 0.01,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T14:27:12.000Z"
+        "time": "2026-08-31T14:38:00.000Z"
       },
       "JNJ": {
-        "price": 265.96,
+        "price": 266.26,
         "prev": 268.0400085449219,
-        "chg": -0.78,
-        "basis": "prev-daily-close",
-        "time": "2026-08-31T14:26:58.000Z"
-      },
-      "PG": {
-        "price": 144.125,
-        "prev": 143.77999877929688,
-        "chg": 0.24,
-        "basis": "prev-daily-close",
-        "time": "2026-08-31T14:27:07.000Z"
-      },
-      "KO": {
-        "price": 89.07,
-        "prev": 89.66000366210938,
         "chg": -0.66,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T14:27:11.000Z"
+        "time": "2026-08-31T14:38:00.000Z"
+      },
+      "PG": {
+        "price": 144.03,
+        "prev": 143.77999877929688,
+        "chg": 0.17,
+        "basis": "prev-daily-close",
+        "time": "2026-08-31T14:38:04.000Z"
+      },
+      "KO": {
+        "price": 89.055,
+        "prev": 89.66000366210938,
+        "chg": -0.67,
+        "basis": "prev-daily-close",
+        "time": "2026-08-31T14:38:03.000Z"
       },
       "COST": {
-        "price": 943.875,
+        "price": 945.98,
         "prev": 945.469970703125,
-        "chg": -0.17,
+        "chg": 0.05,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T14:26:27.000Z"
+        "time": "2026-08-31T14:37:37.000Z"
       },
       "WM": {
-        "price": 220.79,
+        "price": 220.819,
         "prev": 219.66000366210938,
-        "chg": 0.51,
+        "chg": 0.53,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T14:26:24.000Z"
+        "time": "2026-08-31T14:38:03.000Z"
       },
       "LIN": {
-        "price": 490.22,
+        "price": 490.535,
         "prev": 489.510009765625,
-        "chg": 0.15,
+        "chg": 0.21,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T14:26:50.000Z"
+        "time": "2026-08-31T14:37:43.000Z"
       },
       "XOM": {
-        "price": 160.3,
+        "price": 159.96,
         "prev": 156.7100067138672,
-        "chg": 2.29,
+        "chg": 2.07,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T14:27:11.000Z"
+        "time": "2026-08-31T14:38:03.000Z"
       },
       "NVDA": {
-        "price": 219.62,
+        "price": 220.35,
         "prev": 217.5500030517578,
-        "chg": 0.95,
+        "chg": 1.29,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T14:27:12.000Z"
+        "time": "2026-08-31T14:38:02.000Z"
       }
     }
   },
@@ -413,11 +413,11 @@
         "by": "ai"
       },
       {
-        "title": "Wall Street banks are keeping astronomical price targets on SpaceX’s stock as it struggles to achieve exit velocity",
+        "title": "Wall Street banks are keeping astronomical price targets on SpaceX’s stock as it struggles to achieve post-IPO exit velocity",
         "link": "https://www.marketwatch.com/story/wall-street-banks-are-keeping-astronomical-price-targets-on-spacexs-stock-as-it-tries-to-blast-off-again-0e21a0e4?mod=mw_rss_topstories",
         "source": "MarketWatch",
         "date": "Mon, 31 Aug 2026 14:23:00 GMT",
-        "ko": "월스트리트 뱅크는 출구 속도를 달성하기 위해 고군분투하면서 SpaceX의 주식에 천문학적인 가격 목표를 유지하고 있습니다.",
+        "ko": "월스트리트 뱅크는 상장 후 출구 속도를 달성하기 위해 고군분투하면서 SpaceX의 주식에 천문학적인 가격 목표를 유지하고 있습니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
@@ -461,22 +461,21 @@
         "by": "ai"
       },
       {
-        "title": "Martin Marietta Materials (MLM) Stock Pulls Back on Expectations, Fundamentals Intact",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/martin-marietta-materials-mlm-stock-135247614.html",
+        "title": "MP Materials Stock: Bull vs. Bear on This Top Rare Earth Bet",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/mp-materials-stock-bull-vs-142000457.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-31T13:52:47Z",
-        "ko": "마틴 매리에타 머티리얼즈 (MLM) 의 재고는 기대치와 기본을 그대로 되돌려 놓습니다.",
+        "date": "2026-08-31T14:20:00Z",
+        "ko": "MP 재료 재고: 황소 vs. 이 최상위 희토 베팅의 곰",
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
-        "why": "제목만으로는 실적이나 사업 변화가 확인되지 않는 시황성 언급입니다.",
+        "why": "찬반 의견을 정리한 분석 기사로, 회사 실적 자체를 바꾸는 사실은 없습니다.",
         "by": "ai"
       }
     ]
   },
   "newsBy": "ai",
   "trCache": {
-    "Bessent's bond gambit aimed at calming markets is instead stirring inflation worries": "시장을 진정시키기 위한 베센트의 채권 갬빗은 오히려 인플레이션 우려를 불러일으키고 있다.",
     "Stock futures flat as U.S. and Canada appear headed for trade war": "미국과 캐나다가 무역 전쟁으로 향하는 것처럼 보이기 때문에 주식 선물은 평평합니다.",
     "A $28.7 Billion Reason to Buy SK hynix Stock Now": "지금 SK hynix 주식을 매입해야 하는 $287억의 이유",
     "Bessent's efforts in the Treasury market so far haven't worked. Here's what else he can try": "지금까지 재무 시장에서 베센트의 노력은 효과가 없었습니다. 그가 시도할 수 있는 다른 방법은 다음과 같습니다.",
@@ -774,16 +773,11 @@
     "Martin Marietta Materials (MLM) Stock Pulls Back on Expectations, Fundamentals Intact": "마틴 매리에타 머티리얼즈 (MLM) 의 재고는 기대치와 기본을 그대로 되돌려 놓습니다.",
     "Fed Chair Warsh's Jackson Hole Debut: What He Said, and Didn't Say, About Rate Hikes": "Fed Chair Warsh's Jackson Hole Debut: What He Said, and Didn 't Say, About Rate Hikes",
     "Wall Street banks are keeping astronomical price targets on SpaceX’s stock as it struggles to achieve exit velocity": "월스트리트 뱅크는 출구 속도를 달성하기 위해 고군분투하면서 SpaceX의 주식에 천문학적인 가격 목표를 유지하고 있습니다.",
-    "Energy stocks lead in subdued final trading day of August, utilities under pressure: AlphaCheck": "에너지 주식은 8 월의 최종 거래일로 이어지고, 유틸리티는 압박을 받는다: AlphaCheck"
+    "Energy stocks lead in subdued final trading day of August, utilities under pressure: AlphaCheck": "에너지 주식은 8 월의 최종 거래일로 이어지고, 유틸리티는 압박을 받는다: AlphaCheck",
+    "Wall Street banks are keeping astronomical price targets on SpaceX’s stock as it struggles to achieve post-IPO exit velocity": "월스트리트 뱅크는 상장 후 출구 속도를 달성하기 위해 고군분투하면서 SpaceX의 주식에 천문학적인 가격 목표를 유지하고 있습니다.",
+    "MP Materials Stock: Bull vs. Bear on This Top Rare Earth Bet": "MP 재료 재고: 황소 vs. 이 최상위 희토 베팅의 곰"
   },
   "nvCache": {
-    "https://www.yna.co.kr/view/AKR20260828035800008": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "하루 지수 등락은 기업 이익과 무관한 단기 흐름입니다.",
-      "by": "ai"
-    },
     "https://www.hankyung.com/article/2026082884476": {
       "act": "none",
       "lasting": "temporary",
@@ -2875,6 +2869,13 @@
       "lasting": "temporary",
       "scope": "sector",
       "why": "하루 단위 업종 등락은 장기 실적과 무관한 흐름입니다.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/markets/stocks/articles/mp-materials-stock-bull-vs-142000457.html": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "찬반 의견을 정리한 분석 기사로, 회사 실적 자체를 바꾸는 사실은 없습니다.",
       "by": "ai"
     }
   },
