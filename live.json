@@ -1,27 +1,27 @@
 {
-  "asOf": "2026-08-31T06:27:15.097Z",
+  "asOf": "2026-08-31T06:38:18.687Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
-      "price": 6772.63,
+      "price": 6796.96,
       "prev": 6788.8798828125,
-      "chg": -0.24,
+      "chg": 0.12,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T06:06:30.000Z"
+      "time": "2026-08-31T06:17:20.000Z"
     },
     "^KQ11": {
-      "price": 830.47,
+      "price": 835.5,
       "prev": 838.4099731445312,
-      "chg": -0.95,
+      "chg": -0.35,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T06:06:30.000Z"
+      "time": "2026-08-31T06:17:20.000Z"
     },
     "KRW=X": {
-      "price": 1368.48,
+      "price": 1369.61,
       "prev": 1380.449951171875,
-      "chg": -0.87,
+      "chg": -0.79,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T06:26:31.000Z"
+      "time": "2026-08-31T06:37:27.000Z"
     },
     "^GSPC": {
       "price": 7711.76,
@@ -53,31 +53,31 @@
     }
   },
   "fx": {
-    "low52": 1368.48,
+    "low52": 1369.61,
     "high52": 1554.48,
     "pct": 0
   },
   "hist": {
     "^KS11": {
-      "last": 6772.63,
+      "last": 6796.96,
       "low52": 3142.93,
       "high52": 9114.55,
-      "pct52": 0.608,
-      "chg3m": -22.94
+      "pct52": 0.612,
+      "chg3m": -22.66
     },
     "^KQ11": {
-      "last": 830.47,
+      "last": 835.5,
       "low52": 644.78,
       "high52": 1226.18,
-      "pct52": 0.319,
-      "chg3m": -20.91
+      "pct52": 0.328,
+      "chg3m": -20.43
     },
     "KRW=X": {
-      "last": 1368.48,
-      "low52": 1368.48,
+      "last": 1369.61,
+      "low52": 1369.61,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -10.56
+      "chg3m": -10.49
     },
     "^GSPC": {
       "last": 7711.76,
@@ -110,17 +110,17 @@
   },
   "regime": {
     "by": "ai",
-    "asOf": "2026-08-31T06:27:10.244Z",
+    "asOf": "2026-08-31T06:38:07.431Z",
     "kr": {
       "why": {
-        "rates": "^TNX가 4.72로 1년 범위의 97% 위치(3개월 +5.47%)까지 올랐지만 이는 미국 국채금리이고, 한국 관련 헤드라인은 '추세적 금리 하락보다 만기별 차별화 가능성'이라 방향성 근거가 약해 중립인 hold로 둡니다.",
-        "growth": "^KS11이 6772.63으로 3개월 -22.94% 급락했지만 1년 범위상 61% 위치이고 별도 경기지표가 주어지지 않아, 침체 단정보다는 둔화(slow)로 봅니다.",
-        "valuation": "^KS11 6772.63은 1년 범위 3142.93~9114.55의 61% 지점으로 고점과 저점 중간대여서 보통 수준입니다.",
-        "fx": "KRW=X가 1368.48로 1년 범위(1368.48~1554.48)의 0% 위치, 3개월 -10.56%라 원화가 뚜렷이 강해진 상태입니다.",
-        "geo": "^VIX가 14.43으로 1년 범위의 6% 위치(3개월 -10.09%)이고 헤드라인도 기업·연금 등 국내 이슈 위주라 긴장 신호가 보이지 않습니다."
+        "rates": "참고 금리 지표인 ^TNX가 4.72로 1년범위(3.95~4.74) 상단 97% 위치이고 3개월간 +5.47% 올라, 금리는 내려가기보다 오르는 쪽에 가깝습니다.",
+        "growth": "^KS11이 3개월간 -22.66%로 크게 밀렸지만 1년범위 안에서는 여전히 61% 위치이고 ^VIX도 14.43(위치 6%)으로 낮아, 침체 신호로 단정하기보다 둔화 국면으로 봅니다.",
+        "valuation": "^KS11 현재 6796.96은 1년범위 3142.93~9114.55의 61% 지점으로 극단적 고평가·저평가 어느 쪽도 아닌 중간 수준입니다.",
+        "fx": "KRW=X가 1369.61로 1년범위(1369.61~1554.48)의 0% 즉 최저치이고 3개월간 -10.49% 하락해 원화가 강해진 상태입니다.",
+        "geo": "^VIX 14.43(1년 위치 6%)으로 변동성이 매우 낮고, 제시된 헤드라인도 환율·기업 소식 위주라 특별한 긴장 신호가 보이지 않습니다."
       },
-      "summary": "원화는 1368.48로 1년 중 가장 강하고 변동성지수는 14.43으로 낮은데, 코스피는 3개월간 -22.94% 밀려 지수만 식은 국면입니다. 금리 방향은 근거가 약해 '멈춤'으로 분류했고, 밸류에이션은 1년 범위 중간대인 보통 수준입니다.",
-      "rates": "hold",
+      "summary": "금리는 높은 수준에서 위로 향하고 원화는 1년 최저 환율(1369.61)로 강세인데, 코스피는 3개월간 -22.66% 밀린 둔화 국면입니다. 다만 VIX 14.43으로 시장 불안 자체는 낮아 밸류에이션은 중간 수준으로 봅니다.",
+      "rates": "hike",
       "growth": "slow",
       "valuation": "fair",
       "fx": "strong",
@@ -128,112 +128,112 @@
     },
     "us": {
       "why": {
-        "rates": "^TNX가 4.72로 1년 범위의 97% 위치(3개월 +5.47%)이고, 워시 발언 이후 금리 인상 가능성 부각·해맥의 '지금이 행동할 때' 발언 헤드라인이 함께 나와 인상 쪽으로 기울어 있습니다.",
-        "growth": "^GSPC가 7711.76으로 1년 범위의 94% 위치이며 3개월 +1.47%로 상승세를 유지해 경기 위축 신호는 보이지 않습니다.",
-        "valuation": "^GSPC 7711.76은 1년 범위 6343.72~7798.99의 94% 지점으로 고점 부근이라 비싼 편으로 분류합니다.",
-        "fx": "KRW=X 1368.48은 1년 범위의 0% 위치(3개월 -10.56%)로 달러 대비 원화가 강한 상태입니다.",
-        "geo": "^VIX는 14.43(1년 범위 6% 위치)으로 낮지만, 연준 인사들의 금리 인상 시사 발언에 주식 선물이 밀렸다는 헤드라인이 있어 정책 측면의 긴장으로 봅니다."
+        "rates": "^TNX가 4.72로 1년범위 상단 97% 위치이고 3개월 +5.47%인 데다, 헤드라인에서 워시·해맥의 금리 인상 관련 발언이 언급되어 인상 쪽 압력이 우세합니다.",
+        "growth": "^GSPC가 7711.76으로 1년범위(6343.72~7798.99)의 94% 지점이고 3개월 +1.47%로 상승세를 유지해 경기 흐름은 무난해 보입니다.",
+        "valuation": "지수가 1년범위 94% 위치의 고점 부근이어서 가격 부담이 있는 구간입니다.",
+        "fx": "원/달러(KRW=X)가 1369.61로 1년 최저이고 3개월 -10.49%라, 원화 기준으로는 달러가 약해진 원화 강세 상태입니다.",
+        "geo": "^VIX 14.43(1년 위치 6%)으로 매우 낮고 지정학적 충돌 헤드라인이 없어 평온으로 분류하나, 연준 발언으로 선물이 밀렸다는 정책 관련 언급은 있습니다."
       },
-      "summary": "S&P500은 1년 고점 부근(94% 위치)에 있고 변동성은 14.43으로 낮지만, 국채금리 4.72와 연준 인사들의 인상 시사 발언이 겹친 국면입니다. 지수는 강한데 정책 금리 쪽 압력이 커지는 상태로 이해하면 됩니다.",
+      "summary": "미국 증시는 1년 고점 부근(위치 94%)에 있고 변동성도 낮지만, 10년물 금리가 4.72로 1년 최고 부근이고 연준 인사들의 인상 언급이 나오는 상황입니다. 즉 '주가는 비싼 편인데 금리 부담이 커지는' 국면으로 이해하면 됩니다.",
       "rates": "hike",
       "growth": "expand",
       "valuation": "rich",
       "fx": "strong",
-      "geo": "tense"
+      "geo": "calm"
     }
   },
   "stocks": {
     "kr": {
       "105560": {
-        "price": 172400,
+        "price": 172500,
         "prev": 171600,
-        "chg": 0.47,
+        "chg": 0.52,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T06:06:36.000Z"
+        "time": "2026-08-31T06:17:32.000Z"
       },
       "207940": {
-        "price": 1507000,
+        "price": 1510000,
         "prev": 1486000,
-        "chg": 1.41,
+        "chg": 1.62,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T06:06:35.000Z"
+        "time": "2026-08-31T06:17:31.000Z"
       },
       "005930": {
-        "price": 256500,
+        "price": 258500,
         "prev": 257000,
-        "chg": -0.19,
+        "chg": 0.58,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T06:06:36.000Z"
+        "time": "2026-08-31T06:17:34.000Z"
       },
       "000660": {
-        "price": 1651000,
+        "price": 1659000,
         "prev": 1653000,
-        "chg": -0.12,
+        "chg": 0.36,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T06:06:36.000Z"
+        "time": "2026-08-31T06:17:34.000Z"
       },
       "005380": {
-        "price": 404000,
+        "price": 403500,
         "prev": 399500,
-        "chg": 1.13,
+        "chg": 1,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T06:06:34.000Z"
+        "time": "2026-08-31T06:17:34.000Z"
       },
       "055550": {
-        "price": 110000,
+        "price": 110100,
         "prev": 109700,
-        "chg": 0.27,
+        "chg": 0.36,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T06:06:35.000Z"
+        "time": "2026-08-31T06:17:33.000Z"
       },
       "000810": {
         "price": 664000,
         "prev": 687000,
         "chg": -3.35,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T06:06:36.000Z"
+        "time": "2026-08-31T06:17:31.000Z"
       },
       "033780": {
-        "price": 176750,
+        "price": 176800,
         "prev": 176300,
-        "chg": 0.26,
+        "chg": 0.28,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T06:06:36.000Z"
+        "time": "2026-08-31T06:17:32.000Z"
       },
       "035420": {
-        "price": 216500,
+        "price": 217500,
         "prev": 220500,
-        "chg": -1.81,
+        "chg": -1.36,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T06:06:35.000Z"
+        "time": "2026-08-31T06:17:34.000Z"
       },
       "005490": {
-        "price": 339500,
+        "price": 339000,
         "prev": 337500,
-        "chg": 0.59,
+        "chg": 0.44,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T06:06:35.000Z"
+        "time": "2026-08-31T06:17:30.000Z"
       },
       "028260": {
         "price": 376500,
         "prev": 375000,
         "chg": 0.4,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T06:06:34.000Z"
+        "time": "2026-08-31T06:17:33.000Z"
       },
       "012450": {
-        "price": 1099000,
+        "price": 1100000,
         "prev": 1157000,
-        "chg": -5.01,
+        "chg": -4.93,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T06:06:36.000Z"
+        "time": "2026-08-31T06:17:34.000Z"
       },
       "017670": {
-        "price": 94500,
+        "price": 94400,
         "prev": 98600,
-        "chg": -4.16,
+        "chg": -4.26,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T06:06:34.000Z"
+        "time": "2026-08-31T06:17:34.000Z"
       }
     },
     "us": {
@@ -333,14 +333,14 @@
   "news": {
     "kr": [
       {
-        "title": "9월 채권시장, 추세적 금리 하락보다 만기별 차별화 가능성",
-        "link": "https://www.yna.co.kr/view/AKR20260831117600008",
+        "title": "[외환] 원/달러 환율 3.9원 내린 1,368.6원(15:30 기준가)",
+        "link": "https://www.yna.co.kr/view/AKR20260831132100002",
         "source": "연합뉴스",
-        "date": "Mon, 31 Aug 2026 15:07:40 +0900",
+        "date": "Mon, 31 Aug 2026 15:31:02 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "채권 금리 전망은 단기 시황 분석으로 장기 이익과 무관합니다.",
+        "why": "환율 하루 변동은 장기 기업 이익과 무관한 일상적 움직임입니다.",
         "by": "ai"
       },
       {
@@ -366,14 +366,14 @@
         "by": "ai"
       },
       {
-        "title": "공정위, 한화의 KAI 주식 취득 승인…\"경쟁 제한성 없어\"",
-        "link": "https://www.yna.co.kr/view/AKR20260831112100002",
+        "title": "한화, KAI 주식취득 승인에 '한국판 스페이스X' 구상 속도",
+        "link": "https://www.yna.co.kr/view/AKR20260831130200003",
         "source": "연합뉴스",
-        "date": "Mon, 31 Aug 2026 14:21:33 +0900",
+        "date": "Mon, 31 Aug 2026 15:30:44 +0900",
         "act": "watch",
         "lasting": "structural",
         "scope": "company",
-        "why": "규제 승인으로 지분 취득 불확실성이 걷혀 사업 구조가 바뀔 수 있습니다.",
+        "why": "지분 취득 승인은 사업 구조 재편의 시작일 수 있어 진행만 지켜보면 됩니다.",
         "by": "ai"
       },
       {
@@ -461,15 +461,15 @@
         "by": "ai"
       },
       {
-        "title": "Intel vs. AMD: Why the Market Share Number Is Misleading",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/intel-vs-amd-why-market-183002932.html",
+        "title": "Ameresco CEO Sakellaris Buys 5,000 Shares for $113,300. Is This a Sign Renewable Energy Projects are Taking Off?",
+        "link": "https://finance.yahoo.com/energy/articles/ameresco-ceo-sakellaris-buys-5-190701101.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-29T18:30:02Z",
-        "ko": "인텔 vs. AMD: 시장 점유율 숫자가 오해의 소지가 있는 이유",
+        "date": "2026-08-29T19:07:01Z",
+        "ko": "Ameresco CEO Sakellaris는 5,000주의 주식을 $113,300에 매입합니다. 이것은 신재생 에너지 프로젝트가 시작되고 있다는 신호입니까?",
         "act": "none",
-        "lasting": "structural",
-        "scope": "sector",
-        "why": "점유율 해석에 관한 분석 기사로 당장 할 일은 없지만 반도체 경쟁 구도는 구조적 주제입니다.",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "경영진의 소규모 자기주식 매입은 장기 이익을 바꾸는 근거로 보기 어렵습니다.",
         "by": "ai"
       }
     ]
@@ -755,30 +755,10 @@
     "Alphabet Stock: 3 Reasons to Buy Before It Hits a New All-Time High": "알파벳 주식: 새로운 역대 최고치를 기록하기 전에 구매해야 하는 3가지 이유",
     "ExxonMobil Stock: Is XOM Underperforming the Energy Sector?": "ExxonMobil Stock: XOM이 에너지 부문의 실적을 낮추고 있습니까?",
     "Intel vs. AMD: Why the Market Share Number Is Misleading": "인텔 vs. AMD: 시장 점유율 숫자가 오해의 소지가 있는 이유",
-    "A $100 Billion Buildout In Louisiana Is Planned for Starship. What This Means for SPCX Stock.": "루이지애나에 $1,000억 규모의 우주선이 건설될 예정입니다. SPCX 주식에 대한 의미."
+    "A $100 Billion Buildout In Louisiana Is Planned for Starship. What This Means for SPCX Stock.": "루이지애나에 $1,000억 규모의 우주선이 건설될 예정입니다. SPCX 주식에 대한 의미.",
+    "Ameresco CEO Sakellaris Buys 5,000 Shares for $113,300. Is This a Sign Renewable Energy Projects are Taking Off?": "Ameresco CEO Sakellaris는 5,000주의 주식을 $113,300에 매입합니다. 이것은 신재생 에너지 프로젝트가 시작되고 있다는 신호입니까?"
   },
   "nvCache": {
-    "https://www.yna.co.kr/view/AKR20260825149700001": {
-      "act": "watch",
-      "lasting": "structural",
-      "scope": "sector",
-      "why": "인프라 예타 면제는 반도체 업종 투자 환경을 장기적으로 바꿀 수 있어 지켜볼 만합니다.",
-      "by": "ai"
-    },
-    "https://www.hankyung.com/article/202608251796i": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "sector",
-      "why": "실적 발표 기대감 자체는 일시적 이벤트이며 결과는 아직 나오지 않았습니다.",
-      "by": "ai"
-    },
-    "https://www.mk.co.kr/news/stock/12135854": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "하루 변동성 기사로 장기 보유 근거와는 관계가 없습니다.",
-      "by": "ai"
-    },
     "https://www.yna.co.kr/view/AKR20260825148051008": {
       "act": "none",
       "lasting": "temporary",
@@ -2856,6 +2836,27 @@
       "lasting": "temporary",
       "scope": "market",
       "why": "단기 매매 동향 소식으로 기업의 장기 이익과는 무관합니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20260831132100002": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "환율 하루 변동은 장기 기업 이익과 무관한 일상적 움직임입니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20260831130200003": {
+      "act": "watch",
+      "lasting": "structural",
+      "scope": "company",
+      "why": "지분 취득 승인은 사업 구조 재편의 시작일 수 있어 진행만 지켜보면 됩니다.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/energy/articles/ameresco-ceo-sakellaris-buys-5-190701101.html": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "경영진의 소규모 자기주식 매입은 장기 이익을 바꾸는 근거로 보기 어렵습니다.",
       "by": "ai"
     }
   },
