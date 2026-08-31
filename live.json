@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-31T14:16:46.993Z",
+  "asOf": "2026-08-31T14:27:39.620Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -17,43 +17,43 @@
       "time": "2026-08-31T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1368.02,
+      "price": 1368.26,
       "prev": 1380.449951171875,
-      "chg": -0.9,
+      "chg": -0.88,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T14:15:39.000Z"
+      "time": "2026-08-31T14:26:55.000Z"
     },
     "^GSPC": {
-      "price": 7675.51,
+      "price": 7665.17,
       "prev": 7711.759765625,
-      "chg": -0.47,
+      "chg": -0.6,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T14:16:04.000Z"
+      "time": "2026-08-31T14:27:05.000Z"
     },
     "^IXIC": {
-      "price": 26277.059,
+      "price": 26251.617,
       "prev": 26402.419921875,
-      "chg": -0.47,
+      "chg": -0.57,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T14:16:01.000Z"
+      "time": "2026-08-31T14:27:05.000Z"
     },
     "^VIX": {
-      "price": 15.27,
+      "price": 15.36,
       "prev": 14.430000305175781,
-      "chg": 5.82,
+      "chg": 6.44,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T14:00:46.000Z"
+      "time": "2026-08-31T14:12:01.000Z"
     },
     "^TNX": {
       "price": 4.762,
       "prev": 4.71999979019165,
       "chg": 0.89,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T14:01:02.000Z"
+      "time": "2026-08-31T14:12:02.000Z"
     }
   },
   "fx": {
-    "low52": 1368.02,
+    "low52": 1368.26,
     "high52": 1554.48,
     "pct": 0
   },
@@ -73,32 +73,32 @@
       "chg3m": -20.55
     },
     "KRW=X": {
-      "last": 1368.02,
-      "low52": 1368.02,
+      "last": 1368.26,
+      "low52": 1368.26,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -10.59
+      "chg3m": -10.58
     },
     "^GSPC": {
-      "last": 7675.4,
+      "last": 7665.17,
       "low52": 6343.72,
       "high52": 7798.99,
-      "pct52": 0.915,
-      "chg3m": 0.86
+      "pct52": 0.908,
+      "chg3m": 0.73
     },
     "^IXIC": {
-      "last": 26277.06,
+      "last": 26251.62,
       "low52": 20794.64,
       "high52": 27093.9,
-      "pct52": 0.87,
-      "chg3m": -3.01
+      "pct52": 0.866,
+      "chg3m": -3.11
     },
     "^VIX": {
-      "last": 15.28,
+      "last": 15.36,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.103,
-      "chg3m": -3.11
+      "pct52": 0.108,
+      "chg3m": -2.6
     },
     "^TNX": {
       "last": 4.76,
@@ -110,36 +110,36 @@
   },
   "regime": {
     "by": "ai",
-    "asOf": "2026-08-31T14:16:41.548Z",
+    "asOf": "2026-08-31T14:27:34.757Z",
     "kr": {
       "why": {
-        "rates": "제시된 금리 지표인 ^TNX가 4.76으로 1년 범위 상단(위치 100%)이고 3개월간 +6.89% 올라 금리가 오르는 쪽으로 분류했습니다(다만 이는 미국 국채금리 지표라 한국 정책금리 자료는 없습니다).",
-        "growth": "^KS11이 3개월간 -22.4%로 크게 밀렸지만 1년 범위에서는 여전히 위치 62%에 있고 성장·고용 지표가 제시되지 않아 침체보다는 둔화로 봤습니다.",
-        "valuation": "지수가 1년 범위의 62% 지점(6820.02, 범위 3142.93~9114.55)에 있고 이익·PER 자료가 없어 중립인 '보통'으로 판정했습니다.",
-        "fx": "KRW=X가 1368.02로 1년 범위 최저(위치 0%)이고 3개월간 -10.59% 내려 원화가 달러 대비 강해진 상태입니다.",
-        "geo": "^VIX가 15.28로 1년 범위 하단(위치 10%)이고 헤드라인도 상장예비심사·유상증자 등 기업 이슈 위주라 긴장 신호가 보이지 않습니다."
+        "rates": "미 10년물 금리(^TNX)가 4.76%로 1년 범위 최상단(위치 100%), 3개월간 +6.89% 오르며 금리가 위로 향하는 국면입니다.",
+        "growth": "코스피가 1년 범위의 62% 위치로 아직 중상단이지만 3개월간 -22.4% 급락해 성장 모멘텀이 꺾인 둔화 신호로 봅니다(침체 단정은 근거 부족).",
+        "valuation": "^KS11 6820.02는 1년 범위 3142.93~9114.55의 62% 지점으로 극단이 아니어서 보통 수준으로 분류합니다.",
+        "fx": "KRW=X가 1368.26으로 1년 범위 최저(위치 0%), 3개월간 -10.58% 하락해 원화가 뚜렷한 강세입니다.",
+        "geo": "지정학 사건 언급은 없으나 '혼란한 증시', '외국인 빠진 코스피…사모펀드 단타 주의보' 등 수급 불안 헤드라인이 있어 평온보다는 긴장으로 봅니다."
       },
-      "summary": "금리는 오르는데 코스피는 3개월간 22% 넘게 밀려 지수 변동이 큰 둔화 국면이고, 원화는 1년 내 가장 강한 수준입니다. 공포지수는 낮아 시장 전반은 조용한 편이며, 지금 상태를 분류한 것일 뿐 방향 예측은 아닙니다.",
+      "summary": "금리는 오르고 원화는 크게 강해진 가운데, 코스피는 3개월간 -22.4% 밀리며 둔화 신호를 보이는 국면입니다. 지수 위치 자체는 62%로 중간권이라 밸류에이션은 보통, 다만 외국인 이탈 등 수급 불안이 남아 있습니다.",
       "rates": "hike",
       "growth": "slow",
       "valuation": "fair",
       "fx": "strong",
-      "geo": "calm"
+      "geo": "tense"
     },
     "us": {
       "why": {
-        "rates": "^TNX가 4.76으로 1년 범위 100% 지점이고 3개월 +6.89%인 데다, 연준 해맥의 '지금이 행동할 때'(금리 인상) 발언과 근원 물가 3.3% 헤드라인이 인상 쪽을 가리킵니다.",
-        "growth": "^GSPC가 7675.4로 1년 범위 92% 지점이며 3개월 +0.86%로 고점권을 유지해 경기 위축 신호는 자료에서 보이지 않습니다.",
-        "valuation": "지수가 1년 범위 상단인 위치 92%(6343.72~7798.99)에 있어 가격 부담이 있는 편으로 분류했습니다.",
-        "fx": "KRW=X 1368.02는 1년 범위 최저(위치 0%), 3개월 -10.59%로 달러 대비 원화가 강한 상태입니다.",
-        "geo": "^VIX는 15.28로 낮지만, 워시 의장의 인플레이션 우려 발언과 금리 인상 논쟁 헤드라인(잭슨홀·해맥)이 정책 긴장을 보여줍니다."
+        "rates": "^TNX 4.76%가 1년 범위 상단 100%이고 3개월 +6.89%인 데다, '연준 해맥, 금리 인상에 지금이 행동할 때' 발언 헤드라인이 있어 금리는 위쪽 방향입니다.",
+        "growth": "S&P500이 7665.17로 1년 범위의 91% 위치, 3개월 +0.73%로 고점권을 유지하고 있어 경기 신호는 아직 괜찮은 쪽으로 분류합니다.",
+        "valuation": "지수가 1년 범위 상단 91% 지점(6343.72~7798.99)에 있어 가격 부담이 있는 비싼 편으로 봅니다.",
+        "fx": "KRW=X 1368.26은 1년 범위 최저치(위치 0%)로 달러 대비 원화가 강세이며, 이는 한국 투자자 기준 달러자산 환산액에 불리한 방향입니다.",
+        "geo": "헤드라인에 전쟁·제재 등 지정학 사건이 없고 ^VIX가 15.36으로 1년 범위 11% 수준의 낮은 변동성이라 평온으로 판단합니다."
       },
-      "summary": "주가지수는 1년 범위 상단(92%)에 있어 비싼 편인데, 금리는 4.76%로 1년 최고이고 연준 인사들의 인상 발언이 이어지는 정책 긴장 국면입니다. 원화는 달러 대비 1년 내 가장 강해, 환율까지 함께 보는 연습이 필요한 상황입니다.",
+      "summary": "주가는 1년 고점 부근(위치 91%)이고 변동성지수는 15.36으로 낮아 겉으로는 잔잔하지만, 10년물 금리가 4.76%로 1년 최고치라 금리 부담이 커진 국면입니다. 원/달러는 1368.26으로 원화가 강해 국내 투자자에게는 환율 영향도 함께 봐야 하는 상황입니다.",
       "rates": "hike",
       "growth": "expand",
       "valuation": "rich",
       "fx": "strong",
-      "geo": "tense"
+      "geo": "calm"
     }
   },
   "stocks": {
@@ -238,95 +238,95 @@
     },
     "us": {
       "MSFT": {
-        "price": 507.715,
+        "price": 509.16,
         "prev": 513.530029296875,
-        "chg": -1.13,
+        "chg": -0.85,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T14:16:09.000Z"
+        "time": "2026-08-31T14:27:11.000Z"
       },
       "AAPL": {
-        "price": 316.28,
+        "price": 315.66,
         "prev": 319.70001220703125,
-        "chg": -1.07,
+        "chg": -1.26,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T14:16:10.000Z"
+        "time": "2026-08-31T14:27:12.000Z"
       },
       "GOOGL": {
-        "price": 337.75,
+        "price": 337.45,
         "prev": 346.5899963378906,
-        "chg": -2.55,
+        "chg": -2.64,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T14:16:10.000Z"
+        "time": "2026-08-31T14:27:12.000Z"
       },
       "BRK.B": {
-        "price": 503.904,
+        "price": 503.5,
         "prev": 505,
-        "chg": -0.22,
+        "chg": -0.3,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T14:16:01.000Z"
+        "time": "2026-08-31T14:27:12.000Z"
       },
       "V": {
-        "price": 380.675,
+        "price": 381.56,
         "prev": 381.6000061035156,
-        "chg": -0.24,
-        "basis": "prev-daily-close",
-        "time": "2026-08-31T14:16:09.000Z"
-      },
-      "JNJ": {
-        "price": 267.563,
-        "prev": 268.0400085449219,
-        "chg": -0.18,
-        "basis": "prev-daily-close",
-        "time": "2026-08-31T14:15:50.000Z"
-      },
-      "PG": {
-        "price": 144.38,
-        "prev": 143.77999877929688,
-        "chg": 0.42,
-        "basis": "prev-daily-close",
-        "time": "2026-08-31T14:16:09.000Z"
-      },
-      "KO": {
-        "price": 89.205,
-        "prev": 89.66000366210938,
-        "chg": -0.51,
-        "basis": "prev-daily-close",
-        "time": "2026-08-31T14:16:10.000Z"
-      },
-      "COST": {
-        "price": 945.359,
-        "prev": 945.469970703125,
         "chg": -0.01,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T14:16:04.000Z"
+        "time": "2026-08-31T14:27:12.000Z"
+      },
+      "JNJ": {
+        "price": 265.96,
+        "prev": 268.0400085449219,
+        "chg": -0.78,
+        "basis": "prev-daily-close",
+        "time": "2026-08-31T14:26:58.000Z"
+      },
+      "PG": {
+        "price": 144.125,
+        "prev": 143.77999877929688,
+        "chg": 0.24,
+        "basis": "prev-daily-close",
+        "time": "2026-08-31T14:27:07.000Z"
+      },
+      "KO": {
+        "price": 89.07,
+        "prev": 89.66000366210938,
+        "chg": -0.66,
+        "basis": "prev-daily-close",
+        "time": "2026-08-31T14:27:11.000Z"
+      },
+      "COST": {
+        "price": 943.875,
+        "prev": 945.469970703125,
+        "chg": -0.17,
+        "basis": "prev-daily-close",
+        "time": "2026-08-31T14:26:27.000Z"
       },
       "WM": {
-        "price": 221.03,
+        "price": 220.79,
         "prev": 219.66000366210938,
-        "chg": 0.62,
+        "chg": 0.51,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T14:16:10.000Z"
+        "time": "2026-08-31T14:26:24.000Z"
       },
       "LIN": {
-        "price": 491.505,
+        "price": 490.22,
         "prev": 489.510009765625,
-        "chg": 0.41,
+        "chg": 0.15,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T14:16:09.000Z"
+        "time": "2026-08-31T14:26:50.000Z"
       },
       "XOM": {
-        "price": 160.05,
+        "price": 160.3,
         "prev": 156.7100067138672,
-        "chg": 2.13,
+        "chg": 2.29,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T14:16:09.000Z"
+        "time": "2026-08-31T14:27:11.000Z"
       },
       "NVDA": {
-        "price": 220.025,
+        "price": 219.62,
         "prev": 217.5500030517578,
-        "chg": 1.14,
+        "chg": 0.95,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T14:16:10.000Z"
+        "time": "2026-08-31T14:27:12.000Z"
       }
     }
   },
@@ -413,6 +413,42 @@
         "by": "ai"
       },
       {
+        "title": "Wall Street banks are keeping astronomical price targets on SpaceX’s stock as it struggles to achieve exit velocity",
+        "link": "https://www.marketwatch.com/story/wall-street-banks-are-keeping-astronomical-price-targets-on-spacexs-stock-as-it-tries-to-blast-off-again-0e21a0e4?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "date": "Mon, 31 Aug 2026 14:23:00 GMT",
+        "ko": "월스트리트 뱅크는 출구 속도를 달성하기 위해 고군분투하면서 SpaceX의 주식에 천문학적인 가격 목표를 유지하고 있습니다.",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "비상장 기업 목표가 전망은 실제 이익 변화와 거리가 멉니다.",
+        "by": "ai"
+      },
+      {
+        "title": "Energy stocks lead in subdued final trading day of August, utilities under pressure: AlphaCheck",
+        "link": "https://finance.yahoo.com/markets/article/energy-stocks-lead-in-subdued-final-trading-day-of-august-utilities-under-pressure-alphacheck-142014111.html",
+        "source": "Yahoo Finance",
+        "date": "2026-08-31T14:20:14Z",
+        "ko": "에너지 주식은 8 월의 최종 거래일로 이어지고, 유틸리티는 압박을 받는다: AlphaCheck",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "sector",
+        "why": "하루 단위 업종 등락은 장기 실적과 무관한 흐름입니다.",
+        "by": "ai"
+      },
+      {
+        "title": "Fed's Hammack says 'now is the time to act' on raising interest rates",
+        "link": "https://www.cnbc.com/2026/08/27/feds-hammack-says-now-is-the-time-to-act-on-raising-interest-rates.html",
+        "source": "CNBC",
+        "date": "Thu, 27 Aug 2026 17:31:09 GMT",
+        "ko": "Fed의 Hammack은 금리 인상에 대해 '지금이 행동할 때' 라고 말합니다.",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "연준 인사 한 명의 발언으로 금리 방향이 확정된 것은 아닙니다.",
+        "by": "ai"
+      },
+      {
         "title": "Fed up with bitcoin? That’s exactly why you should buy.",
         "link": "https://www.marketwatch.com/story/fed-up-with-bitcoin-thats-exactly-why-you-should-buy-da852499?mod=mw_rss_topstories",
         "source": "MarketWatch",
@@ -434,42 +470,6 @@
         "lasting": "temporary",
         "scope": "company",
         "why": "제목만으로는 실적이나 사업 변화가 확인되지 않는 시황성 언급입니다.",
-        "by": "ai"
-      },
-      {
-        "title": "Fed's Hammack says 'now is the time to act' on raising interest rates",
-        "link": "https://www.cnbc.com/2026/08/27/feds-hammack-says-now-is-the-time-to-act-on-raising-interest-rates.html",
-        "source": "CNBC",
-        "date": "Thu, 27 Aug 2026 17:31:09 GMT",
-        "ko": "Fed의 Hammack은 금리 인상에 대해 '지금이 행동할 때' 라고 말합니다.",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "연준 인사 한 명의 발언으로 금리 방향이 확정된 것은 아닙니다.",
-        "by": "ai"
-      },
-      {
-        "title": "Fed Chair Warsh's Jackson Hole Debut: What He Said, and Didn't Say, About Rate Hikes",
-        "link": "https://finance.yahoo.com/economy/policy/articles/fed-chair-warshs-jackson-hole-135708514.html",
-        "source": "Yahoo Finance",
-        "date": "2026-08-31T13:57:08Z",
-        "ko": "Fed Chair Warsh's Jackson Hole Debut: What He Said, and Didn 't Say, About Rate Hikes",
-        "act": "watch",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "금리 발언은 시장 전체 분위기를 흔들지만 기업의 10년 이익 구조를 바꾸지는 않습니다.",
-        "by": "ai"
-      },
-      {
-        "title": "Fed’s preferred inflation gauge shows core prices rose 3.3% annually in July",
-        "link": "https://www.cnbc.com/2026/08/26/feds-preferred-inflation-gauge-shows-core-prices-rose-3point3percent-annually-in-july.html",
-        "source": "CNBC",
-        "date": "Wed, 26 Aug 2026 13:35:50 GMT",
-        "ko": "Fed가 선호하는 인플레이션 게이지에 따르면 7월에 코어 가격이 매년 3.3% 상승한 것으로 나타났습니다.",
-        "act": "watch",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "물가 지표는 매달 나오는 흐름으로 방향만 확인하면 됩니다.",
         "by": "ai"
       }
     ]
@@ -772,23 +772,11 @@
     "GameStop stock jumps with eBay investment expected to boost Q2 profit": "게임스톱 주식 점프, 이베이 투자로 2분기 이익 증대 예상",
     "Stock market today: Dow, S&P 500, Nasdaq fall as US strikes Iran, rate-hike bets jump": "오늘의 주식 시장: 미국이 이란을 강타함에 따라 다우, S&P 500, 나스닥 하락, 금리 인상 베팅 점프",
     "Martin Marietta Materials (MLM) Stock Pulls Back on Expectations, Fundamentals Intact": "마틴 매리에타 머티리얼즈 (MLM) 의 재고는 기대치와 기본을 그대로 되돌려 놓습니다.",
-    "Fed Chair Warsh's Jackson Hole Debut: What He Said, and Didn't Say, About Rate Hikes": "Fed Chair Warsh's Jackson Hole Debut: What He Said, and Didn 't Say, About Rate Hikes"
+    "Fed Chair Warsh's Jackson Hole Debut: What He Said, and Didn't Say, About Rate Hikes": "Fed Chair Warsh's Jackson Hole Debut: What He Said, and Didn 't Say, About Rate Hikes",
+    "Wall Street banks are keeping astronomical price targets on SpaceX’s stock as it struggles to achieve exit velocity": "월스트리트 뱅크는 출구 속도를 달성하기 위해 고군분투하면서 SpaceX의 주식에 천문학적인 가격 목표를 유지하고 있습니다.",
+    "Energy stocks lead in subdued final trading day of August, utilities under pressure: AlphaCheck": "에너지 주식은 8 월의 최종 거래일로 이어지고, 유틸리티는 압박을 받는다: AlphaCheck"
   },
   "nvCache": {
-    "https://www.marketwatch.com/story/crowdstrikes-stock-has-jumped-after-record-breaking-earnings-wall-street-is-lapping-it-up-dbdaca83?mod=mw_rss_topstories": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "실적 발표 후 주가 반응으로 대개 이미 가격에 반영됩니다.",
-      "by": "ai"
-    },
-    "https://finance.yahoo.com/markets/stocks/articles/vivmark-residential-stock-analyst-estimates-161725943.html": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "애널리스트 추정치 소개 기사로 제목만으로는 새로운 사실이 없습니다.",
-      "by": "ai"
-    },
     "https://www.yna.co.kr/view/AKR20260828035800008": {
       "act": "none",
       "lasting": "temporary",
@@ -2873,6 +2861,20 @@
       "lasting": "temporary",
       "scope": "market",
       "why": "금리 발언은 시장 전체 분위기를 흔들지만 기업의 10년 이익 구조를 바꾸지는 않습니다.",
+      "by": "ai"
+    },
+    "https://www.marketwatch.com/story/wall-street-banks-are-keeping-astronomical-price-targets-on-spacexs-stock-as-it-tries-to-blast-off-again-0e21a0e4?mod=mw_rss_topstories": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "비상장 기업 목표가 전망은 실제 이익 변화와 거리가 멉니다.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/markets/article/energy-stocks-lead-in-subdued-final-trading-day-of-august-utilities-under-pressure-alphacheck-142014111.html": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "sector",
+      "why": "하루 단위 업종 등락은 장기 실적과 무관한 흐름입니다.",
       "by": "ai"
     }
   },
