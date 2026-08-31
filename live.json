@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-31T15:55:23.900Z",
+  "asOf": "2026-08-31T16:06:20.320Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -17,43 +17,43 @@
       "time": "2026-08-31T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1368.25,
+      "price": 1368.28,
       "prev": 1380.449951171875,
       "chg": -0.88,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T15:54:48.000Z"
+      "time": "2026-08-31T16:05:33.000Z"
     },
     "^GSPC": {
-      "price": 7678.74,
+      "price": 7669.51,
       "prev": 7711.759765625,
-      "chg": -0.43,
+      "chg": -0.55,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T15:54:54.000Z"
+      "time": "2026-08-31T16:05:39.000Z"
     },
     "^IXIC": {
-      "price": 26312.848,
+      "price": 26265.672,
       "prev": 26402.419921875,
-      "chg": -0.34,
+      "chg": -0.52,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T15:54:52.000Z"
+      "time": "2026-08-31T16:05:35.000Z"
     },
     "^VIX": {
-      "price": 15.19,
+      "price": 15.15,
       "prev": 14.430000305175781,
-      "chg": 5.27,
+      "chg": 4.99,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T15:39:46.000Z"
+      "time": "2026-08-31T15:50:31.000Z"
     },
     "^TNX": {
       "price": 4.7599998,
       "prev": 4.71999979019165,
       "chg": 0.85,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T15:39:52.000Z"
+      "time": "2026-08-31T15:50:32.000Z"
     }
   },
   "fx": {
-    "low52": 1368.25,
+    "low52": 1368.28,
     "high52": 1554.48,
     "pct": 0
   },
@@ -73,32 +73,32 @@
       "chg3m": -21.99
     },
     "KRW=X": {
-      "last": 1368.25,
-      "low52": 1368.25,
+      "last": 1368.28,
+      "low52": 1368.28,
       "high52": 1554.48,
       "pct52": 0,
       "chg3m": -10.58
     },
     "^GSPC": {
-      "last": 7678.63,
+      "last": 7669.51,
       "low52": 6343.72,
       "high52": 7798.99,
-      "pct52": 0.917,
-      "chg3m": 0.9
+      "pct52": 0.911,
+      "chg3m": 0.78
     },
     "^IXIC": {
-      "last": 26312.85,
+      "last": 26266.23,
       "low52": 20794.64,
       "high52": 27093.9,
-      "pct52": 0.876,
-      "chg3m": -2.88
+      "pct52": 0.869,
+      "chg3m": -3.05
     },
     "^VIX": {
-      "last": 15.19,
+      "last": 15.15,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.098,
-      "chg3m": -3.68
+      "pct52": 0.096,
+      "chg3m": -3.93
     },
     "^TNX": {
       "last": 4.76,
@@ -110,16 +110,16 @@
   },
   "regime": {
     "by": "ai",
-    "asOf": "2026-08-31T15:55:23.897Z",
+    "asOf": "2026-08-31T16:06:16.660Z",
     "kr": {
       "why": {
-        "rates": "참고 금리인 ^TNX가 4.76%로 1년 범위 상단(위치 100%)이고 3개월간 +6.85% 올라 금리가 위로 향하는 국면입니다.",
-        "growth": "코스피가 3개월 만에 -19.91% 밀렸지만 1년 범위상 위치는 61%로 아직 하단은 아니고 VIX도 15.19로 낮아, 침체 확정보다는 둔화 쪽으로 봅니다.",
-        "valuation": "코스피 6788.88은 1년 범위 3142.93~9114.55의 61% 지점으로 극단적으로 싸지도 비싸지도 않은 보통 수준입니다.",
-        "fx": "원/달러가 1368.25원으로 1년 범위 최저(위치 0%)이고 3개월간 -10.58% 하락해 원화가 강해진 상태입니다.",
-        "geo": "헤드라인이 상장예비심사·유상증자·수급 등 국내 증시 이슈뿐이고 지정학 사건 언급이 없어 평온으로 봅니다."
+        "rates": "한국 기준금리 수치는 자료에 없고, 참고 가능한 ^TNX가 4.76으로 1년 범위 최상단(위치 100%), 3개월 +6.85%라 금리 상승 압력 쪽으로 판단했습니다.",
+        "growth": "^KS11이 3개월 -19.91%로 크게 밀렸지만 1년 범위 내 위치는 61%이고 ^VIX가 15.15(위치 10%)로 낮아, 침체 확정보다는 둔화 국면으로 봅니다.",
+        "valuation": "코스피가 1년 범위 3142.93~9114.55 중 61% 지점으로 고점도 저점도 아닌 중간 수준이라 보통으로 분류합니다.",
+        "fx": "KRW=X가 1368.28로 1년 범위 최저(위치 0%), 3개월 -10.58%라 원화가 뚜렷하게 강해진 상태입니다.",
+        "geo": "헤드라인이 상장예비심사·유상증자 등 개별 기업 이슈 위주이고 ^VIX도 15.15로 낮아 특별한 긴장 신호는 확인되지 않습니다."
       },
-      "summary": "금리는 오르는 쪽, 원화는 1368원으로 1년 내 가장 강한 상태에서 코스피는 3개월간 약 20% 조정을 받았습니다. 지수 위치(61%)와 낮은 변동성(VIX 15.19)을 보면 공포 국면이라기보다 성장세가 식어가는 조정 구간으로 분류됩니다.",
+      "summary": "원화는 1년 만에 가장 강해졌지만 코스피는 3개월간 -19.91% 조정을 받아 지수 체력이 약해진 둔화 국면입니다. 다만 VIX 15.15로 시장 공포는 낮고 밸류에이션도 중간 수준이라 극단적 상황은 아닙니다.",
       "rates": "hike",
       "growth": "slow",
       "valuation": "fair",
@@ -128,18 +128,18 @@
     },
     "us": {
       "why": {
-        "rates": "^TNX가 4.76%로 1년 범위 상단(위치 100%), 3개월 +6.85%이고 코어 PCE 연 3.3%·연준 해맥의 '지금이 행동할 때' 발언까지 금리 상방 압력이 뚜렷합니다.",
-        "growth": "S&P500이 7678.63으로 1년 범위의 92% 지점이고 3개월 +0.9%, VIX 15.19로 낮아 경기 훼손 신호는 보이지 않습니다.",
-        "valuation": "지수가 1년 범위 6343.72~7798.99의 92% 지점으로 고점 부근이어서 비싼 편으로 분류합니다.",
-        "fx": "원/달러 1368.25원은 1년 범위 최저(위치 0%)로 3개월 -10.58%, 달러 대비 원화가 강한 상태입니다.",
-        "geo": "헤드라인이 인플레이션 우려, 개별 기업·유틸리티 규제 등에 그치고 지정학 충격 사건은 없어 평온으로 봅니다."
+        "rates": "^TNX가 4.76으로 1년 범위 최상단(위치 100%), 3개월 +6.85%로 오른 데다 '연준 해맥, 금리 인상에 지금이 행동할 때' 발언 헤드라인이 있어 인상 방향으로 판단합니다.",
+        "growth": "^GSPC가 7669.51로 1년 범위의 91% 지점이고 3개월 +0.78%로 완만한 상승을 유지해 경기 흐름은 아직 괜찮은 편으로 봅니다.",
+        "valuation": "S&P500이 1년 범위 6343.72~7798.99 중 91% 지점으로 고점 부근이라 비싼 편으로 분류합니다.",
+        "fx": "동일한 KRW=X 1368.28(1년 위치 0%, 3개월 -10.58%) 기준으로 원화 강세, 즉 달러가 상대적으로 약해진 상태입니다.",
+        "geo": "코어 물가가 전년 대비 3.3% 상승했고 연준 인사들의 인플레 우려·금리 인상 발언이 이어져 정책 긴장은 있으나, ^VIX 15.15로 충격 수준은 아닙니다."
       },
-      "summary": "미국 증시는 1년 고점 부근(위치 92%)에서 변동성도 낮아 분위기는 안정적이지만, 코어 물가 3.3%와 10년물 4.76%라는 금리 상방 압력이 함께 있습니다. 즉 '좋은 경기 + 비싼 가격 + 뻣뻣한 금리'가 겹친 국면입니다.",
+      "summary": "지수는 1년 고점권(위치 91%)에 있어 밸류에이션은 비싼 편이고, 코어 물가 3.3%와 10년물 4.76%로 금리 압력이 남아 있는 국면입니다. 시장 변동성(VIX 15.15)은 낮지만 통화정책 관련 긴장은 이어지고 있습니다.",
       "rates": "hike",
       "growth": "expand",
       "valuation": "rich",
       "fx": "strong",
-      "geo": "calm"
+      "geo": "tense"
     }
   },
   "stocks": {
@@ -238,95 +238,95 @@
     },
     "us": {
       "MSFT": {
-        "price": 510.785,
+        "price": 509.48,
         "prev": 513.530029296875,
-        "chg": -0.53,
+        "chg": -0.79,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T15:54:57.000Z"
+        "time": "2026-08-31T16:05:45.000Z"
       },
       "AAPL": {
-        "price": 314.94,
+        "price": 314.25,
         "prev": 319.70001220703125,
-        "chg": -1.49,
+        "chg": -1.7,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T15:54:58.000Z"
+        "time": "2026-08-31T16:05:43.000Z"
       },
       "GOOGL": {
-        "price": 338.767,
-        "prev": 338.7674865722656,
-        "chg": 0,
-        "basis": "last-daily-close",
-        "time": "2026-08-31T15:54:57.000Z"
+        "price": 337.93,
+        "prev": 346.5899963378906,
+        "chg": -2.5,
+        "basis": "prev-daily-close",
+        "time": "2026-08-31T16:05:45.000Z"
       },
       "BRK.B": {
-        "price": 502.95,
+        "price": 502.74,
         "prev": 505,
-        "chg": -0.41,
+        "chg": -0.45,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T15:54:48.000Z"
+        "time": "2026-08-31T16:05:41.000Z"
       },
       "V": {
-        "price": 381.2,
+        "price": 381.145,
         "prev": 381.6000061035156,
-        "chg": -0.1,
+        "chg": -0.12,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T15:54:52.000Z"
+        "time": "2026-08-31T16:05:36.000Z"
       },
       "JNJ": {
-        "price": 266.026,
+        "price": 265.96,
         "prev": 268.0400085449219,
-        "chg": -0.75,
+        "chg": -0.78,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T15:54:39.000Z"
+        "time": "2026-08-31T16:05:26.000Z"
       },
       "PG": {
-        "price": 145.04,
+        "price": 145.26,
         "prev": 143.77999877929688,
-        "chg": 0.88,
+        "chg": 1.03,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T15:54:57.000Z"
+        "time": "2026-08-31T16:05:41.000Z"
       },
       "KO": {
-        "price": 89.25,
-        "prev": 89.66000366210938,
-        "chg": -0.46,
-        "basis": "prev-daily-close",
-        "time": "2026-08-31T15:54:56.000Z"
-      },
-      "COST": {
-        "price": 948,
-        "prev": 945.469970703125,
-        "chg": 0.27,
-        "basis": "prev-daily-close",
-        "time": "2026-08-31T15:54:57.000Z"
-      },
-      "WM": {
-        "price": 220.665,
-        "prev": 219.66000366210938,
-        "chg": 0.46,
-        "basis": "prev-daily-close",
-        "time": "2026-08-31T15:54:44.000Z"
-      },
-      "LIN": {
-        "price": 488.395,
-        "prev": 489.510009765625,
-        "chg": -0.23,
-        "basis": "prev-daily-close",
-        "time": "2026-08-31T15:54:52.000Z"
-      },
-      "XOM": {
-        "price": 159.012,
-        "prev": 159.0124969482422,
+        "price": 89.23,
+        "prev": 89.23049926757812,
         "chg": 0,
         "basis": "last-daily-close",
-        "time": "2026-08-31T15:54:46.000Z"
+        "time": "2026-08-31T16:05:43.000Z"
+      },
+      "COST": {
+        "price": 947.975,
+        "prev": 945.469970703125,
+        "chg": 0.26,
+        "basis": "prev-daily-close",
+        "time": "2026-08-31T16:05:25.000Z"
+      },
+      "WM": {
+        "price": 220.64,
+        "prev": 219.66000366210938,
+        "chg": 0.45,
+        "basis": "prev-daily-close",
+        "time": "2026-08-31T16:05:39.000Z"
+      },
+      "LIN": {
+        "price": 488.15,
+        "prev": 489.510009765625,
+        "chg": -0.28,
+        "basis": "prev-daily-close",
+        "time": "2026-08-31T16:05:33.000Z"
+      },
+      "XOM": {
+        "price": 158.95,
+        "prev": 156.7100067138672,
+        "chg": 1.43,
+        "basis": "prev-daily-close",
+        "time": "2026-08-31T16:05:40.000Z"
       },
       "NVDA": {
-        "price": 220.055,
+        "price": 219.31,
         "prev": 217.5500030517578,
-        "chg": 1.15,
+        "chg": 0.81,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T15:54:59.000Z"
+        "time": "2026-08-31T16:05:44.000Z"
       }
     }
   },
@@ -413,11 +413,11 @@
         "by": "ai"
       },
       {
-        "title": "Wall Street banks are keeping astronomical price targets on SpaceX’s stock as it struggles to achieve post-IPO exit velocity",
+        "title": "Wall Street banks keep astronomical price targets on SpaceX’s stock as it tries to blast off again",
         "link": "https://www.marketwatch.com/story/wall-street-banks-are-keeping-astronomical-price-targets-on-spacexs-stock-as-it-tries-to-blast-off-again-0e21a0e4?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 31 Aug 2026 14:23:00 GMT",
-        "ko": "월스트리트 뱅크는 상장 후 출구 속도를 달성하기 위해 고군분투하면서 SpaceX의 주식에 천문학적인 가격 목표를 유지하고 있습니다.",
+        "date": "Mon, 31 Aug 2026 15:58:00 GMT",
+        "ko": "월스트리트 뱅크는 다시 폭발하려고 할 때 SpaceX의 주식에 천문학적인 가격 목표를 유지합니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
@@ -425,15 +425,15 @@
         "by": "ai"
       },
       {
-        "title": "California Utility Stocks Plummet After Wildfire Legislation Announced",
-        "link": "https://www.investors.com/news/gavin-newsom-california-wildfire-bill-pge-edison-international/?src=A00220&yptr=yahoo",
+        "title": "Global Liquidity Could Drive Crypto Markets in September, Expert Says",
+        "link": "https://finance.yahoo.com/markets/crypto/articles/global-liquidity-could-drive-crypto-154300245.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-31T15:28:55Z",
-        "ko": "캘리포니아 유틸리티 주식, 산불 관련 법안 발표 후 급락",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": "sector",
-        "why": "규제·책임 부담이 바뀔 수 있어 법안 진행 상황만 지켜보면 됩니다.",
+        "date": "2026-08-31T15:43:00Z",
+        "ko": "전문가에 따르면 9월에 글로벌 유동성이 암호화폐 시장을 주도할 수 있다고 합니다.",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "단기 유동성 전망에 대한 전문가 견해일 뿐 기업 이익과는 무관합니다.",
         "by": "ai"
       },
       {
@@ -449,15 +449,15 @@
         "by": "ai"
       },
       {
-        "title": "Tech stocks today: Apple stock slips as Tim Cook prepares to step down",
-        "link": "https://finance.yahoo.com/technology/live/tech-stocks-today-apple-ceo-steps-down-nvidia-mag-7-145623375.html",
+        "title": "GameStop stock jumps with eBay investment expected to boost Q2 profit",
+        "link": "https://finance.yahoo.com/markets/article/gamestop-stock-jumps-with-ebay-investment-expected-to-boost-q2-profit-132222237.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-31T14:56:23Z",
-        "ko": "오늘날의 기술주: 팀 쿡이 물러날 준비를 하면서 애플 주가가 하락",
-        "act": "watch",
-        "lasting": "structural",
+        "date": "2026-08-31T13:22:22Z",
+        "ko": "게임스톱 주식 점프, 이베이 투자로 2분기 이익 증대 예상",
+        "act": "none",
+        "lasting": "temporary",
         "scope": "company",
-        "why": "최고경영자 교체는 회사 경영의 구조 변화라 흐름만 지켜보면 됩니다.",
+        "why": "보유 자산 평가익에 따른 단기 주가 반응으로, 본업 수익 구조가 바뀐 소식은 아닙니다.",
         "by": "ai"
       },
       {
@@ -476,8 +476,6 @@
   },
   "newsBy": "ai",
   "trCache": {
-    "Nvidia Stock Trades at a Reasonable Valuation With Ample Growth Headroom": "충분한 성장 헤드룸으로 합리적인 가치로 엔비디아 주식 거래",
-    "Why 1 Analyst Says Vera Rubin Is Key for Nvidia Stock in Q2": "1명의 애널리스트가 Vera Rubin이 2분기 엔비디아 주식의 핵심이라고 말하는 이유",
     "Stock Market Week Ahead: A Choppy Market Heads For Nvidia Earnings, Jackson Hole": "주식 시장 주간: 삭막한 시장이 엔비디아 수익으로 향하고 있다, 잭슨 홀",
     "Singapore inflation hits highest in nearly two years, but undershoots expectations": "싱가포르 인플레이션은 거의 2년 만에 가장 높은 수준을 기록했지만 기대치를 밑돌았습니다.",
     "Nvidia Q2 Preview: Strong Earnings and Low Valuation Set the Stage for Upside": "Nvidia 2분기 미리보기: 강력한 수입 및 낮은 가치 평가로 거꾸로 전환",
@@ -775,16 +773,11 @@
     "Tech stocks today: Apple stock slips as Tim Cook prepares to step down": "오늘날의 기술주: 팀 쿡이 물러날 준비를 하면서 애플 주가가 하락",
     "Micron Technology (MU) Gains Driven by Earnings Upgrades": "수익 업그레이드에 힘입은 마이크론 기술 (MU) 이익",
     "Knight-Swift Transportation (KNX) is Positioned to Leverage Evolving Freight Market": "Knight-Swift Transportation (KNX) 은 진화하는 화물 시장을 활용할 수 있는 위치에 있습니다.",
-    "California Utility Stocks Plummet After Wildfire Legislation Announced": "캘리포니아 유틸리티 주식, 산불 관련 법안 발표 후 급락"
+    "California Utility Stocks Plummet After Wildfire Legislation Announced": "캘리포니아 유틸리티 주식, 산불 관련 법안 발표 후 급락",
+    "Wall Street banks keep astronomical price targets on SpaceX’s stock as it tries to blast off again": "월스트리트 뱅크는 다시 폭발하려고 할 때 SpaceX의 주식에 천문학적인 가격 목표를 유지합니다.",
+    "Global Liquidity Could Drive Crypto Markets in September, Expert Says": "전문가에 따르면 9월에 글로벌 유동성이 암호화폐 시장을 주도할 수 있다고 합니다."
   },
   "nvCache": {
-    "https://www.mk.co.kr/news/stock/12138481": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "추천 후 수익률을 알리는 홍보성 기사로, 10년 이익과는 무관합니다.",
-      "by": "ai"
-    },
     "https://www.marketwatch.com/story/marvell-is-boosting-its-forecasts-but-thats-not-enough-to-lift-its-stock-c769556a?mod=mw_rss_topstories": {
       "act": "none",
       "lasting": "temporary",
@@ -2876,6 +2869,13 @@
       "lasting": "structural",
       "scope": "sector",
       "why": "규제·책임 부담이 바뀔 수 있어 법안 진행 상황만 지켜보면 됩니다.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/markets/crypto/articles/global-liquidity-could-drive-crypto-154300245.html": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "단기 유동성 전망에 대한 전문가 견해일 뿐 기업 이익과는 무관합니다.",
       "by": "ai"
     }
   },
