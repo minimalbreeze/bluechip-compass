@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-31T16:28:10.335Z",
+  "asOf": "2026-08-31T16:39:06.357Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -17,43 +17,43 @@
       "time": "2026-08-31T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1367.73,
+      "price": 1367.48,
       "prev": 1380.449951171875,
-      "chg": -0.92,
+      "chg": -0.94,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T16:27:27.000Z"
+      "time": "2026-08-31T16:38:18.000Z"
     },
     "^GSPC": {
-      "price": 7674.56,
+      "price": 7673.65,
       "prev": 7711.759765625,
-      "chg": -0.48,
+      "chg": -0.49,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T16:27:31.000Z"
+      "time": "2026-08-31T16:38:25.000Z"
     },
     "^IXIC": {
-      "price": 26304.398,
+      "price": 26297.123,
       "prev": 26402.419921875,
-      "chg": -0.37,
+      "chg": -0.4,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T16:27:29.000Z"
+      "time": "2026-08-31T16:38:23.000Z"
     },
     "^VIX": {
-      "price": 15.17,
+      "price": 15.22,
       "prev": 14.430000305175781,
-      "chg": 5.13,
+      "chg": 5.47,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T16:12:31.000Z"
+      "time": "2026-08-31T16:23:16.000Z"
     },
     "^TNX": {
-      "price": 4.764,
+      "price": 4.762,
       "prev": 4.71999979019165,
-      "chg": 0.93,
+      "chg": 0.89,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T16:12:22.000Z"
+      "time": "2026-08-31T16:23:22.000Z"
     }
   },
   "fx": {
-    "low52": 1367.73,
+    "low52": 1367.48,
     "high52": 1554.48,
     "pct": 0
   },
@@ -73,53 +73,53 @@
       "chg3m": -21.99
     },
     "KRW=X": {
-      "last": 1367.73,
-      "low52": 1367.73,
+      "last": 1367.48,
+      "low52": 1367.48,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -10.61
+      "chg3m": -10.63
     },
     "^GSPC": {
-      "last": 7674.56,
+      "last": 7673.65,
       "low52": 6343.72,
       "high52": 7798.99,
       "pct52": 0.914,
-      "chg3m": 0.85
+      "chg3m": 0.84
     },
     "^IXIC": {
-      "last": 26304.4,
+      "last": 26297.12,
       "low52": 20794.64,
       "high52": 27093.9,
-      "pct52": 0.875,
-      "chg3m": -2.91
+      "pct52": 0.874,
+      "chg3m": -2.94
     },
     "^VIX": {
-      "last": 15.17,
+      "last": 15.22,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.097,
-      "chg3m": -3.8
+      "pct52": 0.1,
+      "chg3m": -3.49
     },
     "^TNX": {
       "last": 4.76,
       "low52": 3.95,
       "high52": 4.76,
       "pct52": 1,
-      "chg3m": 6.94
+      "chg3m": 6.89
     }
   },
   "regime": {
     "by": "ai",
-    "asOf": "2026-08-31T16:28:06.885Z",
+    "asOf": "2026-08-31T16:39:01.018Z",
     "kr": {
       "why": {
-        "rates": "미 10년물 금리(^TNX)가 4.76%로 1년 범위 최상단(위치 100%)이고 3개월간 +6.94% 올라, 금리는 내려가는 국면이 아니라 위로 밀리는 쪽입니다.",
-        "growth": "코스피가 3개월간 -19.91% 하락한 점은 둔화 신호지만, 지수 위치가 1년 범위의 61%이고 VIX가 15.17로 낮아 침체 확정으로 보기엔 근거가 약해 중간값인 '둔화'로 둡니다.",
-        "valuation": "코스피가 1년 범위 3142.93~9114.55의 61% 지점에 있고 별도 밸류에이션 지표가 제시되지 않아 '보통'으로 판단합니다.",
-        "fx": "원/달러가 1367.73원으로 1년 범위(1367.73~1554.48)의 최저점(위치 0%)이고 3개월간 -10.61% 내려 원화가 강한 상태입니다.",
-        "geo": "국내 헤드라인이 상장예비심사·유상증자·수급 등 시장 내부 이슈에 한정되고 VIX도 15.17(위치 10%)로 낮아 특별한 긴장 신호가 확인되지 않습니다."
+        "rates": "미 국채 10년물(^TNX)이 4.76%로 1년 범위 최상단(위치 100%)이고 3개월간 +6.89% 올라 금리가 오르는 국면입니다.",
+        "growth": "코스피가 3개월간 -19.91% 하락해 둔화 신호가 뚜렷하지만, 1년 범위 내 위치가 61%이고 VIX도 15.22로 낮아 침체까지 단정할 근거는 약합니다.",
+        "valuation": "코스피 6788.88은 1년 범위(3142.93~9114.55)의 61% 지점으로 중간대이며, 이익 대비 밸류 지표가 주어지지 않아 중립으로 봅니다.",
+        "fx": "원/달러가 1367.48원으로 1년 범위(1367.48~1554.48)의 최저점(위치 0%)이고 3개월간 -10.63% 하락해 원화가 강세입니다.",
+        "geo": "VIX가 15.22로 1년 범위 10% 수준이고 헤드라인도 상장·유상증자 등 국내 수급 이슈 위주여서 특별한 충격 신호는 보이지 않습니다."
       },
-      "summary": "금리는 위로(10년물 4.76%, 1년 최고), 원화는 강한데(1367.73원, 1년 최저) 코스피는 3개월 -19.91%로 밀린 둔화 국면입니다. 시장 공포지수(VIX 15.17)는 낮아 패닉보다는 조정 성격에 가깝습니다.",
+      "summary": "금리는 오르고 원화는 1년 내 가장 강한데 코스피는 3개월간 20% 가까이 빠진, 지수 조정과 환율 강세가 겹친 국면입니다. 다만 VIX 15.22로 시장 공포 자체는 낮아 침체 확정보다는 둔화 구간으로 읽는 편이 안전합니다.",
       "rates": "hike",
       "growth": "slow",
       "valuation": "fair",
@@ -128,18 +128,18 @@
     },
     "us": {
       "why": {
-        "rates": "^TNX가 4.76%로 1년 범위 상단 100% 지점이고 3개월 +6.94%인 데다, '금리 인상 베팅 점프'와 해맥 위원의 '지금이 행동할 때' 발언 헤드라인이 함께 나옵니다.",
-        "growth": "S&P500이 7674.56으로 1년 범위의 91% 지점이고 3개월 +0.85%로 버티는 중이며, 소프트웨어 업종 회복세 헤드라인도 확장 쪽 신호입니다.",
-        "valuation": "지수가 1년 범위 6343.72~7798.99의 91% 지점으로 고점 부근이어서 가격 부담이 있는 쪽으로 분류합니다.",
-        "fx": "원/달러 1367.73원은 1년 범위 최저(위치 0%)이자 3개월 -10.61%로, 달러가 원화 대비 약해진 상태입니다.",
-        "geo": "'미국이 이란을 강타' 헤드라인으로 지수가 하락한 사건이 있었으나 VIX는 15.17(위치 10%)로 낮아 충격이 시장 전반으로 번진 상태로 보긴 어려워 '긴장'으로 둡니다."
+        "rates": "^TNX가 4.76%로 1년 범위 최상단(위치 100%), 3개월 +6.89%이며 헤드라인에서도 연준 인사(해맥)가 '금리 인상은 지금이 행동할 때'라고 언급했습니다.",
+        "growth": "S&P500이 7673.65로 1년 범위의 91% 지점이고 3개월 +0.84%로 완만히 버티고 있으며, 소프트웨어 업종 회복 헤드라인도 확장 쪽에 가깝습니다.",
+        "valuation": "지수가 1년 범위(6343.72~7798.99) 상단 91% 위치로 고점권에 있어 가격 부담이 큰 편으로 분류합니다.",
+        "fx": "원/달러 1367.48원은 1년 범위 최저(위치 0%), 3개월 -10.63%로 달러 대비 원화가 강세인 상태입니다.",
+        "geo": "VIX가 15.22(1년 범위 10%)로 낮고, 부채시장 우려·BOJ 관련 헤드라인은 있으나 시장 충격으로 나타난 지표는 없습니다."
       },
-      "summary": "S&P500은 1년 고점권(91%)에 있고 금리는 4.76%로 1년 최고라, 가격은 높고 금리 부담도 커진 국면입니다. 중동 관련 헤드라인으로 긴장은 있으나 VIX 15.17로 시장 공포 자체는 아직 낮습니다.",
+      "summary": "미국 증시는 1년 고점 부근(위치 91%)에 있고 변동성도 낮지만, 10년물 금리가 4.76%로 1년 최고치라 금리 부담이 큰 국면입니다. 가격은 비싼 편으로 분류되며, 원화 강세도 함께 나타나고 있습니다.",
       "rates": "hike",
       "growth": "expand",
       "valuation": "rich",
       "fx": "strong",
-      "geo": "tense"
+      "geo": "calm"
     }
   },
   "stocks": {
@@ -238,95 +238,95 @@
     },
     "us": {
       "MSFT": {
-        "price": 510.425,
+        "price": 510.62,
         "prev": 513.530029296875,
-        "chg": -0.6,
+        "chg": -0.57,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T16:27:37.000Z"
+        "time": "2026-08-31T16:38:28.000Z"
       },
       "AAPL": {
-        "price": 314.66,
+        "price": 313.36,
         "prev": 319.70001220703125,
-        "chg": -1.58,
+        "chg": -1.98,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T16:27:36.000Z"
+        "time": "2026-08-31T16:38:27.000Z"
       },
       "GOOGL": {
-        "price": 338.135,
+        "price": 338.165,
         "prev": 346.5899963378906,
-        "chg": -2.44,
+        "chg": -2.43,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T16:27:29.000Z"
+        "time": "2026-08-31T16:38:30.000Z"
       },
       "BRK.B": {
-        "price": 503.105,
+        "price": 503.265,
         "prev": 505,
-        "chg": -0.38,
+        "chg": -0.34,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T16:27:37.000Z"
+        "time": "2026-08-31T16:38:21.000Z"
       },
       "V": {
-        "price": 380.665,
+        "price": 380.768,
         "prev": 381.6000061035156,
-        "chg": -0.25,
+        "chg": -0.22,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T16:27:36.000Z"
+        "time": "2026-08-31T16:38:24.000Z"
       },
       "JNJ": {
-        "price": 266.08,
+        "price": 266.28,
         "prev": 268.0400085449219,
-        "chg": -0.73,
+        "chg": -0.66,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T16:27:31.000Z"
+        "time": "2026-08-31T16:38:25.000Z"
       },
       "PG": {
-        "price": 145.005,
-        "prev": 143.77999877929688,
-        "chg": 0.85,
-        "basis": "prev-daily-close",
-        "time": "2026-08-31T16:27:36.000Z"
+        "price": 144.927,
+        "prev": 144.9272003173828,
+        "chg": 0,
+        "basis": "last-daily-close",
+        "time": "2026-08-31T16:38:27.000Z"
       },
       "KO": {
-        "price": 89.17,
-        "prev": 89.66000366210938,
-        "chg": -0.55,
-        "basis": "prev-daily-close",
-        "time": "2026-08-31T16:27:22.000Z"
+        "price": 89.166,
+        "prev": 89.16639709472656,
+        "chg": 0,
+        "basis": "last-daily-close",
+        "time": "2026-08-31T16:38:27.000Z"
       },
       "COST": {
-        "price": 945.36,
+        "price": 945.41,
         "prev": 945.469970703125,
         "chg": -0.01,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T16:27:22.000Z"
+        "time": "2026-08-31T16:38:21.000Z"
       },
       "WM": {
-        "price": 220.485,
+        "price": 220.53,
         "prev": 219.66000366210938,
-        "chg": 0.38,
+        "chg": 0.4,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T16:27:24.000Z"
+        "time": "2026-08-31T16:36:59.000Z"
       },
       "LIN": {
-        "price": 487.145,
+        "price": 487.06,
         "prev": 489.510009765625,
-        "chg": -0.48,
+        "chg": -0.5,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T16:27:34.000Z"
+        "time": "2026-08-31T16:37:52.000Z"
       },
       "XOM": {
-        "price": 159.06,
+        "price": 159.035,
         "prev": 156.7100067138672,
-        "chg": 1.5,
+        "chg": 1.48,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T16:27:31.000Z"
+        "time": "2026-08-31T16:38:28.000Z"
       },
       "NVDA": {
-        "price": 220.13,
+        "price": 219.82,
         "prev": 217.5500030517578,
-        "chg": 1.19,
+        "chg": 1.04,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T16:27:36.000Z"
+        "time": "2026-08-31T16:38:31.000Z"
       }
     }
   },
@@ -425,15 +425,15 @@
         "by": "ai"
       },
       {
-        "title": "Stock market today: Dow, S&P 500, Nasdaq fall as US strikes Iran, rate-hike bets jump",
-        "link": "https://finance.yahoo.com/markets/live/stock-market-today-monday-august-31-dow-sp-500-nasdaq-113851714.html",
+        "title": "G20 host US pushes growth agenda to allay debt market concerns",
+        "link": "https://finance.yahoo.com/economy/policy/articles/g20-host-us-pushes-growth-162252261.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-31T11:38:51Z",
-        "ko": "오늘의 주식 시장: 미국이 이란을 강타함에 따라 다우, S&P 500, 나스닥 하락, 금리 인상 베팅 점프",
-        "act": "watch",
+        "date": "2026-08-31T16:22:52Z",
+        "ko": "G20 개최국인 미국, 부채 시장 우려 해소 위해 성장 의제 추진",
+        "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "지정학 충격은 대체로 일시적이며, 기업 이익 구조를 바꾼다고 보기 어렵습니다.",
+        "why": "정책 논의 단계라 당장 기업 이익에 영향은 확인되지 않습니다.",
         "by": "ai"
       },
       {
@@ -461,23 +461,21 @@
         "by": "ai"
       },
       {
-        "title": "Tech stocks today: Apple stock slips as Tim Cook prepares to step down",
-        "link": "https://finance.yahoo.com/technology/live/tech-stocks-today-apple-ceo-steps-down-nvidia-mag-7-145623375.html",
+        "title": "Bessent expects Japan to take action to boost yen, signals BOJ rate-hike chance",
+        "link": "https://finance.yahoo.com/markets/currencies/articles/bessent-says-believes-japan-action-151120273.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-31T14:56:23Z",
-        "ko": "오늘날의 기술주: 팀 쿡이 물러날 준비를 하면서 애플 주가가 하락",
+        "date": "2026-08-31T16:10:32Z",
+        "ko": "베센트는 일본이 엔화 강화를 위한 조치를 취할 것으로 예상하며, BOJ 금리 인상 가능성을 시사합니다.",
         "act": "watch",
-        "lasting": "structural",
-        "scope": "company",
-        "why": "최고경영자 교체는 회사 경영의 구조 변화라 흐름만 지켜보면 됩니다.",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "환율·금리 발언은 흔한 변동 요인이라 흐름만 지켜보면 됩니다.",
         "by": "ai"
       }
     ]
   },
   "newsBy": "ai",
   "trCache": {
-    "Singapore inflation hits highest in nearly two years, but undershoots expectations": "싱가포르 인플레이션은 거의 2년 만에 가장 높은 수준을 기록했지만 기대치를 밑돌았습니다.",
-    "Nvidia Q2 Preview: Strong Earnings and Low Valuation Set the Stage for Upside": "Nvidia 2분기 미리보기: 강력한 수입 및 낮은 가치 평가로 거꾸로 전환",
     "Billionaire Stanley Druckenmiller Just Sold Some Sandisk Stock and Bought These 3 Unstoppable Artificial Intelligence (AI) Stocks": "억만장자 스탠리 드러켄밀러 (Stanley Druckenmiller) 는 방금 샌디스크 (Sandisk) 주식을 팔았고 막을 수 없는 인공 지능 (AI) 주식을 3개 구입했습니다.",
     "Here’s What You Should Buy Over PayPal Holdings, Inc. (NASDAQ:PYPL) According To Jim Cramer": "짐 크레이머 (Jim Cramer) 에 따르면 PayPal Holdings, Inc. (NASDAQ: PYPL) 를 통해 구매해야 할 사항은 다음과 같습니다.",
     "There are six stocks that hedge funds and mutual funds are both overweight — and SpaceX is one": "헤지펀드와 뮤추얼펀드가 모두 과체중인 주식은 6개이며 SpaceX는 1개입니다.",
@@ -775,23 +773,11 @@
     "California Utility Stocks Plummet After Wildfire Legislation Announced": "캘리포니아 유틸리티 주식, 산불 관련 법안 발표 후 급락",
     "Wall Street banks keep astronomical price targets on SpaceX’s stock as it tries to blast off again": "월스트리트 뱅크는 다시 폭발하려고 할 때 SpaceX의 주식에 천문학적인 가격 목표를 유지합니다.",
     "Global Liquidity Could Drive Crypto Markets in September, Expert Says": "전문가에 따르면 9월에 글로벌 유동성이 암호화폐 시장을 주도할 수 있다고 합니다.",
-    "22 best-performing stocks of August, as the software industry continues its recovery": "소프트웨어 산업이 회복세를 이어가고 있는 8월의 최고 실적 주식 22개"
+    "22 best-performing stocks of August, as the software industry continues its recovery": "소프트웨어 산업이 회복세를 이어가고 있는 8월의 최고 실적 주식 22개",
+    "G20 host US pushes growth agenda to allay debt market concerns": "G20 개최국인 미국, 부채 시장 우려 해소 위해 성장 의제 추진",
+    "Bessent expects Japan to take action to boost yen, signals BOJ rate-hike chance": "베센트는 일본이 엔화 강화를 위한 조치를 취할 것으로 예상하며, BOJ 금리 인상 가능성을 시사합니다."
   },
   "nvCache": {
-    "https://finance.yahoo.com/markets/stocks/articles/stock-spirits-gains-uk-supermarket-123137445.html": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "신제품 유통망 확대 소식으로, 장기 이익 구조를 바꿀 크기는 아닙니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20260828045500008": {
-      "act": "watch",
-      "lasting": "structural",
-      "scope": "company",
-      "why": "대규모 유상증자는 지분 희석과 자금 용도를 함께 볼 사안입니다.",
-      "by": "ai"
-    },
     "https://www.mk.co.kr/news/stock/12138501": {
       "act": "none",
       "lasting": "temporary",
@@ -2876,6 +2862,20 @@
       "lasting": "temporary",
       "scope": "sector",
       "why": "월간 수익률 상위 종목 나열은 지나간 성과로, 장기 이익과는 무관합니다.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/economy/policy/articles/g20-host-us-pushes-growth-162252261.html": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "정책 논의 단계라 당장 기업 이익에 영향은 확인되지 않습니다.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/markets/currencies/articles/bessent-says-believes-japan-action-151120273.html": {
+      "act": "watch",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "환율·금리 발언은 흔한 변동 요인이라 흐름만 지켜보면 됩니다.",
       "by": "ai"
     }
   },
