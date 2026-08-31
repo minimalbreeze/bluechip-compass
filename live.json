@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-31T08:02:24.969Z",
+  "asOf": "2026-08-31T09:03:23.105Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -17,11 +17,11 @@
       "time": "2026-08-31T06:32:40.000Z"
     },
     "KRW=X": {
-      "price": 1368.18,
+      "price": 1366.79,
       "prev": 1380.449951171875,
-      "chg": -0.89,
+      "chg": -0.99,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T08:01:39.000Z"
+      "time": "2026-08-31T09:02:39.000Z"
     },
     "^GSPC": {
       "price": 7711.76,
@@ -38,11 +38,11 @@
       "time": "2026-08-28T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 15.26,
+      "price": 15.21,
       "prev": 14.430000305175781,
-      "chg": 5.75,
+      "chg": 5.41,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T07:46:31.000Z"
+      "time": "2026-08-31T08:47:31.000Z"
     },
     "^TNX": {
       "price": 4.72,
@@ -53,7 +53,7 @@
     }
   },
   "fx": {
-    "low52": 1368.18,
+    "low52": 1366.79,
     "high52": 1554.48,
     "pct": 0
   },
@@ -73,11 +73,11 @@
       "chg3m": -20.55
     },
     "KRW=X": {
-      "last": 1368.18,
-      "low52": 1368.18,
+      "last": 1366.79,
+      "low52": 1366.79,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -10.58
+      "chg3m": -10.67
     },
     "^GSPC": {
       "last": 7711.76,
@@ -94,11 +94,11 @@
       "chg3m": -2.53
     },
     "^VIX": {
-      "last": 15.26,
+      "last": 15.21,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.102,
-      "chg3m": -3.23
+      "pct52": 0.099,
+      "chg3m": -3.55
     },
     "^TNX": {
       "last": 4.72,
@@ -110,16 +110,16 @@
   },
   "regime": {
     "by": "ai",
-    "asOf": "2026-08-31T08:02:12.101Z",
+    "asOf": "2026-08-31T09:03:13.230Z",
     "kr": {
       "why": {
-        "rates": "미 국채 10년물(^TNX)이 4.72로 1년 범위 상단 97% 위치이고 3개월간 +5.47% 올랐으며, 헤드라인도 '美연준발 삭풍'을 언급해 금리 상방 압력이 우세합니다.",
-        "growth": "코스피가 3개월간 -22.4% 하락했지만 현재 6,820.02로 1년 범위의 62% 위치이고 6,800선으로 반등 마감해, 침체 단정보다는 둔화 국면으로 봅니다.",
-        "valuation": "제공된 자료에 PER 등 밸류 지표가 없고 지수 위치가 62%로 중간 수준이라 근거가 약해 중립값인 '보통'으로 둡니다.",
-        "fx": "원/달러가 1,368.18로 1년 범위 최저(위치 0%)이고 3개월간 -10.58% 하락, '13개월 만에 1,360원대'라는 헤드라인도 원화 강세를 가리킵니다.",
-        "geo": "VIX가 15.26으로 1년 범위 10% 수준의 낮은 값이고 충격성 사건 헤드라인이 없어 평온으로 분류하되, 연준발 불확실성 언급은 남아 있습니다."
+        "rates": "미 10년물 금리(^TNX)가 4.72%로 1년 범위 상단 97% 위치이고 3개월간 +5.47% 올랐으며, '美 기준금리 인상 가능성에 국고채 금리↑' 헤드라인도 인상 방향을 가리킵니다.",
+        "growth": "코스피가 3개월간 -22.4% 급락했지만 현재 6820.02로 1년 범위의 62% 위치이고 6,800선에서 반등 마감했다는 점에서 침체 단정보다 둔화로 봅니다.",
+        "valuation": "코스피 6820.02는 1년 범위 3142.93~9114.55의 62% 위치로 상단도 하단도 아닌 중간대여서 보통 수준으로 분류합니다.",
+        "fx": "원/달러가 1366.79로 1년 범위 최저(위치 0%)이며 3개월간 -10.67% 하락해 원화가 상대적으로 강한 상태입니다.",
+        "geo": "VIX가 15.21로 1년 범위의 10% 위치이고 지정학적 충격을 가리키는 헤드라인이 없어 평온으로 두되, '美연준발 불확실성↑' 언급은 참고 사항입니다."
       },
-      "summary": "금리는 위쪽을 보고 있고 코스피는 3개월 -22.4% 조정 뒤 6,800선에서 되돌림이 나온 둔화 국면입니다. 원화는 1,368원으로 1년 내 가장 강한 수준이고 변동성 지표는 낮게 유지되고 있습니다.",
+      "summary": "금리는 오르는 쪽이고 원화는 1366.79로 1년 최저권까지 강해진 상태에서, 코스피는 3개월 -22.4% 급락 후 범위 중간(62%)에서 숨을 고르는 국면입니다. 변동성 지표(VIX 15.21)는 낮아 시장이 놀란 상태는 아니지만 경기 흐름은 둔화 쪽으로 읽힙니다.",
       "rates": "hike",
       "growth": "slow",
       "valuation": "fair",
@@ -128,13 +128,13 @@
     },
     "us": {
       "why": {
-        "rates": "^TNX가 4.72로 1년 범위 97% 위치(+5.47%, 3개월)이고, 워시·해맥 발언 등 '금리 인상' 관련 헤드라인이 반복돼 인상 방향으로 판단합니다.",
-        "growth": "S&P500이 7,711.76으로 1년 범위 94% 위치이며 3개월 +1.47%로 상승세를 유지해 경기 위축 신호는 보이지 않습니다.",
-        "valuation": "지수가 1년 범위의 94% 지점(고점 7,798.99 근처)에 있어 가격 부담이 큰 구간으로 분류합니다.",
-        "fx": "원/달러가 1,368.18로 1년 범위 0% 위치, 3개월 -10.58%로 달러 대비 원화가 강한 상태입니다.",
-        "geo": "VIX 15.26(1년 범위 10% 위치, 3개월 -3.23%)로 낮고 충격성 사건 헤드라인이 없어 평온으로 보되, 연준 발언발 정책 불확실성은 존재합니다."
+        "rates": "^TNX가 4.72%로 1년 범위 3.95~4.74의 97% 위치, 3개월 +5.47%이고 '금리 인상 가능성', 'Hammack: 지금이 행동할 때' 등 인상 방향 발언이 이어집니다.",
+        "growth": "S&P500이 7711.76으로 1년 범위의 94% 위치이며 3개월 +1.47% 상승해 지수 흐름상 경기 위축 신호는 확인되지 않습니다.",
+        "valuation": "S&P500이 1년 범위 6343.72~7798.99 중 94% 위치로 상단에 붙어 있어 가격 부담이 큰 편으로 분류합니다.",
+        "fx": "원/달러 1366.79는 1년 범위 위치 0%, 3개월 -10.67%로 달러 대비 원화가 강한 상태입니다(달러 기준으로는 약세 방향).",
+        "geo": "VIX 15.21(위치 10%)로 낮고 제시된 헤드라인에 지정학적 충격 사건이 없어 평온으로 판단합니다."
       },
-      "summary": "미국 증시는 1년 범위 94% 지점까지 올라온 강세 구간이지만, 금리는 4.72%로 상단에 붙어 있고 연준 인사들의 매파 발언이 이어지는 상태입니다. 변동성은 낮아 시장이 아직 크게 놀라지는 않은 국면입니다.",
+      "summary": "미국은 지수가 1년 고점권(94%)에 있어 가격은 비싼 편인데, 국채금리 4.72%와 연준의 인상 발언이 겹친 국면입니다. 변동성은 낮아 시장은 아직 차분하지만 금리 부담이 핵심 변수인 상태입니다.",
       "rates": "hike",
       "growth": "expand",
       "valuation": "rich",
@@ -333,6 +333,39 @@
   "news": {
     "kr": [
       {
+        "title": "美 기준금리 인상 가능성에 국고채 금리↑…상승폭은 줄어(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260831150251008",
+        "source": "연합뉴스",
+        "date": "Mon, 31 Aug 2026 17:02:21 +0900",
+        "act": "watch",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "금리 방향은 시장 전체에 영향을 주지만 하루 변동은 일시적입니다.",
+        "by": "ai"
+      },
+      {
+        "title": "코스피 막판 반등…삼전닉스 주주환원이 떠받쳤다",
+        "link": "https://www.hankyung.com/article/2026083146481",
+        "source": "한국경제",
+        "date": "Mon, 31 Aug 2026 17:54:06 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "장중 지수 등락은 기업의 장기 이익과 무관합니다.",
+        "by": "ai"
+      },
+      {
+        "title": "외국인 빠진 코스피…사모펀드 단타 주의보",
+        "link": "https://www.mk.co.kr/news/stock/12140634",
+        "source": "매일경제",
+        "date": "Mon, 31 Aug 2026 17:54:53 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "수급과 단기 매매 흐름 이야기로 투자 근거와는 별개입니다.",
+        "by": "ai"
+      },
+      {
         "title": "美연준발 삭풍에 불확실성↑…코스피는 반등해 6,800선 마감(종합)",
         "link": "https://www.yna.co.kr/view/AKR20260831083051008",
         "source": "연합뉴스",
@@ -355,47 +388,14 @@
         "by": "ai"
       },
       {
-        "title": "국내주식 팔지도 사지도 못하는 국민연금 … 해외투자로 눈 돌린다",
-        "link": "https://www.mk.co.kr/news/economy/12140502",
+        "title": "파이온엑스, 100억원 규모 유상증자 실시",
+        "link": "https://www.mk.co.kr/news/stock/12140624",
         "source": "매일경제",
-        "date": "Mon, 31 Aug 2026 16:54:11 +09:00",
+        "date": "Mon, 31 Aug 2026 17:51:13 +09:00",
         "act": "watch",
         "lasting": "structural",
-        "scope": "market",
-        "why": "대형 연기금의 자산배분 변화는 수급 구조에 오래 영향을 줄 수 있습니다.",
-        "by": "ai"
-      },
-      {
-        "title": "환율 13개월 만에 1,360원대로 하락…달러 매도 몰려(종합)",
-        "link": "https://www.yna.co.kr/view/AKR20260831138251002",
-        "source": "연합뉴스",
-        "date": "Mon, 31 Aug 2026 16:44:00 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "환율 변동은 흔한 일로 기업 이익 근거를 흔들지는 않습니다.",
-        "by": "ai"
-      },
-      {
-        "title": "초유의 개인·기관·외국인 동반 순매도…그런데 코스피는 올랐다",
-        "link": "https://www.hankyung.com/article/202608314360i",
-        "source": "한국경제",
-        "date": "Mon, 31 Aug 2026 16:52:46 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "하루 수급 통계일 뿐 장기 판단에 쓸 정보는 아닙니다.",
-        "by": "ai"
-      },
-      {
-        "title": "“고점 물린 개미들 구하러 온다”…‘삼전닉스’ 주가 반등 신호탄, 뭐길래",
-        "link": "https://www.mk.co.kr/news/stock/12140481",
-        "source": "매일경제",
-        "date": "Mon, 31 Aug 2026 16:28:16 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "sector",
-        "why": "반등 기대를 다룬 전망성 기사로 확인된 사실이 없습니다.",
+        "scope": "company",
+        "why": "유상증자는 주식 수가 늘어나는 일이라 지분 가치에 영향을 줍니다.",
         "by": "ai"
       }
     ],
@@ -461,15 +461,15 @@
         "by": "ai"
       },
       {
-        "title": "Bond Traders Buy Warsh’s Tough Talk on Inflation, for Now",
-        "link": "https://www.barrons.com/articles/treasury-bond-market-fed-warsh-inflation-7689b45a?siteid=yhoof2&yptr=yahoo",
+        "title": "Supply driven trucking market cycle explained in the data",
+        "link": "https://finance.yahoo.com/economy/articles/supply-driven-trucking-market-cycle-003000522.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-29T20:27:00Z",
-        "ko": "채권 거래자들, 인플레이션에 대한 워쉬의 거친 대화 구매, 당분간",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "통화정책 발언에 대한 채권시장의 단기 반응으로, 기업 이익 구조와는 거리가 있습니다.",
+        "date": "2026-08-30T00:30:00Z",
+        "ko": "데이터에 설명된 공급 중심 트럭 시장 사이클",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": "sector",
+        "why": "운송 업종의 공급 사이클 변화는 업황 흐름을 보는 참고 지표입니다.",
         "by": "ai"
       }
     ]
@@ -759,44 +759,10 @@
     "Ameresco CEO Sakellaris Buys 5,000 Shares for $113,300. Is This a Sign Renewable Energy Projects are Taking Off?": "Ameresco CEO Sakellaris는 5,000주의 주식을 $113,300에 매입합니다. 이것은 신재생 에너지 프로젝트가 시작되고 있다는 신호입니까?",
     "Uniswap Price Prediction: Rally to $9 Possible as Robinhood Chain Stats Get Hotter": "Uniswap 가격 예측: Robinhood 체인 통계가 뜨거워짐에 따라 $9로 상승 가능",
     "AbbVie vs. Eli Lilly and: Which Healthcare Stock Is a Better Buy in 2026?": "AbbVie vs. Eli Lilly and: 2026년에는 어떤 헬스케어 주식이 더 나은 매수입니까?",
-    "Bond Traders Buy Warsh’s Tough Talk on Inflation, for Now": "채권 거래자들, 인플레이션에 대한 워쉬의 거친 대화 구매, 당분간"
+    "Bond Traders Buy Warsh’s Tough Talk on Inflation, for Now": "채권 거래자들, 인플레이션에 대한 워쉬의 거친 대화 구매, 당분간",
+    "Supply driven trucking market cycle explained in the data": "데이터에 설명된 공급 중심 트럭 시장 사이클"
   },
   "nvCache": {
-    "https://finance.yahoo.com/markets/stocks/articles/stanley-druckenmiller-cathie-wood-agree-191300323.html": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "유명 투자자 보유 소식은 근거가 아니라 화제일 뿐입니다.",
-      "by": "ai"
-    },
-    "https://www.marketwatch.com/story/major-alibaba-figures-make-purchases-as-chinese-giant-sells-10-billion-of-stock-879b52ec?mod=mw_rss_topstories": {
-      "act": "watch",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "대규모 주식 발행은 지분 희석 여부만 확인해두면 됩니다.",
-      "by": "ai"
-    },
-    "https://finance.yahoo.com/technology/live/tech-stocks-today-all-eyes-on-nvidia-earnings-as-apple-debuts-new-mac-mini-mac-studio-aimed-at-ai-developers-125406169.html": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "sector",
-      "why": "신제품 출시와 실적 발표 대기 소식으로 장기 근거는 그대로입니다.",
-      "by": "ai"
-    },
-    "https://www.marketwatch.com/story/dicks-sporting-goods-stock-is-having-its-worst-day-ever-as-sneakers-arent-selling-without-deeper-discounts-5a868358?mod=mw_rss_topstories": {
-      "act": "watch",
-      "lasting": "temporary",
-      "scope": "sector",
-      "why": "재고 할인은 단기 수익성 문제이나 소비 흐름은 지켜볼 만합니다.",
-      "by": "ai"
-    },
-    "https://finance.yahoo.com/markets/stocks/articles/affirm-afrm-slipped-klarna-cut-142517038.html": {
-      "act": "watch",
-      "lasting": "temporary",
-      "scope": "sector",
-      "why": "동종업체 가이던스 하향의 파급이라 업종 실적 추이를 지켜볼 사안입니다.",
-      "by": "ai"
-    },
     "https://www.marketwatch.com/story/why-metas-stock-could-see-a-50-rally-thanks-to-an-overlooked-ai-wild-card-28cea54b?mod=mw_rss_topstories": {
       "act": "none",
       "lasting": "temporary",
@@ -2860,6 +2826,41 @@
       "lasting": "temporary",
       "scope": "market",
       "why": "통화정책 발언에 대한 채권시장의 단기 반응으로, 기업 이익 구조와는 거리가 있습니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20260831150251008": {
+      "act": "watch",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "금리 방향은 시장 전체에 영향을 주지만 하루 변동은 일시적입니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/2026083146481": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "장중 지수 등락은 기업의 장기 이익과 무관합니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12140634": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "수급과 단기 매매 흐름 이야기로 투자 근거와는 별개입니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12140624": {
+      "act": "watch",
+      "lasting": "structural",
+      "scope": "company",
+      "why": "유상증자는 주식 수가 늘어나는 일이라 지분 가치에 영향을 줍니다.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/economy/articles/supply-driven-trucking-market-cycle-003000522.html": {
+      "act": "watch",
+      "lasting": "structural",
+      "scope": "sector",
+      "why": "운송 업종의 공급 사이클 변화는 업황 흐름을 보는 참고 지표입니다.",
       "by": "ai"
     }
   },
