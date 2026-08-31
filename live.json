@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-31T07:01:23.443Z",
+  "asOf": "2026-08-31T08:02:24.969Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -17,11 +17,11 @@
       "time": "2026-08-31T06:32:40.000Z"
     },
     "KRW=X": {
-      "price": 1369.78,
+      "price": 1368.18,
       "prev": 1380.449951171875,
-      "chg": -0.77,
+      "chg": -0.89,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T07:00:42.000Z"
+      "time": "2026-08-31T08:01:39.000Z"
     },
     "^GSPC": {
       "price": 7711.76,
@@ -38,11 +38,11 @@
       "time": "2026-08-28T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 14.43,
-      "prev": 14.510000228881836,
-      "chg": -0.55,
+      "price": 15.26,
+      "prev": 14.430000305175781,
+      "chg": 5.75,
       "basis": "prev-daily-close",
-      "time": "2026-08-28T20:15:01.000Z"
+      "time": "2026-08-31T07:46:31.000Z"
     },
     "^TNX": {
       "price": 4.72,
@@ -53,7 +53,7 @@
     }
   },
   "fx": {
-    "low52": 1369.78,
+    "low52": 1368.18,
     "high52": 1554.48,
     "pct": 0
   },
@@ -73,11 +73,11 @@
       "chg3m": -20.55
     },
     "KRW=X": {
-      "last": 1369.78,
-      "low52": 1369.78,
+      "last": 1368.18,
+      "low52": 1368.18,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -10.48
+      "chg3m": -10.58
     },
     "^GSPC": {
       "last": 7711.76,
@@ -94,11 +94,11 @@
       "chg3m": -2.53
     },
     "^VIX": {
-      "last": 14.43,
+      "last": 15.26,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.055,
-      "chg3m": -10.09
+      "pct52": 0.102,
+      "chg3m": -3.23
     },
     "^TNX": {
       "last": 4.72,
@@ -110,16 +110,16 @@
   },
   "regime": {
     "by": "ai",
-    "asOf": "2026-08-31T07:01:13.895Z",
+    "asOf": "2026-08-31T08:02:12.101Z",
     "kr": {
       "why": {
-        "rates": "미 10년물 금리(^TNX)가 4.72%로 1년 범위 3.95~4.74%의 97% 지점이고 3개월간 +5.47% 올랐으며, 헤드라인에도 워시 의장의 '매파' 발언이 언급돼 금리는 올라가는 쪽입니다.",
-        "growth": "코스피가 3개월 -22.4%로 크게 밀렸지만 지수 자체는 6820.02로 1년 범위(3142.93~9114.55)의 62% 지점이고 VIX도 14.43으로 낮아, 침체 확정보다는 둔화 국면으로 보는 것이 자료에 맞습니다.",
-        "valuation": "코스피가 1년 범위의 62% 위치로 고점(9114.55)과 저점(3142.93)의 중간보다 약간 위에 있어 싸지도 비싸지도 않은 보통 수준입니다.",
-        "fx": "원/달러가 1369.78원으로 1년 범위(1369.78~1554.48)의 0% 지점, 3개월 -10.48%로 원화가 뚜렷하게 강해졌습니다.",
-        "geo": "VIX가 14.43으로 1년 범위의 6% 수준이고 헤드라인도 반도체 투자·수급 등 산업 뉴스 위주여서 별도의 충격 신호는 확인되지 않습니다."
+        "rates": "미 국채 10년물(^TNX)이 4.72로 1년 범위 상단 97% 위치이고 3개월간 +5.47% 올랐으며, 헤드라인도 '美연준발 삭풍'을 언급해 금리 상방 압력이 우세합니다.",
+        "growth": "코스피가 3개월간 -22.4% 하락했지만 현재 6,820.02로 1년 범위의 62% 위치이고 6,800선으로 반등 마감해, 침체 단정보다는 둔화 국면으로 봅니다.",
+        "valuation": "제공된 자료에 PER 등 밸류 지표가 없고 지수 위치가 62%로 중간 수준이라 근거가 약해 중립값인 '보통'으로 둡니다.",
+        "fx": "원/달러가 1,368.18로 1년 범위 최저(위치 0%)이고 3개월간 -10.58% 하락, '13개월 만에 1,360원대'라는 헤드라인도 원화 강세를 가리킵니다.",
+        "geo": "VIX가 15.26으로 1년 범위 10% 수준의 낮은 값이고 충격성 사건 헤드라인이 없어 평온으로 분류하되, 연준발 불확실성 언급은 남아 있습니다."
       },
-      "summary": "금리는 오르는 쪽인데 코스피는 3개월 -22.4%로 크게 조정받아 경기 둔화 신호가 보이는 국면입니다. 다만 원화는 1369.78원으로 강해졌고 VIX 14.43으로 시장 공포는 낮아, 밸류에이션은 보통 수준으로 분류됩니다.",
+      "summary": "금리는 위쪽을 보고 있고 코스피는 3개월 -22.4% 조정 뒤 6,800선에서 되돌림이 나온 둔화 국면입니다. 원화는 1,368원으로 1년 내 가장 강한 수준이고 변동성 지표는 낮게 유지되고 있습니다.",
       "rates": "hike",
       "growth": "slow",
       "valuation": "fair",
@@ -128,13 +128,13 @@
     },
     "us": {
       "why": {
-        "rates": "^TNX가 4.72%로 1년 범위의 97% 지점(3개월 +5.47%)이고, 워시 의장의 인플레 우려 발언과 해맥 총재의 '지금이 행동할 때' 발언 등 금리 인상 쪽 헤드라인이 이어졌습니다.",
-        "growth": "S&P500이 7711.76으로 1년 범위(6343.72~7798.99)의 94% 지점이고 3개월 +1.47%로 상승세를 유지해 경기 흐름은 아직 괜찮은 편입니다.",
-        "valuation": "지수가 1년 고점(7798.99)에 근접한 94% 위치라 가격 부담이 있는 비싼 편으로 분류됩니다.",
-        "fx": "원/달러가 1369.78원으로 1년 범위의 0% 지점, 3개월 -10.48%여서 달러 대비 원화가 강한 상태입니다.",
-        "geo": "VIX 14.43(1년 범위 6% 수준)으로 변동성이 낮고, 헤드라인도 연준 발언과 개별 기업 이야기 위주라 충격 사건은 나타나지 않았습니다."
+        "rates": "^TNX가 4.72로 1년 범위 97% 위치(+5.47%, 3개월)이고, 워시·해맥 발언 등 '금리 인상' 관련 헤드라인이 반복돼 인상 방향으로 판단합니다.",
+        "growth": "S&P500이 7,711.76으로 1년 범위 94% 위치이며 3개월 +1.47%로 상승세를 유지해 경기 위축 신호는 보이지 않습니다.",
+        "valuation": "지수가 1년 범위의 94% 지점(고점 7,798.99 근처)에 있어 가격 부담이 큰 구간으로 분류합니다.",
+        "fx": "원/달러가 1,368.18로 1년 범위 0% 위치, 3개월 -10.58%로 달러 대비 원화가 강한 상태입니다.",
+        "geo": "VIX 15.26(1년 범위 10% 위치, 3개월 -3.23%)로 낮고 충격성 사건 헤드라인이 없어 평온으로 보되, 연준 발언발 정책 불확실성은 존재합니다."
       },
-      "summary": "미국 증시는 1년 고점 부근(범위의 94%)에서 버티고 있지만, 금리(10년물 4.72%)가 오르며 가격 부담이 커진 국면입니다. 변동성 지표(VIX 14.43)는 낮아 시장 자체는 조용한 편입니다.",
+      "summary": "미국 증시는 1년 범위 94% 지점까지 올라온 강세 구간이지만, 금리는 4.72%로 상단에 붙어 있고 연준 인사들의 매파 발언이 이어지는 상태입니다. 변동성은 낮아 시장이 아직 크게 놀라지는 않은 국면입니다.",
       "rates": "hike",
       "growth": "expand",
       "valuation": "rich",
@@ -333,69 +333,69 @@
   "news": {
     "kr": [
       {
-        "title": "호남반도체 '2030 양산' 로드맵 공개…부지·전력용수 동시구축",
-        "link": "https://www.yna.co.kr/view/AKR20260831134800054",
+        "title": "美연준발 삭풍에 불확실성↑…코스피는 반등해 6,800선 마감(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260831083051008",
         "source": "연합뉴스",
-        "date": "Mon, 31 Aug 2026 15:45:50 +0900",
+        "date": "Mon, 31 Aug 2026 16:50:29 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "지수 등락과 통화정책 불확실성은 늘 반복되는 시장 소음입니다.",
+        "by": "ai"
+      },
+      {
+        "title": "SK온 1.5조원 잭팟에…SK이노베이션 주가 7%대 급등",
+        "link": "https://www.hankyung.com/article/202608314180i",
+        "source": "한국경제",
+        "date": "Mon, 31 Aug 2026 16:54:29 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "단발성 수주와 하루 주가 급등은 장기 이익 구조를 바꾸지 않습니다.",
+        "by": "ai"
+      },
+      {
+        "title": "국내주식 팔지도 사지도 못하는 국민연금 … 해외투자로 눈 돌린다",
+        "link": "https://www.mk.co.kr/news/economy/12140502",
+        "source": "매일경제",
+        "date": "Mon, 31 Aug 2026 16:54:11 +09:00",
         "act": "watch",
         "lasting": "structural",
-        "scope": "sector",
-        "why": "대규모 생산기반 계획은 업종의 장기 공급구조에 영향을 줄 수 있어 경과만 지켜볼 일입니다.",
-        "by": "ai"
-      },
-      {
-        "title": "삼전닉스 팔아치운 외국인…대신 쓸어담은 이 종목",
-        "link": "https://www.hankyung.com/article/202608313871i",
-        "source": "한국경제",
-        "date": "Mon, 31 Aug 2026 15:48:38 +0900",
-        "act": "none",
-        "lasting": "temporary",
         "scope": "market",
-        "why": "외국인 수급 이동은 단기 자금 흐름이라 장기 이익과는 무관합니다.",
+        "why": "대형 연기금의 자산배분 변화는 수급 구조에 오래 영향을 줄 수 있습니다.",
         "by": "ai"
       },
       {
-        "title": "‘뒷심’ 살아난 코스피, 6800대 상승 전환 마감…코스닥은 내려",
-        "link": "https://www.mk.co.kr/news/stock/12140429",
-        "source": "매일경제",
-        "date": "Mon, 31 Aug 2026 15:55:17 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "하루 지수 등락은 장기 보유 판단에 영향을 주지 않습니다.",
-        "by": "ai"
-      },
-      {
-        "title": "[특징주] 코스닥 제약·바이오주, 워시 '매파' 발언에 하락(종합)",
-        "link": "https://www.yna.co.kr/view/AKR20260831037451008",
+        "title": "환율 13개월 만에 1,360원대로 하락…달러 매도 몰려(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260831138251002",
         "source": "연합뉴스",
-        "date": "Mon, 31 Aug 2026 15:40:54 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "sector",
-        "why": "통화정책 발언에 따른 단기 조정으로 업종의 장기 이익과는 무관합니다.",
-        "by": "ai"
-      },
-      {
-        "title": "코스피 0.46% 상승 마감…6800선 회복",
-        "link": "https://www.hankyung.com/article/2026083141606",
-        "source": "한국경제",
-        "date": "Mon, 31 Aug 2026 15:36:47 +0900",
+        "date": "Mon, 31 Aug 2026 16:44:00 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "하루 지수 등락은 장기 투자 근거를 바꾸지 않습니다.",
+        "why": "환율 변동은 흔한 일로 기업 이익 근거를 흔들지는 않습니다.",
         "by": "ai"
       },
       {
-        "title": "106만원→41만원…기대감에 급등했지만 로봇 관련 주가는 지지부진",
-        "link": "https://www.mk.co.kr/news/stock/12140423",
+        "title": "초유의 개인·기관·외국인 동반 순매도…그런데 코스피는 올랐다",
+        "link": "https://www.hankyung.com/article/202608314360i",
+        "source": "한국경제",
+        "date": "Mon, 31 Aug 2026 16:52:46 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "하루 수급 통계일 뿐 장기 판단에 쓸 정보는 아닙니다.",
+        "by": "ai"
+      },
+      {
+        "title": "“고점 물린 개미들 구하러 온다”…‘삼전닉스’ 주가 반등 신호탄, 뭐길래",
+        "link": "https://www.mk.co.kr/news/stock/12140481",
         "source": "매일경제",
-        "date": "Mon, 31 Aug 2026 15:50:32 +09:00",
-        "act": "watch",
+        "date": "Mon, 31 Aug 2026 16:28:16 +09:00",
+        "act": "none",
         "lasting": "temporary",
         "scope": "sector",
-        "why": "기대감이 식은 주가 조정으로, 실제 실적 흐름은 헤드라인만으로 알 수 없습니다.",
+        "why": "반등 기대를 다룬 전망성 기사로 확인된 사실이 없습니다.",
         "by": "ai"
       }
     ],
@@ -425,15 +425,15 @@
         "by": "ai"
       },
       {
-        "title": "A $100 Billion Buildout In Louisiana Is Planned for Starship. What This Means for SPCX Stock.",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/100-billion-buildout-louisiana-planned-193002508.html",
+        "title": "Uniswap Price Prediction: Rally to $9 Possible as Robinhood Chain Stats Get Hotter",
+        "link": "https://finance.yahoo.com/markets/crypto/articles/uniswap-price-prediction-rally-9-233315397.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-29T19:30:02Z",
-        "ko": "루이지애나에 $1,000억 규모의 우주선이 건설될 예정입니다. SPCX 주식에 대한 의미.",
+        "date": "2026-08-29T23:33:15Z",
+        "ko": "Uniswap 가격 예측: Robinhood 체인 통계가 뜨거워짐에 따라 $9로 상승 가능",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
-        "why": "대규모 투자 계획 발표 단계로, 제목만으로는 실제 이익 변화를 알기 어렵습니다.",
+        "scope": "sector",
+        "why": "가격 목표 예측성 기사로 기업 이익과 무관한 단기 전망입니다.",
         "by": "ai"
       },
       {
@@ -461,15 +461,15 @@
         "by": "ai"
       },
       {
-        "title": "AbbVie vs. Eli Lilly and: Which Healthcare Stock Is a Better Buy in 2026?",
-        "link": "https://finance.yahoo.com/healthcare/articles/abbvie-vs-eli-lilly-healthcare-193501188.html",
+        "title": "Bond Traders Buy Warsh’s Tough Talk on Inflation, for Now",
+        "link": "https://www.barrons.com/articles/treasury-bond-market-fed-warsh-inflation-7689b45a?siteid=yhoof2&yptr=yahoo",
         "source": "Yahoo Finance",
-        "date": "2026-08-29T19:35:01Z",
-        "ko": "AbbVie vs. Eli Lilly and: 2026년에는 어떤 헬스케어 주식이 더 나은 매수입니까?",
+        "date": "2026-08-29T20:27:00Z",
+        "ko": "채권 거래자들, 인플레이션에 대한 워쉬의 거친 대화 구매, 당분간",
         "act": "none",
         "lasting": "temporary",
-        "scope": "sector",
-        "why": "두 종목 비교 의견 기사로, 기업 이익 구조를 바꾸는 사실은 없습니다.",
+        "scope": "market",
+        "why": "통화정책 발언에 대한 채권시장의 단기 반응으로, 기업 이익 구조와는 거리가 있습니다.",
         "by": "ai"
       }
     ]
@@ -758,58 +758,10 @@
     "A $100 Billion Buildout In Louisiana Is Planned for Starship. What This Means for SPCX Stock.": "루이지애나에 $1,000억 규모의 우주선이 건설될 예정입니다. SPCX 주식에 대한 의미.",
     "Ameresco CEO Sakellaris Buys 5,000 Shares for $113,300. Is This a Sign Renewable Energy Projects are Taking Off?": "Ameresco CEO Sakellaris는 5,000주의 주식을 $113,300에 매입합니다. 이것은 신재생 에너지 프로젝트가 시작되고 있다는 신호입니까?",
     "Uniswap Price Prediction: Rally to $9 Possible as Robinhood Chain Stats Get Hotter": "Uniswap 가격 예측: Robinhood 체인 통계가 뜨거워짐에 따라 $9로 상승 가능",
-    "AbbVie vs. Eli Lilly and: Which Healthcare Stock Is a Better Buy in 2026?": "AbbVie vs. Eli Lilly and: 2026년에는 어떤 헬스케어 주식이 더 나은 매수입니까?"
+    "AbbVie vs. Eli Lilly and: Which Healthcare Stock Is a Better Buy in 2026?": "AbbVie vs. Eli Lilly and: 2026년에는 어떤 헬스케어 주식이 더 나은 매수입니까?",
+    "Bond Traders Buy Warsh’s Tough Talk on Inflation, for Now": "채권 거래자들, 인플레이션에 대한 워쉬의 거친 대화 구매, 당분간"
   },
   "nvCache": {
-    "https://www.marketwatch.com/story/one-wall-street-measure-of-market-fragility-just-hit-its-highest-possible-level-the-last-time-it-did-volatility-spiked-c5441009?mod=mw_rss_topstories": {
-      "act": "watch",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "변동성 지표가 높아진 상태로, 단기 흔들림은 있어도 기업 이익 구조와는 무관합니다.",
-      "by": "ai"
-    },
-    "https://finance.yahoo.com/news/dollar-struggles-traction-markets-weigh-013056238.html": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "환율은 수시로 오르내리는 변수라 장기 보유 판단을 바꾸지 않습니다.",
-      "by": "ai"
-    },
-    "https://www.marketwatch.com/story/he-once-mentored-scott-bessent-now-stanley-druckenmiller-is-criticizing-the-treasury-secretary-c229d410?mod=mw_rss_topstories": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "유명 투자자의 정책 비판일 뿐, 확정된 변화는 아닙니다.",
-      "by": "ai"
-    },
-    "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-august-25-dow-sp-500-nasdaq-080527092.html": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "실적 발표와 회의를 앞둔 선물 시세 움직임으로 오늘 할 일은 없습니다.",
-      "by": "ai"
-    },
-    "https://www.hankyung.com/article/2026082520596": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "sector",
-      "why": "실적 전망은 견조하고 며칠간의 주가 흐름은 일시적 변동입니다.",
-      "by": "ai"
-    },
-    "https://www.hankyung.com/article/2026082524847": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "대주주 지분 매입 소식만으로 사업 구조가 바뀌지는 않습니다.",
-      "by": "ai"
-    },
-    "https://www.marketwatch.com/story/stick-with-value-stocks-until-everyone-is-talking-about-them-and-they-are-still-under-the-radar-this-wall-street-firm-says-598183de?mod=mw_rss_topstories": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "특정 운용사의 투자 스타일 의견일 뿐 기업 이익과 무관합니다.",
-      "by": "ai"
-    },
     "https://finance.yahoo.com/markets/stocks/articles/stanley-druckenmiller-cathie-wood-agree-191300323.html": {
       "act": "none",
       "lasting": "temporary",
@@ -2859,6 +2811,55 @@
       "lasting": "temporary",
       "scope": "sector",
       "why": "두 종목 비교 의견 기사로, 기업 이익 구조를 바꾸는 사실은 없습니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20260831083051008": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "지수 등락과 통화정책 불확실성은 늘 반복되는 시장 소음입니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/202608314180i": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "단발성 수주와 하루 주가 급등은 장기 이익 구조를 바꾸지 않습니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/economy/12140502": {
+      "act": "watch",
+      "lasting": "structural",
+      "scope": "market",
+      "why": "대형 연기금의 자산배분 변화는 수급 구조에 오래 영향을 줄 수 있습니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20260831138251002": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "환율 변동은 흔한 일로 기업 이익 근거를 흔들지는 않습니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/202608314360i": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "하루 수급 통계일 뿐 장기 판단에 쓸 정보는 아닙니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12140481": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "sector",
+      "why": "반등 기대를 다룬 전망성 기사로 확인된 사실이 없습니다.",
+      "by": "ai"
+    },
+    "https://www.barrons.com/articles/treasury-bond-market-fed-warsh-inflation-7689b45a?siteid=yhoof2&yptr=yahoo": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "통화정책 발언에 대한 채권시장의 단기 반응으로, 기업 이익 구조와는 거리가 있습니다.",
       "by": "ai"
     }
   },
