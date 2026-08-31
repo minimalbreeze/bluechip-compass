@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-31T20:03:10.207Z",
+  "asOf": "2026-08-31T20:13:30.568Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -17,32 +17,32 @@
       "time": "2026-08-31T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1367.44,
+      "price": 1367.38,
       "prev": 1380.449951171875,
-      "chg": -0.94,
+      "chg": -0.95,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T20:02:52.000Z"
+      "time": "2026-08-31T20:13:18.000Z"
     },
     "^GSPC": {
-      "price": 7686.34,
+      "price": 7686.14,
       "prev": 7730.990234375,
       "chg": -0.58,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T20:02:59.000Z"
+      "time": "2026-08-31T20:13:23.000Z"
     },
     "^IXIC": {
       "price": 26370.889,
       "prev": 26541.349609375,
       "chg": -0.64,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T20:02:59.000Z"
+      "time": "2026-08-31T20:13:22.000Z"
     },
     "^VIX": {
-      "price": 14.99,
+      "price": 14.92,
       "prev": 14.510000228881836,
-      "chg": 3.31,
+      "chg": 2.83,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T19:47:46.000Z"
+      "time": "2026-08-31T19:58:16.000Z"
     },
     "^TNX": {
       "price": 4.7580004,
@@ -53,7 +53,7 @@
     }
   },
   "fx": {
-    "low52": 1367.44,
+    "low52": 1367.38,
     "high52": 1554.48,
     "pct": 0
   },
@@ -73,18 +73,18 @@
       "chg3m": -24.15
     },
     "KRW=X": {
-      "last": 1367.44,
-      "low52": 1367.44,
+      "last": 1367.38,
+      "low52": 1367.38,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -10.63
+      "chg3m": -10.64
     },
     "^GSPC": {
-      "last": 7686.34,
+      "last": 7686.14,
       "low52": 6343.72,
       "high52": 7798.99,
-      "pct52": 0.923,
-      "chg3m": 1.14
+      "pct52": 0.922,
+      "chg3m": 1.13
     },
     "^IXIC": {
       "last": 26370.89,
@@ -94,11 +94,11 @@
       "chg3m": -2.64
     },
     "^VIX": {
-      "last": 15,
+      "last": 14.92,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.087,
-      "chg3m": -6.54
+      "pct52": 0.082,
+      "chg3m": -7.04
     },
     "^TNX": {
       "last": 4.76,
@@ -110,14 +110,14 @@
   },
   "regime": {
     "by": "rules",
-    "asOf": "2026-08-31T20:03:09.599Z",
+    "asOf": "2026-08-31T20:13:30.003Z",
     "kr": {
       "why": {
         "rates": "미국 10년물 금리가 지금 4.76%로, 3개월 전보다 6.32% 높고 최근 1년 범위(3.95~4.76)의 100% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
         "growth": "지수가 3개월 전보다 -15.55% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
         "valuation": "지수가 최근 1년 범위의 63% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
-        "fx": "원/달러가 1367.44원으로 최근 1년(1367.44~1554.48) 범위의 0% 지점입니다.",
-        "geo": "VIX 가 15입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
+        "fx": "원/달러가 1367.38원으로 최근 1년(1367.38~1554.48) 범위의 0% 지점입니다.",
+        "geo": "VIX 가 14.92입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
       },
       "rates": "hike",
       "growth": "reces",
@@ -129,10 +129,10 @@
     "us": {
       "why": {
         "rates": "미국 10년물 금리가 지금 4.76%로, 3개월 전보다 6.32% 높고 최근 1년 범위(3.95~4.76)의 100% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
-        "growth": "지수가 3개월 전보다 +1.14% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
+        "growth": "지수가 3개월 전보다 +1.13% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
         "valuation": "지수가 최근 1년 범위의 92% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
-        "fx": "원/달러가 1367.44원으로 최근 1년(1367.44~1554.48) 범위의 0% 지점입니다.",
-        "geo": "VIX 가 15입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
+        "fx": "원/달러가 1367.38원으로 최근 1년(1367.38~1554.48) 범위의 0% 지점입니다.",
+        "geo": "VIX 가 14.92입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
       },
       "rates": "hike",
       "growth": "expand",
@@ -425,14 +425,14 @@
         "by": "rules"
       },
       {
-        "title": "Why Rezolve AI Stock Skyrocketed This Week",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/why-rezolve-ai-stock-skyrocketed-104944474.html",
+        "title": "'All about acceleration': After Nvidia earnings, the tech trade is getting more segmented",
+        "link": "https://finance.yahoo.com/markets/article/all-about-acceleration-after-nvidia-earnings-the-tech-trade-is-getting-more-segmented-114905135.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-30T10:49:44Z",
-        "ko": "이번 주에 Rezolve AI 재고가 급증한 이유",
+        "date": "2026-08-30T11:49:05Z",
+        "ko": "'액셀러레이팅의 모든 것': 엔비디아 수익 창출 이후, 기술 거래는 점점 더 세분화되고 있습니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -2880,8 +2880,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CebRZAN2caCjyhwFiRadp\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CebRZB6BeCPgQ3pf2VBxS\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CebRZBgf8ex5KBLi3FjjN\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CebSLtruTFipwK8fguroE\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CebSLuY5wrzW6gd7s4x3Z\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CebSLv27K2h1ZNzETWk4P\"}"
   ]
 }
