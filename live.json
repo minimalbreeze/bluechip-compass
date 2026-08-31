@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-31T13:07:09.941Z",
+  "asOf": "2026-08-31T13:22:07.057Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -17,11 +17,11 @@
       "time": "2026-08-31T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1368.78,
+      "price": 1368.39,
       "prev": 1380.449951171875,
-      "chg": -0.85,
+      "chg": -0.87,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T13:06:20.000Z"
+      "time": "2026-08-31T13:21:19.000Z"
     },
     "^GSPC": {
       "price": 7711.76,
@@ -42,18 +42,18 @@
       "prev": 14.430000305175781,
       "chg": 6.65,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T12:51:16.000Z"
+      "time": "2026-08-31T13:06:16.000Z"
     },
     "^TNX": {
       "price": 4.752,
       "prev": 4.71999979019165,
       "chg": 0.68,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T12:51:12.000Z"
+      "time": "2026-08-31T13:06:22.000Z"
     }
   },
   "fx": {
-    "low52": 1368.78,
+    "low52": 1368.39,
     "high52": 1554.48,
     "pct": 0
   },
@@ -73,11 +73,11 @@
       "chg3m": -20.55
     },
     "KRW=X": {
-      "last": 1368.78,
-      "low52": 1368.78,
+      "last": 1368.39,
+      "low52": 1368.39,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -10.54
+      "chg3m": -10.57
     },
     "^GSPC": {
       "last": 7711.76,
@@ -110,16 +110,16 @@
   },
   "regime": {
     "by": "ai",
-    "asOf": "2026-08-31T13:07:05.030Z",
+    "asOf": "2026-08-31T13:22:01.028Z",
     "kr": {
       "why": {
-        "rates": "^TNX가 4.75로 1년 범위 최상단(위치 100%)이고 3개월 새 +6.67% 올라, 금리는 내려가는 국면이 아니라 위로 밀리는 흐름으로 봅니다.",
-        "growth": "^KS11이 3개월 -22.4%로 크게 밀렸지만 1년 범위상 위치는 아직 62%이고 '혼란한 증시', '외국인 빠진 코스피' 같은 헤드라인이 나오는 정도라, 침체 확정보다는 둔화 국면으로 분류합니다.",
-        "valuation": "현재 6820.02는 1년범위 3142.93~9114.55의 62% 지점으로 고점도 저점도 아닌 중간대여서 보통으로 봅니다.",
-        "fx": "KRW=X가 1368.78로 1년 범위 최하단(위치 0%), 3개월 -10.54%라 달러 대비 원화가 강해진 상태입니다.",
-        "geo": "주어진 한국 헤드라인은 상장예비심사·유상증자 등 기업 이슈뿐이고 ^VIX도 15.39(위치 11%)로 낮아, 자료상 확인되는 긴장 요인이 없습니다."
+        "rates": "국고채 지표는 주어지지 않았으나 제시된 금리 지표(^TNX)가 4.75로 1년 범위 3.95~4.75의 100% 위치이고 3개월 +6.67%로 상승 중이라 금리는 오르는 쪽으로 봅니다.",
+        "growth": "코스피가 3개월 -22.4%로 크게 밀리고 '외국인 빠진 코스피' 헤드라인도 있지만, 지수가 6820.02로 1년 범위의 62% 위치이고 VIX가 15.39로 낮아 침체 확정보다는 둔화로 봅니다.",
+        "valuation": "PER 등 밸류 지표가 제공되지 않았고 지수 위치가 1년 범위 62%로 중간대라 근거가 약해 중립인 보통으로 둡니다.",
+        "fx": "원/달러가 1368.39로 1년 범위 1368.39~1554.48의 0% 위치이자 3개월 -10.57%라 원화가 뚜렷하게 강해진 상태입니다.",
+        "geo": "제시된 국내 헤드라인은 상장예비심사·유상증자 등 시장 내부 이슈뿐이고 VIX도 15.39로 낮아 특별한 긴장 신호는 확인되지 않습니다."
       },
-      "summary": "원화는 1368.78로 1년 중 가장 강한 수준이지만 코스피는 3개월 -22.4%로 크게 흔들린 둔화 국면입니다. 미국 10년물 4.75%라는 높은 금리가 배경에 깔려 있어 지수와 환율이 서로 다른 신호를 내는 상태로 이해하면 됩니다.",
+      "summary": "금리는 오르는데 코스피는 3개월 -22.4%로 크게 조정받았고, 원/달러는 1368.39로 1년 최저권까지 내려 원화가 강해진 국면입니다. 지수 변동성 자체(VIX 15.39)는 낮아 공포 국면이라기보다 '금리 부담 속 조정' 상태로 분류됩니다.",
       "rates": "hike",
       "growth": "slow",
       "valuation": "fair",
@@ -128,18 +128,18 @@
     },
     "us": {
       "why": {
-        "rates": "^TNX 4.75로 1년 범위 위치 100%, 3개월 +6.67%이고 'Fed의 Hammack, 지금이 행동할 때', '금리 인상 가능성 상승' 등 헤드라인이 인상 쪽을 가리킵니다.",
-        "growth": "^GSPC가 7711.76으로 1년범위 6343.72~7798.99의 94% 지점이고 3개월 +1.47%로 완만한 상승을 유지 중입니다.",
-        "valuation": "지수가 1년 고점 부근(위치 94%)인데 10년물은 4.75%로 최고치라, 금리 대비 주가 수준은 비싼 편으로 분류합니다.",
-        "fx": "KRW=X 1368.78(위치 0%, 3개월 -10.54%)로 달러가 원화 대비 약해진 흐름이며, 이는 원화 강세로 표기합니다.",
-        "geo": "'미국이 이란을 강타함에 따라 다우·S&P500·나스닥 선물 하락'이라는 헤드라인이 실제 발생한 사건을 전하고 있어 충격으로 분류합니다."
+        "rates": "^TNX가 4.75로 1년 범위의 100% 위치, 3개월 +6.67%이고 '바클레이스, 두 차례 연준 금리 인상 예고'·'Hammack, 지금이 행동할 때' 헤드라인까지 겹쳐 인상 방향입니다.",
+        "growth": "S&P500이 7711.76으로 1년 범위 6343.72~7798.99의 94% 위치이고 3개월 +1.47%로 상승 흐름을 유지해 경기 신호는 아직 양호한 쪽입니다.",
+        "valuation": "지수가 1년 고점 부근인 94% 위치이고 코어 물가 3.3%에 금리 4.75가 겹쳐 가격 부담이 큰 편으로 봅니다(밸류 배수 자료는 없음).",
+        "fx": "원/달러 1368.39는 1년 범위 0% 위치, 3개월 -10.57%로 달러 대비 원화가 강한 상태입니다.",
+        "geo": "'유가 급등, 미국·이란 신규 파업' 헤드라인이 있어 긴장 요인이 확인되나 VIX가 15.39로 낮아 충격 단계까지는 아닌 것으로 봅니다."
       },
-      "summary": "S&P500은 1년 고점 부근(위치 94%)이지만 금리 인상 기대와 10년물 4.75%라는 높은 금리가 부담으로 얹혀 있습니다. 여기에 중동 관련 충격 헤드라인까지 겹쳐, 지수는 높고 주변 환경은 시끄러운 국면입니다.",
+      "summary": "미국 증시는 1년 고점 부근(범위의 94%)에 있지만, 코어 물가 3.3%와 금리 4.75%·추가 인상 발언이 겹쳐 가격 부담이 큰 국면입니다. 중동 관련 유가 급등 소식으로 긴장 요인은 있으나 변동성 지표(VIX 15.39)는 아직 낮은 편입니다.",
       "rates": "hike",
       "growth": "expand",
       "valuation": "rich",
       "fx": "strong",
-      "geo": "shock"
+      "geo": "tense"
     }
   },
   "stocks": {
@@ -425,15 +425,15 @@
         "by": "ai"
       },
       {
-        "title": "Silver prices today, Monday, August 31, 2026: Silver opens lower as rate-hike expectations rise",
-        "link": "https://finance.yahoo.com/personal-finance/investing/article/silver-prices-today-monday-august-31-2026-silver-opens-lower-as-rate-hike-expectations-rise-125201881.html",
+        "title": "Barclays forecasts two Fed rate hikes after Warsh Jackson Hole speech",
+        "link": "https://finance.yahoo.com/economy/policy/articles/barclays-forecasts-two-fed-rate-130416339.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-31T12:52:01Z",
-        "ko": "2026년 8월 31일 월요일, 오늘 은 가격: 금리 인상 기대치가 높아질수록 은이 낮아집니다.",
-        "act": "none",
+        "date": "2026-08-31T13:04:16Z",
+        "ko": "바클레이스는 워시 잭슨 홀 연설 이후 두 차례의 연준 금리 인상을 예고했다.",
+        "act": "watch",
         "lasting": "temporary",
         "scope": "market",
-        "why": "금리 기대에 따른 일간 시세 변동으로 일시적입니다.",
+        "why": "금리 전망은 한 증권사의 예측일 뿐, 방향만 확인하면 됩니다.",
         "by": "ai"
       },
       {
@@ -449,27 +449,27 @@
         "by": "ai"
       },
       {
-        "title": "U.S. stock futures slip as chances of rate hike rise after Warsh’s Jackson Hole comments",
-        "link": "https://www.marketwatch.com/story/u-s-stock-futures-flat-as-chances-of-rate-hike-rise-after-warshs-jackson-hole-comments-1f5287f2?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "date": "Mon, 31 Aug 2026 03:03:00 GMT",
-        "ko": "워시의 잭슨 홀 발언 이후 금리 인상 가능성이 높아지면서 미국 주식 선물이 미끄러진다.",
+        "title": "Stock Market Today: Dow Falls, Oil Prices Jump As U.S., Iran Exchange New Strikes (Live Coverage)",
+        "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-us-iran-attacks-oil-prices-jump/?src=A00220&yptr=yahoo",
+        "source": "Yahoo Finance",
+        "date": "2026-08-31T12:54:01Z",
+        "ko": "Stock Market Today: 다우지수 하락, 유가 급등 미국, 이란 거래소 신규 파업 (실시간 커버리지)",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "금리 발언에 따른 선물 보합은 단기 흐름일 뿐입니다.",
+        "why": "당일 지수와 유가 등락은 장기 이익과 무관한 일상적 변동입니다.",
         "by": "ai"
       },
       {
-        "title": "Stock market today: Dow, S&P 500, Nasdaq futures fall as US strikes Iran, rate-hike bets jump",
-        "link": "https://finance.yahoo.com/markets/live/stock-market-today-monday-august-31-dow-sp-500-nasdaq-113851714.html",
-        "source": "Yahoo Finance",
-        "date": "2026-08-31T11:38:51Z",
-        "ko": "오늘의 주식 시장: 미국이 이란을 강타함에 따라 다우, S&P 500, 나스닥 선물 하락, 금리 인상 베팅 점프",
+        "title": "Fed’s preferred inflation gauge shows core prices rose 3.3% annually in July",
+        "link": "https://www.cnbc.com/2026/08/26/feds-preferred-inflation-gauge-shows-core-prices-rose-3point3percent-annually-in-july.html",
+        "source": "CNBC",
+        "date": "Wed, 26 Aug 2026 13:35:50 GMT",
+        "ko": "Fed가 선호하는 인플레이션 게이지에 따르면 7월에 코어 가격이 매년 3.3% 상승한 것으로 나타났습니다.",
         "act": "watch",
         "lasting": "temporary",
         "scope": "market",
-        "why": "지정학 충격은 대체로 일시적이며, 기업 이익 구조를 바꾼다고 보기 어렵습니다.",
+        "why": "물가 지표는 매달 나오는 흐름으로 방향만 확인하면 됩니다.",
         "by": "ai"
       }
     ]
@@ -766,23 +766,11 @@
     "‘I love the inflation!’: Trump shrugs off rising prices — here’s what you can do before inflation eats into your savings": "‘인플레이션이 너무 좋아!’: 트럼프가 물가 상승을 뿌리칩니다. 인플레이션이 저축에 영향을 미치기 전에 할 수 있는 일은 다음과 같습니다.",
     "Stock market today: Dow, S&P 500, Nasdaq futures fall as US strikes Iran, rate-hike bets jump": "오늘의 주식 시장: 미국이 이란을 강타함에 따라 다우, S&P 500, 나스닥 선물 하락, 금리 인상 베팅 점프",
     "Fed up with bitcoin? That’s exactly why you should buy.": "비트코인에 질리셨나요? 이것이 바로 구매해야 하는 이유입니다.",
-    "Silver prices today, Monday, August 31, 2026: Silver opens lower as rate-hike expectations rise": "2026년 8월 31일 월요일, 오늘 은 가격: 금리 인상 기대치가 높아질수록 은이 낮아집니다."
+    "Silver prices today, Monday, August 31, 2026: Silver opens lower as rate-hike expectations rise": "2026년 8월 31일 월요일, 오늘 은 가격: 금리 인상 기대치가 높아질수록 은이 낮아집니다.",
+    "Barclays forecasts two Fed rate hikes after Warsh Jackson Hole speech": "바클레이스는 워시 잭슨 홀 연설 이후 두 차례의 연준 금리 인상을 예고했다.",
+    "Stock Market Today: Dow Falls, Oil Prices Jump As U.S., Iran Exchange New Strikes (Live Coverage)": "Stock Market Today: 다우지수 하락, 유가 급등 미국, 이란 거래소 신규 파업 (실시간 커버리지)"
   },
   "nvCache": {
-    "https://www.hankyung.com/article/2026082881806": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "하루치 지수와 주가 등락은 투자 근거를 바꾸지 않습니다.",
-      "by": "ai"
-    },
-    "https://www.mk.co.kr/news/stock/12138170": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "조정 대응을 다룬 의견 기사로 확인된 사실은 없습니다.",
-      "by": "ai"
-    },
     "https://www.cnbc.com/2026/08/27/feds-hammack-says-now-is-the-time-to-act-on-raising-interest-rates.html": {
       "act": "watch",
       "lasting": "temporary",
@@ -2867,6 +2855,20 @@
       "lasting": "temporary",
       "scope": "market",
       "why": "금리 기대에 따른 일간 시세 변동으로 일시적입니다.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/economy/policy/articles/barclays-forecasts-two-fed-rate-130416339.html": {
+      "act": "watch",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "금리 전망은 한 증권사의 예측일 뿐, 방향만 확인하면 됩니다.",
+      "by": "ai"
+    },
+    "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-us-iran-attacks-oil-prices-jump/?src=A00220&yptr=yahoo": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "당일 지수와 유가 등락은 장기 이익과 무관한 일상적 변동입니다.",
       "by": "ai"
     }
   },
