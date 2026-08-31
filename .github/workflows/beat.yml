@@ -151,15 +151,40 @@ jobs:
       # 장중에는 촘촘하게, 그 밖에는 뜸하게. 24시간 도는 건 같지만 값이 안
       # 움직이는 시간에까지 20분마다 두드릴 이유는 없다.
       #   한국장 00:00~06:40 UTC · 미국장 13:20~21:00 UTC (평일)
+      #
+      # ⚠️ 예전에는 "지금 장이 열려 있나"만 보고 20분/60분을 골랐다. 그래서
+      #    **개장 직전에 도는 회차가 개장을 자면서 넘겼다.** 실제로 8/31(월)
+      #    23:38 UTC 회차가 60분을 자는 바람에, 09:00 개장 후 38분 동안 화면에
+      #    금요일 종가가 떠 있었다. 매 거래일 되풀이되던 일이다.
+      #
+      #    지금은 "다음에 무슨 일이 생기나"로 정한다 — 장중이면 20분,
+      #    아니면 **다음 개장까지** (최대 60분). 개장 1분 뒤에 깨어난다.
       - name: 다음 회차까지 대기
         if: steps.solo.outputs.solo == 'true'
         run: |
-          H=$(date -u +%-H); D=$(date -u +%u)
-          MIN=60
-          if [ "$D" -le 5 ]; then
-            if [ "$H" -le 6 ] || { [ "$H" -ge 13 ] && [ "$H" -le 20 ]; }; then MIN=20; fi
-          fi
-          echo "$MIN 분 뒤에 다음 회차를 부릅니다 (UTC ${H}시, 요일 ${D})"
+          MIN=$(node -e "
+            var KR = [0, 400], US = [800, 1260];        // UTC 분 단위
+            var now = new Date();
+            var wd = now.getUTCDay(), m = now.getUTCHours() * 60 + now.getUTCMinutes();
+            var wk = wd >= 1 && wd <= 5;
+            var open = wk && ((m >= KR[0] && m <= KR[1]) || (m >= US[0] && m <= US[1]));
+            if (open) { console.log(20); }
+            else {
+              // 앞으로 7일 안의 개장 시각 중 가장 가까운 것까지 몇 분인가
+              var best = 60 * 24 * 8;
+              for (var d = 0; d <= 7; d++) {
+                var day = (wd + d) % 7;
+                if (day < 1 || day > 5) continue;
+                [KR[0], US[0]].forEach(function (s) {
+                  var mins = d * 1440 + s - m;
+                  if (mins > 0 && mins < best) best = mins;
+                });
+              }
+              // 개장 1분 뒤에 깨어난다. 정각에 깨면 첫 체결이 아직 없을 수 있다.
+              console.log(Math.max(5, Math.min(60, best + 1)));
+            }
+          ")
+          echo "$MIN 분 뒤에 다음 회차를 부릅니다 (지금 $(date -u '+%H:%M UTC %a'))"
           sleep $((MIN * 60))
 
       # ── 반드시 다음 회차를 부른다 ──────────────────────────────

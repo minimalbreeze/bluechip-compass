@@ -941,7 +941,10 @@
   /* 장중인데 스냅샷이 이만큼 낡았으면 그 사실을 눈에 보이게 말한다.
      크론이 밀리는 일이 실제로 있었다(다섯 시간 동안 한 번도 안 돈 날). 그때
      화면은 아무 일 없다는 듯 옛 숫자를 보여줬다 — 그게 제일 나쁘다. */
-  var STALE_WARN_MIN = 45;
+  /* 심장박동이 장중 20분마다 도니, 정상이면 스냅샷은 아무리 낡아도 20여 분이다.
+     45분은 너무 느슨했다 — 한 회차를 통째로 건너뛰어도 아무 말을 안 했다.
+     한 회차 반(30분)을 넘기면 그 사실을 말한다. */
+  var STALE_WARN_MIN = 30;
   function liveStale() {
     if (!LIVE || !LIVE.asOf) return null;
     if (!marketOpenNow('kr') && !marketOpenNow('us')) return null;
