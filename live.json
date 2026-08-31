@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-31T19:42:13.821Z",
+  "asOf": "2026-08-31T19:52:42.430Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -17,32 +17,32 @@
       "time": "2026-08-31T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1367.69,
+      "price": 1367.95,
       "prev": 1380.449951171875,
-      "chg": -0.92,
+      "chg": -0.91,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T19:41:56.000Z"
+      "time": "2026-08-31T19:52:25.000Z"
     },
     "^GSPC": {
-      "price": 7685.1,
+      "price": 7691.59,
       "prev": 7730.990234375,
-      "chg": -0.59,
+      "chg": -0.51,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T19:42:05.000Z"
+      "time": "2026-08-31T19:52:32.000Z"
     },
     "^IXIC": {
-      "price": 26329.512,
-      "prev": 26541.349609375,
-      "chg": -0.8,
+      "price": 26389.281,
+      "prev": 26402.419921875,
+      "chg": -0.05,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T19:42:04.000Z"
+      "time": "2026-08-31T19:52:29.000Z"
     },
     "^VIX": {
-      "price": 15.01,
+      "price": 14.99,
       "prev": 14.510000228881836,
-      "chg": 3.45,
+      "chg": 3.31,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T19:27:01.000Z"
+      "time": "2026-08-31T19:37:31.000Z"
     },
     "^TNX": {
       "price": 4.7580004,
@@ -53,7 +53,7 @@
     }
   },
   "fx": {
-    "low52": 1367.69,
+    "low52": 1367.95,
     "high52": 1554.48,
     "pct": 0
   },
@@ -73,32 +73,32 @@
       "chg3m": -24.15
     },
     "KRW=X": {
-      "last": 1367.69,
-      "low52": 1367.69,
+      "last": 1367.95,
+      "low52": 1367.95,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -10.61
+      "chg3m": -10.6
     },
     "^GSPC": {
-      "last": 7685.1,
+      "last": 7691.59,
       "low52": 6343.72,
       "high52": 7798.99,
-      "pct52": 0.922,
-      "chg3m": 1.12
+      "pct52": 0.926,
+      "chg3m": 1.21
     },
     "^IXIC": {
-      "last": 26329.51,
+      "last": 26391.65,
       "low52": 20794.64,
       "high52": 27093.9,
-      "pct52": 0.879,
-      "chg3m": -2.8
+      "pct52": 0.889,
+      "chg3m": -2.57
     },
     "^VIX": {
-      "last": 15.01,
+      "last": 14.99,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.088,
-      "chg3m": -6.48
+      "pct52": 0.086,
+      "chg3m": -6.6
     },
     "^TNX": {
       "last": 4.76,
@@ -110,14 +110,14 @@
   },
   "regime": {
     "by": "rules",
-    "asOf": "2026-08-31T19:42:13.397Z",
+    "asOf": "2026-08-31T19:52:41.770Z",
     "kr": {
       "why": {
         "rates": "미국 10년물 금리가 지금 4.76%로, 3개월 전보다 6.32% 높고 최근 1년 범위(3.95~4.76)의 100% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
         "growth": "지수가 3개월 전보다 -15.55% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
         "valuation": "지수가 최근 1년 범위의 63% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
-        "fx": "원/달러가 1367.69원으로 최근 1년(1367.69~1554.48) 범위의 0% 지점입니다.",
-        "geo": "VIX 가 15.01입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
+        "fx": "원/달러가 1367.95원으로 최근 1년(1367.95~1554.48) 범위의 0% 지점입니다.",
+        "geo": "VIX 가 14.99입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
       },
       "rates": "hike",
       "growth": "reces",
@@ -129,10 +129,10 @@
     "us": {
       "why": {
         "rates": "미국 10년물 금리가 지금 4.76%로, 3개월 전보다 6.32% 높고 최근 1년 범위(3.95~4.76)의 100% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
-        "growth": "지수가 3개월 전보다 +1.12% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
-        "valuation": "지수가 최근 1년 범위의 92% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
-        "fx": "원/달러가 1367.69원으로 최근 1년(1367.69~1554.48) 범위의 0% 지점입니다.",
-        "geo": "VIX 가 15.01입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
+        "growth": "지수가 3개월 전보다 +1.21% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
+        "valuation": "지수가 최근 1년 범위의 93% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
+        "fx": "원/달러가 1367.95원으로 최근 1년(1367.95~1554.48) 범위의 0% 지점입니다.",
+        "geo": "VIX 가 14.99입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
       },
       "rates": "hike",
       "growth": "expand",
@@ -238,110 +238,110 @@
     },
     "us": {
       "MSFT": {
-        "price": 509.57,
+        "price": 509.23,
         "prev": 505.05999755859375,
-        "chg": 0.89,
+        "chg": 0.83,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T19:42:12.000Z"
+        "time": "2026-08-31T19:52:40.000Z"
       },
       "AAPL": {
-        "price": 316.33,
-        "prev": 314.5799865722656,
-        "chg": 0.56,
-        "basis": "prev-daily-close",
-        "time": "2026-08-31T19:42:12.000Z"
+        "price": 317.018,
+        "prev": 317.01849365234375,
+        "chg": 0,
+        "basis": "last-daily-close",
+        "time": "2026-08-31T19:52:40.000Z"
       },
       "GOOGL": {
-        "price": 338.85,
+        "price": 340.04,
         "prev": 340.6499938964844,
-        "chg": -0.53,
+        "chg": -0.18,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T19:42:11.000Z"
+        "time": "2026-08-31T19:52:40.000Z"
       },
       "BRK.B": {
-        "price": 504.542,
-        "prev": 503.70001220703125,
-        "chg": 0.17,
+        "price": 503.405,
+        "prev": 505,
+        "chg": -0.32,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T19:42:01.000Z"
+        "time": "2026-08-31T19:52:40.000Z"
       },
       "V": {
-        "price": 380.07,
+        "price": 379.33,
         "prev": 379.6600036621094,
-        "chg": 0.11,
+        "chg": -0.09,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T19:42:09.000Z"
+        "time": "2026-08-31T19:52:40.000Z"
       },
       "JNJ": {
-        "price": 266.55,
-        "prev": 265.7699890136719,
-        "chg": 0.29,
+        "price": 266.04,
+        "prev": 268.0400085449219,
+        "chg": -0.75,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T19:42:05.000Z"
+        "time": "2026-08-31T19:52:38.000Z"
       },
       "PG": {
-        "price": 145.375,
+        "price": 145.16,
         "prev": 143.13999938964844,
-        "chg": 1.56,
+        "chg": 1.41,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T19:42:11.000Z"
+        "time": "2026-08-31T19:52:40.000Z"
       },
       "KO": {
-        "price": 88.94,
+        "price": 88.735,
         "prev": 89.05999755859375,
-        "chg": -0.13,
+        "chg": -0.36,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T19:42:08.000Z"
+        "time": "2026-08-31T19:52:41.000Z"
       },
       "COST": {
-        "price": 943.747,
+        "price": 944.105,
         "prev": 934.6599731445312,
-        "chg": 0.97,
+        "chg": 1.01,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T19:42:08.000Z"
+        "time": "2026-08-31T19:52:40.000Z"
       },
       "WM": {
-        "price": 219.14,
+        "price": 219.265,
         "prev": 217.75999450683594,
-        "chg": 0.63,
+        "chg": 0.69,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T19:42:11.000Z"
+        "time": "2026-08-31T19:52:40.000Z"
       },
       "LIN": {
-        "price": 489.55,
-        "prev": 485.3500061035156,
-        "chg": 0.87,
+        "price": 489.87,
+        "prev": 489.510009765625,
+        "chg": 0.07,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T19:42:03.000Z"
+        "time": "2026-08-31T19:52:37.000Z"
       },
       "XOM": {
-        "price": 160.67,
-        "prev": 156.44000244140625,
-        "chg": 2.7,
-        "basis": "prev-daily-close",
-        "time": "2026-08-31T19:42:10.000Z"
+        "price": 160.538,
+        "prev": 160.53750610351562,
+        "chg": 0,
+        "basis": "last-daily-close",
+        "time": "2026-08-31T19:52:40.000Z"
       },
       "NVDA": {
-        "price": 219.845,
+        "price": 220.355,
         "prev": 227.97999572753906,
-        "chg": -3.57,
+        "chg": -3.34,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T19:42:11.000Z"
+        "time": "2026-08-31T19:52:40.000Z"
       }
     }
   },
   "news": {
     "kr": [
       {
-        "title": "마더스제약·이나인페이, 코스닥 상장예비심사 신청",
-        "link": "https://www.yna.co.kr/view/AKR20260831167800008",
+        "title": "美재무 \"일본, 엔화강세 위해 조치할 것\"…9월 日금리인상 시사",
+        "link": "https://www.yna.co.kr/view/AKR20260901005700071",
         "source": "연합뉴스",
-        "date": "Mon, 31 Aug 2026 18:52:47 +0900",
+        "date": "Tue, 1 Sep 2026 04:40:37 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
-        "why": "상장 심사 신청은 절차 초기 단계로 기존 투자 근거와 무관합니다.",
-        "by": "ai"
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
       },
       {
         "title": "혼란한 증시…\"우량주 분할 매수\" [한경 프리미엄9 TODAY]",
@@ -366,14 +366,14 @@
         "by": "ai"
       },
       {
-        "title": "신테카바이오, 20억원 유상증자…이정훈 등에 3자 배정",
-        "link": "https://www.yna.co.kr/view/AKR20260831165200008",
+        "title": "마더스제약·이나인페이, 코스닥 상장예비심사 신청",
+        "link": "https://www.yna.co.kr/view/AKR20260831167800008",
         "source": "연합뉴스",
-        "date": "Mon, 31 Aug 2026 18:26:23 +0900",
-        "act": "watch",
+        "date": "Mon, 31 Aug 2026 18:52:47 +0900",
+        "act": "none",
         "lasting": "temporary",
         "scope": "company",
-        "why": "소규모 3자배정 증자는 자금 사정과 지분 희석을 지켜볼 사안입니다.",
+        "why": "상장 심사 신청은 절차 초기 단계로 기존 투자 근거와 무관합니다.",
         "by": "ai"
       },
       {
@@ -416,7 +416,7 @@
         "title": "Amazon’s stock slips as the FTC alleges billions of dollars in hidden ad fees",
         "link": "https://www.marketwatch.com/story/amazons-stock-slips-as-the-ftc-alleges-billions-of-dollars-in-hidden-ad-fees-4ae44ee4?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 31 Aug 2026 19:33:00 GMT",
+        "date": "Mon, 31 Aug 2026 19:42:00 GMT",
         "ko": "FTC가 수십억 달러의 숨겨진 광고 수수료를 주장함에 따라 아마존의 주식은 하락했다.",
         "act": "none",
         "lasting": "temporary",
@@ -425,11 +425,11 @@
         "by": "rules"
       },
       {
-        "title": "Wall Street's summer calm is colliding with the year's most volatile stretch: Chart of the Day",
-        "link": "https://finance.yahoo.com/markets/article/wall-streets-summer-calm-is-colliding-with-the-years-most-volatile-stretch-chart-of-the-day-114901053.html",
+        "title": "VOO vs. RSP: If AI Stocks Get Too Concentrated, Here's Which One I'd Choose",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/voo-vs-rsp-ai-stocks-104400782.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-30T11:49:01Z",
-        "ko": "월스트리트의 여름 평온은 올해의 가장 변동이 심한 스트레칭과 충돌하고 있습니다: 오늘의 차트",
+        "date": "2026-08-30T10:44:00Z",
+        "ko": "VOO vs. RSP: 인공지능 주식이 너무 집중된다면, 어떤 것을 선택할까요?",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -449,26 +449,26 @@
         "by": "ai"
       },
       {
-        "title": "Why Dell’s stock stands to gain from developments at Nvidia and SpaceX",
-        "link": "https://www.marketwatch.com/story/why-dells-stock-stands-to-gain-from-developments-at-nvidia-and-spacex-7978fcaf?mod=mw_rss_topstories",
+        "title": "Jerome Powell still has one vote on whether rates go up — the same as Kevin Warsh",
+        "link": "https://www.marketwatch.com/story/jerome-powell-still-has-one-vote-on-whether-rates-go-up-the-same-as-kevin-warsh-787e9929?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 31 Aug 2026 19:29:00 GMT",
-        "ko": "Dell의 주식이 Nvidia 및 SpaceX의 개발에서 이익을 얻는 이유",
+        "date": "Mon, 31 Aug 2026 19:40:00 GMT",
+        "ko": "제롬 파월 (Jerome Powell) 은 케빈 워시 (Kevin Warsh) 와 동일하게 금리 인상 여부에 대해 여전히 한 표를 가지고 있습니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "'All about acceleration': After Nvidia earnings, the tech trade is getting more segmented",
-        "link": "https://finance.yahoo.com/markets/article/all-about-acceleration-after-nvidia-earnings-the-tech-trade-is-getting-more-segmented-114905135.html",
+        "title": "Wall Street's summer calm is colliding with the year's most volatile stretch: Chart of the Day",
+        "link": "https://finance.yahoo.com/markets/article/wall-streets-summer-calm-is-colliding-with-the-years-most-volatile-stretch-chart-of-the-day-114901053.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-30T11:49:05Z",
-        "ko": "'액셀러레이팅의 모든 것': 엔비디아 수익 창출 이후, 기술 거래는 점점 더 세분화되고 있습니다.",
+        "date": "2026-08-30T11:49:01Z",
+        "ko": "월스트리트의 여름 평온은 올해의 가장 변동이 심한 스트레칭과 충돌하고 있습니다: 오늘의 차트",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -476,8 +476,6 @@
   },
   "newsBy": "ai",
   "trCache": {
-    "Analyst rethinks Nvidia stock ahead of earnings": "분석가는 수익보다 엔비디아 주식을 먼저 생각합니다.",
-    "President Trump’s Portfolio Added 2 Stocks Bill Gates and Bill Ackman Also Own": "트럼프 대통령의 포트폴리오에 빌 게이츠 (Bill Gates) 와 빌 애크먼 (Bill Ackman) 도 2주를 추가했다.",
     "Dell’s stock is up 235% this year — and earnings could propel it even higher, analysts say": "분석가들은 Dell의 주가가 올해 235% 상승했으며 수익이 더 높아질 수 있다고 말합니다.",
     "Walmart stock price target reset by JPMorgan after earnings": "수익 후 JP모건에 의한 월마트 주가 목표 재설정",
     "Bessent tapping Treasury’s rainy-day fund for buybacks isn’t a ‘bazooka’ to get markets to move his way": "Bessent tapping Treasury's rainy-day funds for buybacks is not a ‘bazooka’ to get markets to move his way",
@@ -775,7 +773,9 @@
     "History Says This Is What Happens to Nvidia Stock in September": "역사는 이것이 9 월에 엔비디아 주식에 일어나는 일이라고 말합니다.",
     "Amazon’s stock slips as the FTC alleges billions of dollars in hidden ad fees": "FTC가 수십억 달러의 숨겨진 광고 수수료를 주장함에 따라 아마존의 주식은 하락했다.",
     "Why Dell’s stock stands to gain from developments at Nvidia and SpaceX": "Dell의 주식이 Nvidia 및 SpaceX의 개발에서 이익을 얻는 이유",
-    "'All about acceleration': After Nvidia earnings, the tech trade is getting more segmented": "'액셀러레이팅의 모든 것': 엔비디아 수익 창출 이후, 기술 거래는 점점 더 세분화되고 있습니다."
+    "'All about acceleration': After Nvidia earnings, the tech trade is getting more segmented": "'액셀러레이팅의 모든 것': 엔비디아 수익 창출 이후, 기술 거래는 점점 더 세분화되고 있습니다.",
+    "VOO vs. RSP: If AI Stocks Get Too Concentrated, Here's Which One I'd Choose": "VOO vs. RSP: 인공지능 주식이 너무 집중된다면, 어떤 것을 선택할까요?",
+    "Jerome Powell still has one vote on whether rates go up — the same as Kevin Warsh": "제롬 파월 (Jerome Powell) 은 케빈 워시 (Kevin Warsh) 와 동일하게 금리 인상 여부에 대해 여전히 한 표를 가지고 있습니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -2880,7 +2880,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CebPxZWyaUMPsH4pREZNB\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CebPxa8BcG43U3yerxYpa\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CebQktHcbokWQzXFwm3pg\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CebQku31dWfL2KMe3Crte\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CebQkucEcNWkxbnuG2kmx\"}"
   ]
 }
