@@ -1,27 +1,27 @@
 {
-  "asOf": "2026-08-31T04:08:40.002Z",
+  "asOf": "2026-08-31T04:29:30.331Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
-      "price": 6685.48,
+      "price": 6680.81,
       "prev": 6788.8798828125,
-      "chg": -1.52,
+      "chg": -1.59,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T03:48:10.000Z"
+      "time": "2026-08-31T04:08:50.000Z"
     },
     "^KQ11": {
-      "price": 820.6,
+      "price": 820.81,
       "prev": 838.4099731445312,
-      "chg": -2.12,
+      "chg": -2.1,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T03:48:10.000Z"
+      "time": "2026-08-31T04:08:50.000Z"
     },
     "KRW=X": {
-      "price": 1372.82,
+      "price": 1373.96,
       "prev": 1380.449951171875,
-      "chg": -0.55,
+      "chg": -0.47,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T04:08:16.000Z"
+      "time": "2026-08-31T04:28:54.000Z"
     },
     "^GSPC": {
       "price": 7711.76,
@@ -53,31 +53,31 @@
     }
   },
   "fx": {
-    "low52": 1372.82,
+    "low52": 1373.96,
     "high52": 1554.48,
     "pct": 0
   },
   "hist": {
     "^KS11": {
-      "last": 6685.48,
+      "last": 6680.81,
       "low52": 3142.93,
       "high52": 9114.55,
-      "pct52": 0.593,
-      "chg3m": -23.93
+      "pct52": 0.592,
+      "chg3m": -23.98
     },
     "^KQ11": {
-      "last": 820.6,
+      "last": 820.81,
       "low52": 644.78,
       "high52": 1226.18,
-      "pct52": 0.302,
-      "chg3m": -21.85
+      "pct52": 0.303,
+      "chg3m": -21.83
     },
     "KRW=X": {
-      "last": 1372.82,
-      "low52": 1372.82,
+      "last": 1373.96,
+      "low52": 1373.96,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -10.28
+      "chg3m": -10.21
     },
     "^GSPC": {
       "last": 7711.76,
@@ -110,31 +110,31 @@
   },
   "regime": {
     "by": "ai",
-    "asOf": "2026-08-31T04:08:39.999Z",
+    "asOf": "2026-08-31T04:29:26.835Z",
     "kr": {
       "why": {
-        "rates": "미 10년물 금리(^TNX)가 4.72%로 1년범위 상단 97% 위치이고 3개월간 +5.47% 올랐으며, 헤드라인에도 '美 금리 인상 우려'가 등장해 인상 쪽으로 기울어 있습니다.",
-        "growth": "코스피가 3개월간 -23.93% 급락했지만 여전히 1년범위 59% 위치이고 VIX는 14.43(1년범위 6%)로 낮아, 침체 신호로 단정하기보다 둔화 국면으로 봅니다.",
-        "valuation": "^KS11 6685.48은 1년범위 3142.93~9114.55의 59% 위치로 중간 수준이며, 이익 지표가 주어지지 않아 중립값 fair로 둡니다.",
-        "fx": "원/달러가 1372.82로 1년 최저(위치 0%)이고 3개월간 -10.28% 하락해 원화가 뚜렷한 강세입니다.",
-        "geo": "지정학 충격 헤드라인은 없지만 '美 금리 인상 우려로 코스피 6600선 하락 출발' 등 정책 관련 부담이 언급되어 평온보다는 긴장으로 봅니다."
+        "rates": "미 10년물 금리(^TNX)가 4.72%로 1년범위 상단(위치 97%)이고 3개월간 +5.47% 올랐으며, 헤드라인도 '美 금리 인상 우려'를 언급해 금리는 오르는 방향으로 분류합니다.",
+        "growth": "코스피가 3개월간 -23.98% 급락했지만 현재 6680.81로 1년범위 내 위치 59%에 머물고 VIX도 14.43(위치 6%)로 낮아, 침체 확정보다는 둔화 국면으로 보는 것이 근거에 맞습니다.",
+        "valuation": "코스피가 1년범위 3142.93~9114.55의 59% 지점으로 상단도 하단도 아니며, 자료에 이익 대비 배수 정보가 없어 중립값인 보통으로 둡니다.",
+        "fx": "원/달러가 1373.96으로 1년범위 최저치(위치 0%)이고 3개월간 -10.21% 하락해 원화가 강해진 상태입니다.",
+        "geo": "VIX가 14.43으로 1년범위 위치 6%까지 낮아졌고 헤드라인도 펀드 결성·ETF 순매수 등 국내 시장 이슈 위주라 긴장 신호는 약합니다."
       },
-      "summary": "원화는 1372.82로 1년 최저까지 강세인데 코스피는 3개월간 -23.93% 크게 밀린, 금리 부담이 얹힌 둔화 국면입니다. 변동성 지표(VIX 14.43)는 낮아 시장이 공포에 빠진 상태는 아닙니다.",
+      "summary": "금리는 오르는 쪽이고 원화는 1년 만에 가장 강한 반면, 코스피는 3개월간 -23.98% 조정을 받아 경기 둔화 색이 짙은 국면입니다. 다만 VIX 14.43처럼 시장 불안 자체는 낮아 공포 국면이라고 보긴 어렵습니다.",
       "rates": "hike",
       "growth": "slow",
       "valuation": "fair",
       "fx": "strong",
-      "geo": "tense"
+      "geo": "calm"
     },
     "us": {
       "why": {
-        "rates": "^TNX가 4.72%로 1년범위 97% 위치, 3개월 +5.47%이고 연준 인사들의 '지금이 행동할 때' 등 금리 인상 언급이 이어져 인상 방향입니다.",
-        "growth": "S&P500이 7711.76으로 1년범위 94% 위치이고 3개월 +1.47%로 상승세를 유지해 경기 흐름은 아직 괜찮은 편으로 분류합니다.",
-        "valuation": "^GSPC가 1년범위 6343.72~7798.99의 94% 위치로 고점 근처이며, 금리 4.72%가 상단인 점을 감안하면 비싼 편으로 봅니다.",
-        "fx": "원/달러 1372.82는 1년 최저(위치 0%), 3개월 -10.28%로 달러 대비 원화 강세 구간입니다.",
-        "geo": "전쟁·제재 같은 충격 뉴스는 없으나 잭슨홀 발언 후 금리 인상 가능성으로 주식 선물이 밀렸다는 정책 긴장 요인이 있어 tense로 둡니다."
+        "rates": "^TNX가 4.72%로 1년범위 3.95~4.74의 97% 지점이고 3개월 +5.47%, 헤드라인에서도 연준 인사(해맥)와 워시가 금리 인상을 거론해 인상 방향으로 봅니다.",
+        "growth": "S&P500이 7711.76으로 1년범위 위치 94%, 3개월 +1.47%로 상승 흐름을 유지하고 있어 경기 인식은 아직 괜찮은 쪽입니다.",
+        "valuation": "지수가 1년범위 6343.72~7798.99의 94% 지점까지 올라온 상태라 가격 부담이 있는 편으로 분류합니다.",
+        "fx": "원/달러 1373.96은 1년범위 최저(위치 0%), 3개월 -10.21%로 달러가 원화 대비 약해진 상태입니다.",
+        "geo": "금리 인상 가능성에 미 주식 선물이 밀렸다는 헤드라인 등 통화정책 관련 긴장이 확인되지만, VIX 14.43(위치 6%)은 낮아 충격 단계는 아닙니다."
       },
-      "summary": "미국 주식은 1년 고점 근처(범위 94%)에 있지만 금리가 4.72%로 상단이고 연준의 인상 발언이 겹친 상태입니다. 즉 경기는 버티는데 가격과 금리 부담이 함께 높은 국면입니다.",
+      "summary": "미국 주식은 1년 최고치 근처(위치 94%)로 비싼 편인데, 국채금리 4.72%와 연준의 인상 발언이 겹쳐 정책 긴장이 있는 국면입니다. 원화는 1년 만에 가장 강해 환율 부담은 줄어든 상태입니다.",
       "rates": "hike",
       "growth": "expand",
       "valuation": "rich",
@@ -145,95 +145,95 @@
   "stocks": {
     "kr": {
       "105560": {
-        "price": 172600,
+        "price": 172700,
         "prev": 171600,
-        "chg": 0.58,
+        "chg": 0.64,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T03:48:21.000Z"
+        "time": "2026-08-31T04:09:00.000Z"
       },
       "207940": {
         "price": 1495000,
         "prev": 1486000,
         "chg": 0.61,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T03:48:19.000Z"
+        "time": "2026-08-31T04:08:56.000Z"
       },
       "005930": {
-        "price": 252500,
+        "price": 252000,
         "prev": 257000,
-        "chg": -1.75,
+        "chg": -1.95,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T03:48:21.000Z"
+        "time": "2026-08-31T04:09:00.000Z"
       },
       "000660": {
-        "price": 1621000,
+        "price": 1618000,
         "prev": 1653000,
-        "chg": -1.94,
+        "chg": -2.12,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T03:48:21.000Z"
+        "time": "2026-08-31T04:08:59.000Z"
       },
       "005380": {
-        "price": 399500,
+        "price": 400000,
         "prev": 399500,
-        "chg": 0,
+        "chg": 0.13,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T03:48:16.000Z"
+        "time": "2026-08-31T04:08:57.000Z"
       },
       "055550": {
-        "price": 110300,
+        "price": 110100,
         "prev": 109700,
-        "chg": 0.55,
+        "chg": 0.36,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T03:48:21.000Z"
+        "time": "2026-08-31T04:08:50.000Z"
       },
       "000810": {
         "price": 666000,
         "prev": 687000,
         "chg": -3.06,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T03:48:12.000Z"
+        "time": "2026-08-31T04:08:56.000Z"
       },
       "033780": {
-        "price": 176300,
+        "price": 176600,
         "prev": 176300,
-        "chg": 0,
+        "chg": 0.17,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T03:48:19.000Z"
+        "time": "2026-08-31T04:09:00.000Z"
       },
       "035420": {
-        "price": 215000,
+        "price": 214500,
         "prev": 220500,
-        "chg": -2.49,
+        "chg": -2.72,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T03:48:21.000Z"
+        "time": "2026-08-31T04:08:59.000Z"
       },
       "005490": {
-        "price": 336000,
+        "price": 336750,
         "prev": 337500,
-        "chg": -0.44,
+        "chg": -0.22,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T03:48:16.000Z"
+        "time": "2026-08-31T04:09:00.000Z"
       },
       "028260": {
-        "price": 370000,
+        "price": 372000,
         "prev": 375000,
-        "chg": -1.33,
+        "chg": -0.8,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T03:48:21.000Z"
+        "time": "2026-08-31T04:09:00.000Z"
       },
       "012450": {
-        "price": 1123000,
+        "price": 1120000,
         "prev": 1157000,
-        "chg": -2.94,
+        "chg": -3.2,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T03:48:22.000Z"
+        "time": "2026-08-31T04:09:00.000Z"
       },
       "017670": {
-        "price": 93000,
+        "price": 94000,
         "prev": 98600,
-        "chg": -5.68,
+        "chg": -4.67,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T03:48:22.000Z"
+        "time": "2026-08-31T04:09:00.000Z"
       }
     },
     "us": {
@@ -425,15 +425,15 @@
         "by": "ai"
       },
       {
-        "title": "Is Costco Stock Underperforming the Dow?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/costco-stock-underperforming-dow-165446351.html",
+        "title": "Johnson & Johnson Stock: Is JNJ Outperforming the Consumer Staples Sector?",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/johnson-johnson-stock-jnj-outperforming-171212270.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-29T16:54:46Z",
-        "ko": "코스트코 주식이 다우지수를 밑도는가?",
+        "date": "2026-08-29T17:12:12Z",
+        "ko": "Johnson & Johnson Stock: JNJ가 소비자 스테이플 부문을 능가합니까?",
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
-        "why": "지수 대비 수익률 비교일 뿐 사업 근거를 바꾸지 않습니다.",
+        "why": "단기 주가 비교 기사로 기업 이익 구조와는 무관합니다.",
         "by": "ai"
       },
       {
@@ -461,15 +461,15 @@
         "by": "ai"
       },
       {
-        "title": "Is Oracle Stock Underperforming the S&P 500?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/oracle-stock-underperforming-p-500-164453386.html",
+        "title": "Is Procter & Gamble Stock Underperforming the Nasdaq?",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/procter-gamble-stock-underperforming-nasdaq-171921912.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-29T16:44:53Z",
-        "ko": "오라클 주식이 S&P 500의 실적을 밑도는가?",
+        "date": "2026-08-29T17:19:21Z",
+        "ko": "Procter & Gamble Stock은 Nasdaq의 실적을 낮추고 있습니까?",
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
-        "why": "단기 주가 비교 기사로 기업 이익 구조와는 무관합니다.",
+        "why": "지수 대비 주가 흐름 비교 기사로 기업 이익 구조와는 무관합니다.",
         "by": "ai"
       }
     ]
@@ -749,16 +749,10 @@
     "How T-Mobile Stock Could Win as SpaceX Expands Its Wireless Business": "SpaceX가 무선 비즈니스를 확장함에 따라 T-Mobile Stock이 승리할 수 있었던 방법",
     "Is Visa Stock Underperforming the Dow?": "Visa 주식이 다우지수를 밑도는가?",
     "A $2 Billion Reason to Buy UPS Stock": "UPS 주식을 구매해야 하는 $20억의 이유",
-    "Is Oracle Stock Underperforming the S&P 500?": "오라클 주식이 S&P 500의 실적을 밑도는가?"
+    "Is Oracle Stock Underperforming the S&P 500?": "오라클 주식이 S&P 500의 실적을 밑도는가?",
+    "Is Procter & Gamble Stock Underperforming the Nasdaq?": "Procter & Gamble Stock은 Nasdaq의 실적을 낮추고 있습니까?"
   },
   "nvCache": {
-    "https://finance.yahoo.com/markets/stocks/articles/duolingo-stock-shaking-off-ai-141502170.html": {
-      "act": "watch",
-      "lasting": "structural",
-      "scope": "company",
-      "why": "AI가 서비스를 대체할지 여부는 장기 근거와 닿아 지켜볼 만합니다.",
-      "by": "ai"
-    },
     "https://www.yna.co.kr/view/AKR20260825092400008": {
       "act": "none",
       "lasting": "temporary",
@@ -2850,6 +2844,13 @@
       "lasting": "temporary",
       "scope": "company",
       "why": "단기 주가 비교 기사로 기업 이익 구조와는 무관합니다.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/markets/stocks/articles/procter-gamble-stock-underperforming-nasdaq-171921912.html": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "지수 대비 주가 흐름 비교 기사로 기업 이익 구조와는 무관합니다.",
       "by": "ai"
     }
   },
