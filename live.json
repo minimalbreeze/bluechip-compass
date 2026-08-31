@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-31T14:38:35.869Z",
+  "asOf": "2026-08-31T14:49:57.332Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -17,43 +17,43 @@
       "time": "2026-08-31T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1368.53,
+      "price": 1367.91,
       "prev": 1380.449951171875,
-      "chg": -0.86,
+      "chg": -0.91,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T14:37:50.000Z"
+      "time": "2026-08-31T14:49:09.000Z"
     },
     "^GSPC": {
-      "price": 7673.17,
+      "price": 7673.39,
       "prev": 7711.759765625,
       "chg": -0.5,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T14:37:57.000Z"
+      "time": "2026-08-31T14:49:10.000Z"
     },
     "^IXIC": {
-      "price": 26291.842,
+      "price": 26278.873,
       "prev": 26402.419921875,
-      "chg": -0.42,
+      "chg": -0.47,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T14:37:55.000Z"
+      "time": "2026-08-31T14:49:06.000Z"
     },
     "^VIX": {
-      "price": 15.27,
+      "price": 15.34,
       "prev": 14.430000305175781,
-      "chg": 5.82,
+      "chg": 6.31,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T14:22:46.000Z"
+      "time": "2026-08-31T14:34:01.000Z"
     },
     "^TNX": {
       "price": 4.762,
       "prev": 4.71999979019165,
       "chg": 0.89,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T14:22:52.000Z"
+      "time": "2026-08-31T14:34:02.000Z"
     }
   },
   "fx": {
-    "low52": 1368.53,
+    "low52": 1367.91,
     "high52": 1554.48,
     "pct": 0
   },
@@ -73,32 +73,32 @@
       "chg3m": -20.55
     },
     "KRW=X": {
-      "last": 1368.53,
-      "low52": 1368.53,
+      "last": 1367.91,
+      "low52": 1367.91,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -10.56
+      "chg3m": -10.6
     },
     "^GSPC": {
-      "last": 7673.17,
+      "last": 7673.49,
       "low52": 6343.72,
       "high52": 7798.99,
       "pct52": 0.914,
-      "chg3m": 0.83
+      "chg3m": 0.84
     },
     "^IXIC": {
-      "last": 26291.84,
+      "last": 26278.87,
       "low52": 20794.64,
       "high52": 27093.9,
-      "pct52": 0.873,
-      "chg3m": -2.96
+      "pct52": 0.871,
+      "chg3m": -3.01
     },
     "^VIX": {
-      "last": 15.27,
+      "last": 15.34,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.102,
-      "chg3m": -3.17
+      "pct52": 0.106,
+      "chg3m": -2.73
     },
     "^TNX": {
       "last": 4.76,
@@ -110,36 +110,36 @@
   },
   "regime": {
     "by": "ai",
-    "asOf": "2026-08-31T14:38:32.590Z",
+    "asOf": "2026-08-31T14:49:57.329Z",
     "kr": {
       "why": {
-        "rates": "참고 금리 지표인 ^TNX가 4.76으로 1년 범위(3.95~4.76) 상단 100% 위치이고 3개월간 +6.89% 올라 금리가 오르는 방향입니다.",
-        "growth": "코스피가 3개월간 -22.4%로 크게 밀렸지만 현재 6820.02로 1년 범위(3142.93~9114.55) 내 62% 지점이고 VIX도 15.27로 낮아, 침체 확정보다는 둔화 국면으로 봅니다.",
-        "valuation": "지수 위치가 1년 범위의 62%로 중간보다 약간 위이고 최근 3개월 -22.4% 조정을 거쳐, 싸다 비싸다 판단 근거가 약해 중립인 보통으로 둡니다.",
-        "fx": "원/달러가 1368.53으로 1년 범위(1368.53~1554.48)의 0% 최저 수준이고 3개월간 -10.56% 하락해 원화가 강한 상태입니다.",
-        "geo": "VIX 15.27로 1년 범위의 10% 수준이고 헤드라인도 상장예비심사·유상증자 등 국내 기업 이슈 중심이라 특별한 긴장 신호가 보이지 않습니다."
+        "rates": "국내 정책금리 수치는 주어지지 않았지만, 참고지표인 미 10년물(^TNX)이 4.76%로 1년범위 상단 100% 위치이고 3개월간 +6.89% 올라 금리 상승 압력 국면으로 봅니다.",
+        "growth": "코스피가 3개월간 -22.4% 급락했지만 여전히 1년범위의 62% 위치이고 VIX는 15.34(범위 11%)로 낮아, 침체 확정보다는 둔화 국면으로 분류합니다.",
+        "valuation": "PER 등 밸류에이션 수치가 제공되지 않았고 지수 위치가 1년범위 62%로 중간 수준이라 근거가 약해 중립인 '보통'으로 둡니다.",
+        "fx": "원/달러가 1367.91원으로 1년범위(1367.91~1554.48) 최하단 0% 위치이고 3개월간 -10.6% 하락해 원화가 1년 중 가장 강한 상태입니다.",
+        "geo": "한국 헤드라인 자체는 외국인 수급·유상증자 등 시장 내부 이슈뿐이지만, 같은 시점 미국발 이란 관련 사태가 확인되어 평온보다는 중립·긴장 수준으로 봅니다."
       },
-      "summary": "금리는 오르는 쪽이고 코스피는 3개월 -22.4%로 눌렸지만 공포지수는 낮은, 흔들리는 둔화 국면입니다. 원/달러는 1368.53으로 1년 최저 수준이라 원화가 강한 점이 특징입니다.",
+      "summary": "원화는 1년 중 가장 강하지만 코스피는 3개월간 -22.4% 밀려 지수 흐름이 둔화된 국면입니다. 금리 지표는 상단에 붙어 있고 변동성(VIX 15.34)은 낮아, 겉은 잠잠하지만 지수 체력은 약해진 상태로 이해하면 됩니다.",
       "rates": "hike",
       "growth": "slow",
       "valuation": "fair",
       "fx": "strong",
-      "geo": "calm"
+      "geo": "tense"
     },
     "us": {
       "why": {
-        "rates": "^TNX가 4.76으로 1년 범위 상단 100%, 3개월 +6.89%이고 '연준 해먹, 금리 인상에 지금이 행동할 때' 발언 헤드라인까지 있어 인상 방향입니다.",
-        "growth": "S&P500이 7673.17로 1년 범위(6343.72~7798.99)의 91% 지점이고 3개월 +0.83%로 버티고 있어 경기 흐름은 아직 괜찮은 쪽으로 분류합니다.",
-        "valuation": "지수가 1년 고점권인 91% 위치에 있어 가격 부담이 있는 편으로 봅니다(이익 지표는 자료에 없어 지수 위치만으로 판단).",
-        "fx": "원/달러가 1368.53으로 1년 범위 0% 지점, 3개월 -10.56%라 달러 대비 원화가 강세인 상태입니다.",
-        "geo": "VIX가 15.27로 1년 범위의 10% 수준이고 헤드라인은 인플레 우려·업종 이슈 정도라 충격 신호는 확인되지 않아 평온으로 둡니다."
+        "rates": "^TNX가 4.76%로 1년범위 100% 위치이고 3개월 +6.89% 상승했으며, 헤드라인에서 연준 인사(해맥)의 '금리 인상은 지금이 행동할 때' 발언과 금리 인상 베팅 증가가 언급됩니다.",
+        "growth": "S&P500이 7673.49로 1년범위의 91% 위치이고 3개월 변화도 +0.84%로 플러스를 유지해 경기 위축 신호로 보기 어렵습니다.",
+        "valuation": "지수가 1년범위 상단인 91% 위치(고점 7798.99 근처)에 있어 가격대가 높은 편으로 분류합니다.",
+        "fx": "원/달러 1367.91원은 1년범위 0% 위치로, 달러 대비 원화가 1년 중 가장 강한 수준입니다(달러 약세 방향).",
+        "geo": "헤드라인에 '미국이 이란을 강타'하며 지수 하락과 유가·방산주 반응이 언급되어 사건성 충격이 발생한 상태입니다."
       },
-      "summary": "미국 증시는 1년 고점 부근(범위의 91%)에 있지만 10년물 금리가 4.76%로 1년 최고라 금리 부담이 같이 커진 국면입니다. 변동성 지표는 15.27로 낮아 시장 분위기 자체는 아직 차분합니다.",
+      "summary": "미국 증시는 1년 고점권(범위 91%)에 있고 금리는 상단(4.76%)에서 인상 이야기가 나오는 국면입니다. 다만 이란 관련 지정학 충격이 새로 발생해, 높은 가격대 위에 돌발 변수가 얹힌 상태입니다.",
       "rates": "hike",
       "growth": "expand",
       "valuation": "rich",
       "fx": "strong",
-      "geo": "calm"
+      "geo": "shock"
     }
   },
   "stocks": {
@@ -238,111 +238,100 @@
     },
     "us": {
       "MSFT": {
-        "price": 509.1,
+        "price": 509.47,
         "prev": 513.530029296875,
-        "chg": -0.86,
+        "chg": -0.79,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T14:38:03.000Z"
+        "time": "2026-08-31T14:49:23.000Z"
       },
       "AAPL": {
-        "price": 315.1,
+        "price": 315.17,
         "prev": 319.70001220703125,
-        "chg": -1.44,
+        "chg": -1.42,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T14:38:04.000Z"
+        "time": "2026-08-31T14:49:24.000Z"
       },
       "GOOGL": {
-        "price": 338.08,
+        "price": 337.73,
         "prev": 346.5899963378906,
-        "chg": -2.46,
+        "chg": -2.56,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T14:38:04.000Z"
+        "time": "2026-08-31T14:49:24.000Z"
       },
       "BRK.B": {
-        "price": 503.431,
+        "price": 504.025,
         "prev": 505,
-        "chg": -0.31,
+        "chg": -0.19,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T14:38:02.000Z"
+        "time": "2026-08-31T14:49:18.000Z"
       },
       "V": {
-        "price": 381.63,
+        "price": 381.9,
         "prev": 381.6000061035156,
-        "chg": 0.01,
+        "chg": 0.08,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T14:38:00.000Z"
+        "time": "2026-08-31T14:49:21.000Z"
       },
       "JNJ": {
-        "price": 266.26,
+        "price": 266.62,
         "prev": 268.0400085449219,
-        "chg": -0.66,
+        "chg": -0.53,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T14:38:00.000Z"
+        "time": "2026-08-31T14:49:04.000Z"
       },
       "PG": {
-        "price": 144.03,
+        "price": 144.49,
         "prev": 143.77999877929688,
-        "chg": 0.17,
+        "chg": 0.49,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T14:38:04.000Z"
+        "time": "2026-08-31T14:49:17.000Z"
       },
       "KO": {
-        "price": 89.055,
+        "price": 89.255,
         "prev": 89.66000366210938,
-        "chg": -0.67,
+        "chg": -0.45,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T14:38:03.000Z"
+        "time": "2026-08-31T14:49:22.000Z"
       },
       "COST": {
-        "price": 945.98,
+        "price": 945.66,
         "prev": 945.469970703125,
-        "chg": 0.05,
+        "chg": 0.02,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T14:37:37.000Z"
+        "time": "2026-08-31T14:49:22.000Z"
       },
       "WM": {
-        "price": 220.819,
+        "price": 220.68,
         "prev": 219.66000366210938,
-        "chg": 0.53,
+        "chg": 0.46,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T14:38:03.000Z"
+        "time": "2026-08-31T14:49:24.000Z"
       },
       "LIN": {
-        "price": 490.535,
+        "price": 490.815,
         "prev": 489.510009765625,
-        "chg": 0.21,
+        "chg": 0.27,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T14:37:43.000Z"
+        "time": "2026-08-31T14:49:24.000Z"
       },
       "XOM": {
-        "price": 159.96,
+        "price": 159.98,
         "prev": 156.7100067138672,
-        "chg": 2.07,
+        "chg": 2.09,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T14:38:03.000Z"
+        "time": "2026-08-31T14:49:11.000Z"
       },
       "NVDA": {
-        "price": 220.35,
+        "price": 219.88,
         "prev": 217.5500030517578,
-        "chg": 1.29,
+        "chg": 1.07,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T14:38:02.000Z"
+        "time": "2026-08-31T14:49:24.000Z"
       }
     }
   },
   "news": {
     "kr": [
-      {
-        "title": "마더스제약·이나인페이, 코스닥 상장예비심사 신청",
-        "link": "https://www.yna.co.kr/view/AKR20260831167800008",
-        "source": "연합뉴스",
-        "date": "Mon, 31 Aug 2026 18:52:47 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "상장 심사 신청은 절차 초기 단계로 기존 투자 근거와 무관합니다.",
-        "by": "ai"
-      },
       {
         "title": "혼란한 증시…\"우량주 분할 매수\" [한경 프리미엄9 TODAY]",
         "link": "https://www.hankyung.com/article/2026083145881",
@@ -366,17 +355,6 @@
         "by": "ai"
       },
       {
-        "title": "신테카바이오, 20억원 유상증자…이정훈 등에 3자 배정",
-        "link": "https://www.yna.co.kr/view/AKR20260831165200008",
-        "source": "연합뉴스",
-        "date": "Mon, 31 Aug 2026 18:26:23 +0900",
-        "act": "watch",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "소규모 3자배정 증자는 자금 사정과 지분 희석을 지켜볼 사안입니다.",
-        "by": "ai"
-      },
-      {
         "title": "코스피 막판 반등…삼전닉스 주주환원이 떠받쳤다",
         "link": "https://www.hankyung.com/article/2026083146481",
         "source": "한국경제",
@@ -396,6 +374,28 @@
         "lasting": "structural",
         "scope": "company",
         "why": "유상증자는 주식 수가 늘어나는 일이라 지분 가치에 영향을 줍니다.",
+        "by": "ai"
+      },
+      {
+        "title": "SK온 1.5조원 잭팟에…SK이노베이션 주가 7%대 급등",
+        "link": "https://www.hankyung.com/article/202608314180i",
+        "source": "한국경제",
+        "date": "Mon, 31 Aug 2026 16:54:29 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "단발성 수주와 하루 주가 급등은 장기 이익 구조를 바꾸지 않습니다.",
+        "by": "ai"
+      },
+      {
+        "title": "국내주식 팔지도 사지도 못하는 국민연금 … 해외투자로 눈 돌린다",
+        "link": "https://www.mk.co.kr/news/economy/12140502",
+        "source": "매일경제",
+        "date": "Mon, 31 Aug 2026 16:54:11 +09:00",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": "market",
+        "why": "대형 연기금의 자산배분 변화는 수급 구조에 오래 영향을 줄 수 있습니다.",
         "by": "ai"
       }
     ],
@@ -425,15 +425,15 @@
         "by": "ai"
       },
       {
-        "title": "Energy stocks lead in subdued final trading day of August, utilities under pressure: AlphaCheck",
-        "link": "https://finance.yahoo.com/markets/article/energy-stocks-lead-in-subdued-final-trading-day-of-august-utilities-under-pressure-alphacheck-142014111.html",
+        "title": "Stock market today: Dow, S&P 500, Nasdaq fall as US strikes Iran, rate-hike bets jump",
+        "link": "https://finance.yahoo.com/markets/live/stock-market-today-monday-august-31-dow-sp-500-nasdaq-113851714.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-31T14:20:14Z",
-        "ko": "에너지 주식은 8 월의 최종 거래일로 이어지고, 유틸리티는 압박을 받는다: AlphaCheck",
-        "act": "none",
+        "date": "2026-08-31T11:38:51Z",
+        "ko": "오늘의 주식 시장: 미국이 이란을 강타함에 따라 다우, S&P 500, 나스닥 하락, 금리 인상 베팅 점프",
+        "act": "watch",
         "lasting": "temporary",
-        "scope": "sector",
-        "why": "하루 단위 업종 등락은 장기 실적과 무관한 흐름입니다.",
+        "scope": "market",
+        "why": "지정학 충격은 대체로 일시적이며, 기업 이익 구조를 바꾼다고 보기 어렵습니다.",
         "by": "ai"
       },
       {
@@ -461,22 +461,21 @@
         "by": "ai"
       },
       {
-        "title": "MP Materials Stock: Bull vs. Bear on This Top Rare Earth Bet",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/mp-materials-stock-bull-vs-142000457.html",
+        "title": "Stock Market Today: Dow Skids, Oil Stocks Pop As U.S. Strikes Iran; Defense Plays Lag (Live Coverage)",
+        "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-us-iran-attacks-oil-prices-jump/?src=A00220&yptr=yahoo",
         "source": "Yahoo Finance",
-        "date": "2026-08-31T14:20:00Z",
-        "ko": "MP 재료 재고: 황소 vs. 이 최상위 희토 베팅의 곰",
+        "date": "2026-08-31T14:27:07Z",
+        "ko": "오늘의 주식 시장: 미국이 이란을 강타하면서 다우 스키드, 석유 주식이 떠오르다; 방어전 지연 (라이브 커버리지)",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
-        "why": "찬반 의견을 정리한 분석 기사로, 회사 실적 자체를 바꾸는 사실은 없습니다.",
+        "scope": "market",
+        "why": "당일 지수와 유가 등락은 장기 이익과 무관한 일상적 변동입니다.",
         "by": "ai"
       }
     ]
   },
   "newsBy": "ai",
   "trCache": {
-    "Stock futures flat as U.S. and Canada appear headed for trade war": "미국과 캐나다가 무역 전쟁으로 향하는 것처럼 보이기 때문에 주식 선물은 평평합니다.",
     "A $28.7 Billion Reason to Buy SK hynix Stock Now": "지금 SK hynix 주식을 매입해야 하는 $287억의 이유",
     "Bessent's efforts in the Treasury market so far haven't worked. Here's what else he can try": "지금까지 재무 시장에서 베센트의 노력은 효과가 없었습니다. 그가 시도할 수 있는 다른 방법은 다음과 같습니다.",
     "‘The market is obviously on fire’: Should I take $1,000 from my brokerage account to pay off my car loan?": "‘시장은 분명히 불타고 있습니다’: 자동차 대출금을 갚기 위해 중개 계좌에서 $1,000를 가져 가야합니까?",
@@ -775,7 +774,8 @@
     "Wall Street banks are keeping astronomical price targets on SpaceX’s stock as it struggles to achieve exit velocity": "월스트리트 뱅크는 출구 속도를 달성하기 위해 고군분투하면서 SpaceX의 주식에 천문학적인 가격 목표를 유지하고 있습니다.",
     "Energy stocks lead in subdued final trading day of August, utilities under pressure: AlphaCheck": "에너지 주식은 8 월의 최종 거래일로 이어지고, 유틸리티는 압박을 받는다: AlphaCheck",
     "Wall Street banks are keeping astronomical price targets on SpaceX’s stock as it struggles to achieve post-IPO exit velocity": "월스트리트 뱅크는 상장 후 출구 속도를 달성하기 위해 고군분투하면서 SpaceX의 주식에 천문학적인 가격 목표를 유지하고 있습니다.",
-    "MP Materials Stock: Bull vs. Bear on This Top Rare Earth Bet": "MP 재료 재고: 황소 vs. 이 최상위 희토 베팅의 곰"
+    "MP Materials Stock: Bull vs. Bear on This Top Rare Earth Bet": "MP 재료 재고: 황소 vs. 이 최상위 희토 베팅의 곰",
+    "Stock Market Today: Dow Skids, Oil Stocks Pop As U.S. Strikes Iran; Defense Plays Lag (Live Coverage)": "오늘의 주식 시장: 미국이 이란을 강타하면서 다우 스키드, 석유 주식이 떠오르다; 방어전 지연 (라이브 커버리지)"
   },
   "nvCache": {
     "https://www.hankyung.com/article/2026082884476": {
@@ -2879,5 +2879,7 @@
       "by": "ai"
     }
   },
-  "failed": []
+  "failed": [
+    "news/kr/연합뉴스: fetch failed"
+  ]
 }
