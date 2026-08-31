@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-31T15:33:37.896Z",
+  "asOf": "2026-08-31T15:44:38.409Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -24,32 +24,32 @@
       "time": "2026-08-31T15:26:17.000Z"
     },
     "^GSPC": {
-      "price": 7673.68,
+      "price": 7674.02,
       "prev": 7711.759765625,
       "chg": -0.49,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T15:33:09.000Z"
+      "time": "2026-08-31T15:43:58.000Z"
     },
     "^IXIC": {
-      "price": 26284.482,
+      "price": 26292.941,
       "prev": 26402.419921875,
-      "chg": -0.45,
+      "chg": -0.41,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T15:33:04.000Z"
+      "time": "2026-08-31T15:43:55.000Z"
     },
     "^VIX": {
-      "price": 15.23,
+      "price": 15.14,
       "prev": 14.430000305175781,
-      "chg": 5.54,
+      "chg": 4.92,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T15:18:01.000Z"
+      "time": "2026-08-31T15:28:46.000Z"
     },
     "^TNX": {
       "price": 4.7599998,
       "prev": 4.71999979019165,
       "chg": 0.85,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T15:18:02.000Z"
+      "time": "2026-08-31T15:28:52.000Z"
     }
   },
   "fx": {
@@ -80,25 +80,25 @@
       "chg3m": -10.53
     },
     "^GSPC": {
-      "last": 7673.68,
+      "last": 7674.02,
       "low52": 6343.72,
       "high52": 7798.99,
       "pct52": 0.914,
       "chg3m": 0.84
     },
     "^IXIC": {
-      "last": 26284.48,
+      "last": 26292.94,
       "low52": 20794.64,
       "high52": 27093.9,
-      "pct52": 0.872,
-      "chg3m": -2.99
+      "pct52": 0.873,
+      "chg3m": -2.96
     },
     "^VIX": {
-      "last": 15.23,
+      "last": 15.14,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.1,
-      "chg3m": -3.42
+      "pct52": 0.095,
+      "chg3m": -3.99
     },
     "^TNX": {
       "last": 4.76,
@@ -110,16 +110,16 @@
   },
   "regime": {
     "by": "ai",
-    "asOf": "2026-08-31T15:33:37.893Z",
+    "asOf": "2026-08-31T15:44:34.146Z",
     "kr": {
       "why": {
-        "rates": "제시된 유일한 금리 지표인 ^TNX가 4.76%로 1년 범위 상단(위치 100%)이고 3개월간 +6.85% 올라 금리가 오르는 방향입니다.",
-        "growth": "코스피가 3개월 동안 -19.91% 하락해 둔화 신호가 뚜렷하지만, 1년 범위 내 위치가 61%이고 VIX도 15.23으로 낮아 침체 단정보다는 둔화로 봅니다.",
-        "valuation": "코스피 6788.88은 1년 범위 3142.93~9114.55의 61% 지점으로 극단이 아니어서 보통 수준으로 분류합니다.",
-        "fx": "원/달러가 1369.05로 1년 범위 최저(위치 0%)이고 3개월간 -10.53% 하락해 원화가 강한 상태입니다.",
-        "geo": "VIX가 15.23(위치 10%)으로 낮고 헤드라인도 상장예비심사·유상증자 등 개별 기업 이슈라 별도 긴장 근거가 없습니다."
+        "rates": "미 10년물 금리(^TNX)가 4.76%로 1년 범위 최상단(위치 100%)이고 3개월간 +6.85% 올라, 금리는 내려가는 국면이 아니라 올라가는 쪽입니다.",
+        "growth": "코스피가 3개월간 -19.91% 급락했지만 1년 범위에서는 아직 61% 위치이고 '외국인 빠진 코스피', '혼란한 증시' 헤드라인이 함께 나와, 침체 확정보다는 둔화 신호로 봅니다.",
+        "valuation": "코스피 6788.88은 1년 범위 3142.93~9114.55의 61% 지점으로 극단적으로 싸지도 비싸지도 않고, 이익 지표 자료가 없어 중립인 '보통'으로 둡니다.",
+        "fx": "원/달러가 1369.05로 1년 범위(1369.05~1554.48) 최저점(위치 0%)이며 3개월간 -10.53% 하락해 원화가 강세입니다.",
+        "geo": "VIX가 15.14로 1년 범위의 10% 수준까지 내려와 있고 헤드라인도 상장예비심사·유상증자 등 개별 기업 이슈라 지정학적 충격 근거는 없습니다."
       },
-      "summary": "금리는 오르는 쪽이고 원화는 1년 내 가장 강한데, 코스피는 3개월 -19.91%로 최근 힘이 빠진 국면입니다. 다만 VIX 15.23으로 시장 공포는 낮아 패닉보다는 둔화 구간으로 읽힙니다.",
+      "summary": "금리는 오르고 원화는 1년 만에 가장 강한데, 코스피는 3개월 -19.91%로 크게 흔들린 둔화 국면입니다. 다만 변동성 지표(VIX 15.14)는 낮아 시장 전체가 공포에 빠진 상태는 아닙니다.",
       "rates": "hike",
       "growth": "slow",
       "valuation": "fair",
@@ -128,13 +128,13 @@
     },
     "us": {
       "why": {
-        "rates": "^TNX 4.76%가 1년 최고치(위치 100%, 3개월 +6.85%)이고 연준 해먹 위원의 '금리 인상, 지금이 행동할 때' 발언과 코어 물가 3.3% 상승이 함께 제시됐습니다.",
-        "growth": "S&P500이 7673.68로 1년 범위의 91% 지점이고 3개월 +0.84%로 하락 없이 버티고 있어 경기 신호는 나쁘지 않습니다.",
-        "valuation": "지수 위치가 1년 범위 상단인 91%까지 올라와 있어 가격 부담이 있는 편입니다.",
-        "fx": "원/달러 1369.05는 1년 범위 최저(위치 0%)로, 달러 대비 원화가 강한 상태입니다.",
-        "geo": "VIX 15.23(위치 10%)으로 낮고 헤드라인도 연준 발언·개별 기업 뉴스에 그쳐 충격 근거는 없어 평온으로 봅니다."
+        "rates": "10년물 금리(^TNX)가 4.76%로 1년 범위 100% 지점이고 3개월 +6.85%인 데다, 코어 인플레이션 3.3%와 연준 해먹 위원의 '금리 인상, 지금이 행동할 때' 발언이 겹칩니다.",
+        "growth": "S&P500이 7674.02로 1년 범위의 91% 위치이고 3개월 변화도 +0.84%로 완만한 상승세를 유지해 경기 위축 신호는 보이지 않습니다.",
+        "valuation": "지수가 1년 범위 상단 91% 지점에 있어 가격 부담이 있는 구간이며, 다만 이익 대비 배수 자료는 제공되지 않았습니다.",
+        "fx": "원/달러 1369.05는 1년 범위 최저(위치 0%), 3개월 -10.53%로 달러 대비 원화가 강세인 상태입니다.",
+        "geo": "VIX 15.14(1년 범위 10% 수준)로 낮고, 헤드라인은 연준 발언·개별 기업(애플, 캘리포니아 유틸리티) 이슈여서 지정학적 충격 근거는 약해 중립적으로 '평온'으로 둡니다."
       },
-      "summary": "미국 증시는 1년 범위 상단(91%)에 머무는 강한 흐름이지만, 코어 물가 3.3%와 10년 금리 4.76%로 금리 부담이 커진 국면입니다. 가격이 비싼 편이라는 점과 금리 방향을 함께 보는 학습이 필요합니다.",
+      "summary": "미국 증시는 1년 고점 부근(91%)에 있지만 금리는 4.76%로 최고 수준이고 코어 물가도 3.3%라 긴축 압력이 남아 있는 국면입니다. 시장 변동성은 낮아 조용하지만, 가격은 싼 편이 아닌 상태로 분류됩니다.",
       "rates": "hike",
       "growth": "expand",
       "valuation": "rich",
@@ -238,95 +238,95 @@
     },
     "us": {
       "MSFT": {
-        "price": 509.984,
+        "price": 510.961,
         "prev": 513.530029296875,
-        "chg": -0.69,
+        "chg": -0.5,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T15:33:13.000Z"
+        "time": "2026-08-31T15:44:01.000Z"
       },
       "AAPL": {
-        "price": 314.87,
+        "price": 314.775,
         "prev": 319.70001220703125,
-        "chg": -1.51,
+        "chg": -1.54,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T15:33:13.000Z"
+        "time": "2026-08-31T15:44:04.000Z"
       },
       "GOOGL": {
-        "price": 338.121,
+        "price": 338.655,
         "prev": 346.5899963378906,
-        "chg": -2.44,
+        "chg": -2.29,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T15:33:11.000Z"
+        "time": "2026-08-31T15:44:02.000Z"
       },
       "BRK.B": {
-        "price": 503.03,
+        "price": 502.73,
         "prev": 505,
-        "chg": -0.39,
+        "chg": -0.45,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T15:32:58.000Z"
+        "time": "2026-08-31T15:44:05.000Z"
       },
       "V": {
-        "price": 381.14,
+        "price": 381.085,
         "prev": 381.6000061035156,
-        "chg": -0.12,
+        "chg": -0.13,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T15:33:03.000Z"
+        "time": "2026-08-31T15:43:58.000Z"
       },
       "JNJ": {
-        "price": 266.425,
+        "price": 265.99,
         "prev": 268.0400085449219,
-        "chg": -0.6,
+        "chg": -0.76,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T15:33:01.000Z"
+        "time": "2026-08-31T15:43:53.000Z"
       },
       "PG": {
-        "price": 144.788,
-        "prev": 144.7884063720703,
-        "chg": 0,
-        "basis": "last-daily-close",
-        "time": "2026-08-31T15:33:14.000Z"
+        "price": 144.72,
+        "prev": 143.77999877929688,
+        "chg": 0.65,
+        "basis": "prev-daily-close",
+        "time": "2026-08-31T15:44:01.000Z"
       },
       "KO": {
-        "price": 89.25,
-        "prev": 89.66000366210938,
-        "chg": -0.46,
-        "basis": "prev-daily-close",
-        "time": "2026-08-31T15:33:12.000Z"
+        "price": 89.175,
+        "prev": 89.17510223388672,
+        "chg": 0,
+        "basis": "last-daily-close",
+        "time": "2026-08-31T15:44:04.000Z"
       },
       "COST": {
-        "price": 946.73,
+        "price": 946.215,
         "prev": 945.469970703125,
-        "chg": 0.13,
+        "chg": 0.08,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T15:32:58.000Z"
+        "time": "2026-08-31T15:43:53.000Z"
       },
       "WM": {
-        "price": 220.605,
+        "price": 220.46,
         "prev": 219.66000366210938,
-        "chg": 0.43,
+        "chg": 0.36,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T15:32:56.000Z"
+        "time": "2026-08-31T15:43:53.000Z"
       },
       "LIN": {
-        "price": 488.66,
+        "price": 488.86,
         "prev": 489.510009765625,
-        "chg": -0.17,
+        "chg": -0.13,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T15:33:14.000Z"
+        "time": "2026-08-31T15:44:04.000Z"
       },
       "XOM": {
-        "price": 159.2,
+        "price": 159.13,
         "prev": 156.7100067138672,
-        "chg": 1.59,
+        "chg": 1.54,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T15:33:10.000Z"
+        "time": "2026-08-31T15:44:03.000Z"
       },
       "NVDA": {
-        "price": 219.715,
+        "price": 219.64,
         "prev": 217.5500030517578,
-        "chg": 1,
+        "chg": 0.96,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T15:33:14.000Z"
+        "time": "2026-08-31T15:44:05.000Z"
       }
     }
   },
@@ -425,15 +425,15 @@
         "by": "ai"
       },
       {
-        "title": "Knight-Swift Transportation (KNX) is Positioned to Leverage Evolving Freight Market",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/knight-swift-transportation-knx-positioned-150918993.html",
+        "title": "California Utility Stocks Plummet After Wildfire Legislation Announced",
+        "link": "https://www.investors.com/news/gavin-newsom-california-wildfire-bill-pge-edison-international/?src=A00220&yptr=yahoo",
         "source": "Yahoo Finance",
-        "date": "2026-08-31T15:09:18Z",
-        "ko": "Knight-Swift Transportation (KNX) 은 진화하는 화물 시장을 활용할 수 있는 위치에 있습니다.",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "업황 기대를 담은 전망성 기사로, 실적 변화가 확인된 내용은 아닙니다.",
+        "date": "2026-08-31T15:28:55Z",
+        "ko": "캘리포니아 유틸리티 주식, 산불 관련 법안 발표 후 급락",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": "sector",
+        "why": "규제·책임 부담이 바뀔 수 있어 법안 진행 상황만 지켜보면 됩니다.",
         "by": "ai"
       },
       {
@@ -476,7 +476,6 @@
   },
   "newsBy": "ai",
   "trCache": {
-    "Mohamed El-Erian says 30-year Treasury yield at 5.27% signals a structural shift that will make America more expensive": "모하메드 엘-에리언 (Mohamed El-Erian) 은 30년 국채 수익률이 5.27% 로 미국을 더 비싸게 만들 구조적 변화를 나타낸다고 말합니다.",
     "Nvidia Stock Trades at a Reasonable Valuation With Ample Growth Headroom": "충분한 성장 헤드룸으로 합리적인 가치로 엔비디아 주식 거래",
     "Why 1 Analyst Says Vera Rubin Is Key for Nvidia Stock in Q2": "1명의 애널리스트가 Vera Rubin이 2분기 엔비디아 주식의 핵심이라고 말하는 이유",
     "Stock Market Week Ahead: A Choppy Market Heads For Nvidia Earnings, Jackson Hole": "주식 시장 주간: 삭막한 시장이 엔비디아 수익으로 향하고 있다, 잭슨 홀",
@@ -775,16 +774,10 @@
     "Prediction market startup Kalshi permanently bans ex-US lawmaker Santos from trading": "예측 시장 스타트업 칼시 (Kalshi) 는 전 미국 의원 산토스 (Santos) 의 거래를 영구적으로 금지합니다",
     "Tech stocks today: Apple stock slips as Tim Cook prepares to step down": "오늘날의 기술주: 팀 쿡이 물러날 준비를 하면서 애플 주가가 하락",
     "Micron Technology (MU) Gains Driven by Earnings Upgrades": "수익 업그레이드에 힘입은 마이크론 기술 (MU) 이익",
-    "Knight-Swift Transportation (KNX) is Positioned to Leverage Evolving Freight Market": "Knight-Swift Transportation (KNX) 은 진화하는 화물 시장을 활용할 수 있는 위치에 있습니다."
+    "Knight-Swift Transportation (KNX) is Positioned to Leverage Evolving Freight Market": "Knight-Swift Transportation (KNX) 은 진화하는 화물 시장을 활용할 수 있는 위치에 있습니다.",
+    "California Utility Stocks Plummet After Wildfire Legislation Announced": "캘리포니아 유틸리티 주식, 산불 관련 법안 발표 후 급락"
   },
   "nvCache": {
-    "https://www.mk.co.kr/news/stock/12138488": {
-      "act": "none",
-      "lasting": "structural",
-      "scope": "market",
-      "why": "금리 환경 변화는 구조적 주제지만 전망 기사라 오늘 확인할 일은 없습니다.",
-      "by": "ai"
-    },
     "https://www.mk.co.kr/news/stock/12138481": {
       "act": "none",
       "lasting": "temporary",
@@ -2876,6 +2869,13 @@
       "lasting": "temporary",
       "scope": "company",
       "why": "업황 기대를 담은 전망성 기사로, 실적 변화가 확인된 내용은 아닙니다.",
+      "by": "ai"
+    },
+    "https://www.investors.com/news/gavin-newsom-california-wildfire-bill-pge-edison-international/?src=A00220&yptr=yahoo": {
+      "act": "watch",
+      "lasting": "structural",
+      "scope": "sector",
+      "why": "규제·책임 부담이 바뀔 수 있어 법안 진행 상황만 지켜보면 됩니다.",
       "by": "ai"
     }
   },
