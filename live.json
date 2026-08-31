@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-31T19:52:42.430Z",
+  "asOf": "2026-08-31T20:03:10.207Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -17,32 +17,32 @@
       "time": "2026-08-31T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1367.95,
+      "price": 1367.44,
       "prev": 1380.449951171875,
-      "chg": -0.91,
+      "chg": -0.94,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T19:52:25.000Z"
+      "time": "2026-08-31T20:02:52.000Z"
     },
     "^GSPC": {
-      "price": 7691.59,
+      "price": 7686.34,
       "prev": 7730.990234375,
-      "chg": -0.51,
+      "chg": -0.58,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T19:52:32.000Z"
+      "time": "2026-08-31T20:02:59.000Z"
     },
     "^IXIC": {
-      "price": 26389.281,
-      "prev": 26402.419921875,
-      "chg": -0.05,
+      "price": 26370.889,
+      "prev": 26541.349609375,
+      "chg": -0.64,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T19:52:29.000Z"
+      "time": "2026-08-31T20:02:59.000Z"
     },
     "^VIX": {
       "price": 14.99,
       "prev": 14.510000228881836,
       "chg": 3.31,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T19:37:31.000Z"
+      "time": "2026-08-31T19:47:46.000Z"
     },
     "^TNX": {
       "price": 4.7580004,
@@ -53,7 +53,7 @@
     }
   },
   "fx": {
-    "low52": 1367.95,
+    "low52": 1367.44,
     "high52": 1554.48,
     "pct": 0
   },
@@ -73,32 +73,32 @@
       "chg3m": -24.15
     },
     "KRW=X": {
-      "last": 1367.95,
-      "low52": 1367.95,
+      "last": 1367.44,
+      "low52": 1367.44,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -10.6
+      "chg3m": -10.63
     },
     "^GSPC": {
-      "last": 7691.59,
+      "last": 7686.34,
       "low52": 6343.72,
       "high52": 7798.99,
-      "pct52": 0.926,
-      "chg3m": 1.21
+      "pct52": 0.923,
+      "chg3m": 1.14
     },
     "^IXIC": {
-      "last": 26391.65,
+      "last": 26370.89,
       "low52": 20794.64,
       "high52": 27093.9,
-      "pct52": 0.889,
-      "chg3m": -2.57
+      "pct52": 0.885,
+      "chg3m": -2.64
     },
     "^VIX": {
-      "last": 14.99,
+      "last": 15,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.086,
-      "chg3m": -6.6
+      "pct52": 0.087,
+      "chg3m": -6.54
     },
     "^TNX": {
       "last": 4.76,
@@ -110,14 +110,14 @@
   },
   "regime": {
     "by": "rules",
-    "asOf": "2026-08-31T19:52:41.770Z",
+    "asOf": "2026-08-31T20:03:09.599Z",
     "kr": {
       "why": {
         "rates": "미국 10년물 금리가 지금 4.76%로, 3개월 전보다 6.32% 높고 최근 1년 범위(3.95~4.76)의 100% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
         "growth": "지수가 3개월 전보다 -15.55% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
         "valuation": "지수가 최근 1년 범위의 63% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
-        "fx": "원/달러가 1367.95원으로 최근 1년(1367.95~1554.48) 범위의 0% 지점입니다.",
-        "geo": "VIX 가 14.99입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
+        "fx": "원/달러가 1367.44원으로 최근 1년(1367.44~1554.48) 범위의 0% 지점입니다.",
+        "geo": "VIX 가 15입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
       },
       "rates": "hike",
       "growth": "reces",
@@ -129,10 +129,10 @@
     "us": {
       "why": {
         "rates": "미국 10년물 금리가 지금 4.76%로, 3개월 전보다 6.32% 높고 최근 1년 범위(3.95~4.76)의 100% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
-        "growth": "지수가 3개월 전보다 +1.21% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
-        "valuation": "지수가 최근 1년 범위의 93% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
-        "fx": "원/달러가 1367.95원으로 최근 1년(1367.95~1554.48) 범위의 0% 지점입니다.",
-        "geo": "VIX 가 14.99입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
+        "growth": "지수가 3개월 전보다 +1.14% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
+        "valuation": "지수가 최근 1년 범위의 92% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
+        "fx": "원/달러가 1367.44원으로 최근 1년(1367.44~1554.48) 범위의 0% 지점입니다.",
+        "geo": "VIX 가 15입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
       },
       "rates": "hike",
       "growth": "expand",
@@ -238,95 +238,95 @@
     },
     "us": {
       "MSFT": {
-        "price": 509.23,
+        "price": 507.29,
         "prev": 505.05999755859375,
-        "chg": 0.83,
+        "chg": 0.44,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T19:52:40.000Z"
+        "time": "2026-08-31T20:00:01.000Z"
       },
       "AAPL": {
-        "price": 317.018,
-        "prev": 317.01849365234375,
-        "chg": 0,
-        "basis": "last-daily-close",
-        "time": "2026-08-31T19:52:40.000Z"
+        "price": 316.85,
+        "prev": 314.5799865722656,
+        "chg": 0.72,
+        "basis": "prev-daily-close",
+        "time": "2026-08-31T20:00:01.000Z"
       },
       "GOOGL": {
-        "price": 340.04,
+        "price": 339.35,
         "prev": 340.6499938964844,
-        "chg": -0.18,
+        "chg": -0.38,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T19:52:40.000Z"
+        "time": "2026-08-31T20:00:01.000Z"
       },
       "BRK.B": {
-        "price": 503.405,
-        "prev": 505,
-        "chg": -0.32,
+        "price": 504.08,
+        "prev": 503.70001220703125,
+        "chg": 0.08,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T19:52:40.000Z"
+        "time": "2026-08-31T20:00:01.000Z"
       },
       "V": {
-        "price": 379.33,
+        "price": 379.44,
         "prev": 379.6600036621094,
-        "chg": -0.09,
+        "chg": -0.06,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T19:52:40.000Z"
+        "time": "2026-08-31T19:59:59.000Z"
       },
       "JNJ": {
-        "price": 266.04,
-        "prev": 268.0400085449219,
-        "chg": -0.75,
+        "price": 265.89,
+        "prev": 265.7699890136719,
+        "chg": 0.05,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T19:52:38.000Z"
+        "time": "2026-08-31T19:59:59.000Z"
       },
       "PG": {
-        "price": 145.16,
+        "price": 145.11,
         "prev": 143.13999938964844,
-        "chg": 1.41,
+        "chg": 1.38,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T19:52:40.000Z"
+        "time": "2026-08-31T19:59:59.000Z"
       },
       "KO": {
-        "price": 88.735,
+        "price": 88.7,
         "prev": 89.05999755859375,
-        "chg": -0.36,
+        "chg": -0.4,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T19:52:41.000Z"
+        "time": "2026-08-31T20:00:00.000Z"
       },
       "COST": {
-        "price": 944.105,
+        "price": 943.89,
         "prev": 934.6599731445312,
-        "chg": 1.01,
+        "chg": 0.99,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T19:52:40.000Z"
+        "time": "2026-08-31T20:00:01.000Z"
       },
       "WM": {
-        "price": 219.265,
+        "price": 219.03,
         "prev": 217.75999450683594,
-        "chg": 0.69,
+        "chg": 0.58,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T19:52:40.000Z"
+        "time": "2026-08-31T19:59:59.000Z"
       },
       "LIN": {
-        "price": 489.87,
-        "prev": 489.510009765625,
-        "chg": 0.07,
+        "price": 489.58,
+        "prev": 485.3500061035156,
+        "chg": 0.87,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T19:52:37.000Z"
+        "time": "2026-08-31T20:00:01.000Z"
       },
       "XOM": {
-        "price": 160.538,
-        "prev": 160.53750610351562,
-        "chg": 0,
-        "basis": "last-daily-close",
-        "time": "2026-08-31T19:52:40.000Z"
+        "price": 160.98,
+        "prev": 156.44000244140625,
+        "chg": 2.9,
+        "basis": "prev-daily-close",
+        "time": "2026-08-31T20:00:00.000Z"
       },
       "NVDA": {
-        "price": 220.355,
+        "price": 220.5,
         "prev": 227.97999572753906,
-        "chg": -3.34,
+        "chg": -3.28,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T19:52:40.000Z"
+        "time": "2026-08-31T20:00:01.000Z"
       }
     }
   },
@@ -413,23 +413,23 @@
         "by": "ai"
       },
       {
-        "title": "Amazon’s stock slips as the FTC alleges billions of dollars in hidden ad fees",
-        "link": "https://www.marketwatch.com/story/amazons-stock-slips-as-the-ftc-alleges-billions-of-dollars-in-hidden-ad-fees-4ae44ee4?mod=mw_rss_topstories",
+        "title": "The 10-year Treasury yield just crossed a key threshold that should make people ‘sit up and take notice’",
+        "link": "https://www.marketwatch.com/story/the-10-year-treasury-yield-just-crossed-a-key-threshold-that-should-make-people-sit-up-and-take-notice-ffc0b5b5?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 31 Aug 2026 19:42:00 GMT",
-        "ko": "FTC가 수십억 달러의 숨겨진 광고 수수료를 주장함에 따라 아마존의 주식은 하락했다.",
+        "date": "Mon, 31 Aug 2026 19:56:00 GMT",
+        "ko": "10년 국채 수익률은 사람들이 ‘앉아서 주목해야‘ 하는 핵심 문턱을 막 넘었습니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "VOO vs. RSP: If AI Stocks Get Too Concentrated, Here's Which One I'd Choose",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/voo-vs-rsp-ai-stocks-104400782.html",
+        "title": "Why Rezolve AI Stock Skyrocketed This Week",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/why-rezolve-ai-stock-skyrocketed-104944474.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-30T10:44:00Z",
-        "ko": "VOO vs. RSP: 인공지능 주식이 너무 집중된다면, 어떤 것을 선택할까요?",
+        "date": "2026-08-30T10:49:44Z",
+        "ko": "이번 주에 Rezolve AI 재고가 급증한 이유",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -449,14 +449,14 @@
         "by": "ai"
       },
       {
-        "title": "Jerome Powell still has one vote on whether rates go up — the same as Kevin Warsh",
-        "link": "https://www.marketwatch.com/story/jerome-powell-still-has-one-vote-on-whether-rates-go-up-the-same-as-kevin-warsh-787e9929?mod=mw_rss_topstories",
+        "title": "Amazon’s stock slips as the FTC alleges billions of dollars in hidden ad fees",
+        "link": "https://www.marketwatch.com/story/amazons-stock-slips-as-the-ftc-alleges-billions-of-dollars-in-hidden-ad-fees-4ae44ee4?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 31 Aug 2026 19:40:00 GMT",
-        "ko": "제롬 파월 (Jerome Powell) 은 케빈 워시 (Kevin Warsh) 와 동일하게 금리 인상 여부에 대해 여전히 한 표를 가지고 있습니다.",
+        "date": "Mon, 31 Aug 2026 19:42:00 GMT",
+        "ko": "FTC가 수십억 달러의 숨겨진 광고 수수료를 주장함에 따라 아마존의 주식은 하락했다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -476,8 +476,6 @@
   },
   "newsBy": "ai",
   "trCache": {
-    "Dell’s stock is up 235% this year — and earnings could propel it even higher, analysts say": "분석가들은 Dell의 주가가 올해 235% 상승했으며 수익이 더 높아질 수 있다고 말합니다.",
-    "Walmart stock price target reset by JPMorgan after earnings": "수익 후 JP모건에 의한 월마트 주가 목표 재설정",
     "Bessent tapping Treasury’s rainy-day fund for buybacks isn’t a ‘bazooka’ to get markets to move his way": "Bessent tapping Treasury's rainy-day funds for buybacks is not a ‘bazooka’ to get markets to move his way",
     "Trump bought shares in Elon Musk's SpaceX in June, financial disclosure shows": "트럼프는 지난 6월 일론 머스크의 스페이스X 지분을 매입했다.",
     "Here’s how overvalued the stock market really is": "주식 시장이 실제로 얼마나 과대평가되었는지는 다음과 같습니다.",
@@ -775,7 +773,9 @@
     "Why Dell’s stock stands to gain from developments at Nvidia and SpaceX": "Dell의 주식이 Nvidia 및 SpaceX의 개발에서 이익을 얻는 이유",
     "'All about acceleration': After Nvidia earnings, the tech trade is getting more segmented": "'액셀러레이팅의 모든 것': 엔비디아 수익 창출 이후, 기술 거래는 점점 더 세분화되고 있습니다.",
     "VOO vs. RSP: If AI Stocks Get Too Concentrated, Here's Which One I'd Choose": "VOO vs. RSP: 인공지능 주식이 너무 집중된다면, 어떤 것을 선택할까요?",
-    "Jerome Powell still has one vote on whether rates go up — the same as Kevin Warsh": "제롬 파월 (Jerome Powell) 은 케빈 워시 (Kevin Warsh) 와 동일하게 금리 인상 여부에 대해 여전히 한 표를 가지고 있습니다."
+    "Jerome Powell still has one vote on whether rates go up — the same as Kevin Warsh": "제롬 파월 (Jerome Powell) 은 케빈 워시 (Kevin Warsh) 와 동일하게 금리 인상 여부에 대해 여전히 한 표를 가지고 있습니다.",
+    "The 10-year Treasury yield just crossed a key threshold that should make people ‘sit up and take notice’": "10년 국채 수익률은 사람들이 ‘앉아서 주목해야‘ 하는 핵심 문턱을 막 넘었습니다.",
+    "Why Rezolve AI Stock Skyrocketed This Week": "이번 주에 Rezolve AI 재고가 급증한 이유"
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -2880,8 +2880,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CebQktHcbokWQzXFwm3pg\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CebQku31dWfL2KMe3Crte\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CebQkucEcNWkxbnuG2kmx\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CebRZAN2caCjyhwFiRadp\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CebRZB6BeCPgQ3pf2VBxS\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CebRZBgf8ex5KBLi3FjjN\"}"
   ]
 }
