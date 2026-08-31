@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-08-31T09:03:23.105Z",
+  "asOf": "2026-08-31T10:04:24.396Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -7,21 +7,21 @@
       "prev": 6788.8798828125,
       "chg": 0.46,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T06:32:30.000Z"
+      "time": "2026-08-31T09:05:40.000Z"
     },
     "^KQ11": {
       "price": 834.29,
       "prev": 838.4099731445312,
       "chg": -0.49,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T06:32:40.000Z"
+      "time": "2026-08-31T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1366.79,
+      "price": 1368.39,
       "prev": 1380.449951171875,
-      "chg": -0.99,
+      "chg": -0.87,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T09:02:39.000Z"
+      "time": "2026-08-31T10:03:39.000Z"
     },
     "^GSPC": {
       "price": 7711.76,
@@ -38,11 +38,11 @@
       "time": "2026-08-28T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 15.21,
+      "price": 15.19,
       "prev": 14.430000305175781,
-      "chg": 5.41,
+      "chg": 5.27,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T08:47:31.000Z"
+      "time": "2026-08-31T09:48:31.000Z"
     },
     "^TNX": {
       "price": 4.72,
@@ -53,7 +53,7 @@
     }
   },
   "fx": {
-    "low52": 1366.79,
+    "low52": 1368.39,
     "high52": 1554.48,
     "pct": 0
   },
@@ -73,11 +73,11 @@
       "chg3m": -20.55
     },
     "KRW=X": {
-      "last": 1366.79,
-      "low52": 1366.79,
+      "last": 1368.39,
+      "low52": 1368.39,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -10.67
+      "chg3m": -10.57
     },
     "^GSPC": {
       "last": 7711.76,
@@ -94,11 +94,11 @@
       "chg3m": -2.53
     },
     "^VIX": {
-      "last": 15.21,
+      "last": 15.19,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.099,
-      "chg3m": -3.55
+      "pct52": 0.098,
+      "chg3m": -3.68
     },
     "^TNX": {
       "last": 4.72,
@@ -110,16 +110,16 @@
   },
   "regime": {
     "by": "ai",
-    "asOf": "2026-08-31T09:03:13.230Z",
+    "asOf": "2026-08-31T10:04:13.735Z",
     "kr": {
       "why": {
-        "rates": "미 10년물 금리(^TNX)가 4.72%로 1년 범위 상단 97% 위치이고 3개월간 +5.47% 올랐으며, '美 기준금리 인상 가능성에 국고채 금리↑' 헤드라인도 인상 방향을 가리킵니다.",
-        "growth": "코스피가 3개월간 -22.4% 급락했지만 현재 6820.02로 1년 범위의 62% 위치이고 6,800선에서 반등 마감했다는 점에서 침체 단정보다 둔화로 봅니다.",
-        "valuation": "코스피 6820.02는 1년 범위 3142.93~9114.55의 62% 위치로 상단도 하단도 아닌 중간대여서 보통 수준으로 분류합니다.",
-        "fx": "원/달러가 1366.79로 1년 범위 최저(위치 0%)이며 3개월간 -10.67% 하락해 원화가 상대적으로 강한 상태입니다.",
-        "geo": "VIX가 15.21로 1년 범위의 10% 위치이고 지정학적 충격을 가리키는 헤드라인이 없어 평온으로 두되, '美연준발 불확실성↑' 언급은 참고 사항입니다."
+        "rates": "제시된 금리 지표(^TNX)가 4.72로 1년범위 3.95~4.74의 97% 위치이고 3개월 +5.47%로 상승 중이어서 금리 상승 국면으로 분류합니다.",
+        "growth": "코스피가 3개월 -22.4%로 크게 밀렸지만 1년범위 3142.93~9114.55 중 62% 위치에 머물러 있고 경기지표 자료는 없어, 침체 확정보다는 둔화로 봅니다.",
+        "valuation": "코스피 1년범위 내 위치가 62%로 중간보다 약간 높은 수준이며 이익·PER 자료가 없어 보통(fair)으로 둡니다.",
+        "fx": "KRW=X가 1368.39로 1년범위 1368.39~1554.48의 0% 위치, 3개월 -10.57%로 원화가 가장 강한 구간에 있습니다.",
+        "geo": "^VIX가 15.19로 1년범위 13.47~31.05의 10% 위치이고 헤드라인은 상장예비심사·유상증자 등 국내 증시 소식뿐이라 긴장 신호가 약합니다."
       },
-      "summary": "금리는 오르는 쪽이고 원화는 1366.79로 1년 최저권까지 강해진 상태에서, 코스피는 3개월 -22.4% 급락 후 범위 중간(62%)에서 숨을 고르는 국면입니다. 변동성 지표(VIX 15.21)는 낮아 시장이 놀란 상태는 아니지만 경기 흐름은 둔화 쪽으로 읽힙니다.",
+      "summary": "금리는 오르는 쪽이고 원화는 1년 중 가장 강한 수준인데, 코스피는 3개월 -22.4%로 조정을 겪은 둔화 국면입니다. 변동성 지표(VIX 15.19)는 낮아 시장이 공포에 빠진 상태는 아닙니다.",
       "rates": "hike",
       "growth": "slow",
       "valuation": "fair",
@@ -128,18 +128,18 @@
     },
     "us": {
       "why": {
-        "rates": "^TNX가 4.72%로 1년 범위 3.95~4.74의 97% 위치, 3개월 +5.47%이고 '금리 인상 가능성', 'Hammack: 지금이 행동할 때' 등 인상 방향 발언이 이어집니다.",
-        "growth": "S&P500이 7711.76으로 1년 범위의 94% 위치이며 3개월 +1.47% 상승해 지수 흐름상 경기 위축 신호는 확인되지 않습니다.",
-        "valuation": "S&P500이 1년 범위 6343.72~7798.99 중 94% 위치로 상단에 붙어 있어 가격 부담이 큰 편으로 분류합니다.",
-        "fx": "원/달러 1366.79는 1년 범위 위치 0%, 3개월 -10.67%로 달러 대비 원화가 강한 상태입니다(달러 기준으로는 약세 방향).",
-        "geo": "VIX 15.21(위치 10%)로 낮고 제시된 헤드라인에 지정학적 충격 사건이 없어 평온으로 판단합니다."
+        "rates": "^TNX가 4.72로 1년범위의 97% 위치, 3개월 +5.47%이고 헤드라인에서도 연준 인사들이 '금리 인상' 필요성을 언급해 상승 방향이 뚜렷합니다.",
+        "growth": "S&P500이 7711.76으로 1년범위 6343.72~7798.99의 94% 위치, 3개월 +1.47%로 지수 흐름은 견조합니다.",
+        "valuation": "지수가 1년범위 상단 94% 위치까지 올라와 있어 가격 위치 기준으로는 비싼 편으로 분류합니다.",
+        "fx": "원/달러가 1368.39로 1년범위 최저(0% 위치), 3개월 -10.57%로 달러 대비 원화가 강세인 상태입니다.",
+        "geo": "VIX는 15.19로 낮지만 잭슨홀 발언 이후 금리 인상 가능성으로 주식 선물이 하락했다는 헤드라인 등 통화정책 관련 긴장이 확인됩니다."
       },
-      "summary": "미국은 지수가 1년 고점권(94%)에 있어 가격은 비싼 편인데, 국채금리 4.72%와 연준의 인상 발언이 겹친 국면입니다. 변동성은 낮아 시장은 아직 차분하지만 금리 부담이 핵심 변수인 상태입니다.",
+      "summary": "미국 지수는 1년 고점권(94% 위치)에 있어 가격 부담이 있는데, 금리는 4.72%로 1년 최고 수준이고 연준의 인상 언급이 나오는 정책 긴장 국면입니다. 원/달러는 1368원으로 원화가 1년 중 가장 강한 구간입니다.",
       "rates": "hike",
       "growth": "expand",
       "valuation": "rich",
       "fx": "strong",
-      "geo": "calm"
+      "geo": "tense"
     }
   },
   "stocks": {
@@ -333,25 +333,25 @@
   "news": {
     "kr": [
       {
-        "title": "美 기준금리 인상 가능성에 국고채 금리↑…상승폭은 줄어(종합)",
-        "link": "https://www.yna.co.kr/view/AKR20260831150251008",
+        "title": "마더스제약·이나인페이, 코스닥 상장예비심사 신청",
+        "link": "https://www.yna.co.kr/view/AKR20260831167800008",
         "source": "연합뉴스",
-        "date": "Mon, 31 Aug 2026 17:02:21 +0900",
-        "act": "watch",
+        "date": "Mon, 31 Aug 2026 18:52:47 +0900",
+        "act": "none",
         "lasting": "temporary",
-        "scope": "market",
-        "why": "금리 방향은 시장 전체에 영향을 주지만 하루 변동은 일시적입니다.",
+        "scope": "company",
+        "why": "상장 심사 신청은 절차 초기 단계로 기존 투자 근거와 무관합니다.",
         "by": "ai"
       },
       {
-        "title": "코스피 막판 반등…삼전닉스 주주환원이 떠받쳤다",
-        "link": "https://www.hankyung.com/article/2026083146481",
+        "title": "혼란한 증시…\"우량주 분할 매수\" [한경 프리미엄9 TODAY]",
+        "link": "https://www.hankyung.com/article/2026083145881",
         "source": "한국경제",
-        "date": "Mon, 31 Aug 2026 17:54:06 +0900",
+        "date": "Mon, 31 Aug 2026 18:17:01 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "장중 지수 등락은 기업의 장기 이익과 무관합니다.",
+        "why": "투자 전략을 소개하는 시장 논평이라 오늘 할 일은 없습니다.",
         "by": "ai"
       },
       {
@@ -366,25 +366,25 @@
         "by": "ai"
       },
       {
-        "title": "美연준발 삭풍에 불확실성↑…코스피는 반등해 6,800선 마감(종합)",
-        "link": "https://www.yna.co.kr/view/AKR20260831083051008",
+        "title": "신테카바이오, 20억원 유상증자…이정훈 등에 3자 배정",
+        "link": "https://www.yna.co.kr/view/AKR20260831165200008",
         "source": "연합뉴스",
-        "date": "Mon, 31 Aug 2026 16:50:29 +0900",
-        "act": "none",
+        "date": "Mon, 31 Aug 2026 18:26:23 +0900",
+        "act": "watch",
         "lasting": "temporary",
-        "scope": "market",
-        "why": "지수 등락과 통화정책 불확실성은 늘 반복되는 시장 소음입니다.",
+        "scope": "company",
+        "why": "소규모 3자배정 증자는 자금 사정과 지분 희석을 지켜볼 사안입니다.",
         "by": "ai"
       },
       {
-        "title": "SK온 1.5조원 잭팟에…SK이노베이션 주가 7%대 급등",
-        "link": "https://www.hankyung.com/article/202608314180i",
+        "title": "코스피 막판 반등…삼전닉스 주주환원이 떠받쳤다",
+        "link": "https://www.hankyung.com/article/2026083146481",
         "source": "한국경제",
-        "date": "Mon, 31 Aug 2026 16:54:29 +0900",
+        "date": "Mon, 31 Aug 2026 17:54:06 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
-        "why": "단발성 수주와 하루 주가 급등은 장기 이익 구조를 바꾸지 않습니다.",
+        "scope": "market",
+        "why": "장중 지수 등락은 기업의 장기 이익과 무관합니다.",
         "by": "ai"
       },
       {
@@ -425,15 +425,15 @@
         "by": "ai"
       },
       {
-        "title": "Uniswap Price Prediction: Rally to $9 Possible as Robinhood Chain Stats Get Hotter",
-        "link": "https://finance.yahoo.com/markets/crypto/articles/uniswap-price-prediction-rally-9-233315397.html",
+        "title": "Best CD rates today, Monday, August 31, 2026: Lock in up to 4.30% APY",
+        "link": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-monday-august-31-2026-lock-in-up-to-430-apy-100000028.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-29T23:33:15Z",
-        "ko": "Uniswap 가격 예측: Robinhood 체인 통계가 뜨거워짐에 따라 $9로 상승 가능",
+        "date": "2026-08-31T10:00:00Z",
+        "ko": "2026년 8월 31일 월요일, 오늘 최고 CD 가격: 최대 4.30% APY 고정",
         "act": "none",
         "lasting": "temporary",
-        "scope": "sector",
-        "why": "가격 목표 예측성 기사로 기업 이익과 무관한 단기 전망입니다.",
+        "scope": "market",
+        "why": "예금 금리 안내성 정보로 기업 이익과 무관합니다.",
         "by": "ai"
       },
       {
@@ -461,15 +461,15 @@
         "by": "ai"
       },
       {
-        "title": "Supply driven trucking market cycle explained in the data",
-        "link": "https://finance.yahoo.com/economy/articles/supply-driven-trucking-market-cycle-003000522.html",
+        "title": "Best high-yield savings interest rates today, Monday, August 31, 2026: Earn up to 4.15% APY",
+        "link": "https://finance.yahoo.com/personal-finance/banking/article/best-high-yield-savings-interest-rates-today-monday-august-31-2026-earn-up-to-415-apy-100000500.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-30T00:30:00Z",
-        "ko": "데이터에 설명된 공급 중심 트럭 시장 사이클",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": "sector",
-        "why": "운송 업종의 공급 사이클 변화는 업황 흐름을 보는 참고 지표입니다.",
+        "date": "2026-08-31T10:00:00Z",
+        "ko": "2026년 8월 31일 월요일, 오늘 최고의 고수익 저축 금리: 최대 4.15% 의 APY를 적립하세요",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "저축 금리 소개 기사로 투자 근거에 영향이 없습니다.",
         "by": "ai"
       }
     ]
@@ -760,44 +760,11 @@
     "Uniswap Price Prediction: Rally to $9 Possible as Robinhood Chain Stats Get Hotter": "Uniswap 가격 예측: Robinhood 체인 통계가 뜨거워짐에 따라 $9로 상승 가능",
     "AbbVie vs. Eli Lilly and: Which Healthcare Stock Is a Better Buy in 2026?": "AbbVie vs. Eli Lilly and: 2026년에는 어떤 헬스케어 주식이 더 나은 매수입니까?",
     "Bond Traders Buy Warsh’s Tough Talk on Inflation, for Now": "채권 거래자들, 인플레이션에 대한 워쉬의 거친 대화 구매, 당분간",
-    "Supply driven trucking market cycle explained in the data": "데이터에 설명된 공급 중심 트럭 시장 사이클"
+    "Supply driven trucking market cycle explained in the data": "데이터에 설명된 공급 중심 트럭 시장 사이클",
+    "Best CD rates today, Monday, August 31, 2026: Lock in up to 4.30% APY": "2026년 8월 31일 월요일, 오늘 최고 CD 가격: 최대 4.30% APY 고정",
+    "Best high-yield savings interest rates today, Monday, August 31, 2026: Earn up to 4.15% APY": "2026년 8월 31일 월요일, 오늘 최고의 고수익 저축 금리: 최대 4.15% 의 APY를 적립하세요"
   },
   "nvCache": {
-    "https://www.marketwatch.com/story/why-metas-stock-could-see-a-50-rally-thanks-to-an-overlooked-ai-wild-card-28cea54b?mod=mw_rss_topstories": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "목표주가 전망을 다룬 의견 기사로, 장기 이익 구조와는 무관합니다.",
-      "by": "ai"
-    },
-    "https://www.marketwatch.com/story/what-nvidia-says-on-wednesday-to-address-concerns-about-its-competitiveness-could-be-key-for-the-stock-1f9ef8fd?mod=mw_rss_topstories": {
-      "act": "watch",
-      "lasting": "structural",
-      "scope": "sector",
-      "why": "AI 반도체 경쟁 구도는 장기 실적과 연결되니 실제 발표 내용만 확인하면 됩니다.",
-      "by": "ai"
-    },
-    "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-august-25-dow-sp-500-nasdaq-tariffs-oil-080527092.html": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "지수는 보합이고 무역 긴장은 반복되는 단기 뉴스입니다.",
-      "by": "ai"
-    },
-    "https://www.cnbc.com/2026/08/25/stanley-druckenmiller-leads-doubters-who-think-bessents-bond-ploys-will-fail.html": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "유명 투자자의 전망 의견일 뿐, 기업 이익이 바뀐 사실은 없습니다.",
-      "by": "ai"
-    },
-    "https://www.marketwatch.com/story/these-growth-stocks-are-still-cheap-despite-the-s-p-500-being-near-a-record-high-price-to-sales-valuation-03602260?mod=mw_rss_topstories": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "저평가 여부를 다룬 의견성 기사로, 오늘 할 일은 없습니다.",
-      "by": "ai"
-    },
     "https://www.yna.co.kr/view/AKR20260828026900008": {
       "act": "none",
       "lasting": "temporary",
@@ -2861,6 +2828,41 @@
       "lasting": "structural",
       "scope": "sector",
       "why": "운송 업종의 공급 사이클 변화는 업황 흐름을 보는 참고 지표입니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20260831167800008": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "상장 심사 신청은 절차 초기 단계로 기존 투자 근거와 무관합니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/2026083145881": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "투자 전략을 소개하는 시장 논평이라 오늘 할 일은 없습니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20260831165200008": {
+      "act": "watch",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "소규모 3자배정 증자는 자금 사정과 지분 희석을 지켜볼 사안입니다.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-monday-august-31-2026-lock-in-up-to-430-apy-100000028.html": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "예금 금리 안내성 정보로 기업 이익과 무관합니다.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/personal-finance/banking/article/best-high-yield-savings-interest-rates-today-monday-august-31-2026-earn-up-to-415-apy-100000500.html": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "저축 금리 소개 기사로 투자 근거에 영향이 없습니다.",
       "by": "ai"
     }
   },
