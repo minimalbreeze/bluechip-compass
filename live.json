@@ -1,123 +1,123 @@
 {
-  "asOf": "2026-08-31T20:13:30.568Z",
+  "asOf": "2026-08-31T20:23:50.767Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
       "price": 6820.02,
-      "prev": 6912.3701171875,
-      "chg": -1.34,
+      "prev": 6788.8798828125,
+      "chg": 0.46,
       "basis": "last-daily-close",
       "time": "2026-08-31T09:05:40.000Z"
     },
     "^KQ11": {
       "price": 834.29,
-      "prev": 837.6500244140625,
-      "chg": -0.4,
+      "prev": 838.4099731445312,
+      "chg": -0.49,
       "basis": "last-daily-close",
       "time": "2026-08-31T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1367.38,
+      "price": 1367.39,
       "prev": 1380.449951171875,
       "chg": -0.95,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T20:13:18.000Z"
+      "time": "2026-08-31T20:23:43.000Z"
     },
     "^GSPC": {
       "price": 7686.14,
-      "prev": 7730.990234375,
-      "chg": -0.58,
+      "prev": 7711.759765625,
+      "chg": -0.33,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T20:13:23.000Z"
+      "time": "2026-08-31T20:20:01.000Z"
     },
     "^IXIC": {
       "price": 26370.889,
-      "prev": 26541.349609375,
-      "chg": -0.64,
+      "prev": 26402.419921875,
+      "chg": -0.12,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T20:13:22.000Z"
+      "time": "2026-08-31T20:23:43.000Z"
     },
     "^VIX": {
-      "price": 14.92,
-      "prev": 14.510000228881836,
-      "chg": 2.83,
+      "price": 14.9,
+      "prev": 14.430000305175781,
+      "chg": 3.26,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T19:58:16.000Z"
+      "time": "2026-08-31T20:08:31.000Z"
     },
     "^TNX": {
       "price": 4.7580004,
-      "prev": 4.671999931335449,
-      "chg": 1.84,
+      "prev": 4.71999979019165,
+      "chg": 0.81,
       "basis": "prev-daily-close",
       "time": "2026-08-31T18:59:52.000Z"
     }
   },
   "fx": {
-    "low52": 1367.38,
+    "low52": 1367.39,
     "high52": 1554.48,
     "pct": 0
   },
   "hist": {
     "^KS11": {
-      "last": 6912.37,
+      "last": 6788.88,
       "low52": 3142.93,
       "high52": 9114.55,
-      "pct52": 0.631,
-      "chg3m": -15.55
+      "pct52": 0.611,
+      "chg3m": -19.91
     },
     "^KQ11": {
-      "last": 837.65,
+      "last": 838.41,
       "low52": 644.78,
       "high52": 1226.18,
-      "pct52": 0.332,
-      "chg3m": -24.15
+      "pct52": 0.333,
+      "chg3m": -21.99
     },
     "KRW=X": {
-      "last": 1367.38,
-      "low52": 1367.38,
+      "last": 1367.39,
+      "low52": 1367.39,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -10.64
+      "chg3m": -10.63
     },
     "^GSPC": {
       "last": 7686.14,
       "low52": 6343.72,
       "high52": 7798.99,
       "pct52": 0.922,
-      "chg3m": 1.13
+      "chg3m": 1
     },
     "^IXIC": {
       "last": 26370.89,
       "low52": 20794.64,
       "high52": 27093.9,
       "pct52": 0.885,
-      "chg3m": -2.64
+      "chg3m": -2.67
     },
     "^VIX": {
-      "last": 14.92,
+      "last": 14.89,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.082,
-      "chg3m": -7.04
+      "pct52": 0.081,
+      "chg3m": -5.58
     },
     "^TNX": {
       "last": 4.76,
       "low52": 3.95,
       "high52": 4.76,
       "pct52": 1,
-      "chg3m": 6.32
+      "chg3m": 6.8
     }
   },
   "regime": {
     "by": "rules",
-    "asOf": "2026-08-31T20:13:30.003Z",
+    "asOf": "2026-08-31T20:23:50.199Z",
     "kr": {
       "why": {
-        "rates": "미국 10년물 금리가 지금 4.76%로, 3개월 전보다 6.32% 높고 최근 1년 범위(3.95~4.76)의 100% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
-        "growth": "지수가 3개월 전보다 -15.55% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
-        "valuation": "지수가 최근 1년 범위의 63% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
-        "fx": "원/달러가 1367.38원으로 최근 1년(1367.38~1554.48) 범위의 0% 지점입니다.",
-        "geo": "VIX 가 14.92입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
+        "rates": "미국 10년물 금리가 지금 4.76%로, 3개월 전보다 6.8% 높고 최근 1년 범위(3.95~4.76)의 100% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
+        "growth": "지수가 3개월 전보다 -19.91% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
+        "valuation": "지수가 최근 1년 범위의 61% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
+        "fx": "원/달러가 1367.39원으로 최근 1년(1367.39~1554.48) 범위의 0% 지점입니다.",
+        "geo": "VIX 가 14.89입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
       },
       "rates": "hike",
       "growth": "reces",
@@ -128,11 +128,11 @@
     },
     "us": {
       "why": {
-        "rates": "미국 10년물 금리가 지금 4.76%로, 3개월 전보다 6.32% 높고 최근 1년 범위(3.95~4.76)의 100% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
-        "growth": "지수가 3개월 전보다 +1.13% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
+        "rates": "미국 10년물 금리가 지금 4.76%로, 3개월 전보다 6.8% 높고 최근 1년 범위(3.95~4.76)의 100% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
+        "growth": "지수가 3개월 전보다 +1% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
         "valuation": "지수가 최근 1년 범위의 92% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
-        "fx": "원/달러가 1367.38원으로 최근 1년(1367.38~1554.48) 범위의 0% 지점입니다.",
-        "geo": "VIX 가 14.92입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
+        "fx": "원/달러가 1367.39원으로 최근 1년(1367.39~1554.48) 범위의 0% 지점입니다.",
+        "geo": "VIX 가 14.89입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
       },
       "rates": "hike",
       "growth": "expand",
@@ -239,92 +239,92 @@
     "us": {
       "MSFT": {
         "price": 507.29,
-        "prev": 505.05999755859375,
-        "chg": 0.44,
+        "prev": 513.530029296875,
+        "chg": -1.22,
         "basis": "prev-daily-close",
         "time": "2026-08-31T20:00:01.000Z"
       },
       "AAPL": {
         "price": 316.85,
-        "prev": 314.5799865722656,
-        "chg": 0.72,
+        "prev": 319.70001220703125,
+        "chg": -0.89,
         "basis": "prev-daily-close",
         "time": "2026-08-31T20:00:01.000Z"
       },
       "GOOGL": {
         "price": 339.35,
-        "prev": 340.6499938964844,
-        "chg": -0.38,
+        "prev": 346.5899963378906,
+        "chg": -2.09,
         "basis": "prev-daily-close",
         "time": "2026-08-31T20:00:01.000Z"
       },
       "BRK.B": {
-        "price": 504.08,
-        "prev": 503.70001220703125,
-        "chg": 0.08,
+        "price": 504.03,
+        "prev": 505,
+        "chg": -0.19,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T20:00:01.000Z"
+        "time": "2026-08-31T20:00:03.000Z"
       },
       "V": {
-        "price": 379.44,
-        "prev": 379.6600036621094,
-        "chg": -0.06,
+        "price": 379.37,
+        "prev": 381.6000061035156,
+        "chg": -0.58,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T19:59:59.000Z"
+        "time": "2026-08-31T20:00:03.000Z"
       },
       "JNJ": {
-        "price": 265.89,
-        "prev": 265.7699890136719,
-        "chg": 0.05,
+        "price": 265.85,
+        "prev": 268.0400085449219,
+        "chg": -0.82,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T19:59:59.000Z"
+        "time": "2026-08-31T20:00:02.000Z"
       },
       "PG": {
-        "price": 145.11,
-        "prev": 143.13999938964844,
-        "chg": 1.38,
+        "price": 145.12,
+        "prev": 143.77999877929688,
+        "chg": 0.93,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T19:59:59.000Z"
+        "time": "2026-08-31T20:02:52.000Z"
       },
       "KO": {
-        "price": 88.7,
-        "prev": 89.05999755859375,
-        "chg": -0.4,
+        "price": 88.67,
+        "prev": 89.66000366210938,
+        "chg": -1.1,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T20:00:00.000Z"
+        "time": "2026-08-31T20:00:02.000Z"
       },
       "COST": {
         "price": 943.89,
-        "prev": 934.6599731445312,
-        "chg": 0.99,
+        "prev": 945.469970703125,
+        "chg": -0.17,
         "basis": "prev-daily-close",
         "time": "2026-08-31T20:00:01.000Z"
       },
       "WM": {
-        "price": 219.03,
-        "prev": 217.75999450683594,
-        "chg": 0.58,
+        "price": 218.92,
+        "prev": 219.66000366210938,
+        "chg": -0.34,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T19:59:59.000Z"
+        "time": "2026-08-31T20:00:03.000Z"
       },
       "LIN": {
         "price": 489.58,
-        "prev": 485.3500061035156,
-        "chg": 0.87,
+        "prev": 489.510009765625,
+        "chg": 0.01,
         "basis": "prev-daily-close",
         "time": "2026-08-31T20:00:01.000Z"
       },
       "XOM": {
-        "price": 160.98,
-        "prev": 156.44000244140625,
-        "chg": 2.9,
+        "price": 160.95,
+        "prev": 156.7100067138672,
+        "chg": 2.71,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T20:00:00.000Z"
+        "time": "2026-08-31T20:04:07.000Z"
       },
       "NVDA": {
-        "price": 220.5,
-        "prev": 227.97999572753906,
-        "chg": -3.28,
+        "price": 220.78,
+        "prev": 217.5500030517578,
+        "chg": 1.48,
         "basis": "prev-daily-close",
         "time": "2026-08-31T20:00:01.000Z"
       }
@@ -413,46 +413,10 @@
         "by": "ai"
       },
       {
-        "title": "The 10-year Treasury yield just crossed a key threshold that should make people ‘sit up and take notice’",
-        "link": "https://www.marketwatch.com/story/the-10-year-treasury-yield-just-crossed-a-key-threshold-that-should-make-people-sit-up-and-take-notice-ffc0b5b5?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "date": "Mon, 31 Aug 2026 19:56:00 GMT",
-        "ko": "10년 국채 수익률은 사람들이 ‘앉아서 주목해야‘ 하는 핵심 문턱을 막 넘었습니다.",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "'All about acceleration': After Nvidia earnings, the tech trade is getting more segmented",
-        "link": "https://finance.yahoo.com/markets/article/all-about-acceleration-after-nvidia-earnings-the-tech-trade-is-getting-more-segmented-114905135.html",
-        "source": "Yahoo Finance",
-        "date": "2026-08-30T11:49:05Z",
-        "ko": "'액셀러레이팅의 모든 것': 엔비디아 수익 창출 이후, 기술 거래는 점점 더 세분화되고 있습니다.",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "Fed's Hammack says 'now is the time to act' on raising interest rates",
-        "link": "https://www.cnbc.com/2026/08/27/feds-hammack-says-now-is-the-time-to-act-on-raising-interest-rates.html",
-        "source": "CNBC",
-        "date": "Thu, 27 Aug 2026 17:31:09 GMT",
-        "ko": "Fed의 Hammack은 금리 인상에 대해 '지금이 행동할 때' 라고 말합니다.",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "연준 인사 한 명의 발언으로 금리 방향이 확정된 것은 아닙니다.",
-        "by": "ai"
-      },
-      {
         "title": "Amazon’s stock slips as the FTC alleges billions of dollars in hidden ad fees",
         "link": "https://www.marketwatch.com/story/amazons-stock-slips-as-the-ftc-alleges-billions-of-dollars-in-hidden-ad-fees-4ae44ee4?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 31 Aug 2026 19:42:00 GMT",
+        "date": "Mon, 31 Aug 2026 20:21:00 GMT",
         "ko": "FTC가 수십억 달러의 숨겨진 광고 수수료를 주장함에 따라 아마존의 주식은 하락했다.",
         "act": "none",
         "lasting": "temporary",
@@ -469,6 +433,42 @@
         "act": "none",
         "lasting": "temporary",
         "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "Fed's Hammack says 'now is the time to act' on raising interest rates",
+        "link": "https://www.cnbc.com/2026/08/27/feds-hammack-says-now-is-the-time-to-act-on-raising-interest-rates.html",
+        "source": "CNBC",
+        "date": "Thu, 27 Aug 2026 17:31:09 GMT",
+        "ko": "Fed의 Hammack은 금리 인상에 대해 '지금이 행동할 때' 라고 말합니다.",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "연준 인사 한 명의 발언으로 금리 방향이 확정된 것은 아닙니다.",
+        "by": "ai"
+      },
+      {
+        "title": "The 10-year Treasury yield just crossed a key threshold that should make people ‘sit up and take notice’",
+        "link": "https://www.marketwatch.com/story/the-10-year-treasury-yield-just-crossed-a-key-threshold-that-should-make-people-sit-up-and-take-notice-ffc0b5b5?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "date": "Mon, 31 Aug 2026 20:20:00 GMT",
+        "ko": "10년 국채 수익률은 사람들이 ‘앉아서 주목해야‘ 하는 핵심 문턱을 막 넘었습니다.",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "'All about acceleration': After Nvidia earnings, the tech trade is getting more segmented",
+        "link": "https://finance.yahoo.com/markets/article/all-about-acceleration-after-nvidia-earnings-the-tech-trade-is-getting-more-segmented-114905135.html",
+        "source": "Yahoo Finance",
+        "date": "2026-08-30T11:49:05Z",
+        "ko": "'액셀러레이팅의 모든 것': 엔비디아 수익 창출 이후, 기술 거래는 점점 더 세분화되고 있습니다.",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -2880,8 +2880,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CebSLtruTFipwK8fguroE\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CebSLuY5wrzW6gd7s4x3Z\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CebSLv27K2h1ZNzETWk4P\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CebT8cQELmYfhNrA487fZ\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CebT8d6uEKSEQqGT8LDs4\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CebT8dduHQF4M4TU7RGJs\"}"
   ]
 }
