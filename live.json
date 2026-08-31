@@ -1,27 +1,27 @@
 {
-  "asOf": "2026-08-31T05:11:28.972Z",
+  "asOf": "2026-08-31T05:32:31.077Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
-      "price": 6717.93,
+      "price": 6770.12,
       "prev": 6788.8798828125,
-      "chg": -1.05,
+      "chg": -0.28,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T04:50:40.000Z"
+      "time": "2026-08-31T05:11:40.000Z"
     },
     "^KQ11": {
-      "price": 825.43,
+      "price": 829.8,
       "prev": 838.4099731445312,
-      "chg": -1.55,
+      "chg": -1.03,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T04:50:40.000Z"
+      "time": "2026-08-31T05:11:40.000Z"
     },
     "KRW=X": {
-      "price": 1375.46,
+      "price": 1374.28,
       "prev": 1380.449951171875,
-      "chg": -0.36,
+      "chg": -0.45,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T05:10:40.000Z"
+      "time": "2026-08-31T05:31:45.000Z"
     },
     "^GSPC": {
       "price": 7711.76,
@@ -53,31 +53,31 @@
     }
   },
   "fx": {
-    "low52": 1375.46,
+    "low52": 1374.28,
     "high52": 1554.48,
     "pct": 0
   },
   "hist": {
     "^KS11": {
-      "last": 6717.93,
+      "last": 6770.12,
       "low52": 3142.93,
       "high52": 9114.55,
-      "pct52": 0.599,
-      "chg3m": -23.56
+      "pct52": 0.607,
+      "chg3m": -22.97
     },
     "^KQ11": {
-      "last": 825.43,
+      "last": 829.8,
       "low52": 644.78,
       "high52": 1226.18,
-      "pct52": 0.311,
-      "chg3m": -21.39
+      "pct52": 0.318,
+      "chg3m": -20.97
     },
     "KRW=X": {
-      "last": 1375.46,
-      "low52": 1375.46,
+      "last": 1374.28,
+      "low52": 1374.28,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -10.11
+      "chg3m": -10.18
     },
     "^GSPC": {
       "last": 7711.76,
@@ -110,16 +110,16 @@
   },
   "regime": {
     "by": "ai",
-    "asOf": "2026-08-31T05:11:21.285Z",
+    "asOf": "2026-08-31T05:32:20.370Z",
     "kr": {
       "why": {
-        "rates": "제시된 금리 지표인 ^TNX가 4.72로 1년범위 3.95~4.74의 97% 지점이고 3개월 +5.47%로 상승 중이라 금리는 오르는 쪽으로 봅니다(다만 한국은행 정책 관련 자료는 주어지지 않아 근거가 제한적입니다).",
-        "growth": "^KS11이 3개월 -23.56%로 크게 밀렸지만 여전히 1년범위의 60% 지점(6717.93)이고 ^VIX도 14.43으로 낮아, 침체 확정보다는 둔화 국면으로 분류합니다.",
-        "valuation": "코스피가 1년범위 3142.93~9114.55의 60% 위치로 고점도 저점도 아니어서 보통 수준으로 봅니다.",
-        "fx": "KRW=X가 1375.46으로 1년범위(1375.46~1554.48)의 0% 지점이고 3개월 -10.11%라 원화가 뚜렷하게 강해진 상태입니다.",
-        "geo": "제시된 헤드라인이 펀드 결성, ETF 자금, 거래소 MOU 등 국내 시장 제도·상품 뉴스뿐이고 ^VIX도 14.43으로 낮아 평온으로 봅니다."
+        "rates": "제시된 금리 지표인 ^TNX가 4.72로 1년 범위(3.95~4.74)의 97% 지점이고 3개월간 +5.47% 올라 금리가 오르는 쪽에 가깝습니다(단, 이는 미국 10년물이며 한국 기준금리 자료는 주어지지 않았습니다).",
+        "growth": "^KS11이 3개월간 -22.97%로 크게 밀렸지만 현재 6770.12는 1년 범위(3142.93~9114.55)의 61% 지점이고 ^VIX도 14.43으로 낮아, 침체 확정보다는 둔화 국면으로 봅니다.",
+        "valuation": "지수 위치가 1년 범위의 61%로 중간보다 약간 위이고 3개월 -22.97% 조정을 거쳐, 싸지도 비싸지도 않은 보통 수준으로 분류합니다.",
+        "fx": "KRW=X가 1374.28로 1년 범위(1374.28~1554.48)의 0% 지점이자 3개월간 -10.18%로, 원화가 1년 중 가장 강한 상태입니다.",
+        "geo": "헤드라인이 기업 인수 승인, ETF 순매수, 거래소 MOU 등 시장·기업 이슈뿐이고 ^VIX도 14.43(1년 범위 6% 지점)으로 낮아 긴장 신호가 없습니다."
       },
-      "summary": "원화가 1375.46으로 1년 최저 수준까지 강해진 가운데 코스피는 3개월 -23.56%로 크게 조정받아 성장세가 식은 모습입니다. 다만 지수 위치는 1년범위 60%, VIX는 14.43으로 낮아 시장 자체는 아직 차분한 둔화 국면으로 분류됩니다.",
+      "summary": "금리는 높은 곳에 머물며 오름세이고 원화는 1년 중 가장 강한데, 코스피는 3개월간 크게 밀려 둔화 색이 짙습니다. 다만 변동성 지표(VIX 14.43)는 낮아 시장이 공포에 빠진 상태는 아닙니다.",
       "rates": "hike",
       "growth": "slow",
       "valuation": "fair",
@@ -128,13 +128,13 @@
     },
     "us": {
       "why": {
-        "rates": "^TNX가 4.72로 1년범위의 97% 지점이고 3개월 +5.47%인 데다, 헤드라인에서 워시의 인플레이션 우려와 해맥의 '지금이 행동할 때' 발언 등 금리 인상 언급이 반복돼 인상 방향으로 봅니다.",
-        "growth": "^GSPC가 7711.76으로 1년범위 6343.72~7798.99의 94% 지점이고 3개월 +1.47%로 완만히 올라 경기 인식은 아직 괜찮은 쪽입니다.",
-        "valuation": "지수가 1년 고점 7798.99에 근접한 94% 위치라 가격대는 비싼 편으로 분류합니다.",
-        "fx": "KRW=X 1375.46은 1년범위의 0% 지점이고 3개월 -10.11%로, 달러 대비 원화가 강한 상태입니다(미국 관점에선 달러가 상대적으로 약한 쪽).",
-        "geo": "^VIX는 14.43으로 낮지만 잭슨홀 발언 이후 금리 인상 가능성에 주식 선물이 밀렸다는 헤드라인이 있어 정책 긴장은 있는 상태로 봅니다."
+        "rates": "^TNX가 4.72로 1년 범위(3.95~4.74)의 97% 지점, 3개월 +5.47%이고 헤드라인에도 '금리 인상 가능성', '지금이 행동할 때'라는 연준 인사 발언이 나옵니다.",
+        "growth": "^GSPC가 7711.76으로 1년 범위(6343.72~7798.99)의 94% 지점이고 3개월 +1.47%로 상승 흐름을 유지해 경기 우려 신호는 자료상 보이지 않습니다.",
+        "valuation": "지수가 1년 고점 7798.99에 근접한 94% 위치라 가격대는 높은 편으로 분류합니다(이익 지표는 주어지지 않았습니다).",
+        "fx": "KRW=X 1374.28은 1년 범위의 0% 지점이며 3개월 -10.18%로, 달러 대비 원화가 강한 쪽입니다.",
+        "geo": "^VIX는 14.43으로 낮지만 헤드라인 1·2·4가 연준의 인플레이션 우려와 금리 인상 시사, 그에 따른 주식 선물 하락을 전하고 있어 정책 긴장은 있는 것으로 봅니다."
       },
-      "summary": "S&P500은 1년범위 94% 지점(7711.76)으로 높은 자리에 있고 VIX 14.43으로 시장은 차분합니다. 다만 10년물이 4.72로 1년 최고 부근이고 연준 인사들의 금리 인상 발언이 이어져 정책 쪽 긴장이 남아 있는 국면입니다.",
+      "summary": "미국 증시는 1년 고점 근처(범위의 94%)에 있어 가격은 높은 편이고, 동시에 연준의 인상 시사와 10년물 4.72%라는 금리 부담이 함께 놓인 국면입니다. 변동성은 낮지만 정책 발언에 따라 흔들릴 수 있는 상태로 분류합니다.",
       "rates": "hike",
       "growth": "expand",
       "valuation": "rich",
@@ -145,95 +145,95 @@
   "stocks": {
     "kr": {
       "105560": {
-        "price": 173700,
+        "price": 173100,
         "prev": 171600,
-        "chg": 1.22,
+        "chg": 0.87,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T04:50:48.000Z"
+        "time": "2026-08-31T05:11:48.000Z"
       },
       "207940": {
-        "price": 1503000,
+        "price": 1502000,
         "prev": 1486000,
-        "chg": 1.14,
+        "chg": 1.08,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T04:50:42.000Z"
+        "time": "2026-08-31T05:11:41.000Z"
       },
       "005930": {
-        "price": 253750,
+        "price": 256000,
         "prev": 257000,
-        "chg": -1.26,
+        "chg": -0.39,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T04:50:50.000Z"
+        "time": "2026-08-31T05:11:49.000Z"
       },
       "000660": {
-        "price": 1627000,
+        "price": 1650000,
         "prev": 1653000,
-        "chg": -1.57,
+        "chg": -0.18,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T04:50:49.000Z"
+        "time": "2026-08-31T05:11:49.000Z"
       },
       "005380": {
-        "price": 401500,
+        "price": 403500,
         "prev": 399500,
-        "chg": 0.5,
+        "chg": 1,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T04:50:48.000Z"
+        "time": "2026-08-31T05:11:49.000Z"
       },
       "055550": {
         "price": 110300,
         "prev": 109700,
         "chg": 0.55,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T04:50:49.000Z"
+        "time": "2026-08-31T05:11:48.000Z"
       },
       "000810": {
-        "price": 665000,
+        "price": 666000,
         "prev": 687000,
-        "chg": -3.2,
+        "chg": -3.06,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T04:50:44.000Z"
+        "time": "2026-08-31T05:11:44.000Z"
       },
       "033780": {
-        "price": 177600,
+        "price": 176600,
         "prev": 176300,
-        "chg": 0.74,
+        "chg": 0.17,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T04:50:48.000Z"
+        "time": "2026-08-31T05:11:44.000Z"
       },
       "035420": {
-        "price": 215500,
+        "price": 216500,
         "prev": 220500,
-        "chg": -2.27,
+        "chg": -1.81,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T04:50:48.000Z"
+        "time": "2026-08-31T05:11:48.000Z"
       },
       "005490": {
-        "price": 339500,
+        "price": 338500,
         "prev": 337500,
-        "chg": 0.59,
+        "chg": 0.3,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T04:50:49.000Z"
+        "time": "2026-08-31T05:11:43.000Z"
       },
       "028260": {
-        "price": 373000,
+        "price": 376000,
         "prev": 375000,
-        "chg": -0.53,
+        "chg": 0.27,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T04:50:48.000Z"
+        "time": "2026-08-31T05:11:48.000Z"
       },
       "012450": {
-        "price": 1114000,
+        "price": 1107000,
         "prev": 1157000,
-        "chg": -3.72,
+        "chg": -4.32,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T04:50:50.000Z"
+        "time": "2026-08-31T05:11:49.000Z"
       },
       "017670": {
-        "price": 94500,
+        "price": 94300,
         "prev": 98600,
-        "chg": -4.16,
+        "chg": -4.36,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T04:50:46.000Z"
+        "time": "2026-08-31T05:11:49.000Z"
       }
     },
     "us": {
@@ -333,14 +333,14 @@
   "news": {
     "kr": [
       {
-        "title": "105억 국민안전산업펀드 1호 결성 추진…운용사는 현대차증권",
-        "link": "https://www.yna.co.kr/view/AKR20260831034400530",
+        "title": "공정위, 한화의 KAI 주식 취득 승인…\"경쟁 제한성 없어\"",
+        "link": "https://www.yna.co.kr/view/AKR20260831112100002",
         "source": "연합뉴스",
-        "date": "Mon, 31 Aug 2026 12:00:16 +0900",
-        "act": "none",
-        "lasting": "temporary",
+        "date": "Mon, 31 Aug 2026 14:21:33 +0900",
+        "act": "watch",
+        "lasting": "structural",
         "scope": "company",
-        "why": "소규모 펀드 결성 소식으로 장기 이익 구조와는 거리가 멉니다.",
+        "why": "규제 승인으로 지분 취득 불확실성이 걷혀 사업 구조가 바뀔 수 있습니다.",
         "by": "ai"
       },
       {
@@ -366,14 +366,14 @@
         "by": "ai"
       },
       {
-        "title": "한은 \"반도체 성과급 받아 동탄에 집 사고 테슬라 탄다\"",
-        "link": "https://www.yna.co.kr/view/AKR20260831085500002",
+        "title": "삼성바이오, 2.7조 폴리펩타이드 인수 공개매수 착수",
+        "link": "https://www.yna.co.kr/view/AKR20260831110500017",
         "source": "연합뉴스",
-        "date": "Mon, 31 Aug 2026 12:00:00 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "특정 업종 소득이 소비로 퍼지는 현상 설명이라 오늘 할 일은 없습니다.",
+        "date": "Mon, 31 Aug 2026 14:17:19 +0900",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": "company",
+        "why": "조 단위 인수는 사업 구성과 재무 구조를 오래 바꿀 사안입니다.",
         "by": "ai"
       },
       {
@@ -425,15 +425,15 @@
         "by": "ai"
       },
       {
-        "title": "ExxonMobil Stock: Is XOM Underperforming the Energy Sector?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/exxonmobil-stock-xom-underperforming-energy-173804479.html",
+        "title": "Intel vs. AMD: Why the Market Share Number Is Misleading",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/intel-vs-amd-why-market-183002932.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-29T17:38:04Z",
-        "ko": "ExxonMobil Stock: XOM이 에너지 부문의 실적을 낮추고 있습니까?",
+        "date": "2026-08-29T18:30:02Z",
+        "ko": "인텔 vs. AMD: 시장 점유율 숫자가 오해의 소지가 있는 이유",
         "act": "none",
-        "lasting": "temporary",
+        "lasting": "structural",
         "scope": "sector",
-        "why": "단기 주가 흐름 비교 기사로, 장기 이익 구조와는 무관합니다.",
+        "why": "점유율 해석에 관한 분석 기사로 당장 할 일은 없지만 반도체 경쟁 구도는 구조적 주제입니다.",
         "by": "ai"
       },
       {
@@ -461,15 +461,15 @@
         "by": "ai"
       },
       {
-        "title": "Alphabet Stock: 3 Reasons to Buy Before It Hits a New All-Time High",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/alphabet-stock-3-reasons-buy-173002809.html",
+        "title": "ExxonMobil Stock: Is XOM Underperforming the Energy Sector?",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/exxonmobil-stock-xom-underperforming-energy-173804479.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-29T17:30:02Z",
-        "ko": "알파벳 주식: 새로운 역대 최고치를 기록하기 전에 구매해야 하는 3가지 이유",
+        "date": "2026-08-29T17:38:04Z",
+        "ko": "ExxonMobil Stock: XOM이 에너지 부문의 실적을 낮추고 있습니까?",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
-        "why": "매수 추천 형식의 의견 기사로 새로운 사실이 없습니다.",
+        "scope": "sector",
+        "why": "단기 주가 흐름 비교 기사로, 장기 이익 구조와는 무관합니다.",
         "by": "ai"
       }
     ]
@@ -753,30 +753,10 @@
     "Is Procter & Gamble Stock Underperforming the Nasdaq?": "Procter & Gamble Stock은 Nasdaq의 실적을 낮추고 있습니까?",
     "How Is Home Depot’s Stock Performance Compared to Other Consumer Discretionary Stocks": "Home Depot의 주식 실적은 다른 소비자 재량 주식과 비교하여 어떻게 비교됩니까?",
     "Alphabet Stock: 3 Reasons to Buy Before It Hits a New All-Time High": "알파벳 주식: 새로운 역대 최고치를 기록하기 전에 구매해야 하는 3가지 이유",
-    "ExxonMobil Stock: Is XOM Underperforming the Energy Sector?": "ExxonMobil Stock: XOM이 에너지 부문의 실적을 낮추고 있습니까?"
+    "ExxonMobil Stock: Is XOM Underperforming the Energy Sector?": "ExxonMobil Stock: XOM이 에너지 부문의 실적을 낮추고 있습니까?",
+    "Intel vs. AMD: Why the Market Share Number Is Misleading": "인텔 vs. AMD: 시장 점유율 숫자가 오해의 소지가 있는 이유"
   },
   "nvCache": {
-    "https://finance.yahoo.com/markets/article/luxury-auto-ceos-say-theres-a-k-shaped-economy-even-at-the-very-top-of-the-market-145500874.html": {
-      "act": "watch",
-      "lasting": "structural",
-      "scope": "sector",
-      "why": "소비 양극화 언급은 고가 소비 업종의 수요 구조와 이어질 수 있어 흐름만 지켜보면 됩니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20260825078500002": {
-      "act": "watch",
-      "lasting": "structural",
-      "scope": "sector",
-      "why": "레버리지 상품 공시 규제 강화로 판매 관행이 바뀔 수 있어 지켜볼 사안입니다.",
-      "by": "ai"
-    },
-    "https://finance.yahoo.com/markets/stocks/articles/7-stock-ticket-becoming-millionaire-164400898.html": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "근거가 불분명한 홍보성 제목으로 판단 근거가 없습니다.",
-      "by": "ai"
-    },
     "https://finance.yahoo.com/markets/stocks/articles/nvidia-earnings-jackson-hole-other-170002056.html": {
       "act": "none",
       "lasting": "temporary",
@@ -2854,6 +2834,27 @@
       "lasting": "temporary",
       "scope": "sector",
       "why": "단기 주가 흐름 비교 기사로, 장기 이익 구조와는 무관합니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20260831112100002": {
+      "act": "watch",
+      "lasting": "structural",
+      "scope": "company",
+      "why": "규제 승인으로 지분 취득 불확실성이 걷혀 사업 구조가 바뀔 수 있습니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20260831110500017": {
+      "act": "watch",
+      "lasting": "structural",
+      "scope": "company",
+      "why": "조 단위 인수는 사업 구성과 재무 구조를 오래 바꿀 사안입니다.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/markets/stocks/articles/intel-vs-amd-why-market-183002932.html": {
+      "act": "none",
+      "lasting": "structural",
+      "scope": "sector",
+      "why": "점유율 해석에 관한 분석 기사로 당장 할 일은 없지만 반도체 경쟁 구도는 구조적 주제입니다.",
       "by": "ai"
     }
   },
