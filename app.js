@@ -530,8 +530,12 @@
 
      받을 때마다 다시 그리지는 않는다. asOf 가 그대로면 화면도 그대로다 —
      읽던 자리가 이유 없이 새로 그려지면 그게 더 나쁘다.                */
-  var POLL_MS  = 5 * 60 * 1000;   /* 켜 둔 동안: 5분마다 */
-  var STALE_MS = 60 * 1000;       /* 돌아왔을 때: 1분 넘었으면 다시 */
+  /* 서버가 장중 10분마다 새 스냅샷을 올린다. 앱이 5분마다 보면 새 값이
+     최대 5분 늦게 도착한다 — 그만큼 화면이 뒤처진다. 90초로 줄여 서버가
+     올린 값을 거의 바로 집는다. live.json 은 작은 파일이고 CDN 에서 오므로
+     이 정도 빈도는 부담이 아니다. */
+  var POLL_MS  = 90 * 1000;       /* 켜 둔 동안: 90초마다 */
+  var STALE_MS = 30 * 1000;       /* 돌아왔을 때: 30초 넘었으면 다시 */
 
   /* opts.quiet 를 주면 값이 그대로일 때 아무것도 하지 않는다.
      받아온 뒤에 무엇이 달라졌는지 알아야 하는 쪽이 있어서 Promise 를 준다. */
@@ -658,10 +662,10 @@
 
   /* 몇 개씩 나눠 두드린다. 한꺼번에 스무 개를 던지면 상대 쪽에서 막는다. */
   function directQuotes(mk) {
-    if (DIRECT.ok === false) return Promise.resolve(false);
-    if (!window.fetch || !window.Promise) return Promise.resolve(false);
+    if (DIRECT.ok === false) return Promise.resolve(0);
+    if (!window.fetch || !window.Promise) return Promise.resolve(0);
     var list = directWanted(mk);
-    if (!list.length) return Promise.resolve(false);
+    if (!list.length) return Promise.resolve(0);
 
     /* ── 한 개로 먼저 떠본다 ────────────────────────────────────
        막혀 있는 환경(CORS 차단, 사내망 등)에서 스무 개를 한꺼번에 던지면
@@ -675,7 +679,7 @@
         });
 
     return probe.then(function (alive) {
-      if (!alive) return false;
+      if (!alive) return 0;
       return fetchRest(mk, list);
     });
   }
@@ -688,7 +692,9 @@
         return oneQuote(mk, t).then(function (r) { if (r) got.push(r); return worker(); });
       }
       return Promise.all([worker(), worker(), worker()]).then(function () {
-      if (!got.length) return false;
+      /* 몇 개를 받았는지 그대로 돌려준다. 0 이면 falsy 라 예전 쓰임새도
+         그대로고, "실시간으로 N종목" 이라고 말할 수 있게 된다. */
+      if (!got.length) return 0;
       DIRECT.ok = true; DIRECT.at = Date.now();
       if (!LIVE) LIVE = { quotes: {}, stocks: { kr: {}, us: {} } };
       if (!LIVE.stocks) LIVE.stocks = { kr: {}, us: {} };
@@ -697,7 +703,7 @@
         var was = LIVE.stocks[mk][r.t] || {};
         LIVE.stocks[mk][r.t] = { price: r.price, chg: was.chg, direct: true };
       });
-      return true;
+      return got.length;
     });
   }
 
@@ -707,10 +713,15 @@
     return Promise.all([
       loadLive({ quiet: true }),
       loadPrices({ force: true })
-    ]).then(function () {
+    ]).then(function (r) {
       /* 스냅샷을 먼저 깔고, 그 위에 직접 받은 값을 얹는다. 순서가 중요하다 —
          반대로 하면 방금 직접 받은 값이 낡은 스냅샷에 덮인다. */
-      return directQuotes(state.market);
+      return directQuotes(state.market).then(function (n) {
+        /* **무엇을 얻었는지 돌려준다.** 예전에는 아무것도 안 돌려줘서
+           누른 사람이 결과를 알 길이 없었다 — 값이 그대로면 화면도 그대로라,
+           고장난 것과 구분이 안 됐다. */
+        return { fresh: !!r[0], direct: n || 0 };
+      });
     });
   }
 
@@ -941,10 +952,10 @@
   /* 장중인데 스냅샷이 이만큼 낡았으면 그 사실을 눈에 보이게 말한다.
      크론이 밀리는 일이 실제로 있었다(다섯 시간 동안 한 번도 안 돈 날). 그때
      화면은 아무 일 없다는 듯 옛 숫자를 보여줬다 — 그게 제일 나쁘다. */
-  /* 심장박동이 장중 20분마다 도니, 정상이면 스냅샷은 아무리 낡아도 20여 분이다.
-     45분은 너무 느슨했다 — 한 회차를 통째로 건너뛰어도 아무 말을 안 했다.
-     한 회차 반(30분)을 넘기면 그 사실을 말한다. */
-  var STALE_WARN_MIN = 30;
+  /* 심장박동이 장중 10분마다 도니, 정상이면 스냅샷은 아무리 낡아도 10여 분이다.
+     45분일 때는 한 회차를 통째로 건너뛰어도 아무 말을 안 했다. 한 회차 반을
+     넘기면 그 사실을 말한다 — 서버 간격이 바뀌면 이 값도 같이 바꿀 것. */
+  var STALE_WARN_MIN = 18;
   function liveStale() {
     if (!LIVE || !LIVE.asOf) return null;
     if (!marketOpenNow('kr') && !marketOpenNow('us')) return null;
@@ -1135,11 +1146,15 @@
           : '<span><b>' + agoText(LIVE.asOf) + '</b> 받아온 값</span>')
       : '<span>시세를 아직 못 받아왔습니다.</span>';
 
+    /* 방금 누른 결과. 잠깐만 보여주고 사라진다 — 계속 남으면 그것도 소음이다. */
+    var msg = state.liveMsg && (Date.now() - state.liveMsg.at) < 25000
+      ? '<div class="fresh-msg">' + esc(state.liveMsg.text) + '</div>' : '';
+
     h.push('<div class="freshbar' + (stale ? ' is-old' : '') + '">' +
       '<span class="fresh-i">' + (stale ? '⚠️' : '🕒') + '</span>' +
       '<div class="fresh-t">' + body + '</div>' +
       '<button class="fresh-b" id="live-refresh">다시 받기</button>' +
-    '</div>');
+    '</div>' + msg);
 
     return h.join('');
   }
@@ -3288,9 +3303,19 @@
     if (ev.target.id === 'live-refresh') {
       var rb = ev.target;
       rb.disabled = true; rb.textContent = '⏳ 받는 중…';
-      refreshNow().then(function () {
-        /* 값이 그대로여도 다시 그린다 — 눌렀는데 아무 반응이 없으면
-           고장으로 읽힌다. 바뀐 게 없으면 그렇다고 말해주는 편이 낫다. */
+      refreshNow().then(function (r) {
+        /* ⚠️ **결과를 반드시 말한다.** 예전에는 다시 그리기만 했다. 서버
+           스냅샷은 장중 10분마다 바뀌므로 그 사이에 누르면 화면이 똑같고,
+           누른 사람에게는 그게 "안 눌린다"로 읽힌다. 실제로 그렇게 신고가
+           들어왔다. 얻은 게 없으면 없다고 말한다. */
+        state.liveMsg = {
+          at: Date.now(),
+          text: r.direct
+            ? '✅ 지금 시세로 ' + r.direct + '종목을 직접 받았습니다.'
+            : r.fresh
+              ? '✅ 새 시세를 받았습니다.'
+              : '받아봤지만 아직 새 값이 없습니다. 서버가 받아둔 값이 가장 최신입니다.'
+        };
         render();
       });
       return;
