@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-01T17:22:22.372Z",
+  "asOf": "2026-09-01T17:32:48.667Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -17,43 +17,43 @@
       "time": "2026-09-01T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1373.24,
+      "price": 1373.18,
       "prev": 1377.1099853515625,
-      "chg": -0.28,
+      "chg": -0.29,
       "basis": "prev-daily-close",
-      "time": "2026-09-01T17:22:15.000Z"
+      "time": "2026-09-01T17:32:37.000Z"
     },
     "^GSPC": {
-      "price": 7632.8,
+      "price": 7636.01,
       "prev": 7686.14013671875,
-      "chg": -0.69,
+      "chg": -0.65,
       "basis": "prev-daily-close",
-      "time": "2026-09-01T17:22:17.000Z"
+      "time": "2026-09-01T17:32:42.000Z"
     },
     "^IXIC": {
-      "price": 26124.186,
+      "price": 26131.32,
       "prev": 26370.890625,
-      "chg": -0.94,
+      "chg": -0.91,
       "basis": "prev-daily-close",
-      "time": "2026-09-01T17:22:14.000Z"
+      "time": "2026-09-01T17:32:41.000Z"
     },
     "^VIX": {
-      "price": 16.02,
+      "price": 16.03,
       "prev": 14.920000076293945,
-      "chg": 7.37,
+      "chg": 7.44,
       "basis": "prev-daily-close",
-      "time": "2026-09-01T17:07:16.000Z"
+      "time": "2026-09-01T17:17:31.000Z"
     },
     "^TNX": {
       "price": 4.788,
       "prev": 4.757999897003174,
       "chg": 0.63,
       "basis": "prev-daily-close",
-      "time": "2026-09-01T17:07:14.000Z"
+      "time": "2026-09-01T17:17:34.000Z"
     }
   },
   "fx": {
-    "low52": 1373.24,
+    "low52": 1373.18,
     "high52": 1554.48,
     "pct": 0
   },
@@ -63,61 +63,61 @@
       "low52": 3142.93,
       "high52": 9114.55,
       "pct52": 0.616,
-      "chg3m": -22.4
+      "chg3m": -19.54
     },
     "^KQ11": {
       "last": 834.29,
       "low52": 644.78,
       "high52": 1226.18,
       "pct52": 0.326,
-      "chg3m": -20.55
+      "chg3m": -22.38
     },
     "KRW=X": {
-      "last": 1373.24,
-      "low52": 1373.24,
+      "last": 1373.18,
+      "low52": 1373.18,
       "high52": 1554.48,
       "pct52": 0,
       "chg3m": -10.43
     },
     "^GSPC": {
-      "last": 7632.8,
+      "last": 7636,
       "low52": 6343.72,
       "high52": 7798.99,
-      "pct52": 0.886,
-      "chg3m": 1.05
+      "pct52": 0.888,
+      "chg3m": 0.34
     },
     "^IXIC": {
-      "last": 26124.19,
+      "last": 26131.32,
       "low52": 20794.64,
       "high52": 27093.9,
-      "pct52": 0.846,
-      "chg3m": -2.72
+      "pct52": 0.847,
+      "chg3m": -3.55
     },
     "^VIX": {
-      "last": 16.02,
+      "last": 16.03,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.145,
-      "chg3m": -0.25
+      "pct52": 0.146,
+      "chg3m": 1.65
     },
     "^TNX": {
       "last": 4.79,
       "low52": 3.95,
       "high52": 4.79,
       "pct52": 1,
-      "chg3m": 6.61
+      "chg3m": 7.47
     }
   },
   "regime": {
     "by": "rules",
-    "asOf": "2026-09-01T17:22:21.762Z",
+    "asOf": "2026-09-01T17:32:48.126Z",
     "kr": {
       "why": {
-        "rates": "미국 10년물 금리가 지금 4.79%로, 3개월 전보다 6.61% 높고 최근 1년 범위(3.95~4.79)의 100% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
-        "growth": "지수가 3개월 전보다 -22.4% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
+        "rates": "미국 10년물 금리가 지금 4.79%로, 3개월 전보다 7.47% 높고 최근 1년 범위(3.95~4.79)의 100% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
+        "growth": "지수가 3개월 전보다 -19.54% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
         "valuation": "지수가 최근 1년 범위의 62% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
-        "fx": "원/달러가 1373.24원으로 최근 1년(1373.24~1554.48) 범위의 0% 지점입니다.",
-        "geo": "VIX 가 16.02입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
+        "fx": "원/달러가 1373.18원으로 최근 1년(1373.18~1554.48) 범위의 0% 지점입니다.",
+        "geo": "VIX 가 16.03입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
       },
       "rates": "hike",
       "growth": "reces",
@@ -128,11 +128,11 @@
     },
     "us": {
       "why": {
-        "rates": "미국 10년물 금리가 지금 4.79%로, 3개월 전보다 6.61% 높고 최근 1년 범위(3.95~4.79)의 100% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
-        "growth": "지수가 3개월 전보다 +1.05% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
+        "rates": "미국 10년물 금리가 지금 4.79%로, 3개월 전보다 7.47% 높고 최근 1년 범위(3.95~4.79)의 100% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
+        "growth": "지수가 3개월 전보다 +0.34% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
         "valuation": "지수가 최근 1년 범위의 89% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
-        "fx": "원/달러가 1373.24원으로 최근 1년(1373.24~1554.48) 범위의 0% 지점입니다.",
-        "geo": "VIX 가 16.02입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
+        "fx": "원/달러가 1373.18원으로 최근 1년(1373.18~1554.48) 범위의 0% 지점입니다.",
+        "geo": "VIX 가 16.03입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
       },
       "rates": "hike",
       "growth": "expand",
@@ -238,95 +238,95 @@
     },
     "us": {
       "MSFT": {
-        "price": 501.065,
+        "price": 501.235,
         "prev": 507.2900085449219,
-        "chg": -1.23,
+        "chg": -1.19,
         "basis": "prev-daily-close",
-        "time": "2026-09-01T17:22:18.000Z"
+        "time": "2026-09-01T17:32:47.000Z"
       },
       "AAPL": {
-        "price": 325.245,
+        "price": 324.88,
         "prev": 316.8500061035156,
-        "chg": 2.65,
+        "chg": 2.53,
         "basis": "prev-daily-close",
-        "time": "2026-09-01T17:22:19.000Z"
+        "time": "2026-09-01T17:32:47.000Z"
       },
       "GOOGL": {
-        "price": 335.39,
+        "price": 335.32,
         "prev": 339.3500061035156,
-        "chg": -1.17,
+        "chg": -1.19,
         "basis": "prev-daily-close",
-        "time": "2026-09-01T17:22:14.000Z"
+        "time": "2026-09-01T17:32:45.000Z"
       },
       "BRK.B": {
-        "price": 504.48,
+        "price": 503.775,
         "prev": 504.0299987792969,
-        "chg": 0.09,
+        "chg": -0.05,
         "basis": "prev-daily-close",
-        "time": "2026-09-01T17:22:19.000Z"
+        "time": "2026-09-01T17:32:46.000Z"
       },
       "V": {
-        "price": 375.41,
+        "price": 375.37,
         "prev": 379.3699951171875,
-        "chg": -1.04,
+        "chg": -1.05,
         "basis": "prev-daily-close",
-        "time": "2026-09-01T17:22:18.000Z"
+        "time": "2026-09-01T17:32:39.000Z"
       },
       "JNJ": {
-        "price": 269.75,
+        "price": 269.38,
         "prev": 265.8500061035156,
-        "chg": 1.47,
+        "chg": 1.33,
         "basis": "prev-daily-close",
-        "time": "2026-09-01T17:22:07.000Z"
+        "time": "2026-09-01T17:32:42.000Z"
       },
       "PG": {
-        "price": 146.19,
+        "price": 146.265,
         "prev": 145.1199951171875,
-        "chg": 0.74,
+        "chg": 0.79,
         "basis": "prev-daily-close",
-        "time": "2026-09-01T17:22:18.000Z"
+        "time": "2026-09-01T17:32:45.000Z"
       },
       "KO": {
-        "price": 88.11,
+        "price": 88.105,
         "prev": 88.66999816894531,
-        "chg": -0.63,
+        "chg": -0.64,
         "basis": "prev-daily-close",
-        "time": "2026-09-01T17:22:16.000Z"
+        "time": "2026-09-01T17:32:47.000Z"
       },
       "COST": {
-        "price": 945.2,
+        "price": 944.84,
         "prev": 943.8900146484375,
-        "chg": 0.14,
+        "chg": 0.1,
         "basis": "prev-daily-close",
-        "time": "2026-09-01T17:22:14.000Z"
+        "time": "2026-09-01T17:32:45.000Z"
       },
       "WM": {
-        "price": 219.16,
+        "price": 219.38,
         "prev": 218.9199981689453,
-        "chg": 0.11,
+        "chg": 0.21,
         "basis": "prev-daily-close",
-        "time": "2026-09-01T17:22:20.000Z"
+        "time": "2026-09-01T17:32:41.000Z"
       },
       "LIN": {
-        "price": 482.875,
+        "price": 483.581,
         "prev": 489.5799865722656,
-        "chg": -1.37,
+        "chg": -1.23,
         "basis": "prev-daily-close",
-        "time": "2026-09-01T17:22:08.000Z"
+        "time": "2026-09-01T17:32:31.000Z"
       },
       "XOM": {
-        "price": 163.945,
+        "price": 163.97,
         "prev": 160.9499969482422,
-        "chg": 1.86,
+        "chg": 1.88,
         "basis": "prev-daily-close",
-        "time": "2026-09-01T17:22:17.000Z"
+        "time": "2026-09-01T17:32:30.000Z"
       },
       "NVDA": {
-        "price": 218.23,
+        "price": 218.53,
         "prev": 220.77999877929688,
-        "chg": -1.15,
+        "chg": -1.02,
         "basis": "prev-daily-close",
-        "time": "2026-09-01T17:22:20.000Z"
+        "time": "2026-09-01T17:32:46.000Z"
       }
     }
   },
@@ -2880,8 +2880,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Ced76tpanaWRtTxPhBiZ1\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Ced76uZyYKZKL8d6uqUdZ\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Ced76vBwBqPxDrimrDKJf\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Ced7u4gwQteLwR7G7rqoL\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Ced7u5NcdcA5ecACpmGTG\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Ced7u5sNvU717g6k67pLs\"}"
   ]
 }
