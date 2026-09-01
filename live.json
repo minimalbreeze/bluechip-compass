@@ -1,34 +1,34 @@
 {
-  "asOf": "2026-09-01T03:07:46.378Z",
+  "asOf": "2026-09-01T03:18:05.146Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
-      "price": 6768.65,
+      "price": 6789.98,
       "prev": 6820.02001953125,
-      "chg": -0.75,
+      "chg": -0.44,
       "basis": "prev-daily-close",
-      "time": "2026-09-01T02:47:30.000Z"
+      "time": "2026-09-01T02:57:50.000Z"
     },
     "^KQ11": {
-      "price": 816.14,
+      "price": 818.46,
       "prev": 834.2899780273438,
-      "chg": -2.18,
+      "chg": -1.9,
       "basis": "prev-daily-close",
-      "time": "2026-09-01T02:47:30.000Z"
+      "time": "2026-09-01T02:57:50.000Z"
     },
     "KRW=X": {
-      "price": 1369.58,
+      "price": 1370.58,
       "prev": 1377.1099853515625,
-      "chg": -0.55,
+      "chg": -0.47,
       "basis": "prev-daily-close",
-      "time": "2026-09-01T03:07:33.000Z"
+      "time": "2026-09-01T03:17:57.000Z"
     },
     "^GSPC": {
       "price": 7686.14,
       "prev": 7730.990234375,
       "chg": -0.58,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T21:09:33.000Z"
+      "time": "2026-08-31T20:00:00.000Z"
     },
     "^IXIC": {
       "price": 26370.889,
@@ -42,7 +42,7 @@
       "prev": 14.510000228881836,
       "chg": 2.83,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T20:15:01.000Z"
+      "time": "2026-08-31T20:15:00.000Z"
     },
     "^TNX": {
       "price": 4.7580004,
@@ -53,31 +53,31 @@
     }
   },
   "fx": {
-    "low52": 1369.58,
+    "low52": 1370.58,
     "high52": 1554.48,
     "pct": 0
   },
   "hist": {
     "^KS11": {
-      "last": 6768.65,
+      "last": 6789.98,
       "low52": 3142.93,
       "high52": 9114.55,
-      "pct52": 0.607,
-      "chg3m": -22.98
+      "pct52": 0.611,
+      "chg3m": -22.74
     },
     "^KQ11": {
-      "last": 816.14,
+      "last": 818.46,
       "low52": 644.78,
       "high52": 1226.18,
-      "pct52": 0.295,
-      "chg3m": -22.27
+      "pct52": 0.299,
+      "chg3m": -22.05
     },
     "KRW=X": {
-      "last": 1369.58,
-      "low52": 1369.58,
+      "last": 1370.58,
+      "low52": 1370.58,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -10.66
+      "chg3m": -10.6
     },
     "^GSPC": {
       "last": 7686.14,
@@ -110,13 +110,13 @@
   },
   "regime": {
     "by": "rules",
-    "asOf": "2026-09-01T03:07:45.793Z",
+    "asOf": "2026-09-01T03:18:04.464Z",
     "kr": {
       "why": {
         "rates": "미국 10년물 금리가 지금 4.76%로, 3개월 전보다 6.32% 높고 최근 1년 범위(3.95~4.76)의 100% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
-        "growth": "지수가 3개월 전보다 -22.98% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
+        "growth": "지수가 3개월 전보다 -22.74% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
         "valuation": "지수가 최근 1년 범위의 61% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
-        "fx": "원/달러가 1369.58원으로 최근 1년(1369.58~1554.48) 범위의 0% 지점입니다.",
+        "fx": "원/달러가 1370.58원으로 최근 1년(1370.58~1554.48) 범위의 0% 지점입니다.",
         "geo": "VIX 가 14.92입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
       },
       "rates": "hike",
@@ -131,7 +131,7 @@
         "rates": "미국 10년물 금리가 지금 4.76%로, 3개월 전보다 6.32% 높고 최근 1년 범위(3.95~4.76)의 100% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
         "growth": "지수가 3개월 전보다 +1.13% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
         "valuation": "지수가 최근 1년 범위의 92% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
-        "fx": "원/달러가 1369.58원으로 최근 1년(1369.58~1554.48) 범위의 0% 지점입니다.",
+        "fx": "원/달러가 1370.58원으로 최근 1년(1370.58~1554.48) 범위의 0% 지점입니다.",
         "geo": "VIX 가 14.92입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
       },
       "rates": "hike",
@@ -145,95 +145,95 @@
   "stocks": {
     "kr": {
       "105560": {
-        "price": 169700,
+        "price": 170000,
         "prev": 173300,
-        "chg": -2.08,
+        "chg": -1.9,
         "basis": "prev-daily-close",
-        "time": "2026-09-01T02:47:44.000Z"
+        "time": "2026-09-01T02:58:03.000Z"
       },
       "207940": {
         "price": 1501000,
         "prev": 1518000,
         "chg": -1.12,
         "basis": "prev-daily-close",
-        "time": "2026-09-01T02:47:42.000Z"
+        "time": "2026-09-01T02:58:01.000Z"
       },
       "005930": {
-        "price": 258500,
+        "price": 259500,
         "prev": 260000,
-        "chg": -0.58,
+        "chg": -0.19,
         "basis": "prev-daily-close",
-        "time": "2026-09-01T02:47:44.000Z"
+        "time": "2026-09-01T02:58:03.000Z"
       },
       "000660": {
-        "price": 1679000,
+        "price": 1684000,
         "prev": 1674000,
-        "chg": 0.3,
+        "chg": 0.6,
         "basis": "prev-daily-close",
-        "time": "2026-09-01T02:47:43.000Z"
+        "time": "2026-09-01T02:58:03.000Z"
       },
       "005380": {
-        "price": 396500,
+        "price": 398000,
         "prev": 403500,
-        "chg": -1.73,
+        "chg": -1.36,
         "basis": "prev-daily-close",
-        "time": "2026-09-01T02:47:43.000Z"
+        "time": "2026-09-01T02:58:03.000Z"
       },
       "055550": {
-        "price": 110400,
+        "price": 110700,
         "prev": 108900,
-        "chg": 1.38,
+        "chg": 1.65,
         "basis": "prev-daily-close",
-        "time": "2026-09-01T02:47:44.000Z"
+        "time": "2026-09-01T02:57:55.000Z"
       },
       "000810": {
-        "price": 675000,
+        "price": 680000,
         "prev": 665000,
-        "chg": 1.5,
+        "chg": 2.26,
         "basis": "prev-daily-close",
-        "time": "2026-09-01T02:47:38.000Z"
+        "time": "2026-09-01T02:58:00.000Z"
       },
       "033780": {
-        "price": 175500,
+        "price": 175700,
         "prev": 178100,
-        "chg": -1.46,
+        "chg": -1.35,
         "basis": "prev-daily-close",
-        "time": "2026-09-01T02:47:42.000Z"
+        "time": "2026-09-01T02:57:58.000Z"
       },
       "035420": {
-        "price": 214000,
+        "price": 215500,
         "prev": 217000,
-        "chg": -1.38,
+        "chg": -0.69,
         "basis": "prev-daily-close",
-        "time": "2026-09-01T02:47:43.000Z"
+        "time": "2026-09-01T02:57:58.000Z"
       },
       "005490": {
-        "price": 342250,
+        "price": 343500,
         "prev": 338500,
-        "chg": 1.11,
+        "chg": 1.48,
         "basis": "prev-daily-close",
-        "time": "2026-09-01T02:47:38.000Z"
+        "time": "2026-09-01T02:58:00.000Z"
       },
       "028260": {
-        "price": 377500,
+        "price": 380000,
         "prev": 376500,
-        "chg": 0.27,
+        "chg": 0.93,
         "basis": "prev-daily-close",
-        "time": "2026-09-01T02:47:44.000Z"
+        "time": "2026-09-01T02:58:03.000Z"
       },
       "012450": {
-        "price": 1059000,
+        "price": 1062000,
         "prev": 1102000,
-        "chg": -3.9,
+        "chg": -3.63,
         "basis": "prev-daily-close",
-        "time": "2026-09-01T02:47:44.000Z"
+        "time": "2026-09-01T02:58:01.000Z"
       },
       "017670": {
-        "price": 92700,
+        "price": 93000,
         "prev": 94200,
-        "chg": -1.59,
+        "chg": -1.27,
         "basis": "prev-daily-close",
-        "time": "2026-09-01T02:47:44.000Z"
+        "time": "2026-09-01T02:58:01.000Z"
       }
     },
     "us": {
@@ -425,16 +425,16 @@
         "by": "rules"
       },
       {
-        "title": "Dear Kraft Heinz Stock Fans, Mark Your Calendars for September 14",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/dear-kraft-heinz-stock-fans-153002037.html",
+        "title": "This Is What Investors Should Watch Before Buying PANW Stock. Most Will Ignore It on September 1.",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/investors-watch-buying-panw-stock-153002874.html",
         "source": "Yahoo Finance",
         "date": "2026-08-30T15:30:02Z",
-        "ko": "친애하는 Kraft Heinz 주식 팬 여러분, 9월 14일 달력에 표시하세요",
+        "ko": "이것은 투자자가 PANW 주식을 구매하기 전에 주의해야 할 사항입니다. 대부분은 9월 1일에 무시할 것입니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
+        "scope": "company",
+        "why": "매수 시점을 다루는 홍보성 글로, 실적 근거와 무관합니다.",
+        "by": "ai"
       },
       {
         "title": "Fed's Hammack says 'now is the time to act' on raising interest rates",
@@ -461,16 +461,16 @@
         "by": "rules"
       },
       {
-        "title": "This Is What Investors Should Watch Before Buying PANW Stock. Most Will Ignore It on September 1.",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/investors-watch-buying-panw-stock-153002874.html",
+        "title": "Dear Kraft Heinz Stock Fans, Mark Your Calendars for September 14",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/dear-kraft-heinz-stock-fans-153002037.html",
         "source": "Yahoo Finance",
         "date": "2026-08-30T15:30:02Z",
-        "ko": "이것은 투자자가 PANW 주식을 구매하기 전에 주의해야 할 사항입니다. 대부분은 9월 1일에 무시할 것입니다.",
+        "ko": "친애하는 Kraft Heinz 주식 팬 여러분, 9월 14일 달력에 표시하세요",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
-        "why": "매수 시점을 다루는 홍보성 글로, 실적 근거와 무관합니다.",
-        "by": "ai"
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
       }
     ]
   },
@@ -2880,8 +2880,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cebyw81V3wTKTbJi5tY9H\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cebyw8iQ5xwLfpFrX5YRA\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cebyw9F9Vq3fVepGe9jiX\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CebzijecQChccMWGdeWAr\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CebzikFaGvXk7DBs9YYmf\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CebzikkLQMUuLFiLEMih6\"}"
   ]
 }
