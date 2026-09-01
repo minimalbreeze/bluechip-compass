@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-01T09:47:09.374Z",
+  "asOf": "2026-09-01T10:47:32.316Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -17,11 +17,11 @@
       "time": "2026-09-01T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1373,
+      "price": 1373.48,
       "prev": 1377.1099853515625,
-      "chg": -0.3,
+      "chg": -0.26,
       "basis": "prev-daily-close",
-      "time": "2026-09-01T09:46:51.000Z"
+      "time": "2026-09-01T10:47:19.000Z"
     },
     "^GSPC": {
       "price": 7686.14,
@@ -38,11 +38,11 @@
       "time": "2026-08-31T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 15.9,
+      "price": 15.75,
       "prev": 14.920000076293945,
-      "chg": 6.57,
+      "chg": 5.56,
       "basis": "prev-daily-close",
-      "time": "2026-09-01T09:31:46.000Z"
+      "time": "2026-09-01T10:32:16.000Z"
     },
     "^TNX": {
       "price": 4.7580004,
@@ -53,7 +53,7 @@
     }
   },
   "fx": {
-    "low52": 1373,
+    "low52": 1373.48,
     "high52": 1554.48,
     "pct": 0
   },
@@ -73,11 +73,11 @@
       "chg3m": -21.79
     },
     "KRW=X": {
-      "last": 1373,
-      "low52": 1373,
+      "last": 1373.48,
+      "low52": 1373.48,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -10.44
+      "chg3m": -10.41
     },
     "^GSPC": {
       "last": 7686.14,
@@ -94,11 +94,11 @@
       "chg3m": -2.64
     },
     "^VIX": {
-      "last": 15.9,
+      "last": 15.75,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.138,
-      "chg3m": 0.82
+      "pct52": 0.13,
+      "chg3m": -0.13
     },
     "^TNX": {
       "last": 4.76,
@@ -110,14 +110,14 @@
   },
   "regime": {
     "by": "rules",
-    "asOf": "2026-09-01T09:47:08.809Z",
+    "asOf": "2026-09-01T10:47:31.621Z",
     "kr": {
       "why": {
         "rates": "미국 10년물 금리가 지금 4.76%로, 3개월 전보다 6.32% 높고 최근 1년 범위(3.95~4.76)의 100% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
         "growth": "지수가 3개월 전보다 -22.22% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
         "valuation": "지수가 최근 1년 범위의 62% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
-        "fx": "원/달러가 1373원으로 최근 1년(1373~1554.48) 범위의 0% 지점입니다.",
-        "geo": "VIX 가 15.9입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
+        "fx": "원/달러가 1373.48원으로 최근 1년(1373.48~1554.48) 범위의 0% 지점입니다.",
+        "geo": "VIX 가 15.75입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
       },
       "rates": "hike",
       "growth": "reces",
@@ -131,8 +131,8 @@
         "rates": "미국 10년물 금리가 지금 4.76%로, 3개월 전보다 6.32% 높고 최근 1년 범위(3.95~4.76)의 100% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
         "growth": "지수가 3개월 전보다 +1.13% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
         "valuation": "지수가 최근 1년 범위의 92% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
-        "fx": "원/달러가 1373원으로 최근 1년(1373~1554.48) 범위의 0% 지점입니다.",
-        "geo": "VIX 가 15.9입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
+        "fx": "원/달러가 1373.48원으로 최근 1년(1373.48~1554.48) 범위의 0% 지점입니다.",
+        "geo": "VIX 가 15.75입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
       },
       "rates": "hike",
       "growth": "expand",
@@ -344,13 +344,13 @@
         "by": "rules"
       },
       {
-        "title": "주식 소수점 거래 급증…개미들 '닉스·버크셔' 쪼개 샀다",
-        "link": "https://www.hankyung.com/article/202608251136i",
+        "title": "올해 주가 3배 급등한 마이크론, 밸류에이션은 S&P500 하위권",
+        "link": "https://www.hankyung.com/article/2026090174331",
         "source": "한국경제",
-        "date": "Tue, 01 Sep 2026 17:41:02 +0900",
+        "date": "Tue, 01 Sep 2026 18:08:07 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -377,13 +377,13 @@
         "by": "rules"
       },
       {
-        "title": "'역대 최대 수주' 삼성전기 주가가 되레 하락한 이유는",
-        "link": "https://www.hankyung.com/article/202609017210i",
+        "title": "美 '오리 로봇' 주문폭주…韓 로보티즈 주가도 뛸까",
+        "link": "https://www.hankyung.com/article/2026090173781",
         "source": "한국경제",
-        "date": "Tue, 01 Sep 2026 17:24:22 +0900",
+        "date": "Tue, 01 Sep 2026 17:59:46 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -401,16 +401,16 @@
     ],
     "us": [
       {
-        "title": "Fed Chairman Warsh expresses concern about inflation, advocates for 'quieter' central bank",
-        "link": "https://www.cnbc.com/2026/08/28/kevin-warsh-jackson-hole-federal-reserve-inflation.html",
+        "title": "Euro zone inflation is back above 3%. Higher interest rates are likely to follow",
+        "link": "https://www.cnbc.com/2026/09/01/euro-zone-inflation-rate-hike.html",
         "source": "CNBC",
-        "date": "Fri, 28 Aug 2026 16:11:51 GMT",
-        "ko": "워시 연준 의장은 인플레이션에 대한 우려를 표명하며, '더 조용한' 중앙은행을 지지한다.",
-        "act": "watch",
-        "lasting": "structural",
+        "date": "Tue, 01 Sep 2026 09:56:12 GMT",
+        "ko": "유로존 인플레이션은 다시 3% 를 상회합니다. 높은 이자율이 뒤따를 가능성이 높습니다.",
+        "act": "none",
+        "lasting": "temporary",
         "scope": "market",
-        "why": "연준 운영 방향에 관한 발언은 금리 환경과 연결돼 지켜볼 만합니다.",
-        "by": "ai"
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
       },
       {
         "title": "Are rising bond rates really so bad? Maybe not, say these exports",
@@ -425,27 +425,27 @@
         "by": "rules"
       },
       {
-        "title": "Royal Bank of Canada (RY) Posts Record Profit as Tariffs Loom",
-        "link": "https://finance.yahoo.com/economy/policy/articles/royal-bank-canada-ry-posts-091959289.html",
+        "title": "How you can quickly tell Wall Street still really loves tech stocks",
+        "link": "https://finance.yahoo.com/markets/stocks/article/how-you-can-quickly-tell-wall-street-still-really-loves-tech-stocks-102324025.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-01T09:19:59Z",
-        "ko": "캐나다왕립은행 (Royal Bank of Canada, RY) 이 기록적인 수익을 관세 직기 (Tariffs Loom) 로 게시",
-        "act": "watch",
-        "lasting": "structural",
+        "date": "2026-09-01T10:23:24Z",
+        "ko": "월스트리트가 여전히 기술 주식을 정말 좋아하는지 빠르게 알 수 있는 방법",
+        "act": "none",
+        "lasting": "temporary",
         "scope": null,
-        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "Fed's Hammack says 'now is the time to act' on raising interest rates",
-        "link": "https://www.cnbc.com/2026/08/27/feds-hammack-says-now-is-the-time-to-act-on-raising-interest-rates.html",
+        "title": "Fed Chairman Warsh expresses concern about inflation, advocates for 'quieter' central bank",
+        "link": "https://www.cnbc.com/2026/08/28/kevin-warsh-jackson-hole-federal-reserve-inflation.html",
         "source": "CNBC",
-        "date": "Thu, 27 Aug 2026 17:31:09 GMT",
-        "ko": "Fed의 Hammack은 금리 인상에 대해 '지금이 행동할 때' 라고 말합니다.",
-        "act": "none",
-        "lasting": "temporary",
+        "date": "Fri, 28 Aug 2026 16:11:51 GMT",
+        "ko": "워시 연준 의장은 인플레이션에 대한 우려를 표명하며, '더 조용한' 중앙은행을 지지한다.",
+        "act": "watch",
+        "lasting": "structural",
         "scope": "market",
-        "why": "연준 인사 한 명의 발언으로 금리 방향이 확정된 것은 아닙니다.",
+        "why": "연준 운영 방향에 관한 발언은 금리 환경과 연결돼 지켜볼 만합니다.",
         "by": "ai"
       },
       {
@@ -461,11 +461,11 @@
         "by": "rules"
       },
       {
-        "title": "Rich young Americans have already ditched stocks for alternative assets. Should you?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/rich-young-americans-already-ditched-090500306.html",
+        "title": "Alphabet stock has tanked to close out the summer because of a 'brain drain' — what may happen to it next",
+        "link": "https://finance.yahoo.com/markets/stocks/article/alphabet-stock-has-tanked-to-close-out-the-summer-because-of-a-brain-drain--what-may-happen-to-it-next-102219947.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-01T09:05:00Z",
-        "ko": "부유한 젊은 미국인들은 이미 대체 자산을 위해 주식을 버렸습니다. 그래야 할까요?",
+        "date": "2026-09-01T10:22:19Z",
+        "ko": "알파벳 재고가 '두뇌 소모' 로 인해 여름을 마감하기 위해 탱크를 가동했습니다. 다음에 무슨 일이 일어날지 모릅니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -476,9 +476,6 @@
   },
   "newsBy": "ai",
   "trCache": {
-    "Tech stocks today: All eyes on Nvidia earnings, as Apple debuts new Mac Mini, Mac Studio aimed at AI developers": "오늘날의 기술 주식: 애플이 AI 개발자를 겨냥한 새로운 Mac Mini, Mac Studio를 출시함에 따라 엔비디아 수익에 대한 모든 시선",
-    "Dick’s Sporting Goods’ stock is having its worst day ever, as sneakers aren’t selling without deeper discounts": "더 깊은 할인 없이는 운동화가 판매되지 않기 때문에 Dick’s Sporting Goods의 재고는 사상 최악의 하루를 보내고 있습니다.",
-    "Affirm (AFRM) Slipped After Klarna Cut Guidance. Category Warning or Share-Gain Opportunity?": "Klarna Cut Guidance 후 Affirm (AFRM) 미끄러짐. 카테고리 경고 또는 주식 획득 기회?",
     "Why Meta’s stock could see a 50% rally, thanks to an overlooked AI wild card": "간과된 인공지능 와일드 카드 덕분에 메타의 주식이 50% 의 랠리를 볼 수 있었던 이유",
     "What Nvidia says on Wednesday to address concerns about its competitiveness could be key for the stock": "엔비디아가 경쟁력에 대한 우려를 해결하기 위해 수요일에 한 말은 주식의 핵심이 될 수 있습니다.",
     "Stock market today: Dow, S&P 500, Nasdaq hold steady as US-Canada trade tensions heat up": "오늘날의 주식 시장: 다우, S&P 500, 나스닥은 미국-캐나다 무역 긴장이 가열됨에 따라 안정적으로 유지되고 있습니다.",
@@ -775,7 +772,10 @@
     "Are rising bond rates really so bad? Maybe not, say these exports": "채권 금리 상승이 정말 그렇게 나쁜가요? 아닐 수도 있습니다. 이러한 내보내기를 말합니다.",
     "Royal Bank of Canada (RY) Posts Record Profit as Tariffs Loom": "캐나다왕립은행 (Royal Bank of Canada, RY) 이 기록적인 수익을 관세 직기 (Tariffs Loom) 로 게시",
     "From the U.K. to Japan, bond yields are jumping as U.S. bonds tumble": "영국에서 일본으로, 미국 채권이 떨어지면서 채권 수익률이 뛰고 있습니다.",
-    "Rich young Americans have already ditched stocks for alternative assets. Should you?": "부유한 젊은 미국인들은 이미 대체 자산을 위해 주식을 버렸습니다. 그래야 할까요?"
+    "Rich young Americans have already ditched stocks for alternative assets. Should you?": "부유한 젊은 미국인들은 이미 대체 자산을 위해 주식을 버렸습니다. 그래야 할까요?",
+    "Euro zone inflation is back above 3%. Higher interest rates are likely to follow": "유로존 인플레이션은 다시 3% 를 상회합니다. 높은 이자율이 뒤따를 가능성이 높습니다.",
+    "How you can quickly tell Wall Street still really loves tech stocks": "월스트리트가 여전히 기술 주식을 정말 좋아하는지 빠르게 알 수 있는 방법",
+    "Alphabet stock has tanked to close out the summer because of a 'brain drain' — what may happen to it next": "알파벳 재고가 '두뇌 소모' 로 인해 여름을 마감하기 위해 탱크를 가동했습니다. 다음에 무슨 일이 일어날지 모릅니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -2880,8 +2880,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CecWPY82h89CGTBYMYBvq\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CecWPYpCzXo22TKC3B4fD\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CecWPZLxN2UGUykyhQcJj\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CecazbEFiR6qnQAfXgtVy\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CecazcTB4mA7rJjYd37y2\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cecazd2QFC4Bqcz41Zhf1\"}"
   ]
 }
