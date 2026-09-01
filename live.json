@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-01T18:14:21.918Z",
+  "asOf": "2026-09-01T18:24:49.262Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -17,43 +17,43 @@
       "time": "2026-09-01T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1373.84,
+      "price": 1373.58,
       "prev": 1377.1099853515625,
-      "chg": -0.24,
+      "chg": -0.26,
       "basis": "prev-daily-close",
-      "time": "2026-09-01T18:14:08.000Z"
+      "time": "2026-09-01T18:24:31.000Z"
     },
     "^GSPC": {
-      "price": 7629.8,
+      "price": 7632.5,
       "prev": 7686.14013671875,
-      "chg": -0.73,
+      "chg": -0.7,
       "basis": "prev-daily-close",
-      "time": "2026-09-01T18:14:12.000Z"
+      "time": "2026-09-01T18:24:42.000Z"
     },
     "^IXIC": {
-      "price": 26093.29,
+      "price": 26103.55,
       "prev": 26370.890625,
-      "chg": -1.05,
+      "chg": -1.01,
       "basis": "prev-daily-close",
-      "time": "2026-09-01T18:14:13.000Z"
+      "time": "2026-09-01T18:24:39.000Z"
     },
     "^VIX": {
-      "price": 16,
+      "price": 16.02,
       "prev": 14.920000076293945,
-      "chg": 7.24,
+      "chg": 7.37,
       "basis": "prev-daily-close",
-      "time": "2026-09-01T17:59:01.000Z"
+      "time": "2026-09-01T18:09:31.000Z"
     },
     "^TNX": {
       "price": 4.792,
       "prev": 4.757999897003174,
       "chg": 0.71,
       "basis": "prev-daily-close",
-      "time": "2026-09-01T17:59:04.000Z"
+      "time": "2026-09-01T18:09:34.000Z"
     }
   },
   "fx": {
-    "low52": 1373.84,
+    "low52": 1373.58,
     "high52": 1554.48,
     "pct": 0
   },
@@ -73,32 +73,32 @@
       "chg3m": -22.38
     },
     "KRW=X": {
-      "last": 1373.84,
-      "low52": 1373.84,
+      "last": 1373.58,
+      "low52": 1373.58,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -10.39
+      "chg3m": -10.4
     },
     "^GSPC": {
-      "last": 7629.8,
+      "last": 7632.5,
       "low52": 6343.72,
       "high52": 7798.99,
-      "pct52": 0.884,
-      "chg3m": 0.26
+      "pct52": 0.886,
+      "chg3m": 0.3
     },
     "^IXIC": {
-      "last": 26093.29,
+      "last": 26103.55,
       "low52": 20794.64,
       "high52": 27093.9,
-      "pct52": 0.841,
-      "chg3m": -3.69
+      "pct52": 0.843,
+      "chg3m": -3.66
     },
     "^VIX": {
-      "last": 16,
+      "last": 16.02,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.144,
-      "chg3m": 1.46
+      "pct52": 0.145,
+      "chg3m": 1.59
     },
     "^TNX": {
       "last": 4.79,
@@ -110,14 +110,14 @@
   },
   "regime": {
     "by": "rules",
-    "asOf": "2026-09-01T18:14:21.229Z",
+    "asOf": "2026-09-01T18:24:48.679Z",
     "kr": {
       "why": {
         "rates": "미국 10년물 금리가 지금 4.79%로, 3개월 전보다 7.56% 높고 최근 1년 범위(3.95~4.79)의 100% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
         "growth": "지수가 3개월 전보다 -19.54% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
         "valuation": "지수가 최근 1년 범위의 62% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
-        "fx": "원/달러가 1373.84원으로 최근 1년(1373.84~1554.48) 범위의 0% 지점입니다.",
-        "geo": "VIX 가 16입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
+        "fx": "원/달러가 1373.58원으로 최근 1년(1373.58~1554.48) 범위의 0% 지점입니다.",
+        "geo": "VIX 가 16.02입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
       },
       "rates": "hike",
       "growth": "reces",
@@ -129,10 +129,10 @@
     "us": {
       "why": {
         "rates": "미국 10년물 금리가 지금 4.79%로, 3개월 전보다 7.56% 높고 최근 1년 범위(3.95~4.79)의 100% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
-        "growth": "지수가 3개월 전보다 +0.26% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
-        "valuation": "지수가 최근 1년 범위의 88% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
-        "fx": "원/달러가 1373.84원으로 최근 1년(1373.84~1554.48) 범위의 0% 지점입니다.",
-        "geo": "VIX 가 16입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
+        "growth": "지수가 3개월 전보다 +0.3% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
+        "valuation": "지수가 최근 1년 범위의 89% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
+        "fx": "원/달러가 1373.58원으로 최근 1년(1373.58~1554.48) 범위의 0% 지점입니다.",
+        "geo": "VIX 가 16.02입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
       },
       "rates": "hike",
       "growth": "expand",
@@ -238,95 +238,95 @@
     },
     "us": {
       "MSFT": {
-        "price": 500.725,
+        "price": 501.44,
         "prev": 507.2900085449219,
-        "chg": -1.29,
+        "chg": -1.15,
         "basis": "prev-daily-close",
-        "time": "2026-09-01T18:14:19.000Z"
+        "time": "2026-09-01T18:24:45.000Z"
       },
       "AAPL": {
-        "price": 325.03,
+        "price": 324.945,
         "prev": 316.8500061035156,
-        "chg": 2.58,
+        "chg": 2.55,
         "basis": "prev-daily-close",
-        "time": "2026-09-01T18:14:18.000Z"
+        "time": "2026-09-01T18:24:47.000Z"
       },
       "GOOGL": {
-        "price": 334.52,
+        "price": 334.72,
         "prev": 339.3500061035156,
-        "chg": -1.42,
+        "chg": -1.36,
         "basis": "prev-daily-close",
-        "time": "2026-09-01T18:14:19.000Z"
+        "time": "2026-09-01T18:24:43.000Z"
       },
       "BRK.B": {
-        "price": 502.16,
+        "price": 502.12,
         "prev": 504.0299987792969,
-        "chg": -0.37,
+        "chg": -0.38,
         "basis": "prev-daily-close",
-        "time": "2026-09-01T18:14:11.000Z"
+        "time": "2026-09-01T18:24:38.000Z"
       },
       "V": {
-        "price": 375.219,
-        "prev": 375.2185974121094,
-        "chg": 0,
-        "basis": "last-daily-close",
-        "time": "2026-09-01T18:14:17.000Z"
+        "price": 375.145,
+        "prev": 379.3699951171875,
+        "chg": -1.11,
+        "basis": "prev-daily-close",
+        "time": "2026-09-01T18:24:43.000Z"
       },
       "JNJ": {
-        "price": 270.041,
+        "price": 270.031,
         "prev": 265.8500061035156,
-        "chg": 1.58,
+        "chg": 1.57,
         "basis": "prev-daily-close",
-        "time": "2026-09-01T18:14:08.000Z"
+        "time": "2026-09-01T18:24:40.000Z"
       },
       "PG": {
-        "price": 146.33,
+        "price": 146.185,
         "prev": 145.1199951171875,
-        "chg": 0.83,
+        "chg": 0.73,
         "basis": "prev-daily-close",
-        "time": "2026-09-01T18:14:11.000Z"
+        "time": "2026-09-01T18:24:32.000Z"
       },
       "KO": {
-        "price": 88.114,
-        "prev": 88.11360168457031,
+        "price": 88.153,
+        "prev": 88.15290069580078,
         "chg": 0,
         "basis": "last-daily-close",
-        "time": "2026-09-01T18:14:07.000Z"
+        "time": "2026-09-01T18:24:39.000Z"
       },
       "COST": {
-        "price": 941.47,
+        "price": 940.747,
         "prev": 943.8900146484375,
-        "chg": -0.26,
+        "chg": -0.33,
         "basis": "prev-daily-close",
-        "time": "2026-09-01T18:14:03.000Z"
+        "time": "2026-09-01T18:23:54.000Z"
       },
       "WM": {
-        "price": 219.81,
+        "price": 219.78,
         "prev": 218.9199981689453,
-        "chg": 0.41,
+        "chg": 0.39,
         "basis": "prev-daily-close",
-        "time": "2026-09-01T18:13:10.000Z"
+        "time": "2026-09-01T18:24:42.000Z"
       },
       "LIN": {
-        "price": 486.01,
+        "price": 486.72,
         "prev": 489.5799865722656,
-        "chg": -0.73,
+        "chg": -0.58,
         "basis": "prev-daily-close",
-        "time": "2026-09-01T18:14:12.000Z"
+        "time": "2026-09-01T18:24:34.000Z"
       },
       "XOM": {
-        "price": 164.05,
+        "price": 163.93,
         "prev": 160.9499969482422,
-        "chg": 1.93,
+        "chg": 1.85,
         "basis": "prev-daily-close",
-        "time": "2026-09-01T18:14:17.000Z"
+        "time": "2026-09-01T18:24:42.000Z"
       },
       "NVDA": {
-        "price": 217.52,
+        "price": 217.72,
         "prev": 220.77999877929688,
-        "chg": -1.48,
+        "chg": -1.39,
         "basis": "prev-daily-close",
-        "time": "2026-09-01T18:14:18.000Z"
+        "time": "2026-09-01T18:24:41.000Z"
       }
     }
   },
@@ -425,11 +425,11 @@
         "by": "rules"
       },
       {
-        "title": "Is Linde Stock Underperforming the Dow?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/linde-stock-underperforming-dow-072651206.html",
+        "title": "Mortgage and refinance interest rates today, Monday, August 31, 2026: Purchase rates currently higher than refinance rates",
+        "link": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-monday-august-31-2026-purchase-rates-currently-higher-than-refinance-rates-100000904.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-31T07:26:51Z",
-        "ko": "린데 주가는 다우지수를 밑도는가?",
+        "date": "2026-08-31T10:00:00Z",
+        "ko": "2026년 8월 31일 월요일 모기지 및 재융자 금리: 현재 재융자 금리보다 높은 매입 금리",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -461,16 +461,16 @@
         "by": "rules"
       },
       {
-        "title": "Mortgage and refinance interest rates today, Monday, August 31, 2026: Purchase rates currently higher than refinance rates",
-        "link": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-monday-august-31-2026-purchase-rates-currently-higher-than-refinance-rates-100000904.html",
+        "title": "Best CD rates today, Monday, August 31, 2026: Lock in up to 4.30% APY",
+        "link": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-monday-august-31-2026-lock-in-up-to-430-apy-100000028.html",
         "source": "Yahoo Finance",
         "date": "2026-08-31T10:00:00Z",
-        "ko": "2026년 8월 31일 월요일 모기지 및 재융자 금리: 현재 재융자 금리보다 높은 매입 금리",
+        "ko": "2026년 8월 31일 월요일, 오늘 최고 CD 가격: 최대 4.30% APY 고정",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
+        "why": "예금 금리 안내성 정보로 기업 이익과 무관합니다.",
+        "by": "ai"
       }
     ]
   },
@@ -2880,8 +2880,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CedB4r5HrTLUVFNoyHGTa\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CedB4rrv1wMN8omcf1dcK\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CedB4sVco4Tzqvs9kJk8k\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CedBs6SGcurbrh2e3tsZP\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CedBs7AgGkXTdfjw778Bd\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CedBs7jQfj1KwbjEm3vFn\"}"
   ]
 }
