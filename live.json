@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-01T13:21:50.971Z",
+  "asOf": "2026-09-01T13:32:15.166Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -17,43 +17,43 @@
       "time": "2026-09-01T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1373.55,
+      "price": 1372.28,
       "prev": 1377.1099853515625,
-      "chg": -0.26,
+      "chg": -0.35,
       "basis": "prev-daily-close",
-      "time": "2026-09-01T13:21:31.000Z"
+      "time": "2026-09-01T13:31:58.000Z"
     },
     "^GSPC": {
-      "price": 7686.14,
-      "prev": 7730.990234375,
-      "chg": -0.58,
+      "price": 7632.46,
+      "prev": 7686.14013671875,
+      "chg": -0.7,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T21:09:33.000Z"
+      "time": "2026-09-01T13:32:05.000Z"
     },
     "^IXIC": {
-      "price": 26370.889,
-      "prev": 26541.349609375,
-      "chg": -0.64,
+      "price": 26000.447,
+      "prev": 26370.890625,
+      "chg": -1.4,
       "basis": "prev-daily-close",
-      "time": "2026-08-31T21:15:59.000Z"
+      "time": "2026-09-01T13:32:01.000Z"
     },
     "^VIX": {
       "price": 15.98,
       "prev": 14.920000076293945,
       "chg": 7.1,
       "basis": "prev-daily-close",
-      "time": "2026-09-01T13:06:31.000Z"
+      "time": "2026-09-01T13:17:01.000Z"
     },
     "^TNX": {
-      "price": 4.782,
+      "price": 4.7799997,
       "prev": 4.757999897003174,
-      "chg": 0.5,
+      "chg": 0.46,
       "basis": "prev-daily-close",
-      "time": "2026-09-01T13:06:34.000Z"
+      "time": "2026-09-01T13:17:04.000Z"
     }
   },
   "fx": {
-    "low52": 1373.55,
+    "low52": 1372.28,
     "high52": 1554.48,
     "pct": 0
   },
@@ -73,25 +73,25 @@
       "chg3m": -21.79
     },
     "KRW=X": {
-      "last": 1373.55,
-      "low52": 1373.55,
+      "last": 1372.28,
+      "low52": 1372.28,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -10.41
+      "chg3m": -10.49
     },
     "^GSPC": {
-      "last": 7686.14,
+      "last": 7632.29,
       "low52": 6343.72,
       "high52": 7798.99,
-      "pct52": 0.922,
-      "chg3m": 1.13
+      "pct52": 0.885,
+      "chg3m": 0.3
     },
     "^IXIC": {
-      "last": 26370.89,
+      "last": 26000.45,
       "low52": 20794.64,
       "high52": 27093.9,
-      "pct52": 0.885,
-      "chg3m": -2.64
+      "pct52": 0.826,
+      "chg3m": -4.04
     },
     "^VIX": {
       "last": 15.98,
@@ -105,18 +105,18 @@
       "low52": 3.95,
       "high52": 4.78,
       "pct52": 1,
-      "chg3m": 7.34
+      "chg3m": 7.3
     }
   },
   "regime": {
     "by": "rules",
-    "asOf": "2026-09-01T13:21:50.289Z",
+    "asOf": "2026-09-01T13:32:14.597Z",
     "kr": {
       "why": {
-        "rates": "미국 10년물 금리가 지금 4.78%로, 3개월 전보다 7.34% 높고 최근 1년 범위(3.95~4.78)의 100% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
+        "rates": "미국 10년물 금리가 지금 4.78%로, 3개월 전보다 7.3% 높고 최근 1년 범위(3.95~4.78)의 100% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
         "growth": "지수가 3개월 전보다 -22.22% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
         "valuation": "지수가 최근 1년 범위의 62% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
-        "fx": "원/달러가 1373.55원으로 최근 1년(1373.55~1554.48) 범위의 0% 지점입니다.",
+        "fx": "원/달러가 1372.28원으로 최근 1년(1372.28~1554.48) 범위의 0% 지점입니다.",
         "geo": "VIX 가 15.98입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
       },
       "rates": "hike",
@@ -128,10 +128,10 @@
     },
     "us": {
       "why": {
-        "rates": "미국 10년물 금리가 지금 4.78%로, 3개월 전보다 7.34% 높고 최근 1년 범위(3.95~4.78)의 100% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
-        "growth": "지수가 3개월 전보다 +1.13% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
-        "valuation": "지수가 최근 1년 범위의 92% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
-        "fx": "원/달러가 1373.55원으로 최근 1년(1373.55~1554.48) 범위의 0% 지점입니다.",
+        "rates": "미국 10년물 금리가 지금 4.78%로, 3개월 전보다 7.3% 높고 최근 1년 범위(3.95~4.78)의 100% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
+        "growth": "지수가 3개월 전보다 +0.3% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
+        "valuation": "지수가 최근 1년 범위의 89% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
+        "fx": "원/달러가 1372.28원으로 최근 1년(1372.28~1554.48) 범위의 0% 지점입니다.",
         "geo": "VIX 가 15.98입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
       },
       "rates": "hike",
@@ -238,95 +238,95 @@
     },
     "us": {
       "MSFT": {
-        "price": 507.29,
-        "prev": 513.530029296875,
-        "chg": -1.22,
+        "price": 498.64,
+        "prev": 507.2900085449219,
+        "chg": -1.71,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T20:00:01.000Z"
+        "time": "2026-09-01T13:32:12.000Z"
       },
       "AAPL": {
-        "price": 316.85,
-        "prev": 319.70001220703125,
-        "chg": -0.89,
+        "price": 316.11,
+        "prev": 316.8500061035156,
+        "chg": -0.23,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T20:00:01.000Z"
+        "time": "2026-09-01T13:32:13.000Z"
       },
       "GOOGL": {
-        "price": 339.35,
-        "prev": 346.5899963378906,
-        "chg": -2.09,
+        "price": 334.695,
+        "prev": 339.3500061035156,
+        "chg": -1.37,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T20:00:01.000Z"
+        "time": "2026-09-01T13:32:12.000Z"
       },
       "BRK.B": {
-        "price": 504.03,
-        "prev": 503.70001220703125,
-        "chg": 0.07,
+        "price": 505.981,
+        "prev": 504.0299987792969,
+        "chg": 0.39,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T20:00:03.000Z"
+        "time": "2026-09-01T13:32:10.000Z"
       },
       "V": {
-        "price": 379.37,
-        "prev": 379.6600036621094,
-        "chg": -0.08,
+        "price": 378.8,
+        "prev": 379.3699951171875,
+        "chg": -0.15,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T20:00:03.000Z"
+        "time": "2026-09-01T13:32:12.000Z"
       },
       "JNJ": {
-        "price": 265.85,
-        "prev": 268.0400085449219,
-        "chg": -0.82,
+        "price": 270.87,
+        "prev": 265.8500061035156,
+        "chg": 1.89,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T20:00:02.000Z"
+        "time": "2026-09-01T13:32:10.000Z"
       },
       "PG": {
-        "price": 145.12,
-        "prev": 143.13999938964844,
-        "chg": 1.38,
+        "price": 146.755,
+        "prev": 145.1199951171875,
+        "chg": 1.13,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T20:02:52.000Z"
+        "time": "2026-09-01T13:32:08.000Z"
       },
       "KO": {
-        "price": 88.67,
-        "prev": 89.05999755859375,
-        "chg": -0.44,
-        "basis": "prev-daily-close",
-        "time": "2026-08-31T20:00:02.000Z"
+        "price": 89.694,
+        "prev": 89.69390106201172,
+        "chg": 0,
+        "basis": "last-daily-close",
+        "time": "2026-09-01T13:32:12.000Z"
       },
       "COST": {
-        "price": 943.89,
-        "prev": 934.6599731445312,
-        "chg": 0.99,
+        "price": 948.66,
+        "prev": 943.8900146484375,
+        "chg": 0.51,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T20:00:01.000Z"
+        "time": "2026-09-01T13:32:08.000Z"
       },
       "WM": {
-        "price": 218.92,
-        "prev": 217.75999450683594,
-        "chg": 0.53,
+        "price": 222.145,
+        "prev": 218.9199981689453,
+        "chg": 1.47,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T20:00:03.000Z"
+        "time": "2026-09-01T13:32:11.000Z"
       },
       "LIN": {
-        "price": 489.58,
-        "prev": 485.3500061035156,
-        "chg": 0.87,
+        "price": 486.85,
+        "prev": 489.5799865722656,
+        "chg": -0.56,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T20:00:01.000Z"
+        "time": "2026-09-01T13:32:00.000Z"
       },
       "XOM": {
-        "price": 160.95,
-        "prev": 156.44000244140625,
-        "chg": 2.88,
+        "price": 163.55,
+        "prev": 160.9499969482422,
+        "chg": 1.62,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T20:04:07.000Z"
+        "time": "2026-09-01T13:32:13.000Z"
       },
       "NVDA": {
-        "price": 220.78,
-        "prev": 217.5500030517578,
-        "chg": 1.48,
+        "price": 215.355,
+        "prev": 220.77999877929688,
+        "chg": -2.46,
         "basis": "prev-daily-close",
-        "time": "2026-08-31T20:00:01.000Z"
+        "time": "2026-09-01T13:32:11.000Z"
       }
     }
   },
@@ -413,23 +413,23 @@
         "by": "rules"
       },
       {
-        "title": "‘It’s not fair’: My twin brother and I were left houses by our parents. Can I make him pay his share for taxes and upkeep?",
-        "link": "https://www.marketwatch.com/story/its-not-fair-my-twin-brother-and-i-were-left-houses-by-our-parents-can-i-make-him-pay-his-share-for-taxes-and-upkeep-43feb780?mod=mw_rss_topstories",
+        "title": "Vanguard’s S&P 500 index fund changed how we invest — but there may be a smarter way to get a piece of the market",
+        "link": "https://www.marketwatch.com/story/vanguards-s-p-500-index-fund-changed-how-we-invest-but-there-may-be-a-smarter-way-to-get-into-the-market-a54a612c?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Tue, 01 Sep 2026 13:15:00 GMT",
-        "ko": "‘불공평해’: 쌍둥이 남동생과 저는 부모님에 의해 집을 떠났습니다. 세금과 유지를 위해 그의 몫을 지불하게 할 수 있습니까?",
+        "date": "Tue, 01 Sep 2026 13:30:00 GMT",
+        "ko": "Vanguard의 S&P 500 인덱스 펀드는 투자 방식을 변화시켰지만 시장의 일부를 얻는 더 현명한 방법이 있을 수 있습니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "Stock market today: Dow, S&P 500, Nasdaq futures fall as inflation, Fed rate-hike fears persist",
+        "title": "Stock market today: Dow, S&P 500, Nasdaq futures fall as rising bond yields, oil prices weigh on stocks",
         "link": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-september-1-dow-sp-500-nasdaq-080617884.html",
         "source": "Yahoo Finance",
         "date": "2026-09-01T08:06:17Z",
-        "ko": "오늘의 주식 시장: 다우지수, S&P 500, 인플레이션에 따른 나스닥 선물 하락, 연준 금리 인상 우려 지속",
+        "ko": "오늘의 주식 시장: 다우, S&P 500, 나스닥 선물은 채권 수익률 상승으로 하락하고, 유가는 주식에 무게를 둡니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -449,23 +449,23 @@
         "by": "ai"
       },
       {
-        "title": "As U.S. bond prices tumble, yields are jumping from Japan to the U.K. and beyond",
-        "link": "https://www.marketwatch.com/story/from-the-u-k-to-japan-bond-yields-are-jumping-as-u-s-bonds-tumble-d8b71075?mod=mw_rss_topstories",
+        "title": "‘It’s not fair’: My twin brother and I were left houses by our parents. Can I make him pay his share for taxes and upkeep?",
+        "link": "https://www.marketwatch.com/story/its-not-fair-my-twin-brother-and-i-were-left-houses-by-our-parents-can-i-make-him-pay-his-share-for-taxes-and-upkeep-43feb780?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Tue, 01 Sep 2026 13:05:00 GMT",
-        "ko": "미국 채권 가격이 하락함에 따라 수익률이 일본에서 영국 등으로 점프하고 있습니다.",
+        "date": "Tue, 01 Sep 2026 13:15:00 GMT",
+        "ko": "‘불공평해’: 쌍둥이 남동생과 저는 부모님에 의해 집을 떠났습니다. 세금과 유지를 위해 그의 몫을 지불하게 할 수 있습니까?",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "Fed's Barr: If inflation doesn't moderate, the central bank should raise rates",
-        "link": "https://finance.yahoo.com/economy/policy/article/feds-barr-if-inflation-doesnt-moderate-the-central-bank-should-raise-rates-130701589.html",
+        "title": "Fed's Barr open to rate hike if inflation does not moderate",
+        "link": "https://finance.yahoo.com/economy/policy/articles/feds-barr-open-rate-hike-130644777.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-01T13:07:01Z",
-        "ko": "Fed's Barr: 인플레이션이 완화되지 않으면 중앙은행은 금리를 인상해야 합니다.",
+        "date": "2026-09-01T13:09:38Z",
+        "ko": "인플레이션이 완화되지 않으면 Fed의 Barr는 금리 인상을 허용합니다",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -476,9 +476,6 @@
   },
   "newsBy": "ai",
   "trCache": {
-    "U.S.-Canada trade war threatens to worsen inflation for both economies. Neither can afford it.": "미국과 캐나다의 무역 전쟁은 두 경제의 인플레이션을 악화시킬 위협이 있다. 그것도 감당할 수 없습니다.",
-    "Vulcan Materials Stock: Analyst Estimates & Ratings": "Vulcan Materials Stock: 애널리스트 추정 및 평가",
-    "Options traders are betting on the quietest Nvidia earnings reaction in years. It could be an opportunity for AI bulls.": "옵션 거래자들은 몇 년 만에 가장 조용한 엔비디아 수익 반응에 베팅하고 있습니다. AI 황소에게 기회가 될 수 있습니다.",
     "Is Wall Street Bullish or Bearish on BXP Stock?": "BXP 주식에서 월스트리트가 강세입니까, 아니면 약세입니까?",
     "What Are Wall Street Analysts' Target Price for CDW Corporation Stock?": "CDW Corporation 주식에 대한 월스트리트 애널리스트의 목표 가격은 얼마입니까?",
     "Rout in Chipmakers Weighs on Broader Market": "칩 메이커의 루트가 더 넓은 시장에 무게를 둔다",
@@ -775,7 +772,10 @@
     "Hut 8 stock is a winner in a new deal between Anthropic and Nvidia-backed Lambda": "HUT 8 주식은 Anthropic과 Nvidia가 후원하는 Lambda 간의 새로운 거래에서 승자입니다.",
     "‘It’s not fair’: My twin brother and I were left houses by our parents. Can I make him pay his share for taxes and upkeep?": "‘불공평해’: 쌍둥이 남동생과 저는 부모님에 의해 집을 떠났습니다. 세금과 유지를 위해 그의 몫을 지불하게 할 수 있습니까?",
     "As U.S. bond prices tumble, yields are jumping from Japan to the U.K. and beyond": "미국 채권 가격이 하락함에 따라 수익률이 일본에서 영국 등으로 점프하고 있습니다.",
-    "Fed's Barr: If inflation doesn't moderate, the central bank should raise rates": "Fed's Barr: 인플레이션이 완화되지 않으면 중앙은행은 금리를 인상해야 합니다."
+    "Fed's Barr: If inflation doesn't moderate, the central bank should raise rates": "Fed's Barr: 인플레이션이 완화되지 않으면 중앙은행은 금리를 인상해야 합니다.",
+    "Vanguard’s S&P 500 index fund changed how we invest — but there may be a smarter way to get a piece of the market": "Vanguard의 S&P 500 인덱스 펀드는 투자 방식을 변화시켰지만 시장의 일부를 얻는 더 현명한 방법이 있을 수 있습니다.",
+    "Stock market today: Dow, S&P 500, Nasdaq futures fall as rising bond yields, oil prices weigh on stocks": "오늘의 주식 시장: 다우, S&P 500, 나스닥 선물은 채권 수익률 상승으로 하락하고, 유가는 주식에 무게를 둡니다.",
+    "Fed's Barr open to rate hike if inflation does not moderate": "인플레이션이 완화되지 않으면 Fed의 Barr는 금리 인상을 허용합니다"
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -2880,8 +2880,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cecnm6JjWzGZnC445hNxt\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cecnm7EJMqnKvLxm6exnR\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cecnm7k4Ji6uTfPrwTnVw\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CecoZ7Gp9v5cy9bmU11AN\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CecoZ7u1wpUNPYvau8paH\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CecoZ8R2DYtByVk24otie\"}"
   ]
 }
