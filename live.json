@@ -1,27 +1,27 @@
 {
-  "asOf": "2026-09-01T01:03:34.296Z",
+  "asOf": "2026-09-01T01:13:53.167Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
-      "price": 6821.76,
+      "price": 6788.05,
       "prev": 6788.8798828125,
-      "chg": 0.48,
+      "chg": -0.01,
       "basis": "prev-daily-close",
-      "time": "2026-09-01T00:43:20.000Z"
+      "time": "2026-09-01T00:53:40.000Z"
     },
     "^KQ11": {
-      "price": 823.42,
+      "price": 820.76,
       "prev": 838.4099731445312,
-      "chg": -1.79,
+      "chg": -2.11,
       "basis": "prev-daily-close",
-      "time": "2026-09-01T00:43:20.000Z"
+      "time": "2026-09-01T00:53:40.000Z"
     },
     "KRW=X": {
-      "price": 1369.38,
+      "price": 1369.58,
       "prev": 1380.449951171875,
-      "chg": -0.8,
+      "chg": -0.79,
       "basis": "prev-daily-close",
-      "time": "2026-09-01T01:03:27.000Z"
+      "time": "2026-09-01T01:13:46.000Z"
     },
     "^GSPC": {
       "price": 7686.14,
@@ -53,31 +53,31 @@
     }
   },
   "fx": {
-    "low52": 1369.38,
+    "low52": 1369.58,
     "high52": 1554.48,
     "pct": 0
   },
   "hist": {
     "^KS11": {
-      "last": 6821.76,
+      "last": 6788.05,
       "low52": 3142.93,
       "high52": 9114.55,
-      "pct52": 0.616,
-      "chg3m": -22.38
+      "pct52": 0.61,
+      "chg3m": -22.76
     },
     "^KQ11": {
-      "last": 823.42,
+      "last": 820.76,
       "low52": 644.78,
       "high52": 1226.18,
-      "pct52": 0.307,
-      "chg3m": -21.58
+      "pct52": 0.303,
+      "chg3m": -21.83
     },
     "KRW=X": {
-      "last": 1369.38,
-      "low52": 1369.38,
+      "last": 1369.58,
+      "low52": 1369.58,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -10.5
+      "chg3m": -10.49
     },
     "^GSPC": {
       "last": 7686.14,
@@ -110,13 +110,13 @@
   },
   "regime": {
     "by": "rules",
-    "asOf": "2026-09-01T01:03:33.786Z",
+    "asOf": "2026-09-01T01:13:52.614Z",
     "kr": {
       "why": {
         "rates": "미국 10년물 금리가 지금 4.76%로, 3개월 전보다 6.8% 높고 최근 1년 범위(3.95~4.76)의 100% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
-        "growth": "지수가 3개월 전보다 -22.38% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
-        "valuation": "지수가 최근 1년 범위의 62% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
-        "fx": "원/달러가 1369.38원으로 최근 1년(1369.38~1554.48) 범위의 0% 지점입니다.",
+        "growth": "지수가 3개월 전보다 -22.76% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
+        "valuation": "지수가 최근 1년 범위의 61% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
+        "fx": "원/달러가 1369.58원으로 최근 1년(1369.58~1554.48) 범위의 0% 지점입니다.",
         "geo": "VIX 가 14.92입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
       },
       "rates": "hike",
@@ -131,7 +131,7 @@
         "rates": "미국 10년물 금리가 지금 4.76%로, 3개월 전보다 6.8% 높고 최근 1년 범위(3.95~4.76)의 100% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
         "growth": "지수가 3개월 전보다 +1% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
         "valuation": "지수가 최근 1년 범위의 92% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
-        "fx": "원/달러가 1369.38원으로 최근 1년(1369.38~1554.48) 범위의 0% 지점입니다.",
+        "fx": "원/달러가 1369.58원으로 최근 1년(1369.58~1554.48) 범위의 0% 지점입니다.",
         "geo": "VIX 가 14.92입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
       },
       "rates": "hike",
@@ -145,95 +145,95 @@
   "stocks": {
     "kr": {
       "105560": {
-        "price": 172800,
+        "price": 171600,
         "prev": 171600,
-        "chg": 0.7,
-        "basis": "prev-daily-close",
-        "time": "2026-09-01T00:43:30.000Z"
-      },
-      "207940": {
-        "price": 1518000,
-        "prev": 1486000,
-        "chg": 2.15,
-        "basis": "prev-daily-close",
-        "time": "2026-09-01T00:43:27.000Z"
-      },
-      "005930": {
-        "price": 258500,
-        "prev": 257000,
-        "chg": 0.58,
-        "basis": "prev-daily-close",
-        "time": "2026-09-01T00:43:32.000Z"
-      },
-      "000660": {
-        "price": 1688000,
-        "prev": 1653000,
-        "chg": 2.12,
-        "basis": "prev-daily-close",
-        "time": "2026-09-01T00:43:32.000Z"
-      },
-      "005380": {
-        "price": 399500,
-        "prev": 399500,
         "chg": 0,
         "basis": "prev-daily-close",
-        "time": "2026-09-01T00:43:32.000Z"
+        "time": "2026-09-01T00:53:51.000Z"
+      },
+      "207940": {
+        "price": 1505000,
+        "prev": 1486000,
+        "chg": 1.28,
+        "basis": "prev-daily-close",
+        "time": "2026-09-01T00:53:40.000Z"
+      },
+      "005930": {
+        "price": 257750,
+        "prev": 257000,
+        "chg": 0.29,
+        "basis": "prev-daily-close",
+        "time": "2026-09-01T00:53:51.000Z"
+      },
+      "000660": {
+        "price": 1687000,
+        "prev": 1653000,
+        "chg": 2.06,
+        "basis": "prev-daily-close",
+        "time": "2026-09-01T00:53:50.000Z"
+      },
+      "005380": {
+        "price": 398500,
+        "prev": 399500,
+        "chg": -0.25,
+        "basis": "prev-daily-close",
+        "time": "2026-09-01T00:53:51.000Z"
       },
       "055550": {
-        "price": 111200,
+        "price": 110300,
         "prev": 109700,
-        "chg": 1.37,
+        "chg": 0.55,
         "basis": "prev-daily-close",
-        "time": "2026-09-01T00:43:28.000Z"
+        "time": "2026-09-01T00:53:47.000Z"
       },
       "000810": {
-        "price": 676000,
+        "price": 668000,
         "prev": 687000,
-        "chg": -1.6,
+        "chg": -2.77,
         "basis": "prev-daily-close",
-        "time": "2026-09-01T00:43:26.000Z"
+        "time": "2026-09-01T00:53:29.000Z"
       },
       "033780": {
-        "price": 175600,
+        "price": 174900,
         "prev": 176300,
-        "chg": -0.4,
+        "chg": -0.79,
         "basis": "prev-daily-close",
-        "time": "2026-09-01T00:43:27.000Z"
+        "time": "2026-09-01T00:53:46.000Z"
       },
       "035420": {
-        "price": 218000,
+        "price": 216500,
         "prev": 220500,
-        "chg": -1.13,
+        "chg": -1.81,
         "basis": "prev-daily-close",
-        "time": "2026-09-01T00:43:29.000Z"
+        "time": "2026-09-01T00:53:50.000Z"
       },
       "005490": {
-        "price": 350000,
+        "price": 347000,
         "prev": 337500,
-        "chg": 3.7,
+        "chg": 2.81,
         "basis": "prev-daily-close",
-        "time": "2026-09-01T00:43:32.000Z"
+        "time": "2026-09-01T00:53:50.000Z"
       },
       "028260": {
-        "price": 378500,
+        "price": 376000,
         "prev": 375000,
-        "chg": 0.93,
+        "chg": 0.27,
         "basis": "prev-daily-close",
-        "time": "2026-09-01T00:43:32.000Z"
+        "time": "2026-09-01T00:53:45.000Z"
       },
       "012450": {
-        "price": 1060000,
+        "price": 1057000,
         "prev": 1157000,
-        "chg": -8.38,
+        "chg": -8.64,
         "basis": "prev-daily-close",
-        "time": "2026-09-01T00:43:30.000Z"
+        "time": "2026-09-01T00:53:50.000Z"
       },
       "017670": {
-        "price": 94500,
+        "price": 93700,
         "prev": 98600,
-        "chg": -4.16,
+        "chg": -4.97,
         "basis": "prev-daily-close",
-        "time": "2026-09-01T00:43:31.000Z"
+        "time": "2026-09-01T00:53:51.000Z"
       }
     },
     "us": {
@@ -333,10 +333,10 @@
   "news": {
     "kr": [
       {
-        "title": "LS증권, 하반기 신입사원 공채…원서 13일까지 접수",
-        "link": "https://www.yna.co.kr/view/AKR20260901058500008",
+        "title": "메리츠증권, 'AI 탑재·글로벌 커뮤니티' 금융 플랫폼 MOUM 출시",
+        "link": "https://www.yna.co.kr/view/AKR20260901051200008",
         "source": "연합뉴스",
-        "date": "Tue, 1 Sep 2026 09:55:55 +0900",
+        "date": "Tue, 1 Sep 2026 10:00:01 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -366,10 +366,10 @@
         "by": "rules"
       },
       {
-        "title": "신한증권, 일반법인용 프리미어 발행어음 출시…만기 3개월부터",
-        "link": "https://www.yna.co.kr/view/AKR20260901056400008",
+        "title": "LS증권, 하반기 신입사원 공채…원서 13일까지 접수",
+        "link": "https://www.yna.co.kr/view/AKR20260901058500008",
         "source": "연합뉴스",
-        "date": "Tue, 1 Sep 2026 09:48:36 +0900",
+        "date": "Tue, 1 Sep 2026 09:55:55 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -2880,8 +2880,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CebpToNWqidpWkEuiJm7z\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CebpToyUn3UWwRt3uzXNU\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CebpTpTW23ZUmTujEhP6F\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CebqFR768kiap5fD65K3A\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CebqFRoG5ii6B8XBT3Xqt\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CebqFSPymrTMN7eZMNTTU\"}"
   ]
 }
