@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-01T08:46:38.762Z",
+  "asOf": "2026-09-01T09:47:09.374Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -7,21 +7,21 @@
       "prev": 6820.02001953125,
       "chg": 0.23,
       "basis": "prev-daily-close",
-      "time": "2026-09-01T06:33:00.000Z"
+      "time": "2026-09-01T09:05:40.000Z"
     },
     "^KQ11": {
       "price": 821.25,
       "prev": 834.2899780273438,
       "chg": -1.56,
       "basis": "prev-daily-close",
-      "time": "2026-09-01T06:32:50.000Z"
+      "time": "2026-09-01T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1373.03,
+      "price": 1373,
       "prev": 1377.1099853515625,
       "chg": -0.3,
       "basis": "prev-daily-close",
-      "time": "2026-09-01T08:46:28.000Z"
+      "time": "2026-09-01T09:46:51.000Z"
     },
     "^GSPC": {
       "price": 7686.14,
@@ -38,11 +38,11 @@
       "time": "2026-08-31T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 15.56,
+      "price": 15.9,
       "prev": 14.920000076293945,
-      "chg": 4.29,
+      "chg": 6.57,
       "basis": "prev-daily-close",
-      "time": "2026-09-01T08:31:31.000Z"
+      "time": "2026-09-01T09:31:46.000Z"
     },
     "^TNX": {
       "price": 4.7580004,
@@ -53,7 +53,7 @@
     }
   },
   "fx": {
-    "low52": 1373.03,
+    "low52": 1373,
     "high52": 1554.48,
     "pct": 0
   },
@@ -73,8 +73,8 @@
       "chg3m": -21.79
     },
     "KRW=X": {
-      "last": 1373.03,
-      "low52": 1373.03,
+      "last": 1373,
+      "low52": 1373,
       "high52": 1554.48,
       "pct52": 0,
       "chg3m": -10.44
@@ -94,11 +94,11 @@
       "chg3m": -2.64
     },
     "^VIX": {
-      "last": 15.56,
+      "last": 15.9,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.119,
-      "chg3m": -1.33
+      "pct52": 0.138,
+      "chg3m": 0.82
     },
     "^TNX": {
       "last": 4.76,
@@ -110,14 +110,14 @@
   },
   "regime": {
     "by": "rules",
-    "asOf": "2026-09-01T08:46:38.224Z",
+    "asOf": "2026-09-01T09:47:08.809Z",
     "kr": {
       "why": {
         "rates": "미국 10년물 금리가 지금 4.76%로, 3개월 전보다 6.32% 높고 최근 1년 범위(3.95~4.76)의 100% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
         "growth": "지수가 3개월 전보다 -22.22% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
         "valuation": "지수가 최근 1년 범위의 62% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
-        "fx": "원/달러가 1373.03원으로 최근 1년(1373.03~1554.48) 범위의 0% 지점입니다.",
-        "geo": "VIX 가 15.56입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
+        "fx": "원/달러가 1373원으로 최근 1년(1373~1554.48) 범위의 0% 지점입니다.",
+        "geo": "VIX 가 15.9입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
       },
       "rates": "hike",
       "growth": "reces",
@@ -131,8 +131,8 @@
         "rates": "미국 10년물 금리가 지금 4.76%로, 3개월 전보다 6.32% 높고 최근 1년 범위(3.95~4.76)의 100% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
         "growth": "지수가 3개월 전보다 +1.13% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
         "valuation": "지수가 최근 1년 범위의 92% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
-        "fx": "원/달러가 1373.03원으로 최근 1년(1373.03~1554.48) 범위의 0% 지점입니다.",
-        "geo": "VIX 가 15.56입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
+        "fx": "원/달러가 1373원으로 최근 1년(1373~1554.48) 범위의 0% 지점입니다.",
+        "geo": "VIX 가 15.9입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
       },
       "rates": "hike",
       "growth": "expand",
@@ -333,6 +333,39 @@
   "news": {
     "kr": [
       {
+        "title": "한일 경제안보대화 도쿄서 개최…\"AI·반도체 육성 협력 모색\"",
+        "link": "https://www.yna.co.kr/view/AKR20260901165100001",
+        "source": "연합뉴스",
+        "date": "Tue, 1 Sep 2026 18:26:05 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "주식 소수점 거래 급증…개미들 '닉스·버크셔' 쪼개 샀다",
+        "link": "https://www.hankyung.com/article/202608251136i",
+        "source": "한국경제",
+        "date": "Tue, 01 Sep 2026 17:41:02 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "[인기검색TOP5] 한울반도체, 매드업, 비에이치, SK이노베이션, DB손해보험",
+        "link": "https://www.mk.co.kr/news/stock/12141658",
+        "source": "매일경제",
+        "date": "Tue, 01 Sep 2026 18:13:17 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
         "title": "국고채 금리 상승…美 장기채 상승·30년물 입찰 부진 등 영향(종합)",
         "link": "https://www.yna.co.kr/view/AKR20260901166051008",
         "source": "연합뉴스",
@@ -344,54 +377,21 @@
         "by": "rules"
       },
       {
-        "title": "美 국채 급등에도 코스피 상승…JP모간 \"亞 반도체 매집하라\"",
-        "link": "https://www.hankyung.com/article/202609016720i",
+        "title": "'역대 최대 수주' 삼성전기 주가가 되레 하락한 이유는",
+        "link": "https://www.hankyung.com/article/202609017210i",
         "source": "한국경제",
-        "date": "Tue, 01 Sep 2026 16:25:27 +0900",
+        "date": "Tue, 01 Sep 2026 17:24:22 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "신한투자증권, 중개형 ISA 전용 특판 RP 출시…세전 연 3.65%",
-        "link": "https://www.mk.co.kr/news/stock/12141374",
+        "title": "핀텔, 30억원 규모 유상증자 실시",
+        "link": "https://www.mk.co.kr/news/stock/12141643",
         "source": "매일경제",
-        "date": "Tue, 01 Sep 2026 15:49:05 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "국고채 금리 일제히 상승…3년물 연 3.878%",
-        "link": "https://www.yna.co.kr/view/AKR20260901166000008",
-        "source": "연합뉴스",
-        "date": "Tue, 1 Sep 2026 16:49:01 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "美 중간선거 두달 앞…\"주식 팔아야 할까, 더 사야 할까\"",
-        "link": "https://www.hankyung.com/article/202609017019i",
-        "source": "한국경제",
-        "date": "Tue, 01 Sep 2026 16:24:22 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "“ISA 옮기면 혜택 2배”…KB증권, 중개형 ISA ‘순입금 이벤트 실시",
-        "link": "https://www.mk.co.kr/news/stock/12141373",
-        "source": "매일경제",
-        "date": "Tue, 01 Sep 2026 15:48:07 +09:00",
+        "date": "Tue, 01 Sep 2026 17:55:22 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -413,27 +413,27 @@
         "by": "ai"
       },
       {
-        "title": "Shein shares fall up to 10% after long-awaited trading debut",
-        "link": "https://www.marketwatch.com/story/shein-shares-fall-up-to-10-after-long-awaited-trading-debut-edecb6ee?mod=mw_rss_topstories",
+        "title": "Are rising bond rates really so bad? Maybe not, say these exports",
+        "link": "https://www.marketwatch.com/story/are-rising-bond-rates-really-so-bad-maybe-not-say-these-exports-1af9e683?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Tue, 01 Sep 2026 08:41:00 GMT",
-        "ko": "SHEIN 주식은 오랫동안 기다려온 트레이딩 데뷔 후 최대 10% 하락합니다.",
+        "date": "Tue, 01 Sep 2026 09:31:00 GMT",
+        "ko": "채권 금리 상승이 정말 그렇게 나쁜가요? 아닐 수도 있습니다. 이러한 내보내기를 말합니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "Tesla Just Killed Its Solar Roof After Years of Struggling to Scale. What It Means for TSLA Stock.",
-        "link": "https://finance.yahoo.com/energy/articles/tesla-just-killed-solar-roof-220544385.html",
+        "title": "Royal Bank of Canada (RY) Posts Record Profit as Tariffs Loom",
+        "link": "https://finance.yahoo.com/economy/policy/articles/royal-bank-canada-ry-posts-091959289.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-30T22:05:44Z",
-        "ko": "테슬라는 수년간 규모 확장을 위해 고군분투한 끝에 태양열 지붕을 파괴했습니다. TSLA 주식에 대한 의미.",
-        "act": "none",
-        "lasting": "temporary",
+        "date": "2026-09-01T09:19:59Z",
+        "ko": "캐나다왕립은행 (Royal Bank of Canada, RY) 이 기록적인 수익을 관세 직기 (Tariffs Loom) 로 게시",
+        "act": "watch",
+        "lasting": "structural",
         "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
         "by": "rules"
       },
       {
@@ -449,37 +449,33 @@
         "by": "ai"
       },
       {
-        "title": "Amazon’s stock slips as the FTC alleges billions of dollars in hidden ad fees",
-        "link": "https://www.marketwatch.com/story/amazons-stock-slips-as-the-ftc-alleges-billions-of-dollars-in-hidden-ad-fees-4ae44ee4?mod=mw_rss_topstories",
+        "title": "From the U.K. to Japan, bond yields are jumping as U.S. bonds tumble",
+        "link": "https://www.marketwatch.com/story/from-the-u-k-to-japan-bond-yields-are-jumping-as-u-s-bonds-tumble-d8b71075?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 31 Aug 2026 22:24:00 GMT",
-        "ko": "FTC가 수십억 달러의 숨겨진 광고 수수료를 주장함에 따라 아마존의 주식은 하락했다.",
+        "date": "Tue, 01 Sep 2026 09:20:00 GMT",
+        "ko": "영국에서 일본으로, 미국 채권이 떨어지면서 채권 수익률이 뛰고 있습니다.",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "Rich young Americans have already ditched stocks for alternative assets. Should you?",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/rich-young-americans-already-ditched-090500306.html",
+        "source": "Yahoo Finance",
+        "date": "2026-09-01T09:05:00Z",
+        "ko": "부유한 젊은 미국인들은 이미 대체 자산을 위해 주식을 버렸습니다. 그래야 할까요?",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
-      },
-      {
-        "title": "Dow Jones Futures Fall, Oil Prices Pop As U.S. Strikes Iran",
-        "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-microsoft-titans-mask-market-weakness/?src=A00220&yptr=yahoo",
-        "source": "Yahoo Finance",
-        "date": "2026-08-31T03:10:53Z",
-        "ko": "다우존스 선물 하락, 미국이 이란을 타격하면서 유가 상승",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "대형주가 지수를 떠받치는 단기 시장 흐름 해설입니다.",
-        "by": "ai"
       }
     ]
   },
   "newsBy": "ai",
   "trCache": {
-    "Stock market today: S&P 500, Nasdaq futures recover in countdown to Nvidia earnings, Fed Jackson Hole summit": "오늘의 주식 시장: S&P 500, Nasdaq 선물은 엔비디아 수익 카운트다운에서 회복, Fed Jackson Hole summit",
-    "Stick with value stocks until everyone starts talking about them — they’re still under the radar, this Wall Street firm says": "이 월스트리트 회사는 모두가 그것에 대해 이야기하기 시작할 때까지 가치 재고를 고수하십시오. 그들은 여전히 레이더 아래에 있다고 말합니다.",
-    "Stanley Druckenmiller and Cathie Wood agree on 2 tech giant stocks": "스탠리 드러켄밀러 (Stanley Druckenmiller) 와 캐시 우드 (Cathie Wood) 는 2 개의 기술 거대 주식에 동의합니다.",
-    "Major Alibaba figures make purchases as Chinese giant sells $10 billion of stock": "중국 거대 기업이 100억 달러 ($) 규모의 주식을 판매하면서 알리바바의 주요 인물들이 구매를 하고 있습니다.",
     "Tech stocks today: All eyes on Nvidia earnings, as Apple debuts new Mac Mini, Mac Studio aimed at AI developers": "오늘날의 기술 주식: 애플이 AI 개발자를 겨냥한 새로운 Mac Mini, Mac Studio를 출시함에 따라 엔비디아 수익에 대한 모든 시선",
     "Dick’s Sporting Goods’ stock is having its worst day ever, as sneakers aren’t selling without deeper discounts": "더 깊은 할인 없이는 운동화가 판매되지 않기 때문에 Dick’s Sporting Goods의 재고는 사상 최악의 하루를 보내고 있습니다.",
     "Affirm (AFRM) Slipped After Klarna Cut Guidance. Category Warning or Share-Gain Opportunity?": "Klarna Cut Guidance 후 Affirm (AFRM) 미끄러짐. 카테고리 경고 또는 주식 획득 기회?",
@@ -775,7 +771,11 @@
     "Tesla Stock Could Benefit as Trump Locks Down the U.S. Power Grid": "트럼프가 미국의 전력망을 잠그면 테슬라 주식이 이익을 볼 수 있다",
     "Tesla Just Killed Its Solar Roof After Years of Struggling to Scale. What It Means for TSLA Stock.": "테슬라는 수년간 규모 확장을 위해 고군분투한 끝에 태양열 지붕을 파괴했습니다. TSLA 주식에 대한 의미.",
     "Shein shares fall up to 10% after long-awaited trading debut": "SHEIN 주식은 오랫동안 기다려온 트레이딩 데뷔 후 최대 10% 하락합니다.",
-    "Dow Jones Futures Fall, Oil Prices Pop As U.S. Strikes Iran": "다우존스 선물 하락, 미국이 이란을 타격하면서 유가 상승"
+    "Dow Jones Futures Fall, Oil Prices Pop As U.S. Strikes Iran": "다우존스 선물 하락, 미국이 이란을 타격하면서 유가 상승",
+    "Are rising bond rates really so bad? Maybe not, say these exports": "채권 금리 상승이 정말 그렇게 나쁜가요? 아닐 수도 있습니다. 이러한 내보내기를 말합니다.",
+    "Royal Bank of Canada (RY) Posts Record Profit as Tariffs Loom": "캐나다왕립은행 (Royal Bank of Canada, RY) 이 기록적인 수익을 관세 직기 (Tariffs Loom) 로 게시",
+    "From the U.K. to Japan, bond yields are jumping as U.S. bonds tumble": "영국에서 일본으로, 미국 채권이 떨어지면서 채권 수익률이 뛰고 있습니다.",
+    "Rich young Americans have already ditched stocks for alternative assets. Should you?": "부유한 젊은 미국인들은 이미 대체 자산을 위해 주식을 버렸습니다. 그래야 할까요?"
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -2880,8 +2880,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CecRmurmXbZrowY7AdKCD\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CecRmvTz1abMSpLxhmiiN\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CecRmvyjgXufmEM4oNEoy\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CecWPY82h89CGTBYMYBvq\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CecWPYpCzXo22TKC3B4fD\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CecWPZLxN2UGUykyhQcJj\"}"
   ]
 }
