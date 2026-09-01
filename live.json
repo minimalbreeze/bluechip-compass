@@ -1,27 +1,27 @@
 {
-  "asOf": "2026-09-01T05:43:31.273Z",
+  "asOf": "2026-09-01T05:53:53.029Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
-      "price": 6800.17,
+      "price": 6822.78,
       "prev": 6820.02001953125,
-      "chg": -0.29,
+      "chg": 0.04,
       "basis": "prev-daily-close",
-      "time": "2026-09-01T05:23:20.000Z"
+      "time": "2026-09-01T05:33:40.000Z"
     },
     "^KQ11": {
-      "price": 816.24,
+      "price": 819.04,
       "prev": 834.2899780273438,
-      "chg": -2.16,
+      "chg": -1.83,
       "basis": "prev-daily-close",
-      "time": "2026-09-01T05:23:20.000Z"
+      "time": "2026-09-01T05:33:40.000Z"
     },
     "KRW=X": {
-      "price": 1368.58,
+      "price": 1368.69,
       "prev": 1377.1099853515625,
-      "chg": -0.62,
+      "chg": -0.61,
       "basis": "prev-daily-close",
-      "time": "2026-09-01T05:43:21.000Z"
+      "time": "2026-09-01T05:53:40.000Z"
     },
     "^GSPC": {
       "price": 7686.14,
@@ -53,31 +53,31 @@
     }
   },
   "fx": {
-    "low52": 1368.58,
+    "low52": 1368.69,
     "high52": 1554.48,
     "pct": 0
   },
   "hist": {
     "^KS11": {
-      "last": 6800.17,
+      "last": 6822.78,
       "low52": 3142.93,
       "high52": 9114.55,
-      "pct52": 0.612,
-      "chg3m": -22.62
+      "pct52": 0.616,
+      "chg3m": -22.37
     },
     "^KQ11": {
-      "last": 816.24,
+      "last": 819.04,
       "low52": 644.78,
       "high52": 1226.18,
-      "pct52": 0.295,
-      "chg3m": -22.27
+      "pct52": 0.3,
+      "chg3m": -22
     },
     "KRW=X": {
-      "last": 1368.58,
-      "low52": 1368.58,
+      "last": 1368.69,
+      "low52": 1368.69,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -10.73
+      "chg3m": -10.72
     },
     "^GSPC": {
       "last": 7686.14,
@@ -110,13 +110,13 @@
   },
   "regime": {
     "by": "rules",
-    "asOf": "2026-09-01T05:43:30.638Z",
+    "asOf": "2026-09-01T05:53:52.377Z",
     "kr": {
       "why": {
         "rates": "미국 10년물 금리가 지금 4.76%로, 3개월 전보다 6.32% 높고 최근 1년 범위(3.95~4.76)의 100% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
-        "growth": "지수가 3개월 전보다 -22.62% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
-        "valuation": "지수가 최근 1년 범위의 61% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
-        "fx": "원/달러가 1368.58원으로 최근 1년(1368.58~1554.48) 범위의 0% 지점입니다.",
+        "growth": "지수가 3개월 전보다 -22.37% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
+        "valuation": "지수가 최근 1년 범위의 62% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
+        "fx": "원/달러가 1368.69원으로 최근 1년(1368.69~1554.48) 범위의 0% 지점입니다.",
         "geo": "VIX 가 14.92입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
       },
       "rates": "hike",
@@ -131,7 +131,7 @@
         "rates": "미국 10년물 금리가 지금 4.76%로, 3개월 전보다 6.32% 높고 최근 1년 범위(3.95~4.76)의 100% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
         "growth": "지수가 3개월 전보다 +1.13% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
         "valuation": "지수가 최근 1년 범위의 92% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
-        "fx": "원/달러가 1368.58원으로 최근 1년(1368.58~1554.48) 범위의 0% 지점입니다.",
+        "fx": "원/달러가 1368.69원으로 최근 1년(1368.69~1554.48) 범위의 0% 지점입니다.",
         "geo": "VIX 가 14.92입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
       },
       "rates": "hike",
@@ -145,95 +145,95 @@
   "stocks": {
     "kr": {
       "105560": {
-        "price": 170900,
+        "price": 170700,
         "prev": 173300,
-        "chg": -1.38,
+        "chg": -1.5,
         "basis": "prev-daily-close",
-        "time": "2026-09-01T05:23:24.000Z"
+        "time": "2026-09-01T05:33:49.000Z"
       },
       "207940": {
-        "price": 1511000,
+        "price": 1509000,
         "prev": 1518000,
-        "chg": -0.46,
+        "chg": -0.59,
         "basis": "prev-daily-close",
-        "time": "2026-09-01T05:23:28.000Z"
+        "time": "2026-09-01T05:33:49.000Z"
       },
       "005930": {
-        "price": 259500,
+        "price": 260000,
         "prev": 260000,
-        "chg": -0.19,
+        "chg": 0,
         "basis": "prev-daily-close",
-        "time": "2026-09-01T05:23:28.000Z"
+        "time": "2026-09-01T05:33:50.000Z"
       },
       "000660": {
-        "price": 1689000,
+        "price": 1695000,
         "prev": 1674000,
-        "chg": 0.9,
+        "chg": 1.25,
         "basis": "prev-daily-close",
-        "time": "2026-09-01T05:23:28.000Z"
+        "time": "2026-09-01T05:33:50.000Z"
       },
       "005380": {
-        "price": 397500,
+        "price": 399000,
         "prev": 403500,
-        "chg": -1.49,
+        "chg": -1.12,
         "basis": "prev-daily-close",
-        "time": "2026-09-01T05:23:28.000Z"
+        "time": "2026-09-01T05:33:49.000Z"
       },
       "055550": {
-        "price": 111200,
+        "price": 111400,
         "prev": 108900,
-        "chg": 2.11,
+        "chg": 2.3,
         "basis": "prev-daily-close",
-        "time": "2026-09-01T05:23:29.000Z"
+        "time": "2026-09-01T05:33:46.000Z"
       },
       "000810": {
-        "price": 673000,
+        "price": 676000,
         "prev": 665000,
-        "chg": 1.2,
+        "chg": 1.65,
         "basis": "prev-daily-close",
-        "time": "2026-09-01T05:23:20.000Z"
+        "time": "2026-09-01T05:33:48.000Z"
       },
       "033780": {
-        "price": 174600,
+        "price": 174800,
         "prev": 178100,
-        "chg": -1.97,
+        "chg": -1.85,
         "basis": "prev-daily-close",
-        "time": "2026-09-01T05:23:18.000Z"
+        "time": "2026-09-01T05:33:50.000Z"
       },
       "035420": {
-        "price": 214000,
+        "price": 214500,
         "prev": 217000,
-        "chg": -1.38,
+        "chg": -1.15,
         "basis": "prev-daily-close",
-        "time": "2026-09-01T05:23:29.000Z"
+        "time": "2026-09-01T05:33:50.000Z"
       },
       "005490": {
-        "price": 342000,
+        "price": 343000,
         "prev": 338500,
-        "chg": 1.03,
+        "chg": 1.33,
         "basis": "prev-daily-close",
-        "time": "2026-09-01T05:23:29.000Z"
+        "time": "2026-09-01T05:33:47.000Z"
       },
       "028260": {
         "price": 388000,
         "prev": 376500,
         "chg": 3.05,
         "basis": "prev-daily-close",
-        "time": "2026-09-01T05:23:29.000Z"
+        "time": "2026-09-01T05:33:50.000Z"
       },
       "012450": {
-        "price": 1052000,
+        "price": 1057000,
         "prev": 1102000,
-        "chg": -4.54,
+        "chg": -4.08,
         "basis": "prev-daily-close",
-        "time": "2026-09-01T05:23:28.000Z"
+        "time": "2026-09-01T05:33:51.000Z"
       },
       "017670": {
-        "price": 93400,
+        "price": 93700,
         "prev": 94200,
-        "chg": -0.85,
+        "chg": -0.53,
         "basis": "prev-daily-close",
-        "time": "2026-09-01T05:23:28.000Z"
+        "time": "2026-09-01T05:33:48.000Z"
       }
     },
     "us": {
@@ -344,24 +344,24 @@
         "by": "rules"
       },
       {
-        "title": "현대차증권, IB 조직 개편…구조화금융·기업금융 양대 체제로",
-        "link": "https://www.hankyung.com/article/2026090164366",
+        "title": "주가 올랐는데 되레 싸졌다…'실적 랠리' 올라탄 美 종목 보니",
+        "link": "https://www.hankyung.com/article/202609015582i",
         "source": "한국경제",
-        "date": "Tue, 01 Sep 2026 13:08:13 +0900",
+        "date": "Tue, 01 Sep 2026 14:44:44 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "국내외투자자 주식플랫폼서 소통…메리츠증권 ‘모음’ 나왔다",
-        "link": "https://www.mk.co.kr/news/stock/12141148",
+        "title": "“배당금으로 따박따박 월세 번다”…‘파이어족’ 낚는 과장광고 ‘싹’ 고친다",
+        "link": "https://www.mk.co.kr/news/economy/12141266",
         "source": "매일경제",
-        "date": "Tue, 01 Sep 2026 12:24:05 +09:00",
+        "date": "Tue, 01 Sep 2026 14:46:16 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -377,10 +377,10 @@
         "by": "rules"
       },
       {
-        "title": "한화, 5일 연속 상승 끝 주춤…증권가는 \"더 간다\"",
-        "link": "https://www.hankyung.com/article/202609016377i",
+        "title": "현대차증권, IB 조직 개편…구조화금융·기업금융 양대 체제로",
+        "link": "https://www.hankyung.com/article/2026090164366",
         "source": "한국경제",
-        "date": "Tue, 01 Sep 2026 13:05:39 +0900",
+        "date": "Tue, 01 Sep 2026 13:08:13 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -388,10 +388,10 @@
         "by": "rules"
       },
       {
-        "title": "삼성전기·전자 담고 SK하이닉스·이노베이션은 판다 [주식 초고수는 지금]",
-        "link": "https://www.mk.co.kr/news/stock/12141082",
+        "title": "국내외투자자 주식플랫폼서 소통…메리츠증권 ‘모음’ 나왔다",
+        "link": "https://www.mk.co.kr/news/stock/12141148",
         "source": "매일경제",
-        "date": "Tue, 01 Sep 2026 10:55:14 +09:00",
+        "date": "Tue, 01 Sep 2026 12:24:05 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -2880,8 +2880,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CecBoyKZ7X1FeGYnvY7bz\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CecBoz6vyCAoav9d8uzCC\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CecBozgAF8kQUxMSGmP3U\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CecCboahN4ExxxbJKXrfe\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CecCbpSnZXJHNSAKKLAye\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CecCbpwoH7h9bQ2DcWjq3\"}"
   ]
 }
