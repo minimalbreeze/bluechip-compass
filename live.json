@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-01T21:10:14.678Z",
+  "asOf": "2026-09-01T22:10:42.473Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -17,11 +17,11 @@
       "time": "2026-09-01T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1372.87,
+      "price": 1374.75,
       "prev": 1366.6199951171875,
-      "chg": 0.46,
+      "chg": 0.59,
       "basis": "prev-daily-close",
-      "time": "2026-09-01T21:10:06.000Z"
+      "time": "2026-09-01T22:09:39.000Z"
     },
     "^GSPC": {
       "price": 7631.47,
@@ -35,7 +35,7 @@
       "prev": 26370.890625,
       "chg": -1.03,
       "basis": "prev-daily-close",
-      "time": "2026-09-01T21:10:06.000Z"
+      "time": "2026-09-01T21:15:59.000Z"
     },
     "^VIX": {
       "price": 16.34,
@@ -55,7 +55,7 @@
   "fx": {
     "low52": 1366.62,
     "high52": 1554.48,
-    "pct": 0.033
+    "pct": 0.043
   },
   "hist": {
     "^KS11": {
@@ -63,60 +63,60 @@
       "low52": 3142.93,
       "high52": 9114.55,
       "pct52": 0.616,
-      "chg3m": -19.54
+      "chg3m": -22.4
     },
     "^KQ11": {
       "last": 834.29,
       "low52": 644.78,
       "high52": 1226.18,
       "pct52": 0.326,
-      "chg3m": -22.38
+      "chg3m": -20.55
     },
     "KRW=X": {
-      "last": 1372.87,
+      "last": 1374.75,
       "low52": 1366.62,
       "high52": 1554.48,
-      "pct52": 0.033,
-      "chg3m": -11.68
+      "pct52": 0.043,
+      "chg3m": -11.56
     },
     "^GSPC": {
       "last": 7631.47,
       "low52": 6343.72,
       "high52": 7798.99,
       "pct52": 0.885,
-      "chg3m": 0.29
+      "chg3m": 1.03
     },
     "^IXIC": {
       "last": 26099.77,
       "low52": 20794.64,
       "high52": 27093.9,
       "pct52": 0.842,
-      "chg3m": -3.67
+      "chg3m": -2.81
     },
     "^VIX": {
       "last": 16.34,
       "low52": 13.47,
       "high52": 31.05,
       "pct52": 0.163,
-      "chg3m": 3.61
+      "chg3m": 1.74
     },
     "^TNX": {
       "last": 4.8,
       "low52": 3.95,
       "high52": 4.8,
       "pct52": 1,
-      "chg3m": 7.65
+      "chg3m": 6.79
     }
   },
   "regime": {
     "by": "rules",
-    "asOf": "2026-09-01T21:10:14.082Z",
+    "asOf": "2026-09-01T22:10:41.842Z",
     "kr": {
       "why": {
-        "rates": "미국 10년물 금리가 지금 4.8%로, 3개월 전보다 7.65% 높고 최근 1년 범위(3.95~4.8)의 100% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
-        "growth": "지수가 3개월 전보다 -19.54% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
+        "rates": "미국 10년물 금리가 지금 4.8%로, 3개월 전보다 6.79% 높고 최근 1년 범위(3.95~4.8)의 100% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
+        "growth": "지수가 3개월 전보다 -22.4% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
         "valuation": "지수가 최근 1년 범위의 62% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
-        "fx": "원/달러가 1372.87원으로 최근 1년(1366.62~1554.48) 범위의 3% 지점입니다.",
+        "fx": "원/달러가 1374.75원으로 최근 1년(1366.62~1554.48) 범위의 4% 지점입니다.",
         "geo": "VIX 가 16.34입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
       },
       "rates": "hike",
@@ -128,10 +128,10 @@
     },
     "us": {
       "why": {
-        "rates": "미국 10년물 금리가 지금 4.8%로, 3개월 전보다 7.65% 높고 최근 1년 범위(3.95~4.8)의 100% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
-        "growth": "지수가 3개월 전보다 +0.29% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
+        "rates": "미국 10년물 금리가 지금 4.8%로, 3개월 전보다 6.79% 높고 최근 1년 범위(3.95~4.8)의 100% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
+        "growth": "지수가 3개월 전보다 +1.03% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
         "valuation": "지수가 최근 1년 범위의 89% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
-        "fx": "원/달러가 1372.87원으로 최근 1년(1366.62~1554.48) 범위의 3% 지점입니다.",
+        "fx": "원/달러가 1374.75원으로 최근 1년(1366.62~1554.48) 범위의 4% 지점입니다.",
         "geo": "VIX 가 16.34입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
       },
       "rates": "hike",
@@ -148,91 +148,91 @@
         "price": 171200,
         "prev": 173300,
         "chg": -1.21,
-        "basis": "last-daily-close",
+        "basis": "prev-daily-close",
         "time": "2026-09-01T06:30:19.000Z"
       },
       "207940": {
         "price": 1520000,
         "prev": 1518000,
         "chg": 0.13,
-        "basis": "last-daily-close",
+        "basis": "prev-daily-close",
         "time": "2026-09-01T06:30:06.000Z"
       },
       "005930": {
         "price": 261000,
         "prev": 260000,
         "chg": 0.38,
-        "basis": "last-daily-close",
+        "basis": "prev-daily-close",
         "time": "2026-09-01T06:30:24.000Z"
       },
       "000660": {
         "price": 1693000,
         "prev": 1674000,
         "chg": 1.14,
-        "basis": "last-daily-close",
+        "basis": "prev-daily-close",
         "time": "2026-09-01T06:30:21.000Z"
       },
       "005380": {
         "price": 400500,
         "prev": 403500,
         "chg": -0.74,
-        "basis": "last-daily-close",
+        "basis": "prev-daily-close",
         "time": "2026-09-01T06:30:26.000Z"
       },
       "055550": {
         "price": 111100,
         "prev": 108900,
         "chg": 2.02,
-        "basis": "last-daily-close",
+        "basis": "prev-daily-close",
         "time": "2026-09-01T06:30:10.000Z"
       },
       "000810": {
         "price": 677000,
         "prev": 665000,
         "chg": 1.8,
-        "basis": "last-daily-close",
+        "basis": "prev-daily-close",
         "time": "2026-09-01T06:30:06.000Z"
       },
       "033780": {
         "price": 174900,
         "prev": 178100,
         "chg": -1.8,
-        "basis": "last-daily-close",
+        "basis": "prev-daily-close",
         "time": "2026-09-01T06:30:28.000Z"
       },
       "035420": {
         "price": 215000,
         "prev": 217000,
         "chg": -0.92,
-        "basis": "last-daily-close",
+        "basis": "prev-daily-close",
         "time": "2026-09-01T06:30:15.000Z"
       },
       "005490": {
         "price": 341000,
         "prev": 338500,
         "chg": 0.74,
-        "basis": "last-daily-close",
+        "basis": "prev-daily-close",
         "time": "2026-09-01T06:30:10.000Z"
       },
       "028260": {
         "price": 390500,
         "prev": 376500,
         "chg": 3.72,
-        "basis": "last-daily-close",
+        "basis": "prev-daily-close",
         "time": "2026-09-01T06:30:11.000Z"
       },
       "012450": {
         "price": 1058000,
         "prev": 1102000,
         "chg": -3.99,
-        "basis": "last-daily-close",
+        "basis": "prev-daily-close",
         "time": "2026-09-01T06:30:16.000Z"
       },
       "017670": {
         "price": 94600,
         "prev": 94200,
         "chg": 0.42,
-        "basis": "last-daily-close",
+        "basis": "prev-daily-close",
         "time": "2026-09-01T06:30:18.000Z"
       }
     },
@@ -344,13 +344,13 @@
         "by": "rules"
       },
       {
-        "title": "'170조' 판 외국인…\"삼전닉스, 정치가 놔둬야 주가 오른다\" [분석+]",
-        "link": "https://www.hankyung.com/article/2026090173176",
+        "title": "금리 오르는데 차입금 87% 만기 1년 내 돌아와…비씨월드제약 어쩌나 [종목+]",
+        "link": "https://www.hankyung.com/article/2026090165736",
         "source": "한국경제",
-        "date": "Tue, 01 Sep 2026 22:00:01 +0900",
+        "date": "Wed, 02 Sep 2026 06:30:06 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -377,10 +377,10 @@
         "by": "rules"
       },
       {
-        "title": "살 빼는 사람 늘자 '대박' 터졌다…주가 87% 뛴 '뜻밖의 종목' [종목+]",
-        "link": "https://www.hankyung.com/article/2026090170636",
+        "title": "'170조' 판 외국인…\"삼전닉스, 정치가 놔둬야 주가 오른다\" [분석+]",
+        "link": "https://www.hankyung.com/article/2026090173176",
         "source": "한국경제",
-        "date": "Tue, 01 Sep 2026 20:00:09 +0900",
+        "date": "Tue, 01 Sep 2026 22:00:01 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -413,26 +413,26 @@
         "by": "rules"
       },
       {
-        "title": "Palo Alto Networks’ stock climbs as demand for AI cybersecurity powers an earnings beat",
-        "link": "https://www.marketwatch.com/story/palo-alto-networks-stock-climbs-as-demand-for-ai-cybersecurity-powers-an-earnings-beat-4b39578c?mod=mw_rss_topstories",
+        "title": "Dow drops below a key chart level, warning of more trouble ahead",
+        "link": "https://www.marketwatch.com/story/dow-drops-below-a-key-chart-level-warning-of-more-trouble-ahead-ec3eb664?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Tue, 01 Sep 2026 20:46:00 GMT",
-        "ko": "팔로알토 네트웍스의 주가는 AI 사이버 보안에 대한 수요가 수익을 이길 때 상승합니다.",
+        "date": "Tue, 01 Sep 2026 21:56:00 GMT",
+        "ko": "다우 지수는 주요 차트 수준 아래로 떨어지며 앞으로 더 많은 문제를 경고합니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "After an 'extraordinary' earnings season, here's the next big positive for stocks",
-        "link": "https://finance.yahoo.com/markets/article/after-an-extraordinary-earnings-season-heres-the-next-big-positive-for-stocks-122048479.html",
+        "title": "Is Caterpillar Stock Outperforming the Dow?",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/caterpillar-stock-outperforming-dow-134934196.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-31T12:20:48Z",
-        "ko": "'특별한' 수익 시즌이 끝난 후 주식에 대한 다음 큰 긍정적 인 측면을 소개합니다.",
+        "date": "2026-08-31T13:49:34Z",
+        "ko": "Caterpillar Stock이 DOW를 능가합니까?",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -449,36 +449,33 @@
         "by": "ai"
       },
       {
-        "title": "This could be the 10-year Treasury’s tipping point into the danger zone",
-        "link": "https://www.marketwatch.com/story/this-could-be-the-10-year-treasurys-tipping-point-into-the-danger-zone-891cd45d?mod=mw_rss_topstories",
+        "title": "Dell’s AI servers drive a stellar earnings performance, and a raised outlook",
+        "link": "https://www.marketwatch.com/story/dells-ai-servers-drive-a-stellar-earnings-performance-and-a-raised-outlook-86476ace?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Tue, 01 Sep 2026 20:36:00 GMT",
-        "ko": "이것은 10년 재무부의 위험 구역으로의 전환점이 될 수 있습니다.",
+        "date": "Tue, 01 Sep 2026 21:52:00 GMT",
+        "ko": "Dell의 AI 서버는 뛰어난 수익 성과를 창출하고 전망을 높입니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "Fed Chairman Kevin Warsh triggered a new problem for stocks",
-        "link": "https://finance.yahoo.com/markets/article/fed-chairman-kevin-warsh-triggered-a-new-problem-for-stocks-120625754.html",
+        "title": "Martin Marietta Materials (MLM) Stock Pulls Back on Expectations, Fundamentals Intact",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/martin-marietta-materials-mlm-stock-135247614.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-31T12:06:25Z",
-        "ko": "케빈 워시 연준 의장은 주식에 대한 새로운 문제를 촉발했다.",
+        "date": "2026-08-31T13:52:47Z",
+        "ko": "마틴 매리에타 머티리얼즈 (MLM) 의 재고는 기대치와 기본을 그대로 되돌려 놓습니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
+        "scope": "company",
+        "why": "제목만으로는 실적이나 사업 변화가 확인되지 않는 시황성 언급입니다.",
+        "by": "ai"
       }
     ]
   },
   "newsBy": "ai",
   "trCache": {
-    "Constellation Brands Stock: Is Wall Street Bullish or Bearish?": "별자리 브랜드 주식: 월스트리트는 낙관적인가 아니면 곰스러운가?",
-    "CrowdStrike’s stock soars after AI fuels the cybersecurity company’s ‘best quarter in history’": "인공지능이 사이버 보안 회사의 ‘역사상 최고의 분기‘ 에 활력을 불어넣은 후 CrowdStrike의 주가가 치솟고 있습니다.",
-    "BMO Just Named Nvidia a Top Pick as It Initiates Coverage. What This Means for NVDA Stock.": "BMO는 방금 Nvidia를 커버리지가 시작될 때 최고의 선택으로 선정했습니다. NVDA 주식에 대한 의미.",
     "Copper’s record run is sending three clear messages about the state of financial markets today": "Copper의 기록적인 실행은 오늘날 금융 시장의 상태에 대한 세 가지 명확한 메시지를 보내고 있습니다.",
     "Stock market today: S&P 500, Nasdaq rise as Nvidia, Salesforce earnings boost tech": "오늘의 주식 시장: S&P 500, Nasdaq 상승, Salesforce 수익 증대 기술",
     "Salesforce sparks a software-stock rally — and pushes back on AI doomsday fears": "Salesforce는 소프트웨어 재고 랠리를 촉발하고 AI 종말의 두려움에 반발합니다.",
@@ -775,7 +772,10 @@
     "Palo Alto Networks’ stock climbs as demand for AI cybersecurity powers an earnings beat": "팔로알토 네트웍스의 주가는 AI 사이버 보안에 대한 수요가 수익을 이길 때 상승합니다.",
     "After an 'extraordinary' earnings season, here's the next big positive for stocks": "'특별한' 수익 시즌이 끝난 후 주식에 대한 다음 큰 긍정적 인 측면을 소개합니다.",
     "This could be the 10-year Treasury’s tipping point into the danger zone": "이것은 10년 재무부의 위험 구역으로의 전환점이 될 수 있습니다.",
-    "Fed Chairman Kevin Warsh triggered a new problem for stocks": "케빈 워시 연준 의장은 주식에 대한 새로운 문제를 촉발했다."
+    "Fed Chairman Kevin Warsh triggered a new problem for stocks": "케빈 워시 연준 의장은 주식에 대한 새로운 문제를 촉발했다.",
+    "Dow drops below a key chart level, warning of more trouble ahead": "다우 지수는 주요 차트 수준 아래로 떨어지며 앞으로 더 많은 문제를 경고합니다.",
+    "Is Caterpillar Stock Outperforming the Dow?": "Caterpillar Stock이 DOW를 능가합니까?",
+    "Dell’s AI servers drive a stellar earnings performance, and a raised outlook": "Dell의 AI 서버는 뛰어난 수익 성과를 창출하고 전망을 높입니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -2880,8 +2880,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CedQUjruy2RS6VEyjCLwC\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CedQUke3wxGuWLTDTk5UJ\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CedQUm9ooGfoxu21yXh9b\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CedV6A3u7hA96pwZatESf\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CedV6B1wYud9hGX3nB5B2\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CedV6BYSYxLUB9HvPeLpk\"}"
   ]
 }
