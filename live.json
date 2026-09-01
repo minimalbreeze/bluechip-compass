@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-01T20:59:46.545Z",
+  "asOf": "2026-09-01T21:10:14.678Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -17,11 +17,11 @@
       "time": "2026-09-01T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1373.48,
+      "price": 1372.87,
       "prev": 1366.6199951171875,
-      "chg": 0.5,
+      "chg": 0.46,
       "basis": "prev-daily-close",
-      "time": "2026-09-01T20:59:25.000Z"
+      "time": "2026-09-01T21:10:06.000Z"
     },
     "^GSPC": {
       "price": 7631.47,
@@ -35,7 +35,7 @@
       "prev": 26370.890625,
       "chg": -1.03,
       "basis": "prev-daily-close",
-      "time": "2026-09-01T20:59:26.000Z"
+      "time": "2026-09-01T21:10:06.000Z"
     },
     "^VIX": {
       "price": 16.34,
@@ -55,7 +55,7 @@
   "fx": {
     "low52": 1366.62,
     "high52": 1554.48,
-    "pct": 0.037
+    "pct": 0.033
   },
   "hist": {
     "^KS11": {
@@ -63,60 +63,60 @@
       "low52": 3142.93,
       "high52": 9114.55,
       "pct52": 0.616,
-      "chg3m": -22.4
+      "chg3m": -19.54
     },
     "^KQ11": {
       "last": 834.29,
       "low52": 644.78,
       "high52": 1226.18,
       "pct52": 0.326,
-      "chg3m": -20.55
+      "chg3m": -22.38
     },
     "KRW=X": {
-      "last": 1373.48,
+      "last": 1372.87,
       "low52": 1366.62,
       "high52": 1554.48,
-      "pct52": 0.037,
-      "chg3m": -11.64
+      "pct52": 0.033,
+      "chg3m": -11.68
     },
     "^GSPC": {
       "last": 7631.47,
       "low52": 6343.72,
       "high52": 7798.99,
       "pct52": 0.885,
-      "chg3m": 1.03
+      "chg3m": 0.29
     },
     "^IXIC": {
       "last": 26099.77,
       "low52": 20794.64,
       "high52": 27093.9,
       "pct52": 0.842,
-      "chg3m": -2.81
+      "chg3m": -3.67
     },
     "^VIX": {
       "last": 16.34,
       "low52": 13.47,
       "high52": 31.05,
       "pct52": 0.163,
-      "chg3m": 1.74
+      "chg3m": 3.61
     },
     "^TNX": {
       "last": 4.8,
       "low52": 3.95,
       "high52": 4.8,
       "pct52": 1,
-      "chg3m": 6.79
+      "chg3m": 7.65
     }
   },
   "regime": {
     "by": "rules",
-    "asOf": "2026-09-01T20:59:45.922Z",
+    "asOf": "2026-09-01T21:10:14.082Z",
     "kr": {
       "why": {
-        "rates": "미국 10년물 금리가 지금 4.8%로, 3개월 전보다 6.79% 높고 최근 1년 범위(3.95~4.8)의 100% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
-        "growth": "지수가 3개월 전보다 -22.4% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
+        "rates": "미국 10년물 금리가 지금 4.8%로, 3개월 전보다 7.65% 높고 최근 1년 범위(3.95~4.8)의 100% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
+        "growth": "지수가 3개월 전보다 -19.54% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
         "valuation": "지수가 최근 1년 범위의 62% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
-        "fx": "원/달러가 1373.48원으로 최근 1년(1366.62~1554.48) 범위의 4% 지점입니다.",
+        "fx": "원/달러가 1372.87원으로 최근 1년(1366.62~1554.48) 범위의 3% 지점입니다.",
         "geo": "VIX 가 16.34입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
       },
       "rates": "hike",
@@ -128,10 +128,10 @@
     },
     "us": {
       "why": {
-        "rates": "미국 10년물 금리가 지금 4.8%로, 3개월 전보다 6.79% 높고 최근 1년 범위(3.95~4.8)의 100% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
-        "growth": "지수가 3개월 전보다 +1.03% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
+        "rates": "미국 10년물 금리가 지금 4.8%로, 3개월 전보다 7.65% 높고 최근 1년 범위(3.95~4.8)의 100% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
+        "growth": "지수가 3개월 전보다 +0.29% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
         "valuation": "지수가 최근 1년 범위의 89% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
-        "fx": "원/달러가 1373.48원으로 최근 1년(1366.62~1554.48) 범위의 4% 지점입니다.",
+        "fx": "원/달러가 1372.87원으로 최근 1년(1366.62~1554.48) 범위의 3% 지점입니다.",
         "geo": "VIX 가 16.34입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
       },
       "rates": "hike",
@@ -333,10 +333,10 @@
   "news": {
     "kr": [
       {
-        "title": "금리 인상에 보금자리론 매력↓…7월 판매 13개월 만에 최소",
-        "link": "https://www.yna.co.kr/view/AKR20260901175400002",
+        "title": "고용허가제 외국인 28.7만명 '역대 최대'…80%는 제조업",
+        "link": "https://www.yna.co.kr/view/AKR20260901154800530",
         "source": "연합뉴스",
-        "date": "Wed, 2 Sep 2026 05:53:01 +0900",
+        "date": "Wed, 2 Sep 2026 06:01:02 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -366,13 +366,13 @@
         "by": "rules"
       },
       {
-        "title": "美재무, 국채금리 급등 진화 안간힘…연일 \"심각한 상황 아냐\"",
-        "link": "https://www.yna.co.kr/view/AKR20260902006900071",
+        "title": "국내은행 부실채권 18.9조, 8년만에 최대…기업여신 1조↑",
+        "link": "https://www.yna.co.kr/view/AKR20260901191500002",
         "source": "연합뉴스",
-        "date": "Wed, 2 Sep 2026 05:27:57 +0900",
+        "date": "Wed, 2 Sep 2026 06:00:00 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -2880,8 +2880,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CedPgS7YB2qDLXfhnEtgC\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CedPgSvf3fMok97AwtXyY\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CedPgTXNga7dNgWoyAVSF\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CedQUjruy2RS6VEyjCLwC\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CedQUke3wxGuWLTDTk5UJ\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CedQUm9ooGfoxu21yXh9b\"}"
   ]
 }
