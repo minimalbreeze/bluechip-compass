@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-02T22:47:56.743Z",
+  "asOf": "2026-09-02T23:48:21.932Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -17,11 +17,11 @@
       "time": "2026-09-02T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1358.54,
+      "price": 1359.07,
       "prev": 1372.8599853515625,
-      "chg": -1.04,
+      "chg": -1,
       "basis": "prev-daily-close",
-      "time": "2026-09-02T22:47:48.000Z"
+      "time": "2026-09-02T23:48:10.000Z"
     },
     "^GSPC": {
       "price": 7666.6,
@@ -53,7 +53,7 @@
     }
   },
   "fx": {
-    "low52": 1358.31,
+    "low52": 1359.07,
     "high52": 1554.48,
     "pct": 0
   },
@@ -63,28 +63,28 @@
       "low52": 3172.35,
       "high52": 9114.55,
       "pct52": 0.617,
-      "chg3m": -22.33
+      "chg3m": -22.22
     },
     "^KQ11": {
       "last": 821.25,
       "low52": 644.78,
       "high52": 1226.18,
       "pct52": 0.304,
-      "chg3m": -19.96
+      "chg3m": -21.79
     },
     "KRW=X": {
-      "last": 1358.31,
-      "low52": 1358.31,
+      "last": 1359.07,
+      "low52": 1359.07,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -11.16
+      "chg3m": -11.11
     },
     "^GSPC": {
       "last": 7666.6,
       "low52": 6343.72,
       "high52": 7798.99,
       "pct52": 0.909,
-      "chg3m": 1.09
+      "chg3m": 1.49
     },
     "^IXIC": {
       "last": 26217.83,
@@ -335,10 +335,10 @@
   "news": {
     "kr": [
       {
-        "title": "외환보유액 순위 25년 만에 '슬쩍' 비공개로 돌린 한은",
-        "link": "https://www.yna.co.kr/view/AKR20260902157200002",
+        "title": "IBK증권 \"中경제 'K자형 성장' 확연…내수·수출간 경기차별화\"",
+        "link": "https://www.yna.co.kr/view/AKR20260903027600008",
         "source": "연합뉴스",
-        "date": "Thu, 3 Sep 2026 06:00:01 +0900",
+        "date": "Thu, 3 Sep 2026 08:42:10 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -346,13 +346,46 @@
         "by": "rules"
       },
       {
-        "title": "외국인 북적이던 백화점, 주가 하반기 들어 반토막 난 이유 [종목+]",
-        "link": "https://www.hankyung.com/article/2026090299696",
+        "title": "코스피 파랗게 질린 날…시총 50대 종목 중 유일하게 오른 '이곳'",
+        "link": "https://www.hankyung.com/article/202609020645i",
         "source": "한국경제",
-        "date": "Thu, 03 Sep 2026 06:30:02 +0900",
+        "date": "Thu, 03 Sep 2026 07:30:05 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "“삼성전기, 목표주가 280만원 유지”…AI 부품 공급부족, 더 심해진다는데",
+        "link": "https://www.mk.co.kr/news/stock/12142973",
+        "source": "매일경제",
+        "date": "Thu, 03 Sep 2026 08:47:12 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "SK증권 \"롯데지주, 수익 개선·주주환원에 주가 상승 기대\"",
+        "link": "https://www.yna.co.kr/view/AKR20260903028000008",
+        "source": "연합뉴스",
+        "date": "Thu, 3 Sep 2026 08:39:07 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "미 국채금리 상승 주춤하자 4거래일만에 반등 [뉴욕증시 브리핑]",
+        "link": "https://www.hankyung.com/article/2026090307886",
+        "source": "한국경제",
+        "date": "Thu, 03 Sep 2026 07:10:52 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -364,39 +397,6 @@
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "의료기기 제조업체 스카이랩스, 4일 코스닥 상장",
-        "link": "https://www.yna.co.kr/view/AKR20260902168700008",
-        "source": "연합뉴스",
-        "date": "Wed, 2 Sep 2026 18:53:51 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "'코스닥 활성화' 위해 출시됐지만…정부, BDC 세제혜택 줄인 이유는",
-        "link": "https://www.hankyung.com/article/202609020470i",
-        "source": "한국경제",
-        "date": "Wed, 02 Sep 2026 19:00:07 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "“美 10년물 5% 눈앞인데, 증시 괜찮나”…2022년 폭락장과 다른 ‘결정적 변수’ [머니닥터 시장진단]",
-        "link": "https://www.mk.co.kr/news/stock/12142675",
-        "source": "매일경제",
-        "date": "Wed, 02 Sep 2026 18:38:59 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -427,14 +427,14 @@
         "by": "rules"
       },
       {
-        "title": "Why Analysts Think Sellas Life Sciences Stock Can Gain 150% From Here",
-        "link": "https://finance.yahoo.com/healthcare/articles/why-analysts-think-sellas-life-145203557.html",
+        "title": "Is Union Pacific Stock Outperforming the S&P 500?",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/union-pacific-stock-outperforming-p-153756706.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-01T14:52:03Z",
-        "ko": "애널리스트들이 Sellas Life Sciences 주식이 여기에서 150% 를 얻을 수 있다고 생각하는 이유",
+        "date": "2026-09-01T15:37:56Z",
+        "ko": "Union Pacific Stock이 S&P 500을 능가합니까?",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -463,14 +463,14 @@
         "by": "rules"
       },
       {
-        "title": "Dear Apple Stock Fans, Mark Your Calendars for September 1",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/dear-apple-stock-fans-mark-143839980.html",
+        "title": "How Is Intuitive Surgical's Stock Performance Compared to Other Health Care Equipment Stocks?",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/intuitive-surgicals-stock-performance-compared-153212563.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-01T14:38:39Z",
-        "ko": "친애하는 Apple Stock 팬 여러분, 9월 1일 달력에 표시하세요",
+        "date": "2026-09-01T15:32:12Z",
+        "ko": "Intuitive Surgical의 재고 실적은 다른 의료 장비 재고와 어떻게 비교됩니까?",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -478,8 +478,6 @@
   },
   "newsBy": "ai",
   "trCache": {
-    "Jim Cramer Explained Adobe Inc. (NASDAQ:ADBE)’s Share Price Movement": "Jim Cramer가 Adobe Inc. (NASDAQ: ADBE) 의 주가 변동에 대해 설명했습니다.",
-    "Corporate earnings have been growing at a blistering pace. Here’s why that’s not likely to last.": "기업 수익은 빠른 속도로 증가하고 있습니다. 이것이 지속되지 않는 이유입니다.",
     "Dow Jones Futures: Microsoft, Titans Mask Market Weakness. Here's What To Do.": "Dow Jones Futures: Microsoft, Titans Mask Market Weakness. 취해야 할 조치는 다음과 같습니다.",
     "Microsoft, Palantir Among Stocks To Watch As Software Bounces Back": "Microsoft, Palantir, 소프트웨어가 반송됨에 따라 지켜봐야 할 주식 중 하나",
     "Stock Market Week Ahead: Chips, Cybersecurity And Jobs": "주식 시장 주간: 칩, 사이버 보안 및 일자리",
@@ -777,7 +775,9 @@
     "Palantir’s stock is slumping. Why bond yields and Google may be to blame.": "팔란티르의 주가가 폭락하고 있습니다. 채권 수익률과 Google이 책임을 져야 하는 이유.",
     "Is Micron Technology Stock Outperforming the Nasdaq?": "Micron Technology Stock이 Nasdaq을 능가합니까?",
     "Why Analysts Think Sellas Life Sciences Stock Can Gain 150% From Here": "애널리스트들이 Sellas Life Sciences 주식이 여기에서 150% 를 얻을 수 있다고 생각하는 이유",
-    "Dear Apple Stock Fans, Mark Your Calendars for September 1": "친애하는 Apple Stock 팬 여러분, 9월 1일 달력에 표시하세요"
+    "Dear Apple Stock Fans, Mark Your Calendars for September 1": "친애하는 Apple Stock 팬 여러분, 9월 1일 달력에 표시하세요",
+    "Is Union Pacific Stock Outperforming the S&P 500?": "Union Pacific Stock이 S&P 500을 능가합니까?",
+    "How Is Intuitive Surgical's Stock Performance Compared to Other Health Care Equipment Stocks?": "Intuitive Surgical의 재고 실적은 다른 의료 장비 재고와 어떻게 비교됩니까?"
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -2882,8 +2882,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CefRjn98ZZYhsbyrVzh1s\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CefRjnmLGLUfnE7SvZpRF\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CefRjoB8rDvYuYk7AtNEC\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CefWM14hW1ARSFRFYNykS\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CefWM1sKPx1fKNGztBA6A\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CefWM2LMB5a4G4XEywDxZ\"}"
   ]
 }
