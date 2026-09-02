@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-02T09:48:34.626Z",
+  "asOf": "2026-09-02T10:49:00.269Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -17,11 +17,11 @@
       "time": "2026-09-02T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1365.43,
+      "price": 1365.54,
       "prev": 1366.6199951171875,
-      "chg": -0.09,
+      "chg": -0.08,
       "basis": "prev-daily-close",
-      "time": "2026-09-02T09:48:24.000Z"
+      "time": "2026-09-02T10:48:50.000Z"
     },
     "^GSPC": {
       "price": 7631.47,
@@ -38,11 +38,11 @@
       "time": "2026-09-01T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 16.76,
+      "price": 16.68,
       "prev": 16.34000015258789,
-      "chg": 2.57,
+      "chg": 2.08,
       "basis": "prev-daily-close",
-      "time": "2026-09-02T09:33:16.000Z"
+      "time": "2026-09-02T10:33:46.000Z"
     },
     "^TNX": {
       "price": 4.796,
@@ -53,7 +53,7 @@
     }
   },
   "fx": {
-    "low52": 1365.43,
+    "low52": 1365.54,
     "high52": 1554.48,
     "pct": 0
   },
@@ -63,49 +63,49 @@
       "low52": 3172.35,
       "high52": 9114.55,
       "pct52": 0.571,
-      "chg3m": -24.04
+      "chg3m": -25.44
     },
     "^KQ11": {
       "last": 803.98,
       "low52": 644.78,
       "high52": 1226.18,
       "pct52": 0.274,
-      "chg3m": -23.41
+      "chg3m": -21.64
     },
     "KRW=X": {
-      "last": 1365.43,
-      "low52": 1365.43,
+      "last": 1365.54,
+      "low52": 1365.54,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -12.16
+      "chg3m": -12.15
     },
     "^GSPC": {
       "last": 7631.47,
       "low52": 6343.72,
       "high52": 7798.99,
       "pct52": 0.885,
-      "chg3m": 1.03
+      "chg3m": 0.29
     },
     "^IXIC": {
       "last": 26099.77,
       "low52": 20794.64,
       "high52": 27093.9,
       "pct52": 0.842,
-      "chg3m": -2.81
+      "chg3m": -3.67
     },
     "^VIX": {
-      "last": 16.76,
+      "last": 16.68,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.187,
-      "chg3m": 8.83
+      "pct52": 0.183,
+      "chg3m": 3.86
     },
     "^TNX": {
       "last": 4.8,
       "low52": 3.95,
       "high52": 4.8,
       "pct52": 1,
-      "chg3m": 6.79
+      "chg3m": 7.65
     }
   },
   "regime": {
@@ -335,6 +335,39 @@
   "news": {
     "kr": [
       {
+        "title": "의료기기 제조업체 스카이랩스, 4일 코스닥 상장",
+        "link": "https://www.yna.co.kr/view/AKR20260902168700008",
+        "source": "연합뉴스",
+        "date": "Wed, 2 Sep 2026 18:53:51 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "\"내수시장 성장판 닫혔다\" DB·한화도 잇달아 현지 금융사 인수",
+        "link": "https://www.hankyung.com/article/2026090202761",
+        "source": "한국경제",
+        "date": "Wed, 02 Sep 2026 18:08:58 +0900",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": null,
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
+        "by": "rules"
+      },
+      {
+        "title": "“美 10년물 5% 눈앞인데, 증시 괜찮나”…2022년 폭락장과 다른 ‘결정적 변수’ [머니닥터 시장진단]",
+        "link": "https://www.mk.co.kr/news/stock/12142675",
+        "source": "매일경제",
+        "date": "Wed, 02 Sep 2026 18:38:59 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
         "title": "덕산네오룩스 \"카노푸스홀딩스 주식 715억원에 추가취득\"",
         "link": "https://www.yna.co.kr/view/AKR20260902160900008",
         "source": "연합뉴스",
@@ -350,39 +383,6 @@
         "link": "https://www.hankyung.com/article/2026090203581",
         "source": "한국경제",
         "date": "Wed, 02 Sep 2026 17:56:46 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "“美 10년물 5% 눈앞인데, 증시 괜찮나”…2022년 폭락장과 다른 ‘결정적 변수’ [머니닥터 시장진단]",
-        "link": "https://www.mk.co.kr/news/stock/12142675",
-        "source": "매일경제",
-        "date": "Wed, 02 Sep 2026 18:38:59 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "신약 호재 내부 정보로 부당이득…코스닥 IR임원 수사기관 통보",
-        "link": "https://www.yna.co.kr/view/AKR20260902158100002",
-        "source": "연합뉴스",
-        "date": "Wed, 2 Sep 2026 17:21:32 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "개인·기관·外人 모두 안산다…최악 '수급절벽'",
-        "link": "https://www.hankyung.com/article/2026090203261",
-        "source": "한국경제",
-        "date": "Wed, 02 Sep 2026 17:54:02 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -427,11 +427,11 @@
         "by": "rules"
       },
       {
-        "title": "Citi says investors should consider buying tumbling tech stock",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/citi-says-investors-consider-buying-165315833.html",
+        "title": "Amazon stock just entered the danger zone",
+        "link": "https://finance.yahoo.com/markets/stocks/article/amazon-stock-just-entered-the-danger-zone-104050035.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-01T16:53:15Z",
-        "ko": "Citi는 투자자들이 텀블링 기술 주식을 구입하는 것을 고려해야 한다고 말합니다.",
+        "date": "2026-09-02T10:40:50Z",
+        "ko": "아마존 주식이 방금 위험 구역에 진입했습니다",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -463,11 +463,11 @@
         "by": "rules"
       },
       {
-        "title": "Nvidia Can Clearly Afford a Bigger Dividend. Why Its Payout Hasn’t Grown.",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-clearly-afford-bigger-dividend-233002980.html",
+        "title": "Elastic Beat and Raised Guidance. Wall Street Says One Quarter Isn’t Enough.",
+        "link": "https://finance.yahoo.com/technology/ai/articles/elastic-beat-raised-guidance-wall-102044634.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-31T23:30:02Z",
-        "ko": "엔비디아는 분명히 더 큰 배당금을 지불할 수 있습니다. 지급액이 늘어나지 않는 이유.",
+        "date": "2026-09-02T10:20:44Z",
+        "ko": "탄성 비트 및 레이즈 가이드. 월스트리트는 1/4로는 충분하지 않다고 말합니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
@@ -478,8 +478,6 @@
   },
   "newsBy": "ai",
   "trCache": {
-    "Cramer Says Meta Is “One Hated Stock” As Company Settles Lawsuit": "Cramer는 회사가 소송을 해결함에 따라 Meta가 \"하나의 증오 주식\" 이라고 말합니다.",
-    "XPeng’s Robotics Unit Raised Over $900 Million at a $6.3 Billion Valuation. What This Means for XPEV Stock.": "XPeng의 Robotics Unit은 $6.3 Billion Valuation으로 $9억 이상을 모금했습니다. XPEV 재고에 대한 의미.",
     "3 ETFs to Buy Before Jackson Hole (and 1 Group of Stocks to Sell)": "잭슨 홀 전에 매수할 ETF 3개 (및 매도할 주식 그룹 1개)",
     "Ahead of Marvell Technology Earnings, Here's What Barchart Data Says Comes Next for MRVL Stock": "Marvell 기술 실적을 앞두고 MRVL 주식에 대한 Barchart 데이터의 다음 내용은 다음과 같습니다.",
     "Ferrari (RACE) vs. Tesla (TSLA): Ferrari’s $40M EV Record Shows How Luxury Scarcity Beats Tesla’s Mass-Market Volume": "Ferrari (RACE) vs. Tesla (TSLA): Ferrari의 $40M EV 기록은 럭셔리 희소성이 Tesla의 대량 시장 볼륨을 능가하는 방법을 보여줍니다.",
@@ -777,7 +775,9 @@
     "Wells Fargo Just Downgraded PG&E Stock. Here's Why.": "Wells Fargo가 PG&E 주식을 하향 조정했습니다. 그 이유는 다음과 같습니다.",
     "Dell shares rise as demand jumps for AI servers — here’s what Wall Street analysts are saying happens next": "AI 서버에 대한 수요가 증가함에 따라 Dell 주식이 증가합니다. 월스트리트 분석가들은 다음과 같이 말하고 있습니다.",
     "Citi says investors should consider buying tumbling tech stock": "Citi는 투자자들이 텀블링 기술 주식을 구입하는 것을 고려해야 한다고 말합니다.",
-    "Nvidia Can Clearly Afford a Bigger Dividend. Why Its Payout Hasn’t Grown.": "엔비디아는 분명히 더 큰 배당금을 지불할 수 있습니다. 지급액이 늘어나지 않는 이유."
+    "Nvidia Can Clearly Afford a Bigger Dividend. Why Its Payout Hasn’t Grown.": "엔비디아는 분명히 더 큰 배당금을 지불할 수 있습니다. 지급액이 늘어나지 않는 이유.",
+    "Amazon stock just entered the danger zone": "아마존 주식이 방금 위험 구역에 진입했습니다",
+    "Elastic Beat and Raised Guidance. Wall Street Says One Quarter Isn’t Enough.": "탄성 비트 및 레이즈 가이드. 월스트리트는 1/4로는 충분하지 않다고 말합니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -2882,8 +2882,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeeQJjgUY3f2UmojrzKpg\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeeQJkTc6WdcntEMrTqyu\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeeQJkxdCzXe9AWcNyuvG\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeeUuzpVwQXc4hBbfUacY\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeeUv1iKq3G33T6kreYwE\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeeUv2Br696vxsQS3ZJKB\"}"
   ]
 }
