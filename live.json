@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-02T21:00:53.104Z",
+  "asOf": "2026-09-02T21:11:13.647Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -17,11 +17,11 @@
       "time": "2026-09-02T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1358.16,
+      "price": 1357.11,
       "prev": 1372.8599853515625,
-      "chg": -1.07,
+      "chg": -1.15,
       "basis": "prev-daily-close",
-      "time": "2026-09-02T21:00:10.000Z"
+      "time": "2026-09-02T21:10:59.000Z"
     },
     "^GSPC": {
       "price": 7666.6,
@@ -35,7 +35,7 @@
       "prev": 26099.76953125,
       "chg": 0.45,
       "basis": "prev-daily-close",
-      "time": "2026-09-02T21:00:44.000Z"
+      "time": "2026-09-02T21:11:07.000Z"
     },
     "^VIX": {
       "price": 15.2,
@@ -53,7 +53,7 @@
     }
   },
   "fx": {
-    "low52": 1358.16,
+    "low52": 1357.11,
     "high52": 1554.48,
     "pct": 0
   },
@@ -73,11 +73,11 @@
       "chg3m": -21.79
     },
     "KRW=X": {
-      "last": 1358.16,
-      "low52": 1358.16,
+      "last": 1357.11,
+      "low52": 1357.11,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -11.17
+      "chg3m": -11.24
     },
     "^GSPC": {
       "last": 7666.6,
@@ -335,13 +335,13 @@
   "news": {
     "kr": [
       {
-        "title": "의료기기 제조업체 스카이랩스, 4일 코스닥 상장",
-        "link": "https://www.yna.co.kr/view/AKR20260902168700008",
+        "title": "외환보유액 순위 25년 만에 '슬쩍' 비공개로 돌린 한은",
+        "link": "https://www.yna.co.kr/view/AKR20260902157200002",
         "source": "연합뉴스",
-        "date": "Wed, 2 Sep 2026 18:53:51 +0900",
+        "date": "Thu, 3 Sep 2026 06:00:01 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -368,13 +368,13 @@
         "by": "rules"
       },
       {
-        "title": "덕산네오룩스 \"카노푸스홀딩스 주식 715억원에 추가취득\"",
-        "link": "https://www.yna.co.kr/view/AKR20260902160900008",
+        "title": "의료기기 제조업체 스카이랩스, 4일 코스닥 상장",
+        "link": "https://www.yna.co.kr/view/AKR20260902168700008",
         "source": "연합뉴스",
-        "date": "Wed, 2 Sep 2026 18:42:47 +0900",
+        "date": "Wed, 2 Sep 2026 18:53:51 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -2882,7 +2882,7 @@
     }
   },
   "failed": [
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CefHaGk7nErv2n4vRQPvP\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CefHaHK6kwiCDeiibmU5m\"}"
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CefJN1kzm3TRtQm9QouQY\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CefJN2QCTnsVpue8k1EZg\"}"
   ]
 }
