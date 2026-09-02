@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-01T23:11:09.754Z",
+  "asOf": "2026-09-02T00:01:34.064Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -17,11 +17,11 @@
       "time": "2026-09-01T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1374.38,
+      "price": 1373.18,
       "prev": 1366.6199951171875,
-      "chg": 0.57,
+      "chg": 0.48,
       "basis": "prev-daily-close",
-      "time": "2026-09-01T23:10:52.000Z"
+      "time": "2026-09-02T00:01:26.000Z"
     },
     "^GSPC": {
       "price": 7631.47,
@@ -55,68 +55,68 @@
   "fx": {
     "low52": 1366.62,
     "high52": 1554.48,
-    "pct": 0.041
+    "pct": 0.035
   },
   "hist": {
     "^KS11": {
       "last": 6820.02,
-      "low52": 3142.93,
+      "low52": 3172.35,
       "high52": 9114.55,
-      "pct52": 0.616,
-      "chg3m": -19.54
+      "pct52": 0.614,
+      "chg3m": -22.4
     },
     "^KQ11": {
       "last": 834.29,
       "low52": 644.78,
       "high52": 1226.18,
       "pct52": 0.326,
-      "chg3m": -22.38
+      "chg3m": -20.55
     },
     "KRW=X": {
-      "last": 1374.41,
+      "last": 1373.18,
       "low52": 1366.62,
       "high52": 1554.48,
-      "pct52": 0.041,
-      "chg3m": -11.58
+      "pct52": 0.035,
+      "chg3m": -11.66
     },
     "^GSPC": {
       "last": 7631.47,
       "low52": 6343.72,
       "high52": 7798.99,
       "pct52": 0.885,
-      "chg3m": 0.29
+      "chg3m": 1.03
     },
     "^IXIC": {
       "last": 26099.77,
       "low52": 20794.64,
       "high52": 27093.9,
       "pct52": 0.842,
-      "chg3m": -3.67
+      "chg3m": -2.81
     },
     "^VIX": {
       "last": 16.34,
       "low52": 13.47,
       "high52": 31.05,
       "pct52": 0.163,
-      "chg3m": 3.61
+      "chg3m": 1.74
     },
     "^TNX": {
       "last": 4.8,
       "low52": 3.95,
       "high52": 4.8,
       "pct52": 1,
-      "chg3m": 7.65
+      "chg3m": 6.79
     }
   },
   "regime": {
     "by": "rules",
-    "asOf": "2026-09-01T23:11:09.252Z",
+    "asOf": "2026-09-02T00:01:33.412Z",
     "kr": {
       "why": {
-        "rates": "미국 10년물 금리가 지금 4.8%로, 3개월 전보다 7.65% 높고 최근 1년 범위(3.95~4.8)의 100% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
-        "growth": "지수가 3개월 전보다 -19.54% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
-        "valuation": "지수가 최근 1년 범위의 62% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
-        "fx": "원/달러가 1374.41원으로 최근 1년(1366.62~1554.48) 범위의 4% 지점입니다.",
+        "rates": "미국 10년물 금리가 지금 4.8%로, 3개월 전보다 6.79% 높고 최근 1년 범위(3.95~4.8)의 100% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
+        "growth": "지수가 3개월 전보다 -22.4% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
+        "valuation": "지수가 최근 1년 범위의 61% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
+        "fx": "원/달러가 1373.18원으로 최근 1년(1366.62~1554.48) 범위의 4% 지점입니다.",
         "geo": "VIX 가 16.34입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
       },
       "rates": "hike",
@@ -128,10 +128,10 @@
     },
     "us": {
       "why": {
-        "rates": "미국 10년물 금리가 지금 4.8%로, 3개월 전보다 7.65% 높고 최근 1년 범위(3.95~4.8)의 100% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
-        "growth": "지수가 3개월 전보다 +0.29% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
+        "rates": "미국 10년물 금리가 지금 4.8%로, 3개월 전보다 6.79% 높고 최근 1년 범위(3.95~4.8)의 100% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
+        "growth": "지수가 3개월 전보다 +1.03% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
         "valuation": "지수가 최근 1년 범위의 89% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
-        "fx": "원/달러가 1374.41원으로 최근 1년(1366.62~1554.48) 범위의 4% 지점입니다.",
+        "fx": "원/달러가 1373.18원으로 최근 1년(1366.62~1554.48) 범위의 4% 지점입니다.",
         "geo": "VIX 가 16.34입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
       },
       "rates": "hike",
@@ -333,54 +333,10 @@
   "news": {
     "kr": [
       {
-        "title": "채권시장 호재 없다…30년물 입찰 부진에 재정·물가 경계도",
-        "link": "https://www.yna.co.kr/view/AKR20260901164600008",
+        "title": "iM증권 \"하반기 설비투자 살아난다…반도체 초호황 지속 신호\"",
+        "link": "https://www.yna.co.kr/view/AKR20260902030600008",
         "source": "연합뉴스",
-        "date": "Wed, 2 Sep 2026 07:30:01 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "중동 긴장 유가 급등에 채권 매도세까지…美 반도체주 하락 [뉴욕증시 브리핑]",
-        "link": "https://www.hankyung.com/article/2026090281486",
-        "source": "한국경제",
-        "date": "Wed, 02 Sep 2026 07:26:59 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "WTI 90불 돌파, 국채금리 금융위기이후 최고[월가월부]",
-        "link": "https://www.mk.co.kr/news/stock/12141889",
-        "source": "매일경제",
-        "date": "Wed, 02 Sep 2026 05:57:08 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "고용허가제 외국인 28.7만명 '역대 최대'…80%는 제조업",
-        "link": "https://www.yna.co.kr/view/AKR20260901154800530",
-        "source": "연합뉴스",
-        "date": "Wed, 2 Sep 2026 06:01:02 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "'170조' 판 외국인…\"삼전닉스, 정치가 놔둬야 주가 오른다\" [분석+]",
-        "link": "https://www.hankyung.com/article/2026090173176",
-        "source": "한국경제",
-        "date": "Tue, 01 Sep 2026 22:00:01 +0900",
+        "date": "Wed, 2 Sep 2026 08:54:22 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -388,14 +344,58 @@
         "by": "rules"
       },
       {
-        "title": "AI 때문에 망한다 했는데 … 주가 미친듯이 오른 4대천왕",
-        "link": "https://www.mk.co.kr/news/stock/12141539",
+        "title": "고환율로 울상짓던 하나금융…원화 강세에 배당 확대 기대감 '솔솔'",
+        "link": "https://www.hankyung.com/article/202609028286i",
+        "source": "한국경제",
+        "date": "Wed, 02 Sep 2026 08:23:36 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "신한투자증권 “하나금융지주, 실적 높아질 것…주주환원 규모도 기대”",
+        "link": "https://www.mk.co.kr/news/stock/12141956",
         "source": "매일경제",
-        "date": "Wed, 02 Sep 2026 04:00:00 +09:00",
+        "date": "Wed, 02 Sep 2026 08:50:20 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "[AI픽] 뤼튼, IPO 주관사 선정 착수…\"내년 이후 상장 목표\"",
+        "link": "https://www.yna.co.kr/view/AKR20260902030500017",
+        "source": "연합뉴스",
+        "date": "Wed, 2 Sep 2026 08:49:43 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "SKT이어 KT·LGU+도 반등할까….AI 인프라·배당 매력 부각",
+        "link": "https://www.hankyung.com/article/202609016539i",
+        "source": "한국경제",
+        "date": "Wed, 02 Sep 2026 08:10:02 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "“HBM만 보지 마세요”…반도체 증설 본격화, 후공정주도 소·부·장 볕든다 [오늘 나온 보고서]",
+        "link": "https://www.mk.co.kr/news/stock/12141948",
+        "source": "매일경제",
+        "date": "Wed, 02 Sep 2026 08:44:11 +09:00",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": null,
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
         "by": "rules"
       }
     ],
@@ -413,26 +413,26 @@
         "by": "rules"
       },
       {
-        "title": "Dow drops below a key chart level, warning of more trouble ahead",
-        "link": "https://www.marketwatch.com/story/dow-drops-below-a-key-chart-level-warning-of-more-trouble-ahead-ec3eb664?mod=mw_rss_topstories",
+        "title": "‘It’s not fair’: My twin brother and I were left houses by our parents. Can I make him pay his share for taxes and upkeep?",
+        "link": "https://www.marketwatch.com/story/its-not-fair-my-twin-brother-and-i-were-left-houses-by-our-parents-can-i-make-him-pay-his-share-for-taxes-and-upkeep-43feb780?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Tue, 01 Sep 2026 21:56:00 GMT",
-        "ko": "다우 지수는 주요 차트 수준 아래로 떨어지며 앞으로 더 많은 문제를 경고합니다.",
+        "date": "Tue, 01 Sep 2026 23:15:00 GMT",
+        "ko": "‘불공평해’: 쌍둥이 남동생과 저는 부모님에 의해 집을 떠났습니다. 세금과 유지를 위해 그의 몫을 지불하게 할 수 있습니까?",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "Snowflake Q2 Earnings: Watch These 3 Numbers Before Buying SNOW Stock",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/snowflake-q2-earnings-watch-3-145950964.html",
+        "title": "A $3.5 Trillion Reason to Buy SpaceX Stock Today",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/3-5-trillion-reason-buy-154434612.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-31T14:59:50Z",
-        "ko": "눈송이 2분기 수입: 눈 주식을 사기 전에 다음 3가지 숫자를 확인하세요",
+        "date": "2026-08-31T15:44:34Z",
+        "ko": "오늘 SpaceX 주식을 매입해야 하는 $3.5조 이유",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -449,34 +449,33 @@
         "by": "ai"
       },
       {
-        "title": "Dell’s AI servers drive a stellar earnings performance, and a raised outlook",
-        "link": "https://www.marketwatch.com/story/dells-ai-servers-drive-a-stellar-earnings-performance-and-a-raised-outlook-86476ace?mod=mw_rss_topstories",
+        "title": "Dow drops below a key chart level, warning of more trouble ahead",
+        "link": "https://www.marketwatch.com/story/dow-drops-below-a-key-chart-level-warning-of-more-trouble-ahead-ec3eb664?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Tue, 01 Sep 2026 21:52:00 GMT",
-        "ko": "Dell의 AI 서버는 뛰어난 수익 성과를 창출하고 전망을 높입니다.",
+        "date": "Tue, 01 Sep 2026 21:56:00 GMT",
+        "ko": "다우 지수는 주요 차트 수준 아래로 떨어지며 앞으로 더 많은 문제를 경고합니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "LexinFintech Q2 Earnings Call Highlights",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/lexinfintech-q2-earnings-call-highlights-150255581.html",
+        "title": "Global Liquidity Could Drive Crypto Markets in September, Expert Says",
+        "link": "https://finance.yahoo.com/markets/crypto/articles/global-liquidity-could-drive-crypto-154300245.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-31T15:02:55Z",
-        "ko": "LexinFintech 2분기 실적 방문 하이라이트",
+        "date": "2026-08-31T15:43:00Z",
+        "ko": "전문가에 따르면 9월에 글로벌 유동성이 암호화폐 시장을 주도할 수 있다고 합니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
+        "scope": "market",
+        "why": "단기 유동성 전망에 대한 전문가 견해일 뿐 기업 이익과는 무관합니다.",
+        "by": "ai"
       }
     ]
   },
   "newsBy": "ai",
   "trCache": {
-    "Salesforce sparks a software-stock rally — and pushes back on AI doomsday fears": "Salesforce는 소프트웨어 재고 랠리를 촉발하고 AI 종말의 두려움에 반발합니다.",
     "3 High-Yield Dividend Stocks Near Their 52-Week Lows That Income Investors Are Sleeping On": "소득 투자자들이 잠자고 있는 52주 최저치에 근접한 고수익 배당주 3주",
     "Hut 8 CFO Sells Company Stock": "HUT 8 CFO Sells Company Stock",
     "Energy CEO Sells 10,000 Shares, Valued at $2.1 Million, Following 53% Rally": "에너지 CEO, 53% 랠리 후 10,000주 매각, $210만 가치",
@@ -775,7 +774,8 @@
     "Is Caterpillar Stock Outperforming the Dow?": "Caterpillar Stock이 DOW를 능가합니까?",
     "Dell’s AI servers drive a stellar earnings performance, and a raised outlook": "Dell의 AI 서버는 뛰어난 수익 성과를 창출하고 전망을 높입니다.",
     "Snowflake Q2 Earnings: Watch These 3 Numbers Before Buying SNOW Stock": "눈송이 2분기 수입: 눈 주식을 사기 전에 다음 3가지 숫자를 확인하세요",
-    "LexinFintech Q2 Earnings Call Highlights": "LexinFintech 2분기 실적 방문 하이라이트"
+    "LexinFintech Q2 Earnings Call Highlights": "LexinFintech 2분기 실적 방문 하이라이트",
+    "A $3.5 Trillion Reason to Buy SpaceX Stock Today": "오늘 SpaceX 주식을 매입해야 하는 $3.5조 이유"
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -2880,8 +2880,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CedZhYdtjGS1ChK422mec\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CedZhZDs3qcyEwEMLN357\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CedZhZiPNAHVo8swS6obJ\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeddYUaXtPSKQ3GvB9EmZ\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeddYVKBPF18Vmb6oGvgK\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeddYVuu7n9ySKFoF2Uwh\"}"
   ]
 }
