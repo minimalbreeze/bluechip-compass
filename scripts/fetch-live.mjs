@@ -486,14 +486,42 @@ const prevAge = prevRegime && prevRegime.asOf
    세 번 바뀐 게 아니라 **경계선 위의 값을 매번 새로 물어서** 생긴 흔들림이다.
    이 앱은 노후자금을 굴리는 앱이고, 국면이 흔들리면 목표 배분이 흔들리고
    기준계좌가 그걸 따라 매매한다. 하루 한 번으로 못 박는다. */
-const REGIME_EVERY_H = 20;
+/* ── 언제 새로 판정하나 ────────────────────────────────────────
+   "20시간마다"로 두면 판정 시각이 매일 조금씩 뒤로 밀린다. 오늘 07시에
+   판정하면 내일은 03시 이후 첫 회차, 그다음은 또 달라진다. 사용자가
+   "매일 언제 갱신되는지" 알 수 없다.
+
+   그래서 **한국 날짜 기준 하루 한 번**으로 못 박는다. 기준 시각은
+   06:30 KST — 미국장이 21:00 UTC(06:00 KST)에 닫히므로, 그 뒤에 판정하면
+   **직전 미국장 종가와 국내장 전일 종가를 모두 반영한 하나의 판정**이
+   국내장 개장(09:00) 전에 준비된다.
+
+   ⚠️ 시간대를 손으로 계산하지 않는다. UTC+9 를 더하는 식으로 쓰면 자정
+      근처에서 날짜가 어긋난다. Intl 로 한국 날짜를 그대로 얻는다. */
+const KST_JUDGE_HOUR = 6, KST_JUDGE_MIN = 30;
+const kstParts = (d) => {
+  const f = new Intl.DateTimeFormat('en-CA', {
+    timeZone: 'Asia/Seoul', year: 'numeric', month: '2-digit', day: '2-digit',
+    hour: '2-digit', minute: '2-digit', hour12: false
+  }).formatToParts(d).reduce((a, p) => (a[p.type] = p.value, a), {});
+  return { date: `${f.year}-${f.month}-${f.day}`, min: +f.hour * 60 + +f.minute };
+};
+const nowK = kstParts(new Date());
+const prevK = prevRegime && prevRegime.asOf ? kstParts(new Date(prevRegime.asOf)) : null;
+const pastJudgeTime = nowK.min >= KST_JUDGE_HOUR * 60 + KST_JUDGE_MIN;
+/* 오늘 아직 판정 안 했고, 기준 시각이 지났으면 판정한다.
+   손으로 돌릴 때(REGIME_FORCE=1)는 언제든 다시 판정한다. */
+const regimeDue = !!process.env.REGIME_FORCE ||
+  !prevRegime || !prevK || (prevK.date !== nowK.date && pastJudgeTime);
+
 let regime;
 
-if (prevRegime && prevAge < REGIME_EVERY_H) {
-  /* 아직 차례가 아니다 — 어제 판정을 그대로 쓴다. asOf 도 그대로 둔다.
+if (!regimeDue) {
+  /* 아직 차례가 아니다 — 오늘 판정을 그대로 쓴다. asOf 도 그대로 둔다.
      여기서 asOf 를 지금으로 갈면 화면이 "방금 판정"이라고 거짓말을 한다. */
   regime = prevRegime;
-  console.log(`국면: ${prevAge.toFixed(1)}시간 전 판정을 그대로 씁니다 (${REGIME_EVERY_H}시간마다 판정)`);
+  console.log(`국면: ${prevAge.toFixed(1)}시간 전(${prevK.date}) 판정을 그대로 씁니다 ` +
+    `· 다음 판정은 ${prevK.date === nowK.date ? '내일' : '오늘'} 06:30 KST 이후 첫 회차`);
 } else if (process.env.ANTHROPIC_API_KEY) {
   try {
     const ai = await judgeByAI({

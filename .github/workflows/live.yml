@@ -18,6 +18,12 @@ on:
   #    여기에도 예약을 두면 같은 회차에 두 번 하게 된다.
   #    이 워크플로는 이제 **손으로 돌릴 때만** 쓴다(확인·응급용).
   workflow_dispatch:        # Actions 탭에서 수동 실행
+    inputs:
+      regime:
+        description: '국면을 지금 다시 판정한다 (평소엔 하루 한 번, 06:30 KST 이후)'
+        type: boolean
+        required: false
+        default: false
 
 concurrency:
   group: live-snapshot
@@ -69,6 +75,10 @@ jobs:
         run: npm install --no-save --no-audit --no-fund @anthropic-ai/sdk zod
 
       - name: 시세 받아오기
+        # REGIME_FORCE 를 주면 하루 한 번 규칙을 건너뛰고 국면을 다시 판정한다.
+        # 크레딧을 채운 직후처럼 "지금 바로 다시 보고 싶은" 때 쓴다.
+        env:
+          REGIME_FORCE: ${{ github.event.inputs.regime == 'true' && '1' || '' }}
         run: node scripts/fetch-live.mjs
 
       - name: 바뀐 게 있으면 커밋

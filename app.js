@@ -1159,6 +1159,27 @@
     return h.join('');
   }
 
+  /* 다음 국면 판정이 언제인지. 서버는 한국 시각 06:30 이후 첫 회차에
+     하루 한 번 판정한다(scripts/fetch-live.mjs). 그 규칙을 화면에서도
+     같은 말로 적는다 — 두 곳이 다른 말을 하면 둘 다 못 믿게 된다. */
+  function nextJudgeText() {
+    if (!LIVE || !LIVE.regime || !LIVE.regime.asOf) return '';
+    var d = kstOf(new Date()), p = kstOf(new Date(LIVE.regime.asOf));
+    if (!d || !p) return '';
+    return p.date === d.date
+      ? '오늘 판정했습니다. 다음은 <b>내일 아침 6시 반</b> 이후입니다.'
+      : '다음 판정은 <b>오늘 아침 6시 반</b> 이후 첫 갱신입니다.';
+  }
+  /* 시간대를 손으로 더하지 않는다 — 자정 근처에서 날짜가 어긋난다. */
+  function kstOf(d) {
+    try {
+      var f = new Intl.DateTimeFormat('en-CA', {
+        timeZone: 'Asia/Seoul', year: 'numeric', month: '2-digit', day: '2-digit'
+      }).formatToParts(d).reduce(function (a, p) { a[p.type] = p.value; return a; }, {});
+      return { date: f.year + '-' + f.month + '-' + f.day };
+    } catch (e) { return null; }
+  }
+
   /* 국면 판정에 쓰인 지표들의 **지금 값**. 판정 문장 속 숫자와 나란히 놓으려고
      쓴다 — 어느 쪽이 오늘 값인지 화면에서 바로 보이게. */
   function livePairs() {
@@ -2930,8 +2951,13 @@
     }[by];
     var stampedAt = (by === 'ai' || by === 'rules') && LIVE.regime && LIVE.regime.asOf
       ? ' · ' + agoText(LIVE.regime.asOf) + ' 판정' : '';
+    /* 국면은 하루에 한 번, 한국 시각 06:30 이후 첫 회차에 다시 판정한다.
+       그 사실을 적어 두지 않으면 "왜 어제 값이지"가 매일 되풀이된다. */
+    var nextAt = nextJudgeText();
     h.push('<div class="stale ' + BY.c + '"><span>' + BY.i + '</span><div>' +
-      '<b>' + BY.t + '</b>' + stampedAt + '<br>' + BY.d + '</div></div>');
+      '<b>' + BY.t + '</b>' + stampedAt + '<br>' + BY.d +
+      (nextAt ? '<br><b>국면은 하루에 한 번</b> 다시 봅니다 — ' + nextAt : '') +
+      '</div></div>');
 
     /* ⚠️ 새로 판정하지 못해 지난 판정을 이어 쓰는 중이면 그렇게 말한다.
        결제 문제로 판정이 멈춘 날 규칙 판정으로 갈아타면 국면이 뛰고(둔화→침체)
