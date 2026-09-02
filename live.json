@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-02T00:01:34.064Z",
+  "asOf": "2026-09-02T00:11:56.124Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -17,11 +17,11 @@
       "time": "2026-09-01T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1373.18,
+      "price": 1371.79,
       "prev": 1366.6199951171875,
-      "chg": 0.48,
+      "chg": 0.38,
       "basis": "prev-daily-close",
-      "time": "2026-09-02T00:01:26.000Z"
+      "time": "2026-09-02T00:11:49.000Z"
     },
     "^GSPC": {
       "price": 7631.47,
@@ -55,7 +55,7 @@
   "fx": {
     "low52": 1366.62,
     "high52": 1554.48,
-    "pct": 0.035
+    "pct": 0.028
   },
   "hist": {
     "^KS11": {
@@ -63,60 +63,60 @@
       "low52": 3172.35,
       "high52": 9114.55,
       "pct52": 0.614,
-      "chg3m": -22.4
+      "chg3m": -19.54
     },
     "^KQ11": {
       "last": 834.29,
       "low52": 644.78,
       "high52": 1226.18,
       "pct52": 0.326,
-      "chg3m": -20.55
+      "chg3m": -22.38
     },
     "KRW=X": {
-      "last": 1373.18,
+      "last": 1371.79,
       "low52": 1366.62,
       "high52": 1554.48,
-      "pct52": 0.035,
-      "chg3m": -11.66
+      "pct52": 0.028,
+      "chg3m": -11.75
     },
     "^GSPC": {
       "last": 7631.47,
       "low52": 6343.72,
       "high52": 7798.99,
       "pct52": 0.885,
-      "chg3m": 1.03
+      "chg3m": 0.29
     },
     "^IXIC": {
       "last": 26099.77,
       "low52": 20794.64,
       "high52": 27093.9,
       "pct52": 0.842,
-      "chg3m": -2.81
+      "chg3m": -3.67
     },
     "^VIX": {
       "last": 16.34,
       "low52": 13.47,
       "high52": 31.05,
       "pct52": 0.163,
-      "chg3m": 1.74
+      "chg3m": 3.61
     },
     "^TNX": {
       "last": 4.8,
       "low52": 3.95,
       "high52": 4.8,
       "pct52": 1,
-      "chg3m": 6.79
+      "chg3m": 7.65
     }
   },
   "regime": {
     "by": "rules",
-    "asOf": "2026-09-02T00:01:33.412Z",
+    "asOf": "2026-09-02T00:11:55.607Z",
     "kr": {
       "why": {
-        "rates": "미국 10년물 금리가 지금 4.8%로, 3개월 전보다 6.79% 높고 최근 1년 범위(3.95~4.8)의 100% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
-        "growth": "지수가 3개월 전보다 -22.4% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
+        "rates": "미국 10년물 금리가 지금 4.8%로, 3개월 전보다 7.65% 높고 최근 1년 범위(3.95~4.8)의 100% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
+        "growth": "지수가 3개월 전보다 -19.54% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
         "valuation": "지수가 최근 1년 범위의 61% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
-        "fx": "원/달러가 1373.18원으로 최근 1년(1366.62~1554.48) 범위의 4% 지점입니다.",
+        "fx": "원/달러가 1371.79원으로 최근 1년(1366.62~1554.48) 범위의 3% 지점입니다.",
         "geo": "VIX 가 16.34입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
       },
       "rates": "hike",
@@ -128,10 +128,10 @@
     },
     "us": {
       "why": {
-        "rates": "미국 10년물 금리가 지금 4.8%로, 3개월 전보다 6.79% 높고 최근 1년 범위(3.95~4.8)의 100% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
-        "growth": "지수가 3개월 전보다 +1.03% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
+        "rates": "미국 10년물 금리가 지금 4.8%로, 3개월 전보다 7.65% 높고 최근 1년 범위(3.95~4.8)의 100% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
+        "growth": "지수가 3개월 전보다 +0.29% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
         "valuation": "지수가 최근 1년 범위의 89% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
-        "fx": "원/달러가 1373.18원으로 최근 1년(1366.62~1554.48) 범위의 4% 지점입니다.",
+        "fx": "원/달러가 1371.79원으로 최근 1년(1366.62~1554.48) 범위의 3% 지점입니다.",
         "geo": "VIX 가 16.34입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
       },
       "rates": "hike",
@@ -425,14 +425,14 @@
         "by": "rules"
       },
       {
-        "title": "A $3.5 Trillion Reason to Buy SpaceX Stock Today",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/3-5-trillion-reason-buy-154434612.html",
+        "title": "Fed Chairman Kevin Warsh triggered a new problem for stocks",
+        "link": "https://finance.yahoo.com/markets/article/fed-chairman-kevin-warsh-triggered-a-new-problem-for-stocks-120625754.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-31T15:44:34Z",
-        "ko": "오늘 SpaceX 주식을 매입해야 하는 $3.5조 이유",
+        "date": "2026-08-31T12:06:25Z",
+        "ko": "케빈 워시 연준 의장은 주식에 대한 새로운 문제를 촉발했다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -461,16 +461,16 @@
         "by": "rules"
       },
       {
-        "title": "Global Liquidity Could Drive Crypto Markets in September, Expert Says",
-        "link": "https://finance.yahoo.com/markets/crypto/articles/global-liquidity-could-drive-crypto-154300245.html",
+        "title": "After an 'extraordinary' earnings season, here's the next big positive for stocks",
+        "link": "https://finance.yahoo.com/markets/article/after-an-extraordinary-earnings-season-heres-the-next-big-positive-for-stocks-122048479.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-31T15:43:00Z",
-        "ko": "전문가에 따르면 9월에 글로벌 유동성이 암호화폐 시장을 주도할 수 있다고 합니다.",
+        "date": "2026-08-31T12:20:48Z",
+        "ko": "'특별한' 수익 시즌이 끝난 후 주식에 대한 다음 큰 긍정적 인 측면을 소개합니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
-        "why": "단기 유동성 전망에 대한 전문가 견해일 뿐 기업 이익과는 무관합니다.",
-        "by": "ai"
+        "scope": "company",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
       }
     ]
   },
@@ -2880,8 +2880,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeddYUaXtPSKQ3GvB9EmZ\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeddYVKBPF18Vmb6oGvgK\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeddYVuu7n9ySKFoF2Uwh\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CedeLLVPrPB6hq8MbXR9U\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CedeLM7MJXbWcMxDE8Q9i\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CedeLMYtpmuyyj3TLrKUZ\"}"
   ]
 }
