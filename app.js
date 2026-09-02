@@ -2909,9 +2909,22 @@
                  d: '판정 파일을 못 읽어 ' + M.defaults.asOf + ' 기준 출발값을 쓰고 있습니다. 잠시 뒤 다시 열거나, 아래에서 직접 맞추세요.' }
     }[by];
     var stampedAt = (by === 'ai' || by === 'rules') && LIVE.regime && LIVE.regime.asOf
-      ? ' · ' + agoText(LIVE.regime.asOf) + ' 갱신' : '';
+      ? ' · ' + agoText(LIVE.regime.asOf) + ' 판정' : '';
     h.push('<div class="stale ' + BY.c + '"><span>' + BY.i + '</span><div>' +
       '<b>' + BY.t + '</b>' + stampedAt + '<br>' + BY.d + '</div></div>');
+
+    /* ⚠️ 새로 판정하지 못해 지난 판정을 이어 쓰는 중이면 그렇게 말한다.
+       결제 문제로 판정이 멈춘 날 규칙 판정으로 갈아타면 국면이 뛰고(둔화→침체)
+       배분이 따라 움직인다. 그래서 서버는 지난 판정을 이어 쓰는데, 그 사실을
+       숨기면 화면이 "오늘 판정한 값"인 척하게 된다. */
+    if (LIVE.regime && LIVE.regime.stale) {
+      h.push('<div class="stale stale-bad"><span>⚠️</span><div>' +
+        '<b>새 판정을 못 받았습니다</b><br>' +
+        '위 국면은 <b>' + agoText(LIVE.regime.asOf) + ' 판정한 값</b>을 그대로 쓰고 있습니다. ' +
+        '새로 판정하지 못했다고 해서 다른 방식으로 바꿔 계산하지는 않습니다 — ' +
+        '그러면 시장이 아니라 <b>판정 방식이 바뀐 것</b>이 배분을 움직입니다.' +
+      '</div></div>');
+    }
 
     h.push('<div class="regime">' +
       '<div class="regime-eyebrow">' + mk.flag + ' ' + mk.full + ' · 지금의 국면</div>' +

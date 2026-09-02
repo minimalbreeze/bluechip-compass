@@ -468,9 +468,33 @@ if (existsSync(OUT)) {
    어느 쪽으로 판정했는지는 by 에 남겨 화면에 밝힌다.                     */
 const rulesKR = judgeByRules('kr', hist);
 const rulesUS = judgeByRules('us', hist);
-let regime = { by: 'rules', asOf: new Date().toISOString(), kr: rulesKR, us: rulesUS };
 
-if (process.env.ANTHROPIC_API_KEY) {
+/* 지난 판정을 읽어 둔다. 아래 두 가지에 쓴다 —
+   (1) 하루가 안 지났으면 그대로 이어 쓰고, (2) AI 를 못 불렀을 때도
+   그대로 이어 쓴다. 둘 다 "안 바뀐 것을 바뀐 것처럼 만들지 않기" 위해서다. */
+let prevRegime = null;
+if (existsSync(OUT)) {
+  try { prevRegime = JSON.parse(readFileSync(OUT, 'utf8')).regime || null; } catch (e) {}
+}
+const prevAge = prevRegime && prevRegime.asOf
+  ? (Date.now() - Date.parse(prevRegime.asOf)) / 3600000 : Infinity;
+
+/* ⚠️ 국면은 **하루에 한 번만** 판정한다.
+   예전에는 심장박동이 돌 때마다(장중 10분마다) 다시 판정했다. 시장 국면은
+   10분짜리 값이 아닌데 10분마다 물으니, 같은 날 안에서 hold↔hike, calm↔tense
+   가 오갔다. 실제 이력에 8/28·8/31 하루에 세 가지 국면이 찍혀 있다. 시장이
+   세 번 바뀐 게 아니라 **경계선 위의 값을 매번 새로 물어서** 생긴 흔들림이다.
+   이 앱은 노후자금을 굴리는 앱이고, 국면이 흔들리면 목표 배분이 흔들리고
+   기준계좌가 그걸 따라 매매한다. 하루 한 번으로 못 박는다. */
+const REGIME_EVERY_H = 20;
+let regime;
+
+if (prevRegime && prevAge < REGIME_EVERY_H) {
+  /* 아직 차례가 아니다 — 어제 판정을 그대로 쓴다. asOf 도 그대로 둔다.
+     여기서 asOf 를 지금으로 갈면 화면이 "방금 판정"이라고 거짓말을 한다. */
+  regime = prevRegime;
+  console.log(`국면: ${prevAge.toFixed(1)}시간 전 판정을 그대로 씁니다 (${REGIME_EVERY_H}시간마다 판정)`);
+} else if (process.env.ANTHROPIC_API_KEY) {
   try {
     const ai = await judgeByAI({
       hist, news, rulesKR, rulesUS,
@@ -483,10 +507,25 @@ if (process.env.ANTHROPIC_API_KEY) {
       kr: validate(ai.kr, rulesKR),
       us: validate(ai.us, rulesUS)
     };
+    console.log('국면: AI 로 새로 판정했습니다');
   } catch (e) {
     failed.push('regime-ai: ' + e.message);
-    console.error('AI 판정 실패 — 규칙 판정을 쓴다:', e.message);
+    /* ⚠️ 실패했다고 **규칙 판정으로 갈아타지 않는다.**
+       규칙과 AI 는 같은 수치에도 다른 답을 낸다(실제로 규칙은 reces, AI 는
+       slow 였다). 크레딧이 떨어진 날 국면이 둔화→침체로 뛰었고, 그건 시장이
+       아니라 판정 주체가 바뀐 것이다. 결제 문제로 배분이 움직여선 안 된다.
+       지난 판정을 이어 쓰고, 낡았다는 사실만 화면에 남긴다. */
+    if (prevRegime) {
+      regime = { ...prevRegime, stale: true, staleWhy: e.message.slice(0, 120) };
+      console.error('AI 판정 실패 — 지난 판정을 그대로 씁니다:', e.message);
+    } else {
+      regime = { by: 'rules', asOf: new Date().toISOString(), kr: rulesKR, us: rulesUS };
+      console.error('AI 판정 실패 · 지난 판정도 없음 — 규칙 판정을 씁니다:', e.message);
+    }
   }
+} else {
+  /* 키가 아예 없는 환경(첫 실행 등). 규칙 판정이라도 있어야 앱이 돈다. */
+  regime = prevRegime || { by: 'rules', asOf: new Date().toISOString(), kr: rulesKR, us: rulesUS };
 }
 
 /* ── 기사 판정 ──────────────────────────────────────────────
