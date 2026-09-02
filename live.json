@@ -1,27 +1,27 @@
 {
-  "asOf": "2026-09-02T00:22:21.222Z",
+  "asOf": "2026-09-02T00:32:41.270Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
-      "price": 6639.71,
+      "price": 6657.09,
       "prev": 6820.02001953125,
-      "chg": -2.64,
+      "chg": -2.39,
       "basis": "prev-daily-close",
-      "time": "2026-09-02T00:02:00.000Z"
+      "time": "2026-09-02T00:12:30.000Z"
     },
     "^KQ11": {
-      "price": 800.84,
+      "price": 801.76,
       "prev": 834.2899780273438,
-      "chg": -4.01,
+      "chg": -3.9,
       "basis": "prev-daily-close",
-      "time": "2026-09-02T00:02:10.000Z"
+      "time": "2026-09-02T00:12:30.000Z"
     },
     "KRW=X": {
-      "price": 1370.48,
+      "price": 1370.35,
       "prev": 1366.6199951171875,
-      "chg": 0.28,
+      "chg": 0.27,
       "basis": "prev-daily-close",
-      "time": "2026-09-02T00:22:04.000Z"
+      "time": "2026-09-02T00:32:34.000Z"
     },
     "^GSPC": {
       "price": 7631.47,
@@ -55,29 +55,29 @@
   "fx": {
     "low52": 1366.62,
     "high52": 1554.48,
-    "pct": 0.021
+    "pct": 0.02
   },
   "hist": {
     "^KS11": {
-      "last": 6628.06,
+      "last": 6657.09,
       "low52": 3172.35,
       "high52": 9114.55,
-      "pct52": 0.582,
-      "chg3m": -24.69
+      "pct52": 0.586,
+      "chg3m": -24.25
     },
     "^KQ11": {
-      "last": 800.84,
+      "last": 801.76,
       "low52": 644.78,
       "high52": 1226.18,
-      "pct52": 0.268,
-      "chg3m": -23.73
+      "pct52": 0.27,
+      "chg3m": -23.64
     },
     "KRW=X": {
-      "last": 1370.48,
+      "last": 1370.35,
       "low52": 1366.62,
       "high52": 1554.48,
-      "pct52": 0.021,
-      "chg3m": -11.84
+      "pct52": 0.02,
+      "chg3m": -11.85
     },
     "^GSPC": {
       "last": 7631.47,
@@ -91,7 +91,7 @@
       "low52": 20794.64,
       "high52": 27093.9,
       "pct52": 0.842,
-      "chg3m": -2.81
+      "chg3m": -3.67
     },
     "^VIX": {
       "last": 16.34,
@@ -110,13 +110,13 @@
   },
   "regime": {
     "by": "rules",
-    "asOf": "2026-09-02T00:22:20.576Z",
+    "asOf": "2026-09-02T00:32:40.717Z",
     "kr": {
       "why": {
         "rates": "미국 10년물 금리가 지금 4.8%로, 3개월 전보다 7.65% 높고 최근 1년 범위(3.95~4.8)의 100% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
-        "growth": "지수가 3개월 전보다 -24.69% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
-        "valuation": "지수가 최근 1년 범위의 58% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
-        "fx": "원/달러가 1370.48원으로 최근 1년(1366.62~1554.48) 범위의 2% 지점입니다.",
+        "growth": "지수가 3개월 전보다 -24.25% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
+        "valuation": "지수가 최근 1년 범위의 59% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
+        "fx": "원/달러가 1370.35원으로 최근 1년(1366.62~1554.48) 범위의 2% 지점입니다.",
         "geo": "VIX 가 16.34입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
       },
       "rates": "hike",
@@ -131,7 +131,7 @@
         "rates": "미국 10년물 금리가 지금 4.8%로, 3개월 전보다 7.65% 높고 최근 1년 범위(3.95~4.8)의 100% 지점입니다. 정책금리 자체가 아니라 대용 지표입니다.",
         "growth": "지수가 3개월 전보다 +0.29% 입니다. 주가는 경기를 앞서 반영하므로 대용 지표로 씁니다.",
         "valuation": "지수가 최근 1년 범위의 89% 지점입니다. PER 이 아니라 가격 위치로 본 근사치입니다.",
-        "fx": "원/달러가 1370.48원으로 최근 1년(1366.62~1554.48) 범위의 2% 지점입니다.",
+        "fx": "원/달러가 1370.35원으로 최근 1년(1366.62~1554.48) 범위의 2% 지점입니다.",
         "geo": "VIX 가 16.34입니다. 20 미만은 평온, 20~30은 긴장, 30 이상은 충격 구간으로 봅니다."
       },
       "rates": "hike",
@@ -145,95 +145,95 @@
   "stocks": {
     "kr": {
       "105560": {
-        "price": 171400,
+        "price": 172700,
         "prev": 171200,
-        "chg": 0.12,
+        "chg": 0.88,
         "basis": "prev-daily-close",
-        "time": "2026-09-02T00:02:18.000Z"
+        "time": "2026-09-02T00:12:38.000Z"
       },
       "207940": {
-        "price": 1491000,
+        "price": 1500000,
         "prev": 1520000,
-        "chg": -1.91,
+        "chg": -1.32,
         "basis": "prev-daily-close",
-        "time": "2026-09-02T00:02:17.000Z"
+        "time": "2026-09-02T00:12:34.000Z"
       },
       "005930": {
-        "price": 252000,
+        "price": 253500,
         "prev": 261000,
-        "chg": -3.45,
+        "chg": -2.87,
         "basis": "prev-daily-close",
-        "time": "2026-09-02T00:02:18.000Z"
+        "time": "2026-09-02T00:12:38.000Z"
       },
       "000660": {
-        "price": 1627000,
+        "price": 1644000,
         "prev": 1693000,
-        "chg": -3.9,
+        "chg": -2.89,
         "basis": "prev-daily-close",
-        "time": "2026-09-02T00:02:18.000Z"
+        "time": "2026-09-02T00:12:39.000Z"
       },
       "005380": {
-        "price": 384000,
+        "price": 385000,
         "prev": 400500,
-        "chg": -4.12,
+        "chg": -3.87,
         "basis": "prev-daily-close",
-        "time": "2026-09-02T00:02:17.000Z"
+        "time": "2026-09-02T00:12:39.000Z"
       },
       "055550": {
-        "price": 111800,
+        "price": 111900,
         "prev": 111100,
-        "chg": 0.63,
+        "chg": 0.72,
         "basis": "prev-daily-close",
-        "time": "2026-09-02T00:02:18.000Z"
+        "time": "2026-09-02T00:12:39.000Z"
       },
       "000810": {
-        "price": 664000,
+        "price": 661000,
         "prev": 677000,
-        "chg": -1.92,
+        "chg": -2.36,
         "basis": "prev-daily-close",
-        "time": "2026-09-02T00:02:16.000Z"
+        "time": "2026-09-02T00:12:36.000Z"
       },
       "033780": {
-        "price": 173500,
+        "price": 173800,
         "prev": 174900,
-        "chg": -0.8,
+        "chg": -0.63,
         "basis": "prev-daily-close",
-        "time": "2026-09-02T00:02:10.000Z"
+        "time": "2026-09-02T00:12:38.000Z"
       },
       "035420": {
-        "price": 209000,
+        "price": 210500,
         "prev": 215000,
-        "chg": -2.79,
+        "chg": -2.09,
         "basis": "prev-daily-close",
-        "time": "2026-09-02T00:02:18.000Z"
+        "time": "2026-09-02T00:12:39.000Z"
       },
       "005490": {
-        "price": 335000,
+        "price": 335500,
         "prev": 341000,
-        "chg": -1.76,
+        "chg": -1.61,
         "basis": "prev-daily-close",
-        "time": "2026-09-02T00:02:11.000Z"
+        "time": "2026-09-02T00:12:38.000Z"
       },
       "028260": {
-        "price": 385000,
+        "price": 386000,
         "prev": 390500,
-        "chg": -1.41,
+        "chg": -1.15,
         "basis": "prev-daily-close",
-        "time": "2026-09-02T00:02:18.000Z"
+        "time": "2026-09-02T00:12:39.000Z"
       },
       "012450": {
-        "price": 1049000,
+        "price": 1039000,
         "prev": 1058000,
-        "chg": -0.85,
+        "chg": -1.8,
         "basis": "prev-daily-close",
-        "time": "2026-09-02T00:02:17.000Z"
+        "time": "2026-09-02T00:12:38.000Z"
       },
       "017670": {
-        "price": 91900,
+        "price": 92500,
         "prev": 94600,
-        "chg": -2.85,
+        "chg": -2.22,
         "basis": "prev-daily-close",
-        "time": "2026-09-02T00:02:14.000Z"
+        "time": "2026-09-02T00:12:38.000Z"
       }
     },
     "us": {
@@ -333,13 +333,13 @@
   "news": {
     "kr": [
       {
-        "title": "[특징주] 금융주, 글로벌 금리 상승 영향에 장 초반 강보합",
-        "link": "https://www.yna.co.kr/view/AKR20260902036500008",
+        "title": "임종룡 우리금융 회장 자사주 5천주 추가 매입",
+        "link": "https://www.yna.co.kr/view/AKR20260902044700002",
         "source": "연합뉴스",
-        "date": "Wed, 2 Sep 2026 09:13:18 +0900",
+        "date": "Wed, 2 Sep 2026 09:28:16 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -355,10 +355,10 @@
         "by": "rules"
       },
       {
-        "title": "‘美 증시 역풍’ 맞은 코스피, 3%대 하락 출발…코스닥도 800선 내줘",
-        "link": "https://www.mk.co.kr/news/stock/12141981",
+        "title": "금리 뛰는데 금값도 오른다…“내년 말 6000달러까지 상승” [오늘 나온 보고서]",
+        "link": "https://www.mk.co.kr/news/stock/12141991",
         "source": "매일경제",
-        "date": "Wed, 02 Sep 2026 09:16:40 +09:00",
+        "date": "Wed, 02 Sep 2026 09:26:34 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -366,13 +366,13 @@
         "by": "rules"
       },
       {
-        "title": "코스피, 3%대 하락 출발해 6,600대…코스닥도 800선 내줘",
-        "link": "https://www.yna.co.kr/view/AKR20260902034900008",
+        "title": "[게시판] 한투증권, MTS서 연금 자산관리 기능 고도화",
+        "link": "https://www.yna.co.kr/view/AKR20260902042600008",
         "source": "연합뉴스",
-        "date": "Wed, 2 Sep 2026 09:07:33 +0900",
+        "date": "Wed, 2 Sep 2026 09:23:20 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -388,13 +388,13 @@
         "by": "rules"
       },
       {
-        "title": "신한투자증권 “하나금융지주, 실적 높아질 것…주주환원 규모도 기대”",
-        "link": "https://www.mk.co.kr/news/stock/12141956",
+        "title": "[MK시그널] 엘앤에프, LFP 양극재 신사업 가치 부각 등에 주가 상승세... MK시그널 추천 후 상승률 26.63% 기록",
+        "link": "https://www.mk.co.kr/news/stock/12141988",
         "source": "매일경제",
-        "date": "Wed, 02 Sep 2026 08:50:20 +09:00",
+        "date": "Wed, 02 Sep 2026 09:24:20 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -425,14 +425,14 @@
         "by": "rules"
       },
       {
-        "title": "After an 'extraordinary' earnings season, here's the next big positive for stocks",
-        "link": "https://finance.yahoo.com/markets/article/after-an-extraordinary-earnings-season-heres-the-next-big-positive-for-stocks-122048479.html",
+        "title": "Corn Pausing Rally on Monday Morning as August Comes to a Close",
+        "link": "https://finance.yahoo.com/markets/commodities/articles/corn-pausing-rally-monday-morning-123004467.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-31T12:20:48Z",
-        "ko": "'특별한' 수익 시즌이 끝난 후 주식에 대한 다음 큰 긍정적 인 측면을 소개합니다.",
+        "date": "2026-08-31T12:30:04Z",
+        "ko": "8월이 다가오면서 월요일 아침에 열리는 옥수수 일시 중지 집회",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -461,14 +461,14 @@
         "by": "rules"
       },
       {
-        "title": "Corn Pausing Rally on Monday Morning as August Comes to a Close",
-        "link": "https://finance.yahoo.com/markets/commodities/articles/corn-pausing-rally-monday-morning-123004467.html",
+        "title": "After an 'extraordinary' earnings season, here's the next big positive for stocks",
+        "link": "https://finance.yahoo.com/markets/article/after-an-extraordinary-earnings-season-heres-the-next-big-positive-for-stocks-122048479.html",
         "source": "Yahoo Finance",
-        "date": "2026-08-31T12:30:04Z",
-        "ko": "8월이 다가오면서 월요일 아침에 열리는 옥수수 일시 중지 집회",
+        "date": "2026-08-31T12:20:48Z",
+        "ko": "'특별한' 수익 시즌이 끝난 후 주식에 대한 다음 큰 긍정적 인 측면을 소개합니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -2880,8 +2880,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cedf8QjRD8VUVoxz4xmPq\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cedf8RSpvB5vyPwrg33vs\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cedf8S4nNrddxPB2t4n5j\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cedfv7rwRWb6cR16VP7rK\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cedfv8Y7uDNrjVSJpek5z\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cedfv919fmtfmz2Err8n2\"}"
   ]
 }
