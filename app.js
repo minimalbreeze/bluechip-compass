@@ -1159,6 +1159,26 @@
     return h.join('');
   }
 
+  /* 국면 판정에 쓰인 지표들의 **지금 값**. 판정 문장 속 숫자와 나란히 놓으려고
+     쓴다 — 어느 쪽이 오늘 값인지 화면에서 바로 보이게. */
+  function livePairs() {
+    if (!LIVE || !LIVE.quotes) return [];
+    var q = LIVE.quotes, mk = state.market;
+    var want = mk === 'kr'
+      ? [['^KS11', '코스피', ''], ['KRW=X', '원/달러', '원'],
+         ['^TNX', '미 10년물 금리', '%'], ['^VIX', 'VIX(변동성)', '']]
+      : [['^IXIC', '나스닥', ''], ['^GSPC', 'S&P 500', ''],
+         ['^TNX', '미 10년물 금리', '%'], ['^VIX', 'VIX(변동성)', '']];
+    var out = [];
+    want.forEach(function (w) {
+      var v = q[w[0]];
+      if (!v || typeof v.price !== 'number') return;
+      out.push({ n: w[1], v: fmtNum(v.price, w[2]) +
+        (typeof v.chg === 'number' ? ' (' + signPct(v.chg) + ')' : '') });
+    });
+    return out;
+  }
+
   /* ── 기사 판정 표시 ────────────────────────────────────────────
      예전에는 뉴스 밑에 3문항 자가점검을 두고 사용자가 스스로 답하게 했다.
      좋은 질문이었지만 헤드라인마다 세 번씩 자문하는 사람은 없었고, 결국
@@ -2947,6 +2967,23 @@
       '</div></div>';
     });
     judgeHtml += '</div>';
+
+    /* ⚠️ 위 근거 문장에는 **판정하던 순간의 수치**가 그대로 박혀 있다
+       ("^TNX 4.76%", "VIX 15.04", "원/달러 1367.93원"). 판정은 하루에 한 번이고
+       시세는 10분마다 들어오므로, 그 숫자들은 곧 오늘 값이 아니게 된다.
+       그런데 화면에서는 오늘 읽은 값처럼 보인다 — 이 앱이 가장 싫어하는
+       종류의 거짓말이다(원칙 2: 낡은 숫자를 믿는 게 안 보는 것보다 위험하다).
+       그래서 **지금 값을 바로 옆에 같이 적는다.** 다르면 다르다고 보인다. */
+    var nowRows = livePairs();
+    if (nowRows.length) {
+      judgeHtml += '<div class="nowbox"><div class="nowbox-h">📍 그때 판정한 수치 · 지금 값</div>' +
+        '<div class="nowbox-s">위 설명의 숫자는 <b>' + agoText(LIVE.regime.asOf) + ' 판정할 때</b> 읽은 값입니다. ' +
+        '아래는 <b>' + agoText(LIVE.asOf) + '</b> 받아온 지금 값입니다.</div>' +
+        nowRows.map(function (r) {
+          return '<div class="nowrow"><span>' + r.n + '</span><b>' + r.v + '</b></div>';
+        }).join('') + '</div>';
+    }
+
     if (by === 'ai') {
       var a = autoRegime(state.market);
       if (a && a.summary) judgeHtml += '<div class="note">🧭 ' + esc(a.summary) + '</div>';
