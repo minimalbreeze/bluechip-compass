@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-02T23:48:21.932Z",
+  "asOf": "2026-09-03T00:01:43.420Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -17,11 +17,11 @@
       "time": "2026-09-02T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1359.07,
+      "price": 1360.88,
       "prev": 1372.8599853515625,
-      "chg": -1,
+      "chg": -0.87,
       "basis": "prev-daily-close",
-      "time": "2026-09-02T23:48:10.000Z"
+      "time": "2026-09-03T00:01:36.000Z"
     },
     "^GSPC": {
       "price": 7666.6,
@@ -53,16 +53,16 @@
     }
   },
   "fx": {
-    "low52": 1359.07,
+    "low52": 1360.88,
     "high52": 1554.48,
     "pct": 0
   },
   "hist": {
     "^KS11": {
       "last": 6835.8,
-      "low52": 3172.35,
+      "low52": 3184.42,
       "high52": 9114.55,
-      "pct52": 0.617,
+      "pct52": 0.616,
       "chg3m": -22.22
     },
     "^KQ11": {
@@ -73,11 +73,11 @@
       "chg3m": -21.79
     },
     "KRW=X": {
-      "last": 1359.07,
-      "low52": 1359.07,
+      "last": 1360.88,
+      "low52": 1360.88,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -11.11
+      "chg3m": -10.99
     },
     "^GSPC": {
       "last": 7666.6,
@@ -243,91 +243,91 @@
         "price": 496.82,
         "prev": 501.0199890136719,
         "chg": -0.84,
-        "basis": "prev-daily-close",
+        "basis": "last-daily-close",
         "time": "2026-09-02T20:00:01.000Z"
       },
       "AAPL": {
         "price": 324.96,
         "prev": 325.1300048828125,
         "chg": -0.05,
-        "basis": "prev-daily-close",
+        "basis": "last-daily-close",
         "time": "2026-09-02T20:00:01.000Z"
       },
       "GOOGL": {
         "price": 337.12,
         "prev": 335.0199890136719,
         "chg": 0.63,
-        "basis": "prev-daily-close",
+        "basis": "last-daily-close",
         "time": "2026-09-02T20:00:01.000Z"
       },
       "BRK.B": {
         "price": 505.24,
         "prev": 502.3299865722656,
         "chg": 0.58,
-        "basis": "prev-daily-close",
+        "basis": "last-daily-close",
         "time": "2026-09-02T20:05:34.000Z"
       },
       "V": {
         "price": 378.4,
         "prev": 372.6700134277344,
         "chg": 1.54,
-        "basis": "prev-daily-close",
+        "basis": "last-daily-close",
         "time": "2026-09-02T20:00:02.000Z"
       },
       "JNJ": {
         "price": 275.21,
         "prev": 271.19000244140625,
         "chg": 1.48,
-        "basis": "prev-daily-close",
+        "basis": "last-daily-close",
         "time": "2026-09-02T20:00:02.000Z"
       },
       "PG": {
         "price": 147.64,
         "prev": 146.2100067138672,
         "chg": 0.98,
-        "basis": "prev-daily-close",
+        "basis": "last-daily-close",
         "time": "2026-09-02T20:02:58.000Z"
       },
       "KO": {
         "price": 88.24,
         "prev": 88,
         "chg": 0.27,
-        "basis": "prev-daily-close",
+        "basis": "last-daily-close",
         "time": "2026-09-02T20:00:02.000Z"
       },
       "COST": {
         "price": 928.48,
         "prev": 939.9600219726562,
         "chg": -1.22,
-        "basis": "prev-daily-close",
+        "basis": "last-daily-close",
         "time": "2026-09-02T20:00:01.000Z"
       },
       "WM": {
         "price": 219.04,
         "prev": 219.77000427246094,
         "chg": -0.33,
-        "basis": "prev-daily-close",
+        "basis": "last-daily-close",
         "time": "2026-09-02T20:00:03.000Z"
       },
       "LIN": {
         "price": 487.45,
         "prev": 486.760009765625,
         "chg": 0.14,
-        "basis": "prev-daily-close",
+        "basis": "last-daily-close",
         "time": "2026-09-02T20:00:01.000Z"
       },
       "XOM": {
         "price": 164.15,
         "prev": 164.5500030517578,
         "chg": -0.24,
-        "basis": "prev-daily-close",
+        "basis": "last-daily-close",
         "time": "2026-09-02T20:04:03.000Z"
       },
       "NVDA": {
         "price": 224.41,
         "prev": 217.44000244140625,
         "chg": 3.21,
-        "basis": "prev-daily-close",
+        "basis": "last-daily-close",
         "time": "2026-09-02T20:00:00.000Z"
       }
     }
@@ -335,10 +335,10 @@
   "news": {
     "kr": [
       {
-        "title": "IBK증권 \"中경제 'K자형 성장' 확연…내수·수출간 경기차별화\"",
-        "link": "https://www.yna.co.kr/view/AKR20260903027600008",
+        "title": "하나증권 \"한국전력, 정부지원 긍정적…투자여력 개선엔 부족\"",
+        "link": "https://www.yna.co.kr/view/AKR20260903029600008",
         "source": "연합뉴스",
-        "date": "Thu, 3 Sep 2026 08:42:10 +0900",
+        "date": "Thu, 3 Sep 2026 08:54:11 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -346,14 +346,14 @@
         "by": "rules"
       },
       {
-        "title": "코스피 파랗게 질린 날…시총 50대 종목 중 유일하게 오른 '이곳'",
-        "link": "https://www.hankyung.com/article/202609020645i",
+        "title": "\"2026년 세제개편안, 증시 중장기 구조 변수…고배당·저PBR 주목\"-대신",
+        "link": "https://www.hankyung.com/article/2026090310986",
         "source": "한국경제",
-        "date": "Thu, 03 Sep 2026 07:30:05 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "date": "Thu, 03 Sep 2026 08:52:29 +0900",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": "company",
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
         "by": "rules"
       },
       {
@@ -368,24 +368,24 @@
         "by": "rules"
       },
       {
-        "title": "SK증권 \"롯데지주, 수익 개선·주주환원에 주가 상승 기대\"",
-        "link": "https://www.yna.co.kr/view/AKR20260903028000008",
+        "title": "\"AI 투자 붐이 장기채 흔든다…韓 단기물 중심 국채 발행 필요\"",
+        "link": "https://www.yna.co.kr/view/AKR20260903030100008",
         "source": "연합뉴스",
-        "date": "Thu, 3 Sep 2026 08:39:07 +0900",
+        "date": "Thu, 3 Sep 2026 08:48:54 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "미 국채금리 상승 주춤하자 4거래일만에 반등 [뉴욕증시 브리핑]",
-        "link": "https://www.hankyung.com/article/2026090307886",
+        "title": "\"티씨케이, SiC 포커스링 세계 1위…中 반도체 부상도 기회\"-IBK",
+        "link": "https://www.hankyung.com/article/2026090309206",
         "source": "한국경제",
-        "date": "Thu, 03 Sep 2026 07:10:52 +0900",
+        "date": "Thu, 03 Sep 2026 08:14:46 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -427,14 +427,14 @@
         "by": "rules"
       },
       {
-        "title": "Is Union Pacific Stock Outperforming the S&P 500?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/union-pacific-stock-outperforming-p-153756706.html",
+        "title": "Citi says investors should consider buying tumbling tech stock",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/citi-says-investors-consider-buying-165315833.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-01T15:37:56Z",
-        "ko": "Union Pacific Stock이 S&P 500을 능가합니까?",
+        "date": "2026-09-01T16:53:15Z",
+        "ko": "Citi는 투자자들이 텀블링 기술 주식을 구입하는 것을 고려해야 한다고 말합니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -463,14 +463,14 @@
         "by": "rules"
       },
       {
-        "title": "How Is Intuitive Surgical's Stock Performance Compared to Other Health Care Equipment Stocks?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/intuitive-surgicals-stock-performance-compared-153212563.html",
+        "title": "Baird Just Upgraded Deere Stock. Here's Why.",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/baird-just-upgraded-deere-stock-160823928.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-01T15:32:12Z",
-        "ko": "Intuitive Surgical의 재고 실적은 다른 의료 장비 재고와 어떻게 비교됩니까?",
+        "date": "2026-09-01T16:08:23Z",
+        "ko": "Baird가 Deere Stock을 업그레이드했습니다. 그 이유는 다음과 같습니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -478,7 +478,6 @@
   },
   "newsBy": "ai",
   "trCache": {
-    "Dow Jones Futures: Microsoft, Titans Mask Market Weakness. Here's What To Do.": "Dow Jones Futures: Microsoft, Titans Mask Market Weakness. 취해야 할 조치는 다음과 같습니다.",
     "Microsoft, Palantir Among Stocks To Watch As Software Bounces Back": "Microsoft, Palantir, 소프트웨어가 반송됨에 따라 지켜봐야 할 주식 중 하나",
     "Stock Market Week Ahead: Chips, Cybersecurity And Jobs": "주식 시장 주간: 칩, 사이버 보안 및 일자리",
     "These 7 Stocks Are Analyst Favorites For Magnificent Earnings Growth; Amazon Holds Key Level": "이 7개 주식은 애널리스트가 웅장한 수익 성장에 가장 선호하는 주식입니다. 아마존은 주요 수준을 보유하고 있습니다.",
@@ -777,7 +776,8 @@
     "Why Analysts Think Sellas Life Sciences Stock Can Gain 150% From Here": "애널리스트들이 Sellas Life Sciences 주식이 여기에서 150% 를 얻을 수 있다고 생각하는 이유",
     "Dear Apple Stock Fans, Mark Your Calendars for September 1": "친애하는 Apple Stock 팬 여러분, 9월 1일 달력에 표시하세요",
     "Is Union Pacific Stock Outperforming the S&P 500?": "Union Pacific Stock이 S&P 500을 능가합니까?",
-    "How Is Intuitive Surgical's Stock Performance Compared to Other Health Care Equipment Stocks?": "Intuitive Surgical의 재고 실적은 다른 의료 장비 재고와 어떻게 비교됩니까?"
+    "How Is Intuitive Surgical's Stock Performance Compared to Other Health Care Equipment Stocks?": "Intuitive Surgical의 재고 실적은 다른 의료 장비 재고와 어떻게 비교됩니까?",
+    "Baird Just Upgraded Deere Stock. Here's Why.": "Baird가 Deere Stock을 업그레이드했습니다. 그 이유는 다음과 같습니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -2882,8 +2882,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CefWM14hW1ARSFRFYNykS\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CefWM1sKPx1fKNGztBA6A\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CefWM2LMB5a4G4XEywDxZ\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CefXN5uo2MpxCD6uSUYXi\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CefXN6aEJ1f77ja2PNhq7\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CefXN75FVanBaABbRaFnX\"}"
   ]
 }
