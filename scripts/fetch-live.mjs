@@ -322,21 +322,36 @@ function dayIn(tz, epochSec) {
   return `${f.year}-${f.month}-${f.day}`;
 }
 
+/* 이 앱이 스스로 기억해 둔 "그날의 마지막 값". live.json 에 실려 다음
+   회차로 넘어간다. 아래 quote() 가 야후의 빈칸을 이걸로 메운다. */
+let dayClose = {};
+if (existsSync(OUT)) {
+  try { dayClose = JSON.parse(readFileSync(OUT, 'utf8')).dayClose || {}; } catch (e) {}
+}
+const DAYCLOSE_KEEP = 12;   /* 종목당 최근 며칠치만 들고 간다 */
+
 async function quote(sym) {
   /* ── 전일 종가를 어떻게 정하나 ──────────────────────────────────
      이 값 하나가 틀리면 **오른 날을 내린 날로 보여준다.** 실제로 그랬다:
-     2026-09-03 장중에 코스피가 +1.6% 인데 앱은 -2.91% 로 찍었다.
+     2026-09-03 장중 코스피가 +1.6% 인데 앱은 -2.91% 로 찍었다.
 
-     원인은 예전 방식이었다 — 일별 종가 배열에서 **뒤에서 두 번째**를 전일로
-     집었다. 시각을 보지 않으니, 야후의 일봉이 하루 밀려 어제(9/2) 봉이 아직
-     안 들어온 날에는 그저께(9/1) 종가를 전일로 집는다.
+     진단 워크플로(diag → chart)로 야후 응답을 직접 찍어 보고 알아낸 사실:
 
-     지금은 두 갈래로 구해서 **서로 맞는지 본다.**
-       (1) meta.previousClose — 거래소가 말하는 직전 세션 종가
-       (2) 일봉 시리즈에서 **거래소 날짜로 오늘보다 앞선** 마지막 종가
-     둘이 어긋나면 **전일 종가를 모르는 것이다.** 그때는 등락률을 내지 않는다
-     (chg: null). 틀린 방향을 자신 있게 보여주느니 모른다고 하는 편이 낫다 —
-     이 앱의 첫 번째 약속이다. */
+       1. `meta.previousClose` 는 **아예 없다**(undefined). 쓸 수 없다.
+       2. `meta.chartPreviousClose` 는 어제가 아니라 **요청 구간(1개월)
+          직전**의 종가다. KRW=X 에서 1435.70(한 달 전)이 나왔다.
+          이걸 전일로 쓰면 환율이 통째로 틀어진다. 쓰지 않는다.
+       3. 일봉의 close 가 **null 인 날이 있다.** ^KS11 은 09-02 가 null 이었다.
+          null 을 걸러내면 09-01 이 "직전"이 되고, 그게 -2.91% 의 원인이었다.
+          밀린 게 아니라 **비어 있었다.**
+
+     그래서 야후만 믿지 않는다. 이 앱은 10분마다 스냅샷을 남기므로,
+     **어제 마지막으로 본 값을 스스로 기억**해 두었다가 야후의 빈칸을 메운다
+     (dayClose). 어제 장 마감 뒤 회차에 이미 6562.72 를 적어 두었다.
+
+     고르는 순서: 야후 일봉과 내 기억 중 **날짜가 더 최근인 쪽**. 둘 다 없으면
+     등락률을 내지 않는다(chg: null) — 틀린 방향을 자신 있게 보여주느니
+     모른다고 하는 편이 낫다. */
   const j = await getJson(chartUrl(sym, '1mo', '1d'));
   const res = j?.chart?.result?.[0];
   if (!res) throw new Error('no result');
@@ -347,50 +362,49 @@ async function quote(sym) {
   const ts = res.timestamp || [];
   const bars = ts.map((t, i) => ({ t, c: rawC[i] }))
     .filter(b => typeof b.c === 'number' && typeof b.t === 'number');
-  if (!bars.length) throw new Error('not enough closes');
 
   const live = typeof m.regularMarketPrice === 'number'
-    ? m.regularMarketPrice : bars[bars.length - 1].c;
+    ? m.regularMarketPrice
+    : (bars.length ? bars[bars.length - 1].c : null);
+  if (typeof live !== 'number') throw new Error('no price');
 
-  /* (2) 오늘 봉을 빼고 남은 마지막 종가 */
   const today = dayIn(tz, Math.floor(Date.now() / 1000));
+
+  /* (1) 야후 일봉에서 오늘보다 앞선 마지막 **값이 있는** 봉 */
   const older = bars.filter(b => dayIn(tz, b.t) < today);
-  const fromSeries = older.length ? older[older.length - 1].c : null;
+  const fromBar = older.length
+    ? { day: dayIn(tz, older[older.length - 1].t), v: older[older.length - 1].c } : null;
 
-  /* (1) 거래소가 말하는 직전 종가 */
-  const fromMeta = [m.previousClose, m.chartPreviousClose]
-    .find(v => typeof v === 'number' && v > 0) ?? null;
+  /* (2) 내가 기억해 둔, 오늘보다 앞선 마지막 날의 마지막 값 */
+  const mem = dayClose[sym] || {};
+  const memDays = Object.keys(mem).filter(d => d < today).sort();
+  const fromMem = memDays.length
+    ? { day: memDays[memDays.length - 1], v: mem[memDays[memDays.length - 1]] } : null;
 
-  /* 시리즈가 며칠씩 밀려 있으면 그 값을 전일로 볼 수 없다.
-     (달력 기준 4일을 넘으면 밀린 것으로 본다 — 주말·공휴일은 3일까지 벌어진다) */
-  const seriesDay = older.length ? dayIn(tz, older[older.length - 1].t) : null;
-  const seriesLagDays = seriesDay
-    ? Math.round((Date.parse(today) - Date.parse(seriesDay)) / 86400000) : Infinity;
-  const seriesStale = seriesLagDays > 4;
+  /* 날짜가 더 최근인 쪽을 쓴다 — 내 기억이 야후의 빈칸을 메운다 */
+  let pick = null, basis = 'unknown';
+  if (fromBar && fromMem) {
+    pick = fromMem.day > fromBar.day ? fromMem : fromBar;
+    basis = fromMem.day > fromBar.day ? 'prev-close-memo' : 'prev-close-bar';
+  } else if (fromBar) { pick = fromBar; basis = 'prev-close-bar'; }
+  else if (fromMem) { pick = fromMem; basis = 'prev-close-memo'; }
 
-  let prev = null, basis = null;
-  if (fromMeta && fromSeries && !seriesStale) {
-    /* 둘 다 있고 시리즈도 멀쩡하다. 5% 안에서 서로 비슷하면 **거래소 값**을
-       쓴다(일봉은 하루 밀릴 수 있고 meta 는 안 밀린다). 많이 어긋나면 meta
-       쪽이 엉뚱한 세션을 가리키는 것이므로 시리즈를 쓴다. */
-    const gap = Math.abs(fromMeta - fromSeries) / fromSeries;
-    if (gap <= 0.05) { prev = fromMeta; basis = 'prev-close'; }
-    else { prev = fromSeries; basis = 'prev-close-series'; }
-  } else if (fromMeta) {
-    /* 시리즈가 없거나 밀렸다 — 거래소 값이 유일하게 믿을 만하다. */
-    prev = fromMeta; basis = 'prev-close-meta';
-  } else if (fromSeries && !seriesStale) {
-    prev = fromSeries; basis = 'prev-close-series';
-  } else {
-    /* 어느 쪽도 못 믿는다. **숫자를 만들지 않는다.** */
-    basis = 'unknown';
-  }
+  /* 오늘 본 값을 기억해 둔다. 하루 동안 계속 덮어써서, 장 마감 뒤 회차의
+     값이 그날의 마지막 값으로 남는다. */
+  if (!dayClose[sym]) dayClose[sym] = {};
+  dayClose[sym][today] = live;
+  const keep = Object.keys(dayClose[sym]).sort().slice(-DAYCLOSE_KEEP);
+  const trimmed = {};
+  keep.forEach(d => { trimmed[d] = dayClose[sym][d]; });
+  dayClose[sym] = trimmed;
 
+  const prev = pick ? pick.v : null;
   return {
     price: live,
     prev,
     /* 모르면 숫자를 만들지 않는다. 앱은 null 을 받으면 등락률 자리를 비운다. */
     chg: prev ? Math.round((live - prev) / prev * 10000) / 100 : null,
+    prevDay: pick ? pick.day : null,
     basis,
     time: m.regularMarketTime ? new Date(m.regularMarketTime * 1000).toISOString() : null
   };
@@ -692,6 +706,9 @@ writeFileSync(OUT, JSON.stringify({
   newsBy,
   trCache,
   nvCache,
+  /* 그날 마지막으로 본 값. 야후 일봉의 빈칸(close=null)을 다음 회차에서
+     메우는 데 쓴다 — quote() 주석 참고. 종목당 최근 12일치만 남긴다. */
+  dayClose,
   failed
 }, null, 2) + '\n');
 
