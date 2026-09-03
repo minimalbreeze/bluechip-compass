@@ -636,26 +636,38 @@
     return mk === 'kr' ? t + '.KS' : String(t).replace(/\./g, '-');
   }
 
-  /* 지금 화면에 값이 필요한 종목만 고른다. 유니버스 전체를 매번 두드릴
-     이유가 없다 — 내 보유와 모의계좌가 실제로 쓰는 자리다. */
-  function directWanted(mk) {
-    var out = {}, add = function (t) { if (t) out[t] = 1; };
-    (state.holdings[mk] || []).forEach(function (h) { add(h.ticker); });
+  /* 지금 화면에 값이 필요한 자리만 고른다.
+
+     ⚠️ 예전에는 **보유 종목과 모의계좌만** 골랐다. 그래서 아직 종목을
+        등록하지 않은 사람이 "다시 받기"를 누르면 목록이 비어 아무것도
+        받지 않았고, 화면의 코스피·환율은 그대로였다. 누른 사람에게는
+        "눌러도 변화가 없다"로 보인다 — 실제로 그렇게 신고가 들어왔다.
+        **화면 맨 위에 늘 떠 있는 지수·환율을 먼저 넣는다.** */
+  function directList(mk) {
+    var out = [];
+    (D.markets[mk].indices || []).forEach(function (i) {
+      if (i.sym) out.push({ kind: 'idx', key: i.sym, y: i.sym });
+    });
+    var seen = {};
+    (state.holdings[mk] || []).forEach(function (h) { if (h.ticker) seen[h.ticker] = 1; });
     var st = state.sim[mk];
-    if (st && st.pos) st.pos.forEach(function (p) { add(p.t); });
-    return Object.keys(out).slice(0, 24);
+    if (st && st.pos) st.pos.forEach(function (p) { if (p.t) seen[p.t] = 1; });
+    Object.keys(seen).slice(0, 20).forEach(function (t) {
+      out.push({ kind: 'stk', key: t, y: ySym(mk, t) });
+    });
+    return out;
   }
 
-  function oneQuote(mk, t) {
+  function oneQuote(item) {
     var url = 'https://query1.finance.yahoo.com/v8/finance/chart/' +
-      encodeURIComponent(ySym(mk, t)) + '?range=1d&interval=1d';
+      encodeURIComponent(item.y) + '?range=1d&interval=1d';
     return fetch(url, { mode: 'cors', credentials: 'omit' })
       .then(function (r) { return r.ok ? r.json() : null; })
       .then(function (j) {
         var m = j && j.chart && j.chart.result && j.chart.result[0] &&
                 j.chart.result[0].meta;
-        var px = m && (m.regularMarketPrice || m.previousClose);
-        return (typeof px === 'number' && px > 0) ? { t: t, price: px } : null;
+        var px = m && m.regularMarketPrice;
+        return (typeof px === 'number' && px > 0) ? { item: item, price: px } : null;
       })
       .catch(function () { return null; });
   }
@@ -664,19 +676,16 @@
   function directQuotes(mk) {
     if (DIRECT.ok === false) return Promise.resolve(0);
     if (!window.fetch || !window.Promise) return Promise.resolve(0);
-    var list = directWanted(mk);
+    var list = directList(mk);
     if (!list.length) return Promise.resolve(0);
 
     /* ── 한 개로 먼저 떠본다 ────────────────────────────────────
        막혀 있는 환경(CORS 차단, 사내망 등)에서 스무 개를 한꺼번에 던지면
        스무 개의 오류가 콘솔에 쌓인다. 실패의 대가가 그만큼 클 이유가 없다.
-       한 종목으로 먼저 확인하고, 되는 게 확인된 뒤에 나머지를 받는다. */
+       하나로 먼저 확인하고, 되는 게 확인된 뒤에 나머지를 받는다. */
     var probe = DIRECT.ok === true
       ? Promise.resolve(true)
-      : oneQuote(mk, list[0]).then(function (r) {
-          DIRECT.ok = !!r;
-          return !!r;
-        });
+      : oneQuote(list[0]).then(function (r) { DIRECT.ok = !!r; return !!r; });
 
     return probe.then(function (alive) {
       if (!alive) return 0;
@@ -685,23 +694,39 @@
   }
 
   function fetchRest(mk, list) {
-      var i = 0, got = [];
-      function worker() {
-        if (i >= list.length) return Promise.resolve();
-        var t = list[i++];
-        return oneQuote(mk, t).then(function (r) { if (r) got.push(r); return worker(); });
-      }
-      return Promise.all([worker(), worker(), worker()]).then(function () {
+    var i = 0, got = [];
+    function worker() {
+      if (i >= list.length) return Promise.resolve();
+      var it = list[i++];
+      return oneQuote(it).then(function (r) { if (r) got.push(r); return worker(); });
+    }
+    return Promise.all([worker(), worker(), worker()]).then(function () {
       /* 몇 개를 받았는지 그대로 돌려준다. 0 이면 falsy 라 예전 쓰임새도
          그대로고, "실시간으로 N종목" 이라고 말할 수 있게 된다. */
       if (!got.length) return 0;
       DIRECT.ok = true; DIRECT.at = Date.now();
       if (!LIVE) LIVE = { quotes: {}, stocks: { kr: {}, us: {} } };
+      if (!LIVE.quotes) LIVE.quotes = {};
       if (!LIVE.stocks) LIVE.stocks = { kr: {}, us: {} };
       if (!LIVE.stocks[mk]) LIVE.stocks[mk] = {};
+
       got.forEach(function (r) {
-        var was = LIVE.stocks[mk][r.t] || {};
-        LIVE.stocks[mk][r.t] = { price: r.price, chg: was.chg, direct: true };
+        var box = r.item.kind === 'idx' ? LIVE.quotes : LIVE.stocks[mk];
+        var was = box[r.item.key] || {};
+        /* 등락률은 **서버가 정해 둔 전일 종가(prev)로 다시 계산**한다.
+           예전에는 옛 chg 를 그대로 들고 있어서, 가격만 새 값이고 등락률은
+           옛 값인 어긋난 조합이 나왔다. prev 는 어제 종가라 하루 종일
+           안 바뀌므로 이 계산이 맞다. prev 를 모르면 등락률도 비운다. */
+        box[r.item.key] = {
+          price: r.price,
+          prev: was.prev,
+          prevDay: was.prevDay,
+          chg: (typeof was.prev === 'number' && was.prev > 0)
+            ? Math.round((r.price - was.prev) / was.prev * 10000) / 100
+            : null,
+          basis: was.basis,
+          direct: true
+        };
       });
       return got.length;
     });
@@ -3393,10 +3418,16 @@
         state.liveMsg = {
           at: Date.now(),
           text: r.direct
-            ? '✅ 지금 시세로 ' + r.direct + '종목을 직접 받았습니다.'
+            ? '✅ 지금 시세를 ' + r.direct + '건 직접 받았습니다.'
             : r.fresh
               ? '✅ 새 시세를 받았습니다.'
-              : '받아봤지만 아직 새 값이 없습니다. 서버가 받아둔 값이 가장 최신입니다.'
+              /* 직접 받기가 막혀 있으면 서버가 받아둔 값이 한계다. 그 주기를
+                 같이 적어야 "언제 다시 눌러야 하나"를 알 수 있다. 안 적으면
+                 계속 누르게 되고, 계속 같은 답을 보게 된다. */
+              : '아직 새 값이 없습니다. 서버가 ' + agoText(LIVE && LIVE.asOf) +
+                ' 받아둔 값이 가장 최신이고, ' +
+                (marketOpenNow(state.market) ? '장중에는 10분마다' : '장이 열리면 10분마다') +
+                ' 새로 받습니다.'
         };
         render();
       });
