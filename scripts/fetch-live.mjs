@@ -20,6 +20,7 @@
 
 import { writeFileSync, existsSync, readFileSync } from 'node:fs';
 import { judgeByRules, judgeByAI, validate } from './judge-regime.mjs';
+import { pickQuote } from './quote.mjs';
 import { judgeAllByRules, judgeNewsByAI, validateNews } from './judge-news.mjs';
 
 const SYMBOLS = ['^KS11', '^KQ11', 'KRW=X', '^GSPC', '^IXIC', '^VIX', '^TNX'];
@@ -312,102 +313,20 @@ function chartUrl(sym, range, interval) {
     encodeURIComponent(sym) + '?interval=' + interval + '&range=' + range;
 }
 
-/* 거래소 시각 기준 날짜(YYYY-MM-DD). 시간대를 손으로 더하지 않는다 —
-   자정 근처에서 하루가 어긋난다. */
-function dayIn(tz, epochSec) {
-  const f = new Intl.DateTimeFormat('en-CA', {
-    timeZone: tz || 'UTC', year: 'numeric', month: '2-digit', day: '2-digit'
-  }).formatToParts(new Date(epochSec * 1000))
-    .reduce((a, p) => (a[p.type] = p.value, a), {});
-  return `${f.year}-${f.month}-${f.day}`;
-}
-
-/* 이 앱이 스스로 기억해 둔 "그날의 마지막 값". live.json 에 실려 다음
-   회차로 넘어간다. 아래 quote() 가 야후의 빈칸을 이걸로 메운다. */
+/* 지난 회차에서 넘어온 "그날 마지막으로 본 값". quote.mjs 가 야후의
+   빈칸(close=null)을 이걸로 메운다. */
 let dayClose = {};
 if (existsSync(OUT)) {
   try { dayClose = JSON.parse(readFileSync(OUT, 'utf8')).dayClose || {}; } catch (e) {}
 }
-const DAYCLOSE_KEEP = 12;   /* 종목당 최근 며칠치만 들고 간다 */
 
+/* 셈법은 scripts/quote.mjs 한 곳에만 둔다 — 예전에 fetch-live 와 fetch-prices
+   가 각자 들고 있다가 한쪽만 고쳐져서 보유 종목 시세가 틀린 채로 남았다. */
 async function quote(sym) {
-  /* ── 전일 종가를 어떻게 정하나 ──────────────────────────────────
-     이 값 하나가 틀리면 **오른 날을 내린 날로 보여준다.** 실제로 그랬다:
-     2026-09-03 장중 코스피가 +1.6% 인데 앱은 -2.91% 로 찍었다.
-
-     진단 워크플로(diag → chart)로 야후 응답을 직접 찍어 보고 알아낸 사실:
-
-       1. `meta.previousClose` 는 **아예 없다**(undefined). 쓸 수 없다.
-       2. `meta.chartPreviousClose` 는 어제가 아니라 **요청 구간(1개월)
-          직전**의 종가다. KRW=X 에서 1435.70(한 달 전)이 나왔다.
-          이걸 전일로 쓰면 환율이 통째로 틀어진다. 쓰지 않는다.
-       3. 일봉의 close 가 **null 인 날이 있다.** ^KS11 은 09-02 가 null 이었다.
-          null 을 걸러내면 09-01 이 "직전"이 되고, 그게 -2.91% 의 원인이었다.
-          밀린 게 아니라 **비어 있었다.**
-
-     그래서 야후만 믿지 않는다. 이 앱은 10분마다 스냅샷을 남기므로,
-     **어제 마지막으로 본 값을 스스로 기억**해 두었다가 야후의 빈칸을 메운다
-     (dayClose). 어제 장 마감 뒤 회차에 이미 6562.72 를 적어 두었다.
-
-     고르는 순서: 야후 일봉과 내 기억 중 **날짜가 더 최근인 쪽**. 둘 다 없으면
-     등락률을 내지 않는다(chg: null) — 틀린 방향을 자신 있게 보여주느니
-     모른다고 하는 편이 낫다. */
   const j = await getJson(chartUrl(sym, '1mo', '1d'));
   const res = j?.chart?.result?.[0];
   if (!res) throw new Error('no result');
-  const m = res.meta || {};
-  const tz = m.exchangeTimezoneName || 'UTC';
-
-  const rawC = res.indicators?.quote?.[0]?.close || [];
-  const ts = res.timestamp || [];
-  const bars = ts.map((t, i) => ({ t, c: rawC[i] }))
-    .filter(b => typeof b.c === 'number' && typeof b.t === 'number');
-
-  const live = typeof m.regularMarketPrice === 'number'
-    ? m.regularMarketPrice
-    : (bars.length ? bars[bars.length - 1].c : null);
-  if (typeof live !== 'number') throw new Error('no price');
-
-  const today = dayIn(tz, Math.floor(Date.now() / 1000));
-
-  /* (1) 야후 일봉에서 오늘보다 앞선 마지막 **값이 있는** 봉 */
-  const older = bars.filter(b => dayIn(tz, b.t) < today);
-  const fromBar = older.length
-    ? { day: dayIn(tz, older[older.length - 1].t), v: older[older.length - 1].c } : null;
-
-  /* (2) 내가 기억해 둔, 오늘보다 앞선 마지막 날의 마지막 값 */
-  const mem = dayClose[sym] || {};
-  const memDays = Object.keys(mem).filter(d => d < today).sort();
-  const fromMem = memDays.length
-    ? { day: memDays[memDays.length - 1], v: mem[memDays[memDays.length - 1]] } : null;
-
-  /* 날짜가 더 최근인 쪽을 쓴다 — 내 기억이 야후의 빈칸을 메운다 */
-  let pick = null, basis = 'unknown';
-  if (fromBar && fromMem) {
-    pick = fromMem.day > fromBar.day ? fromMem : fromBar;
-    basis = fromMem.day > fromBar.day ? 'prev-close-memo' : 'prev-close-bar';
-  } else if (fromBar) { pick = fromBar; basis = 'prev-close-bar'; }
-  else if (fromMem) { pick = fromMem; basis = 'prev-close-memo'; }
-
-  /* 오늘 본 값을 기억해 둔다. 하루 동안 계속 덮어써서, 장 마감 뒤 회차의
-     값이 그날의 마지막 값으로 남는다. */
-  if (!dayClose[sym]) dayClose[sym] = {};
-  dayClose[sym][today] = live;
-  const keep = Object.keys(dayClose[sym]).sort().slice(-DAYCLOSE_KEEP);
-  const trimmed = {};
-  keep.forEach(d => { trimmed[d] = dayClose[sym][d]; });
-  dayClose[sym] = trimmed;
-
-  const prev = pick ? pick.v : null;
-  return {
-    price: live,
-    prev,
-    /* 모르면 숫자를 만들지 않는다. 앱은 null 을 받으면 등락률 자리를 비운다. */
-    chg: prev ? Math.round((live - prev) / prev * 10000) / 100 : null,
-    prevDay: pick ? pick.day : null,
-    basis,
-    time: m.regularMarketTime ? new Date(m.regularMarketTime * 1000).toISOString() : null
-  };
+  return pickQuote(res, sym, dayClose);
 }
 
 /* 1년 종가에서 판정에 쓸 요약치를 뽑는다.

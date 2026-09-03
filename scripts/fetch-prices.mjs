@@ -19,10 +19,17 @@
    ========================================================================== */
 
 import { writeFileSync, existsSync, readFileSync } from 'node:fs';
+import { pickQuote } from './quote.mjs';
 import { US, KR } from './price-list.mjs';
 
 const UA = 'Mozilla/5.0 (compatible; bluechip-compass/1.0)';
 const OUT = 'prices.json';
+
+/* 지난 회차에서 넘어온 "그날 마지막으로 본 값" — quote.mjs 가 쓴다. */
+let dayClose = {};
+if (existsSync(OUT)) {
+  try { dayClose = JSON.parse(readFileSync(OUT, 'utf8')).dayClose || {}; } catch (e) {}
+}
 const CONC = 8;          // 동시 요청 수. 올리면 빨라지지만 차단 위험이 는다.
 
 /* 야후 표기: 코스피는 .KS 접미사, 미국은 점 대신 하이픈(BRK.B → BRK-B) */
@@ -41,26 +48,16 @@ async function getJson(url, ms = 12000) {
   } finally { clearTimeout(timer); }
 }
 
-/* fetch-live.mjs 의 quote 와 같은 셈법이다 — 등락률은 meta.previousClose 가
-   아니라 일별 종가 두 개로 직접 계산한다. 그 필드는 어느 세션을 가리키는지가
-   흔들려서 화면에 틀린 값이 사실처럼 찍힌다. */
+/* 셈법은 scripts/quote.mjs 한 곳에만 둔다.
+   ⚠️ 예전에는 여기에 같은 계산을 한 벌 더 들고 있었다. 주석에 "fetch-live.mjs
+      의 quote 와 같은 셈법이다"라고 적어 두고도, fetch-live 만 고치는 바람에
+      **보유 종목 시세는 틀린 채로 남았다.** 같은 일을 두 벌로 두지 않는다. */
 async function quote(sym) {
   const j = await getJson('https://query1.finance.yahoo.com/v8/finance/chart/' +
     encodeURIComponent(sym) + '?interval=1d&range=1mo');
   const res = j?.chart?.result?.[0];
   if (!res) throw new Error('no result');
-  const m = res.meta || {};
-  const closes = (res.indicators?.quote?.[0]?.close || []).filter(v => typeof v === 'number');
-  if (closes.length < 2) throw new Error('not enough closes');
-  const last = closes[closes.length - 1];
-  const live = typeof m.regularMarketPrice === 'number' ? m.regularMarketPrice : last;
-  const sameAsLast = Math.abs(live - last) < Math.max(1e-6, Math.abs(last) * 1e-6);
-  const prev = sameAsLast ? closes[closes.length - 2] : last;
-  if (!prev) throw new Error('no prev close');
-  return {
-    price: live,
-    chg: Math.round((live - prev) / prev * 10000) / 100
-  };
+  return pickQuote(res, sym, dayClose);
 }
 
 async function pool(items, size, fn) {
@@ -116,6 +113,9 @@ writeFileSync(OUT, JSON.stringify({
   source: 'Yahoo Finance chart API',
   note: '평가 대상이 아니라 시세만 받아오는 목록입니다. 이 앱이 채점하는 종목은 data.js 의 유니버스뿐입니다.',
   stocks,
+  /* 그날 마지막으로 본 값. 야후 일봉의 빈칸을 다음 회차에서 메우는 데 쓴다
+     — quote.mjs 주석 참고. 종목당 최근 12일치만 남긴다. */
+  dayClose,
   failed
 }) + '\n');
 

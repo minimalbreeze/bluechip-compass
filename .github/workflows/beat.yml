@@ -96,6 +96,34 @@ jobs:
         continue-on-error: true
         run: node scripts/notify.mjs
 
+      # ── 보유 종목 시세 (prices.json) ─────────────────────────────
+      # ⚠️ 이것도 크론(prices.yml)에만 매여 있었다. 이 저장소에서 크론이 안
+      #    잡히는 건 이미 아는 문제인데(§42) 이 파일을 옮기는 걸 빠뜨렸다.
+      #    실제로 8/27 이후 6일 동안 한 번도 안 돌아, 회원님이 등록한 보유
+      #    종목은 일주일 전 시세로 손익이 계산되고 있었다.
+      #
+      #    유니버스 밖 종목까지 넓게 받아 요청이 수백 건이라 매 회차 돌릴 수는
+      #    없다. 원래 의도대로 **하루 두어 번**이면 충분하다 — prices.json 의
+      #    asOf 가 10시간보다 오래됐을 때만 돈다.
+      - name: 보유 종목 시세를 받을 차례인가
+        if: steps.solo.outputs.solo == 'true'
+        id: px
+        continue-on-error: true
+        run: |
+          due=$(node -e "
+            const fs=require('fs');
+            let at=0;
+            try { at = Date.parse(JSON.parse(fs.readFileSync('prices.json','utf8')).asOf) || 0; } catch (e) {}
+            console.log((Date.now() - at) / 3600000 >= 10 ? 'yes' : 'no');
+          ")
+          echo "마지막 보유 종목 시세 이후 10시간 지났나: $due"
+          echo "due=$due" >> $GITHUB_OUTPUT
+
+      - name: 보유 종목 시세 받기
+        if: steps.solo.outputs.solo == 'true' && steps.px.outputs.due == 'yes'
+        continue-on-error: true
+        run: node scripts/fetch-prices.mjs
+
       # ── 종목 해설을 하루 한 번 조금씩 채운다 ─────────────────────
       # analyze.yml 은 크론에 매여 있는데 이 저장소에서는 크론이 안 걸린다
       # (그게 이 워크플로가 생긴 이유다). 그대로 두면 해설은 손으로 돌릴
@@ -131,7 +159,7 @@ jobs:
         if: steps.solo.outputs.solo == 'true'
         continue-on-error: true
         run: |
-          git add live.json sim-run.json analysis.json
+          git add live.json sim-run.json analysis.json prices.json
           if git diff --cached --quiet; then
             echo "변화 없음 — 커밋하지 않는다"
             exit 0
