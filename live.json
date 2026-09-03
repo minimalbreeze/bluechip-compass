@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-03T00:01:43.420Z",
+  "asOf": "2026-09-03T00:12:04.168Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -17,11 +17,11 @@
       "time": "2026-09-02T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1360.88,
+      "price": 1361.38,
       "prev": 1372.8599853515625,
-      "chg": -0.87,
+      "chg": -0.84,
       "basis": "prev-daily-close",
-      "time": "2026-09-03T00:01:36.000Z"
+      "time": "2026-09-03T00:11:58.000Z"
     },
     "^GSPC": {
       "price": 7666.6,
@@ -53,7 +53,7 @@
     }
   },
   "fx": {
-    "low52": 1360.88,
+    "low52": 1361.38,
     "high52": 1554.48,
     "pct": 0
   },
@@ -73,11 +73,11 @@
       "chg3m": -21.79
     },
     "KRW=X": {
-      "last": 1360.88,
-      "low52": 1360.88,
+      "last": 1361.38,
+      "low52": 1361.38,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -10.99
+      "chg3m": -10.96
     },
     "^GSPC": {
       "last": 7666.6,
@@ -427,14 +427,14 @@
         "by": "rules"
       },
       {
-        "title": "Citi says investors should consider buying tumbling tech stock",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/citi-says-investors-consider-buying-165315833.html",
+        "title": "Cango Inc. Q2 2026 Earnings Call Summary",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/cango-inc-q2-2026-earnings-123000976.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-01T16:53:15Z",
-        "ko": "Citi는 투자자들이 텀블링 기술 주식을 구입하는 것을 고려해야 한다고 말합니다.",
+        "date": "2026-09-01T12:30:00Z",
+        "ko": "Cango Inc. 2026년 2분기 수입 통화 요약",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -463,11 +463,11 @@
         "by": "rules"
       },
       {
-        "title": "Baird Just Upgraded Deere Stock. Here's Why.",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/baird-just-upgraded-deere-stock-160823928.html",
+        "title": "Hut 8 stock is a winner in a new deal between Anthropic and Nvidia-backed Lambda",
+        "link": "https://finance.yahoo.com/markets/stocks/article/hut-8-stock-is-a-winner-in-a-new-deal-between-anthropic-and-nvidia-backed-lambda-122511171.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-01T16:08:23Z",
-        "ko": "Baird가 Deere Stock을 업그레이드했습니다. 그 이유는 다음과 같습니다.",
+        "date": "2026-09-01T12:25:11Z",
+        "ko": "HUT 8 주식은 Anthropic과 Nvidia가 후원하는 Lambda 간의 새로운 거래에서 승자입니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -2882,8 +2882,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CefXN5uo2MpxCD6uSUYXi\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CefXN6aEJ1f77ja2PNhq7\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CefXN75FVanBaABbRaFnX\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CefY9qpFfm6WAXWvruHQo\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CefY9rWRthWcGtc3agdyS\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CefY9s2vrQTjGHZVowRnF\"}"
   ]
 }
