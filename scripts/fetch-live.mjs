@@ -312,33 +312,86 @@ function chartUrl(sym, range, interval) {
     encodeURIComponent(sym) + '?interval=' + interval + '&range=' + range;
 }
 
+/* 거래소 시각 기준 날짜(YYYY-MM-DD). 시간대를 손으로 더하지 않는다 —
+   자정 근처에서 하루가 어긋난다. */
+function dayIn(tz, epochSec) {
+  const f = new Intl.DateTimeFormat('en-CA', {
+    timeZone: tz || 'UTC', year: 'numeric', month: '2-digit', day: '2-digit'
+  }).formatToParts(new Date(epochSec * 1000))
+    .reduce((a, p) => (a[p.type] = p.value, a), {});
+  return `${f.year}-${f.month}-${f.day}`;
+}
+
 async function quote(sym) {
-  /* 등락률은 meta.previousClose 를 쓰지 않고 **일별 종가 두 개로 직접 계산**한다.
-     Yahoo 의 previousClose 는 지수·환율·휴장일에 따라 어느 세션을 가리키는지가
-     흔들려서, 그대로 쓰면 화면에 -6.9% 같은 값이 사실처럼 찍힌다.
-     차트 시리즈의 마지막 두 종가는 의미가 하나뿐이라 흔들리지 않는다. */
+  /* ── 전일 종가를 어떻게 정하나 ──────────────────────────────────
+     이 값 하나가 틀리면 **오른 날을 내린 날로 보여준다.** 실제로 그랬다:
+     2026-09-03 장중에 코스피가 +1.6% 인데 앱은 -2.91% 로 찍었다.
+
+     원인은 예전 방식이었다 — 일별 종가 배열에서 **뒤에서 두 번째**를 전일로
+     집었다. 시각을 보지 않으니, 야후의 일봉이 하루 밀려 어제(9/2) 봉이 아직
+     안 들어온 날에는 그저께(9/1) 종가를 전일로 집는다.
+
+     지금은 두 갈래로 구해서 **서로 맞는지 본다.**
+       (1) meta.previousClose — 거래소가 말하는 직전 세션 종가
+       (2) 일봉 시리즈에서 **거래소 날짜로 오늘보다 앞선** 마지막 종가
+     둘이 어긋나면 **전일 종가를 모르는 것이다.** 그때는 등락률을 내지 않는다
+     (chg: null). 틀린 방향을 자신 있게 보여주느니 모른다고 하는 편이 낫다 —
+     이 앱의 첫 번째 약속이다. */
   const j = await getJson(chartUrl(sym, '1mo', '1d'));
   const res = j?.chart?.result?.[0];
   if (!res) throw new Error('no result');
   const m = res.meta || {};
+  const tz = m.exchangeTimezoneName || 'UTC';
 
-  const closes = (res.indicators?.quote?.[0]?.close || []).filter(v => typeof v === 'number');
-  if (closes.length < 2) throw new Error('not enough closes');
+  const rawC = res.indicators?.quote?.[0]?.close || [];
+  const ts = res.timestamp || [];
+  const bars = ts.map((t, i) => ({ t, c: rawC[i] }))
+    .filter(b => typeof b.c === 'number' && typeof b.t === 'number');
+  if (!bars.length) throw new Error('not enough closes');
 
-  const last = closes[closes.length - 1];
-  const live = typeof m.regularMarketPrice === 'number' ? m.regularMarketPrice : last;
+  const live = typeof m.regularMarketPrice === 'number'
+    ? m.regularMarketPrice : bars[bars.length - 1].c;
 
-  /* 장중이면 마지막 일봉이 오늘치라 그 앞을 전일로 본다.
-     장이 닫혀 현재가와 마지막 종가가 같으면 그 앞 두 개를 비교한다. */
-  const sameAsLast = Math.abs(live - last) < Math.max(1e-6, Math.abs(last) * 1e-6);
-  const prev = sameAsLast ? closes[closes.length - 2] : last;
-  if (!prev) throw new Error('no prev close');
+  /* (2) 오늘 봉을 빼고 남은 마지막 종가 */
+  const today = dayIn(tz, Math.floor(Date.now() / 1000));
+  const older = bars.filter(b => dayIn(tz, b.t) < today);
+  const fromSeries = older.length ? older[older.length - 1].c : null;
+
+  /* (1) 거래소가 말하는 직전 종가 */
+  const fromMeta = [m.previousClose, m.chartPreviousClose]
+    .find(v => typeof v === 'number' && v > 0) ?? null;
+
+  /* 시리즈가 며칠씩 밀려 있으면 그 값을 전일로 볼 수 없다.
+     (달력 기준 4일을 넘으면 밀린 것으로 본다 — 주말·공휴일은 3일까지 벌어진다) */
+  const seriesDay = older.length ? dayIn(tz, older[older.length - 1].t) : null;
+  const seriesLagDays = seriesDay
+    ? Math.round((Date.parse(today) - Date.parse(seriesDay)) / 86400000) : Infinity;
+  const seriesStale = seriesLagDays > 4;
+
+  let prev = null, basis = null;
+  if (fromMeta && fromSeries && !seriesStale) {
+    /* 둘 다 있고 시리즈도 멀쩡하다. 5% 안에서 서로 비슷하면 **거래소 값**을
+       쓴다(일봉은 하루 밀릴 수 있고 meta 는 안 밀린다). 많이 어긋나면 meta
+       쪽이 엉뚱한 세션을 가리키는 것이므로 시리즈를 쓴다. */
+    const gap = Math.abs(fromMeta - fromSeries) / fromSeries;
+    if (gap <= 0.05) { prev = fromMeta; basis = 'prev-close'; }
+    else { prev = fromSeries; basis = 'prev-close-series'; }
+  } else if (fromMeta) {
+    /* 시리즈가 없거나 밀렸다 — 거래소 값이 유일하게 믿을 만하다. */
+    prev = fromMeta; basis = 'prev-close-meta';
+  } else if (fromSeries && !seriesStale) {
+    prev = fromSeries; basis = 'prev-close-series';
+  } else {
+    /* 어느 쪽도 못 믿는다. **숫자를 만들지 않는다.** */
+    basis = 'unknown';
+  }
 
   return {
     price: live,
     prev,
-    chg: Math.round((live - prev) / prev * 10000) / 100,
-    basis: sameAsLast ? 'prev-daily-close' : 'last-daily-close',
+    /* 모르면 숫자를 만들지 않는다. 앱은 null 을 받으면 등락률 자리를 비운다. */
+    chg: prev ? Math.round((live - prev) / prev * 10000) / 100 : null,
+    basis,
     time: m.regularMarketTime ? new Date(m.regularMarketTime * 1000).toISOString() : null
   };
 }

@@ -1119,8 +1119,14 @@
         h.push('<a class="idxtile" href="' + i.url + '" target="_blank" rel="noopener">' +
           '<span class="idx-n">' + i.name + '</span>' +
           '<span class="idx-v">' + fmtNum(q.price, i.unit) + '</span>' +
-          '<span class="idx-c ' + plClass(q.chg) + '">' + (q.chg > 0 ? '▲' : q.chg < 0 ? '▼' : '–') + ' ' +
-            Math.abs(q.chg).toFixed(2) + '%</span></a>');
+          /* ⚠️ chg 가 null 이면 **전일 종가를 못 믿는 회차**다(fetch-live.mjs 참고).
+             그때 0 으로 떨어뜨려 "–"를 찍으면 "안 움직였다"는 거짓말이 된다.
+             모른다고 적는다. 오른 날을 내린 날로 보여주느니 이게 낫다. */
+          (typeof q.chg === 'number'
+            ? '<span class="idx-c ' + plClass(q.chg) + '">' +
+                (q.chg > 0 ? '▲' : q.chg < 0 ? '▼' : '–') + ' ' +
+                Math.abs(q.chg).toFixed(2) + '%</span>'
+            : '<span class="idx-c muted">등락 확인 중</span>') + '</a>');
       } else {
         h.push('<a class="idxtile empty" href="' + i.url + '" target="_blank" rel="noopener">' +
           '<span class="idx-n">' + i.name + '</span><span class="idx-v">–</span>' +
