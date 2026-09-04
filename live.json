@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-04T21:11:01.128Z",
+  "asOf": "2026-09-04T21:25:11.214Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -40,7 +40,7 @@
       "chg": -0.29,
       "prevDay": "2026-09-03",
       "basis": "prev-close-bar",
-      "time": "2026-09-04T21:10:50.000Z"
+      "time": "2026-09-04T21:15:59.000Z"
     },
     "^VIX": {
       "price": 14.53,
@@ -460,14 +460,13 @@
         "by": "rules"
       },
       {
-        "title": "What is the average personal loan rate for September 2026?",
-        "link": "https://finance.yahoo.com/markets/articles/average-personal-loan-interest-rate-005856676.html",
+        "title": "Envista Holdings Shares Rise After JPMorgan Upgrade",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/envista-holdings-shares-rise-jpmorgan-134540193.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-03T13:23:11Z",
-        "ko": "2026년 9월 평균 개인 대출 금리는 얼마인가요?",
+        "date": "2026-09-03T13:45:40Z",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -496,14 +495,13 @@
         "by": "rules"
       },
       {
-        "title": "Polestar Shares Fall After Q2 Revenue Misses Estimates",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/polestar-shares-fall-q2-revenue-133548378.html",
+        "title": "Is Synopsys Stock Underperforming the Nasdaq?",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/synopsys-stock-underperforming-nasdaq-134710497.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-03T13:35:48Z",
-        "ko": "Polestar 주식은 2분기 매출 누락 추정치 이후 추락합니다.",
+        "date": "2026-09-03T13:47:10Z",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -3232,7 +3230,8 @@
     }
   },
   "failed": [
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cej5xvMnZbcZTQY6VxdtQ\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cej5xw3xMaSsyqQL6Kc1D\"}"
+    "translate: HTTP 429",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cej73ayyGHX1N2JwhhxrA\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cej73bbgMTu1DG7a11e5d\"}"
   ]
 }
