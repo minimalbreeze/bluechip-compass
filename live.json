@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-04T00:01:35.707Z",
+  "asOf": "2026-09-04T00:13:12.483Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-03T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1355.58,
+      "price": 1356.58,
       "prev": 1358.3900146484375,
-      "chg": -0.21,
+      "chg": -0.13,
       "prevDay": "2026-09-03",
       "basis": "prev-close-bar",
-      "time": "2026-09-04T00:01:26.000Z"
+      "time": "2026-09-04T00:13:04.000Z"
     },
     "^GSPC": {
       "price": 7747.71,
@@ -60,7 +60,7 @@
     }
   },
   "fx": {
-    "low52": 1355.58,
+    "low52": 1356.68,
     "high52": 1554.48,
     "pct": 0
   },
@@ -80,11 +80,11 @@
       "chg3m": -23.41
     },
     "KRW=X": {
-      "last": 1355.58,
-      "low52": 1355.58,
+      "last": 1356.68,
+      "low52": 1356.68,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -11.16
+      "chg3m": -11.08
     },
     "^GSPC": {
       "last": 7747.71,
@@ -368,13 +368,13 @@
   "news": {
     "kr": [
       {
-        "title": "대신증권 \"천연가스, 엘니뇨에 가격 눌려…내년 반등 기대\"",
-        "link": "https://www.yna.co.kr/view/AKR20260904028900008",
+        "title": "코스피, 1%대 상승 출발해 6,600대로…코스닥도 올라",
+        "link": "https://www.yna.co.kr/view/AKR20260904033100008",
         "source": "연합뉴스",
-        "date": "Fri, 4 Sep 2026 08:55:47 +0900",
+        "date": "Fri, 4 Sep 2026 09:04:30 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -390,10 +390,10 @@
         "by": "rules"
       },
       {
-        "title": "“삼성전자, 연내 자사주 매입 소각·현금 배당 등 추가 주주환원 기대”",
-        "link": "https://www.mk.co.kr/news/stock/12144075",
+        "title": "삼전·닉스 자사주 15조 매수에도 지지부진…“외국인 매수 전환 필요”",
+        "link": "https://www.mk.co.kr/news/stock/12144106",
         "source": "매일경제",
-        "date": "Fri, 04 Sep 2026 07:28:41 +09:00",
+        "date": "Fri, 04 Sep 2026 09:01:50 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
@@ -401,10 +401,10 @@
         "by": "rules"
       },
       {
-        "title": "IBK증권 \"中메모리 약진…현지 장비 밸류체인 수혜 확산\"",
-        "link": "https://www.yna.co.kr/view/AKR20260904028000008",
+        "title": "대신증권 \"천연가스, 엘니뇨에 가격 눌려…내년 반등 기대\"",
+        "link": "https://www.yna.co.kr/view/AKR20260904028900008",
         "source": "연합뉴스",
-        "date": "Fri, 4 Sep 2026 08:48:40 +0900",
+        "date": "Fri, 4 Sep 2026 08:55:47 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -423,13 +423,13 @@
         "by": "rules"
       },
       {
-        "title": "연준 월러, 9월 금리 동결 시사에…뉴욕증시, 일제히 1% 반등 [월가월부]",
-        "link": "https://www.mk.co.kr/news/stock/12144044",
+        "title": "“삼성전자, 연내 자사주 매입 소각·현금 배당 등 추가 주주환원 기대”",
+        "link": "https://www.mk.co.kr/news/stock/12144075",
         "source": "매일경제",
-        "date": "Fri, 04 Sep 2026 05:48:36 +09:00",
+        "date": "Fri, 04 Sep 2026 07:28:41 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -2940,7 +2940,7 @@
       "2026-09-01": 1374.75,
       "2026-09-02": 1358.54,
       "2026-09-03": 1355.85,
-      "2026-09-04": 1355.58
+      "2026-09-04": 1356.58
     },
     "^GSPC": {
       "2026-08-29": 7711.76,
@@ -3200,8 +3200,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CehRARXEN1vk985z9ruWg\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CehRASGdKJ338YtdZWgP2\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CehRAT4zqcT69YYSUMNLS\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CehS3nkbZeoHbiqrWVhVq\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CehS3om7q4NQ4XD8q2A2h\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CehS3pE9iAzNvWqdmPY51\"}"
   ]
 }
