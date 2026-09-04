@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-04T09:49:34.568Z",
+  "asOf": "2026-09-04T10:35:23.243Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-04T09:05:30.000Z"
     },
     "KRW=X": {
-      "price": 1351.37,
+      "price": 1350.91,
       "prev": 1358.3900146484375,
-      "chg": -0.52,
+      "chg": -0.55,
       "prevDay": "2026-09-03",
       "basis": "prev-close-bar",
-      "time": "2026-09-04T09:49:27.000Z"
+      "time": "2026-09-04T10:35:11.000Z"
     },
     "^GSPC": {
       "price": 7747.71,
@@ -43,12 +43,12 @@
       "time": "2026-09-03T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 14.24,
+      "price": 14.2,
       "prev": 14.319999694824219,
-      "chg": -0.56,
+      "chg": -0.84,
       "prevDay": "2026-09-03",
       "basis": "prev-close-bar",
-      "time": "2026-09-04T09:34:16.000Z"
+      "time": "2026-09-04T10:20:16.000Z"
     },
     "^TNX": {
       "price": 4.762,
@@ -60,7 +60,7 @@
     }
   },
   "fx": {
-    "low52": 1351.37,
+    "low52": 1350.91,
     "high52": 1554.48,
     "pct": 0
   },
@@ -80,11 +80,11 @@
       "chg3m": -10.74
     },
     "KRW=X": {
-      "last": 1351.37,
-      "low52": 1351.37,
+      "last": 1350.91,
+      "low52": 1350.91,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -11.43
+      "chg3m": -11.46
     },
     "^GSPC": {
       "last": 7747.71,
@@ -101,11 +101,11 @@
       "chg3m": 3.4
     },
     "^VIX": {
-      "last": 14.24,
+      "last": 14.2,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.044,
-      "chg3m": -24.74
+      "pct52": 0.042,
+      "chg3m": -24.95
     },
     "^TNX": {
       "last": 4.76,
@@ -2940,7 +2940,7 @@
       "2026-09-01": 1374.75,
       "2026-09-02": 1358.54,
       "2026-09-03": 1355.85,
-      "2026-09-04": 1351.37
+      "2026-09-04": 1350.91
     },
     "^GSPC": {
       "2026-08-29": 7711.76,
@@ -2967,7 +2967,7 @@
       "2026-09-01": 16.34,
       "2026-09-02": 15.2,
       "2026-09-03": 14.32,
-      "2026-09-04": 14.24
+      "2026-09-04": 14.2
     },
     "^TNX": {
       "2026-08-29": 4.72,
@@ -3217,8 +3217,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeiBzy1Xce6rohTWwrL7b\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeiBzz4Y2jrkmvhLAufo3\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeiBzzxrYTeMj7Vi3ahJs\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeiFVbgHkLmE6eBGPNXvE\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeiFVcNi3KZEfoz3zp4oD\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeiFVczv9ugvGTSRySa9r\"}"
   ]
 }
