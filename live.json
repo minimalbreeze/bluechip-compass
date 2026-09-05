@@ -1,13 +1,13 @@
 {
-  "asOf": "2026-09-05T01:01:31.557Z",
+  "asOf": "2026-09-05T02:01:55.152Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
       "price": 6687.21,
-      "prev": 6687.21,
+      "prev": 6687.2099609375,
       "chg": 0,
       "prevDay": "2026-09-04",
-      "basis": "prev-close-memo",
+      "basis": "prev-close-bar",
       "time": "2026-09-04T09:05:30.000Z"
     },
     "^KQ11": {
@@ -15,7 +15,7 @@
       "prev": 813.5,
       "chg": 0,
       "prevDay": "2026-09-04",
-      "basis": "prev-close-memo",
+      "basis": "prev-close-bar",
       "time": "2026-09-04T09:05:30.000Z"
     },
     "KRW=X": {
@@ -66,18 +66,18 @@
   },
   "hist": {
     "^KS11": {
-      "last": 6579.48,
+      "last": 6687.21,
       "low52": 3200.83,
       "high52": 9114.55,
-      "pct52": 0.571,
-      "chg3m": -19.37
+      "pct52": 0.59,
+      "chg3m": -10.65
     },
     "^KQ11": {
-      "last": 790.21,
+      "last": 813.5,
       "low52": 644.78,
       "high52": 1226.18,
-      "pct52": 0.25,
-      "chg3m": -21.17
+      "pct52": 0.29,
+      "chg3m": -10.74
     },
     "KRW=X": {
       "last": 1345.99,
@@ -368,13 +368,13 @@
   "news": {
     "kr": [
       {
-        "title": "고금리 우려에…서학개미, 단기채 ETF에 1256억 '뭉칫돈'",
-        "link": "https://www.hankyung.com/article/2026090556277",
+        "title": "엔비디아 빅딜, 오픈AI 아스트라...고래싸움에 반도체가 웃었다 [빈난새의 빈틈없이마켓]",
+        "link": "https://www.hankyung.com/article/202609044647i",
         "source": "한국경제",
-        "date": "Sat, 05 Sep 2026 08:16:50 +0900",
+        "date": "Sat, 05 Sep 2026 10:03:02 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -390,10 +390,10 @@
         "by": "rules"
       },
       {
-        "title": "'굿 뉴스는 나쁜 뉴스' 뜨거운 고용, 냉각된 증시…CPI가 9월 운명 결정? [김현석의 월스트리트나우]",
-        "link": "https://www.hankyung.com/article/202609055581i",
+        "title": "고금리 우려에…서학개미, 단기채 ETF에 1256억 '뭉칫돈'",
+        "link": "https://www.hankyung.com/article/2026090556277",
         "source": "한국경제",
-        "date": "Sat, 05 Sep 2026 08:03:36 +0900",
+        "date": "Sat, 05 Sep 2026 08:16:50 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -412,13 +412,13 @@
         "by": "rules"
       },
       {
-        "title": "'매물 다 나왔나'…외국인 돌아오면 집중할 업종·종목은",
-        "link": "https://www.hankyung.com/article/202609044722i",
+        "title": "'굿 뉴스는 나쁜 뉴스' 뜨거운 고용, 냉각된 증시…CPI가 9월 운명 결정? [김현석의 월스트리트나우]",
+        "link": "https://www.hankyung.com/article/202609055581i",
         "source": "한국경제",
-        "date": "Sat, 05 Sep 2026 08:00:10 +0900",
+        "date": "Sat, 05 Sep 2026 08:03:36 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -460,14 +460,13 @@
         "by": "rules"
       },
       {
-        "title": "Snowflake stock jumps as accelerating product revenue, AI adoption drive blowout quarter",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/snowflake-stock-jumps-accelerating-product-171600190.html",
+        "title": "Crude Futures End Mixed With No End in Sight to U.S.-Iran Conflict",
+        "link": "https://www.wsj.com/finance/commodities-futures/oil-futures-fall-on-likely-technical-correction-cac84e35?siteid=yhoof2&yptr=yahoo",
         "source": "Yahoo Finance",
-        "date": "2026-09-03T17:16:00Z",
-        "ko": "눈송이 재고는 제품 매출을 가속화로 점프, AI 채택 드라이브 분기 분기 분기 분기 분기",
+        "date": "2026-09-03T19:08:00Z",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -496,14 +495,13 @@
         "by": "rules"
       },
       {
-        "title": "Ermenegildo Zegna N.V. Q2 2026 Earnings Call Summary",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/ermenegildo-zegna-n-v-q2-171708694.html",
+        "title": "How High Can World Sugar Futures Rise?",
+        "link": "https://finance.yahoo.com/markets/commodities/articles/high-world-sugar-futures-rise-190003341.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-03T17:17:08Z",
-        "ko": "Ermenegildo Zegna N.V. 2026년 2분기 수입 통화 요약",
+        "date": "2026-09-03T19:00:03Z",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -3233,8 +3231,9 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CejPYRC2WXnrk7yJ9n2jR\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CejPYRmWF6ALHBnu3djE3\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CejPYS9L6bW1WoG4FNubu\"}"
+    "translate: HTTP 429",
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CejU9WjqqwpcBAaVFosFj\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CejU9XXiLMhvRrbFDJ8gC\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CejU9Y4xpm6NGN441ykeL\"}"
   ]
 }
