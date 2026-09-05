@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-05T09:04:45.659Z",
+  "asOf": "2026-09-05T10:05:06.111Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -460,11 +460,11 @@
         "by": "rules"
       },
       {
-        "title": "Bitcoin Hits $82,000 and Fidelity Says It's Unsure If the Bear Market Is Over",
-        "link": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-hits-82-000-fidelity-043247376.html",
+        "title": "Broadcom's Artificial Intelligence (AI) Chip Sales Surged 221% to $16.7 Billion Last Quarter: Is the Stock a Screaming Buy Right Now?",
+        "link": "https://finance.yahoo.com/technology/ai/articles/broadcoms-artificial-intelligence-ai-chip-070000546.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-04T04:32:47Z",
-        "ko": "비트코인은 $82,000를 기록했고 피델리티는 베어 마켓이 끝났는지 확실하지 않다고 말했습니다.",
+        "date": "2026-09-04T07:00:00Z",
+        "ko": "Broadcom의 인공 지능 (AI) 칩 판매는 지난 분기에 221% 급증하여 $167 억: 주식이 지금 비명을 지르고 있습니까?",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -496,14 +496,14 @@
         "by": "rules"
       },
       {
-        "title": "Blackstone Private Credit Fund Caps Withdrawals in Fresh Test for Strained Market",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/blackstone-private-credit-fund-caps-040100924.html",
+        "title": "3 Dividend Stocks From a Value Pro",
+        "link": "https://www.barrons.com/articles/dividend-stocks-value-investing-picks-74c7f4a0?siteid=yhoof2&yptr=yahoo",
         "source": "Yahoo Finance",
-        "date": "2026-09-04T04:01:00Z",
-        "ko": "긴장된 시장을 위한 새로운 테스트에서 블랙스톤 프라이빗 크레딧 펀드 한도 인출",
+        "date": "2026-09-04T07:00:00Z",
+        "ko": "밸류 프로로부터의 3가지 배당주",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -511,8 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "Stock market today: Dow, S&P 500, Nasdaq futures mixed as US-Iran war escalates, inflation jitters return": "오늘날의 주식 시장: 다우, S&P 500, 미국-이란 전쟁이 격화됨에 따라 혼합된 나스닥 선물, 인플레이션 지터 수익",
-    "Nvidia didn't like Wall Street's estimates. So it tried to reset them.": "엔비디아는 월스트리트의 추정치를 좋아하지 않았다. 그래서 리셋을 시도했습니다.",
     "Is the stock market open on Labor Day? Here's the holiday trading schedule for 2026.": "주식 시장이 노동절에 열려 있습니까? 다음은 2026년 휴일 거래 일정입니다.",
     "Stock Market Today: Dow Rises On Surprise Jobs Data; AI Name Credo Dives On Earnings Report (Live Coverage)": "Stock Market Today: 다우지수가 깜짝 일자리 데이터에서 상승, AI 이름 크레도 수익 다이브 보고서 (실시간 커버리지)",
     "Mortgage and refinance rates today, Wednesday, September 2, 2026: Rates up double digits as Iran war reescalates": "2026년 9월 2일 수요일 모기지 및 재융자 금리: 이란 전쟁이 재개됨에 따라 두 자릿수 금리 인상",
@@ -810,7 +808,9 @@
     "Stocks fall after a surprisingly strong jobs report raises prospects of an interest rate hike": "놀라울 정도로 강한 일자리 보고서가 금리 인상 전망을 높인 후 주식이 하락",
     "Oil ETFs Are Crushing Oil Itself, Thanks to the Futures Curve": "선물 곡선 덕분에 오일 ETF가 오일 자체를 분쇄하고 있습니다.",
     "Bitcoin Hits $82,000 and Fidelity Says It's Unsure If the Bear Market Is Over": "비트코인은 $82,000를 기록했고 피델리티는 베어 마켓이 끝났는지 확실하지 않다고 말했습니다.",
-    "Blackstone Private Credit Fund Caps Withdrawals in Fresh Test for Strained Market": "긴장된 시장을 위한 새로운 테스트에서 블랙스톤 프라이빗 크레딧 펀드 한도 인출"
+    "Blackstone Private Credit Fund Caps Withdrawals in Fresh Test for Strained Market": "긴장된 시장을 위한 새로운 테스트에서 블랙스톤 프라이빗 크레딧 펀드 한도 인출",
+    "Broadcom's Artificial Intelligence (AI) Chip Sales Surged 221% to $16.7 Billion Last Quarter: Is the Stock a Screaming Buy Right Now?": "Broadcom의 인공 지능 (AI) 칩 판매는 지난 분기에 221% 급증하여 $167 억: 주식이 지금 비명을 지르고 있습니까?",
+    "3 Dividend Stocks From a Value Pro": "밸류 프로로부터의 3가지 배당주"
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -3250,8 +3250,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cek2PgvsrR7vfyZ7aQzbE\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cek2PhReJR63mBnKUmj9i\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cek2PiNSybqD3qDKZER4e\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cek6zaFjR7RfFbmcv3e9V\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cek6zarCs5J3Zo7Q1AyQX\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cek6zbJV5vHNZ68qgfMKe\"}"
   ]
 }
