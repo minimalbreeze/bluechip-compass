@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-05T02:01:55.152Z",
+  "asOf": "2026-09-05T03:02:19.871Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -40,7 +40,7 @@
       "chg": -0.29,
       "prevDay": "2026-09-03",
       "basis": "prev-close-bar",
-      "time": "2026-09-04T21:15:59.000Z"
+      "time": "2026-09-04T21:16:01.000Z"
     },
     "^VIX": {
       "price": 14.53,
@@ -368,7 +368,7 @@
   "news": {
     "kr": [
       {
-        "title": "엔비디아 빅딜, 오픈AI 아스트라...고래싸움에 반도체가 웃었다 [빈난새의 빈틈없이마켓]",
+        "title": "엔비디아·오픈AI 격돌…고래싸움에 반도체 웃었다 [빈난새의 빈틈없이마켓]",
         "link": "https://www.hankyung.com/article/202609044647i",
         "source": "한국경제",
         "date": "Sat, 05 Sep 2026 10:03:02 +0900",
@@ -460,10 +460,11 @@
         "by": "rules"
       },
       {
-        "title": "Crude Futures End Mixed With No End in Sight to U.S.-Iran Conflict",
-        "link": "https://www.wsj.com/finance/commodities-futures/oil-futures-fall-on-likely-technical-correction-cac84e35?siteid=yhoof2&yptr=yahoo",
+        "title": "Lululemon Shares Drop After Hours on Weak Results",
+        "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-03-2026/card/lululemon-shares-drop-after-hours-on-weak-results-jKK9QlSlOzcgMOkkgazI?siteid=yhoof2&yptr=yahoo",
         "source": "Yahoo Finance",
-        "date": "2026-09-03T19:08:00Z",
+        "date": "2026-09-03T21:02:12Z",
+        "ko": "약한 결과에 대해 룰루레몬 주가 시간 후 하락",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -495,10 +496,11 @@
         "by": "rules"
       },
       {
-        "title": "How High Can World Sugar Futures Rise?",
-        "link": "https://finance.yahoo.com/markets/commodities/articles/high-world-sugar-futures-rise-190003341.html",
+        "title": "Robinhood Breaks Out. Analysts Bullish On Outlook, Prediction Markets.",
+        "link": "https://www.investors.com/research/ibd-stock-of-the-day/robinhood-stock-breakout-ibd-stock-of-the-day-analyst-upgrades-price-target-event-contracts-options-crypto/?src=A00220&yptr=yahoo",
         "source": "Yahoo Finance",
-        "date": "2026-09-03T19:00:03Z",
+        "date": "2026-09-03T20:54:57Z",
+        "ko": "Robinhood 브레이크 아웃. 애널리스트는 Outlook, 예측 시장에서 강세를 보입니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -509,8 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "Wells Fargo Just Downgraded PG&E Stock. Here's Why.": "Wells Fargo가 PG&E 주식을 하향 조정했습니다. 그 이유는 다음과 같습니다.",
-    "Dell shares rise as demand jumps for AI servers — here’s what Wall Street analysts are saying happens next": "AI 서버에 대한 수요가 증가함에 따라 Dell 주식이 증가합니다. 월스트리트 분석가들은 다음과 같이 말하고 있습니다.",
     "Citi says investors should consider buying tumbling tech stock": "Citi는 투자자들이 텀블링 기술 주식을 구입하는 것을 고려해야 한다고 말합니다.",
     "Nvidia Can Clearly Afford a Bigger Dividend. Why Its Payout Hasn’t Grown.": "엔비디아는 분명히 더 큰 배당금을 지불할 수 있습니다. 지급액이 늘어나지 않는 이유.",
     "Amazon stock just entered the danger zone": "아마존 주식이 방금 위험 구역에 진입했습니다",
@@ -808,7 +808,9 @@
     "Fed's Waller channels his inner John Lennon with a plea to 'give disinflation a chance'": "Fed의 Waller는 그의 내면의 John Lennon에게 'disinflation에게 기회를주십시오' 라고 간청합니다.",
     "Campbell Soup Company Q4 2026 Earnings Call Summary": "Campbell Soup Company 2026년 4분기 수입 통화 요약",
     "Snowflake stock jumps as accelerating product revenue, AI adoption drive blowout quarter": "눈송이 재고는 제품 매출을 가속화로 점프, AI 채택 드라이브 분기 분기 분기 분기 분기",
-    "Ermenegildo Zegna N.V. Q2 2026 Earnings Call Summary": "Ermenegildo Zegna N.V. 2026년 2분기 수입 통화 요약"
+    "Ermenegildo Zegna N.V. Q2 2026 Earnings Call Summary": "Ermenegildo Zegna N.V. 2026년 2분기 수입 통화 요약",
+    "Lululemon Shares Drop After Hours on Weak Results": "약한 결과에 대해 룰루레몬 주가 시간 후 하락",
+    "Robinhood Breaks Out. Analysts Bullish On Outlook, Prediction Markets.": "Robinhood 브레이크 아웃. 애널리스트는 Outlook, 예측 시장에서 강세를 보입니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -3231,9 +3233,8 @@
     }
   },
   "failed": [
-    "translate: HTTP 429",
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CejU9WjqqwpcBAaVFosFj\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CejU9XXiLMhvRrbFDJ8gC\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CejU9Y4xpm6NGN441ykeL\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CejYkiTEYjSEZ8nwCZKjD\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CejYkj9u8Fvofa5ZtZRqS\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CejYkjk7tjZXWpEhBNPAr\"}"
   ]
 }
