@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-05T11:05:29.529Z",
+  "asOf": "2026-09-05T12:05:55.758Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -460,14 +460,14 @@
         "by": "rules"
       },
       {
-        "title": "Teleflex (TFX): Guidance Cut Meets A Bigger Buyback Push",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/teleflex-tfx-guidance-cut-meets-093747101.html",
+        "title": "The 18-Year Housing Cycle Says the Next Market Crash Is Close",
+        "link": "https://finance.yahoo.com/real-estate/articles/18-housing-cycle-says-next-114834512.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-04T09:37:47Z",
-        "ko": "Teleflex (TFX): 가이드 컷, 더 큰 바이백 푸시 충족",
+        "date": "2026-09-05T11:48:34Z",
+        "ko": "다음 시장 붕괴가 가까워졌다고 말하는 18년 주택 사이클",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -496,14 +496,14 @@
         "by": "rules"
       },
       {
-        "title": "Why TJX Companies Stock Got Thrashed in August",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/why-tjx-companies-stock-got-093113063.html",
+        "title": "Nasdaq Futures Climb as Chipmakers Provide a Boost Ahead of Key U.S. Jobs Report",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-futures-climb-chipmakers-boost-102349041.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-04T09:31:13Z",
-        "ko": "8월에 TJX 회사 주식이 스러진 이유",
+        "date": "2026-09-04T10:23:49Z",
+        "ko": "나스닥 선물, 칩메이커로 상승 미국 주요 일자리 보고서에 앞서 부스트 제공",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -511,8 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "Mortgage and refinance rates today, Wednesday, September 2, 2026: Rates up double digits as Iran war reescalates": "2026년 9월 2일 수요일 모기지 및 재융자 금리: 이란 전쟁이 재개됨에 따라 두 자릿수 금리 인상",
-    "10-year treasury touches highest level since 2023 as oil prices stay elevated": "유가가 계속 상승함에 따라 10 년 국고는 2023 년 이후 최고 수준에 도달했습니다.",
     "Dell stock surges on record orders for AI servers": "AI 서버에 대한 기록적인 주문에 대한 DELL 재고 급증",
     "Bond yields still high as investors weigh rate hike risk: AlphaCheck": "투자자들이 금리 인상 위험에 무게를 두기 때문에 채권 수익률은 여전히 높습니다: 알파체크",
     "Tech stocks today: Uber cuts 3,300 roles, implements stricter remote work policy": "오늘날의 기술 재고: Uber는 3,300개의 역할을 삭감하고 보다 엄격한 원격 근무 정책을 시행합니다.",
@@ -810,7 +808,9 @@
     "Broadcom's Artificial Intelligence (AI) Chip Sales Surged 221% to $16.7 Billion Last Quarter: Is the Stock a Screaming Buy Right Now?": "Broadcom의 인공 지능 (AI) 칩 판매는 지난 분기에 221% 급증하여 $167 억: 주식이 지금 비명을 지르고 있습니까?",
     "3 Dividend Stocks From a Value Pro": "밸류 프로로부터의 3가지 배당주",
     "Teleflex (TFX): Guidance Cut Meets A Bigger Buyback Push": "Teleflex (TFX): 가이드 컷, 더 큰 바이백 푸시 충족",
-    "Why TJX Companies Stock Got Thrashed in August": "8월에 TJX 회사 주식이 스러진 이유"
+    "Why TJX Companies Stock Got Thrashed in August": "8월에 TJX 회사 주식이 스러진 이유",
+    "The 18-Year Housing Cycle Says the Next Market Crash Is Close": "다음 시장 붕괴가 가까워졌다고 말하는 18년 주택 사이클",
+    "Nasdaq Futures Climb as Chipmakers Provide a Boost Ahead of Key U.S. Jobs Report": "나스닥 선물, 칩메이커로 상승 미국 주요 일자리 보고서에 앞서 부스트 제공"
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -3250,8 +3250,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CekBbfeNLBf7XafTeg6LR\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CekBbgN2qcZCDUKrJfG8X\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CekBbgwFwSAmMB8nXgNLL\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CekGCygX4zX8UcZv7Nzue\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CekGCzHV5VbyroSetBe2r\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CekGCziHRn97B42xv1318\"}"
   ]
 }
