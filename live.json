@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-05T16:40:40.842Z",
+  "asOf": "2026-09-05T17:41:03.874Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -460,14 +460,14 @@
         "by": "rules"
       },
       {
-        "title": "Uber just walked away from Africa's biggest market",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/uber-just-walked-away-africas-163300414.html",
+        "title": "Lowe's shares plan to create 1 million six-figure jobs",
+        "link": "https://finance.yahoo.com/small-business/articles/lowes-shares-plan-create-1-172652319.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-05T16:33:00Z",
-        "ko": "Uber는 방금 아프리카에서 가장 큰 시장에서 벗어났습니다.",
+        "date": "2026-09-05T17:26:52Z",
+        "ko": "Lowe의 주식은 100만 개의 6자리 일자리를 창출할 계획입니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -496,11 +496,11 @@
         "by": "rules"
       },
       {
-        "title": "Dow Jones Futures: Nvidia, Micron, Sandisk Flash Buy Signals; Apple, Inflation Reports Ahead",
-        "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-nvidia-micron-sandisk-buy-signals-apple-inflation-reports/?src=A00220&yptr=yahoo",
+        "title": "Divide over yields: Fed officials see a stronger economy, Wall Street frets over oil prices and deficits.",
+        "link": "https://finance.yahoo.com/economy/policy/article/divide-over-yields-fed-officials-see-a-stronger-economy-wall-street-frets-over-oil-prices-and-deficits-193739245.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-05T16:28:09Z",
-        "ko": "다우 존스 선물: 엔비디아, 마이크론, 샌디스크 플래시 매수 신호; 애플, 인플레이션 보고서",
+        "date": "2026-09-03T19:37:39Z",
+        "ko": "수익률 분배: 연준 관리들은 경제가 더 강세를 보이고, 월스트리트는 유가와 적자보다 불안해한다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -511,8 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "Fed Chairman Warsh expresses concern about inflation, advocates for 'quieter' central bank": "워시 연준 의장은 인플레이션에 대한 우려를 표명하며, '더 조용한' 중앙은행을 지지한다.",
-    "Fed’s Williams ‘is opening options’ to interest-rate hikes. Why that could be ‘a bad trade.’": "Fed의 Williams는 금리 인상 옵션을 열고 있습니다. 왜 그것이 ‘나쁜 거래‘ 가 될 수 있는지.",
     "What Makes Robinhood Markets (HOOD) as an Attractive Bet?": "매력적인 베팅으로 Robinhood Markets (HOOD) 를 만드는 것은 무엇입니까?",
     "This Apple Trade Captures Profit In Either Direction The iPhone Maker's Stock Flies": "이 애플 거래는 어느 방향으로든 이익을 포착합니다. iPhone Maker의 주식은 날아갑니다.",
     "Palo Alto Stock Tumbles As Analysts Mull Fiscal Q4 Organic Growth, Acquisitions": "Palo Alto Stock, 애널리스트로서 넘어지다 Mull Fiscal Q4 유기적 성장, 인수",
@@ -810,7 +808,9 @@
     "Here's How Many Shares of Procter & Gamble You'd Need for $15,000 in Yearly Dividends": "연간 배당금 $15,000가 필요한 Procter & Gamble 주식은 다음과 같습니다.",
     "Broadcom (AVGO) AI Revenue Soars, But Wall Street Wants More": "Broadcom (AVGO) AI 수익은 급증하지만 월스트리트는 더 많은 것을 원합니다.",
     "Uber just walked away from Africa's biggest market": "Uber는 방금 아프리카에서 가장 큰 시장에서 벗어났습니다.",
-    "Dow Jones Futures: Nvidia, Micron, Sandisk Flash Buy Signals; Apple, Inflation Reports Ahead": "다우 존스 선물: 엔비디아, 마이크론, 샌디스크 플래시 매수 신호; 애플, 인플레이션 보고서"
+    "Dow Jones Futures: Nvidia, Micron, Sandisk Flash Buy Signals; Apple, Inflation Reports Ahead": "다우 존스 선물: 엔비디아, 마이크론, 샌디스크 플래시 매수 신호; 애플, 인플레이션 보고서",
+    "Lowe's shares plan to create 1 million six-figure jobs": "Lowe의 주식은 100만 개의 6자리 일자리를 창출할 계획입니다.",
+    "Divide over yields: Fed officials see a stronger economy, Wall Street frets over oil prices and deficits.": "수익률 분배: 연준 관리들은 경제가 더 강세를 보이고, 월스트리트는 유가와 적자보다 불안해한다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -3265,7 +3265,7 @@
     }
   },
   "failed": [
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CekdAA4ToLcJR8LS2S9Ue\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CekdABUoBXfAv6UrbbLzi\"}"
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CekhmEgiRebrQTdkeJB17\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CekhmFXKLEPQm85FjfS6Y\"}"
   ]
 }
