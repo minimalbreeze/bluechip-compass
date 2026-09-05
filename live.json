@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-05T12:05:55.758Z",
+  "asOf": "2026-09-05T12:39:03.179Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -460,14 +460,14 @@
         "by": "rules"
       },
       {
-        "title": "The 18-Year Housing Cycle Says the Next Market Crash Is Close",
-        "link": "https://finance.yahoo.com/real-estate/articles/18-housing-cycle-says-next-114834512.html",
+        "title": "All It Takes Is $10,000 Invested in This Dividend Stock to Generate Over $241 in Yearly Dividends",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/takes-10-000-invested-dividend-122000316.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-05T11:48:34Z",
-        "ko": "다음 시장 붕괴가 가까워졌다고 말하는 18년 주택 사이클",
+        "date": "2026-09-05T12:20:00Z",
+        "ko": "이 배당 주식에 투자하여 연간 배당금 $241 이상을 창출하는 데 필요한 모든 것은 $10,000입니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -496,11 +496,11 @@
         "by": "rules"
       },
       {
-        "title": "Nasdaq Futures Climb as Chipmakers Provide a Boost Ahead of Key U.S. Jobs Report",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-futures-climb-chipmakers-boost-102349041.html",
+        "title": "Gold price today, Friday, September 4, 2026: Gold price lifts ahead of jobs report",
+        "link": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-friday-september-4-2026-gold-price-lifts-ahead-of-jobs-report-105540094.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-04T10:23:49Z",
-        "ko": "나스닥 선물, 칩메이커로 상승 미국 주요 일자리 보고서에 앞서 부스트 제공",
+        "date": "2026-09-04T10:55:40Z",
+        "ko": "금값, 2026년 9월 4일 금요일: 금값이 일자리 보고서에 앞서 인상을 단행하다",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -511,8 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "Dell stock surges on record orders for AI servers": "AI 서버에 대한 기록적인 주문에 대한 DELL 재고 급증",
-    "Bond yields still high as investors weigh rate hike risk: AlphaCheck": "투자자들이 금리 인상 위험에 무게를 두기 때문에 채권 수익률은 여전히 높습니다: 알파체크",
     "Tech stocks today: Uber cuts 3,300 roles, implements stricter remote work policy": "오늘날의 기술 재고: Uber는 3,300개의 역할을 삭감하고 보다 엄격한 원격 근무 정책을 시행합니다.",
     "Fed's Williams ties rising bond yields to strong economy, CNBC reports": "CNBC 보도에 따르면 연준의 윌리엄스는 채권 수익률 상승을 강력한 경제와 연관짓고 있다.",
     "Stock Market Today: Dow Up On Surprise Jobs Data; Dell Tries To Break Out (Live Coverage)": "오늘의 주식 시장: 서프라이즈 일자리 데이터에 대한 다우 업; Dell은 돌파를 시도합니다 (라이브 커버리지)",
@@ -810,7 +808,9 @@
     "Teleflex (TFX): Guidance Cut Meets A Bigger Buyback Push": "Teleflex (TFX): 가이드 컷, 더 큰 바이백 푸시 충족",
     "Why TJX Companies Stock Got Thrashed in August": "8월에 TJX 회사 주식이 스러진 이유",
     "The 18-Year Housing Cycle Says the Next Market Crash Is Close": "다음 시장 붕괴가 가까워졌다고 말하는 18년 주택 사이클",
-    "Nasdaq Futures Climb as Chipmakers Provide a Boost Ahead of Key U.S. Jobs Report": "나스닥 선물, 칩메이커로 상승 미국 주요 일자리 보고서에 앞서 부스트 제공"
+    "Nasdaq Futures Climb as Chipmakers Provide a Boost Ahead of Key U.S. Jobs Report": "나스닥 선물, 칩메이커로 상승 미국 주요 일자리 보고서에 앞서 부스트 제공",
+    "All It Takes Is $10,000 Invested in This Dividend Stock to Generate Over $241 in Yearly Dividends": "이 배당 주식에 투자하여 연간 배당금 $241 이상을 창출하는 데 필요한 모든 것은 $10,000입니다.",
+    "Gold price today, Friday, September 4, 2026: Gold price lifts ahead of jobs report": "금값, 2026년 9월 4일 금요일: 금값이 일자리 보고서에 앞서 인상을 단행하다"
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -3250,8 +3250,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CekGCygX4zX8UcZv7Nzue\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CekGCzHV5VbyroSetBe2r\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CekGCziHRn97B42xv1318\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CekJjUj5bDMQSahxotA2x\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CekJjVJ4TSP1m2si8dyPW\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CekJjVoZyGUKsVuwvZVGd\"}"
   ]
 }
