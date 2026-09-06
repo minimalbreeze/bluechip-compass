@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-06T21:10:59.293Z",
+  "asOf": "2026-09-06T21:17:30.063Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-04T09:05:30.000Z"
     },
     "KRW=X": {
-      "price": 1345.56,
+      "price": 1345.5,
       "prev": 1351.1,
       "chg": -0.41,
       "prevDay": "2026-09-05",
       "basis": "prev-close-memo",
-      "time": "2026-09-06T21:10:44.000Z"
+      "time": "2026-09-06T21:12:12.000Z"
     },
     "^GSPC": {
       "price": 7718.6,
@@ -60,7 +60,7 @@
     }
   },
   "fx": {
-    "low52": 1345.56,
+    "low52": 1345.5,
     "high52": 1554.48,
     "pct": 0
   },
@@ -80,8 +80,8 @@
       "chg3m": -10.74
     },
     "KRW=X": {
-      "last": 1345.56,
-      "low52": 1345.56,
+      "last": 1345.5,
+      "low52": 1345.5,
       "high52": 1554.48,
       "pct52": 0,
       "chg3m": -11.77
@@ -368,13 +368,13 @@
   "news": {
     "kr": [
       {
-        "title": "금감원, 21∼22일 부산·대구서 기업공시 설명회",
-        "link": "https://www.yna.co.kr/view/AKR20260905051500002",
+        "title": "'한도는 많이 금리는 낮게'…정부지침 어긴 LH 사내 주택대출",
+        "link": "https://www.yna.co.kr/view/AKR20260906049200003",
         "source": "연합뉴스",
-        "date": "Mon, 7 Sep 2026 06:00:03 +0900",
+        "date": "Mon, 7 Sep 2026 06:03:05 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -401,14 +401,14 @@
         "by": "rules"
       },
       {
-        "title": "트럼프 \"美-캐나다 달러 불균형\"…관세 이어 환율 건드리나",
-        "link": "https://www.yna.co.kr/view/AKR20260907001200071",
+        "title": "금감원, 21∼22일 부산·대구서 기업공시 설명회",
+        "link": "https://www.yna.co.kr/view/AKR20260905051500002",
         "source": "연합뉴스",
-        "date": "Mon, 7 Sep 2026 01:38:33 +0900",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": "market",
-        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
+        "date": "Mon, 7 Sep 2026 06:00:03 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
@@ -2948,7 +2948,7 @@
       "2026-09-03": 1355.85,
       "2026-09-04": 1345.99,
       "2026-09-05": 1351.1,
-      "2026-09-06": 1345.56
+      "2026-09-06": 1345.5
     },
     "^GSPC": {
       "2026-08-29": 7711.76,
@@ -3298,7 +3298,7 @@
     }
   },
   "failed": [
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CensacmsJ4NdQAd7ESd6M\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CensadU38xsdYZ4VBz2bF\"}"
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cent5RiudkznR9Gfk2W1N\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cent5SDvewjWhjfartvHW\"}"
   ]
 }
