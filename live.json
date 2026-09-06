@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-06T22:11:22.960Z",
+  "asOf": "2026-09-06T23:11:45.576Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-04T09:05:30.000Z"
     },
     "KRW=X": {
-      "price": 1345.12,
-      "prev": 1351.1,
-      "chg": -0.44,
-      "prevDay": "2026-09-05",
+      "price": 1345.65,
+      "prev": 1345.12,
+      "chg": 0.04,
+      "prevDay": "2026-09-06",
       "basis": "prev-close-memo",
-      "time": "2026-09-06T22:02:24.000Z"
+      "time": "2026-09-06T23:11:37.000Z"
     },
     "^GSPC": {
       "price": 7718.6,
@@ -60,7 +60,7 @@
     }
   },
   "fx": {
-    "low52": 1345.12,
+    "low52": 1345.65,
     "high52": 1554.48,
     "pct": 0
   },
@@ -80,11 +80,11 @@
       "chg3m": -10.74
     },
     "KRW=X": {
-      "last": 1345.12,
-      "low52": 1345.12,
+      "last": 1345.65,
+      "low52": 1345.65,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -11.8
+      "chg3m": -11.76
     },
     "^GSPC": {
       "last": 7718.6,
@@ -368,6 +368,39 @@
   "news": {
     "kr": [
       {
+        "title": "[마켓뷰] 오픈AI발 호재에 美반도체 급등…코스피도 강세 기대",
+        "link": "https://www.yna.co.kr/view/AKR20260907016300008",
+        "source": "연합뉴스",
+        "date": "Mon, 7 Sep 2026 08:05:19 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "상장 후 '반토막' 파두…실적 턴어라운드가 고점 회복 이끌까",
+        "link": "https://www.hankyung.com/article/202609044707i",
+        "source": "한국경제",
+        "date": "Mon, 07 Sep 2026 07:30:02 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "“NHN, 목표가 8만원 간다”…한국투자증권, 27% 상향 조정 이유는",
+        "link": "https://www.mk.co.kr/news/stock/12145657",
+        "source": "매일경제",
+        "date": "Mon, 07 Sep 2026 07:35:34 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
         "title": "'한도는 많이 금리는 낮게'…정부지침 어긴 LH 사내 주택대출",
         "link": "https://www.yna.co.kr/view/AKR20260906049200003",
         "source": "연합뉴스",
@@ -375,39 +408,6 @@
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "개미 덕봤던 증권주, 거래대금 급감·고금리에 '울상' [종목+]",
-        "link": "https://www.hankyung.com/article/2026090449116",
-        "source": "한국경제",
-        "date": "Mon, 07 Sep 2026 06:30:06 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "강력한 고용지표 뚫고 급등한 반도체 주가... 챗GPT ASTRA 마법의 시작인가",
-        "link": "https://www.mk.co.kr/news/stock/12145410",
-        "source": "매일경제",
-        "date": "Mon, 07 Sep 2026 04:00:00 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "금감원, 21∼22일 부산·대구서 기업공시 설명회",
-        "link": "https://www.yna.co.kr/view/AKR20260905051500002",
-        "source": "연합뉴스",
-        "date": "Mon, 7 Sep 2026 06:00:03 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -423,13 +423,13 @@
         "by": "rules"
       },
       {
-        "title": "추락하나했더니 ‘주가 재추진’…시총 2조달러 재입성한 스페이스X",
-        "link": "https://www.mk.co.kr/news/stock/12145621",
+        "title": "강력한 고용지표 뚫고 급등한 반도체 주가... 챗GPT ASTRA 마법의 시작인가",
+        "link": "https://www.mk.co.kr/news/stock/12145410",
         "source": "매일경제",
-        "date": "Sun, 06 Sep 2026 21:42:49 +09:00",
+        "date": "Mon, 07 Sep 2026 04:00:00 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -460,14 +460,14 @@
         "by": "rules"
       },
       {
-        "title": "Dow Jones Futures Eye Iran With Apple, Inflation In Focus; Nvidia, Micron, Sandisk Flash Buy Signals",
-        "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-nvidia-micron-sandisk-buy-signals-apple-inflation-reports/?src=A00220&yptr=yahoo",
+        "title": "Prediction: Taiwan Semiconductor's Market Value Passes $3 Trillion Before 2029",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/prediction-taiwan-semiconductors-market-value-225101856.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-06T21:10:14Z",
-        "ko": "Dow Jones Futures Eye Iran With Apple, Inflation In Focus; 엔비디아, 마이크론, 샌디스크 플래시 매수 신호",
+        "date": "2026-09-06T22:51:01Z",
+        "ko": "예측: 2029년 이전 대만 반도체의 시장가치 3조 $ 통과",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -484,14 +484,13 @@
         "by": "rules"
       },
       {
-        "title": "How BlackRock (BLK) is Quietly Turning Bitcoin Whales Into Wall Street Clients",
-        "link": "https://finance.yahoo.com/markets/crypto/articles/blackrock-blk-quietly-turning-bitcoin-203223849.html",
+        "title": "Dow Jones Futures Fall With Iran, Apple, Inflation In Focus; Nvidia, Micron, Sandisk Flash Buy Signals",
+        "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-nvidia-micron-sandisk-buy-signals-apple-inflation-reports/?src=A00220&yptr=yahoo",
         "source": "Yahoo Finance",
-        "date": "2026-09-06T20:32:23Z",
-        "ko": "BlackRock (BLK) 이 Bitcoin Whales를 월스트리트 고객으로 조용히 전환하는 방법",
+        "date": "2026-09-06T22:31:15Z",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -511,7 +510,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "United Kingdom To Bring Stocks Onchain": "영국, 주식 온체인 도입 예정",
     "Charter Communications (CHTR) Strengthens Market Position Amid Fierce Competition": "치열한 경쟁 속에서 시장 지위를 강화하는 차터 커뮤니케이션 (CHTR)",
     "Dollar Supported by Rising T-Note Yields and Falling Stocks": "T-Note 수익률 상승과 주가 하락으로 달러 지원",
     "Global Bond Selloff Weighs on Stocks": "글로벌 채권 매도 주식 중량",
@@ -810,7 +808,8 @@
     "Should You Forget SpaceX (SPCX) Stock?": "SpaceX (SPCX) 재고를 잊어 버려야합니까?",
     "Forget AI Stocks: This Clean-Power Play Is the Real Winner": "AI 주식 잊기: 이 클린 파워 플레이가 진정한 승자입니다.",
     "How BlackRock (BLK) is Quietly Turning Bitcoin Whales Into Wall Street Clients": "BlackRock (BLK) 이 Bitcoin Whales를 월스트리트 고객으로 조용히 전환하는 방법",
-    "Dow Jones Futures Eye Iran With Apple, Inflation In Focus; Nvidia, Micron, Sandisk Flash Buy Signals": "Dow Jones Futures Eye Iran With Apple, Inflation In Focus; 엔비디아, 마이크론, 샌디스크 플래시 매수 신호"
+    "Dow Jones Futures Eye Iran With Apple, Inflation In Focus; Nvidia, Micron, Sandisk Flash Buy Signals": "Dow Jones Futures Eye Iran With Apple, Inflation In Focus; 엔비디아, 마이크론, 샌디스크 플래시 매수 신호",
+    "Prediction: Taiwan Semiconductor's Market Value Passes $3 Trillion Before 2029": "예측: 2029년 이전 대만 반도체의 시장가치 3조 $ 통과"
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -2948,7 +2947,8 @@
       "2026-09-03": 1355.85,
       "2026-09-04": 1345.99,
       "2026-09-05": 1351.1,
-      "2026-09-06": 1345.12
+      "2026-09-06": 1345.12,
+      "2026-09-07": 1345.65
     },
     "^GSPC": {
       "2026-08-29": 7711.76,
@@ -3298,8 +3298,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CenxBiUMsgsNk8XS2P118\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CenxBjBH1JbdLJQYjq2U1\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CenxBkAK4M6ie6BA2sa7L\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Ceo2nm26MPofgQF2wuV7r\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Ceo2nmc4qM8fEfVw7DYp7\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Ceo2nnUuJjUgjH8pyeaXU\"}"
   ]
 }
