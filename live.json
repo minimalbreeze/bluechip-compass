@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-06T18:09:49.048Z",
+  "asOf": "2026-09-06T19:10:12.524Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -390,13 +390,13 @@
         "by": "rules"
       },
       {
-        "title": "추락하나했더니 ‘주가 재추진’…시총 2조달러 재입성한 스페이스X",
-        "link": "https://www.mk.co.kr/news/stock/12145621",
+        "title": "강력한 고용지표 뚫고 급등한 반도체 주가... 챗GPT ASTRA 마법의 시작인가",
+        "link": "https://www.mk.co.kr/news/stock/12145410",
         "source": "매일경제",
-        "date": "Sun, 06 Sep 2026 21:42:49 +09:00",
+        "date": "Mon, 07 Sep 2026 04:00:00 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -423,10 +423,10 @@
         "by": "rules"
       },
       {
-        "title": "“월요일에 삼전닉스의 시간 옵니까”…GPT-6에 불붙은 美반도체",
-        "link": "https://www.mk.co.kr/news/stock/12145603",
+        "title": "추락하나했더니 ‘주가 재추진’…시총 2조달러 재입성한 스페이스X",
+        "link": "https://www.mk.co.kr/news/stock/12145621",
         "source": "매일경제",
-        "date": "Sun, 06 Sep 2026 19:52:56 +09:00",
+        "date": "Sun, 06 Sep 2026 21:42:49 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -460,14 +460,14 @@
         "by": "rules"
       },
       {
-        "title": "NuScale Power Stock Will Spike 23.7% Over the Next 11 Months According to This Wall Street Analyst",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/nuscale-power-stock-spike-23-175000376.html",
+        "title": "BDC and Mortgage REIT Income Is Taxed Differently Than a Bank Dividend. Here's Where to Hold Each.",
+        "link": "https://finance.yahoo.com/real-estate/articles/bdc-mortgage-reit-income-taxed-183500135.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-06T17:50:00Z",
-        "ko": "이 월스트리트 애널리스트에 따르면 향후 11개월 동안 NuScale 전력 재고는 23.7% 급증할 것입니다.",
+        "date": "2026-09-06T18:35:00Z",
+        "ko": "BDC 및 모기지 REIT 소득은 은행 배당금과 다르게 과세됩니다. 각각 보유할 위치는 다음과 같습니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -511,7 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "USD/JPY Eyes Breakout as Rising Yields Support US Dollar": "미국 달러를 지지하는 수익률 상승에 따른 USD/JPY 아이즈 브레이크아웃",
     "Why Marvell Stock’s Post-Earnings Malaise Offers Another Shot": "Marvell Stock의 후반 수입 경색이 또 다른 기회를 제공하는 이유",
     "Stocks Retreat as Global Bond Yields Surge": "글로벌 채권 수익률 급등에 따른 주식 후퇴",
     "US job openings rise slightly to 7.3 million as labor market remains sturdy despite higher costs": "높은 비용에도 불구하고 노동 시장이 견고하게 유지됨에 따라 미국 구인 인력은 730만 명으로 소폭 증가합니다.",
@@ -810,7 +809,8 @@
     "Mohamed El-Erian says an influx of hyperscaler bonds is competing with U.S. Treasuries — and pushing rates higher": "모하메드 엘-에리언 (Mohamed El-Erian) 은 하이퍼스케일러 채권의 유입이 미국 재무부와 경쟁하고 있으며 더 높은 금리를 추진하고 있다고 말합니다.",
     "Where Will SCHD Stock Be in 5 Years?": "5년 후 SCHD 재고는 어디에 있을까요?",
     "September Is Historically the Worst Month for Stocks. A Pattern From 2000 Says This Could Happen Next.": "9월은 역사적으로 주식에 있어 최악의 달입니다. 2000년의 패턴에 따르면 다음에 이런 일이 일어날 수 있다고 합니다.",
-    "NuScale Power Stock Will Spike 23.7% Over the Next 11 Months According to This Wall Street Analyst": "이 월스트리트 애널리스트에 따르면 향후 11개월 동안 NuScale 전력 재고는 23.7% 급증할 것입니다."
+    "NuScale Power Stock Will Spike 23.7% Over the Next 11 Months According to This Wall Street Analyst": "이 월스트리트 애널리스트에 따르면 향후 11개월 동안 NuScale 전력 재고는 23.7% 급증할 것입니다.",
+    "BDC and Mortgage REIT Income Is Taxed Differently Than a Bank Dividend. Here's Where to Hold Each.": "BDC 및 모기지 REIT 소득은 은행 배당금과 다르게 과세됩니다. 각각 보유할 위치는 다음과 같습니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -3298,7 +3298,7 @@
     }
   },
   "failed": [
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CendmKQGuTh8zjf7EhY58\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CendmLWW8feNDVK9Hjamu\"}"
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeniNRhyoHSv5Xpcqi6iV\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeniNSQ9keMN6AZ9MaccT\"}"
   ]
 }
