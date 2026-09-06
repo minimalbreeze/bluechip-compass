@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-06T15:08:40.428Z",
+  "asOf": "2026-09-06T16:09:05.549Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -460,14 +460,14 @@
         "by": "rules"
       },
       {
-        "title": "Scott Bessent Said Interest Rates Have Fallen During Trump’s Second Term. Here’s Where He’s Right – and Where He’s Wrong.",
-        "link": "https://finance.yahoo.com/economy/policy/articles/scott-bessent-said-interest-rates-133002371.html",
+        "title": "Stock Market Week Ahead: Week Of The Big Bond Scheme",
+        "link": "https://www.investors.com/research/investing-action-plan/stock-market-week-ahead-week-of-the-big-bond-scheme/?src=A00220&yptr=yahoo",
         "source": "Yahoo Finance",
-        "date": "2026-09-05T13:30:02Z",
-        "ko": "스콧 베슨트 (Scott Bessent) 는 트럼프의 두 번째 임기 동안 금리가 하락했다고 말했다. 여기 그가 옳은 곳과 틀린 곳이 있습니다.",
+        "date": "2026-09-06T15:39:40Z",
+        "ko": "앞으로의 주식 시장 주간: 큰 채권 계획의 주간",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -496,11 +496,11 @@
         "by": "rules"
       },
       {
-        "title": "This Indicator Could Be the S&P 500’s Canary in a Coal Mine",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/indicator-could-p-500-canary-130003859.html",
+        "title": "Mohamed El-Erian says an influx of hyperscaler bonds is competing with U.S. Treasuries — and pushing rates higher",
+        "link": "https://finance.yahoo.com/markets/currencies/articles/mohamed-el-erian-says-influx-153000281.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-05T13:00:03Z",
-        "ko": "이 지표는 탄광에서 S&P 500의 카나리아가 될 수 있습니다.",
+        "date": "2026-09-06T15:30:00Z",
+        "ko": "모하메드 엘-에리언 (Mohamed El-Erian) 은 하이퍼스케일러 채권의 유입이 미국 재무부와 경쟁하고 있으며 더 높은 금리를 추진하고 있다고 말합니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -511,8 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "Baird Just Upgraded Deere Stock. Here's Why.": "Baird가 Deere Stock을 업그레이드했습니다. 그 이유는 다음과 같습니다.",
-    "Riverwater Sees a Market Overreaction in Stevanato Group (STVN) After Oral GLP-1 Launches": "Riverwater, 구강 GLP-1 출시 후 Stevanato Group (STVN) 에서 시장 과잉 반응 확인",
     "Speculative Rally Weighed on LeMaitre Vascular (LMAT)": "LeMaitre Vascular (LMAT) 에 무게를 둔 투기적 집회",
     "Grand Canyon Education (LOPE): A Steady Cash-Generating Business Ignored in a Speculative Market": "그랜드 캐년 교육 (LOPE): 투기 시장에서 무시된 꾸준한 현금 창출 사업",
     "Marvell Technology Posts Lower FCF Margins, But Revenue Is Could Surge Next Year - Is MRVL Stock Too Cheap?": "Marvell Technology는 FCF 마진을 낮추지만 수익은 내년에 급증할 수 있습니다. MRVL 재고가 너무 저렴합니까?",
@@ -810,7 +808,9 @@
     "ServiceNow Leads Five Stocks To Watch Near Buy Points": "ServiceNow는 5개의 주식을 리드하여 매수 포인트 근처를 주시합니다.",
     "Lululemon’s Earnings Beat Hid a Bigger Problem for Its Turnaround Story": "룰루레몬의 수입은 턴어라운드 스토리에 더 큰 문제를 숨겼습니다",
     "Scott Bessent Said Interest Rates Have Fallen During Trump’s Second Term. Here’s Where He’s Right – and Where He’s Wrong.": "스콧 베슨트 (Scott Bessent) 는 트럼프의 두 번째 임기 동안 금리가 하락했다고 말했다. 여기 그가 옳은 곳과 틀린 곳이 있습니다.",
-    "This Indicator Could Be the S&P 500’s Canary in a Coal Mine": "이 지표는 탄광에서 S&P 500의 카나리아가 될 수 있습니다."
+    "This Indicator Could Be the S&P 500’s Canary in a Coal Mine": "이 지표는 탄광에서 S&P 500의 카나리아가 될 수 있습니다.",
+    "Stock Market Week Ahead: Week Of The Big Bond Scheme": "앞으로의 주식 시장 주간: 큰 채권 계획의 주간",
+    "Mohamed El-Erian says an influx of hyperscaler bonds is competing with U.S. Treasuries — and pushing rates higher": "모하메드 엘-에리언 (Mohamed El-Erian) 은 하이퍼스케일러 채권의 유입이 미국 재무부와 경쟁하고 있으며 더 높은 금리를 추진하고 있다고 말합니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -3298,8 +3298,7 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CenPx9GzwtndSxQvbd4yx\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CenPx9xRbbBaLpXfsp18r\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CenPxAUBNgWbpmmeWrFna\"}"
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CenUZMtDYCTTeVhnF65sj\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CenUZNm3mtPrnruzWvn51\"}"
   ]
 }
