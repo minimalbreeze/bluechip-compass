@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-06T12:51:39.897Z",
+  "asOf": "2026-09-06T13:52:02.863Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -460,14 +460,14 @@
         "by": "rules"
       },
       {
-        "title": "Even With the S&P 500 at All-Time Highs, I'd Buy This High-Yield Dividend Stock Without Any Hesitation in September.",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/even-p-500-time-highs-112500332.html",
+        "title": "ServiceNow Leads Five Stocks To Watch Near Buy Points",
+        "link": "https://www.investors.com/news/servicenow-stocks-to-watch-buy-points/?src=A00220&yptr=yahoo",
         "source": "Yahoo Finance",
-        "date": "2026-09-05T11:25:00Z",
-        "ko": "역대 최고치인 S&P 500에도 불구하고, 나는 9월에 망설임 없이 이 고수익 배당 주식을 매수할 것이다.",
+        "date": "2026-09-05T12:00:14Z",
+        "ko": "ServiceNow는 5개의 주식을 리드하여 매수 포인트 근처를 주시합니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -496,14 +496,14 @@
         "by": "rules"
       },
       {
-        "title": "Chagee’s (CHA) Overseas Boom Masks A Bruising Home Market Fight",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/chagee-cha-overseas-boom-masks-112145728.html",
+        "title": "Lululemon’s Earnings Beat Hid a Bigger Problem for Its Turnaround Story",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/lululemon-earnings-beat-hid-bigger-120500869.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-05T11:21:45Z",
-        "ko": "Chagee's (CHA) Overseas Boom Masks A Bruising Home Market Fight",
+        "date": "2026-09-05T12:05:00Z",
+        "ko": "룰루레몬의 수입은 턴어라운드 스토리에 더 큰 문제를 숨겼습니다",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -511,8 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "Why Analysts Think Sellas Life Sciences Stock Can Gain 150% From Here": "애널리스트들이 Sellas Life Sciences 주식이 여기에서 150% 를 얻을 수 있다고 생각하는 이유",
-    "Dear Apple Stock Fans, Mark Your Calendars for September 1": "친애하는 Apple Stock 팬 여러분, 9월 1일 달력에 표시하세요",
     "Is Union Pacific Stock Outperforming the S&P 500?": "Union Pacific Stock이 S&P 500을 능가합니까?",
     "How Is Intuitive Surgical's Stock Performance Compared to Other Health Care Equipment Stocks?": "Intuitive Surgical의 재고 실적은 다른 의료 장비 재고와 어떻게 비교됩니까?",
     "Baird Just Upgraded Deere Stock. Here's Why.": "Baird가 Deere Stock을 업그레이드했습니다. 그 이유는 다음과 같습니다.",
@@ -810,7 +808,9 @@
     "AST SpaceMobile Director Bought $619,000 as Short Interest Reached 57.5 Million Shares. Is the Risk-Reward Turning?": "AST SpaceMobile Director는 단기 이자가 5750만 주에 도달함에 따라 $619,000를 매수했습니다. Risk-Reward가 선회하고 있습니까?",
     "WhiteFiber’s Cloud and Colocation Revenue Grew With 6 Million Shares Sold Short. Is This AI Data-Center Bet a Squeeze or a Trap?": "WhiteFiber의 클라우드 및 코로케이션 수익은 600만 주가 짧게 판매되면서 증가했습니다. 이 AI 데이터 센터 베팅은 스퀴즈입니까, 트랩입니까?",
     "Even With the S&P 500 at All-Time Highs, I'd Buy This High-Yield Dividend Stock Without Any Hesitation in September.": "역대 최고치인 S&P 500에도 불구하고, 나는 9월에 망설임 없이 이 고수익 배당 주식을 매수할 것이다.",
-    "Chagee’s (CHA) Overseas Boom Masks A Bruising Home Market Fight": "Chagee's (CHA) Overseas Boom Masks A Bruising Home Market Fight"
+    "Chagee’s (CHA) Overseas Boom Masks A Bruising Home Market Fight": "Chagee's (CHA) Overseas Boom Masks A Bruising Home Market Fight",
+    "ServiceNow Leads Five Stocks To Watch Near Buy Points": "ServiceNow는 5개의 주식을 리드하여 매수 포인트 근처를 주시합니다.",
+    "Lululemon’s Earnings Beat Hid a Bigger Problem for Its Turnaround Story": "룰루레몬의 수입은 턴어라운드 스토리에 더 큰 문제를 숨겼습니다"
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -3283,8 +3283,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CenDW95TH6wNmLy2SiHND\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CenDWBfUYnjj9ATNsACHR\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CenDWCAF7qemzz3qAP4jd\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CenJ7ENdjbv9t72zxj18U\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CenJ7ExMpk9xdcLktWn8i\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CenJ7FSdGVoPMHCTLYS22\"}"
   ]
 }
