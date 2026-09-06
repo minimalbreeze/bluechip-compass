@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-06T02:56:07.748Z",
+  "asOf": "2026-09-06T03:56:33.036Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -20,11 +20,11 @@
     },
     "KRW=X": {
       "price": 1351.1,
-      "prev": 1351.0999755859375,
+      "prev": 1351.1,
       "chg": 0,
       "prevDay": "2026-09-05",
-      "basis": "prev-close-bar",
-      "time": "2026-09-05T03:30:52.000Z"
+      "basis": "prev-close-memo",
+      "time": "2026-09-06T03:30:33.000Z"
     },
     "^GSPC": {
       "price": 7718.6,
@@ -460,14 +460,14 @@
         "by": "rules"
       },
       {
-        "title": "Bitcoin's $80,000 breakout failed after a blowout jobs report",
-        "link": "https://finance.yahoo.com/markets/article/bitcoins-80000-breakout-failed-after-a-blowout-jobs-report-100000584.html",
+        "title": "Stocks Settle Mostly Lower on Hawkish US Payroll Report",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/stocks-settle-mostly-lower-hawkish-203552632.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-04T10:00:00Z",
-        "ko": "비트코인의 $80,000 브레이크아웃은 블로우아웃 작업 보고서 후 실패했습니다.",
+        "date": "2026-09-04T20:35:52Z",
+        "ko": "주식은 호키쉬 미국 급여 보고서에서 대부분 낮게 정산됩니다",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -496,14 +496,14 @@
         "by": "rules"
       },
       {
-        "title": "AMC CEO Slams Robinhood Over 'Inexcusable, Vile' Stock Token Trading",
-        "link": "https://www.investors.com/news/amc-robinhood-stock-token-dispute-tokenization/?src=A00220&yptr=yahoo",
+        "title": "Cramer Says a Wave of 21 Year Olds on Robinhood Is the Only Reason This Market Has Not Cracked",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/cramer-says-wave-21-olds-203056512.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-04T20:18:58Z",
-        "ko": "AMC CEO, '용서할 수 없는, 사악한' 주식 토큰 거래로 로빈후드 슬램",
+        "date": "2026-09-04T20:30:56Z",
+        "ko": "Cramer는 Robinhood에 대한 21 세의 물결이이 시장이 금이 가지 않은 유일한 이유라고 말합니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -511,8 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "Rising yields aren’t scaring off investors. Why money is still pouring into bond funds.": "수익률 상승은 투자자를 겁먹게 하지 않습니다. 채권 펀드에 돈이 쏟아지는 이유.",
-    "Here’s another way rising bond yields could take a bite out of Americans’ wallets": "채권 수익률이 상승하면 미국인들의 지갑에서 빠져나올 수 있는 또 다른 방법이 있습니다.",
     "Alphabet stock has tanked recently because of a 'brain drain'": "알파벳 재고가 최근 '뇌 유출' 로 인해 유조",
     "Why Palantir’s stock is suffering its worst slump since February": "Palantir의 주식이 2월 이후 최악의 부진을 겪고 있는 이유",
     "SpaceX’s big AI advantage is why this analyst thinks the stock could double": "SpaceX의 큰 AI 이점은 이 애널리스트가 주가가 두 배로 증가할 수 있다고 생각하는 이유입니다.",
@@ -810,7 +808,9 @@
     "Robinhood and AMC Clash Over Tokenized Stock Listing": "토큰화된 주식 목록에 대한 로빈후드 및 AMC 충돌",
     "Dollar Rises on US Labor Market Strength": "미국 노동시장 강세에 달러 상승",
     "Bitcoin's $80,000 breakout failed after a blowout jobs report": "비트코인의 $80,000 브레이크아웃은 블로우아웃 작업 보고서 후 실패했습니다.",
-    "AMC CEO Slams Robinhood Over 'Inexcusable, Vile' Stock Token Trading": "AMC CEO, '용서할 수 없는, 사악한' 주식 토큰 거래로 로빈후드 슬램"
+    "AMC CEO Slams Robinhood Over 'Inexcusable, Vile' Stock Token Trading": "AMC CEO, '용서할 수 없는, 사악한' 주식 토큰 거래로 로빈후드 슬램",
+    "Stocks Settle Mostly Lower on Hawkish US Payroll Report": "주식은 호키쉬 미국 급여 보고서에서 대부분 낮게 정산됩니다",
+    "Cramer Says a Wave of 21 Year Olds on Robinhood Is the Only Reason This Market Has Not Cracked": "Cramer는 Robinhood에 대한 21 세의 물결이이 시장이 금이 가지 않은 유일한 이유라고 말합니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -3266,8 +3266,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CemS6CPDs6E6V3o3N4Y6S\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CemS6CzwKwtd5vA8Uqp7M\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CemS6DtWa9Gh46evGiTR2\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CemWhSM41VyYv5PJEwkzF\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CemWhT3UFfQ3JVCzskGMg\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CemWhTYzBy6tJEus7eejR\"}"
   ]
 }
