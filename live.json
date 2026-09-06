@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-06T16:09:05.549Z",
+  "asOf": "2026-09-06T16:59:29.105Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-04T09:05:30.000Z"
     },
     "KRW=X": {
-      "price": 1351.1,
+      "price": 1345.99,
       "prev": 1351.1,
-      "chg": 0,
+      "chg": -0.38,
       "prevDay": "2026-09-05",
       "basis": "prev-close-memo",
-      "time": "2026-09-06T03:30:33.000Z"
+      "time": "2026-09-06T16:53:01.000Z"
     },
     "^GSPC": {
       "price": 7718.6,
@@ -60,7 +60,7 @@
     }
   },
   "fx": {
-    "low52": 1351.1,
+    "low52": 1345.99,
     "high52": 1554.48,
     "pct": 0
   },
@@ -80,11 +80,11 @@
       "chg3m": -10.74
     },
     "KRW=X": {
-      "last": 1351.1,
-      "low52": 1351.1,
+      "last": 1345.99,
+      "low52": 1345.99,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -11.41
+      "chg3m": -11.74
     },
     "^GSPC": {
       "last": 7718.6,
@@ -368,14 +368,14 @@
   "news": {
     "kr": [
       {
-        "title": "주진우 \"김승원 자녀, 아내 원장인 기관 취업\"…金측 \"가족폄훼\"(종합2보)",
-        "link": "https://www.yna.co.kr/view/AKR20260906033552001",
+        "title": "트럼프 \"美-캐나다 달러 불균형\"…관세 이어 환율 건드리나",
+        "link": "https://www.yna.co.kr/view/AKR20260907001200071",
         "source": "연합뉴스",
-        "date": "Sun, 6 Sep 2026 21:38:27 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "date": "Mon, 7 Sep 2026 01:38:33 +0900",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": "market",
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
         "by": "rules"
       },
       {
@@ -401,10 +401,10 @@
         "by": "rules"
       },
       {
-        "title": "주진우 \"김승원 자녀, 아내 원장인 복지기관 취업…정부에 빨대\"(종합)",
-        "link": "https://www.yna.co.kr/view/AKR20260906033551001",
+        "title": "주진우 \"김승원 자녀, 아내 원장인 기관 취업\"…金측 \"가족폄훼\"(종합2보)",
+        "link": "https://www.yna.co.kr/view/AKR20260906033552001",
         "source": "연합뉴스",
-        "date": "Sun, 6 Sep 2026 20:06:55 +0900",
+        "date": "Sun, 6 Sep 2026 21:38:27 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -2948,7 +2948,7 @@
       "2026-09-03": 1355.85,
       "2026-09-04": 1345.99,
       "2026-09-05": 1351.1,
-      "2026-09-06": 1351.1
+      "2026-09-06": 1345.99
     },
     "^GSPC": {
       "2026-08-29": 7711.76,
@@ -3298,7 +3298,7 @@
     }
   },
   "failed": [
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CenUZMtDYCTTeVhnF65sj\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CenUZNm3mtPrnruzWvn51\"}"
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CenYQFi7C8kxPADpq3asi\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CenYQGPnLthhL1vFa5txk\"}"
   ]
 }
