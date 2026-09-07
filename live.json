@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-07T07:47:28.277Z",
+  "asOf": "2026-09-07T08:47:50.907Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-07T06:32:50.000Z"
     },
     "KRW=X": {
-      "price": 1344.25,
+      "price": 1343.32,
       "prev": 1345.12,
-      "chg": -0.06,
+      "chg": -0.13,
       "prevDay": "2026-09-06",
       "basis": "prev-close-memo",
-      "time": "2026-09-07T07:47:18.000Z"
+      "time": "2026-09-07T08:47:36.000Z"
     },
     "^GSPC": {
       "price": 7718.6,
@@ -43,12 +43,12 @@
       "time": "2026-09-04T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 15.03,
+      "price": 15.02,
       "prev": 14.53,
-      "chg": 3.44,
+      "chg": 3.37,
       "prevDay": "2026-09-06",
       "basis": "prev-close-memo",
-      "time": "2026-09-07T07:32:16.000Z"
+      "time": "2026-09-07T08:32:31.000Z"
     },
     "^TNX": {
       "price": 4.784,
@@ -60,7 +60,7 @@
     }
   },
   "fx": {
-    "low52": 1344.25,
+    "low52": 1343.32,
     "high52": 1554.48,
     "pct": 0
   },
@@ -80,11 +80,11 @@
       "chg3m": -15.05
     },
     "KRW=X": {
-      "last": 1344.25,
-      "low52": 1344.25,
+      "last": 1343.32,
+      "low52": 1343.32,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -11.86
+      "chg3m": -11.92
     },
     "^GSPC": {
       "last": 7718.6,
@@ -101,11 +101,11 @@
       "chg3m": 2.23
     },
     "^VIX": {
-      "last": 15.03,
+      "last": 15.02,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.089,
-      "chg3m": -24.36
+      "pct52": 0.088,
+      "chg3m": -24.41
     },
     "^TNX": {
       "last": 4.78,
@@ -368,10 +368,10 @@
   "news": {
     "kr": [
       {
-        "title": "국고채 금리 혼조세…3년물 연 3.900%",
-        "link": "https://www.yna.co.kr/view/AKR20260907135000008",
+        "title": "국고채 금리 하락했다가 '코스피 급등'에 단기물 상승(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260907135051008",
         "source": "연합뉴스",
-        "date": "Mon, 7 Sep 2026 16:40:51 +0900",
+        "date": "Mon, 7 Sep 2026 16:56:54 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -379,7 +379,7 @@
         "by": "rules"
       },
       {
-        "title": "이번주 '저PBR 기업 망신주기'案 확정...코스피 25%·코스닥 10%로",
+        "title": "이번주 '저PBR 기업 망신주기'案 확정…코스피 25%·코스닥 10%로",
         "link": "https://www.hankyung.com/article/202609078565i",
         "source": "한국경제",
         "date": "Mon, 07 Sep 2026 16:01:59 +0900",
@@ -401,13 +401,13 @@
         "by": "rules"
       },
       {
-        "title": "증시 거래대금 급감…증권사 3분기 실적 전망치 '뚝'",
-        "link": "https://www.yna.co.kr/view/AKR20260907126500008",
+        "title": "한투증권, 전액 손실 '벨기에펀드' 투자자들에 최대 80% 배상",
+        "link": "https://www.yna.co.kr/view/AKR20260907130100004",
         "source": "연합뉴스",
-        "date": "Mon, 7 Sep 2026 16:07:35 +0900",
+        "date": "Mon, 7 Sep 2026 16:43:36 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -460,11 +460,11 @@
         "by": "rules"
       },
       {
-        "title": "Forget Stock-Picking. The Stock Market Is Just 1 Big Trade Now.",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/forget-stock-picking-stock-market-200002004.html",
+        "title": "Scott Galloway issues grim SpaceX stock price forecast",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/scott-galloway-issues-grim-spacex-173300856.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-05T20:00:02Z",
-        "ko": "주식 따기는 잊어버리세요. 주식 시장은 이제 하나의 큰 거래일 뿐입니다.",
+        "date": "2026-09-06T17:33:00Z",
+        "ko": "스콧 갤러웨이, 암울한 스페이스X 주가 전망 발표",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -511,7 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "With Cybersecurity for Cloud and Artificial Intelligence, CrowdStrike Stock Is Positioned for Sustained Growth": "클라우드 및 인공 지능을 위한 사이버 보안을 통해 CrowdStrike Stock은 지속적인 성장을 위해 포지셔닝됩니다.",
     "Billionaires Were Buying These Two Nancy Pelosi AI Stocks": "억만장자들이 이 두 개의 낸시 펠로시 AI 주식을 사고 있었습니다.",
     "Dear GameStop Stock Fans, Mark Your Calendars for September 8": "친애하는 GameStop Stock 팬 여러분, 9월 8일 달력에 표시하세요",
     "Billionaire Peter Thiel’s Fund Is Betting on the Grid Behind AI: 2 Energy Stock Picks": "억만장자 피터 틸의 펀드가 AI 뒤에서 그리드에 베팅하고 있다: 에너지 스톡 픽 2가지",
@@ -810,7 +809,8 @@
     "Two Chip-Equipment Stocks Just Crushed Nvidia. Is the AI Rally Broadening?": "두 개의 칩 장비 재고가 엔비디아를 분쇄했습니다. AI 랠리가 확대되고 있습니까?",
     "Nvidia Barely Moved. These 2 AI Connectivity Stocks Jumped More Than 7%": "엔비디아가 거의 움직이지 않았습니다. 이 두 AI 연결 재고는 7% 이상 뛰어올랐습니다.",
     "Forget Stock-Picking. The Stock Market Is Just 1 Big Trade Now.": "주식 따기는 잊어버리세요. 주식 시장은 이제 하나의 큰 거래일 뿐입니다.",
-    "Michael Burry Says He Sold Alibaba, Calling It Pricey Before $10.2 Billion Share Sale": "마이클 버리 (Michael Burry) 는 알리바바를 팔았다고 말하면서 $10.2 Billion Share Sale 전에 비싸다고 말합니다."
+    "Michael Burry Says He Sold Alibaba, Calling It Pricey Before $10.2 Billion Share Sale": "마이클 버리 (Michael Burry) 는 알리바바를 팔았다고 말하면서 $10.2 Billion Share Sale 전에 비싸다고 말합니다.",
+    "Scott Galloway issues grim SpaceX stock price forecast": "스콧 갤러웨이, 암울한 스페이스X 주가 전망 발표"
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -2949,7 +2949,7 @@
       "2026-09-04": 1345.99,
       "2026-09-05": 1351.1,
       "2026-09-06": 1345.12,
-      "2026-09-07": 1344.25
+      "2026-09-07": 1343.32
     },
     "^GSPC": {
       "2026-08-29": 7711.76,
@@ -2985,7 +2985,7 @@
       "2026-09-04": 14.53,
       "2026-09-05": 14.53,
       "2026-09-06": 14.53,
-      "2026-09-07": 15.03
+      "2026-09-07": 15.02
     },
     "^TNX": {
       "2026-08-29": 4.72,
@@ -3316,8 +3316,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Ceoi7g239bcD1zVAm7n7d\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Ceoi7gjhQhBKc4XefUWHK\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Ceoi7hETc7ENNJtUsfrgU\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeoniitryKYTXg3iUgvv4\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeonijZYpYzkJ7dz5ff2L\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Ceonik4K9AwaXBpjciH1s\"}"
   ]
 }
