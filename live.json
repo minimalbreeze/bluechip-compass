@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-07T18:48:03.616Z",
+  "asOf": "2026-09-07T18:58:25.075Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-07T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1344.91,
+      "price": 1345.08,
       "prev": 1345.12,
-      "chg": -0.02,
+      "chg": 0,
       "prevDay": "2026-09-06",
       "basis": "prev-close-memo",
-      "time": "2026-09-07T18:47:53.000Z"
+      "time": "2026-09-07T18:58:08.000Z"
     },
     "^GSPC": {
       "price": 7718.6,
@@ -60,7 +60,7 @@
     }
   },
   "fx": {
-    "low52": 1344.91,
+    "low52": 1345.08,
     "high52": 1554.48,
     "pct": 0
   },
@@ -80,11 +80,11 @@
       "chg3m": -10.74
     },
     "KRW=X": {
-      "last": 1344.91,
-      "low52": 1344.91,
+      "last": 1345.08,
+      "low52": 1345.08,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -11.81
+      "chg3m": -11.8
     },
     "^GSPC": {
       "last": 7718.6,
@@ -496,14 +496,14 @@
         "by": "rules"
       },
       {
-        "title": "Best CD rates today, Sunday, September 6, 2026: Lock in up to 4.35% APY",
-        "link": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-sunday-september-6-2026-lock-in-up-to-435-apy-100000219.html",
+        "title": "Mortgage and refinance interest rates today, Sunday, September 6, 2026: Rates much higher week-over-week",
+        "link": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-sunday-september-6-2026-rates-much-higher-week-over-week-100000794.html",
         "source": "Yahoo Finance",
         "date": "2026-09-06T10:00:00Z",
-        "ko": "2026년 9월 6일 일요일, 오늘 최고 CD 가격: 최대 4.35% APY 고정",
+        "ko": "주택담보대출 및 재융자 금리 오늘, 2026년 9월 6일 일요일: 주당 이자율이 훨씬 높음",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -511,7 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "A Disney Strangle Strategy Can Profit From Big Swings By The Entertainment Stock": "디즈니 스트랭글 전략은 엔터테인먼트 주식으로 큰 스윙에서 이익을 얻을 수 있습니다.",
     "Fed Governor Waller indicates he will support holding rates steady at September meeting": "월러 연방준비제도이사회 (Fed) 총재는 9월 회의에서 꾸준한 보류 금리를 지지할 것이라고 밝혔습니다.",
     "Campbell's stock plunges as food maker slashes dividend after sales, profit declines": "식품 메이커가 판매 후 배당금을 삭감하고 이익이 감소함에 따라 캠벨의 주식은 급락합니다.",
     "'Danger zone of extreme weather': UN warns of supersized El Niño set to hit global economy and markets": "'극심한 날씨의 위험 지역': UN은 세계 경제와 시장을 강타할 초대형 엘니뇨에 대해 경고",
@@ -810,7 +809,8 @@
     "Chip stock investors beware — these charts could warn of further weakness ahead": "칩 주식 투자자 주의 — 이 차트는 앞으로 더 큰 약점을 경고할 수 있습니다",
     "Is the stock market open on Labor Day?": "주식 시장이 노동절에 열려 있습니까?",
     "Dead money: Your savings account is losing inflation fight — where 4 financial advisors grow their cash instead": "데드 머니: 저축 계좌가 인플레이션 싸움에서 패배하고 있습니다. 4명의 금융 어드바이저가 대신 현금을 모으고 있습니다.",
-    "Best CD rates today, Sunday, September 6, 2026: Lock in up to 4.35% APY": "2026년 9월 6일 일요일, 오늘 최고 CD 가격: 최대 4.35% APY 고정"
+    "Best CD rates today, Sunday, September 6, 2026: Lock in up to 4.35% APY": "2026년 9월 6일 일요일, 오늘 최고 CD 가격: 최대 4.35% APY 고정",
+    "Mortgage and refinance interest rates today, Sunday, September 6, 2026: Rates much higher week-over-week": "주택담보대출 및 재융자 금리 오늘, 2026년 9월 6일 일요일: 주당 이자율이 훨씬 높음"
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -2951,7 +2951,7 @@
       "2026-09-04": 1345.99,
       "2026-09-05": 1351.1,
       "2026-09-06": 1345.12,
-      "2026-09-07": 1344.91
+      "2026-09-07": 1345.08
     },
     "^GSPC": {
       "2026-08-29": 7711.76,
@@ -3331,7 +3331,7 @@
     }
   },
   "failed": [
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CepaVNpsFeazPYA8WzPSR\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CepaVPRqFGccWrtqwHssU\"}"
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CepbHCH9DcycJMrCHTyZ6\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CepbHCtMc3P5Jwh1qLHgC\"}"
   ]
 }
