@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-07T14:35:13.700Z",
+  "asOf": "2026-09-07T14:45:40.114Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-07T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1345.9,
+      "price": 1345.08,
       "prev": 1345.12,
-      "chg": 0.06,
+      "chg": 0,
       "prevDay": "2026-09-06",
       "basis": "prev-close-memo",
-      "time": "2026-09-07T14:34:55.000Z"
+      "time": "2026-09-07T14:45:31.000Z"
     },
     "^GSPC": {
       "price": 7718.6,
@@ -43,12 +43,12 @@
       "time": "2026-09-04T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 15.18,
+      "price": 15.21,
       "prev": 14.53,
-      "chg": 4.47,
+      "chg": 4.68,
       "prevDay": "2026-09-06",
       "basis": "prev-close-memo",
-      "time": "2026-09-07T14:19:46.000Z"
+      "time": "2026-09-07T14:30:31.000Z"
     },
     "^TNX": {
       "price": 4.784,
@@ -60,7 +60,7 @@
     }
   },
   "fx": {
-    "low52": 1345.9,
+    "low52": 1345.08,
     "high52": 1554.48,
     "pct": 0
   },
@@ -80,11 +80,11 @@
       "chg3m": -15.05
     },
     "KRW=X": {
-      "last": 1345.9,
-      "low52": 1345.9,
+      "last": 1345.08,
+      "low52": 1345.08,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -11.75
+      "chg3m": -11.8
     },
     "^GSPC": {
       "last": 7718.6,
@@ -101,11 +101,11 @@
       "chg3m": 2.23
     },
     "^VIX": {
-      "last": 15.18,
+      "last": 15.21,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.097,
-      "chg3m": -23.6
+      "pct52": 0.099,
+      "chg3m": -23.45
     },
     "^TNX": {
       "last": 4.78,
@@ -368,6 +368,17 @@
   "news": {
     "kr": [
       {
+        "title": "한국거래소 \"무신사, 유가증권시장 상장예심 신청\"(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260907147251008",
+        "source": "연합뉴스",
+        "date": "Mon, 7 Sep 2026 18:27:49 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
         "title": "메모리 초호황인데…\"삼전 주가 상승 막는 MX·노조 리스크\" [분석+]",
         "link": "https://www.hankyung.com/article/2026090791006",
         "source": "한국경제",
@@ -390,6 +401,17 @@
         "by": "rules"
       },
       {
+        "title": "한국거래소 \"무신사, 유가증권시장 상장예심 신청\"",
+        "link": "https://www.yna.co.kr/view/AKR20260907147200008",
+        "source": "연합뉴스",
+        "date": "Mon, 7 Sep 2026 17:54:22 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
         "title": "\"작년 저점 깼다\"…1340원대로 하락한 환율, 단기 바닥은? [분석+]",
         "link": "https://www.hankyung.com/article/2026090790556",
         "source": "한국경제",
@@ -408,28 +430,6 @@
         "act": "none",
         "lasting": "temporary",
         "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "'IPO 대어' 무신사, 코스피 상장예비심사 신청",
-        "link": "https://www.hankyung.com/article/2026090796526",
-        "source": "한국경제",
-        "date": "Mon, 07 Sep 2026 19:06:23 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "모처럼 힘쓴 코스피, 7000 턱밑",
-        "link": "https://www.mk.co.kr/news/stock/12146465",
-        "source": "매일경제",
-        "date": "Mon, 07 Sep 2026 18:04:43 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -2949,7 +2949,7 @@
       "2026-09-04": 1345.99,
       "2026-09-05": 1351.1,
       "2026-09-06": 1345.12,
-      "2026-09-07": 1345.9
+      "2026-09-07": 1345.08
     },
     "^GSPC": {
       "2026-08-29": 7711.76,
@@ -2985,7 +2985,7 @@
       "2026-09-04": 14.53,
       "2026-09-05": 14.53,
       "2026-09-06": 14.53,
-      "2026-09-07": 15.18
+      "2026-09-07": 15.21
     },
     "^TNX": {
       "2026-08-29": 4.72,
@@ -3316,9 +3316,8 @@
     }
   },
   "failed": [
-    "news/kr/연합뉴스: fetch failed",
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CepFD8ax47YqWwv3SP4jV\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CepFD9Kc7x4gpVCeeYrGo\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CepFD9uKp6u3toe2aWc3g\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CepG1JQLBuVMaEqxK3Ept\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CepG1K7FE4Sr4d5aBvtsX\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CepG1L7XGv6v6o16ecwae\"}"
   ]
 }
