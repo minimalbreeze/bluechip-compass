@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-07T19:29:29.937Z",
+  "asOf": "2026-09-07T19:39:55.242Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-07T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1344.97,
+      "price": 1345.03,
       "prev": 1345.12,
       "chg": -0.01,
       "prevDay": "2026-09-06",
       "basis": "prev-close-memo",
-      "time": "2026-09-07T19:29:20.000Z"
+      "time": "2026-09-07T19:39:42.000Z"
     },
     "^GSPC": {
       "price": 7718.6,
@@ -60,7 +60,7 @@
     }
   },
   "fx": {
-    "low52": 1344.97,
+    "low52": 1345.03,
     "high52": 1554.48,
     "pct": 0
   },
@@ -80,11 +80,11 @@
       "chg3m": -10.74
     },
     "KRW=X": {
-      "last": 1344.97,
-      "low52": 1344.97,
+      "last": 1345.03,
+      "low52": 1345.03,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -11.81
+      "chg3m": -11.8
     },
     "^GSPC": {
       "last": 7718.6,
@@ -496,11 +496,11 @@
         "by": "rules"
       },
       {
-        "title": "Ultra-rich Americans are dropping stocks and stockpiling historic piles of cash. Where their wealth’s going instead",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/ultra-rich-americans-dropping-stocks-101500963.html",
+        "title": "Wall Street Money Is Leaving Just As Atrium’s (RNA) Pipeline Turns Real",
+        "link": "https://finance.yahoo.com/healthcare/articles/wall-street-money-leaving-just-104402645.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-06T10:15:00Z",
-        "ko": "매우 부유한 미국인들은 주식을 떨어뜨리고 역사적인 현금 더미를 비축하고 있습니다. 대신 그들의 재산이 들어가는 곳",
+        "date": "2026-09-06T10:44:02Z",
+        "ko": "월스트리트 머니는 아트리움 (RNA) 파이프라인이 현실이 되듯이 떠난다",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -511,7 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "Campbell's stock plunges as food maker slashes dividend after sales, profit declines": "식품 메이커가 판매 후 배당금을 삭감하고 이익이 감소함에 따라 캠벨의 주식은 급락합니다.",
     "'Danger zone of extreme weather': UN warns of supersized El Niño set to hit global economy and markets": "'극심한 날씨의 위험 지역': UN은 세계 경제와 시장을 강타할 초대형 엘니뇨에 대해 경고",
     "VCSH vs SCHO: Corporate Bonds Face Off Against Treasuries": "VCSH vs SCHO: 기업 채권, 국채와 대립",
     "Stock Market Today: Dow Up On Fed Governor Remarks; Nvidia Rallies On Hugging Face Deal (Live Coverage)": "오늘의 주식 시장: 연준 주지사 발언에 대한 다우 업; 포옹 얼굴 거래에 대한 엔비디아의 집회 (라이브 커버리지)",
@@ -810,7 +809,8 @@
     "Dead money: Your savings account is losing inflation fight — where 4 financial advisors grow their cash instead": "데드 머니: 저축 계좌가 인플레이션 싸움에서 패배하고 있습니다. 4명의 금융 어드바이저가 대신 현금을 모으고 있습니다.",
     "Best CD rates today, Sunday, September 6, 2026: Lock in up to 4.35% APY": "2026년 9월 6일 일요일, 오늘 최고 CD 가격: 최대 4.35% APY 고정",
     "Mortgage and refinance interest rates today, Sunday, September 6, 2026: Rates much higher week-over-week": "주택담보대출 및 재융자 금리 오늘, 2026년 9월 6일 일요일: 주당 이자율이 훨씬 높음",
-    "Ultra-rich Americans are dropping stocks and stockpiling historic piles of cash. Where their wealth’s going instead": "매우 부유한 미국인들은 주식을 떨어뜨리고 역사적인 현금 더미를 비축하고 있습니다. 대신 그들의 재산이 들어가는 곳"
+    "Ultra-rich Americans are dropping stocks and stockpiling historic piles of cash. Where their wealth’s going instead": "매우 부유한 미국인들은 주식을 떨어뜨리고 역사적인 현금 더미를 비축하고 있습니다. 대신 그들의 재산이 들어가는 곳",
+    "Wall Street Money Is Leaving Just As Atrium’s (RNA) Pipeline Turns Real": "월스트리트 머니는 아트리움 (RNA) 파이프라인이 현실이 되듯이 떠난다"
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -2951,7 +2951,7 @@
       "2026-09-04": 1345.99,
       "2026-09-05": 1351.1,
       "2026-09-06": 1345.12,
-      "2026-09-07": 1344.97
+      "2026-09-07": 1345.03
     },
     "^GSPC": {
       "2026-08-29": 7711.76,
@@ -3331,7 +3331,7 @@
     }
   },
   "failed": [
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CepdefGvi5uA8SNjTeYHE\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CepdefusVWh4V8FmNYnVm\"}"
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CepeSkidT7FQio9hRzQFr\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CepeSmPZEQ6evBuBAtXvc\"}"
   ]
 }
