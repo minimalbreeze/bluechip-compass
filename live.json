@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-07T16:22:55.182Z",
+  "asOf": "2026-09-07T16:33:17.315Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-07T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1345.73,
+      "price": 1345.18,
       "prev": 1345.12,
-      "chg": 0.05,
+      "chg": 0,
       "prevDay": "2026-09-06",
       "basis": "prev-close-memo",
-      "time": "2026-09-07T16:22:43.000Z"
+      "time": "2026-09-07T16:33:08.000Z"
     },
     "^GSPC": {
       "price": 7718.6,
@@ -60,7 +60,7 @@
     }
   },
   "fx": {
-    "low52": 1345.73,
+    "low52": 1345.18,
     "high52": 1554.48,
     "pct": 0
   },
@@ -80,11 +80,11 @@
       "chg3m": -10.74
     },
     "KRW=X": {
-      "last": 1345.73,
-      "low52": 1345.73,
+      "last": 1345.18,
+      "low52": 1345.18,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -11.76
+      "chg3m": -11.79
     },
     "^GSPC": {
       "last": 7718.6,
@@ -496,11 +496,11 @@
         "by": "rules"
       },
       {
-        "title": "Scott Galloway issues grim SpaceX stock price forecast",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/scott-galloway-issues-grim-spacex-173300856.html",
+        "title": "Alibaba (BABA) Shares Decline Amid Macro and Competitive Headwinds",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/alibaba-baba-shares-decline-amid-143524908.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-06T17:33:00Z",
-        "ko": "스콧 갤러웨이, 암울한 스페이스X 주가 전망 발표",
+        "date": "2026-09-07T14:35:24Z",
+        "ko": "Alibaba (BABA), 거시적 및 경쟁적 역풍 속에서 주가 하락",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -2951,7 +2951,7 @@
       "2026-09-04": 1345.99,
       "2026-09-05": 1351.1,
       "2026-09-06": 1345.12,
-      "2026-09-07": 1345.73
+      "2026-09-07": 1345.18
     },
     "^GSPC": {
       "2026-08-29": 7711.76,
@@ -3331,7 +3331,7 @@
     }
   },
   "failed": [
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CepPRSD7kt1YDPvGyTqcw\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CepPRTaUR78uAY8m6dVGU\"}"
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CepQDJxq96HKQ8YdaA6FZ\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CepQDKX5FrXcY9eZZzR1G\"}"
   ]
 }
