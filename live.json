@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-07T16:12:32.956Z",
+  "asOf": "2026-09-07T16:22:55.182Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-07T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1345.18,
+      "price": 1345.73,
       "prev": 1345.12,
-      "chg": 0,
+      "chg": 0.05,
       "prevDay": "2026-09-06",
       "basis": "prev-close-memo",
-      "time": "2026-09-07T16:12:18.000Z"
+      "time": "2026-09-07T16:22:43.000Z"
     },
     "^GSPC": {
       "price": 7718.6,
@@ -60,7 +60,7 @@
     }
   },
   "fx": {
-    "low52": 1345.18,
+    "low52": 1345.73,
     "high52": 1554.48,
     "pct": 0
   },
@@ -80,11 +80,11 @@
       "chg3m": -10.74
     },
     "KRW=X": {
-      "last": 1345.18,
-      "low52": 1345.18,
+      "last": 1345.73,
+      "low52": 1345.73,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -11.79
+      "chg3m": -11.76
     },
     "^GSPC": {
       "last": 7718.6,
@@ -460,14 +460,14 @@
         "by": "rules"
       },
       {
-        "title": "Scott Galloway issues grim SpaceX stock price forecast",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/scott-galloway-issues-grim-spacex-173300856.html",
+        "title": "These 2 AI Power Stocks Jumped While the S&P 500 Fell",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/2-ai-power-stocks-jumped-150120214.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-06T17:33:00Z",
-        "ko": "스콧 갤러웨이, 암울한 스페이스X 주가 전망 발표",
+        "date": "2026-09-07T15:01:20Z",
+        "ko": "S&P 500이 추락하는 동안 이 2개의 AI 파워 스톡이 뛰어올랐습니다",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -496,14 +496,14 @@
         "by": "rules"
       },
       {
-        "title": "These 2 AI Power Stocks Jumped While the S&P 500 Fell",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/2-ai-power-stocks-jumped-150120214.html",
+        "title": "Scott Galloway issues grim SpaceX stock price forecast",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/scott-galloway-issues-grim-spacex-173300856.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-07T15:01:20Z",
-        "ko": "S&P 500이 추락하는 동안 이 2개의 AI 파워 스톡이 뛰어올랐습니다",
+        "date": "2026-09-06T17:33:00Z",
+        "ko": "스콧 갤러웨이, 암울한 스페이스X 주가 전망 발표",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -2951,7 +2951,7 @@
       "2026-09-04": 1345.99,
       "2026-09-05": 1351.1,
       "2026-09-06": 1345.12,
-      "2026-09-07": 1345.18
+      "2026-09-07": 1345.73
     },
     "^GSPC": {
       "2026-08-29": 7711.76,
@@ -3331,7 +3331,7 @@
     }
   },
   "failed": [
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CepNdaa87q7brAFXB73me\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CepNdbFJvbC38tmAiG8wE\"}"
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CepPRSD7kt1YDPvGyTqcw\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CepPRTaUR78uAY8m6dVGU\"}"
   ]
 }
