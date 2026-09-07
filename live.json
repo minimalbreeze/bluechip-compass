@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-07T13:22:00.691Z",
+  "asOf": "2026-09-07T13:32:28.420Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-07T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1347.08,
+      "price": 1347.25,
       "prev": 1345.12,
-      "chg": 0.15,
+      "chg": 0.16,
       "prevDay": "2026-09-06",
       "basis": "prev-close-memo",
-      "time": "2026-09-07T13:21:48.000Z"
+      "time": "2026-09-07T13:32:17.000Z"
     },
     "^GSPC": {
       "price": 7718.6,
@@ -43,12 +43,12 @@
       "time": "2026-09-04T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 15.17,
+      "price": 15.15,
       "prev": 14.53,
-      "chg": 4.4,
+      "chg": 4.27,
       "prevDay": "2026-09-06",
       "basis": "prev-close-memo",
-      "time": "2026-09-07T13:06:46.000Z"
+      "time": "2026-09-07T13:17:16.000Z"
     },
     "^TNX": {
       "price": 4.784,
@@ -60,7 +60,7 @@
     }
   },
   "fx": {
-    "low52": 1347.08,
+    "low52": 1347.38,
     "high52": 1554.48,
     "pct": 0
   },
@@ -80,11 +80,11 @@
       "chg3m": -15.05
     },
     "KRW=X": {
-      "last": 1347.08,
-      "low52": 1347.08,
+      "last": 1347.38,
+      "low52": 1347.38,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -11.67
+      "chg3m": -11.65
     },
     "^GSPC": {
       "last": 7718.6,
@@ -101,11 +101,11 @@
       "chg3m": 2.23
     },
     "^VIX": {
-      "last": 15.17,
+      "last": 15.15,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.097,
-      "chg3m": -23.65
+      "pct52": 0.096,
+      "chg3m": -23.75
     },
     "^TNX": {
       "last": 4.78,
@@ -379,13 +379,13 @@
         "by": "rules"
       },
       {
-        "title": "\"작년 저점 깼다\"…1340원대로 하락한 환율, 단기 바닥은? [분석+]",
-        "link": "https://www.hankyung.com/article/2026090790556",
+        "title": "메모리 초호황인데…\"삼전 주가 상승 막는 MX·노조 리스크\" [분석+]",
+        "link": "https://www.hankyung.com/article/2026090791006",
         "source": "한국경제",
-        "date": "Mon, 07 Sep 2026 20:00:03 +0900",
+        "date": "Mon, 07 Sep 2026 22:00:01 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -412,10 +412,10 @@
         "by": "rules"
       },
       {
-        "title": "'IPO 대어' 무신사, 코스피 상장예비심사 신청",
-        "link": "https://www.hankyung.com/article/2026090796526",
+        "title": "\"작년 저점 깼다\"…1340원대로 하락한 환율, 단기 바닥은? [분석+]",
+        "link": "https://www.hankyung.com/article/2026090790556",
         "source": "한국경제",
-        "date": "Mon, 07 Sep 2026 19:06:23 +0900",
+        "date": "Mon, 07 Sep 2026 20:00:03 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -2949,7 +2949,7 @@
       "2026-09-04": 1345.99,
       "2026-09-05": 1351.1,
       "2026-09-06": 1345.12,
-      "2026-09-07": 1347.08
+      "2026-09-07": 1347.25
     },
     "^GSPC": {
       "2026-08-29": 7711.76,
@@ -2985,7 +2985,7 @@
       "2026-09-04": 14.53,
       "2026-09-05": 14.53,
       "2026-09-06": 14.53,
-      "2026-09-07": 15.17
+      "2026-09-07": 15.15
     },
     "^TNX": {
       "2026-08-29": 4.72,
@@ -3316,8 +3316,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cep9dJf9e7Jroe2dT5gyJ\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cep9dKPoNjhCf1PFqbnkS\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cep9dKwJFEnmocPnEQdjb\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CepARaG3FfbL8aaKAstjH\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CepARb4Qo17kn7Uk8aqKq\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CepARbf8LmaiyD4baw6F1\"}"
   ]
 }
