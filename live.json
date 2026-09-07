@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-07T20:31:47.606Z",
+  "asOf": "2026-09-07T20:42:10.296Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-07T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1345.32,
+      "price": 1344.78,
       "prev": 1345.12,
-      "chg": 0.01,
+      "chg": -0.03,
       "prevDay": "2026-09-06",
       "basis": "prev-close-memo",
-      "time": "2026-09-07T20:31:38.000Z"
+      "time": "2026-09-07T20:41:56.000Z"
     },
     "^GSPC": {
       "price": 7718.6,
@@ -60,9 +60,9 @@
     }
   },
   "fx": {
-    "low52": 1345.06,
+    "low52": 1344.78,
     "high52": 1554.48,
-    "pct": 0.001
+    "pct": 0
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -10.74
     },
     "KRW=X": {
-      "last": 1345.32,
-      "low52": 1345.06,
+      "last": 1344.78,
+      "low52": 1344.78,
       "high52": 1554.48,
-      "pct52": 0.001,
-      "chg3m": -11.34
+      "pct52": 0,
+      "chg3m": -11.37
     },
     "^GSPC": {
       "last": 7718.6,
@@ -496,14 +496,14 @@
         "by": "rules"
       },
       {
-        "title": "Costco Reports Double-Digit Growth in August 2026 Sales. What That Means for COST Stock.",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/costco-reports-double-digit-growth-105141423.html",
+        "title": "Five Signs It’s Time to Reduce Equity Exposure",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/five-signs-time-reduce-equity-120000977.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-06T10:51:41Z",
-        "ko": "코스트코는 2026년 8월 매출에서 두 자릿수 성장을 기록했습니다. 원가 재고에 대한 의미.",
+        "date": "2026-09-06T12:00:00Z",
+        "ko": "5가지 징후 주식 노출을 줄여야 할 때입니다",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -511,7 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "VCSH vs SCHO: Corporate Bonds Face Off Against Treasuries": "VCSH vs SCHO: 기업 채권, 국채와 대립",
     "Stock Market Today: Dow Up On Fed Governor Remarks; Nvidia Rallies On Hugging Face Deal (Live Coverage)": "오늘의 주식 시장: 연준 주지사 발언에 대한 다우 업; 포옹 얼굴 거래에 대한 엔비디아의 집회 (라이브 커버리지)",
     "Snowflake stock skyrockets on AI-driven Q2 revenue jump": "AI 중심의 2분기 매출 급증에 따른 눈송이 재고 급증",
     "Artisan Sold Cencora (COR) as Earnings Momentum Slowed": "Cencora (COR) 를 수익 모멘텀 둔화로 판매한 장인",
@@ -810,7 +809,8 @@
     "Mortgage and refinance interest rates today, Sunday, September 6, 2026: Rates much higher week-over-week": "주택담보대출 및 재융자 금리 오늘, 2026년 9월 6일 일요일: 주당 이자율이 훨씬 높음",
     "Ultra-rich Americans are dropping stocks and stockpiling historic piles of cash. Where their wealth’s going instead": "매우 부유한 미국인들은 주식을 떨어뜨리고 역사적인 현금 더미를 비축하고 있습니다. 대신 그들의 재산이 들어가는 곳",
     "Wall Street Money Is Leaving Just As Atrium’s (RNA) Pipeline Turns Real": "월스트리트 머니는 아트리움 (RNA) 파이프라인이 현실이 되듯이 떠난다",
-    "Costco Reports Double-Digit Growth in August 2026 Sales. What That Means for COST Stock.": "코스트코는 2026년 8월 매출에서 두 자릿수 성장을 기록했습니다. 원가 재고에 대한 의미."
+    "Costco Reports Double-Digit Growth in August 2026 Sales. What That Means for COST Stock.": "코스트코는 2026년 8월 매출에서 두 자릿수 성장을 기록했습니다. 원가 재고에 대한 의미.",
+    "Five Signs It’s Time to Reduce Equity Exposure": "5가지 징후 주식 노출을 줄여야 할 때입니다"
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -2951,7 +2951,7 @@
       "2026-09-04": 1345.99,
       "2026-09-05": 1351.1,
       "2026-09-06": 1345.12,
-      "2026-09-07": 1345.32
+      "2026-09-07": 1344.78
     },
     "^GSPC": {
       "2026-08-29": 7711.76,
@@ -3331,7 +3331,7 @@
     }
   },
   "failed": [
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CepiQBWWpUKuG2ETdCvyp\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CepiQCAD2h6ZXN9j1nPFr\"}"
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CepjC5ryStU2VSF17vBP9\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CepjC6RDEMZYYR3756AMU\"}"
   ]
 }
