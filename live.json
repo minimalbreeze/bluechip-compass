@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-06T23:11:45.576Z",
+  "asOf": "2026-09-07T00:02:13.828Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-04T09:05:30.000Z"
     },
     "KRW=X": {
-      "price": 1345.65,
+      "price": 1345.98,
       "prev": 1345.12,
-      "chg": 0.04,
+      "chg": 0.06,
       "prevDay": "2026-09-06",
       "basis": "prev-close-memo",
-      "time": "2026-09-06T23:11:37.000Z"
+      "time": "2026-09-07T00:02:03.000Z"
     },
     "^GSPC": {
       "price": 7718.6,
@@ -60,16 +60,16 @@
     }
   },
   "fx": {
-    "low52": 1345.65,
+    "low52": 1345.98,
     "high52": 1554.48,
     "pct": 0
   },
   "hist": {
     "^KS11": {
       "last": 6687.21,
-      "low52": 3200.83,
+      "low52": 3219.59,
       "high52": 9114.55,
-      "pct52": 0.59,
+      "pct52": 0.588,
       "chg3m": -10.65
     },
     "^KQ11": {
@@ -80,11 +80,11 @@
       "chg3m": -10.74
     },
     "KRW=X": {
-      "last": 1345.65,
-      "low52": 1345.65,
+      "last": 1345.98,
+      "low52": 1345.98,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -11.76
+      "chg3m": -11.74
     },
     "^GSPC": {
       "last": 7718.6,
@@ -368,21 +368,21 @@
   "news": {
     "kr": [
       {
-        "title": "[마켓뷰] 오픈AI발 호재에 美반도체 급등…코스피도 강세 기대",
-        "link": "https://www.yna.co.kr/view/AKR20260907016300008",
+        "title": "신한증권 \"심텍, 소캠 등 고부가 제품 확대…목표가↑\"",
+        "link": "https://www.yna.co.kr/view/AKR20260907023400008",
         "source": "연합뉴스",
-        "date": "Mon, 7 Sep 2026 08:05:19 +0900",
+        "date": "Mon, 7 Sep 2026 08:42:52 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "상장 후 '반토막' 파두…실적 턴어라운드가 고점 회복 이끌까",
-        "link": "https://www.hankyung.com/article/202609044707i",
+        "title": "영업이익 전망 급증한 한올바이오파마… 이뮤노반트發 모멘텀과 숨은 리스크는",
+        "link": "https://www.hankyung.com/article/202609066823i",
         "source": "한국경제",
-        "date": "Mon, 07 Sep 2026 07:30:02 +0900",
+        "date": "Mon, 07 Sep 2026 08:30:02 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
@@ -390,10 +390,10 @@
         "by": "rules"
       },
       {
-        "title": "“NHN, 목표가 8만원 간다”…한국투자증권, 27% 상향 조정 이유는",
-        "link": "https://www.mk.co.kr/news/stock/12145657",
+        "title": "210만원→100만원대…닉스·SK스퀘어 주가, 폭등 뒤 폭락 ‘한몸’",
+        "link": "https://www.mk.co.kr/news/stock/12145692",
         "source": "매일경제",
-        "date": "Mon, 07 Sep 2026 07:35:34 +09:00",
+        "date": "Mon, 07 Sep 2026 08:47:43 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -401,10 +401,21 @@
         "by": "rules"
       },
       {
-        "title": "'한도는 많이 금리는 낮게'…정부지침 어긴 LH 사내 주택대출",
-        "link": "https://www.yna.co.kr/view/AKR20260906049200003",
+        "title": "SK증권, 코스맥스 목표가↑…\"화장품 수출 호조 실적에 반영\"",
+        "link": "https://www.yna.co.kr/view/AKR20260907021800008",
         "source": "연합뉴스",
-        "date": "Mon, 7 Sep 2026 06:03:05 +0900",
+        "date": "Mon, 7 Sep 2026 08:33:17 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "시장 뒤흔든 '채권금리 발작'…증시 영향 및 투자 전략은",
+        "link": "https://www.hankyung.com/article/202609066692i",
+        "source": "한국경제",
+        "date": "Mon, 07 Sep 2026 08:00:11 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -412,21 +423,10 @@
         "by": "rules"
       },
       {
-        "title": "지금 증시는 공포일까, 탐욕일까…투자자 '심리 온도계' 나왔다",
-        "link": "https://www.hankyung.com/article/2026090669461",
-        "source": "한국경제",
-        "date": "Sun, 06 Sep 2026 18:31:47 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "강력한 고용지표 뚫고 급등한 반도체 주가... 챗GPT ASTRA 마법의 시작인가",
-        "link": "https://www.mk.co.kr/news/stock/12145410",
+        "title": "“7000피 갈래, 6200피 갈래?”…이번주 코스피 ‘운명의 한주’",
+        "link": "https://www.mk.co.kr/news/stock/12145683",
         "source": "매일경제",
-        "date": "Mon, 07 Sep 2026 04:00:00 +09:00",
+        "date": "Mon, 07 Sep 2026 08:33:24 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -460,14 +460,13 @@
         "by": "rules"
       },
       {
-        "title": "Prediction: Taiwan Semiconductor's Market Value Passes $3 Trillion Before 2029",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/prediction-taiwan-semiconductors-market-value-225101856.html",
+        "title": "Dow Jones Futures Fall With Iran, Apple, Inflation In Focus; Nvidia, Micron, Sandisk Flash Buy Signals",
+        "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-nvidia-micron-sandisk-buy-signals-apple-inflation-reports/?src=A00220&yptr=yahoo",
         "source": "Yahoo Finance",
-        "date": "2026-09-06T22:51:01Z",
-        "ko": "예측: 2029년 이전 대만 반도체의 시장가치 3조 $ 통과",
+        "date": "2026-09-06T23:39:38Z",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -484,14 +483,15 @@
         "by": "rules"
       },
       {
-        "title": "Dow Jones Futures Fall With Iran, Apple, Inflation In Focus; Nvidia, Micron, Sandisk Flash Buy Signals",
-        "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-nvidia-micron-sandisk-buy-signals-apple-inflation-reports/?src=A00220&yptr=yahoo",
+        "title": "Retailers are Handling Tariff Refunds in Very Different Ways: Walmart and Home Depot",
+        "link": "https://finance.yahoo.com/economy/policy/articles/retailers-handling-tariff-refunds-very-225628436.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-06T22:31:15Z",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "date": "2026-09-06T22:56:28Z",
+        "ko": "소매업체들은 매우 다른 방식으로 관세 환급을 처리하고 있습니다: 월마트와 홈디포",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": null,
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
         "by": "rules"
       },
       {
@@ -510,7 +510,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "Charter Communications (CHTR) Strengthens Market Position Amid Fierce Competition": "치열한 경쟁 속에서 시장 지위를 강화하는 차터 커뮤니케이션 (CHTR)",
     "Dollar Supported by Rising T-Note Yields and Falling Stocks": "T-Note 수익률 상승과 주가 하락으로 달러 지원",
     "Global Bond Selloff Weighs on Stocks": "글로벌 채권 매도 주식 중량",
     "Is Goldman Sachs Stock Outperforming the Nasdaq?": "골드만삭스 주가가 나스닥을 능가하는가?",
@@ -809,7 +808,8 @@
     "Forget AI Stocks: This Clean-Power Play Is the Real Winner": "AI 주식 잊기: 이 클린 파워 플레이가 진정한 승자입니다.",
     "How BlackRock (BLK) is Quietly Turning Bitcoin Whales Into Wall Street Clients": "BlackRock (BLK) 이 Bitcoin Whales를 월스트리트 고객으로 조용히 전환하는 방법",
     "Dow Jones Futures Eye Iran With Apple, Inflation In Focus; Nvidia, Micron, Sandisk Flash Buy Signals": "Dow Jones Futures Eye Iran With Apple, Inflation In Focus; 엔비디아, 마이크론, 샌디스크 플래시 매수 신호",
-    "Prediction: Taiwan Semiconductor's Market Value Passes $3 Trillion Before 2029": "예측: 2029년 이전 대만 반도체의 시장가치 3조 $ 통과"
+    "Prediction: Taiwan Semiconductor's Market Value Passes $3 Trillion Before 2029": "예측: 2029년 이전 대만 반도체의 시장가치 3조 $ 통과",
+    "Retailers are Handling Tariff Refunds in Very Different Ways: Walmart and Home Depot": "소매업체들은 매우 다른 방식으로 관세 환급을 처리하고 있습니다: 월마트와 홈디포"
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -2948,7 +2948,7 @@
       "2026-09-04": 1345.99,
       "2026-09-05": 1351.1,
       "2026-09-06": 1345.12,
-      "2026-09-07": 1345.65
+      "2026-09-07": 1345.98
     },
     "^GSPC": {
       "2026-08-29": 7711.76,
@@ -3298,8 +3298,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Ceo2nm26MPofgQF2wuV7r\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Ceo2nmc4qM8fEfVw7DYp7\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Ceo2nnUuJjUgjH8pyeaXU\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Ceo6dz29qfwJPoEskZdju\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Ceo6dzoXktMK4rvLaPb8o\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Ceo6e1Ty1APauFNGwuMHa\"}"
   ]
 }
