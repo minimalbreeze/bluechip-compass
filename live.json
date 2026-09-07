@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-07T13:42:50.532Z",
+  "asOf": "2026-09-07T13:53:12.071Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-07T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1347.07,
+      "price": 1346.93,
       "prev": 1345.12,
-      "chg": 0.14,
+      "chg": 0.13,
       "prevDay": "2026-09-06",
       "basis": "prev-close-memo",
-      "time": "2026-09-07T13:42:38.000Z"
+      "time": "2026-09-07T13:53:00.000Z"
     },
     "^GSPC": {
       "price": 7718.6,
@@ -48,7 +48,7 @@
       "chg": 3.92,
       "prevDay": "2026-09-06",
       "basis": "prev-close-memo",
-      "time": "2026-09-07T13:27:31.000Z"
+      "time": "2026-09-07T13:38:01.000Z"
     },
     "^TNX": {
       "price": 4.784,
@@ -60,7 +60,7 @@
     }
   },
   "fx": {
-    "low52": 1347.07,
+    "low52": 1346.93,
     "high52": 1554.48,
     "pct": 0
   },
@@ -80,11 +80,11 @@
       "chg3m": -15.05
     },
     "KRW=X": {
-      "last": 1347.07,
-      "low52": 1347.07,
+      "last": 1346.93,
+      "low52": 1346.93,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -11.67
+      "chg3m": -11.68
     },
     "^GSPC": {
       "last": 7718.6,
@@ -496,11 +496,11 @@
         "by": "rules"
       },
       {
-        "title": "In a stalled exit market, sponsors are consolidating their way out",
-        "link": "https://finance.yahoo.com/small-business/articles/stalled-exit-market-sponsors-consolidating-112415745.html",
+        "title": "Broadcom vs Marvell: One of These AI Chip Stocks Is a Clear Winner",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/broadcom-vs-marvell-one-ai-133852173.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-07T11:24:15Z",
-        "ko": "중단된 퇴출 시장에서 스폰서들은 퇴출 경로를 통합하고 있습니다.",
+        "date": "2026-09-07T13:38:52Z",
+        "ko": "Broadcom vs Marvell: 이러한 AI 칩 주식 중 하나는 확실한 승자입니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -511,7 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "Stock Market Today: Nasdaq Ends Lower As Oil Prices Top $90; Micron, Nvidia Shares Wrapped in Red": "오늘의 주식 시장: 나스닥, 유가로 하락 마감 최고 $90; 마이크론, 엔비디아 주식을 빨간색으로 감싸다",
     "Stocks Settle Lower as Bond Yields Surge": "주식은 채권 수익률이 급증함에 따라 낮아집니다.",
     "Why alarming bond yields might drop sooner than investors think": "채권 수익률이 투자자들이 생각하는 것보다 빨리 떨어질 수 있는 이유",
     "Broadcom stock fall as investors weigh guidance. Here’s what Wall Street analysts are saying.": "Broadcom 주식은 투자자들이 지침을 따를 때 하락합니다. 월스트리트의 애널리스트들은 이렇게 말합니다.",
@@ -810,7 +809,8 @@
     "Just like for SpaceX, investors may look to ‘make room’ for AI lab IPOs. These stocks could pay the price.": "SpaceX와 마찬가지로 투자자도 AI 연구소 IPO를 위한 ‘공간 마련’ 을 모색할 수 있습니다. 이 주식들은 가격을 지불할 수 있습니다.",
     "HELOC and home equity loan rates today, Monday, September 7, 2026: A 19-basis-point differential": "HELOC 및 주택 지분 대출 금리 오늘 (2026년 9월 7일 월요일): 19-기초 포인트 차액",
     "Is the stock market open today for Labor Day? What about bond trading and mail delivery?": "오늘 노동절에 주식 시장이 열려 있습니까? 채권 거래 및 우편 배달은 어떻습니까?",
-    "In a stalled exit market, sponsors are consolidating their way out": "중단된 퇴출 시장에서 스폰서들은 퇴출 경로를 통합하고 있습니다."
+    "In a stalled exit market, sponsors are consolidating their way out": "중단된 퇴출 시장에서 스폰서들은 퇴출 경로를 통합하고 있습니다.",
+    "Broadcom vs Marvell: One of These AI Chip Stocks Is a Clear Winner": "Broadcom vs Marvell: 이러한 AI 칩 주식 중 하나는 확실한 승자입니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -2949,7 +2949,7 @@
       "2026-09-04": 1345.99,
       "2026-09-05": 1351.1,
       "2026-09-06": 1345.12,
-      "2026-09-07": 1347.07
+      "2026-09-07": 1346.93
     },
     "^GSPC": {
       "2026-08-29": 7711.76,
@@ -3316,8 +3316,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CepBDRn68nsUFWPrLEX4n\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CepBDT5ikUCP8wmPHrrXU\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CepBDTYkgjGiYw1Gu1e73\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CepC1FdvnqRhtJoqvXCvY\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CepC1GJ7ixjfWrZ6dzs5k\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CepC1Gxo6xGBah2Fa9NV4\"}"
   ]
 }
