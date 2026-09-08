@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-08T07:50:04.029Z",
+  "asOf": "2026-09-08T08:50:34.465Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-08T06:33:00.000Z"
     },
     "KRW=X": {
-      "price": 1343.78,
+      "price": 1344.47,
       "prev": 1345.06005859375,
-      "chg": -0.1,
+      "chg": -0.04,
       "prevDay": "2026-09-07",
       "basis": "prev-close-bar",
-      "time": "2026-09-08T07:49:54.000Z"
+      "time": "2026-09-08T08:50:17.000Z"
     },
     "^GSPC": {
       "price": 7718.6,
@@ -43,12 +43,12 @@
       "time": "2026-09-04T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 15.66,
+      "price": 15.84,
       "prev": 15.300000190734863,
-      "chg": 2.35,
+      "chg": 3.53,
       "prevDay": "2026-09-07",
       "basis": "prev-close-bar",
-      "time": "2026-09-08T07:34:46.000Z"
+      "time": "2026-09-08T08:35:16.000Z"
     },
     "^TNX": {
       "price": 4.784,
@@ -60,7 +60,7 @@
     }
   },
   "fx": {
-    "low52": 1343.98,
+    "low52": 1344.47,
     "high52": 1554.48,
     "pct": 0
   },
@@ -80,11 +80,11 @@
       "chg3m": -14.69
     },
     "KRW=X": {
-      "last": 1343.98,
-      "low52": 1343.98,
+      "last": 1344.47,
+      "low52": 1344.47,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -11.43
+      "chg3m": -11.4
     },
     "^GSPC": {
       "last": 7718.6,
@@ -101,11 +101,11 @@
       "chg3m": 2.23
     },
     "^VIX": {
-      "last": 15.66,
+      "last": 15.84,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.125,
-      "chg3m": -29.52
+      "pct52": 0.135,
+      "chg3m": -28.71
     },
     "^TNX": {
       "last": 4.78,
@@ -368,21 +368,10 @@
   "news": {
     "kr": [
       {
-        "title": "국고채 금리 대체로 상승…3년물 연 3.901%",
-        "link": "https://www.yna.co.kr/view/AKR20260908141900008",
+        "title": "삼성 반도체 일부 직원, 주거지원금 부정수급 의혹…조사 착수",
+        "link": "https://www.yna.co.kr/view/AKR20260908153400003",
         "source": "연합뉴스",
-        "date": "Tue, 8 Sep 2026 16:40:46 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "'주식 빠지면 지켜준다더니'…믿었던 美 장기채의 배신",
-        "link": "https://www.hankyung.com/article/202609081531i",
-        "source": "한국경제",
-        "date": "Tue, 08 Sep 2026 15:35:00 +0900",
+        "date": "Tue, 8 Sep 2026 17:45:45 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -390,10 +379,10 @@
         "by": "rules"
       },
       {
-        "title": "“퇴직연금도 ‘자산배분’ 시대”…NH투자증권, DB 적립금 컨설팅 강화",
-        "link": "https://www.mk.co.kr/news/stock/12147172",
-        "source": "매일경제",
-        "date": "Tue, 08 Sep 2026 16:12:03 +09:00",
+        "title": "증권업계 양극화 심화…순익 62% '빅5'가 쓸어 담아",
+        "link": "https://www.hankyung.com/article/2026090820361",
+        "source": "한국경제",
+        "date": "Tue, 08 Sep 2026 17:41:13 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -401,35 +390,46 @@
         "by": "rules"
       },
       {
-        "title": "엔화 강세에도 유가 상승 등에 환율 상승…1,345.6원",
-        "link": "https://www.yna.co.kr/view/AKR20260908128900002",
-        "source": "연합뉴스",
-        "date": "Tue, 8 Sep 2026 15:56:07 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "[속보] 잘 나가다 하락 반전…코스피 0.58%↓ 마감",
-        "link": "https://www.hankyung.com/article/2026090816157",
-        "source": "한국경제",
-        "date": "Tue, 08 Sep 2026 15:33:07 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "실적 눈높이 올라간 이 종목 ‘사자’ [주식 초고수는 지금]",
-        "link": "https://www.mk.co.kr/news/stock/12147133",
+        "title": "\"저PBR주 낙인 피하자\"…11개사 밸류업 공시",
+        "link": "https://www.mk.co.kr/news/stock/12147360",
         "source": "매일경제",
-        "date": "Tue, 08 Sep 2026 15:39:30 +09:00",
+        "date": "Tue, 08 Sep 2026 17:49:31 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "국고채 금리, 유가 상승에 낙폭 되돌리며 상승 마감(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260908141951008",
+        "source": "연합뉴스",
+        "date": "Tue, 8 Sep 2026 17:02:26 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "SK이노, 연매출 100조 눈앞…연기금 1000억 순매수",
+        "link": "https://www.hankyung.com/article/2026090819751",
+        "source": "한국경제",
+        "date": "Tue, 08 Sep 2026 17:34:32 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "막판 차익매물에…코스피 2% 오르다 0.6% 뚝",
+        "link": "https://www.mk.co.kr/news/stock/12147359",
+        "source": "매일경제",
+        "date": "Tue, 08 Sep 2026 17:49:31 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -439,7 +439,7 @@
         "title": "Canada's retaliatory tariffs worth $27.6 billion take effect as trade rift with U.S. deepens",
         "link": "https://www.cnbc.com/2026/09/08/canada-retaliatory-tariffs.html",
         "source": "CNBC",
-        "date": "Tue, 08 Sep 2026 07:00:25 GMT",
+        "date": "Tue, 08 Sep 2026 08:21:33 GMT",
         "ko": "미국과의 무역 균열이 심화됨에 따라 $276억 상당의 캐나다의 보복 관세가 발효됩니다.",
         "act": "watch",
         "lasting": "structural",
@@ -448,23 +448,22 @@
         "by": "rules"
       },
       {
-        "title": "Chip stock investors beware — these charts could warn of further weakness ahead",
-        "link": "https://www.marketwatch.com/story/chip-stock-investors-beware-these-charts-could-warn-of-further-weakness-ahead-1bd890cc?mod=mw_rss_topstories",
+        "title": "Why the Dow is being dragged down by a Swiss company’s bad news",
+        "link": "https://www.marketwatch.com/story/why-the-dow-is-being-dragged-down-by-a-swiss-companys-bad-news-7d3eaa06?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 07 Sep 2026 16:00:00 GMT",
-        "ko": "칩 주식 투자자 주의 — 이 차트는 앞으로 더 큰 약점을 경고할 수 있습니다",
+        "date": "Tue, 08 Sep 2026 08:15:00 GMT",
+        "ko": "다우지수가 스위스 회사의 나쁜 소식에 끌려가는 이유",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "How BlackRock (BLK) is Quietly Turning Bitcoin Whales Into Wall Street Clients",
-        "link": "https://finance.yahoo.com/markets/crypto/articles/blackrock-blk-quietly-turning-bitcoin-203223849.html",
+        "title": "Solana (SOL) Eyes Rally to $120 as ETFs Book 10-Week Streak of Positive Inflows",
+        "link": "https://finance.yahoo.com/markets/crypto/articles/solana-sol-eyes-rally-120-224703639.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-06T20:32:23Z",
-        "ko": "BlackRock (BLK) 이 Bitcoin Whales를 월스트리트 고객으로 조용히 전환하는 방법",
+        "date": "2026-09-06T22:47:03Z",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -484,11 +483,11 @@
         "by": "rules"
       },
       {
-        "title": "Is the stock market open today for Labor Day? What about bond trading and mail delivery?",
-        "link": "https://www.marketwatch.com/story/is-the-stock-market-open-on-labor-day-does-the-post-office-deliver-mail-6d58fd77?mod=mw_rss_topstories",
+        "title": "Chip stock investors beware — these charts could warn of further weakness ahead",
+        "link": "https://www.marketwatch.com/story/chip-stock-investors-beware-these-charts-could-warn-of-further-weakness-ahead-1bd890cc?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 07 Sep 2026 11:16:00 GMT",
-        "ko": "오늘 노동절에 주식 시장이 열려 있습니까? 채권 거래 및 우편 배달은 어떻습니까?",
+        "date": "Mon, 07 Sep 2026 16:00:00 GMT",
+        "ko": "칩 주식 투자자 주의 — 이 차트는 앞으로 더 큰 약점을 경고할 수 있습니다",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -496,22 +495,21 @@
         "by": "rules"
       },
       {
-        "title": "Forget AI Stocks: This Clean-Power Play Is the Real Winner",
-        "link": "https://finance.yahoo.com/energy/articles/forget-ai-stocks-clean-power-203500183.html",
+        "title": "Retailers are Handling Tariff Refunds in Very Different Ways: Walmart and Home Depot",
+        "link": "https://finance.yahoo.com/economy/policy/articles/retailers-handling-tariff-refunds-very-225628436.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-06T20:35:00Z",
-        "ko": "AI 주식 잊기: 이 클린 파워 플레이가 진정한 승자입니다.",
-        "act": "none",
-        "lasting": "temporary",
+        "date": "2026-09-06T22:56:28Z",
+        "ko": "소매업체들은 매우 다른 방식으로 관세 환급을 처리하고 있습니다: 월마트와 홈디포",
+        "act": "watch",
+        "lasting": "structural",
         "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
         "by": "rules"
       }
     ]
   },
   "newsBy": "rules",
   "trCache": {
-    "August jobs report could show a summer hiring slump. Haitian refugees are a wild card.": "8월 일자리 보고서에 따르면 여름 채용 부진이 나타날 수 있습니다. 아이티 난민은 와일드카드입니다.",
     "As Broadcom’s stock falls, Wall Street focuses on the company’s forecast": "Broadcom의 주가가 하락함에 따라 Wall Street은 회사의 예측에 중점을 둡니다.",
     "Stock market today: Dow, S&P 500, Nasdaq rise, yields fall as investors weigh Middle East tensions": "오늘의 주식 시장: 다우지수, S&P 500, 나스닥 상승, 투자자들의 중동 긴장감에 따른 수익률 하락",
     "Tech stocks today: Nvidia to acquire Hugging Face for $13 billion in strategic move": "오늘날의 기술 주식: 엔비디아, 전략적 움직임으로 $130억에 Hugging Face 인수",
@@ -810,7 +808,8 @@
     "Apple Stock: September Surprise Could Be Bigger Than a New iPhone": "애플 주식: 9월의 서프라이즈는 새로운 아이폰보다 더 클 수 있습니다.",
     "How to Play SNPS Stock as Layoffs Hit Synopsys": "정리 해고로 SNP 재고를 재생하는 방법 히트 개요",
     "Bond Traders Brace for More Swings at Both Ends of US Yield Curve": "채권 거래자들은 미국 수익률 곡선의 양쪽 끝에서 더 많은 스윙을 위해 버팀대",
-    "Canada's retaliatory tariffs worth $27.6 billion take effect as trade rift with U.S. deepens": "미국과의 무역 균열이 심화됨에 따라 $276억 상당의 캐나다의 보복 관세가 발효됩니다."
+    "Canada's retaliatory tariffs worth $27.6 billion take effect as trade rift with U.S. deepens": "미국과의 무역 균열이 심화됨에 따라 $276억 상당의 캐나다의 보복 관세가 발효됩니다.",
+    "Why the Dow is being dragged down by a Swiss company’s bad news": "다우지수가 스위스 회사의 나쁜 소식에 끌려가는 이유"
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -2952,7 +2951,7 @@
       "2026-09-05": 1351.1,
       "2026-09-06": 1345.12,
       "2026-09-07": 1344.73,
-      "2026-09-08": 1343.78
+      "2026-09-08": 1344.47
     },
     "^GSPC": {
       "2026-08-29": 7711.76,
@@ -2991,7 +2990,7 @@
       "2026-09-05": 14.53,
       "2026-09-06": 14.53,
       "2026-09-07": 15.3,
-      "2026-09-08": 15.66
+      "2026-09-08": 15.84
     },
     "^TNX": {
       "2026-08-29": 4.72,
@@ -3349,8 +3348,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Ceqc847sbMBCPcP2HfUJH\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Ceqc86DsoVdLK47dNrwh4\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Ceqc86n7j4Rzn9sT6Hrpw\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeqgjgeGLJgFNWJWaDBjR\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeqgjhwA5cX391nhMq1xt\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeqgjiRBLqRCpQdKo3sR2\"}"
   ]
 }
