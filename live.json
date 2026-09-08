@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-08T00:01:59.025Z",
+  "asOf": "2026-09-08T00:12:39.631Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-07T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1341.68,
+      "price": 1339.08,
       "prev": 1345.06005859375,
-      "chg": -0.25,
+      "chg": -0.44,
       "prevDay": "2026-09-07",
       "basis": "prev-close-bar",
-      "time": "2026-09-08T00:01:27.000Z"
+      "time": "2026-09-08T00:12:16.000Z"
     },
     "^GSPC": {
       "price": 7718.6,
@@ -60,7 +60,7 @@
     }
   },
   "fx": {
-    "low52": 1341.68,
+    "low52": 1339.08,
     "high52": 1554.48,
     "pct": 0
   },
@@ -80,11 +80,11 @@
       "chg3m": -10.74
     },
     "KRW=X": {
-      "last": 1341.68,
-      "low52": 1341.68,
+      "last": 1339.08,
+      "low52": 1339.08,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -11.58
+      "chg3m": -11.75
     },
     "^GSPC": {
       "last": 7718.6,
@@ -368,6 +368,17 @@
   "news": {
     "kr": [
       {
+        "title": "카카오페이증권, 카카오뱅크서도 주식 서비스 시작",
+        "link": "https://www.yna.co.kr/view/AKR20260908027700008",
+        "source": "연합뉴스",
+        "date": "Tue, 8 Sep 2026 08:58:49 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
         "title": "연료전지 본고장 미국 뚫었다…두산퓨얼셀, 목표주가 줄상향에 날개",
         "link": "https://www.hankyung.com/article/202609079368i",
         "source": "한국경제",
@@ -383,6 +394,17 @@
         "link": "https://www.mk.co.kr/news/stock/12146562",
         "source": "매일경제",
         "date": "Mon, 07 Sep 2026 21:52:16 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "중진공, 28일까지 中企 해외 진출 지원 민간기관 모집",
+        "link": "https://www.yna.co.kr/view/AKR20260908020100030",
+        "source": "연합뉴스",
+        "date": "Tue, 8 Sep 2026 08:43:09 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -408,28 +430,6 @@
         "act": "none",
         "lasting": "temporary",
         "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "\"알테오젠, 기술이전 계약 자체보다 실적을 봐야…목표가↓\"-하나",
-        "link": "https://www.hankyung.com/article/2026090899886",
-        "source": "한국경제",
-        "date": "Tue, 08 Sep 2026 08:00:34 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "모처럼 힘쓴 코스피, 7000 턱밑",
-        "link": "https://www.mk.co.kr/news/stock/12146465",
-        "source": "매일경제",
-        "date": "Mon, 07 Sep 2026 18:04:43 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -496,13 +496,14 @@
         "by": "rules"
       },
       {
-        "title": "South Korea Just Bet $20 Billion on SK hynix Stock",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/south-korea-just-bet-20-153002546.html",
+        "title": "Voya Financial’s (VOYA) Earnings Fell While Its Retirement Business Boomed",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/voya-financial-voya-earnings-fell-124948124.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-06T15:30:02Z",
+        "date": "2026-09-06T12:49:48Z",
+        "ko": "Voya Financial의 (VOYA) 수입은 은퇴 사업이 호황을 누리는 동안 하락했습니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -510,7 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "Stock Market Today: Dow Up On Fed Governor Remarks; Nvidia Rallies On Hugging Face Deal (Live Coverage)": "오늘의 주식 시장: 연준 주지사 발언에 대한 다우 업; 포옹 얼굴 거래에 대한 엔비디아의 집회 (라이브 커버리지)",
     "Snowflake stock skyrockets on AI-driven Q2 revenue jump": "AI 중심의 2분기 매출 급증에 따른 눈송이 재고 급증",
     "Artisan Sold Cencora (COR) as Earnings Momentum Slowed": "Cencora (COR) 를 수익 모멘텀 둔화로 판매한 장인",
     "Artisan Reduced Amer Sports (AS) After Its Rally Despite Long-Term Brand Strength": "장인은 장기적인 브랜드 강점에도 불구하고 랠리 후 아메리카 스포츠 (AS) 를 줄였습니다.",
@@ -809,7 +809,8 @@
     "Ultra-rich Americans are dropping stocks and stockpiling historic piles of cash. Where their wealth’s going instead": "매우 부유한 미국인들은 주식을 떨어뜨리고 역사적인 현금 더미를 비축하고 있습니다. 대신 그들의 재산이 들어가는 곳",
     "Wall Street Money Is Leaving Just As Atrium’s (RNA) Pipeline Turns Real": "월스트리트 머니는 아트리움 (RNA) 파이프라인이 현실이 되듯이 떠난다",
     "Costco Reports Double-Digit Growth in August 2026 Sales. What That Means for COST Stock.": "코스트코는 2026년 8월 매출에서 두 자릿수 성장을 기록했습니다. 원가 재고에 대한 의미.",
-    "Five Signs It’s Time to Reduce Equity Exposure": "5가지 징후 주식 노출을 줄여야 할 때입니다"
+    "Five Signs It’s Time to Reduce Equity Exposure": "5가지 징후 주식 노출을 줄여야 할 때입니다",
+    "Voya Financial’s (VOYA) Earnings Fell While Its Retirement Business Boomed": "Voya Financial의 (VOYA) 수입은 은퇴 사업이 호황을 누리는 동안 하락했습니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -2951,7 +2952,7 @@
       "2026-09-05": 1351.1,
       "2026-09-06": 1345.12,
       "2026-09-07": 1344.73,
-      "2026-09-08": 1341.68
+      "2026-09-08": 1339.08
     },
     "^GSPC": {
       "2026-08-29": 7711.76,
@@ -3331,10 +3332,8 @@
     }
   },
   "failed": [
-    "news/kr/연합뉴스: fetch failed",
-    "translate: This operation was aborted",
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CepzRoB1jBqrE8ihwhTjP\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CepzRpCXeuedgTZVxZtHh\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CepzRpok1E3NNfHRzJB5e\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Ceq1F2znCVbEXHkhmWPqs\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Ceq1F3bk9TMGzamBuVu3a\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Ceq1F4AUaQ8HdUeJkSBF5\"}"
   ]
 }
