@@ -1,30 +1,30 @@
 {
-  "asOf": "2026-09-08T06:28:24.886Z",
+  "asOf": "2026-09-08T06:39:01.609Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
-      "price": 6987.44,
+      "price": 6960.41,
       "prev": 6995.39013671875,
-      "chg": -0.11,
+      "chg": -0.5,
       "prevDay": "2026-09-07",
       "basis": "prev-close-bar",
-      "time": "2026-09-08T06:08:00.000Z"
+      "time": "2026-09-08T06:18:30.000Z"
     },
     "^KQ11": {
-      "price": 815.75,
+      "price": 813.13,
       "prev": 822.1900024414062,
-      "chg": -0.78,
+      "chg": -1.1,
       "prevDay": "2026-09-07",
       "basis": "prev-close-bar",
-      "time": "2026-09-08T06:08:00.000Z"
+      "time": "2026-09-08T06:18:40.000Z"
     },
     "KRW=X": {
-      "price": 1344.18,
+      "price": 1345.3,
       "prev": 1345.06005859375,
-      "chg": -0.07,
+      "chg": 0.02,
       "prevDay": "2026-09-07",
       "basis": "prev-close-bar",
-      "time": "2026-09-08T06:28:00.000Z"
+      "time": "2026-09-08T06:38:32.000Z"
     },
     "^GSPC": {
       "price": 7718.6,
@@ -60,31 +60,31 @@
     }
   },
   "fx": {
-    "low52": 1344.18,
+    "low52": 1345.06,
     "high52": 1554.48,
-    "pct": 0
+    "pct": 0.001
   },
   "hist": {
     "^KS11": {
-      "last": 6987.44,
+      "last": 6960.41,
       "low52": 3219.59,
       "high52": 9114.55,
-      "pct52": 0.639,
-      "chg3m": -9.62
+      "pct52": 0.635,
+      "chg3m": -9.97
     },
     "^KQ11": {
-      "last": 815.75,
+      "last": 813.13,
       "low52": 644.78,
       "high52": 1226.18,
-      "pct52": 0.294,
-      "chg3m": -14.28
+      "pct52": 0.29,
+      "chg3m": -14.55
     },
     "KRW=X": {
-      "last": 1344.18,
-      "low52": 1344.18,
+      "last": 1345.3,
+      "low52": 1345.06,
       "high52": 1554.48,
-      "pct52": 0,
-      "chg3m": -11.41
+      "pct52": 0.001,
+      "chg3m": -11.34
     },
     "^GSPC": {
       "last": 7718.6,
@@ -154,108 +154,108 @@
   "stocks": {
     "kr": {
       "105560": {
-        "price": 174600,
+        "price": 174100,
         "prev": 175900,
-        "chg": -0.74,
+        "chg": -1.02,
         "prevDay": "2026-09-07",
         "basis": "prev-close-bar",
-        "time": "2026-09-08T06:08:20.000Z"
+        "time": "2026-09-08T06:19:00.000Z"
       },
       "207940": {
-        "price": 1441000,
+        "price": 1440000,
         "prev": 1466000,
+        "chg": -1.77,
+        "prevDay": "2026-09-07",
+        "basis": "prev-close-bar",
+        "time": "2026-09-08T06:18:51.000Z"
+      },
+      "005930": {
+        "price": 269750,
+        "prev": 270000,
+        "chg": -0.09,
+        "prevDay": "2026-09-07",
+        "basis": "prev-close-bar",
+        "time": "2026-09-08T06:18:59.000Z"
+      },
+      "000660": {
+        "price": 1793000,
+        "prev": 1783000,
+        "chg": 0.56,
+        "prevDay": "2026-09-07",
+        "basis": "prev-close-bar",
+        "time": "2026-09-08T06:18:59.000Z"
+      },
+      "005380": {
+        "price": 384500,
+        "prev": 393000,
+        "chg": -2.16,
+        "prevDay": "2026-09-07",
+        "basis": "prev-close-bar",
+        "time": "2026-09-08T06:19:00.000Z"
+      },
+      "055550": {
+        "price": 113200,
+        "prev": 113900,
+        "chg": -0.61,
+        "prevDay": "2026-09-07",
+        "basis": "prev-close-bar",
+        "time": "2026-09-08T06:19:00.000Z"
+      },
+      "000810": {
+        "price": 647000,
+        "prev": 656000,
+        "chg": -1.37,
+        "prevDay": "2026-09-07",
+        "basis": "prev-close-bar",
+        "time": "2026-09-08T06:18:59.000Z"
+      },
+      "033780": {
+        "price": 169700,
+        "prev": 170300,
+        "chg": -0.35,
+        "prevDay": "2026-09-07",
+        "basis": "prev-close-bar",
+        "time": "2026-09-08T06:19:00.000Z"
+      },
+      "035420": {
+        "price": 214000,
+        "prev": 218000,
+        "chg": -1.83,
+        "prevDay": "2026-09-07",
+        "basis": "prev-close-bar",
+        "time": "2026-09-08T06:19:00.000Z"
+      },
+      "005490": {
+        "price": 328500,
+        "prev": 335500,
+        "chg": -2.09,
+        "prevDay": "2026-09-07",
+        "basis": "prev-close-bar",
+        "time": "2026-09-08T06:19:00.000Z"
+      },
+      "028260": {
+        "price": 380000,
+        "prev": 384000,
+        "chg": -1.04,
+        "prevDay": "2026-09-07",
+        "basis": "prev-close-bar",
+        "time": "2026-09-08T06:19:00.000Z"
+      },
+      "012450": {
+        "price": 1030000,
+        "prev": 1039000,
+        "chg": -0.87,
+        "prevDay": "2026-09-07",
+        "basis": "prev-close-bar",
+        "time": "2026-09-08T06:19:00.000Z"
+      },
+      "017670": {
+        "price": 92200,
+        "prev": 93800,
         "chg": -1.71,
         "prevDay": "2026-09-07",
         "basis": "prev-close-bar",
-        "time": "2026-09-08T06:08:17.000Z"
-      },
-      "005930": {
-        "price": 271250,
-        "prev": 270000,
-        "chg": 0.46,
-        "prevDay": "2026-09-07",
-        "basis": "prev-close-bar",
-        "time": "2026-09-08T06:08:22.000Z"
-      },
-      "000660": {
-        "price": 1808000,
-        "prev": 1783000,
-        "chg": 1.4,
-        "prevDay": "2026-09-07",
-        "basis": "prev-close-bar",
-        "time": "2026-09-08T06:08:22.000Z"
-      },
-      "005380": {
-        "price": 385000,
-        "prev": 393000,
-        "chg": -2.04,
-        "prevDay": "2026-09-07",
-        "basis": "prev-close-bar",
-        "time": "2026-09-08T06:08:20.000Z"
-      },
-      "055550": {
-        "price": 113400,
-        "prev": 113900,
-        "chg": -0.44,
-        "prevDay": "2026-09-07",
-        "basis": "prev-close-bar",
-        "time": "2026-09-08T06:08:22.000Z"
-      },
-      "000810": {
-        "price": 649000,
-        "prev": 656000,
-        "chg": -1.07,
-        "prevDay": "2026-09-07",
-        "basis": "prev-close-bar",
-        "time": "2026-09-08T06:08:21.000Z"
-      },
-      "033780": {
-        "price": 169800,
-        "prev": 170300,
-        "chg": -0.29,
-        "prevDay": "2026-09-07",
-        "basis": "prev-close-bar",
-        "time": "2026-09-08T06:08:21.000Z"
-      },
-      "035420": {
-        "price": 215000,
-        "prev": 218000,
-        "chg": -1.38,
-        "prevDay": "2026-09-07",
-        "basis": "prev-close-bar",
-        "time": "2026-09-08T06:08:22.000Z"
-      },
-      "005490": {
-        "price": 330000,
-        "prev": 335500,
-        "chg": -1.64,
-        "prevDay": "2026-09-07",
-        "basis": "prev-close-bar",
-        "time": "2026-09-08T06:08:20.000Z"
-      },
-      "028260": {
-        "price": 384500,
-        "prev": 384000,
-        "chg": 0.13,
-        "prevDay": "2026-09-07",
-        "basis": "prev-close-bar",
-        "time": "2026-09-08T06:08:22.000Z"
-      },
-      "012450": {
-        "price": 1034000,
-        "prev": 1039000,
-        "chg": -0.48,
-        "prevDay": "2026-09-07",
-        "basis": "prev-close-bar",
-        "time": "2026-09-08T06:08:19.000Z"
-      },
-      "017670": {
-        "price": 92500,
-        "prev": 93800,
-        "chg": -1.39,
-        "prevDay": "2026-09-07",
-        "basis": "prev-close-bar",
-        "time": "2026-09-08T06:08:22.000Z"
+        "time": "2026-09-08T06:19:00.000Z"
       }
     },
     "us": {
@@ -368,13 +368,13 @@
   "news": {
     "kr": [
       {
-        "title": "우양피앤엘 \"자회사 우양프라퍼티 주식 70억원에 취득\"",
-        "link": "https://www.yna.co.kr/view/AKR20260908112100008",
+        "title": "[외환] 원/달러 환율 5.1원 오른 1,345.6원(15:30 기준가)",
+        "link": "https://www.yna.co.kr/view/AKR20260908124200002",
         "source": "연합뉴스",
-        "date": "Tue, 8 Sep 2026 15:07:50 +0900",
+        "date": "Tue, 8 Sep 2026 15:30:42 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -390,10 +390,21 @@
         "by": "rules"
       },
       {
-        "title": "AI 모멘텀이 금리 불안 누른다 … 7500선부터 강한 매물 벽",
-        "link": "https://www.mk.co.kr/news/stock/12146856",
+        "title": "[속보] 잘 나가다 하락 반전…코스피 0.58%↓ 마감",
+        "link": "https://www.mk.co.kr/news/stock/12147129",
         "source": "매일경제",
-        "date": "Tue, 08 Sep 2026 11:09:49 +09:00",
+        "date": "Tue, 08 Sep 2026 15:36:20 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "고양시, 내년 외국인 계절근로자 고용 희망 농가 모집",
+        "link": "https://www.yna.co.kr/view/AKR20260908118700060",
+        "source": "연합뉴스",
+        "date": "Tue, 8 Sep 2026 15:29:53 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -412,21 +423,10 @@
         "by": "rules"
       },
       {
-        "title": "DS투자증권 “베어허그법, 저PBR 리레이팅 촉매 될 것”",
-        "link": "https://www.mk.co.kr/news/stock/12146833",
+        "title": "“7000피 간다는데 증시 떠나는 돈”…쪼그라든 개미 실탄, 왜?",
+        "link": "https://www.mk.co.kr/news/stock/12147123",
         "source": "매일경제",
-        "date": "Tue, 08 Sep 2026 10:57:59 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "한국거래소, ACGA 및 글로벌 기관투자자 라운드테이블 개최",
-        "link": "https://www.hankyung.com/article/2026090811486",
-        "source": "한국경제",
-        "date": "Tue, 08 Sep 2026 13:31:23 +0900",
+        "date": "Tue, 08 Sep 2026 15:34:34 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -460,13 +460,13 @@
         "by": "rules"
       },
       {
-        "title": "Equinix Is Doubling Down on AI Data Centers. How to Play EQIX Stock Here",
-        "link": "https://finance.yahoo.com/technology/ai/articles/equinix-doubling-down-ai-data-183002468.html",
+        "title": "How to Play SNPS Stock as Layoffs Hit Synopsys",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/play-snps-stock-layoffs-hit-193002089.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-06T18:30:02Z",
+        "date": "2026-09-06T19:30:02Z",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -495,13 +495,13 @@
         "by": "rules"
       },
       {
-        "title": "How to Play SNPS Stock as Layoffs Hit Synopsys",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/play-snps-stock-layoffs-hit-193002089.html",
+        "title": "Equinix Is Doubling Down on AI Data Centers. How to Play EQIX Stock Here",
+        "link": "https://finance.yahoo.com/technology/ai/articles/equinix-doubling-down-ai-data-183002468.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-06T19:30:02Z",
+        "date": "2026-09-06T18:30:02Z",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -2924,7 +2924,7 @@
       "2026-09-05": 6687.21,
       "2026-09-06": 6687.21,
       "2026-09-07": 6995.39,
-      "2026-09-08": 6987.44
+      "2026-09-08": 6960.41
     },
     "^KQ11": {
       "2026-08-29": 838.41,
@@ -2937,7 +2937,7 @@
       "2026-09-05": 813.5,
       "2026-09-06": 813.5,
       "2026-09-07": 822.19,
-      "2026-09-08": 815.75
+      "2026-09-08": 813.13
     },
     "KRW=X": {
       "2026-08-29": 1371.5,
@@ -2950,7 +2950,7 @@
       "2026-09-05": 1351.1,
       "2026-09-06": 1345.12,
       "2026-09-07": 1344.73,
-      "2026-09-08": 1344.18
+      "2026-09-08": 1345.3
     },
     "^GSPC": {
       "2026-08-29": 7711.76,
@@ -3015,7 +3015,7 @@
       "2026-09-05": 172000,
       "2026-09-06": 172000,
       "2026-09-07": 175900,
-      "2026-09-08": 174600
+      "2026-09-08": 174100
     },
     "207940.KS": {
       "2026-08-29": 1486000,
@@ -3028,7 +3028,7 @@
       "2026-09-05": 1447000,
       "2026-09-06": 1447000,
       "2026-09-07": 1466000,
-      "2026-09-08": 1441000
+      "2026-09-08": 1440000
     },
     "005930.KS": {
       "2026-08-29": 257000,
@@ -3041,7 +3041,7 @@
       "2026-09-05": 255500,
       "2026-09-06": 255500,
       "2026-09-07": 270000,
-      "2026-09-08": 271250
+      "2026-09-08": 269750
     },
     "000660.KS": {
       "2026-08-29": 1653000,
@@ -3054,7 +3054,7 @@
       "2026-09-05": 1647000,
       "2026-09-06": 1647000,
       "2026-09-07": 1783000,
-      "2026-09-08": 1808000
+      "2026-09-08": 1793000
     },
     "005380.KS": {
       "2026-08-29": 399500,
@@ -3067,7 +3067,7 @@
       "2026-09-05": 383500,
       "2026-09-06": 383500,
       "2026-09-07": 393000,
-      "2026-09-08": 385000
+      "2026-09-08": 384500
     },
     "055550.KS": {
       "2026-08-29": 109700,
@@ -3080,7 +3080,7 @@
       "2026-09-05": 110300,
       "2026-09-06": 110300,
       "2026-09-07": 113900,
-      "2026-09-08": 113400
+      "2026-09-08": 113200
     },
     "000810.KS": {
       "2026-08-29": 687000,
@@ -3093,7 +3093,7 @@
       "2026-09-05": 663000,
       "2026-09-06": 663000,
       "2026-09-07": 656000,
-      "2026-09-08": 649000
+      "2026-09-08": 647000
     },
     "033780.KS": {
       "2026-08-29": 176300,
@@ -3106,7 +3106,7 @@
       "2026-09-05": 172500,
       "2026-09-06": 172500,
       "2026-09-07": 170300,
-      "2026-09-08": 169800
+      "2026-09-08": 169700
     },
     "035420.KS": {
       "2026-08-29": 220500,
@@ -3119,7 +3119,7 @@
       "2026-09-05": 213500,
       "2026-09-06": 213500,
       "2026-09-07": 218000,
-      "2026-09-08": 215000
+      "2026-09-08": 214000
     },
     "005490.KS": {
       "2026-08-29": 337500,
@@ -3132,7 +3132,7 @@
       "2026-09-05": 337000,
       "2026-09-06": 337000,
       "2026-09-07": 335500,
-      "2026-09-08": 330000
+      "2026-09-08": 328500
     },
     "028260.KS": {
       "2026-08-29": 375000,
@@ -3145,7 +3145,7 @@
       "2026-09-05": 367000,
       "2026-09-06": 367000,
       "2026-09-07": 384000,
-      "2026-09-08": 384500
+      "2026-09-08": 380000
     },
     "012450.KS": {
       "2026-08-29": 1157000,
@@ -3158,7 +3158,7 @@
       "2026-09-05": 1055000,
       "2026-09-06": 1055000,
       "2026-09-07": 1039000,
-      "2026-09-08": 1034000
+      "2026-09-08": 1030000
     },
     "017670.KS": {
       "2026-08-29": 98600,
@@ -3171,7 +3171,7 @@
       "2026-09-05": 92500,
       "2026-09-06": 92500,
       "2026-09-07": 93800,
-      "2026-09-08": 92500
+      "2026-09-08": 92200
     },
     "MSFT": {
       "2026-08-29": 513.53,
@@ -3348,8 +3348,8 @@
   },
   "failed": [
     "translate: This operation was aborted",
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeqVtwRysSs8378sHXuJt\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeqVtxCcucY53wqLwFs9Q\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeqVtxoLXxBVspTDyb3b8\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeqWhsuDU5wq2W9NEuRSA\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeqWhtae6pJBW7qRvJJ1H\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeqWhu69daBbpkopR9pGw\"}"
   ]
 }
