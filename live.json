@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-07T23:48:32.970Z",
+  "asOf": "2026-09-08T00:01:59.025Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-07T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1344.44,
+      "price": 1341.68,
       "prev": 1345.06005859375,
-      "chg": -0.05,
+      "chg": -0.25,
       "prevDay": "2026-09-07",
       "basis": "prev-close-bar",
-      "time": "2026-09-07T23:48:11.000Z"
+      "time": "2026-09-08T00:01:27.000Z"
     },
     "^GSPC": {
       "price": 7718.6,
@@ -60,7 +60,7 @@
     }
   },
   "fx": {
-    "low52": 1344.44,
+    "low52": 1341.68,
     "high52": 1554.48,
     "pct": 0
   },
@@ -80,11 +80,11 @@
       "chg3m": -10.74
     },
     "KRW=X": {
-      "last": 1344.44,
-      "low52": 1344.44,
+      "last": 1341.68,
+      "low52": 1341.68,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -11.4
+      "chg3m": -11.58
     },
     "^GSPC": {
       "last": 7718.6,
@@ -368,10 +368,43 @@
   "news": {
     "kr": [
       {
-        "title": "삼성증권 \"에스엠, 구조적 레벨업 전사 이익 체력 집중할 시점\"",
-        "link": "https://www.yna.co.kr/view/AKR20260908022000008",
-        "source": "연합뉴스",
-        "date": "Tue, 8 Sep 2026 08:37:47 +0900",
+        "title": "연료전지 본고장 미국 뚫었다…두산퓨얼셀, 목표주가 줄상향에 날개",
+        "link": "https://www.hankyung.com/article/202609079368i",
+        "source": "한국경제",
+        "date": "Tue, 08 Sep 2026 08:26:02 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "청약 흥행 참패했는데 상장 후 주가 대박…상한가 친 새내기주는",
+        "link": "https://www.mk.co.kr/news/stock/12146562",
+        "source": "매일경제",
+        "date": "Mon, 07 Sep 2026 21:52:16 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "\"중국산 로봇의 역습\"…화낙·야스카와 실적호조에도 주가 부진",
+        "link": "https://www.hankyung.com/article/202609080045i",
+        "source": "한국경제",
+        "date": "Tue, 08 Sep 2026 08:20:03 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "젠슨황도 극찬한 챗GPT ASTRA…반도체 급등랠리 다시 오나 [불앤베어 플러스]",
+        "link": "https://www.mk.co.kr/news/stock/12146541",
+        "source": "매일경제",
+        "date": "Mon, 07 Sep 2026 20:39:07 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -390,46 +423,13 @@
         "by": "rules"
       },
       {
-        "title": "청약 흥행 참패했는데 상장 후 주가 대박…상한가 친 새내기주는",
-        "link": "https://www.mk.co.kr/news/stock/12146562",
+        "title": "모처럼 힘쓴 코스피, 7000 턱밑",
+        "link": "https://www.mk.co.kr/news/stock/12146465",
         "source": "매일경제",
-        "date": "Mon, 07 Sep 2026 21:52:16 +09:00",
+        "date": "Mon, 07 Sep 2026 18:04:43 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "하나증권 \"농심, 해외 매출 증가 기대…저가매수 유효\"",
-        "link": "https://www.yna.co.kr/view/AKR20260908021500008",
-        "source": "연합뉴스",
-        "date": "Tue, 8 Sep 2026 08:31:07 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "[스타워즈] 16주 투자 대장정 개막…첫날 KB증권 스타투업 선두",
-        "link": "https://www.hankyung.com/article/2026090795986",
-        "source": "한국경제",
-        "date": "Tue, 08 Sep 2026 08:00:09 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "젠슨황도 극찬한 챗GPT ASTRA…반도체 급등랠리 다시 오나 [불앤베어 플러스]",
-        "link": "https://www.mk.co.kr/news/stock/12146541",
-        "source": "매일경제",
-        "date": "Mon, 07 Sep 2026 20:39:07 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -496,10 +496,10 @@
         "by": "rules"
       },
       {
-        "title": "Bruker (BRKR) Wagers On Fusion Energy While Wall Street Waits",
-        "link": "https://finance.yahoo.com/energy/articles/bruker-brkr-wagers-fusion-energy-144830622.html",
+        "title": "South Korea Just Bet $20 Billion on SK hynix Stock",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/south-korea-just-bet-20-153002546.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-06T14:48:30Z",
+        "date": "2026-09-06T15:30:02Z",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -2951,7 +2951,7 @@
       "2026-09-05": 1351.1,
       "2026-09-06": 1345.12,
       "2026-09-07": 1344.73,
-      "2026-09-08": 1344.44
+      "2026-09-08": 1341.68
     },
     "^GSPC": {
       "2026-08-29": 7711.76,
@@ -3331,9 +3331,10 @@
     }
   },
   "failed": [
+    "news/kr/연합뉴스: fetch failed",
     "translate: This operation was aborted",
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CepyQQ2LUFJrMjYbJJkSg\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CepyQQgGvMftP359KuoS2\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CepyQR8oz9JJMqFpb6MLn\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CepzRoB1jBqrE8ihwhTjP\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CepzRpCXeuedgTZVxZtHh\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CepzRpok1E3NNfHRzJB5e\"}"
   ]
 }
