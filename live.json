@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-08T20:39:37.623Z",
+  "asOf": "2026-09-08T20:50:02.032Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-08T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1340.45,
+      "price": 1340.43,
       "prev": 1345.06005859375,
       "chg": -0.34,
       "prevDay": "2026-09-07",
       "basis": "prev-close-bar",
-      "time": "2026-09-08T20:39:28.000Z"
+      "time": "2026-09-08T20:49:51.000Z"
     },
     "^GSPC": {
       "price": 7673.52,
@@ -40,7 +40,7 @@
       "chg": -0.32,
       "prevDay": "2026-09-07",
       "basis": "prev-close-memo",
-      "time": "2026-09-08T20:39:29.000Z"
+      "time": "2026-09-08T20:49:53.000Z"
     },
     "^VIX": {
       "price": 15.72,
@@ -60,7 +60,7 @@
     }
   },
   "fx": {
-    "low52": 1340.45,
+    "low52": 1340.43,
     "high52": 1554.48,
     "pct": 0
   },
@@ -80,8 +80,8 @@
       "chg3m": -15.05
     },
     "KRW=X": {
-      "last": 1340.45,
-      "low52": 1340.45,
+      "last": 1340.43,
+      "low52": 1340.43,
       "high52": 1554.48,
       "pct52": 0,
       "chg3m": -11.2
@@ -368,13 +368,13 @@
   "news": {
     "kr": [
       {
-        "title": "삼성 반도체 일부 직원, 주거지원금 부정수급 의혹…조사 착수",
-        "link": "https://www.yna.co.kr/view/AKR20260908153400003",
+        "title": "'긴축의 무게' 금리 0.5%p 오르면 가계 이자 연 6.5조원↑",
+        "link": "https://www.yna.co.kr/view/AKR20260908155700002",
         "source": "연합뉴스",
-        "date": "Tue, 8 Sep 2026 17:45:45 +0900",
+        "date": "Wed, 9 Sep 2026 05:45:01 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -401,13 +401,13 @@
         "by": "rules"
       },
       {
-        "title": "국고채 금리, 유가 상승에 낙폭 되돌리며 상승 마감(종합)",
-        "link": "https://www.yna.co.kr/view/AKR20260908141951008",
+        "title": "삼성 반도체 일부 직원, 주거지원금 부정수급 의혹…조사 착수",
+        "link": "https://www.yna.co.kr/view/AKR20260908153400003",
         "source": "연합뉴스",
-        "date": "Tue, 8 Sep 2026 17:02:26 +0900",
+        "date": "Tue, 8 Sep 2026 17:45:45 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -460,14 +460,14 @@
         "by": "rules"
       },
       {
-        "title": "In a stalled exit market, sponsors are consolidating their way out",
-        "link": "https://finance.yahoo.com/small-business/articles/stalled-exit-market-sponsors-consolidating-112415745.html",
+        "title": "How Is American International Group’s Stock Performance Compared to Other Diversified Insurance Stocks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/american-international-group-stock-performance-120802780.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-07T11:24:15Z",
-        "ko": "중단된 퇴출 시장에서 스폰서들은 퇴출 경로를 통합하고 있습니다.",
+        "date": "2026-09-07T12:08:02Z",
+        "ko": "American International Group의 주식 실적은 다른 다각화된 보험 주식과 어떻게 비교됩니까?",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -496,23 +496,21 @@
         "by": "rules"
       },
       {
-        "title": "EU regulators send early warning to Oracle ahead of earnings",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/eu-regulators-send-early-warning-000300590.html",
+        "title": "Is Microchip Technology Stock Underperforming the S&P 500?",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/microchip-technology-stock-underperforming-p-121608341.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-08T00:03:00Z",
-        "ko": "EU 규제 당국은 수입보다 먼저 오라클에 조기 경고를 보냅니다.",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": "company",
-        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
+        "date": "2026-09-07T12:16:08Z",
+        "ko": "마이크로칩 기술 재고가 S&P 500의 실적을 밑도는가?",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
     ]
   },
   "newsBy": "rules",
   "trCache": {
-    "GitLab Inc. Q2 2027 Earnings Call Summary": "GitLab Inc. 2027년 2분기 수입 통화 요약",
-    "Oura files for IPO amid Americans’ obsession with tracking their sleep, steps and heart rates": "수면, 걸음 수 및 심박수 추적에 대한 미국인들의 집착 속에서 IPO를 위한 OURA 파일",
     "1 Trade to Make Now as Inflation Fears Swirl in September": "1 거래를 9월의 인플레이션 공포 소용돌이로 만드세요",
     "Is Sandisk Stock Outperforming the Nasdaq?": "샌디스크 재고가 나스닥을 능가하는가?",
     "Adobe just announced its next CEO. Here’s why its stock is dropping.": "Adobe가 차기 CEO를 발표했습니다. 재고가 줄어드는 이유는 다음과 같습니다.",
@@ -810,7 +808,9 @@
     "How Is Moderna's Stock Performance Compared to Other Healthcare Stocks": "Moderna의 주식 실적은 다른 의료 주식과 비교하여 어떻게 비교됩니까?",
     "Dell and HPE Posted Record Revenue. Here’s Why the Market Rewarded 1 and Punished the Other.": "Dell과 HPE는 기록적인 수익을 올렸습니다. 시장이 1을 보상하고 상대방을 처벌한 이유는 다음과 같습니다.",
     "Trump wants your 401(k) in private equity — but 54% of the biggest 2025 bankruptcies were PE-backed companies": "트럼프는 귀하의 401 (k) 사모펀드를 원합니다. 그러나 가장 큰 2025 파산의 54% 는 PE 지원 회사였습니다.",
-    "Capital One Financial Stock: Is COF Underperforming the Financial Services Sector?": "캐피탈 원 금융 주식: COF가 금융 서비스 부문을 부진하게 하고 있습니까?"
+    "Capital One Financial Stock: Is COF Underperforming the Financial Services Sector?": "캐피탈 원 금융 주식: COF가 금융 서비스 부문을 부진하게 하고 있습니까?",
+    "How Is American International Group’s Stock Performance Compared to Other Diversified Insurance Stocks": "American International Group의 주식 실적은 다른 다각화된 보험 주식과 어떻게 비교됩니까?",
+    "Is Microchip Technology Stock Underperforming the S&P 500?": "마이크로칩 기술 재고가 S&P 500의 실적을 밑도는가?"
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -2954,7 +2954,7 @@
       "2026-09-05": 1351.1,
       "2026-09-06": 1345.12,
       "2026-09-07": 1344.73,
-      "2026-09-08": 1340.45
+      "2026-09-08": 1340.43
     },
     "^GSPC": {
       "2026-08-29": 7711.76,
@@ -3364,7 +3364,7 @@
     }
   },
   "failed": [
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cercok8m9cTfEES3w4U9r\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CercokjUwnf89RPjzyXys\"}"
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cerdbmg4nYfwFEpWhyBkB\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CerdbnLkU3LJqWqSQuTAs\"}"
   ]
 }
