@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-08T15:06:39.513Z",
+  "asOf": "2026-09-08T15:16:40.754Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,48 +19,48 @@
       "time": "2026-09-08T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1341.74,
+      "price": 1341.64,
       "prev": 1345.06005859375,
       "chg": -0.25,
       "prevDay": "2026-09-07",
       "basis": "prev-close-bar",
-      "time": "2026-09-08T15:06:22.000Z"
+      "time": "2026-09-08T15:16:30.000Z"
     },
     "^GSPC": {
-      "price": 7693.11,
+      "price": 7697.44,
       "prev": 7718.6,
-      "chg": -0.33,
+      "chg": -0.27,
       "prevDay": "2026-09-07",
       "basis": "prev-close-memo",
-      "time": "2026-09-08T15:06:31.000Z"
+      "time": "2026-09-08T15:16:32.000Z"
     },
     "^IXIC": {
-      "price": 26445.334,
+      "price": 26478.086,
       "prev": 26506.99,
-      "chg": -0.23,
+      "chg": -0.11,
       "prevDay": "2026-09-07",
       "basis": "prev-close-memo",
-      "time": "2026-09-08T15:06:30.000Z"
+      "time": "2026-09-08T15:16:30.000Z"
     },
     "^VIX": {
-      "price": 15.38,
+      "price": 15.41,
       "prev": 15.300000190734863,
-      "chg": 0.52,
+      "chg": 0.72,
       "prevDay": "2026-09-07",
       "basis": "prev-close-bar",
-      "time": "2026-09-08T14:51:16.000Z"
+      "time": "2026-09-08T15:01:31.000Z"
     },
     "^TNX": {
-      "price": 4.786,
+      "price": 4.784,
       "prev": 4.784,
-      "chg": 0.04,
+      "chg": 0,
       "prevDay": "2026-09-07",
       "basis": "prev-close-memo",
-      "time": "2026-09-08T14:51:23.000Z"
+      "time": "2026-09-08T15:01:23.000Z"
     }
   },
   "fx": {
-    "low52": 1341.74,
+    "low52": 1341.64,
     "high52": 1554.48,
     "pct": 0
   },
@@ -80,39 +80,39 @@
       "chg3m": -15.05
     },
     "KRW=X": {
-      "last": 1341.74,
-      "low52": 1341.74,
+      "last": 1341.64,
+      "low52": 1341.64,
       "high52": 1554.48,
       "pct52": 0,
       "chg3m": -11.58
     },
     "^GSPC": {
-      "last": 7693.12,
+      "last": 7697.44,
       "low52": 6343.72,
       "high52": 7798.99,
-      "pct52": 0.927,
-      "chg3m": 4.15
+      "pct52": 0.93,
+      "chg3m": 4.21
     },
     "^IXIC": {
-      "last": 26445.33,
+      "last": 26478.09,
       "low52": 20794.64,
       "high52": 27093.9,
-      "pct52": 0.897,
-      "chg3m": 2.99
+      "pct52": 0.902,
+      "chg3m": 3.11
     },
     "^VIX": {
-      "last": 15.38,
+      "last": 15.41,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.109,
-      "chg3m": -30.78
+      "pct52": 0.11,
+      "chg3m": -30.65
     },
     "^TNX": {
-      "last": 4.79,
+      "last": 4.78,
       "low52": 3.95,
       "high52": 4.8,
-      "pct52": 0.988,
-      "chg3m": 5.7
+      "pct52": 0.986,
+      "chg3m": 5.65
     }
   },
   "regime": {
@@ -260,108 +260,108 @@
     },
     "us": {
       "MSFT": {
-        "price": 492.645,
+        "price": 493.58,
         "prev": 499.7,
+        "chg": -1.22,
+        "prevDay": "2026-09-07",
+        "basis": "prev-close-memo",
+        "time": "2026-09-08T15:16:37.000Z"
+      },
+      "AAPL": {
+        "price": 316.255,
+        "prev": 319.97,
+        "chg": -1.16,
+        "prevDay": "2026-09-07",
+        "basis": "prev-close-memo",
+        "time": "2026-09-08T15:16:39.000Z"
+      },
+      "GOOGL": {
+        "price": 338.095,
+        "prev": 338.46,
+        "chg": -0.11,
+        "prevDay": "2026-09-07",
+        "basis": "prev-close-memo",
+        "time": "2026-09-08T15:16:38.000Z"
+      },
+      "BRK.B": {
+        "price": 504.59,
+        "prev": 506.03,
+        "chg": -0.28,
+        "prevDay": "2026-09-07",
+        "basis": "prev-close-memo",
+        "time": "2026-09-08T15:16:38.000Z"
+      },
+      "V": {
+        "price": 369.765,
+        "prev": 375.07,
         "chg": -1.41,
         "prevDay": "2026-09-07",
         "basis": "prev-close-memo",
-        "time": "2026-09-08T15:06:36.000Z"
-      },
-      "AAPL": {
-        "price": 316.15,
-        "prev": 319.97,
-        "chg": -1.19,
-        "prevDay": "2026-09-07",
-        "basis": "prev-close-memo",
-        "time": "2026-09-08T15:06:37.000Z"
-      },
-      "GOOGL": {
-        "price": 337.665,
-        "prev": 338.46,
-        "chg": -0.23,
-        "prevDay": "2026-09-07",
-        "basis": "prev-close-memo",
-        "time": "2026-09-08T15:06:37.000Z"
-      },
-      "BRK.B": {
-        "price": 504.5,
-        "prev": 506.03,
-        "chg": -0.3,
-        "prevDay": "2026-09-07",
-        "basis": "prev-close-memo",
-        "time": "2026-09-08T15:06:31.000Z"
-      },
-      "V": {
-        "price": 370.335,
-        "prev": 375.07,
-        "chg": -1.26,
-        "prevDay": "2026-09-07",
-        "basis": "prev-close-memo",
-        "time": "2026-09-08T15:06:32.000Z"
+        "time": "2026-09-08T15:16:33.000Z"
       },
       "JNJ": {
-        "price": 268.7,
+        "price": 268.4,
         "prev": 275.23,
-        "chg": -2.37,
+        "chg": -2.48,
         "prevDay": "2026-09-07",
         "basis": "prev-close-memo",
-        "time": "2026-09-08T15:06:30.000Z"
+        "time": "2026-09-08T15:16:36.000Z"
       },
       "PG": {
-        "price": 144.81,
+        "price": 144.62,
         "prev": 146.44,
-        "chg": -1.11,
+        "chg": -1.24,
         "prevDay": "2026-09-07",
         "basis": "prev-close-memo",
-        "time": "2026-09-08T15:06:32.000Z"
+        "time": "2026-09-08T15:16:35.000Z"
       },
       "KO": {
-        "price": 88.155,
+        "price": 88.015,
         "prev": 88.07,
-        "chg": 0.1,
+        "chg": -0.06,
         "prevDay": "2026-09-07",
         "basis": "prev-close-memo",
-        "time": "2026-09-08T15:06:37.000Z"
+        "time": "2026-09-08T15:16:38.000Z"
       },
       "COST": {
-        "price": 909.785,
+        "price": 909.8,
         "prev": 915.74,
         "chg": -0.65,
         "prevDay": "2026-09-07",
         "basis": "prev-close-memo",
-        "time": "2026-09-08T15:06:31.000Z"
+        "time": "2026-09-08T15:16:39.000Z"
       },
       "WM": {
-        "price": 217.7,
+        "price": 217.16,
         "prev": 218.99,
-        "chg": -0.59,
+        "chg": -0.84,
         "prevDay": "2026-09-07",
         "basis": "prev-close-memo",
-        "time": "2026-09-08T15:06:21.000Z"
+        "time": "2026-09-08T15:16:39.000Z"
       },
       "LIN": {
-        "price": 471.5,
+        "price": 470.39,
         "prev": 477.57,
+        "chg": -1.5,
+        "prevDay": "2026-09-07",
+        "basis": "prev-close-memo",
+        "time": "2026-09-08T15:16:31.000Z"
+      },
+      "XOM": {
+        "price": 160.06,
+        "prev": 159.47,
+        "chg": 0.37,
+        "prevDay": "2026-09-07",
+        "basis": "prev-close-memo",
+        "time": "2026-09-08T15:16:37.000Z"
+      },
+      "NVDA": {
+        "price": 227.44,
+        "prev": 230.36,
         "chg": -1.27,
         "prevDay": "2026-09-07",
         "basis": "prev-close-memo",
-        "time": "2026-09-08T15:06:29.000Z"
-      },
-      "XOM": {
-        "price": 160.31,
-        "prev": 159.47,
-        "chg": 0.53,
-        "prevDay": "2026-09-07",
-        "basis": "prev-close-memo",
-        "time": "2026-09-08T15:06:17.000Z"
-      },
-      "NVDA": {
-        "price": 227.081,
-        "prev": 230.36,
-        "chg": -1.42,
-        "prevDay": "2026-09-07",
-        "basis": "prev-close-memo",
-        "time": "2026-09-08T15:06:37.000Z"
+        "time": "2026-09-08T15:16:39.000Z"
       }
     }
   },
@@ -460,14 +460,14 @@
         "by": "rules"
       },
       {
-        "title": "Bessent Loads Bazooka As Oil Prices Rise, Treasury Yields Waver",
-        "link": "https://www.investors.com/news/treasury-yields-bessent-buyback-oil-prices-sp-500/?src=A00220&yptr=yahoo",
+        "title": "TD Synnex (SNX) Shares Jump Over 50% on Cloud Growth and AI Infrastructure Demand",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/td-synnex-snx-shares-jump-145255769.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-08T14:44:44Z",
-        "ko": "Bessent는 유가가 상승함에 따라 Bazooka를로드하고 재무부는 Waver를 산출합니다.",
+        "date": "2026-09-08T14:52:55Z",
+        "ko": "TD Synnex (SNX), 클라우드 성장 및 AI 인프라 수요 50% 이상 증가",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -496,14 +496,14 @@
         "by": "rules"
       },
       {
-        "title": "Corning Stock Climbs On Multibillion-Dollar Verizon Network Deal",
-        "link": "https://www.investors.com/news/technology/corning-stock-glw-verizon-network-agreement/?src=A00220&yptr=yahoo",
+        "title": "Zoetis (ZTS) Shares Drop After Earnings Revision",
+        "link": "https://finance.yahoo.com/healthcare/articles/zoetis-zts-shares-drop-earnings-145103070.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-08T14:41:05Z",
-        "ko": "코닝 주식, 수십억 달러 버라이존 네트워크 거래로 상승",
+        "date": "2026-09-08T14:51:03Z",
+        "ko": "수익 수정 후 Zoetis (ZTS) 주식 하락",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -511,8 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "Tesla’s stock is rallying as investors prepare for a ‘storm of Cybercabs’": "투자자들이 '사이버 택시의 폭풍‘ 에 대비하면서 테슬라의 주가가 급등하고 있습니다.",
-    "7% mortgage rates are already here, some buyers, mortgage experts say": "7% 의 주택담보대출 금리가 이미 여기에 있으며, 일부 구매자, 주택담보대출 전문가들은",
     "Bank of America's new warning should concern stock investors": "뱅크오브아메리카의 새로운 경고는 주식 투자자와 관련되어야 합니다.",
     "7% mortgage rates are already here, some buyers and mortgage experts say": "일부 구매자와 모기지 전문가들은 7% 의 모기지 금리가 이미 여기에 있다고 말합니다.",
     "Nvidia, Tesla, Robinhood, Snowflake, Ultragenyx, Ciena, and More Stocks That Explain Today’s Market": "엔비디아, 테슬라, 로빈후드, 눈송이, 울트라제닉스, 시에나 등 오늘날의 시장을 설명하는 다양한 주식",
@@ -810,7 +808,9 @@
     "Oracle’s stock gets a boost as the OpenAI ecosystem comes back into favor": "OpenAI 생태계가 다시 활성화됨에 따라 오라클의 재고가 증가합니다.",
     "AI-Optimized Processors Fuel Advanced Micro Devices (AMD) Stock Growth": "AI에 최적화된 프로세서가 AMD (Advanced Micro Devices) 의 주식 성장에 연료를 공급합니다.",
     "Bessent Loads Bazooka As Oil Prices Rise, Treasury Yields Waver": "Bessent는 유가가 상승함에 따라 Bazooka를로드하고 재무부는 Waver를 산출합니다.",
-    "Corning Stock Climbs On Multibillion-Dollar Verizon Network Deal": "코닝 주식, 수십억 달러 버라이존 네트워크 거래로 상승"
+    "Corning Stock Climbs On Multibillion-Dollar Verizon Network Deal": "코닝 주식, 수십억 달러 버라이존 네트워크 거래로 상승",
+    "TD Synnex (SNX) Shares Jump Over 50% on Cloud Growth and AI Infrastructure Demand": "TD Synnex (SNX), 클라우드 성장 및 AI 인프라 수요 50% 이상 증가",
+    "Zoetis (ZTS) Shares Drop After Earnings Revision": "수익 수정 후 Zoetis (ZTS) 주식 하락"
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -2954,7 +2954,7 @@
       "2026-09-05": 1351.1,
       "2026-09-06": 1345.12,
       "2026-09-07": 1344.73,
-      "2026-09-08": 1341.74
+      "2026-09-08": 1341.64
     },
     "^GSPC": {
       "2026-08-29": 7711.76,
@@ -2967,7 +2967,7 @@
       "2026-09-05": 7718.6,
       "2026-09-06": 7718.6,
       "2026-09-07": 7718.6,
-      "2026-09-08": 7693.11
+      "2026-09-08": 7697.44
     },
     "^IXIC": {
       "2026-08-29": 26402.424,
@@ -2980,7 +2980,7 @@
       "2026-09-05": 26506.99,
       "2026-09-06": 26506.99,
       "2026-09-07": 26506.99,
-      "2026-09-08": 26445.334
+      "2026-09-08": 26478.086
     },
     "^VIX": {
       "2026-08-29": 14.43,
@@ -2993,7 +2993,7 @@
       "2026-09-05": 14.53,
       "2026-09-06": 14.53,
       "2026-09-07": 15.3,
-      "2026-09-08": 15.38
+      "2026-09-08": 15.41
     },
     "^TNX": {
       "2026-08-29": 4.72,
@@ -3006,7 +3006,7 @@
       "2026-09-05": 4.784,
       "2026-09-06": 4.784,
       "2026-09-07": 4.784,
-      "2026-09-08": 4.786
+      "2026-09-08": 4.784
     },
     "105560.KS": {
       "2026-08-29": 171600,
@@ -3201,7 +3201,7 @@
       "2026-09-05": 499.7,
       "2026-09-06": 499.7,
       "2026-09-07": 499.7,
-      "2026-09-08": 492.645
+      "2026-09-08": 493.58
     },
     "AAPL": {
       "2026-08-29": 319.7,
@@ -3214,7 +3214,7 @@
       "2026-09-05": 319.97,
       "2026-09-06": 319.97,
       "2026-09-07": 319.97,
-      "2026-09-08": 316.15
+      "2026-09-08": 316.255
     },
     "GOOGL": {
       "2026-08-29": 346.59,
@@ -3227,7 +3227,7 @@
       "2026-09-05": 338.46,
       "2026-09-06": 338.46,
       "2026-09-07": 338.46,
-      "2026-09-08": 337.665
+      "2026-09-08": 338.095
     },
     "BRK.B": {
       "2026-08-29": 505,
@@ -3247,7 +3247,7 @@
       "2026-09-05": 375.07,
       "2026-09-06": 375.07,
       "2026-09-07": 375.07,
-      "2026-09-08": 370.335
+      "2026-09-08": 369.765
     },
     "JNJ": {
       "2026-08-29": 268.04,
@@ -3260,7 +3260,7 @@
       "2026-09-05": 275.23,
       "2026-09-06": 275.23,
       "2026-09-07": 275.23,
-      "2026-09-08": 268.7
+      "2026-09-08": 268.4
     },
     "PG": {
       "2026-08-29": 143.78,
@@ -3273,7 +3273,7 @@
       "2026-09-05": 146.44,
       "2026-09-06": 146.44,
       "2026-09-07": 146.44,
-      "2026-09-08": 144.81
+      "2026-09-08": 144.62
     },
     "KO": {
       "2026-08-29": 89.66,
@@ -3286,7 +3286,7 @@
       "2026-09-05": 88.07,
       "2026-09-06": 88.07,
       "2026-09-07": 88.07,
-      "2026-09-08": 88.155
+      "2026-09-08": 88.015
     },
     "COST": {
       "2026-08-29": 945.47,
@@ -3299,7 +3299,7 @@
       "2026-09-05": 915.74,
       "2026-09-06": 915.74,
       "2026-09-07": 915.74,
-      "2026-09-08": 909.785
+      "2026-09-08": 909.8
     },
     "WM": {
       "2026-08-29": 219.66,
@@ -3312,7 +3312,7 @@
       "2026-09-05": 218.99,
       "2026-09-06": 218.99,
       "2026-09-07": 218.99,
-      "2026-09-08": 217.7
+      "2026-09-08": 217.16
     },
     "LIN": {
       "2026-08-29": 489.51,
@@ -3325,7 +3325,7 @@
       "2026-09-05": 477.57,
       "2026-09-06": 477.57,
       "2026-09-07": 477.57,
-      "2026-09-08": 471.5
+      "2026-09-08": 470.39
     },
     "XOM": {
       "2026-08-29": 156.71,
@@ -3338,7 +3338,7 @@
       "2026-09-05": 159.47,
       "2026-09-06": 159.47,
       "2026-09-07": 159.47,
-      "2026-09-08": 160.31
+      "2026-09-08": 160.06
     },
     "NVDA": {
       "2026-08-29": 217.55,
@@ -3351,7 +3351,7 @@
       "2026-09-05": 230.36,
       "2026-09-06": 230.36,
       "2026-09-07": 230.36,
-      "2026-09-08": 227.081
+      "2026-09-08": 227.44
     },
     "BRK-B": {
       "2026-09-02": 505.24,
@@ -3360,12 +3360,12 @@
       "2026-09-05": 506.03,
       "2026-09-06": 506.03,
       "2026-09-07": 506.03,
-      "2026-09-08": 504.5
+      "2026-09-08": 504.59
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CerBR4XVzUnei8hFcXw7H\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CerBR55VDtA5c8U1HswZt\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CerBR5ghRX9Q5Z6udiVAX\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CerCBNumd7BbMc3ABCh6n\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CerCBPeRXdCuyHGkTu553\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CerCBQFsxWrjAqKuMv7pN\"}"
   ]
 }
