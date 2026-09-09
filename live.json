@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-09T20:40:37.942Z",
+  "asOf": "2026-09-09T20:51:01.690Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-09T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1340.01,
+      "price": 1339.9,
       "prev": 1343.5699462890625,
-      "chg": -0.26,
+      "chg": -0.27,
       "prevDay": "2026-09-08",
       "basis": "prev-close-bar",
-      "time": "2026-09-09T20:40:26.000Z"
+      "time": "2026-09-09T20:50:48.000Z"
     },
     "^GSPC": {
       "price": 7636.36,
@@ -32,7 +32,7 @@
       "chg": -0.48,
       "prevDay": "2026-09-08",
       "basis": "prev-close-bar",
-      "time": "2026-09-09T20:20:01.000Z"
+      "time": "2026-09-09T20:43:19.000Z"
     },
     "^IXIC": {
       "price": 26253.34,
@@ -40,7 +40,7 @@
       "chg": -0.64,
       "prevDay": "2026-09-08",
       "basis": "prev-close-bar",
-      "time": "2026-09-09T20:40:29.000Z"
+      "time": "2026-09-09T20:50:54.000Z"
     },
     "^VIX": {
       "price": 16.46,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1339.21,
     "high52": 1554.48,
-    "pct": 0.004
+    "pct": 0.003
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -14.69
     },
     "KRW=X": {
-      "last": 1340.01,
+      "last": 1339.9,
       "low52": 1339.21,
       "high52": 1554.48,
-      "pct52": 0.004,
-      "chg3m": -11.45
+      "pct52": 0.003,
+      "chg3m": -11.46
     },
     "^GSPC": {
       "last": 7636.36,
@@ -460,11 +460,11 @@
         "by": "rules"
       },
       {
-        "title": "Is Block Underperforming the Nasdaq?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/block-underperforming-nasdaq-121333253.html",
+        "title": "Is Sempra Stock Underperforming the Dow?",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/sempra-stock-underperforming-dow-123021118.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-08T12:13:33Z",
-        "ko": "블록이 나스닥을 저평가하고 있습니까?",
+        "date": "2026-09-08T12:30:21Z",
+        "ko": "Sempra 주식이 다우지수를 밑도는가?",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -496,14 +496,14 @@
         "by": "rules"
       },
       {
-        "title": "Is ONEOK Stock Outperforming the Dow?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/oneok-stock-outperforming-dow-121904160.html",
+        "title": "Social Security’s 2027 COLA Raise Is the Biggest in 3 Years — But These 5 Dividend Stocks Pay You More",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/social-security-2027-cola-raise-122027324.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-08T12:19:04Z",
-        "ko": "ONEOK Stock이 DOW를 능가합니까?",
+        "date": "2026-09-08T12:20:27Z",
+        "ko": "소셜 시큐리티의 2027년 콜라 인상이 3년 만에 가장 큰 규모이지만, 이 5가지 배당 주식은 더 많은 돈을 지불합니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -511,8 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "Is Arista Networks Stock Outperforming the Dow?": "Arista Networks 주가가 DOW를 능가합니까?",
-    "Bitcoin price recovery narrows odds on higher 2026 targets, prediction market data shows": "비트코인 가격 회복은 더 높은 2026 목표에 대한 확률을 좁힙니다. 예측 시장 데이터는",
     "Stock Futures Muted as Bond Yields Stabilize, U.S. Economic Data and Fed Speak on Tap": "채권 수익률이 안정화됨에 따라 소멸된 주식 선물, 미국 경제 데이터 및 연준이 탭으로 말함",
     "Is Intercontinental Exchange Stock Underperforming the Dow?": "대륙간 거래소 주식이 다우지수를 밑도는가?",
     "Is Amphenol Stock Outperforming the Dow?": "Amphenol Stock이 DOW를 능가합니까?",
@@ -810,7 +808,9 @@
     "You should always have energy stocks in your 401(k). Yes, even when oil is at $100.": "401 (k) 에 항상 에너지 재고가 있어야 합니다. 예, 석유가 $100인 경우에도 마찬가지입니다.",
     "Momentum Reversal Is Ringing Alarm Bells for Industrial Stocks": "모멘텀 반전이 산업 주식에 대한 경보 벨을 울리고 있습니다",
     "Is Block Underperforming the Nasdaq?": "블록이 나스닥을 저평가하고 있습니까?",
-    "Is ONEOK Stock Outperforming the Dow?": "ONEOK Stock이 DOW를 능가합니까?"
+    "Is ONEOK Stock Outperforming the Dow?": "ONEOK Stock이 DOW를 능가합니까?",
+    "Is Sempra Stock Underperforming the Dow?": "Sempra 주식이 다우지수를 밑도는가?",
+    "Social Security’s 2027 COLA Raise Is the Biggest in 3 Years — But These 5 Dividend Stocks Pay You More": "소셜 시큐리티의 2027년 콜라 인상이 3년 만에 가장 큰 규모이지만, 이 5가지 배당 주식은 더 많은 돈을 지불합니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -2955,7 +2955,7 @@
       "2026-09-06": 1345.12,
       "2026-09-07": 1344.73,
       "2026-09-08": 1340.06,
-      "2026-09-09": 1340.01
+      "2026-09-09": 1339.9
     },
     "^GSPC": {
       "2026-08-29": 7711.76,
@@ -3382,7 +3382,7 @@
     }
   },
   "failed": [
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CetWh72ymNBp2Zk9Vn8sg\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CetWh7iA5rU3rzd8YDS3E\"}"
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CetXV58ui4WtKcfqjpWVd\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CetXV6WWTfrTc62xC3Rqz\"}"
   ]
 }
