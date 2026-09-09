@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-09T22:01:48.721Z",
+  "asOf": "2026-09-09T23:02:14.501Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-09T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1339.18,
-      "prev": 1343.5699462890625,
-      "chg": -0.33,
-      "prevDay": "2026-09-08",
+      "price": 1339.45,
+      "prev": 1339.2099609375,
+      "chg": 0.02,
+      "prevDay": "2026-09-09",
       "basis": "prev-close-bar",
-      "time": "2026-09-09T22:01:40.000Z"
+      "time": "2026-09-09T23:00:33.000Z"
     },
     "^GSPC": {
       "price": 7636.36,
@@ -60,9 +60,9 @@
     }
   },
   "fx": {
-    "low52": 1339.18,
+    "low52": 1339.21,
     "high52": 1554.48,
-    "pct": 0
+    "pct": 0.001
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -14.69
     },
     "KRW=X": {
-      "last": 1339.18,
-      "low52": 1339.18,
+      "last": 1339.45,
+      "low52": 1339.21,
       "high52": 1554.48,
-      "pct52": 0,
-      "chg3m": -11.51
+      "pct52": 0.001,
+      "chg3m": -11.49
     },
     "^GSPC": {
       "last": 7636.36,
@@ -368,24 +368,24 @@
   "news": {
     "kr": [
       {
-        "title": "2분기 증시 '불장'에…증권사 순이익 5조 돌파, 또 역대 최대",
-        "link": "https://www.yna.co.kr/view/AKR20260909180200002",
+        "title": "무역실적 부풀려 주가 부양, '국산 둔갑' 조달…범부처 합동단속",
+        "link": "https://www.yna.co.kr/view/AKR20260909171600002",
         "source": "연합뉴스",
-        "date": "Thu, 10 Sep 2026 06:00:01 +0900",
+        "date": "Thu, 10 Sep 2026 07:40:00 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "증권사 2분기 순익 5.2兆 '사상 최대'…전년비 82% 급증",
-        "link": "https://www.hankyung.com/article/2026090940246",
+        "title": "유가 급등·美 국채금리 상승에 사흘째 하락 마감 [뉴욕증시 브리핑]",
+        "link": "https://www.hankyung.com/article/2026091052096",
         "source": "한국경제",
-        "date": "Thu, 10 Sep 2026 06:00:02 +0900",
+        "date": "Thu, 10 Sep 2026 07:13:24 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -401,10 +401,10 @@
         "by": "rules"
       },
       {
-        "title": "토큰증권 시행 앞두고 '상품 부족' 풀릴까…與 법안 주목",
-        "link": "https://www.yna.co.kr/view/AKR20260909177000002",
+        "title": "2분기 증시 '불장'에…증권사 순이익 5조 돌파, 또 역대 최대",
+        "link": "https://www.yna.co.kr/view/AKR20260909180200002",
         "source": "연합뉴스",
-        "date": "Thu, 10 Sep 2026 05:57:00 +0900",
+        "date": "Thu, 10 Sep 2026 06:00:01 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -412,13 +412,13 @@
         "by": "rules"
       },
       {
-        "title": "기대 너무 컸나…美 재무부 바이백 60억달러에 금리는 더 올랐다",
-        "link": "https://www.hankyung.com/article/202609105087i",
+        "title": "\"아무도 겪어보지 못한 가격\"…주가 18% 폭등에도 '경고' [분석+]",
+        "link": "https://www.hankyung.com/article/2026090943516",
         "source": "한국경제",
-        "date": "Thu, 10 Sep 2026 03:15:37 +0900",
+        "date": "Thu, 10 Sep 2026 06:30:06 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -460,14 +460,14 @@
         "by": "rules"
       },
       {
-        "title": "How Is Johnson Controls' Stock Performance Compared to Other Building Products & Equipment Stocks?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/johnson-controls-stock-performance-compared-140844617.html",
+        "title": "Is Simon Property Stock Underperforming the Nasdaq?",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/simon-property-stock-underperforming-nasdaq-145319701.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-08T14:08:44Z",
-        "ko": "Johnson Controls의 재고 실적은 다른 건축 제품 및 장비 재고와 어떻게 비교됩니까?",
+        "date": "2026-09-08T14:53:19Z",
+        "ko": "Simon Property Stock은 Nasdaq보다 저조한 실적을 기록하고 있습니까?",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -496,14 +496,14 @@
         "by": "rules"
       },
       {
-        "title": "Stocks Pressured by Rising Crude Oil Prices",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/stocks-pressured-rising-crude-oil-140857301.html",
+        "title": "Zoetis (ZTS) Shares Drop After Earnings Revision",
+        "link": "https://finance.yahoo.com/healthcare/articles/zoetis-zts-shares-drop-earnings-145103070.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-08T14:08:57Z",
-        "ko": "원유 가격 상승으로 압박받는 주식",
+        "date": "2026-09-08T14:51:03Z",
+        "ko": "수익 수정 후 Zoetis (ZTS) 주식 하락",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -511,7 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "HCI Group’s (HCI) Earnings Are Climbing Faster Than They Look": "HCI Group (HCI) 의 수입은 보기보다 빠르게 증가하고 있습니다.",
     "Is Sherwin-Williams Stock Underperforming the Nasdaq?": "셔윈-윌리엄스 주식이 나스닥에서 저조한 실적을 기록하고 있습니까?",
     "What is the average personal loan rate for September 2026?": "2026년 9월 평균 개인 대출 금리는 얼마인가요?",
     "Polestar Shares Fall After Q2 Revenue Misses Estimates": "Polestar 주식은 2분기 매출 누락 추정치 이후 추락합니다.",
@@ -810,7 +809,8 @@
     "AI Stocks: OpenAI Declares The 'AGI Era' Is Here Amid IPO Fervor": "AI 주식: OpenAI, IPO 열풍 속에 'AGI 시대' 가 왔다고 선언",
     "The bull market’s biggest enemy right now could be Bessent’s interventions": "현재 황소 시장의 가장 큰 적은 베센트의 개입일 수 있다.",
     "How Is Johnson Controls' Stock Performance Compared to Other Building Products & Equipment Stocks?": "Johnson Controls의 재고 실적은 다른 건축 제품 및 장비 재고와 어떻게 비교됩니까?",
-    "Stocks Pressured by Rising Crude Oil Prices": "원유 가격 상승으로 압박받는 주식"
+    "Stocks Pressured by Rising Crude Oil Prices": "원유 가격 상승으로 압박받는 주식",
+    "Is Simon Property Stock Underperforming the Nasdaq?": "Simon Property Stock은 Nasdaq보다 저조한 실적을 기록하고 있습니까?"
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -2944,7 +2944,6 @@
       "2026-09-10": 830.37
     },
     "KRW=X": {
-      "2026-08-29": 1371.5,
       "2026-08-30": 1377.35,
       "2026-08-31": 1367.96,
       "2026-09-01": 1374.75,
@@ -2955,7 +2954,8 @@
       "2026-09-06": 1345.12,
       "2026-09-07": 1344.73,
       "2026-09-08": 1340.06,
-      "2026-09-09": 1339.18
+      "2026-09-09": 1339.18,
+      "2026-09-10": 1339.45
     },
     "^GSPC": {
       "2026-08-29": 7711.76,
@@ -3382,8 +3382,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cetct89wzt1cKJ7JsoTyb\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cetct9WJxJNgPaed9zLN3\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CetctA3JnvJdKqKyaF4Tc\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CethVQF2BzkQMbKvUQGwA\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CethVRa9SryosioeiY8hE\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CethVSBraSAENwaYqEx9e\"}"
   ]
 }
