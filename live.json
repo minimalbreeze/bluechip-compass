@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-09T07:45:26.544Z",
+  "asOf": "2026-09-09T08:45:49.823Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-09T06:33:00.000Z"
     },
     "KRW=X": {
-      "price": 1334.58,
+      "price": 1337.35,
       "prev": 1343.5699462890625,
-      "chg": -0.67,
+      "chg": -0.46,
       "prevDay": "2026-09-08",
       "basis": "prev-close-bar",
-      "time": "2026-09-09T07:45:16.000Z"
+      "time": "2026-09-09T08:45:42.000Z"
     },
     "^GSPC": {
       "price": 7673.52,
@@ -32,7 +32,7 @@
       "chg": 0,
       "prevDay": "2026-09-08",
       "basis": "prev-close-bar",
-      "time": "2026-09-08T20:00:00.000Z"
+      "time": "2026-09-08T21:00:56.000Z"
     },
     "^IXIC": {
       "price": 26421.412,
@@ -43,12 +43,12 @@
       "time": "2026-09-08T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 15.57,
+      "price": 15.75,
       "prev": 15.720000267028809,
-      "chg": -0.95,
+      "chg": 0.19,
       "prevDay": "2026-09-08",
       "basis": "prev-close-bar",
-      "time": "2026-09-09T07:30:01.000Z"
+      "time": "2026-09-09T08:30:31.000Z"
     },
     "^TNX": {
       "price": 4.806,
@@ -60,7 +60,7 @@
     }
   },
   "fx": {
-    "low52": 1334.78,
+    "low52": 1337.35,
     "high52": 1554.48,
     "pct": 0
   },
@@ -80,11 +80,11 @@
       "chg3m": -16.71
     },
     "KRW=X": {
-      "last": 1334.78,
-      "low52": 1334.78,
+      "last": 1337.35,
+      "low52": 1337.35,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -11.57
+      "chg3m": -11.4
     },
     "^GSPC": {
       "last": 7673.52,
@@ -101,11 +101,11 @@
       "chg3m": 2.89
     },
     "^VIX": {
-      "last": 15.57,
+      "last": 15.75,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.119,
-      "chg3m": -19.91
+      "pct52": 0.13,
+      "chg3m": -18.98
     },
     "^TNX": {
       "last": 4.81,
@@ -368,21 +368,10 @@
   "news": {
     "kr": [
       {
-        "title": "환율, 유가 상승에도 기업 달러 매도에 9.5원 내린 1,336.1원",
-        "link": "https://www.yna.co.kr/view/AKR20260909141300002",
+        "title": "CSA 코스믹 \"피엘오조합 주식 41억원에 추가취득…지분율 100%\"",
+        "link": "https://www.yna.co.kr/view/AKR20260909165000008",
         "source": "연합뉴스",
-        "date": "Wed, 9 Sep 2026 16:25:04 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "반토막 났던 주식이 하루 만에 급등…정유·화학주 반등 시도",
-        "link": "https://www.hankyung.com/article/202609094147i",
-        "source": "한국경제",
-        "date": "Wed, 09 Sep 2026 16:12:52 +0900",
+        "date": "Wed, 9 Sep 2026 17:26:14 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -390,10 +379,21 @@
         "by": "rules"
       },
       {
-        "title": "삼성증권, ‘8호 발행어음 사업자’ 됐다…9년 기다림 끝 숙원사업 해결",
-        "link": "https://www.mk.co.kr/news/stock/12148389",
+        "title": "\"해외 수주 랠리에 핵잠까지\"…주가 '뱃고동' 울리는 K조선",
+        "link": "https://www.hankyung.com/article/202609094448i",
+        "source": "한국경제",
+        "date": "Wed, 09 Sep 2026 16:48:11 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "전사적 AX·차세대 시스템 구축…현대차증권 미래성장 동력 올인",
+        "link": "https://www.mk.co.kr/news/stock/12148581",
         "source": "매일경제",
-        "date": "Wed, 09 Sep 2026 16:25:15 +09:00",
+        "date": "Wed, 09 Sep 2026 17:45:37 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -401,10 +401,10 @@
         "by": "rules"
       },
       {
-        "title": "카카오뱅크, 파킹통장 '세이프박스' 금리 0.2%p 인상",
-        "link": "https://www.yna.co.kr/view/AKR20260909149300002",
+        "title": "'유가상승·美CPI 경계' 국고채 금리 상승…3년물 연 3.910%(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260909154251008",
         "source": "연합뉴스",
-        "date": "Wed, 9 Sep 2026 16:22:32 +0900",
+        "date": "Wed, 9 Sep 2026 16:55:23 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -412,10 +412,10 @@
         "by": "rules"
       },
       {
-        "title": "[포토] 코스피, 33거래일 만에 7000선 탈환",
-        "link": "https://www.hankyung.com/article/202609094322i",
+        "title": "삼성전자 제자리걸음에도 7000선 탈환한 코스피...다시 커진 'AI 확신론'",
+        "link": "https://www.hankyung.com/article/202609093967i",
         "source": "한국경제",
-        "date": "Wed, 09 Sep 2026 16:06:21 +0900",
+        "date": "Wed, 09 Sep 2026 16:43:12 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -423,10 +423,10 @@
         "by": "rules"
       },
       {
-        "title": "삼성전자 본주 팔고 우선주는 산다…상위 1% 투자자들의 선택 [주식 초고수는 지금]",
-        "link": "https://www.mk.co.kr/news/stock/12148307",
+        "title": "자회사 중복상장 할때는 모회사 주주배정 의무화",
+        "link": "https://www.mk.co.kr/news/stock/12148534",
         "source": "매일경제",
-        "date": "Wed, 09 Sep 2026 15:40:26 +09:00",
+        "date": "Wed, 09 Sep 2026 17:38:51 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -448,11 +448,11 @@
         "by": "rules"
       },
       {
-        "title": "The ECB is virtually certain to hike rates Thursday. Here is why Wall Street is bracing for what comes next.",
-        "link": "https://www.marketwatch.com/story/the-ecb-is-virtually-certain-to-hike-rates-thursday-here-is-why-wall-street-is-bracing-for-what-comes-next-7ec46af0?mod=mw_rss_topstories",
+        "title": "Bessent says ‘I am the house now.’ What it means for the yen — and U.S. stocks.",
+        "link": "https://www.marketwatch.com/story/bessent-says-i-am-the-house-now-what-it-means-for-the-yen-and-u-s-stocks-9ef63bc3?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Wed, 09 Sep 2026 07:42:00 GMT",
-        "ko": "ECB는 목요일에 인상률이 거의 확실합니다. 이것이 월스트리트가 다음에 올 일에 대비하는 이유입니다.",
+        "date": "Wed, 09 Sep 2026 08:31:00 GMT",
+        "ko": "베센트는 '나는 이제 집입니다.’ 엔화와 미국 주식에 미치는 영향.",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -484,23 +484,23 @@
         "by": "rules"
       },
       {
-        "title": "Bombardier’s stock drops as the U.S.-Canada trade war intensifies. Here’s what Trump is targeting next.",
-        "link": "https://www.marketwatch.com/story/bombardiers-stock-drops-as-the-u-s-canada-trade-war-intensifies-heres-what-trump-may-target-next-b389065e?mod=mw_rss_topstories",
+        "title": "The ECB is virtually certain to hike rates Thursday. Here is why Wall Street is bracing for what comes next.",
+        "link": "https://www.marketwatch.com/story/the-ecb-is-virtually-certain-to-hike-rates-thursday-here-is-why-wall-street-is-bracing-for-what-comes-next-7ec46af0?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Wed, 09 Sep 2026 00:17:00 GMT",
-        "ko": "미국-캐나다 무역전쟁이 격화되면서 봄바디어의 주가가 떨어지고 있다. 다음은 트럼프가 목표로 삼고 있는 것입니다.",
-        "act": "watch",
-        "lasting": "structural",
+        "date": "Wed, 09 Sep 2026 07:42:00 GMT",
+        "ko": "ECB는 목요일에 인상률이 거의 확실합니다. 이것이 월스트리트가 다음에 올 일에 대비하는 이유입니다.",
+        "act": "none",
+        "lasting": "temporary",
         "scope": null,
-        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "Michael Burry Remains Bullish on Veeva but Trimmed His Position. What This Means for VEEV Stock.",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/michael-burry-remains-bullish-veeva-203002582.html",
+        "title": "Tesla Stock May Have A European Catalyst Investors Are Missing",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-stock-may-european-catalyst-204603106.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-07T20:30:02Z",
-        "ko": "Michael Burry는 Veeva에서 여전히 낙관적이지만 그의 위치를 다듬었습니다. VEEV 주식에 대한 의미.",
+        "date": "2026-09-07T20:46:03Z",
+        "ko": "테슬라 주식에 유럽 기폭제 투자자가 누락되었을 수 있음",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -511,8 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "Stocks could fall 10% — here’s the pullback playbook": "주식이 10% 하락할 수 있습니다 — 여기 풀백 플레이북이 있습니다",
-    "Dell shares jump as Wall Street lifts price targets on AI server demand": "월스트리트가 AI 서버 수요에 따라 가격 목표를 올리면서 Dell 주식 점프",
     "GoPro Shares Sizzle on YouTuber Markiplier Becoming Largest Shareholder. How to Play GPRO Stock Here.": "GoPro는 YouTuber Markiplier가 최대 주주가 되는 것에 대해 Sizzle을 공유합니다. 여기서 GPRO 주식을 플레이하는 방법.",
     "Dollar Slips as T-note Yields Stabilize and Stocks Rally": "T-노트 수익률에 따른 달러 슬립 안정화 및 주식 랠리",
     "Mortgage rates surge, hit 13-month high": "주택담보대출 금리 급등, 13개월 최고치 기록",
@@ -810,7 +808,9 @@
     "Sirius XM (SIRI) Stock: Deutsche Bank Sees Big Upside, But Risks Remain": "SIRIUS XM (시리우스) 주식: 도이치 뱅크는 큰 업사이드를 보지만 위험은 여전히 남아 있습니다.",
     "Citigroup (C) Moves Deeper Into China’s Capital Markets as Competition Intensifies": "Citigroup (C) 은 경쟁이 심화됨에 따라 중국 자본 시장으로 더 깊이 진입합니다.",
     "The ECB is virtually certain to hike rates Thursday. Here is why Wall Street is bracing for what comes next.": "ECB는 목요일에 인상률이 거의 확실합니다. 이것이 월스트리트가 다음에 올 일에 대비하는 이유입니다.",
-    "Michael Burry Remains Bullish on Veeva but Trimmed His Position. What This Means for VEEV Stock.": "Michael Burry는 Veeva에서 여전히 낙관적이지만 그의 위치를 다듬었습니다. VEEV 주식에 대한 의미."
+    "Michael Burry Remains Bullish on Veeva but Trimmed His Position. What This Means for VEEV Stock.": "Michael Burry는 Veeva에서 여전히 낙관적이지만 그의 위치를 다듬었습니다. VEEV 주식에 대한 의미.",
+    "Bessent says ‘I am the house now.’ What it means for the yen — and U.S. stocks.": "베센트는 '나는 이제 집입니다.’ 엔화와 미국 주식에 미치는 영향.",
+    "Tesla Stock May Have A European Catalyst Investors Are Missing": "테슬라 주식에 유럽 기폭제 투자자가 누락되었을 수 있음"
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -2955,7 +2955,7 @@
       "2026-09-06": 1345.12,
       "2026-09-07": 1344.73,
       "2026-09-08": 1340.06,
-      "2026-09-09": 1334.58
+      "2026-09-09": 1337.35
     },
     "^GSPC": {
       "2026-08-29": 7711.76,
@@ -2997,7 +2997,7 @@
       "2026-09-06": 14.53,
       "2026-09-07": 15.3,
       "2026-09-08": 15.72,
-      "2026-09-09": 15.57
+      "2026-09-09": 15.75
     },
     "^TNX": {
       "2026-08-29": 4.72,
@@ -3382,8 +3382,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CesVaYQ9Qzft9PwjqZqpu\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CesVaZ27DZLkPbrCqR8hV\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CesVaZXNBBKa7sCTu7u2U\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CesaBdLW4J3dK3YR2NS3X\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CesaBe4QgzUjRueannqEJ\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CesaBeZfviZFGC7pstVLA\"}"
   ]
 }
