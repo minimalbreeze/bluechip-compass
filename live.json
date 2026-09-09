@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-09T08:45:49.823Z",
+  "asOf": "2026-09-09T09:46:19.726Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -8,7 +8,7 @@
       "chg": 1.4,
       "prevDay": "2026-09-08",
       "basis": "prev-close-bar",
-      "time": "2026-09-09T06:32:30.000Z"
+      "time": "2026-09-09T09:05:40.000Z"
     },
     "^KQ11": {
       "price": 830.37,
@@ -16,15 +16,15 @@
       "chg": 2.28,
       "prevDay": "2026-09-08",
       "basis": "prev-close-bar",
-      "time": "2026-09-09T06:33:00.000Z"
+      "time": "2026-09-09T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1337.35,
+      "price": 1337.04,
       "prev": 1343.5699462890625,
-      "chg": -0.46,
+      "chg": -0.49,
       "prevDay": "2026-09-08",
       "basis": "prev-close-bar",
-      "time": "2026-09-09T08:45:42.000Z"
+      "time": "2026-09-09T09:46:13.000Z"
     },
     "^GSPC": {
       "price": 7673.52,
@@ -43,12 +43,12 @@
       "time": "2026-09-08T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 15.75,
+      "price": 15.87,
       "prev": 15.720000267028809,
-      "chg": 0.19,
+      "chg": 0.95,
       "prevDay": "2026-09-08",
       "basis": "prev-close-bar",
-      "time": "2026-09-09T08:30:31.000Z"
+      "time": "2026-09-09T09:31:01.000Z"
     },
     "^TNX": {
       "price": 4.806,
@@ -60,7 +60,7 @@
     }
   },
   "fx": {
-    "low52": 1337.35,
+    "low52": 1337.04,
     "high52": 1554.48,
     "pct": 0
   },
@@ -80,11 +80,11 @@
       "chg3m": -16.71
     },
     "KRW=X": {
-      "last": 1337.35,
-      "low52": 1337.35,
+      "last": 1337.04,
+      "low52": 1337.04,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -11.4
+      "chg3m": -11.42
     },
     "^GSPC": {
       "last": 7673.52,
@@ -101,11 +101,11 @@
       "chg3m": 2.89
     },
     "^VIX": {
-      "last": 15.75,
+      "last": 15.87,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.13,
-      "chg3m": -18.98
+      "pct52": 0.137,
+      "chg3m": -18.36
     },
     "^TNX": {
       "last": 4.81,
@@ -368,10 +368,10 @@
   "news": {
     "kr": [
       {
-        "title": "CSA 코스믹 \"피엘오조합 주식 41억원에 추가취득…지분율 100%\"",
-        "link": "https://www.yna.co.kr/view/AKR20260909165000008",
+        "title": "김승원 의혹'에 들춰진 주식 불공정거래 실태…개미들 피눈물",
+        "link": "https://www.yna.co.kr/view/AKR20260909159000008",
         "source": "연합뉴스",
-        "date": "Wed, 9 Sep 2026 17:26:14 +0900",
+        "date": "Wed, 9 Sep 2026 18:30:52 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -379,21 +379,10 @@
         "by": "rules"
       },
       {
-        "title": "\"해외 수주 랠리에 핵잠까지\"…주가 '뱃고동' 울리는 K조선",
-        "link": "https://www.hankyung.com/article/202609094448i",
+        "title": "美 자산운용사 디렉시온, 韓증시 2배 ETF 출시 검토",
+        "link": "https://www.hankyung.com/article/2026090947281",
         "source": "한국경제",
-        "date": "Wed, 09 Sep 2026 16:48:11 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "전사적 AX·차세대 시스템 구축…현대차증권 미래성장 동력 올인",
-        "link": "https://www.mk.co.kr/news/stock/12148581",
-        "source": "매일경제",
-        "date": "Wed, 09 Sep 2026 17:45:37 +09:00",
+        "date": "Wed, 09 Sep 2026 18:20:19 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -401,32 +390,43 @@
         "by": "rules"
       },
       {
-        "title": "'유가상승·美CPI 경계' 국고채 금리 상승…3년물 연 3.910%(종합)",
-        "link": "https://www.yna.co.kr/view/AKR20260909154251008",
-        "source": "연합뉴스",
-        "date": "Wed, 9 Sep 2026 16:55:23 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "삼성전자 제자리걸음에도 7000선 탈환한 코스피...다시 커진 'AI 확신론'",
-        "link": "https://www.hankyung.com/article/202609093967i",
-        "source": "한국경제",
-        "date": "Wed, 09 Sep 2026 16:43:12 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "자회사 중복상장 할때는 모회사 주주배정 의무화",
-        "link": "https://www.mk.co.kr/news/stock/12148534",
+        "title": "MBK파트너스, 日 상장사 셰어링 테크놀로지 인수",
+        "link": "https://www.mk.co.kr/news/stock/12148640",
         "source": "매일경제",
-        "date": "Wed, 09 Sep 2026 17:38:51 +09:00",
+        "date": "Wed, 09 Sep 2026 18:03:48 +09:00",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": null,
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
+        "by": "rules"
+      },
+      {
+        "title": "NH증권 \"글로벌 재정지배의 시대…금리 인상 허들 높아졌다\"",
+        "link": "https://www.yna.co.kr/view/AKR20260909157800008",
+        "source": "연합뉴스",
+        "date": "Wed, 9 Sep 2026 18:11:50 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "美 GE에어로, 117억弗에 방산·전력 부품기업 인수",
+        "link": "https://www.hankyung.com/article/2026090947311",
+        "source": "한국경제",
+        "date": "Wed, 09 Sep 2026 18:19:32 +0900",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": null,
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
+        "by": "rules"
+      },
+      {
+        "title": "넥사다이내믹스, 300억원 규모 유상증자 실시",
+        "link": "https://www.mk.co.kr/news/stock/12148626",
+        "source": "매일경제",
+        "date": "Wed, 09 Sep 2026 17:55:17 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -496,11 +496,11 @@
         "by": "rules"
       },
       {
-        "title": "Tesla Stock May Have A European Catalyst Investors Are Missing",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-stock-may-european-catalyst-204603106.html",
+        "title": "Is the stock market open on Labor Day?",
+        "link": "https://finance.yahoo.com/personal-finance/investing/article/is-the-stock-market-open-on-labor-day-210239142.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-07T20:46:03Z",
-        "ko": "테슬라 주식에 유럽 기폭제 투자자가 누락되었을 수 있음",
+        "date": "2024-03-25T21:02:39Z",
+        "ko": "주식 시장이 노동절에 열려 있습니까?",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -2955,7 +2955,7 @@
       "2026-09-06": 1345.12,
       "2026-09-07": 1344.73,
       "2026-09-08": 1340.06,
-      "2026-09-09": 1337.35
+      "2026-09-09": 1337.04
     },
     "^GSPC": {
       "2026-08-29": 7711.76,
@@ -2997,7 +2997,7 @@
       "2026-09-06": 14.53,
       "2026-09-07": 15.3,
       "2026-09-08": 15.72,
-      "2026-09-09": 15.75
+      "2026-09-09": 15.87
     },
     "^TNX": {
       "2026-08-29": 4.72,
@@ -3382,8 +3382,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CesaBdLW4J3dK3YR2NS3X\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CesaBe4QgzUjRueannqEJ\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CesaBeZfviZFGC7pstVLA\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeseoBu1vrqfaomBcsA98\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeseoDJr7Wabyxw9QmYhh\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeseoDyYAru2QaYwT55yC\"}"
   ]
 }
