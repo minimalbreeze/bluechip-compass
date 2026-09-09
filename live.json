@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-09T21:01:24.536Z",
+  "asOf": "2026-09-09T22:01:48.721Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-09T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1339.73,
+      "price": 1339.18,
       "prev": 1343.5699462890625,
-      "chg": -0.29,
+      "chg": -0.33,
       "prevDay": "2026-09-08",
       "basis": "prev-close-bar",
-      "time": "2026-09-09T21:01:13.000Z"
+      "time": "2026-09-09T22:01:40.000Z"
     },
     "^GSPC": {
       "price": 7636.36,
@@ -40,7 +40,7 @@
       "chg": -0.64,
       "prevDay": "2026-09-08",
       "basis": "prev-close-bar",
-      "time": "2026-09-09T21:01:14.000Z"
+      "time": "2026-09-09T21:15:59.000Z"
     },
     "^VIX": {
       "price": 16.46,
@@ -60,9 +60,9 @@
     }
   },
   "fx": {
-    "low52": 1339.21,
+    "low52": 1339.18,
     "high52": 1554.48,
-    "pct": 0.002
+    "pct": 0
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -14.69
     },
     "KRW=X": {
-      "last": 1339.73,
-      "low52": 1339.21,
+      "last": 1339.18,
+      "low52": 1339.18,
       "high52": 1554.48,
-      "pct52": 0.002,
-      "chg3m": -11.47
+      "pct52": 0,
+      "chg3m": -11.51
     },
     "^GSPC": {
       "last": 7636.36,
@@ -368,10 +368,10 @@
   "news": {
     "kr": [
       {
-        "title": "2030대 8명 중 1명 \"주식·채권으로 노후준비\"…14년새 5배로↑",
-        "link": "https://www.yna.co.kr/view/AKR20260909155100002",
+        "title": "2분기 증시 '불장'에…증권사 순이익 5조 돌파, 또 역대 최대",
+        "link": "https://www.yna.co.kr/view/AKR20260909180200002",
         "source": "연합뉴스",
-        "date": "Thu, 10 Sep 2026 05:53:01 +0900",
+        "date": "Thu, 10 Sep 2026 06:00:01 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -379,13 +379,13 @@
         "by": "rules"
       },
       {
-        "title": "기대가 너무 컸나…美 재무부 바이백 60억달러에 금리는 더 올라",
-        "link": "https://www.hankyung.com/article/202609105087i",
+        "title": "증권사 2분기 순익 5.2兆 '사상 최대'…전년비 82% 급증",
+        "link": "https://www.hankyung.com/article/2026090940246",
         "source": "한국경제",
-        "date": "Thu, 10 Sep 2026 03:15:37 +0900",
+        "date": "Thu, 10 Sep 2026 06:00:02 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -401,10 +401,10 @@
         "by": "rules"
       },
       {
-        "title": "'김승원 의혹'에 들춰진 주식 불공정거래 실태…개미들 피눈물",
-        "link": "https://www.yna.co.kr/view/AKR20260909159000008",
+        "title": "토큰증권 시행 앞두고 '상품 부족' 풀릴까…與 법안 주목",
+        "link": "https://www.yna.co.kr/view/AKR20260909177000002",
         "source": "연합뉴스",
-        "date": "Wed, 9 Sep 2026 18:30:52 +0900",
+        "date": "Thu, 10 Sep 2026 05:57:00 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -412,13 +412,13 @@
         "by": "rules"
       },
       {
-        "title": "美 자산운용사 디렉시온, 韓증시 2배 ETF 출시 검토",
-        "link": "https://www.hankyung.com/article/2026090947281",
+        "title": "기대 너무 컸나…美 재무부 바이백 60억달러에 금리는 더 올랐다",
+        "link": "https://www.hankyung.com/article/202609105087i",
         "source": "한국경제",
-        "date": "Wed, 09 Sep 2026 18:20:19 +0900",
+        "date": "Thu, 10 Sep 2026 03:15:37 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -448,26 +448,26 @@
         "by": "rules"
       },
       {
-        "title": "Oil’s surge back above $100 fuels fresh inflation fears at a crucial time for interest rates",
-        "link": "https://www.marketwatch.com/story/brent-crude-reaches-100-as-war-in-iran-intensifies-b73832e2?mod=mw_rss_topstories",
+        "title": "The bull market’s biggest enemy right now could be Bessent’s interventions",
+        "link": "https://www.marketwatch.com/story/the-bull-markets-biggest-enemy-right-now-could-be-bessents-interventions-134bbe78?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Wed, 09 Sep 2026 20:36:00 GMT",
-        "ko": "$100를 초과하는 석유의 급등은 금리에 대한 중요한 시기에 신선한 인플레이션 공포를 불러일으킨다.",
+        "date": "Wed, 09 Sep 2026 21:17:00 GMT",
+        "ko": "현재 황소 시장의 가장 큰 적은 베센트의 개입일 수 있다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "DexCom Stock: Is DXCM Underperforming the Healthcare Sector?",
-        "link": "https://finance.yahoo.com/healthcare/articles/dexcom-stock-dxcm-underperforming-healthcare-123657602.html",
+        "title": "How Is Johnson Controls' Stock Performance Compared to Other Building Products & Equipment Stocks?",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/johnson-controls-stock-performance-compared-140844617.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-08T12:36:57Z",
-        "ko": "DexCom Stock: DXCM이 의료 부문에서 부진한 성과를 내고 있습니까?",
+        "date": "2026-09-08T14:08:44Z",
+        "ko": "Johnson Controls의 재고 실적은 다른 건축 제품 및 장비 재고와 어떻게 비교됩니까?",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -484,11 +484,11 @@
         "by": "rules"
       },
       {
-        "title": "You should always have energy stocks in your 401(k). Yes, even when oil is at $100.",
-        "link": "https://www.marketwatch.com/story/oil-at-100-why-you-should-always-have-energy-stocks-in-your-401-k-b82798f1?mod=mw_rss_topstories",
+        "title": "Oil’s surge back above $100 fuels fresh inflation fears at a crucial time for interest rates",
+        "link": "https://www.marketwatch.com/story/brent-crude-reaches-100-as-war-in-iran-intensifies-b73832e2?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Wed, 09 Sep 2026 20:27:00 GMT",
-        "ko": "401 (k) 에 항상 에너지 재고가 있어야 합니다. 예, 석유가 $100인 경우에도 마찬가지입니다.",
+        "date": "Wed, 09 Sep 2026 20:36:00 GMT",
+        "ko": "$100를 초과하는 석유의 급등은 금리에 대한 중요한 시기에 신선한 인플레이션 공포를 불러일으킨다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -496,14 +496,14 @@
         "by": "rules"
       },
       {
-        "title": "AI Stocks: OpenAI Declares The 'AGI Era' Is Here Amid IPO Fervor",
-        "link": "https://www.investors.com/news/technology/ai-stocks-artificial-intelligence-stocks-sept82026/?src=A00220&yptr=yahoo",
+        "title": "Stocks Pressured by Rising Crude Oil Prices",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/stocks-pressured-rising-crude-oil-140857301.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-08T12:31:15Z",
-        "ko": "AI 주식: OpenAI, IPO 열풍 속에 'AGI 시대' 가 왔다고 선언",
+        "date": "2026-09-08T14:08:57Z",
+        "ko": "원유 가격 상승으로 압박받는 주식",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -511,9 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "Is Amphenol Stock Outperforming the Dow?": "Amphenol Stock이 DOW를 능가합니까?",
-    "Ultragenyx Shares Fall After Phase 3 Aspire Study Misses Primary Endpoint": "3상 Aspire 연구가 1차 평가변수를 놓친 후 Ultragenyx 주식 하락",
-    "He’s lost hundreds of thousands in stocks like SpaceX and Beyond Meat — and he’s not stopping. Is the ‘high’ worth it?": "그는 SpaceX 및 Beyond Meat와 같은 수십만 개의 주식을 잃었으며 멈추지 않고 있습니다. ‘높음‘ 이 그만한 가치가 있습니까?",
     "HCI Group’s (HCI) Earnings Are Climbing Faster Than They Look": "HCI Group (HCI) 의 수입은 보기보다 빠르게 증가하고 있습니다.",
     "Is Sherwin-Williams Stock Underperforming the Nasdaq?": "셔윈-윌리엄스 주식이 나스닥에서 저조한 실적을 기록하고 있습니까?",
     "What is the average personal loan rate for September 2026?": "2026년 9월 평균 개인 대출 금리는 얼마인가요?",
@@ -810,7 +807,10 @@
     "Is Sempra Stock Underperforming the Dow?": "Sempra 주식이 다우지수를 밑도는가?",
     "Social Security’s 2027 COLA Raise Is the Biggest in 3 Years — But These 5 Dividend Stocks Pay You More": "소셜 시큐리티의 2027년 콜라 인상이 3년 만에 가장 큰 규모이지만, 이 5가지 배당 주식은 더 많은 돈을 지불합니다.",
     "DexCom Stock: Is DXCM Underperforming the Healthcare Sector?": "DexCom Stock: DXCM이 의료 부문에서 부진한 성과를 내고 있습니까?",
-    "AI Stocks: OpenAI Declares The 'AGI Era' Is Here Amid IPO Fervor": "AI 주식: OpenAI, IPO 열풍 속에 'AGI 시대' 가 왔다고 선언"
+    "AI Stocks: OpenAI Declares The 'AGI Era' Is Here Amid IPO Fervor": "AI 주식: OpenAI, IPO 열풍 속에 'AGI 시대' 가 왔다고 선언",
+    "The bull market’s biggest enemy right now could be Bessent’s interventions": "현재 황소 시장의 가장 큰 적은 베센트의 개입일 수 있다.",
+    "How Is Johnson Controls' Stock Performance Compared to Other Building Products & Equipment Stocks?": "Johnson Controls의 재고 실적은 다른 건축 제품 및 장비 재고와 어떻게 비교됩니까?",
+    "Stocks Pressured by Rising Crude Oil Prices": "원유 가격 상승으로 압박받는 주식"
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -2955,7 +2955,7 @@
       "2026-09-06": 1345.12,
       "2026-09-07": 1344.73,
       "2026-09-08": 1340.06,
-      "2026-09-09": 1339.73
+      "2026-09-09": 1339.18
     },
     "^GSPC": {
       "2026-08-29": 7711.76,
@@ -3382,7 +3382,8 @@
     }
   },
   "failed": [
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CetYGyxe4ktvu6pZuK1sV\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CetYH1MyuqhYsw7SUcUNu\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cetct89wzt1cKJ7JsoTyb\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cetct9WJxJNgPaed9zLN3\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CetctA3JnvJdKqKyaF4Tc\"}"
   ]
 }
