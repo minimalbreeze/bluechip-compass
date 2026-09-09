@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-08T23:11:39.413Z",
+  "asOf": "2026-09-09T00:02:01.752Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -11,20 +11,20 @@
       "time": "2026-09-08T09:05:40.000Z"
     },
     "^KQ11": {
-      "price": 822.19,
+      "price": 811.88,
       "prev": 811.88,
-      "chg": 1.27,
+      "chg": 0,
       "prevDay": "2026-09-08",
       "basis": "prev-close-memo",
-      "time": "2026-09-07T06:00:00.000Z"
+      "time": "2026-09-08T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1340.57,
+      "price": 1336.58,
       "prev": 1343.5699462890625,
-      "chg": -0.22,
+      "chg": -0.52,
       "prevDay": "2026-09-08",
       "basis": "prev-close-bar",
-      "time": "2026-09-08T23:11:31.000Z"
+      "time": "2026-09-09T00:01:53.000Z"
     },
     "^GSPC": {
       "price": 7673.52,
@@ -43,12 +43,12 @@
       "time": "2026-09-08T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 15.3,
+      "price": 15.72,
       "prev": 15.300000190734863,
-      "chg": 0,
+      "chg": 2.75,
       "prevDay": "2026-09-07",
       "basis": "prev-close-bar",
-      "time": "2026-09-07T20:15:00.000Z"
+      "time": "2026-09-08T20:15:01.000Z"
     },
     "^TNX": {
       "price": 4.806,
@@ -60,16 +60,16 @@
     }
   },
   "fx": {
-    "low52": 1340.57,
+    "low52": 1336.58,
     "high52": 1554.48,
     "pct": 0
   },
   "hist": {
     "^KS11": {
       "last": 6995.39,
-      "low52": 3219.59,
+      "low52": 3260.05,
       "high52": 9114.55,
-      "pct52": 0.641,
+      "pct52": 0.638,
       "chg3m": -13.6
     },
     "^KQ11": {
@@ -80,11 +80,11 @@
       "chg3m": -15.05
     },
     "KRW=X": {
-      "last": 1340.57,
-      "low52": 1340.57,
+      "last": 1336.58,
+      "low52": 1336.58,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -11.19
+      "chg3m": -11.46
     },
     "^GSPC": {
       "last": 7673.52,
@@ -101,11 +101,11 @@
       "chg3m": 2.89
     },
     "^VIX": {
-      "last": 15.3,
+      "last": 15.72,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.104,
-      "chg3m": -23
+      "pct52": 0.128,
+      "chg3m": -29.25
     },
     "^TNX": {
       "last": 4.81,
@@ -368,10 +368,10 @@
   "news": {
     "kr": [
       {
-        "title": "넥사다이내믹스, 300억원 유상증자…시원이노텍에 제3자배정",
-        "link": "https://www.yna.co.kr/view/AKR20260909019200008",
+        "title": "현대차증권 \"엔캐리, 급격한 청산 가능성 작다…알려진 위기\"",
+        "link": "https://www.yna.co.kr/view/AKR20260909030600008",
         "source": "연합뉴스",
-        "date": "Wed, 9 Sep 2026 07:44:05 +0900",
+        "date": "Wed, 9 Sep 2026 08:51:05 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -379,10 +379,10 @@
         "by": "rules"
       },
       {
-        "title": "중동 충돌에 유가 100달러 육박…3대 지수 일제히 하락 [뉴욕증시 브리핑]",
-        "link": "https://www.hankyung.com/article/2026090925166",
+        "title": "유가 100달러 역풍에도 반도체 급등했는데…MS \"모멘텀 마지막 불꽃\" [김현석의 월스트리트나우]",
+        "link": "https://www.hankyung.com/article/202609092480i",
         "source": "한국경제",
-        "date": "Wed, 09 Sep 2026 07:02:20 +0900",
+        "date": "Wed, 09 Sep 2026 08:01:17 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -401,10 +401,21 @@
         "by": "rules"
       },
       {
-        "title": "증권업계 양극화 심화…순익 62% '빅5'가 쓸어 담아",
-        "link": "https://www.hankyung.com/article/2026090820361",
+        "title": "[게시판] 삼성증권, 퇴직연금 개인투자용 국채 이벤트",
+        "link": "https://www.yna.co.kr/view/AKR20260909029700008",
+        "source": "연합뉴스",
+        "date": "Wed, 9 Sep 2026 08:44:08 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "어닝쇼크에도 5일간 7%반등…한전KPS가 웃는 이유",
+        "link": "https://www.hankyung.com/article/202609082190i",
         "source": "한국경제",
-        "date": "Tue, 08 Sep 2026 17:41:13 +0900",
+        "date": "Wed, 09 Sep 2026 08:00:13 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -419,17 +430,6 @@
         "act": "none",
         "lasting": "temporary",
         "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "\"아픈 손가락까지 살아났다\"…실적 폭발하자 연기금도 '베팅'",
-        "link": "https://www.hankyung.com/article/2026090819751",
-        "source": "한국경제",
-        "date": "Tue, 08 Sep 2026 17:34:32 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -460,11 +460,11 @@
         "by": "rules"
       },
       {
-        "title": "Is U.S. Bancorp Stock Outperforming the Dow?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/u-bancorp-stock-outperforming-dow-143942354.html",
+        "title": "Is 3M Stock Underperforming the Dow?",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/3m-stock-underperforming-dow-153400965.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-07T14:39:42Z",
-        "ko": "미국 Bancorp 주식이 DOW를 능가합니까?",
+        "date": "2026-09-07T15:34:00Z",
+        "ko": "3M 주식이 다우지수를 밑도는가?",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -496,14 +496,14 @@
         "by": "rules"
       },
       {
-        "title": "Is Occidental Petroleum Stock Outperforming the Nasdaq?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/occidental-petroleum-stock-outperforming-nasdaq-144429014.html",
+        "title": "Chevron Is Expanding Operations in Venezuela. How to Play CVX Stock Now.",
+        "link": "https://finance.yahoo.com/energy/articles/chevron-expanding-operations-venezuela-play-153002599.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-07T14:44:29Z",
-        "ko": "옥시덴탈 석유 재고가 나스닥을 능가합니까?",
+        "date": "2026-09-07T15:30:02Z",
+        "ko": "셰브론은 베네수엘라에서 사업을 확장하고 있습니다. 지금 CVX Stock을 플레이하는 방법.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -511,8 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "6 Safe Dividend Aristocrats Yielding Up to 4.7% to Buy as Tech Cools Off": "6 안전 배당 귀족, 기술 냉각으로 최대 4.7% 매수",
-    "Tim Cook Out as Apple CEO: Investors Who Backed Stock with $1,000 When He Took Over Now Have this Amount": "팀 쿡 아웃 (Tim Cook Out) 애플 CEO: 지금 인수했을 때 $1,000로 주식을 후원한 투자자에게 이 금액이 있습니다.",
     "Why Dutch Bros Stock Fell 26% in August": "8월에 네덜란드 브로스 주식이 26% 하락한 이유",
     "Is Chubb Limited Stock Outperforming the S&P 500?": "Chubb Limited 주식은 S&P 500을 능가합니까?",
     "Dollar Erases Early Gains as Crude Oil and T-note Yields Move Lower": "원유 및 T-노트 수익률이 낮아짐에 따라 달러가 조기 수익을 지웁니다",
@@ -810,7 +808,9 @@
     "Is PACCAR Stock Outperforming the S&P 500?": "PACCAR 재고가 S&P 500을 능가합니까?",
     "How to invest in a booming stock market that’s way cheaper than the S&P 500": "S&P 500보다 훨씬 저렴한 호황기 주식 시장에 투자하는 방법",
     "Is U.S. Bancorp Stock Outperforming the Dow?": "미국 Bancorp 주식이 DOW를 능가합니까?",
-    "Is Occidental Petroleum Stock Outperforming the Nasdaq?": "옥시덴탈 석유 재고가 나스닥을 능가합니까?"
+    "Is Occidental Petroleum Stock Outperforming the Nasdaq?": "옥시덴탈 석유 재고가 나스닥을 능가합니까?",
+    "Is 3M Stock Underperforming the Dow?": "3M 주식이 다우지수를 밑도는가?",
+    "Chevron Is Expanding Operations in Venezuela. How to Play CVX Stock Now.": "셰브론은 베네수엘라에서 사업을 확장하고 있습니다. 지금 CVX Stock을 플레이하는 방법."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -2941,7 +2941,7 @@
       "2026-09-06": 813.5,
       "2026-09-07": 822.19,
       "2026-09-08": 811.88,
-      "2026-09-09": 822.19
+      "2026-09-09": 811.88
     },
     "KRW=X": {
       "2026-08-29": 1371.5,
@@ -2955,7 +2955,7 @@
       "2026-09-06": 1345.12,
       "2026-09-07": 1344.73,
       "2026-09-08": 1340.06,
-      "2026-09-09": 1340.57
+      "2026-09-09": 1336.58
     },
     "^GSPC": {
       "2026-08-29": 7711.76,
@@ -2994,7 +2994,7 @@
       "2026-09-05": 14.53,
       "2026-09-06": 14.53,
       "2026-09-07": 15.3,
-      "2026-09-08": 15.3
+      "2026-09-08": 15.72
     },
     "^TNX": {
       "2026-08-29": 4.72,
@@ -3365,8 +3365,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CerpQ8kXTrYgZqPfjHoBD\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CerpQ9TSkVnUpTZwNuz7s\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CerpQ9tjsWnQrnkDXJsKK\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CertEvdV4VbgwqsA2S5VJ\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CertEwFCK1tkTpPbbWdse\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CertEx8XcKzhoiwVn7KLW\"}"
   ]
 }
