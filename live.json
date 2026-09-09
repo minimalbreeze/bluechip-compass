@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-09T00:02:01.752Z",
+  "asOf": "2026-09-09T00:10:26.730Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-08T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1336.58,
+      "price": 1338.74,
       "prev": 1343.5699462890625,
-      "chg": -0.52,
+      "chg": -0.36,
       "prevDay": "2026-09-08",
       "basis": "prev-close-bar",
-      "time": "2026-09-09T00:01:53.000Z"
+      "time": "2026-09-09T00:10:17.000Z"
     },
     "^GSPC": {
       "price": 7673.52,
@@ -60,7 +60,7 @@
     }
   },
   "fx": {
-    "low52": 1336.58,
+    "low52": 1338.74,
     "high52": 1554.48,
     "pct": 0
   },
@@ -80,11 +80,11 @@
       "chg3m": -15.05
     },
     "KRW=X": {
-      "last": 1336.58,
-      "low52": 1336.58,
+      "last": 1338.74,
+      "low52": 1338.74,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -11.46
+      "chg3m": -11.31
     },
     "^GSPC": {
       "last": 7673.52,
@@ -368,13 +368,13 @@
   "news": {
     "kr": [
       {
-        "title": "현대차증권 \"엔캐리, 급격한 청산 가능성 작다…알려진 위기\"",
-        "link": "https://www.yna.co.kr/view/AKR20260909030600008",
+        "title": "한양증권, 우량채권 4종 특판…\"시장금리보다 최대 연 1.2%p↑\"",
+        "link": "https://www.yna.co.kr/view/AKR20260909032100008",
         "source": "연합뉴스",
-        "date": "Wed, 9 Sep 2026 08:51:05 +0900",
+        "date": "Wed, 9 Sep 2026 09:01:01 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -401,13 +401,13 @@
         "by": "rules"
       },
       {
-        "title": "[게시판] 삼성증권, 퇴직연금 개인투자용 국채 이벤트",
-        "link": "https://www.yna.co.kr/view/AKR20260909029700008",
+        "title": "현대차증권 \"엔캐리, 급격한 청산 가능성 작다…알려진 위기\"",
+        "link": "https://www.yna.co.kr/view/AKR20260909030600008",
         "source": "연합뉴스",
-        "date": "Wed, 9 Sep 2026 08:44:08 +0900",
+        "date": "Wed, 9 Sep 2026 08:51:05 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -460,11 +460,11 @@
         "by": "rules"
       },
       {
-        "title": "Is 3M Stock Underperforming the Dow?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/3m-stock-underperforming-dow-153400965.html",
+        "title": "Is Microchip Technology Stock Underperforming the S&P 500?",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/microchip-technology-stock-underperforming-p-121608341.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-07T15:34:00Z",
-        "ko": "3M 주식이 다우지수를 밑도는가?",
+        "date": "2026-09-07T12:16:08Z",
+        "ko": "마이크로칩 기술 재고가 S&P 500의 실적을 밑도는가?",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -496,14 +496,14 @@
         "by": "rules"
       },
       {
-        "title": "Chevron Is Expanding Operations in Venezuela. How to Play CVX Stock Now.",
-        "link": "https://finance.yahoo.com/energy/articles/chevron-expanding-operations-venezuela-play-153002599.html",
+        "title": "Is MetLife Outperforming the Nasdaq?",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/metlife-outperforming-nasdaq-122006648.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-07T15:30:02Z",
-        "ko": "셰브론은 베네수엘라에서 사업을 확장하고 있습니다. 지금 CVX Stock을 플레이하는 방법.",
+        "date": "2026-09-07T12:20:06Z",
+        "ko": "MetLife가 나스닥을 능가합니까?",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -2955,7 +2955,7 @@
       "2026-09-06": 1345.12,
       "2026-09-07": 1344.73,
       "2026-09-08": 1340.06,
-      "2026-09-09": 1336.58
+      "2026-09-09": 1338.74
     },
     "^GSPC": {
       "2026-08-29": 7711.76,
@@ -3365,8 +3365,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CertEvdV4VbgwqsA2S5VJ\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CertEwFCK1tkTpPbbWdse\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CertEx8XcKzhoiwVn7KLW\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Certt8yfjLePb7pVfrGRA\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CerttAd99hcgxj6euHYFk\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CerttB6fVKNWoAyUig6e6\"}"
   ]
 }
