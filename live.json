@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-10T15:17:05.521Z",
+  "asOf": "2026-09-10T15:27:44.730Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,50 +19,50 @@
       "time": "2026-09-10T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1345.42,
+      "price": 1345.27,
       "prev": 1339.2099609375,
-      "chg": 0.46,
+      "chg": 0.45,
       "prevDay": "2026-09-09",
       "basis": "prev-close-bar",
-      "time": "2026-09-10T15:16:47.000Z"
+      "time": "2026-09-10T15:27:18.000Z"
     },
     "^GSPC": {
-      "price": 7603.3,
+      "price": 7607.29,
       "prev": 7636.35986328125,
-      "chg": -0.43,
+      "chg": -0.38,
       "prevDay": "2026-09-09",
       "basis": "prev-close-bar",
-      "time": "2026-09-10T15:16:54.000Z"
+      "time": "2026-09-10T15:27:23.000Z"
     },
     "^IXIC": {
-      "price": 26136.234,
+      "price": 26144.742,
       "prev": 26253.33984375,
-      "chg": -0.45,
+      "chg": -0.41,
       "prevDay": "2026-09-09",
       "basis": "prev-close-bar",
-      "time": "2026-09-10T15:16:51.000Z"
+      "time": "2026-09-10T15:27:21.000Z"
     },
     "^VIX": {
-      "price": 17.35,
+      "price": 17.24,
       "prev": 16.459999084472656,
-      "chg": 5.41,
+      "chg": 4.74,
       "prevDay": "2026-09-09",
       "basis": "prev-close-bar",
-      "time": "2026-09-10T15:01:46.000Z"
+      "time": "2026-09-10T15:12:16.000Z"
     },
     "^TNX": {
-      "price": 4.92,
+      "price": 4.922,
       "prev": 4.836999893188477,
-      "chg": 1.72,
+      "chg": 1.76,
       "prevDay": "2026-09-09",
       "basis": "prev-close-bar",
-      "time": "2026-09-10T15:01:54.000Z"
+      "time": "2026-09-10T15:12:14.000Z"
     }
   },
   "fx": {
     "low52": 1339.21,
     "high52": 1554.48,
-    "pct": 0.029
+    "pct": 0.028
   },
   "hist": {
     "^KS11": {
@@ -80,39 +80,39 @@
       "chg3m": -16.71
     },
     "KRW=X": {
-      "last": 1345.41,
+      "last": 1345.27,
       "low52": 1339.21,
       "high52": 1554.48,
-      "pct52": 0.029,
-      "chg3m": -11.09
+      "pct52": 0.028,
+      "chg3m": -11.1
     },
     "^GSPC": {
-      "last": 7603.38,
+      "last": 7607.29,
       "low52": 6343.72,
       "high52": 7798.99,
-      "pct52": 0.866,
-      "chg3m": 2.83
+      "pct52": 0.868,
+      "chg3m": 2.88
     },
     "^IXIC": {
-      "last": 26136.23,
+      "last": 26144.74,
       "low52": 20794.64,
       "high52": 27093.9,
-      "pct52": 0.848,
-      "chg3m": 1.27
+      "pct52": 0.849,
+      "chg3m": 1.3
     },
     "^VIX": {
-      "last": 17.35,
+      "last": 17.24,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.221,
-      "chg3m": -1.87
+      "pct52": 0.214,
+      "chg3m": -2.49
     },
     "^TNX": {
       "last": 4.92,
       "low52": 3.95,
       "high52": 4.92,
       "pct52": 1,
-      "chg3m": 10.24
+      "chg3m": 10.28
     }
   },
   "regime": {
@@ -260,108 +260,108 @@
     },
     "us": {
       "MSFT": {
-        "price": 491.73,
+        "price": 492.38,
         "prev": 491.6499938964844,
-        "chg": 0.02,
+        "chg": 0.15,
         "prevDay": "2026-09-09",
         "basis": "prev-close-bar",
-        "time": "2026-09-10T15:16:59.000Z"
+        "time": "2026-09-10T15:27:36.000Z"
       },
       "AAPL": {
-        "price": 321.77,
+        "price": 323.275,
         "prev": 315.3399963378906,
-        "chg": 2.04,
+        "chg": 2.52,
         "prevDay": "2026-09-09",
         "basis": "prev-close-bar",
-        "time": "2026-09-10T15:17:03.000Z"
+        "time": "2026-09-10T15:27:42.000Z"
       },
       "GOOGL": {
-        "price": 330.795,
+        "price": 330.34,
         "prev": 330.6499938964844,
-        "chg": 0.04,
-        "prevDay": "2026-09-09",
-        "basis": "prev-close-bar",
-        "time": "2026-09-10T15:17:03.000Z"
-      },
-      "BRK.B": {
-        "price": 506.045,
-        "prev": 506.7200012207031,
-        "chg": -0.13,
-        "prevDay": "2026-09-09",
-        "basis": "prev-close-bar",
-        "time": "2026-09-10T15:16:40.000Z"
-      },
-      "V": {
-        "price": 366.91,
-        "prev": 367.3900146484375,
-        "chg": -0.13,
-        "prevDay": "2026-09-09",
-        "basis": "prev-close-bar",
-        "time": "2026-09-10T15:16:58.000Z"
-      },
-      "JNJ": {
-        "price": 266.655,
-        "prev": 267.0799865722656,
-        "chg": -0.16,
-        "prevDay": "2026-09-09",
-        "basis": "prev-close-bar",
-        "time": "2026-09-10T15:16:48.000Z"
-      },
-      "PG": {
-        "price": 142.24,
-        "prev": 142.63999938964844,
-        "chg": -0.28,
-        "prevDay": "2026-09-09",
-        "basis": "prev-close-bar",
-        "time": "2026-09-10T15:16:52.000Z"
-      },
-      "KO": {
-        "price": 88.295,
-        "prev": 87.55000305175781,
-        "chg": 0.85,
-        "prevDay": "2026-09-09",
-        "basis": "prev-close-bar",
-        "time": "2026-09-10T15:16:58.000Z"
-      },
-      "COST": {
-        "price": 901.795,
-        "prev": 902.5999755859375,
         "chg": -0.09,
         "prevDay": "2026-09-09",
         "basis": "prev-close-bar",
-        "time": "2026-09-10T15:16:57.000Z"
+        "time": "2026-09-10T15:27:38.000Z"
       },
-      "WM": {
-        "price": 216.322,
-        "prev": 216.44000244140625,
+      "BRK.B": {
+        "price": 505.95,
+        "prev": 506.7200012207031,
+        "chg": -0.15,
+        "prevDay": "2026-09-09",
+        "basis": "prev-close-bar",
+        "time": "2026-09-10T15:27:29.000Z"
+      },
+      "V": {
+        "price": 367.215,
+        "prev": 367.3900146484375,
         "chg": -0.05,
         "prevDay": "2026-09-09",
         "basis": "prev-close-bar",
-        "time": "2026-09-10T15:16:32.000Z"
+        "time": "2026-09-10T15:27:30.000Z"
+      },
+      "JNJ": {
+        "price": 266.8,
+        "prev": 267.0799865722656,
+        "chg": -0.1,
+        "prevDay": "2026-09-09",
+        "basis": "prev-close-bar",
+        "time": "2026-09-10T15:27:39.000Z"
+      },
+      "PG": {
+        "price": 142.28,
+        "prev": 142.63999938964844,
+        "chg": -0.25,
+        "prevDay": "2026-09-09",
+        "basis": "prev-close-bar",
+        "time": "2026-09-10T15:27:38.000Z"
+      },
+      "KO": {
+        "price": 88.325,
+        "prev": 87.55000305175781,
+        "chg": 0.89,
+        "prevDay": "2026-09-09",
+        "basis": "prev-close-bar",
+        "time": "2026-09-10T15:27:40.000Z"
+      },
+      "COST": {
+        "price": 903.243,
+        "prev": 902.5999755859375,
+        "chg": 0.07,
+        "prevDay": "2026-09-09",
+        "basis": "prev-close-bar",
+        "time": "2026-09-10T15:27:23.000Z"
+      },
+      "WM": {
+        "price": 216.365,
+        "prev": 216.44000244140625,
+        "chg": -0.03,
+        "prevDay": "2026-09-09",
+        "basis": "prev-close-bar",
+        "time": "2026-09-10T15:27:41.000Z"
       },
       "LIN": {
-        "price": 460.865,
+        "price": 462.055,
         "prev": 466.6499938964844,
-        "chg": -1.24,
+        "chg": -0.98,
         "prevDay": "2026-09-09",
         "basis": "prev-close-bar",
-        "time": "2026-09-10T15:16:52.000Z"
+        "time": "2026-09-10T15:27:37.000Z"
       },
       "XOM": {
-        "price": 163.95,
+        "price": 164.515,
         "prev": 164.22999572753906,
-        "chg": -0.17,
+        "chg": 0.17,
         "prevDay": "2026-09-09",
         "basis": "prev-close-bar",
-        "time": "2026-09-10T15:16:42.000Z"
+        "time": "2026-09-10T15:27:41.000Z"
       },
       "NVDA": {
-        "price": 218.038,
+        "price": 218.36,
         "prev": 223.6699981689453,
-        "chg": -2.52,
+        "chg": -2.37,
         "prevDay": "2026-09-09",
         "basis": "prev-close-bar",
-        "time": "2026-09-10T15:17:03.000Z"
+        "time": "2026-09-10T15:27:42.000Z"
       }
     }
   },
@@ -390,17 +390,6 @@
         "by": "rules"
       },
       {
-        "title": "넥써쓰, 38억원 규모 유상증자 실시",
-        "link": "https://www.mk.co.kr/news/stock/12149706",
-        "source": "매일경제",
-        "date": "Thu, 10 Sep 2026 18:00:19 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
         "title": "HD현대오일뱅크, 에이치앤엘어드밴스드 주식 6천억원에 추가취득",
         "link": "https://www.yna.co.kr/view/AKR20260910154500008",
         "source": "연합뉴스",
@@ -423,10 +412,21 @@
         "by": "rules"
       },
       {
-        "title": "헝셩그룹, 600억원 규모 유상증자 실시",
-        "link": "https://www.mk.co.kr/news/stock/12149707",
-        "source": "매일경제",
-        "date": "Thu, 10 Sep 2026 18:00:19 +09:00",
+        "title": "노란봉투법에 공공기관 이전도 영향…노동부 \"노사 협의 필요\"",
+        "link": "https://www.yna.co.kr/view/AKR20260910145200530",
+        "source": "연합뉴스",
+        "date": "Thu, 10 Sep 2026 17:08:48 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "이러다 일 내겠네…'13% 급등' 주가 무섭게 치솟은 회사",
+        "link": "https://www.hankyung.com/article/2026091073581",
+        "source": "한국경제",
+        "date": "Thu, 10 Sep 2026 18:29:11 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -448,11 +448,11 @@
         "by": "rules"
       },
       {
-        "title": "Treasury yields surge toward the danger zone for stocks, as inflation pressures heat up",
-        "link": "https://www.marketwatch.com/story/treasury-yields-surge-toward-the-danger-zone-for-stocks-as-inflation-pressures-heat-up-fe0f9aa6?mod=mw_rss_topstories",
+        "title": "Now’s your chance to make money during the best bond market for yields in decades — if you get over Treasury jitters",
+        "link": "https://www.marketwatch.com/story/nows-your-chance-to-make-money-during-the-best-bond-market-for-yields-in-decades-if-you-get-over-treasury-jitters-4209f805?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Thu, 10 Sep 2026 14:49:00 GMT",
-        "ko": "인플레이션 압력이 가열됨에 따라 국채 수익률은 주식의 위험 영역으로 급증합니다.",
+        "date": "Thu, 10 Sep 2026 15:25:00 GMT",
+        "ko": "수십 년 만에 수익률이 가장 좋은 채권 시장에서 수익을 올릴 수 있는 기회입니다. 국고 지터를 극복하면",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -460,14 +460,14 @@
         "by": "rules"
       },
       {
-        "title": "$100 Oil Jolts Treasury Yields; Fed Rate-Hike Odds Jump",
-        "link": "https://www.investors.com/news/10-year-treasury-yield-crude-oil-federal-reserve-bessent-buyback/?src=A00220&yptr=yahoo",
+        "title": "Tech stocks today: Apple debuts foldable iPhone Duo, AI researchers issue fresh warnings",
+        "link": "https://finance.yahoo.com/technology/live/tech-stocks-today-apple-debuts-foldable-iphone-duo-ai-researchers-issue-fresh-warnings-125343211.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-10T14:47:36Z",
-        "ko": "$100 석유 요동 국채 수익률; 연준 금리 인상 확률 점프",
+        "date": "2026-09-08T12:53:43Z",
+        "ko": "오늘날의 기술 주식: Apple, 접이식 iPhone Duo 출시, AI 연구원, 새로운 경고 발표",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -484,11 +484,11 @@
         "by": "rules"
       },
       {
-        "title": "Here’s how to avoid a six-figure error that many retirees make with their company stock",
-        "link": "https://www.marketwatch.com/story/heres-how-to-avoid-a-six-figure-error-that-many-retirees-make-with-their-company-stock-5f24b10d?mod=mw_rss_topstories",
+        "title": "Meta is winning over Wall Street with its new Muse AI agent",
+        "link": "https://www.marketwatch.com/story/meta-is-winning-over-wall-street-with-its-new-muse-ai-agent-0700ca87?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Thu, 10 Sep 2026 14:00:00 GMT",
-        "ko": "다음은 많은 퇴직자들이 회사 주식으로 저지르는 6자리 수 오류를 방지하는 방법입니다.",
+        "date": "Thu, 10 Sep 2026 15:23:00 GMT",
+        "ko": "Meta는 새로운 Muse AI 에이전트로 월스트리트에서 승리하고 있습니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -496,14 +496,14 @@
         "by": "rules"
       },
       {
-        "title": "Crypto Mining Stocks Fall Harder Than Bitcoin on a Risk-Off Tape: Cipher Mining Sinks 6%, MARA and Riot Drop 4%",
-        "link": "https://finance.yahoo.com/markets/crypto/articles/crypto-mining-stocks-fall-harder-145423080.html",
+        "title": "'We intend to be disruptive': Robinhood CEO details big investment bank ambitions after Oura IPO win",
+        "link": "https://finance.yahoo.com/markets/stocks/article/we-intend-to-be-disruptive-robinhood-ceo-details-big-investment-bank-ambitions-after-oura-ipo-win-151806118.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-10T14:54:23Z",
-        "ko": "암호화폐 채굴 주식은 위험 오프 테이프에서 비트코인보다 더 강하게 떨어집니다: 암호 채굴은 6%, 마라 및 폭동은 4% 하락을 가라앉힙니다",
+        "date": "2026-09-10T15:18:06Z",
+        "ko": "'우리는 파괴적일 계획입니다': 로빈후드 CEO는 Oura IPO 수주 후 큰 투자 은행의 포부를 자세히 설명합니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -511,9 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "This Indicator Could Be the S&P 500’s Canary in a Coal Mine": "이 지표는 탄광에서 S&P 500의 카나리아가 될 수 있습니다.",
-    "Stock Market Week Ahead: Week Of The Big Bond Scheme": "앞으로의 주식 시장 주간: 큰 채권 계획의 주간",
-    "Mohamed El-Erian says an influx of hyperscaler bonds is competing with U.S. Treasuries — and pushing rates higher": "모하메드 엘-에리언 (Mohamed El-Erian) 은 하이퍼스케일러 채권의 유입이 미국 재무부와 경쟁하고 있으며 더 높은 금리를 추진하고 있다고 말합니다.",
     "Where Will SCHD Stock Be in 5 Years?": "5년 후 SCHD 재고는 어디에 있을까요?",
     "September Is Historically the Worst Month for Stocks. A Pattern From 2000 Says This Could Happen Next.": "9월은 역사적으로 주식에 있어 최악의 달입니다. 2000년의 패턴에 따르면 다음에 이런 일이 일어날 수 있다고 합니다.",
     "NuScale Power Stock Will Spike 23.7% Over the Next 11 Months According to This Wall Street Analyst": "이 월스트리트 애널리스트에 따르면 향후 11개월 동안 NuScale 전력 재고는 23.7% 급증할 것입니다.",
@@ -810,7 +807,10 @@
     "Treasury yields surge toward the danger zone for stocks, as inflation pressures heat up": "인플레이션 압력이 가열됨에 따라 국채 수익률은 주식의 위험 영역으로 급증합니다.",
     "Why Did Sandisk Stock Slump Today?": "오늘 샌디스크 재고가 부진한 이유는 무엇인가요?",
     "$100 Oil Jolts Treasury Yields; Fed Rate-Hike Odds Jump": "$100 석유 요동 국채 수익률; 연준 금리 인상 확률 점프",
-    "Crypto Mining Stocks Fall Harder Than Bitcoin on a Risk-Off Tape: Cipher Mining Sinks 6%, MARA and Riot Drop 4%": "암호화폐 채굴 주식은 위험 오프 테이프에서 비트코인보다 더 강하게 떨어집니다: 암호 채굴은 6%, 마라 및 폭동은 4% 하락을 가라앉힙니다"
+    "Crypto Mining Stocks Fall Harder Than Bitcoin on a Risk-Off Tape: Cipher Mining Sinks 6%, MARA and Riot Drop 4%": "암호화폐 채굴 주식은 위험 오프 테이프에서 비트코인보다 더 강하게 떨어집니다: 암호 채굴은 6%, 마라 및 폭동은 4% 하락을 가라앉힙니다",
+    "Now’s your chance to make money during the best bond market for yields in decades — if you get over Treasury jitters": "수십 년 만에 수익률이 가장 좋은 채권 시장에서 수익을 올릴 수 있는 기회입니다. 국고 지터를 극복하면",
+    "Meta is winning over Wall Street with its new Muse AI agent": "Meta는 새로운 Muse AI 에이전트로 월스트리트에서 승리하고 있습니다.",
+    "'We intend to be disruptive': Robinhood CEO details big investment bank ambitions after Oura IPO win": "'우리는 파괴적일 계획입니다': 로빈후드 CEO는 Oura IPO 수주 후 큰 투자 은행의 포부를 자세히 설명합니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -2955,7 +2955,7 @@
       "2026-09-07": 1344.73,
       "2026-09-08": 1340.06,
       "2026-09-09": 1339.18,
-      "2026-09-10": 1345.42
+      "2026-09-10": 1345.27
     },
     "^GSPC": {
       "2026-08-30": 7711.76,
@@ -2969,7 +2969,7 @@
       "2026-09-07": 7718.6,
       "2026-09-08": 7673.52,
       "2026-09-09": 7636.36,
-      "2026-09-10": 7603.3
+      "2026-09-10": 7607.29
     },
     "^IXIC": {
       "2026-08-30": 26402.424,
@@ -2983,7 +2983,7 @@
       "2026-09-07": 26506.99,
       "2026-09-08": 26421.412,
       "2026-09-09": 26253.34,
-      "2026-09-10": 26136.234
+      "2026-09-10": 26144.742
     },
     "^VIX": {
       "2026-08-30": 14.43,
@@ -2997,7 +2997,7 @@
       "2026-09-07": 15.3,
       "2026-09-08": 15.72,
       "2026-09-09": 16.46,
-      "2026-09-10": 17.35
+      "2026-09-10": 17.24
     },
     "^TNX": {
       "2026-08-30": 4.72,
@@ -3011,7 +3011,7 @@
       "2026-09-07": 4.784,
       "2026-09-08": 4.806,
       "2026-09-09": 4.837,
-      "2026-09-10": 4.92
+      "2026-09-10": 4.922
     },
     "105560.KS": {
       "2026-08-31": 173300,
@@ -3207,7 +3207,7 @@
       "2026-09-07": 499.7,
       "2026-09-08": 493.95,
       "2026-09-09": 491.65,
-      "2026-09-10": 491.73
+      "2026-09-10": 492.38
     },
     "AAPL": {
       "2026-08-30": 319.7,
@@ -3221,7 +3221,7 @@
       "2026-09-07": 319.97,
       "2026-09-08": 316.22,
       "2026-09-09": 315.34,
-      "2026-09-10": 321.77
+      "2026-09-10": 323.275
     },
     "GOOGL": {
       "2026-08-30": 346.59,
@@ -3235,7 +3235,7 @@
       "2026-09-07": 338.46,
       "2026-09-08": 338.36,
       "2026-09-09": 330.65,
-      "2026-09-10": 330.795
+      "2026-09-10": 330.34
     },
     "BRK.B": {
       "2026-08-29": 505,
@@ -3256,7 +3256,7 @@
       "2026-09-07": 375.07,
       "2026-09-08": 368.64,
       "2026-09-09": 367.39,
-      "2026-09-10": 366.91
+      "2026-09-10": 367.215
     },
     "JNJ": {
       "2026-08-30": 268.04,
@@ -3270,7 +3270,7 @@
       "2026-09-07": 275.23,
       "2026-09-08": 269.12,
       "2026-09-09": 267.08,
-      "2026-09-10": 266.655
+      "2026-09-10": 266.8
     },
     "PG": {
       "2026-08-30": 143.78,
@@ -3284,7 +3284,7 @@
       "2026-09-07": 146.44,
       "2026-09-08": 145.58,
       "2026-09-09": 142.64,
-      "2026-09-10": 142.24
+      "2026-09-10": 142.28
     },
     "KO": {
       "2026-08-30": 89.66,
@@ -3298,7 +3298,7 @@
       "2026-09-07": 88.07,
       "2026-09-08": 88.36,
       "2026-09-09": 87.55,
-      "2026-09-10": 88.295
+      "2026-09-10": 88.325
     },
     "COST": {
       "2026-08-30": 945.47,
@@ -3312,7 +3312,7 @@
       "2026-09-07": 915.74,
       "2026-09-08": 910.18,
       "2026-09-09": 902.6,
-      "2026-09-10": 901.795
+      "2026-09-10": 903.243
     },
     "WM": {
       "2026-08-30": 219.66,
@@ -3326,7 +3326,7 @@
       "2026-09-07": 218.99,
       "2026-09-08": 217.78,
       "2026-09-09": 216.44,
-      "2026-09-10": 216.322
+      "2026-09-10": 216.365
     },
     "LIN": {
       "2026-08-30": 489.51,
@@ -3340,7 +3340,7 @@
       "2026-09-07": 477.57,
       "2026-09-08": 468.38,
       "2026-09-09": 466.65,
-      "2026-09-10": 460.865
+      "2026-09-10": 462.055
     },
     "XOM": {
       "2026-08-30": 156.71,
@@ -3354,7 +3354,7 @@
       "2026-09-07": 159.47,
       "2026-09-08": 160.66,
       "2026-09-09": 164.23,
-      "2026-09-10": 163.95
+      "2026-09-10": 164.515
     },
     "NVDA": {
       "2026-08-30": 217.55,
@@ -3368,7 +3368,7 @@
       "2026-09-07": 230.36,
       "2026-09-08": 225.73,
       "2026-09-09": 223.67,
-      "2026-09-10": 218.038
+      "2026-09-10": 218.36
     },
     "BRK-B": {
       "2026-09-02": 505.24,
@@ -3379,12 +3379,13 @@
       "2026-09-07": 506.03,
       "2026-09-08": 505.83,
       "2026-09-09": 506.72,
-      "2026-09-10": 506.045
+      "2026-09-10": 505.95
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Ceuyq2r5ki1iVmCRL656a\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Ceuyq3fh6DsMmM1E3y9tk\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Ceuyq4L8dTJmmWFwNeJwj\"}"
+    "news/kr/매일경제: This operation was aborted",
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Ceuze9B9YK42pJQLhACj6\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeuzeABfXc5i9tXVWCdsy\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeuzeBFfCh7oJWzUg6s97\"}"
   ]
 }
