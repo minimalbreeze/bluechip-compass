@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-09T23:02:14.501Z",
+  "asOf": "2026-09-10T00:01:44.376Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-09T09:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1339.45,
+      "price": 1341.87,
       "prev": 1339.2099609375,
-      "chg": 0.02,
+      "chg": 0.2,
       "prevDay": "2026-09-09",
       "basis": "prev-close-bar",
-      "time": "2026-09-09T23:00:33.000Z"
+      "time": "2026-09-10T00:01:33.000Z"
     },
     "^GSPC": {
       "price": 7636.36,
@@ -62,14 +62,14 @@
   "fx": {
     "low52": 1339.21,
     "high52": 1554.48,
-    "pct": 0.001
+    "pct": 0.012
   },
   "hist": {
     "^KS11": {
       "last": 6954.52,
-      "low52": 3260.05,
+      "low52": 3314.53,
       "high52": 9114.55,
-      "pct52": 0.631,
+      "pct52": 0.628,
       "chg3m": -10.04
     },
     "^KQ11": {
@@ -80,11 +80,11 @@
       "chg3m": -14.69
     },
     "KRW=X": {
-      "last": 1339.45,
+      "last": 1341.87,
       "low52": 1339.21,
       "high52": 1554.48,
-      "pct52": 0.001,
-      "chg3m": -11.49
+      "pct52": 0.012,
+      "chg3m": -11.33
     },
     "^GSPC": {
       "last": 7636.36,
@@ -368,13 +368,46 @@
   "news": {
     "kr": [
       {
-        "title": "무역실적 부풀려 주가 부양, '국산 둔갑' 조달…범부처 합동단속",
-        "link": "https://www.yna.co.kr/view/AKR20260909171600002",
+        "title": "DS증권 \"CJ CGV, 극장 관객수 증가…3분기 실적 성장 기대\"",
+        "link": "https://www.yna.co.kr/view/AKR20260910029700008",
         "source": "연합뉴스",
-        "date": "Thu, 10 Sep 2026 07:40:00 +0900",
+        "date": "Thu, 10 Sep 2026 08:49:31 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "엔고(高) 우려에 日증시 외면하는 글로벌 자금",
+        "link": "https://www.hankyung.com/article/202609105324i",
+        "source": "한국경제",
+        "date": "Thu, 10 Sep 2026 08:10:37 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "IBK투자증권 “이마트, 스타벅스 부진에 수익성 약화…기존사업 호조”",
+        "link": "https://www.mk.co.kr/news/stock/12149014",
+        "source": "매일경제",
+        "date": "Thu, 10 Sep 2026 08:58:59 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "은행권 정기예금 금리 줄인상…\"시장금리 상승 반영\"(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260910024551002",
+        "source": "연합뉴스",
+        "date": "Thu, 10 Sep 2026 08:48:29 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -390,43 +423,10 @@
         "by": "rules"
       },
       {
-        "title": "“올해 9월은 다르다, 美주식 겁먹고 팔았다간” … 금리가 보내는 뜻밖의 신호",
-        "link": "https://www.mk.co.kr/news/stock/12148317",
+        "title": "디에스엠 9.81파크, 8월 판매액 23.9억 ‘역대 최대’…외국인 방문 급증",
+        "link": "https://www.mk.co.kr/news/stock/12149011",
         "source": "매일경제",
-        "date": "Thu, 10 Sep 2026 05:00:00 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "2분기 증시 '불장'에…증권사 순이익 5조 돌파, 또 역대 최대",
-        "link": "https://www.yna.co.kr/view/AKR20260909180200002",
-        "source": "연합뉴스",
-        "date": "Thu, 10 Sep 2026 06:00:01 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "\"아무도 겪어보지 못한 가격\"…주가 18% 폭등에도 '경고' [분석+]",
-        "link": "https://www.hankyung.com/article/2026090943516",
-        "source": "한국경제",
-        "date": "Thu, 10 Sep 2026 06:30:06 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "“기업가치만 약 100조원 수준”…딥시크, 상하이 증시 IPO 속도",
-        "link": "https://www.mk.co.kr/news/stock/12148798",
-        "source": "매일경제",
-        "date": "Wed, 09 Sep 2026 21:51:21 +09:00",
+        "date": "Thu, 10 Sep 2026 08:58:14 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -460,14 +460,14 @@
         "by": "rules"
       },
       {
-        "title": "Is Simon Property Stock Underperforming the Nasdaq?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/simon-property-stock-underperforming-nasdaq-145319701.html",
+        "title": "Should You Buy SpaceX Stock in September?",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/buy-spacex-stock-september-160700816.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-08T14:53:19Z",
-        "ko": "Simon Property Stock은 Nasdaq보다 저조한 실적을 기록하고 있습니까?",
+        "date": "2026-09-08T16:07:00Z",
+        "ko": "9월에 스페이스X 주식을 사야 할까요?",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -496,14 +496,14 @@
         "by": "rules"
       },
       {
-        "title": "Zoetis (ZTS) Shares Drop After Earnings Revision",
-        "link": "https://finance.yahoo.com/healthcare/articles/zoetis-zts-shares-drop-earnings-145103070.html",
+        "title": "QCOM Stock Jumps as Qualcomm Announces AI Infrastructure Deal With Amazon",
+        "link": "https://finance.yahoo.com/technology/ai/articles/qcom-stock-jumps-qualcomm-announces-160857881.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-08T14:51:03Z",
-        "ko": "수익 수정 후 Zoetis (ZTS) 주식 하락",
+        "date": "2026-09-08T16:08:57Z",
+        "ko": "Qualcomm이 Amazon과의 AI 인프라 거래를 발표하면서 QCOM 주식 점프",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -511,8 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "Is Sherwin-Williams Stock Underperforming the Nasdaq?": "셔윈-윌리엄스 주식이 나스닥에서 저조한 실적을 기록하고 있습니까?",
-    "What is the average personal loan rate for September 2026?": "2026년 9월 평균 개인 대출 금리는 얼마인가요?",
     "Polestar Shares Fall After Q2 Revenue Misses Estimates": "Polestar 주식은 2분기 매출 누락 추정치 이후 추락합니다.",
     "Bloom Energy was just named to the S&P 500. These other stocks are joining the index as well.": "Bloom Energy는 S&P 500에 이름을 올렸습니다. 이 다른 주식들도 지수에 합류하고 있습니다.",
     "September Is the Stock Market's Worst Month on Record. Here's the 1 Move History Says AI Investors Should Make.": "9월은 주식 시장 사상 최악의 달입니다. 다음은 AI 투자자가 해야 할 1가지 이동 내역입니다.",
@@ -810,7 +808,9 @@
     "The bull market’s biggest enemy right now could be Bessent’s interventions": "현재 황소 시장의 가장 큰 적은 베센트의 개입일 수 있다.",
     "How Is Johnson Controls' Stock Performance Compared to Other Building Products & Equipment Stocks?": "Johnson Controls의 재고 실적은 다른 건축 제품 및 장비 재고와 어떻게 비교됩니까?",
     "Stocks Pressured by Rising Crude Oil Prices": "원유 가격 상승으로 압박받는 주식",
-    "Is Simon Property Stock Underperforming the Nasdaq?": "Simon Property Stock은 Nasdaq보다 저조한 실적을 기록하고 있습니까?"
+    "Is Simon Property Stock Underperforming the Nasdaq?": "Simon Property Stock은 Nasdaq보다 저조한 실적을 기록하고 있습니까?",
+    "Should You Buy SpaceX Stock in September?": "9월에 스페이스X 주식을 사야 할까요?",
+    "QCOM Stock Jumps as Qualcomm Announces AI Infrastructure Deal With Amazon": "Qualcomm이 Amazon과의 AI 인프라 거래를 발표하면서 QCOM 주식 점프"
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -2955,7 +2955,7 @@
       "2026-09-07": 1344.73,
       "2026-09-08": 1340.06,
       "2026-09-09": 1339.18,
-      "2026-09-10": 1339.45
+      "2026-09-10": 1341.87
     },
     "^GSPC": {
       "2026-08-29": 7711.76,
@@ -3382,8 +3382,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CethVQF2BzkQMbKvUQGwA\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CethVRa9SryosioeiY8hE\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CethVSBraSAENwaYqEx9e\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cetn2Z5frAqPS1C68J7Bh\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cetn2Zt3JCSjfd7e6VTrh\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cetn2atZNcwuz4TZZyR18\"}"
   ]
 }
