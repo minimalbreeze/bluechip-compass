@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-11T21:01:59.575Z",
+  "asOf": "2026-09-11T22:02:30.053Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -40,7 +40,7 @@
       "chg": 0.96,
       "prevDay": "2026-09-10",
       "basis": "prev-close-bar",
-      "time": "2026-09-11T21:01:50.000Z"
+      "time": "2026-09-11T21:15:59.000Z"
     },
     "^VIX": {
       "price": 15.84,
@@ -460,14 +460,14 @@
         "by": "rules"
       },
       {
-        "title": "Silver price today, Thursday, September 10, 2026: Silver prices back off ahead of inflation data",
-        "link": "https://finance.yahoo.com/personal-finance/investing/article/silver-price-today-thursday-september-10-2026-silver-prices-back-off-ahead-of-inflation-data-110719718.html",
+        "title": "Macy's turnaround shows promise as earnings beat estimates, outlook improves",
+        "link": "https://finance.yahoo.com/markets/stocks/article/macys-turnaround-shows-promise-as-earnings-beat-estimates-outlook-improves-112559626.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-10T11:07:19Z",
-        "ko": "2026년 9월 10일 목요일, 오늘 은 가격: 인플레이션 데이터에 앞서 은 가격 후퇴",
+        "date": "2026-09-10T11:25:59Z",
+        "ko": "메이시의 턴어라운드는 예상보다 수입이 높고 전망이 개선됨에 따라 약속을 보여줍니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -496,14 +496,14 @@
         "by": "rules"
       },
       {
-        "title": "Gold price today, Thursday, September 10, 2026: Gold prices steady ahead of inflation data and the Fed",
-        "link": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-thursday-september-10-2026-gold-prices-steady-ahead-of-inflation-data-and-the-fed-105217035.html",
+        "title": "A Rare Quant Signal Just Flashed for Contrarian Options Traders in Home Depot Stock",
+        "link": "https://finance.yahoo.com/markets/options/articles/rare-quant-signal-just-flashed-143644916.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-10T10:52:17Z",
-        "ko": "2026년 9월 10일 목요일 금 가격: 금 가격은 인플레이션 데이터와 연준보다 안정적",
+        "date": "2026-09-10T14:36:44Z",
+        "ko": "Home Depot Stock의 Contrarian Options 트레이더를 위한 희귀한 수량 신호가 방금 깜박였습니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -511,7 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "Pepsi vs Coca-Cola Stock: Cramer Declares A Winner As Pepsi’s Dividend Hits 4%": "펩시 vs 코카콜라 주식: 크레이머, 펩시의 배당 적중률 4% 로 승자 선언",
     "Oil Prices Jump, Treasury Yields Firm With Bessent Set To Calm 'Fever'": "유가 뛰어오르면 국채는 '열병' 을 가라앉히기 위한 베슨트 세트로 회사 수익률을 올립니다",
     "Premium Flattening Hits Kinsale Capital Group (KNSL) Stock Performance": "프리미엄 플랫닝 히트 Kinsale Capital Group (KNSL) 주식 실적",
     "Bond yields tick higher as oil tops $100: AlphaCheck": "채권 수익률은 오일 톱이 $100일 때 더 높아집니다: AlphaCheck",
@@ -810,7 +809,8 @@
     "Why Dell and HPE were the S&P 500’s top-performing stocks today": "Dell과 HPE가 오늘날 S&P 500의 최고 실적 주식이었던 이유",
     "Silver price today, Thursday, September 10, 2026: Silver prices back off ahead of inflation data": "2026년 9월 10일 목요일, 오늘 은 가격: 인플레이션 데이터에 앞서 은 가격 후퇴",
     "Oracle shook off fears about AI spending, but its stock still loses ground": "오라클은 AI 지출에 대한 두려움을 떨쳐냈지만, 주식은 여전히 기반을 잃고 있다.",
-    "Nvidia CEO Jensen Huang Just Called CrowdStrike Its Top Security Partner. How to Play CRWD Stock Here.": "엔비디아의 CEO 젠슨 황 (Jensen Huang) 은 CrowdStrike를 최고의 보안 파트너로 선정했습니다. 여기에서 CRWD 주식을 플레이하는 방법."
+    "Nvidia CEO Jensen Huang Just Called CrowdStrike Its Top Security Partner. How to Play CRWD Stock Here.": "엔비디아의 CEO 젠슨 황 (Jensen Huang) 은 CrowdStrike를 최고의 보안 파트너로 선정했습니다. 여기에서 CRWD 주식을 플레이하는 방법.",
+    "A Rare Quant Signal Just Flashed for Contrarian Options Traders in Home Depot Stock": "Home Depot Stock의 Contrarian Options 트레이더를 위한 희귀한 수량 신호가 방금 깜박였습니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -3384,7 +3384,8 @@
     }
   },
   "failed": [
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CexKwQaJAQHGjs9q6Rgct\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CexKwRUs7YM9Zrf9a6ZuZ\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CexQZ1QEycT7PQHwHsJxG\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CexQZ2TjpJU8XrCJwfUNn\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CexQZ36SQ4t9jfLSkFshv\"}"
   ]
 }
