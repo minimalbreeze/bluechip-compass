@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-11T11:38:15.272Z",
+  "asOf": "2026-09-11T12:38:38.930Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-11T09:05:30.000Z"
     },
     "KRW=X": {
-      "price": 1341.98,
+      "price": 1342.78,
       "prev": 1339.1700439453125,
-      "chg": 0.21,
+      "chg": 0.27,
       "prevDay": "2026-09-10",
       "basis": "prev-close-bar",
-      "time": "2026-09-11T11:37:58.000Z"
+      "time": "2026-09-11T12:38:27.000Z"
     },
     "^GSPC": {
       "price": 7591.7,
@@ -32,7 +32,7 @@
       "chg": 0,
       "prevDay": "2026-09-10",
       "basis": "prev-close-bar",
-      "time": "2026-09-10T20:00:00.000Z"
+      "time": "2026-09-10T21:05:41.000Z"
     },
     "^IXIC": {
       "price": 26081.725,
@@ -43,26 +43,26 @@
       "time": "2026-09-10T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 17.14,
+      "price": 16.96,
       "prev": 17.84000015258789,
-      "chg": -3.92,
+      "chg": -4.93,
       "prevDay": "2026-09-10",
       "basis": "prev-close-bar",
-      "time": "2026-09-11T11:22:46.000Z"
+      "time": "2026-09-11T12:23:16.000Z"
     },
     "^TNX": {
-      "price": 4.944,
+      "price": 4.949,
       "prev": 4.943999767303467,
-      "chg": 0,
+      "chg": 0.1,
       "prevDay": "2026-09-10",
       "basis": "prev-close-bar",
-      "time": "2026-09-10T18:59:54.000Z"
+      "time": "2026-09-11T12:23:24.000Z"
     }
   },
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.013
+    "pct": 0.017
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -20.64
     },
     "KRW=X": {
-      "last": 1341.98,
+      "last": 1342.78,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.013,
-      "chg3m": -11.18
+      "pct52": 0.017,
+      "chg3m": -11.13
     },
     "^GSPC": {
       "last": 7591.7,
@@ -101,18 +101,18 @@
       "chg3m": 1.05
     },
     "^VIX": {
-      "last": 17.14,
+      "last": 16.96,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.209,
-      "chg3m": 5.8
+      "pct52": 0.199,
+      "chg3m": 4.69
     },
     "^TNX": {
-      "last": 4.94,
+      "last": 4.95,
       "low52": 3.95,
-      "high52": 4.94,
+      "high52": 4.95,
       "pct52": 1,
-      "chg3m": 10.78
+      "chg3m": 10.3
     }
   },
   "regime": {
@@ -368,14 +368,14 @@
   "news": {
     "kr": [
       {
-        "title": "\"미래기금 국채상환 기준 도입해야…현·미래세대 계정은 따로\"(종합)",
-        "link": "https://www.yna.co.kr/view/AKR20260911133451002",
+        "title": "농협경제지주, 하나로유통 흡수합병 추진…12년 만에 통합",
+        "link": "https://www.yna.co.kr/view/AKR20260911162400030",
         "source": "연합뉴스",
-        "date": "Fri, 11 Sep 2026 19:07:42 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "date": "Fri, 11 Sep 2026 20:52:40 +0900",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": null,
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
         "by": "rules"
       },
       {
@@ -401,10 +401,10 @@
         "by": "rules"
       },
       {
-        "title": "KS인더스트리, 60억원 유상증자…상생제1호조합에 제3자배정",
-        "link": "https://www.yna.co.kr/view/AKR20260911151700008",
+        "title": "키움증권 미 자회사, 현지서 국내 반도체 ETF 상장",
+        "link": "https://www.yna.co.kr/view/AKR20260911164500008",
         "source": "연합뉴스",
-        "date": "Fri, 11 Sep 2026 18:32:05 +0900",
+        "date": "Fri, 11 Sep 2026 20:48:56 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -448,11 +448,11 @@
         "by": "rules"
       },
       {
-        "title": "The four reasons stocks could embark on a ‘face-ripper rally’ as soon as this morning",
-        "link": "https://www.marketwatch.com/story/the-four-reasons-stocks-are-about-to-embark-on-a-face-ripper-rally-e1e05e5e?mod=mw_rss_topstories",
+        "title": "Anthropic’s safety-first image takes a hit ahead of its massive IPO: ‘AI could kill all humans.’",
+        "link": "https://www.marketwatch.com/story/anthropics-safety-first-image-takes-a-hit-ahead-of-its-massive-ipo-ai-could-kill-all-humans-befd133d?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Fri, 11 Sep 2026 10:58:00 GMT",
-        "ko": "주식이 오늘 아침 '페이스 리퍼 랠리‘ 에 착수할 수 있었던 네 가지 이유",
+        "date": "Fri, 11 Sep 2026 11:58:00 GMT",
+        "ko": "Anthropic의 안전 우선 이미지는 ‘AI가 모든 인간을 죽일 수 있다‘ 는 거대한 IPO를 앞두고 큰 타격을 입습니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -460,14 +460,14 @@
         "by": "rules"
       },
       {
-        "title": "WTI Breaks $100—and This Rally Has Legs",
-        "link": "https://finance.yahoo.com/energy/articles/oil-breaks-100-rally-legs-000000548.html",
+        "title": "Perma-Pipe International Holdings, Inc. Q2 2027 Earnings Call Summary",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/perma-pipe-international-holdings-inc-003115455.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-10T00:00:00Z",
-        "ko": "WTI가 $100를 깨고 이 집회에는 다리가 있습니다",
+        "date": "2026-09-10T00:31:15Z",
+        "ko": "Perma-Pipe International Holdings, Inc. 2027년 2분기 실적 통화 요약",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -484,26 +484,26 @@
         "by": "rules"
       },
       {
-        "title": "Never mind the bond yields, Bank of America shows where the real threat to the economy lies",
-        "link": "https://www.marketwatch.com/story/never-mind-the-bond-yields-bank-of-america-shows-where-the-real-threat-to-the-economy-lies-1e6cbeaa?mod=mw_rss_topstories",
+        "title": "The four reasons stocks could embark on a ‘face-ripper rally’ as soon as this morning",
+        "link": "https://www.marketwatch.com/story/the-four-reasons-stocks-are-about-to-embark-on-a-face-ripper-rally-e1e05e5e?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Fri, 11 Sep 2026 10:40:00 GMT",
-        "ko": "채권 수익률은 신경 쓰지 마세요. 뱅크 오브 아메리카는 경제에 대한 진정한 위협이 어디에 있는지 보여줍니다.",
+        "date": "Fri, 11 Sep 2026 10:58:00 GMT",
+        "ko": "주식이 오늘 아침 '페이스 리퍼 랠리‘ 에 착수할 수 있었던 네 가지 이유",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "Perma-Pipe International Holdings, Inc. Q2 2027 Earnings Call Summary",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/perma-pipe-international-holdings-inc-003115455.html",
-        "source": "Yahoo Finance",
-        "date": "2026-09-10T00:31:15Z",
-        "ko": "Perma-Pipe International Holdings, Inc. 2027년 2분기 실적 통화 요약",
+        "title": "Why the Fed's interest rate call could come down to a few hundredths of a percentage point",
+        "link": "https://www.cnbc.com/2026/09/08/federal-reserves-rate-call-could-hang-on-a-tiny-fraction.html",
+        "source": "CNBC",
+        "date": "Wed, 09 Sep 2026 11:22:21 GMT",
+        "ko": "연준의 금리 통화가 몇 백분의 일 포인트까지 내려올 수 있는 이유",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -511,7 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "Why the Fed's interest rate call could come down to a few hundredths of a percentage point": "연준의 금리 통화가 몇 백분의 일 포인트까지 내려올 수 있는 이유",
     "Why a stronger Japanese currency could spell trouble for AI and technology stocks": "일본 통화의 강세가 AI 및 기술 주식에 문제를 일으킬 수 있는 이유",
     "Best CD rates today, Monday, September 7, 2026: Lock in up to 4.35% APY": "2026년 9월 7일 월요일, 오늘 최고 CD 가격: 최대 4.35% APY 고정",
     "Mortgage and refinance interest rates today, Monday, September 7, 2026: Fixed purchase rates lower than refi rates": "2026년 9월 7일 월요일 모기지 및 재융자 금리: 재융자 금리보다 낮은 고정 구매 금리",
@@ -810,7 +809,8 @@
     "The four reasons stocks could embark on a ‘face-ripper rally’ as soon as this morning": "주식이 오늘 아침 '페이스 리퍼 랠리‘ 에 착수할 수 있었던 네 가지 이유",
     "WTI Breaks $100—and This Rally Has Legs": "WTI가 $100를 깨고 이 집회에는 다리가 있습니다",
     "Never mind the bond yields, Bank of America shows where the real threat to the economy lies": "채권 수익률은 신경 쓰지 마세요. 뱅크 오브 아메리카는 경제에 대한 진정한 위협이 어디에 있는지 보여줍니다.",
-    "Perma-Pipe International Holdings, Inc. Q2 2027 Earnings Call Summary": "Perma-Pipe International Holdings, Inc. 2027년 2분기 실적 통화 요약"
+    "Perma-Pipe International Holdings, Inc. Q2 2027 Earnings Call Summary": "Perma-Pipe International Holdings, Inc. 2027년 2분기 실적 통화 요약",
+    "Anthropic’s safety-first image takes a hit ahead of its massive IPO: ‘AI could kill all humans.’": "Anthropic의 안전 우선 이미지는 ‘AI가 모든 인간을 죽일 수 있다‘ 는 거대한 IPO를 앞두고 큰 타격을 입습니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -2955,7 +2955,7 @@
       "2026-09-08": 1340.06,
       "2026-09-09": 1339.18,
       "2026-09-10": 1349.14,
-      "2026-09-11": 1341.98
+      "2026-09-11": 1342.78
     },
     "^GSPC": {
       "2026-08-31": 7686.14,
@@ -2997,7 +2997,7 @@
       "2026-09-08": 15.72,
       "2026-09-09": 16.46,
       "2026-09-10": 17.84,
-      "2026-09-11": 17.14
+      "2026-09-11": 16.96
     },
     "^TNX": {
       "2026-08-31": 4.7580004,
@@ -3011,7 +3011,7 @@
       "2026-09-08": 4.806,
       "2026-09-09": 4.837,
       "2026-09-10": 4.944,
-      "2026-09-11": 4.944
+      "2026-09-11": 4.949
     },
     "105560.KS": {
       "2026-08-31": 173300,
@@ -3384,8 +3384,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cewax3rshFyEmdpVcHm9p\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cewax4rQZr2LwBg8DcVo5\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cewax5b4CNkHrN77CtTKQ\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CewfZAHHAJUmZ68iJn2aY\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CewfZBoZ1VAW3e78ekXKe\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CewfZCWUC5fHezQPBASzb\"}"
   ]
 }
