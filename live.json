@@ -1,30 +1,30 @@
 {
-  "asOf": "2026-09-11T01:47:59.930Z",
+  "asOf": "2026-09-11T01:58:26.693Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
-      "price": 6845.85,
-      "prev": 7033.92,
-      "chg": -2.67,
-      "prevDay": "2026-09-10",
-      "basis": "prev-close-memo",
-      "time": "2026-09-11T01:27:40.000Z"
-    },
-    "^KQ11": {
-      "price": 821.03,
-      "prev": 836.92,
-      "chg": -1.9,
-      "prevDay": "2026-09-10",
-      "basis": "prev-close-memo",
-      "time": "2026-09-11T01:27:40.000Z"
-    },
-    "KRW=X": {
-      "price": 1347.68,
-      "prev": 1339.1700439453125,
-      "chg": 0.64,
+      "price": 6867.3,
+      "prev": 7033.919921875,
+      "chg": -2.37,
       "prevDay": "2026-09-10",
       "basis": "prev-close-bar",
-      "time": "2026-09-11T01:47:50.000Z"
+      "time": "2026-09-11T01:38:10.000Z"
+    },
+    "^KQ11": {
+      "price": 823,
+      "prev": 836.9199829101562,
+      "chg": -1.66,
+      "prevDay": "2026-09-10",
+      "basis": "prev-close-bar",
+      "time": "2026-09-11T01:38:10.000Z"
+    },
+    "KRW=X": {
+      "price": 1347.38,
+      "prev": 1339.1700439453125,
+      "chg": 0.61,
+      "prevDay": "2026-09-10",
+      "basis": "prev-close-bar",
+      "time": "2026-09-11T01:58:17.000Z"
     },
     "^GSPC": {
       "price": 7591.7,
@@ -62,29 +62,29 @@
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.039
+    "pct": 0.038
   },
   "hist": {
     "^KS11": {
-      "last": 6845.48,
+      "last": 6867.3,
       "low52": 3344.2,
       "high52": 9114.55,
-      "pct52": 0.607,
-      "chg3m": -15.73
+      "pct52": 0.611,
+      "chg3m": -19.64
     },
     "^KQ11": {
-      "last": 821.02,
+      "last": 823,
       "low52": 644.78,
       "high52": 1226.18,
-      "pct52": 0.303,
-      "chg3m": -20.22
+      "pct52": 0.307,
+      "chg3m": -20.41
     },
     "KRW=X": {
-      "last": 1347.65,
+      "last": 1347.38,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.039,
-      "chg3m": -10.81
+      "pct52": 0.038,
+      "chg3m": -10.83
     },
     "^GSPC": {
       "last": 7591.7,
@@ -154,52 +154,52 @@
   "stocks": {
     "kr": {
       "105560": {
-        "price": 176700,
+        "price": 176900,
         "prev": 173400,
+        "chg": 2.02,
+        "prevDay": "2026-09-10",
+        "basis": "prev-close-bar",
+        "time": "2026-09-11T01:38:21.000Z"
+      },
+      "207940": {
+        "price": 1406000,
+        "prev": 1423000,
+        "chg": -1.19,
+        "prevDay": "2026-09-10",
+        "basis": "prev-close-bar",
+        "time": "2026-09-11T01:38:16.000Z"
+      },
+      "005930": {
+        "price": 259000,
+        "prev": 269000,
+        "chg": -3.72,
+        "prevDay": "2026-09-10",
+        "basis": "prev-close-bar",
+        "time": "2026-09-11T01:38:24.000Z"
+      },
+      "000660": {
+        "price": 1785000,
+        "prev": 1853000,
+        "chg": -3.67,
+        "prevDay": "2026-09-10",
+        "basis": "prev-close-bar",
+        "time": "2026-09-11T01:38:24.000Z"
+      },
+      "005380": {
+        "price": 381000,
+        "prev": 389000,
+        "chg": -2.06,
+        "prevDay": "2026-09-10",
+        "basis": "prev-close-bar",
+        "time": "2026-09-11T01:38:15.000Z"
+      },
+      "055550": {
+        "price": 112400,
+        "prev": 110300,
         "chg": 1.9,
         "prevDay": "2026-09-10",
         "basis": "prev-close-bar",
-        "time": "2026-09-11T01:27:57.000Z"
-      },
-      "207940": {
-        "price": 1403000,
-        "prev": 1423000,
-        "chg": -1.41,
-        "prevDay": "2026-09-10",
-        "basis": "prev-close-bar",
-        "time": "2026-09-11T01:27:56.000Z"
-      },
-      "005930": {
-        "price": 258000,
-        "prev": 269000,
-        "chg": -4.09,
-        "prevDay": "2026-09-10",
-        "basis": "prev-close-bar",
-        "time": "2026-09-11T01:27:57.000Z"
-      },
-      "000660": {
-        "price": 1776000,
-        "prev": 1853000,
-        "chg": -4.16,
-        "prevDay": "2026-09-10",
-        "basis": "prev-close-bar",
-        "time": "2026-09-11T01:27:58.000Z"
-      },
-      "005380": {
-        "price": 380500,
-        "prev": 389000,
-        "chg": -2.19,
-        "prevDay": "2026-09-10",
-        "basis": "prev-close-bar",
-        "time": "2026-09-11T01:27:57.000Z"
-      },
-      "055550": {
-        "price": 112000,
-        "prev": 110300,
-        "chg": 1.54,
-        "prevDay": "2026-09-10",
-        "basis": "prev-close-bar",
-        "time": "2026-09-11T01:27:56.000Z"
+        "time": "2026-09-11T01:38:21.000Z"
       },
       "000810": {
         "price": 682000,
@@ -207,55 +207,55 @@
         "chg": 5.41,
         "prevDay": "2026-09-10",
         "basis": "prev-close-bar",
-        "time": "2026-09-11T01:27:54.000Z"
+        "time": "2026-09-11T01:38:21.000Z"
       },
       "033780": {
-        "price": 170900,
+        "price": 171000,
         "prev": 169100,
-        "chg": 1.06,
+        "chg": 1.12,
         "prevDay": "2026-09-10",
         "basis": "prev-close-bar",
-        "time": "2026-09-11T01:27:55.000Z"
+        "time": "2026-09-11T01:38:23.000Z"
       },
       "035420": {
-        "price": 204500,
+        "price": 205000,
         "prev": 208000,
-        "chg": -1.68,
+        "chg": -1.44,
         "prevDay": "2026-09-10",
         "basis": "prev-close-bar",
-        "time": "2026-09-11T01:27:57.000Z"
+        "time": "2026-09-11T01:38:24.000Z"
       },
       "005490": {
-        "price": 332000,
+        "price": 332500,
         "prev": 339000,
-        "chg": -2.06,
+        "chg": -1.92,
         "prevDay": "2026-09-10",
         "basis": "prev-close-bar",
-        "time": "2026-09-11T01:27:56.000Z"
+        "time": "2026-09-11T01:38:24.000Z"
       },
       "028260": {
-        "price": 365500,
+        "price": 366000,
         "prev": 379500,
-        "chg": -3.69,
+        "chg": -3.56,
         "prevDay": "2026-09-10",
         "basis": "prev-close-bar",
-        "time": "2026-09-11T01:27:58.000Z"
+        "time": "2026-09-11T01:38:24.000Z"
       },
       "012450": {
-        "price": 1066000,
+        "price": 1072000,
         "prev": 1067000,
-        "chg": -0.09,
+        "chg": 0.47,
         "prevDay": "2026-09-10",
         "basis": "prev-close-bar",
-        "time": "2026-09-11T01:27:57.000Z"
+        "time": "2026-09-11T01:38:21.000Z"
       },
       "017670": {
-        "price": 90300,
+        "price": 90400,
         "prev": 90400,
-        "chg": -0.11,
+        "chg": 0,
         "prevDay": "2026-09-10",
         "basis": "prev-close-bar",
-        "time": "2026-09-11T01:27:50.000Z"
+        "time": "2026-09-11T01:38:24.000Z"
       }
     },
     "us": {
@@ -460,14 +460,14 @@
         "by": "rules"
       },
       {
-        "title": "Iran War Fears Are Back. Stocks Struggle and Brent Tops $100.",
-        "link": "https://www.barrons.com/livecoverage/stock-market-news-today-090926/card/iran-war-fears-are-back-stocks-struggle-and-brent-tops-100--zFzmF5FZXL9Dv3t86Yeu?siteid=yhoof2&yptr=yahoo",
+        "title": "Bond yields tick higher as oil tops $100: AlphaCheck",
+        "link": "https://finance.yahoo.com/markets/article/bond-yields-tick-higher-as-oil-tops-100-alphacheck-135740415.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-09T13:36:25Z",
-        "ko": "이란 전쟁에 대한 두려움이 다시 커지고 있습니다. 주식 투쟁과 브렌트 탑스 $100.",
+        "date": "2026-09-09T13:57:40Z",
+        "ko": "채권 수익률은 오일 톱이 $100일 때 더 높아집니다: AlphaCheck",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -496,11 +496,11 @@
         "by": "rules"
       },
       {
-        "title": "How Is Kimberly-Clark's Stock Performance Compared to Other Consumer Defensive Stocks?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/kimberly-clarks-stock-performance-compared-134013029.html",
+        "title": "Rising Markets Lift Primerica’s (PRI) Investment Sales Outlook",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/rising-markets-lift-primerica-pri-135802709.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-09T13:40:13Z",
-        "ko": "Kimberly-Clark의 주식 실적은 다른 소비자 방어 주식과 어떻게 비교됩니까?",
+        "date": "2026-09-09T13:58:02Z",
+        "ko": "Rising Markets Lift Primerica (PRI) 의 투자 매출 전망",
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
@@ -511,7 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "Stock market today: Dow, S&P 500 slip as oil prices rise, US-Canada trade war escalates": "오늘의 주식 시장: 다우지수, 유가 상승에 따른 S&P 500 하락, 미국-캐나다 무역 전쟁 격화",
     "The investment lessons from the Vanguard 500 Index fund’s 50-year history": "뱅가드 500 인덱스 펀드의 50년 역사에서 얻은 투자 교훈",
     "Stock Market Today: Dow Futures Slide Following U.S.-Iran Attacks; SK Hynix Set To Break Out (Live Coverage)": "스톡 마켓 투데이: 미국-이란 공격에 따른 다우 선물 슬라이드; SK 하이닉스 이탈 예정 (라이브 커버리지)",
     "Novartis’s failed trial for cholesterol drug leads to broad biopharma selloff": "콜레스테롤 약물에 대한 노바티스의 실패한 시험은 광범위한 바이오 제약 판매로 이어진다.",
@@ -810,7 +809,8 @@
     "U.S. stock futures fall as Brent crude moves above $100: Dow Jones, S&P, Nasdaq, Wall Street": "다우 존스, S&P, 나스닥, 월스트리트: 브렌트 원유가 $100 이상으로 이동함에 따라 미국 주식 선물이 하락합니다.",
     "How Is Kimberly-Clark's Stock Performance Compared to Other Consumer Defensive Stocks?": "Kimberly-Clark의 주식 실적은 다른 소비자 방어 주식과 어떻게 비교됩니까?",
     "Look Very Hard at Microsoft and Alphabet as Rate Hike Fears Roil Markets": "금리 인상으로 마이크로소프트와 알파벳을 매우 열심히 살펴보고 로일 마켓을 두려워합니다",
-    "Iran War Fears Are Back. Stocks Struggle and Brent Tops $100.": "이란 전쟁에 대한 두려움이 다시 커지고 있습니다. 주식 투쟁과 브렌트 탑스 $100."
+    "Iran War Fears Are Back. Stocks Struggle and Brent Tops $100.": "이란 전쟁에 대한 두려움이 다시 커지고 있습니다. 주식 투쟁과 브렌트 탑스 $100.",
+    "Rising Markets Lift Primerica’s (PRI) Investment Sales Outlook": "Rising Markets Lift Primerica (PRI) 의 투자 매출 전망"
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -2927,7 +2927,7 @@
       "2026-09-08": 6954.52,
       "2026-09-09": 7051.64,
       "2026-09-10": 7033.92,
-      "2026-09-11": 6845.85
+      "2026-09-11": 6867.3
     },
     "^KQ11": {
       "2026-08-31": 834.29,
@@ -2941,7 +2941,7 @@
       "2026-09-08": 811.88,
       "2026-09-09": 830.37,
       "2026-09-10": 836.92,
-      "2026-09-11": 821.03
+      "2026-09-11": 823
     },
     "KRW=X": {
       "2026-08-31": 1367.96,
@@ -2955,7 +2955,7 @@
       "2026-09-08": 1340.06,
       "2026-09-09": 1339.18,
       "2026-09-10": 1349.14,
-      "2026-09-11": 1347.68
+      "2026-09-11": 1347.38
     },
     "^GSPC": {
       "2026-08-30": 7711.76,
@@ -3025,7 +3025,7 @@
       "2026-09-08": 173700,
       "2026-09-09": 172000,
       "2026-09-10": 173400,
-      "2026-09-11": 176700
+      "2026-09-11": 176900
     },
     "207940.KS": {
       "2026-08-31": 1518000,
@@ -3039,7 +3039,7 @@
       "2026-09-08": 1440000,
       "2026-09-09": 1452000,
       "2026-09-10": 1423000,
-      "2026-09-11": 1403000
+      "2026-09-11": 1406000
     },
     "005930.KS": {
       "2026-08-31": 260000,
@@ -3053,7 +3053,7 @@
       "2026-09-08": 269500,
       "2026-09-09": 269500,
       "2026-09-10": 269000,
-      "2026-09-11": 258000
+      "2026-09-11": 259000
     },
     "000660.KS": {
       "2026-08-31": 1674000,
@@ -3067,7 +3067,7 @@
       "2026-09-08": 1793000,
       "2026-09-09": 1856000,
       "2026-09-10": 1853000,
-      "2026-09-11": 1776000
+      "2026-09-11": 1785000
     },
     "005380.KS": {
       "2026-08-31": 403500,
@@ -3081,7 +3081,7 @@
       "2026-09-08": 385000,
       "2026-09-09": 388000,
       "2026-09-10": 389000,
-      "2026-09-11": 380500
+      "2026-09-11": 381000
     },
     "055550.KS": {
       "2026-08-31": 108900,
@@ -3095,7 +3095,7 @@
       "2026-09-08": 113200,
       "2026-09-09": 110600,
       "2026-09-10": 110300,
-      "2026-09-11": 112000
+      "2026-09-11": 112400
     },
     "000810.KS": {
       "2026-08-31": 665000,
@@ -3123,7 +3123,7 @@
       "2026-09-08": 169800,
       "2026-09-09": 168400,
       "2026-09-10": 169100,
-      "2026-09-11": 170900
+      "2026-09-11": 171000
     },
     "035420.KS": {
       "2026-08-31": 217000,
@@ -3137,7 +3137,7 @@
       "2026-09-08": 214500,
       "2026-09-09": 210000,
       "2026-09-10": 208000,
-      "2026-09-11": 204500
+      "2026-09-11": 205000
     },
     "005490.KS": {
       "2026-08-31": 338500,
@@ -3151,7 +3151,7 @@
       "2026-09-08": 328500,
       "2026-09-09": 337000,
       "2026-09-10": 339000,
-      "2026-09-11": 332000
+      "2026-09-11": 332500
     },
     "028260.KS": {
       "2026-08-31": 376500,
@@ -3165,7 +3165,7 @@
       "2026-09-08": 382000,
       "2026-09-09": 376000,
       "2026-09-10": 379500,
-      "2026-09-11": 365500
+      "2026-09-11": 366000
     },
     "012450.KS": {
       "2026-08-31": 1102000,
@@ -3179,7 +3179,7 @@
       "2026-09-08": 1027000,
       "2026-09-09": 1047000,
       "2026-09-10": 1067000,
-      "2026-09-11": 1066000
+      "2026-09-11": 1072000
     },
     "017670.KS": {
       "2026-08-31": 94200,
@@ -3193,7 +3193,7 @@
       "2026-09-08": 92400,
       "2026-09-09": 91300,
       "2026-09-10": 90400,
-      "2026-09-11": 90300
+      "2026-09-11": 90400
     },
     "MSFT": {
       "2026-08-30": 513.53,
@@ -3383,8 +3383,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CevowSfK4Yp3587R9PXb1\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CevowTXPx6NTxBZeTiN64\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CevowUBLfZeRbi12Tqtg8\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cevpje4SbunakE4E45Yjt\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CevpjeyWb2F5Spa2J17VS\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cevpjfk9TCJo8nWp6fdkd\"}"
   ]
 }
