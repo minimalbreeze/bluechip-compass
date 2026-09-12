@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-12T22:12:45.330Z",
+  "asOf": "2026-09-12T23:13:23.195Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -20,9 +20,9 @@
     },
     "KRW=X": {
       "price": 1341.05,
-      "prev": 1348.1700439453125,
-      "chg": -0.53,
-      "prevDay": "2026-09-11",
+      "prev": 1341.050048828125,
+      "chg": 0,
+      "prevDay": "2026-09-12",
       "basis": "prev-close-bar",
       "time": "2026-09-12T03:35:24.000Z"
     },
@@ -368,24 +368,13 @@
   "news": {
     "kr": [
       {
-        "title": "[마켓스토리] '전쟁·유가·금리' 삼중고…외인 셀코리아 어쩌나",
-        "link": "https://www.yna.co.kr/view/AKR20260911118800008",
-        "source": "연합뉴스",
-        "date": "Sun, 13 Sep 2026 07:00:11 +0900",
+        "title": "\"금리 흔들려도 AI 성장 유효\"…코스피 7000선 안착할까 [주간전망]",
+        "link": "https://www.hankyung.com/article/2026091179876",
+        "source": "한국경제",
+        "date": "Sun, 13 Sep 2026 08:00:07 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "'열흘 만에 -20%' 개미들 비명…\"줍줍 기회\" 증권가 콕 집었다 [종목+]",
-        "link": "https://www.hankyung.com/article/2026091194266",
-        "source": "한국경제",
-        "date": "Sat, 12 Sep 2026 09:57:16 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -401,24 +390,13 @@
         "by": "rules"
       },
       {
-        "title": "채권시장 덮친 '유가 쇼크'…한은의 선제적 인상, 방파제되나",
-        "link": "https://www.yna.co.kr/view/AKR20260912024200008",
-        "source": "연합뉴스",
-        "date": "Sun, 13 Sep 2026 06:35:00 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "LG·LX의 희비…무엇이 두 형제회사 주가 갈랐나",
-        "link": "https://www.hankyung.com/article/202609120109i",
+        "title": "역대급 수주에도 주가 흔들린 삼성전기…향후 이벤트 및 접근 전략은",
+        "link": "https://www.hankyung.com/article/202609119442i",
         "source": "한국경제",
-        "date": "Sat, 12 Sep 2026 08:56:38 +0900",
+        "date": "Sun, 13 Sep 2026 08:00:02 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -427,6 +405,28 @@
         "link": "https://www.mk.co.kr/news/stock/12151042",
         "source": "매일경제",
         "date": "Sat, 12 Sep 2026 12:52:48 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "'열흘 만에 -20%' 개미들 비명…\"줍줍 기회\" 증권가 콕 집었다 [종목+]",
+        "link": "https://www.hankyung.com/article/2026091194266",
+        "source": "한국경제",
+        "date": "Sat, 12 Sep 2026 09:57:16 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "뉴욕증시, 닷새만에 반등…다우 1%↑",
+        "link": "https://www.mk.co.kr/news/stock/12151023",
+        "source": "매일경제",
+        "date": "Sat, 12 Sep 2026 10:26:47 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -460,15 +460,15 @@
         "by": "rules"
       },
       {
-        "title": "BioMarin Shares Jump 5% After Global Patent Settlement With Ascendis",
-        "link": "https://finance.yahoo.com/healthcare/articles/biomarin-shares-jump-5-global-170253036.html",
+        "title": "U.S. Bancorp (USB)’s Dividend Increase Has More Behind It",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/u-bancorp-usb-dividend-increase-221600807.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-12T17:02:53Z",
-        "ko": "BioMarin 주식 점프 5% Ascendis로 글로벌 특허 정산 후",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": null,
-        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
+        "date": "2026-09-12T22:16:00Z",
+        "ko": "미국 은행 (USB) 의 배당금 증가는 그 이면에서 더 많은 것을 가지고 있습니다.",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
@@ -496,11 +496,11 @@
         "by": "rules"
       },
       {
-        "title": "Jim Cramer Explains Why Merck (MRK) Is His Fantasy Defense Stock",
-        "link": "https://finance.yahoo.com/healthcare/articles/jim-cramer-explains-why-merck-164911925.html",
+        "title": "ACV Auctions (ACVA) Was This Week’s Top Stock — Here’s What Drove Gains",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/acv-auctions-acva-week-top-220605819.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-12T16:49:11Z",
-        "ko": "짐 크레이머가 머크 (MRK) 가 그의 판타지 방어 주식인 이유를 설명합니다",
+        "date": "2026-09-12T22:06:05Z",
+        "ko": "ACV 경매 (ACVA) 는 이번 주 최고 재고였습니다 — 원동력 이익은 다음과 같습니다",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -511,8 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "Brent Approaches $100 as Markets Assess Iran Threats to Gulf Energy Infrastructure": "Brent는 시장이 걸프 에너지 인프라에 대한 이란의 위협을 평가함에 따라 $100에 접근합니다.",
-    "Is Edwards Lifesciences Stock Underperforming the Dow?": "Edwards Lifesciences 주가가 다우지수를 밑도는가?",
     "3 Dividend Stocks Trading Near Their 52-Week Lows": "52주 최저치에 근접한 3배당주 거래",
     "Vaxcyte's CEO Parted With Shares for Taxes. Here's What Long-Term Investors Should Know About the Firm": "Vaxcyte의 CEO는 세금을 위해 주식과 헤어졌습니다. 장기 투자자가 회사에 대해 알아야 할 사항은 다음과 같습니다.",
     "How Almar Latour Steers Dow Jones Through Disruption": "Almar Latour가 혼란을 통해 Jones를 조종하는 방법",
@@ -810,7 +808,9 @@
     "BigBear.ai vs. D-Wave Quantum: Which Technology Stock Is a Better Buy in 2026?": "BigBear.ai vs. D-Wave Quantum: 2026년에는 어떤 기술 재고가 더 나은 구매입니까?",
     "Is Toast Stock a Buy After a Record 9,500-Restaurant Quarter?": "토스트 스톡은 기록적인 9,500 레스토랑 분기 이후 매수인가요?",
     "Berkshire Hathaway Has Paid Exactly 1 Dividend Since 1965. Here's Where the Cash Goes Instead.": "버크셔 해서웨이는 1965년 이후 정확히 1배당을 지급했습니다. 현금 대신 사용할 수 있는 결제 수단은 다음과 같습니다.",
-    "Why OpenAI’s Sam Altman says an IPO isn’t in the cards this year": "OpenAI의 Sam Altman이 올해 IPO가 카드에 없다고 말하는 이유"
+    "Why OpenAI’s Sam Altman says an IPO isn’t in the cards this year": "OpenAI의 Sam Altman이 올해 IPO가 카드에 없다고 말하는 이유",
+    "U.S. Bancorp (USB)’s Dividend Increase Has More Behind It": "미국 은행 (USB) 의 배당금 증가는 그 이면에서 더 많은 것을 가지고 있습니다.",
+    "ACV Auctions (ACVA) Was This Week’s Top Stock — Here’s What Drove Gains": "ACV 경매 (ACVA) 는 이번 주 최고 재고였습니다 — 원동력 이익은 다음과 같습니다"
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -2944,7 +2944,6 @@
       "2026-09-13": 820.64
     },
     "KRW=X": {
-      "2026-09-01": 1374.75,
       "2026-09-02": 1358.54,
       "2026-09-03": 1355.85,
       "2026-09-04": 1345.99,
@@ -2955,7 +2954,8 @@
       "2026-09-09": 1339.18,
       "2026-09-10": 1349.14,
       "2026-09-11": 1341.05,
-      "2026-09-12": 1341.05
+      "2026-09-12": 1341.05,
+      "2026-09-13": 1341.05
     },
     "^GSPC": {
       "2026-09-01": 7631.47,
@@ -3385,8 +3385,9 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CezK9HrTAVRrRF4cCtCmR\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CezK9JY8TFsXKkoGfvEiN\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CezK9JzR2XfUQtzQ18f5K\"}"
+    "news/kr/연합뉴스: fetch failed",
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CezPmSTbU9eAUFHwnDb9D\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CezPmTW6o2smtvirpLqgR\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CezPmUEkjb2hSLpzJMra1\"}"
   ]
 }
