@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-12T08:06:52.131Z",
+  "asOf": "2026-09-12T09:07:16.331Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -460,14 +460,14 @@
         "by": "rules"
       },
       {
-        "title": "JPMorgan resets Meta stock price target for the rest of 2026",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-resets-meta-stock-price-030700520.html",
+        "title": "US stocks jump after oil prices ease and an inflation update comes in near expectations",
+        "link": "https://finance.yahoo.com/energy/articles/oil-prices-stay-above-108-045937202.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-11T03:07:00Z",
-        "ko": "JP모건, 2026년 나머지 메타 주가 목표 재설정",
+        "date": "2026-09-11T04:59:37Z",
+        "ko": "유가가 완화되고 인플레이션 업데이트가 거의 기대에 부응한 후 미국 증시가 급등합니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -496,11 +496,11 @@
         "by": "rules"
       },
       {
-        "title": "Down 50%, Is Chewy Stock a Buy on the Latest Dip?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/down-50-chewy-stock-buy-032000059.html",
+        "title": "US Dollar Price Forecast: Fed Hike Bets Rise as CPI Takes Center Stage; EUR/USD and GBP/USD Key Levels to Watch",
+        "link": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-054013689.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-11T03:20:00Z",
-        "ko": "50% 하락, 쫄깃한 주식은 최신 딥에 대한 구매입니까?",
+        "date": "2026-09-11T05:40:13Z",
+        "ko": "미국 달러 가격 예측: 연준 하이크 베팅은 CPI가 중앙 단계에 도달함에 따라 상승합니다. EUR/USD 및 GBP/USD 주요 시청 수준",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -511,8 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "Stock Market Today: Dow Slumps 400 Points As Oil Surges; Shell Jumps Past Entry (Live Coverage)": "오늘의 주식 시장: 다우 지수는 석유가 급증함에 따라 400포인트 하락했습니다. 쉘은 과거 진입을 뛰어 넘었습니다 (라이브 커버리지)",
-    "Treasury will buy more government bonds that previously announced. The market remains ‘underwhelmed.’": "재무부는 이전에 발표한 더 많은 국채를 매입할 것입니다. 시장은 여전히 ‘압도적’ 입니다.",
     "Treasury will buy more government bonds than previously announced. The market remains ‘underwhelmed.’": "재무부는 이전에 발표된 것보다 더 많은 국채를 매입할 것입니다. 시장은 여전히 ‘압도적’ 입니다.",
     "AMD, IBD Stock Of The Day, Runs Past Early Buy Point As Chipmaker Returns To Favor": "AMD, 오늘의 IBD 재고, 칩메이커가 호의로 돌아감에 따라 과거의 조기 매수 시점 실행",
     "Jewelry Stock Surges After Years Of Mostly Sideways Action": "대부분 수년간의 사이드웨이 액션 이후 주얼리 재고 급증",
@@ -810,7 +808,9 @@
     "This High-Yield Advertising REIT Just Raised Its Dividend by More Than 3%": "이 고수익 광고 리츠는 방금 배당금을 3% 이상 올렸습니다",
     "CBRE Group (CBRE) Unit Buys $1.6 Billion Net-Lease Platform. Can Scale Lift Fee Earnings?": "CBRE 그룹 (CBRE) 단위는 $16억 순 임대 플랫폼을 구입합니다. 스케일 리프트 수수료 수입을 올릴 수 있나요?",
     "JPMorgan resets Meta stock price target for the rest of 2026": "JP모건, 2026년 나머지 메타 주가 목표 재설정",
-    "Down 50%, Is Chewy Stock a Buy on the Latest Dip?": "50% 하락, 쫄깃한 주식은 최신 딥에 대한 구매입니까?"
+    "Down 50%, Is Chewy Stock a Buy on the Latest Dip?": "50% 하락, 쫄깃한 주식은 최신 딥에 대한 구매입니까?",
+    "US stocks jump after oil prices ease and an inflation update comes in near expectations": "유가가 완화되고 인플레이션 업데이트가 거의 기대에 부응한 후 미국 증시가 급등합니다.",
+    "US Dollar Price Forecast: Fed Hike Bets Rise as CPI Takes Center Stage; EUR/USD and GBP/USD Key Levels to Watch": "미국 달러 가격 예측: 연준 하이크 베팅은 CPI가 중앙 단계에 도달함에 따라 상승합니다. EUR/USD 및 GBP/USD 주요 시청 수준"
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -3385,8 +3385,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeyCe3JqPUZuJvJTkYMcD\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeyCe4DQHFuaMSiX3C8ks\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeyCe55VTbDHJR1pNHvaK\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeyHFCXAP87s8Hs6N6HMS\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeyHFDWSWHE8YhewD46Mb\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CeyHFE4gAKARydnv8CxzP\"}"
   ]
 }
