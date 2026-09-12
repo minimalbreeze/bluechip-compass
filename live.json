@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-12T02:04:10.990Z",
+  "asOf": "2026-09-12T03:04:35.179Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -460,14 +460,14 @@
         "by": "rules"
       },
       {
-        "title": "Mortgage rate predictions for the next 5 years: A new data-powered forecast through 2031",
-        "link": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-rate-predictions-for-the-next-5-years-a-new-data-powered-forecast-through-2031-195826935.html",
+        "title": "People Inc. CEO on AI-hungry Google: 'They don't share anything with us'",
+        "link": "https://finance.yahoo.com/markets/article/people-inc-ceo-on-ai-hungry-google-they-dont-share-anything-with-us-210526796.html",
         "source": "Yahoo Finance",
-        "date": "2025-08-18T19:58:26Z",
-        "ko": "향후 5년간의 주택담보대출 금리 예측: 2031년까지의 새로운 데이터 기반 예측",
+        "date": "2026-09-10T21:05:26Z",
+        "ko": "AI에 굶주린 Google의 People Inc. CEO: '그들은 우리와 아무것도 공유하지 않습니다'",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -496,14 +496,14 @@
         "by": "rules"
       },
       {
-        "title": "US Natural Gas Market Verging on Record Growth",
-        "link": "https://finance.yahoo.com/energy/articles/us-natural-gas-market-verging-190000789.html",
+        "title": "When will mortgage rates go down? The bond market isn't helping.",
+        "link": "https://finance.yahoo.com/personal-finance/mortgages/article/when-will-mortgage-rates-go-down-the-bond-market-isnt-helping-190610094.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-10T19:00:00Z",
-        "ko": "사상 최대 성장률을 기록한 미국 천연가스 시장",
+        "date": "2025-04-22T19:06:10Z",
+        "ko": "주택담보대출 금리는 언제 인하되나요? 채권 시장은 도움이 되지 않습니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -511,8 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "FormFactor Director Sells 2,100 Shares": "FormFactor Director, 2,100주 매각",
-    "Oil’s surge back above $100 fuels fresh inflation fears at a crucial time for interest rates": "$100를 초과하는 석유의 급등은 금리에 대한 중요한 시기에 신선한 인플레이션 공포를 불러일으킨다.",
     "NFL Kickoff To Spark Record Betting Season As Prediction Markets Boom. AGA Throws A Flag.": "예측 시장 붐으로 NFL 킥오프가 기록적인 베팅 시즌을 촉발했습니다. 아가는 깃발을 던집니다.",
     "Treasury to buy back more government bonds than previously announced": "이전에 발표된 것보다 더 많은 국채를 매입하기 위한 재무부",
     "ODDITY shares surge on Q2 beat and raised FY26 guidance": "ODDITY 주식은 2분기 비트에서 급등세를 보이며 FY26 지침을 상향 조정했습니다.",
@@ -810,7 +808,9 @@
     "How to Play ChargePoint Stock After Its Massive 75% Post-Earnings Surge": "엄청난 수익 후 75% 의 탄력요금제 후 ChargePoint 주식을 플레이하는 방법",
     "Roblox Chief Legal Officer Sells 5,773 Shares in Planned Equity Liquidity": "Roblox 최고법무책임자 (CFO), 계획된 지분 유동성으로 5,773주 매각",
     "Mortgage rate predictions for the next 5 years: A new data-powered forecast through 2031": "향후 5년간의 주택담보대출 금리 예측: 2031년까지의 새로운 데이터 기반 예측",
-    "US Natural Gas Market Verging on Record Growth": "사상 최대 성장률을 기록한 미국 천연가스 시장"
+    "US Natural Gas Market Verging on Record Growth": "사상 최대 성장률을 기록한 미국 천연가스 시장",
+    "People Inc. CEO on AI-hungry Google: 'They don't share anything with us'": "AI에 굶주린 Google의 People Inc. CEO: '그들은 우리와 아무것도 공유하지 않습니다'",
+    "When will mortgage rates go down? The bond market isn't helping.": "주택담보대출 금리는 언제 인하되나요? 채권 시장은 도움이 되지 않습니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -3384,8 +3384,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cexiyw9Ypi8C746ee6cnj\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CexiyxGGZ3yJ4DfHvhQ4J\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CexiyxvhiUqNqPb6qwCTw\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cexob6HfFqLasWhYuWR2a\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cexob7FCpxSwNggqZor9t\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cexob7sQqvvX72YKv1Pp4\"}"
   ]
 }
