@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-13T05:16:03.905Z",
+  "asOf": "2026-09-13T06:05:38.401Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -460,14 +460,14 @@
         "by": "rules"
       },
       {
-        "title": "Stubbornly Hot Inflation Raises Pressure on the Fed",
-        "link": "https://finance.yahoo.com/economy/policy/articles/stubbornly-hot-inflation-raises-pressure-211644124.html",
+        "title": "Buy Robinhood Markets Stock, Analyst Says. Plus, Intuit and 4 More Stocks.",
+        "link": "https://www.barrons.com/articles/buy-robinhood-markets-stock-analyst-says-plus-intuit-and-4-more-stocks-4a79bf12?siteid=yhoof2&yptr=yahoo",
         "source": "Yahoo Finance",
-        "date": "2026-09-11T21:16:44Z",
-        "ko": "고집스런 뜨거운 인플레이션이 연준의 압력을 높인다.",
+        "date": "2026-09-11T22:20:00Z",
+        "ko": "애널리스트는 Robinhood Markets Stock을 구매하라고 말합니다. 또한, Intuit 외 4개 주식.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -496,14 +496,14 @@
         "by": "rules"
       },
       {
-        "title": "SWKS Stock Just Hit a New 52-Week High. What Comes Next.",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/swks-stock-just-hit-52-210713976.html",
+        "title": "Corn Fades Lower into Fridays Close Despite USDA Yield Cut",
+        "link": "https://finance.yahoo.com/markets/commodities/articles/corn-fades-lower-fridays-close-222547623.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-11T21:07:13Z",
-        "ko": "SWKS 주가가 52주 만에 최고치를 기록했습니다. 다음 단계 안내.",
+        "date": "2026-09-11T22:25:47Z",
+        "ko": "옥수수는 USDA 수익률 삭감에도 불구하고 금요일 마감으로 낮아집니다",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -511,8 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "Is Copart Stock Underperforming the S&P 500?": "Copart Stock이 S&P 500의 실적을 밑도는가?",
-    "You should always have energy stocks in your 401(k). Yes, even when oil is at $100.": "401 (k) 에 항상 에너지 재고가 있어야 합니다. 예, 석유가 $100인 경우에도 마찬가지입니다.",
     "Momentum Reversal Is Ringing Alarm Bells for Industrial Stocks": "모멘텀 반전이 산업 주식에 대한 경보 벨을 울리고 있습니다",
     "Is Block Underperforming the Nasdaq?": "블록이 나스닥을 저평가하고 있습니까?",
     "Is ONEOK Stock Outperforming the Dow?": "ONEOK Stock이 DOW를 능가합니까?",
@@ -810,7 +808,9 @@
     "Stocks Shake Off CPI Report and Rally on Lower Oil Prices": "주가는 CPI 보고서를 떨쳐버리고 낮은 유가에 상승",
     "Danaos Stock Just Hit a New All-Time High": "다나오스 주식이 새로운 사상 최고치를 기록했습니다",
     "Stubbornly Hot Inflation Raises Pressure on the Fed": "고집스런 뜨거운 인플레이션이 연준의 압력을 높인다.",
-    "SWKS Stock Just Hit a New 52-Week High. What Comes Next.": "SWKS 주가가 52주 만에 최고치를 기록했습니다. 다음 단계 안내."
+    "SWKS Stock Just Hit a New 52-Week High. What Comes Next.": "SWKS 주가가 52주 만에 최고치를 기록했습니다. 다음 단계 안내.",
+    "Buy Robinhood Markets Stock, Analyst Says. Plus, Intuit and 4 More Stocks.": "애널리스트는 Robinhood Markets Stock을 구매하라고 말합니다. 또한, Intuit 외 4개 주식.",
+    "Corn Fades Lower into Fridays Close Despite USDA Yield Cut": "옥수수는 USDA 수익률 삭감에도 불구하고 금요일 마감으로 낮아집니다"
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -3386,8 +3386,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CezsRXXQ23SX3Tyg7uBeQ\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CezsRY6dGAHpYERngiLGv\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CezsRYbPhJ75Ntog3MJZ4\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CezwCnZt6ZsAfvs4tgudL\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CezwCoBauxv15kvL3Hpvp\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CezwCouVXi3SKiXxng4TL\"}"
   ]
 }
