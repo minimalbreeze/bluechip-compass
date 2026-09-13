@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-13T15:09:31.684Z",
+  "asOf": "2026-09-13T16:09:59.447Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -460,13 +460,14 @@
         "by": "rules"
       },
       {
-        "title": "Dow Jones Futures: Fed Meeting Ahead; Anthropic's Amodei, OpenAI's Altman, SpaceX's Musk Call For AI Slowdown",
-        "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-fed-meeting-anthropic-amodei-openai-altman-spacex-musk-ai-model-slowdown/?src=A00220&yptr=yahoo",
+        "title": "Cummins Returned 512% in a Decade. Its Dividend Did Something Even More Impressive",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/cummins-returned-512-decade-dividend-155525530.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-13T14:52:36Z",
+        "date": "2026-09-13T15:55:25Z",
+        "ko": "커민스는 10년 만에 512% 를 돌려받았다. 그 배당금은 더욱 인상적인 일을 했습니다",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -495,14 +496,13 @@
         "by": "rules"
       },
       {
-        "title": "A Bear Market Is Coming at Some Point. History Says That's Actually Good News for Investors.",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/bear-market-coming-point-history-144300204.html",
+        "title": "Dow Jones Futures: Fed Meeting Ahead; Anthropic's Amodei, OpenAI's Altman, SpaceX's Musk Call For AI Slowdown",
+        "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-fed-meeting-anthropic-amodei-openai-altman-spacex-musk-ai-model-slowdown/?src=A00220&yptr=yahoo",
         "source": "Yahoo Finance",
-        "date": "2026-09-13T14:43:00Z",
-        "ko": "어느 시점에 베어 마켓이 다가오고 있습니다. 역사는 실제로 투자자에게 좋은 소식이라고 말합니다.",
+        "date": "2026-09-13T15:52:13Z",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -510,7 +510,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "The Death of the Safe Haven: How to Fix Your Bond Strategy as Yields Rise": "안전한 피난처의 죽음: 수익률이 상승함에 따라 채권 전략을 수정하는 방법",
     "SpaceX Could Draw $15.5B in Passive Buying as Nasdaq Rebalance Looms": "SpaceX는 나스닥 재균형 직기로 패시브 구매에서 $15.5B를 그릴 수 있습니다",
     "Public Storage Stock: Is PSA Underperforming the Real Estate Sector?": "퍼블릭 스토리지 스톡: PSA가 부동산 부문을 부진하게 하고 있습니까?",
     "US Bonds Suffer Worst Decade in 223 Years: What It Means for Bitcoin": "223년 만에 최악의 10년을 맞이한 미국 채권: 비트코인에 대한 의미",
@@ -809,7 +808,8 @@
     "Jim Cramer Said Robinhood Markets (NASDAQ:HOOD) Just Keeps On Growing": "Jim Cramer는 Robinhood Markets (NASDAQ: HOOD) 가 계속 성장하고 있다고 말했습니다.",
     "These 5 Boring Stocks Are Quietly Crushing the Market and Making Investors Rich": "조용히 시장을 짓누르고 투자자를 부자로 만드는 지루한 주식 5가지",
     "Why It’s Time to Buy the Dip in Affirm Stock": "딥 인 어펌 주식을 매수해야 하는 이유",
-    "A Bear Market Is Coming at Some Point. History Says That's Actually Good News for Investors.": "어느 시점에 베어 마켓이 다가오고 있습니다. 역사는 실제로 투자자에게 좋은 소식이라고 말합니다."
+    "A Bear Market Is Coming at Some Point. History Says That's Actually Good News for Investors.": "어느 시점에 베어 마켓이 다가오고 있습니다. 역사는 실제로 투자자에게 좋은 소식이라고 말합니다.",
+    "Cummins Returned 512% in a Decade. Its Dividend Did Something Even More Impressive": "커민스는 10년 만에 512% 를 돌려받았다. 그 배당금은 더욱 인상적인 일을 했습니다"
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -3385,8 +3385,7 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf1egKaxfkj3Wbm2mZu3q\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf1egLcyQV4c84oP5AiVu\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf1egMEgSBAVfTEPCYnsQ\"}"
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf1jHkbZE6kTZrRNA4G7q\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf1jHmTty8uSo2cHchK79\"}"
   ]
 }
