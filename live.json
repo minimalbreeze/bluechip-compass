@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-13T22:12:39.188Z",
+  "asOf": "2026-09-13T23:13:59.473Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-11T09:05:30.000Z"
     },
     "KRW=X": {
-      "price": 1342.97,
-      "prev": 1341.05,
-      "chg": 0.14,
-      "prevDay": "2026-09-12",
+      "price": 1342.9,
+      "prev": 1342.97,
+      "chg": -0.01,
+      "prevDay": "2026-09-13",
       "basis": "prev-close-memo",
-      "time": "2026-09-13T22:02:04.000Z"
+      "time": "2026-09-13T23:03:33.000Z"
     },
     "^GSPC": {
       "price": 7656.98,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.018
+    "pct": 0.017
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -20.64
     },
     "KRW=X": {
-      "last": 1342.97,
+      "last": 1342.9,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.018,
-      "chg3m": -11.96
+      "pct52": 0.017,
+      "chg3m": -11.97
     },
     "^GSPC": {
       "last": 7656.98,
@@ -368,13 +368,13 @@
   "news": {
     "kr": [
       {
-        "title": "제6회 디지털 지적의 날…LX, 지적재조사 책임수행기관 재지정",
-        "link": "https://www.yna.co.kr/view/AKR20260913021300003",
+        "title": "[마켓뷰] 중동 악재 지속…코스피 하방 압력 계속되나",
+        "link": "https://www.yna.co.kr/view/AKR20260914009400008",
         "source": "연합뉴스",
-        "date": "Mon, 14 Sep 2026 06:00:09 +0900",
+        "date": "Mon, 14 Sep 2026 07:53:17 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -390,24 +390,24 @@
         "by": "rules"
       },
       {
-        "title": "올트먼·아모데이, 머스크까지 “AI 속도 늦추자” 한목소리 … 반도체 시장도 긴장",
-        "link": "https://www.mk.co.kr/news/stock/12151339",
+        "title": "“KB금융, 3분기 호실적 전망 업고 ‘리딩뱅크’ 입지 공고히”…목표가↑",
+        "link": "https://www.mk.co.kr/news/stock/12151650",
         "source": "매일경제",
-        "date": "Mon, 14 Sep 2026 04:30:00 +09:00",
+        "date": "Mon, 14 Sep 2026 07:51:52 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "금감원 임직원 주식투자 규정 위반 6년여간 147명…징계는 4명뿐",
-        "link": "https://www.yna.co.kr/view/AKR20260912035400002",
+        "title": "트럼프 \"연준 금리 안내리면 몇몇 나라와 무역중단\" 또 위협",
+        "link": "https://www.yna.co.kr/view/AKR20260914010300071",
         "source": "연합뉴스",
-        "date": "Mon, 14 Sep 2026 05:59:00 +0900",
+        "date": "Mon, 14 Sep 2026 07:49:32 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -423,13 +423,13 @@
         "by": "rules"
       },
       {
-        "title": "[미국 주식 돋보기] 국제유가 100달러 시대 … 美정유주 신고가 행진",
-        "link": "https://www.mk.co.kr/news/stock/12151490",
+        "title": "올트먼·아모데이, 머스크까지 “AI 속도 늦추자” 한목소리 … 반도체 시장도 긴장",
+        "link": "https://www.mk.co.kr/news/stock/12151339",
         "source": "매일경제",
-        "date": "Sun, 13 Sep 2026 17:42:10 +09:00",
+        "date": "Mon, 14 Sep 2026 04:30:00 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -460,11 +460,10 @@
         "by": "rules"
       },
       {
-        "title": "Dow Jones Futures: Will Anthropic-Led Call For Slowdown Hit AI Stocks? Fed Meeting Ahead",
+        "title": "Dow Jones Futures Fall, Techs Tumble As Anthropic Leads Call For AI Slowdown; Fed Meeting Ahead",
         "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-fed-meeting-anthropic-amodei-openai-altman-spacex-musk-ai-model-slowdown/?src=A00220&yptr=yahoo",
         "source": "Yahoo Finance",
-        "date": "2026-09-13T21:29:19Z",
-        "ko": "다우 존스 퓨처스 (Dow Jones Futures): 인공지능 (Anthropic-Led) 이 둔화를 촉구할 것인가? 연준 회의 (Fed Meeting Ahead)",
+        "date": "2026-09-13T22:51:56Z",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -2944,7 +2943,6 @@
       "2026-09-14": 820.64
     },
     "KRW=X": {
-      "2026-09-02": 1358.54,
       "2026-09-03": 1355.85,
       "2026-09-04": 1345.99,
       "2026-09-05": 1351.1,
@@ -2955,7 +2953,8 @@
       "2026-09-10": 1349.14,
       "2026-09-11": 1341.05,
       "2026-09-12": 1341.05,
-      "2026-09-13": 1342.97
+      "2026-09-13": 1342.97,
+      "2026-09-14": 1342.9
     },
     "^GSPC": {
       "2026-09-02": 7666.6,
@@ -3386,8 +3385,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf2CwkkC4bb99E163Kd4d\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf2CwmMQBomftBNEPsAxg\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf2CwmsAGKoEihoH6BhAv\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf2Hd3EgTVD1fqcsKXUAT\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf2Hd3ssr5xzfWeqWL6Zg\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf2Hd4ZJq2Z6ZMKxPk5AW\"}"
   ]
 }
