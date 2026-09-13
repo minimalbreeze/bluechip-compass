@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-13T20:11:43.870Z",
+  "asOf": "2026-09-13T21:12:09.485Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-11T09:05:30.000Z"
     },
     "KRW=X": {
-      "price": 1341.05,
+      "price": 1344.15,
       "prev": 1341.05,
-      "chg": 0,
+      "chg": 0.23,
       "prevDay": "2026-09-12",
       "basis": "prev-close-memo",
-      "time": "2026-09-13T17:56:09.000Z"
+      "time": "2026-09-13T21:00:17.000Z"
     },
     "^GSPC": {
       "price": 7656.98,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.009
+    "pct": 0.023
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -20.64
     },
     "KRW=X": {
-      "last": 1341.05,
+      "last": 1344.15,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.009,
-      "chg3m": -12.09
+      "pct52": 0.023,
+      "chg3m": -11.88
     },
     "^GSPC": {
       "last": 7656.98,
@@ -368,13 +368,13 @@
   "news": {
     "kr": [
       {
-        "title": "트럼프 \"美, 연준 공식과 상관 없이 세계 최저금리 적용받아야\"(종합)",
-        "link": "https://www.yna.co.kr/view/AKR20260913061851071",
+        "title": "제6회 디지털 지적의 날…LX, 지적재조사 책임수행기관 재지정",
+        "link": "https://www.yna.co.kr/view/AKR20260913021300003",
         "source": "연합뉴스",
-        "date": "Mon, 14 Sep 2026 01:09:17 +0900",
+        "date": "Mon, 14 Sep 2026 06:00:09 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -401,10 +401,10 @@
         "by": "rules"
       },
       {
-        "title": "삼성증권, 글로벌 금융그룹 BNY와 포괄적 업무협약 체결",
-        "link": "https://www.yna.co.kr/view/AKR20260913030500008",
+        "title": "금감원 임직원 주식투자 규정 위반 6년여간 147명…징계는 4명뿐",
+        "link": "https://www.yna.co.kr/view/AKR20260912035400002",
         "source": "연합뉴스",
-        "date": "Sun, 13 Sep 2026 13:10:17 +0900",
+        "date": "Mon, 14 Sep 2026 05:59:00 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -460,11 +460,11 @@
         "by": "rules"
       },
       {
-        "title": "Dow Jones Futures: AI Stocks In Focus As Anthropic's Amodei, OpenAI's Altman, SpaceX's Musk Call For AI Slowdown",
+        "title": "Dow Jones Futures: Will Anthropic-Led Call For Slowdown Hit AI Stocks? Fed Meeting Ahead",
         "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-fed-meeting-anthropic-amodei-openai-altman-spacex-musk-ai-model-slowdown/?src=A00220&yptr=yahoo",
         "source": "Yahoo Finance",
-        "date": "2026-09-13T19:59:33Z",
-        "ko": "Dow Jones Futures: Anthropic의 Amodei, OpenAI의 Altman, SpaceX의 Musk가 AI 둔화를 부름에 따라 AI 주식 집중",
+        "date": "2026-09-13T20:44:54Z",
+        "ko": "다우 존스 퓨처스 (Dow Jones Futures): 인공지능 (Anthropic-Led) 이 둔화를 촉구할 것인가? 연준 회의 (Fed Meeting Ahead)",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -484,18 +484,6 @@
         "by": "rules"
       },
       {
-        "title": "The price of almost everything on your dinner table is climbing at once — and Wall Street is taking notice",
-        "link": "https://www.marketwatch.com/story/the-price-of-almost-everything-on-your-dinner-table-is-climbing-at-once-and-wall-street-is-taking-notice-9623d1fc?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "date": "Sun, 13 Sep 2026 13:00:00 GMT",
-        "ko": "저녁 식사 테이블에 있는 거의 모든 것의 가격이 한꺼번에 오르고 월스트리트가 주목하고 있습니다.",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
         "title": "DraftKings and Flutter Jump After Court Rules Prediction Markets Are Gambling, Not Federally Regulated Trading",
         "link": "https://finance.yahoo.com/markets/stocks/articles/draftkings-flutter-jump-court-rules-194622553.html",
         "source": "Yahoo Finance",
@@ -506,12 +494,23 @@
         "scope": "market",
         "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
         "by": "rules"
+      },
+      {
+        "title": "Inflation persisted in August, potentially locking in a Fed interest rate hike",
+        "link": "https://www.cnbc.com/2026/09/11/cpi-inflation-report-august-2026.html",
+        "source": "CNBC",
+        "date": "Fri, 11 Sep 2026 13:46:36 GMT",
+        "ko": "8월에도 인플레이션이 지속되어 연준의 금리 인상에 잠길 수 있음",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
       }
     ]
   },
   "newsBy": "rules",
   "trCache": {
-    "Hunter Biden memecoin $LAPTOP loses 95% of market value just hours after launch": "Hunter Biden memecoin $ 노트북은 출시 후 몇 시간 만에 시장 가치의 95% 를 잃습니다.",
     "Oil Price Surges Toward $100 as Markets Fail to Share Trump’s Optimism": "시장이 트럼프의 낙관론을 공유하지 못함에 따라 유가가 $100까지 급등",
     "Is Travelers Companies Stock Outperforming the S&P 500?": "여행사 주가가 S&P 500을 능가하나요?",
     "Is Ford Motor Stock Outperforming the S&P 500?": "Ford Motor Stock이 S&P 500을 능가합니까?",
@@ -810,7 +809,8 @@
     "Trump Urges Federal Reserve To Cut Rates As Market Bets On Warsh Hike": "트럼프, 연방 준비 제도 이사회에 워시 하이킹에 대한 시장 베팅으로 금리 인하 촉구",
     "Fed rate hikes won’t bring down gas prices. Why the bond market is pushing for them anyway.": "연방준비제도 (Fed) 의 금리 인상은 가스 가격을 낮추지 않을 것입니다. 어쨌든 채권 시장이 그들을 밀어붙이는 이유.",
     "Dow Jones Futures: AI Stocks In Focus As Anthropic's Amodei, OpenAI's Altman, SpaceX's Musk Call For AI Slowdown": "Dow Jones Futures: Anthropic의 Amodei, OpenAI의 Altman, SpaceX의 Musk가 AI 둔화를 부름에 따라 AI 주식 집중",
-    "DraftKings and Flutter Jump After Court Rules Prediction Markets Are Gambling, Not Federally Regulated Trading": "법원 규칙 후 DraftKings 및 Flutter Jump 예측 시장은 연방 규제 거래가 아닌 도박입니다."
+    "DraftKings and Flutter Jump After Court Rules Prediction Markets Are Gambling, Not Federally Regulated Trading": "법원 규칙 후 DraftKings 및 Flutter Jump 예측 시장은 연방 규제 거래가 아닌 도박입니다.",
+    "Dow Jones Futures: Will Anthropic-Led Call For Slowdown Hit AI Stocks? Fed Meeting Ahead": "다우 존스 퓨처스 (Dow Jones Futures): 인공지능 (Anthropic-Led) 이 둔화를 촉구할 것인가? 연준 회의 (Fed Meeting Ahead)"
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -2955,7 +2955,7 @@
       "2026-09-10": 1349.14,
       "2026-09-11": 1341.05,
       "2026-09-12": 1341.05,
-      "2026-09-13": 1341.05
+      "2026-09-13": 1344.15
     },
     "^GSPC": {
       "2026-09-02": 7666.6,
@@ -3386,7 +3386,7 @@
     }
   },
   "failed": [
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf23iwUwtwHhbR4ZUgBtU\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf23ixGKtYJnTMoudsD86\"}"
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf28LCFtQZUkJKQHFxmBJ\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf28LDFfducTVhjHmbfxw\"}"
   ]
 }
