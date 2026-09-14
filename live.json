@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-14T00:01:31.817Z",
+  "asOf": "2026-09-14T00:11:58.529Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-11T09:05:30.000Z"
     },
     "KRW=X": {
-      "price": 1343.08,
+      "price": 1347.18,
       "prev": 1342.97,
-      "chg": 0.01,
+      "chg": 0.31,
       "prevDay": "2026-09-13",
       "basis": "prev-close-memo",
-      "time": "2026-09-14T00:01:06.000Z"
+      "time": "2026-09-14T00:11:48.000Z"
     },
     "^GSPC": {
       "price": 7656.98,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.018
+    "pct": 0.037
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -20.64
     },
     "KRW=X": {
-      "last": 1343.08,
+      "last": 1347.18,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.018,
-      "chg3m": -11.95
+      "pct52": 0.037,
+      "chg3m": -11.68
     },
     "^GSPC": {
       "last": 7656.98,
@@ -368,10 +368,10 @@
   "news": {
     "kr": [
       {
-        "title": "유안타증권 \"HD현대마린솔루션 생산능력 확충…목표가 상향\"",
-        "link": "https://www.yna.co.kr/view/AKR20260914022200008",
+        "title": "미래에셋증권, 프리마켓 체결조회 지연처리…\"NXT측 파일 문제\"",
+        "link": "https://www.yna.co.kr/view/AKR20260914027300008",
         "source": "연합뉴스",
-        "date": "Mon, 14 Sep 2026 08:42:08 +0900",
+        "date": "Mon, 14 Sep 2026 08:59:53 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -390,24 +390,24 @@
         "by": "rules"
       },
       {
-        "title": "“KB금융, 3분기 호실적 전망 업고 ‘리딩뱅크’ 입지 공고히”…목표가↑",
-        "link": "https://www.mk.co.kr/news/stock/12151650",
+        "title": "“3분기 역대 최대 순익 전망”…하나증권, KB금융 목표가 23만5000원으로 상향",
+        "link": "https://www.mk.co.kr/news/stock/12151700",
         "source": "매일경제",
-        "date": "Mon, 14 Sep 2026 07:51:52 +09:00",
+        "date": "Mon, 14 Sep 2026 09:02:33 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "대신증권 \"GS리테일, 외인 매출↑…3분기 실적 기대치 웃돌것\"",
-        "link": "https://www.yna.co.kr/view/AKR20260914020900008",
+        "title": "유안타증권 \"HD현대마린솔루션 생산능력 확충…목표가 상향\"",
+        "link": "https://www.yna.co.kr/view/AKR20260914022200008",
         "source": "연합뉴스",
-        "date": "Mon, 14 Sep 2026 08:33:48 +0900",
+        "date": "Mon, 14 Sep 2026 08:42:08 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -423,13 +423,13 @@
         "by": "rules"
       },
       {
-        "title": "올트먼·아모데이, 머스크까지 “AI 속도 늦추자” 한목소리 … 반도체 시장도 긴장",
-        "link": "https://www.mk.co.kr/news/stock/12151339",
+        "title": "“KB금융, 3분기 호실적 전망 업고 ‘리딩뱅크’ 입지 공고히”…목표가↑",
+        "link": "https://www.mk.co.kr/news/stock/12151650",
         "source": "매일경제",
-        "date": "Mon, 14 Sep 2026 04:30:00 +09:00",
+        "date": "Mon, 14 Sep 2026 07:51:52 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -2955,7 +2955,7 @@
       "2026-09-11": 1341.05,
       "2026-09-12": 1341.05,
       "2026-09-13": 1342.97,
-      "2026-09-14": 1343.08
+      "2026-09-14": 1347.18
     },
     "^GSPC": {
       "2026-09-02": 7666.6,
@@ -3386,8 +3386,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf2MFHbjNvcwgU3VVT6My\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf2MFJQ6mjVpHToBKMBkc\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf2MFKSN1Q5M189hAiqvL\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf2N3V4ac8pkhm2Hw8Yex\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf2N3W37rkogYb7aTP656\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf2N3Wqk859Kh64rAhvxw\"}"
   ]
 }
