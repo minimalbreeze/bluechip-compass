@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-14T08:48:47.547Z",
+  "asOf": "2026-09-14T09:49:18.739Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-14T06:32:50.000Z"
     },
     "KRW=X": {
-      "price": 1345.28,
+      "price": 1344.14,
       "prev": 1342.97,
-      "chg": 0.17,
+      "chg": 0.09,
       "prevDay": "2026-09-13",
       "basis": "prev-close-memo",
-      "time": "2026-09-14T08:48:38.000Z"
+      "time": "2026-09-14T09:49:00.000Z"
     },
     "^GSPC": {
       "price": 7656.98,
@@ -43,12 +43,12 @@
       "time": "2026-09-11T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 17.84,
+      "price": 18.03,
       "prev": 15.84,
-      "chg": 12.63,
+      "chg": 13.83,
       "prevDay": "2026-09-13",
       "basis": "prev-close-memo",
-      "time": "2026-09-14T08:33:31.000Z"
+      "time": "2026-09-14T09:34:01.000Z"
     },
     "^TNX": {
       "price": 4.975,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.028
+    "pct": 0.023
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -20.8
     },
     "KRW=X": {
-      "last": 1345.28,
+      "last": 1344.14,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.028,
-      "chg3m": -11.81
+      "pct52": 0.023,
+      "chg3m": -11.88
     },
     "^GSPC": {
       "last": 7656.98,
@@ -101,11 +101,11 @@
       "chg3m": 1.72
     },
     "^VIX": {
-      "last": 17.84,
+      "last": 18.03,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.249,
-      "chg3m": 8.71
+      "pct52": 0.259,
+      "chg3m": 9.87
     },
     "^TNX": {
       "last": 4.97,
@@ -368,32 +368,10 @@
   "news": {
     "kr": [
       {
-        "title": "美 금리 인상 가능성에 국고채 금리 단기물 중심 상승(종합)",
-        "link": "https://www.yna.co.kr/view/AKR20260914142651008",
+        "title": "넥스트증권, MTS 공식 출시 앞두고 오픈API로 거래서비스 검증",
+        "link": "https://www.yna.co.kr/view/AKR20260914162000008",
         "source": "연합뉴스",
-        "date": "Mon, 14 Sep 2026 16:57:49 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "美 기업에 날아드는 '고금리 청구서'",
-        "link": "https://www.hankyung.com/article/2026091439391",
-        "source": "한국경제",
-        "date": "Mon, 14 Sep 2026 17:36:18 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "국내증시 시총, 한 달 사이 270조원 증발…삼전닉스도 힘 못썼다",
-        "link": "https://www.mk.co.kr/news/stock/12152246",
-        "source": "매일경제",
-        "date": "Mon, 14 Sep 2026 17:00:35 +09:00",
+        "date": "Mon, 14 Sep 2026 18:29:48 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -401,21 +379,10 @@
         "by": "rules"
       },
       {
-        "title": "국고채 금리 혼조세…3년물 연 4.025%",
-        "link": "https://www.yna.co.kr/view/AKR20260914142600008",
-        "source": "연합뉴스",
-        "date": "Mon, 14 Sep 2026 16:40:55 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "해외매출 커진 K푸드…원·달러 환율 하락에 음식株 '희비'",
-        "link": "https://www.hankyung.com/article/202609143345i",
+        "title": "AI '속도 조절론' 엎친데…고유가·고금리까지 덮친 증시",
+        "link": "https://www.hankyung.com/article/2026091439791",
         "source": "한국경제",
-        "date": "Mon, 14 Sep 2026 16:56:02 +0900",
+        "date": "Mon, 14 Sep 2026 17:54:13 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -423,13 +390,46 @@
         "by": "rules"
       },
       {
-        "title": "코스피 급락, 유가 폭등",
-        "link": "https://www.mk.co.kr/news/stock/12152232",
+        "title": "“美 금리인상 충격을 노리라고?”…9월 조정이 연말 랠리 잡을 기회라는데",
+        "link": "https://www.mk.co.kr/news/stock/12152474",
         "source": "매일경제",
-        "date": "Mon, 14 Sep 2026 16:51:53 +09:00",
+        "date": "Mon, 14 Sep 2026 18:24:26 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "멕아이씨에스, 9억9천만원 유상증자…에스지헬스케어에 제3자배정",
+        "link": "https://www.yna.co.kr/view/AKR20260914155900008",
+        "source": "연합뉴스",
+        "date": "Mon, 14 Sep 2026 17:44:35 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "美 국채금리 '5% 악몽'에 3조 던진 외국인…亞 반도체 와르르",
+        "link": "https://www.hankyung.com/article/2026091439411",
+        "source": "한국경제",
+        "date": "Mon, 14 Sep 2026 17:50:41 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "영&리치 “부동산보다 주식”",
+        "link": "https://www.mk.co.kr/news/stock/12152467",
+        "source": "매일경제",
+        "date": "Mon, 14 Sep 2026 18:09:59 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -448,26 +448,14 @@
         "by": "rules"
       },
       {
-        "title": "Fed rate hikes won’t bring down gas prices. Why the bond market is pushing for them anyway.",
-        "link": "https://www.marketwatch.com/story/fed-rate-hikes-wont-bring-down-gas-prices-why-the-bond-market-is-pushing-for-them-anyway-98f2c7e3?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "date": "Sun, 13 Sep 2026 19:00:00 GMT",
-        "ko": "연방준비제도 (Fed) 의 금리 인상은 가스 가격을 낮추지 않을 것입니다. 어쨌든 채권 시장이 그들을 밀어붙이는 이유.",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "ACV Auctions (ACVA) Was This Week’s Top Stock — Here’s What Drove Gains",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/acv-auctions-acva-week-top-220605819.html",
+        "title": "AI stocks get drilled because of Anthropic CEO Dario Amodei's 3,800 word warning",
+        "link": "https://finance.yahoo.com/markets/stocks/article/ai-stocks-get-drilled-because-of-anthropic-ceo-dario-amodeis-3800-word-warning-093637548.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-12T22:06:05Z",
-        "ko": "ACV 경매 (ACVA) 는 이번 주 최고 재고였습니다 — 원동력 이익은 다음과 같습니다",
+        "date": "2026-09-14T09:36:37Z",
+        "ko": "Anthropic CEO Dario Amodei의 3,800 단어 경고로 인해 AI 주식이 시추됩니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -484,14 +472,14 @@
         "by": "rules"
       },
       {
-        "title": "U.S. Bancorp (USB)’s Dividend Increase Has More Behind It",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/u-bancorp-usb-dividend-increase-221600807.html",
+        "title": "Euro Declines as Dollar Gains on Fed Rate-Rise Expectations",
+        "link": "https://www.wsj.com/finance/currencies/singapore-dollar-weakens-amid-escalating-middle-east-conflict-a746d8cc?siteid=yhoof2&yptr=yahoo",
         "source": "Yahoo Finance",
-        "date": "2026-09-12T22:16:00Z",
-        "ko": "미국 은행 (USB) 의 배당금 증가는 그 이면에서 더 많은 것을 가지고 있습니다.",
+        "date": "2026-09-14T09:36:00Z",
+        "ko": "유로화, 연준 금리상승 기대에 달러화 상승으로 하락",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -506,14 +494,23 @@
         "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
+      },
+      {
+        "title": "Stock market today: Dow, S&P 500, Nasdaq futures fall as Anthropic's AI warning spooks tech traders, oil prices jump",
+        "link": "https://finance.yahoo.com/markets/live/stock-market-today-monday-september-14-dow-sp-500-nasdaq-080559558.html",
+        "source": "Yahoo Finance",
+        "date": "2026-09-14T08:05:59Z",
+        "ko": "오늘의 주식 시장: 다우지수, S&P 500, 나스닥 선물은 Anthropic의 AI 경고가 기술 거래자를 자극함에 따라 하락, 유가 상승",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
       }
     ]
   },
   "newsBy": "rules",
   "trCache": {
-    "Douglas Elliman (DOUG) Is Down, But Is the Stock a Bargain?": "Douglas Elliman (DOUG) 은 하락했지만 주식은 흥정입니까?",
-    "Gamehaus Holdings Inc. Q4 2026 Earnings Call Summary": "Gamehaus Holdings Inc. 2026년 4분기 수입 통화 요약",
-    "Is AbbVie Stock Too Reliant On Skyrizi?": "AbbVie Stock이 Skyrizi에 너무 의존적입니까?",
     "Unusual Call Options Activity in Takeover Target GFL Environmental Stock": "인수 대상 GFL 환경 재고의 비정상적인 통화 옵션 활동",
     "Citi Just Upgraded UiPath Stock. Here's Why.": "Citi가 UiPath Stock을 업그레이드했습니다. 그 이유는 다음과 같습니다.",
     "Iran War Weighs on Stocks. Tariffs Only Complicate the Outlook.": "이란 전쟁은 주식에 무게를 둡니다. 관세는 전망을 복잡하게 할 뿐입니다.",
@@ -810,7 +807,10 @@
     "Is Sysco Stock Underperforming the Dow?": "Sysco 주식이 다우지수를 밑도는가?",
     "Is Kenvue Underperforming the Nasdaq?": "Kenvue는 나스닥에서 실적이 저조한가요?",
     "Dear UnitedHealth Stock Fans, Mark Your Calendars for October 1": "친애하는 UnitedHealth 주식 팬 여러분, 10월 1일에 달력을 표시하세요",
-    "Dear Nike Stock Fans, Mark Your Calendars for September 21": "친애하는 나이키 주식 팬 여러분, 9월 21일 달력에 표시하세요"
+    "Dear Nike Stock Fans, Mark Your Calendars for September 21": "친애하는 나이키 주식 팬 여러분, 9월 21일 달력에 표시하세요",
+    "AI stocks get drilled because of Anthropic CEO Dario Amodei's 3,800 word warning": "Anthropic CEO Dario Amodei의 3,800 단어 경고로 인해 AI 주식이 시추됩니다.",
+    "Euro Declines as Dollar Gains on Fed Rate-Rise Expectations": "유로화, 연준 금리상승 기대에 달러화 상승으로 하락",
+    "Stock market today: Dow, S&P 500, Nasdaq futures fall as Anthropic's AI warning spooks tech traders, oil prices jump": "오늘의 주식 시장: 다우지수, S&P 500, 나스닥 선물은 Anthropic의 AI 경고가 기술 거래자를 자극함에 따라 하락, 유가 상승"
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -2955,7 +2955,7 @@
       "2026-09-11": 1341.05,
       "2026-09-12": 1341.05,
       "2026-09-13": 1342.97,
-      "2026-09-14": 1345.28
+      "2026-09-14": 1344.14
     },
     "^GSPC": {
       "2026-09-03": 7747.71,
@@ -2997,7 +2997,7 @@
       "2026-09-11": 15.84,
       "2026-09-12": 15.84,
       "2026-09-13": 15.84,
-      "2026-09-14": 17.84
+      "2026-09-14": 18.03
     },
     "^TNX": {
       "2026-09-03": 4.762,
@@ -3386,8 +3386,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf33TJJtULt17bbD4qbqp\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf33TJyaBgZorupE3QGZ7\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf33TKrQSggvoUDvTeAiW\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf384xtZJXZ1egSrZP27r\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf384ywZFTji65C5Cipy8\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf384zfxSU9CzrsGxov4a\"}"
   ]
 }
