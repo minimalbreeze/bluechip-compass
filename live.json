@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-13T23:13:59.473Z",
+  "asOf": "2026-09-14T00:01:31.817Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-11T09:05:30.000Z"
     },
     "KRW=X": {
-      "price": 1342.9,
+      "price": 1343.08,
       "prev": 1342.97,
-      "chg": -0.01,
+      "chg": 0.01,
       "prevDay": "2026-09-13",
       "basis": "prev-close-memo",
-      "time": "2026-09-13T23:03:33.000Z"
+      "time": "2026-09-14T00:01:06.000Z"
     },
     "^GSPC": {
       "price": 7656.98,
@@ -62,14 +62,14 @@
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.017
+    "pct": 0.018
   },
   "hist": {
     "^KS11": {
       "last": 6909.91,
-      "low52": 3344.2,
+      "low52": 3386.05,
       "high52": 9114.55,
-      "pct52": 0.618,
+      "pct52": 0.615,
       "chg3m": -19.14
     },
     "^KQ11": {
@@ -80,11 +80,11 @@
       "chg3m": -20.64
     },
     "KRW=X": {
-      "last": 1342.9,
+      "last": 1343.08,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.017,
-      "chg3m": -11.97
+      "pct52": 0.018,
+      "chg3m": -11.95
     },
     "^GSPC": {
       "last": 7656.98,
@@ -368,24 +368,24 @@
   "news": {
     "kr": [
       {
-        "title": "[마켓뷰] 중동 악재 지속…코스피 하방 압력 계속되나",
-        "link": "https://www.yna.co.kr/view/AKR20260914009400008",
+        "title": "유안타증권 \"HD현대마린솔루션 생산능력 확충…목표가 상향\"",
+        "link": "https://www.yna.co.kr/view/AKR20260914022200008",
         "source": "연합뉴스",
-        "date": "Mon, 14 Sep 2026 07:53:17 +0900",
+        "date": "Mon, 14 Sep 2026 08:42:08 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "반도체 급락할 때 '이 주식' 담았더니…\"15%나 올랐다\" 환호 [한경우의 케이스스터디]",
-        "link": "https://www.hankyung.com/article/2026091194626",
+        "title": "290兆 국채 '돈맥경화' 우려…삼전닉스 구원투수로 급부상 [김익환의 부처 핸즈업]",
+        "link": "https://www.hankyung.com/article/202609131422i",
         "source": "한국경제",
-        "date": "Sun, 13 Sep 2026 20:00:01 +0900",
+        "date": "Mon, 14 Sep 2026 08:10:37 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -401,24 +401,24 @@
         "by": "rules"
       },
       {
-        "title": "트럼프 \"연준 금리 안내리면 몇몇 나라와 무역중단\" 또 위협",
-        "link": "https://www.yna.co.kr/view/AKR20260914010300071",
+        "title": "대신증권 \"GS리테일, 외인 매출↑…3분기 실적 기대치 웃돌것\"",
+        "link": "https://www.yna.co.kr/view/AKR20260914020900008",
         "source": "연합뉴스",
-        "date": "Mon, 14 Sep 2026 07:49:32 +0900",
+        "date": "Mon, 14 Sep 2026 08:33:48 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "보험사 지갑 닫히자…장기금리 상승세 요지부동",
-        "link": "https://www.hankyung.com/article/2026091313901",
+        "title": "\"저 PBR 기업 공표제도 시행…밸류업 공시·주주환원 기대\"-SK",
+        "link": "https://www.hankyung.com/article/2026091418666",
         "source": "한국경제",
-        "date": "Sun, 13 Sep 2026 19:20:52 +0900",
+        "date": "Mon, 14 Sep 2026 08:09:28 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -460,10 +460,11 @@
         "by": "rules"
       },
       {
-        "title": "Dow Jones Futures Fall, Techs Tumble As Anthropic Leads Call For AI Slowdown; Fed Meeting Ahead",
-        "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-fed-meeting-anthropic-amodei-openai-altman-spacex-musk-ai-model-slowdown/?src=A00220&yptr=yahoo",
+        "title": "Scott Bessent dismisses 'Bloomberg Terminal bros' as 10-year Treasury yield hits 4.94% despite $5.2B buyback",
+        "link": "https://finance.yahoo.com/economy/policy/articles/scott-bessent-dismisses-bloomberg-terminal-133000792.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-13T22:51:56Z",
+        "date": "2026-09-12T13:30:00Z",
+        "ko": "스콧 베슨트 (Scott Bessent) 는 $52억 달러의 환매에도 불구하고 10년 국채 수익률이 4.94% 를 기록함에 따라 '블룸버그 터미널 형제' 를 기각했다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -483,15 +484,15 @@
         "by": "rules"
       },
       {
-        "title": "DraftKings and Flutter Jump After Court Rules Prediction Markets Are Gambling, Not Federally Regulated Trading",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/draftkings-flutter-jump-court-rules-194622553.html",
+        "title": "Intuit vs. Block: 1 Fintech Stock Is Built for the Next Decade",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/intuit-vs-block-1-fintech-130003367.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-13T19:46:22Z",
-        "ko": "법원 규칙 후 DraftKings 및 Flutter Jump 예측 시장은 연방 규제 거래가 아닌 도박입니다.",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": "market",
-        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
+        "date": "2026-09-12T13:00:03Z",
+        "ko": "Intuit vs. Block: 향후 10년간 1개의 Fintech 주식이 구축됩니다.",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
@@ -510,7 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "Oil Price Surges Toward $100 as Markets Fail to Share Trump’s Optimism": "시장이 트럼프의 낙관론을 공유하지 못함에 따라 유가가 $100까지 급등",
     "Is Travelers Companies Stock Outperforming the S&P 500?": "여행사 주가가 S&P 500을 능가하나요?",
     "Is Ford Motor Stock Outperforming the S&P 500?": "Ford Motor Stock이 S&P 500을 능가합니까?",
     "Safety Stocks Are Not What They Used to Be: 4 Names Built for a Weaker Dollar": "안전 주식은 예전과 다릅니다: 약한 달러를 위해 만들어진 4가지 이름",
@@ -809,7 +809,8 @@
     "Fed rate hikes won’t bring down gas prices. Why the bond market is pushing for them anyway.": "연방준비제도 (Fed) 의 금리 인상은 가스 가격을 낮추지 않을 것입니다. 어쨌든 채권 시장이 그들을 밀어붙이는 이유.",
     "Dow Jones Futures: AI Stocks In Focus As Anthropic's Amodei, OpenAI's Altman, SpaceX's Musk Call For AI Slowdown": "Dow Jones Futures: Anthropic의 Amodei, OpenAI의 Altman, SpaceX의 Musk가 AI 둔화를 부름에 따라 AI 주식 집중",
     "DraftKings and Flutter Jump After Court Rules Prediction Markets Are Gambling, Not Federally Regulated Trading": "법원 규칙 후 DraftKings 및 Flutter Jump 예측 시장은 연방 규제 거래가 아닌 도박입니다.",
-    "Dow Jones Futures: Will Anthropic-Led Call For Slowdown Hit AI Stocks? Fed Meeting Ahead": "다우 존스 퓨처스 (Dow Jones Futures): 인공지능 (Anthropic-Led) 이 둔화를 촉구할 것인가? 연준 회의 (Fed Meeting Ahead)"
+    "Dow Jones Futures: Will Anthropic-Led Call For Slowdown Hit AI Stocks? Fed Meeting Ahead": "다우 존스 퓨처스 (Dow Jones Futures): 인공지능 (Anthropic-Led) 이 둔화를 촉구할 것인가? 연준 회의 (Fed Meeting Ahead)",
+    "Intuit vs. Block: 1 Fintech Stock Is Built for the Next Decade": "Intuit vs. Block: 향후 10년간 1개의 Fintech 주식이 구축됩니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -2954,7 +2955,7 @@
       "2026-09-11": 1341.05,
       "2026-09-12": 1341.05,
       "2026-09-13": 1342.97,
-      "2026-09-14": 1342.9
+      "2026-09-14": 1343.08
     },
     "^GSPC": {
       "2026-09-02": 7666.6,
@@ -3385,8 +3386,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf2Hd3EgTVD1fqcsKXUAT\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf2Hd3ssr5xzfWeqWL6Zg\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf2Hd4ZJq2Z6ZMKxPk5AW\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf2MFHbjNvcwgU3VVT6My\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf2MFJQ6mjVpHToBKMBkc\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf2MFKSN1Q5M189hAiqvL\"}"
   ]
 }
