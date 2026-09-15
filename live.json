@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-15T18:25:51.851Z",
+  "asOf": "2026-09-15T18:36:18.431Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,44 +19,44 @@
       "time": "2026-09-15T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1360.56,
+      "price": 1360.47,
       "prev": 1344.6400146484375,
       "chg": 1.18,
       "prevDay": "2026-09-14",
       "basis": "prev-close-bar",
-      "time": "2026-09-15T18:25:45.000Z"
+      "time": "2026-09-15T18:36:04.000Z"
     },
     "^GSPC": {
-      "price": 7586.16,
+      "price": 7584.09,
       "prev": 7619.97998046875,
-      "chg": -0.44,
+      "chg": -0.47,
       "prevDay": "2026-09-14",
       "basis": "prev-close-bar",
-      "time": "2026-09-15T18:25:47.000Z"
+      "time": "2026-09-15T18:36:08.000Z"
     },
     "^IXIC": {
-      "price": 25998.842,
+      "price": 25991.037,
       "prev": 26186.41015625,
-      "chg": -0.72,
+      "chg": -0.75,
       "prevDay": "2026-09-14",
       "basis": "prev-close-bar",
-      "time": "2026-09-15T18:25:47.000Z"
+      "time": "2026-09-15T18:36:05.000Z"
     },
     "^VIX": {
-      "price": 17.45,
+      "price": 17.48,
       "prev": 17.100000381469727,
-      "chg": 2.05,
+      "chg": 2.22,
       "prevDay": "2026-09-14",
       "basis": "prev-close-bar",
-      "time": "2026-09-15T18:10:46.000Z"
+      "time": "2026-09-15T18:21:01.000Z"
     },
     "^TNX": {
-      "price": 5.008,
+      "price": 5.002,
       "prev": 4.960999965667725,
-      "chg": 0.95,
+      "chg": 0.83,
       "prevDay": "2026-09-14",
       "basis": "prev-close-bar",
-      "time": "2026-09-15T18:10:43.000Z"
+      "time": "2026-09-15T18:21:03.000Z"
     }
   },
   "fx": {
@@ -80,39 +80,39 @@
       "chg3m": -20.8
     },
     "KRW=X": {
-      "last": 1360.56,
+      "last": 1360.47,
       "low52": 1339.17,
       "high52": 1554.48,
       "pct52": 0.099,
-      "chg3m": -11.51
+      "chg3m": -11.52
     },
     "^GSPC": {
-      "last": 7586.16,
+      "last": 7584.09,
       "low52": 6343.72,
       "high52": 7798.99,
-      "pct52": 0.854,
-      "chg3m": 1
+      "pct52": 0.852,
+      "chg3m": 0.97
     },
     "^IXIC": {
-      "last": 25998.84,
+      "last": 25990.72,
       "low52": 20794.64,
       "high52": 27093.9,
-      "pct52": 0.826,
-      "chg3m": -1.43
+      "pct52": 0.825,
+      "chg3m": -1.46
     },
     "^VIX": {
-      "last": 17.45,
+      "last": 17.48,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.226,
-      "chg3m": -5.37
+      "pct52": 0.228,
+      "chg3m": -5.21
     },
     "^TNX": {
-      "last": 5.01,
+      "last": 5,
       "low52": 3.95,
-      "high52": 5.01,
+      "high52": 5,
       "pct52": 1,
-      "chg3m": 13.1
+      "chg3m": 12.96
     }
   },
   "regime": {
@@ -260,108 +260,108 @@
     },
     "us": {
       "MSFT": {
-        "price": 498.135,
+        "price": 498.345,
         "prev": 505.4100036621094,
-        "chg": -1.44,
+        "chg": -1.4,
         "prevDay": "2026-09-14",
         "basis": "prev-close-bar",
-        "time": "2026-09-15T18:25:48.000Z"
+        "time": "2026-09-15T18:36:16.000Z"
       },
       "AAPL": {
-        "price": 330.335,
+        "price": 330.15,
         "prev": 333.0799865722656,
-        "chg": -0.82,
-        "prevDay": "2026-09-14",
-        "basis": "prev-close-bar",
-        "time": "2026-09-15T18:25:50.000Z"
-      },
-      "GOOGL": {
-        "price": 344.31,
-        "prev": 349.3900146484375,
-        "chg": -1.45,
-        "prevDay": "2026-09-14",
-        "basis": "prev-close-bar",
-        "time": "2026-09-15T18:25:50.000Z"
-      },
-      "BRK.B": {
-        "price": 514.44,
-        "prev": 514.9500122070312,
-        "chg": -0.1,
-        "prevDay": "2026-09-14",
-        "basis": "prev-close-bar",
-        "time": "2026-09-15T18:25:08.000Z"
-      },
-      "V": {
-        "price": 375.355,
-        "prev": 375.2799987792969,
-        "chg": 0.02,
-        "prevDay": "2026-09-14",
-        "basis": "prev-close-bar",
-        "time": "2026-09-15T18:25:45.000Z"
-      },
-      "JNJ": {
-        "price": 265.69,
-        "prev": 266.32000732421875,
-        "chg": -0.24,
-        "prevDay": "2026-09-14",
-        "basis": "prev-close-bar",
-        "time": "2026-09-15T18:25:49.000Z"
-      },
-      "PG": {
-        "price": 146.81,
-        "prev": 146.1300048828125,
-        "chg": 0.47,
-        "prevDay": "2026-09-14",
-        "basis": "prev-close-bar",
-        "time": "2026-09-15T18:25:41.000Z"
-      },
-      "KO": {
-        "price": 88.565,
-        "prev": 89.3499984741211,
         "chg": -0.88,
         "prevDay": "2026-09-14",
         "basis": "prev-close-bar",
-        "time": "2026-09-15T18:25:42.000Z"
+        "time": "2026-09-15T18:36:13.000Z"
+      },
+      "GOOGL": {
+        "price": 344.17,
+        "prev": 349.3900146484375,
+        "chg": -1.49,
+        "prevDay": "2026-09-14",
+        "basis": "prev-close-bar",
+        "time": "2026-09-15T18:36:14.000Z"
+      },
+      "BRK.B": {
+        "price": 514.6,
+        "prev": 514.9500122070312,
+        "chg": -0.07,
+        "prevDay": "2026-09-14",
+        "basis": "prev-close-bar",
+        "time": "2026-09-15T18:36:14.000Z"
+      },
+      "V": {
+        "price": 375.15,
+        "prev": 375.2799987792969,
+        "chg": -0.03,
+        "prevDay": "2026-09-14",
+        "basis": "prev-close-bar",
+        "time": "2026-09-15T18:36:16.000Z"
+      },
+      "JNJ": {
+        "price": 265.85,
+        "prev": 266.32000732421875,
+        "chg": -0.18,
+        "prevDay": "2026-09-14",
+        "basis": "prev-close-bar",
+        "time": "2026-09-15T18:36:16.000Z"
+      },
+      "PG": {
+        "price": 146.748,
+        "prev": 146.1300048828125,
+        "chg": 0.42,
+        "prevDay": "2026-09-14",
+        "basis": "prev-close-bar",
+        "time": "2026-09-15T18:36:15.000Z"
+      },
+      "KO": {
+        "price": 88.595,
+        "prev": 89.3499984741211,
+        "chg": -0.84,
+        "prevDay": "2026-09-14",
+        "basis": "prev-close-bar",
+        "time": "2026-09-15T18:36:12.000Z"
       },
       "COST": {
-        "price": 908.41,
+        "price": 907.62,
         "prev": 918.9099731445312,
-        "chg": -1.14,
+        "chg": -1.23,
         "prevDay": "2026-09-14",
         "basis": "prev-close-bar",
-        "time": "2026-09-15T18:25:36.000Z"
+        "time": "2026-09-15T18:35:50.000Z"
       },
       "WM": {
-        "price": 219.347,
+        "price": 219.3,
         "prev": 218.08999633789062,
-        "chg": 0.58,
+        "chg": 0.55,
         "prevDay": "2026-09-14",
         "basis": "prev-close-bar",
-        "time": "2026-09-15T18:25:48.000Z"
+        "time": "2026-09-15T18:35:54.000Z"
       },
       "LIN": {
-        "price": 461.81,
+        "price": 462.14,
         "prev": 464.4100036621094,
-        "chg": -0.56,
+        "chg": -0.49,
         "prevDay": "2026-09-14",
         "basis": "prev-close-bar",
-        "time": "2026-09-15T18:25:30.000Z"
+        "time": "2026-09-15T18:36:03.000Z"
       },
       "XOM": {
-        "price": 168.915,
+        "price": 168.9,
         "prev": 165.0800018310547,
-        "chg": 2.32,
+        "chg": 2.31,
         "prevDay": "2026-09-14",
         "basis": "prev-close-bar",
-        "time": "2026-09-15T18:25:46.000Z"
+        "time": "2026-09-15T18:36:12.000Z"
       },
       "NVDA": {
-        "price": 211.98,
+        "price": 212.105,
         "prev": 210.9600067138672,
-        "chg": 0.48,
+        "chg": 0.54,
         "prevDay": "2026-09-14",
         "basis": "prev-close-bar",
-        "time": "2026-09-15T18:25:49.000Z"
+        "time": "2026-09-15T18:36:15.000Z"
       }
     }
   },
@@ -460,15 +460,15 @@
         "by": "rules"
       },
       {
-        "title": "Companies left China to dodge tariffs. Now some are heading back",
-        "link": "https://finance.yahoo.com/economy/policy/articles/companies-left-china-dodge-tariffs-075131494.html",
+        "title": "Heed Warren Buffett's Advice: The Time to Be Fearful When Others Are Greedy Has Arrived on Wall Street",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/heed-warren-buffetts-advice-time-092601680.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-14T08:17:43Z",
-        "ko": "기업들은 관세를 피하기 위해 중국을 떠났다. 이제 일부는 돌아갑니다.",
-        "act": "watch",
-        "lasting": "structural",
+        "date": "2026-09-14T09:26:01Z",
+        "ko": "히드 워렌 버핏 (Heed Warren Buffett) 의 조언: 다른 사람들이 탐욕 스러울 때 두려워 할 시간이 월스트리트에 도착했습니다.",
+        "act": "none",
+        "lasting": "temporary",
         "scope": null,
-        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
@@ -496,22 +496,21 @@
         "by": "rules"
       },
       {
-        "title": "Record US Diesel Prices Raise Fresh Inflation and Growth Concerns",
-        "link": "https://finance.yahoo.com/economy/articles/record-us-diesel-prices-raise-081002803.html",
+        "title": "Companies left China to dodge tariffs. Now some are heading back",
+        "link": "https://finance.yahoo.com/economy/policy/articles/companies-left-china-dodge-tariffs-075131494.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-14T08:10:02Z",
-        "ko": "미국 디젤 가격 기록, 신선한 인플레이션 및 성장 우려 제기",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "date": "2026-09-14T08:17:43Z",
+        "ko": "기업들은 관세를 피하기 위해 중국을 떠났다. 이제 일부는 돌아갑니다.",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": null,
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
         "by": "rules"
       }
     ]
   },
   "newsBy": "rules",
   "trCache": {
-    "Broadcom Stock Slipped While Its Revenue Schedule Got Longer": "Broadcom 주식은 수익 일정이 길어지면서 미끄러졌습니다",
     "Beloved burger chain goes full MAGA, and sales are soaring. Can you make money on the Trump Train? 3 stocks to bet on": "사랑하는 햄버거 체인이 MAGA에 가득 차 판매량이 급증하고 있습니다. 트럼프 트레인에서 돈을 벌 수 있나요? 베팅할 주식 3개",
     "Morgan Stanley Just Upgraded Synopsys Stock. Here's Why.": "모건 스탠리가 시놉시스 스톡을 업그레이드했습니다. 그 이유는 다음과 같습니다.",
     "Is TE Connectivity Stock Underperforming the Dow?": "TE 커넥티비티 주식이 다우지수를 밑도는가?",
@@ -810,7 +809,8 @@
     "IBD Stock Of The Day Scorpio Tankers Sails Toward Buy Point As Oil-Needy World Seeks Its Services": "IBD Stock of the Day Scorpio Tankers Sails to Buy Point As Oil-Needy World Seeks its Services",
     "Stocks have so far survived rising Treasury yields. But that may be about to change.": "주식은 지금까지 국채 수익률 상승에서 살아남았습니다. 하지만 곧 바뀔지도 모릅니다.",
     "Companies left China to dodge tariffs. Now some are heading back": "기업들은 관세를 피하기 위해 중국을 떠났다. 이제 일부는 돌아갑니다.",
-    "Record US Diesel Prices Raise Fresh Inflation and Growth Concerns": "미국 디젤 가격 기록, 신선한 인플레이션 및 성장 우려 제기"
+    "Record US Diesel Prices Raise Fresh Inflation and Growth Concerns": "미국 디젤 가격 기록, 신선한 인플레이션 및 성장 우려 제기",
+    "Heed Warren Buffett's Advice: The Time to Be Fearful When Others Are Greedy Has Arrived on Wall Street": "히드 워렌 버핏 (Heed Warren Buffett) 의 조언: 다른 사람들이 탐욕 스러울 때 두려워 할 시간이 월스트리트에 도착했습니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -2955,7 +2955,7 @@
       "2026-09-12": 1341.05,
       "2026-09-13": 1342.97,
       "2026-09-14": 1346.8,
-      "2026-09-15": 1360.56
+      "2026-09-15": 1360.47
     },
     "^GSPC": {
       "2026-09-04": 7718.6,
@@ -2969,7 +2969,7 @@
       "2026-09-12": 7656.98,
       "2026-09-13": 7656.98,
       "2026-09-14": 7619.98,
-      "2026-09-15": 7586.16
+      "2026-09-15": 7584.09
     },
     "^IXIC": {
       "2026-09-04": 26506.99,
@@ -2983,7 +2983,7 @@
       "2026-09-12": 26333.035,
       "2026-09-13": 26333.035,
       "2026-09-14": 26186.414,
-      "2026-09-15": 25998.842
+      "2026-09-15": 25991.037
     },
     "^VIX": {
       "2026-09-04": 14.53,
@@ -2997,7 +2997,7 @@
       "2026-09-12": 15.84,
       "2026-09-13": 15.84,
       "2026-09-14": 17.1,
-      "2026-09-15": 17.45
+      "2026-09-15": 17.48
     },
     "^TNX": {
       "2026-09-04": 4.784,
@@ -3011,7 +3011,7 @@
       "2026-09-12": 4.975,
       "2026-09-13": 4.975,
       "2026-09-14": 4.961,
-      "2026-09-15": 5.008
+      "2026-09-15": 5.002
     },
     "105560.KS": {
       "2026-09-05": 172000,
@@ -3207,7 +3207,7 @@
       "2026-09-12": 495.63,
       "2026-09-13": 495.63,
       "2026-09-14": 505.41,
-      "2026-09-15": 498.135
+      "2026-09-15": 498.345
     },
     "AAPL": {
       "2026-09-04": 319.97,
@@ -3221,7 +3221,7 @@
       "2026-09-12": 332.27,
       "2026-09-13": 332.27,
       "2026-09-14": 333.08,
-      "2026-09-15": 330.335
+      "2026-09-15": 330.15
     },
     "GOOGL": {
       "2026-09-04": 338.46,
@@ -3235,7 +3235,7 @@
       "2026-09-12": 338.5,
       "2026-09-13": 338.5,
       "2026-09-14": 349.39,
-      "2026-09-15": 344.31
+      "2026-09-15": 344.17
     },
     "BRK.B": {
       "2026-08-29": 505,
@@ -3256,7 +3256,7 @@
       "2026-09-12": 370.45,
       "2026-09-13": 370.45,
       "2026-09-14": 375.28,
-      "2026-09-15": 375.355
+      "2026-09-15": 375.15
     },
     "JNJ": {
       "2026-09-04": 275.23,
@@ -3270,7 +3270,7 @@
       "2026-09-12": 265.58,
       "2026-09-13": 265.58,
       "2026-09-14": 266.32,
-      "2026-09-15": 265.69
+      "2026-09-15": 265.85
     },
     "PG": {
       "2026-09-04": 146.44,
@@ -3284,7 +3284,7 @@
       "2026-09-12": 145.27,
       "2026-09-13": 145.27,
       "2026-09-14": 146.13,
-      "2026-09-15": 146.81
+      "2026-09-15": 146.748
     },
     "KO": {
       "2026-09-04": 88.07,
@@ -3298,7 +3298,7 @@
       "2026-09-12": 88.29,
       "2026-09-13": 88.29,
       "2026-09-14": 89.35,
-      "2026-09-15": 88.565
+      "2026-09-15": 88.595
     },
     "COST": {
       "2026-09-04": 915.74,
@@ -3312,7 +3312,7 @@
       "2026-09-12": 904.77,
       "2026-09-13": 904.77,
       "2026-09-14": 918.91,
-      "2026-09-15": 908.41
+      "2026-09-15": 907.62
     },
     "WM": {
       "2026-09-04": 218.99,
@@ -3326,7 +3326,7 @@
       "2026-09-12": 213.46,
       "2026-09-13": 213.46,
       "2026-09-14": 218.09,
-      "2026-09-15": 219.347
+      "2026-09-15": 219.3
     },
     "LIN": {
       "2026-09-04": 477.57,
@@ -3340,7 +3340,7 @@
       "2026-09-12": 466.22,
       "2026-09-13": 466.22,
       "2026-09-14": 464.41,
-      "2026-09-15": 461.81
+      "2026-09-15": 462.14
     },
     "XOM": {
       "2026-09-04": 159.47,
@@ -3354,7 +3354,7 @@
       "2026-09-12": 165.99,
       "2026-09-13": 165.99,
       "2026-09-14": 165.08,
-      "2026-09-15": 168.915
+      "2026-09-15": 168.9
     },
     "NVDA": {
       "2026-09-04": 230.36,
@@ -3368,7 +3368,7 @@
       "2026-09-12": 218.29,
       "2026-09-13": 218.29,
       "2026-09-14": 210.96,
-      "2026-09-15": 211.98
+      "2026-09-15": 212.105
     },
     "BRK-B": {
       "2026-09-04": 506.03,
@@ -3382,11 +3382,11 @@
       "2026-09-12": 510.37,
       "2026-09-13": 510.37,
       "2026-09-14": 514.95,
-      "2026-09-15": 514.44
+      "2026-09-15": 514.6
     }
   },
   "failed": [
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf5hGXnsxasY5iTFdbaep\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf5hGYmfWzw4YGBMk5D6N\"}"
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf5i4iowPiArBTodJcUpt\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf5i4jnUbr2ac6K4jcZA9\"}"
   ]
 }
