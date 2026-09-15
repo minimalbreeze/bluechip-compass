@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-15T08:50:16.548Z",
+  "asOf": "2026-09-15T09:50:43.586Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-15T06:33:00.000Z"
     },
     "KRW=X": {
-      "price": 1362.48,
+      "price": 1360.86,
       "prev": 1344.6400146484375,
-      "chg": 1.33,
+      "chg": 1.21,
       "prevDay": "2026-09-14",
       "basis": "prev-close-bar",
-      "time": "2026-09-15T08:50:06.000Z"
+      "time": "2026-09-15T09:50:27.000Z"
     },
     "^GSPC": {
       "price": 7619.98,
@@ -43,12 +43,12 @@
       "time": "2026-09-14T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 17.83,
+      "price": 17.78,
       "prev": 17.100000381469727,
-      "chg": 4.27,
+      "chg": 3.98,
       "prevDay": "2026-09-14",
       "basis": "prev-close-bar",
-      "time": "2026-09-15T08:34:46.000Z"
+      "time": "2026-09-15T09:35:31.000Z"
     },
     "^TNX": {
       "price": 4.961,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.108
+    "pct": 0.101
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -21.28
     },
     "KRW=X": {
-      "last": 1362.48,
+      "last": 1360.86,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.108,
-      "chg3m": -11.39
+      "pct52": 0.101,
+      "chg3m": -11.49
     },
     "^GSPC": {
       "last": 7619.98,
@@ -101,11 +101,11 @@
       "chg3m": -1.86
     },
     "^VIX": {
-      "last": 17.84,
+      "last": 17.78,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.249,
-      "chg3m": -3.25
+      "pct52": 0.245,
+      "chg3m": -3.58
     },
     "^TNX": {
       "last": 4.96,
@@ -368,6 +368,28 @@
   "news": {
     "kr": [
       {
+        "title": "박스피에 시총 순위 지각변동…현대차 제친 종목은?",
+        "link": "https://www.hankyung.com/article/202609155868i",
+        "source": "한국경제",
+        "date": "Tue, 15 Sep 2026 17:46:42 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "[단독] 코스닥ETF 선행매매 수법 내부자들은 알고 있었다…당국, 삼성액티브 조사",
+        "link": "https://www.mk.co.kr/news/stock/12153526",
+        "source": "매일경제",
+        "date": "Tue, 15 Sep 2026 18:28:53 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
         "title": "신한투자證, 日·홍콩·베트남 증권사와 WM동맹",
         "link": "https://www.hankyung.com/article/2026091565331",
         "source": "한국경제",
@@ -379,14 +401,14 @@
         "by": "rules"
       },
       {
-        "title": "에이비엘바이오 압수수색에 주가 급락",
-        "link": "https://www.mk.co.kr/news/stock/12153467",
+        "title": "계열사 합병때 출자·임원겸직까지 공개…외부평가도 깐깐해진다",
+        "link": "https://www.mk.co.kr/news/stock/12153524",
         "source": "매일경제",
-        "date": "Tue, 15 Sep 2026 17:47:21 +09:00",
-        "act": "none",
-        "lasting": "temporary",
+        "date": "Tue, 15 Sep 2026 18:22:40 +09:00",
+        "act": "watch",
+        "lasting": "structural",
         "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
         "by": "rules"
       },
       {
@@ -401,32 +423,10 @@
         "by": "rules"
       },
       {
-        "title": "“최고라고 생각한 순간 무너졌다…주식투자 실수를 줄여라” [한국의 위대한 투자자]",
-        "link": "https://www.mk.co.kr/news/stock/12153397",
+        "title": "첫 ‘코리아 프리미엄 위크’ 개막…42개 기관·55개사 참여 韓자본시장 세일즈",
+        "link": "https://www.mk.co.kr/news/stock/12153523",
         "source": "매일경제",
-        "date": "Tue, 15 Sep 2026 17:29:25 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "증권주 바닥 다졌나…\"외국인이 돌아왔다\" 매수세 유입",
-        "link": "https://www.hankyung.com/article/202609156167i",
-        "source": "한국경제",
-        "date": "Tue, 15 Sep 2026 16:32:13 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "“뉴욕선 기준선이 25% 아닌 7.5%”… 상폐 시총 기준 참고한 해외규정 두고 ‘진실게임’",
-        "link": "https://www.mk.co.kr/news/stock/12153259",
-        "source": "매일경제",
-        "date": "Tue, 15 Sep 2026 17:19:00 +09:00",
+        "date": "Tue, 15 Sep 2026 18:22:30 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -448,11 +448,11 @@
         "by": "rules"
       },
       {
-        "title": "The Fed may be on the verge of a serious mistake, prominent economists warn",
-        "link": "https://www.marketwatch.com/story/the-fed-may-be-on-the-verge-of-a-serious-mistake-prominent-economists-warn-3ccb6581?mod=mw_rss_topstories",
+        "title": "Morgan Stanley joins Goldman Sachs in 11th-hour switch to forecasting a Fed hike",
+        "link": "https://www.marketwatch.com/story/morgan-stanley-joins-goldman-sachs-in-11th-hour-switch-to-forecasting-a-fed-hike-c7597bda?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Tue, 15 Sep 2026 07:29:00 GMT",
-        "ko": "저명한 경제학자들은 연준이 심각한 실수를 저지르기 직전일 수 있다고 경고한다.",
+        "date": "Tue, 15 Sep 2026 09:05:00 GMT",
+        "ko": "모건 스탠리가 골드만삭스에 합류해 11시간 만에 연준의 하이킹을 예고하고 있다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -460,11 +460,11 @@
         "by": "rules"
       },
       {
-        "title": "I bond vs. high-yield savings account: Which is better for beating inflation?",
-        "link": "https://finance.yahoo.com/personal-finance/banking/comparison/i-bond-vs-savings-account-185055035.html",
+        "title": "Stock market today: Dow, S&P 500, Nasdaq futures retreat ahead of Fed meeting amid AI safety fears",
+        "link": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-september-15-dow-sp-500-nasdaq-081307838.html",
         "source": "Yahoo Finance",
-        "date": "2024-04-19T18:50:55Z",
-        "ko": "채권 대 고수익 저축 계좌: 인플레이션을 극복하는 데 더 좋은 것은 무엇입니까?",
+        "date": "2026-09-15T08:13:07Z",
+        "ko": "오늘의 주식 시장: 다우지수, S&P 500, 나스닥 선물은 AI 안전 우려 속에서 연준 회의를 앞두고 후퇴",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -484,14 +484,14 @@
         "by": "rules"
       },
       {
-        "title": "AI doomsday fears are arriving at the worst possible time for the stock market",
-        "link": "https://www.marketwatch.com/story/ai-doomsday-fears-are-arriving-at-the-worst-possible-time-for-the-stock-market-75c4ad53?mod=mw_rss_topstories",
+        "title": "The Fed may be on the verge of a serious mistake, prominent economists warn",
+        "link": "https://www.marketwatch.com/story/the-fed-may-be-on-the-verge-of-a-serious-mistake-prominent-economists-warn-3ccb6581?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 14 Sep 2026 23:19:00 GMT",
-        "ko": "AI 종말의 두려움은 주식 시장에 최악의 시기에 도달하고 있습니다.",
+        "date": "Tue, 15 Sep 2026 07:29:00 GMT",
+        "ko": "저명한 경제학자들은 연준이 심각한 실수를 저지르기 직전일 수 있다고 경고한다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -511,8 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "This Stock's Tumbling Price Lends Itself To A Bearish Options Move": "이 주식의 텀블링 가격은 곰 같은 옵션 이동에 자신을 빌려줍니다",
-    "Mortgage rates just crossed 7%: Mortgage and refinance interest rates today, Thursday, September 10, 2026": "주택담보대출 금리 7% 돌파: 주택담보대출 및 재융자 금리 오늘 2026년 9월 10일 목요일",
     "Big Bond Buyback, Decline in Home Sales and More of Today’s Top Money News": "큰 채권 환매, 주택 판매 감소 및 오늘의 주요 돈 뉴스의 더 많은 것",
     "Stock Market Today: Dow Slides As Oil Hits $100; Nvidia Drops Amid News Of Palantir Partnership (Live Coverage)": "오늘의 주식 시장: 석유가 $100에 도달함에 따라 다우 슬라이드; Palantir 파트너십 소식에 엔비디아 하락 (라이브 커버리지)",
     "Skyworks Solutions Surges 10%, Qorvo Climbs 6% While Chip Stocks Fall: Is the Merger Finally Clearing?": "Skyworks Solutions는 10% 급등, Qorvo는 6% 상승, 칩 재고는 하락: 합병은 마침내 청산됩니까?",
@@ -810,7 +808,9 @@
     "Sonera Acquisition Bodes Well for Apple Stock in the Long Term, But Negative Catalysts Appear to Be Weighing on the Firm’s Performance": "Sonera 인수는 장기적으로 애플 주식에 좋은 영향을 미치지만, 부정적인 촉매는 회사의 실적에 무게를 두는 것으로 보입니다.",
     "Nvidia (NVDA) Looks Cheap on Piper’s Forecasts, but the Earnings Assumptions Are the Real Test": "Nvidia (NVDA) 는 Piper의 예측에서 저렴해 보이지만 수입 가정이 실제 테스트입니다.",
     "Oil Is $100, The 10-Year Is Near 5%. Why Doesn’t The Stock Market Care?": "석유는 $100이며, 10년은 5% 에 가깝습니다. 왜 주식 시장은 신경 쓰지 않습니까?",
-    "I bond vs. high-yield savings account: Which is better for beating inflation?": "채권 대 고수익 저축 계좌: 인플레이션을 극복하는 데 더 좋은 것은 무엇입니까?"
+    "I bond vs. high-yield savings account: Which is better for beating inflation?": "채권 대 고수익 저축 계좌: 인플레이션을 극복하는 데 더 좋은 것은 무엇입니까?",
+    "Morgan Stanley joins Goldman Sachs in 11th-hour switch to forecasting a Fed hike": "모건 스탠리가 골드만삭스에 합류해 11시간 만에 연준의 하이킹을 예고하고 있다.",
+    "Stock market today: Dow, S&P 500, Nasdaq futures retreat ahead of Fed meeting amid AI safety fears": "오늘의 주식 시장: 다우지수, S&P 500, 나스닥 선물은 AI 안전 우려 속에서 연준 회의를 앞두고 후퇴"
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -2955,7 +2955,7 @@
       "2026-09-12": 1341.05,
       "2026-09-13": 1342.97,
       "2026-09-14": 1346.8,
-      "2026-09-15": 1362.48
+      "2026-09-15": 1360.86
     },
     "^GSPC": {
       "2026-09-04": 7718.6,
@@ -2997,7 +2997,7 @@
       "2026-09-12": 15.84,
       "2026-09-13": 15.84,
       "2026-09-14": 17.1,
-      "2026-09-15": 17.83
+      "2026-09-15": 17.78
     },
     "^TNX": {
       "2026-09-04": 4.784,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/kr/연합뉴스: fetch failed",
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf4wNmh65xfreuTpgxHgo\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf4wNnoZJkJr2YP6AWio4\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf4wNoSkjLzREABDyDuYV\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf51z8Wv5ck9aDrZhiEkM\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf51z9ibcmHX2vHCfCCVu\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf51zAXi6BBG6DKEmhVTp\"}"
   ]
 }
