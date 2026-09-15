@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-14T23:07:52.071Z",
+  "asOf": "2026-09-15T00:02:16.129Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-14T06:32:50.000Z"
     },
     "KRW=X": {
-      "price": 1346.1,
+      "price": 1346.28,
       "prev": 1344.6400146484375,
-      "chg": 0.11,
+      "chg": 0.12,
       "prevDay": "2026-09-14",
       "basis": "prev-close-bar",
-      "time": "2026-09-14T22:54:27.000Z"
+      "time": "2026-09-15T00:02:06.000Z"
     },
     "^GSPC": {
       "price": 7619.98,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.025
+    "pct": 0.033
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -20.64
     },
     "KRW=X": {
-      "last": 1344.64,
+      "last": 1346.28,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.025,
-      "chg3m": -11.85
+      "pct52": 0.033,
+      "chg3m": -12.44
     },
     "^GSPC": {
       "last": 7619.98,
@@ -368,10 +368,21 @@
   "news": {
     "kr": [
       {
-        "title": "부산시, 소상공인 체감금리 1%대 금융 지원…1조2천억원 규모",
-        "link": "https://www.yna.co.kr/view/AKR20260915019700051",
+        "title": "한투증권 \"HD현대마린솔루션, 성장성 가장 큰 변곡점…목표가↑\"",
+        "link": "https://www.yna.co.kr/view/AKR20260915028200008",
         "source": "연합뉴스",
-        "date": "Tue, 15 Sep 2026 07:54:15 +0900",
+        "date": "Tue, 15 Sep 2026 08:46:47 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "금리 5%는 호재? 저점에서 반등한 증시…\"신중하라, 기다려라\" [김현석의 월스트리트나우]",
+        "link": "https://www.hankyung.com/article/202609154524i",
+        "source": "한국경제",
+        "date": "Tue, 15 Sep 2026 08:11:42 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -379,32 +390,21 @@
         "by": "rules"
       },
       {
-        "title": "금리·유가 상승에 'AI 속도조절론'까지…SK하닉 ADR 7.6%↓ [뉴욕증시 브리핑]",
-        "link": "https://www.hankyung.com/article/2026091544386",
-        "source": "한국경제",
-        "date": "Tue, 15 Sep 2026 07:07:58 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "“‘AI 속도조절’은 역겨운 음모론” 트럼프 반발에도…반도체주 와르르 [월가월부]",
-        "link": "https://www.mk.co.kr/news/stock/12152706",
+        "title": "“SK이노베이션, 영업이익 10조원에 비해 주가 싸다”",
+        "link": "https://www.mk.co.kr/news/stock/12152764",
         "source": "매일경제",
-        "date": "Tue, 15 Sep 2026 06:06:40 +09:00",
+        "date": "Tue, 15 Sep 2026 09:00:54 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "[현장in] 개항기 최초 외국인묘지 터에 변전소…\"역사성 보존해야\"",
-        "link": "https://www.yna.co.kr/view/AKR20260914148900065",
+        "title": "iM증권 \"AI 개발 속도조절론 힘 얻기 어려워…투자 사이클 지속\"",
+        "link": "https://www.yna.co.kr/view/AKR20260915028300008",
         "source": "연합뉴스",
-        "date": "Tue, 15 Sep 2026 07:17:00 +0900",
+        "date": "Tue, 15 Sep 2026 08:40:45 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -412,10 +412,10 @@
         "by": "rules"
       },
       {
-        "title": "개미는 美·기관은 韓 매수…ETF 수익률 희비",
-        "link": "https://www.hankyung.com/article/2026091438951",
+        "title": "\"SK이노베이션, 영업익 10조원 대비 저렴한 주가…목표가↑\"-유안타",
+        "link": "https://www.hankyung.com/article/2026091544576",
         "source": "한국경제",
-        "date": "Mon, 14 Sep 2026 18:08:24 +0900",
+        "date": "Tue, 15 Sep 2026 07:25:02 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -423,10 +423,10 @@
         "by": "rules"
       },
       {
-        "title": "나스닥 데뷔하는 앤트로픽…국민연금 참여하지만 국민은 못삽니다",
-        "link": "https://www.mk.co.kr/news/stock/12152699",
+        "title": "29% 급등 뒤 22% 급락…‘퇴근 후 주식거래’ 첫날부터 ‘어질어질’",
+        "link": "https://www.mk.co.kr/news/stock/12152750",
         "source": "매일경제",
-        "date": "Tue, 15 Sep 2026 05:52:36 +09:00",
+        "date": "Tue, 15 Sep 2026 08:30:15 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -448,26 +448,26 @@
         "by": "rules"
       },
       {
-        "title": "The oil market is sending an increasingly loud warning about gas prices at the pump",
-        "link": "https://www.marketwatch.com/story/the-oil-market-is-sending-an-increasingly-loud-warning-about-gas-prices-at-the-pump-18177588?mod=mw_rss_topstories",
+        "title": "AI doomsday fears are arriving at the worst possible time for the stock market",
+        "link": "https://www.marketwatch.com/story/ai-doomsday-fears-are-arriving-at-the-worst-possible-time-for-the-stock-market-75c4ad53?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 14 Sep 2026 21:31:00 GMT",
-        "ko": "석유 시장은 펌프의 가스 가격에 대해 점점 더 큰 경고를 보내고 있습니다.",
+        "date": "Mon, 14 Sep 2026 23:19:00 GMT",
+        "ko": "AI 종말의 두려움은 주식 시장에 최악의 시기에 도달하고 있습니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "Is ConocoPhillips Stock Worth Buying Here? - Shorting COP Puts and Credit Spreads are Better Plays",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/conocophillips-stock-worth-buying-shorting-140002756.html",
+        "title": "Pay is back on the rise for job switchers, even in low-hire job market",
+        "link": "https://finance.yahoo.com/economy/article/pay-is-back-on-the-rise-for-job-switchers-even-in-low-hire-job-market-154504463.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-13T14:00:02Z",
-        "ko": "ConocoPhillips 주식은 여기서 구입할 가치가 있습니까? - 쇼팅 COP 퍼트와 크레딧 스프레드가 더 나은 플레이",
+        "date": "2026-09-13T15:45:04Z",
+        "ko": "고용률이 낮은 구직 시장에서도 일자리 전환자의 임금이 다시 상승하고 있습니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -484,26 +484,26 @@
         "by": "rules"
       },
       {
-        "title": "CrowdStrike and Palo Alto Networks lead software stocks to a never-before-seen feat",
-        "link": "https://www.marketwatch.com/story/crowdstrike-and-palo-alto-networks-are-leading-software-stocks-toward-a-never-before-seen-feat-5b8989b2?mod=mw_rss_topstories",
+        "title": "The oil market is sending an increasingly loud warning about gas prices at the pump",
+        "link": "https://www.marketwatch.com/story/the-oil-market-is-sending-an-increasingly-loud-warning-about-gas-prices-at-the-pump-18177588?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 14 Sep 2026 21:11:00 GMT",
-        "ko": "CrowdStrike와 Palo Alto Networks는 소프트웨어 주식을 이전에는 볼 수 없었던 위업으로 이끌고 있습니다",
+        "date": "Mon, 14 Sep 2026 21:31:00 GMT",
+        "ko": "석유 시장은 펌프의 가스 가격에 대해 점점 더 큰 경고를 보내고 있습니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "CrowdStrike Expands AI Capabilities With Autonomous Product Launch. What This Means for CRWD Stock.",
-        "link": "https://finance.yahoo.com/technology/ai/articles/crowdstrike-expands-ai-capabilities-autonomous-130002831.html",
+        "title": "AMD and Intel’s Shared AI Instructions Reach GCC. Can Software Cooperation Strengthen Both Stocks?",
+        "link": "https://finance.yahoo.com/technology/ai/articles/amd-intel-shared-ai-instructions-165917161.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-13T13:00:02Z",
-        "ko": "CrowdStrike는 자율 제품 출시로 AI 기능을 확장합니다. CRWD 주식에 대한 의미.",
+        "date": "2026-09-13T16:59:17Z",
+        "ko": "AMD와 인텔의 공유 AI 지침은 GCC에 도달합니다. 소프트웨어 협력이 두 주식을 모두 강화할 수 있습니까?",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -511,7 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "Crypto Mining Stocks Fall Harder Than Bitcoin on a Risk-Off Tape: Cipher Mining Sinks 6%, MARA and Riot Drop 4%": "암호화폐 채굴 주식은 위험 오프 테이프에서 비트코인보다 더 강하게 떨어집니다: 암호 채굴은 6%, 마라 및 폭동은 4% 하락을 가라앉힙니다",
     "Now’s your chance to make money during the best bond market for yields in decades — if you get over Treasury jitters": "수십 년 만에 수익률이 가장 좋은 채권 시장에서 수익을 올릴 수 있는 기회입니다. 국고 지터를 극복하면",
     "Meta is winning over Wall Street with its new Muse AI agent": "Meta는 새로운 Muse AI 에이전트로 월스트리트에서 승리하고 있습니다.",
     "'We intend to be disruptive': Robinhood CEO details big investment bank ambitions after Oura IPO win": "'우리는 파괴적일 계획입니다': 로빈후드 CEO는 Oura IPO 수주 후 큰 투자 은행의 포부를 자세히 설명합니다.",
@@ -810,7 +809,8 @@
     "CrowdStrike Expands AI Capabilities With Autonomous Product Launch. What This Means for CRWD Stock.": "CrowdStrike는 자율 제품 출시로 AI 기능을 확장합니다. CRWD 주식에 대한 의미.",
     "CrowdStrike and Palo Alto Networks lead software stocks to a never-before-seen feat": "CrowdStrike와 Palo Alto Networks는 소프트웨어 주식을 이전에는 볼 수 없었던 위업으로 이끌고 있습니다",
     "GF Securities Says NAND Prices May Stabilize Later This Year. What This Means for Sandisk Stock.": "GF 증권은 NAND 가격이 올해 하반기에 안정화될 수 있다고 말합니다. Sandisk Stock에 대한 의미.",
-    "Is ConocoPhillips Stock Worth Buying Here? - Shorting COP Puts and Credit Spreads are Better Plays": "ConocoPhillips 주식은 여기서 구입할 가치가 있습니까? - 쇼팅 COP 퍼트와 크레딧 스프레드가 더 나은 플레이"
+    "Is ConocoPhillips Stock Worth Buying Here? - Shorting COP Puts and Credit Spreads are Better Plays": "ConocoPhillips 주식은 여기서 구입할 가치가 있습니까? - 쇼팅 COP 퍼트와 크레딧 스프레드가 더 나은 플레이",
+    "Pay is back on the rise for job switchers, even in low-hire job market": "고용률이 낮은 구직 시장에서도 일자리 전환자의 임금이 다시 상승하고 있습니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -2955,7 +2955,7 @@
       "2026-09-12": 1341.05,
       "2026-09-13": 1342.97,
       "2026-09-14": 1346.8,
-      "2026-09-15": 1346.1
+      "2026-09-15": 1346.28
     },
     "^GSPC": {
       "2026-09-03": 7747.71,
@@ -3386,8 +3386,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf4Axs2X3bHePUyWZdLqh\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf4Axt1oKdcVn9YYLJpaf\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf4Axtkx6bahfeJaPkr3M\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf4F7Ubrn9GRR3kYyf78n\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf4F7VXv3TGKu9EzKyFGn\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf4F7W5f4FmsBNP34wMGD\"}"
   ]
 }
