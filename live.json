@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-15T22:02:55.673Z",
+  "asOf": "2026-09-15T22:11:31.706Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -24,7 +24,7 @@
       "chg": 1.34,
       "prevDay": "2026-09-14",
       "basis": "prev-close-bar",
-      "time": "2026-09-15T22:00:19.000Z"
+      "time": "2026-09-15T22:00:18.000Z"
     },
     "^GSPC": {
       "price": 7585.73,
@@ -460,14 +460,14 @@
         "by": "rules"
       },
       {
-        "title": "Xcel Energy Stock: Is XEL Outperforming the Utility Sector?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/xcel-energy-stock-xel-outperforming-133754654.html",
+        "title": "How Is ON Semiconductor's Stock Performance Compared to Other Semiconductor Stocks?",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/semiconductors-stock-performance-compared-other-140001530.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-14T13:37:54Z",
-        "ko": "Xcel Energy Stock: XEL이 유틸리티 부문을 능가합니까?",
+        "date": "2026-09-14T14:00:01Z",
+        "ko": "ON Semiconductor의 주식 실적은 다른 반도체 주식과 어떻게 비교됩니까?",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -496,14 +496,14 @@
         "by": "rules"
       },
       {
-        "title": "Is CDW Corporation Stock Underperforming the S&P 500?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/cdw-corporation-stock-underperforming-p-134157757.html",
+        "title": "AI stocks get drilled because of Anthropic CEO Dario Amodei's 3,800-word warning",
+        "link": "https://finance.yahoo.com/markets/stocks/article/ai-stocks-get-drilled-because-of-anthropic-ceo-dario-amodeis-3800-word-warning-093637548.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-14T13:41:57Z",
-        "ko": "CDW Corporation 주식이 S&P 500의 실적을 밑도는가?",
+        "date": "2026-09-14T09:36:37Z",
+        "ko": "인공지능 주식은 인류학 CEO 다리오 아모데이 (Dario Amodei) 의 3,800단어 경고 때문에 시추된다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -511,8 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "Why Broadcom Providing 2028 Guidance Is a Big Deal for AVGO Stock Bulls": "2028 지침을 제공하는 Broadcom이 AVGO Stock Bulls에게 큰 거래인 이유",
-    "Jim Cramer Called the Magnificent Seven Cheap but the Three Building AI Factories Are All Trailing the S&P": "짐 크레이머 (Jim Cramer) 는 웅장한 7 개의 싸구려라고 불렀지 만 3 개의 건물 AI 공장은 모두 S & P를 뒤따르고 있습니다.",
     "Cathie Wood Goes Bargain Hunting: 3 Stocks She Just Bought": "캐시 우드 (Cathie Wood) 가 흥정하는 사냥: 방금 산 주식 3개",
     "Principal Just Launched an Equity Premium Income ETF. It Is Walking Into JEPI’s Backyard": "원금이 방금 주식 프리미엄 소득 ETF를 출시했습니다. JEPI의 뒷마당으로 걸어가고 있습니다",
     "Why Marvell Stock Popped Today": "Marvell Stock이 오늘 갑자기 떠오른 이유",
@@ -810,7 +808,9 @@
     "These 4 stocks could benefit most from a $3.2 trillion semiconductor opportunity": "이 4 개의 주식은 $3.2 조의 반도체 기회로부터 가장 많은 이익을 얻을 수 있습니다.",
     "Xcel Energy Stock: Is XEL Outperforming the Utility Sector?": "Xcel Energy Stock: XEL이 유틸리티 부문을 능가합니까?",
     "How the Iran war is transforming the relationship between stocks, bonds and oil": "이란 전쟁이 주식, 채권 및 석유 간의 관계를 어떻게 변화시키고 있는지",
-    "Is CDW Corporation Stock Underperforming the S&P 500?": "CDW Corporation 주식이 S&P 500의 실적을 밑도는가?"
+    "Is CDW Corporation Stock Underperforming the S&P 500?": "CDW Corporation 주식이 S&P 500의 실적을 밑도는가?",
+    "How Is ON Semiconductor's Stock Performance Compared to Other Semiconductor Stocks?": "ON Semiconductor의 주식 실적은 다른 반도체 주식과 어떻게 비교됩니까?",
+    "AI stocks get drilled because of Anthropic CEO Dario Amodei's 3,800-word warning": "인공지능 주식은 인류학 CEO 다리오 아모데이 (Dario Amodei) 의 3,800단어 경고 때문에 시추된다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -3386,8 +3386,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf5ypZc2TJsDS6ofFxHdh\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf5ypaaKH4sma1gNVjig8\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf5ypbB2WcE3EGJ9JBazq\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf5zUbg6nZqR6swRk6gKa\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf5zUcic4n3VdzYWnRkD2\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf5zUdPHy95AyFVgvjD1w\"}"
   ]
 }
