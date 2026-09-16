@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-16T20:57:25.830Z",
+  "asOf": "2026-09-16T21:07:53.221Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-16T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1377.1,
+      "price": 1376.26,
       "prev": 1345.6099853515625,
-      "chg": 2.34,
+      "chg": 2.28,
       "prevDay": "2026-09-15",
       "basis": "prev-close-bar",
-      "time": "2026-09-16T20:57:06.000Z"
+      "time": "2026-09-16T21:07:41.000Z"
     },
     "^GSPC": {
       "price": 7551.81,
@@ -40,7 +40,7 @@
       "chg": -0.01,
       "prevDay": "2026-09-15",
       "basis": "prev-close-bar",
-      "time": "2026-09-16T20:57:13.000Z"
+      "time": "2026-09-16T21:07:43.000Z"
     },
     "^VIX": {
       "price": 17.71,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.176
+    "pct": 0.172
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -21.28
     },
     "KRW=X": {
-      "last": 1377.1,
+      "last": 1376.26,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.176,
-      "chg3m": -10.52
+      "pct52": 0.172,
+      "chg3m": -10.58
     },
     "^GSPC": {
       "last": 7551.81,
@@ -368,13 +368,13 @@
   "news": {
     "kr": [
       {
-        "title": "美기준금리 0.25%p 인상, 3년만에 긴축…연내 추가인상 시사(종합)",
-        "link": "https://www.yna.co.kr/view/AKR20260917002452071",
+        "title": "새도약기금 채권매입 달성률 72%…내달 매입完 목표 '빨간불'",
+        "link": "https://www.yna.co.kr/view/AKR20260916185200002",
         "source": "연합뉴스",
-        "date": "Thu, 17 Sep 2026 04:10:53 +0900",
+        "date": "Thu, 17 Sep 2026 05:55:00 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -401,10 +401,10 @@
         "by": "rules"
       },
       {
-        "title": "[3보] 美기준금리 0.25%p 인상, 3년만에 긴축…연내 추가인상 시사",
-        "link": "https://www.yna.co.kr/view/AKR20260917002451071",
+        "title": "美기준금리 0.25%p 인상, 3년만에 긴축…연내 추가인상 시사(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260917002452071",
         "source": "연합뉴스",
-        "date": "Thu, 17 Sep 2026 03:32:11 +0900",
+        "date": "Thu, 17 Sep 2026 04:10:53 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -496,14 +496,14 @@
         "by": "rules"
       },
       {
-        "title": "Is Take-Two Interactive Stock Underperforming the S&P 500?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/two-interactive-stock-underperforming-p-123419248.html",
+        "title": "Bioceres Crop Solutions Corp. Q4 2026 Earnings Call Summary",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/bioceres-crop-solutions-corp-q4-123000503.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-15T12:34:19Z",
-        "ko": "Take-Two Interactive Stock이 S&P 500의 실적을 밑도는가?",
+        "date": "2026-09-15T12:30:00Z",
+        "ko": "Bioceres Crop Solutions Corp. 2026년 4분기 실적 통화 요약",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -511,7 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "Here's who stands to make money from the Anthropic IPO": "다음은 Anthropic IPO를 통해 수익을 창출하는 사람입니다.",
     "Top Economist Says the Fed Should Hike Rates 50 Basis Points Next Week. The Bond Market Is Already Near His Danger Zone.": "상위 이코노미스트는 연준이 다음 주에 금리 50 포인트를 인상해야 한다고 말합니다. 채권 시장은 이미 그의 위험 구역 근처에 있습니다.",
     "Jim Cramer Explains Why Merck (MRK) Is His Fantasy Defense Stock": "짐 크레이머가 머크 (MRK) 가 그의 판타지 방어 주식인 이유를 설명합니다",
     "BioMarin Shares Jump 5% After Global Patent Settlement With Ascendis": "BioMarin 주식 점프 5% Ascendis로 글로벌 특허 정산 후",
@@ -810,7 +809,8 @@
     "Here’s a sneaky way to play the Fed’s rate increase": "다음은 연준의 금리 인상을 위한 기습적인 방법입니다.",
     "5 Things to Know Before the Stock Market Opens on Tuesday": "주식시장이 화요일에 개장하기 전에 알아두어야 할 5가지",
     "Why optical stocks Lumentum and Coherent were the day’s biggest S&P 500 gainers": "광학 주식 Lumentum과 Coherent가 그날의 가장 큰 S&P 500 승자가 된 이유",
-    "Is Take-Two Interactive Stock Underperforming the S&P 500?": "Take-Two Interactive Stock이 S&P 500의 실적을 밑도는가?"
+    "Is Take-Two Interactive Stock Underperforming the S&P 500?": "Take-Two Interactive Stock이 S&P 500의 실적을 밑도는가?",
+    "Bioceres Crop Solutions Corp. Q4 2026 Earnings Call Summary": "Bioceres Crop Solutions Corp. 2026년 4분기 실적 통화 요약"
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -2955,7 +2955,7 @@
       "2026-09-13": 1342.97,
       "2026-09-14": 1346.8,
       "2026-09-15": 1362.68,
-      "2026-09-16": 1377.1
+      "2026-09-16": 1376.26
     },
     "^GSPC": {
       "2026-09-05": 7718.6,
@@ -3386,7 +3386,7 @@
     }
   },
   "failed": [
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf7ndoba2DMwVAoZpArqR\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf7ndpVPaJj8BEMUQCFB1\"}"
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf7oS3juCMhhttAxYhgNh\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf7oS4qNvkL6iQoS1i96K\"}"
   ]
 }
