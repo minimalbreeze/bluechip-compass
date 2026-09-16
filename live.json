@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-16T11:51:11.657Z",
+  "asOf": "2026-09-16T12:51:42.158Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-16T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1367.28,
+      "price": 1367.04,
       "prev": 1345.6099853515625,
-      "chg": 1.61,
+      "chg": 1.59,
       "prevDay": "2026-09-15",
       "basis": "prev-close-bar",
-      "time": "2026-09-16T11:50:55.000Z"
+      "time": "2026-09-16T12:51:25.000Z"
     },
     "^GSPC": {
       "price": 7585.73,
@@ -43,26 +43,26 @@
       "time": "2026-09-15T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 16.85,
+      "price": 16.82,
       "prev": 17.200000762939453,
-      "chg": -2.03,
+      "chg": -2.21,
       "prevDay": "2026-09-15",
       "basis": "prev-close-bar",
-      "time": "2026-09-16T11:35:46.000Z"
+      "time": "2026-09-16T12:36:16.000Z"
     },
     "^TNX": {
-      "price": 4.996,
+      "price": 4.977,
       "prev": 4.995999813079834,
-      "chg": 0,
+      "chg": -0.38,
       "prevDay": "2026-09-15",
       "basis": "prev-close-bar",
-      "time": "2026-09-15T18:59:53.000Z"
+      "time": "2026-09-16T12:36:24.000Z"
     }
   },
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.131
+    "pct": 0.129
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -18.48
     },
     "KRW=X": {
-      "last": 1367.28,
+      "last": 1367.04,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.131,
-      "chg3m": -10.71
+      "pct52": 0.129,
+      "chg3m": -10.73
     },
     "^GSPC": {
       "last": 7585.73,
@@ -101,18 +101,18 @@
       "chg3m": -1.5
     },
     "^VIX": {
-      "last": 16.85,
+      "last": 16.82,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.192,
-      "chg3m": 2.74
+      "pct52": 0.191,
+      "chg3m": 2.56
     },
     "^TNX": {
-      "last": 5,
+      "last": 4.98,
       "low52": 3.95,
       "high52": 5,
-      "pct52": 1,
-      "chg3m": 12.83
+      "pct52": 0.982,
+      "chg3m": 11.52
     }
   },
   "regime": {
@@ -436,6 +436,42 @@
     ],
     "us": [
       {
+        "title": "Consumers hit by one-two punch of oil and rates from Iran war. The estimated bill is $1,700 per household",
+        "link": "https://www.cnbc.com/2026/09/16/oil-prices-treasury-yields-consumers-iran.html",
+        "source": "CNBC",
+        "date": "Wed, 16 Sep 2026 12:02:18 GMT",
+        "ko": "소비자들은 이란 전쟁에서 원투펀치의 석유와 금리로 타격을 입었다. 예상 청구액은 가구당 $1,700입니다.",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "The ‘CIA’ strategy beating the market: How one top-performing money manager spots mispriced stocks",
+        "link": "https://www.marketwatch.com/story/the-cia-strategy-beating-the-market-how-one-top-performing-money-manager-spots-mispriced-stocks-535c638d?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "date": "Wed, 16 Sep 2026 12:37:00 GMT",
+        "ko": "시장을 이기는 ‘CIA’ 전략: 최고 실적의 머니 매니저가 비싸게 산 주식을 찾아내는 방법",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "Tech stocks today: SK Hynix and Intel moves, OpenAI raising funds at $1.2 trillion valuation",
+        "link": "https://finance.yahoo.com/technology/live/tech-stocks-today-sk-hynix-and-intel-moves-openai-raising-funds-at-12-trillion-valuation-140134624.html",
+        "source": "Yahoo Finance",
+        "date": "2026-09-14T14:01:34Z",
+        "ko": "오늘날의 기술주: SK 하이닉스와 인텔의 이동, OpenAI의 $1.2조 가치 평가로 자금 조달",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
         "title": "UK inflation jumps to 3.1% as energy costs soar",
         "link": "https://www.cnbc.com/2026/09/16/uk-august-inflation-energy-gasoline.html",
         "source": "CNBC",
@@ -448,11 +484,11 @@
         "by": "rules"
       },
       {
-        "title": "Intel’s stock rises as investors hope memory chips can mark the next step in its turnaround",
-        "link": "https://www.marketwatch.com/story/intels-stock-rises-as-investors-hope-memory-chips-can-mark-the-next-step-in-its-turnaround-a276608f?mod=mw_rss_topstories",
+        "title": "The smartest money moves to make with interest rates expected to go higher",
+        "link": "https://www.marketwatch.com/story/the-smartest-money-moves-to-make-with-interest-rates-expected-to-go-higher-aefe375b?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Wed, 16 Sep 2026 11:39:00 GMT",
-        "ko": "투자자들이 메모리 칩이 턴어라운드의 다음 단계를 표시할 수 있기를 희망함에 따라 인텔의 주가가 상승합니다.",
+        "date": "Wed, 16 Sep 2026 12:00:00 GMT",
+        "ko": "이자율이 올라갈 것으로 예상되는 가장 현명한 자금이 움직입니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -470,50 +506,11 @@
         "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
-      },
-      {
-        "title": "Counting the votes: Warsh faces a tough battle as the Fed girds for expected interest rate hike",
-        "link": "https://www.cnbc.com/2026/09/14/counting-the-votes-warsh-faces-tough-battle-as-fed-girds-for-expected-rate-hike.html",
-        "source": "CNBC",
-        "date": "Mon, 14 Sep 2026 19:47:42 GMT",
-        "ko": "득표수 집계: 연준이 금리 인상을 예상하면서 워시는 어려운 전투에 직면해 있습니다.",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "The ‘CIA’ strategy beating the market: How one top-performing money manager spots mispriced stocks",
-        "link": "https://www.marketwatch.com/story/the-cia-strategy-beating-the-market-how-one-top-performing-money-manager-spots-mispriced-stocks-535c638d?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "date": "Wed, 16 Sep 2026 11:20:00 GMT",
-        "ko": "시장을 이기는 ‘CIA’ 전략: 최고 실적의 머니 매니저가 비싸게 산 주식을 찾아내는 방법",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "Bitcoin and ethereum prices today, Wednesday, September 16, 2026: Crypto prices tank after CLARITY Act fails and ahead of Fed decision",
-        "link": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-wednesday-september-16-2026-crypto-prices-tank-after-clarity-act-fails-and-ahead-of-fed-decision-112517152.html",
-        "source": "Yahoo Finance",
-        "date": "2026-09-16T11:25:17Z",
-        "ko": "오늘 2026년 9월 16일 수요일 비트코인 및 이더리움 가격: 명확성 법안이 실패하고 연준 결정에 앞서 암호화폐 가격 탱크",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
       }
     ]
   },
   "newsBy": "rules",
   "trCache": {
-    "Stock Market Today: Dow Rallies On Surprise Inflation Data; Apple Jumps, Nears All-Time High (Live Coverage)": "오늘의 주식 시장: 다우지수가 깜짝 인플레이션 데이터에 랠리, 애플 점프, 사상 최고치 기록 (라이브 커버리지)",
-    "Stock Of The Day: AI Energy Play Bloom Energy Nears Buy Point, S&P 500 Entry": "오늘의 주식: AI 에너지 플레이 블룸 에너지 니어스 바이 포인트, S&P 500 엔트리",
-    "High-Grade Monthly: Summer sprint continues post-Labor Day as rates soar": "고등급 월간: 금리가 급등함에 따라 여름철 스프린트는 노동절 이후에도 계속됩니다.",
     "GameStop Finds A Bulk Buyer For Its Stock — Its Own CEO": "GameStop은 주식을 구매할 대량 구매자를 찾습니다 — 자체 CEO",
     "Wall St bounces as oil cools, inflation risks keeps Fed in focus": "Wall St는 오일이 냉각됨에 따라 튕겨 나오고 인플레이션 위험은 Fed에 초점을 맞춥니다.",
     "This Oil Stock Sails Near Entry, Profits Soar 452% As Strait of Hormuz Crisis Flares Up": "이 석유 재고는 엔트리 근처에서 항해하며, 호르무즈 해협 위기가 불거지면서 이익이 452% 급증합니다.",
@@ -810,7 +807,10 @@
     "Zscaler, Inc. (ZS)’s Growth Engine Is Strong, But Slowing ARR Could Pressure the Stock": "Zscaler, Inc. (ZS) 의 성장 엔진은 강력하지만 ARR이 느려지면 주식에 압력이 가해질 수 있습니다.",
     "Intel’s stock rises as investors hope memory chips can mark the next step in its turnaround": "투자자들이 메모리 칩이 턴어라운드의 다음 단계를 표시할 수 있기를 희망함에 따라 인텔의 주가가 상승합니다.",
     "The ‘CIA’ strategy beating the market: How one top-performing money manager spots mispriced stocks": "시장을 이기는 ‘CIA’ 전략: 최고 실적의 머니 매니저가 비싸게 산 주식을 찾아내는 방법",
-    "Bitcoin and ethereum prices today, Wednesday, September 16, 2026: Crypto prices tank after CLARITY Act fails and ahead of Fed decision": "오늘 2026년 9월 16일 수요일 비트코인 및 이더리움 가격: 명확성 법안이 실패하고 연준 결정에 앞서 암호화폐 가격 탱크"
+    "Bitcoin and ethereum prices today, Wednesday, September 16, 2026: Crypto prices tank after CLARITY Act fails and ahead of Fed decision": "오늘 2026년 9월 16일 수요일 비트코인 및 이더리움 가격: 명확성 법안이 실패하고 연준 결정에 앞서 암호화폐 가격 탱크",
+    "Consumers hit by one-two punch of oil and rates from Iran war. The estimated bill is $1,700 per household": "소비자들은 이란 전쟁에서 원투펀치의 석유와 금리로 타격을 입었다. 예상 청구액은 가구당 $1,700입니다.",
+    "Tech stocks today: SK Hynix and Intel moves, OpenAI raising funds at $1.2 trillion valuation": "오늘날의 기술주: SK 하이닉스와 인텔의 이동, OpenAI의 $1.2조 가치 평가로 자금 조달",
+    "The smartest money moves to make with interest rates expected to go higher": "이자율이 올라갈 것으로 예상되는 가장 현명한 자금이 움직입니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -2955,7 +2955,7 @@
       "2026-09-13": 1342.97,
       "2026-09-14": 1346.8,
       "2026-09-15": 1362.68,
-      "2026-09-16": 1367.28
+      "2026-09-16": 1367.04
     },
     "^GSPC": {
       "2026-09-05": 7718.6,
@@ -2997,7 +2997,7 @@
       "2026-09-13": 15.84,
       "2026-09-14": 17.1,
       "2026-09-15": 17.2,
-      "2026-09-16": 16.85
+      "2026-09-16": 16.82
     },
     "^TNX": {
       "2026-09-05": 4.784,
@@ -3011,7 +3011,7 @@
       "2026-09-13": 4.975,
       "2026-09-14": 4.961,
       "2026-09-15": 4.996,
-      "2026-09-16": 4.996
+      "2026-09-16": 4.977
     },
     "105560.KS": {
       "2026-09-05": 172000,
@@ -3386,8 +3386,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf74ys6L6WB4MsJSAuoZf\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf74ysyANzcS6N8zxeSq3\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf74ytjo2STN7dEbyVRx2\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf79bUSXejb7CQNxTWxve\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf79bVpdAbNQc2WEN95es\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf79bWihRjBEQoLuG1zWn\"}"
   ]
 }
