@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-16T00:01:43.041Z",
+  "asOf": "2026-09-16T00:12:03.447Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-15T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1364.98,
+      "price": 1365.38,
       "prev": 1345.6099853515625,
-      "chg": 1.44,
+      "chg": 1.47,
       "prevDay": "2026-09-15",
       "basis": "prev-close-bar",
-      "time": "2026-09-16T00:01:29.000Z"
+      "time": "2026-09-16T00:11:56.000Z"
     },
     "^GSPC": {
       "price": 7585.73,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.12
+    "pct": 0.122
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -20.8
     },
     "KRW=X": {
-      "last": 1364.98,
+      "last": 1365.38,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.12,
-      "chg3m": -10.86
+      "pct52": 0.122,
+      "chg3m": -10.84
     },
     "^GSPC": {
       "last": 7585.73,
@@ -368,13 +368,13 @@
   "news": {
     "kr": [
       {
-        "title": "키움증권 \"고금리 장기화, AI 투자·신용시장 전이 주시해야\"",
-        "link": "https://www.yna.co.kr/view/AKR20260916029200008",
+        "title": "등록된 외국금융기관, 시간·장소 제약 없이 역외원화 거래 가능",
+        "link": "https://www.yna.co.kr/view/AKR20260916032100002",
         "source": "연합뉴스",
-        "date": "Wed, 16 Sep 2026 08:54:41 +0900",
+        "date": "Wed, 16 Sep 2026 09:00:00 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -390,10 +390,10 @@
         "by": "rules"
       },
       {
-        "title": "“9월중엔 주식창 안볼랍니다”…美긴축공포에 코스피 대형주 피눈물",
-        "link": "https://www.mk.co.kr/news/stock/12153825",
+        "title": "오락가락 증시서 로봇이 먼저 뛰어올랐다…로보티즈 한달새 50% 급등, 코스닥 10위",
+        "link": "https://www.mk.co.kr/news/stock/12153902",
         "source": "매일경제",
-        "date": "Wed, 16 Sep 2026 06:12:58 +09:00",
+        "date": "Wed, 16 Sep 2026 09:11:11 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -401,13 +401,13 @@
         "by": "rules"
       },
       {
-        "title": "흥국증권 \"현대백, 자회사 지누스 실적 개선 지연…목표가↓\"",
-        "link": "https://www.yna.co.kr/view/AKR20260916028800008",
+        "title": "키움증권 \"고금리 장기화, AI 투자·신용시장 전이 주시해야\"",
+        "link": "https://www.yna.co.kr/view/AKR20260916029200008",
         "source": "연합뉴스",
-        "date": "Wed, 16 Sep 2026 08:45:57 +0900",
+        "date": "Wed, 16 Sep 2026 08:54:41 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -423,13 +423,13 @@
         "by": "rules"
       },
       {
-        "title": "일본시장 눈독 들이는 한국 톱 증권사 … ‘3000만 절세계좌’에 담긴 기회",
-        "link": "https://www.mk.co.kr/news/stock/12153152",
+        "title": "“GS리테일, 실적 개선에도 여전히 저평가”…목표가는 3만5000원으로 낮춰",
+        "link": "https://www.mk.co.kr/news/stock/12153900",
         "source": "매일경제",
-        "date": "Wed, 16 Sep 2026 04:20:00 +09:00",
+        "date": "Wed, 16 Sep 2026 09:08:13 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -460,11 +460,10 @@
         "by": "rules"
       },
       {
-        "title": "Stocks could have a tough road ahead if the Fed hikes rates: Chart of the Day",
-        "link": "https://finance.yahoo.com/markets/article/stocks-could-have-a-tough-road-ahead-if-the-fed-hikes-rates-chart-of-the-day-155218683.html",
+        "title": "Dow Jones Futures Fall, Techs Tumble As Oil Prices Rise, Anthropic Leads AI Slowdown Call",
+        "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-fed-meeting-anthropic-amodei-openai-altman-spacex-musk-ai-model-slowdown/?src=A00220&yptr=yahoo",
         "source": "Yahoo Finance",
-        "date": "2026-09-14T15:52:18Z",
-        "ko": "연준이 금리 인상을 단행할 경우 주식은 어려운 여정을 겪을 수 있습니다: 오늘의 차트",
+        "date": "2026-09-14T12:11:35Z",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -496,14 +495,14 @@
         "by": "rules"
       },
       {
-        "title": "A $90 Billion Reason to Buy Oracle Stock Now",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/90-billion-reason-buy-oracle-155458851.html",
+        "title": "AI warnings by Anthropic CEO Dario Amodei and OpenAI CEO Sam Altman could hammer this momentum stock",
+        "link": "https://finance.yahoo.com/markets/stocks/article/ai-warnings-by-anthropic-ceo-dario-amodei-and-openai-ceo-sam-altman-could-hammer-this-momentum-stock-101518585.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-14T15:54:58Z",
-        "ko": "지금 오라클 주식을 매입해야 하는 $900억의 이유",
+        "date": "2026-09-14T10:15:18Z",
+        "ko": "Anthropic CEO 인 Dario Amodei와 OpenAI CEO 인 Sam Altman의 AI 경고는이 모멘텀 재고를 망칠 수 있습니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -2955,7 +2954,7 @@
       "2026-09-13": 1342.97,
       "2026-09-14": 1346.8,
       "2026-09-15": 1362.68,
-      "2026-09-16": 1364.98
+      "2026-09-16": 1365.38
     },
     "^GSPC": {
       "2026-09-04": 7718.6,
@@ -3386,8 +3385,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf68swrciwpfzMmQ5KzqL\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf68sxs8mUJd7AsyH9mMU\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf68sydXQHF2SoUQRxzqV\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf69fgh5cyqK4pXcRtwvv\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf69fhi6h6RYUZogTtACh\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf69fiKJuneuJBDETHvJw\"}"
   ]
 }
