@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-17T08:44:18.600Z",
+  "asOf": "2026-09-17T09:44:47.888Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-17T06:32:40.000Z"
     },
     "KRW=X": {
-      "price": 1385.08,
+      "price": 1385.35,
       "prev": 1363.5699462890625,
-      "chg": 1.58,
+      "chg": 1.6,
       "prevDay": "2026-09-16",
       "basis": "prev-close-bar",
-      "time": "2026-09-17T08:44:03.000Z"
+      "time": "2026-09-17T09:44:35.000Z"
     },
     "^GSPC": {
       "price": 7551.81,
@@ -43,12 +43,12 @@
       "time": "2026-09-16T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 16.22,
+      "price": 16.07,
       "prev": 17.709999084472656,
-      "chg": -8.41,
+      "chg": -9.26,
       "prevDay": "2026-09-16",
       "basis": "prev-close-bar",
-      "time": "2026-09-17T08:29:01.000Z"
+      "time": "2026-09-17T09:29:31.000Z"
     },
     "^TNX": {
       "price": 5.006,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.213
+    "pct": 0.214
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -14.94
     },
     "KRW=X": {
-      "last": 1385.08,
+      "last": 1385.35,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.213,
-      "chg3m": -10
+      "pct52": 0.214,
+      "chg3m": -9.99
     },
     "^GSPC": {
       "last": 7551.81,
@@ -101,11 +101,11 @@
       "chg3m": -0.17
     },
     "^VIX": {
-      "last": 16.22,
+      "last": 16.07,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.156,
-      "chg3m": -6.13
+      "pct52": 0.148,
+      "chg3m": -7
     },
     "^TNX": {
       "last": 5.01,
@@ -368,6 +368,39 @@
   "news": {
     "kr": [
       {
+        "title": "농협금융, NH투자증권 주식 1천500억원 매수…\"주주가치 제고\"",
+        "link": "https://www.yna.co.kr/view/AKR20260917187400002",
+        "source": "연합뉴스",
+        "date": "Thu, 17 Sep 2026 18:34:12 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "금리 상승기엔 은행주 주목 [한경 프리미엄9 TODAY]",
+        "link": "https://www.hankyung.com/article/2026091721741",
+        "source": "한국경제",
+        "date": "Thu, 17 Sep 2026 18:12:30 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "금감원, 금투사 개인투자자 권익침해 ‘상시점검’…수수료·대출금리 들여다본다",
+        "link": "https://www.mk.co.kr/news/stock/12155769",
+        "source": "매일경제",
+        "date": "Thu, 17 Sep 2026 18:37:48 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
         "title": "매파 FOMC에도 국채 단기물 중심 제한적 약세…3년물 4.063%(종합)",
         "link": "https://www.yna.co.kr/view/AKR20260917167851008",
         "source": "연합뉴스",
@@ -379,21 +412,10 @@
         "by": "rules"
       },
       {
-        "title": "금리 충격도 못 꺾었다…삼전닉스 주춤할때 뛴 AI 병목주",
-        "link": "https://www.hankyung.com/article/202609171287i",
+        "title": "중소형 증권사의 반격…회사채로 '실탄' 마련",
+        "link": "https://www.hankyung.com/article/2026091721361",
         "source": "한국경제",
-        "date": "Thu, 17 Sep 2026 17:18:31 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "\"반도체 넘어 AI 투자 … 사모투자가 최적\"",
-        "link": "https://www.mk.co.kr/news/stock/12155676",
-        "source": "매일경제",
-        "date": "Thu, 17 Sep 2026 17:41:47 +09:00",
+        "date": "Thu, 17 Sep 2026 17:50:15 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -401,32 +423,10 @@
         "by": "rules"
       },
       {
-        "title": "국고채 금리 대체로 하락…3년물 연 4.063%",
-        "link": "https://www.yna.co.kr/view/AKR20260917167800008",
-        "source": "연합뉴스",
-        "date": "Thu, 17 Sep 2026 16:42:32 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "외국인 지분율 꾸준히 높아지는 대한항공…실적·합병 기대",
-        "link": "https://www.hankyung.com/article/202609171937i",
-        "source": "한국경제",
-        "date": "Thu, 17 Sep 2026 17:08:20 +0900",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": "company",
-        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
-        "by": "rules"
-      },
-      {
-        "title": "삼성증권, 발행어음 상품 첫 출시",
-        "link": "https://www.mk.co.kr/news/stock/12155670",
+        "title": "랩·신탁 위법거래 159조 중개…금융위, 증권사 2곳 ‘철퇴’",
+        "link": "https://www.mk.co.kr/news/stock/12155754",
         "source": "매일경제",
-        "date": "Thu, 17 Sep 2026 17:41:10 +09:00",
+        "date": "Thu, 17 Sep 2026 18:00:44 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -448,14 +448,14 @@
         "by": "rules"
       },
       {
-        "title": "Tom Lee says the ‘face-ripping’ rally he predicted is merely delayed",
-        "link": "https://www.marketwatch.com/story/tom-lee-says-the-face-ripping-rally-he-predicted-is-merely-delayed-16933e30?mod=mw_rss_topstories",
+        "title": "Why the S&P 500 could still advance after a Fed hike, according to a Wall Street strategist",
+        "link": "https://www.marketwatch.com/story/why-the-s-p-500-could-still-advance-after-a-fed-hike-according-to-a-wall-street-strategist-d357b4f2?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Thu, 17 Sep 2026 07:50:00 GMT",
-        "ko": "톰 리는 그가 예측한 ‘얼굴 리핑’ 랠리가 단지 지연되었다고 말한다.",
+        "date": "Thu, 17 Sep 2026 09:16:00 GMT",
+        "ko": "월스트리트 전략가에 따르면 S&P 500이 연준의 인상 이후에도 여전히 발전할 수 있는 이유",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -484,11 +484,11 @@
         "by": "rules"
       },
       {
-        "title": "Intel’s stock rises as investors hope memory chips can mark the next step in its turnaround",
-        "link": "https://www.marketwatch.com/story/intels-stock-rises-as-investors-hope-memory-chips-can-mark-the-next-step-in-its-turnaround-a276608f?mod=mw_rss_topstories",
+        "title": "Tom Lee says the ‘face-ripping’ rally he predicted is merely delayed",
+        "link": "https://www.marketwatch.com/story/tom-lee-says-the-face-ripping-rally-he-predicted-is-merely-delayed-16933e30?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Wed, 16 Sep 2026 23:51:00 GMT",
-        "ko": "투자자들이 메모리 칩이 턴어라운드의 다음 단계를 표시할 수 있기를 희망함에 따라 인텔의 주가가 상승합니다.",
+        "date": "Thu, 17 Sep 2026 07:50:00 GMT",
+        "ko": "톰 리는 그가 예측한 ‘얼굴 리핑’ 랠리가 단지 지연되었다고 말한다.",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -496,11 +496,11 @@
         "by": "rules"
       },
       {
-        "title": "Fed predictions for 2026: Will a rate hike happen by the end of the year?",
-        "link": "https://finance.yahoo.com/personal-finance/banking/article/fed-rate-predictions-2026-154647304.html",
+        "title": "What time is this week's Fed meeting?",
+        "link": "https://finance.yahoo.com/personal-finance/banking/article/what-time-is-this-weeks-fed-meeting-120032072.html",
         "source": "Yahoo Finance",
-        "date": "2024-07-30T15:46:47Z",
-        "ko": "2026년 연준 예측: 연말까지 금리 인상이 가능할까요?",
+        "date": "2025-05-05T12:00:32Z",
+        "ko": "이번 주 연준 회의는 몇 시에 열리나요?",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -511,7 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "A Bear Market Is Coming at Some Point. History Says That's Actually Good News for Investors.": "어느 시점에 베어 마켓이 다가오고 있습니다. 역사는 실제로 투자자에게 좋은 소식이라고 말합니다.",
     "Cummins Returned 512% in a Decade. Its Dividend Did Something Even More Impressive": "커민스는 10년 만에 512% 를 돌려받았다. 그 배당금은 더욱 인상적인 일을 했습니다",
     "AMD and Intel’s Shared AI Instructions Reach GCC. Can Software Cooperation Strengthen Both Stocks?": "AMD와 인텔의 공유 AI 지침은 GCC에 도달합니다. 소프트웨어 협력이 두 주식을 모두 강화할 수 있습니까?",
     "Trump Urges Federal Reserve To Cut Rates As Market Bets On Warsh Hike": "트럼프, 연방 준비 제도 이사회에 워시 하이킹에 대한 시장 베팅으로 금리 인하 촉구",
@@ -810,7 +809,8 @@
     "Trump’s Surgeon General Pick Loves These 3 Tobacco Stocks": "Trump's Surgeon General Pick은이 3 가지 담배 주식을 좋아합니다.",
     "Dollar Rises on Surging Crude Prices and T-Note Yields": "급등하는 원유 가격과 T-Note 수익률에 대한 달러 상승",
     "Tom Lee says the ‘face-ripping’ rally he predicted is merely delayed": "톰 리는 그가 예측한 ‘얼굴 리핑’ 랠리가 단지 지연되었다고 말한다.",
-    "Fed predictions for 2026: Will a rate hike happen by the end of the year?": "2026년 연준 예측: 연말까지 금리 인상이 가능할까요?"
+    "Fed predictions for 2026: Will a rate hike happen by the end of the year?": "2026년 연준 예측: 연말까지 금리 인상이 가능할까요?",
+    "Why the S&P 500 could still advance after a Fed hike, according to a Wall Street strategist": "월스트리트 전략가에 따르면 S&P 500이 연준의 인상 이후에도 여전히 발전할 수 있는 이유"
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -2955,7 +2955,7 @@
       "2026-09-14": 1346.8,
       "2026-09-15": 1362.68,
       "2026-09-16": 1376.95,
-      "2026-09-17": 1385.08
+      "2026-09-17": 1385.35
     },
     "^GSPC": {
       "2026-09-06": 7718.6,
@@ -2997,7 +2997,7 @@
       "2026-09-14": 17.1,
       "2026-09-15": 17.2,
       "2026-09-16": 17.71,
-      "2026-09-17": 16.22
+      "2026-09-17": 16.07
     },
     "^TNX": {
       "2026-09-06": 4.784,
@@ -3386,8 +3386,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf8iYDdJaB89Zx21zmkDJ\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf8iYEcazccFygNVAJSpN\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf8iYFGXaCyhy1nh6orPA\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf8o9kuBPjRdjBb8waWX2\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf8o9mpFZxEiqeY5mP4aG\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf8o9nDJz2C6bMvvG1HFb\"}"
   ]
 }
