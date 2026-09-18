@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-18T20:30:14.321Z",
+  "asOf": "2026-09-18T20:40:49.178Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-18T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1385.14,
+      "price": 1384.58,
       "prev": 1376.5999755859375,
-      "chg": 0.62,
+      "chg": 0.58,
       "prevDay": "2026-09-17",
       "basis": "prev-close-bar",
-      "time": "2026-09-18T20:29:58.000Z"
+      "time": "2026-09-18T20:40:29.000Z"
     },
     "^GSPC": {
       "price": 7650.5,
@@ -40,7 +40,7 @@
       "chg": 0.39,
       "prevDay": "2026-09-17",
       "basis": "prev-close-bar",
-      "time": "2026-09-18T20:30:00.000Z"
+      "time": "2026-09-18T20:40:36.000Z"
     },
     "^VIX": {
       "price": 14.81,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.214
+    "pct": 0.211
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -14.94
     },
     "KRW=X": {
-      "last": 1385.14,
+      "last": 1384.58,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.214,
-      "chg3m": -9.78
+      "pct52": 0.211,
+      "chg3m": -9.81
     },
     "^GSPC": {
       "last": 7650.5,
@@ -484,14 +484,14 @@
         "by": "rules"
       },
       {
-        "title": "Is Tyler Technologies Stock Underperforming the Dow?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/tyler-technologies-stock-underperforming-dow-104129457.html",
+        "title": "Nvidia Is Named as a Potential Investor in Anthropic’s IPO. Here’s What to Know.",
+        "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-named-potential-investor-anthropic-105741926.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-17T10:41:29Z",
-        "ko": "타일러 테크놀로지스 주식이 다우지수를 밑도는가?",
+        "date": "2026-09-17T10:57:41Z",
+        "ko": "엔비디아는 Anthropic의 IPO에서 잠재적 투자자로 선정되었습니다. 알아두어야 할 사항은 다음과 같습니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -511,7 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "Why a Federal Reserve rate hike could be a ‘rare win’ for your retirement money": "연방준비제도 (Fed) 의 금리 인상이 은퇴 자금으로 ‘희귀한 승리’ 가 될 수 있는 이유",
     "Inflation killed the penny. Now it’s coming for your dollar.": "인플레이션이 페니를 죽였다. 이제 달러로 결제하실 수 있습니다.",
     "2 charts showing how oil is becoming the global market’s biggest wild card": "석유가 세계 시장에서 가장 큰 와일드 카드가 되는 방법을 보여주는 2가지 차트",
     "These 4 stocks could benefit most from a $3.2 trillion semiconductor opportunity": "이 4 개의 주식은 $3.2 조의 반도체 기회로부터 가장 많은 이익을 얻을 수 있습니다.",
@@ -810,7 +809,8 @@
     "Generac Shares Surge 33.7% After Announcing Amazon Data Centre Supply Agreement": "아마존 데이터 센터 공급 계약을 발표한 후 Generac 주식 33.7% 급증",
     "Federal Reserve interest rate hike may trigger another brutal move for US Treasury yields": "연방준비제도 (Fed) 의 금리 인상은 미국 국채 수익률에 대한 또 다른 잔인한 움직임을 촉발할 수 있다.",
     "Is Weyerhaeuser Stock Underperforming the S&P 500?": "Weyerhaeuser 주가가 S&P 500을 하회하고 있습니까?",
-    "Is Tyler Technologies Stock Underperforming the Dow?": "타일러 테크놀로지스 주식이 다우지수를 밑도는가?"
+    "Is Tyler Technologies Stock Underperforming the Dow?": "타일러 테크놀로지스 주식이 다우지수를 밑도는가?",
+    "Nvidia Is Named as a Potential Investor in Anthropic’s IPO. Here’s What to Know.": "엔비디아는 Anthropic의 IPO에서 잠재적 투자자로 선정되었습니다. 알아두어야 할 사항은 다음과 같습니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -2955,7 +2955,7 @@
       "2026-09-15": 1362.68,
       "2026-09-16": 1376.95,
       "2026-09-17": 1379.98,
-      "2026-09-18": 1385.14
+      "2026-09-18": 1384.58
     },
     "^GSPC": {
       "2026-09-07": 7718.6,
@@ -3386,7 +3386,7 @@
     }
   },
   "failed": [
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfBYBNSPrZvCQc965ewu7\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfBYBPFkrJN6QiNQEkTNK\"}"
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfBYzAYqAGH6qipd1iy99\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfBYzBYcSWvMFnYeNnaf3\"}"
   ]
 }
