@@ -1,30 +1,30 @@
 {
-  "asOf": "2026-09-18T06:50:41.843Z",
+  "asOf": "2026-09-18T07:51:11.387Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
-      "price": 6895.82,
+      "price": 6894.23,
       "prev": 6715.41015625,
-      "chg": 2.69,
+      "chg": 2.66,
       "prevDay": "2026-09-17",
       "basis": "prev-close-bar",
-      "time": "2026-09-18T06:30:30.000Z"
+      "time": "2026-09-18T06:32:30.000Z"
     },
     "^KQ11": {
-      "price": 826.94,
+      "price": 827.12,
       "prev": 822.1799926757812,
-      "chg": 0.58,
+      "chg": 0.6,
       "prevDay": "2026-09-17",
       "basis": "prev-close-bar",
-      "time": "2026-09-18T06:30:30.000Z"
+      "time": "2026-09-18T06:32:50.000Z"
     },
     "KRW=X": {
-      "price": 1382.69,
+      "price": 1383.57,
       "prev": 1376.5999755859375,
-      "chg": 0.44,
+      "chg": 0.51,
       "prevDay": "2026-09-17",
       "basis": "prev-close-bar",
-      "time": "2026-09-18T06:50:28.000Z"
+      "time": "2026-09-18T07:50:56.000Z"
     },
     "^GSPC": {
       "price": 7637.76,
@@ -43,12 +43,12 @@
       "time": "2026-09-17T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 15.44,
+      "price": 15.05,
       "prev": 15.4399995803833,
-      "chg": 0,
+      "chg": -2.53,
       "prevDay": "2026-09-17",
       "basis": "prev-close-bar",
-      "time": "2026-09-17T20:15:01.000Z"
+      "time": "2026-09-18T07:35:46.000Z"
     },
     "^TNX": {
       "price": 4.947,
@@ -62,29 +62,29 @@
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.202
+    "pct": 0.206
   },
   "hist": {
     "^KS11": {
-      "last": 6895.82,
+      "last": 6894.23,
       "low52": 3386.05,
       "high52": 9114.55,
-      "pct52": 0.613,
-      "chg3m": -24.34
+      "pct52": 0.612,
+      "chg3m": -24.36
     },
     "^KQ11": {
-      "last": 826.94,
+      "last": 827.12,
       "low52": 644.78,
       "high52": 1226.18,
-      "pct52": 0.313,
-      "chg3m": -14.61
+      "pct52": 0.314,
+      "chg3m": -14.59
     },
     "KRW=X": {
-      "last": 1382.69,
+      "last": 1383.57,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.202,
-      "chg3m": -9.94
+      "pct52": 0.206,
+      "chg3m": -9.88
     },
     "^GSPC": {
       "last": 7637.76,
@@ -101,11 +101,11 @@
       "chg3m": -0.38
     },
     "^VIX": {
-      "last": 15.44,
+      "last": 15.05,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.112,
-      "chg3m": -10.65
+      "pct52": 0.09,
+      "chg3m": -22.78
     },
     "^TNX": {
       "last": 4.95,
@@ -242,12 +242,12 @@
         "time": "2026-09-18T06:30:10.000Z"
       },
       "012450": {
-        "price": 1098000,
+        "price": 1078000,
         "prev": 1097000,
-        "chg": 0.09,
+        "chg": -1.73,
         "prevDay": "2026-09-17",
         "basis": "prev-close-bar",
-        "time": "2026-09-18T06:20:00.000Z"
+        "time": "2026-09-18T06:32:17.000Z"
       },
       "017670": {
         "price": 89200,
@@ -368,24 +368,57 @@
   "news": {
     "kr": [
       {
-        "title": "[특징주] 삼성전기, 3분기 실적 개선 기대감 등에 4% 상승 마감(종합)",
-        "link": "https://www.yna.co.kr/view/AKR20260918047851008",
+        "title": "CG인바이츠 \"관계사 VISTA 주식 94억원어치 취득…지분율 43.7%\"",
+        "link": "https://www.yna.co.kr/view/AKR20260918142500008",
         "source": "연합뉴스",
-        "date": "Fri, 18 Sep 2026 15:37:31 +0900",
+        "date": "Fri, 18 Sep 2026 16:05:31 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "美 SEC, 토큰화 주식 5년간 허용…24시간 거래 눈앞에",
-        "link": "https://www.hankyung.com/article/202609183658i",
+        "title": "세후수익률, 서울 부동산이 코스피의 2배...\"부동산 팔고 주식 사면 세제혜택 줘야\"",
+        "link": "https://www.hankyung.com/article/202609183981i",
         "source": "한국경제",
-        "date": "Fri, 18 Sep 2026 13:06:31 +0900",
+        "date": "Fri, 18 Sep 2026 15:46:58 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "외국인·기관 동반 매수에 코스피 2.66% 상승…지수 상승 이끈 삼전닉스",
+        "link": "https://www.mk.co.kr/news/stock/12156569",
+        "source": "매일경제",
+        "date": "Fri, 18 Sep 2026 16:00:55 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "원/달러 환율, 1.1원 오른 1,383.3원…7거래일 연속 상승",
+        "link": "https://www.yna.co.kr/view/AKR20260918140100002",
+        "source": "연합뉴스",
+        "date": "Fri, 18 Sep 2026 16:05:19 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "코스피, 美·日 기준금리 인상 소화하며 2.6% 반등 마감",
+        "link": "https://www.hankyung.com/article/2026091841056",
+        "source": "한국경제",
+        "date": "Fri, 18 Sep 2026 15:41:50 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -399,48 +432,15 @@
         "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
-      },
-      {
-        "title": "[외환] 원/달러 환율 1.1원 오른 1,383.3원(15:30 기준가)",
-        "link": "https://www.yna.co.kr/view/AKR20260918131400002",
-        "source": "연합뉴스",
-        "date": "Fri, 18 Sep 2026 15:31:31 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "코스피, 美 금리인상 소화하며 장 초반 2%대 반등",
-        "link": "https://www.hankyung.com/article/2026091828656",
-        "source": "한국경제",
-        "date": "Fri, 18 Sep 2026 09:10:33 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "현대차증권, 2026년 임금협약 체결… “임금 2.5% 인상 및 자사주 500주 지급”",
-        "link": "https://www.mk.co.kr/news/stock/12156417",
-        "source": "매일경제",
-        "date": "Fri, 18 Sep 2026 13:19:51 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
       }
     ],
     "us": [
       {
-        "title": "Bank of England defies Fed’s rate-hike lead, leaving rates unchanged",
-        "link": "https://www.cnbc.com/2026/09/17/bank-of-england-interest-rate-decision-fed-rate-hike-uk-inflation.html",
+        "title": "Why Japan’s markets flipped the usual script after central bank rate hike",
+        "link": "https://www.cnbc.com/2026/09/18/japan-rate-hike-stocks-rise-bond-yields-yen-fall.html",
         "source": "CNBC",
-        "date": "Thu, 17 Sep 2026 12:27:10 GMT",
-        "ko": "잉글랜드 은행, Fed의 금리 인상 주도권에 저항, 금리 변동 없음",
+        "date": "Fri, 18 Sep 2026 07:40:29 GMT",
+        "ko": "중앙은행의 금리 인상 이후 일본 시장이 일반적인 대본을 뒤집은 이유",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -460,23 +460,23 @@
         "by": "rules"
       },
       {
-        "title": "VF Corporation Cut Its Dividend 82%. Five Historical Cases Show What Could Happen Next",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/vf-corporation-cut-dividend-82-184652448.html",
+        "title": "Instant View: Stocks pull back after Fed raises rates, points to another hike this year",
+        "link": "https://finance.yahoo.com/economy/policy/articles/markets-steady-fed-raises-rates-182216095.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-16T18:46:52Z",
-        "ko": "VF Corporation은 배당금을 82% 삭감했습니다. 다음에 일어날 수 있는 일을 보여주는 다섯 가지 역사적 사례",
+        "date": "2026-09-16T19:32:22Z",
+        "ko": "즉시 보기: Fed가 금리를 인상한 후 주식이 철수하여 올해 또 다른 상승을 기록했습니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "Consumers hit by one-two punch of oil and rates from Iran war. The estimated bill is $1,700 per household",
-        "link": "https://www.cnbc.com/2026/09/16/oil-prices-treasury-yields-consumers-iran.html",
+        "title": "Bank of England defies Fed’s rate-hike lead, leaving rates unchanged",
+        "link": "https://www.cnbc.com/2026/09/17/bank-of-england-interest-rate-decision-fed-rate-hike-uk-inflation.html",
         "source": "CNBC",
-        "date": "Wed, 16 Sep 2026 17:32:22 GMT",
-        "ko": "소비자들은 이란 전쟁에서 원투펀치의 석유와 금리로 타격을 입었다. 예상 청구액은 가구당 $1,700입니다.",
+        "date": "Thu, 17 Sep 2026 12:27:10 GMT",
+        "ko": "잉글랜드 은행, Fed의 금리 인상 주도권에 저항, 금리 변동 없음",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -496,14 +496,14 @@
         "by": "rules"
       },
       {
-        "title": "Mining Stock Could Soon Unearth Another Record",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/mining-stock-could-soon-unearth-185040112.html",
+        "title": "How Today’s Rate Hike Hits Credit-Card Debt, Savings Accounts",
+        "link": "https://www.wsj.com/livecoverage/fed-meeting-warsh-interest-rate-09-16-2026/card/how-today-s-rate-hike-hits-credit-card-debt-home-loans-savings-accounts-7YWSBnfOJKChDHHlB3JR?siteid=yhoof2&yptr=yahoo",
         "source": "Yahoo Finance",
-        "date": "2026-09-16T18:50:40Z",
-        "ko": "채굴 재고가 곧 또 다른 기록을 발굴할 수 있음",
+        "date": "2026-09-16T19:32:18Z",
+        "ko": "오늘의 금리 인상이 신용카드 부채, 저축 계좌에 미치는 영향",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -511,9 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "GF Securities Says NAND Prices May Stabilize Later This Year. What This Means for Sandisk Stock.": "GF 증권은 NAND 가격이 올해 하반기에 안정화될 수 있다고 말합니다. Sandisk Stock에 대한 의미.",
-    "Is ConocoPhillips Stock Worth Buying Here? - Shorting COP Puts and Credit Spreads are Better Plays": "ConocoPhillips 주식은 여기서 구입할 가치가 있습니까? - 쇼팅 COP 퍼트와 크레딧 스프레드가 더 나은 플레이",
-    "Pay is back on the rise for job switchers, even in low-hire job market": "고용률이 낮은 구직 시장에서도 일자리 전환자의 임금이 다시 상승하고 있습니다.",
     "Fed Decision, Retail Sales and Other Can't Miss Items This Week": "이번 주 연방준비제도 (Fed) 결정, 소매 판매 및 기타 놓칠 수 없는 품목",
     "Dear SpaceX Stock Fans, Mark Your Calendars for September 21": "친애하는 SpaceX 스톡 팬 여러분, 9월 21일 달력에 표시하세요",
     "Wonder Deal, $240M Cash, and 31% Short Interest. A Short Squeeze Could Be Brewing in Serve Robotics Stock.": "원더 딜, $240M 캐시, 31% 단기 이자. 짧은 스퀴즈는 서브 로봇 스톡에서 양조될 수 있습니다.",
@@ -810,7 +807,10 @@
     "Treasury Yields Climb as Warsh Delivers More Tough Talk on Inflation": "워시가 인플레이션에 대해 더 까다로운 대화를 전달함에 따라 재무부 수익률이 상승합니다.",
     "Robust US retail sales underscore economy's resilience, inflation pressures building": "견고한 미국 소매 판매는 경제의 탄력성, 인플레이션 압력 구축을 강조합니다.",
     "VF Corporation Cut Its Dividend 82%. Five Historical Cases Show What Could Happen Next": "VF Corporation은 배당금을 82% 삭감했습니다. 다음에 일어날 수 있는 일을 보여주는 다섯 가지 역사적 사례",
-    "Mining Stock Could Soon Unearth Another Record": "채굴 재고가 곧 또 다른 기록을 발굴할 수 있음"
+    "Mining Stock Could Soon Unearth Another Record": "채굴 재고가 곧 또 다른 기록을 발굴할 수 있음",
+    "Why Japan’s markets flipped the usual script after central bank rate hike": "중앙은행의 금리 인상 이후 일본 시장이 일반적인 대본을 뒤집은 이유",
+    "Instant View: Stocks pull back after Fed raises rates, points to another hike this year": "즉시 보기: Fed가 금리를 인상한 후 주식이 철수하여 올해 또 다른 상승을 기록했습니다.",
+    "How Today’s Rate Hike Hits Credit-Card Debt, Savings Accounts": "오늘의 금리 인상이 신용카드 부채, 저축 계좌에 미치는 영향"
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -2927,7 +2927,7 @@
       "2026-09-15": 6627.26,
       "2026-09-16": 6717.97,
       "2026-09-17": 6715.41,
-      "2026-09-18": 6895.82
+      "2026-09-18": 6894.23
     },
     "^KQ11": {
       "2026-09-07": 822.19,
@@ -2941,7 +2941,7 @@
       "2026-09-15": 812.41,
       "2026-09-16": 815.98,
       "2026-09-17": 822.18,
-      "2026-09-18": 826.94
+      "2026-09-18": 827.12
     },
     "KRW=X": {
       "2026-09-07": 1344.73,
@@ -2955,7 +2955,7 @@
       "2026-09-15": 1362.68,
       "2026-09-16": 1376.95,
       "2026-09-17": 1379.98,
-      "2026-09-18": 1382.69
+      "2026-09-18": 1383.57
     },
     "^GSPC": {
       "2026-09-07": 7718.6,
@@ -2997,7 +2997,7 @@
       "2026-09-15": 17.2,
       "2026-09-16": 17.71,
       "2026-09-17": 15.44,
-      "2026-09-18": 15.44
+      "2026-09-18": 15.05
     },
     "^TNX": {
       "2026-09-07": 4.784,
@@ -3179,7 +3179,7 @@
       "2026-09-15": 1063000,
       "2026-09-16": 1055000,
       "2026-09-17": 1097000,
-      "2026-09-18": 1098000
+      "2026-09-18": 1078000
     },
     "017670.KS": {
       "2026-09-07": 93800,
@@ -3386,8 +3386,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfATgeAR2gWwGSm947BA3\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfATgfBgRcGDA9adJtyU4\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfATgfpP1WsTjgBQj3jCx\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfAYJBzHSSazN8cFGz6ti\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfAYJD23nTjWnDVwkD6Kj\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfAYJDfz986z8MvkvzAVN\"}"
   ]
 }
