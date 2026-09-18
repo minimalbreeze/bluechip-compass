@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-18T09:52:06.694Z",
+  "asOf": "2026-09-18T10:53:08.929Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-18T06:32:50.000Z"
     },
     "KRW=X": {
-      "price": 1386.48,
+      "price": 1386.28,
       "prev": 1376.5999755859375,
-      "chg": 0.72,
+      "chg": 0.7,
       "prevDay": "2026-09-17",
       "basis": "prev-close-bar",
-      "time": "2026-09-18T09:51:55.000Z"
+      "time": "2026-09-18T10:52:59.000Z"
     },
     "^GSPC": {
       "price": 7637.76,
@@ -48,7 +48,7 @@
       "chg": -1.1,
       "prevDay": "2026-09-17",
       "basis": "prev-close-bar",
-      "time": "2026-09-18T09:36:46.000Z"
+      "time": "2026-09-18T10:37:46.000Z"
     },
     "^TNX": {
       "price": 4.947,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.22
+    "pct": 0.219
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -14.59
     },
     "KRW=X": {
-      "last": 1386.48,
+      "last": 1386.28,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.22,
-      "chg3m": -9.69
+      "pct52": 0.219,
+      "chg3m": -9.7
     },
     "^GSPC": {
       "last": 7637.76,
@@ -368,13 +368,13 @@
   "news": {
     "kr": [
       {
-        "title": "일본은행, 3개월만에 또 금리인상…1.25%로 31년만에 최고(종합2보)",
-        "link": "https://www.yna.co.kr/view/AKR20260918089052073",
+        "title": "키움증권, 창사 이후 첫 신종자본증권 발행…4천억원 규모",
+        "link": "https://www.yna.co.kr/view/AKR20260918180400008",
         "source": "연합뉴스",
-        "date": "Fri, 18 Sep 2026 17:33:55 +0900",
+        "date": "Fri, 18 Sep 2026 19:24:26 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -401,13 +401,13 @@
         "by": "rules"
       },
       {
-        "title": "코퍼스코리아 \"에피소드미디어 주식 40억원에 취득\"",
-        "link": "https://www.yna.co.kr/view/AKR20260918163600008",
+        "title": "케이비제34호·한국제17호 스팩, 22일 코스닥 신규 상장",
+        "link": "https://www.yna.co.kr/view/AKR20260918176600008",
         "source": "연합뉴스",
-        "date": "Fri, 18 Sep 2026 17:18:21 +0900",
+        "date": "Fri, 18 Sep 2026 19:07:15 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -448,23 +448,23 @@
         "by": "rules"
       },
       {
-        "title": "The 10-year Treasury is having its worst run in over 100 years. Why investors are buying bonds anyway.",
-        "link": "https://www.marketwatch.com/story/the-bond-market-is-seeing-trouble-why-investors-are-buying-now-anyway-065a2f9f?mod=mw_rss_topstories",
+        "title": "A sideways market and rising earnings are presenting opportunities not seen since ChatGPT first launched",
+        "link": "https://www.marketwatch.com/story/a-sideways-market-and-rising-earnings-are-presenting-opportunities-not-seen-since-chatgpt-first-launched-0c37f89d?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Thu, 17 Sep 2026 21:22:00 GMT",
-        "ko": "10 년 재무부는 100 년 넘게 최악의 실적을 기록하고 있습니다. 어쨌든 투자자들이 채권을 구매하는 이유.",
+        "date": "Fri, 18 Sep 2026 10:38:00 GMT",
+        "ko": "ChatGPT가 처음 출시된 이래로 볼 수 없었던 측면 시장과 수익 증가가 기회를 제공하고 있습니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "What a Fed rate hike means for your bank accounts, loans, credit cards, and investments",
-        "link": "https://finance.yahoo.com/personal-finance/banking/article/what-a-fed-rate-hike-means-for-your-bank-accounts-loans-credit-cards-and-investments-220526102.html",
+        "title": "A look at the federal funds rate over the past 50 years: How has it changed?",
+        "link": "https://finance.yahoo.com/personal-finance/banking/article/historical-fed-interest-rates-200947944.html",
         "source": "Yahoo Finance",
-        "date": "2024-12-17T22:05:26Z",
-        "ko": "연준 금리 인상이란 은행 계좌, 대출, 신용카드 및 투자에 미치는 영향",
+        "date": "2024-07-11T20:09:47Z",
+        "ko": "지난 50년 동안의 연방 기금 금리를 살펴보면 어떤 변화가 있었습니까?",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -484,23 +484,23 @@
         "by": "rules"
       },
       {
-        "title": "Micron, Intel and other chip stocks are furthering their strong comebacks",
-        "link": "https://www.marketwatch.com/story/micron-intel-and-other-chip-stocks-are-furthering-their-strong-comebacks-14b1ecac?mod=mw_rss_topstories",
+        "title": "The Fed’s never been so confident on economic growth. What investors should do now, according to KKR.",
+        "link": "https://www.marketwatch.com/story/the-feds-never-been-so-confident-on-economic-growth-what-investors-should-do-now-according-to-kkr-b2eef2ee?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Thu, 17 Sep 2026 21:22:00 GMT",
-        "ko": "마이크론, 인텔 및 기타 칩 주식은 강력한 컴백을 앞당기고 있습니다.",
+        "date": "Fri, 18 Sep 2026 10:08:00 GMT",
+        "ko": "미국 연방준비제도이사회 (Fed) 가 경제성장에 대해 이토록 자신감을 KKR에 따르면 투자자가 지금 해야 할 일.",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "How the Federal Reserve's rate hike impacts student loan interest rates",
-        "link": "https://finance.yahoo.com/personal-finance/student-loans/article/federal-reserve-student-loan-rates-223344566.html",
+        "title": "Mortgage rate predictions for the next five years: A new data-powered forecast through 2031",
+        "link": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-rate-predictions-for-the-next-five-years-a-new-data-powered-forecast-through-2031-195826935.html",
         "source": "Yahoo Finance",
-        "date": "2024-01-26T22:33:44Z",
-        "ko": "연방준비제도의 금리 인상이 학자금 대출 금리에 미치는 영향",
+        "date": "2025-08-18T19:58:26Z",
+        "ko": "향후 5년간의 주택담보대출 금리 예측: 2031년까지의 새로운 데이터 기반 예측",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -511,10 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "Wonder Deal, $240M Cash, and 31% Short Interest. A Short Squeeze Could Be Brewing in Serve Robotics Stock.": "원더 딜, $240M 캐시, 31% 단기 이자. 짧은 스퀴즈는 서브 로봇 스톡에서 양조될 수 있습니다.",
-    "Sonera Acquisition Bodes Well for Apple Stock in the Long Term, But Negative Catalysts Appear to Be Weighing on the Firm’s Performance": "Sonera 인수는 장기적으로 애플 주식에 좋은 영향을 미치지만, 부정적인 촉매는 회사의 실적에 무게를 두는 것으로 보입니다.",
-    "Nvidia (NVDA) Looks Cheap on Piper’s Forecasts, but the Earnings Assumptions Are the Real Test": "Nvidia (NVDA) 는 Piper의 예측에서 저렴해 보이지만 수입 가정이 실제 테스트입니다.",
-    "Oil Is $100, The 10-Year Is Near 5%. Why Doesn’t The Stock Market Care?": "석유는 $100이며, 10년은 5% 에 가깝습니다. 왜 주식 시장은 신경 쓰지 않습니까?",
     "I bond vs. high-yield savings account: Which is better for beating inflation?": "채권 대 고수익 저축 계좌: 인플레이션을 극복하는 데 더 좋은 것은 무엇입니까?",
     "Morgan Stanley joins Goldman Sachs in 11th-hour switch to forecasting a Fed hike": "모건 스탠리가 골드만삭스에 합류해 11시간 만에 연준의 하이킹을 예고하고 있다.",
     "Stock market today: Dow, S&P 500, Nasdaq futures retreat ahead of Fed meeting amid AI safety fears": "오늘의 주식 시장: 다우지수, S&P 500, 나스닥 선물은 AI 안전 우려 속에서 연준 회의를 앞두고 후퇴",
@@ -810,7 +806,11 @@
     "Instant View: Stocks pull back after Fed raises rates, points to another hike this year": "즉시 보기: Fed가 금리를 인상한 후 주식이 철수하여 올해 또 다른 상승을 기록했습니다.",
     "How Today’s Rate Hike Hits Credit-Card Debt, Savings Accounts": "오늘의 금리 인상이 신용카드 부채, 저축 계좌에 미치는 영향",
     "American Express Stock Is Up This Week. Here’s Why the Platinum Refresh Keeps Paying Off": "아메리칸 익스프레스 재고가 이번 주에 증가했습니다. Platinum Refresh가 계속 수익을 내는 이유",
-    "Fed policymakers forecast one more rate hike this year": "연방준비제도 (Fed) 정책 입안자들은 올해 한 차례 더 금리를 인상할 것으로 전망했다."
+    "Fed policymakers forecast one more rate hike this year": "연방준비제도 (Fed) 정책 입안자들은 올해 한 차례 더 금리를 인상할 것으로 전망했다.",
+    "A sideways market and rising earnings are presenting opportunities not seen since ChatGPT first launched": "ChatGPT가 처음 출시된 이래로 볼 수 없었던 측면 시장과 수익 증가가 기회를 제공하고 있습니다.",
+    "A look at the federal funds rate over the past 50 years: How has it changed?": "지난 50년 동안의 연방 기금 금리를 살펴보면 어떤 변화가 있었습니까?",
+    "The Fed’s never been so confident on economic growth. What investors should do now, according to KKR.": "미국 연방준비제도이사회 (Fed) 가 경제성장에 대해 이토록 자신감을 KKR에 따르면 투자자가 지금 해야 할 일.",
+    "Mortgage rate predictions for the next five years: A new data-powered forecast through 2031": "향후 5년간의 주택담보대출 금리 예측: 2031년까지의 새로운 데이터 기반 예측"
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -2955,7 +2955,7 @@
       "2026-09-15": 1362.68,
       "2026-09-16": 1376.95,
       "2026-09-17": 1379.98,
-      "2026-09-18": 1386.48
+      "2026-09-18": 1386.28
     },
     "^GSPC": {
       "2026-09-07": 7718.6,
@@ -3386,8 +3386,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfAhX1URVZDZ3wrkjoHjs\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfAhX2YB2qoLbQHYGQ822\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfAhX3ANsWzStK8Du78x7\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfAnAy1sFJ9763haTFuZy\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfAnAzF2vx61uGVdThXgB\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfAnAztUUJrozeyBkXsAD\"}"
   ]
 }
