@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-18T07:51:11.387Z",
+  "asOf": "2026-09-18T08:51:42.783Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-18T06:32:50.000Z"
     },
     "KRW=X": {
-      "price": 1383.57,
+      "price": 1385.29,
       "prev": 1376.5999755859375,
-      "chg": 0.51,
+      "chg": 0.63,
       "prevDay": "2026-09-17",
       "basis": "prev-close-bar",
-      "time": "2026-09-18T07:50:56.000Z"
+      "time": "2026-09-18T08:51:25.000Z"
     },
     "^GSPC": {
       "price": 7637.76,
@@ -43,12 +43,12 @@
       "time": "2026-09-17T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 15.05,
+      "price": 15.26,
       "prev": 15.4399995803833,
-      "chg": -2.53,
+      "chg": -1.17,
       "prevDay": "2026-09-17",
       "basis": "prev-close-bar",
-      "time": "2026-09-18T07:35:46.000Z"
+      "time": "2026-09-18T08:36:31.000Z"
     },
     "^TNX": {
       "price": 4.947,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.206
+    "pct": 0.214
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -14.59
     },
     "KRW=X": {
-      "last": 1383.57,
+      "last": 1385.29,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.206,
-      "chg3m": -9.88
+      "pct52": 0.214,
+      "chg3m": -9.77
     },
     "^GSPC": {
       "last": 7637.76,
@@ -101,11 +101,11 @@
       "chg3m": -0.38
     },
     "^VIX": {
-      "last": 15.05,
+      "last": 15.26,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.09,
-      "chg3m": -22.78
+      "pct52": 0.102,
+      "chg3m": -21.7
     },
     "^TNX": {
       "last": 4.95,
@@ -368,10 +368,21 @@
   "news": {
     "kr": [
       {
-        "title": "CG인바이츠 \"관계사 VISTA 주식 94억원어치 취득…지분율 43.7%\"",
-        "link": "https://www.yna.co.kr/view/AKR20260918142500008",
+        "title": "일본은행, 3개월만에 또 금리인상…1.25%로 31년만에 최고(종합2보)",
+        "link": "https://www.yna.co.kr/view/AKR20260918089052073",
         "source": "연합뉴스",
-        "date": "Fri, 18 Sep 2026 16:05:31 +0900",
+        "date": "Fri, 18 Sep 2026 17:33:55 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "\"AI에 필수\" 주문 폭주에…한 달 새 주가 48% '껑충'",
+        "link": "https://www.hankyung.com/article/202609183999i",
+        "source": "한국경제",
+        "date": "Fri, 18 Sep 2026 16:34:09 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -379,10 +390,32 @@
         "by": "rules"
       },
       {
-        "title": "세후수익률, 서울 부동산이 코스피의 2배...\"부동산 팔고 주식 사면 세제혜택 줘야\"",
-        "link": "https://www.hankyung.com/article/202609183981i",
+        "title": "이억원 “증시 장기자금 확충”…레버리지 관리·투자자 보호 재강조",
+        "link": "https://www.mk.co.kr/news/stock/12156653",
+        "source": "매일경제",
+        "date": "Fri, 18 Sep 2026 17:26:55 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "코퍼스코리아 \"에피소드미디어 주식 40억원에 취득\"",
+        "link": "https://www.yna.co.kr/view/AKR20260918163600008",
+        "source": "연합뉴스",
+        "date": "Fri, 18 Sep 2026 17:18:21 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "미·일 긴축에도 7천피 넘보는 코스피…\"2022년과는 다르다\"",
+        "link": "https://www.hankyung.com/article/202609184024i",
         "source": "한국경제",
-        "date": "Fri, 18 Sep 2026 15:46:58 +0900",
+        "date": "Fri, 18 Sep 2026 16:20:09 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -397,39 +430,6 @@
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "원/달러 환율, 1.1원 오른 1,383.3원…7거래일 연속 상승",
-        "link": "https://www.yna.co.kr/view/AKR20260918140100002",
-        "source": "연합뉴스",
-        "date": "Fri, 18 Sep 2026 16:05:19 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "코스피, 美·日 기준금리 인상 소화하며 2.6% 반등 마감",
-        "link": "https://www.hankyung.com/article/2026091841056",
-        "source": "한국경제",
-        "date": "Fri, 18 Sep 2026 15:41:50 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "삼성전자우 담고 SK하이닉스 차익실현 [주식 초고수는 지금]",
-        "link": "https://www.mk.co.kr/news/stock/12156555",
-        "source": "매일경제",
-        "date": "Fri, 18 Sep 2026 15:46:22 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -460,14 +460,14 @@
         "by": "rules"
       },
       {
-        "title": "Instant View: Stocks pull back after Fed raises rates, points to another hike this year",
-        "link": "https://finance.yahoo.com/economy/policy/articles/markets-steady-fed-raises-rates-182216095.html",
+        "title": "American Express Stock Is Up This Week. Here’s Why the Platinum Refresh Keeps Paying Off",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/american-express-stock-week-why-211915058.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-16T19:32:22Z",
-        "ko": "즉시 보기: Fed가 금리를 인상한 후 주식이 철수하여 올해 또 다른 상승을 기록했습니다.",
+        "date": "2026-09-16T21:19:15Z",
+        "ko": "아메리칸 익스프레스 재고가 이번 주에 증가했습니다. Platinum Refresh가 계속 수익을 내는 이유",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -496,11 +496,11 @@
         "by": "rules"
       },
       {
-        "title": "How Today’s Rate Hike Hits Credit-Card Debt, Savings Accounts",
-        "link": "https://www.wsj.com/livecoverage/fed-meeting-warsh-interest-rate-09-16-2026/card/how-today-s-rate-hike-hits-credit-card-debt-home-loans-savings-accounts-7YWSBnfOJKChDHHlB3JR?siteid=yhoof2&yptr=yahoo",
+        "title": "Fed policymakers forecast one more rate hike this year",
+        "link": "https://finance.yahoo.com/economy/policy/articles/fed-forecasts-see-latest-hike-180631717.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-16T19:32:18Z",
-        "ko": "오늘의 금리 인상이 신용카드 부채, 저축 계좌에 미치는 영향",
+        "date": "2026-09-16T21:11:32Z",
+        "ko": "연방준비제도 (Fed) 정책 입안자들은 올해 한 차례 더 금리를 인상할 것으로 전망했다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -511,8 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "Fed Decision, Retail Sales and Other Can't Miss Items This Week": "이번 주 연방준비제도 (Fed) 결정, 소매 판매 및 기타 놓칠 수 없는 품목",
-    "Dear SpaceX Stock Fans, Mark Your Calendars for September 21": "친애하는 SpaceX 스톡 팬 여러분, 9월 21일 달력에 표시하세요",
     "Wonder Deal, $240M Cash, and 31% Short Interest. A Short Squeeze Could Be Brewing in Serve Robotics Stock.": "원더 딜, $240M 캐시, 31% 단기 이자. 짧은 스퀴즈는 서브 로봇 스톡에서 양조될 수 있습니다.",
     "Sonera Acquisition Bodes Well for Apple Stock in the Long Term, But Negative Catalysts Appear to Be Weighing on the Firm’s Performance": "Sonera 인수는 장기적으로 애플 주식에 좋은 영향을 미치지만, 부정적인 촉매는 회사의 실적에 무게를 두는 것으로 보입니다.",
     "Nvidia (NVDA) Looks Cheap on Piper’s Forecasts, but the Earnings Assumptions Are the Real Test": "Nvidia (NVDA) 는 Piper의 예측에서 저렴해 보이지만 수입 가정이 실제 테스트입니다.",
@@ -810,7 +808,9 @@
     "Mining Stock Could Soon Unearth Another Record": "채굴 재고가 곧 또 다른 기록을 발굴할 수 있음",
     "Why Japan’s markets flipped the usual script after central bank rate hike": "중앙은행의 금리 인상 이후 일본 시장이 일반적인 대본을 뒤집은 이유",
     "Instant View: Stocks pull back after Fed raises rates, points to another hike this year": "즉시 보기: Fed가 금리를 인상한 후 주식이 철수하여 올해 또 다른 상승을 기록했습니다.",
-    "How Today’s Rate Hike Hits Credit-Card Debt, Savings Accounts": "오늘의 금리 인상이 신용카드 부채, 저축 계좌에 미치는 영향"
+    "How Today’s Rate Hike Hits Credit-Card Debt, Savings Accounts": "오늘의 금리 인상이 신용카드 부채, 저축 계좌에 미치는 영향",
+    "American Express Stock Is Up This Week. Here’s Why the Platinum Refresh Keeps Paying Off": "아메리칸 익스프레스 재고가 이번 주에 증가했습니다. Platinum Refresh가 계속 수익을 내는 이유",
+    "Fed policymakers forecast one more rate hike this year": "연방준비제도 (Fed) 정책 입안자들은 올해 한 차례 더 금리를 인상할 것으로 전망했다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -2955,7 +2955,7 @@
       "2026-09-15": 1362.68,
       "2026-09-16": 1376.95,
       "2026-09-17": 1379.98,
-      "2026-09-18": 1383.57
+      "2026-09-18": 1385.29
     },
     "^GSPC": {
       "2026-09-07": 7718.6,
@@ -2997,7 +2997,7 @@
       "2026-09-15": 17.2,
       "2026-09-16": 17.71,
       "2026-09-17": 15.44,
-      "2026-09-18": 15.05
+      "2026-09-18": 15.26
     },
     "^TNX": {
       "2026-09-07": 4.784,
@@ -3386,8 +3386,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfAYJBzHSSazN8cFGz6ti\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfAYJD23nTjWnDVwkD6Kj\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfAYJDfz986z8MvkvzAVN\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfAcusaxyyq1pGov299e4\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfAcuthCNPTsLj4uL8yK5\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfAcuuRMVZdvXbxJXvmew\"}"
   ]
 }
