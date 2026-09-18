@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-18T11:53:41.795Z",
+  "asOf": "2026-09-18T12:54:09.341Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-18T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1387.45,
+      "price": 1387.7,
       "prev": 1376.5999755859375,
-      "chg": 0.79,
+      "chg": 0.81,
       "prevDay": "2026-09-17",
       "basis": "prev-close-bar",
-      "time": "2026-09-18T11:53:20.000Z"
+      "time": "2026-09-18T12:53:59.000Z"
     },
     "^GSPC": {
       "price": 7637.76,
@@ -43,26 +43,26 @@
       "time": "2026-09-17T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 15.32,
+      "price": 15.52,
       "prev": 15.4399995803833,
-      "chg": -0.78,
+      "chg": 0.52,
       "prevDay": "2026-09-17",
       "basis": "prev-close-bar",
-      "time": "2026-09-18T11:38:16.000Z"
+      "time": "2026-09-18T12:38:46.000Z"
     },
     "^TNX": {
-      "price": 4.947,
+      "price": 4.976,
       "prev": 4.947000026702881,
-      "chg": 0,
+      "chg": 0.59,
       "prevDay": "2026-09-17",
       "basis": "prev-close-bar",
-      "time": "2026-09-17T18:59:54.000Z"
+      "time": "2026-09-18T12:38:54.000Z"
     }
   },
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.224
+    "pct": 0.225
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -14.59
     },
     "KRW=X": {
-      "last": 1387.45,
+      "last": 1387.7,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.224,
-      "chg3m": -9.63
+      "pct52": 0.225,
+      "chg3m": -9.61
     },
     "^GSPC": {
       "last": 7637.76,
@@ -101,18 +101,18 @@
       "chg3m": -0.38
     },
     "^VIX": {
-      "last": 15.32,
+      "last": 15.52,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.105,
-      "chg3m": -21.4
+      "pct52": 0.117,
+      "chg3m": -20.37
     },
     "^TNX": {
-      "last": 4.95,
+      "last": 4.98,
       "low52": 3.95,
       "high52": 5.01,
-      "pct52": 0.944,
-      "chg3m": 11.14
+      "pct52": 0.972,
+      "chg3m": 10.36
     }
   },
   "regime": {
@@ -379,6 +379,39 @@
         "by": "rules"
       },
       {
+        "title": "\"주식할 돈으로 서울에 집 사랬잖아\"…20년 수익률 어떻길래",
+        "link": "https://www.hankyung.com/article/2026091844941",
+        "source": "한국경제",
+        "date": "Fri, 18 Sep 2026 21:00:05 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "“언제부터 반도체 회사였지?”…3조 넘게 쏟아붓고 랠리 합류한 이 그룹",
+        "link": "https://www.mk.co.kr/news/stock/12156848",
+        "source": "매일경제",
+        "date": "Fri, 18 Sep 2026 21:27:45 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "케이비제34호·한국제17호 스팩, 22일 코스닥 신규 상장",
+        "link": "https://www.yna.co.kr/view/AKR20260918176600008",
+        "source": "연합뉴스",
+        "date": "Fri, 18 Sep 2026 19:07:15 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
         "title": "긴축·AI 공포 이겨낸 증시…다음주에는 이 둘의 만남이 기다린다 [다음주 주요 변수 미리보기]",
         "link": "https://www.hankyung.com/article/202609184415i",
         "source": "한국경제",
@@ -399,39 +432,6 @@
         "scope": null,
         "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
         "by": "rules"
-      },
-      {
-        "title": "케이비제34호·한국제17호 스팩, 22일 코스닥 신규 상장",
-        "link": "https://www.yna.co.kr/view/AKR20260918176600008",
-        "source": "연합뉴스",
-        "date": "Fri, 18 Sep 2026 19:07:15 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "KB證, 외화채권 발행 주관액 고공행진",
-        "link": "https://www.hankyung.com/article/2026091844951",
-        "source": "한국경제",
-        "date": "Fri, 18 Sep 2026 17:59:53 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "제넨셀 임상계획 승인에 낚였던 개미들…닷새간 689억 순매수",
-        "link": "https://www.mk.co.kr/news/stock/12156762",
-        "source": "매일경제",
-        "date": "Fri, 18 Sep 2026 18:11:23 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
       }
     ],
     "us": [
@@ -448,23 +448,23 @@
         "by": "rules"
       },
       {
-        "title": "Wall Street is betting Trump backs down on Iran — but what if the ‘TACO’ trade fails this time?",
-        "link": "https://www.marketwatch.com/story/wall-street-is-betting-trump-backs-down-on-iran-but-what-if-the-taco-trade-fails-this-time-53845c77?mod=mw_rss_topstories",
+        "title": "Why mortgage bonds are set to deteriorate, and possibly hit the whole market, according to this Wall Street expert",
+        "link": "https://www.marketwatch.com/story/why-mortgage-bonds-are-set-to-deteriorate-and-possibly-hit-the-whole-market-according-to-this-wall-street-expert-0dd7f05d?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Fri, 18 Sep 2026 11:51:00 GMT",
-        "ko": "월스트리트는 트럼프가 이란에 반발한다고 내기를 걸고 있지만, 이번에는 ‘타코’ 거래가 실패하면 어떨까요?",
+        "date": "Fri, 18 Sep 2026 12:40:00 GMT",
+        "ko": "이 월스트리트 전문가에 따르면 모기지 채권이 악화되고 전체 시장을 강타할 가능성이 있는 이유",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "Musk’s long-time backer is giving SpaceX stock to its investors",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/musk-long-time-backer-giving-235007872.html",
+        "title": "ICU Medical CFO Brian Bonnell Sells 9,307 Shares",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/icu-medical-cfo-brian-bonnell-005001152.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-16T23:50:07Z",
-        "ko": "Musk의 오랜 후원자는 투자자들에게 SpaceX 주식을 주고 있습니다.",
+        "date": "2026-09-17T00:50:01Z",
+        "ko": "ICU Medical CFO Brian Bonnell, 9,307주 매각",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -484,11 +484,11 @@
         "by": "rules"
       },
       {
-        "title": "The 10-year Treasury is having its worst run in over 100 years. Why investors are buying bonds anyway.",
-        "link": "https://www.marketwatch.com/story/the-bond-market-is-seeing-trouble-why-investors-are-buying-now-anyway-065a2f9f?mod=mw_rss_topstories",
+        "title": "Wall Street is betting Trump backs down on Iran — but what if the ‘TACO’ trade fails this time?",
+        "link": "https://www.marketwatch.com/story/wall-street-is-betting-trump-backs-down-on-iran-but-what-if-the-taco-trade-fails-this-time-53845c77?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Fri, 18 Sep 2026 11:50:00 GMT",
-        "ko": "10 년 재무부는 100 년 넘게 최악의 실적을 기록하고 있습니다. 어쨌든 투자자들이 채권을 구매하는 이유.",
+        "date": "Fri, 18 Sep 2026 11:51:00 GMT",
+        "ko": "월스트리트는 트럼프가 이란에 반발한다고 내기를 걸고 있지만, 이번에는 ‘타코’ 거래가 실패하면 어떨까요?",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -496,14 +496,14 @@
         "by": "rules"
       },
       {
-        "title": "A look at the federal funds rate over the past 50 years: How has it changed?",
-        "link": "https://finance.yahoo.com/personal-finance/banking/article/historical-fed-interest-rates-200947944.html",
+        "title": "Is It Too Early To Buy Marvell Stock After Its Three-Month Fall?",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/too-early-buy-marvell-stock-005158674.html",
         "source": "Yahoo Finance",
-        "date": "2024-07-11T20:09:47Z",
-        "ko": "지난 50년 동안의 연방 기금 금리를 살펴보면 어떤 변화가 있었습니까?",
+        "date": "2026-09-17T00:51:58Z",
+        "ko": "3개월이 지난 후 Marvell 주식을 사기에는 너무 이른가요?",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -511,9 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "Stock market today: Dow, S&P 500, Nasdaq futures retreat ahead of Fed meeting amid AI safety fears": "오늘의 주식 시장: 다우지수, S&P 500, 나스닥 선물은 AI 안전 우려 속에서 연준 회의를 앞두고 후퇴",
-    "Here’s the best way to invest in bonds for the long term, according to these five-star portfolio managers": "이 5성급 포트폴리오 매니저에 따르면 장기적으로 채권에 투자하는 가장 좋은 방법은 다음과 같습니다.",
-    "Moody's Mark Zandi warns of a 'serious' mistake if the Fed hikes rates as Wall Street expects a quarter-point increase": "무디스 마크 잔디 (Moody's Mark Zandi) 는 월스트리트가 분기점 인상을 예상함에 따라 연준이 금리를 인상하면 '심각한' 실수를 경고한다.",
     "Morgan Stanley Direct Lending (MSDL) Holds Its Dividend As Profits Slip": "Morgan Stanley Direct Lending (MSDL) 은 이익이 미끄러짐에 따라 배당금을 보유합니다.",
     "Traditional bond investors have lost money for years. These five-star portfolio managers show a better way.": "전통적인 채권 투자자들은 수년간 돈을 잃었습니다. 이 5성급 포트폴리오 관리자는 더 나은 방법을 보여줍니다.",
     "Bitcoin and ethereum prices today, Tuesday, September 15, 2026: Crypto prices sliding this morning ahead of Fed meeting": "2026년 9월 15일 화요일, 오늘 비트코인과 이더리움 가격: 연준 회의를 앞두고 오늘 아침 암호화폐 가격이 하락하고 있습니다",
@@ -810,7 +807,10 @@
     "The Fed’s never been so confident on economic growth. What investors should do now, according to KKR.": "미국 연방준비제도이사회 (Fed) 가 경제성장에 대해 이토록 자신감을 KKR에 따르면 투자자가 지금 해야 할 일.",
     "Mortgage rate predictions for the next five years: A new data-powered forecast through 2031": "향후 5년간의 주택담보대출 금리 예측: 2031년까지의 새로운 데이터 기반 예측",
     "Wall Street is betting Trump backs down on Iran — but what if the ‘TACO’ trade fails this time?": "월스트리트는 트럼프가 이란에 반발한다고 내기를 걸고 있지만, 이번에는 ‘타코’ 거래가 실패하면 어떨까요?",
-    "Musk’s long-time backer is giving SpaceX stock to its investors": "Musk의 오랜 후원자는 투자자들에게 SpaceX 주식을 주고 있습니다."
+    "Musk’s long-time backer is giving SpaceX stock to its investors": "Musk의 오랜 후원자는 투자자들에게 SpaceX 주식을 주고 있습니다.",
+    "Why mortgage bonds are set to deteriorate, and possibly hit the whole market, according to this Wall Street expert": "이 월스트리트 전문가에 따르면 모기지 채권이 악화되고 전체 시장을 강타할 가능성이 있는 이유",
+    "ICU Medical CFO Brian Bonnell Sells 9,307 Shares": "ICU Medical CFO Brian Bonnell, 9,307주 매각",
+    "Is It Too Early To Buy Marvell Stock After Its Three-Month Fall?": "3개월이 지난 후 Marvell 주식을 사기에는 너무 이른가요?"
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -2955,7 +2955,7 @@
       "2026-09-15": 1362.68,
       "2026-09-16": 1376.95,
       "2026-09-17": 1379.98,
-      "2026-09-18": 1387.45
+      "2026-09-18": 1387.7
     },
     "^GSPC": {
       "2026-09-07": 7718.6,
@@ -2997,7 +2997,7 @@
       "2026-09-15": 17.2,
       "2026-09-16": 17.71,
       "2026-09-17": 15.44,
-      "2026-09-18": 15.32
+      "2026-09-18": 15.52
     },
     "^TNX": {
       "2026-09-07": 4.784,
@@ -3011,7 +3011,7 @@
       "2026-09-15": 4.996,
       "2026-09-16": 5.006,
       "2026-09-17": 4.947,
-      "2026-09-18": 4.947
+      "2026-09-18": 4.976
     },
     "105560.KS": {
       "2026-09-07": 175900,
@@ -3386,8 +3386,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfArnmRpVnHap4EV8wZdX\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfArnnRM94yTH1rviREHv\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfArnnwc6FP11dh8JSnpb\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfAwQAULytS3XdVBSbSDF\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfAwQBYbHKa9vViwTqWMt\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfAwQCNCTgbGEKreQd3Ee\"}"
   ]
 }
