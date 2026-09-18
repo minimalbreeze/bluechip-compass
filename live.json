@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-17T23:02:45.172Z",
+  "asOf": "2026-09-18T00:02:10.564Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-17T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1380.45,
+      "price": 1381.58,
       "prev": 1376.5999755859375,
-      "chg": 0.28,
+      "chg": 0.36,
       "prevDay": "2026-09-17",
       "basis": "prev-close-bar",
-      "time": "2026-09-17T23:02:35.000Z"
+      "time": "2026-09-18T00:01:52.000Z"
     },
     "^GSPC": {
       "price": 7637.76,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.192
+    "pct": 0.197
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -18.48
     },
     "KRW=X": {
-      "last": 1380.45,
+      "last": 1381.58,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.192,
-      "chg3m": -10.08
+      "pct52": 0.197,
+      "chg3m": -10.01
     },
     "^GSPC": {
       "last": 7637.76,
@@ -368,10 +368,10 @@
   "news": {
     "kr": [
       {
-        "title": "8월 외국인 국내 주식 3천440억 순매수…올해 처음으로 '사자'",
-        "link": "https://www.yna.co.kr/view/AKR20260917188900002",
+        "title": "KB증권, 컴투스 목표주가↑…\"12년만 신작 흥행\"",
+        "link": "https://www.yna.co.kr/view/AKR20260918023100008",
         "source": "연합뉴스",
-        "date": "Fri, 18 Sep 2026 06:00:00 +0900",
+        "date": "Fri, 18 Sep 2026 08:45:57 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -379,10 +379,21 @@
         "by": "rules"
       },
       {
-        "title": "'금리 충격' 딛고 주요 지수 일제히 반등…나스닥 1.69%↑ [뉴욕증시 브리핑]",
-        "link": "https://www.hankyung.com/article/2026091825586",
+        "title": "증시 조정에…ETF 거래대금도 석달새 반토막 이하로",
+        "link": "https://www.hankyung.com/article/2026091827507",
         "source": "한국경제",
-        "date": "Fri, 18 Sep 2026 07:08:52 +0900",
+        "date": "Fri, 18 Sep 2026 08:25:02 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "“외국인 코스피 사고, 코스닥 팔았다”…국내주식 올해 첫 ‘순매수’",
+        "link": "https://www.mk.co.kr/news/economy/12156066",
+        "source": "매일경제",
+        "date": "Fri, 18 Sep 2026 08:48:41 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -390,46 +401,35 @@
         "by": "rules"
       },
       {
-        "title": "“삼성전기, 업황은 신고가인데 주가 저평가…저가 매수 기회”",
+        "title": "IBK증권 \"미국채 5% 부담 현실화…AI 투자·사모신용 위험 주시\"",
+        "link": "https://www.yna.co.kr/view/AKR20260918026500008",
+        "source": "연합뉴스",
+        "date": "Fri, 18 Sep 2026 08:43:57 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "\"금융주, 원화 강세 시기에 돋보여…3분기 실적시즌서 주목\"",
+        "link": "https://www.hankyung.com/article/2026091826266",
+        "source": "한국경제",
+        "date": "Fri, 18 Sep 2026 08:08:53 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "“주가 41% 빠졌지만 실적은 역대 최대”…삼성전기, 저가 매수 기회라는데",
         "link": "https://www.mk.co.kr/news/stock/12156045",
         "source": "매일경제",
         "date": "Fri, 18 Sep 2026 07:51:11 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "영국 금리 동결했지만…BOE 총재 \"금리 인상 가능성\" 시사(종합)",
-        "link": "https://www.yna.co.kr/view/AKR20260917195852085",
-        "source": "연합뉴스",
-        "date": "Thu, 17 Sep 2026 21:29:02 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "\"이제 살 때 됐나\"…외국인, 8개월 만에 K주식 3400억 쓸어담아",
-        "link": "https://www.hankyung.com/article/2026091716686",
-        "source": "한국경제",
-        "date": "Fri, 18 Sep 2026 06:00:08 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "금리인상 직후 다시 반도체 랠리... 숨은 공신은 이것이었다",
-        "link": "https://www.mk.co.kr/news/stock/12156041",
-        "source": "매일경제",
-        "date": "Fri, 18 Sep 2026 07:37:37 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -496,14 +496,14 @@
         "by": "rules"
       },
       {
-        "title": "Stocks Hold Gains After Fed Hikes Key Rate",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/stocks-hold-gains-fed-hikes-151838478.html",
+        "title": "ORCL Stock Layoffs: What to Know About the Latest Oracle Job Cuts",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/orcl-stock-layoffs-know-latest-163322999.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-16T15:18:38Z",
-        "ko": "연준의 주요 금리 인상 후 주식 보유 이익",
+        "date": "2026-09-16T16:33:22Z",
+        "ko": "ORCL 재고 정리 해고: 최신 오라클 작업 삭감에 대해 알아야 할 사항",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -511,7 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "AI warnings by Anthropic CEO Dario Amodei and OpenAI CEO Sam Altman could hammer this momentum stock": "Anthropic CEO 인 Dario Amodei와 OpenAI CEO 인 Sam Altman의 AI 경고는이 모멘텀 재고를 망칠 수 있습니다.",
     "Chase Home Loans' mortgage rate sale returns for a 3-week run": "Chase Home Loans의 주택담보대출금리 매각수익률 3주 연속",
     "Micron, Nvidia and other chip stocks fall after tech leaders call for an AI slowdown. Here’s what to know.": "Micron, Nvidia 및 기타 칩 주식은 기술 리더가 AI 둔화를 요구한 후 하락합니다. 알아두어야 할 사항은 다음과 같습니다.",
     "Definium, Up 190% This Year, Succeeds Again With Synthetic LSD; Shares Fly": "올해 190% 증가한 Definium, 합성 LSD로 다시 성공; 주식 날리기",
@@ -810,7 +809,8 @@
     "The bond market is having a historically bad run. Why investors are buying now anyway.": "채권 시장은 역사적으로 좋지 않은 흐름을 보이고 있습니다. 어쨌든 투자자들이 지금 구매하는 이유.",
     "Is State Street Corporation Stock Outperforming the S&P 500?": "스테이트 스트리트 코퍼레이션 주식이 S&P 500을 능가하나요?",
     "The 10-year Treasury is having its worst run in over 100 years. Why investors are buying bonds anyway.": "10 년 재무부는 100 년 넘게 최악의 실적을 기록하고 있습니다. 어쨌든 투자자들이 채권을 구매하는 이유.",
-    "Stocks Hold Gains After Fed Hikes Key Rate": "연준의 주요 금리 인상 후 주식 보유 이익"
+    "Stocks Hold Gains After Fed Hikes Key Rate": "연준의 주요 금리 인상 후 주식 보유 이익",
+    "ORCL Stock Layoffs: What to Know About the Latest Oracle Job Cuts": "ORCL 재고 정리 해고: 최신 오라클 작업 삭감에 대해 알아야 할 사항"
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -2955,7 +2955,7 @@
       "2026-09-15": 1362.68,
       "2026-09-16": 1376.95,
       "2026-09-17": 1379.98,
-      "2026-09-18": 1380.45
+      "2026-09-18": 1381.58
     },
     "^GSPC": {
       "2026-09-06": 7718.6,
@@ -3386,8 +3386,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf9qzzGx56ug5HFW3Cbht\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf9r117oem6iSnomUCxKn\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf9r11kzfN89zMEkDbn7N\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf9vXouCApwMBHJtUvnmT\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf9vXpk3WaJchCKQvDch4\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cf9vXqZQmGEqZ5Es3ApYV\"}"
   ]
 }
