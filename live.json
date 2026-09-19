@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-19T08:50:46.619Z",
+  "asOf": "2026-09-19T09:51:11.082Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -460,14 +460,14 @@
         "by": "rules"
       },
       {
-        "title": "Sandisk Unveiled an $14 Billion Buyback and Warren Buffett Has Something to Say About It",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/sandisk-unveiled-14-billion-buyback-042000962.html",
+        "title": "Is Marsh & McLennan Stock Underperforming the S&P 500?",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/marsh-mclennan-stock-underperforming-p-063453524.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-18T04:20:00Z",
-        "ko": "샌디스크는 $140억의 바이백을 공개했고 워렌 버핏은 그것에 대해 할 말이 있습니다",
+        "date": "2026-09-18T06:34:53Z",
+        "ko": "Marsh & McLennan Stock의 S&P 500 실적이 저조한가요?",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -496,14 +496,14 @@
         "by": "rules"
       },
       {
-        "title": "RB Global’s (RBA) Earnings Jump While Its Take Rate Shrinks",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/rb-global-rba-earnings-jump-042115694.html",
+        "title": "Is Tyson Foods Stock Underperforming the Nasdaq?",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/tyson-foods-stock-underperforming-nasdaq-070706294.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-18T04:21:15Z",
-        "ko": "RB Global (RBA) 의 수익 점프 (Jump) 는 테이크 레이트 (Take Rate) 가 축소되는 동안",
+        "date": "2026-09-18T07:07:06Z",
+        "ko": "Tyson Foods 주가가 나스닥에서 저조한 실적을 기록하고 있습니까?",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -511,8 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "Diesel Just Passed $6 a Gallon for the First Time Ever. Bond Investors Should Be Paying Attention.": "디젤은 사상 처음으로 갤런당 $6를 통과했습니다. 채권 투자자는 주의를 기울여야 합니다.",
-    "Stocks Slump on AI Slowdown Fears and Rising Bond Yields and Crude Prices": "AI에 대한 주식 부진 둔화 공포와 채권 수익률 및 원유 가격 상승",
     "How Cloud Infrastructure Strategy Can Keep Taking Oracle Stock Even Higher": "클라우드 인프라 전략이 오라클 주식을 계속 더 높게 가져갈 수 있는 방법",
     "How Is Tractor Supply's Stock Performance Compared to Other Specialty Retail Stocks?": "트랙터 공급의 재고 실적은 다른 특수 소매 주식과 어떻게 비교됩니까?",
     "10-Year Treasury Yield Just Passed 5%, Here’s What Happened To The Market When The Same Thing Happened In 2007": "10년 국채 수익률이 5% 를 방금 넘겼습니다. 2007년 같은 일이 일어났을 때 시장에 일어난 일은 다음과 같습니다.",
@@ -810,7 +808,9 @@
     "Why Enova International Stock Was Plummeting This Week": "에노바 인터내셔널 주식이 이번 주 급락한 이유",
     "Wall Street drifts lower as bond yields rise and oil prices swing": "월스트리트는 채권 수익률이 상승하고 유가가 상승함에 따라 더 낮아집니다.",
     "Sandisk Unveiled an $14 Billion Buyback and Warren Buffett Has Something to Say About It": "샌디스크는 $140억의 바이백을 공개했고 워렌 버핏은 그것에 대해 할 말이 있습니다",
-    "RB Global’s (RBA) Earnings Jump While Its Take Rate Shrinks": "RB Global (RBA) 의 수익 점프 (Jump) 는 테이크 레이트 (Take Rate) 가 축소되는 동안"
+    "RB Global’s (RBA) Earnings Jump While Its Take Rate Shrinks": "RB Global (RBA) 의 수익 점프 (Jump) 는 테이크 레이트 (Take Rate) 가 축소되는 동안",
+    "Is Marsh & McLennan Stock Underperforming the S&P 500?": "Marsh & McLennan Stock의 S&P 500 실적이 저조한가요?",
+    "Is Tyson Foods Stock Underperforming the Nasdaq?": "Tyson Foods 주가가 나스닥에서 저조한 실적을 기록하고 있습니까?"
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -3386,8 +3386,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfCWeekwEkNgjp7CmmBXH\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfCWefsAVy1WRevxM6yyk\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfCWegV7ksUXkLZmLNH8A\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfCbFpaEGWht3Gc6RjRrx\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfCbFqigqYuw8XxMvdKAL\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfCbFrcWkNKwADgqBH8A5\"}"
   ]
 }
