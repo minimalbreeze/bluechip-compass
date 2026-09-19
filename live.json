@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-19T20:58:00.438Z",
+  "asOf": "2026-09-19T21:58:24.009Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -368,13 +368,13 @@
   "news": {
     "kr": [
       {
-        "title": "반도체 제조업 일자리 8년새 15% 늘었지만…신규채용은 22%↓",
-        "link": "https://www.yna.co.kr/view/AKR20260919046000002",
+        "title": "유가 완화돼도 채권시장 단기금리 상승 부담 여전",
+        "link": "https://www.yna.co.kr/view/AKR20260919022200008",
         "source": "연합뉴스",
-        "date": "Sun, 20 Sep 2026 05:47:00 +0900",
+        "date": "Sun, 20 Sep 2026 06:30:01 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -401,13 +401,13 @@
         "by": "rules"
       },
       {
-        "title": "고금리에 깊어진 양극화…저신용 자영업 연체율 5년새 4∼5배로",
-        "link": "https://www.yna.co.kr/view/AKR20260919036700002",
+        "title": "외국인이 받은 육아휴직 급여 1년새 2배로…지난해 364억원 지급",
+        "link": "https://www.yna.co.kr/view/AKR20260918144200530",
         "source": "연합뉴스",
-        "date": "Sun, 20 Sep 2026 05:45:01 +0900",
+        "date": "Sun, 20 Sep 2026 06:05:02 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -3386,7 +3386,8 @@
     }
   },
   "failed": [
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfDU76imL8fX1C6vX6QbV\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfDU77kHX3tqfNtcqjVH5\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfDYiD2im74nEnFXnQSCS\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfDYiDdSUTMs2sZsS1ni1\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfDYiE5UKR9xzaj9ED1SA\"}"
   ]
 }
