@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-20T15:15:01.460Z",
+  "asOf": "2026-09-20T16:00:18.388Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -460,14 +460,14 @@
         "by": "rules"
       },
       {
-        "title": "Is Best Buy Stock Outperforming the Dow?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/best-buy-stock-outperforming-dow-132723594.html",
+        "title": "Morgan Stanley Sees More Fuel for Valero’s (VLO) Rally",
+        "link": "https://finance.yahoo.com/energy/articles/morgan-stanley-sees-more-fuel-153825351.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-19T13:27:23Z",
-        "ko": "베스트 바이 주식이 다우지수를 능가하는가?",
+        "date": "2026-09-20T15:38:25Z",
+        "ko": "모건 스탠리는 발레로 (VLO) 랠리에 더 많은 연료를 공급합니다",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -484,14 +484,14 @@
         "by": "rules"
       },
       {
-        "title": "The Bond Market is Back. Here’s What TLT Bagholders Need to Know.",
-        "link": "https://finance.yahoo.com/markets/options/articles/bond-market-back-tlt-bagholders-131502737.html",
+        "title": "Joby Aviation Stock Is Down 54% This Year. Here's Why I'd Buy It Before 2027.",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/joby-aviation-stock-down-54-153500236.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-19T13:15:02Z",
-        "ko": "채권 시장이 돌아왔습니다. TLT 가방 소지자가 알아야 할 사항은 다음과 같습니다.",
+        "date": "2026-09-20T15:35:00Z",
+        "ko": "Joby Aviation의 재고는 올해 54% 감소했습니다. 2027년 이전에 구매하는 이유는 다음과 같습니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -511,8 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "Stock Market Today: Nasdaq, S&P 500 Up Ahead Of Likely Fed Rate Increase; AI Leader Dell Jams (Live Coverage)": "오늘의 주식 시장: 나스닥, S&P 500, 연준 금리 인상 가능성 앞당겨; AI 리더 델 잼스 (라이브 커버리지)",
-    "Billionaire Ray Dalio’s Bridgewater’s 2 Non-AI Stock Picks": "Billionaire Ray Dalio's Bridgewater's 2 Non-AI Stock Picks",
     "Billionaire Ray Dalio’s Bridgewater’s and Cathie Wood’s ARK Portfolios: 2 Stocks They Both Own": "억만장자 Ray Dalio의 Bridgewater 's와 Cathie Wood's ARK 포트폴리오: 둘 다 소유하고 있는 2가지 주식",
     "Brad Gerstner Says Latest ‘Negativity’ Around AI is ‘Political Agenda’; See His 2 New AI Stock Picks": "브래드 거스트너 (Brad Gerstner) 는 인공지능을 둘러싼 최신의 ‘부정성‘ 은 ‘정치적 의제’ 라고 말합니다. 그의 새로운 인공지능 주식 추천 2가지 보기",
     "SandiskCorp. (SNDK): AI Boom Fuels Attractive Storage Market Opportunity": "SandiskCorp. (SNDK): AI 붐 연료 매력적인 스토리지 시장 기회",
@@ -810,7 +808,9 @@
     "Stock Market Week Ahead: Keeping An Eye Out For Change": "주식 시장 주간을 앞두고: 변화를 주시하기",
     "Meta Stock Could Hit $800 This Year -- And It All Begins on Sept. 23": "올해 메타 스톡이 $800에 도달할 수 있으며 모두 9월 23일에 시작됩니다.",
     "Is Best Buy Stock Outperforming the Dow?": "베스트 바이 주식이 다우지수를 능가하는가?",
-    "The Bond Market is Back. Here’s What TLT Bagholders Need to Know.": "채권 시장이 돌아왔습니다. TLT 가방 소지자가 알아야 할 사항은 다음과 같습니다."
+    "The Bond Market is Back. Here’s What TLT Bagholders Need to Know.": "채권 시장이 돌아왔습니다. TLT 가방 소지자가 알아야 할 사항은 다음과 같습니다.",
+    "Morgan Stanley Sees More Fuel for Valero’s (VLO) Rally": "모건 스탠리는 발레로 (VLO) 랠리에 더 많은 연료를 공급합니다",
+    "Joby Aviation Stock Is Down 54% This Year. Here's Why I'd Buy It Before 2027.": "Joby Aviation의 재고는 올해 54% 감소했습니다. 2027년 이전에 구매하는 이유는 다음과 같습니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -3386,8 +3386,7 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfEum3PpHWUG9Mrm7Ktgh\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfEum4MrspnpxuK6h78Mb\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfEum4ubnxnsJi7rnFrHm\"}"
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfEyDKhfpgRsTVtUdek8w\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfEyDLfTrxYJ6Wf5xmkTS\"}"
   ]
 }
