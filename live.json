@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-20T22:02:56.029Z",
+  "asOf": "2026-09-20T23:03:19.949Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-18T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1384.6,
-      "prev": 1385,
-      "chg": -0.03,
-      "prevDay": "2026-09-19",
+      "price": 1385.52,
+      "prev": 1384.6,
+      "chg": 0.07,
+      "prevDay": "2026-09-20",
       "basis": "prev-close-memo",
-      "time": "2026-09-20T21:33:24.000Z"
+      "time": "2026-09-20T23:03:09.000Z"
     },
     "^GSPC": {
       "price": 7650.5,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.211
+    "pct": 0.215
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -14.59
     },
     "KRW=X": {
-      "last": 1384.6,
+      "last": 1385.52,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.211,
-      "chg3m": -10.25
+      "pct52": 0.215,
+      "chg3m": -10.19
     },
     "^GSPC": {
       "last": 7650.5,
@@ -368,6 +368,39 @@
   "news": {
     "kr": [
       {
+        "title": "[마켓뷰] 코스피, 추석연휴 전후 '전강후약' 반복되나",
+        "link": "https://www.yna.co.kr/view/AKR20260921011700008",
+        "source": "연합뉴스",
+        "date": "Mon, 21 Sep 2026 07:47:59 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "주식 대신 '이것' 담아 연 8% 수익…VVIP들의 방어투자법",
+        "link": "https://www.hankyung.com/article/202608289296i",
+        "source": "한국경제",
+        "date": "Mon, 21 Sep 2026 07:29:08 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "“코스맥스, 쇼핑 시즌 앞두고 주가 상승 준비 완료”…목표가↑",
+        "link": "https://www.mk.co.kr/news/stock/12157734",
+        "source": "매일경제",
+        "date": "Mon, 21 Sep 2026 08:00:01 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
         "title": "경제인협회 \"반도체 공장 가동 앞두고 도로·용수 아직\"",
         "link": "https://www.yna.co.kr/view/AKR20260920032500003",
         "source": "연합뉴스",
@@ -379,7 +412,7 @@
         "by": "rules"
       },
       {
-        "title": "\"원화 강세일 때 좋다더니\"…외국인은 미리 담았네 [종목+]",
+        "title": "삼전닉스 '8조' 팔아치운 외국인 몰려간 곳이…'파격 전망' [종목+]",
         "link": "https://www.hankyung.com/article/2026091837776",
         "source": "한국경제",
         "date": "Mon, 21 Sep 2026 06:30:01 +0900",
@@ -398,39 +431,6 @@
         "lasting": "structural",
         "scope": null,
         "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
-        "by": "rules"
-      },
-      {
-        "title": "\"'급여' 표시 안 하면 금리감면 못 받아\"…금감원, 소비자 당부",
-        "link": "https://www.yna.co.kr/view/AKR20260920043800002",
-        "source": "연합뉴스",
-        "date": "Mon, 21 Sep 2026 06:00:05 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "반도체 소부장의 시간…코스닥 시총 톱10 중 절반 차지",
-        "link": "https://www.hankyung.com/article/2026092062901",
-        "source": "한국경제",
-        "date": "Sun, 20 Sep 2026 18:20:40 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "삼전 30조 배당 코앞 … 건보료 부담도 덜었다",
-        "link": "https://www.mk.co.kr/news/stock/12157616",
-        "source": "매일경제",
-        "date": "Sun, 20 Sep 2026 17:49:55 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
     ],
@@ -460,14 +460,14 @@
         "by": "rules"
       },
       {
-        "title": "Amazon (AMZN) Taps the UK Bond Market for the First Time to Help Fund its AI Buildout",
-        "link": "https://finance.yahoo.com/technology/ai/articles/amazon-amzn-taps-uk-bond-212711015.html",
+        "title": "Dow Jones Futures Rise; Can The Market Take Flight? Robinhood, Sandisk, AMD, Moderna Surge Into Buy Areas",
+        "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-robinhood-sandisk-amd-moderna-surge-buy-areas/?src=A00220&yptr=yahoo",
         "source": "Yahoo Finance",
-        "date": "2026-09-20T21:27:11Z",
-        "ko": "Amazon (AMZN) 이 처음으로 영국 채권 시장을 활용하여 AI 구축 자금 조달 지원",
+        "date": "2026-09-20T22:47:12Z",
+        "ko": "다우 존스 선물 상승; 시장은 비행을 취할 수 있습니까? Robinhood, Sandisk, AMD, Moderna 구매 지역으로의 서지",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -484,14 +484,14 @@
         "by": "rules"
       },
       {
-        "title": "The AI Slowdown Trade Has Some Winners: CrowdStrike and Palo Alto Rally While Chips Fall",
-        "link": "https://finance.yahoo.com/technology/ai/articles/ai-slowdown-trade-winners-crowdstrike-212311977.html",
+        "title": "Jim Cramer on Iron Mountain (IRM): “It’s Been an Incredible Stock”",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-iron-mountain-irm-215701602.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-20T21:23:11Z",
-        "ko": "AI 둔화 무역에는 몇 가지 승자가 있습니다: 칩이 떨어지는 동안 CrowdStrike 및 Palo Alto Rally",
+        "date": "2026-09-20T21:57:01Z",
+        "ko": "아이언 마운틴 (IRM) 의 짐 크레이머 (Jim Cramer): \"놀라운 주식이었습니다\"",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -511,8 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "Dow Jones Tech Titan Apple, Nvidia Chipmaker TSMC, AMD, Bloom Energy In Or Near Buy Zones": "Dow Jones Tech Titan Apple, Nvidia Chipmaker TSMC, AMD, Bloom Energy In or Near Buy Zones",
-    "Salesforce Stock Dips Ahead Of Investor Briefing Amid System Outage": "시스템 중단 상황에서 Salesforce가 투자자 브리핑을 앞두고 재고 감소",
     "Bloom Energy Stock Jumps On 'Meaningful' Data-Center Catalyst": "블룸 에너지 주식, '의미 있는' 데이터 센터 촉매제로 뛰어오르다",
     "Mortgage and refinance interest rates today, Wednesday, September 16, 2026: Rates ease somewhat ahead of the Fed's rate decision": "2026년 9월 16일 수요일 모기지 및 재융자 금리: 금리가 연준의 금리 결정보다 다소 앞서 완화",
     "Dollar Rises in Anticipation of Fed Rate Increase": "연준 금리 인상 기대감에 달러 상승",
@@ -810,7 +808,9 @@
     "Vera Bradley (VRA) Returns to Operating Profit. Can the Recovery Outlast Tariff Refunds?": "Vera Bradley (VRA) 가 영업 이익으로 돌아갑니다. 복구로 관세 환불이 더 오래 지속될 수 있나요?",
     "RB Global (RBA) Doubles its Buyback Authorization. Can Cash Generation Support it?": "RB Global (RBA) 은 환매 승인을 두 배로 늘립니다. 현금 창출이 이를 지원할 수 있습니까?",
     "Amazon (AMZN) Taps the UK Bond Market for the First Time to Help Fund its AI Buildout": "Amazon (AMZN) 이 처음으로 영국 채권 시장을 활용하여 AI 구축 자금 조달 지원",
-    "The AI Slowdown Trade Has Some Winners: CrowdStrike and Palo Alto Rally While Chips Fall": "AI 둔화 무역에는 몇 가지 승자가 있습니다: 칩이 떨어지는 동안 CrowdStrike 및 Palo Alto Rally"
+    "The AI Slowdown Trade Has Some Winners: CrowdStrike and Palo Alto Rally While Chips Fall": "AI 둔화 무역에는 몇 가지 승자가 있습니다: 칩이 떨어지는 동안 CrowdStrike 및 Palo Alto Rally",
+    "Dow Jones Futures Rise; Can The Market Take Flight? Robinhood, Sandisk, AMD, Moderna Surge Into Buy Areas": "다우 존스 선물 상승; 시장은 비행을 취할 수 있습니까? Robinhood, Sandisk, AMD, Moderna 구매 지역으로의 서지",
+    "Jim Cramer on Iron Mountain (IRM): “It’s Been an Incredible Stock”": "아이언 마운틴 (IRM) 의 짐 크레이머 (Jim Cramer): \"놀라운 주식이었습니다\""
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -2944,7 +2944,6 @@
       "2026-09-21": 827.12
     },
     "KRW=X": {
-      "2026-09-09": 1339.18,
       "2026-09-10": 1349.14,
       "2026-09-11": 1341.05,
       "2026-09-12": 1341.05,
@@ -2955,7 +2954,8 @@
       "2026-09-17": 1379.98,
       "2026-09-18": 1385.95,
       "2026-09-19": 1385,
-      "2026-09-20": 1384.6
+      "2026-09-20": 1384.6,
+      "2026-09-21": 1385.52
     },
     "^GSPC": {
       "2026-09-09": 7636.36,
@@ -3386,8 +3386,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfFSsAi8biRiVxqspCQuz\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfFSsBbi9MqqE1EUsjPAp\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfFSsCBvpWrPBNmhTLv45\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfFXUJYMzHWo3pFZ6FNih\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfFXUKJzmwWcmHvBuUYXs\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfFXUKxw6qB2fiHDJdwyU\"}"
   ]
 }
