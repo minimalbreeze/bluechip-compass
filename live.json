@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-21T08:49:15.204Z",
+  "asOf": "2026-09-21T09:49:38.659Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-21T06:32:40.000Z"
     },
     "KRW=X": {
-      "price": 1370.89,
+      "price": 1372.54,
       "prev": 1384.6,
-      "chg": -0.99,
+      "chg": -0.87,
       "prevDay": "2026-09-20",
       "basis": "prev-close-memo",
-      "time": "2026-09-21T08:49:07.000Z"
+      "time": "2026-09-21T09:49:27.000Z"
     },
     "^GSPC": {
       "price": 7650.5,
@@ -43,12 +43,12 @@
       "time": "2026-09-18T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 14.91,
+      "price": 14.97,
       "prev": 14.81,
-      "chg": 0.68,
+      "chg": 1.08,
       "prevDay": "2026-09-20",
       "basis": "prev-close-memo",
-      "time": "2026-09-21T08:34:01.000Z"
+      "time": "2026-09-21T09:34:16.000Z"
     },
     "^TNX": {
       "price": 4.998,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.147
+    "pct": 0.155
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -6.2
     },
     "KRW=X": {
-      "last": 1370.89,
+      "last": 1372.54,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.147,
-      "chg3m": -11.14
+      "pct52": 0.155,
+      "chg3m": -11.03
     },
     "^GSPC": {
       "last": 7650.5,
@@ -101,11 +101,11 @@
       "chg3m": 1.36
     },
     "^VIX": {
-      "last": 14.91,
+      "last": 14.97,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.082,
-      "chg3m": -19.97
+      "pct52": 0.085,
+      "chg3m": -19.65
     },
     "^TNX": {
       "last": 5,
@@ -368,10 +368,10 @@
   "news": {
     "kr": [
       {
-        "title": "국고채 금리 대체로 상승…초단기·5년물 약세(종합)",
-        "link": "https://www.yna.co.kr/view/AKR20260921149851008",
+        "title": "제논·옵토닉스 등 2개사 코스닥 상장예심 통과",
+        "link": "https://www.yna.co.kr/view/AKR20260921169900008",
         "source": "연합뉴스",
-        "date": "Mon, 21 Sep 2026 17:01:21 +0900",
+        "date": "Mon, 21 Sep 2026 18:43:14 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -379,7 +379,7 @@
         "by": "rules"
       },
       {
-        "title": "증권주 올랐는데 목표가는 '뚝'…증권가에 무슨 일이",
+        "title": "증권주 올랐는데 목표가는 줄줄이 '뚝'…무슨 일이?",
         "link": "https://www.hankyung.com/article/202609218700i",
         "source": "한국경제",
         "date": "Mon, 21 Sep 2026 17:06:17 +0900",
@@ -390,24 +390,24 @@
         "by": "rules"
       },
       {
-        "title": "[단독] 5년간 공시의무 위반 사례 600건 넘어…이중 75%는 비상장사",
-        "link": "https://www.mk.co.kr/news/stock/12158485",
+        "title": "‘7천피 탈환’ 구원투수 나선 삼전…수출 호조·배당 기대에 5% 급등",
+        "link": "https://www.mk.co.kr/news/stock/12158596",
         "source": "매일경제",
-        "date": "Mon, 21 Sep 2026 17:34:26 +09:00",
+        "date": "Mon, 21 Sep 2026 18:30:41 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "국고채 금리 대체로 상승…3년물 연 4.056%",
-        "link": "https://www.yna.co.kr/view/AKR20260921149800008",
+        "title": "신한금융, 신한은행장 등 자회사 대표이사 승계절차 개시",
+        "link": "https://www.yna.co.kr/view/AKR20260921168400002",
         "source": "연합뉴스",
-        "date": "Mon, 21 Sep 2026 16:49:06 +0900",
+        "date": "Mon, 21 Sep 2026 18:22:19 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -423,14 +423,14 @@
         "by": "rules"
       },
       {
-        "title": "삼성전자가 끌어올린 코스피 7000선…코스닥도 1%대 상승 마감",
-        "link": "https://www.mk.co.kr/news/stock/12158339",
+        "title": "[단독] 중앙일보 인수전에 글로벌세아·OK금융 등 6곳 안팎 참전",
+        "link": "https://www.mk.co.kr/news/stock/12158594",
         "source": "매일경제",
-        "date": "Mon, 21 Sep 2026 16:11:00 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "date": "Mon, 21 Sep 2026 18:23:23 +09:00",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": null,
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
         "by": "rules"
       }
     ],
@@ -448,11 +448,11 @@
         "by": "rules"
       },
       {
-        "title": "Record diesel prices are exposing pain points in the stock market and economy",
-        "link": "https://www.marketwatch.com/story/record-diesel-prices-are-exposing-pain-points-in-the-stock-market-and-economy-a2079b04?mod=mw_rss_topstories",
+        "title": "Novo Nordisk stock tumbles as Ozempic maker sets out 2030 goals",
+        "link": "https://www.marketwatch.com/story/novo-nordisk-stock-tumbles-as-ozempic-maker-sets-out-2030-goals-8a5a8d2d?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Sun, 20 Sep 2026 13:00:00 GMT",
-        "ko": "기록적인 디젤 가격이 주식 시장과 경제의 어려움을 드러내고 있습니다.",
+        "date": "Mon, 21 Sep 2026 08:58:00 GMT",
+        "ko": "Ozempic 메이커가 2030년 목표를 설정함에 따라 Novo Nordisk 재고가 하락합니다",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -460,14 +460,14 @@
         "by": "rules"
       },
       {
-        "title": "Can Max Turn AI Adoption into Continued Growth for ServiceTitan (TTAN) Stock?",
-        "link": "https://finance.yahoo.com/technology/ai/articles/max-turn-ai-adoption-continued-020418395.html",
+        "title": "Novo Nordisk stock gets drilled on pipeline concerns— its CEO sees this as the main problem",
+        "link": "https://finance.yahoo.com/markets/stocks/article/novo-nordisk-stock-gets-drilled-on-pipeline-concerns-its-ceo-sees-this-as-the-main-problem-091933221.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-20T02:04:18Z",
-        "ko": "TTAN (ServiceTitan) 주식에 대한 AI 채택을 계속 성장으로 바꿀 수 있습니까?",
+        "date": "2026-09-21T09:19:33Z",
+        "ko": "Novo Nordisk 주가는 파이프라인 문제로 시추됩니다. CEO는 이를 주요 문제로 보고 있습니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -484,14 +484,14 @@
         "by": "rules"
       },
       {
-        "title": "Re-Energized EV Market Grapples With Growing Drain on Profitability",
-        "link": "https://finance.yahoo.com/markets/commodities/articles/energized-ev-market-grapples-growing-040100779.html",
+        "title": "Stock market today: Dow, S&P 500, Nasdaq futures rise as oil falls, anticipation builds for Trump-Xi summit",
+        "link": "https://finance.yahoo.com/markets/live/stock-market-today-monday-september-21-dow-sp-500-nasdaq-080214605.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-20T04:01:00Z",
-        "ko": "재에너지 전기차 시장, 수익성 하락세와 맞물려",
+        "date": "2026-09-21T08:02:14Z",
+        "ko": "오늘의 주식 시장: 다우, S&P 500, 나스닥 선물은 원유 하락에 따라 상승, 트럼프-Xi 정상 회담에 대한 기대감 형성",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -511,9 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "The smartest money moves to make now that interest rates are going higher": "이자율이 높아지는 지금, 가장 현명한 자금이 움직입니다.",
-    "Chip Stocks Mixed After Monday Rout": "월요일 경로 이후 혼합된 칩 재고",
-    "Herbalife (HLF) Bets $250M On Its Own Battered Stock": "허벌라이프 (HLF) 는 자체 타격 주식에 $250M를 베팅합니다",
     "Trump's Marijuana Rescheduling Push Is Back in Focus. Is Tilray Stock Finally a Buy?": "트럼프의 마리화나 일정 변경 추진이 다시 주목받고 있습니다. Tilray Stock이 마침내 매수되나요?",
     "Google is playing a different AI game than everyone else, and Wall Street may be missing the point": "Google은 다른 사람들과 다른 AI 게임을하고 있으며 월스트리트는 그 요점을 놓치고있을 수 있습니다.",
     "AI's safety slowdown spooks the market, delays IPOs, and hands incumbents more room to run": "AI의 안전 둔화는 시장을 불안하게 하고, IPO를 지연시키며, 현직 직원들에게 실행할 수 있는 더 많은 공간을 제공합니다.",
@@ -810,7 +807,10 @@
     "Jim Cramer Suggests Avoiding Redwire (RDW) In A Rate Tightening Cycle": "짐 크레이머 (Jim Cramer) 는 속도 강화 사이클에서 Redwire (RDW) 를 피할 것을 제안합니다.",
     "Nasdaq (NDAQ) Just Made It Harder For Crypto Criminals To Hide": "Nasdaq (NDAQ) 은 암호 범죄자가 숨기는 것을 더 어렵게 만들었습니다",
     "Can Max Turn AI Adoption into Continued Growth for ServiceTitan (TTAN) Stock?": "TTAN (ServiceTitan) 주식에 대한 AI 채택을 계속 성장으로 바꿀 수 있습니까?",
-    "Re-Energized EV Market Grapples With Growing Drain on Profitability": "재에너지 전기차 시장, 수익성 하락세와 맞물려"
+    "Re-Energized EV Market Grapples With Growing Drain on Profitability": "재에너지 전기차 시장, 수익성 하락세와 맞물려",
+    "Novo Nordisk stock tumbles as Ozempic maker sets out 2030 goals": "Ozempic 메이커가 2030년 목표를 설정함에 따라 Novo Nordisk 재고가 하락합니다",
+    "Novo Nordisk stock gets drilled on pipeline concerns— its CEO sees this as the main problem": "Novo Nordisk 주가는 파이프라인 문제로 시추됩니다. CEO는 이를 주요 문제로 보고 있습니다.",
+    "Stock market today: Dow, S&P 500, Nasdaq futures rise as oil falls, anticipation builds for Trump-Xi summit": "오늘의 주식 시장: 다우, S&P 500, 나스닥 선물은 원유 하락에 따라 상승, 트럼프-Xi 정상 회담에 대한 기대감 형성"
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -2955,7 +2955,7 @@
       "2026-09-18": 1385.95,
       "2026-09-19": 1385,
       "2026-09-20": 1384.6,
-      "2026-09-21": 1370.89
+      "2026-09-21": 1372.54
     },
     "^GSPC": {
       "2026-09-10": 7591.7,
@@ -2997,7 +2997,7 @@
       "2026-09-18": 14.81,
       "2026-09-19": 14.81,
       "2026-09-20": 14.81,
-      "2026-09-21": 14.91
+      "2026-09-21": 14.97
     },
     "^TNX": {
       "2026-09-10": 4.944,
@@ -3386,8 +3386,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfGJ9jhuJyJnPJRNfsRM5\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfGJ9m7jcUmsAyWwLfwgr\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfGJ9mof2jFojfcZSF4HZ\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfGNkr74oNRgfHStav6bo\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfGNkrtCPZ6EizdkGPFvz\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfGNksa7mNXuiZ3AbH56w\"}"
   ]
 }
