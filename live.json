@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-21T15:07:01.317Z",
+  "asOf": "2026-09-21T15:17:29.329Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,50 +19,50 @@
       "time": "2026-09-21T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1373.93,
+      "price": 1374.63,
       "prev": 1384.6,
-      "chg": -0.77,
+      "chg": -0.72,
       "prevDay": "2026-09-20",
       "basis": "prev-close-memo",
-      "time": "2026-09-21T15:06:48.000Z"
+      "time": "2026-09-21T15:17:23.000Z"
     },
     "^GSPC": {
-      "price": 7724.89,
+      "price": 7729.33,
       "prev": 7650.5,
-      "chg": 0.97,
+      "chg": 1.03,
       "prevDay": "2026-09-20",
       "basis": "prev-close-memo",
-      "time": "2026-09-21T15:06:49.000Z"
+      "time": "2026-09-21T15:17:22.000Z"
     },
     "^IXIC": {
-      "price": 26939.797,
+      "price": 26944.314,
       "prev": 26522.545,
-      "chg": 1.57,
+      "chg": 1.59,
       "prevDay": "2026-09-20",
       "basis": "prev-close-memo",
-      "time": "2026-09-21T15:06:48.000Z"
+      "time": "2026-09-21T15:17:23.000Z"
     },
     "^VIX": {
-      "price": 14.63,
+      "price": 14.65,
       "prev": 14.81,
-      "chg": -1.22,
+      "chg": -1.08,
       "prevDay": "2026-09-20",
       "basis": "prev-close-memo",
-      "time": "2026-09-21T14:51:46.000Z"
+      "time": "2026-09-21T15:02:16.000Z"
     },
     "^TNX": {
-      "price": 4.959,
+      "price": 4.965,
       "prev": 4.998,
-      "chg": -0.78,
+      "chg": -0.66,
       "prevDay": "2026-09-20",
       "basis": "prev-close-memo",
-      "time": "2026-09-21T14:51:43.000Z"
+      "time": "2026-09-21T15:02:13.000Z"
     }
   },
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.161
+    "pct": 0.165
   },
   "hist": {
     "^KS11": {
@@ -80,39 +80,39 @@
       "chg3m": -14.59
     },
     "KRW=X": {
-      "last": 1373.93,
+      "last": 1374.63,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.161,
-      "chg3m": -10.94
+      "pct52": 0.165,
+      "chg3m": -10.9
     },
     "^GSPC": {
-      "last": 7724.89,
+      "last": 7729.23,
       "low52": 6343.72,
       "high52": 7798.99,
-      "pct52": 0.949,
-      "chg3m": 4.88
+      "pct52": 0.952,
+      "chg3m": 4.94
     },
     "^IXIC": {
-      "last": 26939.8,
+      "last": 26944.31,
       "low52": 20794.64,
       "high52": 27093.9,
       "pct52": 0.976,
-      "chg3m": 5.29
+      "chg3m": 5.3
     },
     "^VIX": {
-      "last": 14.63,
+      "last": 14.65,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.066,
-      "chg3m": -21.47
+      "pct52": 0.067,
+      "chg3m": -21.36
     },
     "^TNX": {
-      "last": 4.96,
+      "last": 4.97,
       "low52": 3.95,
       "high52": 5.01,
-      "pct52": 0.955,
-      "chg3m": 10.37
+      "pct52": 0.961,
+      "chg3m": 10.51
     }
   },
   "regime": {
@@ -260,108 +260,108 @@
     },
     "us": {
       "MSFT": {
-        "price": 493.22,
+        "price": 492.675,
         "prev": 493.78,
+        "chg": -0.22,
+        "prevDay": "2026-09-20",
+        "basis": "prev-close-memo",
+        "time": "2026-09-21T15:17:27.000Z"
+      },
+      "AAPL": {
+        "price": 337.59,
+        "prev": 336.13,
+        "chg": 0.43,
+        "prevDay": "2026-09-20",
+        "basis": "prev-close-memo",
+        "time": "2026-09-21T15:17:26.000Z"
+      },
+      "GOOGL": {
+        "price": 355.305,
+        "prev": 349.54,
+        "chg": 1.65,
+        "prevDay": "2026-09-20",
+        "basis": "prev-close-memo",
+        "time": "2026-09-21T15:17:27.000Z"
+      },
+      "BRK.B": {
+        "price": 507.48,
+        "prev": 509.77,
+        "chg": -0.45,
+        "prevDay": "2026-09-20",
+        "basis": "prev-close-memo",
+        "time": "2026-09-21T15:17:09.000Z"
+      },
+      "V": {
+        "price": 368.28,
+        "prev": 368.29,
+        "chg": 0,
+        "prevDay": "2026-09-20",
+        "basis": "prev-close-memo",
+        "time": "2026-09-21T15:17:19.000Z"
+      },
+      "JNJ": {
+        "price": 271.53,
+        "prev": 269.99,
+        "chg": 0.57,
+        "prevDay": "2026-09-20",
+        "basis": "prev-close-memo",
+        "time": "2026-09-21T15:17:18.000Z"
+      },
+      "PG": {
+        "price": 146.235,
+        "prev": 146.39,
         "chg": -0.11,
         "prevDay": "2026-09-20",
         "basis": "prev-close-memo",
-        "time": "2026-09-21T15:06:58.000Z"
-      },
-      "AAPL": {
-        "price": 337.165,
-        "prev": 336.13,
-        "chg": 0.31,
-        "prevDay": "2026-09-20",
-        "basis": "prev-close-memo",
-        "time": "2026-09-21T15:06:58.000Z"
-      },
-      "GOOGL": {
-        "price": 354.81,
-        "prev": 349.54,
-        "chg": 1.51,
-        "prevDay": "2026-09-20",
-        "basis": "prev-close-memo",
-        "time": "2026-09-21T15:06:59.000Z"
-      },
-      "BRK.B": {
-        "price": 507.2,
-        "prev": 509.77,
-        "chg": -0.5,
-        "prevDay": "2026-09-20",
-        "basis": "prev-close-memo",
-        "time": "2026-09-21T15:06:57.000Z"
-      },
-      "V": {
-        "price": 367.315,
-        "prev": 368.29,
-        "chg": -0.26,
-        "prevDay": "2026-09-20",
-        "basis": "prev-close-memo",
-        "time": "2026-09-21T15:06:57.000Z"
-      },
-      "JNJ": {
-        "price": 272.385,
-        "prev": 269.99,
-        "chg": 0.89,
-        "prevDay": "2026-09-20",
-        "basis": "prev-close-memo",
-        "time": "2026-09-21T15:06:53.000Z"
-      },
-      "PG": {
-        "price": 145.952,
-        "prev": 146.39,
-        "chg": -0.3,
-        "prevDay": "2026-09-20",
-        "basis": "prev-close-memo",
-        "time": "2026-09-21T15:06:52.000Z"
+        "time": "2026-09-21T15:17:23.000Z"
       },
       "KO": {
-        "price": 87.8,
+        "price": 87.885,
         "prev": 88.25,
-        "chg": -0.51,
+        "chg": -0.41,
         "prevDay": "2026-09-20",
         "basis": "prev-close-memo",
-        "time": "2026-09-21T15:06:59.000Z"
+        "time": "2026-09-21T15:17:18.000Z"
       },
       "COST": {
-        "price": 893.565,
+        "price": 895,
         "prev": 895.31,
-        "chg": -0.19,
+        "chg": -0.03,
         "prevDay": "2026-09-20",
         "basis": "prev-close-memo",
-        "time": "2026-09-21T15:06:43.000Z"
+        "time": "2026-09-21T15:17:25.000Z"
       },
       "WM": {
-        "price": 208.87,
+        "price": 209.505,
         "prev": 211.1,
-        "chg": -1.06,
+        "chg": -0.76,
         "prevDay": "2026-09-20",
         "basis": "prev-close-memo",
-        "time": "2026-09-21T15:06:31.000Z"
+        "time": "2026-09-21T15:17:26.000Z"
       },
       "LIN": {
-        "price": 457.18,
+        "price": 457.36,
         "prev": 460.4,
-        "chg": -0.7,
+        "chg": -0.66,
         "prevDay": "2026-09-20",
         "basis": "prev-close-memo",
-        "time": "2026-09-21T15:06:47.000Z"
+        "time": "2026-09-21T15:17:22.000Z"
       },
       "XOM": {
-        "price": 159.15,
+        "price": 159.027,
         "prev": 163.54,
-        "chg": -2.68,
+        "chg": -2.76,
         "prevDay": "2026-09-20",
         "basis": "prev-close-memo",
-        "time": "2026-09-21T15:06:54.000Z"
+        "time": "2026-09-21T15:17:25.000Z"
       },
       "NVDA": {
-        "price": 225.255,
+        "price": 225.005,
         "prev": 222.27,
-        "chg": 1.34,
+        "chg": 1.23,
         "prevDay": "2026-09-20",
         "basis": "prev-close-memo",
-        "time": "2026-09-21T15:06:59.000Z"
+        "time": "2026-09-21T15:17:26.000Z"
       }
     }
   },
@@ -448,6 +448,42 @@
         "by": "rules"
       },
       {
+        "title": "AMD hits a major milestone as AI stocks blaze higher",
+        "link": "https://www.marketwatch.com/story/amd-hits-with-a-major-milestone-as-ai-stocks-blaze-higher-7bb366df?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "date": "Mon, 21 Sep 2026 15:07:00 GMT",
+        "ko": "AI 재고가 증가함에 따라 AMD는 주요 이정표를 달성했습니다.",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "Bank of America says buy tumbling shares of aviation giant",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/bank-america-says-buy-tumbling-143700198.html",
+        "source": "Yahoo Finance",
+        "date": "2026-09-21T14:37:00Z",
+        "ko": "뱅크 오브 아메리카는 항공 대기업의 텀블링 주식을 사라고 말합니다",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "Bank of England defies Fed’s rate-hike lead, leaving rates unchanged",
+        "link": "https://www.cnbc.com/2026/09/17/bank-of-england-interest-rate-decision-fed-rate-hike-uk-inflation.html",
+        "source": "CNBC",
+        "date": "Thu, 17 Sep 2026 12:27:10 GMT",
+        "ko": "잉글랜드 은행, Fed의 금리 인상 주도권에 저항, 금리 변동 없음",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
         "title": "AT&T’s stock looks like the smartest bet in the wireless sector, analyst says",
         "link": "https://www.marketwatch.com/story/at-ts-stock-looks-like-the-smartest-bet-in-the-wireless-sector-analyst-says-6e773d63?mod=mw_rss_topstories",
         "source": "MarketWatch",
@@ -470,48 +506,11 @@
         "scope": null,
         "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
         "by": "rules"
-      },
-      {
-        "title": "Bank of England defies Fed’s rate-hike lead, leaving rates unchanged",
-        "link": "https://www.cnbc.com/2026/09/17/bank-of-england-interest-rate-decision-fed-rate-hike-uk-inflation.html",
-        "source": "CNBC",
-        "date": "Thu, 17 Sep 2026 12:27:10 GMT",
-        "ko": "잉글랜드 은행, Fed의 금리 인상 주도권에 저항, 금리 변동 없음",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "Novo Nordisk’s stock tumbles as doubts persist about Ozempic maker’s goals for 2030",
-        "link": "https://www.marketwatch.com/story/novo-nordisk-stock-tumbles-as-ozempic-maker-sets-out-2030-goals-8a5a8d2d?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "date": "Mon, 21 Sep 2026 13:32:00 GMT",
-        "ko": "2030년 Ozempic 메이커의 목표에 대한 의구심이 계속되면서 Novo Nordisk의 재고가 바닥을 치고 있습니다.",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "Tech stocks today: Oura files IPO paperwork, Nvidia's Huang pushes back on AI doomsday talk",
-        "link": "https://finance.yahoo.com/technology/live/tech-stocks-today-oura-files-ipo-paperwork-nvidias-huang-pushes-back-on-ai-doomsday-talk-144918730.html",
-        "source": "Yahoo Finance",
-        "date": "2026-09-21T14:49:18Z",
-        "ko": "오늘날의 기술 재고: OURA는 IPO 서류를 제출하고, Nvidia의 Huang은 AI 종말 강연에 반발합니다.",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
       }
     ]
   },
   "newsBy": "rules",
   "trCache": {
-    "Bioceres Crop Solutions Corp. Q4 2026 Earnings Call Summary": "Bioceres Crop Solutions Corp. 2026년 4분기 실적 통화 요약",
     "Generac’s stock soars more than 30% after Amazon deal cements company’s status as an AI-power player": "제네락의 주식은 아마존 딜 시멘트 회사의 AI 파워 플레이어 지위 이후 30% 이상 급등했습니다.",
     "Fed rate hike fails to calm troubled markets as Dow falls 600 points. Expect more sharp swings in stocks and bonds.": "다우 지수가 600포인트 하락하면서 연준의 금리 인상은 문제가 된 시장을 진정시키지 못하고 있습니다. 주식과 채권의 급격한 변동이 예상됩니다.",
     "Brown & Brown Stock: Is BRO Underperforming the Financial Sector?": "Brown & Brown Stock: BRO는 금융 부문의 실적이 저조한가?",
@@ -810,7 +809,8 @@
     "AT&T’s stock looks like the smartest bet in the wireless sector, analyst says": "AT&T의 주식은 무선 부문에서 가장 현명한 베팅처럼 보인다고 애널리스트는 말합니다.",
     "Bank of America says buy tumbling shares of aviation giant": "뱅크 오브 아메리카는 항공 대기업의 텀블링 주식을 사라고 말합니다",
     "Paramount, Warner Bros. shares rally on reports of merger settlement agreement": "파라마운트, 워너 브라더스가 합병 합의서에 대한 보고서를 공유하다",
-    "Tech stocks today: Oura files IPO paperwork, Nvidia's Huang pushes back on AI doomsday talk": "오늘날의 기술 재고: OURA는 IPO 서류를 제출하고, Nvidia의 Huang은 AI 종말 강연에 반발합니다."
+    "Tech stocks today: Oura files IPO paperwork, Nvidia's Huang pushes back on AI doomsday talk": "오늘날의 기술 재고: OURA는 IPO 서류를 제출하고, Nvidia의 Huang은 AI 종말 강연에 반발합니다.",
+    "AMD hits a major milestone as AI stocks blaze higher": "AI 재고가 증가함에 따라 AMD는 주요 이정표를 달성했습니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -2955,7 +2955,7 @@
       "2026-09-18": 1385.95,
       "2026-09-19": 1385,
       "2026-09-20": 1384.6,
-      "2026-09-21": 1373.93
+      "2026-09-21": 1374.63
     },
     "^GSPC": {
       "2026-09-10": 7591.7,
@@ -2969,7 +2969,7 @@
       "2026-09-18": 7650.5,
       "2026-09-19": 7650.5,
       "2026-09-20": 7650.5,
-      "2026-09-21": 7724.89
+      "2026-09-21": 7729.33
     },
     "^IXIC": {
       "2026-09-10": 26081.725,
@@ -2983,7 +2983,7 @@
       "2026-09-18": 26522.545,
       "2026-09-19": 26522.545,
       "2026-09-20": 26522.545,
-      "2026-09-21": 26939.797
+      "2026-09-21": 26944.314
     },
     "^VIX": {
       "2026-09-10": 17.84,
@@ -2997,7 +2997,7 @@
       "2026-09-18": 14.81,
       "2026-09-19": 14.81,
       "2026-09-20": 14.81,
-      "2026-09-21": 14.63
+      "2026-09-21": 14.65
     },
     "^TNX": {
       "2026-09-10": 4.944,
@@ -3011,7 +3011,7 @@
       "2026-09-18": 4.998,
       "2026-09-19": 4.998,
       "2026-09-20": 4.998,
-      "2026-09-21": 4.959
+      "2026-09-21": 4.965
     },
     "105560.KS": {
       "2026-09-11": 177900,
@@ -3207,7 +3207,7 @@
       "2026-09-18": 493.78,
       "2026-09-19": 493.78,
       "2026-09-20": 493.78,
-      "2026-09-21": 493.22
+      "2026-09-21": 492.675
     },
     "AAPL": {
       "2026-09-10": 326.57,
@@ -3221,7 +3221,7 @@
       "2026-09-18": 336.13,
       "2026-09-19": 336.13,
       "2026-09-20": 336.13,
-      "2026-09-21": 337.165
+      "2026-09-21": 337.59
     },
     "GOOGL": {
       "2026-09-10": 332.6,
@@ -3235,7 +3235,7 @@
       "2026-09-18": 349.54,
       "2026-09-19": 349.54,
       "2026-09-20": 349.54,
-      "2026-09-21": 354.81
+      "2026-09-21": 355.305
     },
     "BRK.B": {
       "2026-08-29": 505,
@@ -3256,7 +3256,7 @@
       "2026-09-18": 368.29,
       "2026-09-19": 368.29,
       "2026-09-20": 368.29,
-      "2026-09-21": 367.315
+      "2026-09-21": 368.28
     },
     "JNJ": {
       "2026-09-10": 266.35,
@@ -3270,7 +3270,7 @@
       "2026-09-18": 269.99,
       "2026-09-19": 269.99,
       "2026-09-20": 269.99,
-      "2026-09-21": 272.385
+      "2026-09-21": 271.53
     },
     "PG": {
       "2026-09-10": 142.97,
@@ -3284,7 +3284,7 @@
       "2026-09-18": 146.39,
       "2026-09-19": 146.39,
       "2026-09-20": 146.39,
-      "2026-09-21": 145.952
+      "2026-09-21": 146.235
     },
     "KO": {
       "2026-09-10": 87.83,
@@ -3298,7 +3298,7 @@
       "2026-09-18": 88.25,
       "2026-09-19": 88.25,
       "2026-09-20": 88.25,
-      "2026-09-21": 87.8
+      "2026-09-21": 87.885
     },
     "COST": {
       "2026-09-10": 902.38,
@@ -3312,7 +3312,7 @@
       "2026-09-18": 895.31,
       "2026-09-19": 895.31,
       "2026-09-20": 895.31,
-      "2026-09-21": 893.565
+      "2026-09-21": 895
     },
     "WM": {
       "2026-09-10": 214.77,
@@ -3326,7 +3326,7 @@
       "2026-09-18": 211.1,
       "2026-09-19": 211.1,
       "2026-09-20": 211.1,
-      "2026-09-21": 208.87
+      "2026-09-21": 209.505
     },
     "LIN": {
       "2026-09-10": 461.62,
@@ -3340,7 +3340,7 @@
       "2026-09-18": 460.4,
       "2026-09-19": 460.4,
       "2026-09-20": 460.4,
-      "2026-09-21": 457.18
+      "2026-09-21": 457.36
     },
     "XOM": {
       "2026-09-10": 165.23,
@@ -3354,7 +3354,7 @@
       "2026-09-18": 163.54,
       "2026-09-19": 163.54,
       "2026-09-20": 163.54,
-      "2026-09-21": 159.15
+      "2026-09-21": 159.027
     },
     "NVDA": {
       "2026-09-10": 218.36,
@@ -3368,7 +3368,7 @@
       "2026-09-18": 222.27,
       "2026-09-19": 222.27,
       "2026-09-20": 222.27,
-      "2026-09-21": 225.255
+      "2026-09-21": 225.005
     },
     "BRK-B": {
       "2026-09-10": 507,
@@ -3382,12 +3382,12 @@
       "2026-09-18": 509.77,
       "2026-09-19": 509.77,
       "2026-09-20": 509.77,
-      "2026-09-21": 507.2
+      "2026-09-21": 507.48
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfGnxZZ2mppUD8BNUB8eX\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfGnxatQAShvKMha9qi8z\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfGnxbJTL8S1bZbnDkWee\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfGokrM7TQtUxzMVFJgi8\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfGoksRMP455hEAwKXydT\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfGoktBVGH8Sfr4Vy3CFD\"}"
   ]
 }
