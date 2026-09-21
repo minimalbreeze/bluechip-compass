@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-20T23:03:19.949Z",
+  "asOf": "2026-09-21T00:01:41.198Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-18T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1385.52,
+      "price": 1386.28,
       "prev": 1384.6,
-      "chg": 0.07,
+      "chg": 0.12,
       "prevDay": "2026-09-20",
       "basis": "prev-close-memo",
-      "time": "2026-09-20T23:03:09.000Z"
+      "time": "2026-09-21T00:01:35.000Z"
     },
     "^GSPC": {
       "price": 7650.5,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.215
+    "pct": 0.221
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -14.59
     },
     "KRW=X": {
-      "last": 1385.52,
+      "last": 1386.78,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.215,
-      "chg3m": -10.19
+      "pct52": 0.221,
+      "chg3m": -10.11
     },
     "^GSPC": {
       "last": 7650.5,
@@ -368,21 +368,21 @@
   "news": {
     "kr": [
       {
-        "title": "[마켓뷰] 코스피, 추석연휴 전후 '전강후약' 반복되나",
-        "link": "https://www.yna.co.kr/view/AKR20260921011700008",
+        "title": "한투증권, 코스맥스 목표가↑…\"3분기 실적 시장 기대 부합\"",
+        "link": "https://www.yna.co.kr/view/AKR20260921023600008",
         "source": "연합뉴스",
-        "date": "Mon, 21 Sep 2026 07:47:59 +0900",
+        "date": "Mon, 21 Sep 2026 08:41:34 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "주식 대신 '이것' 담아 연 8% 수익…VVIP들의 방어투자법",
-        "link": "https://www.hankyung.com/article/202608289296i",
+        "title": "\"연휴 전 돈 쓰려면 오늘 팔아야되는데\"…추석 전 주식 들고갈까",
+        "link": "https://www.hankyung.com/article/2026092170066",
         "source": "한국경제",
-        "date": "Mon, 21 Sep 2026 07:29:08 +0900",
+        "date": "Mon, 21 Sep 2026 08:51:43 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -390,10 +390,10 @@
         "by": "rules"
       },
       {
-        "title": "“코스맥스, 쇼핑 시즌 앞두고 주가 상승 준비 완료”…목표가↑",
-        "link": "https://www.mk.co.kr/news/stock/12157734",
+        "title": "“삼성SDI, 전력 인프라 성장성 반영…목표주가 80만원으로 상향”",
+        "link": "https://www.mk.co.kr/news/stock/12157758",
         "source": "매일경제",
-        "date": "Mon, 21 Sep 2026 08:00:01 +09:00",
+        "date": "Mon, 21 Sep 2026 08:43:11 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -401,36 +401,36 @@
         "by": "rules"
       },
       {
-        "title": "경제인협회 \"반도체 공장 가동 앞두고 도로·용수 아직\"",
-        "link": "https://www.yna.co.kr/view/AKR20260920032500003",
+        "title": "IBK증권, 알테오젠 기업분석 개시…\"장기특허 독점효과 확대\"",
+        "link": "https://www.yna.co.kr/view/AKR20260921019900008",
         "source": "연합뉴스",
-        "date": "Mon, 21 Sep 2026 06:00:05 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "삼전닉스 '8조' 팔아치운 외국인 몰려간 곳이…'파격 전망' [종목+]",
-        "link": "https://www.hankyung.com/article/2026091837776",
-        "source": "한국경제",
-        "date": "Mon, 21 Sep 2026 06:30:01 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "“중국 반도체 증설이 삼전닉스 마진 압박 … 전력기기·로봇·조방원 주목”",
-        "link": "https://www.mk.co.kr/news/stock/12157437",
-        "source": "매일경제",
-        "date": "Mon, 21 Sep 2026 04:00:00 +09:00",
+        "date": "Mon, 21 Sep 2026 08:39:03 +0900",
         "act": "watch",
         "lasting": "structural",
         "scope": null,
         "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
+        "by": "rules"
+      },
+      {
+        "title": "\"SK가스, 올해 실적 '상저하고' 전망\"-하나",
+        "link": "https://www.hankyung.com/article/2026092170636",
+        "source": "한국경제",
+        "date": "Mon, 21 Sep 2026 08:48:37 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "사흘만 장 열리는 코스피…미중 정상회담·미 금리 ‘촉각’",
+        "link": "https://www.mk.co.kr/news/stock/12157738",
+        "source": "매일경제",
+        "date": "Mon, 21 Sep 2026 08:04:34 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
     ],
@@ -460,11 +460,11 @@
         "by": "rules"
       },
       {
-        "title": "Dow Jones Futures Rise; Can The Market Take Flight? Robinhood, Sandisk, AMD, Moderna Surge Into Buy Areas",
-        "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-robinhood-sandisk-amd-moderna-surge-buy-areas/?src=A00220&yptr=yahoo",
+        "title": "Is Best Buy Stock Outperforming the Dow?",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/best-buy-stock-outperforming-dow-132723594.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-20T22:47:12Z",
-        "ko": "다우 존스 선물 상승; 시장은 비행을 취할 수 있습니까? Robinhood, Sandisk, AMD, Moderna 구매 지역으로의 서지",
+        "date": "2026-09-19T13:27:23Z",
+        "ko": "베스트 바이 주식이 다우지수를 능가하는가?",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -484,11 +484,11 @@
         "by": "rules"
       },
       {
-        "title": "Jim Cramer on Iron Mountain (IRM): “It’s Been an Incredible Stock”",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-iron-mountain-irm-215701602.html",
+        "title": "The Bond Market is Back. Here’s What TLT Bagholders Need to Know.",
+        "link": "https://finance.yahoo.com/markets/options/articles/bond-market-back-tlt-bagholders-131502737.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-20T21:57:01Z",
-        "ko": "아이언 마운틴 (IRM) 의 짐 크레이머 (Jim Cramer): \"놀라운 주식이었습니다\"",
+        "date": "2026-09-19T13:15:02Z",
+        "ko": "채권 시장이 돌아왔습니다. TLT 가방 소지자가 알아야 할 사항은 다음과 같습니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -2955,7 +2955,7 @@
       "2026-09-18": 1385.95,
       "2026-09-19": 1385,
       "2026-09-20": 1384.6,
-      "2026-09-21": 1385.52
+      "2026-09-21": 1386.28
     },
     "^GSPC": {
       "2026-09-09": 7636.36,
@@ -3386,8 +3386,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfFXUJYMzHWo3pFZ6FNih\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfFXUKJzmwWcmHvBuUYXs\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfFXUKxw6qB2fiHDJdwyU\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfFbvPh7QzaK9kQH9oWWj\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfFbvQq53bCTzRhpojr2t\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfFbvRTmqCvhnEeYgEKpn\"}"
   ]
 }
