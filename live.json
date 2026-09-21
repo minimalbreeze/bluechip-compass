@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-21T22:01:58.858Z",
+  "asOf": "2026-09-21T23:02:20.785Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-21T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1374.99,
-      "prev": 1384.6,
-      "chg": -0.69,
-      "prevDay": "2026-09-20",
-      "basis": "prev-close-memo",
-      "time": "2026-09-21T22:01:20.000Z"
+      "price": 1374.64,
+      "prev": 1384.8599853515625,
+      "chg": -0.74,
+      "prevDay": "2026-09-21",
+      "basis": "prev-close-bar",
+      "time": "2026-09-21T23:02:12.000Z"
     },
     "^GSPC": {
       "price": 7764.7,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.166
+    "pct": 0.165
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -14.59
     },
     "KRW=X": {
-      "last": 1374.99,
+      "last": 1374.64,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.166,
-      "chg3m": -11.09
+      "pct52": 0.165,
+      "chg3m": -11.11
     },
     "^GSPC": {
       "last": 7764.7,
@@ -379,13 +379,35 @@
         "by": "rules"
       },
       {
-        "title": "\"주가 곤두박칠 쳤었는데\"…이 종목 담은 개미들 '희소식' [종목+]",
-        "link": "https://www.hankyung.com/article/2026092184606",
+        "title": "AI 낙관론에 기술주 랠리…나스닥 사상 최고 [뉴욕증시 브리핑]",
+        "link": "https://www.hankyung.com/article/2026092295006",
         "source": "한국경제",
-        "date": "Tue, 22 Sep 2026 06:30:01 +0900",
+        "date": "Tue, 22 Sep 2026 07:01:01 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "“미·일 금리 더 간다 … 포트폴리오 재구성할 때”",
+        "link": "https://www.mk.co.kr/news/economy/12158584",
+        "source": "매일경제",
+        "date": "Tue, 22 Sep 2026 04:30:00 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "\"형님 믿고 수주 대박\"…이 주식, 내년 영업이익 1조 넘본다",
+        "link": "https://www.hankyung.com/article/202609219132i",
+        "source": "한국경제",
+        "date": "Tue, 22 Sep 2026 07:00:12 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -401,35 +423,13 @@
         "by": "rules"
       },
       {
-        "title": "제논·옵토닉스 등 2개사 코스닥 상장예심 통과",
-        "link": "https://www.yna.co.kr/view/AKR20260921169900008",
-        "source": "연합뉴스",
-        "date": "Mon, 21 Sep 2026 18:43:14 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "\"너무 뜨거운 것도 문제\"…한국 증시에 날아든 '뜻밖의 경고'",
-        "link": "https://www.hankyung.com/article/2026092192177",
+        "title": "메타 AI 에이전트 돌풍에…AMD '시총 1조달러' 첫 돌파",
+        "link": "https://www.hankyung.com/article/2026092294857",
         "source": "한국경제",
-        "date": "Mon, 21 Sep 2026 20:05:30 +0900",
+        "date": "Tue, 22 Sep 2026 06:55:18 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "“미·일 금리 더 간다 … 포트폴리오 재구성할 때”",
-        "link": "https://www.mk.co.kr/news/economy/12158584",
-        "source": "매일경제",
-        "date": "Tue, 22 Sep 2026 04:30:00 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -448,11 +448,11 @@
         "by": "rules"
       },
       {
-        "title": "AT&T’s stock looks like the smartest bet in the wireless sector, analyst says",
-        "link": "https://www.marketwatch.com/story/at-ts-stock-looks-like-the-smartest-bet-in-the-wireless-sector-analyst-says-6e773d63?mod=mw_rss_topstories",
+        "title": "Meta’s stock is enjoying its best month in 13 years thanks to the company’s hot new AI assistant",
+        "link": "https://www.marketwatch.com/story/metas-stock-is-enjoying-its-best-month-in-more-than-two-years-thanks-to-the-companys-hot-new-ai-assistant-bf106291?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 21 Sep 2026 21:57:00 GMT",
-        "ko": "AT&T의 주식은 무선 부문에서 가장 현명한 베팅처럼 보인다고 애널리스트는 말합니다.",
+        "date": "Mon, 21 Sep 2026 22:01:00 GMT",
+        "ko": "Meta의 주식은 회사의 새로운 인공지능 비서 덕분에 13년 만에 최고의 달을 누리고 있습니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -484,23 +484,23 @@
         "by": "rules"
       },
       {
-        "title": "As the S&P 500 nears a new record high, there are signs of weakness below the surface",
-        "link": "https://www.marketwatch.com/story/as-the-s-p-500-nears-a-new-record-high-there-are-cracks-below-the-surface-6df3e90d?mod=mw_rss_topstories",
+        "title": "AT&T’s stock looks like the smartest bet in the wireless sector, analyst says",
+        "link": "https://www.marketwatch.com/story/at-ts-stock-looks-like-the-smartest-bet-in-the-wireless-sector-analyst-says-6e773d63?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 21 Sep 2026 21:17:00 GMT",
-        "ko": "S&P 500이 사상 최고치를 경신함에 따라 표면 아래 약세 징후가 나타나고 있습니다.",
+        "date": "Mon, 21 Sep 2026 21:57:00 GMT",
+        "ko": "AT&T의 주식은 무선 부문에서 가장 현명한 베팅처럼 보인다고 애널리스트는 말합니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "How the 3M Stock Turnaround Is Happening Faster Than Expected",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/3m-stock-turnaround-happening-faster-131505697.html",
+        "title": "Nebius’s Price Hike Suggests Michael Burry Made a Mistake and Is Shorting the Best Neocloud Stock",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/nebius-price-hike-suggests-michael-142209026.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-20T13:15:05Z",
-        "ko": "3M 재고 처리 시간이 예상보다 빠르게 진행되는 방법",
+        "date": "2026-09-20T14:22:09Z",
+        "ko": "Nebius의 가격 인상은 Michael Burry가 실수를 저질렀으며 최고의 Neocloud 주식을 반감시키고 있다고 제안합니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -511,8 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "Is Targa Resources Stock Outperforming the S&P 500?": "Targa Resources Stock이 S&P 500을 능가합니까?",
-    "Adobe Stock is Dirt Cheap After Its Recent Results - What's the Best Way to Play ADBE?": "Adobe Stock은 최근 결과로 인해 비용이 저렴해졌습니다. ADBE를 플레이하는 가장 좋은 방법은 무엇입니까?",
     "Is M&T Bank Outperforming the Nasdaq?": "M&T 은행이 나스닥을 능가합니까?",
     "Nasdaq, Dow and S&P 500 Forecast: Markets Await the Fed": "나스닥, 다우지수 및 S&P 500 전망: 연준을 기다리는 시장",
     "Robinhood To Offer Share Redemptions And Voting Rights On Tokenized Stocks": "Robinhood, 토큰화 주식에 대한 주식 상환 및 투표권 제공",
@@ -810,7 +808,9 @@
     "Novo Nordisk’s stock tumbles as doubts persist about Ozempic maker’s strategy": "오젬픽 메이커의 전략에 대한 의구심이 지속되면서 노보 노르디스크의 주가가 폭락하고 있다.",
     "‘High on Coke’: Elon Musk stunned by Berkshire’s dividend payout. Learn how to build your own passive income stream now": "‘High on Coke’: 일론 머스크는 버크셔의 배당금에 놀랐습니다. 지금 나만의 수동적 소득 흐름을 구축하는 방법을 알아보세요.",
     "As the S&P 500 nears a new record high, there are signs of weakness below the surface": "S&P 500이 사상 최고치를 경신함에 따라 표면 아래 약세 징후가 나타나고 있습니다.",
-    "How the 3M Stock Turnaround Is Happening Faster Than Expected": "3M 재고 처리 시간이 예상보다 빠르게 진행되는 방법"
+    "How the 3M Stock Turnaround Is Happening Faster Than Expected": "3M 재고 처리 시간이 예상보다 빠르게 진행되는 방법",
+    "Meta’s stock is enjoying its best month in 13 years thanks to the company’s hot new AI assistant": "Meta의 주식은 회사의 새로운 인공지능 비서 덕분에 13년 만에 최고의 달을 누리고 있습니다.",
+    "Nebius’s Price Hike Suggests Michael Burry Made a Mistake and Is Shorting the Best Neocloud Stock": "Nebius의 가격 인상은 Michael Burry가 실수를 저질렀으며 최고의 Neocloud 주식을 반감시키고 있다고 제안합니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -2944,7 +2944,6 @@
       "2026-09-22": 836.27
     },
     "KRW=X": {
-      "2026-09-10": 1349.14,
       "2026-09-11": 1341.05,
       "2026-09-12": 1341.05,
       "2026-09-13": 1342.97,
@@ -2955,7 +2954,8 @@
       "2026-09-18": 1385.95,
       "2026-09-19": 1385,
       "2026-09-20": 1384.6,
-      "2026-09-21": 1374.99
+      "2026-09-21": 1374.99,
+      "2026-09-22": 1374.64
     },
     "^GSPC": {
       "2026-09-10": 7591.7,
@@ -3386,8 +3386,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfHLbs2eV73AGtcFxkMeT\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfHLbtFKUKTAdqzya2Cth\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfHLbtuW8axHy1QV72wJd\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfHRCrQt6ZeYgQ68gcF15\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfHRCsZq2m8dr4V6XyoMY\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfHRCtB3NQXQe5ATQrTux\"}"
   ]
 }
