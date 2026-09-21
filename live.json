@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-21T07:48:50.485Z",
+  "asOf": "2026-09-21T08:49:15.204Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-21T06:32:40.000Z"
     },
     "KRW=X": {
-      "price": 1377.48,
+      "price": 1370.89,
       "prev": 1384.6,
-      "chg": -0.51,
+      "chg": -0.99,
       "prevDay": "2026-09-20",
       "basis": "prev-close-memo",
-      "time": "2026-09-21T07:48:40.000Z"
+      "time": "2026-09-21T08:49:07.000Z"
     },
     "^GSPC": {
       "price": 7650.5,
@@ -43,12 +43,12 @@
       "time": "2026-09-18T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 14.95,
+      "price": 14.91,
       "prev": 14.81,
-      "chg": 0.95,
+      "chg": 0.68,
       "prevDay": "2026-09-20",
       "basis": "prev-close-memo",
-      "time": "2026-09-21T07:33:31.000Z"
+      "time": "2026-09-21T08:34:01.000Z"
     },
     "^TNX": {
       "price": 4.998,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.178
+    "pct": 0.147
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -6.2
     },
     "KRW=X": {
-      "last": 1377.48,
+      "last": 1370.89,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.178,
-      "chg3m": -10.71
+      "pct52": 0.147,
+      "chg3m": -11.14
     },
     "^GSPC": {
       "last": 7650.5,
@@ -101,11 +101,11 @@
       "chg3m": 1.36
     },
     "^VIX": {
-      "last": 14.95,
+      "last": 14.91,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.084,
-      "chg3m": -19.75
+      "pct52": 0.082,
+      "chg3m": -19.97
     },
     "^TNX": {
       "last": 5,
@@ -368,10 +368,21 @@
   "news": {
     "kr": [
       {
-        "title": "익산시, '반도체 소부장 특화단지' 훈풍 타고 기업 유치 총력",
-        "link": "https://www.yna.co.kr/view/AKR20260921148200055",
+        "title": "국고채 금리 대체로 상승…초단기·5년물 약세(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260921149851008",
         "source": "연합뉴스",
-        "date": "Mon, 21 Sep 2026 16:38:04 +0900",
+        "date": "Mon, 21 Sep 2026 17:01:21 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "증권주 올랐는데 목표가는 '뚝'…증권가에 무슨 일이",
+        "link": "https://www.hankyung.com/article/202609218700i",
+        "source": "한국경제",
+        "date": "Mon, 21 Sep 2026 17:06:17 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -379,10 +390,32 @@
         "by": "rules"
       },
       {
-        "title": "AI 데이터센터·해저케이블 품은 KT…\"주가 재평가 기대”",
-        "link": "https://www.hankyung.com/article/202609218284i",
+        "title": "[단독] 5년간 공시의무 위반 사례 600건 넘어…이중 75%는 비상장사",
+        "link": "https://www.mk.co.kr/news/stock/12158485",
+        "source": "매일경제",
+        "date": "Mon, 21 Sep 2026 17:34:26 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "국고채 금리 대체로 상승…3년물 연 4.056%",
+        "link": "https://www.yna.co.kr/view/AKR20260921149800008",
+        "source": "연합뉴스",
+        "date": "Mon, 21 Sep 2026 16:49:06 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "\"드디어 반등하나\"…'국내서 유일' 증권가 주목하는 종목",
+        "link": "https://www.hankyung.com/article/202609218600i",
         "source": "한국경제",
-        "date": "Mon, 21 Sep 2026 15:57:16 +0900",
+        "date": "Mon, 21 Sep 2026 16:40:26 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -397,39 +430,6 @@
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "코스피, 국내외 호재에 '7천피' 탈환…7,007.72 마감(종합)",
-        "link": "https://www.yna.co.kr/view/AKR20260921132551008",
-        "source": "연합뉴스",
-        "date": "Mon, 21 Sep 2026 16:37:21 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "SK하이닉스 ADR, 이제 원화로 투자한다…KODEX 미국반도체 편입",
-        "link": "https://www.hankyung.com/article/202609218539i",
-        "source": "한국경제",
-        "date": "Mon, 21 Sep 2026 15:51:24 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "과도한 신용·미수거래 유도…금감원 “증권사 배만 불리는 영업행태”",
-        "link": "https://www.mk.co.kr/news/stock/12158317",
-        "source": "매일경제",
-        "date": "Mon, 21 Sep 2026 16:01:12 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -460,11 +460,11 @@
         "by": "rules"
       },
       {
-        "title": "Prudential (PRU) Is Leaving Emerging Markets, And This $185M Sale Proves It",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/prudential-pru-leaving-emerging-markets-201350497.html",
+        "title": "Can Max Turn AI Adoption into Continued Growth for ServiceTitan (TTAN) Stock?",
+        "link": "https://finance.yahoo.com/technology/ai/articles/max-turn-ai-adoption-continued-020418395.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-19T20:13:50Z",
-        "ko": "Prudential (PRU) 은 신흥 시장을 떠날 것이며, 이 $185M 판매는 그것을 증명합니다.",
+        "date": "2026-09-20T02:04:18Z",
+        "ko": "TTAN (ServiceTitan) 주식에 대한 AI 채택을 계속 성장으로 바꿀 수 있습니까?",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -484,11 +484,11 @@
         "by": "rules"
       },
       {
-        "title": "Ferguson (FERG) Keeps Beating a Housing Market That Refuses to Cooperate",
-        "link": "https://finance.yahoo.com/real-estate/articles/ferguson-ferg-keeps-beating-housing-195513837.html",
+        "title": "Re-Energized EV Market Grapples With Growing Drain on Profitability",
+        "link": "https://finance.yahoo.com/markets/commodities/articles/energized-ev-market-grapples-growing-040100779.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-19T19:55:13Z",
-        "ko": "퍼거슨 (퍼그) 이 협력을 거부하는 주택 시장을 계속 이기고 있다.",
+        "date": "2026-09-20T04:01:00Z",
+        "ko": "재에너지 전기차 시장, 수익성 하락세와 맞물려",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -511,8 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "Micron’s stock could climb 70% higher thanks to a factor that’s been largely absent so far": "마이크론의 주가는 지금까지 크게 부재한 요인 덕분에 70% 더 상승할 수 있었다.",
-    "Gold Falls Below $4,300 as Dollar and Treasury Yields Rise Ahead of Fed Decision": "달러 및 국채 수익률이 연준 결정에 앞서 상승함에 따라 금이 $4,300 아래로 떨어짐",
     "The smartest money moves to make now that interest rates are going higher": "이자율이 높아지는 지금, 가장 현명한 자금이 움직입니다.",
     "Chip Stocks Mixed After Monday Rout": "월요일 경로 이후 혼합된 칩 재고",
     "Herbalife (HLF) Bets $250M On Its Own Battered Stock": "허벌라이프 (HLF) 는 자체 타격 주식에 $250M를 베팅합니다",
@@ -810,7 +808,9 @@
     "No Degree, No Problem: Why the Job Market Is Booming for Americans Without College Degrees": "학위 없음, 문제 없음: 대학 학위가 없는 미국인에게 취업 시장이 호황을 누리는 이유",
     "MediaTek Is Stepping Up Competition Against Qualcomm With a New 2-Nanometer Chip. What This Means for QCOM Stock.": "MediaTek은 새로운 2나노미터 칩으로 Qualcomm과의 경쟁을 강화하고 있습니다. QCOM 주식에 대한 의미.",
     "Jim Cramer Suggests Avoiding Redwire (RDW) In A Rate Tightening Cycle": "짐 크레이머 (Jim Cramer) 는 속도 강화 사이클에서 Redwire (RDW) 를 피할 것을 제안합니다.",
-    "Nasdaq (NDAQ) Just Made It Harder For Crypto Criminals To Hide": "Nasdaq (NDAQ) 은 암호 범죄자가 숨기는 것을 더 어렵게 만들었습니다"
+    "Nasdaq (NDAQ) Just Made It Harder For Crypto Criminals To Hide": "Nasdaq (NDAQ) 은 암호 범죄자가 숨기는 것을 더 어렵게 만들었습니다",
+    "Can Max Turn AI Adoption into Continued Growth for ServiceTitan (TTAN) Stock?": "TTAN (ServiceTitan) 주식에 대한 AI 채택을 계속 성장으로 바꿀 수 있습니까?",
+    "Re-Energized EV Market Grapples With Growing Drain on Profitability": "재에너지 전기차 시장, 수익성 하락세와 맞물려"
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -2955,7 +2955,7 @@
       "2026-09-18": 1385.95,
       "2026-09-19": 1385,
       "2026-09-20": 1384.6,
-      "2026-09-21": 1377.48
+      "2026-09-21": 1370.89
     },
     "^GSPC": {
       "2026-09-10": 7591.7,
@@ -2997,7 +2997,7 @@
       "2026-09-18": 14.81,
       "2026-09-19": 14.81,
       "2026-09-20": 14.81,
-      "2026-09-21": 14.95
+      "2026-09-21": 14.91
     },
     "^TNX": {
       "2026-09-10": 4.944,
@@ -3386,8 +3386,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfGDYYiAwvc6oZgG9rxoA\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfGDYZmRDWTH8DsdVz1Bq\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfGDYanSQVmHFDVz4A9AB\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfGJ9jhuJyJnPJRNfsRM5\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfGJ9m7jcUmsAyWwLfwgr\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfGJ9mof2jFojfcZSF4HZ\"}"
   ]
 }
