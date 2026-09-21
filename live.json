@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-21T00:01:41.198Z",
+  "asOf": "2026-09-21T00:12:08.123Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-18T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1386.28,
+      "price": 1385.98,
       "prev": 1384.6,
-      "chg": 0.12,
+      "chg": 0.1,
       "prevDay": "2026-09-20",
       "basis": "prev-close-memo",
-      "time": "2026-09-21T00:01:35.000Z"
+      "time": "2026-09-21T00:11:59.000Z"
     },
     "^GSPC": {
       "price": 7650.5,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.221
+    "pct": 0.217
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -14.59
     },
     "KRW=X": {
-      "last": 1386.78,
+      "last": 1385.98,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.221,
-      "chg3m": -10.11
+      "pct52": 0.217,
+      "chg3m": -10.16
     },
     "^GSPC": {
       "last": 7650.5,
@@ -368,13 +368,13 @@
   "news": {
     "kr": [
       {
-        "title": "한투증권, 코스맥스 목표가↑…\"3분기 실적 시장 기대 부합\"",
-        "link": "https://www.yna.co.kr/view/AKR20260921023600008",
+        "title": "[속보] 코스피, 장중 7천피 회복…7,002.30",
+        "link": "https://www.yna.co.kr/view/AKR20260921033400008",
         "source": "연합뉴스",
-        "date": "Mon, 21 Sep 2026 08:41:34 +0900",
+        "date": "Mon, 21 Sep 2026 09:06:55 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -401,14 +401,14 @@
         "by": "rules"
       },
       {
-        "title": "IBK증권, 알테오젠 기업분석 개시…\"장기특허 독점효과 확대\"",
-        "link": "https://www.yna.co.kr/view/AKR20260921019900008",
+        "title": "[게시판] 키움증권, 금감원·구세군과 함께 추석 나눔",
+        "link": "https://www.yna.co.kr/view/AKR20260921030400008",
         "source": "연합뉴스",
-        "date": "Mon, 21 Sep 2026 08:39:03 +0900",
-        "act": "watch",
-        "lasting": "structural",
+        "date": "Mon, 21 Sep 2026 09:02:32 +0900",
+        "act": "none",
+        "lasting": "temporary",
         "scope": null,
-        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
@@ -2955,7 +2955,7 @@
       "2026-09-18": 1385.95,
       "2026-09-19": 1385,
       "2026-09-20": 1384.6,
-      "2026-09-21": 1386.28
+      "2026-09-21": 1385.98
     },
     "^GSPC": {
       "2026-09-09": 7636.36,
@@ -3386,8 +3386,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfFbvPh7QzaK9kQH9oWWj\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfFbvQq53bCTzRhpojr2t\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfFbvRTmqCvhnEeYgEKpn\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfFcibsd1JxESLw6TjrkR\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfFcid7YKX2eS2Li5H8X8\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfFcidkjN4qYgjNoMPFdy\"}"
   ]
 }
