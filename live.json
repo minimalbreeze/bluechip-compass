@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-22T08:42:11.889Z",
+  "asOf": "2026-09-22T09:42:39.400Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-22T06:33:00.000Z"
     },
     "KRW=X": {
-      "price": 1356.88,
+      "price": 1357.26,
       "prev": 1384.8599853515625,
-      "chg": -2.02,
+      "chg": -1.99,
       "prevDay": "2026-09-21",
       "basis": "prev-close-bar",
-      "time": "2026-09-22T08:42:01.000Z"
+      "time": "2026-09-22T09:42:29.000Z"
     },
     "^GSPC": {
       "price": 7764.7,
@@ -43,12 +43,12 @@
       "time": "2026-09-21T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 14.9,
+      "price": 14.89,
       "prev": 14.869999885559082,
-      "chg": 0.2,
+      "chg": 0.13,
       "prevDay": "2026-09-21",
       "basis": "prev-close-bar",
-      "time": "2026-09-22T08:27:01.000Z"
+      "time": "2026-09-22T09:27:16.000Z"
     },
     "^TNX": {
       "price": 4.963,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.082
+    "pct": 0.084
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -8.24
     },
     "KRW=X": {
-      "last": 1356.88,
+      "last": 1357.26,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.082,
-      "chg3m": -12.26
+      "pct52": 0.084,
+      "chg3m": -12.24
     },
     "^GSPC": {
       "last": 7764.7,
@@ -101,11 +101,11 @@
       "chg3m": 6
     },
     "^VIX": {
-      "last": 14.9,
+      "last": 14.89,
       "low52": 13.47,
       "high52": 31.05,
       "pct52": 0.081,
-      "chg3m": -21.12
+      "chg3m": -21.18
     },
     "^TNX": {
       "last": 4.96,
@@ -368,21 +368,10 @@
   "news": {
     "kr": [
       {
-        "title": "유가 변동에 국고채 금리 혼조세…3년물 연 4.040%(종합)",
-        "link": "https://www.yna.co.kr/view/AKR20260922168651008",
+        "title": "셀리드, 30억원 유상증자…센트러스트투자조합 등에 3자 배정",
+        "link": "https://www.yna.co.kr/view/AKR20260922182600008",
         "source": "연합뉴스",
-        "date": "Tue, 22 Sep 2026 17:02:36 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "서학개미 몰리는 반도체 3배 ETF 'SOXL'…SK하이닉스 담았다",
-        "link": "https://www.hankyung.com/article/202609221491i",
-        "source": "한국경제",
-        "date": "Tue, 22 Sep 2026 16:42:49 +0900",
+        "date": "Tue, 22 Sep 2026 18:29:50 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -390,10 +379,10 @@
         "by": "rules"
       },
       {
-        "title": "미래에셋증권, CIIS 선정 ‘플래티넘 정보제공사 어워드’ 수상",
-        "link": "https://www.mk.co.kr/news/stock/12159491",
-        "source": "매일경제",
-        "date": "Tue, 22 Sep 2026 16:29:42 +09:00",
+        "title": "AI신약 개발 아이앰빅 뉴욕 증시 IPO 신청",
+        "link": "https://www.hankyung.com/article/2026092217151",
+        "source": "한국경제",
+        "date": "Tue, 22 Sep 2026 18:02:30 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -401,35 +390,46 @@
         "by": "rules"
       },
       {
-        "title": "국고채 금리 혼조세…3년물 연 4.040%",
-        "link": "https://www.yna.co.kr/view/AKR20260922168600008",
-        "source": "연합뉴스",
-        "date": "Tue, 22 Sep 2026 16:57:02 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "\"이틀밖에 안 남았다\"...사흘째 상승한 삼전, 3분기 배당 어떻길래?",
-        "link": "https://www.hankyung.com/article/202609221020i",
-        "source": "한국경제",
-        "date": "Tue, 22 Sep 2026 16:40:26 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "AI 훈풍에도 ‘팔자’에 뒷심 떨어진 코스피…SK하이닉스 하락 마감",
-        "link": "https://www.mk.co.kr/news/stock/12159472",
+        "title": "“미·일 금리 더 간다…포트폴리오 재구성할 때” [딥 머니 토크]",
+        "link": "https://www.mk.co.kr/news/world/12159721",
         "source": "매일경제",
-        "date": "Tue, 22 Sep 2026 16:10:21 +09:00",
+        "date": "Tue, 22 Sep 2026 18:27:17 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "우버, 배민 인수 본격화…공정위, 기업결합 사전심사 개시(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260922122051002",
+        "source": "연합뉴스",
+        "date": "Tue, 22 Sep 2026 17:39:31 +0900",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": null,
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
+        "by": "rules"
+      },
+      {
+        "title": "美반도체주 급등에도…7천피 겨우 지킨 코스피",
+        "link": "https://www.hankyung.com/article/2026092217351",
+        "source": "한국경제",
+        "date": "Tue, 22 Sep 2026 18:00:34 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "한국투자증권, 찾아가는 ‘연금 스테이션 팝업’ 런칭",
+        "link": "https://www.mk.co.kr/news/stock/12159711",
+        "source": "매일경제",
+        "date": "Tue, 22 Sep 2026 18:12:52 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -448,14 +448,14 @@
         "by": "rules"
       },
       {
-        "title": "Meta’s stock is enjoying its best month in 13 years thanks to the company’s hot new AI assistant",
-        "link": "https://www.marketwatch.com/story/metas-stock-is-enjoying-its-best-month-in-more-than-two-years-thanks-to-the-companys-hot-new-ai-assistant-bf106291?mod=mw_rss_topstories",
+        "title": "What this machine-learning model with 65% accuracy says is coming next for the 10-year Treasury",
+        "link": "https://www.marketwatch.com/story/what-this-machine-learning-model-with-65-accuracy-says-is-coming-next-for-the-10-year-treasury-55d76b8f?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 21 Sep 2026 22:01:00 GMT",
-        "ko": "Meta의 주식은 회사의 새로운 인공지능 비서 덕분에 13년 만에 최고의 달을 누리고 있습니다.",
+        "date": "Tue, 22 Sep 2026 09:23:00 GMT",
+        "ko": "65% 의 정확도를 갖춘 이 기계 학습 모델이 말하는 것은 10년 재무부의 다음 단계입니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -484,11 +484,11 @@
         "by": "rules"
       },
       {
-        "title": "AT&T’s stock looks like the smartest bet in the wireless sector, analyst says",
-        "link": "https://www.marketwatch.com/story/at-ts-stock-looks-like-the-smartest-bet-in-the-wireless-sector-analyst-says-6e773d63?mod=mw_rss_topstories",
+        "title": "Meta’s stock is enjoying its best month in 13 years thanks to the company’s hot new AI assistant",
+        "link": "https://www.marketwatch.com/story/metas-stock-is-enjoying-its-best-month-in-more-than-two-years-thanks-to-the-companys-hot-new-ai-assistant-bf106291?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 21 Sep 2026 21:57:00 GMT",
-        "ko": "AT&T의 주식은 무선 부문에서 가장 현명한 베팅처럼 보인다고 애널리스트는 말합니다.",
+        "date": "Mon, 21 Sep 2026 22:01:00 GMT",
+        "ko": "Meta의 주식은 회사의 새로운 인공지능 비서 덕분에 13년 만에 최고의 달을 누리고 있습니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -496,11 +496,11 @@
         "by": "rules"
       },
       {
-        "title": "The AI Slowdown Trade Has Some Winners: CrowdStrike and Palo Alto Rally While Chips Fall",
-        "link": "https://finance.yahoo.com/technology/ai/articles/ai-slowdown-trade-winners-crowdstrike-212311977.html",
+        "title": "Stock market today: Nasdaq, Dow and S&P 500 little changed as AI trade powers market",
+        "link": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-september-22-nasdaq-dow-sp-500-080625961.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-20T21:23:11Z",
-        "ko": "AI 둔화 무역에는 몇 가지 승자가 있습니다: 칩이 떨어지는 동안 CrowdStrike 및 Palo Alto Rally",
+        "date": "2026-09-22T08:06:25Z",
+        "ko": "오늘날의 주식 시장: 나스닥, 다우 및 S&P 500은 AI 거래가 시장을 주도함에 따라 거의 변하지 않았습니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -511,8 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "Dear Lennar Stock Fans, Mark Your Calendars for September 16": "친애하는 Lennar Stock 팬 여러분, 9월 16일 달력에 표시하세요",
-    "Radiant Logistics sees double-digit growth in FQ4, shares up 16%": "레이디언트 로지스틱스 (Radiant Logistics) 는 FQ4에서 두 자릿수 성장을 보였으며, 16% 의 점유",
     "Qualcomm Just Got a ‘Foothold’ in the AI Data Center Race. How to Play QCOM Stock Here.": "퀄컴은 AI 데이터 센터 레이스에서 ‘발판’ 을 마련했습니다. 여기에서 QCOM 주식을 재생하는 방법.",
     "Is Equifax Stock Outperforming the Dow?": "Equifax 주식이 DOW를 능가합니까?",
     "How Is Global Payments' Stock Performance Compared to Other Industrial Stocks?": "글로벌 결제의 주식 실적은 다른 산업 주식과 어떻게 비교됩니까?",
@@ -810,7 +808,9 @@
     "Domino's Pizza Stock Is Dirt Cheap, With 30% Potential Upside - What's the Best Play?": "도미노 피자 스톡은 30% 의 잠재력을 가진 흙이 저렴합니다 - 최고의 플레이는 무엇입니까?",
     "AVAX Eyes 90% Price Rally As Wall Street Tests Avalanche for 24/7 Tokenized Trading": "월스트리트가 연중무휴 토큰화된 거래를 위해 눈사태를 테스트함에 따라 AVAX Eyes 90% 가격 랠리",
     "CoreWeave Rises After Going Live With Vera Rubin Racks. What This Means for CRWV Stock.": "CoreWeave는 Vera Rubin 랙과 함께 라이브를 한 후 상승합니다. CRWV 주식에 대한 의미.",
-    "Apple Wants to Enter the AI Inference Market. It Will Have to Swallow Its Pride First.": "Apple은 AI 추론 시장에 진입하기를 원합니다. 자존심을 먼저 삼켜야 할 것이다."
+    "Apple Wants to Enter the AI Inference Market. It Will Have to Swallow Its Pride First.": "Apple은 AI 추론 시장에 진입하기를 원합니다. 자존심을 먼저 삼켜야 할 것이다.",
+    "What this machine-learning model with 65% accuracy says is coming next for the 10-year Treasury": "65% 의 정확도를 갖춘 이 기계 학습 모델이 말하는 것은 10년 재무부의 다음 단계입니다.",
+    "Stock market today: Nasdaq, Dow and S&P 500 little changed as AI trade powers market": "오늘날의 주식 시장: 나스닥, 다우 및 S&P 500은 AI 거래가 시장을 주도함에 따라 거의 변하지 않았습니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -2955,7 +2955,7 @@
       "2026-09-19": 1385,
       "2026-09-20": 1384.6,
       "2026-09-21": 1374.99,
-      "2026-09-22": 1356.88
+      "2026-09-22": 1357.26
     },
     "^GSPC": {
       "2026-09-11": 7656.98,
@@ -2997,7 +2997,7 @@
       "2026-09-19": 14.81,
       "2026-09-20": 14.81,
       "2026-09-21": 14.87,
-      "2026-09-22": 14.9
+      "2026-09-22": 14.89
     },
     "^TNX": {
       "2026-09-11": 4.975,
@@ -3386,8 +3386,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfJBRT4vFYMsCNAvrWt4d\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfJBRUM4exVhG3ttAW7Rw\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfJBRV2F5jN6rv28jzJNC\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfJG2rRoMqBitYUKywtLB\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfJG2sb16GxyB4pxL8WhB\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfJG2tJuPqnqPs6ur1vtU\"}"
   ]
 }
