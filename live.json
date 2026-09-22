@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-21T23:02:20.785Z",
+  "asOf": "2026-09-22T00:01:45.952Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-21T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1374.64,
+      "price": 1373.68,
       "prev": 1384.8599853515625,
-      "chg": -0.74,
+      "chg": -0.81,
       "prevDay": "2026-09-21",
       "basis": "prev-close-bar",
-      "time": "2026-09-21T23:02:12.000Z"
+      "time": "2026-09-22T00:01:37.000Z"
     },
     "^GSPC": {
       "price": 7764.7,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.165
+    "pct": 0.16
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -14.59
     },
     "KRW=X": {
-      "last": 1374.64,
+      "last": 1373.68,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.165,
-      "chg3m": -11.11
+      "pct52": 0.16,
+      "chg3m": -11.17
     },
     "^GSPC": {
       "last": 7764.7,
@@ -368,43 +368,21 @@
   "news": {
     "kr": [
       {
-        "title": "셀리드, 100억원 유상증자…휴니버스글로벌에 제3자배정",
-        "link": "https://www.yna.co.kr/view/AKR20260921171600008",
+        "title": "KB증권 \"삼성전자 HBM 증설로 범용 D램 공급 부족 장기화\"",
+        "link": "https://www.yna.co.kr/view/AKR20260922028200008",
         "source": "연합뉴스",
-        "date": "Mon, 21 Sep 2026 18:48:30 +0900",
-        "act": "none",
-        "lasting": "temporary",
+        "date": "Tue, 22 Sep 2026 08:53:29 +0900",
+        "act": "watch",
+        "lasting": "structural",
         "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
         "by": "rules"
       },
       {
-        "title": "AI 낙관론에 기술주 랠리…나스닥 사상 최고 [뉴욕증시 브리핑]",
-        "link": "https://www.hankyung.com/article/2026092295006",
+        "title": "디지털대성, 55억원 규모 자사주 소각…\"주주환원 정책 지속\"",
+        "link": "https://www.hankyung.com/article/2026092297336",
         "source": "한국경제",
-        "date": "Tue, 22 Sep 2026 07:01:01 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "“미·일 금리 더 간다 … 포트폴리오 재구성할 때”",
-        "link": "https://www.mk.co.kr/news/economy/12158584",
-        "source": "매일경제",
-        "date": "Tue, 22 Sep 2026 04:30:00 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "\"형님 믿고 수주 대박\"…이 주식, 내년 영업이익 1조 넘본다",
-        "link": "https://www.hankyung.com/article/202609219132i",
-        "source": "한국경제",
-        "date": "Tue, 22 Sep 2026 07:00:12 +0900",
+        "date": "Tue, 22 Sep 2026 08:34:11 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
@@ -412,10 +390,21 @@
         "by": "rules"
       },
       {
-        "title": "“5%대 금리에 증시 무너질까?” … 60년 데이터 뜯어보니 의외의 결과",
-        "link": "https://www.mk.co.kr/news/stock/12158451",
+        "title": "NH투자증권 “KCC, 실리콘 사업 실적 개선…주주환원 확대도 긍정적”",
+        "link": "https://www.mk.co.kr/news/stock/12158870",
         "source": "매일경제",
-        "date": "Tue, 22 Sep 2026 04:30:00 +09:00",
+        "date": "Tue, 22 Sep 2026 08:53:52 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "메리츠증권 \"美 금리인상, AI 투자 부채부담 키워…경착륙 위험\"",
+        "link": "https://www.yna.co.kr/view/AKR20260922028500008",
+        "source": "연합뉴스",
+        "date": "Tue, 22 Sep 2026 08:39:54 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -423,10 +412,21 @@
         "by": "rules"
       },
       {
-        "title": "메타 AI 에이전트 돌풍에…AMD '시총 1조달러' 첫 돌파",
-        "link": "https://www.hankyung.com/article/2026092294857",
+        "title": "한 달 새 74% 뛰었다…SFA반도체, 삼전 업고 '불기둥' [종목+]",
+        "link": "https://www.hankyung.com/article/2026092296626",
         "source": "한국경제",
-        "date": "Tue, 22 Sep 2026 06:55:18 +0900",
+        "date": "Tue, 22 Sep 2026 08:27:03 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "대신증권, 삼전 목표가 56만원 제시 “구매가격 예상치 상회” [오늘 나온 보고서]",
+        "link": "https://www.mk.co.kr/news/stock/12158866",
+        "source": "매일경제",
+        "date": "Tue, 22 Sep 2026 08:50:34 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -496,11 +496,11 @@
         "by": "rules"
       },
       {
-        "title": "Nebius’s Price Hike Suggests Michael Burry Made a Mistake and Is Shorting the Best Neocloud Stock",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/nebius-price-hike-suggests-michael-142209026.html",
+        "title": "Morgan Stanley Sees More Fuel for Valero’s (VLO) Rally",
+        "link": "https://finance.yahoo.com/energy/articles/morgan-stanley-sees-more-fuel-153825351.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-20T14:22:09Z",
-        "ko": "Nebius의 가격 인상은 Michael Burry가 실수를 저질렀으며 최고의 Neocloud 주식을 반감시키고 있다고 제안합니다.",
+        "date": "2026-09-20T15:38:25Z",
+        "ko": "모건 스탠리는 발레로 (VLO) 랠리에 더 많은 연료를 공급합니다",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -2955,7 +2955,7 @@
       "2026-09-19": 1385,
       "2026-09-20": 1384.6,
       "2026-09-21": 1374.99,
-      "2026-09-22": 1374.64
+      "2026-09-22": 1373.68
     },
     "^GSPC": {
       "2026-09-10": 7591.7,
@@ -3386,8 +3386,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfHRCrQt6ZeYgQ68gcF15\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfHRCsZq2m8dr4V6XyoMY\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfHRCtB3NQXQe5ATQrTux\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfHVjf2MNgr2suiRZrjUj\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfHVjg5bj5iNWcJhRHWqn\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfHVjgokw5hbqpAZdYyyA\"}"
   ]
 }
