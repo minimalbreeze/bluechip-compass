@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-23T08:49:28.081Z",
+  "asOf": "2026-09-23T09:49:57.429Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-23T06:32:50.000Z"
     },
     "KRW=X": {
-      "price": 1363.19,
+      "price": 1364.28,
       "prev": 1373.6800537109375,
-      "chg": -0.76,
+      "chg": -0.68,
       "prevDay": "2026-09-22",
       "basis": "prev-close-bar",
-      "time": "2026-09-23T08:49:14.000Z"
+      "time": "2026-09-23T09:49:46.000Z"
     },
     "^GSPC": {
       "price": 7764.64,
@@ -43,12 +43,12 @@
       "time": "2026-09-22T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 14.15,
+      "price": 14.14,
       "prev": 14.21,
-      "chg": -0.42,
+      "chg": -0.49,
       "prevDay": "2026-09-22",
       "basis": "prev-close-memo",
-      "time": "2026-09-23T08:34:16.000Z"
+      "time": "2026-09-23T09:34:46.000Z"
     },
     "^TNX": {
       "price": 4.968,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.112
+    "pct": 0.115
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -7.13
     },
     "KRW=X": {
-      "last": 1363.19,
+      "last": 1363.88,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.112,
-      "chg3m": -11.21
+      "pct52": 0.115,
+      "chg3m": -11.16
     },
     "^GSPC": {
       "last": 7764.7,
@@ -101,11 +101,11 @@
       "chg3m": 6
     },
     "^VIX": {
-      "last": 14.15,
+      "last": 14.14,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.039,
-      "chg3m": -25.09
+      "pct52": 0.038,
+      "chg3m": -25.15
     },
     "^TNX": {
       "last": 4.96,
@@ -368,6 +368,39 @@
   "news": {
     "kr": [
       {
+        "title": "케이쓰리아이, 30억 제3자배정 유상증자",
+        "link": "https://www.yna.co.kr/view/AKR20260923183100008",
+        "source": "연합뉴스",
+        "date": "Wed, 23 Sep 2026 18:33:19 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "코스피 7000선 되찾자…'증시 대기자금'도 100조원대 회복",
+        "link": "https://www.hankyung.com/article/2026092342797",
+        "source": "한국경제",
+        "date": "Wed, 23 Sep 2026 18:12:09 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "‘당신이 잠든 사이’ 19조원짜리 대박 나왔다…메타의 ‘뮤즈’가 코스피도 깨울까[플러스 관심종목]",
+        "link": "https://www.mk.co.kr/news/stock/12160573",
+        "source": "매일경제",
+        "date": "Wed, 23 Sep 2026 17:55:29 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
         "title": "국고채 금리 유가 하락에 동반 하락…3년물 연 4.006%(종합)",
         "link": "https://www.yna.co.kr/view/AKR20260923163051008",
         "source": "연합뉴스",
@@ -379,54 +412,21 @@
         "by": "rules"
       },
       {
-        "title": "[단독] 액면병합 후 외국인 지분 '0'…넉 달간 수급정보 오류 발생",
-        "link": "https://www.hankyung.com/article/2026092339801",
+        "title": "리미트리스 CEO \"韓, 스포츠 베팅 제외한 기관용 예측시장 도입하자\"",
+        "link": "https://www.hankyung.com/article/2026092342396",
         "source": "한국경제",
-        "date": "Wed, 23 Sep 2026 17:24:10 +0900",
+        "date": "Wed, 23 Sep 2026 17:55:21 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "“트럼프·시진핑 만나는데 삼전닉스는 왜 오르죠?”…주요 의제 AI에 반도체 주목",
-        "link": "https://www.mk.co.kr/news/stock/12160528",
+        "title": "“금리·유가 불안 낮아져…外人 매수 원톱은 반도체”[머니닥터 시장진단]",
+        "link": "https://www.mk.co.kr/news/stock/12160571",
         "source": "매일경제",
-        "date": "Wed, 23 Sep 2026 16:20:18 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "국고채 금리 일제히 하락…3년물 연 4.006%",
-        "link": "https://www.yna.co.kr/view/AKR20260923163000008",
-        "source": "연합뉴스",
-        "date": "Wed, 23 Sep 2026 16:47:52 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "메리츠증권, 발행어음 사업 최종 인가 받았다",
-        "link": "https://www.hankyung.com/article/202609234132i",
-        "source": "한국경제",
-        "date": "Wed, 23 Sep 2026 16:43:26 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "개인 4일째 10조 팔아치우며 코스피 이틀 연속 '전강후약'",
-        "link": "https://www.mk.co.kr/news/stock/12160490",
-        "source": "매일경제",
-        "date": "Wed, 23 Sep 2026 16:02:41 +09:00",
+        "date": "Wed, 23 Sep 2026 17:52:24 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -448,11 +448,11 @@
         "by": "rules"
       },
       {
-        "title": "This oil giant has lagged its leading rivals through two energy crises. Now one Wall Street giant says it’s time to buy.",
-        "link": "https://www.marketwatch.com/story/this-oil-giant-has-lagged-its-leading-rivals-through-two-energy-crises-now-one-wall-street-giant-says-its-time-to-buy-987838c3?mod=mw_rss_topstories",
+        "title": "Here are the hidden flaws in Warsh’s new way of tracking inflation",
+        "link": "https://www.marketwatch.com/story/here-are-the-hidden-flaws-in-warshs-new-way-of-tracking-inflation-fb7939de?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Wed, 23 Sep 2026 08:24:00 GMT",
-        "ko": "이 석유 대기업은 두 번의 에너지 위기를 통해 주요 라이벌에게 뒤떨어졌습니다. 이제 한 월스트리트 거인이 구매할 때가 되었다고 말합니다.",
+        "date": "Wed, 23 Sep 2026 09:28:00 GMT",
+        "ko": "Warsh의 새로운 인플레이션 추적 방법의 숨겨진 결함은 다음과 같습니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -484,26 +484,26 @@
         "by": "rules"
       },
       {
-        "title": "The Nasdaq’s rapid rise to a record is sending a message to investors: Don’t wait for a pullback to buy",
-        "link": "https://www.marketwatch.com/story/the-nasdaqs-rapid-rise-to-a-record-is-sending-a-message-to-investors-dont-wait-for-a-pullback-to-buy-5f533ed8?mod=mw_rss_topstories",
+        "title": "Softbank’s mega junk-bond deal shows capital for the AI race is getting more expensive",
+        "link": "https://www.marketwatch.com/story/softbanks-mega-junk-bond-deal-shows-capital-for-the-ai-race-is-getting-more-expensive-9eb3fa28?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Tue, 22 Sep 2026 21:44:00 GMT",
-        "ko": "나스닥의 급속한 기록 상승은 투자자들에게 다음과 같은 메시지를 보내고 있습니다. 매수 철회를 기다리지 마십시오.",
+        "date": "Wed, 23 Sep 2026 08:56:00 GMT",
+        "ko": "소프트뱅크의 대규모 정크본드 거래는 인공지능 경쟁을 위한 자본이 점점 더 비싸지고 있음을 보여준다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "How to Play CrowdStrike Stock at All-Time Highs",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/play-crowdstrike-stock-time-highs-205405169.html",
+        "title": "Weekly survey of mortgage lenders with the lowest rates: Sub-6% rates disappearing",
+        "link": "https://finance.yahoo.com/personal-finance/mortgages/article/weekly-survey-mortgage-lenders-with-the-best-lowest-rates-september-21-170834159.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-21T20:54:05Z",
-        "ko": "역대 최고 기록으로 CrowdStrike Stock을 플레이하는 방법",
+        "date": "2025-11-03T17:08:34Z",
+        "ko": "금리가 가장 낮은 주택담보대출자에 대한 주간 설문조사: 하위 6% 금리 사라짐",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -511,8 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "Dear Tesla Stock Fans, Mark Your Calendars for October 1": "친애하는 테슬라 주식 팬 여러분, 10월 1일에 달력을 표시하세요",
-    "Weakness Is an Opportunity for Long-Term ASML Stock Investors": "약점은 장기 ASML 주식 투자자에게 기회입니다",
     "Michael Dell Just Made a $7.7 Billion Bet on This Insurance Stock": "Michael Dell이 이 보험 주식에 $7.7 Billion을 베팅했습니다.",
     "Burnham warns of ‘challenging’ Budget as inflation rises": "Burnham은 인플레이션이 증가함에 따라 ‘도전적인’ 예산에 대해 경고합니다.",
     "J.B. Hunt Shares Fall After CFO Flags Rise in Costs": "CFO 플래그 비용 상승 후 J.B. Hunt 주식 하락",
@@ -810,7 +808,9 @@
     "Livestock Futures Bears Are Growling with Lean Hog Prices Leading the Downside": "가축 선물 곰은 단점을 선도하는 희박한 돼지 가격으로 으르렁 거리고 있습니다.",
     "Evercore Just Upgraded Ciena Stock. Here's Why.": "Evercore가 Ciena Stock을 업그레이드했습니다. 그 이유는 다음과 같습니다.",
     "This oil giant has lagged its leading rivals through two energy crises. Now one Wall Street giant says it’s time to buy.": "이 석유 대기업은 두 번의 에너지 위기를 통해 주요 라이벌에게 뒤떨어졌습니다. 이제 한 월스트리트 거인이 구매할 때가 되었다고 말합니다.",
-    "How to Play CrowdStrike Stock at All-Time Highs": "역대 최고 기록으로 CrowdStrike Stock을 플레이하는 방법"
+    "How to Play CrowdStrike Stock at All-Time Highs": "역대 최고 기록으로 CrowdStrike Stock을 플레이하는 방법",
+    "Here are the hidden flaws in Warsh’s new way of tracking inflation": "Warsh의 새로운 인플레이션 추적 방법의 숨겨진 결함은 다음과 같습니다.",
+    "Softbank’s mega junk-bond deal shows capital for the AI race is getting more expensive": "소프트뱅크의 대규모 정크본드 거래는 인공지능 경쟁을 위한 자본이 점점 더 비싸지고 있음을 보여준다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -2955,7 +2955,7 @@
       "2026-09-20": 1384.6,
       "2026-09-21": 1374.99,
       "2026-09-22": 1354.79,
-      "2026-09-23": 1363.19
+      "2026-09-23": 1364.28
     },
     "^GSPC": {
       "2026-09-12": 7656.98,
@@ -2997,7 +2997,7 @@
       "2026-09-20": 14.81,
       "2026-09-21": 14.87,
       "2026-09-22": 14.21,
-      "2026-09-23": 14.15
+      "2026-09-23": 14.14
     },
     "^TNX": {
       "2026-09-12": 4.975,
@@ -3386,8 +3386,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfL5nWpHnjnpw5KP8ZrNS\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfL5nY6SP3kyoAotpdbtD\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfL5nZ6DW6ar9SusPsp8X\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfLAQ44vwYwwu72uAtMpf\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfLAQ5PJdG7LZ95Eqb19D\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfLAQ67iA4a76wKfCgKrA\"}"
   ]
 }
