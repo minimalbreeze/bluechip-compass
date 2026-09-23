@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-23T20:31:54.957Z",
+  "asOf": "2026-09-23T20:42:19.494Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-23T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1366.02,
+      "price": 1366.22,
       "prev": 1373.6800537109375,
-      "chg": -0.56,
+      "chg": -0.54,
       "prevDay": "2026-09-22",
       "basis": "prev-close-bar",
-      "time": "2026-09-23T20:31:42.000Z"
+      "time": "2026-09-23T20:42:04.000Z"
     },
     "^GSPC": {
       "price": 7706.03,
@@ -32,7 +32,7 @@
       "chg": -0.75,
       "prevDay": "2026-09-22",
       "basis": "prev-close-memo",
-      "time": "2026-09-23T20:20:01.000Z"
+      "time": "2026-09-23T20:36:22.000Z"
     },
     "^IXIC": {
       "price": 26936.037,
@@ -40,7 +40,7 @@
       "chg": -1.13,
       "prevDay": "2026-09-22",
       "basis": "prev-close-memo",
-      "time": "2026-09-23T20:31:44.000Z"
+      "time": "2026-09-23T20:42:09.000Z"
     },
     "^VIX": {
       "price": 15.18,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.125
+    "pct": 0.126
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -6.2
     },
     "KRW=X": {
-      "last": 1366.02,
+      "last": 1366.22,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.125,
-      "chg3m": -11.4
+      "pct52": 0.126,
+      "chg3m": -11.38
     },
     "^GSPC": {
       "last": 7706.03,
@@ -368,13 +368,13 @@
   "news": {
     "kr": [
       {
-        "title": "케이쓰리아이, 30억 제3자배정 유상증자",
-        "link": "https://www.yna.co.kr/view/AKR20260923183100008",
+        "title": "\"외상값 못받는 중소기업들\"…매출채권보험 사고액 4년새 65%↑",
+        "link": "https://www.yna.co.kr/view/AKR20260923141100001",
         "source": "연합뉴스",
-        "date": "Wed, 23 Sep 2026 18:33:19 +0900",
+        "date": "Thu, 24 Sep 2026 05:20:00 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -401,13 +401,13 @@
         "by": "rules"
       },
       {
-        "title": "국고채 금리 유가 하락에 동반 하락…3년물 연 4.006%(종합)",
-        "link": "https://www.yna.co.kr/view/AKR20260923163051008",
+        "title": "케이쓰리아이, 30억 제3자배정 유상증자",
+        "link": "https://www.yna.co.kr/view/AKR20260923183100008",
         "source": "연합뉴스",
-        "date": "Wed, 23 Sep 2026 17:14:01 +0900",
+        "date": "Wed, 23 Sep 2026 18:33:19 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -496,11 +496,11 @@
         "by": "rules"
       },
       {
-        "title": "Is Quest Diagnostics Stock Outperforming the Nasdaq?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/quest-diagnostics-stock-outperforming-nasdaq-115652672.html",
+        "title": "Is Fox Corporation Stock Underperforming the S&P 500?",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/fox-corporation-stock-underperforming-p-121812686.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-22T11:56:52Z",
-        "ko": "Quest Diagnostics 재고가 Nasdaq을 능가합니까?",
+        "date": "2026-09-22T12:18:12Z",
+        "ko": "Fox Corporation 주식이 S&P 500의 실적을 밑도는가?",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -511,7 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "Why mortgage bonds are set to deteriorate, and possibly hit the whole market, according to this Wall Street expert": "이 월스트리트 전문가에 따르면 모기지 채권이 악화되고 전체 시장을 강타할 가능성이 있는 이유",
     "ICU Medical CFO Brian Bonnell Sells 9,307 Shares": "ICU Medical CFO Brian Bonnell, 9,307주 매각",
     "Is It Too Early To Buy Marvell Stock After Its Three-Month Fall?": "3개월이 지난 후 Marvell 주식을 사기에는 너무 이른가요?",
     "Fed Raises Interest Rates for First Time in Three Years as Diesel, Gas Prices Surge": "연준, 디젤차로 3년 만에 처음으로 금리 인상, 주유소 가격 급등",
@@ -810,7 +809,8 @@
     "The Lever That Could Take Intel Stock to $165 Per Share, According to Wall Street": "월스트리트에 따르면 인텔 주식을 주당 $165로 끌어올릴 수 있는 레버",
     "Why It’s Time to Load Up on Micron Stock": "마이크론 재고에 적재할 시간인 이유",
     "How Is Workday’s Stock Performance Compared to Other Software Stocks": "Workday의 주식 실적이 다른 소프트웨어 주식과 비교되는 방식",
-    "Is Quest Diagnostics Stock Outperforming the Nasdaq?": "Quest Diagnostics 재고가 Nasdaq을 능가합니까?"
+    "Is Quest Diagnostics Stock Outperforming the Nasdaq?": "Quest Diagnostics 재고가 Nasdaq을 능가합니까?",
+    "Is Fox Corporation Stock Underperforming the S&P 500?": "Fox Corporation 주식이 S&P 500의 실적을 밑도는가?"
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -2955,7 +2955,7 @@
       "2026-09-20": 1384.6,
       "2026-09-21": 1374.99,
       "2026-09-22": 1354.79,
-      "2026-09-23": 1366.02
+      "2026-09-23": 1366.22
     },
     "^GSPC": {
       "2026-09-12": 7656.98,
@@ -3386,7 +3386,7 @@
     }
   },
   "failed": [
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfM1MMtrr6iNjRQqm8Qs9\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfM1MP9GFALiTo13WwFwC\"}"
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfM29PyQSaksotccDGuqF\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfM29RHXhUAsFZVtRrm6F\"}"
   ]
 }
