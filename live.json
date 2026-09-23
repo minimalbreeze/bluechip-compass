@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-23T09:49:57.429Z",
+  "asOf": "2026-09-23T10:50:24.127Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-23T06:32:50.000Z"
     },
     "KRW=X": {
-      "price": 1364.28,
+      "price": 1364.8,
       "prev": 1373.6800537109375,
-      "chg": -0.68,
+      "chg": -0.65,
       "prevDay": "2026-09-22",
       "basis": "prev-close-bar",
-      "time": "2026-09-23T09:49:46.000Z"
+      "time": "2026-09-23T10:50:13.000Z"
     },
     "^GSPC": {
       "price": 7764.64,
@@ -43,12 +43,12 @@
       "time": "2026-09-22T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 14.14,
+      "price": 14.17,
       "prev": 14.21,
-      "chg": -0.49,
+      "chg": -0.28,
       "prevDay": "2026-09-22",
       "basis": "prev-close-memo",
-      "time": "2026-09-23T09:34:46.000Z"
+      "time": "2026-09-23T10:35:01.000Z"
     },
     "^TNX": {
       "price": 4.968,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.115
+    "pct": 0.119
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -7.13
     },
     "KRW=X": {
-      "last": 1363.88,
+      "last": 1364.8,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.115,
-      "chg3m": -11.16
+      "pct52": 0.119,
+      "chg3m": -11.1
     },
     "^GSPC": {
       "last": 7764.7,
@@ -101,11 +101,11 @@
       "chg3m": 6
     },
     "^VIX": {
-      "last": 14.14,
+      "last": 14.17,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.038,
-      "chg3m": -25.15
+      "pct52": 0.04,
+      "chg3m": -24.99
     },
     "^TNX": {
       "last": 4.96,
@@ -496,11 +496,10 @@
         "by": "rules"
       },
       {
-        "title": "Weekly survey of mortgage lenders with the lowest rates: Sub-6% rates disappearing",
-        "link": "https://finance.yahoo.com/personal-finance/mortgages/article/weekly-survey-mortgage-lenders-with-the-best-lowest-rates-september-21-170834159.html",
+        "title": "Dow Jones Futures: Nasdaq Hits New High; Sandisk, Micron Trigger Buy Signals",
+        "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-nasdaq-hits-high-sandisk-micron-buy-signals/?src=A00220&yptr=yahoo",
         "source": "Yahoo Finance",
-        "date": "2025-11-03T17:08:34Z",
-        "ko": "금리가 가장 낮은 주택담보대출자에 대한 주간 설문조사: 하위 6% 금리 사라짐",
+        "date": "2026-09-23T10:38:27Z",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -2955,7 +2954,7 @@
       "2026-09-20": 1384.6,
       "2026-09-21": 1374.99,
       "2026-09-22": 1354.79,
-      "2026-09-23": 1364.28
+      "2026-09-23": 1364.8
     },
     "^GSPC": {
       "2026-09-12": 7656.98,
@@ -2997,7 +2996,7 @@
       "2026-09-20": 14.81,
       "2026-09-21": 14.87,
       "2026-09-22": 14.21,
-      "2026-09-23": 14.14
+      "2026-09-23": 14.17
     },
     "^TNX": {
       "2026-09-12": 4.975,
@@ -3386,8 +3385,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfLAQ44vwYwwu72uAtMpf\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfLAQ5PJdG7LZ95Eqb19D\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfLAQ67iA4a76wKfCgKrA\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfLF1PrkBMk2qt7jCwTXW\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfLF1R6ezLevQQWXnmG1S\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfLF1RpKLCYhETGVrwHDj\"}"
   ]
 }
