@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-24T00:02:05.865Z",
+  "asOf": "2026-09-24T00:12:30.405Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-23T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1365.75,
+      "price": 1366.33,
       "prev": 1350.3599853515625,
-      "chg": 1.14,
+      "chg": 1.18,
       "prevDay": "2026-09-23",
       "basis": "prev-close-bar",
-      "time": "2026-09-24T00:01:56.000Z"
+      "time": "2026-09-24T00:12:17.000Z"
     },
     "^GSPC": {
       "price": 7706.03,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.123
+    "pct": 0.126
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -6.2
     },
     "KRW=X": {
-      "last": 1365.75,
+      "last": 1366.33,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.123,
-      "chg3m": -11.41
+      "pct52": 0.126,
+      "chg3m": -11.38
     },
     "^GSPC": {
       "last": 7706.03,
@@ -368,13 +368,13 @@
   "news": {
     "kr": [
       {
-        "title": "[부고] 문찬걸(IBK투자증권 금융소비자보호본부장)씨 모친상",
-        "link": "https://www.yna.co.kr/view/AKR20260924014800008",
+        "title": "연휴 뒤 채권시장 변수는…미중 정상회담·유가·10월 발행물량",
+        "link": "https://www.yna.co.kr/view/AKR20260921153900008",
         "source": "연합뉴스",
-        "date": "Thu, 24 Sep 2026 07:44:04 +0900",
+        "date": "Thu, 24 Sep 2026 09:00:01 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -401,10 +401,10 @@
         "by": "rules"
       },
       {
-        "title": "추석 연휴 앞두고 '올빼미 공시' 줄줄이…매각 무산·상폐 우려",
-        "link": "https://www.yna.co.kr/view/AKR20260924013300008",
+        "title": "[부고] 문찬걸(IBK투자증권 금융소비자보호본부장)씨 모친상",
+        "link": "https://www.yna.co.kr/view/AKR20260924014800008",
         "source": "연합뉴스",
-        "date": "Thu, 24 Sep 2026 07:38:26 +0900",
+        "date": "Thu, 24 Sep 2026 07:44:04 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -496,14 +496,14 @@
         "by": "rules"
       },
       {
-        "title": "As Amazon Stock Prospers, Traders Might Consider This Option Play",
-        "link": "https://www.investors.com/research/options/amazon-amzn-stock-bull-put-spread-options/?src=A00220&yptr=yahoo",
+        "title": "Is IDEX Corporation Stock Outperforming the S&P 500?",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/idex-corporation-stock-outperforming-p-123232001.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-22T15:57:55Z",
-        "ko": "Amazon Stock Prospers로서 트레이더는 이 옵션 플레이를 고려할 수 있습니다.",
+        "date": "2026-09-22T12:32:32Z",
+        "ko": "IDEX Corporation 주식이 S&P 500을 능가합니까?",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -2955,7 +2955,7 @@
       "2026-09-21": 1374.99,
       "2026-09-22": 1354.79,
       "2026-09-23": 1365.91,
-      "2026-09-24": 1365.75
+      "2026-09-24": 1366.33
     },
     "^GSPC": {
       "2026-09-12": 7656.98,
@@ -3386,8 +3386,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfMHNxR9MK8xCSuAJyH2B\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfMHNyZ7A5VXnRkhsoXqb\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfMHNzBZae3FiEE4L9crx\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfMJAzRUsZ5KnBit6a9PG\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfMJB1i7zzyY787tP8roq\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfMJB2N4HD1RMgmWPNWya\"}"
   ]
 }
