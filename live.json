@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-24T03:09:43.124Z",
+  "asOf": "2026-09-24T03:20:11.018Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-23T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1371.39,
+      "price": 1369.46,
       "prev": 1350.3599853515625,
-      "chg": 1.56,
+      "chg": 1.41,
       "prevDay": "2026-09-23",
       "basis": "prev-close-bar",
-      "time": "2026-09-24T03:09:27.000Z"
+      "time": "2026-09-24T03:19:57.000Z"
     },
     "^GSPC": {
       "price": 7706.03,
@@ -32,7 +32,7 @@
       "chg": -0.75,
       "prevDay": "2026-09-22",
       "basis": "prev-close-memo",
-      "time": "2026-09-23T20:36:22.000Z"
+      "time": "2026-09-23T20:00:00.000Z"
     },
     "^IXIC": {
       "price": 26936.037,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.15
+    "pct": 0.141
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -7.13
     },
     "KRW=X": {
-      "last": 1371.39,
+      "last": 1369.46,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.15,
-      "chg3m": -11.05
+      "pct52": 0.141,
+      "chg3m": -11.17
     },
     "^GSPC": {
       "last": 7706.03,
@@ -460,14 +460,14 @@
         "by": "rules"
       },
       {
-        "title": "The Case for Buying Netflix Stock",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/case-buying-netflix-stock-151709602.html",
+        "title": "Is News Corporation Stock Underperforming the S&P 500?",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/news-corporation-stock-underperforming-p-152219343.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-22T15:17:09Z",
-        "ko": "넷플릭스 주식 매수 사례",
+        "date": "2026-09-22T15:22:19Z",
+        "ko": "News Corporation의 주가가 S&P 500의 실적을 밑도는가?",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -496,14 +496,14 @@
         "by": "rules"
       },
       {
-        "title": "Homes or Stocks? US Households Now Lean on Stocks Like Never Before",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/homes-stocks-us-households-now-151605046.html",
+        "title": "Stocks Mixed as Crude Oil Prices and Financial Stocks Fall",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/stocks-mixed-crude-oil-prices-152253159.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-22T15:16:05Z",
-        "ko": "주택 또는 주식? 미국 가정은 이제 이전과는 달리 주식에 기대고 있습니다.",
+        "date": "2026-09-22T15:22:53Z",
+        "ko": "원유가격으로 혼합된 주식과 금융주 폭락",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -511,8 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "1 Incredible Reason to Buy Costco Stock Before It Reports Earnings on Sept. 24.": "1 9 월 24 일에 수입을보고하기 전에 코스트코 주식을 사야하는 놀라운 이유.",
-    "What’s really driving inflation and rising interest rates": "인플레이션과 금리 상승의 진정한 원동력",
     "Accenture vs. Micron Technology: Which Technology Stock Is a Better Buy in 2026?": "Accenture vs. Micron 기술: 2026년에는 어떤 기술 스톡이 더 나은 구매입니까?",
     "Why Sandisk Stock Rallied Today": "샌디스크 주식이 오늘 결집한 이유",
     "AbbVie’s Dividend Growth Remains Solid Despite a Moderate Yield": "중간 수준의 수익률에도 불구하고 AbbVie의 배당 성장률은 여전히 견조합니다.",
@@ -810,7 +808,9 @@
     "Investors Snub Wall Street, Build $5.1 Trillion Cash Fortress as Fed Pushes Rates Toward 4.75%": "투자자들이 월가를 스눕 (Snub) 하고, 연준이 금리를 4.75% 로 낮추면서 $5.1조 현금 요새를 건설합니다.",
     "Intel stock up 25% in last 5 days on CPU demand as AI agents gain traction": "AI 에이전트가 주목을 받으면서 인텔은 CPU 수요에 따라 지난 5일 동안 25% 의 재고를 확보했습니다.",
     "The Case for Buying Netflix Stock": "넷플릭스 주식 매수 사례",
-    "Homes or Stocks? US Households Now Lean on Stocks Like Never Before": "주택 또는 주식? 미국 가정은 이제 이전과는 달리 주식에 기대고 있습니다."
+    "Homes or Stocks? US Households Now Lean on Stocks Like Never Before": "주택 또는 주식? 미국 가정은 이제 이전과는 달리 주식에 기대고 있습니다.",
+    "Is News Corporation Stock Underperforming the S&P 500?": "News Corporation의 주가가 S&P 500의 실적을 밑도는가?",
+    "Stocks Mixed as Crude Oil Prices and Financial Stocks Fall": "원유가격으로 혼합된 주식과 금융주 폭락"
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -2955,7 +2955,7 @@
       "2026-09-21": 1374.99,
       "2026-09-22": 1354.79,
       "2026-09-23": 1365.91,
-      "2026-09-24": 1371.39
+      "2026-09-24": 1369.46
     },
     "^GSPC": {
       "2026-09-12": 7656.98,
@@ -3386,8 +3386,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfMXgmHoTQ3xKVugYqTvk\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfMXgnq4oKZXkmxfhT673\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfMXgoZy3TSK37dnGbaPG\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfMYV4MVi42Q7udaZyJZL\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfMYV5Zvg5cuWzCEZEYBo\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfMYV6GbPsAWbiAKjDBCC\"}"
   ]
 }
