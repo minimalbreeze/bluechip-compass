@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-24T06:29:02.758Z",
+  "asOf": "2026-09-24T06:39:26.588Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-23T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1366.89,
+      "price": 1366.98,
       "prev": 1350.3599853515625,
-      "chg": 1.22,
+      "chg": 1.23,
       "prevDay": "2026-09-23",
       "basis": "prev-close-bar",
-      "time": "2026-09-24T06:28:44.000Z"
+      "time": "2026-09-24T06:39:12.000Z"
     },
     "^GSPC": {
       "price": 7706.03,
@@ -80,11 +80,11 @@
       "chg3m": -7.13
     },
     "KRW=X": {
-      "last": 1366.89,
+      "last": 1366.98,
       "low52": 1339.17,
       "high52": 1554.48,
       "pct52": 0.129,
-      "chg3m": -11.34
+      "chg3m": -11.33
     },
     "^GSPC": {
       "last": 7706.03,
@@ -368,13 +368,13 @@
   "news": {
     "kr": [
       {
-        "title": "증권가 추석 보너스는…귀성비에 백돈 세트도",
-        "link": "https://www.yna.co.kr/view/AKR20260923145500008",
+        "title": "[외환] 원/달러 환율 7.6원 오른 1,366.0원(15:30 기준가)",
+        "link": "https://www.yna.co.kr/view/AKR20260924038600002",
         "source": "연합뉴스",
-        "date": "Thu, 24 Sep 2026 11:00:00 +0900",
+        "date": "Thu, 24 Sep 2026 15:32:38 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -401,10 +401,10 @@
         "by": "rules"
       },
       {
-        "title": "AI분석·숏폼·커뮤니티 확대까지…증권사 MTS 개선 잇달아",
-        "link": "https://www.yna.co.kr/view/AKR20260919030600008",
+        "title": "증권가 추석 보너스는…귀성비에 백돈 세트도",
+        "link": "https://www.yna.co.kr/view/AKR20260923145500008",
         "source": "연합뉴스",
-        "date": "Thu, 24 Sep 2026 10:00:00 +0900",
+        "date": "Thu, 24 Sep 2026 11:00:00 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -412,10 +412,10 @@
         "by": "rules"
       },
       {
-        "title": "연휴 끝나면 무슨 종목 사야 할까…증권사들 추천주 살펴보니",
-        "link": "https://www.hankyung.com/article/202609233877i",
+        "title": "\"주식 너무 올라도 걱정\"…지금은 즐겨야 할 때 [이주영의 시장을 꿰뚫는 기술]",
+        "link": "https://www.hankyung.com/article/202609233446i",
         "source": "한국경제",
-        "date": "Thu, 24 Sep 2026 10:00:20 +0900",
+        "date": "Thu, 24 Sep 2026 13:52:33 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -2955,7 +2955,7 @@
       "2026-09-21": 1374.99,
       "2026-09-22": 1354.79,
       "2026-09-23": 1365.91,
-      "2026-09-24": 1366.89
+      "2026-09-24": 1366.98
     },
     "^GSPC": {
       "2026-09-13": 7656.98,
@@ -3386,8 +3386,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfMntNWvKMsUV9aAvfUeA\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfMntPibTgeo1b9E6e8VS\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfMntQMJ5FvKCmJqNq5hf\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfMogMkZJWc2mYPXYiJqF\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfMogNtGppN5q8Sxb6LLJ\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfMogPUkGqocJDBqCZBjF\"}"
   ]
 }
