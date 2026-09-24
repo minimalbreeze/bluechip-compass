@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-24T00:33:16.571Z",
+  "asOf": "2026-09-24T00:43:47.298Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-23T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1367.19,
+      "price": 1369.81,
       "prev": 1350.3599853515625,
-      "chg": 1.25,
+      "chg": 1.44,
       "prevDay": "2026-09-23",
       "basis": "prev-close-bar",
-      "time": "2026-09-24T00:33:06.000Z"
+      "time": "2026-09-24T00:43:30.000Z"
     },
     "^GSPC": {
       "price": 7706.03,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.13
+    "pct": 0.142
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -6.2
     },
     "KRW=X": {
-      "last": 1367.19,
+      "last": 1369.81,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.13,
-      "chg3m": -11.32
+      "pct52": 0.142,
+      "chg3m": -11.15
     },
     "^GSPC": {
       "last": 7706.03,
@@ -496,14 +496,14 @@
         "by": "rules"
       },
       {
-        "title": "Is Skyworks Solutions Stock Outperforming the Dow?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/skyworks-solutions-stock-outperforming-dow-125127017.html",
+        "title": "Why Cathie Wood Says SpaceX Stock Could Be a Deep-Value Buy",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/why-cathie-wood-says-spacex-130002913.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-22T12:51:27Z",
-        "ko": "Skyworks Solutions 주가가 DOW를 능가합니까?",
+        "date": "2026-09-22T13:00:02Z",
+        "ko": "캐시 우드가 SpaceX 주식이 깊은 가치의 매수일 수 있다고 말하는 이유",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -511,7 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "Travis Kelce and others lost millions in a Ponzi scheme. Here’s what a basic index fund would have earned them instead.": "Travis Kelce와 다른 사람들은 Ponzi 계획으로 수백만 달러를 잃었습니다. 기본 인덱스 펀드의 수익은 다음과 같습니다.",
     "S&P 500 wavers after best one-day rally in six weeks: AlphaCheck": "6주 동안 최고의 원데이 랠리 후 S&P 500 웨이버: 알파체크",
     "Here’s Why Aristotle International Equity Fund Exited Unilever (UL)": "아리스토텔레스 국제 주식 펀드가 유니레버 (UL) 를 탈퇴한 이유는 다음과 같습니다.",
     "One of These Dividend Aristocrats Pays More. The Other Compounds Faster. Which Is Roth Ready?": "이 배당 귀족 중 한 명이 더 많은 돈을 지불합니다. 다른 화합물이 더 빠릅니다. Roth는 어떤 준비가 되었습니까?",
@@ -810,7 +809,8 @@
     "Huawei Is Ramping Up to New Chips in 2027. What That Means for Nvidia Stock Now.": "화웨이는 2027년에 새로운 칩을 출시할 예정입니다. 지금 Nvidia Stock에 대한 의미.",
     "As Amazon Stock Prospers, Traders Might Consider This Option Play": "Amazon Stock Prospers로서 트레이더는 이 옵션 플레이를 고려할 수 있습니다.",
     "BMW CEO sees risk of cheap Chinese cars in Europe but opposes tariffs": "BMW CEO는 유럽에서 저렴한 중국 자동차의 위험을 보고 있지만 관세에 반대합니다.",
-    "Is Skyworks Solutions Stock Outperforming the Dow?": "Skyworks Solutions 주가가 DOW를 능가합니까?"
+    "Is Skyworks Solutions Stock Outperforming the Dow?": "Skyworks Solutions 주가가 DOW를 능가합니까?",
+    "Why Cathie Wood Says SpaceX Stock Could Be a Deep-Value Buy": "캐시 우드가 SpaceX 주식이 깊은 가치의 매수일 수 있다고 말하는 이유"
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -2955,7 +2955,7 @@
       "2026-09-21": 1374.99,
       "2026-09-22": 1354.79,
       "2026-09-23": 1365.91,
-      "2026-09-24": 1367.19
+      "2026-09-24": 1369.81
     },
     "^GSPC": {
       "2026-09-12": 7656.98,
@@ -3386,8 +3386,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfMKkrEfmqGGeuQdBwSPu\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfMKksTbTFu3i4oZKjeiz\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfMKktEUbSDdDAZMVvJPe\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfMLZLbXCbEQXV8huj7EN\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfMLZN2bDRDK4yN24SjxP\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfMLZNoUUp6UNYF2dVyeq\"}"
   ]
 }
