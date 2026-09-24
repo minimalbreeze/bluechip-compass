@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-24T04:44:07.418Z",
+  "asOf": "2026-09-24T04:54:36.385Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-23T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1369.82,
+      "price": 1372.12,
       "prev": 1350.3599853515625,
-      "chg": 1.44,
+      "chg": 1.61,
       "prevDay": "2026-09-23",
       "basis": "prev-close-bar",
-      "time": "2026-09-24T04:43:52.000Z"
+      "time": "2026-09-24T04:53:58.000Z"
     },
     "^GSPC": {
       "price": 7706.03,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.142
+    "pct": 0.153
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -7.13
     },
     "KRW=X": {
-      "last": 1369.82,
+      "last": 1372.12,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.142,
-      "chg3m": -11.15
+      "pct52": 0.153,
+      "chg3m": -11
     },
     "^GSPC": {
       "last": 7706.03,
@@ -460,14 +460,14 @@
         "by": "rules"
       },
       {
-        "title": "Is Masco Stock Underperforming the Dow?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/masco-stock-underperforming-dow-164605028.html",
+        "title": "Coinbase to Allow U.S. Retail Investors Buy IPO Shares",
+        "link": "https://finance.yahoo.com/markets/crypto/articles/coinbase-allow-u-retail-investors-165100177.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-22T16:46:05Z",
-        "ko": "마스코 주식이 다우지수를 밑도는가?",
+        "date": "2026-09-22T16:51:00Z",
+        "ko": "미국 소매 투자자가 IPO 주식을 매수할 수 있도록 허용하는 Coinbase",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -496,15 +496,15 @@
         "by": "rules"
       },
       {
-        "title": "Coinbase to Allow U.S. Retail Investors Buy IPO Shares",
-        "link": "https://finance.yahoo.com/markets/crypto/articles/coinbase-allow-u-retail-investors-165100177.html",
+        "title": "Fed's Barkin says economy may be firming, inflation not limited to energy, tariff shocks",
+        "link": "https://finance.yahoo.com/economy/policy/articles/feds-barkin-says-economy-may-165255863.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-22T16:51:00Z",
-        "ko": "미국 소매 투자자가 IPO 주식을 매수할 수 있도록 허용하는 Coinbase",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "date": "2026-09-22T16:52:55Z",
+        "ko": "Fed의 Barkin은 경제가 탄력적일 수 있으며, 인플레이션은 에너지, 관세 충격에 국한되지 않을 수 있다고 말합니다.",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": "market",
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
         "by": "rules"
       }
     ]
@@ -2955,7 +2955,7 @@
       "2026-09-21": 1374.99,
       "2026-09-22": 1354.79,
       "2026-09-23": 1365.91,
-      "2026-09-24": 1369.82
+      "2026-09-24": 1372.12
     },
     "^GSPC": {
       "2026-09-13": 7656.98,
@@ -3386,8 +3386,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfMetKNy7sYKwsZ3CUBMA\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfMetLVwNqsQTgtJu1Z1e\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfMetM6eyHWtMzgHRdxZe\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfMfgfuXujov3nYTuoSfq\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfMfghGPLTjbpHbdfpPy8\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfMfgi5VzostuK8Ss4BwW\"}"
   ]
 }
