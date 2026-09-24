@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-24T05:26:02.495Z",
+  "asOf": "2026-09-24T05:36:28.925Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-23T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1367.75,
+      "price": 1368.16,
       "prev": 1350.3599853515625,
-      "chg": 1.29,
+      "chg": 1.32,
       "prevDay": "2026-09-23",
       "basis": "prev-close-bar",
-      "time": "2026-09-24T05:25:46.000Z"
+      "time": "2026-09-24T05:36:20.000Z"
     },
     "^GSPC": {
       "price": 7706.03,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.133
+    "pct": 0.135
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -7.13
     },
     "KRW=X": {
-      "last": 1367.75,
+      "last": 1368.16,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.133,
-      "chg3m": -11.28
+      "pct52": 0.135,
+      "chg3m": -11.26
     },
     "^GSPC": {
       "last": 7706.03,
@@ -379,10 +379,10 @@
         "by": "rules"
       },
       {
-        "title": "연휴 끝나면 무슨 종목 사야 할까…증권사들 추천주 살펴보니",
-        "link": "https://www.hankyung.com/article/202609233877i",
+        "title": "\"65만전자 간다?\"…심상찮은 증권가 전망에 개미들 '들썩' [종목+]",
+        "link": "https://www.hankyung.com/article/2026092450146",
         "source": "한국경제",
-        "date": "Thu, 24 Sep 2026 10:00:20 +0900",
+        "date": "Thu, 24 Sep 2026 14:00:58 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -412,13 +412,13 @@
         "by": "rules"
       },
       {
-        "title": "10년물 5.1% 돌파…금리 주시하는 트럼프 [김현석의 월스트리트나우]",
-        "link": "https://www.hankyung.com/article/202609244545i",
+        "title": "연휴 끝나면 무슨 종목 사야 할까…증권사들 추천주 살펴보니",
+        "link": "https://www.hankyung.com/article/202609233877i",
         "source": "한국경제",
-        "date": "Thu, 24 Sep 2026 08:01:30 +0900",
+        "date": "Thu, 24 Sep 2026 10:00:20 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -2955,7 +2955,7 @@
       "2026-09-21": 1374.99,
       "2026-09-22": 1354.79,
       "2026-09-23": 1365.91,
-      "2026-09-24": 1367.75
+      "2026-09-24": 1368.16
     },
     "^GSPC": {
       "2026-09-13": 7656.98,
@@ -3386,8 +3386,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfMi5i9M4HgXDfconQK2y\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfMi5jQzMCzr7A8nHdLoA\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfMi5k6fumWk88x11uLzG\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfMiss4uCtFEWwvy2ymGp\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfMistQ26qcuc4wwnMCgy\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfMisu7RxLzQwPihi6itL\"}"
   ]
 }
