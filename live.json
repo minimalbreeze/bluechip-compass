@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-24T03:20:11.018Z",
+  "asOf": "2026-09-24T03:30:33.961Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-23T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1369.46,
+      "price": 1371.01,
       "prev": 1350.3599853515625,
-      "chg": 1.41,
+      "chg": 1.53,
       "prevDay": "2026-09-23",
       "basis": "prev-close-bar",
-      "time": "2026-09-24T03:19:57.000Z"
+      "time": "2026-09-24T03:30:09.000Z"
     },
     "^GSPC": {
       "price": 7706.03,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.141
+    "pct": 0.148
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -7.13
     },
     "KRW=X": {
-      "last": 1369.46,
+      "last": 1371.01,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.141,
-      "chg3m": -11.17
+      "pct52": 0.148,
+      "chg3m": -11.07
     },
     "^GSPC": {
       "last": 7706.03,
@@ -460,14 +460,14 @@
         "by": "rules"
       },
       {
-        "title": "Is News Corporation Stock Underperforming the S&P 500?",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/news-corporation-stock-underperforming-p-152219343.html",
+        "title": "Circle Stock Spikes As Binance Takes $100 Million Slice",
+        "link": "https://www.investors.com/news/circle-stock-spikes-as-binance-takes-100-million-slice/?src=A00220&yptr=yahoo",
         "source": "Yahoo Finance",
-        "date": "2026-09-22T15:22:19Z",
-        "ko": "News Corporation의 주가가 S&P 500의 실적을 밑도는가?",
+        "date": "2026-09-22T15:26:27Z",
+        "ko": "바이낸스가 $100 Million Slice를 가져감에 따라 Circle Stock Spikes",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -2955,7 +2955,7 @@
       "2026-09-21": 1374.99,
       "2026-09-22": 1354.79,
       "2026-09-23": 1365.91,
-      "2026-09-24": 1369.46
+      "2026-09-24": 1371.01
     },
     "^GSPC": {
       "2026-09-12": 7656.98,
@@ -3386,8 +3386,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfMYV4MVi42Q7udaZyJZL\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfMYV5Zvg5cuWzCEZEYBo\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfMYV6GbPsAWbiAKjDBCC\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfMZGypBFdvP8jJ4Jadx1\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfMZH16KmPm6c6VPyqzMY\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfMZH1f4V7VMWL4odLzCu\"}"
   ]
 }
