@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-24T01:04:39.149Z",
+  "asOf": "2026-09-24T01:15:02.247Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-23T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1371.93,
+      "price": 1369.88,
       "prev": 1350.3599853515625,
-      "chg": 1.6,
+      "chg": 1.45,
       "prevDay": "2026-09-23",
       "basis": "prev-close-bar",
-      "time": "2026-09-24T01:04:24.000Z"
+      "time": "2026-09-24T01:14:50.000Z"
     },
     "^GSPC": {
       "price": 7706.03,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.152
+    "pct": 0.143
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -6.2
     },
     "KRW=X": {
-      "last": 1371.93,
+      "last": 1369.88,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.152,
-      "chg3m": -11.01
+      "pct52": 0.143,
+      "chg3m": -11.15
     },
     "^GSPC": {
       "last": 7706.03,
@@ -368,6 +368,39 @@
   "news": {
     "kr": [
       {
+        "title": "AI분석·숏폼·커뮤니티 확대까지…증권사 MTS 개선 잇달아",
+        "link": "https://www.yna.co.kr/view/AKR20260919030600008",
+        "source": "연합뉴스",
+        "date": "Thu, 24 Sep 2026 10:00:00 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "연휴 끝나면 무슨 종목 사야 할까…증권사들 추천주 살펴보니",
+        "link": "https://www.hankyung.com/article/202609233877i",
+        "source": "한국경제",
+        "date": "Thu, 24 Sep 2026 10:00:20 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "“추석때 주식 얘기 꺼내도 되겠죠?”…일단 7000은 지킨 코스피",
+        "link": "https://www.mk.co.kr/news/stock/12160772",
+        "source": "매일경제",
+        "date": "Thu, 24 Sep 2026 06:22:46 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
         "title": "연휴 뒤 채권시장 변수는…미중 정상회담·유가·10월 발행물량",
         "link": "https://www.yna.co.kr/view/AKR20260921153900008",
         "source": "연합뉴스",
@@ -387,39 +420,6 @@
         "lasting": "temporary",
         "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "“추석때 주식 얘기 꺼내도 되겠죠?”…일단 7000은 지킨 코스피",
-        "link": "https://www.mk.co.kr/news/stock/12160772",
-        "source": "매일경제",
-        "date": "Thu, 24 Sep 2026 06:22:46 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "[부고] 문찬걸(IBK투자증권 금융소비자보호본부장)씨 모친상",
-        "link": "https://www.yna.co.kr/view/AKR20260924014800008",
-        "source": "연합뉴스",
-        "date": "Thu, 24 Sep 2026 07:44:04 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "관세·반도체 협상 어떻게 되나…미중 정상회담 투자자 관전 포인트",
-        "link": "https://www.hankyung.com/article/202609233801i",
-        "source": "한국경제",
-        "date": "Thu, 24 Sep 2026 08:00:19 +0900",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": null,
-        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
         "by": "rules"
       },
       {
@@ -460,14 +460,14 @@
         "by": "rules"
       },
       {
-        "title": "Citizens Financial Stock: Is CFG Outperforming the Financial Sector?",
-        "link": "https://finance.yahoo.com/news/citizens-financial-stock-cfg-outperforming-131514658.html",
+        "title": "Treasury yields ease, oil falls as Trump-Xi meeting looms: AlphaCheck",
+        "link": "https://finance.yahoo.com/markets/article/treasury-yields-ease-oil-falls-as-trump-xi-meeting-looms-alphacheck-134137146.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-22T13:15:14Z",
-        "ko": "Citizens Financial Stock: CFG가 금융 부문을 능가합니까?",
+        "date": "2026-09-22T13:41:37Z",
+        "ko": "재무부는 트럼프-시 주석 회담 직전에 쉽게 수익을 내고, 석유는 하락합니다: 알파체크",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -496,14 +496,14 @@
         "by": "rules"
       },
       {
-        "title": "Carnival Corp Stock Looks Cheap to Value Investors Ahead of Earnings Next Week",
-        "link": "https://finance.yahoo.com/news/carnival-corp-stock-looks-cheap-131502788.html",
+        "title": "Mid-America Apartment Communities Stock: Is MAA Underperforming the Real Estate Sector?",
+        "link": "https://finance.yahoo.com/news/mid-america-apartment-communities-stock-134620864.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-22T13:15:02Z",
-        "ko": "Carnival Corp 주식은 다음 주 수익을 앞두고 투자자의 가치를 평가하기에 저렴해 보입니다.",
+        "date": "2026-09-22T13:46:20Z",
+        "ko": "미드아메리카 아파트 커뮤니티 주식: MAA가 부동산 부문을 부진하게 하고 있습니까?",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -511,8 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "One of These Dividend Aristocrats Pays More. The Other Compounds Faster. Which Is Roth Ready?": "이 배당 귀족 중 한 명이 더 많은 돈을 지불합니다. 다른 화합물이 더 빠릅니다. Roth는 어떤 준비가 되었습니까?",
-    "SpaceX stock falls as Starship's test flight slips to Sept. 28, retail investors sell shares": "스타쉽의 시험 비행이 9월 28일로 미끄러지면서 스페이스X 주가가 하락하고, 소매 투자자들은 주식을 매각합니다.",
     "Stock market today: Dow, S&P 500, Nasdaq slip as oil prices rise": "오늘의 주식 시장: 다우지수, S&P 500, 유가 상승에 따른 나스닥 하락",
     "EU banks must be bigger, have deeper capital market, to compete with US, say top EU officials": "EU 고위 관리들은 EU 은행들이 미국과 경쟁하기 위해서는 규모가 더 크고 자본 시장이 더 깊어야 한다고 말한다.",
     "31% of Berkshire Hathaway's Portfolio Is Concentrated in These 2 AI Stocks Under Greg Abel": "버크셔 해서웨이 포트폴리오의 31% 는 그렉 아벨 (Greg Abel) 이 이끄는 2개의 AI 주식에 집중되어 있습니다.",
@@ -810,7 +808,9 @@
     "Is Skyworks Solutions Stock Outperforming the Dow?": "Skyworks Solutions 주가가 DOW를 능가합니까?",
     "Why Cathie Wood Says SpaceX Stock Could Be a Deep-Value Buy": "캐시 우드가 SpaceX 주식이 깊은 가치의 매수일 수 있다고 말하는 이유",
     "Carnival Corp Stock Looks Cheap to Value Investors Ahead of Earnings Next Week": "Carnival Corp 주식은 다음 주 수익을 앞두고 투자자의 가치를 평가하기에 저렴해 보입니다.",
-    "Citizens Financial Stock: Is CFG Outperforming the Financial Sector?": "Citizens Financial Stock: CFG가 금융 부문을 능가합니까?"
+    "Citizens Financial Stock: Is CFG Outperforming the Financial Sector?": "Citizens Financial Stock: CFG가 금융 부문을 능가합니까?",
+    "Treasury yields ease, oil falls as Trump-Xi meeting looms: AlphaCheck": "재무부는 트럼프-시 주석 회담 직전에 쉽게 수익을 내고, 석유는 하락합니다: 알파체크",
+    "Mid-America Apartment Communities Stock: Is MAA Underperforming the Real Estate Sector?": "미드아메리카 아파트 커뮤니티 주식: MAA가 부동산 부문을 부진하게 하고 있습니까?"
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -2955,7 +2955,7 @@
       "2026-09-21": 1374.99,
       "2026-09-22": 1354.79,
       "2026-09-23": 1365.91,
-      "2026-09-24": 1371.93
+      "2026-09-24": 1369.88
     },
     "^GSPC": {
       "2026-09-12": 7656.98,
@@ -3386,8 +3386,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfMN9dAyp4zJbAhqSVFCs\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfMN9ePeqj3wTpX6sxqc4\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfMN9f5LGd3CVoPsNeFUs\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfMNwYwWtQ2cNLHqCBuo4\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfMNwaJsJSfCoHUWpUULA\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfMNwb5G8aYYh5oSBA4R7\"}"
   ]
 }
