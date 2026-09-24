@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-24T02:38:28.404Z",
+  "asOf": "2026-09-24T02:48:53.091Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-23T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1370.48,
+      "price": 1370.82,
       "prev": 1350.3599853515625,
-      "chg": 1.49,
+      "chg": 1.52,
       "prevDay": "2026-09-23",
       "basis": "prev-close-bar",
-      "time": "2026-09-24T02:38:19.000Z"
+      "time": "2026-09-24T02:48:40.000Z"
     },
     "^GSPC": {
       "price": 7706.03,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.145
+    "pct": 0.147
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -7.13
     },
     "KRW=X": {
-      "last": 1370.48,
+      "last": 1370.82,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.145,
-      "chg3m": -11.11
+      "pct52": 0.147,
+      "chg3m": -11.09
     },
     "^GSPC": {
       "last": 7706.03,
@@ -460,11 +460,11 @@
         "by": "rules"
       },
       {
-        "title": "Bitcoin ETFs Attract Nearly $1 Billion As Crypto Rally Strengthens",
-        "link": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-etfs-attract-nearly-1-145600491.html",
+        "title": "RBC Is Bullish on Kraft Heinz Stock and Expects Growth to Return in 2027",
+        "link": "https://finance.yahoo.com/news/rbc-bullish-kraft-heinz-stock-150029488.html",
         "source": "Yahoo Finance",
-        "date": "2026-09-22T14:56:00Z",
-        "ko": "비트코인 ETF는 암호화폐 랠리가 강화됨에 따라 거의 10억 $ 를 유치합니다",
+        "date": "2026-09-22T15:00:29Z",
+        "ko": "RBC는 Kraft Heinz 주식에 대해 강세를 보이고 있으며 2027년에 성장이 회복될 것으로 예상합니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -511,7 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "Netflix Stock Downgraded To Sell As Viewer Engagement Wanes": "Netflix 주식이 시청자 참여가 줄어들면서 매도로 하향 조정됨",
     "Micron Just Built One Memory Stick That Replaces Four. Is MU Stock a Buy?": "마이크론은 4개를 대체하는 하나의 메모리 스틱을 만들었습니다. MU Stock은 Buy입니까?",
     "Darden Restaurants, Costco In Earnings Spotlight, Along With This IT Distributor": "Darden 레스토랑, 코스트코 수입 집중 조명, 이 IT 유통업체와 함께",
     "Why investors’ best move in reaction to Fed’s rate hike is doing nothing at all": "Fed의 금리 인상에 대한 투자자들의 반응이 가장 좋은 이유",
@@ -810,7 +809,8 @@
     "How Is Gen Digital's Stock Performance Compared to Other Software - Infrastructure Stocks?": "Gen Digital의 주식 실적은 다른 소프트웨어 - 인프라 주식과 어떻게 비교됩니까?",
     "Meta’s Muse Is Dominating the App Store. What This Means for META Stock.": "Meta의 Muse가 App Store를 지배하고 있습니다. META Stock에 대한 의미.",
     "Dollar Climbs on Hawkish Fed President Collins": "콜린스 호키시 연준 회장 달러 등반",
-    "Bitcoin ETFs Attract Nearly $1 Billion As Crypto Rally Strengthens": "비트코인 ETF는 암호화폐 랠리가 강화됨에 따라 거의 10억 $ 를 유치합니다"
+    "Bitcoin ETFs Attract Nearly $1 Billion As Crypto Rally Strengthens": "비트코인 ETF는 암호화폐 랠리가 강화됨에 따라 거의 10억 $ 를 유치합니다",
+    "RBC Is Bullish on Kraft Heinz Stock and Expects Growth to Return in 2027": "RBC는 Kraft Heinz 주식에 대해 강세를 보이고 있으며 2027년에 성장이 회복될 것으로 예상합니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -2955,7 +2955,7 @@
       "2026-09-21": 1374.99,
       "2026-09-22": 1354.79,
       "2026-09-23": 1365.91,
-      "2026-09-24": 1370.48
+      "2026-09-24": 1370.82
     },
     "^GSPC": {
       "2026-09-12": 7656.98,
@@ -3386,8 +3386,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfMVJb15WXhEJkyZGiCgL\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfMVJc5522Fhk71oug8Ed\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfMVJcd4EsnhKp7dbaQFU\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfMW6dZ9m8qQ2REEcrZpU\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfMW6ejb2WUnmDSyhRe1L\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfMW6fP2kErkyuT8BPpAq\"}"
   ]
 }
