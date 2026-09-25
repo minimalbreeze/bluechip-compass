@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-25T02:29:26.010Z",
+  "asOf": "2026-09-25T02:39:47.319Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-23T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1358.6,
+      "price": 1359.94,
       "prev": 1362.5,
-      "chg": -0.29,
+      "chg": -0.19,
       "prevDay": "2026-09-24",
       "basis": "prev-close-bar",
-      "time": "2026-09-25T02:29:12.000Z"
+      "time": "2026-09-25T02:39:34.000Z"
     },
     "^GSPC": {
       "price": 7704.13,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.09
+    "pct": 0.096
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -7.13
     },
     "KRW=X": {
-      "last": 1358.6,
+      "last": 1359.94,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.09,
-      "chg3m": -12.27
+      "pct52": 0.096,
+      "chg3m": -12.18
     },
     "^GSPC": {
       "last": 7704.13,
@@ -439,7 +439,7 @@
         "title": "Surging Treasury yields pose a brand new problem for Kevin Warsh and the Fed",
         "link": "https://www.cnbc.com/2026/09/24/surging-treasury-yields-are-posing-a-brand-new-problem-for-kevin-warsh-and-the-fed.html",
         "source": "CNBC",
-        "date": "Thu, 24 Sep 2026 21:40:19 GMT",
+        "date": "Fri, 25 Sep 2026 02:38:53 GMT",
         "ko": "급증하는 국채 수익률은 Kevin Warsh와 Fed에 새로운 문제를 제기합니다.",
         "act": "none",
         "lasting": "temporary",
@@ -2955,7 +2955,7 @@
       "2026-09-22": 1354.79,
       "2026-09-23": 1365.91,
       "2026-09-24": 1365.23,
-      "2026-09-25": 1358.6
+      "2026-09-25": 1359.94
     },
     "^GSPC": {
       "2026-09-13": 7656.98,
@@ -3386,8 +3386,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfPNRWbYhSYu29V4h9W4L\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfPNRXvBGbsbYQhwYmvfV\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfPNRYf5R1PaBqgfK632M\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfPPDK8WZdh45BpwPnyEr\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfPPDLSe2gCzfPMsqcfcV\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfPPDM4qtTfvrDR5q9Bkp\"}"
   ]
 }
