@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-25T00:01:44.632Z",
+  "asOf": "2026-09-25T00:12:10.693Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-23T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1367.56,
+      "price": 1368.23,
       "prev": 1362.5,
-      "chg": 0.37,
+      "chg": 0.42,
       "prevDay": "2026-09-24",
       "basis": "prev-close-bar",
-      "time": "2026-09-25T00:01:34.000Z"
+      "time": "2026-09-25T00:11:54.000Z"
     },
     "^GSPC": {
       "price": 7704.13,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.132
+    "pct": 0.135
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -7.13
     },
     "KRW=X": {
-      "last": 1367.56,
+      "last": 1368.23,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.132,
-      "chg3m": -11.69
+      "pct52": 0.135,
+      "chg3m": -11.65
     },
     "^GSPC": {
       "last": 7704.13,
@@ -368,24 +368,24 @@
   "news": {
     "kr": [
       {
-        "title": "\"아파트 청약되고 좋아했는데\"…당첨후 취소 6년간 5만4천명",
-        "link": "https://www.yna.co.kr/view/AKR20260923162900003",
+        "title": "상반기 역대 최대 실적 증권사들…기부는 인색하네",
+        "link": "https://www.yna.co.kr/view/AKR20260921150100008",
         "source": "연합뉴스",
-        "date": "Fri, 25 Sep 2026 08:31:00 +0900",
+        "date": "Fri, 25 Sep 2026 09:00:05 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "'약국 2만4000곳 품은' 바로팜, 11월 상장 추진",
-        "link": "https://www.hankyung.com/article/202609221840i",
+        "title": "손절매 쏟아지는 채권, 10년 금리 5.2%…메타, 인텔 폭등 지속 [김현석의 월스트리트나우]",
+        "link": "https://www.hankyung.com/article/202609255572i",
         "source": "한국경제",
-        "date": "Fri, 25 Sep 2026 07:57:02 +0900",
+        "date": "Fri, 25 Sep 2026 08:30:35 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -401,10 +401,10 @@
         "by": "rules"
       },
       {
-        "title": "[4만달러 눈 앞] ③ K자 양극화 심화…반도체는 잔치, 서민·청년은 시름",
-        "link": "https://www.yna.co.kr/view/AKR20260922159900002",
+        "title": "\"아파트 청약되고 좋아했는데\"…당첨후 취소 6년간 5만4천명",
+        "link": "https://www.yna.co.kr/view/AKR20260923162900003",
         "source": "연합뉴스",
-        "date": "Fri, 25 Sep 2026 08:00:14 +0900",
+        "date": "Fri, 25 Sep 2026 08:31:00 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -412,13 +412,13 @@
         "by": "rules"
       },
       {
-        "title": "10년물 5.2% 돌파…美 증시 덮친 '고금리 장기화' [뉴욕증시 브리핑]",
-        "link": "https://www.hankyung.com/article/202609255458i",
+        "title": "\"채권의 시대 끝났다…자산배분 새 공식은 '주식·원자재·에너지'\"",
+        "link": "https://www.hankyung.com/article/202609255381i",
         "source": "한국경제",
-        "date": "Fri, 25 Sep 2026 06:31:49 +0900",
+        "date": "Fri, 25 Sep 2026 08:00:31 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -2955,7 +2955,7 @@
       "2026-09-22": 1354.79,
       "2026-09-23": 1365.91,
       "2026-09-24": 1365.23,
-      "2026-09-25": 1367.56
+      "2026-09-25": 1368.23
     },
     "^GSPC": {
       "2026-09-13": 7656.98,
@@ -3386,8 +3386,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfPBAJpg8HoAcqpTKnaFg\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfPBAKtvUFeKfEZbBBeu7\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfPBALWdQoYnd8o1JJwWH\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfPBxTa4i42Lb1gzuFW9V\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfPBxUWNkUZob5PtQk29b\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfPBxVAKErG8zCbDhUDiE\"}"
   ]
 }
