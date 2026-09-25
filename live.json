@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-25T22:16:18.904Z",
+  "asOf": "2026-09-25T23:16:47.959Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -20,11 +20,11 @@
     },
     "KRW=X": {
       "price": 1355.28,
-      "prev": 1362.5,
-      "chg": -0.53,
-      "prevDay": "2026-09-24",
+      "prev": 1355.280029296875,
+      "chg": 0,
+      "prevDay": "2026-09-25",
       "basis": "prev-close-bar",
-      "time": "2026-09-25T20:59:55.000Z"
+      "time": "2026-09-25T22:59:06.000Z"
     },
     "^GSPC": {
       "price": 7743.41,
@@ -368,18 +368,18 @@
   "news": {
     "kr": [
       {
-        "title": "'자산토큰화반' 신설한 한은, 국채 토큰화 속도내나",
-        "link": "https://www.yna.co.kr/view/AKR20260923196200002",
+        "title": "\"주식 투자법 알려주겠다\" 신현송 한은 총재 사칭 SNS 주의보",
+        "link": "https://www.yna.co.kr/view/AKR20260924040800002",
         "source": "연합뉴스",
-        "date": "Sat, 26 Sep 2026 05:51:00 +0900",
+        "date": "Sat, 26 Sep 2026 08:01:01 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "10년물 금리 2007년 이후 최고…美증시는 버텼다[뉴욕증시 브리핑]",
+        "title": "10년물 금리 2007년 이후 최고…美증시는 버텼다 [뉴욕증시 브리핑]",
         "link": "https://www.hankyung.com/article/202609266166i",
         "source": "한국경제",
         "date": "Sat, 26 Sep 2026 05:38:59 +0900",
@@ -390,24 +390,24 @@
         "by": "rules"
       },
       {
-        "title": "코스닥 8개사·코스피 1개사 퇴출…‘시총미달·동전주’ 관리종목 대폭 증가",
-        "link": "https://www.mk.co.kr/news/stock/12161302",
+        "title": "“78층인데 구조대 오나요?” 55% 빠진 현대차…증권사도 목표가 줄하향",
+        "link": "https://www.mk.co.kr/news/stock/12161547",
         "source": "매일경제",
-        "date": "Fri, 25 Sep 2026 11:27:08 +09:00",
+        "date": "Sat, 26 Sep 2026 07:19:55 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "'시총미달 상폐' 코스닥서 속출…내달부터 동전주까지 무더기 위기",
-        "link": "https://www.yna.co.kr/view/AKR20260924025000008",
+        "title": "'역대급 실적' 증권가, 하반기 채용 활기…대형사도 가세",
+        "link": "https://www.yna.co.kr/view/AKR20260923105900008",
         "source": "연합뉴스",
-        "date": "Fri, 25 Sep 2026 11:00:00 +0900",
+        "date": "Sat, 26 Sep 2026 08:00:01 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -423,13 +423,13 @@
         "by": "rules"
       },
       {
-        "title": "주가상승 13%에 배당 10% … 파이어족 갈아타는 ‘혜자 GPIQ’ 뭐길래",
-        "link": "https://www.mk.co.kr/news/economy/12159601",
+        "title": "코스닥 8개사·코스피 1개사 퇴출…‘시총미달·동전주’ 관리종목 대폭 증가",
+        "link": "https://www.mk.co.kr/news/stock/12161302",
         "source": "매일경제",
-        "date": "Fri, 25 Sep 2026 04:30:00 +09:00",
+        "date": "Fri, 25 Sep 2026 11:27:08 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -2944,7 +2944,6 @@
       "2026-09-26": 844.48
     },
     "KRW=X": {
-      "2026-09-14": 1346.8,
       "2026-09-15": 1362.68,
       "2026-09-16": 1376.95,
       "2026-09-17": 1379.98,
@@ -2955,7 +2954,8 @@
       "2026-09-22": 1354.79,
       "2026-09-23": 1365.91,
       "2026-09-24": 1365.23,
-      "2026-09-25": 1355.28
+      "2026-09-25": 1355.28,
+      "2026-09-26": 1355.28
     },
     "^GSPC": {
       "2026-09-14": 7619.98,
@@ -3386,8 +3386,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfQvvvPpFqrJwtHW131nh\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfQvvwkg3X7dZ4jiyNcfh\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfQvvxQN8aEnb2RCDSV7W\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfR1YRjMsoZhr9wujqf6j\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfR1YTW2GqJsiv7Ed1qL1\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfR1YU9TxG8mMdLmYboQq\"}"
   ]
 }
