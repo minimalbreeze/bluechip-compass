@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-26T04:18:51.185Z",
+  "asOf": "2026-09-26T05:19:14.015Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -44,17 +44,17 @@
     },
     "^VIX": {
       "price": 14.87,
-      "prev": 15.670000076293945,
-      "chg": -5.11,
-      "prevDay": "2026-09-24",
+      "prev": 14.869999885559082,
+      "chg": 0,
+      "prevDay": "2026-09-25",
       "basis": "prev-close-bar",
       "time": "2026-09-25T20:15:01.000Z"
     },
     "^TNX": {
       "price": 5.184,
-      "prev": 5.1620001792907715,
-      "chg": 0.43,
-      "prevDay": "2026-09-24",
+      "prev": 5.184000015258789,
+      "chg": 0,
+      "prevDay": "2026-09-25",
       "basis": "prev-close-bar",
       "time": "2026-09-25T18:59:55.000Z"
     }
@@ -379,13 +379,13 @@
         "by": "rules"
       },
       {
-        "title": "\"이자 부담에 적정가치 하향\"…금리 상승기 유리한 종목은? [한경우의 케이스스터디]",
+        "title": "'내 주식 어쩌나' 떨던 개미들…삼성전자 다시 보니 '깜짝' [한경우의 케이스스터디]",
         "link": "https://www.hankyung.com/article/2026092325796",
         "source": "한국경제",
         "date": "Sat, 26 Sep 2026 11:55:53 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -2986,7 +2986,6 @@
       "2026-09-26": 27068.717
     },
     "^VIX": {
-      "2026-09-14": 17.1,
       "2026-09-15": 17.2,
       "2026-09-16": 17.71,
       "2026-09-17": 15.44,
@@ -2997,10 +2996,10 @@
       "2026-09-22": 14.21,
       "2026-09-23": 15.18,
       "2026-09-24": 15.67,
-      "2026-09-25": 14.87
+      "2026-09-25": 14.87,
+      "2026-09-26": 14.87
     },
     "^TNX": {
-      "2026-09-14": 4.961,
       "2026-09-15": 4.996,
       "2026-09-16": 5.006,
       "2026-09-17": 4.947,
@@ -3011,7 +3010,8 @@
       "2026-09-22": 4.968,
       "2026-09-23": 5.114,
       "2026-09-24": 5.162,
-      "2026-09-25": 5.184
+      "2026-09-25": 5.184,
+      "2026-09-26": 5.184
     },
     "105560.KS": {
       "2026-09-15": 175800,
@@ -3386,8 +3386,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfRQaP2sTNGh4xjuiJybX\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfRQaQBpsAst6jSidfgrx\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfRQaQkJrN7XnkC17o45Z\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfRVBS29Snb1jmact5dLj\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfRVBTJngJkvSP5TXe8UQ\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfRVBTtGZB9u1vuLWUSpn\"}"
   ]
 }
