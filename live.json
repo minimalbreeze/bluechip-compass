@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-26T11:21:36.954Z",
+  "asOf": "2026-09-26T12:22:01.508Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -24,7 +24,7 @@
       "chg": -0.95,
       "prevDay": "2026-09-25",
       "basis": "prev-close-bar",
-      "time": "2026-09-26T03:30:31.000Z"
+      "time": "2026-09-26T03:30:32.000Z"
     },
     "^GSPC": {
       "price": 7743.41,
@@ -448,11 +448,11 @@
         "by": "rules"
       },
       {
-        "title": "Microsoft’s stock has roared back to life, closing at its highest level of the year",
-        "link": "https://www.marketwatch.com/story/microsofts-stock-has-roared-back-to-life-and-is-now-headed-for-its-highest-close-of-the-year-89e4d596?mod=mw_rss_topstories",
+        "title": "Why bond-market volatility hasn’t spilled over into stocks",
+        "link": "https://www.marketwatch.com/story/why-bond-market-volatility-hasnt-spilled-over-into-stocks-f156b24a?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Fri, 25 Sep 2026 21:04:00 GMT",
-        "ko": "Microsoft의 주가가 다시 살아나면서 올해 최고 수준으로 마감되었습니다.",
+        "date": "Sat, 26 Sep 2026 12:00:00 GMT",
+        "ko": "채권시장 변동성이 주식으로 유출되지 않은 이유",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -484,14 +484,14 @@
         "by": "rules"
       },
       {
-        "title": "Tesla’s stock falls as launch of Semi truck fails to excite investors",
-        "link": "https://www.marketwatch.com/story/teslas-stock-falls-as-semi-launch-fails-to-excite-investors-5b216e59?mod=mw_rss_topstories",
+        "title": "Microsoft’s stock has roared back to life, closing at its highest level of the year",
+        "link": "https://www.marketwatch.com/story/microsofts-stock-has-roared-back-to-life-and-is-now-headed-for-its-highest-close-of-the-year-89e4d596?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Fri, 25 Sep 2026 20:34:00 GMT",
-        "ko": "세미 트럭 출시로 테슬라의 주가가 하락하여 투자자들을 흥분시키지 못함",
+        "date": "Fri, 25 Sep 2026 21:04:00 GMT",
+        "ko": "Microsoft의 주가가 다시 살아나면서 올해 최고 수준으로 마감되었습니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -511,7 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "Best CD rates today, Friday, September 18, 2026: Up to 4.40% APY return available with a 2-year CD": "2026년 9월 18일 금요일 최고의 CD 요금: 2년 CD와 함께 최대 4.40% 의 APY 수익률 제공",
     "A sudden end to the Iran war would strike a blow against oil prices and energy stocks. Yet company insiders are buying.": "이란 전쟁의 갑작스런 종식은 유가와 에너지 재고에 타격을 입힐 것이다. 그러나 회사 내부자들은 구매하고 있습니다.",
     "What History Reveals About Investing Through a Stock Market Crash": "주식 시장 붕괴를 통한 투자에 대한 역사는 무엇을 드러내는가",
     "US equity funds post fourth weekly outflow on inflation worries, rate concerns": "미국 주식 펀드, 인플레이션 우려, 금리 우려에 대한 네 번째 주간 유출",
@@ -810,7 +809,8 @@
     "This is why you might see 8% mortgage rates soon": "이것이 곧 8% 의 주택담보대출 금리를 볼 수 있는 이유입니다.",
     "Nike’s stock is one of the worst in the S&P 500 — and BofA says it’s not done sliding": "나이키의 주식은 S&P 500에서 최악 중 하나이며, BofA는 슬라이딩이 완료되지 않았다고 말합니다.",
     "Microsoft’s stock has roared back to life, closing at its highest level of the year": "Microsoft의 주가가 다시 살아나면서 올해 최고 수준으로 마감되었습니다.",
-    "Tesla’s stock falls as launch of Semi truck fails to excite investors": "세미 트럭 출시로 테슬라의 주가가 하락하여 투자자들을 흥분시키지 못함"
+    "Tesla’s stock falls as launch of Semi truck fails to excite investors": "세미 트럭 출시로 테슬라의 주가가 하락하여 투자자들을 흥분시키지 못함",
+    "Why bond-market volatility hasn’t spilled over into stocks": "채권시장 변동성이 주식으로 유출되지 않은 이유"
   },
   "nvCache": {
     "https://www.mk.co.kr/news/stock/12138540": {
@@ -3386,8 +3386,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfRxpCGbJ7p4X27qW57Bg\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfRxpDhfRXNNzwHYxfaCU\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfRxpEFeRenYpDgx9T1Ls\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfS3RP5QtXLgKA8dSQnW6\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfS3RQLZjy4q8TBXorgJx\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfS3RQsZPzoRpVrLrFdtZ\"}"
   ]
 }
