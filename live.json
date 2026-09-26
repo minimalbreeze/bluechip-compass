@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-26T22:26:17.050Z",
+  "asOf": "2026-09-26T23:26:40.946Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -20,9 +20,9 @@
     },
     "KRW=X": {
       "price": 1354.4,
-      "prev": 1367.3599853515625,
-      "chg": -0.95,
-      "prevDay": "2026-09-25",
+      "prev": 1354.4000244140625,
+      "chg": 0,
+      "prevDay": "2026-09-26",
       "basis": "prev-close-bar",
       "time": "2026-09-26T03:30:32.000Z"
     },
@@ -368,13 +368,13 @@
   "news": {
     "kr": [
       {
-        "title": "상장사 3분기 실적 전망치 변화는…삼전닉스 상향 조정",
-        "link": "https://www.yna.co.kr/view/AKR20260923161100008",
+        "title": "1천조 시장 열리는 AI반도체…\"정부, 공급망 진출 지원해야\"",
+        "link": "https://www.yna.co.kr/view/AKR20260923100300003",
         "source": "연합뉴스",
-        "date": "Sun, 27 Sep 2026 07:15:02 +0900",
+        "date": "Sun, 27 Sep 2026 07:31:00 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -401,13 +401,13 @@
         "by": "rules"
       },
       {
-        "title": "[마켓인사이트] 추석 연휴서 돌아온 韓증시, 상승흐름 이어갈까",
-        "link": "https://www.yna.co.kr/view/AKR20260926021000008",
+        "title": "상장사 3분기 실적 전망치 변화는…삼전닉스 상향 조정",
+        "link": "https://www.yna.co.kr/view/AKR20260923161100008",
         "source": "연합뉴스",
-        "date": "Sun, 27 Sep 2026 07:00:03 +0900",
+        "date": "Sun, 27 Sep 2026 07:15:02 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -2944,7 +2944,6 @@
       "2026-09-27": 844.48
     },
     "KRW=X": {
-      "2026-09-15": 1362.68,
       "2026-09-16": 1376.95,
       "2026-09-17": 1379.98,
       "2026-09-18": 1385.95,
@@ -2955,7 +2954,8 @@
       "2026-09-23": 1365.91,
       "2026-09-24": 1365.23,
       "2026-09-25": 1355.28,
-      "2026-09-26": 1354.4
+      "2026-09-26": 1354.4,
+      "2026-09-27": 1354.4
     },
     "^GSPC": {
       "2026-09-15": 7585.73,
@@ -3386,8 +3386,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfSqVsxhS8NedQD8vGihL\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfSqVvENSyL4EKpifMqA1\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfSqVxrsu5UXKQ8nzeibZ\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfSv74dLL3Lx18uiqnpe6\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfSv75yhAHF1v7rKvXnv8\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfSv76bQXsKp5Jw1oMiPi\"}"
   ]
 }
