@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-27T02:27:55.226Z",
+  "asOf": "2026-09-27T03:28:20.102Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -368,13 +368,13 @@
   "news": {
     "kr": [
       {
-        "title": "'서울 외국인 채용박람회' 참여기업 내달 16일까지 모집",
-        "link": "https://www.yna.co.kr/view/AKR20260924022400004",
+        "title": "수출호조·환율안정에 제조업 경기전망 개선…반도체 역대 최대",
+        "link": "https://www.yna.co.kr/view/AKR20260927016500003",
         "source": "연합뉴스",
-        "date": "Sun, 27 Sep 2026 11:15:03 +0900",
+        "date": "Sun, 27 Sep 2026 12:00:01 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -401,10 +401,10 @@
         "by": "rules"
       },
       {
-        "title": "광주 아파트 매매가격 상승세 전환…'통합·반도체 효과'",
-        "link": "https://www.yna.co.kr/view/AKR20260923075800054",
+        "title": "'서울 외국인 채용박람회' 참여기업 내달 16일까지 모집",
+        "link": "https://www.yna.co.kr/view/AKR20260924022400004",
         "source": "연합뉴스",
-        "date": "Sun, 27 Sep 2026 10:00:04 +0900",
+        "date": "Sun, 27 Sep 2026 11:15:03 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -3386,8 +3386,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfT9vezPKXyj1CXK4GHCD\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfT9vgF38BXpCyB65dAr5\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfT9vgq1vhtzHF4d9knS4\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfTEXrkzxfDferm5qDpGc\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfTEXt3Pah5neHFEpP2pt\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfTEXtharpxwcbn7SKHSY\"}"
   ]
 }
