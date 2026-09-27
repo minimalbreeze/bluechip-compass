@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-27T04:29:19.224Z",
+  "asOf": "2026-09-27T05:29:48.095Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -44,18 +44,18 @@
     },
     "^VIX": {
       "price": 14.87,
-      "prev": 14.869999885559082,
+      "prev": 14.87,
       "chg": 0,
-      "prevDay": "2026-09-25",
-      "basis": "prev-close-bar",
+      "prevDay": "2026-09-26",
+      "basis": "prev-close-memo",
       "time": "2026-09-25T20:15:01.000Z"
     },
     "^TNX": {
       "price": 5.184,
-      "prev": 5.184000015258789,
+      "prev": 5.184,
       "chg": 0,
-      "prevDay": "2026-09-25",
-      "basis": "prev-close-bar",
+      "prevDay": "2026-09-26",
+      "basis": "prev-close-memo",
       "time": "2026-09-25T18:59:55.000Z"
     }
   },
@@ -2986,7 +2986,6 @@
       "2026-09-27": 27068.717
     },
     "^VIX": {
-      "2026-09-15": 17.2,
       "2026-09-16": 17.71,
       "2026-09-17": 15.44,
       "2026-09-18": 14.81,
@@ -2997,10 +2996,10 @@
       "2026-09-23": 15.18,
       "2026-09-24": 15.67,
       "2026-09-25": 14.87,
-      "2026-09-26": 14.87
+      "2026-09-26": 14.87,
+      "2026-09-27": 14.87
     },
     "^TNX": {
-      "2026-09-15": 4.996,
       "2026-09-16": 5.006,
       "2026-09-17": 4.947,
       "2026-09-18": 4.998,
@@ -3011,7 +3010,8 @@
       "2026-09-23": 5.114,
       "2026-09-24": 5.162,
       "2026-09-25": 5.184,
-      "2026-09-26": 5.184
+      "2026-09-26": 5.184,
+      "2026-09-27": 5.184
     },
     "105560.KS": {
       "2026-09-16": 176700,
@@ -3386,8 +3386,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfTKBaxG4GYZpuqvpoKic\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfTKBcJsRKoTY1wqy1cuu\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfTKBd13XeYHzq5xzBU3k\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfTPo5ujrnSpc7SNmSdZt\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfTPo7Fc2f2VyxbFmkUfB\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfTPo7xGY7GARF5eRBFqm\"}"
   ]
 }
