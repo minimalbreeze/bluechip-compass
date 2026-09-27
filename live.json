@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-27T18:36:51.790Z",
+  "asOf": "2026-09-27T19:37:18.308Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-23T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1355.28,
+      "price": 1353.42,
       "prev": 1354.4,
-      "chg": 0.06,
+      "chg": -0.07,
       "prevDay": "2026-09-26",
       "basis": "prev-close-memo",
-      "time": "2026-09-27T13:54:03.000Z"
+      "time": "2026-09-27T19:14:10.000Z"
     },
     "^GSPC": {
       "price": 7743.41,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.075
+    "pct": 0.066
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -4.88
     },
     "KRW=X": {
-      "last": 1355.28,
+      "last": 1353.42,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.075,
-      "chg3m": -12.66
+      "pct52": 0.066,
+      "chg3m": -12.78
     },
     "^GSPC": {
       "last": 7743.41,
@@ -390,13 +390,13 @@
         "by": "rules"
       },
       {
-        "title": "수출株 날고…내수株 꺾였다 3분기도 'K자형' 실적 양극화",
-        "link": "https://www.mk.co.kr/news/stock/12162116",
+        "title": "K증시에 지친 투자자들 … 대피처로 꼽히는 이곳은?",
+        "link": "https://www.mk.co.kr/news/stock/12162043",
         "source": "매일경제",
-        "date": "Sun, 27 Sep 2026 19:07:03 +09:00",
+        "date": "Mon, 28 Sep 2026 04:30:00 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -423,13 +423,13 @@
         "by": "rules"
       },
       {
-        "title": "금리 민감도 약해진 반도체株…외국인 수급·3분기 실적 관건",
-        "link": "https://www.mk.co.kr/news/stock/12162046",
+        "title": "수출株 날고…내수株 꺾였다 3분기도 'K자형' 실적 양극화",
+        "link": "https://www.mk.co.kr/news/stock/12162116",
         "source": "매일경제",
-        "date": "Sun, 27 Sep 2026 16:59:09 +09:00",
+        "date": "Sun, 27 Sep 2026 19:07:03 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -2955,7 +2955,7 @@
       "2026-09-24": 1365.23,
       "2026-09-25": 1355.28,
       "2026-09-26": 1354.4,
-      "2026-09-27": 1355.28
+      "2026-09-27": 1353.42
     },
     "^GSPC": {
       "2026-09-16": 7551.81,
@@ -3386,7 +3386,7 @@
     }
   },
   "failed": [
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfURpAKQyAGz57LF4kF1x\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfURpBNR4NRzr3j3aASFB\"}"
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfUWRV7TMERt1TY8LHmRv\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfUWRWW3QLrEkLcVdgAzr\"}"
   ]
 }
