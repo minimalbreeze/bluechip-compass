@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-27T00:27:05.367Z",
+  "asOf": "2026-09-27T01:27:31.358Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -368,10 +368,10 @@
   "news": {
     "kr": [
       {
-        "title": "광주 반도체 산단 수백억 용역 발주…지역업체는 그림의 떡",
-        "link": "https://www.yna.co.kr/view/AKR20260921056700054",
+        "title": "광주 아파트 매매가격 상승세 전환…'통합·반도체 효과'",
+        "link": "https://www.yna.co.kr/view/AKR20260923075800054",
         "source": "연합뉴스",
-        "date": "Sun, 27 Sep 2026 09:01:02 +0900",
+        "date": "Sun, 27 Sep 2026 10:00:04 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -379,13 +379,13 @@
         "by": "rules"
       },
       {
-        "title": "올해도 지지부진한 中증시…'18년 하향추세' 끊는 시험대는",
-        "link": "https://www.hankyung.com/article/202609234140i",
+        "title": "나이키·아디다스 제친 아식스…실적·주가 '동반 질주'",
+        "link": "https://www.hankyung.com/article/202609277068i",
         "source": "한국경제",
-        "date": "Sun, 27 Sep 2026 08:00:15 +0900",
+        "date": "Sun, 27 Sep 2026 09:00:11 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -401,10 +401,10 @@
         "by": "rules"
       },
       {
-        "title": "1천조 시장 열리는 AI반도체…\"정부, 공급망 진출 지원해야\"",
-        "link": "https://www.yna.co.kr/view/AKR20260923100300003",
+        "title": "[마켓人] 이영곤 토스증권 리서치센터장 \"AI사이클 관건은 기업 여력\"",
+        "link": "https://www.yna.co.kr/view/AKR20260922105800008",
         "source": "연합뉴스",
-        "date": "Sun, 27 Sep 2026 07:31:00 +0900",
+        "date": "Sun, 27 Sep 2026 10:00:02 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -412,13 +412,13 @@
         "by": "rules"
       },
       {
-        "title": "7000선 회복한 코스피…PCE 물가지수·마이크론 실적 주목 [주간전망]",
-        "link": "https://www.hankyung.com/article/2026092664736",
+        "title": "올해도 지지부진한 中증시…'18년 하향추세' 끊는 시험대는",
+        "link": "https://www.hankyung.com/article/202609234140i",
         "source": "한국경제",
-        "date": "Sun, 27 Sep 2026 08:00:12 +0900",
+        "date": "Sun, 27 Sep 2026 08:00:15 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -3386,8 +3386,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfSziE6nmqnsSLCmWwA9y\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfSziFc5MBRP6d2aWVDuB\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfSziGRwGf4a2E14e4YXH\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfT5KWRkDtYkRFuyU3LS1\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfT5KY7CitEkrjVAPQaHA\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfT5KZAx5VQRdE55z9fZt\"}"
   ]
 }
