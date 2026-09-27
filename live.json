@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-27T20:37:42.602Z",
+  "asOf": "2026-09-27T21:38:08.457Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-23T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1353.42,
+      "price": 1354.99,
       "prev": 1354.4,
-      "chg": -0.07,
+      "chg": 0.04,
       "prevDay": "2026-09-26",
       "basis": "prev-close-memo",
-      "time": "2026-09-27T19:14:10.000Z"
+      "time": "2026-09-27T21:02:28.000Z"
     },
     "^GSPC": {
       "price": 7743.41,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.066
+    "pct": 0.073
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -4.88
     },
     "KRW=X": {
-      "last": 1353.42,
+      "last": 1354.99,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.066,
-      "chg3m": -12.78
+      "pct52": 0.073,
+      "chg3m": -12.68
     },
     "^GSPC": {
       "last": 7743.41,
@@ -368,13 +368,13 @@
   "news": {
     "kr": [
       {
-        "title": "예탁원, 결제촉진대금에 증권납부 허용…국채 담보인정 최대 98%",
-        "link": "https://www.yna.co.kr/view/AKR20260927051600008",
+        "title": "서울시, 공시가격 검증지원센터 세미나…지자체 역할 확대 논의",
+        "link": "https://www.yna.co.kr/view/AKR20260927017800004",
         "source": "연합뉴스",
-        "date": "Sun, 27 Sep 2026 20:28:02 +0900",
+        "date": "Mon, 28 Sep 2026 06:00:08 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -390,10 +390,10 @@
         "by": "rules"
       },
       {
-        "title": "K증시에 지친 투자자들 … 대피처로 꼽히는 이곳은?",
-        "link": "https://www.mk.co.kr/news/stock/12162043",
+        "title": "“내가 그 주식을 대체 왜 샀을까”…오답노트의 고수가 찍은 미래 10년 업종",
+        "link": "https://www.mk.co.kr/news/stock/12162187",
         "source": "매일경제",
-        "date": "Mon, 28 Sep 2026 04:30:00 +09:00",
+        "date": "Mon, 28 Sep 2026 06:27:53 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -401,13 +401,13 @@
         "by": "rules"
       },
       {
-        "title": "수출호조·환율안정에 제조업 경기전망 개선…반도체 역대 최대",
-        "link": "https://www.yna.co.kr/view/AKR20260927016500003",
+        "title": "건설공사 2분기 계약액 작년보다 27%↑…반도체 시설 등 영향",
+        "link": "https://www.yna.co.kr/view/AKR20260927035800003",
         "source": "연합뉴스",
-        "date": "Sun, 27 Sep 2026 12:00:01 +0900",
+        "date": "Mon, 28 Sep 2026 06:00:05 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -423,13 +423,13 @@
         "by": "rules"
       },
       {
-        "title": "수출株 날고…내수株 꺾였다 3분기도 'K자형' 실적 양극화",
-        "link": "https://www.mk.co.kr/news/stock/12162116",
+        "title": "‘국장 탈출’ 말 많았어도…연초 코스피 담은 투자자, 다른 자산 전부 이겼다",
+        "link": "https://www.mk.co.kr/news/stock/12162186",
         "source": "매일경제",
-        "date": "Sun, 27 Sep 2026 19:07:03 +09:00",
+        "date": "Mon, 28 Sep 2026 06:17:42 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -2955,7 +2955,7 @@
       "2026-09-24": 1365.23,
       "2026-09-25": 1355.28,
       "2026-09-26": 1354.4,
-      "2026-09-27": 1353.42
+      "2026-09-27": 1354.99
     },
     "^GSPC": {
       "2026-09-16": 7551.81,
@@ -3386,7 +3386,8 @@
     }
   },
   "failed": [
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfUb2ebuFB71gNZQkLdM8\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfUb2fwGgHeXcKgwFU5oR\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfUfdv2Y9eHP2qSjWU4kV\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfUfdwJRmG6GCPv6m3eii\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfUfdwyMzmi3K6AKFVusR\"}"
   ]
 }
