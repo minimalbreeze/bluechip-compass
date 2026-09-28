@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-28T09:49:17.026Z",
+  "asOf": "2026-09-28T10:50:25.349Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-28T06:32:40.000Z"
     },
     "KRW=X": {
-      "price": 1358.88,
+      "price": 1360.68,
       "prev": 1354.92,
-      "chg": 0.29,
+      "chg": 0.43,
       "prevDay": "2026-09-27",
       "basis": "prev-close-memo",
-      "time": "2026-09-28T09:49:05.000Z"
+      "time": "2026-09-28T10:49:29.000Z"
     },
     "^GSPC": {
       "price": 7743.41,
@@ -43,12 +43,12 @@
       "time": "2026-09-25T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 16.33,
+      "price": 16.39,
       "prev": 14.87,
-      "chg": 9.82,
+      "chg": 10.22,
       "prevDay": "2026-09-27",
       "basis": "prev-close-memo",
-      "time": "2026-09-28T09:34:01.000Z"
+      "time": "2026-09-28T10:34:31.000Z"
     },
     "^TNX": {
       "price": 5.184,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.092
+    "pct": 0.1
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -0.56
     },
     "KRW=X": {
-      "last": 1358.88,
+      "last": 1360.68,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.092,
-      "chg3m": -12.43
+      "pct52": 0.1,
+      "chg3m": -12.32
     },
     "^GSPC": {
       "last": 7743.41,
@@ -101,11 +101,11 @@
       "chg3m": 4.84
     },
     "^VIX": {
-      "last": 16.33,
+      "last": 16.39,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.163,
-      "chg3m": -1.57
+      "pct52": 0.166,
+      "chg3m": -1.21
     },
     "^TNX": {
       "last": 5.18,
@@ -117,39 +117,37 @@
   },
   "regime": {
     "by": "ai",
-    "asOf": "2026-08-31T18:06:07.710Z",
+    "asOf": "2026-09-28T10:50:08.141Z",
     "kr": {
       "why": {
-        "rates": "미 10년물 금리(^TNX)가 4.76%로 1년 범위 최상단(위치 100%), 3개월 +6.8%로 금리가 올라가는 방향이며 한국 정책금리 자체 수치는 주어지지 않아 시장금리 기준으로 판단했습니다.",
-        "growth": "코스피가 3개월간 -19.91% 하락하며 조정폭이 크지만 1년 범위 위치는 여전히 61%이고 VIX도 15.04로 낮아, 침체 신호로 단정하기보다 둔화 국면으로 봤습니다.",
-        "valuation": "코스피가 1년범위 3142.93~9114.55 중 61% 위치로 고점 대비 크게 내려왔지만 저점과도 거리가 있어 보통 수준으로 판단했고, PER 등 밸류 지표는 주어지지 않았습니다.",
-        "fx": "원/달러가 1367.93원으로 1년 범위 최하단(위치 0%), 3개월 -10.6%로 원화가 뚜렷하게 강해졌습니다.",
-        "geo": "헤드라인에 전쟁·정책 충격은 없지만 '외국인 빠진 코스피', '사모펀드 단타 주의보', '혼란한 증시' 등 수급 불안 표현이 반복되어 평온보다는 긴장으로 봤습니다."
+        "rates": "^TNX가 5.18로 1년 범위(3.95~5.18)의 100% 지점이고 3개월간 +18.52% 올라 시장금리가 상승 방향입니다.",
+        "growth": "코스피가 3개월간 -18.09% 하락해 둔화 신호가 뚜렷하지만, 1년 범위 위치는 여전히 61%이고 VIX도 16.39로 낮아 침체 단정보다는 둔화로 봅니다.",
+        "valuation": "지수 위치가 1년 범위(3424.6~9114.55)의 61%로 고점과 저점 사이 중간 위쪽이어서 극단적 저평가·고평가 근거가 약해 중립으로 봅니다.",
+        "fx": "원/달러가 1360.68로 1년 범위(1339.17~1554.48)의 10% 지점이고 3개월간 -12.32% 하락해 원화가 강해진 상태입니다.",
+        "geo": "제공된 헤드라인이 신규 상장·수급 등 국내 증시 이슈 위주이고 VIX도 16.39(위치 17%)로 낮아 특별한 긴장 근거가 없습니다."
       },
-      "summary": "원화는 1년 중 가장 강한데 코스피는 3개월간 20% 가까이 내려와, 환율은 우호적이지만 주식 수급은 불안한 엇갈린 국면입니다. 시장금리가 1년 최고치라 위험자산에 부담이 남아 있는 상태입니다.",
+      "summary": "금리는 1년 최고 수준까지 오르고 코스피는 3개월간 18% 넘게 밀려 경기 둔화 쪽에 가까운 국면입니다. 다만 원화는 1360원대로 강해졌고 변동성 지표도 낮아 시장이 패닉 상태는 아닙니다.",
       "rates": "hike",
       "growth": "slow",
       "valuation": "fair",
       "fx": "strong",
-      "geo": "tense"
+      "geo": "calm"
     },
     "us": {
       "why": {
-        "rates": "10년물 금리가 4.76%로 1년 범위 100% 위치이고 3개월 +6.8%, 헤드라인에도 '금리 인상에 대해 지금이 행동할 때'라는 연준 인사 발언이 있어 올라가는 방향입니다.",
-        "growth": "S&P500이 7682.81로 1년 범위 92% 위치, 3개월 +0.96%로 고점권을 유지하고 VIX 15.04로 낮아 경기 둔화 신호는 자료에서 확인되지 않습니다.",
-        "valuation": "S&P500이 1년범위 6343.72~7798.99 중 92% 위치로 고점 부근이라 가격 부담이 있는 편으로 분류했습니다.",
-        "fx": "원/달러 1367.93원으로 1년 최저(위치 0%), 3개월 -10.6%로 달러 대비 원화가 강세이며, 이는 원화 기준 미국자산 환산에 불리한 방향입니다.",
-        "geo": "전면적 충격 사건은 없지만 인플레이션 경고와 금리 인상 발언, 캘리포니아 산불 책임에 따른 유틸리티 주가 급락 등 정책·규제 이슈가 있어 긴장으로 봤습니다."
+        "rates": "^TNX가 5.18로 1년 범위 상단(100% 지점), 3개월 +18.52%이고 '국채 수익률 급등' 헤드라인도 같은 방향을 가리킵니다.",
+        "growth": "S&P500이 3개월간 +4.07% 올라 7743.41로 1년 범위의 96% 지점에 있어 아직 확장 쪽 신호가 우세합니다(다만 '시장 폭 악화' 헤드라인은 경계 요인).",
+        "valuation": "지수가 1년 범위(6343.72~7798.99)의 96% 지점으로 고점 부근이어서 가격 부담이 있는 구간입니다.",
+        "fx": "원/달러가 1360.68로 1년 범위의 10% 지점, 3개월 -12.32%로 원화가 달러 대비 강세입니다.",
+        "geo": "헤드라인이 금리·개별 기업·스위스 금리 동결 등 정책·시장 이슈 중심이고 VIX 16.39(위치 17%)로 낮아 평온으로 분류합니다."
       },
-      "summary": "미국 주가는 1년 고점 근처(92%)로 가격 부담이 있는데, 10년 금리는 4.76%로 1년 최고치이고 연준 인사들의 인상 발언까지 나오는 상태입니다. 변동성 지수는 낮아 겉은 조용하지만 금리·정책 쪽 긴장이 쌓인 국면입니다.",
+      "summary": "미국 증시는 1년 고점 부근(범위의 96%)에 있어 가격 부담이 있는 반면, 국채금리는 5.18%로 1년 최고 수준까지 올라 금리 압력이 커진 국면입니다. 변동성 지표는 낮아 시장 분위기 자체는 아직 차분합니다.",
       "rates": "hike",
       "growth": "expand",
       "valuation": "rich",
       "fx": "strong",
-      "geo": "tense"
-    },
-    "stale": true,
-    "staleWhy": "400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anth"
+      "geo": "calm"
+    }
   },
   "stocks": {
     "kr": {
@@ -368,15 +366,15 @@
   "news": {
     "kr": [
       {
-        "title": "항재밍 솔루션기업 덕산넵코어스, 30일 코스닥 신규 상장",
-        "link": "https://www.yna.co.kr/view/AKR20260928150600008",
+        "title": "솔리스·럭스코·셀트릭스, 코스닥 상장예심 통과",
+        "link": "https://www.yna.co.kr/view/AKR20260928156200008",
         "source": "연합뉴스",
-        "date": "Mon, 28 Sep 2026 18:15:07 +0900",
+        "date": "Mon, 28 Sep 2026 19:24:26 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
+        "why": "신규 상장 예심 통과는 개별 일정으로 기존 투자 근거와 무관합니다.",
+        "by": "ai"
       },
       {
         "title": "中 증시, '제약·소프트웨어 우수 종목'만 모은 새 지수 선보여",
@@ -386,8 +384,41 @@
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
+        "why": "해외 신규 지수 출시 소식으로 당장 할 일은 없습니다.",
+        "by": "ai"
+      },
+      {
+        "title": "K증시에 지친 투자자들…대피처로 꼽히는 이곳은? [주린이 ABC]",
+        "link": "https://www.mk.co.kr/news/stock/12163024",
+        "source": "매일경제",
+        "date": "Mon, 28 Sep 2026 19:05:38 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "투자 심리를 다룬 해설 기사로 기업 이익과는 관계가 없습니다.",
+        "by": "ai"
+      },
+      {
+        "title": "항재밍 솔루션기업 덕산넵코어스, 30일 코스닥 신규 상장",
+        "link": "https://www.yna.co.kr/view/AKR20260928150600008",
+        "source": "연합뉴스",
+        "date": "Mon, 28 Sep 2026 18:15:07 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "신규 상장 일정 안내일 뿐 보유 근거를 흔들지 않습니다.",
+        "by": "ai"
+      },
+      {
+        "title": "AI투자가 바꾼 '금리 상승=주가 하락' 공식",
+        "link": "https://www.hankyung.com/article/2026092800881",
+        "source": "한국경제",
+        "date": "Mon, 28 Sep 2026 18:02:08 +0900",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": "market",
+        "why": "금리와 주가 관계가 달라진다면 시장 전체 구조 변화라 지켜볼 만합니다.",
+        "by": "ai"
       },
       {
         "title": "코스닥 빚투 반도체株 쏠림 …레버리지 투자 '주의보'",
@@ -397,41 +428,8 @@
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "에이스엔지니어링 등 벤처기업 4곳, 코스닥 상장예비심사 신청",
-        "link": "https://www.yna.co.kr/view/AKR20260928149600008",
-        "source": "연합뉴스",
-        "date": "Mon, 28 Sep 2026 18:02:21 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "AI투자가 바꾼 '금리 상승=주가 하락' 공식",
-        "link": "https://www.hankyung.com/article/2026092800881",
-        "source": "한국경제",
-        "date": "Mon, 28 Sep 2026 18:02:08 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "美상장땐 '몸값 200조' 솔리다임…하닉 주가엔 '글쎄'",
-        "link": "https://www.mk.co.kr/news/stock/12162986",
-        "source": "매일경제",
-        "date": "Mon, 28 Sep 2026 17:48:07 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
+        "why": "빚을 낸 투자 쏠림은 수급 현상으로 기업 이익과 무관합니다.",
+        "by": "ai"
       }
     ],
     "us": [
@@ -441,11 +439,23 @@
         "source": "CNBC",
         "date": "Fri, 25 Sep 2026 11:08:05 GMT",
         "ko": "급증하는 국채 수익률은 Kevin Warsh와 Fed에 새로운 문제를 제기합니다.",
+        "act": "watch",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "금리 흐름은 시장 전체에 영향을 주지만 방향은 수시로 바뀌니 흐름만 확인하세요.",
+        "by": "ai"
+      },
+      {
+        "title": "The history of this market bad breadth signal points to ominous risks ahead",
+        "link": "https://www.marketwatch.com/story/the-history-of-this-market-bad-breadth-signal-points-to-ominous-risks-ahead-ad77e065?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "date": "Mon, 28 Sep 2026 10:45:00 GMT",
+        "ko": "이 시장의 나쁜 폭 신호의 역사는 앞으로의 불길한 위험을 가리 킵니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
+        "why": "과거 패턴에 기댄 시장 전망이라 오늘 할 일은 없습니다.",
+        "by": "ai"
       },
       {
         "title": "This Little-Known AI Chip Stock Doubled. Its New Chips Now Double Optical Speed",
@@ -455,9 +465,9 @@
         "ko": "이 잘 알려지지 않은 AI 칩 재고가 두 배로 증가했습니다. 새로운 칩으로 광학 속도 2배 향상",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
+        "scope": "company",
+        "why": "개별 기업의 신제품·주가 급등 소식으로 장기 이익 변화는 아직 알 수 없습니다.",
+        "by": "ai"
       },
       {
         "title": "Switzerland is keeping rates at 0% — for now",
@@ -467,9 +477,9 @@
         "ko": "스위스는 현재로서는 요금을 0% 로 유지하고 있습니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
+        "scope": "market",
+        "why": "해외 정책금리 동결은 현상 유지 소식이라 영향이 제한적입니다.",
+        "by": "ai"
       },
       {
         "title": "Why AutoZone Stock Rallied Today",
@@ -479,9 +489,9 @@
         "ko": "AutoZone 주가가 오늘 상승한 이유",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
+        "scope": "company",
+        "why": "하루 주가 등락의 이유를 설명하는 기사로 보유 근거와는 무관합니다.",
+        "by": "ai"
       },
       {
         "title": "Here's what happens to the economy when Treasury yields soar like they are now",
@@ -489,29 +499,16 @@
         "source": "CNBC",
         "date": "Fri, 25 Sep 2026 13:48:19 GMT",
         "ko": "국채 수익률이 지금처럼 치솟을 때 경제에 일어나는 일은 다음과 같습니다.",
-        "act": "none",
+        "act": "watch",
         "lasting": "temporary",
         "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "Nike (NKE): Wall Street Tests Whether the Turnaround Can Outrun Weak Demand Ahead of Q1 Results",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/nike-nke-wall-street-tests-040747520.html",
-        "source": "Yahoo Finance",
-        "date": "2026-09-23T04:07:47Z",
-        "ko": "나이키 (NKE): 월스트리트는 턴어라운드가 1분기 실적을 앞두고 약한 수요를 능가할 수 있는지 테스트합니다.",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
+        "why": "금리와 경제의 관계를 다룬 해설이며, 거시 환경 변화는 지켜볼 만합니다.",
+        "by": "ai"
       }
     ]
   },
-  "newsBy": "rules",
+  "newsBy": "ai",
   "trCache": {
-    "Dow Jones Futures: Will The Market Rally Take Flight? Robinhood, Sandisk, AMD, Moderna Surge Into Buy Areas": "다우 존스 퓨처스: 시장 랠리가 날아갈까요? Robinhood, Sandisk, AMD, Moderna 구매 지역으로의 서지",
     "Traditional bond investors have lost money for years. These five-star portfolio managers show a better way.": "전통적인 채권 투자자들은 수년간 돈을 잃었습니다. 이 5성급 포트폴리오 관리자는 더 나은 방법을 보여줍니다.",
     "These 6 Massive Dividend Yields May Be Too Good to Be True": "이 6가지 대규모 배당 수익률은 사실이기에는 너무 좋을 수 있습니다.",
     "What S&P 500 Gains of 9.5% in the First Half Signal for the Rest of the Year": "상반기 S&P 500이 올해 남은 기간 동안 9.5% 의 수익을 올린 비결",
@@ -810,93 +807,10 @@
     "Nike (NKE): Wall Street Tests Whether the Turnaround Can Outrun Weak Demand Ahead of Q1 Results": "나이키 (NKE): 월스트리트는 턴어라운드가 1분기 실적을 앞두고 약한 수요를 능가할 수 있는지 테스트합니다.",
     "Why the upcoming jobs report could send 10-year and 30-year Treasury yields surging": "다가오는 일자리 보고서가 10년 및 30년 국채 수익률을 급증시킬 수 있는 이유",
     "Look closer, and Wall Street’s rally is showing cracks": "더 가까이서 보면 월스트리트의 집회가 균열을 보이고 있습니다.",
-    "Micron could dethrone Nvidia and become the biggest driver of S&P 500 profit growth": "마이크론은 엔비디아를 탈퇴시키고 S&P 500 이익 성장의 가장 큰 원동력이 될 수 있습니다."
+    "Micron could dethrone Nvidia and become the biggest driver of S&P 500 profit growth": "마이크론은 엔비디아를 탈퇴시키고 S&P 500 이익 성장의 가장 큰 원동력이 될 수 있습니다.",
+    "The history of this market bad breadth signal points to ominous risks ahead": "이 시장의 나쁜 폭 신호의 역사는 앞으로의 불길한 위험을 가리 킵니다."
   },
   "nvCache": {
-    "https://www.mk.co.kr/news/stock/12138540": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "과거 수익률 발표로 앞으로의 기업 이익과는 무관합니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20260828048500002": {
-      "act": "none",
-      "lasting": "structural",
-      "scope": "market",
-      "why": "공시 심사 관행 변화지만 개별 기업 이익에 미치는 영향은 제한적입니다.",
-      "by": "ai"
-    },
-    "https://www.hankyung.com/article/2026082885316": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "하루 지수와 대형주 등락은 장기 보유 판단을 바꾸지 않습니다.",
-      "by": "ai"
-    },
-    "https://finance.yahoo.com/markets/stocks/articles/news-corporation-stock-analyst-estimates-131745216.html": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "애널리스트 추정·평가 자료는 회사의 장기 이익을 바꾸지 않습니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20260828059500002": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "수출 지표 개선은 경기 흐름 확인용이며 즉시 대응할 일은 없습니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20260828057400008": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "업무협약은 실적에 미치는 영향이 확인되지 않는 단발성 소식입니다.",
-      "by": "ai"
-    },
-    "https://finance.yahoo.com/markets/stocks/articles/corpay-stock-analyst-estimates-ratings-133307187.html": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "애널리스트 추정치 소개일 뿐, 회사 이익 구조가 바뀌는 내용은 아닙니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20260828067200008": {
-      "act": "watch",
-      "lasting": "structural",
-      "scope": "sector",
-      "why": "대규모 자사주 매입은 주주환원 정책의 방향 변화라 흐름을 지켜볼 만합니다.",
-      "by": "ai"
-    },
-    "https://www.mk.co.kr/news/stock/12138602": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "sector",
-      "why": "특정 투자자의 단기 매매 동향일 뿐 기업 이익과는 무관합니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20260828062200002": {
-      "act": "watch",
-      "lasting": "temporary",
-      "scope": "sector",
-      "why": "감독당국의 대출 유도는 업종 수익성에 영향 줄 수 있어 관찰 대상입니다.",
-      "by": "ai"
-    },
-    "https://finance.yahoo.com/markets/stocks/articles/extreme-speculators-keep-close-tabs-135453895.html": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "투기적 관심을 언급한 논평일 뿐, 기업 이익 구조와는 무관합니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20260828069400008": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "하루 지수 등락은 기업의 장기 이익과 무관합니다.",
-      "by": "ai"
-    },
     "https://www.hankyung.com/article/202608288940i": {
       "act": "none",
       "lasting": "temporary",
@@ -2912,6 +2826,90 @@
       "scope": "market",
       "why": "금리와 물가에 대한 해설·발언으로 기업 이익 구조를 바꾸지는 않습니다.",
       "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20260928156200008": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "신규 상장 예심 통과는 개별 일정으로 기존 투자 근거와 무관합니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/202609280081i": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "해외 신규 지수 출시 소식으로 당장 할 일은 없습니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12163024": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "투자 심리를 다룬 해설 기사로 기업 이익과는 관계가 없습니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20260928150600008": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "신규 상장 일정 안내일 뿐 보유 근거를 흔들지 않습니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/2026092800881": {
+      "act": "watch",
+      "lasting": "structural",
+      "scope": "market",
+      "why": "금리와 주가 관계가 달라진다면 시장 전체 구조 변화라 지켜볼 만합니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12162988": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "빚을 낸 투자 쏠림은 수급 현상으로 기업 이익과 무관합니다.",
+      "by": "ai"
+    },
+    "https://www.cnbc.com/2026/09/24/surging-treasury-yields-are-posing-a-brand-new-problem-for-kevin-warsh-and-the-fed.html": {
+      "act": "watch",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "금리 흐름은 시장 전체에 영향을 주지만 방향은 수시로 바뀌니 흐름만 확인하세요.",
+      "by": "ai"
+    },
+    "https://www.marketwatch.com/story/the-history-of-this-market-bad-breadth-signal-points-to-ominous-risks-ahead-ad77e065?mod=mw_rss_topstories": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "과거 패턴에 기댄 시장 전망이라 오늘 할 일은 없습니다.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/technology/ai/articles/little-known-ai-chip-stock-042916921.html": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "개별 기업의 신제품·주가 급등 소식으로 장기 이익 변화는 아직 알 수 없습니다.",
+      "by": "ai"
+    },
+    "https://www.cnbc.com/2026/09/24/swiss-national-bank-interest-rates-inflation.html": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "해외 정책금리 동결은 현상 유지 소식이라 영향이 제한적입니다.",
+      "by": "ai"
+    },
+    "https://finance.yahoo.com/markets/stocks/articles/why-autozone-stock-rallied-today-020051614.html": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "하루 주가 등락의 이유를 설명하는 기사로 보유 근거와는 무관합니다.",
+      "by": "ai"
+    },
+    "https://www.cnbc.com/2026/09/23/what-happens-to-the-economy-when-treasury-yields-soar.html": {
+      "act": "watch",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "금리와 경제의 관계를 다룬 해설이며, 거시 환경 변화는 지켜볼 만합니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2955,7 +2953,7 @@
       "2026-09-25": 1355.28,
       "2026-09-26": 1354.4,
       "2026-09-27": 1354.92,
-      "2026-09-28": 1358.88
+      "2026-09-28": 1360.68
     },
     "^GSPC": {
       "2026-09-17": 7637.76,
@@ -2997,7 +2995,7 @@
       "2026-09-25": 14.87,
       "2026-09-26": 14.87,
       "2026-09-27": 14.87,
-      "2026-09-28": 16.33
+      "2026-09-28": 16.39
     },
     "^TNX": {
       "2026-09-17": 4.947,
@@ -3385,9 +3383,5 @@
       "2026-09-28": 505.48
     }
   },
-  "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfVdPe9vyssUT39rTcNVZ\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfVdPfoQaqfEmPJMXEJfx\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfVdPguso6Jcv9LoXYR1R\"}"
-  ]
+  "failed": []
 }
