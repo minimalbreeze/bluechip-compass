@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-27T23:38:56.323Z",
+  "asOf": "2026-09-28T00:02:20.513Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-23T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1354.89,
+      "price": 1358.48,
       "prev": 1354.92,
-      "chg": 0,
+      "chg": 0.26,
       "prevDay": "2026-09-27",
       "basis": "prev-close-memo",
-      "time": "2026-09-27T23:38:33.000Z"
+      "time": "2026-09-28T00:02:10.000Z"
     },
     "^GSPC": {
       "price": 7743.41,
@@ -62,14 +62,14 @@
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.073
+    "pct": 0.09
   },
   "hist": {
     "^KS11": {
       "last": 7080.92,
-      "low52": 3386.05,
+      "low52": 3424.6,
       "high52": 9114.55,
-      "pct52": 0.645,
+      "pct52": 0.643,
       "chg3m": -20.71
     },
     "^KQ11": {
@@ -80,11 +80,11 @@
       "chg3m": -4.88
     },
     "KRW=X": {
-      "last": 1354.89,
+      "last": 1358.48,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.073,
-      "chg3m": -12.69
+      "pct52": 0.09,
+      "chg3m": -12.46
     },
     "^GSPC": {
       "last": 7743.41,
@@ -368,10 +368,10 @@
   "news": {
     "kr": [
       {
-        "title": "SK증권 \"서진시스템, 하반기 수익성 회복 전망…목표가↑\"",
-        "link": "https://www.yna.co.kr/view/AKR20260928020800008",
+        "title": "한은 \"국제 금융시장 불확실성 고조…韓 펀더멘털 양호\"",
+        "link": "https://www.yna.co.kr/view/AKR20260928026700002",
         "source": "연합뉴스",
-        "date": "Mon, 28 Sep 2026 08:31:40 +0900",
+        "date": "Mon, 28 Sep 2026 08:57:58 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -401,13 +401,13 @@
         "by": "rules"
       },
       {
-        "title": "한투증권 \"현대백화점, 백화점 실적 추정치 하향…목표가↓\"",
-        "link": "https://www.yna.co.kr/view/AKR20260928020600008",
+        "title": "美 국채금리 2007년 이후 최고…\"물가 우려에 10년물 5.6%까지 열려\"",
+        "link": "https://www.yna.co.kr/view/AKR20260928024500008",
         "source": "연합뉴스",
-        "date": "Mon, 28 Sep 2026 08:28:51 +0900",
+        "date": "Mon, 28 Sep 2026 08:56:40 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -2955,7 +2955,7 @@
       "2026-09-25": 1355.28,
       "2026-09-26": 1354.4,
       "2026-09-27": 1354.92,
-      "2026-09-28": 1354.89
+      "2026-09-28": 1358.48
     },
     "^GSPC": {
       "2026-09-16": 7551.81,
@@ -3386,8 +3386,8 @@
     }
   },
   "failed": [
-    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfUprBxsSnyF9rveXRfym\"}",
-    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfUprDDXe5tbXDNMp8NVW\"}",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfUprDmWoo8BSJQHTBXLL\"}"
+    "regime-ai: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfUrdhL5j6Kt2MMLiEJo3\"}",
+    "news-ai/kr: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfUrdiZkFVNyirXZS6rvV\"}",
+    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfUrdjFAqTUv91y5ECLCN\"}"
   ]
 }
