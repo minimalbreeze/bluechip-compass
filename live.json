@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-28T21:56:51.412Z",
+  "asOf": "2026-09-28T22:57:32.601Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-28T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1359.46,
+      "price": 1359.77,
       "prev": 1354.92,
-      "chg": 0.34,
+      "chg": 0.36,
       "prevDay": "2026-09-27",
       "basis": "prev-close-memo",
-      "time": "2026-09-28T21:56:40.000Z"
+      "time": "2026-09-28T22:57:18.000Z"
     },
     "^GSPC": {
       "price": 7683.69,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.094
+    "pct": 0.096
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -4.88
     },
     "KRW=X": {
-      "last": 1359.46,
+      "last": 1359.77,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.094,
-      "chg3m": -11.85
+      "pct52": 0.096,
+      "chg3m": -11.83
     },
     "^GSPC": {
       "last": 7683.69,
@@ -366,14 +366,14 @@
   "news": {
     "kr": [
       {
-        "title": "은행장 16명과 머리 맞댄 한은 총재 \"현장 얘기 많이 들어\"",
-        "link": "https://www.yna.co.kr/view/AKR20260928161100002",
+        "title": "모아라이프플러스, 40억원 유상증자…메드투자조합에 제3자배정",
+        "link": "https://www.yna.co.kr/view/AKR20260929016200008",
         "source": "연합뉴스",
-        "date": "Mon, 28 Sep 2026 20:50:38 +0900",
-        "act": "none",
+        "date": "Tue, 29 Sep 2026 07:34:17 +0900",
+        "act": "watch",
         "lasting": "temporary",
-        "scope": "sector",
-        "why": "정책 간담회 소식으로 실적을 바꾸는 결정은 확인되지 않습니다.",
+        "scope": "company",
+        "why": "제3자배정 증자는 지분 희석 요인이라 자금 사용처를 지켜볼 만합니다.",
         "by": "ai"
       },
       {
@@ -399,14 +399,14 @@
         "by": "ai"
       },
       {
-        "title": "솔리스·럭스코·셀트릭스, 코스닥 상장예심 통과",
-        "link": "https://www.yna.co.kr/view/AKR20260928156200008",
+        "title": "은행장 16명과 머리 맞댄 한은 총재 \"현장 얘기 많이 들어\"",
+        "link": "https://www.yna.co.kr/view/AKR20260928161100002",
         "source": "연합뉴스",
-        "date": "Mon, 28 Sep 2026 19:24:26 +0900",
+        "date": "Mon, 28 Sep 2026 20:50:38 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
-        "why": "신규 상장 예심 통과는 개별 일정으로 기존 투자 근거와 무관합니다.",
+        "scope": "sector",
+        "why": "정책 간담회 소식으로 실적을 바꾸는 결정은 확인되지 않습니다.",
         "by": "ai"
       },
       {
@@ -811,13 +811,6 @@
     "MongoDB’s stock is down nearly 20% as CEO decamps to Meta": "CEO가 Meta로 하락함에 따라 MongoDB의 주가는 거의 20% 하락했습니다."
   },
   "nvCache": {
-    "https://finance.yahoo.com/markets/stocks/articles/ferrari-race-vs-tesla-tsla-170001732.html": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "sector",
-      "why": "두 회사를 비교한 의견성 기사로, 실제 실적 구조가 바뀐 근거는 보이지 않습니다.",
-      "by": "ai"
-    },
     "https://www.yna.co.kr/view/AKR20260828101500054": {
       "act": "none",
       "lasting": "temporary",
@@ -2910,6 +2903,13 @@
       "scope": "company",
       "why": "분기 실적 발표 예고는 통상적 일정으로 장기 근거와 무관합니다.",
       "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20260929016200008": {
+      "act": "watch",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "제3자배정 증자는 지분 희석 요인이라 자금 사용처를 지켜볼 만합니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2953,7 +2953,7 @@
       "2026-09-25": 1355.28,
       "2026-09-26": 1354.4,
       "2026-09-27": 1354.92,
-      "2026-09-28": 1359.46
+      "2026-09-28": 1359.77
     },
     "^GSPC": {
       "2026-09-17": 7637.76,
