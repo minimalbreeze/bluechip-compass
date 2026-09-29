@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-29T10:25:51.102Z",
+  "asOf": "2026-09-29T11:26:25.560Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -8,7 +8,7 @@
       "chg": -0.27,
       "prevDay": "2026-09-28",
       "basis": "prev-close-bar",
-      "time": "2026-09-29T06:30:40.000Z"
+      "time": "2026-09-29T11:05:40.000Z"
     },
     "^KQ11": {
       "price": 849.8,
@@ -16,15 +16,15 @@
       "chg": 0.38,
       "prevDay": "2026-09-28",
       "basis": "prev-close-bar",
-      "time": "2026-09-29T06:32:50.000Z"
+      "time": "2026-09-29T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1355.87,
+      "price": 1354.65,
       "prev": 1354.510009765625,
-      "chg": 0.1,
+      "chg": 0.01,
       "prevDay": "2026-09-28",
       "basis": "prev-close-bar",
-      "time": "2026-09-29T10:25:29.000Z"
+      "time": "2026-09-29T11:26:09.000Z"
     },
     "^GSPC": {
       "price": 7683.69,
@@ -43,12 +43,12 @@
       "time": "2026-09-28T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 16.07,
+      "price": 15.9,
       "prev": 16.06999969482422,
-      "chg": 0,
+      "chg": -1.06,
       "prevDay": "2026-09-28",
       "basis": "prev-close-bar",
-      "time": "2026-09-29T10:10:31.000Z"
+      "time": "2026-09-29T11:11:01.000Z"
     },
     "^TNX": {
       "price": 5.24,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.078
+    "pct": 0.072
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -7.69
     },
     "KRW=X": {
-      "last": 1355.9,
+      "last": 1354.65,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.078,
-      "chg3m": -12.08
+      "pct52": 0.072,
+      "chg3m": -12.16
     },
     "^GSPC": {
       "last": 7683.69,
@@ -101,11 +101,11 @@
       "chg3m": 2.31
     },
     "^VIX": {
-      "last": 16.07,
+      "last": 15.9,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.148,
-      "chg3m": -0.5
+      "pct52": 0.138,
+      "chg3m": -1.55
     },
     "^TNX": {
       "last": 5.24,
@@ -366,14 +366,14 @@
   "news": {
     "kr": [
       {
-        "title": "리튬포어스, 11억원 제3자배정 유상증자",
-        "link": "https://www.yna.co.kr/view/AKR20260929162800008",
+        "title": "[동정] 이억원, 美나스닥·DTCC·홍콩거래소 고위급 면담",
+        "link": "https://www.yna.co.kr/view/AKR20260929180200002",
         "source": "연합뉴스",
-        "date": "Tue, 29 Sep 2026 17:34:54 +0900",
+        "date": "Tue, 29 Sep 2026 19:49:50 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
-        "why": "소규모 자금 조달로, 장기 수익 구조를 바꾸는 사안으로 보기는 어렵습니다.",
+        "scope": "market",
+        "why": "고위급 면담 일정 소식으로, 기업 이익에 미치는 영향은 제목만으로 알 수 없습니다.",
         "by": "ai"
       },
       {
@@ -399,14 +399,14 @@
         "by": "ai"
       },
       {
-        "title": "한국가스공사 \"코가스 캐나다 에너지 주식 7천670억원에 취득\"",
-        "link": "https://www.yna.co.kr/view/AKR20260929155800008",
+        "title": "리튬포어스, 11억원 제3자배정 유상증자",
+        "link": "https://www.yna.co.kr/view/AKR20260929162800008",
         "source": "연합뉴스",
-        "date": "Tue, 29 Sep 2026 17:01:29 +0900",
-        "act": "watch",
-        "lasting": "structural",
+        "date": "Tue, 29 Sep 2026 17:34:54 +0900",
+        "act": "none",
+        "lasting": "temporary",
         "scope": "company",
-        "why": "대규모 해외 자산 취득은 사업 구조에 영향을 줄 수 있어 진행 경과만 지켜보세요.",
+        "why": "소규모 자금 조달로, 장기 수익 구조를 바꾸는 사안으로 보기는 어렵습니다.",
         "by": "ai"
       },
       {
@@ -446,15 +446,15 @@
         "by": "ai"
       },
       {
-        "title": "Novo Nordisk strikes second licensing deal since frosty capital-markets day",
-        "link": "https://www.marketwatch.com/story/novo-nordisk-strikes-second-licensing-deal-since-frosty-capital-markets-day-cc0db878?mod=mw_rss_topstories",
+        "title": "Morgan Stanley’s Mike Wilson says an S&P 500 correction may be exactly what the market needs",
+        "link": "https://www.marketwatch.com/story/morgan-stanleys-mike-wilson-says-an-s-p-500-correction-may-be-exactly-what-the-market-needs-a6baf54e?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Tue, 29 Sep 2026 09:45:00 GMT",
-        "ko": "Novo Nordisk, 서리 낀 자본 시장의 날 이후 두 번째 라이선스 계약 체결",
+        "date": "Tue, 29 Sep 2026 11:03:00 GMT",
+        "ko": "모건 스탠리의 마이크 윌슨 (Mike Wilson) 은 S&P 500 보정이 시장이 필요로 하는 것과 정확히 일치할 수 있다고 말합니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
-        "why": "개별 기업의 라이선스 계약으로, 장기 이익 구조를 바꿀 근거는 제목만으로 확인되지 않습니다.",
+        "scope": "market",
+        "why": "전략가의 조정 전망일 뿐 기업 이익 구조와는 무관합니다.",
         "by": "ai"
       },
       {
@@ -482,15 +482,15 @@
         "by": "ai"
       },
       {
-        "title": "‘I have a low interest rate’: I’m 80 years old. Should I move out of my house because of dangerous stairs?",
-        "link": "https://www.marketwatch.com/story/i-have-a-low-interest-rate-im-80-years-old-should-i-move-out-of-my-house-because-of-dangerous-stairs-389c3c7b?mod=mw_rss_topstories",
+        "title": "Two stock picks from a money manager who expects small-caps to roar in 2027",
+        "link": "https://www.marketwatch.com/story/two-stock-picks-from-a-money-manager-who-expects-small-caps-to-roar-in-2027-70de9c4d?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Tue, 29 Sep 2026 09:16:00 GMT",
-        "ko": "‘이자율이 낮습니다’: 80세입니다. 위험한 계단 때문에 집을 비워야 하나요?",
+        "date": "Tue, 29 Sep 2026 11:02:00 GMT",
+        "ko": "2027년에는 스몰캡이 울릴 것으로 예상되는 머니매니저가 선정한 두 가지 주식",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "개인 재무 상담 성격의 기사로 기업 이익과 관련이 없습니다.",
+        "why": "특정 운용역의 종목 추천이라 투자 근거를 바꾸지 않습니다.",
         "by": "ai"
       },
       {
@@ -509,8 +509,6 @@
   },
   "newsBy": "ai",
   "trCache": {
-    "I Think IBM Stock Will Be Higher in 5 Years. I Still Wouldn't Buy It Today.": "저는 IBM 주식이 5년 안에 더 높아질 것이라고 생각합니다. 나는 오늘도 그것을 사지 않을 것이다.",
-    "The U.S. Government Is Preparing to Offload Over 9 Million GlobalFoundries Shares. How You Should Play GFS Stock in Response.": "미국 정부는 900만 개 이상의 글로벌 펀드리 주식을 상쇄할 준비를 하고 있습니다. 응답으로 GFS 주식을 재생하는 방법.",
     "Is CenterPoint Energy Underperforming the Nasdaq?": "CenterPoint Energy가 Nasdaq의 성능을 저하시키고 있습니까?",
     "Cybersecurity Stock Fortinet Forms Rare Pattern, Flirts With Buy Point": "사이버 보안 주식 Fortinet은 희귀 패턴을 형성하고 매수 포인트로 유혹합니다.",
     "Coinbase Leads Crypto Stocks Higher as Bitcoin Crosses $80,000": "코인베이스는 비트코인이 $80,000를 넘을수록 더 높은 암호화 주식을 리드합니다",
@@ -808,30 +806,11 @@
     "Anthropic’s potential $2 trillion IPO comes with the following fine print": "Anthropic의 잠재적 $2조 IPO에는 다음과 같은 미세한 인쇄물이 함께 제공됩니다.",
     "‘I have a low interest rate’: I’m 80 years old. Should I move out of my house because of dangerous stairs?": "‘이자율이 낮습니다’: 80세입니다. 위험한 계단 때문에 집을 비워야 하나요?",
     "A month ago, this JPMorgan team urged caution on stocks. Now it’s going all in on tech.": "한 달 전, JP모건 팀은 주식에 대한 주의를 촉구했습니다. 이제 기술에 모든 것을 쏟아붓고 있습니다.",
-    "Novo Nordisk strikes second licensing deal since frosty capital-markets day": "Novo Nordisk, 서리 낀 자본 시장의 날 이후 두 번째 라이선스 계약 체결"
+    "Novo Nordisk strikes second licensing deal since frosty capital-markets day": "Novo Nordisk, 서리 낀 자본 시장의 날 이후 두 번째 라이선스 계약 체결",
+    "Morgan Stanley’s Mike Wilson says an S&P 500 correction may be exactly what the market needs": "모건 스탠리의 마이크 윌슨 (Mike Wilson) 은 S&P 500 보정이 시장이 필요로 하는 것과 정확히 일치할 수 있다고 말합니다.",
+    "Two stock picks from a money manager who expects small-caps to roar in 2027": "2027년에는 스몰캡이 울릴 것으로 예상되는 머니매니저가 선정한 두 가지 주식"
   },
   "nvCache": {
-    "https://finance.yahoo.com/technology/ai/articles/meta-just-removed-major-risk-153100072.html": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "AI 투자 규모에 대한 시각 차이로, 장기 이익 구조가 확인된 변화는 아닙니다.",
-      "by": "ai"
-    },
-    "https://www.hankyung.com/article/202608290496i": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "통화정책 전망 해설로, 10년 뒤 기업 이익을 바꾸는 내용은 아닙니다.",
-      "by": "ai"
-    },
-    "https://www.hankyung.com/article/202608289849i": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "sector",
-      "why": "환율 등락에 따른 업종별 손익 변화는 반복되는 일시적 요인입니다.",
-      "by": "ai"
-    },
     "https://finance.yahoo.com/markets/stocks/articles/versigent-vgnt-undervalued-margin-expansion-163610594.html": {
       "act": "none",
       "lasting": "temporary",
@@ -2910,6 +2889,27 @@
       "scope": "company",
       "why": "개별 기업의 라이선스 계약으로, 장기 이익 구조를 바꿀 근거는 제목만으로 확인되지 않습니다.",
       "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20260929180200002": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "고위급 면담 일정 소식으로, 기업 이익에 미치는 영향은 제목만으로 알 수 없습니다.",
+      "by": "ai"
+    },
+    "https://www.marketwatch.com/story/morgan-stanleys-mike-wilson-says-an-s-p-500-correction-may-be-exactly-what-the-market-needs-a6baf54e?mod=mw_rss_topstories": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "전략가의 조정 전망일 뿐 기업 이익 구조와는 무관합니다.",
+      "by": "ai"
+    },
+    "https://www.marketwatch.com/story/two-stock-picks-from-a-money-manager-who-expects-small-caps-to-roar-in-2027-70de9c4d?mod=mw_rss_topstories": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "특정 운용역의 종목 추천이라 투자 근거를 바꾸지 않습니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2953,7 +2953,7 @@
       "2026-09-26": 1354.4,
       "2026-09-27": 1354.92,
       "2026-09-28": 1359.77,
-      "2026-09-29": 1355.87
+      "2026-09-29": 1354.65
     },
     "^GSPC": {
       "2026-09-18": 7650.5,
@@ -2995,7 +2995,7 @@
       "2026-09-26": 14.87,
       "2026-09-27": 14.87,
       "2026-09-28": 16.07,
-      "2026-09-29": 16.07
+      "2026-09-29": 15.9
     },
     "^TNX": {
       "2026-09-18": 4.998,
