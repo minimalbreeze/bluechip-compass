@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-29T11:26:25.560Z",
+  "asOf": "2026-09-29T12:26:54.617Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-29T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1354.65,
+      "price": 1353.28,
       "prev": 1354.510009765625,
-      "chg": 0.01,
+      "chg": -0.09,
       "prevDay": "2026-09-28",
       "basis": "prev-close-bar",
-      "time": "2026-09-29T11:26:09.000Z"
+      "time": "2026-09-29T12:26:37.000Z"
     },
     "^GSPC": {
       "price": 7683.69,
@@ -43,12 +43,12 @@
       "time": "2026-09-28T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 15.9,
+      "price": 15.78,
       "prev": 16.06999969482422,
-      "chg": -1.06,
+      "chg": -1.8,
       "prevDay": "2026-09-28",
       "basis": "prev-close-bar",
-      "time": "2026-09-29T11:11:01.000Z"
+      "time": "2026-09-29T12:11:31.000Z"
     },
     "^TNX": {
       "price": 5.24,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.072
+    "pct": 0.066
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -7.69
     },
     "KRW=X": {
-      "last": 1354.65,
+      "last": 1353.28,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.072,
-      "chg3m": -12.16
+      "pct52": 0.066,
+      "chg3m": -12.25
     },
     "^GSPC": {
       "last": 7683.69,
@@ -101,11 +101,11 @@
       "chg3m": 2.31
     },
     "^VIX": {
-      "last": 15.9,
+      "last": 15.78,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.138,
-      "chg3m": -1.55
+      "pct52": 0.131,
+      "chg3m": -2.29
     },
     "^TNX": {
       "last": 5.24,
@@ -388,14 +388,14 @@
         "by": "ai"
       },
       {
-        "title": "7월 국내증시 급락 후폭풍 … 국민연금, 182조원 줄었다",
-        "link": "https://www.mk.co.kr/news/stock/12164137",
+        "title": "“증권사 8.6조 쓸어담을 때 투자자는 손실”…금감원장, CEO들 불렀다",
+        "link": "https://www.mk.co.kr/news/stock/12164181",
         "source": "매일경제",
-        "date": "Tue, 29 Sep 2026 19:22:40 +09:00",
-        "act": "none",
+        "date": "Tue, 29 Sep 2026 20:57:16 +09:00",
+        "act": "watch",
         "lasting": "temporary",
-        "scope": "market",
-        "why": "지수 변동에 따른 평가액 변화로, 기업 이익 구조와는 무관합니다.",
+        "scope": "sector",
+        "why": "감독당국의 경고 단계로, 제도 변경으로 이어지는지만 지켜보면 됩니다.",
         "by": "ai"
       },
       {
@@ -421,14 +421,14 @@
         "by": "ai"
       },
       {
-        "title": "“요즘 주식창 보면 흐뭇합니다”…횡보장에 나홀로 웃는 상품 있다는데",
-        "link": "https://www.mk.co.kr/news/stock/12164096",
+        "title": "7월 국내증시 급락 후폭풍 … 국민연금, 182조원 줄었다",
+        "link": "https://www.mk.co.kr/news/stock/12164137",
         "source": "매일경제",
-        "date": "Tue, 29 Sep 2026 18:54:50 +09:00",
+        "date": "Tue, 29 Sep 2026 19:22:40 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "특정 시기 유행 상품 소개로, 장기 보유 근거와 관련이 적습니다.",
+        "why": "지수 변동에 따른 평가액 변화로, 기업 이익 구조와는 무관합니다.",
         "by": "ai"
       }
     ],
@@ -811,13 +811,6 @@
     "Two stock picks from a money manager who expects small-caps to roar in 2027": "2027년에는 스몰캡이 울릴 것으로 예상되는 머니매니저가 선정한 두 가지 주식"
   },
   "nvCache": {
-    "https://finance.yahoo.com/markets/stocks/articles/versigent-vgnt-undervalued-margin-expansion-163610594.html": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "저평가 여부를 묻는 의견성 분석글로, 확인된 사실 변화는 없습니다.",
-      "by": "ai"
-    },
     "https://www.yna.co.kr/view/AKR20260829011451072": {
       "act": "watch",
       "lasting": "temporary",
@@ -2910,6 +2903,13 @@
       "scope": "market",
       "why": "특정 운용역의 종목 추천이라 투자 근거를 바꾸지 않습니다.",
       "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12164181": {
+      "act": "watch",
+      "lasting": "temporary",
+      "scope": "sector",
+      "why": "감독당국의 경고 단계로, 제도 변경으로 이어지는지만 지켜보면 됩니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2953,7 +2953,7 @@
       "2026-09-26": 1354.4,
       "2026-09-27": 1354.92,
       "2026-09-28": 1359.77,
-      "2026-09-29": 1354.65
+      "2026-09-29": 1353.28
     },
     "^GSPC": {
       "2026-09-18": 7650.5,
@@ -2995,7 +2995,7 @@
       "2026-09-26": 14.87,
       "2026-09-27": 14.87,
       "2026-09-28": 16.07,
-      "2026-09-29": 15.9
+      "2026-09-29": 15.78
     },
     "^TNX": {
       "2026-09-18": 4.998,
