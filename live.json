@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-29T21:02:37.240Z",
+  "asOf": "2026-09-29T22:03:12.574Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-29T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1352.34,
+      "price": 1352.4,
       "prev": 1354.510009765625,
       "chg": -0.16,
       "prevDay": "2026-09-28",
       "basis": "prev-close-bar",
-      "time": "2026-09-29T21:02:09.000Z"
+      "time": "2026-09-29T22:02:27.000Z"
     },
     "^GSPC": {
       "price": 7670.84,
@@ -40,7 +40,7 @@
       "chg": -0.09,
       "prevDay": "2026-09-28",
       "basis": "prev-close-bar",
-      "time": "2026-09-29T21:02:16.000Z"
+      "time": "2026-09-29T21:15:59.000Z"
     },
     "^VIX": {
       "price": 16.04,
@@ -80,7 +80,7 @@
       "chg3m": -0.56
     },
     "KRW=X": {
-      "last": 1352.34,
+      "last": 1352.4,
       "low52": 1339.17,
       "high52": 1554.48,
       "pct52": 0.061,
@@ -366,25 +366,25 @@
   "news": {
     "kr": [
       {
-        "title": "서초구 건설 현장서 천장 무너져 30대 외국인 숨져…당국 조사",
-        "link": "https://www.yna.co.kr/view/AKR20260929185700004",
+        "title": "8월 기업 주식·회사채 발행 10조 감소…금융채만 7조↓",
+        "link": "https://www.yna.co.kr/view/AKR20260929163600002",
         "source": "연합뉴스",
-        "date": "Tue, 29 Sep 2026 22:08:19 +0900",
+        "date": "Wed, 30 Sep 2026 06:00:02 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "sector",
-        "why": "안타까운 사고지만 업종의 장기 이익 구조를 바꾸는 사안으로 보긴 어렵습니다.",
+        "scope": "market",
+        "why": "월별 발행 규모 변동은 기업 장기 이익과 직접 연결되지 않습니다.",
         "by": "ai"
       },
       {
-        "title": "'범LG家' 구미현 인수 효과…씨싸이트, 한주새 150% 급등",
-        "link": "https://www.hankyung.com/article/2026092927901",
+        "title": "\"10월 증시 향배 달렸다\"…'메모리 풍향계' 마이크론 실적 D-1 [분석+]",
+        "link": "https://www.hankyung.com/article/2026092925246",
         "source": "한국경제",
-        "date": "Tue, 29 Sep 2026 17:43:45 +0900",
-        "act": "none",
+        "date": "Wed, 30 Sep 2026 06:30:06 +0900",
+        "act": "watch",
         "lasting": "temporary",
-        "scope": "company",
-        "why": "최대주주 변경 기대에 따른 단기 급등으로, 실적 변화는 아직 확인되지 않았습니다.",
+        "scope": "sector",
+        "why": "실적 발표 예정 소식일 뿐, 결과 확인 후 업종 수요 흐름만 참고하면 됩니다.",
         "by": "ai"
       },
       {
@@ -399,25 +399,14 @@
         "by": "ai"
       },
       {
-        "title": "[동정] 이억원, 美나스닥·DTCC·홍콩거래소 고위급 면담",
-        "link": "https://www.yna.co.kr/view/AKR20260929180200002",
-        "source": "연합뉴스",
-        "date": "Tue, 29 Sep 2026 19:49:50 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "고위급 면담 일정 소식으로, 기업 이익에 미치는 영향은 제목만으로 알 수 없습니다.",
-        "by": "ai"
-      },
-      {
-        "title": "1위 반도체 ETF 만든 주인공 [한경 프리미엄9 TODAY]",
-        "link": "https://www.hankyung.com/article/2026092927501",
+        "title": "'범LG家' 구미현 인수 효과…씨싸이트, 한주새 150% 급등",
+        "link": "https://www.hankyung.com/article/2026092927901",
         "source": "한국경제",
-        "date": "Tue, 29 Sep 2026 17:42:49 +0900",
+        "date": "Tue, 29 Sep 2026 17:43:45 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "sector",
-        "why": "상품 소개성 기사로, 보유 근거를 다시 볼 만한 내용은 없습니다.",
+        "scope": "company",
+        "why": "최대주주 변경 기대에 따른 단기 급등으로, 실적 변화는 아직 확인되지 않았습니다.",
         "by": "ai"
       },
       {
@@ -429,6 +418,17 @@
         "lasting": "temporary",
         "scope": "sector",
         "why": "감독당국의 경고 단계로, 제도 변경으로 이어지는지만 지켜보면 됩니다.",
+        "by": "ai"
+      },
+      {
+        "title": "1위 반도체 ETF 만든 주인공 [한경 프리미엄9 TODAY]",
+        "link": "https://www.hankyung.com/article/2026092927501",
+        "source": "한국경제",
+        "date": "Tue, 29 Sep 2026 17:42:49 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "sector",
+        "why": "상품 소개성 기사로, 보유 근거를 다시 볼 만한 내용은 없습니다.",
         "by": "ai"
       }
     ],
@@ -446,15 +446,15 @@
         "by": "ai"
       },
       {
-        "title": "Nvidia’s historic buyback announcement underscores a sharp divide in Big Tech",
-        "link": "https://www.marketwatch.com/story/nvidias-historic-buyback-announcement-underscores-a-sharp-divide-in-big-tech-ac04a001?mod=mw_rss_topstories",
+        "title": "Hollywood’s big debt deal hits a wall of higher yields as Paramount finances Warner Bros. buyout",
+        "link": "https://www.marketwatch.com/story/hollywoods-big-debt-deal-hits-a-wall-of-higher-yields-as-paramount-finances-warner-bros-buyout-6ee6e3b8?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Tue, 29 Sep 2026 20:52:00 GMT",
-        "ko": "엔비디아의 역사적인 매수 발표는 빅 테크의 급격한 분열을 강조합니다",
+        "date": "Tue, 29 Sep 2026 21:56:00 GMT",
+        "ko": "파라마운트가 워너 브라더스 바이아웃 자금을 조달함에 따라 할리우드의 큰 부채 거래는 더 높은 수익률의 벽에 부딪칩니다.",
         "act": "watch",
         "lasting": "temporary",
         "scope": "sector",
-        "why": "AI 투자 흐름의 온도차를 보여주는 소식이지만, 제목만으로는 이익 구조 변화를 확인하기 어렵습니다.",
+        "why": "대형 인수 자금조달 비용 상승은 미디어 업종의 조건 변화로 지켜볼 사안입니다.",
         "by": "ai"
       },
       {
@@ -482,15 +482,15 @@
         "by": "ai"
       },
       {
-        "title": "‘I have $400,000 in equity’: I’m 80. Should I sell my house because of dangerous stairs — or spend thousands renovating?",
-        "link": "https://www.marketwatch.com/story/i-have-a-low-interest-rate-im-80-years-old-should-i-move-out-of-my-house-because-of-dangerous-stairs-389c3c7b?mod=mw_rss_topstories",
+        "title": "Microsoft’s stock is on track to post its biggest quarterly gain in 28 years",
+        "link": "https://www.marketwatch.com/story/microsofts-stock-is-on-track-to-post-its-biggest-quarterly-gain-in-28-years-e6a20d11?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Tue, 29 Sep 2026 20:30:00 GMT",
-        "ko": "‘$400,000의 자기자본이 있습니다.’: 저는 80세입니다. 위험한 계단 때문에 집을 팔아야 합니까, 아니면 수천 개의 리노베이션 비용을 지출해야 합니까?",
+        "date": "Tue, 29 Sep 2026 21:18:00 GMT",
+        "ko": "Microsoft의 주가는 28년 만에 최대 분기 이익을 올릴 것으로 예상됩니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
-        "why": "개인 재무 상담 성격의 기사로 기업 이익과 관련이 없습니다.",
+        "scope": "company",
+        "why": "주가 흐름에 대한 기대 전망으로, 장기 이익 구조를 바꾸는 소식은 아닙니다.",
         "by": "ai"
       },
       {
@@ -509,8 +509,6 @@
   },
   "newsBy": "ai",
   "trCache": {
-    "Is McCormick Stock Underperforming the Dow?": "McCormick Stock이 다우지수를 밑도는가?",
-    "Jim Cramer Shared What CrowdStrike Holdings, Inc. (NASDAQ:CRWD)’s CEO Told Him About AI “Doomsaying”": "짐 크레이머 (Jim Cramer) 는 크라우드 스트라이크 홀딩스 (CrowdStrike Holdings, Inc.) (NASDAQ: CRWD) 의 CEO가 AI \"둠세이 (Doomsaying)\" 에 대해 말한 것을 공유했습니다.",
     "Is Affirm Holdings, Inc. (AFRM) Stock a Buy After Goldman Sachs Raised Its Price Target?": "Affirm Holdings, Inc. (AFRM) 주식은 Goldman Sachs가 가격 목표를 높인 후 매수합니까?",
     "Can NextEra (NEE) Preserve Its Earnings and Dividend Growth While Adding Dominion?": "NextEra (NEE) 는 지배력을 추가하는 동안 수입과 배당 성장을 유지할 수 있습니까?",
     "Consumers hit by one-two punch of oil and rates from Iran war. The estimated bill is $1,700 per household": "소비자들은 이란 전쟁에서 원투펀치의 석유와 금리로 타격을 입었다. 예상 청구액은 가구당 $1,700입니다.",
@@ -808,37 +806,11 @@
     "Good news for OpenAI is great news for Oracle’s stock — here’s why": "OpenAI에 대한 좋은 소식은 오라클 주식에 대한 좋은 소식입니다. 그 이유는 다음과 같습니다.",
     "Traders expecting a back-to-back rate hike from the Fed in October may have gotten ahead of themselves": "10월 연준의 연이은 금리 인상을 기대하는 트레이더가 앞서 나갔을 수 있습니다.",
     "‘I have $400,000 in equity’: I’m 80. Should I sell my house because of dangerous stairs — or spend thousands renovating?": "‘$400,000의 자기자본이 있습니다.’: 저는 80세입니다. 위험한 계단 때문에 집을 팔아야 합니까, 아니면 수천 개의 리노베이션 비용을 지출해야 합니까?",
-    "Nvidia’s historic buyback announcement underscores a sharp divide in Big Tech": "엔비디아의 역사적인 매수 발표는 빅 테크의 급격한 분열을 강조합니다"
+    "Nvidia’s historic buyback announcement underscores a sharp divide in Big Tech": "엔비디아의 역사적인 매수 발표는 빅 테크의 급격한 분열을 강조합니다",
+    "Hollywood’s big debt deal hits a wall of higher yields as Paramount finances Warner Bros. buyout": "파라마운트가 워너 브라더스 바이아웃 자금을 조달함에 따라 할리우드의 큰 부채 거래는 더 높은 수익률의 벽에 부딪칩니다.",
+    "Microsoft’s stock is on track to post its biggest quarterly gain in 28 years": "Microsoft의 주가는 28년 만에 최대 분기 이익을 올릴 것으로 예상됩니다."
   },
   "nvCache": {
-    "https://finance.yahoo.com/small-business/articles/dunkin-comes-back-major-market-161700314.html": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "특정 시장 재진출 소식으로, 장기 이익 구조를 바꿀 정보는 제목만으로 확인되지 않습니다.",
-      "by": "ai"
-    },
-    "https://finance.yahoo.com/energy/articles/solstice-scraps-element-deal-launches-020153888.html": {
-      "act": "watch",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "거래 철회와 자사주 매입은 자본 배분 변화로, 성장 전략이 바뀌는지 지켜보면 됩니다.",
-      "by": "ai"
-    },
-    "https://finance.yahoo.com/markets/stocks/articles/saaspocalypse-nonsense-says-salesforce-ceo-040100123.html": {
-      "act": "watch",
-      "lasting": "structural",
-      "scope": "sector",
-      "why": "AI가 소프트웨어 수요를 대체할지는 업종 전체의 장기 구조 논쟁이라 지켜볼 사안입니다.",
-      "by": "ai"
-    },
-    "https://www.mk.co.kr/news/stock/12139452": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "지수 전망은 예측일 뿐이라 오늘 할 일은 없습니다.",
-      "by": "ai"
-    },
     "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-bullish-huntington-055811270.html": {
       "act": "none",
       "lasting": "temporary",
@@ -2910,6 +2882,34 @@
       "scope": "sector",
       "why": "AI 투자 흐름의 온도차를 보여주는 소식이지만, 제목만으로는 이익 구조 변화를 확인하기 어렵습니다.",
       "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20260929163600002": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "월별 발행 규모 변동은 기업 장기 이익과 직접 연결되지 않습니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/2026092925246": {
+      "act": "watch",
+      "lasting": "temporary",
+      "scope": "sector",
+      "why": "실적 발표 예정 소식일 뿐, 결과 확인 후 업종 수요 흐름만 참고하면 됩니다.",
+      "by": "ai"
+    },
+    "https://www.marketwatch.com/story/hollywoods-big-debt-deal-hits-a-wall-of-higher-yields-as-paramount-finances-warner-bros-buyout-6ee6e3b8?mod=mw_rss_topstories": {
+      "act": "watch",
+      "lasting": "temporary",
+      "scope": "sector",
+      "why": "대형 인수 자금조달 비용 상승은 미디어 업종의 조건 변화로 지켜볼 사안입니다.",
+      "by": "ai"
+    },
+    "https://www.marketwatch.com/story/microsofts-stock-is-on-track-to-post-its-biggest-quarterly-gain-in-28-years-e6a20d11?mod=mw_rss_topstories": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "주가 흐름에 대한 기대 전망으로, 장기 이익 구조를 바꾸는 소식은 아닙니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2953,7 +2953,7 @@
       "2026-09-26": 1354.4,
       "2026-09-27": 1354.92,
       "2026-09-28": 1359.77,
-      "2026-09-29": 1352.34
+      "2026-09-29": 1352.4
     },
     "^GSPC": {
       "2026-09-18": 7650.5,
