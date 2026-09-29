@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-28T23:58:01.059Z",
+  "asOf": "2026-09-29T00:03:28.262Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-28T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1359.84,
+      "price": 1358.48,
       "prev": 1354.510009765625,
-      "chg": 0.39,
+      "chg": 0.29,
       "prevDay": "2026-09-28",
       "basis": "prev-close-bar",
-      "time": "2026-09-28T23:57:47.000Z"
+      "time": "2026-09-29T00:03:17.000Z"
     },
     "^GSPC": {
       "price": 7683.69,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.096
+    "pct": 0.09
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -4.88
     },
     "KRW=X": {
-      "last": 1359.84,
+      "last": 1358.48,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.096,
-      "chg3m": -11.82
+      "pct52": 0.09,
+      "chg3m": -11.91
     },
     "^GSPC": {
       "last": 7683.69,
@@ -366,14 +366,14 @@
   "news": {
     "kr": [
       {
-        "title": "급등한 美 금리, 9월 고용보고서가 방향 가를까",
-        "link": "https://www.yna.co.kr/view/AKR20260929028500008",
+        "title": "증권가, 'FC-BGA 증설' 삼성전기 실적 눈높이 잇달아 상향",
+        "link": "https://www.yna.co.kr/view/AKR20260929029700008",
         "source": "연합뉴스",
-        "date": "Tue, 29 Sep 2026 08:52:10 +0900",
-        "act": "watch",
+        "date": "Tue, 29 Sep 2026 08:54:53 +0900",
+        "act": "none",
         "lasting": "temporary",
-        "scope": "market",
-        "why": "금리와 고용 지표는 시장 전반의 단기 변수라 흐름만 확인하면 됩니다.",
+        "scope": "company",
+        "why": "증권사 목표 상향은 전망일 뿐, 장기 이익 구조가 바뀐 근거는 아닙니다.",
         "by": "ai"
       },
       {
@@ -399,14 +399,14 @@
         "by": "ai"
       },
       {
-        "title": "iM증권 \"한섬, 의류판매 호조·신규 브랜드 성장\"…목표가↑",
-        "link": "https://www.yna.co.kr/view/AKR20260929028000008",
+        "title": "급등한 美 금리, 9월 고용보고서가 방향 가를까",
+        "link": "https://www.yna.co.kr/view/AKR20260929028500008",
         "source": "연합뉴스",
-        "date": "Tue, 29 Sep 2026 08:47:13 +0900",
-        "act": "none",
+        "date": "Tue, 29 Sep 2026 08:52:10 +0900",
+        "act": "watch",
         "lasting": "temporary",
-        "scope": "company",
-        "why": "목표가 상향은 단기 전망이며 장기 이익을 바꾸진 않습니다.",
+        "scope": "market",
+        "why": "금리와 고용 지표는 시장 전반의 단기 변수라 흐름만 확인하면 됩니다.",
         "by": "ai"
       },
       {
@@ -811,13 +811,6 @@
     "MongoDB’s stock is down nearly 20% as CEO decamps to Meta": "CEO가 Meta로 하락함에 따라 MongoDB의 주가는 거의 20% 하락했습니다."
   },
   "nvCache": {
-    "https://www.yna.co.kr/view/AKR20260828115000065": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "sector",
-      "why": "지자체 해외 협력 단계로 실적 변화로 이어질지는 아직 알 수 없습니다.",
-      "by": "ai"
-    },
     "https://www.hankyung.com/article/202608289441i": {
       "act": "none",
       "lasting": "temporary",
@@ -2910,6 +2903,13 @@
       "scope": "company",
       "why": "보고서 내 전망과 목표가 차이는 단기 해석 문제입니다.",
       "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20260929029700008": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "증권사 목표 상향은 전망일 뿐, 장기 이익 구조가 바뀐 근거는 아닙니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2953,7 +2953,7 @@
       "2026-09-26": 1354.4,
       "2026-09-27": 1354.92,
       "2026-09-28": 1359.77,
-      "2026-09-29": 1359.84
+      "2026-09-29": 1358.48
     },
     "^GSPC": {
       "2026-09-17": 7637.76,
