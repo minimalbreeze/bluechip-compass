@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-29T00:03:28.262Z",
+  "asOf": "2026-09-29T00:14:00.278Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-28T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1358.48,
+      "price": 1358.78,
       "prev": 1354.510009765625,
-      "chg": 0.29,
+      "chg": 0.32,
       "prevDay": "2026-09-28",
       "basis": "prev-close-bar",
-      "time": "2026-09-29T00:03:17.000Z"
+      "time": "2026-09-29T00:13:43.000Z"
     },
     "^GSPC": {
       "price": 7683.69,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.09
+    "pct": 0.091
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -4.88
     },
     "KRW=X": {
-      "last": 1358.48,
+      "last": 1358.78,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.09,
-      "chg3m": -11.91
+      "pct52": 0.091,
+      "chg3m": -11.89
     },
     "^GSPC": {
       "last": 7683.69,
@@ -366,25 +366,25 @@
   "news": {
     "kr": [
       {
-        "title": "증권가, 'FC-BGA 증설' 삼성전기 실적 눈높이 잇달아 상향",
-        "link": "https://www.yna.co.kr/view/AKR20260929029700008",
+        "title": "코스피, 하락 출발 6,800선 중반…코스닥도 내려",
+        "link": "https://www.yna.co.kr/view/AKR20260929034200008",
         "source": "연합뉴스",
-        "date": "Tue, 29 Sep 2026 08:54:53 +0900",
+        "date": "Tue, 29 Sep 2026 09:07:25 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
-        "why": "증권사 목표 상향은 전망일 뿐, 장기 이익 구조가 바뀐 근거는 아닙니다.",
+        "scope": "market",
+        "why": "지수의 하루 등락으로, 기업 이익과는 무관합니다.",
         "by": "ai"
       },
       {
-        "title": "\"POSCO홀딩스, 3분기 실적 컨센서스 밑돌 전망…목표가↓\"-한화",
-        "link": "https://www.hankyung.com/article/2026092907316",
+        "title": "\"반도체 하락에 줍줍\"…삼전닉스 쓸어담은 주식 초고수",
+        "link": "https://www.hankyung.com/article/202609290857i",
         "source": "한국경제",
-        "date": "Tue, 29 Sep 2026 07:54:12 +0900",
+        "date": "Tue, 29 Sep 2026 09:00:10 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
-        "why": "분기 실적 전망과 목표가 조정은 단기 의견 변화입니다.",
+        "scope": "sector",
+        "why": "특정 투자자의 단기 매매 동향일 뿐입니다.",
         "by": "ai"
       },
       {
@@ -399,25 +399,25 @@
         "by": "ai"
       },
       {
-        "title": "급등한 美 금리, 9월 고용보고서가 방향 가를까",
-        "link": "https://www.yna.co.kr/view/AKR20260929028500008",
+        "title": "증권가, 'FC-BGA 증설' 삼성전기 실적 눈높이 잇달아 상향",
+        "link": "https://www.yna.co.kr/view/AKR20260929029700008",
         "source": "연합뉴스",
-        "date": "Tue, 29 Sep 2026 08:52:10 +0900",
-        "act": "watch",
+        "date": "Tue, 29 Sep 2026 08:54:53 +0900",
+        "act": "none",
         "lasting": "temporary",
-        "scope": "market",
-        "why": "금리와 고용 지표는 시장 전반의 단기 변수라 흐름만 확인하면 됩니다.",
+        "scope": "company",
+        "why": "증권사 목표 상향은 전망일 뿐, 장기 이익 구조가 바뀐 근거는 아닙니다.",
         "by": "ai"
       },
       {
-        "title": "반도체주 급락…엔비디아만 버텼다 [오늘 아침, 당신이 알아야 할 7가지]",
-        "link": "https://www.hankyung.com/article/202609290709i",
+        "title": "원화 강세에 외국인 지갑 닫을까…잘나가던 백화점주 '추락' [종목+]",
+        "link": "https://www.hankyung.com/article/2026092908266",
         "source": "한국경제",
-        "date": "Tue, 29 Sep 2026 07:42:51 +0900",
-        "act": "none",
+        "date": "Tue, 29 Sep 2026 08:45:48 +0900",
+        "act": "watch",
         "lasting": "temporary",
         "scope": "sector",
-        "why": "하루 주가 등락으로 업종의 장기 가치가 달라지지 않습니다.",
+        "why": "환율에 따른 주가 변동으로, 사업 구조가 바뀐 건 아닙니다.",
         "by": "ai"
       },
       {
@@ -811,27 +811,6 @@
     "MongoDB’s stock is down nearly 20% as CEO decamps to Meta": "CEO가 Meta로 하락함에 따라 MongoDB의 주가는 거의 20% 하락했습니다."
   },
   "nvCache": {
-    "https://www.hankyung.com/article/202608289441i": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "다음 주 지수 전망은 예측성 기사라 오늘 할 일은 없습니다.",
-      "by": "ai"
-    },
-    "https://finance.yahoo.com/markets/stocks/articles/tesla-just-lost-top-chip-183304321.html": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "핵심 인력 이탈은 아쉽지만 사업 구조나 투자 근거를 바꾸는 사건은 아닙니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20260828122300001": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "재정·통화정책을 둘러싼 정치권 공방으로, 기업 이익에 직접 영향은 확인되지 않습니다.",
-      "by": "ai"
-    },
     "https://www.mk.co.kr/news/stock/12138870": {
       "act": "none",
       "lasting": "temporary",
@@ -2910,6 +2889,27 @@
       "scope": "company",
       "why": "증권사 목표 상향은 전망일 뿐, 장기 이익 구조가 바뀐 근거는 아닙니다.",
       "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20260929034200008": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "지수의 하루 등락으로, 기업 이익과는 무관합니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/202609290857i": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "sector",
+      "why": "특정 투자자의 단기 매매 동향일 뿐입니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/2026092908266": {
+      "act": "watch",
+      "lasting": "temporary",
+      "scope": "sector",
+      "why": "환율에 따른 주가 변동으로, 사업 구조가 바뀐 건 아닙니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2953,7 +2953,7 @@
       "2026-09-26": 1354.4,
       "2026-09-27": 1354.92,
       "2026-09-28": 1359.77,
-      "2026-09-29": 1358.48
+      "2026-09-29": 1358.78
     },
     "^GSPC": {
       "2026-09-17": 7637.76,
