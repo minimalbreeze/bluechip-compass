@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-29T08:24:28.584Z",
+  "asOf": "2026-09-29T09:25:15.863Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-29T06:32:50.000Z"
     },
     "KRW=X": {
-      "price": 1357.32,
+      "price": 1356.35,
       "prev": 1354.510009765625,
-      "chg": 0.21,
+      "chg": 0.14,
       "prevDay": "2026-09-28",
       "basis": "prev-close-bar",
-      "time": "2026-09-29T08:24:15.000Z"
+      "time": "2026-09-29T09:24:49.000Z"
     },
     "^GSPC": {
       "price": 7683.69,
@@ -43,12 +43,12 @@
       "time": "2026-09-28T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 16.17,
+      "price": 16.07,
       "prev": 16.06999969482422,
-      "chg": 0.62,
+      "chg": 0,
       "prevDay": "2026-09-28",
       "basis": "prev-close-bar",
-      "time": "2026-09-29T08:09:16.000Z"
+      "time": "2026-09-29T09:09:46.000Z"
     },
     "^TNX": {
       "price": 5.24,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.084
+    "pct": 0.08
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -7.69
     },
     "KRW=X": {
-      "last": 1357.32,
+      "last": 1356.35,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.084,
-      "chg3m": -11.98
+      "pct52": 0.08,
+      "chg3m": -12.05
     },
     "^GSPC": {
       "last": 7683.69,
@@ -101,11 +101,11 @@
       "chg3m": 2.31
     },
     "^VIX": {
-      "last": 16.17,
+      "last": 16.07,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.154,
-      "chg3m": 0.12
+      "pct52": 0.148,
+      "chg3m": -0.5
     },
     "^TNX": {
       "last": 5.24,
@@ -366,6 +366,39 @@
   "news": {
     "kr": [
       {
+        "title": "리튬포어스, 11억원 제3자배정 유상증자",
+        "link": "https://www.yna.co.kr/view/AKR20260929162800008",
+        "source": "연합뉴스",
+        "date": "Tue, 29 Sep 2026 17:34:54 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "소규모 자금 조달로, 장기 수익 구조를 바꾸는 사안으로 보기는 어렵습니다.",
+        "by": "ai"
+      },
+      {
+        "title": "'범 LG家' 구미현 인수 효과…씨싸이트, 한주새 150% 급등",
+        "link": "https://www.hankyung.com/article/2026092927901",
+        "source": "한국경제",
+        "date": "Tue, 29 Sep 2026 17:43:45 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "최대주주 변경 기대에 따른 단기 급등으로, 실적 변화는 아직 확인되지 않았습니다.",
+        "by": "ai"
+      },
+      {
+        "title": "[인기검색TOP5] HLB제약, 테라뷰, 뷰노, MDS테크, 한미반도체",
+        "link": "https://www.mk.co.kr/news/stock/12164083",
+        "source": "매일경제",
+        "date": "Tue, 29 Sep 2026 18:09:16 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "검색 순위일 뿐 기업 가치나 이익에 대한 정보는 담겨 있지 않습니다.",
+        "by": "ai"
+      },
+      {
         "title": "한국가스공사 \"코가스 캐나다 에너지 주식 7천670억원에 취득\"",
         "link": "https://www.yna.co.kr/view/AKR20260929155800008",
         "source": "연합뉴스",
@@ -377,58 +410,25 @@
         "by": "ai"
       },
       {
-        "title": "\"외인 대신 주도주 결정할 것\"…증시 주인공으로 급부상",
-        "link": "https://www.hankyung.com/article/202609292536i",
+        "title": "1위 반도체 ETF 만든 주인공 [한경 프리미엄9 TODAY]",
+        "link": "https://www.hankyung.com/article/2026092927501",
         "source": "한국경제",
-        "date": "Tue, 29 Sep 2026 16:55:25 +0900",
+        "date": "Tue, 29 Sep 2026 17:42:49 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "sector",
+        "why": "상품 소개성 기사로, 보유 근거를 다시 볼 만한 내용은 없습니다.",
+        "by": "ai"
+      },
+      {
+        "title": "[속보] 국민연금 국내주식 수익률…7월 폭락장에 47%P 반납했다",
+        "link": "https://www.mk.co.kr/news/stock/12164080",
+        "source": "매일경제",
+        "date": "Tue, 29 Sep 2026 18:08:48 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "수급 주도 세력에 대한 전망성 기사로 기업 이익과는 무관합니다.",
-        "by": "ai"
-      },
-      {
-        "title": "“코스피 흔들려도 ‘이 종목’은 날개 다네”…고배당 금융주 다시 주목",
-        "link": "https://www.mk.co.kr/news/stock/12163785",
-        "source": "매일경제",
-        "date": "Tue, 29 Sep 2026 16:16:38 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "sector",
-        "why": "배당주 선호는 시장 분위기 변화일 뿐 구조 변화는 아닙니다.",
-        "by": "ai"
-      },
-      {
-        "title": "국고채 금리 일제히 하락…전일 급등에 일부 되돌림(종합)",
-        "link": "https://www.yna.co.kr/view/AKR20260929150851008",
-        "source": "연합뉴스",
-        "date": "Tue, 29 Sep 2026 16:48:28 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "금리의 하루 등락 되돌림으로 장기 투자 근거와 무관합니다.",
-        "by": "ai"
-      },
-      {
-        "title": "\"은행보다 사회공헌 지출 부족\"…증권사 질타한 이찬진 금감원장",
-        "link": "https://www.hankyung.com/article/202609292438i",
-        "source": "한국경제",
-        "date": "Tue, 29 Sep 2026 16:31:43 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "sector",
-        "why": "감독당국의 발언 단계로 구체적 규제가 확인되지 않았습니다.",
-        "by": "ai"
-      },
-      {
-        "title": "이찬진 “증권사 8.6조 벌때 투자자는 손실...주주환원 사회공헌 늘려야”",
-        "link": "https://www.mk.co.kr/news/stock/12163764",
-        "source": "매일경제",
-        "date": "Tue, 29 Sep 2026 16:03:33 +09:00",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": "sector",
-        "why": "당국의 주주환원 요구는 업종 정책 방향이라 흐름만 지켜보세요.",
+        "why": "지나간 기간의 수익률 집계로, 앞으로의 기업 이익과는 별개입니다.",
         "by": "ai"
       }
     ],
@@ -446,15 +446,15 @@
         "by": "ai"
       },
       {
-        "title": "The stock market usually booms in the November-to-April stretch. This indicator suggests otherwise.",
-        "link": "https://www.marketwatch.com/story/the-stock-market-usually-booms-in-the-november-to-april-stretch-this-indicator-suggests-otherwise-f30a744e?mod=mw_rss_topstories",
+        "title": "‘I have a low interest rate’: I’m 80 years old. Should I move out of my house because of dangerous stairs?",
+        "link": "https://www.marketwatch.com/story/i-have-a-low-interest-rate-im-80-years-old-should-i-move-out-of-my-house-because-of-dangerous-stairs-389c3c7b?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Tue, 29 Sep 2026 07:05:00 GMT",
-        "ko": "주식 시장은 일반적으로 11 월에서 4 월 사이에 호황을 누리고 있습니다. 이 표시등은 그렇지 않음을 나타냅니다.",
+        "date": "Tue, 29 Sep 2026 09:16:00 GMT",
+        "ko": "‘이자율이 낮습니다’: 80세입니다. 위험한 계단 때문에 집을 비워야 하나요?",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "계절성 통계일 뿐 기업 이익과는 무관한 이야기입니다.",
+        "why": "개인 재무 상담 성격의 기사로 기업 이익과 관련이 없습니다.",
         "by": "ai"
       },
       {
@@ -482,15 +482,15 @@
         "by": "ai"
       },
       {
-        "title": "Anthropic’s potential $2 trillion IPO comes with the following fine print",
-        "link": "https://www.marketwatch.com/story/anthropics-potential-2-trillion-ipo-comes-with-the-following-fine-print-99d3cb90?mod=mw_rss_topstories",
+        "title": "A month ago, this JPMorgan team urged caution on stocks. Now it’s going all in on tech.",
+        "link": "https://www.marketwatch.com/story/a-month-ago-this-jpmorgan-team-urged-caution-on-stocks-now-its-going-all-in-on-tech-f2e4b007?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Tue, 29 Sep 2026 01:31:00 GMT",
-        "ko": "Anthropic의 잠재적 $2조 IPO에는 다음과 같은 미세한 인쇄물이 함께 제공됩니다.",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": "sector",
-        "why": "대형 AI 기업 상장설은 업종 자금 흐름에 영향을 줄 수 있어 지켜볼 만합니다.",
+        "date": "Tue, 29 Sep 2026 08:56:00 GMT",
+        "ko": "한 달 전, JP모건 팀은 주식에 대한 주의를 촉구했습니다. 이제 기술에 모든 것을 쏟아붓고 있습니다.",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "증권사 전망 변경일 뿐 기업의 장기 이익을 바꾸지 않습니다.",
         "by": "ai"
       },
       {
@@ -509,8 +509,6 @@
   },
   "newsBy": "ai",
   "trCache": {
-    "Is Main Street Capital Stock a Buy, Sell, or Hold With Shares 15% Below Their 52-Week High?": "Main Street Capital Stock은 52주 최고치보다 15% 낮은 매수, 매도 또는 보유 주식입니까?",
-    "Prudential (PRU) Is Leaving Emerging Markets, And This $185M Sale Proves It": "Prudential (PRU) 은 신흥 시장을 떠날 것이며, 이 $185M 판매는 그것을 증명합니다.",
     "Ferguson (FERG) Keeps Beating a Housing Market That Refuses to Cooperate": "퍼거슨 (퍼그) 이 협력을 거부하는 주택 시장을 계속 이기고 있다.",
     "I Think IBM Stock Will Be Higher in 5 Years. I Still Wouldn't Buy It Today.": "저는 IBM 주식이 5년 안에 더 높아질 것이라고 생각합니다. 나는 오늘도 그것을 사지 않을 것이다.",
     "The U.S. Government Is Preparing to Offload Over 9 Million GlobalFoundries Shares. How You Should Play GFS Stock in Response.": "미국 정부는 900만 개 이상의 글로벌 펀드리 주식을 상쇄할 준비를 하고 있습니다. 응답으로 GFS 주식을 재생하는 방법.",
@@ -808,58 +806,11 @@
     "Nvidia is right: Its stock is a bargain by this measure": "엔비디아는 옳다: 그 재고는이 조치에 의한 거래이다",
     "Micron has a chance to set the record straight with its earnings report": "Micron은 수입 보고서를 통해 기록을 바로 세울 수 있습니다.",
     "MongoDB’s stock is down nearly 20% as CEO decamps to Meta": "CEO가 Meta로 하락함에 따라 MongoDB의 주가는 거의 20% 하락했습니다.",
-    "Anthropic’s potential $2 trillion IPO comes with the following fine print": "Anthropic의 잠재적 $2조 IPO에는 다음과 같은 미세한 인쇄물이 함께 제공됩니다."
+    "Anthropic’s potential $2 trillion IPO comes with the following fine print": "Anthropic의 잠재적 $2조 IPO에는 다음과 같은 미세한 인쇄물이 함께 제공됩니다.",
+    "‘I have a low interest rate’: I’m 80 years old. Should I move out of my house because of dangerous stairs?": "‘이자율이 낮습니다’: 80세입니다. 위험한 계단 때문에 집을 비워야 하나요?",
+    "A month ago, this JPMorgan team urged caution on stocks. Now it’s going all in on tech.": "한 달 전, JP모건 팀은 주식에 대한 주의를 촉구했습니다. 이제 기술에 모든 것을 쏟아붓고 있습니다."
   },
   "nvCache": {
-    "https://www.marketwatch.com/story/kevin-warsh-gets-what-every-fed-chair-hopes-for-a-bond-market-that-trust-his-words-5103dad5?mod=mw_rss_topstories": {
-      "act": "watch",
-      "lasting": "structural",
-      "scope": "market",
-      "why": "통화정책 수장 관련 이슈는 금리 환경 전반에 영향을 줄 수 있어 흐름만 지켜보면 됩니다.",
-      "by": "ai"
-    },
-    "https://finance.yahoo.com/markets/stocks/articles/seagate-vs-western-digital-one-095857311.html": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "sector",
-      "why": "두 기업 비교 형식의 의견성 기사로, 투자 근거를 바꿀 사실은 없습니다.",
-      "by": "ai"
-    },
-    "https://finance.yahoo.com/markets/stocks/articles/ameriprise-financial-stock-analyst-estimates-103020399.html": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "애널리스트 추정치 변경은 기업 이익 구조와 무관한 일상적 정보입니다.",
-      "by": "ai"
-    },
-    "https://finance.yahoo.com/energy/articles/renew-energy-rnw-q1-earnings-104058662.html": {
-      "act": "watch",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "분기 실적은 일시적이고, 인수 제안은 아직 결론이 나지 않아 진행 여부만 지켜보면 됩니다.",
-      "by": "ai"
-    },
-    "https://www.marketwatch.com/story/nvidias-revenue-forecast-is-so-huge-that-wall-street-wonders-if-spacex-is-the-reason-1ee7a8a9?mod=mw_rss_topstories": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "sector",
-      "why": "전망 배경을 둘러싼 추측성 보도라 실적 근거가 확인되지 않았습니다.",
-      "by": "ai"
-    },
-    "https://finance.yahoo.com/markets/stocks/articles/williams-sonoma-stock-outlook-wall-105830554.html": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "애널리스트 시각 정리 기사로, 사업 구조가 바뀐 내용은 없습니다.",
-      "by": "ai"
-    },
-    "https://www.marketwatch.com/story/microsofts-stock-seals-its-longest-winning-streak-of-the-year-as-ai-software-fears-fade-e5669f5b?mod=mw_rss_topstories": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "연속 상승은 단기 주가 흐름이라 장기 이익과 무관합니다.",
-      "by": "ai"
-    },
     "https://finance.yahoo.com/markets/currencies/articles/dollar-little-changed-stocks-rally-143205261.html": {
       "act": "none",
       "lasting": "temporary",
@@ -2910,6 +2861,55 @@
       "scope": "sector",
       "why": "감독당국의 발언 단계로 구체적 규제가 확인되지 않았습니다.",
       "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20260929162800008": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "소규모 자금 조달로, 장기 수익 구조를 바꾸는 사안으로 보기는 어렵습니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/2026092927901": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "최대주주 변경 기대에 따른 단기 급등으로, 실적 변화는 아직 확인되지 않았습니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12164083": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "검색 순위일 뿐 기업 가치나 이익에 대한 정보는 담겨 있지 않습니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/2026092927501": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "sector",
+      "why": "상품 소개성 기사로, 보유 근거를 다시 볼 만한 내용은 없습니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12164080": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "지나간 기간의 수익률 집계로, 앞으로의 기업 이익과는 별개입니다.",
+      "by": "ai"
+    },
+    "https://www.marketwatch.com/story/i-have-a-low-interest-rate-im-80-years-old-should-i-move-out-of-my-house-because-of-dangerous-stairs-389c3c7b?mod=mw_rss_topstories": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "개인 재무 상담 성격의 기사로 기업 이익과 관련이 없습니다.",
+      "by": "ai"
+    },
+    "https://www.marketwatch.com/story/a-month-ago-this-jpmorgan-team-urged-caution-on-stocks-now-its-going-all-in-on-tech-f2e4b007?mod=mw_rss_topstories": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "증권사 전망 변경일 뿐 기업의 장기 이익을 바꾸지 않습니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2953,7 +2953,7 @@
       "2026-09-26": 1354.4,
       "2026-09-27": 1354.92,
       "2026-09-28": 1359.77,
-      "2026-09-29": 1357.32
+      "2026-09-29": 1356.35
     },
     "^GSPC": {
       "2026-09-18": 7650.5,
@@ -2995,7 +2995,7 @@
       "2026-09-26": 14.87,
       "2026-09-27": 14.87,
       "2026-09-28": 16.07,
-      "2026-09-29": 16.17
+      "2026-09-29": 16.07
     },
     "^TNX": {
       "2026-09-18": 4.998,
