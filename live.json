@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-29T07:51:13.510Z",
+  "asOf": "2026-09-29T08:24:28.584Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-29T06:32:50.000Z"
     },
     "KRW=X": {
-      "price": 1357.13,
+      "price": 1357.32,
       "prev": 1354.510009765625,
-      "chg": 0.19,
+      "chg": 0.21,
       "prevDay": "2026-09-28",
       "basis": "prev-close-bar",
-      "time": "2026-09-29T07:50:51.000Z"
+      "time": "2026-09-29T08:24:15.000Z"
     },
     "^GSPC": {
       "price": 7683.69,
@@ -43,12 +43,12 @@
       "time": "2026-09-28T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 16.04,
+      "price": 16.17,
       "prev": 16.06999969482422,
-      "chg": -0.19,
+      "chg": 0.62,
       "prevDay": "2026-09-28",
       "basis": "prev-close-bar",
-      "time": "2026-09-29T07:35:46.000Z"
+      "time": "2026-09-29T08:09:16.000Z"
     },
     "^TNX": {
       "price": 5.24,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.083
+    "pct": 0.084
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -7.69
     },
     "KRW=X": {
-      "last": 1357.13,
+      "last": 1357.32,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.083,
-      "chg3m": -12
+      "pct52": 0.084,
+      "chg3m": -11.98
     },
     "^GSPC": {
       "last": 7683.69,
@@ -101,11 +101,11 @@
       "chg3m": 2.31
     },
     "^VIX": {
-      "last": 16.04,
+      "last": 16.17,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.146,
-      "chg3m": -0.68
+      "pct52": 0.154,
+      "chg3m": 0.12
     },
     "^TNX": {
       "last": 5.24,
@@ -366,14 +366,25 @@
   "news": {
     "kr": [
       {
-        "title": "유조선 빌려주고 3년간 1481억…실적 기대감에 '함박웃음'",
-        "link": "https://www.hankyung.com/article/202609291917i",
+        "title": "한국가스공사 \"코가스 캐나다 에너지 주식 7천670억원에 취득\"",
+        "link": "https://www.yna.co.kr/view/AKR20260929155800008",
+        "source": "연합뉴스",
+        "date": "Tue, 29 Sep 2026 17:01:29 +0900",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": "company",
+        "why": "대규모 해외 자산 취득은 사업 구조에 영향을 줄 수 있어 진행 경과만 지켜보세요.",
+        "by": "ai"
+      },
+      {
+        "title": "\"외인 대신 주도주 결정할 것\"…증시 주인공으로 급부상",
+        "link": "https://www.hankyung.com/article/202609292536i",
         "source": "한국경제",
-        "date": "Tue, 29 Sep 2026 16:00:02 +0900",
+        "date": "Tue, 29 Sep 2026 16:55:25 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
-        "why": "장기 용선 계약 실적 기대는 개별 회사의 단기 호재입니다.",
+        "scope": "market",
+        "why": "수급 주도 세력에 대한 전망성 기사로 기업 이익과는 무관합니다.",
         "by": "ai"
       },
       {
@@ -388,14 +399,25 @@
         "by": "ai"
       },
       {
-        "title": "고금리 속 AI·반도체 질주… 흔들리는 포트폴리오 지킬 '현금흐름' 해법",
-        "link": "https://www.hankyung.com/article/202609292042i",
-        "source": "한국경제",
-        "date": "Tue, 29 Sep 2026 15:58:54 +0900",
+        "title": "국고채 금리 일제히 하락…전일 급등에 일부 되돌림(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20260929150851008",
+        "source": "연합뉴스",
+        "date": "Tue, 29 Sep 2026 16:48:28 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "포트폴리오 전략을 다룬 해설성 기사로 오늘 할 일은 없습니다.",
+        "why": "금리의 하루 등락 되돌림으로 장기 투자 근거와 무관합니다.",
+        "by": "ai"
+      },
+      {
+        "title": "\"은행보다 사회공헌 지출 부족\"…증권사 질타한 이찬진 금감원장",
+        "link": "https://www.hankyung.com/article/202609292438i",
+        "source": "한국경제",
+        "date": "Tue, 29 Sep 2026 16:31:43 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "sector",
+        "why": "감독당국의 발언 단계로 구체적 규제가 확인되지 않았습니다.",
         "by": "ai"
       },
       {
@@ -407,28 +429,6 @@
         "lasting": "structural",
         "scope": "sector",
         "why": "당국의 주주환원 요구는 업종 정책 방향이라 흐름만 지켜보세요.",
-        "by": "ai"
-      },
-      {
-        "title": "\"OTT에 밀리더니\"…오디세이 흥행에 주가 230% 급등",
-        "link": "https://www.hankyung.com/article/202609292362i",
-        "source": "한국경제",
-        "date": "Tue, 29 Sep 2026 15:50:49 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "콘텐츠 흥행에 따른 급등은 지속성을 확인하기 어렵습니다.",
-        "by": "ai"
-      },
-      {
-        "title": "코스피, 미 국채금리 급등에 2거래일 연속 하락…외국인 2.9조 ‘팔자’",
-        "link": "https://www.mk.co.kr/news/stock/12163760",
-        "source": "매일경제",
-        "date": "Tue, 29 Sep 2026 16:00:09 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "금리와 수급에 따른 지수 등락은 늘 반복되는 일입니다.",
         "by": "ai"
       }
     ],
@@ -811,34 +811,6 @@
     "Anthropic’s potential $2 trillion IPO comes with the following fine print": "Anthropic의 잠재적 $2조 IPO에는 다음과 같은 미세한 인쇄물이 함께 제공됩니다."
   },
   "nvCache": {
-    "https://finance.yahoo.com/markets/stocks/articles/moderna-mrna-merck-mrk-happening-171537209.html": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "sector",
-      "why": "구체적 사실 없는 전망성 제목이라 판단 근거가 부족합니다.",
-      "by": "ai"
-    },
-    "https://finance.yahoo.com/markets/stocks/articles/tim-cook-warned-100-flood-081500902.html": {
-      "act": "watch",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "메모리 가격 급등은 주기적 비용 요인으로, 마진 영향만 지켜보면 되는 사안입니다.",
-      "by": "ai"
-    },
-    "https://finance.yahoo.com/economy/policy/articles/druckenmiller-tells-former-prot-g-093000190.html": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "유명 투자자의 정책 전망 발언일 뿐, 기업 이익 구조가 바뀐 건 아닙니다.",
-      "by": "ai"
-    },
-    "https://finance.yahoo.com/markets/stocks/articles/chipotle-ceo-scott-boatwright-offloaded-094500742.html": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "경영진 주식 매도는 개인 사정일 수 있어 장기 이익과 직접 연결되지 않습니다.",
-      "by": "ai"
-    },
     "https://www.marketwatch.com/story/kevin-warsh-gets-what-every-fed-chair-hopes-for-a-bond-market-that-trust-his-words-5103dad5?mod=mw_rss_topstories": {
       "act": "watch",
       "lasting": "structural",
@@ -2910,6 +2882,34 @@
       "scope": "market",
       "why": "금리와 수급에 따른 지수 등락은 늘 반복되는 일입니다.",
       "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20260929155800008": {
+      "act": "watch",
+      "lasting": "structural",
+      "scope": "company",
+      "why": "대규모 해외 자산 취득은 사업 구조에 영향을 줄 수 있어 진행 경과만 지켜보세요.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/202609292536i": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "수급 주도 세력에 대한 전망성 기사로 기업 이익과는 무관합니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20260929150851008": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "금리의 하루 등락 되돌림으로 장기 투자 근거와 무관합니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/202609292438i": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "sector",
+      "why": "감독당국의 발언 단계로 구체적 규제가 확인되지 않았습니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2953,7 +2953,7 @@
       "2026-09-26": 1354.4,
       "2026-09-27": 1354.92,
       "2026-09-28": 1359.77,
-      "2026-09-29": 1357.13
+      "2026-09-29": 1357.32
     },
     "^GSPC": {
       "2026-09-18": 7650.5,
@@ -2995,7 +2995,7 @@
       "2026-09-26": 14.87,
       "2026-09-27": 14.87,
       "2026-09-28": 16.07,
-      "2026-09-29": 16.04
+      "2026-09-29": 16.17
     },
     "^TNX": {
       "2026-09-18": 4.998,
@@ -3383,7 +3383,5 @@
       "2026-09-29": 503.09
     }
   },
-  "failed": [
-    "news/kr/연합뉴스: fetch failed"
-  ]
+  "failed": []
 }
