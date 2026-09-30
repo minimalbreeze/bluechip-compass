@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-30T00:02:08.481Z",
+  "asOf": "2026-09-30T00:12:31.935Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-29T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1351.58,
+      "price": 1351.98,
       "prev": 1359.56005859375,
-      "chg": -0.59,
+      "chg": -0.56,
       "prevDay": "2026-09-29",
       "basis": "prev-close-bar",
-      "time": "2026-09-30T00:01:41.000Z"
+      "time": "2026-09-30T00:12:20.000Z"
     },
     "^GSPC": {
       "price": 7670.84,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.058
+    "pct": 0.059
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -0.56
     },
     "KRW=X": {
-      "last": 1351.58,
+      "last": 1351.98,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.058,
-      "chg3m": -11.72
+      "pct52": 0.059,
+      "chg3m": -11.69
     },
     "^GSPC": {
       "last": 7670.84,
@@ -366,14 +366,14 @@
   "news": {
     "kr": [
       {
-        "title": "신한은행, 3개월 만기 예금에 연 3%대 금리 적용",
-        "link": "https://www.yna.co.kr/view/AKR20260930031300002",
+        "title": "뉴욕 연은 총재 \"연말 한차례 추가 금리인상 적절\"",
+        "link": "https://www.yna.co.kr/view/AKR20260930034700009",
         "source": "연합뉴스",
-        "date": "Wed, 30 Sep 2026 08:42:41 +0900",
-        "act": "none",
+        "date": "Wed, 30 Sep 2026 09:02:10 +0900",
+        "act": "watch",
         "lasting": "temporary",
-        "scope": "sector",
-        "why": "예금 금리 조정은 일상적 영업 사안으로 장기 이익 구조와 무관합니다.",
+        "scope": "market",
+        "why": "금리 발언은 시장 전반에 영향을 주지만 방향은 수시로 바뀝니다.",
         "by": "ai"
       },
       {
@@ -388,25 +388,25 @@
         "by": "ai"
       },
       {
-        "title": "“삼성전자, 메모리 사업의 가치 재평가 기대”…증권가 분석 보니",
-        "link": "https://www.mk.co.kr/news/stock/12164382",
+        "title": "중간선거 이후 미국증시, 4분기는 숨고르기·내년은 반등 전망 [오늘 나온 보고서]",
+        "link": "https://www.mk.co.kr/news/stock/12164400",
         "source": "매일경제",
-        "date": "Wed, 30 Sep 2026 08:50:52 +09:00",
+        "date": "Wed, 30 Sep 2026 09:07:52 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
-        "why": "증권사 기대 의견일 뿐 실제 실적 변화가 확인된 내용은 아닙니다.",
+        "scope": "market",
+        "why": "증권사 전망일 뿐 기업 이익 구조가 바뀌는 내용은 아닙니다.",
         "by": "ai"
       },
       {
-        "title": "대신증권 \"제일기획, 주요 광고주 마케팅 축소…목표주가 하향\"",
-        "link": "https://www.yna.co.kr/view/AKR20260930029800008",
+        "title": "반도체붐에 세수 '역대 최대'…미래기금에 56조 더 넣을 수 있어",
+        "link": "https://www.yna.co.kr/view/AKR20260930000800002",
         "source": "연합뉴스",
-        "date": "Wed, 30 Sep 2026 08:38:39 +0900",
-        "act": "watch",
+        "date": "Wed, 30 Sep 2026 09:00:01 +0900",
+        "act": "none",
         "lasting": "temporary",
-        "scope": "company",
-        "why": "광고주 지출 축소가 이어지는지 정도만 천천히 지켜보면 됩니다.",
+        "scope": "market",
+        "why": "세수와 기금 이야기로 개별 기업 실적과는 거리가 있습니다.",
         "by": "ai"
       },
       {
@@ -421,14 +421,14 @@
         "by": "ai"
       },
       {
-        "title": "“LX인터내셔널, 해상운임 상승에 3분기 호실적 전망”",
-        "link": "https://www.mk.co.kr/news/stock/12164375",
+        "title": "“삼성전자, 메모리 사업의 가치 재평가 기대”…증권가 분석 보니",
+        "link": "https://www.mk.co.kr/news/stock/12164382",
         "source": "매일경제",
-        "date": "Wed, 30 Sep 2026 08:39:43 +09:00",
+        "date": "Wed, 30 Sep 2026 08:50:52 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
-        "why": "분기 실적 전망은 운임 등락에 따라 자주 바뀌는 단기 요인입니다.",
+        "why": "증권사 기대 의견일 뿐 실제 실적 변화가 확인된 내용은 아닙니다.",
         "by": "ai"
       }
     ],
@@ -811,27 +811,6 @@
     "Microsoft’s stock is on track to post its biggest quarterly gain in 28 years": "Microsoft의 주가는 28년 만에 최대 분기 이익을 올릴 것으로 예상됩니다."
   },
   "nvCache": {
-    "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-microsoft-titans-mask-market-weakness/?src=A00220&yptr=yahoo": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "대형주가 지수를 떠받치는 단기 시장 흐름 해설입니다.",
-      "by": "ai"
-    },
-    "https://www.investors.com/news/microsoft-palantir-stocks-near-buy-points-software/?src=A00220&yptr=yahoo": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "sector",
-      "why": "업종 반등에 따른 관심주 소개로 장기 근거와 무관합니다.",
-      "by": "ai"
-    },
-    "https://www.investors.com/research/investing-action-plan/stock-market-week-ahead-chips-cybersecurity-and-jobs/?src=A00220&yptr=yahoo": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "주간 일정 소개일 뿐, 기업 이익을 바꾸는 내용은 아닙니다.",
-      "by": "ai"
-    },
     "https://www.investors.com/research/best-stocks-seven-magnificent-stocks-earnings-growth/?src=A00220&yptr=yahoo": {
       "act": "none",
       "lasting": "temporary",
@@ -2910,6 +2889,27 @@
       "scope": "company",
       "why": "분기 실적 전망은 운임 등락에 따라 자주 바뀌는 단기 요인입니다.",
       "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20260930034700009": {
+      "act": "watch",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "금리 발언은 시장 전반에 영향을 주지만 방향은 수시로 바뀝니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12164400": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "증권사 전망일 뿐 기업 이익 구조가 바뀌는 내용은 아닙니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20260930000800002": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "세수와 기금 이야기로 개별 기업 실적과는 거리가 있습니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2953,7 +2953,7 @@
       "2026-09-27": 1354.92,
       "2026-09-28": 1359.77,
       "2026-09-29": 1352.4,
-      "2026-09-30": 1351.58
+      "2026-09-30": 1351.98
     },
     "^GSPC": {
       "2026-09-18": 7650.5,
