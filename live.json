@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-30T19:25:47.807Z",
+  "asOf": "2026-09-30T23:45:52.373Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,36 +19,36 @@
       "time": "2026-09-30T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1355.56,
-      "prev": 1359.56005859375,
-      "chg": -0.29,
-      "prevDay": "2026-09-29",
+      "price": 1356.18,
+      "prev": 1350.5,
+      "chg": 0.42,
+      "prevDay": "2026-09-30",
       "basis": "prev-close-bar",
-      "time": "2026-09-30T19:25:37.000Z"
+      "time": "2026-09-30T23:45:05.000Z"
     },
     "^GSPC": {
-      "price": 7693.16,
+      "price": 7651.54,
       "prev": 7670.83984375,
-      "chg": 0.29,
+      "chg": -0.25,
       "prevDay": "2026-09-29",
       "basis": "prev-close-bar",
-      "time": "2026-09-30T19:25:41.000Z"
+      "time": "2026-09-30T20:38:12.000Z"
     },
     "^IXIC": {
-      "price": 27020.5,
+      "price": 26861.064,
       "prev": 26797.5390625,
-      "chg": 0.83,
+      "chg": 0.24,
       "prevDay": "2026-09-29",
       "basis": "prev-close-bar",
-      "time": "2026-09-30T19:25:39.000Z"
+      "time": "2026-09-30T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 15.95,
+      "price": 16.34,
       "prev": 16.040000915527344,
-      "chg": -0.56,
+      "chg": 1.87,
       "prevDay": "2026-09-29",
       "basis": "prev-close-bar",
-      "time": "2026-09-30T19:10:31.000Z"
+      "time": "2026-09-30T20:15:01.000Z"
     },
     "^TNX": {
       "price": 5.293,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.076
+    "pct": 0.079
   },
   "hist": {
     "^KS11": {
@@ -80,32 +80,32 @@
       "chg3m": -7.69
     },
     "KRW=X": {
-      "last": 1355.56,
+      "last": 1356.18,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.076,
-      "chg3m": -11.46
+      "pct52": 0.079,
+      "chg3m": -11.29
     },
     "^GSPC": {
-      "last": 7693.16,
+      "last": 7651.54,
       "low52": 6343.72,
       "high52": 7798.99,
-      "pct52": 0.927,
-      "chg3m": 2.81
+      "pct52": 0.899,
+      "chg3m": 2.25
     },
     "^IXIC": {
-      "last": 27020.5,
+      "last": 26861.06,
       "low52": 20794.64,
       "high52": 27244.28,
-      "pct52": 0.965,
-      "chg3m": 4.6
+      "pct52": 0.941,
+      "chg3m": 3.98
     },
     "^VIX": {
-      "last": 15.95,
+      "last": 16.34,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.141,
-      "chg3m": 2.44
+      "pct52": 0.163,
+      "chg3m": 4.95
     },
     "^TNX": {
       "last": 5.29,
@@ -117,16 +117,16 @@
   },
   "regime": {
     "by": "ai",
-    "asOf": "2026-09-29T15:07:13.475Z",
+    "asOf": "2026-09-30T23:45:38.727Z",
     "kr": {
       "why": {
-        "rates": "미 10년물 금리(^TNX)가 5.25%로 1년 범위 최상단(위치 100%)이고 3개월간 +17.34% 올라 금리가 오르는 국면입니다.",
-        "growth": "코스피가 3개월간 -18.09% 급락했지만 1년 범위에서는 여전히 61% 위치(3424.6~9114.55 중 6889.74)여서 침체 확정보다는 둔화 신호로 봅니다.",
-        "valuation": "이익 대비 밸류 지표가 제공되지 않았고 지수 위치가 1년 범위 61%로 중간권이어서 근거가 약해 중립인 '보통'으로 둡니다.",
-        "fx": "원/달러가 1356.28원으로 1년 범위(1339.17~1554.48) 하단 8% 위치이고 3개월간 -12.05% 내려 원화가 강해진 상태입니다.",
-        "geo": "VIX가 15.91로 1년 범위 하위 14%이고 제시된 헤드라인에 지정학 충돌 관련 내용이 없어 평온으로 분류합니다."
+        "rates": "미국 10년물 금리(^TNX)가 5.29%로 1년 범위 최상단(위치 100%)이고 3개월간 +18.02% 올라, 시장금리는 뚜렷한 상승 국면입니다.",
+        "growth": "코스피가 3개월간 -18.15% 하락하고 스마트폰 비우호·현대차 판매 부진 등 목표가 하향 헤드라인이 이어져 둔화 신호가 강하지만, 지수 위치가 아직 1년 범위 61%라 침체로 단정할 근거는 부족해 중간값을 택했습니다.",
+        "valuation": "코스피 6870.81은 1년 범위(3424.6~9114.55)의 61% 지점으로 극단적 고평가·저평가 구간이 아니어서 보통으로 봅니다.",
+        "fx": "원/달러가 1356.18로 1년 범위(1339.17~1554.48)의 8% 지점, 3개월 -11.29%로 원화가 뚜렷이 강해진 상태입니다.",
+        "geo": "VIX가 16.34로 1년 범위의 16% 수준이고 제시된 헤드라인에 지정학적 충격 언급이 없어 평온으로 분류합니다."
       },
-      "summary": "금리는 오르는데 코스피는 3개월간 -18.09% 밀린, 원화는 강해진 혼조 국면입니다. 공포지수(VIX 15.91)는 낮아 시장 전체가 패닉인 상태는 아닙니다.",
+      "summary": "시장금리(10년 5.29%)는 높은데 코스피는 3개월간 -18.15% 밀려, 금리 부담 속 경기 둔화 신호가 겹친 국면입니다. 원/달러는 1356.18로 원화가 강해졌고 변동성 지표(VIX 16.34)는 낮아 공포 확산 단계는 아닙니다.",
       "rates": "hike",
       "growth": "slow",
       "valuation": "fair",
@@ -135,13 +135,13 @@
     },
     "us": {
       "why": {
-        "rates": "^TNX가 5.25%로 1년 범위 100% 지점, 3개월 +17.34%로 상승 중이며 '급증하는 국채 수익률' 헤드라인도 같은 방향입니다.",
-        "growth": "S&P500이 3개월간 +2.54%로 1년 범위 91% 위치(7673.32)에 있어 지수 기준으로는 괜찮은 흐름이나, 정크본드가 2022년 이후 최악의 달이라는 헤드라인은 반대 신호로 함께 봐야 합니다.",
-        "valuation": "S&P500이 1년 범위 6343.72~7798.99 중 91% 위치로 고점 부근이라 가격 기준으로는 비싼 편으로 분류합니다.",
-        "fx": "원/달러 1356.28원(1년 범위 위치 8%, 3개월 -12.05%)으로 달러 대비 원화가 강해진 상태입니다.",
-        "geo": "VIX 15.91로 1년 범위 하위 14%이고 제시된 헤드라인에 지정학 충격 사건이 없어 평온으로 봅니다."
+        "rates": "^TNX가 5.29%로 1년 범위 100% 지점, 3개월 +18.02%이고 '급증하는 국채 수익률' 헤드라인도 있어 시장금리 상승 국면입니다.",
+        "growth": "S&P500이 7651.54로 1년 범위의 90% 지점이며 3개월 +2.25%로 버티고 있어 경기 위축 신호는 자료상 보이지 않습니다.",
+        "valuation": "지수가 1년 범위(6343.72~7798.99)의 90% 상단에 있고 'AI PUT이 유일한 요소' 같은 쏠림 헤드라인이 있어 비싼 편으로 분류합니다.",
+        "fx": "원/달러 1356.18은 1년 범위의 8% 지점, 3개월 -11.29%로 달러 대비 원화가 강세인 상태입니다.",
+        "geo": "VIX 16.34(1년 위치 16%)로 낮고 제시된 헤드라인은 금리·실적 중심이라 충격 요인은 확인되지 않습니다."
       },
-      "summary": "미국 지수는 1년 고점 부근(범위 91%)에 있지만 국채금리가 5.25%로 최고 수준까지 오른 상태입니다. 주가는 강하고 금리 부담은 커진, 값이 비싸진 구간으로 이해하면 됩니다.",
+      "summary": "S&P500은 1년 범위 90% 부근의 높은 자리에 있지만, 10년물 금리가 5.29%로 최고치라 금리 부담을 안고 오른 국면입니다. 변동성(VIX 16.34)은 낮아 시장은 아직 차분한 편입니다.",
       "rates": "hike",
       "growth": "expand",
       "valuation": "rich",
@@ -258,177 +258,177 @@
     },
     "us": {
       "MSFT": {
-        "price": 517.31,
+        "price": 512.9,
         "prev": 508.9599914550781,
-        "chg": 1.64,
+        "chg": 0.77,
         "prevDay": "2026-09-29",
         "basis": "prev-close-bar",
-        "time": "2026-09-30T19:25:45.000Z"
+        "time": "2026-09-30T20:00:01.000Z"
       },
       "AAPL": {
-        "price": 335.44,
+        "price": 333.02,
         "prev": 329.3999938964844,
-        "chg": 1.83,
+        "chg": 1.1,
         "prevDay": "2026-09-29",
         "basis": "prev-close-bar",
-        "time": "2026-09-30T19:25:42.000Z"
+        "time": "2026-09-30T20:00:01.000Z"
       },
       "GOOGL": {
-        "price": 348.785,
+        "price": 344.08,
         "prev": 340.9200134277344,
-        "chg": 2.31,
+        "chg": 0.93,
         "prevDay": "2026-09-29",
         "basis": "prev-close-bar",
-        "time": "2026-09-30T19:25:44.000Z"
+        "time": "2026-09-30T20:00:01.000Z"
       },
       "BRK.B": {
-        "price": 499.64,
+        "price": 497.95,
         "prev": 502.3500061035156,
-        "chg": -0.54,
+        "chg": -0.88,
         "prevDay": "2026-09-29",
         "basis": "prev-close-bar",
-        "time": "2026-09-30T19:25:47.000Z"
+        "time": "2026-09-30T20:04:53.000Z"
       },
       "V": {
-        "price": 360.88,
+        "price": 359.33,
         "prev": 365.8800048828125,
-        "chg": -1.37,
+        "chg": -1.79,
         "prevDay": "2026-09-29",
         "basis": "prev-close-bar",
-        "time": "2026-09-30T19:25:32.000Z"
+        "time": "2026-09-30T20:00:03.000Z"
       },
       "JNJ": {
-        "price": 265.42,
+        "price": 264.74,
         "prev": 267.57000732421875,
-        "chg": -0.8,
+        "chg": -1.06,
         "prevDay": "2026-09-29",
         "basis": "prev-close-bar",
-        "time": "2026-09-30T19:25:46.000Z"
+        "time": "2026-09-30T20:00:03.000Z"
       },
       "PG": {
-        "price": 146.12,
+        "price": 145.28,
         "prev": 148.32000732421875,
-        "chg": -1.48,
+        "chg": -2.05,
         "prevDay": "2026-09-29",
         "basis": "prev-close-bar",
-        "time": "2026-09-30T19:25:41.000Z"
+        "time": "2026-09-30T20:04:16.000Z"
       },
       "KO": {
-        "price": 86.31,
+        "price": 86.08,
         "prev": 86.83999633789062,
-        "chg": -0.61,
+        "chg": -0.88,
         "prevDay": "2026-09-29",
         "basis": "prev-close-bar",
-        "time": "2026-09-30T19:25:45.000Z"
+        "time": "2026-09-30T20:00:02.000Z"
       },
       "COST": {
-        "price": 915.16,
+        "price": 910.34,
         "prev": 924.5900268554688,
-        "chg": -1.02,
+        "chg": -1.54,
         "prevDay": "2026-09-29",
         "basis": "prev-close-bar",
-        "time": "2026-09-30T19:25:31.000Z"
+        "time": "2026-09-30T20:00:01.000Z"
       },
       "WM": {
-        "price": 204.83,
+        "price": 203.92,
         "prev": 207.08999633789062,
-        "chg": -1.09,
+        "chg": -1.53,
         "prevDay": "2026-09-29",
         "basis": "prev-close-bar",
-        "time": "2026-09-30T19:25:21.000Z"
+        "time": "2026-09-30T20:00:03.000Z"
       },
       "LIN": {
-        "price": 477.42,
+        "price": 474.65,
         "prev": 473.3699951171875,
-        "chg": 0.86,
+        "chg": 0.27,
         "prevDay": "2026-09-29",
         "basis": "prev-close-bar",
-        "time": "2026-09-30T19:25:32.000Z"
+        "time": "2026-09-30T20:00:01.000Z"
       },
       "XOM": {
-        "price": 163.24,
+        "price": 162.75,
         "prev": 161.35000610351562,
-        "chg": 1.17,
+        "chg": 0.87,
         "prevDay": "2026-09-29",
         "basis": "prev-close-bar",
-        "time": "2026-09-30T19:25:47.000Z"
+        "time": "2026-09-30T20:04:43.000Z"
       },
       "NVDA": {
-        "price": 230.53,
+        "price": 228.38,
         "prev": 227.2100067138672,
-        "chg": 1.46,
+        "chg": 0.51,
         "prevDay": "2026-09-29",
         "basis": "prev-close-bar",
-        "time": "2026-09-30T19:25:46.000Z"
+        "time": "2026-09-30T20:00:01.000Z"
       }
     }
   },
   "news": {
     "kr": [
       {
-        "title": "독일 9월 소비자물가 3.3％↑…ECB 금리인상 압박",
-        "link": "https://www.yna.co.kr/view/AKR20260930196400082",
+        "title": "키움증권 \"엠씨넥스 목표가↓…스마트폰 시장 당분간 비우호적\"",
+        "link": "https://www.yna.co.kr/view/AKR20261001027300008",
         "source": "연합뉴스",
-        "date": "Wed, 30 Sep 2026 22:43:10 +0900",
+        "date": "Thu, 1 Oct 2026 08:34:14 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
-        "why": "해외 물가·금리 흐름은 경기 순환 요인이라 장기 기업 이익을 바꾸진 않습니다.",
+        "scope": "company",
+        "why": "증권사 목표가 조정은 단기 전망 변화로 보유 근거를 바꾸지 않습니다.",
         "by": "ai"
       },
       {
-        "title": "미 30년물 국채금리 5.6% 돌파…전문가 “6%까지 갈 수도”",
-        "link": "https://www.hankyung.com/article/202609305884i",
+        "title": "내년부터 '금싸라기 땅' 꽁꽁 숨겨둔 상장사 드러난다",
+        "link": "https://www.hankyung.com/article/202609305001i",
         "source": "한국경제",
-        "date": "Wed, 30 Sep 2026 20:27:39 +0900",
+        "date": "Thu, 01 Oct 2026 08:00:15 +0900",
         "act": "watch",
         "lasting": "structural",
         "scope": "market",
-        "why": "장기금리 수준이 높아지면 시장 전체 밸류에이션 기준이 바뀌므로 흐름만 지켜보세요.",
+        "why": "상장사 자산 공시 제도 변화라 시장 전반에 오래 영향이 갑니다.",
         "by": "ai"
       },
       {
-        "title": "파인테크닉스, 10억원 규모 유상증자 실시",
-        "link": "https://www.mk.co.kr/news/stock/12165219",
+        "title": "주가 빠진 오리온, 지금이 기회?…“배당 4%대·저점 매수 유효”",
+        "link": "https://www.mk.co.kr/news/stock/12165573",
         "source": "매일경제",
-        "date": "Wed, 30 Sep 2026 17:44:18 +09:00",
+        "date": "Thu, 01 Oct 2026 08:33:52 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
-        "why": "규모가 작은 증자로 회사의 장기 이익 구조를 바꾸기는 어렵습니다.",
+        "why": "저점·배당 매력을 다룬 시황성 기사로 오늘 할 일은 없습니다.",
         "by": "ai"
       },
       {
-        "title": "[청주소식] 차기 시 금고에 농협·신한은행 선정",
-        "link": "https://www.yna.co.kr/view/AKR20260930182700064",
+        "title": "현대차증권, 고려아연 목표가↓…\"금 약세로 영업익 감소 전망\"",
+        "link": "https://www.yna.co.kr/view/AKR20261001027500008",
         "source": "연합뉴스",
-        "date": "Wed, 30 Sep 2026 18:53:45 +0900",
+        "date": "Thu, 1 Oct 2026 08:32:53 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
-        "why": "지자체 금고 선정은 장기 이익에 큰 영향이 없는 소식입니다.",
+        "why": "원자재 가격에 따른 실적 전망 조정은 흔히 반복되는 변동입니다.",
         "by": "ai"
       },
       {
-        "title": "한화투자증권, 9000억 확충…종투사 진입 시동",
-        "link": "https://www.hankyung.com/article/2026093058441",
+        "title": "물가 둔화했는데, 멈추지 않는 금리(10년 5.3%) … 마이크론 실적 좋지만 [김현석의 월스트리트나우]",
+        "link": "https://www.hankyung.com/article/202610016031i",
         "source": "한국경제",
-        "date": "Wed, 30 Sep 2026 19:47:27 +0900",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": "company",
-        "why": "자본 확충으로 사업 범위가 넓어질 수 있어 진행 경과만 지켜보면 됩니다.",
-        "by": "ai"
-      },
-      {
-        "title": "태영건설, 234억원 규모 유상증자 실시",
-        "link": "https://www.mk.co.kr/news/stock/12165220",
-        "source": "매일경제",
-        "date": "Wed, 30 Sep 2026 17:44:18 +09:00",
+        "date": "Thu, 01 Oct 2026 07:59:55 +0900",
         "act": "watch",
         "lasting": "temporary",
+        "scope": "market",
+        "why": "금리와 물가 흐름은 시장 전체 분위기라 흐름만 지켜보면 됩니다.",
+        "by": "ai"
+      },
+      {
+        "title": "“현대모비스, 현대차 판매 부진·환율 부담에 주가 전망 휘청”…목표가↓",
+        "link": "https://www.mk.co.kr/news/stock/12165562",
+        "source": "매일경제",
+        "date": "Thu, 01 Oct 2026 08:11:45 +09:00",
+        "act": "none",
+        "lasting": "temporary",
         "scope": "company",
-        "why": "유상증자는 주식 수가 늘어날 수 있어 자금 사용처를 지켜볼 만합니다.",
+        "why": "판매·환율에 따른 목표가 하향은 단기 요인에 가깝습니다.",
         "by": "ai"
       }
     ],
@@ -446,15 +446,15 @@
         "by": "ai"
       },
       {
-        "title": "This chart shows that buying and holding stocks beats ‘sell in May and go away’ and other gimmicks",
-        "link": "https://www.marketwatch.com/story/why-the-halloween-indicator-isnt-working-and-what-smart-investors-are-doing-instead-6d758662?mod=mw_rss_topstories",
+        "title": "The 15 worst-performing S&P 500 stocks during a dismal September",
+        "link": "https://www.marketwatch.com/story/the-15-worst-performing-s-p-500-stocks-during-a-dismal-september-991f8a07?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Wed, 30 Sep 2026 18:20:00 GMT",
-        "ko": "이 차트는 주식 매수 및 보유가 ‘5월에 팔고 사라지다’ 및 기타 기믹을 능가한다는 것을 보여줍니다.",
+        "date": "Wed, 30 Sep 2026 21:22:00 GMT",
+        "ko": "암울한 9월 동안 최악의 S&P 500 주식 15개",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "장기 보유의 유효성을 짚은 참고용 자료로, 오늘 조정할 일은 없습니다.",
+        "why": "한 달 주가 등락 정리 기사라 장기 이익과는 무관합니다.",
         "by": "ai"
       },
       {
@@ -482,15 +482,15 @@
         "by": "ai"
       },
       {
-        "title": "These bond strategies can help you get a safe 5% return on your cash",
-        "link": "https://www.marketwatch.com/story/these-bond-strategies-can-help-you-get-a-safe-5-return-on-your-cash-5fa45ccd?mod=mw_rss_topstories",
+        "title": "How the ‘AI put’ has become the only thing that matters for stocks",
+        "link": "https://www.marketwatch.com/story/this-is-the-big-risk-that-stock-investors-should-be-watching-as-rising-bond-yields-menace-markets-904cae0a?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Wed, 30 Sep 2026 17:38:00 GMT",
-        "ko": "이러한 채권 전략은 현금으로 안전하게 5% 수익을 올리는 데 도움이 될 수 있습니다.",
+        "date": "Wed, 30 Sep 2026 20:59:00 GMT",
+        "ko": "‘AI PUT’ 이 주식에 중요한 유일한 요소가 된 방법",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "금리 환경에 따른 현금·채권 운용 팁이며 보유 근거와 무관합니다.",
+        "why": "금리 전망에 관한 의견이라 장기 이익과는 직접 상관이 없습니다.",
         "by": "ai"
       },
       {
@@ -509,8 +509,6 @@
   },
   "newsBy": "ai",
   "trCache": {
-    "The Bond Market is Back. Here’s What TLT Bagholders Need to Know.": "채권 시장이 돌아왔습니다. TLT 가방 소지자가 알아야 할 사항은 다음과 같습니다.",
-    "Morgan Stanley Sees More Fuel for Valero’s (VLO) Rally": "모건 스탠리는 발레로 (VLO) 랠리에 더 많은 연료를 공급합니다",
     "Joby Aviation Stock Is Down 54% This Year. Here's Why I'd Buy It Before 2027.": "Joby Aviation의 재고는 올해 54% 감소했습니다. 2027년 이전에 구매하는 이유는 다음과 같습니다.",
     "Jim Cramer sends strong signal to Apple stock investors": "짐 크레이머 (Jim Cramer) 가 애플 주식 투자자들에게 강력한 신호를 보낸다.",
     "Dow Jones Futures Due: Can The Market Take Flight? Robinhood, Sandisk, AMD, Moderna Surge Into Buy Areas": "다우 존스 선물 만기일: 시장이 날아갈 수 있습니까? Robinhood, Sandisk, AMD, Moderna 구매 지역으로의 서지",
@@ -808,58 +806,11 @@
     "How Amazon’s stock can fight off the AI threat and soar 46%": "아마존의 주식이 AI 위협을 물리치고 46% 급등할 수 있는 방법",
     "This is the big risk that stock investors should be watching as rising bond yields menace markets": "이것은 채권의 상승이 시장을 위협하는 것을 주식 투자자들이 지켜봐야 할 큰 위험입니다.",
     "This chart shows that buying and holding stocks beats ‘sell in May and go away’ and other gimmicks": "이 차트는 주식 매수 및 보유가 ‘5월에 팔고 사라지다’ 및 기타 기믹을 능가한다는 것을 보여줍니다.",
-    "These bond strategies can help you get a safe 5% return on your cash": "이러한 채권 전략은 현금으로 안전하게 5% 수익을 올리는 데 도움이 될 수 있습니다."
+    "These bond strategies can help you get a safe 5% return on your cash": "이러한 채권 전략은 현금으로 안전하게 5% 수익을 올리는 데 도움이 될 수 있습니다.",
+    "The 15 worst-performing S&P 500 stocks during a dismal September": "암울한 9월 동안 최악의 S&P 500 주식 15개",
+    "How the ‘AI put’ has become the only thing that matters for stocks": "‘AI PUT’ 이 주식에 중요한 유일한 요소가 된 방법"
   },
   "nvCache": {
-    "https://finance.yahoo.com/markets/stocks/articles/sandisk-reported-layoffs-israel-locations-134502982.html": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "일부 지점 인력 조정은 비용 효율화 성격으로 장기 이익 구조를 바꾸지 않습니다.",
-      "by": "ai"
-    },
-    "https://finance.yahoo.com/markets/stocks/articles/dear-apple-stock-fans-mark-133002349.html": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "연례 신제품 행사 일정 안내로, 투자 근거와는 무관한 예고성 소식입니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20260831014452002": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "월별 경기지표 변동으로 장기 이익 구조와는 거리가 있습니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20260831043200008": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "해외 투자자 홍보 행사로 기업 이익에 직접 영향은 없습니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20260831050200008": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "신규 상품 출시 소식으로 장기 이익 구조와는 거리가 있습니다.",
-      "by": "ai"
-    },
-    "https://www.mk.co.kr/news/stock/12140102": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "금리 우려에 따른 하루 등락으로, 이미 가격에 반영되는 변동입니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20260831045800008": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "sector",
-      "why": "신규 ETF 상장 안내로 기업 실적 자체를 바꾸는 소식은 아닙니다.",
-      "by": "ai"
-    },
     "https://finance.yahoo.com/markets/stocks/articles/t-mobile-stock-could-win-140002998.html": {
       "act": "none",
       "lasting": "structural",
@@ -2910,6 +2861,55 @@
       "scope": "market",
       "why": "금리 환경에 따른 현금·채권 운용 팁이며 보유 근거와 무관합니다.",
       "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261001027300008": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "증권사 목표가 조정은 단기 전망 변화로 보유 근거를 바꾸지 않습니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/202609305001i": {
+      "act": "watch",
+      "lasting": "structural",
+      "scope": "market",
+      "why": "상장사 자산 공시 제도 변화라 시장 전반에 오래 영향이 갑니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12165573": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "저점·배당 매력을 다룬 시황성 기사로 오늘 할 일은 없습니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261001027500008": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "원자재 가격에 따른 실적 전망 조정은 흔히 반복되는 변동입니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/202610016031i": {
+      "act": "watch",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "금리와 물가 흐름은 시장 전체 분위기라 흐름만 지켜보면 됩니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12165562": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "판매·환율에 따른 목표가 하향은 단기 요인에 가깝습니다.",
+      "by": "ai"
+    },
+    "https://www.marketwatch.com/story/the-15-worst-performing-s-p-500-stocks-during-a-dismal-september-991f8a07?mod=mw_rss_topstories": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "한 달 주가 등락 정리 기사라 장기 이익과는 무관합니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2942,7 +2942,6 @@
       "2026-10-01": 855.91
     },
     "KRW=X": {
-      "2026-09-19": 1385,
       "2026-09-20": 1384.6,
       "2026-09-21": 1374.99,
       "2026-09-22": 1354.79,
@@ -2953,7 +2952,8 @@
       "2026-09-27": 1354.92,
       "2026-09-28": 1359.77,
       "2026-09-29": 1352.4,
-      "2026-09-30": 1355.56
+      "2026-09-30": 1355.56,
+      "2026-10-01": 1356.18
     },
     "^GSPC": {
       "2026-09-19": 7650.5,
@@ -2967,7 +2967,7 @@
       "2026-09-27": 7743.41,
       "2026-09-28": 7683.69,
       "2026-09-29": 7670.84,
-      "2026-09-30": 7693.16
+      "2026-09-30": 7651.54
     },
     "^IXIC": {
       "2026-09-19": 26522.545,
@@ -2981,7 +2981,7 @@
       "2026-09-27": 27068.717,
       "2026-09-28": 26820.38,
       "2026-09-29": 26797.541,
-      "2026-09-30": 27020.5
+      "2026-09-30": 26861.064
     },
     "^VIX": {
       "2026-09-19": 14.81,
@@ -2995,7 +2995,7 @@
       "2026-09-27": 14.87,
       "2026-09-28": 16.07,
       "2026-09-29": 16.04,
-      "2026-09-30": 15.95
+      "2026-09-30": 16.34
     },
     "^TNX": {
       "2026-09-19": 4.998,
@@ -3205,7 +3205,7 @@
       "2026-09-27": 516.17,
       "2026-09-28": 509.22,
       "2026-09-29": 508.96,
-      "2026-09-30": 517.31
+      "2026-09-30": 512.9
     },
     "AAPL": {
       "2026-09-19": 336.13,
@@ -3219,7 +3219,7 @@
       "2026-09-27": 341.07,
       "2026-09-28": 338.4,
       "2026-09-29": 329.4,
-      "2026-09-30": 335.44
+      "2026-09-30": 333.02
     },
     "GOOGL": {
       "2026-09-19": 349.54,
@@ -3233,7 +3233,7 @@
       "2026-09-27": 343.92,
       "2026-09-28": 342.75,
       "2026-09-29": 340.92,
-      "2026-09-30": 348.785
+      "2026-09-30": 344.08
     },
     "BRK.B": {
       "2026-08-29": 505,
@@ -3254,7 +3254,7 @@
       "2026-09-27": 367.38,
       "2026-09-28": 367.74,
       "2026-09-29": 365.88,
-      "2026-09-30": 360.88
+      "2026-09-30": 359.33
     },
     "JNJ": {
       "2026-09-19": 269.99,
@@ -3268,7 +3268,7 @@
       "2026-09-27": 271.22,
       "2026-09-28": 271.95,
       "2026-09-29": 267.57,
-      "2026-09-30": 265.42
+      "2026-09-30": 264.74
     },
     "PG": {
       "2026-09-19": 146.39,
@@ -3282,7 +3282,7 @@
       "2026-09-27": 146.23,
       "2026-09-28": 149.03,
       "2026-09-29": 148.32,
-      "2026-09-30": 146.12
+      "2026-09-30": 145.28
     },
     "KO": {
       "2026-09-19": 88.25,
@@ -3296,7 +3296,7 @@
       "2026-09-27": 87.81,
       "2026-09-28": 87.18,
       "2026-09-29": 86.84,
-      "2026-09-30": 86.31
+      "2026-09-30": 86.08
     },
     "COST": {
       "2026-09-19": 895.31,
@@ -3310,7 +3310,7 @@
       "2026-09-27": 922.765,
       "2026-09-28": 922.92,
       "2026-09-29": 924.59,
-      "2026-09-30": 915.16
+      "2026-09-30": 910.34
     },
     "WM": {
       "2026-09-19": 211.1,
@@ -3324,7 +3324,7 @@
       "2026-09-27": 206.83,
       "2026-09-28": 206.44,
       "2026-09-29": 207.09,
-      "2026-09-30": 204.83
+      "2026-09-30": 203.92
     },
     "LIN": {
       "2026-09-19": 460.4,
@@ -3338,7 +3338,7 @@
       "2026-09-27": 469.89,
       "2026-09-28": 472.04,
       "2026-09-29": 473.37,
-      "2026-09-30": 477.42
+      "2026-09-30": 474.65
     },
     "XOM": {
       "2026-09-19": 163.54,
@@ -3352,7 +3352,7 @@
       "2026-09-27": 160.59,
       "2026-09-28": 162.52,
       "2026-09-29": 161.35,
-      "2026-09-30": 163.24
+      "2026-09-30": 162.75
     },
     "NVDA": {
       "2026-09-19": 222.27,
@@ -3366,7 +3366,7 @@
       "2026-09-27": 225.07,
       "2026-09-28": 228.86,
       "2026-09-29": 227.21,
-      "2026-09-30": 230.53
+      "2026-09-30": 228.38
     },
     "BRK-B": {
       "2026-09-19": 509.77,
@@ -3380,7 +3380,7 @@
       "2026-09-27": 505.48,
       "2026-09-28": 503.09,
       "2026-09-29": 502.35,
-      "2026-09-30": 499.64
+      "2026-09-30": 497.95
     }
   },
   "failed": []
