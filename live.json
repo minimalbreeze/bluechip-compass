@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-01T07:48:40.652Z",
+  "asOf": "2026-10-01T08:49:12.369Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-01T06:33:00.000Z"
     },
     "KRW=X": {
-      "price": 1361.58,
+      "price": 1361.15,
       "prev": 1350.5,
-      "chg": 0.82,
+      "chg": 0.79,
       "prevDay": "2026-09-30",
       "basis": "prev-close-bar",
-      "time": "2026-10-01T07:48:24.000Z"
+      "time": "2026-10-01T08:48:47.000Z"
     },
     "^GSPC": {
       "price": 7651.54,
@@ -43,12 +43,12 @@
       "time": "2026-09-30T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 16.6,
+      "price": 16.98,
       "prev": 16.34000015258789,
-      "chg": 1.59,
+      "chg": 3.92,
       "prevDay": "2026-09-30",
       "basis": "prev-close-bar",
-      "time": "2026-10-01T07:33:16.000Z"
+      "time": "2026-10-01T08:33:46.000Z"
     },
     "^TNX": {
       "price": 5.293,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.104
+    "pct": 0.102
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -3.77
     },
     "KRW=X": {
-      "last": 1361.58,
+      "last": 1361.15,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.104,
-      "chg3m": -10.94
+      "pct52": 0.102,
+      "chg3m": -10.96
     },
     "^GSPC": {
       "last": 7651.54,
@@ -101,11 +101,11 @@
       "chg3m": 3.98
     },
     "^VIX": {
-      "last": 16.6,
+      "last": 16.98,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.178,
-      "chg3m": 2.91
+      "pct52": 0.2,
+      "chg3m": 5.27
     },
     "^TNX": {
       "last": 5.29,
@@ -366,69 +366,69 @@
   "news": {
     "kr": [
       {
-        "title": "'마이크론·반도체 수출' 훈풍에 7천피 턱밑…코스닥 4.48% 급등(종합)",
-        "link": "https://www.yna.co.kr/view/AKR20261001150200008",
+        "title": "10월 국채 총발행 계획대비 5조원 축소…\"필요시 더 줄여\"",
+        "link": "https://www.yna.co.kr/view/AKR20261001176300002",
         "source": "연합뉴스",
-        "date": "Thu, 1 Oct 2026 16:11:56 +0900",
+        "date": "Thu, 1 Oct 2026 17:35:46 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "지수 급등은 단기 흐름이며 장기 이익 구조와는 별개입니다.",
+        "why": "국채 발행 조절은 단기 수급 조정으로 기업 이익 구조와는 거리가 멉니다.",
         "by": "ai"
       },
       {
-        "title": "하나증권, 국내 증권사 최초 3억달러 외화 신종자본증권 발행",
-        "link": "https://www.hankyung.com/article/2026100182286",
+        "title": "시장금리 치솟자 초과세수 푼다…이달 국채시장에 5조 투입",
+        "link": "https://www.hankyung.com/article/202610017401i",
         "source": "한국경제",
-        "date": "Thu, 01 Oct 2026 16:13:28 +0900",
+        "date": "Thu, 01 Oct 2026 17:09:21 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
-        "why": "개별 회사의 자본 조달 소식으로 장기 수익성과 직접 연결되진 않습니다.",
+        "scope": "market",
+        "why": "금리 안정용 단기 조치로, 장기 투자 근거를 바꾸는 사안은 아닙니다.",
         "by": "ai"
       },
       {
-        "title": "“HBM은 없어서 못 파는데 주가는 왜?” … 마이크론 최대 실적 뒤 숨은 경고",
-        "link": "https://www.mk.co.kr/news/business/12166215",
+        "title": "'괴물 실적' 예고한 삼전닉스 … 문제는 수급",
+        "link": "https://www.mk.co.kr/news/stock/12166399",
         "source": "매일경제",
-        "date": "Thu, 01 Oct 2026 16:31:20 +09:00",
+        "date": "Thu, 01 Oct 2026 17:41:03 +09:00",
         "act": "watch",
-        "lasting": "temporary",
+        "lasting": "structural",
         "scope": "sector",
-        "why": "실적과 주가 괴리를 지적한 해석이라 업종 흐름만 지켜보면 됩니다.",
+        "why": "실적 흐름은 업종 체력과 연결되지만 수급 이야기는 단기 변수입니다.",
         "by": "ai"
       },
       {
-        "title": "미국 고금리 장기화 우려에…환율 1,350원대 후반으로 상승",
-        "link": "https://www.yna.co.kr/view/AKR20261001150700002",
+        "title": "\"증시 경보, 단계수 줄이고 불건전거래 감시에 집중해야\"",
+        "link": "https://www.yna.co.kr/view/AKR20261001175400008",
         "source": "연합뉴스",
-        "date": "Thu, 1 Oct 2026 16:05:49 +0900",
-        "act": "watch",
+        "date": "Thu, 1 Oct 2026 17:32:04 +0900",
+        "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "환율과 금리는 오르내리는 변수로 지켜보는 정도면 충분합니다.",
+        "why": "시장 제도 개선 논의 단계로 당장 할 일은 없습니다.",
         "by": "ai"
       },
       {
-        "title": "NH투자증권, 첫 단기형 IMA 'N2 IMA1 1호' 사흘 만에 완판",
-        "link": "https://www.hankyung.com/article/2026100182186",
+        "title": "이틀 연속 순매수 1위…연기금 콕 집은 종목",
+        "link": "https://www.hankyung.com/article/202610018087i",
         "source": "한국경제",
-        "date": "Thu, 01 Oct 2026 16:10:30 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "신상품 판매 소식일 뿐 회사의 10년 이익을 바꾸진 않습니다.",
-        "by": "ai"
-      },
-      {
-        "title": "‘찬바람 불면 역시 배당주’ 올해도 통할까…증권가 콕 찍은 종목은",
-        "link": "https://www.mk.co.kr/news/stock/12166187",
-        "source": "매일경제",
-        "date": "Thu, 01 Oct 2026 16:18:16 +09:00",
+        "date": "Thu, 01 Oct 2026 17:05:55 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "계절성 배당 추천 기사로 투자 근거와는 무관합니다.",
+        "why": "특정 주체의 단기 매매 동향일 뿐 기업 가치 변화는 아닙니다.",
+        "by": "ai"
+      },
+      {
+        "title": "\"종투사 리포트 25% … 스몰캡 주식 다뤄라\"",
+        "link": "https://www.mk.co.kr/news/stock/12166398",
+        "source": "매일경제",
+        "date": "Thu, 01 Oct 2026 17:41:03 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "증권사 리서치 관행 제안으로 기업 이익과는 직접 관련이 적습니다.",
         "by": "ai"
       }
     ],
@@ -811,48 +811,6 @@
     "How the ‘AI put’ has become the only thing that matters for stocks": "‘AI PUT’ 이 주식에 중요한 유일한 요소가 된 방법"
   },
   "nvCache": {
-    "https://www.hankyung.com/article/2026083146481": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "장중 지수 등락은 기업의 장기 이익과 무관합니다.",
-      "by": "ai"
-    },
-    "https://www.mk.co.kr/news/stock/12140634": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "수급과 단기 매매 흐름 이야기로 투자 근거와는 별개입니다.",
-      "by": "ai"
-    },
-    "https://www.mk.co.kr/news/stock/12140624": {
-      "act": "watch",
-      "lasting": "structural",
-      "scope": "company",
-      "why": "유상증자는 주식 수가 늘어나는 일이라 지분 가치에 영향을 줍니다.",
-      "by": "ai"
-    },
-    "https://finance.yahoo.com/economy/articles/supply-driven-trucking-market-cycle-003000522.html": {
-      "act": "watch",
-      "lasting": "structural",
-      "scope": "sector",
-      "why": "운송 업종의 공급 사이클 변화는 업황 흐름을 보는 참고 지표입니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20260831167800008": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "상장 심사 신청은 절차 초기 단계로 기존 투자 근거와 무관합니다.",
-      "by": "ai"
-    },
-    "https://www.hankyung.com/article/2026083145881": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "투자 전략을 소개하는 시장 논평이라 오늘 할 일은 없습니다.",
-      "by": "ai"
-    },
     "https://www.yna.co.kr/view/AKR20260831165200008": {
       "act": "watch",
       "lasting": "temporary",
@@ -2910,6 +2868,48 @@
       "scope": "market",
       "why": "계절성 배당 추천 기사로 투자 근거와는 무관합니다.",
       "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261001176300002": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "국채 발행 조절은 단기 수급 조정으로 기업 이익 구조와는 거리가 멉니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/202610017401i": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "금리 안정용 단기 조치로, 장기 투자 근거를 바꾸는 사안은 아닙니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12166399": {
+      "act": "watch",
+      "lasting": "structural",
+      "scope": "sector",
+      "why": "실적 흐름은 업종 체력과 연결되지만 수급 이야기는 단기 변수입니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261001175400008": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "시장 제도 개선 논의 단계로 당장 할 일은 없습니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/202610018087i": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "특정 주체의 단기 매매 동향일 뿐 기업 가치 변화는 아닙니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12166398": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "증권사 리서치 관행 제안으로 기업 이익과는 직접 관련이 적습니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2953,7 +2953,7 @@
       "2026-09-28": 1359.77,
       "2026-09-29": 1352.4,
       "2026-09-30": 1355.56,
-      "2026-10-01": 1361.58
+      "2026-10-01": 1361.15
     },
     "^GSPC": {
       "2026-09-20": 7650.5,
@@ -2995,7 +2995,7 @@
       "2026-09-28": 16.07,
       "2026-09-29": 16.04,
       "2026-09-30": 16.34,
-      "2026-10-01": 16.6
+      "2026-10-01": 16.98
     },
     "^TNX": {
       "2026-09-20": 4.998,
