@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-01T00:02:19.184Z",
+  "asOf": "2026-10-01T00:12:44.688Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-09-30T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1358.48,
+      "price": 1358.63,
       "prev": 1350.5,
-      "chg": 0.59,
+      "chg": 0.6,
       "prevDay": "2026-09-30",
       "basis": "prev-close-bar",
-      "time": "2026-10-01T00:02:06.000Z"
+      "time": "2026-10-01T00:12:31.000Z"
     },
     "^GSPC": {
       "price": 7651.54,
@@ -80,11 +80,11 @@
       "chg3m": -7.69
     },
     "KRW=X": {
-      "last": 1358.48,
+      "last": 1358.63,
       "low52": 1339.17,
       "high52": 1554.48,
       "pct52": 0.09,
-      "chg3m": -11.14
+      "chg3m": -11.13
     },
     "^GSPC": {
       "last": 7651.54,
@@ -366,14 +366,14 @@
   "news": {
     "kr": [
       {
-        "title": "키움증권 \"엠씨넥스 목표가↓…스마트폰 시장 당분간 비우호적\"",
-        "link": "https://www.yna.co.kr/view/AKR20261001027300008",
+        "title": "[속보] 9월 반도체 수출 603억달러…사상 첫 600억달러 돌파",
+        "link": "https://www.yna.co.kr/view/AKR20261001034000003",
         "source": "연합뉴스",
-        "date": "Thu, 1 Oct 2026 08:34:14 +0900",
+        "date": "Thu, 1 Oct 2026 09:00:15 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
-        "why": "증권사 목표가 조정은 단기 전망 변화로 보유 근거를 바꾸지 않습니다.",
+        "scope": "sector",
+        "why": "월간 수출 지표는 경기 흐름일 뿐 구조 변화로 보기 어렵습니다.",
         "by": "ai"
       },
       {
@@ -399,14 +399,14 @@
         "by": "ai"
       },
       {
-        "title": "현대차증권, 고려아연 목표가↓…\"금 약세로 영업익 감소 전망\"",
-        "link": "https://www.yna.co.kr/view/AKR20261001027500008",
+        "title": "키움증권 \"엠씨넥스 목표가↓…스마트폰 시장 당분간 비우호적\"",
+        "link": "https://www.yna.co.kr/view/AKR20261001027300008",
         "source": "연합뉴스",
-        "date": "Thu, 1 Oct 2026 08:32:53 +0900",
+        "date": "Thu, 1 Oct 2026 08:34:14 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
-        "why": "원자재 가격에 따른 실적 전망 조정은 흔히 반복되는 변동입니다.",
+        "why": "증권사 목표가 조정은 단기 전망 변화로 보유 근거를 바꾸지 않습니다.",
         "by": "ai"
       },
       {
@@ -811,13 +811,6 @@
     "How the ‘AI put’ has become the only thing that matters for stocks": "‘AI PUT’ 이 주식에 중요한 유일한 요소가 된 방법"
   },
   "nvCache": {
-    "https://www.yna.co.kr/view/AKR20260831057800008": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "sector",
-      "why": "금리 전망에 따른 장 초반 등락은 일시적 흐름입니다.",
-      "by": "ai"
-    },
     "https://www.yna.co.kr/view/AKR20260831068400008": {
       "act": "none",
       "lasting": "structural",
@@ -2910,6 +2903,13 @@
       "scope": "company",
       "why": "배당 여력에 대한 추정치일 뿐 확정된 정책 변화는 아닙니다.",
       "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261001034000003": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "sector",
+      "why": "월간 수출 지표는 경기 흐름일 뿐 구조 변화로 보기 어렵습니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2953,7 +2953,7 @@
       "2026-09-28": 1359.77,
       "2026-09-29": 1352.4,
       "2026-09-30": 1355.56,
-      "2026-10-01": 1358.48
+      "2026-10-01": 1358.63
     },
     "^GSPC": {
       "2026-09-19": 7650.5,
