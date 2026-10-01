@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-01T22:08:09.627Z",
+  "asOf": "2026-10-01T23:08:37.840Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-01T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1358.91,
-      "prev": 1350.5,
-      "chg": 0.62,
-      "prevDay": "2026-09-30",
+      "price": 1359.3,
+      "prev": 1356.8399658203125,
+      "chg": 0.18,
+      "prevDay": "2026-10-01",
       "basis": "prev-close-bar",
-      "time": "2026-10-01T22:07:43.000Z"
+      "time": "2026-10-01T23:08:26.000Z"
     },
     "^GSPC": {
       "price": 7666.45,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.092
+    "pct": 0.093
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -6.58
     },
     "KRW=X": {
-      "last": 1358.91,
+      "last": 1359.3,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.092,
-      "chg3m": -10.59
+      "pct52": 0.093,
+      "chg3m": -10.56
     },
     "^GSPC": {
       "last": 7666.45,
@@ -366,6 +366,39 @@
   "news": {
     "kr": [
       {
+        "title": "[마켓뷰] 마이크론 호실적에 반등한 코스피, '7천피' 탈환하나",
+        "link": "https://www.yna.co.kr/view/AKR20261002019500008",
+        "source": "연합뉴스",
+        "date": "Fri, 2 Oct 2026 08:02:34 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "해외 실적에 따른 단기 지수 흐름으로 장기 이익과는 무관합니다.",
+        "by": "ai"
+      },
+      {
+        "title": "\"역대급 세일인 줄\" 주식 덥석 샀다간…'날벼락 맞는다' 경고 [분석+]",
+        "link": "https://www.hankyung.com/article/2026100178876",
+        "source": "한국경제",
+        "date": "Fri, 02 Oct 2026 06:30:06 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "주가 등락에 대한 경고성 분석일 뿐 투자 근거를 바꾸지 않습니다.",
+        "by": "ai"
+      },
+      {
+        "title": "“이재용·최태원이 개미 살리러 온다”…300조 실적으로 박스권 뚫나",
+        "link": "https://www.mk.co.kr/news/stock/12166681",
+        "source": "매일경제",
+        "date": "Fri, 02 Oct 2026 05:51:23 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적 기대를 다룬 전망성 기사로 투자 근거를 바꾸진 않습니다.",
+        "by": "ai"
+      },
+      {
         "title": "낙상 미리 감지하는 AI기술…서울시 외국인창업경진대회 대상",
         "link": "https://www.yna.co.kr/view/AKR20261001159700004",
         "source": "연합뉴스",
@@ -385,39 +418,6 @@
         "lasting": "temporary",
         "scope": "market",
         "why": "발행 잔액 증감은 시장 상황에 따라 오르내리는 수치로, 기업 이익 구조와는 거리가 있습니다.",
-        "by": "ai"
-      },
-      {
-        "title": "“이재용·최태원이 개미 살리러 온다”…300조 실적으로 박스권 뚫나",
-        "link": "https://www.mk.co.kr/news/stock/12166681",
-        "source": "매일경제",
-        "date": "Fri, 02 Oct 2026 05:51:23 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적 기대를 다룬 전망성 기사로 투자 근거를 바꾸진 않습니다.",
-        "by": "ai"
-      },
-      {
-        "title": "국내증시 호황에 ELS 상환…상반기 파생결합증권 잔액 소폭 감소",
-        "link": "https://www.yna.co.kr/view/AKR20261001193100002",
-        "source": "연합뉴스",
-        "date": "Fri, 2 Oct 2026 06:00:02 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "sector",
-        "why": "증시 상황에 따른 상환 증가로, 증권업 구조가 바뀐 일은 아닙니다.",
-        "by": "ai"
-      },
-      {
-        "title": "\"美 추가 금리 인상 없을 수도\"…'파격 전망' 나온 이유 [분석+]",
-        "link": "https://www.hankyung.com/article/2026100188347",
-        "source": "한국경제",
-        "date": "Thu, 01 Oct 2026 22:29:06 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "금리 전망은 기관 견해일 뿐 확정된 변화가 아닙니다.",
         "by": "ai"
       },
       {
@@ -811,20 +811,6 @@
     "The hidden silver lining of high interest rates: safer, cheaper retirement income": "높은 이자율의 숨겨진 실버 라이닝: 더 안전하고 저렴한 은퇴 소득"
   },
   "nvCache": {
-    "https://finance.yahoo.com/markets/article/gold-on-pace-for-best-month-since-february-despite-investor-concerns-over-rate-hikes-165315959.html": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "월간 가격 흐름 소식이라 오늘 할 일은 없습니다.",
-      "by": "ai"
-    },
-    "https://www.marketwatch.com/story/the-10-year-treasury-yield-is-breaking-out-and-5-could-be-just-the-beginning-heres-why-that-matters-3906b83e?mod=mw_rss_topstories": {
-      "act": "watch",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "장기금리 전망은 예측일 뿐, 금리 흐름은 오르내리므로 방향만 지켜보면 됩니다.",
-      "by": "ai"
-    },
     "https://finance.yahoo.com/markets/article/fed-chairman-kevin-warsh-warned-about-inflation--but-thats-not-why-long-term-rates-are-surging-chart-of-the-day-173243232.html": {
       "act": "none",
       "lasting": "temporary",
@@ -2910,6 +2896,20 @@
       "scope": "market",
       "why": "금리 환경을 설명하는 해설성 기사로, 보유 근거를 바꿀 내용은 아닙니다.",
       "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261002019500008": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "해외 실적에 따른 단기 지수 흐름으로 장기 이익과는 무관합니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/2026100178876": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "주가 등락에 대한 경고성 분석일 뿐 투자 근거를 바꾸지 않습니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2942,7 +2942,6 @@
       "2026-10-02": 894.29
     },
     "KRW=X": {
-      "2026-09-20": 1384.6,
       "2026-09-21": 1374.99,
       "2026-09-22": 1354.79,
       "2026-09-23": 1365.91,
@@ -2953,7 +2952,8 @@
       "2026-09-28": 1359.77,
       "2026-09-29": 1352.4,
       "2026-09-30": 1355.56,
-      "2026-10-01": 1358.91
+      "2026-10-01": 1358.91,
+      "2026-10-02": 1359.3
     },
     "^GSPC": {
       "2026-09-20": 7650.5,
