@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-01T20:46:31.384Z",
+  "asOf": "2026-10-01T20:56:57.753Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-01T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1358.27,
+      "price": 1358.1,
       "prev": 1350.5,
-      "chg": 0.58,
+      "chg": 0.56,
       "prevDay": "2026-09-30",
       "basis": "prev-close-bar",
-      "time": "2026-10-01T20:46:20.000Z"
+      "time": "2026-10-01T20:56:36.000Z"
     },
     "^GSPC": {
       "price": 7666.45,
@@ -40,7 +40,7 @@
       "chg": 0.04,
       "prevDay": "2026-09-30",
       "basis": "prev-close-bar",
-      "time": "2026-10-01T20:46:20.000Z"
+      "time": "2026-10-01T20:56:46.000Z"
     },
     "^VIX": {
       "price": 16.39,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.089
+    "pct": 0.088
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -6.58
     },
     "KRW=X": {
-      "last": 1358.27,
+      "last": 1358.1,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.089,
-      "chg3m": -10.63
+      "pct52": 0.088,
+      "chg3m": -10.64
     },
     "^GSPC": {
       "last": 7666.45,
@@ -388,14 +388,14 @@
         "by": "ai"
       },
       {
-        "title": "다보링크, 17억원 규모 유상증자 실시",
-        "link": "https://www.mk.co.kr/news/stock/12166416",
+        "title": "“이재용·최태원이 개미 살리러 온다”…300조 실적으로 박스권 뚫나",
+        "link": "https://www.mk.co.kr/news/stock/12166681",
         "source": "매일경제",
-        "date": "Thu, 01 Oct 2026 17:51:15 +09:00",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": "company",
-        "why": "소규모 유상증자는 주식 수가 늘어나는 구조 변화라 자금 용도를 봐야 합니다.",
+        "date": "Fri, 02 Oct 2026 05:51:23 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적 기대를 다룬 전망성 기사로 투자 근거를 바꾸진 않습니다.",
         "by": "ai"
       },
       {
@@ -421,14 +421,14 @@
         "by": "ai"
       },
       {
-        "title": "\"종투사 리포트 25% … 스몰캡 주식 다뤄라\"",
-        "link": "https://www.mk.co.kr/news/stock/12166398",
+        "title": "다보링크, 17억원 규모 유상증자 실시",
+        "link": "https://www.mk.co.kr/news/stock/12166416",
         "source": "매일경제",
-        "date": "Thu, 01 Oct 2026 17:41:03 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "증권사 리서치 관행 제안으로 기업 이익과는 직접 관련이 적습니다.",
+        "date": "Thu, 01 Oct 2026 17:51:15 +09:00",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": "company",
+        "why": "소규모 유상증자는 주식 수가 늘어나는 구조 변화라 자금 용도를 봐야 합니다.",
         "by": "ai"
       }
     ],
@@ -811,13 +811,6 @@
     "Bond yields suddenly retreat from recent highs as buyers step back into the Treasury market": "채권 수익률은 바이어들이 국채 시장으로 물러나면서 최근 고점에서 갑자기 후퇴했다."
   },
   "nvCache": {
-    "https://finance.yahoo.com/markets/crypto/articles/global-liquidity-could-drive-crypto-154300245.html": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "단기 유동성 전망에 대한 전문가 견해일 뿐 기업 이익과는 무관합니다.",
-      "by": "ai"
-    },
     "https://www.marketwatch.com/story/22-best-performing-stocks-of-august-as-the-software-industry-continues-its-recovery-88e432bf?mod=mw_rss_topstories": {
       "act": "none",
       "lasting": "temporary",
@@ -2910,6 +2903,13 @@
       "scope": "market",
       "why": "금리 등락은 늘 있는 일로 기업 10년 이익과는 거리가 멉니다.",
       "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12166681": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "실적 기대를 다룬 전망성 기사로 투자 근거를 바꾸진 않습니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2953,7 +2953,7 @@
       "2026-09-28": 1359.77,
       "2026-09-29": 1352.4,
       "2026-09-30": 1355.56,
-      "2026-10-01": 1358.27
+      "2026-10-01": 1358.1
     },
     "^GSPC": {
       "2026-09-20": 7650.5,
