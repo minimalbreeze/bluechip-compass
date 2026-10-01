@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-01T08:49:12.369Z",
+  "asOf": "2026-10-01T09:50:21.901Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-01T06:33:00.000Z"
     },
     "KRW=X": {
-      "price": 1361.15,
+      "price": 1363.48,
       "prev": 1350.5,
-      "chg": 0.79,
+      "chg": 0.96,
       "prevDay": "2026-09-30",
       "basis": "prev-close-bar",
-      "time": "2026-10-01T08:48:47.000Z"
+      "time": "2026-10-01T09:50:02.000Z"
     },
     "^GSPC": {
       "price": 7651.54,
@@ -43,12 +43,12 @@
       "time": "2026-09-30T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 16.98,
+      "price": 16.52,
       "prev": 16.34000015258789,
-      "chg": 3.92,
+      "chg": 1.1,
       "prevDay": "2026-09-30",
       "basis": "prev-close-bar",
-      "time": "2026-10-01T08:33:46.000Z"
+      "time": "2026-10-01T09:35:01.000Z"
     },
     "^TNX": {
       "price": 5.293,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.102
+    "pct": 0.113
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -3.77
     },
     "KRW=X": {
-      "last": 1361.15,
+      "last": 1363.48,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.102,
-      "chg3m": -10.96
+      "pct52": 0.113,
+      "chg3m": -10.81
     },
     "^GSPC": {
       "last": 7651.54,
@@ -101,11 +101,11 @@
       "chg3m": 3.98
     },
     "^VIX": {
-      "last": 16.98,
+      "last": 16.52,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.2,
-      "chg3m": 5.27
+      "pct52": 0.173,
+      "chg3m": 2.42
     },
     "^TNX": {
       "last": 5.29,
@@ -366,6 +366,39 @@
   "news": {
     "kr": [
       {
+        "title": "대출모집인 전용 서비스 뚫렸다…신한은행 보안 허점 노출(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261001145451002",
+        "source": "연합뉴스",
+        "date": "Thu, 1 Oct 2026 17:53:03 +0900",
+        "act": "watch",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "보안 사고는 신뢰 문제지만 아직 실적 영향은 확인되지 않았습니다.",
+        "by": "ai"
+      },
+      {
+        "title": "마이크론 호실적에…코스피 10월 쾌조의 출발",
+        "link": "https://www.hankyung.com/article/2026100185301",
+        "source": "한국경제",
+        "date": "Thu, 01 Oct 2026 18:30:55 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "해외 실적에 따른 하루 등락으로 장기 이익과는 무관합니다.",
+        "by": "ai"
+      },
+      {
+        "title": "다보링크, 17억원 규모 유상증자 실시",
+        "link": "https://www.mk.co.kr/news/stock/12166416",
+        "source": "매일경제",
+        "date": "Thu, 01 Oct 2026 17:51:15 +09:00",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": "company",
+        "why": "소규모 유상증자는 주식 수가 늘어나는 구조 변화라 자금 용도를 봐야 합니다.",
+        "by": "ai"
+      },
+      {
         "title": "10월 국채 총발행 계획대비 5조원 축소…\"필요시 더 줄여\"",
         "link": "https://www.yna.co.kr/view/AKR20261001176300002",
         "source": "연합뉴스",
@@ -377,47 +410,14 @@
         "by": "ai"
       },
       {
-        "title": "시장금리 치솟자 초과세수 푼다…이달 국채시장에 5조 투입",
-        "link": "https://www.hankyung.com/article/202610017401i",
+        "title": "증권사 중소형주 리서치 확대…年 25% 이상 발행의무 생긴다",
+        "link": "https://www.hankyung.com/article/2026100185251",
         "source": "한국경제",
-        "date": "Thu, 01 Oct 2026 17:09:21 +0900",
+        "date": "Thu, 01 Oct 2026 18:27:54 +0900",
         "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "금리 안정용 단기 조치로, 장기 투자 근거를 바꾸는 사안은 아닙니다.",
-        "by": "ai"
-      },
-      {
-        "title": "'괴물 실적' 예고한 삼전닉스 … 문제는 수급",
-        "link": "https://www.mk.co.kr/news/stock/12166399",
-        "source": "매일경제",
-        "date": "Thu, 01 Oct 2026 17:41:03 +09:00",
-        "act": "watch",
         "lasting": "structural",
         "scope": "sector",
-        "why": "실적 흐름은 업종 체력과 연결되지만 수급 이야기는 단기 변수입니다.",
-        "by": "ai"
-      },
-      {
-        "title": "\"증시 경보, 단계수 줄이고 불건전거래 감시에 집중해야\"",
-        "link": "https://www.yna.co.kr/view/AKR20261001175400008",
-        "source": "연합뉴스",
-        "date": "Thu, 1 Oct 2026 17:32:04 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "시장 제도 개선 논의 단계로 당장 할 일은 없습니다.",
-        "by": "ai"
-      },
-      {
-        "title": "이틀 연속 순매수 1위…연기금 콕 집은 종목",
-        "link": "https://www.hankyung.com/article/202610018087i",
-        "source": "한국경제",
-        "date": "Thu, 01 Oct 2026 17:05:55 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "특정 주체의 단기 매매 동향일 뿐 기업 가치 변화는 아닙니다.",
+        "why": "리서치 의무 확대는 업종 제도 변화지만 당장 할 일은 없습니다.",
         "by": "ai"
       },
       {
@@ -446,15 +446,15 @@
         "by": "ai"
       },
       {
-        "title": "‘I have $400,000 in equity’: I’m 80. Should I sell my house because of dangerous stairs — or spend thousands renovating?",
-        "link": "https://www.marketwatch.com/story/i-have-a-low-interest-rate-im-80-years-old-should-i-move-out-of-my-house-because-of-dangerous-stairs-389c3c7b?mod=mw_rss_topstories",
+        "title": "France’s bond market is stumbling. Should Americans care?",
+        "link": "https://www.marketwatch.com/story/frances-bond-market-is-stumbling-should-americans-care-202ea2af?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Thu, 01 Oct 2026 00:20:00 GMT",
-        "ko": "‘$400,000의 자기자본이 있습니다.’: 저는 80세입니다. 위험한 계단 때문에 집을 팔아야 합니까, 아니면 수천 개의 리노베이션 비용을 지출해야 합니까?",
-        "act": "none",
+        "date": "Thu, 01 Oct 2026 09:39:00 GMT",
+        "ko": "프랑스의 채권 시장은 비틀거리고 있습니다. 미국인들이 관심을 가져야 할까요?",
+        "act": "watch",
         "lasting": "temporary",
         "scope": "market",
-        "why": "개인 재무 상담 성격의 기사로 기업 이익과 관련이 없습니다.",
+        "why": "해외 국채 변동은 시장 분위기에 영향을 줄 수 있어 흐름만 지켜보면 됩니다.",
         "by": "ai"
       },
       {
@@ -482,15 +482,15 @@
         "by": "ai"
       },
       {
-        "title": "The 15 worst-performing S&P 500 stocks during a dismal September",
-        "link": "https://www.marketwatch.com/story/the-15-worst-performing-s-p-500-stocks-during-a-dismal-september-991f8a07?mod=mw_rss_topstories",
+        "title": "My wife never went back to work after raising our kids. Do I have to share my retirement savings 50/50?",
+        "link": "https://www.marketwatch.com/story/my-wife-never-went-back-to-work-after-raising-our-kids-do-i-have-to-share-my-retirement-savings-50-50-f0727f82?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Wed, 30 Sep 2026 21:22:00 GMT",
-        "ko": "암울한 9월 동안 최악의 S&P 500 주식 15개",
+        "date": "Thu, 01 Oct 2026 09:15:00 GMT",
+        "ko": "제 아내는 아이들을 키운 후 다시는 일하러 가지 않았습니다. 은퇴 저축액을 50/50으로 나눠야 하나요?",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "한 달 주가 등락 정리 기사라 장기 이익과는 무관합니다.",
+        "why": "개인 재무 상담 성격의 기사로 기업 이익과는 무관합니다.",
         "by": "ai"
       },
       {
@@ -509,8 +509,6 @@
   },
   "newsBy": "ai",
   "trCache": {
-    "Joby Aviation Stock Is Down 54% This Year. Here's Why I'd Buy It Before 2027.": "Joby Aviation의 재고는 올해 54% 감소했습니다. 2027년 이전에 구매하는 이유는 다음과 같습니다.",
-    "Jim Cramer sends strong signal to Apple stock investors": "짐 크레이머 (Jim Cramer) 가 애플 주식 투자자들에게 강력한 신호를 보낸다.",
     "Dow Jones Futures Due: Can The Market Take Flight? Robinhood, Sandisk, AMD, Moderna Surge Into Buy Areas": "다우 존스 선물 만기일: 시장이 날아갈 수 있습니까? Robinhood, Sandisk, AMD, Moderna 구매 지역으로의 서지",
     "Can Your Retirement Plan Stand Up to Inflation? These 2 Tweaks Might Help.": "은퇴 플랜이 인플레이션에 맞설 수 있습니까? 이 두 가지 트윅이 도움이 될 수 있습니다.",
     "UK inflation jumps to 3.1% as energy costs soar": "에너지 비용이 급증함에 따라 영국 인플레이션은 3.1% 로 뛰어오릅니다.",
@@ -808,51 +806,11 @@
     "This chart shows that buying and holding stocks beats ‘sell in May and go away’ and other gimmicks": "이 차트는 주식 매수 및 보유가 ‘5월에 팔고 사라지다’ 및 기타 기믹을 능가한다는 것을 보여줍니다.",
     "These bond strategies can help you get a safe 5% return on your cash": "이러한 채권 전략은 현금으로 안전하게 5% 수익을 올리는 데 도움이 될 수 있습니다.",
     "The 15 worst-performing S&P 500 stocks during a dismal September": "암울한 9월 동안 최악의 S&P 500 주식 15개",
-    "How the ‘AI put’ has become the only thing that matters for stocks": "‘AI PUT’ 이 주식에 중요한 유일한 요소가 된 방법"
+    "How the ‘AI put’ has become the only thing that matters for stocks": "‘AI PUT’ 이 주식에 중요한 유일한 요소가 된 방법",
+    "France’s bond market is stumbling. Should Americans care?": "프랑스의 채권 시장은 비틀거리고 있습니다. 미국인들이 관심을 가져야 할까요?",
+    "My wife never went back to work after raising our kids. Do I have to share my retirement savings 50/50?": "제 아내는 아이들을 키운 후 다시는 일하러 가지 않았습니다. 은퇴 저축액을 50/50으로 나눠야 하나요?"
   },
   "nvCache": {
-    "https://www.yna.co.kr/view/AKR20260831165200008": {
-      "act": "watch",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "소규모 3자배정 증자는 자금 사정과 지분 희석을 지켜볼 사안입니다.",
-      "by": "ai"
-    },
-    "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-monday-august-31-2026-lock-in-up-to-430-apy-100000028.html": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "예금 금리 안내성 정보로 기업 이익과 무관합니다.",
-      "by": "ai"
-    },
-    "https://finance.yahoo.com/personal-finance/banking/article/best-high-yield-savings-interest-rates-today-monday-august-31-2026-earn-up-to-415-apy-100000500.html": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "저축 금리 소개 기사로 투자 근거에 영향이 없습니다.",
-      "by": "ai"
-    },
-    "https://finance.yahoo.com/economy/articles/love-inflation-trump-shrugs-off-103500495.html": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "물가 관련 발언과 일반적 대응 안내로, 기업 이익을 바꾸는 내용은 아닙니다.",
-      "by": "ai"
-    },
-    "https://finance.yahoo.com/markets/live/stock-market-today-monday-august-31-dow-sp-500-nasdaq-113851714.html": {
-      "act": "watch",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "지정학 충격은 대체로 일시적이며, 기업 이익 구조를 바꾼다고 보기 어렵습니다.",
-      "by": "ai"
-    },
-    "https://www.marketwatch.com/story/fed-up-with-bitcoin-thats-exactly-why-you-should-buy-da852499?mod=mw_rss_topstories": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "매수를 권하는 의견성 기사로 기업 이익과 무관합니다.",
-      "by": "ai"
-    },
     "https://finance.yahoo.com/personal-finance/investing/article/silver-prices-today-monday-august-31-2026-silver-opens-lower-as-rate-hike-expectations-rise-125201881.html": {
       "act": "none",
       "lasting": "temporary",
@@ -2910,6 +2868,48 @@
       "scope": "market",
       "why": "증권사 리서치 관행 제안으로 기업 이익과는 직접 관련이 적습니다.",
       "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261001145451002": {
+      "act": "watch",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "보안 사고는 신뢰 문제지만 아직 실적 영향은 확인되지 않았습니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/2026100185301": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "해외 실적에 따른 하루 등락으로 장기 이익과는 무관합니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12166416": {
+      "act": "watch",
+      "lasting": "structural",
+      "scope": "company",
+      "why": "소규모 유상증자는 주식 수가 늘어나는 구조 변화라 자금 용도를 봐야 합니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/2026100185251": {
+      "act": "none",
+      "lasting": "structural",
+      "scope": "sector",
+      "why": "리서치 의무 확대는 업종 제도 변화지만 당장 할 일은 없습니다.",
+      "by": "ai"
+    },
+    "https://www.marketwatch.com/story/frances-bond-market-is-stumbling-should-americans-care-202ea2af?mod=mw_rss_topstories": {
+      "act": "watch",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "해외 국채 변동은 시장 분위기에 영향을 줄 수 있어 흐름만 지켜보면 됩니다.",
+      "by": "ai"
+    },
+    "https://www.marketwatch.com/story/my-wife-never-went-back-to-work-after-raising-our-kids-do-i-have-to-share-my-retirement-savings-50-50-f0727f82?mod=mw_rss_topstories": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "개인 재무 상담 성격의 기사로 기업 이익과는 무관합니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2953,7 +2953,7 @@
       "2026-09-28": 1359.77,
       "2026-09-29": 1352.4,
       "2026-09-30": 1355.56,
-      "2026-10-01": 1361.15
+      "2026-10-01": 1363.48
     },
     "^GSPC": {
       "2026-09-20": 7650.5,
@@ -2995,7 +2995,7 @@
       "2026-09-28": 16.07,
       "2026-09-29": 16.04,
       "2026-09-30": 16.34,
-      "2026-10-01": 16.98
+      "2026-10-01": 16.52
     },
     "^TNX": {
       "2026-09-20": 4.998,
