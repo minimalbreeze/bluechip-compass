@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-02T09:49:57.373Z",
+  "asOf": "2026-10-02T10:50:28.081Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-02T06:32:50.000Z"
     },
     "KRW=X": {
-      "price": 1347.28,
+      "price": 1349,
       "prev": 1356.8399658203125,
-      "chg": -0.7,
+      "chg": -0.58,
       "prevDay": "2026-10-01",
       "basis": "prev-close-bar",
-      "time": "2026-10-02T09:49:41.000Z"
+      "time": "2026-10-02T10:50:10.000Z"
     },
     "^GSPC": {
       "price": 7666.45,
@@ -43,12 +43,12 @@
       "time": "2026-10-01T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 15.95,
+      "price": 15.97,
       "prev": 16.389999389648438,
-      "chg": -2.68,
+      "chg": -2.56,
       "prevDay": "2026-10-01",
       "basis": "prev-close-bar",
-      "time": "2026-10-02T09:34:46.000Z"
+      "time": "2026-10-02T10:35:01.000Z"
     },
     "^TNX": {
       "price": 5.237,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.038
+    "pct": 0.046
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": 3.07
     },
     "KRW=X": {
-      "last": 1347.28,
+      "last": 1349,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.038,
-      "chg3m": -11.35
+      "pct52": 0.046,
+      "chg3m": -11.24
     },
     "^GSPC": {
       "last": 7666.45,
@@ -101,11 +101,11 @@
       "chg3m": 2.87
     },
     "^VIX": {
-      "last": 15.95,
+      "last": 15.97,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.141,
-      "chg3m": -5.62
+      "pct52": 0.142,
+      "chg3m": -5.5
     },
     "^TNX": {
       "last": 5.24,
@@ -366,29 +366,51 @@
   "news": {
     "kr": [
       {
-        "title": "한국투자증권, SK 주식 4천억원어치 취득…지분율 0.9%",
-        "link": "https://www.yna.co.kr/view/AKR20261002151600008",
+        "title": "신한은행에 '중국어 AI 침투' 흔적…해킹 공포 금융권 확산(종합2보)",
+        "link": "https://www.yna.co.kr/view/AKR20261002042352017",
         "source": "연합뉴스",
-        "date": "Fri, 2 Oct 2026 17:23:09 +0900",
-        "act": "none",
+        "date": "Fri, 2 Oct 2026 19:27:41 +0900",
+        "act": "watch",
         "lasting": "temporary",
-        "scope": "company",
-        "why": "지분 1% 미만 취득으로 사업 구조가 달라지는 일은 아닙니다.",
+        "scope": "sector",
+        "why": "금융권 보안 사고 우려는 지켜볼 일이나 아직 실적 영향은 불확실합니다.",
         "by": "ai"
       },
       {
-        "title": "반도체 소부장의 힘…코스닥, 다시 900 넘본다",
-        "link": "https://www.hankyung.com/article/2026100209561",
+        "title": "증시 3일만 열리지만…'빅 이벤트' 이어진다 [다음주 변수 미리보기]",
+        "link": "https://www.hankyung.com/article/202610021125i",
         "source": "한국경제",
-        "date": "Fri, 02 Oct 2026 17:34:00 +0900",
+        "date": "Fri, 02 Oct 2026 18:43:40 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "지수 등락은 매일 생기는 일로, 보유 이유와는 무관합니다.",
+        "why": "다음주 일정 안내성 기사로 투자 근거와는 무관합니다.",
         "by": "ai"
       },
       {
-        "title": "삼성전자 자사주 매입 막바지… 시장 관심은 8일에 나올 실적",
+        "title": "한앤코, SK해운 IPO카드 만지작…대형 증권사 제안받아",
+        "link": "https://www.mk.co.kr/news/stock/12167510",
+        "source": "매일경제",
+        "date": "Fri, 02 Oct 2026 19:42:43 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "상장 검토 단계 소식이라 확정된 변화로 보기 어렵습니다.",
+        "by": "ai"
+      },
+      {
+        "title": "반도체 무관한 신세계·달바는 9개월째 순매수",
+        "link": "https://www.hankyung.com/article/2026100210381",
+        "source": "한국경제",
+        "date": "Fri, 02 Oct 2026 18:04:50 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "수급 흐름을 소개한 기사로 기업 이익과는 직접 관련이 적습니다.",
+        "by": "ai"
+      },
+      {
+        "title": "삼성전자 자사주 매입 막바지 … 시장 관심은 8일에 나올 실적",
         "link": "https://www.mk.co.kr/news/stock/12167446",
         "source": "매일경제",
         "date": "Fri, 02 Oct 2026 17:38:33 +09:00",
@@ -399,36 +421,14 @@
         "by": "ai"
       },
       {
-        "title": "한미일 상장된 메모리 반도체 투자 ETF, 7일 상장",
-        "link": "https://www.yna.co.kr/view/AKR20261002147400008",
-        "source": "연합뉴스",
-        "date": "Fri, 2 Oct 2026 17:04:15 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "sector",
-        "why": "새 상품 상장일 뿐 업종의 이익 구조가 바뀌는 소식은 아닙니다.",
-        "by": "ai"
-      },
-      {
-        "title": "'코스닥 승강제' 연기…내년 하반기 도입할 듯",
-        "link": "https://www.hankyung.com/article/2026100209581",
+        "title": "\"7천피서 꼼짝 못하네\"…증시 발목 잡힌 이유 있었다",
+        "link": "https://www.hankyung.com/article/2026100210371",
         "source": "한국경제",
-        "date": "Fri, 02 Oct 2026 17:31:59 +0900",
-        "act": "watch",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "제도 도입이 미뤄진 단계라 실제 시행 내용만 지켜보면 됩니다.",
-        "by": "ai"
-      },
-      {
-        "title": "금리·유가 부담 버텨낸 코스피…5거래일 만에 ‘7천피’ 회복",
-        "link": "https://www.mk.co.kr/news/stock/12167274",
-        "source": "매일경제",
-        "date": "Fri, 02 Oct 2026 16:33:53 +09:00",
+        "date": "Fri, 02 Oct 2026 17:52:03 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "지수 회복은 하루 단위 등락일 뿐 기업 이익과 무관합니다.",
+        "why": "지수 등락 해설은 사후 설명일 뿐 장기 판단 근거가 되기 어렵습니다.",
         "by": "ai"
       }
     ],
@@ -446,15 +446,15 @@
         "by": "ai"
       },
       {
-        "title": "‘I have $400,000 in equity’: I’m 80. Should I sell my house because of dangerous stairs — or spend thousands renovating?",
-        "link": "https://www.marketwatch.com/story/i-have-a-low-interest-rate-im-80-years-old-should-i-move-out-of-my-house-because-of-dangerous-stairs-389c3c7b?mod=mw_rss_topstories",
+        "title": "Here’s the bond-market alternative as U.S. and other developed markets debt deteriorate",
+        "link": "https://www.marketwatch.com/story/heres-the-bond-market-alternative-as-u-s-and-other-developed-markets-debt-deteriorate-e3d57b02?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Fri, 02 Oct 2026 01:00:00 GMT",
-        "ko": "‘$400,000의 자기자본이 있습니다.’: 저는 80세입니다. 위험한 계단 때문에 집을 팔아야 합니까, 아니면 수천 개의 리노베이션 비용을 지출해야 합니까?",
-        "act": "none",
-        "lasting": "temporary",
+        "date": "Fri, 02 Oct 2026 10:25:00 GMT",
+        "ko": "다음은 미국 및 기타 선진국 시장의 부채가 악화됨에 따라 채권 시장의 대안입니다.",
+        "act": "watch",
+        "lasting": "structural",
         "scope": "market",
-        "why": "개인 재무 상담 성격의 기사로 기업 이익과 관련이 없습니다.",
+        "why": "선진국 부채 흐름은 장기 금리 환경과 얽혀 천천히 지켜볼 사안입니다.",
         "by": "ai"
       },
       {
@@ -482,15 +482,15 @@
         "by": "ai"
       },
       {
-        "title": "My wife never went back to work after raising our kids. Do I have to share my retirement savings 50/50?",
-        "link": "https://www.marketwatch.com/story/my-wife-never-went-back-to-work-after-raising-our-kids-do-i-have-to-share-my-retirement-savings-50-50-f0727f82?mod=mw_rss_topstories",
+        "title": "Brazil is holding an election — and for the stock market, there’s more to gain than to lose, says fund manager",
+        "link": "https://www.marketwatch.com/story/brazil-is-holding-an-election-and-for-the-stock-market-theres-more-to-gain-than-to-lose-says-fund-manager-fa29f26e?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Fri, 02 Oct 2026 00:15:00 GMT",
-        "ko": "제 아내는 아이들을 키운 후 다시는 일하러 가지 않았습니다. 은퇴 저축액을 50/50으로 나눠야 하나요?",
+        "date": "Fri, 02 Oct 2026 10:22:00 GMT",
+        "ko": "브라질은 선거를 치르고 있으며 주식 시장의 경우 잃는 것보다 얻는 것이 더 많다고 펀드 매니저는 말합니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "개인 재무 상담 성격의 기사로 기업 이익과는 무관합니다.",
+        "why": "특정 국가 선거에 대한 운용사 전망으로 오늘 할 일은 없습니다.",
         "by": "ai"
       },
       {
@@ -509,8 +509,6 @@
   },
   "newsBy": "ai",
   "trCache": {
-    "Stock market today: Dow, S&P 500, Nasdaq futures rise as oil falls, anticipation builds for Trump-Xi summit": "오늘의 주식 시장: 다우, S&P 500, 나스닥 선물은 원유 하락에 따라 상승, 트럼프-Xi 정상 회담에 대한 기대감 형성",
-    "Corporate earnings are growing much faster than the economy. What Goldman strategists say about bubble concerns.": "기업 수익은 경제보다 훨씬 빠르게 성장하고 있습니다. 골드만 전략가들이 말하는 거품 문제.",
     "‘Bull crap’: Why Dave Ramsey says moving to conservative bond investments in old age is mathematically stupid": "‘불 크랩’: 데이브 램지가 노년기에 보수적인 채권 투자로 전환하는 것이 수학적으로 어리석다고 말하는 이유",
     "Why one Warren Buffett–inspired fund manager is betting big on Chinese stocks": "워렌 버핏의 영향을 받은 펀드 매니저가 중국 주식에 큰 베팅을 하는 이유",
     "Novo Nordisk’s stock tumbles as doubts persist about Ozempic maker’s goals for 2030": "2030년 Ozempic 메이커의 목표에 대한 의구심이 계속되면서 Novo Nordisk의 재고가 바닥을 치고 있습니다.",
@@ -808,58 +806,11 @@
     "Republicans sabotaged their own bill to prevent people in Congress from trading stocks. Why?": "공화당은 의회의 사람들이 주식을 거래하는 것을 막기 위해 자신의 법안을 방해했다. 왜?",
     "The hidden silver lining of high interest rates: safer, cheaper retirement income": "높은 이자율의 숨겨진 실버 라이닝: 더 안전하고 저렴한 은퇴 소득",
     "This could be the worst year ever for Nike’s stock, with sales set to fall further": "올해는 나이키 주식 사상 최악의 해가 될 수 있으며, 매출은 더 떨어질 것으로 예상됩니다.",
-    "Here’s who’s joining the S&P 500 in the index’s latest shakeup": "다음은 S&P 500 지수에 합류한 사람입니다."
+    "Here’s who’s joining the S&P 500 in the index’s latest shakeup": "다음은 S&P 500 지수에 합류한 사람입니다.",
+    "Here’s the bond-market alternative as U.S. and other developed markets debt deteriorate": "다음은 미국 및 기타 선진국 시장의 부채가 악화됨에 따라 채권 시장의 대안입니다.",
+    "Brazil is holding an election — and for the stock market, there’s more to gain than to lose, says fund manager": "브라질은 선거를 치르고 있으며 주식 시장의 경우 잃는 것보다 얻는 것이 더 많다고 펀드 매니저는 말합니다."
   },
   "nvCache": {
-    "https://www.hankyung.com/article/202609289829i": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "단기 주가 급등과 매수 시점을 다룬 기사로 오늘 할 일은 없습니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20260929080500056": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "sector",
-      "why": "특정 지역의 반기 소비 통계로, 장기 이익 구조를 바꾸는 내용은 아닙니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20260929042551008": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "금리에 따른 일상적인 지수 등락으로, 오늘 할 일은 없습니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20260929084500030": {
-      "act": "watch",
-      "lasting": "structural",
-      "scope": "sector",
-      "why": "방문객은 늘어도 1인당 소비가 줄면 업종 수익 구조가 달라질 수 있어 흐름만 지켜보면 됩니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20260929089100008": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "금리는 매일 오르내리는 시장 지표라 장기 투자 근거와는 거리가 멉니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20260929038600530": {
-      "act": "none",
-      "lasting": "structural",
-      "scope": "market",
-      "why": "기업 지배구조 통계로, 당장 이익을 바꾸는 사안은 아닙니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20260929069700002": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "sector",
-      "why": "업황 호조를 보여주는 경기 지표로, 이미 알려진 흐름입니다.",
-      "by": "ai"
-    },
     "https://www.yna.co.kr/view/AKR20260929091000008": {
       "act": "none",
       "lasting": "structural",
@@ -2910,6 +2861,55 @@
       "scope": "market",
       "why": "제도 도입이 미뤄진 단계라 실제 시행 내용만 지켜보면 됩니다.",
       "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261002042352017": {
+      "act": "watch",
+      "lasting": "temporary",
+      "scope": "sector",
+      "why": "금융권 보안 사고 우려는 지켜볼 일이나 아직 실적 영향은 불확실합니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/202610021125i": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "다음주 일정 안내성 기사로 투자 근거와는 무관합니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12167510": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "상장 검토 단계 소식이라 확정된 변화로 보기 어렵습니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/2026100210381": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "수급 흐름을 소개한 기사로 기업 이익과는 직접 관련이 적습니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/2026100210371": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "지수 등락 해설은 사후 설명일 뿐 장기 판단 근거가 되기 어렵습니다.",
+      "by": "ai"
+    },
+    "https://www.marketwatch.com/story/heres-the-bond-market-alternative-as-u-s-and-other-developed-markets-debt-deteriorate-e3d57b02?mod=mw_rss_topstories": {
+      "act": "watch",
+      "lasting": "structural",
+      "scope": "market",
+      "why": "선진국 부채 흐름은 장기 금리 환경과 얽혀 천천히 지켜볼 사안입니다.",
+      "by": "ai"
+    },
+    "https://www.marketwatch.com/story/brazil-is-holding-an-election-and-for-the-stock-market-theres-more-to-gain-than-to-lose-says-fund-manager-fa29f26e?mod=mw_rss_topstories": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "특정 국가 선거에 대한 운용사 전망으로 오늘 할 일은 없습니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2953,7 +2953,7 @@
       "2026-09-29": 1352.4,
       "2026-09-30": 1355.56,
       "2026-10-01": 1358.91,
-      "2026-10-02": 1347.28
+      "2026-10-02": 1349
     },
     "^GSPC": {
       "2026-09-21": 7764.7,
@@ -2995,7 +2995,7 @@
       "2026-09-29": 16.04,
       "2026-09-30": 16.34,
       "2026-10-01": 16.39,
-      "2026-10-02": 15.95
+      "2026-10-02": 15.97
     },
     "^TNX": {
       "2026-09-21": 4.963,
