@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-02T11:50:54.808Z",
+  "asOf": "2026-10-02T12:51:22.704Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-02T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1347.08,
+      "price": 1344.94,
       "prev": 1356.8399658203125,
-      "chg": -0.72,
+      "chg": -0.88,
       "prevDay": "2026-10-01",
       "basis": "prev-close-bar",
-      "time": "2026-10-02T11:50:33.000Z"
+      "time": "2026-10-02T12:51:09.000Z"
     },
     "^GSPC": {
       "price": 7666.45,
@@ -43,26 +43,26 @@
       "time": "2026-10-01T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 15.99,
+      "price": 15.6,
       "prev": 16.389999389648438,
-      "chg": -2.44,
+      "chg": -4.82,
       "prevDay": "2026-10-01",
       "basis": "prev-close-bar",
-      "time": "2026-10-02T11:35:31.000Z"
+      "time": "2026-10-02T12:36:01.000Z"
     },
     "^TNX": {
-      "price": 5.237,
+      "price": 5.174,
       "prev": 5.236999988555908,
-      "chg": 0,
+      "chg": -1.2,
       "prevDay": "2026-10-01",
       "basis": "prev-close-bar",
-      "time": "2026-10-01T18:59:54.000Z"
+      "time": "2026-10-02T12:36:05.000Z"
     }
   },
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.037
+    "pct": 0.027
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": 3.07
     },
     "KRW=X": {
-      "last": 1347.08,
+      "last": 1344.94,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.037,
-      "chg3m": -11.37
+      "pct52": 0.027,
+      "chg3m": -11.51
     },
     "^GSPC": {
       "last": 7666.45,
@@ -101,18 +101,18 @@
       "chg3m": 2.87
     },
     "^VIX": {
-      "last": 15.99,
+      "last": 15.6,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.143,
-      "chg3m": -5.38
+      "pct52": 0.121,
+      "chg3m": -7.69
     },
     "^TNX": {
-      "last": 5.24,
+      "last": 5.17,
       "low52": 3.95,
       "high52": 5.29,
-      "pct52": 0.958,
-      "chg3m": 16.92
+      "pct52": 0.911,
+      "chg3m": 14.24
     }
   },
   "regime": {
@@ -377,6 +377,28 @@
         "by": "ai"
       },
       {
+        "title": "\"일본은 되고 한국은 안 되고?\"…외국인 77조 쓸어담았다",
+        "link": "https://www.hankyung.com/article/2026100210391",
+        "source": "한국경제",
+        "date": "Fri, 02 Oct 2026 20:00:06 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "외국인 수급은 오가는 흐름이라 기업 이익을 바꾸지 않습니다.",
+        "by": "ai"
+      },
+      {
+        "title": "“HBM은 없어서 못 파는데 주가는 왜?”…마이크론 최대 실적 뒤 숨은 경고 [플러스 관심종목]",
+        "link": "https://www.mk.co.kr/news/stock/12167540",
+        "source": "매일경제",
+        "date": "Fri, 02 Oct 2026 21:03:50 +09:00",
+        "act": "watch",
+        "lasting": "temporary",
+        "scope": "sector",
+        "why": "실적은 좋지만 업종 가격 흐름 차이는 제목만으로 판단하기 어렵습니다.",
+        "by": "ai"
+      },
+      {
         "title": "증시 3일만 열리지만…'빅 이벤트' 이어진다 [다음주 변수 미리보기]",
         "link": "https://www.hankyung.com/article/202610021125i",
         "source": "한국경제",
@@ -408,28 +430,6 @@
         "scope": "market",
         "why": "수급 흐름을 소개한 기사로 기업 이익과는 직접 관련이 적습니다.",
         "by": "ai"
-      },
-      {
-        "title": "삼성전자 자사주 매입 막바지 … 시장 관심은 8일에 나올 실적",
-        "link": "https://www.mk.co.kr/news/stock/12167446",
-        "source": "매일경제",
-        "date": "Fri, 02 Oct 2026 17:38:33 +09:00",
-        "act": "watch",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "실적은 아직 공개 전이라, 숫자가 나온 뒤 확인해도 늦지 않습니다.",
-        "by": "ai"
-      },
-      {
-        "title": "\"7천피서 꼼짝 못하네\"…증시 발목 잡힌 이유 있었다",
-        "link": "https://www.hankyung.com/article/2026100210371",
-        "source": "한국경제",
-        "date": "Fri, 02 Oct 2026 17:52:03 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "지수 등락 해설은 사후 설명일 뿐 장기 판단 근거가 되기 어렵습니다.",
-        "by": "ai"
       }
     ],
     "us": [
@@ -446,15 +446,15 @@
         "by": "ai"
       },
       {
-        "title": "The stock market is anything but normal right now — and these charts show it",
-        "link": "https://www.marketwatch.com/story/the-stock-market-is-anything-but-normal-right-now-and-these-charts-show-it-91ea187d?mod=mw_rss_topstories",
+        "title": "Nike’s stock heads for its worst year ever as the company’s troubles mount",
+        "link": "https://www.marketwatch.com/story/nikes-troubles-are-mounting-and-sales-could-fall-further-2c19699d?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Fri, 02 Oct 2026 11:48:00 GMT",
-        "ko": "지금 주식 시장은 평범합니다. 그리고 이 차트는 그것을 보여줍니다.",
-        "act": "none",
+        "date": "Fri, 02 Oct 2026 12:50:00 GMT",
+        "ko": "나이키의 주식은 회사의 문제가 불거지면서 사상 최악의 해를 맞이합니다.",
+        "act": "watch",
         "lasting": "temporary",
-        "scope": "market",
-        "why": "시장 분위기를 설명하는 해설로 기업 이익과는 무관합니다.",
+        "scope": "company",
+        "why": "실적 부진 전망이지만 구조적 경쟁력 훼손 여부는 제목만으론 알기 어렵습니다.",
         "by": "ai"
       },
       {
@@ -485,7 +485,7 @@
         "title": "Three reasons this Wall Street market-making powerhouse says investors should reload on stocks right now",
         "link": "https://www.marketwatch.com/story/three-reasons-why-this-wall-street-market-making-powerhouse-says-investors-should-reload-on-stocks-now-8e19ecce?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Fri, 02 Oct 2026 10:48:00 GMT",
+        "date": "Fri, 02 Oct 2026 12:36:00 GMT",
         "ko": "이 월스트리트 시장 조성 강국이 투자자들이 지금 당장 주식에 재장전해야 한다고 말하는 세 가지 이유",
         "act": "none",
         "lasting": "temporary",
@@ -509,7 +509,6 @@
   },
   "newsBy": "ai",
   "trCache": {
-    "Why one Warren Buffett–inspired fund manager is betting big on Chinese stocks": "워렌 버핏의 영향을 받은 펀드 매니저가 중국 주식에 큰 베팅을 하는 이유",
     "Novo Nordisk’s stock tumbles as doubts persist about Ozempic maker’s goals for 2030": "2030년 Ozempic 메이커의 목표에 대한 의구심이 계속되면서 Novo Nordisk의 재고가 바닥을 치고 있습니다.",
     "Tariffs, fuel costs, and rising rates squeeze U.S. manufacturers": "관세, 연료비 및 상승률은 미국 제조업체를 압박합니다.",
     "Tokenized Equities and AI Disruption Threaten Broadridge Financial Solutions’ (BR) Market Share": "토큰화된 주식 및 AI 혼란, 브로드리지 파이낸셜 솔루션의 시장 점유율 위협",
@@ -808,23 +807,10 @@
     "Here’s who’s joining the S&P 500 in the index’s latest shakeup": "다음은 S&P 500 지수에 합류한 사람입니다.",
     "Here’s the bond-market alternative as U.S. and other developed markets debt deteriorate": "다음은 미국 및 기타 선진국 시장의 부채가 악화됨에 따라 채권 시장의 대안입니다.",
     "Brazil is holding an election — and for the stock market, there’s more to gain than to lose, says fund manager": "브라질은 선거를 치르고 있으며 주식 시장의 경우 잃는 것보다 얻는 것이 더 많다고 펀드 매니저는 말합니다.",
-    "Three reasons this Wall Street market-making powerhouse says investors should reload on stocks right now": "이 월스트리트 시장 조성 강국이 투자자들이 지금 당장 주식에 재장전해야 한다고 말하는 세 가지 이유"
+    "Three reasons this Wall Street market-making powerhouse says investors should reload on stocks right now": "이 월스트리트 시장 조성 강국이 투자자들이 지금 당장 주식에 재장전해야 한다고 말하는 세 가지 이유",
+    "Nike’s stock heads for its worst year ever as the company’s troubles mount": "나이키의 주식은 회사의 문제가 불거지면서 사상 최악의 해를 맞이합니다."
   },
   "nvCache": {
-    "https://www.hankyung.com/article/202609288641i": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "sector",
-      "why": "전문가 투자법 소개일 뿐 업종 실적을 바꾸는 사실은 없습니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20260929094400008": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "무상증자는 주식 수만 늘 뿐 회사 이익 자체는 그대로입니다.",
-      "by": "ai"
-    },
     "https://www.mk.co.kr/news/stock/12163558": {
       "act": "watch",
       "lasting": "structural",
@@ -2910,6 +2896,20 @@
       "scope": "market",
       "why": "특정 기관의 시황 전망일 뿐 기업 이익 구조와는 무관합니다.",
       "by": "ai"
+    },
+    "https://www.hankyung.com/article/2026100210391": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "외국인 수급은 오가는 흐름이라 기업 이익을 바꾸지 않습니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12167540": {
+      "act": "watch",
+      "lasting": "temporary",
+      "scope": "sector",
+      "why": "실적은 좋지만 업종 가격 흐름 차이는 제목만으로 판단하기 어렵습니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2953,7 +2953,7 @@
       "2026-09-29": 1352.4,
       "2026-09-30": 1355.56,
       "2026-10-01": 1358.91,
-      "2026-10-02": 1347.08
+      "2026-10-02": 1344.94
     },
     "^GSPC": {
       "2026-09-21": 7764.7,
@@ -2995,7 +2995,7 @@
       "2026-09-29": 16.04,
       "2026-09-30": 16.34,
       "2026-10-01": 16.39,
-      "2026-10-02": 15.99
+      "2026-10-02": 15.6
     },
     "^TNX": {
       "2026-09-21": 4.963,
@@ -3009,7 +3009,7 @@
       "2026-09-29": 5.255,
       "2026-09-30": 5.293,
       "2026-10-01": 5.237,
-      "2026-10-02": 5.237
+      "2026-10-02": 5.174
     },
     "105560.KS": {
       "2026-09-21": 177500,
