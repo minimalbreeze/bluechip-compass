@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-02T00:02:12.685Z",
+  "asOf": "2026-10-02T00:12:43.910Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-01T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1360.78,
+      "price": 1362.38,
       "prev": 1356.8399658203125,
-      "chg": 0.29,
+      "chg": 0.41,
       "prevDay": "2026-10-01",
       "basis": "prev-close-bar",
-      "time": "2026-10-02T00:01:45.000Z"
+      "time": "2026-10-02T00:12:26.000Z"
     },
     "^GSPC": {
       "price": 7666.45,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.1
+    "pct": 0.108
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -6.58
     },
     "KRW=X": {
-      "last": 1360.78,
+      "last": 1362.38,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.1,
-      "chg3m": -10.47
+      "pct52": 0.108,
+      "chg3m": -10.36
     },
     "^GSPC": {
       "last": 7666.45,
@@ -366,14 +366,14 @@
   "news": {
     "kr": [
       {
-        "title": "키움증권 \"대미투자 수혜 가장 클 국내 건설주는 현대건설\"",
-        "link": "https://www.yna.co.kr/view/AKR20261002026800008",
+        "title": "[속보] 코스닥, 장중 900선 회복…0.67% 오른 900.32",
+        "link": "https://www.yna.co.kr/view/AKR20261002034300008",
         "source": "연합뉴스",
-        "date": "Fri, 2 Oct 2026 08:47:37 +0900",
+        "date": "Fri, 2 Oct 2026 09:03:17 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
-        "why": "증권사 수혜 전망일 뿐 실제 이익 변화는 확인되지 않았습니다.",
+        "scope": "market",
+        "why": "지수의 장중 등락은 일시적 움직임으로 장기 투자 근거와 무관합니다.",
         "by": "ai"
       },
       {
@@ -399,14 +399,14 @@
         "by": "ai"
       },
       {
-        "title": "삼성증권, 스튜디오드래곤 목표가↓…\"제작 줄어도 수익성 개선\"",
-        "link": "https://www.yna.co.kr/view/AKR20261002027800008",
+        "title": "키움증권 \"대미투자 수혜 가장 클 국내 건설주는 현대건설\"",
+        "link": "https://www.yna.co.kr/view/AKR20261002026800008",
         "source": "연합뉴스",
-        "date": "Fri, 2 Oct 2026 08:41:28 +0900",
+        "date": "Fri, 2 Oct 2026 08:47:37 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
-        "why": "목표가 조정은 애널리스트 의견 변화일 뿐입니다.",
+        "why": "증권사 수혜 전망일 뿐 실제 이익 변화는 확인되지 않았습니다.",
         "by": "ai"
       },
       {
@@ -442,7 +442,7 @@
         "act": "watch",
         "lasting": "temporary",
         "scope": "market",
-        "why": "금리 흐름은 시장 전체에 영향을 주지만 방향은 수시로 바뀌니 흐름만 확인하세요.",
+        "why": "금리 흐름은 시장 전반에 영향을 주지만 수시로 변하는 변수라 지켜보면 됩니다.",
         "by": "ai"
       },
       {
@@ -811,20 +811,6 @@
     "Here’s who’s joining the S&P 500 in the index’s latest shakeup": "다음은 S&P 500 지수에 합류한 사람입니다."
   },
   "nvCache": {
-    "https://www.marketwatch.com/story/the-history-of-this-market-bad-breadth-signal-points-to-ominous-risks-ahead-ad77e065?mod=mw_rss_topstories": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "과거 패턴에 기댄 시장 전망이라 오늘 할 일은 없습니다.",
-      "by": "ai"
-    },
-    "https://finance.yahoo.com/technology/ai/articles/little-known-ai-chip-stock-042916921.html": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "개별 기업의 신제품·주가 급등 소식으로 장기 이익 변화는 아직 알 수 없습니다.",
-      "by": "ai"
-    },
     "https://www.cnbc.com/2026/09/24/swiss-national-bank-interest-rates-inflation.html": {
       "act": "none",
       "lasting": "temporary",
@@ -2910,6 +2896,20 @@
       "scope": "market",
       "why": "지수 편입 소식은 단기 수급 이슈로 장기 이익과는 무관합니다.",
       "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261002034300008": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "지수의 장중 등락은 일시적 움직임으로 장기 투자 근거와 무관합니다.",
+      "by": "ai"
+    },
+    "https://www.cnbc.com/2026/09/24/surging-treasury-yields-are-posing-a-brand-new-problem-for-kevin-warsh-and-the-fed.html": {
+      "act": "watch",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "금리 흐름은 시장 전반에 영향을 주지만 수시로 변하는 변수라 지켜보면 됩니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2953,7 +2953,7 @@
       "2026-09-29": 1352.4,
       "2026-09-30": 1355.56,
       "2026-10-01": 1358.91,
-      "2026-10-02": 1360.78
+      "2026-10-02": 1362.38
     },
     "^GSPC": {
       "2026-09-20": 7650.5,
