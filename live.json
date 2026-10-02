@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-02T07:48:58.688Z",
+  "asOf": "2026-10-02T08:49:34.576Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-02T06:32:50.000Z"
     },
     "KRW=X": {
-      "price": 1347.98,
+      "price": 1347.14,
       "prev": 1356.8399658203125,
-      "chg": -0.65,
+      "chg": -0.71,
       "prevDay": "2026-10-01",
       "basis": "prev-close-bar",
-      "time": "2026-10-02T07:48:38.000Z"
+      "time": "2026-10-02T08:49:13.000Z"
     },
     "^GSPC": {
       "price": 7666.45,
@@ -32,7 +32,7 @@
       "chg": 0,
       "prevDay": "2026-10-01",
       "basis": "prev-close-bar",
-      "time": "2026-10-01T20:00:00.000Z"
+      "time": "2026-10-01T20:35:37.000Z"
     },
     "^IXIC": {
       "price": 26871.596,
@@ -43,12 +43,12 @@
       "time": "2026-10-01T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 16.21,
+      "price": 16.02,
       "prev": 16.389999389648438,
-      "chg": -1.1,
+      "chg": -2.26,
       "prevDay": "2026-10-01",
       "basis": "prev-close-bar",
-      "time": "2026-10-02T07:33:31.000Z"
+      "time": "2026-10-02T08:34:16.000Z"
     },
     "^TNX": {
       "price": 5.237,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.041
+    "pct": 0.037
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": 3.07
     },
     "KRW=X": {
-      "last": 1347.98,
+      "last": 1347.14,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.041,
-      "chg3m": -11.31
+      "pct52": 0.037,
+      "chg3m": -11.36
     },
     "^GSPC": {
       "last": 7666.45,
@@ -101,11 +101,11 @@
       "chg3m": 2.87
     },
     "^VIX": {
-      "last": 16.21,
+      "last": 16.02,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.156,
-      "chg3m": -4.08
+      "pct52": 0.145,
+      "chg3m": -5.21
     },
     "^TNX": {
       "last": 5.24,
@@ -366,25 +366,58 @@
   "news": {
     "kr": [
       {
-        "title": "국고채 금리 일제히 하락…3년물 연 3.937%",
-        "link": "https://www.yna.co.kr/view/AKR20261002143000008",
+        "title": "한국투자증권, SK 주식 4천억원어치 취득…지분율 0.9%",
+        "link": "https://www.yna.co.kr/view/AKR20261002151600008",
         "source": "연합뉴스",
-        "date": "Fri, 2 Oct 2026 16:43:42 +0900",
+        "date": "Fri, 2 Oct 2026 17:23:09 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
-        "why": "금리 등락은 일상적인 시장 흐름이라 오늘 할 일은 없습니다.",
+        "scope": "company",
+        "why": "지분 1% 미만 취득으로 사업 구조가 달라지는 일은 아닙니다.",
         "by": "ai"
       },
       {
-        "title": "'배당주 넘어 성장주로'...통신주, 9년 만 주파수 경매 기대에 강세",
-        "link": "https://www.hankyung.com/article/202610020321i",
+        "title": "반도체 소부장의 힘…코스닥, 다시 900 넘본다",
+        "link": "https://www.hankyung.com/article/2026100209561",
         "source": "한국경제",
-        "date": "Fri, 02 Oct 2026 16:29:49 +0900",
+        "date": "Fri, 02 Oct 2026 17:34:00 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "지수 등락은 매일 생기는 일로, 보유 이유와는 무관합니다.",
+        "by": "ai"
+      },
+      {
+        "title": "삼성전자 자사주 매입 막바지… 시장 관심은 8일에 나올 실적",
+        "link": "https://www.mk.co.kr/news/stock/12167446",
+        "source": "매일경제",
+        "date": "Fri, 02 Oct 2026 17:38:33 +09:00",
         "act": "watch",
-        "lasting": "structural",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "실적은 아직 공개 전이라, 숫자가 나온 뒤 확인해도 늦지 않습니다.",
+        "by": "ai"
+      },
+      {
+        "title": "한미일 상장된 메모리 반도체 투자 ETF, 7일 상장",
+        "link": "https://www.yna.co.kr/view/AKR20261002147400008",
+        "source": "연합뉴스",
+        "date": "Fri, 2 Oct 2026 17:04:15 +0900",
+        "act": "none",
+        "lasting": "temporary",
         "scope": "sector",
-        "why": "주파수 배분은 업종의 장기 비용과 경쟁 구조에 닿는 사안입니다.",
+        "why": "새 상품 상장일 뿐 업종의 이익 구조가 바뀌는 소식은 아닙니다.",
+        "by": "ai"
+      },
+      {
+        "title": "'코스닥 승강제' 연기…내년 하반기 도입할 듯",
+        "link": "https://www.hankyung.com/article/2026100209581",
+        "source": "한국경제",
+        "date": "Fri, 02 Oct 2026 17:31:59 +0900",
+        "act": "watch",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "제도 도입이 미뤄진 단계라 실제 시행 내용만 지켜보면 됩니다.",
         "by": "ai"
       },
       {
@@ -396,39 +429,6 @@
         "lasting": "temporary",
         "scope": "market",
         "why": "지수 회복은 하루 단위 등락일 뿐 기업 이익과 무관합니다.",
-        "by": "ai"
-      },
-      {
-        "title": "KS인더스트리, 40억원 유상증자…이메디슨에 제3자배정",
-        "link": "https://www.yna.co.kr/view/AKR20261002138800008",
-        "source": "연합뉴스",
-        "date": "Fri, 2 Oct 2026 16:26:32 +0900",
-        "act": "watch",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "제3자배정 증자는 지분 희석과 자금 용처를 확인할 사안입니다.",
-        "by": "ai"
-      },
-      {
-        "title": "코스피, 강보합으로 7000선 회복…코스닥은 약보합 마감",
-        "link": "https://www.hankyung.com/article/2026100205346",
-        "source": "한국경제",
-        "date": "Fri, 02 Oct 2026 15:38:06 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "지수 마감 시황은 10년 뒤 이익과 연결되지 않습니다.",
-        "by": "ai"
-      },
-      {
-        "title": "[단독]키움증권, 대형 증권사 중 소비자원 민원 최다",
-        "link": "https://www.mk.co.kr/news/economy/12167253",
-        "source": "매일경제",
-        "date": "Fri, 02 Oct 2026 16:21:26 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "민원 건수만으로는 실적이나 투자 근거의 변화를 알기 어렵습니다.",
         "by": "ai"
       }
     ],
@@ -811,41 +811,6 @@
     "Here’s who’s joining the S&P 500 in the index’s latest shakeup": "다음은 S&P 500 지수에 합류한 사람입니다."
   },
   "nvCache": {
-    "https://www.yna.co.kr/view/AKR20260929055600003": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "특화단지 참여 소식만으로는 실제 투자 규모와 이익 영향을 알기 어렵습니다.",
-      "by": "ai"
-    },
-    "https://www.mk.co.kr/news/stock/12163468": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "일부 투자자의 단기 매매 동향일 뿐 기업 실적과는 무관합니다.",
-      "by": "ai"
-    },
-    "https://www.hankyung.com/article/2026092910646": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "상장 첫날 급등은 수급에 따른 단기 변동으로, 기업 이익과는 무관합니다.",
-      "by": "ai"
-    },
-    "https://www.hankyung.com/article/202609291453i": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "특정 투자자의 하루 매매 동향일 뿐 기업 이익과 무관합니다.",
-      "by": "ai"
-    },
-    "https://www.hankyung.com/article/202609291448i": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "배당락 전후의 단기 주가 흐름 해설이라 장기 근거와 상관이 적습니다.",
-      "by": "ai"
-    },
     "https://www.hankyung.com/article/202609289829i": {
       "act": "none",
       "lasting": "temporary",
@@ -2910,6 +2875,41 @@
       "scope": "company",
       "why": "민원 건수만으로는 실적이나 투자 근거의 변화를 알기 어렵습니다.",
       "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261002151600008": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "지분 1% 미만 취득으로 사업 구조가 달라지는 일은 아닙니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/2026100209561": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "지수 등락은 매일 생기는 일로, 보유 이유와는 무관합니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12167446": {
+      "act": "watch",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "실적은 아직 공개 전이라, 숫자가 나온 뒤 확인해도 늦지 않습니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261002147400008": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "sector",
+      "why": "새 상품 상장일 뿐 업종의 이익 구조가 바뀌는 소식은 아닙니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/2026100209581": {
+      "act": "watch",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "제도 도입이 미뤄진 단계라 실제 시행 내용만 지켜보면 됩니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2953,7 +2953,7 @@
       "2026-09-29": 1352.4,
       "2026-09-30": 1355.56,
       "2026-10-01": 1358.91,
-      "2026-10-02": 1347.98
+      "2026-10-02": 1347.14
     },
     "^GSPC": {
       "2026-09-21": 7764.7,
@@ -2995,7 +2995,7 @@
       "2026-09-29": 16.04,
       "2026-09-30": 16.34,
       "2026-10-01": 16.39,
-      "2026-10-02": 16.21
+      "2026-10-02": 16.02
     },
     "^TNX": {
       "2026-09-21": 4.963,
