@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-03T21:10:46.784Z",
+  "asOf": "2026-10-03T22:11:18.279Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -366,14 +366,14 @@
   "news": {
     "kr": [
       {
-        "title": "[마켓인사이트] 삼전 실적발표 앞둔 韓증시…'7천피' 지켜낼까",
-        "link": "https://www.yna.co.kr/view/AKR20261003023000008",
+        "title": "민간아파트 부정청약 적발 5년간 1천699건…83%가 위장전입",
+        "link": "https://www.yna.co.kr/view/AKR20261004004000003",
         "source": "연합뉴스",
-        "date": "Sun, 4 Oct 2026 06:00:05 +0900",
+        "date": "Sun, 4 Oct 2026 07:03:00 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
-        "why": "실적 발표 앞둔 지수 전망 기사로 장기 수익성과는 무관합니다.",
+        "scope": "sector",
+        "why": "청약 적발 통계로 기업 이익 구조와는 거리가 멉니다.",
         "by": "ai"
       },
       {
@@ -399,14 +399,14 @@
         "by": "ai"
       },
       {
-        "title": "4대금융 3분기도 최대실적 전망…차기 은행장 선임 영향은",
-        "link": "https://www.yna.co.kr/view/AKR20261003032300002",
+        "title": "반도체 설비투자 확대로 공급 확대? \"내후년 하반기는 돼야\"",
+        "link": "https://www.yna.co.kr/view/AKR20261002179200008",
         "source": "연합뉴스",
-        "date": "Sun, 4 Oct 2026 05:53:00 +0900",
-        "act": "none",
+        "date": "Sun, 4 Oct 2026 06:25:01 +0900",
+        "act": "watch",
         "lasting": "temporary",
         "scope": "sector",
-        "why": "분기 실적 전망과 인사 이슈는 10년 이익 구조를 바꾸지 않습니다.",
+        "why": "공급 확대 시점 전망은 업황 사이클 이야기라 지켜보면 됩니다.",
         "by": "ai"
       },
       {
@@ -811,20 +811,6 @@
     "A tough job market is pushing more young Americans to make a big bet: on themselves": "어려운 취업 시장은 더 많은 젊은 미국인들이 큰 내기를하도록 밀어 붙이고 있습니다."
   },
   "nvCache": {
-    "https://www.marketwatch.com/story/before-you-invest-in-the-oura-ipo-understand-what-youre-buying-1d88d868?mod=mw_rss_topstories": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "상장 예정 기업에 대한 분석 의견일 뿐, 보유 종목의 근거를 바꾸는 내용은 아닙니다.",
-      "by": "ai"
-    },
-    "https://www.marketwatch.com/story/junk-bonds-are-heading-for-worst-month-since-2022-after-punishing-global-selloff-12b70a3e?mod=mw_rss_topstories": {
-      "act": "watch",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "신용시장 위험 선호가 식는 신호지만, 월간 변동은 대개 일시적입니다.",
-      "by": "ai"
-    },
     "https://www.marketwatch.com/story/job-openings-are-low-and-hiring-is-weak-why-the-u-s-labor-market-wont-get-better-soon-18292734?mod=mw_rss_topstories": {
       "act": "none",
       "lasting": "temporary",
@@ -2909,6 +2895,20 @@
       "lasting": "temporary",
       "scope": "sector",
       "why": "분기 실적 전망과 인사 이슈는 10년 이익 구조를 바꾸지 않습니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261004004000003": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "sector",
+      "why": "청약 적발 통계로 기업 이익 구조와는 거리가 멉니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261002179200008": {
+      "act": "watch",
+      "lasting": "temporary",
+      "scope": "sector",
+      "why": "공급 확대 시점 전망은 업황 사이클 이야기라 지켜보면 됩니다.",
       "by": "ai"
     }
   },
