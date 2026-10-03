@@ -1,21 +1,21 @@
 {
-  "asOf": "2026-10-03T01:03:51.417Z",
+  "asOf": "2026-10-03T02:04:19.349Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
       "price": 7003.74,
-      "prev": 7003.74,
+      "prev": 7003.740234375,
       "chg": 0,
       "prevDay": "2026-10-02",
-      "basis": "prev-close-memo",
+      "basis": "prev-close-bar",
       "time": "2026-10-02T11:05:40.000Z"
     },
     "^KQ11": {
       "price": 893.29,
-      "prev": 893.29,
+      "prev": 893.2899780273438,
       "chg": 0,
       "prevDay": "2026-10-02",
-      "basis": "prev-close-memo",
+      "basis": "prev-close-bar",
       "time": "2026-10-02T11:05:40.000Z"
     },
     "KRW=X": {
@@ -66,18 +66,18 @@
   },
   "hist": {
     "^KS11": {
-      "last": 6971.35,
+      "last": 7003.74,
       "low52": 3549.21,
       "high52": 9114.55,
-      "pct52": 0.615,
-      "chg3m": -16.04
+      "pct52": 0.621,
+      "chg3m": -8.42
     },
     "^KQ11": {
-      "last": 894.29,
+      "last": 893.29,
       "low52": 644.78,
       "high52": 1226.18,
-      "pct52": 0.429,
-      "chg3m": -3.77
+      "pct52": 0.427,
+      "chg3m": 3.07
     },
     "KRW=X": {
       "last": 1342.51,
@@ -366,18 +366,18 @@
   "news": {
     "kr": [
       {
-        "title": "전남광주, 투자·펀드 기능 한데 묶는다…투자 기관 설립 추진",
-        "link": "https://www.yna.co.kr/view/AKR20261002064300054",
+        "title": "[마이더스] 주식투자, 법인이 항상 유리하다?",
+        "link": "https://www.yna.co.kr/view/AKR20261002136300980",
         "source": "연합뉴스",
-        "date": "Sat, 3 Oct 2026 09:00:07 +0900",
+        "date": "Sat, 3 Oct 2026 10:30:21 +0900",
         "act": "none",
-        "lasting": "structural",
+        "lasting": "temporary",
         "scope": "market",
-        "why": "지역 투자기관 설립 추진 단계라 당장 기업 이익과는 거리가 멉니다.",
+        "why": "투자 방식 일반론 소개로 기업 이익과 무관합니다.",
         "by": "ai"
       },
       {
-        "title": "하루에만 10% 오른 정유주...증권사들은 \"내년 실적도 예상 웃돌 것\"",
+        "title": "하루에만 10% 오른 정유주…증권사들 \"내년 실적도 예상 웃돌 것\"",
         "link": "https://www.hankyung.com/article/202610031573i",
         "source": "한국경제",
         "date": "Sat, 03 Oct 2026 09:31:58 +0900",
@@ -388,25 +388,25 @@
         "by": "ai"
       },
       {
-        "title": "“손절 엄두 안 나서 가지고 있었는데”…코스닥, 반도체 소부장 타고 랠리",
-        "link": "https://www.mk.co.kr/news/stock/12167670",
+        "title": "“이번엔 30조원 풀린다”…특별배당 앞두고 관심 몰린 삼성전자 [빅데이터로 본 재테크]",
+        "link": "https://www.mk.co.kr/news/stock/12167737",
         "source": "매일경제",
-        "date": "Sat, 03 Oct 2026 06:15:27 +09:00",
+        "date": "Sat, 03 Oct 2026 10:38:59 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": "sector",
-        "why": "지수 등락 보도일 뿐 투자 근거를 바꾸진 않습니다.",
+        "scope": "company",
+        "why": "배당 기대는 일회성 이벤트로 장기 이익 구조를 바꾸지 않습니다.",
         "by": "ai"
       },
       {
-        "title": "[머니플로우] 금리 고공행진에 CD·채권 관련 ETF 인기 '쑥'",
-        "link": "https://www.yna.co.kr/view/AKR20261002136000008",
+        "title": "전남광주, 투자·펀드 기능 한데 묶는다…투자 기관 설립 추진",
+        "link": "https://www.yna.co.kr/view/AKR20261002064300054",
         "source": "연합뉴스",
-        "date": "Sat, 3 Oct 2026 08:00:06 +0900",
+        "date": "Sat, 3 Oct 2026 09:00:07 +0900",
         "act": "none",
-        "lasting": "temporary",
+        "lasting": "structural",
         "scope": "market",
-        "why": "금리 국면에 따른 자금 이동은 수시로 바뀌는 흐름입니다.",
+        "why": "지역 투자기관 설립 추진 단계라 당장 기업 이익과는 거리가 멉니다.",
         "by": "ai"
       },
       {
@@ -421,14 +421,14 @@
         "by": "ai"
       },
       {
-        "title": "“HBM은 없어서 못 파는데 주가는 왜?”…마이크론 최대 실적 뒤 숨은 경고 [플러스 관심종목]",
-        "link": "https://www.mk.co.kr/news/stock/12167540",
+        "title": "나스닥 1%, 美반도체지수 2% 상승…연휴 뒤 韓증시도 따라 웃을까",
+        "link": "https://www.mk.co.kr/news/stock/12167729",
         "source": "매일경제",
-        "date": "Fri, 02 Oct 2026 21:03:50 +09:00",
-        "act": "watch",
+        "date": "Sat, 03 Oct 2026 10:05:07 +09:00",
+        "act": "none",
         "lasting": "temporary",
-        "scope": "sector",
-        "why": "실적은 좋지만 업종 가격 흐름 차이는 제목만으로 판단하기 어렵습니다.",
+        "scope": "market",
+        "why": "해외 지수 등락에 따른 단기 기대일 뿐입니다.",
         "by": "ai"
       }
     ],
@@ -811,27 +811,6 @@
     "Falling wages, soaring energy prices and inflation: It’s beginning to look a lot like the 1970s": "임금 하락, 에너지 가격 및 인플레이션 급등: 1970년대와 많이 닮아 가기 시작함"
   },
   "nvCache": {
-    "https://www.yna.co.kr/view/AKR20260929162800008": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "소규모 자금 조달로, 장기 수익 구조를 바꾸는 사안으로 보기는 어렵습니다.",
-      "by": "ai"
-    },
-    "https://www.hankyung.com/article/2026092927901": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "최대주주 변경 기대에 따른 단기 급등으로, 실적 변화는 아직 확인되지 않았습니다.",
-      "by": "ai"
-    },
-    "https://www.mk.co.kr/news/stock/12164083": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "검색 순위일 뿐 기업 가치나 이익에 대한 정보는 담겨 있지 않습니다.",
-      "by": "ai"
-    },
     "https://www.hankyung.com/article/2026092927501": {
       "act": "none",
       "lasting": "temporary",
@@ -2909,6 +2888,27 @@
       "lasting": "temporary",
       "scope": "sector",
       "why": "목표주가는 증권사 전망일 뿐, 기업의 10년 뒤 이익을 바꾸는 사실은 아닙니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261002136300980": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "투자 방식 일반론 소개로 기업 이익과 무관합니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12167737": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "배당 기대는 일회성 이벤트로 장기 이익 구조를 바꾸지 않습니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12167729": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "해외 지수 등락에 따른 단기 기대일 뿐입니다.",
       "by": "ai"
     }
   },
