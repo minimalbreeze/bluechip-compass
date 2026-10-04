@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-04T21:22:20.461Z",
+  "asOf": "2026-10-04T22:22:52.418Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-02T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1343.34,
+      "price": 1342.9,
       "prev": 1342.51,
-      "chg": 0.06,
+      "chg": 0.03,
       "prevDay": "2026-10-03",
       "basis": "prev-close-memo",
-      "time": "2026-10-04T21:01:16.000Z"
+      "time": "2026-10-04T22:03:49.000Z"
     },
     "^GSPC": {
       "price": 7722.72,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.019
+    "pct": 0.017
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": 3.07
     },
     "KRW=X": {
-      "last": 1343.34,
+      "last": 1342.9,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.019,
-      "chg3m": -10.64
+      "pct52": 0.017,
+      "chg3m": -10.67
     },
     "^GSPC": {
       "last": 7722.72,
@@ -366,14 +366,14 @@
   "news": {
     "kr": [
       {
-        "title": "[인터뷰] 앱토스 CEO \"미래 금융은 '온체인 경제'…韓서 기관 협업 기대\"",
-        "link": "https://www.yna.co.kr/view/AKR20261003000500002",
+        "title": "\"aT 인수 농산물 비축기지 6곳, 6년간 순손실 121억원\"",
+        "link": "https://www.yna.co.kr/view/AKR20261003020700030",
         "source": "연합뉴스",
-        "date": "Mon, 5 Oct 2026 06:01:01 +0900",
+        "date": "Mon, 5 Oct 2026 07:00:01 +0900",
         "act": "none",
-        "lasting": "structural",
+        "lasting": "temporary",
         "scope": "sector",
-        "why": "블록체인 금융 전망 인터뷰로, 당장 기업 이익이 바뀌지는 않습니다.",
+        "why": "공공기관 비축시설 손익 소식으로 상장기업 장기 이익과는 거리가 멉니다.",
         "by": "ai"
       },
       {
@@ -399,14 +399,14 @@
         "by": "ai"
       },
       {
-        "title": "\"상장폐지 요건 강화 이후 주식병합·감자 등 급증\"",
-        "link": "https://www.yna.co.kr/view/AKR20261003025500008",
+        "title": "코스닥 지난달 최악 수익률은 제약…금리·반도체 쏠림에 직격탄",
+        "link": "https://www.yna.co.kr/view/AKR20261003033300008",
         "source": "연합뉴스",
-        "date": "Mon, 5 Oct 2026 06:00:09 +0900",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": "market",
-        "why": "상장 유지 기준 강화는 시장 구조 변화라 흐름만 지켜보면 됩니다.",
+        "date": "Mon, 5 Oct 2026 06:20:01 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "sector",
+        "why": "한 달 수익률 비교일 뿐 업종의 사업 구조가 바뀐 신호는 아닙니다.",
         "by": "ai"
       },
       {
@@ -811,20 +811,6 @@
     "October can be a scary month for stocks. Here’s what investors need to watch this year.": "10월은 주식에 있어 무서운 달이 될 수 있습니다. 올해 투자자들이 주목해야 할 사항은 다음과 같습니다."
   },
   "nvCache": {
-    "https://www.yna.co.kr/view/AKR20260930041500003": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "개별 수주 소식으로 장기 이익 구조를 바꾸는 사건은 아닙니다.",
-      "by": "ai"
-    },
-    "https://www.mk.co.kr/news/stock/12164425": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "주가 상승과 기대감 위주 보도라 투자 근거와는 무관합니다.",
-      "by": "ai"
-    },
     "https://www.yna.co.kr/view/AKR20260930038300008": {
       "act": "none",
       "lasting": "temporary",
@@ -2910,6 +2896,20 @@
       "scope": "market",
       "why": "상장 유지 기준 강화는 시장 구조 변화라 흐름만 지켜보면 됩니다.",
       "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261003020700030": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "sector",
+      "why": "공공기관 비축시설 손익 소식으로 상장기업 장기 이익과는 거리가 멉니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261003033300008": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "sector",
+      "why": "한 달 수익률 비교일 뿐 업종의 사업 구조가 바뀐 신호는 아닙니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2953,7 +2953,7 @@
       "2026-10-01": 1358.91,
       "2026-10-02": 1342.51,
       "2026-10-03": 1342.51,
-      "2026-10-04": 1343.34
+      "2026-10-04": 1342.9
     },
     "^GSPC": {
       "2026-09-23": 7706.03,
