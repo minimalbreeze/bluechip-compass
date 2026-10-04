@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-04T22:22:52.418Z",
+  "asOf": "2026-10-04T23:23:22.500Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-02T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1342.9,
-      "prev": 1342.51,
-      "chg": 0.03,
-      "prevDay": "2026-10-03",
+      "price": 1342.89,
+      "prev": 1342.9,
+      "chg": 0,
+      "prevDay": "2026-10-04",
       "basis": "prev-close-memo",
-      "time": "2026-10-04T22:03:49.000Z"
+      "time": "2026-10-04T23:06:17.000Z"
     },
     "^GSPC": {
       "price": 7722.72,
@@ -80,7 +80,7 @@
       "chg3m": 3.07
     },
     "KRW=X": {
-      "last": 1342.9,
+      "last": 1342.89,
       "low52": 1339.17,
       "high52": 1554.48,
       "pct52": 0.017,
@@ -366,6 +366,39 @@
   "news": {
     "kr": [
       {
+        "title": "[통합시 100일] ③ '800조 반도체' 유치…초광역 산업생태계 구축",
+        "link": "https://www.yna.co.kr/view/AKR20261001175700054",
+        "source": "연합뉴스",
+        "date": "Mon, 5 Oct 2026 08:00:11 +0900",
+        "act": "none",
+        "lasting": "structural",
+        "scope": "sector",
+        "why": "지역 산업단지 조성은 장기 과제로, 오늘 당장 확인할 변화는 없습니다.",
+        "by": "ai"
+      },
+      {
+        "title": "\"'약속의 8일', 증시 충격 주의\"…23兆 ETF 확 바뀐다, 무슨 일?",
+        "link": "https://www.hankyung.com/article/202610020399i",
+        "source": "한국경제",
+        "date": "Mon, 05 Oct 2026 08:00:10 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "지수·ETF 구성 변경에 따른 수급 변동은 대체로 일시적입니다.",
+        "by": "ai"
+      },
+      {
+        "title": "부실기업 증시퇴출, 작년보다 두배 급증",
+        "link": "https://www.mk.co.kr/news/stock/12168228",
+        "source": "매일경제",
+        "date": "Sun, 04 Oct 2026 23:28:00 +09:00",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": "market",
+        "why": "퇴출 심사가 엄격해지는 흐름일 수 있어 재무 건전성은 꾸준히 살펴볼 대목입니다.",
+        "by": "ai"
+      },
+      {
         "title": "\"aT 인수 농산물 비축기지 6곳, 6년간 순손실 121억원\"",
         "link": "https://www.yna.co.kr/view/AKR20261003020700030",
         "source": "연합뉴스",
@@ -385,39 +418,6 @@
         "lasting": "structural",
         "scope": "market",
         "why": "상장폐지 기준을 둘러싼 법원 판단은 시장 제도 자체에 영향을 줄 수 있어 흐름만 지켜보면 됩니다.",
-        "by": "ai"
-      },
-      {
-        "title": "부실기업 증시퇴출, 작년보다 두배 급증",
-        "link": "https://www.mk.co.kr/news/stock/12168228",
-        "source": "매일경제",
-        "date": "Sun, 04 Oct 2026 23:28:00 +09:00",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": "market",
-        "why": "퇴출 심사가 엄격해지는 흐름일 수 있어 재무 건전성은 꾸준히 살펴볼 대목입니다.",
-        "by": "ai"
-      },
-      {
-        "title": "코스닥 지난달 최악 수익률은 제약…금리·반도체 쏠림에 직격탄",
-        "link": "https://www.yna.co.kr/view/AKR20261003033300008",
-        "source": "연합뉴스",
-        "date": "Mon, 5 Oct 2026 06:20:01 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "sector",
-        "why": "한 달 수익률 비교일 뿐 업종의 사업 구조가 바뀐 신호는 아닙니다.",
-        "by": "ai"
-      },
-      {
-        "title": "美 중간선거 결과가 국내 증시 미칠 영향은?...시나리오별 분석",
-        "link": "https://www.hankyung.com/article/202610042610i",
-        "source": "한국경제",
-        "date": "Sun, 04 Oct 2026 17:34:13 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "선거 영향 시나리오 전망이라 기업 이익과 직접 연결되지 않습니다.",
         "by": "ai"
       },
       {
@@ -811,20 +811,6 @@
     "October can be a scary month for stocks. Here’s what investors need to watch this year.": "10월은 주식에 있어 무서운 달이 될 수 있습니다. 올해 투자자들이 주목해야 할 사항은 다음과 같습니다."
   },
   "nvCache": {
-    "https://www.yna.co.kr/view/AKR20260930038300008": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "하루 지수 등락은 장기 보유자에게 의미가 크지 않습니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20260930042000062": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "지역 행정 공시로 기업 이익과 직접 관련이 적습니다.",
-      "by": "ai"
-    },
     "https://www.yna.co.kr/view/AKR20260930042500008": {
       "act": "none",
       "lasting": "temporary",
@@ -2910,6 +2896,20 @@
       "scope": "sector",
       "why": "한 달 수익률 비교일 뿐 업종의 사업 구조가 바뀐 신호는 아닙니다.",
       "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261001175700054": {
+      "act": "none",
+      "lasting": "structural",
+      "scope": "sector",
+      "why": "지역 산업단지 조성은 장기 과제로, 오늘 당장 확인할 변화는 없습니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/202610020399i": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "지수·ETF 구성 변경에 따른 수급 변동은 대체로 일시적입니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2942,7 +2942,6 @@
       "2026-10-05": 893.29
     },
     "KRW=X": {
-      "2026-09-23": 1365.91,
       "2026-09-24": 1365.23,
       "2026-09-25": 1355.28,
       "2026-09-26": 1354.4,
@@ -2953,7 +2952,8 @@
       "2026-10-01": 1358.91,
       "2026-10-02": 1342.51,
       "2026-10-03": 1342.51,
-      "2026-10-04": 1342.9
+      "2026-10-04": 1342.9,
+      "2026-10-05": 1342.89
     },
     "^GSPC": {
       "2026-09-23": 7706.03,
