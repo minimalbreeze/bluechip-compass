@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-04T04:13:50.733Z",
+  "asOf": "2026-10-04T05:14:19.006Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -44,18 +44,18 @@
     },
     "^VIX": {
       "price": 15.31,
-      "prev": 15.3100004196167,
+      "prev": 15.31,
       "chg": 0,
-      "prevDay": "2026-10-02",
-      "basis": "prev-close-bar",
+      "prevDay": "2026-10-03",
+      "basis": "prev-close-memo",
       "time": "2026-10-02T20:15:01.000Z"
     },
     "^TNX": {
       "price": 5.277,
-      "prev": 5.2769999504089355,
+      "prev": 5.277,
       "chg": 0,
-      "prevDay": "2026-10-02",
-      "basis": "prev-close-bar",
+      "prevDay": "2026-10-03",
+      "basis": "prev-close-memo",
       "time": "2026-10-02T18:59:55.000Z"
     }
   },
@@ -366,6 +366,39 @@
   "news": {
     "kr": [
       {
+        "title": "李대통령, 금융기관 개인정보 유출에 \"엄중 인식, 철저 조사\"",
+        "link": "https://www.yna.co.kr/view/AKR20261004021800001",
+        "source": "연합뉴스",
+        "date": "Sun, 4 Oct 2026 13:44:36 +0900",
+        "act": "watch",
+        "lasting": "temporary",
+        "scope": "sector",
+        "why": "조사 단계의 발언으로, 규제 강화로 이어지는지만 지켜보면 됩니다.",
+        "by": "ai"
+      },
+      {
+        "title": "주가 반토막 난 키옥시아…기관은 다시 담는다",
+        "link": "https://www.hankyung.com/article/202610042222i",
+        "source": "한국경제",
+        "date": "Sun, 04 Oct 2026 12:19:37 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "주가 등락과 수급 이야기일 뿐 이익 구조가 바뀐 소식은 아닙니다.",
+        "by": "ai"
+      },
+      {
+        "title": "“삼전닉스 잘먹고 갑니다” 한달새 17조 던진 외국인…보유율 최저",
+        "link": "https://www.mk.co.kr/news/stock/12167989",
+        "source": "매일경제",
+        "date": "Sun, 04 Oct 2026 13:00:33 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "외국인 매매 비중 변화는 수급 흐름이라 기업 이익 구조와는 다릅니다.",
+        "by": "ai"
+      },
+      {
         "title": "적자회사 주식으로 상속세 84억 납부?…\"당국 불허 적법\"",
         "link": "https://www.yna.co.kr/view/AKR20261003027400004",
         "source": "연합뉴스",
@@ -385,39 +418,6 @@
         "lasting": "structural",
         "scope": "sector",
         "why": "전망과 의견을 담은 기사로, 오늘 당장 확인할 사실 변화는 없습니다.",
-        "by": "ai"
-      },
-      {
-        "title": "외국인 지난달 코스피서 20조 매도에…삼전닉스 외인 비중 연중 최저로",
-        "link": "https://www.mk.co.kr/news/stock/12167989",
-        "source": "매일경제",
-        "date": "Sun, 04 Oct 2026 13:00:33 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "외국인 매매 비중 변화는 수급 흐름이라 기업 이익 구조와는 다릅니다.",
-        "by": "ai"
-      },
-      {
-        "title": "신한은행 \"기계·부품·소재 기업 금융지원 확대\"",
-        "link": "https://www.yna.co.kr/view/AKR20261003016300002",
-        "source": "연합뉴스",
-        "date": "Sun, 4 Oct 2026 09:00:02 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "sector",
-        "why": "금융지원 확대 발표만으로 업종 구조가 바뀌진 않습니다.",
-        "by": "ai"
-      },
-      {
-        "title": "외국인 한달새 코스피 20조 팔아…삼전닉스에 매도 집중",
-        "link": "https://www.hankyung.com/article/202610042304i",
-        "source": "한국경제",
-        "date": "Sun, 04 Oct 2026 10:49:23 +0900",
-        "act": "watch",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "수급 흐름은 변동이 잦고 기업 이익 구조를 바꾸지는 않습니다.",
         "by": "ai"
       },
       {
@@ -811,20 +811,6 @@
     "A tough job market is pushing more young Americans to make a big bet: on themselves": "어려운 취업 시장은 더 많은 젊은 미국인들이 큰 내기를하도록 밀어 붙이고 있습니다."
   },
   "nvCache": {
-    "https://www.marketwatch.com/story/nvidias-historic-buyback-announcement-underscores-a-sharp-divide-in-big-tech-ac04a001?mod=mw_rss_topstories": {
-      "act": "watch",
-      "lasting": "temporary",
-      "scope": "sector",
-      "why": "AI 투자 흐름의 온도차를 보여주는 소식이지만, 제목만으로는 이익 구조 변화를 확인하기 어렵습니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20260929163600002": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "월별 발행 규모 변동은 기업 장기 이익과 직접 연결되지 않습니다.",
-      "by": "ai"
-    },
     "https://www.hankyung.com/article/2026092925246": {
       "act": "watch",
       "lasting": "temporary",
@@ -2910,6 +2896,20 @@
       "scope": "market",
       "why": "외국인 매매 비중 변화는 수급 흐름이라 기업 이익 구조와는 다릅니다.",
       "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261004021800001": {
+      "act": "watch",
+      "lasting": "temporary",
+      "scope": "sector",
+      "why": "조사 단계의 발언으로, 규제 강화로 이어지는지만 지켜보면 됩니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/202610042222i": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "주가 등락과 수급 이야기일 뿐 이익 구조가 바뀐 소식은 아닙니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2984,7 +2984,6 @@
       "2026-10-04": 27190.863
     },
     "^VIX": {
-      "2026-09-22": 14.21,
       "2026-09-23": 15.18,
       "2026-09-24": 15.67,
       "2026-09-25": 14.87,
@@ -2995,10 +2994,10 @@
       "2026-09-30": 16.34,
       "2026-10-01": 16.39,
       "2026-10-02": 15.31,
-      "2026-10-03": 15.31
+      "2026-10-03": 15.31,
+      "2026-10-04": 15.31
     },
     "^TNX": {
-      "2026-09-22": 4.968,
       "2026-09-23": 5.114,
       "2026-09-24": 5.162,
       "2026-09-25": 5.184,
@@ -3009,7 +3008,8 @@
       "2026-09-30": 5.293,
       "2026-10-01": 5.237,
       "2026-10-02": 5.277,
-      "2026-10-03": 5.277
+      "2026-10-03": 5.277,
+      "2026-10-04": 5.277
     },
     "105560.KS": {
       "2026-09-23": 173200,
