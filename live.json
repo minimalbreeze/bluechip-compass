@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-05T06:15:31.991Z",
+  "asOf": "2026-10-05T06:25:55.976Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-02T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1343.47,
+      "price": 1343.6,
       "prev": 1342.9,
-      "chg": 0.04,
+      "chg": 0.05,
       "prevDay": "2026-10-04",
       "basis": "prev-close-memo",
-      "time": "2026-10-05T06:15:15.000Z"
+      "time": "2026-10-05T06:25:43.000Z"
     },
     "^GSPC": {
       "price": 7722.72,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.02
+    "pct": 0.021
   },
   "hist": {
     "^KS11": {
@@ -80,10 +80,10 @@
       "chg3m": 3.07
     },
     "KRW=X": {
-      "last": 1343.47,
+      "last": 1343.6,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.02,
+      "pct52": 0.021,
       "chg3m": -10.63
     },
     "^GSPC": {
@@ -377,14 +377,14 @@
         "by": "ai"
       },
       {
-        "title": "\"국채 5%에도 주식이 낫다…반도체 대형주 쥐고 오래 기다려라\"",
-        "link": "https://www.hankyung.com/article/202610042842i",
+        "title": "초고수의 선택은 삼성전자...\"매크로 불확실성의 도피처는 반도체\"",
+        "link": "https://www.hankyung.com/article/202610053172i",
         "source": "한국경제",
-        "date": "Mon, 05 Oct 2026 09:13:33 +0900",
+        "date": "Mon, 05 Oct 2026 14:23:13 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
-        "why": "전문가 전망과 의견일 뿐 기업 실적 구조가 바뀐 사실은 없습니다.",
+        "scope": "sector",
+        "why": "투자자 선호를 전한 시황 코멘트라 기업 이익 구조와는 무관합니다.",
         "by": "ai"
       },
       {
@@ -410,14 +410,14 @@
         "by": "ai"
       },
       {
-        "title": "\"'약속의 8일', 증시 충격 주의\"…23兆 ETF 확 바뀐다, 무슨 일?",
-        "link": "https://www.hankyung.com/article/202610020399i",
+        "title": "\"국채 5%에도 주식이 낫다…반도체 대형주 쥐고 오래 기다려라\"",
+        "link": "https://www.hankyung.com/article/202610042842i",
         "source": "한국경제",
-        "date": "Mon, 05 Oct 2026 08:00:10 +0900",
+        "date": "Mon, 05 Oct 2026 09:13:33 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "지수·ETF 구성 변경에 따른 수급 변동은 대체로 일시적입니다.",
+        "why": "전문가 전망과 의견일 뿐 기업 실적 구조가 바뀐 사실은 없습니다.",
         "by": "ai"
       },
       {
@@ -811,13 +811,6 @@
     "October can be a scary month for stocks. Here’s what investors need to watch this year.": "10월은 주식에 있어 무서운 달이 될 수 있습니다. 올해 투자자들이 주목해야 할 사항은 다음과 같습니다."
   },
   "nvCache": {
-    "https://www.yna.co.kr/view/AKR20260930061200008": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "증권 앱 서비스 개편은 장기 이익 구조를 바꾸는 사안이 아닙니다.",
-      "by": "ai"
-    },
     "https://www.yna.co.kr/view/AKR20260930059100002": {
       "act": "none",
       "lasting": "temporary",
@@ -2910,6 +2903,13 @@
       "scope": "sector",
       "why": "보안 비상 대응 단계로, 아직 실적이나 사업 구조를 바꿀 사안은 아닙니다.",
       "by": "ai"
+    },
+    "https://www.hankyung.com/article/202610053172i": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "sector",
+      "why": "투자자 선호를 전한 시황 코멘트라 기업 이익 구조와는 무관합니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2953,7 +2953,7 @@
       "2026-10-02": 1342.51,
       "2026-10-03": 1342.51,
       "2026-10-04": 1342.9,
-      "2026-10-05": 1343.47
+      "2026-10-05": 1343.6
     },
     "^GSPC": {
       "2026-09-24": 7704.13,
