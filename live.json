@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-05T22:35:54.417Z",
+  "asOf": "2026-10-05T23:36:24.295Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-02T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1342.07,
-      "prev": 1342.9,
-      "chg": -0.06,
-      "prevDay": "2026-10-04",
-      "basis": "prev-close-memo",
-      "time": "2026-10-05T22:35:30.000Z"
+      "price": 1342.49,
+      "prev": 1342.56005859375,
+      "chg": -0.01,
+      "prevDay": "2026-10-05",
+      "basis": "prev-close-bar",
+      "time": "2026-10-05T23:36:09.000Z"
     },
     "^GSPC": {
       "price": 7773.95,
@@ -80,11 +80,11 @@
       "chg3m": 3.07
     },
     "KRW=X": {
-      "last": 1342.37,
+      "last": 1342.49,
       "low52": 1339.17,
       "high52": 1554.48,
       "pct52": 0.015,
-      "chg3m": -10.86
+      "chg3m": -10.85
     },
     "^GSPC": {
       "last": 7773.95,
@@ -366,69 +366,69 @@
   "news": {
     "kr": [
       {
-        "title": "첫날 285% 수익에 '화들짝'…공모주 분위기 180도 달라졌다 [분석+]",
-        "link": "https://www.hankyung.com/article/2026100201166",
-        "source": "한국경제",
-        "date": "Tue, 06 Oct 2026 06:30:04 +0900",
+        "title": "다올증권 \"삼성바이오, 유상증자에 목표가↓…성장동력은 유효\"",
+        "link": "https://www.yna.co.kr/view/AKR20261006026000008",
+        "source": "연합뉴스",
+        "date": "Tue, 6 Oct 2026 08:29:32 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
-        "why": "공모주 청약 열기는 수급과 심리에 따른 일시적 현상입니다.",
+        "scope": "company",
+        "why": "증자로 목표가는 낮췄지만 성장동력은 유지된다는 평가입니다.",
         "by": "ai"
       },
       {
-        "title": "반도체 업황 꺾이면 여기서 ‘도미노 충격’ 우려 … 증시 횡보에 ELS로 ‘뭉칫돈’",
-        "link": "https://www.mk.co.kr/news/stock/12168476",
+        "title": "기록적 금리 상승에도 나스닥·엔비디아 신고가…\"더 오르겠지만 변동성\" [김현석의 월스트리트나우]",
+        "link": "https://www.hankyung.com/article/202610064183i",
+        "source": "한국경제",
+        "date": "Tue, 06 Oct 2026 07:56:15 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "지수 신고가와 변동성 언급은 일상적인 시황 코멘트입니다.",
+        "by": "ai"
+      },
+      {
+        "title": "“광고·커머스 매출 성장 둔화, AI 비용 증가”…대신증권, NAVER 목표가↓",
+        "link": "https://www.mk.co.kr/news/stock/12168848",
         "source": "매일경제",
-        "date": "Tue, 06 Oct 2026 05:00:00 +09:00",
+        "date": "Tue, 06 Oct 2026 08:33:27 +09:00",
         "act": "watch",
-        "lasting": "temporary",
-        "scope": "sector",
-        "why": "업황 가정이지 확정된 변화는 아니어서 흐름만 지켜보면 됩니다.",
+        "lasting": "structural",
+        "scope": "company",
+        "why": "본업 성장 둔화와 AI 비용 증가는 수익 구조 변화라 지켜볼 만합니다.",
         "by": "ai"
       },
       {
-        "title": "\"증권사가 증권주 사지 말라니\"…고점서 반토막 난 이유 [종목+]",
-        "link": "https://www.hankyung.com/article/2026100299836",
-        "source": "한국경제",
-        "date": "Tue, 06 Oct 2026 06:30:02 +0900",
+        "title": "DS증권, 현대로템 목표가↓…\"환율 등 영향에 실적전망 하향\"",
+        "link": "https://www.yna.co.kr/view/AKR20261006025300008",
+        "source": "연합뉴스",
+        "date": "Tue, 6 Oct 2026 08:28:11 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "sector",
-        "why": "주가 등락과 목표가 조정은 기업 실적 구조의 변화가 아닙니다.",
+        "scope": "company",
+        "why": "환율에 따른 실적 전망 조정은 일시적 요인입니다.",
         "by": "ai"
       },
       {
-        "title": "반도체 소부장 랠리 … ETF 출시도 잇따라",
-        "link": "https://www.mk.co.kr/news/stock/12168506",
+        "title": "\"HPSP, 파운드리 넘어 메모리 반도체까지 확장…목표가↑\"-KB",
+        "link": "https://www.hankyung.com/article/2026100641866",
+        "source": "한국경제",
+        "date": "Tue, 06 Oct 2026 07:45:07 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "목표가 상향은 증권사 전망일 뿐 오늘 할 일은 없습니다.",
+        "by": "ai"
+      },
+      {
+        "title": "금리와 주가 동반 상승... 불편한 동행은 언제까지?",
+        "link": "https://www.mk.co.kr/news/stock/12168839",
         "source": "매일경제",
-        "date": "Mon, 05 Oct 2026 16:51:04 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "sector",
-        "why": "단기 수급과 상품 출시 소식으로 업종 구조가 바뀐 건 아닙니다.",
-        "by": "ai"
-      },
-      {
-        "title": "3Q 어닝 '또 30% 증가 예상'…대단한데, 월가가 걱정하는 것 [김현석의 퀵 브리프]",
-        "link": "https://www.hankyung.com/article/202610064007i",
-        "source": "한국경제",
-        "date": "Tue, 06 Oct 2026 00:38:17 +0900",
+        "date": "Tue, 06 Oct 2026 08:04:38 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "분기 실적 전망과 시장 우려를 다룬 내용으로, 장기 투자 근거를 바꾸지는 않습니다.",
-        "by": "ai"
-      },
-      {
-        "title": "[표] 이번주 증시 캘린더",
-        "link": "https://www.mk.co.kr/news/stock/12168498",
-        "source": "매일경제",
-        "date": "Mon, 05 Oct 2026 16:46:26 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "일정 안내성 기사로 기업 이익이나 투자 근거와는 무관합니다.",
+        "why": "금리와 주가 흐름에 대한 해석 기사로 판단 근거가 되기 어렵습니다.",
         "by": "ai"
       }
     ],
@@ -811,48 +811,6 @@
     "The case for Nvidia’s stock to march even higher after clinching its first record high in months": "엔비디아의 주가가 몇 달 만에 사상 최고치를 경신한 후 더 높은 상승세를 보인 사례"
   },
   "nvCache": {
-    "https://www.yna.co.kr/view/AKR20260930117500065": {
-      "act": "watch",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "체감경기 조사 결과로 경기 흐름 참고용이며 당장 할 일은 없습니다.",
-      "by": "ai"
-    },
-    "https://www.mk.co.kr/news/stock/12164810": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "단기 매매 동향 소식이라 장기 투자 근거와는 무관합니다.",
-      "by": "ai"
-    },
-    "https://www.mk.co.kr/news/stock/12164806": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "고객 이벤트 홍보로 기업 이익에 영향이 거의 없습니다.",
-      "by": "ai"
-    },
-    "https://www.mk.co.kr/news/stock/12164826": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "행동주의 펀드의 대상 공개 예고일 뿐, 기업 이익 구조는 아직 그대로입니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20260930118800057": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "지자체의 정기 주택가격 공시로, 기업 이익과는 직접 관련이 없습니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20260930077000530": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "고용 사례를 소개한 기사로 투자 판단에 쓸 정보는 없습니다.",
-      "by": "ai"
-    },
     "https://www.yna.co.kr/view/AKR20260930125800053": {
       "act": "none",
       "lasting": "temporary",
@@ -2910,6 +2868,48 @@
       "scope": "company",
       "why": "주가 신고가는 가격 움직임일 뿐, 회사의 장기 이익 구조를 바꾸는 소식은 아닙니다.",
       "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261006026000008": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "증자로 목표가는 낮췄지만 성장동력은 유지된다는 평가입니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/202610064183i": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "지수 신고가와 변동성 언급은 일상적인 시황 코멘트입니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12168848": {
+      "act": "watch",
+      "lasting": "structural",
+      "scope": "company",
+      "why": "본업 성장 둔화와 AI 비용 증가는 수익 구조 변화라 지켜볼 만합니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261006025300008": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "환율에 따른 실적 전망 조정은 일시적 요인입니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/2026100641866": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "목표가 상향은 증권사 전망일 뿐 오늘 할 일은 없습니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12168839": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "금리와 주가 흐름에 대한 해석 기사로 판단 근거가 되기 어렵습니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2942,7 +2942,6 @@
       "2026-10-06": 893.29
     },
     "KRW=X": {
-      "2026-09-24": 1365.23,
       "2026-09-25": 1355.28,
       "2026-09-26": 1354.4,
       "2026-09-27": 1354.92,
@@ -2953,7 +2952,8 @@
       "2026-10-02": 1342.51,
       "2026-10-03": 1342.51,
       "2026-10-04": 1342.9,
-      "2026-10-05": 1342.07
+      "2026-10-05": 1342.07,
+      "2026-10-06": 1342.49
     },
     "^GSPC": {
       "2026-09-24": 7704.13,
