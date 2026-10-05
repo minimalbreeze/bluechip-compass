@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-05T05:34:01.468Z",
+  "asOf": "2026-10-05T05:44:29.311Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-02T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1345.37,
+      "price": 1345.13,
       "prev": 1342.9,
-      "chg": 0.18,
+      "chg": 0.17,
       "prevDay": "2026-10-04",
       "basis": "prev-close-memo",
-      "time": "2026-10-05T05:33:50.000Z"
+      "time": "2026-10-05T05:44:13.000Z"
     },
     "^GSPC": {
       "price": 7722.72,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.029
+    "pct": 0.028
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": 3.07
     },
     "KRW=X": {
-      "last": 1345.37,
+      "last": 1345.13,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.029,
-      "chg3m": -10.51
+      "pct52": 0.028,
+      "chg3m": -10.52
     },
     "^GSPC": {
       "last": 7722.72,
@@ -366,14 +366,14 @@
   "news": {
     "kr": [
       {
-        "title": "금융권 잇단 해킹사태에 증권업계도 '긴장'…\"휴일도 지속 점검\"",
-        "link": "https://www.yna.co.kr/view/AKR20261005029200008",
+        "title": "금융권 잇단 해킹사태에 증권업계도 '긴장'…\"휴일도 비상근무\"(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261005029251008",
         "source": "연합뉴스",
-        "date": "Mon, 5 Oct 2026 12:11:16 +0900",
+        "date": "Mon, 5 Oct 2026 14:36:29 +0900",
         "act": "watch",
         "lasting": "temporary",
         "scope": "sector",
-        "why": "보안 점검 강화 소식으로, 업종 전반의 리스크 관리 흐름을 지켜볼 사안입니다.",
+        "why": "보안 비상 대응 단계로, 아직 실적이나 사업 구조를 바꿀 사안은 아닙니다.",
         "by": "ai"
       },
       {
@@ -399,6 +399,17 @@
         "by": "ai"
       },
       {
+        "title": "금융권 잇단 해킹사태에 증권업계도 '긴장'…\"휴일도 지속 점검\"",
+        "link": "https://www.yna.co.kr/view/AKR20261005029200008",
+        "source": "연합뉴스",
+        "date": "Mon, 5 Oct 2026 12:11:16 +0900",
+        "act": "watch",
+        "lasting": "temporary",
+        "scope": "sector",
+        "why": "보안 점검 강화 소식으로, 업종 전반의 리스크 관리 흐름을 지켜볼 사안입니다.",
+        "by": "ai"
+      },
+      {
         "title": "\"'약속의 8일', 증시 충격 주의\"…23兆 ETF 확 바뀐다, 무슨 일?",
         "link": "https://www.hankyung.com/article/202610020399i",
         "source": "한국경제",
@@ -418,17 +429,6 @@
         "lasting": "structural",
         "scope": "sector",
         "why": "대규모 대미 투자 자금은 업종 수요 구조를 바꿀 수 있지만 수혜 종목은 아직 전망일 뿐입니다.",
-        "by": "ai"
-      },
-      {
-        "title": "제동 걸린 코스닥 '기업 솎아내기'…퇴출 피했지만 탈출도 막혔다",
-        "link": "https://www.hankyung.com/article/2026100427121",
-        "source": "한국경제",
-        "date": "Sun, 04 Oct 2026 18:19:16 +0900",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": "market",
-        "why": "상장폐지 기준을 둘러싼 법원 판단은 시장 제도 자체에 영향을 줄 수 있어 흐름만 지켜보면 됩니다.",
         "by": "ai"
       }
     ],
@@ -811,13 +811,6 @@
     "October can be a scary month for stocks. Here’s what investors need to watch this year.": "10월은 주식에 있어 무서운 달이 될 수 있습니다. 올해 투자자들이 주목해야 할 사항은 다음과 같습니다."
   },
   "nvCache": {
-    "https://www.yna.co.kr/view/AKR20260930056900008": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "투자자 매매 동향일 뿐, 기업 실적이나 투자 근거와는 무관합니다.",
-      "by": "ai"
-    },
     "https://www.yna.co.kr/view/AKR20260930061200008": {
       "act": "none",
       "lasting": "temporary",
@@ -2910,6 +2903,13 @@
       "scope": "sector",
       "why": "대규모 대미 투자 자금은 업종 수요 구조를 바꿀 수 있지만 수혜 종목은 아직 전망일 뿐입니다.",
       "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261005029251008": {
+      "act": "watch",
+      "lasting": "temporary",
+      "scope": "sector",
+      "why": "보안 비상 대응 단계로, 아직 실적이나 사업 구조를 바꿀 사안은 아닙니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2953,7 +2953,7 @@
       "2026-10-02": 1342.51,
       "2026-10-03": 1342.51,
       "2026-10-04": 1342.9,
-      "2026-10-05": 1345.37
+      "2026-10-05": 1345.13
     },
     "^GSPC": {
       "2026-09-24": 7704.13,
