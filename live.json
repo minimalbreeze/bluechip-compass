@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-05T00:01:46.744Z",
+  "asOf": "2026-10-05T00:12:13.999Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-02T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1343.22,
+      "price": 1342.86,
       "prev": 1342.9,
-      "chg": 0.02,
+      "chg": 0,
       "prevDay": "2026-10-04",
       "basis": "prev-close-memo",
-      "time": "2026-10-05T00:01:37.000Z"
+      "time": "2026-10-05T00:12:00.000Z"
     },
     "^GSPC": {
       "price": 7722.72,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.019
+    "pct": 0.017
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": 3.07
     },
     "KRW=X": {
-      "last": 1343.22,
+      "last": 1342.86,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.019,
-      "chg3m": -10.65
+      "pct52": 0.017,
+      "chg3m": -10.68
     },
     "^GSPC": {
       "last": 7722.72,
@@ -366,14 +366,14 @@
   "news": {
     "kr": [
       {
-        "title": "[통합시 100일] ③ '800조 반도체' 유치…초광역 산업생태계 구축",
-        "link": "https://www.yna.co.kr/view/AKR20261001175700054",
+        "title": "우리은행, '우다페' 연계 '다함께 적금'…최고 연 9.0% 금리",
+        "link": "https://www.yna.co.kr/view/AKR20261004020300002",
         "source": "연합뉴스",
-        "date": "Mon, 5 Oct 2026 08:00:11 +0900",
+        "date": "Mon, 5 Oct 2026 09:00:03 +0900",
         "act": "none",
-        "lasting": "structural",
-        "scope": "sector",
-        "why": "지역 산업단지 조성은 장기 과제로, 오늘 당장 확인할 변화는 없습니다.",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "한시적 고금리 예적금 판촉으로 장기 이익 구조와는 거리가 멉니다.",
         "by": "ai"
       },
       {
@@ -399,14 +399,14 @@
         "by": "ai"
       },
       {
-        "title": "\"aT 인수 농산물 비축기지 6곳, 6년간 순손실 121억원\"",
-        "link": "https://www.yna.co.kr/view/AKR20261003020700030",
+        "title": "[통합시 100일] ③ '800조 반도체' 유치…초광역 산업생태계 구축",
+        "link": "https://www.yna.co.kr/view/AKR20261001175700054",
         "source": "연합뉴스",
-        "date": "Mon, 5 Oct 2026 07:00:01 +0900",
+        "date": "Mon, 5 Oct 2026 08:00:11 +0900",
         "act": "none",
-        "lasting": "temporary",
+        "lasting": "structural",
         "scope": "sector",
-        "why": "공공기관 비축시설 손익 소식으로 상장기업 장기 이익과는 거리가 멉니다.",
+        "why": "지역 산업단지 조성은 장기 과제로, 오늘 당장 확인할 변화는 없습니다.",
         "by": "ai"
       },
       {
@@ -811,13 +811,6 @@
     "October can be a scary month for stocks. Here’s what investors need to watch this year.": "10월은 주식에 있어 무서운 달이 될 수 있습니다. 올해 투자자들이 주목해야 할 사항은 다음과 같습니다."
   },
   "nvCache": {
-    "https://www.yna.co.kr/view/AKR20260930042500008": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "상장 첫날 주가 변동은 단기 수급 현상에 가깝습니다.",
-      "by": "ai"
-    },
     "https://www.yna.co.kr/view/AKR20260930047300008": {
       "act": "none",
       "lasting": "temporary",
@@ -2910,6 +2903,13 @@
       "scope": "market",
       "why": "지수·ETF 구성 변경에 따른 수급 변동은 대체로 일시적입니다.",
       "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261004020300002": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "한시적 고금리 예적금 판촉으로 장기 이익 구조와는 거리가 멉니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2953,7 +2953,7 @@
       "2026-10-02": 1342.51,
       "2026-10-03": 1342.51,
       "2026-10-04": 1342.9,
-      "2026-10-05": 1343.22
+      "2026-10-05": 1342.86
     },
     "^GSPC": {
       "2026-09-23": 7706.03,
