@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-06T11:51:10.304Z",
+  "asOf": "2026-10-06T12:51:48.860Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-06T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1338.17,
+      "price": 1339.68,
       "prev": 1342.56005859375,
-      "chg": -0.33,
+      "chg": -0.21,
       "prevDay": "2026-10-05",
       "basis": "prev-close-bar",
-      "time": "2026-10-06T11:50:53.000Z"
+      "time": "2026-10-06T12:51:22.000Z"
     },
     "^GSPC": {
       "price": 7773.95,
@@ -43,26 +43,26 @@
       "time": "2026-10-05T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 15.31,
+      "price": 15.33,
       "prev": 15.520000457763672,
-      "chg": -1.35,
+      "chg": -1.22,
       "prevDay": "2026-10-05",
       "basis": "prev-close-bar",
-      "time": "2026-10-06T11:35:46.000Z"
+      "time": "2026-10-06T12:36:16.000Z"
     },
     "^TNX": {
-      "price": 5.311,
+      "price": 5.273,
       "prev": 5.310999870300293,
-      "chg": 0,
+      "chg": -0.72,
       "prevDay": "2026-10-05",
       "basis": "prev-close-bar",
-      "time": "2026-10-05T18:59:51.000Z"
+      "time": "2026-10-06T12:36:24.000Z"
     }
   },
   "fx": {
-    "low52": 1338.17,
+    "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0
+    "pct": 0.002
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": 5.93
     },
     "KRW=X": {
-      "last": 1338.17,
-      "low52": 1338.17,
+      "last": 1339.68,
+      "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0,
-      "chg3m": -11.14
+      "pct52": 0.002,
+      "chg3m": -11.04
     },
     "^GSPC": {
       "last": 7773.95,
@@ -101,18 +101,18 @@
       "chg3m": 6.21
     },
     "^VIX": {
-      "last": 15.31,
+      "last": 15.33,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.105,
-      "chg3m": 1.86
+      "pct52": 0.106,
+      "chg3m": 2
     },
     "^TNX": {
-      "last": 5.31,
+      "last": 5.27,
       "low52": 3.95,
       "high52": 5.31,
-      "pct52": 1,
-      "chg3m": 16.24
+      "pct52": 0.972,
+      "chg3m": 16.17
     }
   },
   "regime": {
@@ -449,7 +449,7 @@
         "title": "Wall Street is hyping AI. This fund manager is betting instead on fires, HVAC and Berkshire Hathaway.",
         "link": "https://www.marketwatch.com/story/wall-street-is-hyping-ai-this-fund-manager-is-betting-instead-on-fires-hvac-and-berkshire-hathaway-1b70fbea?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Tue, 06 Oct 2026 11:15:00 GMT",
+        "date": "Tue, 06 Oct 2026 12:44:00 GMT",
         "ko": "월스트리트는 인공지능을 흥분시키고 있습니다. 이 펀드 매니저는 화재, HVAC 및 버크셔 해서웨이에 베팅하고 있습니다.",
         "act": "none",
         "lasting": "temporary",
@@ -470,15 +470,15 @@
         "by": "ai"
       },
       {
-        "title": "Should I put my nest egg in a 30-year Treasury bond?",
-        "link": "https://www.marketwatch.com/story/should-i-put-my-nest-egg-in-a-30-year-treasury-bond-89db6e09?mod=mw_rss_topstories",
+        "title": "My wife never went back to work after raising our kids. Do I have to share my retirement savings 50/50?",
+        "link": "https://www.marketwatch.com/story/my-wife-never-went-back-to-work-after-raising-our-kids-do-i-have-to-share-my-retirement-savings-50-50-f0727f82?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Tue, 06 Oct 2026 10:00:00 GMT",
-        "ko": "내 둥지 알을 30년 국채에 넣어야 할까?",
+        "date": "Tue, 06 Oct 2026 12:15:00 GMT",
+        "ko": "제 아내는 아이들을 키운 후 다시는 일하러 가지 않았습니다. 은퇴 저축액을 50/50으로 나눠야 하나요?",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "특정 기업 실적이 아닌 자산배분 의견 기사라 오늘 할 일은 없습니다.",
+        "why": "개인 재무 상담 성격의 기사로 기업 이익과는 무관합니다.",
         "by": "ai"
       },
       {
@@ -494,22 +494,21 @@
         "by": "ai"
       },
       {
-        "title": "The S&P 500 is facing rate chaos and narrow breadth. Why one Goldman Sachs insider is still bullish on stocks.",
-        "link": "https://www.marketwatch.com/story/the-s-p-500-is-facing-rate-chaos-and-narrow-breadth-why-one-goldman-sachs-insider-is-still-bullish-on-stocks-84a20206?mod=mw_rss_topstories",
+        "title": "America’s favorite index is misleading investors about the state of the stock market",
+        "link": "https://www.marketwatch.com/story/americas-favorite-index-is-misleading-investors-about-the-state-of-the-stock-market-2e91ca95?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Tue, 06 Oct 2026 09:20:00 GMT",
-        "ko": "S&P 500은 금리 혼란과 좁은 폭에 직면해 있습니다. 골드만 삭스 내부자가 여전히 주식에 대해 낙관적인 이유.",
+        "date": "Tue, 06 Oct 2026 12:05:00 GMT",
+        "ko": "미국이 가장 선호하는 지수는 주식 시장의 상태에 대해 투자자를 현혹하는 것입니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "금리 전망과 증권사 시황 의견은 수시로 바뀌는 단기 코멘트입니다.",
+        "why": "지수 해석에 대한 논평일 뿐 기업 이익과는 무관합니다.",
         "by": "ai"
       }
     ]
   },
   "newsBy": "ai",
   "trCache": {
-    "Domino's Pizza Stock Is Dirt Cheap, With 30% Potential Upside - What's the Best Play?": "도미노 피자 스톡은 30% 의 잠재력을 가진 흙이 저렴합니다 - 최고의 플레이는 무엇입니까?",
     "AVAX Eyes 90% Price Rally As Wall Street Tests Avalanche for 24/7 Tokenized Trading": "월스트리트가 연중무휴 토큰화된 거래를 위해 눈사태를 테스트함에 따라 AVAX Eyes 90% 가격 랠리",
     "CoreWeave Rises After Going Live With Vera Rubin Racks. What This Means for CRWV Stock.": "CoreWeave는 Vera Rubin 랙과 함께 라이브를 한 후 상승합니다. CRWV 주식에 대한 의미.",
     "Apple Wants to Enter the AI Inference Market. It Will Have to Swallow Its Pride First.": "Apple은 AI 추론 시장에 진입하기를 원합니다. 자존심을 먼저 삼켜야 할 것이다.",
@@ -808,16 +807,10 @@
     "The case for Nvidia’s stock to march even higher after clinching its first record high in months": "엔비디아의 주가가 몇 달 만에 사상 최고치를 경신한 후 더 높은 상승세를 보인 사례",
     "The S&P 500 is facing rate chaos and narrow breadth. Why one Goldman Sachs insider is still bullish on stocks.": "S&P 500은 금리 혼란과 좁은 폭에 직면해 있습니다. 골드만 삭스 내부자가 여전히 주식에 대해 낙관적인 이유.",
     "Should I put my nest egg in a 30-year Treasury bond?": "내 둥지 알을 30년 국채에 넣어야 할까?",
-    "Wall Street is hyping AI. This fund manager is betting instead on fires, HVAC and Berkshire Hathaway.": "월스트리트는 인공지능을 흥분시키고 있습니다. 이 펀드 매니저는 화재, HVAC 및 버크셔 해서웨이에 베팅하고 있습니다."
+    "Wall Street is hyping AI. This fund manager is betting instead on fires, HVAC and Berkshire Hathaway.": "월스트리트는 인공지능을 흥분시키고 있습니다. 이 펀드 매니저는 화재, HVAC 및 버크셔 해서웨이에 베팅하고 있습니다.",
+    "America’s favorite index is misleading investors about the state of the stock market": "미국이 가장 선호하는 지수는 주식 시장의 상태에 대해 투자자를 현혹하는 것입니다."
   },
   "nvCache": {
-    "https://www.yna.co.kr/view/AKR20261001042900008": {
-      "act": "watch",
-      "lasting": "structural",
-      "scope": "sector",
-      "why": "디지털자산 사업 제휴는 업종 구조 변화로 이어질 수 있어 지켜볼 만합니다.",
-      "by": "ai"
-    },
     "https://www.yna.co.kr/view/AKR20261001047900008": {
       "act": "none",
       "lasting": "temporary",
@@ -2910,6 +2903,13 @@
       "scope": "market",
       "why": "특정 운용사의 투자 견해 소개일 뿐, 기업 이익을 바꾸는 사실은 없습니다.",
       "by": "ai"
+    },
+    "https://www.marketwatch.com/story/americas-favorite-index-is-misleading-investors-about-the-state-of-the-stock-market-2e91ca95?mod=mw_rss_topstories": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "지수 해석에 대한 논평일 뿐 기업 이익과는 무관합니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2953,7 +2953,7 @@
       "2026-10-03": 1342.51,
       "2026-10-04": 1342.9,
       "2026-10-05": 1342.07,
-      "2026-10-06": 1338.17
+      "2026-10-06": 1339.68
     },
     "^GSPC": {
       "2026-09-25": 7743.41,
@@ -2995,7 +2995,7 @@
       "2026-10-03": 15.31,
       "2026-10-04": 15.31,
       "2026-10-05": 15.52,
-      "2026-10-06": 15.31
+      "2026-10-06": 15.33
     },
     "^TNX": {
       "2026-09-25": 5.184,
@@ -3009,7 +3009,7 @@
       "2026-10-03": 5.277,
       "2026-10-04": 5.277,
       "2026-10-05": 5.311,
-      "2026-10-06": 5.311
+      "2026-10-06": 5.273
     },
     "105560.KS": {
       "2026-09-25": 173200,
