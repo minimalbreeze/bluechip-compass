@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-06T20:59:30.647Z",
+  "asOf": "2026-10-06T21:09:58.571Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-06T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1337.56,
+      "price": 1337.32,
       "prev": 1342.56005859375,
-      "chg": -0.37,
+      "chg": -0.39,
       "prevDay": "2026-10-05",
       "basis": "prev-close-bar",
-      "time": "2026-10-06T20:59:17.000Z"
+      "time": "2026-10-06T21:09:44.000Z"
     },
     "^GSPC": {
       "price": 7818.93,
@@ -40,7 +40,7 @@
       "chg": 0.45,
       "prevDay": "2026-10-05",
       "basis": "prev-close-bar",
-      "time": "2026-10-06T20:59:19.000Z"
+      "time": "2026-10-06T21:09:46.000Z"
     },
     "^VIX": {
       "price": 15.01,
@@ -60,7 +60,7 @@
     }
   },
   "fx": {
-    "low52": 1337.56,
+    "low52": 1337.32,
     "high52": 1554.48,
     "pct": 0
   },
@@ -80,11 +80,11 @@
       "chg3m": 3.07
     },
     "KRW=X": {
-      "last": 1337.56,
-      "low52": 1337.56,
+      "last": 1337.32,
+      "low52": 1337.32,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -10.74
+      "chg3m": -10.75
     },
     "^GSPC": {
       "last": 7818.93,
@@ -366,14 +366,14 @@
   "news": {
     "kr": [
       {
-        "title": "용모 평가·미자격자 서류 합격…'불공정 채용' 공공기관들",
-        "link": "https://www.yna.co.kr/view/AKR20261006189200001",
+        "title": "실손24 EMR업체에 지원금 72억원…청구 실적 없어도 유지비 준다",
+        "link": "https://www.yna.co.kr/view/AKR20261006188200002",
         "source": "연합뉴스",
-        "date": "Wed, 7 Oct 2026 05:00:05 +0900",
+        "date": "Wed, 7 Oct 2026 05:57:00 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
-        "why": "공공기관 채용 절차 문제로 기업 실적과는 직접 관련이 적습니다.",
+        "scope": "sector",
+        "why": "제도 초기 지원금 집행 소식으로 장기 수익 구조를 바꾸는 내용은 아닙니다.",
         "by": "ai"
       },
       {
@@ -399,14 +399,14 @@
         "by": "ai"
       },
       {
-        "title": "알테오젠, 알테오젠바이오로직스 합병 결정",
-        "link": "https://www.yna.co.kr/view/AKR20261006176900017",
+        "title": "용모 평가·미자격자 서류 합격…'불공정 채용' 공공기관들",
+        "link": "https://www.yna.co.kr/view/AKR20261006189200001",
         "source": "연합뉴스",
-        "date": "Tue, 6 Oct 2026 17:51:40 +0900",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": "company",
-        "why": "자회사 합병은 사업 구조가 바뀌는 일이라 변화 내용만 확인해 두면 됩니다.",
+        "date": "Wed, 7 Oct 2026 05:00:05 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "공공기관 채용 절차 문제로 기업 실적과는 직접 관련이 적습니다.",
         "by": "ai"
       },
       {
@@ -811,13 +811,6 @@
     "Oct. 9 has loomed large in stock-market history. Why investors still shouldn’t buy into an October jinx.": "10월 9일은 주식 시장의 역사에서 큰 반향을 일으켰습니다. 투자자들이 여전히 10월 징크스에 매수해서는 안 되는 이유."
   },
   "nvCache": {
-    "https://www.yna.co.kr/view/AKR20261001081000002": {
-      "act": "none",
-      "lasting": "structural",
-      "scope": "market",
-      "why": "재정 집행 점검 제도 변화로, 당장 기업 이익과는 거리가 먼 소식입니다.",
-      "by": "ai"
-    },
     "https://www.yna.co.kr/view/AKR20261001085400008": {
       "act": "none",
       "lasting": "temporary",
@@ -2910,6 +2903,13 @@
       "scope": "company",
       "why": "실적 전망과 단기 주가 흐름 이야기로, 장기 근거를 바꾸는 내용은 아닙니다.",
       "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261006188200002": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "sector",
+      "why": "제도 초기 지원금 집행 소식으로 장기 수익 구조를 바꾸는 내용은 아닙니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2953,7 +2953,7 @@
       "2026-10-03": 1342.51,
       "2026-10-04": 1342.9,
       "2026-10-05": 1342.07,
-      "2026-10-06": 1337.56
+      "2026-10-06": 1337.32
     },
     "^GSPC": {
       "2026-09-25": 7743.41,
