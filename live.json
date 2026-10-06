@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-06T07:49:09.848Z",
+  "asOf": "2026-10-06T08:49:40.066Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-06T06:32:40.000Z"
     },
     "KRW=X": {
-      "price": 1340.69,
+      "price": 1338.25,
       "prev": 1342.56005859375,
-      "chg": -0.14,
+      "chg": -0.32,
       "prevDay": "2026-10-05",
       "basis": "prev-close-bar",
-      "time": "2026-10-06T07:48:52.000Z"
+      "time": "2026-10-06T08:49:24.000Z"
     },
     "^GSPC": {
       "price": 7773.95,
@@ -43,12 +43,12 @@
       "time": "2026-10-05T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 15.5,
+      "price": 15.46,
       "prev": 15.520000457763672,
-      "chg": -0.13,
+      "chg": -0.39,
       "prevDay": "2026-10-05",
       "basis": "prev-close-bar",
-      "time": "2026-10-06T07:33:46.000Z"
+      "time": "2026-10-06T08:34:16.000Z"
     },
     "^TNX": {
       "price": 5.311,
@@ -60,9 +60,9 @@
     }
   },
   "fx": {
-    "low52": 1339.17,
+    "low52": 1337.91,
     "high52": 1554.48,
-    "pct": 0.007
+    "pct": 0
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": 5.93
     },
     "KRW=X": {
-      "last": 1340.69,
-      "low52": 1339.17,
+      "last": 1337.91,
+      "low52": 1337.91,
       "high52": 1554.48,
-      "pct52": 0.007,
-      "chg3m": -10.97
+      "pct52": 0,
+      "chg3m": -11.16
     },
     "^GSPC": {
       "last": 7773.95,
@@ -101,11 +101,11 @@
       "chg3m": 6.21
     },
     "^VIX": {
-      "last": 15.5,
+      "last": 15.46,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.115,
-      "chg3m": 3.13
+      "pct52": 0.113,
+      "chg3m": 2.86
     },
     "^TNX": {
       "last": 5.31,
@@ -366,69 +366,69 @@
   "news": {
     "kr": [
       {
-        "title": "국고채 금리 혼조세…3년물 연 3.933%",
-        "link": "https://www.yna.co.kr/view/AKR20261006159700008",
+        "title": "이창용·한은 연구진 \"고소득 화이트칼라 주52시간 예외로 해야\"",
+        "link": "https://www.yna.co.kr/view/AKR20261006173300004",
         "source": "연합뉴스",
-        "date": "Tue, 6 Oct 2026 16:41:20 +0900",
+        "date": "Tue, 6 Oct 2026 17:39:05 +0900",
         "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "금리 일간 등락은 장기 기업이익과 직접 관련이 적습니다.",
-        "by": "ai"
-      },
-      {
-        "title": "\"3분기가 바닥\"...LG이노텍, 환율 악재 지나고 우주·기판 기대에 12% 급등",
-        "link": "https://www.hankyung.com/article/202610065633i",
-        "source": "한국경제",
-        "date": "Tue, 06 Oct 2026 16:17:37 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "분기 실적 기대와 환율 변동에 따른 단기 주가 움직임입니다.",
-        "by": "ai"
-      },
-      {
-        "title": "삼성전기에 LG전자·이노텍까지 담았다…전기전자株 집중매수 [주식 초고수는 지금]",
-        "link": "https://www.mk.co.kr/news/stock/12169377",
-        "source": "매일경제",
-        "date": "Tue, 06 Oct 2026 16:07:07 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "sector",
-        "why": "특정 투자자들의 단기 매매 동향일 뿐 구조 변화는 아닙니다.",
-        "by": "ai"
-      },
-      {
-        "title": "증권사 보안 침해사고 파악에 최장 15일…안전관리 위반도 다수",
-        "link": "https://www.yna.co.kr/view/AKR20261006154600008",
-        "source": "연합뉴스",
-        "date": "Tue, 6 Oct 2026 16:37:39 +0900",
-        "act": "watch",
         "lasting": "structural",
-        "scope": "sector",
-        "why": "보안 관리 체계 문제는 규제 강화로 이어질 수 있어 지켜볼 만합니다.",
+        "scope": "market",
+        "why": "노동시간 규제 논의 단계라 당장 기업 이익에 미치는 영향은 불확실합니다.",
         "by": "ai"
       },
       {
-        "title": "삼성증권, 발행어음 특판 흥행…연 5%대 금리로 성장 지원",
-        "link": "https://www.hankyung.com/article/2026100647051",
+        "title": "900선 탈환한 코스닥…주성엔지니어링 17%대 급등에 시총 3위 등극",
+        "link": "https://www.hankyung.com/article/202610066145i",
         "source": "한국경제",
-        "date": "Tue, 06 Oct 2026 15:58:05 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "특판 상품 흥행은 일시적 영업 이벤트에 가깝습니다.",
-        "by": "ai"
-      },
-      {
-        "title": "“코스닥 상승장 시작됐나”…3% 가까이 급등, 코스피는 하락",
-        "link": "https://www.mk.co.kr/news/stock/12169352",
-        "source": "매일경제",
-        "date": "Tue, 06 Oct 2026 15:57:04 +09:00",
+        "date": "Tue, 06 Oct 2026 16:56:41 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "하루 지수 등락으로 시장 구조가 바뀌었다고 보기 어렵습니다.",
+        "why": "지수와 특정 종목의 하루 급등락은 장기 가치와 무관합니다.",
+        "by": "ai"
+      },
+      {
+        "title": "[미국 주식 돋보기] 데이터센터 전력 구원투수 '비코' 고공행진",
+        "link": "https://www.mk.co.kr/news/stock/12169520",
+        "source": "매일경제",
+        "date": "Tue, 06 Oct 2026 17:38:37 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "sector",
+        "why": "해외 개별 종목의 주가 강세 소식일 뿐 보유 근거와는 거리가 있습니다.",
+        "by": "ai"
+      },
+      {
+        "title": "국고채 금리, 대외금리 연동하며 혼조세…3년물 3.933%(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261006159751008",
+        "source": "연합뉴스",
+        "date": "Tue, 6 Oct 2026 17:18:16 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "금리의 일중 혼조세는 늘 있는 변동으로 오늘 할 일은 없습니다.",
+        "by": "ai"
+      },
+      {
+        "title": "믿었던 채권에 발등…퇴직연금 TDF 열에 아홉 '마이너스'",
+        "link": "https://www.hankyung.com/article/202610066021i",
+        "source": "한국경제",
+        "date": "Tue, 06 Oct 2026 16:52:55 +0900",
+        "act": "watch",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "연금 상품 수익률 부진은 본인 자산 배분을 점검해볼 계기입니다.",
+        "by": "ai"
+      },
+      {
+        "title": "삼성전자 '꿈의 영업이익' 눈앞 … 100조 훌쩍 넘나, 살짝 넘나",
+        "link": "https://www.mk.co.kr/news/stock/12169500",
+        "source": "매일경제",
+        "date": "Tue, 06 Oct 2026 17:29:58 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "sector",
+        "why": "실적 추정 보도는 대체로 가격에 먼저 반영돼 있습니다.",
         "by": "ai"
       }
     ],
@@ -811,48 +811,6 @@
     "The case for Nvidia’s stock to march even higher after clinching its first record high in months": "엔비디아의 주가가 몇 달 만에 사상 최고치를 경신한 후 더 높은 상승세를 보인 사례"
   },
   "nvCache": {
-    "https://www.yna.co.kr/view/AKR20261001027300008": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "증권사 목표가 조정은 단기 전망 변화로 보유 근거를 바꾸지 않습니다.",
-      "by": "ai"
-    },
-    "https://www.hankyung.com/article/202609305001i": {
-      "act": "watch",
-      "lasting": "structural",
-      "scope": "market",
-      "why": "상장사 자산 공시 제도 변화라 시장 전반에 오래 영향이 갑니다.",
-      "by": "ai"
-    },
-    "https://www.mk.co.kr/news/stock/12165573": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "저점·배당 매력을 다룬 시황성 기사로 오늘 할 일은 없습니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20261001027500008": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "원자재 가격에 따른 실적 전망 조정은 흔히 반복되는 변동입니다.",
-      "by": "ai"
-    },
-    "https://www.hankyung.com/article/202610016031i": {
-      "act": "watch",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "금리와 물가 흐름은 시장 전체 분위기라 흐름만 지켜보면 됩니다.",
-      "by": "ai"
-    },
-    "https://www.mk.co.kr/news/stock/12165562": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "판매·환율에 따른 목표가 하향은 단기 요인에 가깝습니다.",
-      "by": "ai"
-    },
     "https://www.marketwatch.com/story/the-15-worst-performing-s-p-500-stocks-during-a-dismal-september-991f8a07?mod=mw_rss_topstories": {
       "act": "none",
       "lasting": "temporary",
@@ -2910,6 +2868,48 @@
       "scope": "market",
       "why": "하루 지수 등락으로 시장 구조가 바뀌었다고 보기 어렵습니다.",
       "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261006173300004": {
+      "act": "none",
+      "lasting": "structural",
+      "scope": "market",
+      "why": "노동시간 규제 논의 단계라 당장 기업 이익에 미치는 영향은 불확실합니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/202610066145i": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "지수와 특정 종목의 하루 급등락은 장기 가치와 무관합니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12169520": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "sector",
+      "why": "해외 개별 종목의 주가 강세 소식일 뿐 보유 근거와는 거리가 있습니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261006159751008": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "금리의 일중 혼조세는 늘 있는 변동으로 오늘 할 일은 없습니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/202610066021i": {
+      "act": "watch",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "연금 상품 수익률 부진은 본인 자산 배분을 점검해볼 계기입니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12169500": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "sector",
+      "why": "실적 추정 보도는 대체로 가격에 먼저 반영돼 있습니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2953,7 +2953,7 @@
       "2026-10-03": 1342.51,
       "2026-10-04": 1342.9,
       "2026-10-05": 1342.07,
-      "2026-10-06": 1340.69
+      "2026-10-06": 1338.25
     },
     "^GSPC": {
       "2026-09-25": 7743.41,
@@ -2995,7 +2995,7 @@
       "2026-10-03": 15.31,
       "2026-10-04": 15.31,
       "2026-10-05": 15.52,
-      "2026-10-06": 15.5
+      "2026-10-06": 15.46
     },
     "^TNX": {
       "2026-09-25": 5.184,
