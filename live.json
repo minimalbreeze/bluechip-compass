@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-06T20:48:41.247Z",
+  "asOf": "2026-10-06T20:59:30.647Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-06T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1337.39,
+      "price": 1337.56,
       "prev": 1342.56005859375,
-      "chg": -0.39,
+      "chg": -0.37,
       "prevDay": "2026-10-05",
       "basis": "prev-close-bar",
-      "time": "2026-10-06T20:48:29.000Z"
+      "time": "2026-10-06T20:59:17.000Z"
     },
     "^GSPC": {
       "price": 7818.93,
@@ -40,7 +40,7 @@
       "chg": 0.45,
       "prevDay": "2026-10-05",
       "basis": "prev-close-bar",
-      "time": "2026-10-06T20:48:30.000Z"
+      "time": "2026-10-06T20:59:19.000Z"
     },
     "^VIX": {
       "price": 15.01,
@@ -60,7 +60,7 @@
     }
   },
   "fx": {
-    "low52": 1337.39,
+    "low52": 1337.56,
     "high52": 1554.48,
     "pct": 0
   },
@@ -80,11 +80,11 @@
       "chg3m": 3.07
     },
     "KRW=X": {
-      "last": 1337.39,
-      "low52": 1337.39,
+      "last": 1337.56,
+      "low52": 1337.56,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -10.75
+      "chg3m": -10.74
     },
     "^GSPC": {
       "last": 7818.93,
@@ -388,14 +388,14 @@
         "by": "ai"
       },
       {
-        "title": "“한국 증시만 이런 거예요?”…고금리 뚫고 신고가 찍은 美나스닥",
-        "link": "https://www.mk.co.kr/news/world/12169636",
+        "title": "삼전 ‘영업익 100조’ 예고에도 주가는 영…8일도 심상치않다는데",
+        "link": "https://www.mk.co.kr/news/stock/12169872",
         "source": "매일경제",
-        "date": "Tue, 06 Oct 2026 18:22:52 +09:00",
+        "date": "Wed, 07 Oct 2026 05:57:43 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
-        "why": "해외 지수 비교 기사로, 보유 근거를 바꿀 내용은 없습니다.",
+        "scope": "company",
+        "why": "실적 전망과 단기 주가 흐름 이야기로, 장기 근거를 바꾸는 내용은 아닙니다.",
         "by": "ai"
       },
       {
@@ -421,14 +421,14 @@
         "by": "ai"
       },
       {
-        "title": "리튬포어스, 13억원 규모 유상증자 실시",
-        "link": "https://www.mk.co.kr/news/stock/12169623",
+        "title": "“한국 증시만 이런 거예요?”…고금리 뚫고 신고가 찍은 美나스닥",
+        "link": "https://www.mk.co.kr/news/world/12169636",
         "source": "매일경제",
-        "date": "Tue, 06 Oct 2026 17:59:23 +09:00",
-        "act": "watch",
+        "date": "Tue, 06 Oct 2026 18:22:52 +09:00",
+        "act": "none",
         "lasting": "temporary",
-        "scope": "company",
-        "why": "소규모 증자라 자금 용도 정도만 가볍게 살펴보면 됩니다.",
+        "scope": "market",
+        "why": "해외 지수 비교 기사로, 보유 근거를 바꿀 내용은 없습니다.",
         "by": "ai"
       }
     ],
@@ -811,13 +811,6 @@
     "Oct. 9 has loomed large in stock-market history. Why investors still shouldn’t buy into an October jinx.": "10월 9일은 주식 시장의 역사에서 큰 반향을 일으켰습니다. 투자자들이 여전히 10월 징크스에 매수해서는 안 되는 이유."
   },
   "nvCache": {
-    "https://www.yna.co.kr/view/AKR20261001072500060": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "지자체 행정 교류 소식으로 기업 이익과 직접 연결되지 않습니다.",
-      "by": "ai"
-    },
     "https://www.yna.co.kr/view/AKR20261001081000002": {
       "act": "none",
       "lasting": "structural",
@@ -2910,6 +2903,13 @@
       "scope": "market",
       "why": "특정 달의 징크스는 기업 이익과 무관한 계절적 이야기입니다.",
       "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12169872": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "실적 전망과 단기 주가 흐름 이야기로, 장기 근거를 바꾸는 내용은 아닙니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2953,7 +2953,7 @@
       "2026-10-03": 1342.51,
       "2026-10-04": 1342.9,
       "2026-10-05": 1342.07,
-      "2026-10-06": 1337.39
+      "2026-10-06": 1337.56
     },
     "^GSPC": {
       "2026-09-25": 7743.41,
