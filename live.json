@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-06T12:51:48.860Z",
+  "asOf": "2026-10-06T13:22:21.836Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-06T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1339.68,
+      "price": 1338.21,
       "prev": 1342.56005859375,
-      "chg": -0.21,
+      "chg": -0.32,
       "prevDay": "2026-10-05",
       "basis": "prev-close-bar",
-      "time": "2026-10-06T12:51:22.000Z"
+      "time": "2026-10-06T13:22:02.000Z"
     },
     "^GSPC": {
       "price": 7773.95,
@@ -43,26 +43,26 @@
       "time": "2026-10-05T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 15.33,
+      "price": 15.29,
       "prev": 15.520000457763672,
-      "chg": -1.22,
+      "chg": -1.48,
       "prevDay": "2026-10-05",
       "basis": "prev-close-bar",
-      "time": "2026-10-06T12:36:16.000Z"
+      "time": "2026-10-06T13:07:01.000Z"
     },
     "^TNX": {
-      "price": 5.273,
+      "price": 5.275,
       "prev": 5.310999870300293,
-      "chg": -0.72,
+      "chg": -0.68,
       "prevDay": "2026-10-05",
       "basis": "prev-close-bar",
-      "time": "2026-10-06T12:36:24.000Z"
+      "time": "2026-10-06T13:07:04.000Z"
     }
   },
   "fx": {
-    "low52": 1339.17,
+    "low52": 1338.21,
     "high52": 1554.48,
-    "pct": 0.002
+    "pct": 0
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": 5.93
     },
     "KRW=X": {
-      "last": 1339.68,
-      "low52": 1339.17,
+      "last": 1338.21,
+      "low52": 1338.21,
       "high52": 1554.48,
-      "pct52": 0.002,
-      "chg3m": -11.04
+      "pct52": 0,
+      "chg3m": -11.14
     },
     "^GSPC": {
       "last": 7773.95,
@@ -101,18 +101,18 @@
       "chg3m": 6.21
     },
     "^VIX": {
-      "last": 15.33,
+      "last": 15.29,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.106,
-      "chg3m": 2
+      "pct52": 0.104,
+      "chg3m": 1.73
     },
     "^TNX": {
-      "last": 5.27,
+      "last": 5.28,
       "low52": 3.95,
       "high52": 5.31,
-      "pct52": 0.972,
-      "chg3m": 16.17
+      "pct52": 0.973,
+      "chg3m": 16.22
     }
   },
   "regime": {
@@ -434,6 +434,30 @@
     ],
     "us": [
       {
+        "title": "Trade deficit hits $105.6 billion, widest since just before Trump tariffs enacted last year",
+        "link": "https://www.cnbc.com/2026/10/06/trade-deficit-hits-105point6-billion-widest-since-just-before-trump-tariffs-enacted-last-year.html",
+        "source": "CNBC",
+        "date": "Tue, 06 Oct 2026 13:07:57 GMT",
+        "ko": "무역 적자는 지난해 트럼프 관세 부과 직전보다 가장 큰 1056억 달러 ($) 를 기록했다.",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "월간 무역수지 수치는 변동이 크고 기업 이익과 직접 연결되지 않습니다.",
+        "by": "ai"
+      },
+      {
+        "title": "Wall Street is hyping AI. This fund manager is betting instead on fires, HVAC and Berkshire Hathaway.",
+        "link": "https://www.marketwatch.com/story/wall-street-is-hyping-ai-this-fund-manager-is-betting-instead-on-fires-hvac-and-berkshire-hathaway-1b70fbea?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "date": "Tue, 06 Oct 2026 13:13:00 GMT",
+        "ko": "월스트리트는 인공지능을 흥분시키고 있습니다. 이 펀드 매니저는 화재, HVAC 및 버크셔 해서웨이에 베팅하고 있습니다.",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "특정 운용사의 투자 견해 소개일 뿐, 기업 이익을 바꾸는 사실은 없습니다.",
+        "by": "ai"
+      },
+      {
         "title": "Men are losing ground in the labor market. Here's why",
         "link": "https://www.cnbc.com/2026/10/02/men-labor-market-jobs-report.html",
         "source": "CNBC",
@@ -443,30 +467,6 @@
         "lasting": "structural",
         "scope": "market",
         "why": "고용 구조의 장기 흐름을 다룬 분석으로 당장 할 일은 없습니다.",
-        "by": "ai"
-      },
-      {
-        "title": "Wall Street is hyping AI. This fund manager is betting instead on fires, HVAC and Berkshire Hathaway.",
-        "link": "https://www.marketwatch.com/story/wall-street-is-hyping-ai-this-fund-manager-is-betting-instead-on-fires-hvac-and-berkshire-hathaway-1b70fbea?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "date": "Tue, 06 Oct 2026 12:44:00 GMT",
-        "ko": "월스트리트는 인공지능을 흥분시키고 있습니다. 이 펀드 매니저는 화재, HVAC 및 버크셔 해서웨이에 베팅하고 있습니다.",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "특정 운용사의 투자 견해 소개일 뿐, 기업 이익을 바꾸는 사실은 없습니다.",
-        "by": "ai"
-      },
-      {
-        "title": "Labor market faltered in September as jobs increased by just 29,000, unemployment rate rose to 4.2%",
-        "link": "https://www.cnbc.com/2026/10/02/jobs-report-september-2026.html",
-        "source": "CNBC",
-        "date": "Fri, 02 Oct 2026 13:45:58 GMT",
-        "ko": "9월에 일자리가 29,000개 증가하고 실업률이 4.2% 로 증가하면서 노동 시장은 흔들렸다.",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "월간 고용 지표는 변동이 큰 단기 수치로, 기업 10년 이익과는 거리가 멉니다.",
         "by": "ai"
       },
       {
@@ -482,15 +482,15 @@
         "by": "ai"
       },
       {
-        "title": "The September jobs report will be released Friday. Here's what to expect",
-        "link": "https://www.cnbc.com/2026/10/01/the-september-jobs-report-will-be-released-friday-heres-what-to-expect.html",
+        "title": "Labor market faltered in September as jobs increased by just 29,000, unemployment rate rose to 4.2%",
+        "link": "https://www.cnbc.com/2026/10/02/jobs-report-september-2026.html",
         "source": "CNBC",
-        "date": "Thu, 01 Oct 2026 18:55:02 GMT",
-        "ko": "9월 일자리 보고서는 금요일에 발표될 예정입니다. 알아두어야 할 사항",
+        "date": "Fri, 02 Oct 2026 13:45:58 GMT",
+        "ko": "9월에 일자리가 29,000개 증가하고 실업률이 4.2% 로 증가하면서 노동 시장은 흔들렸다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "발표 예고 기사로 새 내용이 없어 오늘 할 일은 없습니다.",
+        "why": "월간 고용 지표는 변동이 큰 단기 수치로, 기업 10년 이익과는 거리가 멉니다.",
         "by": "ai"
       },
       {
@@ -509,7 +509,6 @@
   },
   "newsBy": "ai",
   "trCache": {
-    "AVAX Eyes 90% Price Rally As Wall Street Tests Avalanche for 24/7 Tokenized Trading": "월스트리트가 연중무휴 토큰화된 거래를 위해 눈사태를 테스트함에 따라 AVAX Eyes 90% 가격 랠리",
     "CoreWeave Rises After Going Live With Vera Rubin Racks. What This Means for CRWV Stock.": "CoreWeave는 Vera Rubin 랙과 함께 라이브를 한 후 상승합니다. CRWV 주식에 대한 의미.",
     "Apple Wants to Enter the AI Inference Market. It Will Have to Swallow Its Pride First.": "Apple은 AI 추론 시장에 진입하기를 원합니다. 자존심을 먼저 삼켜야 할 것이다.",
     "What this machine-learning model with 65% accuracy says is coming next for the 10-year Treasury": "65% 의 정확도를 갖춘 이 기계 학습 모델이 말하는 것은 10년 재무부의 다음 단계입니다.",
@@ -808,16 +807,10 @@
     "The S&P 500 is facing rate chaos and narrow breadth. Why one Goldman Sachs insider is still bullish on stocks.": "S&P 500은 금리 혼란과 좁은 폭에 직면해 있습니다. 골드만 삭스 내부자가 여전히 주식에 대해 낙관적인 이유.",
     "Should I put my nest egg in a 30-year Treasury bond?": "내 둥지 알을 30년 국채에 넣어야 할까?",
     "Wall Street is hyping AI. This fund manager is betting instead on fires, HVAC and Berkshire Hathaway.": "월스트리트는 인공지능을 흥분시키고 있습니다. 이 펀드 매니저는 화재, HVAC 및 버크셔 해서웨이에 베팅하고 있습니다.",
-    "America’s favorite index is misleading investors about the state of the stock market": "미국이 가장 선호하는 지수는 주식 시장의 상태에 대해 투자자를 현혹하는 것입니다."
+    "America’s favorite index is misleading investors about the state of the stock market": "미국이 가장 선호하는 지수는 주식 시장의 상태에 대해 투자자를 현혹하는 것입니다.",
+    "Trade deficit hits $105.6 billion, widest since just before Trump tariffs enacted last year": "무역 적자는 지난해 트럼프 관세 부과 직전보다 가장 큰 1056억 달러 ($) 를 기록했다."
   },
   "nvCache": {
-    "https://www.yna.co.kr/view/AKR20261001047900008": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "고객 대상 판촉 행사로 장기 이익과는 거리가 먼 소식입니다.",
-      "by": "ai"
-    },
     "https://www.yna.co.kr/view/AKR20261001046100008": {
       "act": "none",
       "lasting": "temporary",
@@ -2910,6 +2903,13 @@
       "scope": "market",
       "why": "지수 해석에 대한 논평일 뿐 기업 이익과는 무관합니다.",
       "by": "ai"
+    },
+    "https://www.cnbc.com/2026/10/06/trade-deficit-hits-105point6-billion-widest-since-just-before-trump-tariffs-enacted-last-year.html": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "월간 무역수지 수치는 변동이 크고 기업 이익과 직접 연결되지 않습니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2953,7 +2953,7 @@
       "2026-10-03": 1342.51,
       "2026-10-04": 1342.9,
       "2026-10-05": 1342.07,
-      "2026-10-06": 1339.68
+      "2026-10-06": 1338.21
     },
     "^GSPC": {
       "2026-09-25": 7743.41,
@@ -2995,7 +2995,7 @@
       "2026-10-03": 15.31,
       "2026-10-04": 15.31,
       "2026-10-05": 15.52,
-      "2026-10-06": 15.33
+      "2026-10-06": 15.29
     },
     "^TNX": {
       "2026-09-25": 5.184,
@@ -3009,7 +3009,7 @@
       "2026-10-03": 5.277,
       "2026-10-04": 5.277,
       "2026-10-05": 5.311,
-      "2026-10-06": 5.273
+      "2026-10-06": 5.275
     },
     "105560.KS": {
       "2026-09-25": 173200,
