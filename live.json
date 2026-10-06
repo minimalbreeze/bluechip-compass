@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-06T18:11:36.082Z",
+  "asOf": "2026-10-06T18:22:07.233Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,36 +19,36 @@
       "time": "2026-10-06T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1338.17,
+      "price": 1338.11,
       "prev": 1342.56005859375,
       "chg": -0.33,
       "prevDay": "2026-10-05",
       "basis": "prev-close-bar",
-      "time": "2026-10-06T18:11:24.000Z"
+      "time": "2026-10-06T18:21:44.000Z"
     },
     "^GSPC": {
-      "price": 7830.53,
+      "price": 7826.64,
       "prev": 7773.9501953125,
-      "chg": 0.73,
-      "prevDay": "2026-10-05",
-      "basis": "prev-close-bar",
-      "time": "2026-10-06T18:11:28.000Z"
-    },
-    "^IXIC": {
-      "price": 27665.36,
-      "prev": 27477.310546875,
       "chg": 0.68,
       "prevDay": "2026-10-05",
       "basis": "prev-close-bar",
-      "time": "2026-10-06T18:11:28.000Z"
+      "time": "2026-10-06T18:21:53.000Z"
     },
-    "^VIX": {
-      "price": 15.08,
-      "prev": 15.520000457763672,
-      "chg": -2.84,
+    "^IXIC": {
+      "price": 27654.344,
+      "prev": 27477.310546875,
+      "chg": 0.64,
       "prevDay": "2026-10-05",
       "basis": "prev-close-bar",
-      "time": "2026-10-06T17:56:16.000Z"
+      "time": "2026-10-06T18:21:50.000Z"
+    },
+    "^VIX": {
+      "price": 15.04,
+      "prev": 15.520000457763672,
+      "chg": -3.09,
+      "prevDay": "2026-10-05",
+      "basis": "prev-close-bar",
+      "time": "2026-10-06T18:06:46.000Z"
     },
     "^TNX": {
       "price": 5.269,
@@ -56,11 +56,11 @@
       "chg": -0.79,
       "prevDay": "2026-10-05",
       "basis": "prev-close-bar",
-      "time": "2026-10-06T17:56:24.000Z"
+      "time": "2026-10-06T18:06:44.000Z"
     }
   },
   "fx": {
-    "low52": 1338.17,
+    "low52": 1338.11,
     "high52": 1554.48,
     "pct": 0
   },
@@ -80,32 +80,32 @@
       "chg3m": 3.07
     },
     "KRW=X": {
-      "last": 1338.17,
-      "low52": 1338.17,
+      "last": 1338.11,
+      "low52": 1338.11,
       "high52": 1554.48,
       "pct52": 0,
       "chg3m": -11.14
     },
     "^GSPC": {
-      "last": 7830.53,
+      "last": 7826.64,
       "low52": 6343.72,
-      "high52": 7830.53,
+      "high52": 7826.64,
       "pct52": 1,
-      "chg3m": 3.8
+      "chg3m": 3.75
     },
     "^IXIC": {
-      "last": 27665.36,
+      "last": 27653.12,
       "low52": 20794.64,
-      "high52": 27665.36,
+      "high52": 27653.12,
       "pct52": 1,
-      "chg3m": 5.57
+      "chg3m": 5.52
     },
     "^VIX": {
-      "last": 15.08,
+      "last": 15.04,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.092,
-      "chg3m": 0.33
+      "pct52": 0.089,
+      "chg3m": 0.07
     },
     "^TNX": {
       "last": 5.27,
@@ -258,108 +258,108 @@
     },
     "us": {
       "MSFT": {
-        "price": 531.02,
+        "price": 531.39,
         "prev": 525.1799926757812,
-        "chg": 1.11,
+        "chg": 1.18,
         "prevDay": "2026-10-05",
         "basis": "prev-close-bar",
-        "time": "2026-10-06T18:11:33.000Z"
+        "time": "2026-10-06T18:22:02.000Z"
       },
       "AAPL": {
-        "price": 333.13,
+        "price": 332.88,
         "prev": 332.8900146484375,
+        "chg": 0,
+        "prevDay": "2026-10-05",
+        "basis": "prev-close-bar",
+        "time": "2026-10-06T18:22:02.000Z"
+      },
+      "GOOGL": {
+        "price": 348.697,
+        "prev": 346.4700012207031,
+        "chg": 0.64,
+        "prevDay": "2026-10-05",
+        "basis": "prev-close-bar",
+        "time": "2026-10-06T18:22:03.000Z"
+      },
+      "BRK.B": {
+        "price": 506.365,
+        "prev": 504.260009765625,
+        "chg": 0.42,
+        "prevDay": "2026-10-05",
+        "basis": "prev-close-bar",
+        "time": "2026-10-06T18:21:54.000Z"
+      },
+      "V": {
+        "price": 369.96,
+        "prev": 369.7099914550781,
         "chg": 0.07,
         "prevDay": "2026-10-05",
         "basis": "prev-close-bar",
-        "time": "2026-10-06T18:11:34.000Z"
+        "time": "2026-10-06T18:21:53.000Z"
       },
-      "GOOGL": {
-        "price": 348.195,
-        "prev": 346.4700012207031,
+      "JNJ": {
+        "price": 254.96,
+        "prev": 252.92999267578125,
+        "chg": 0.8,
+        "prevDay": "2026-10-05",
+        "basis": "prev-close-bar",
+        "time": "2026-10-06T18:22:01.000Z"
+      },
+      "PG": {
+        "price": 148.53,
+        "prev": 145.94000244140625,
+        "chg": 1.77,
+        "prevDay": "2026-10-05",
+        "basis": "prev-close-bar",
+        "time": "2026-10-06T18:22:02.000Z"
+      },
+      "KO": {
+        "price": 86.56,
+        "prev": 86.51000213623047,
+        "chg": 0.06,
+        "prevDay": "2026-10-05",
+        "basis": "prev-close-bar",
+        "time": "2026-10-06T18:22:03.000Z"
+      },
+      "COST": {
+        "price": 932.31,
+        "prev": 923.52001953125,
+        "chg": 0.95,
+        "prevDay": "2026-10-05",
+        "basis": "prev-close-bar",
+        "time": "2026-10-06T18:22:02.000Z"
+      },
+      "WM": {
+        "price": 208.14,
+        "prev": 206.66000366210938,
+        "chg": 0.72,
+        "prevDay": "2026-10-05",
+        "basis": "prev-close-bar",
+        "time": "2026-10-06T18:22:00.000Z"
+      },
+      "LIN": {
+        "price": 491.585,
+        "prev": 482.3800048828125,
+        "chg": 1.91,
+        "prevDay": "2026-10-05",
+        "basis": "prev-close-bar",
+        "time": "2026-10-06T18:22:02.000Z"
+      },
+      "XOM": {
+        "price": 165.295,
+        "prev": 164,
+        "chg": 0.79,
+        "prevDay": "2026-10-05",
+        "basis": "prev-close-bar",
+        "time": "2026-10-06T18:21:54.000Z"
+      },
+      "NVDA": {
+        "price": 240.105,
+        "prev": 238.89999389648438,
         "chg": 0.5,
         "prevDay": "2026-10-05",
         "basis": "prev-close-bar",
-        "time": "2026-10-06T18:11:26.000Z"
-      },
-      "BRK.B": {
-        "price": 506.105,
-        "prev": 504.260009765625,
-        "chg": 0.37,
-        "prevDay": "2026-10-05",
-        "basis": "prev-close-bar",
-        "time": "2026-10-06T18:11:30.000Z"
-      },
-      "V": {
-        "price": 369.785,
-        "prev": 369.7099914550781,
-        "chg": 0.02,
-        "prevDay": "2026-10-05",
-        "basis": "prev-close-bar",
-        "time": "2026-10-06T18:11:29.000Z"
-      },
-      "JNJ": {
-        "price": 254.87,
-        "prev": 252.92999267578125,
-        "chg": 0.77,
-        "prevDay": "2026-10-05",
-        "basis": "prev-close-bar",
-        "time": "2026-10-06T18:11:34.000Z"
-      },
-      "PG": {
-        "price": 148.6,
-        "prev": 145.94000244140625,
-        "chg": 1.82,
-        "prevDay": "2026-10-05",
-        "basis": "prev-close-bar",
-        "time": "2026-10-06T18:11:22.000Z"
-      },
-      "KO": {
-        "price": 86.665,
-        "prev": 86.51000213623047,
-        "chg": 0.18,
-        "prevDay": "2026-10-05",
-        "basis": "prev-close-bar",
-        "time": "2026-10-06T18:11:23.000Z"
-      },
-      "COST": {
-        "price": 932.7,
-        "prev": 923.52001953125,
-        "chg": 0.99,
-        "prevDay": "2026-10-05",
-        "basis": "prev-close-bar",
-        "time": "2026-10-06T18:11:29.000Z"
-      },
-      "WM": {
-        "price": 208.09,
-        "prev": 206.66000366210938,
-        "chg": 0.69,
-        "prevDay": "2026-10-05",
-        "basis": "prev-close-bar",
-        "time": "2026-10-06T18:11:26.000Z"
-      },
-      "LIN": {
-        "price": 492.01,
-        "prev": 482.3800048828125,
-        "chg": 2,
-        "prevDay": "2026-10-05",
-        "basis": "prev-close-bar",
-        "time": "2026-10-06T18:11:28.000Z"
-      },
-      "XOM": {
-        "price": 165.43,
-        "prev": 164,
-        "chg": 0.87,
-        "prevDay": "2026-10-05",
-        "basis": "prev-close-bar",
-        "time": "2026-10-06T18:11:35.000Z"
-      },
-      "NVDA": {
-        "price": 240.355,
-        "prev": 238.89999389648438,
-        "chg": 0.61,
-        "prevDay": "2026-10-05",
-        "basis": "prev-close-bar",
-        "time": "2026-10-06T18:11:34.000Z"
+        "time": "2026-10-06T18:22:02.000Z"
       }
     }
   },
@@ -446,15 +446,15 @@
         "by": "ai"
       },
       {
-        "title": "These 5 chip stocks are cheaper than the S&P 500 — and offer faster growth",
-        "link": "https://www.marketwatch.com/story/these-5-chip-stocks-are-cheaper-than-the-s-p-500-and-offer-faster-growth-f8ab4386?mod=mw_rss_topstories",
+        "title": "How Meta’s stock can surge to $1,000, according to the biggest bull on Wall Street",
+        "link": "https://www.marketwatch.com/story/how-metas-stock-can-surge-to-1-000-according-to-the-biggest-bull-on-wall-street-a91afff3?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Tue, 06 Oct 2026 15:57:00 GMT",
-        "ko": "이 5개의 칩 재고는 S&P 500보다 저렴하며 더 빠른 성장을 제공합니다.",
+        "date": "Tue, 06 Oct 2026 18:20:00 GMT",
+        "ko": "월스트리트에서 가장 큰 황소에 따르면 메타의 주식이 $1,000까지 급등할 수 있는 방법",
         "act": "none",
         "lasting": "temporary",
-        "scope": "sector",
-        "why": "저평가 종목을 추천하는 분석글로, 기업 실적 자체가 달라진 소식은 아닙니다.",
+        "scope": "company",
+        "why": "증권가 목표주가 전망일 뿐 기업 이익 구조가 바뀐 소식은 아닙니다.",
         "by": "ai"
       },
       {
@@ -470,15 +470,15 @@
         "by": "ai"
       },
       {
-        "title": "Should I put my nest egg in a 30-year Treasury bond?",
-        "link": "https://www.marketwatch.com/story/should-i-put-my-nest-egg-in-a-30-year-treasury-bond-89db6e09?mod=mw_rss_topstories",
+        "title": "These 5 chip stocks are cheaper than the S&P 500 — and offer faster growth",
+        "link": "https://www.marketwatch.com/story/these-5-chip-stocks-are-cheaper-than-the-s-p-500-and-offer-faster-growth-f8ab4386?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Tue, 06 Oct 2026 14:11:00 GMT",
-        "ko": "내 둥지 알을 30년 국채에 넣어야 할까?",
+        "date": "Tue, 06 Oct 2026 15:57:00 GMT",
+        "ko": "이 5개의 칩 재고는 S&P 500보다 저렴하며 더 빠른 성장을 제공합니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
-        "why": "특정 기업 실적이 아닌 자산배분 의견 기사라 오늘 할 일은 없습니다.",
+        "scope": "sector",
+        "why": "저평가 종목을 추천하는 분석글로, 기업 실적 자체가 달라진 소식은 아닙니다.",
         "by": "ai"
       },
       {
@@ -494,22 +494,21 @@
         "by": "ai"
       },
       {
-        "title": "Prediction markets are coming for pop culture",
-        "link": "https://www.marketwatch.com/story/prediction-markets-are-coming-for-pop-culture-f54e883e?mod=mw_rss_topstories",
+        "title": "Should I put my nest egg in a 30-year Treasury bond?",
+        "link": "https://www.marketwatch.com/story/should-i-put-my-nest-egg-in-a-30-year-treasury-bond-89db6e09?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Tue, 06 Oct 2026 13:58:00 GMT",
-        "ko": "대중 문화에 대한 예측 시장이 다가오고 있습니다",
+        "date": "Tue, 06 Oct 2026 14:11:00 GMT",
+        "ko": "내 둥지 알을 30년 국채에 넣어야 할까?",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "새로운 시장 등장 소식일 뿐, 보유 근거와 연결할 정보는 제목만으로 알기 어렵습니다.",
+        "why": "특정 기업 실적이 아닌 자산배분 의견 기사라 오늘 할 일은 없습니다.",
         "by": "ai"
       }
     ]
   },
   "newsBy": "ai",
   "trCache": {
-    "Stock market today: Nasdaq, Dow and S&P 500 little changed as AI trade powers market": "오늘날의 주식 시장: 나스닥, 다우 및 S&P 500은 AI 거래가 시장을 주도함에 따라 거의 변하지 않았습니다.",
     "Corporate bond buyers get picky with flood of AI debt": "회사 채권 구매자는 AI 부채의 홍수로 까다로워집니다",
     "How this market-beating fund is constantly shifting to keep up with the AI trade": "AI 거래를 따라잡기 위해 이 시장을 공략하는 펀드가 끊임없이 변화하는 방식",
     "12 S&P 500 Stocks Hit Trillion-Dollar Club — What Could Go Wrong?": "12 S&P 500 주식이 1조 달러 클럽을 강타함 — 무엇이 잘못될 수 있습니까?",
@@ -808,16 +807,10 @@
     "Trade deficit hits $105.6 billion, widest since just before Trump tariffs enacted last year": "무역 적자는 지난해 트럼프 관세 부과 직전보다 가장 큰 1056억 달러 ($) 를 기록했다.",
     "Fed minutes coming tomorrow could give markets important clues about future rate hikes": "내일 예정된 연방준비제도 (Fed) 회의록을 통해 시장은 향후 금리 인상에 대한 중요한 단서를 얻을 수 있습니다",
     "Prediction markets are coming for pop culture": "대중 문화에 대한 예측 시장이 다가오고 있습니다",
-    "These 5 chip stocks are cheaper than the S&P 500 — and offer faster growth": "이 5개의 칩 재고는 S&P 500보다 저렴하며 더 빠른 성장을 제공합니다."
+    "These 5 chip stocks are cheaper than the S&P 500 — and offer faster growth": "이 5개의 칩 재고는 S&P 500보다 저렴하며 더 빠른 성장을 제공합니다.",
+    "How Meta’s stock can surge to $1,000, according to the biggest bull on Wall Street": "월스트리트에서 가장 큰 황소에 따르면 메타의 주식이 $1,000까지 급등할 수 있는 방법"
   },
   "nvCache": {
-    "https://www.yna.co.kr/view/AKR20261001055500008": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "금리 흐름에 따른 투자 자금 이동으로, 기업 가치 변화는 아닙니다.",
-      "by": "ai"
-    },
     "https://www.hankyung.com/article/2026100165966": {
       "act": "none",
       "lasting": "temporary",
@@ -2910,6 +2903,13 @@
       "scope": "sector",
       "why": "저평가 종목을 추천하는 분석글로, 기업 실적 자체가 달라진 소식은 아닙니다.",
       "by": "ai"
+    },
+    "https://www.marketwatch.com/story/how-metas-stock-can-surge-to-1-000-according-to-the-biggest-bull-on-wall-street-a91afff3?mod=mw_rss_topstories": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "증권가 목표주가 전망일 뿐 기업 이익 구조가 바뀐 소식은 아닙니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2953,7 +2953,7 @@
       "2026-10-03": 1342.51,
       "2026-10-04": 1342.9,
       "2026-10-05": 1342.07,
-      "2026-10-06": 1338.17
+      "2026-10-06": 1338.11
     },
     "^GSPC": {
       "2026-09-25": 7743.41,
@@ -2967,7 +2967,7 @@
       "2026-10-03": 7722.72,
       "2026-10-04": 7722.72,
       "2026-10-05": 7773.95,
-      "2026-10-06": 7830.53
+      "2026-10-06": 7826.64
     },
     "^IXIC": {
       "2026-09-25": 27068.717,
@@ -2981,7 +2981,7 @@
       "2026-10-03": 27190.863,
       "2026-10-04": 27190.863,
       "2026-10-05": 27477.31,
-      "2026-10-06": 27665.36
+      "2026-10-06": 27654.344
     },
     "^VIX": {
       "2026-09-25": 14.87,
@@ -2995,7 +2995,7 @@
       "2026-10-03": 15.31,
       "2026-10-04": 15.31,
       "2026-10-05": 15.52,
-      "2026-10-06": 15.08
+      "2026-10-06": 15.04
     },
     "^TNX": {
       "2026-09-25": 5.184,
@@ -3205,7 +3205,7 @@
       "2026-10-03": 517.53,
       "2026-10-04": 517.53,
       "2026-10-05": 525.18,
-      "2026-10-06": 531.02
+      "2026-10-06": 531.39
     },
     "AAPL": {
       "2026-09-25": 341.07,
@@ -3219,7 +3219,7 @@
       "2026-10-03": 333.69,
       "2026-10-04": 333.69,
       "2026-10-05": 332.89,
-      "2026-10-06": 333.13
+      "2026-10-06": 332.88
     },
     "GOOGL": {
       "2026-09-25": 343.92,
@@ -3233,7 +3233,7 @@
       "2026-10-03": 343.5,
       "2026-10-04": 343.5,
       "2026-10-05": 346.47,
-      "2026-10-06": 348.195
+      "2026-10-06": 348.697
     },
     "BRK.B": {
       "2026-08-29": 505,
@@ -3254,7 +3254,7 @@
       "2026-10-03": 360.66,
       "2026-10-04": 360.66,
       "2026-10-05": 369.71,
-      "2026-10-06": 369.785
+      "2026-10-06": 369.96
     },
     "JNJ": {
       "2026-09-25": 271.22,
@@ -3268,7 +3268,7 @@
       "2026-10-03": 256.03,
       "2026-10-04": 256.03,
       "2026-10-05": 252.93,
-      "2026-10-06": 254.87
+      "2026-10-06": 254.96
     },
     "PG": {
       "2026-09-25": 146.23,
@@ -3282,7 +3282,7 @@
       "2026-10-03": 144.91,
       "2026-10-04": 144.91,
       "2026-10-05": 145.94,
-      "2026-10-06": 148.6
+      "2026-10-06": 148.53
     },
     "KO": {
       "2026-09-25": 87.81,
@@ -3296,7 +3296,7 @@
       "2026-10-03": 85.65,
       "2026-10-04": 85.65,
       "2026-10-05": 86.51,
-      "2026-10-06": 86.665
+      "2026-10-06": 86.56
     },
     "COST": {
       "2026-09-25": 922.765,
@@ -3310,7 +3310,7 @@
       "2026-10-03": 920.65,
       "2026-10-04": 920.65,
       "2026-10-05": 923.52,
-      "2026-10-06": 932.7
+      "2026-10-06": 932.31
     },
     "WM": {
       "2026-09-25": 206.83,
@@ -3324,7 +3324,7 @@
       "2026-10-03": 204.45,
       "2026-10-04": 204.45,
       "2026-10-05": 206.66,
-      "2026-10-06": 208.09
+      "2026-10-06": 208.14
     },
     "LIN": {
       "2026-09-25": 469.89,
@@ -3338,7 +3338,7 @@
       "2026-10-03": 479.48,
       "2026-10-04": 479.48,
       "2026-10-05": 482.38,
-      "2026-10-06": 492.01
+      "2026-10-06": 491.585
     },
     "XOM": {
       "2026-09-25": 160.59,
@@ -3352,7 +3352,7 @@
       "2026-10-03": 164.01,
       "2026-10-04": 164.01,
       "2026-10-05": 164,
-      "2026-10-06": 165.43
+      "2026-10-06": 165.295
     },
     "NVDA": {
       "2026-09-25": 225.07,
@@ -3366,7 +3366,7 @@
       "2026-10-03": 233.95,
       "2026-10-04": 233.95,
       "2026-10-05": 238.9,
-      "2026-10-06": 240.355
+      "2026-10-06": 240.105
     },
     "BRK-B": {
       "2026-09-25": 505.48,
@@ -3380,7 +3380,7 @@
       "2026-10-03": 502.65,
       "2026-10-04": 502.65,
       "2026-10-05": 504.26,
-      "2026-10-06": 506.105
+      "2026-10-06": 506.365
     }
   },
   "failed": [
