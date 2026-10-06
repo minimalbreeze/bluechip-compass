@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-06T08:49:40.066Z",
+  "asOf": "2026-10-06T09:50:14.372Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-06T06:32:40.000Z"
     },
     "KRW=X": {
-      "price": 1338.25,
+      "price": 1338.14,
       "prev": 1342.56005859375,
-      "chg": -0.32,
+      "chg": -0.33,
       "prevDay": "2026-10-05",
       "basis": "prev-close-bar",
-      "time": "2026-10-06T08:49:24.000Z"
+      "time": "2026-10-06T09:49:42.000Z"
     },
     "^GSPC": {
       "price": 7773.95,
@@ -43,12 +43,12 @@
       "time": "2026-10-05T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 15.46,
+      "price": 15.4,
       "prev": 15.520000457763672,
-      "chg": -0.39,
+      "chg": -0.77,
       "prevDay": "2026-10-05",
       "basis": "prev-close-bar",
-      "time": "2026-10-06T08:34:16.000Z"
+      "time": "2026-10-06T09:34:46.000Z"
     },
     "^TNX": {
       "price": 5.311,
@@ -60,7 +60,7 @@
     }
   },
   "fx": {
-    "low52": 1337.91,
+    "low52": 1338.14,
     "high52": 1554.48,
     "pct": 0
   },
@@ -80,11 +80,11 @@
       "chg3m": 5.93
     },
     "KRW=X": {
-      "last": 1337.91,
-      "low52": 1337.91,
+      "last": 1338.14,
+      "low52": 1338.14,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -11.16
+      "chg3m": -11.14
     },
     "^GSPC": {
       "last": 7773.95,
@@ -101,11 +101,11 @@
       "chg3m": 6.21
     },
     "^VIX": {
-      "last": 15.46,
+      "last": 15.4,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.113,
-      "chg3m": 2.86
+      "pct52": 0.11,
+      "chg3m": 2.46
     },
     "^TNX": {
       "last": 5.31,
@@ -366,6 +366,39 @@
   "news": {
     "kr": [
       {
+        "title": "알테오젠, 알테오젠바이오로직스 합병 결정",
+        "link": "https://www.yna.co.kr/view/AKR20261006176900017",
+        "source": "연합뉴스",
+        "date": "Tue, 6 Oct 2026 17:51:40 +0900",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": "company",
+        "why": "자회사 합병은 사업 구조가 바뀌는 일이라 변화 내용만 확인해 두면 됩니다.",
+        "by": "ai"
+      },
+      {
+        "title": "증권맨도 '집 사자'…사내대출 증가액, 작년분 44% 넘었다",
+        "link": "https://www.hankyung.com/article/202610066467i",
+        "source": "한국경제",
+        "date": "Tue, 06 Oct 2026 18:06:49 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "업계 분위기를 보여주는 소식일 뿐 기업 이익과는 거리가 멉니다.",
+        "by": "ai"
+      },
+      {
+        "title": "“한국 증시만 이런 거예요?”…고금리 뚫고 신고가 찍은 美나스닥",
+        "link": "https://www.mk.co.kr/news/world/12169636",
+        "source": "매일경제",
+        "date": "Tue, 06 Oct 2026 18:22:52 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "해외 지수 비교 기사로, 보유 근거를 바꿀 내용은 없습니다.",
+        "by": "ai"
+      },
+      {
         "title": "이창용·한은 연구진 \"고소득 화이트칼라 주52시간 예외로 해야\"",
         "link": "https://www.yna.co.kr/view/AKR20261006173300004",
         "source": "연합뉴스",
@@ -377,58 +410,25 @@
         "by": "ai"
       },
       {
-        "title": "900선 탈환한 코스닥…주성엔지니어링 17%대 급등에 시총 3위 등극",
-        "link": "https://www.hankyung.com/article/202610066145i",
+        "title": "배당 우수기업 분산투자…'대신 주주환원펀드' 출시",
+        "link": "https://www.hankyung.com/article/2026100663371",
         "source": "한국경제",
-        "date": "Tue, 06 Oct 2026 16:56:41 +0900",
+        "date": "Tue, 06 Oct 2026 17:53:39 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "지수와 특정 종목의 하루 급등락은 장기 가치와 무관합니다.",
+        "why": "신규 상품 출시 안내라 기존 투자 판단과는 무관합니다.",
         "by": "ai"
       },
       {
-        "title": "[미국 주식 돋보기] 데이터센터 전력 구원투수 '비코' 고공행진",
-        "link": "https://www.mk.co.kr/news/stock/12169520",
+        "title": "리튬포어스, 13억원 규모 유상증자 실시",
+        "link": "https://www.mk.co.kr/news/stock/12169623",
         "source": "매일경제",
-        "date": "Tue, 06 Oct 2026 17:38:37 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "sector",
-        "why": "해외 개별 종목의 주가 강세 소식일 뿐 보유 근거와는 거리가 있습니다.",
-        "by": "ai"
-      },
-      {
-        "title": "국고채 금리, 대외금리 연동하며 혼조세…3년물 3.933%(종합)",
-        "link": "https://www.yna.co.kr/view/AKR20261006159751008",
-        "source": "연합뉴스",
-        "date": "Tue, 6 Oct 2026 17:18:16 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "금리의 일중 혼조세는 늘 있는 변동으로 오늘 할 일은 없습니다.",
-        "by": "ai"
-      },
-      {
-        "title": "믿었던 채권에 발등…퇴직연금 TDF 열에 아홉 '마이너스'",
-        "link": "https://www.hankyung.com/article/202610066021i",
-        "source": "한국경제",
-        "date": "Tue, 06 Oct 2026 16:52:55 +0900",
+        "date": "Tue, 06 Oct 2026 17:59:23 +09:00",
         "act": "watch",
         "lasting": "temporary",
-        "scope": "market",
-        "why": "연금 상품 수익률 부진은 본인 자산 배분을 점검해볼 계기입니다.",
-        "by": "ai"
-      },
-      {
-        "title": "삼성전자 '꿈의 영업이익' 눈앞 … 100조 훌쩍 넘나, 살짝 넘나",
-        "link": "https://www.mk.co.kr/news/stock/12169500",
-        "source": "매일경제",
-        "date": "Tue, 06 Oct 2026 17:29:58 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "sector",
-        "why": "실적 추정 보도는 대체로 가격에 먼저 반영돼 있습니다.",
+        "scope": "company",
+        "why": "소규모 증자라 자금 용도 정도만 가볍게 살펴보면 됩니다.",
         "by": "ai"
       }
     ],
@@ -446,15 +446,15 @@
         "by": "ai"
       },
       {
-        "title": "The case for Nvidia’s stock to march even higher after clinching its first record high in months",
-        "link": "https://www.marketwatch.com/story/the-case-for-nvidias-stock-to-march-even-higher-after-clinching-its-first-record-high-in-months-2bb5a937?mod=mw_rss_topstories",
+        "title": "The S&P 500 is facing rate chaos and narrow breadth. Why one Goldman Sachs insider is still bullish on stocks.",
+        "link": "https://www.marketwatch.com/story/the-s-p-500-is-facing-rate-chaos-and-narrow-breadth-why-one-goldman-sachs-insider-is-still-bullish-on-stocks-84a20206?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 05 Oct 2026 21:52:00 GMT",
-        "ko": "엔비디아의 주가가 몇 달 만에 사상 최고치를 경신한 후 더 높은 상승세를 보인 사례",
+        "date": "Tue, 06 Oct 2026 09:20:00 GMT",
+        "ko": "S&P 500은 금리 혼란과 좁은 폭에 직면해 있습니다. 골드만 삭스 내부자가 여전히 주식에 대해 낙관적인 이유.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
-        "why": "주가 신고가는 가격 움직임일 뿐, 회사의 장기 이익 구조를 바꾸는 소식은 아닙니다.",
+        "scope": "market",
+        "why": "금리 전망과 증권사 시황 의견은 수시로 바뀌는 단기 코멘트입니다.",
         "by": "ai"
       },
       {
@@ -470,15 +470,15 @@
         "by": "ai"
       },
       {
-        "title": "Microsoft’s blazing stock comeback isn’t even close to being over, analyst says",
-        "link": "https://www.marketwatch.com/story/microsofts-blazing-stock-comeback-isnt-even-close-to-being-over-analyst-says-265f7b6d?mod=mw_rss_topstories",
+        "title": "The case for Nvidia’s stock to march even higher after clinching its first record high in months",
+        "link": "https://www.marketwatch.com/story/the-case-for-nvidias-stock-to-march-even-higher-after-clinching-its-first-record-high-in-months-2bb5a937?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 05 Oct 2026 21:27:00 GMT",
-        "ko": "애널리스트는 Microsoft의 놀라운 주식 복귀가 거의 끝나지 않았다고 말합니다.",
+        "date": "Mon, 05 Oct 2026 21:52:00 GMT",
+        "ko": "엔비디아의 주가가 몇 달 만에 사상 최고치를 경신한 후 더 높은 상승세를 보인 사례",
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
-        "why": "애널리스트 목표주가 의견일 뿐, 회사의 장기 이익 구조와는 무관합니다.",
+        "why": "주가 신고가는 가격 움직임일 뿐, 회사의 장기 이익 구조를 바꾸는 소식은 아닙니다.",
         "by": "ai"
       },
       {
@@ -494,22 +494,21 @@
         "by": "ai"
       },
       {
-        "title": "Western Digital and Seagate shares bounce back as analysts downplay the Toshiba threat",
-        "link": "https://www.marketwatch.com/story/western-digital-and-seagate-shares-bounce-back-as-analysts-downplay-the-toshiba-threat-4979dbff?mod=mw_rss_topstories",
+        "title": "Microsoft’s blazing stock comeback isn’t even close to being over, analyst says",
+        "link": "https://www.marketwatch.com/story/microsofts-blazing-stock-comeback-isnt-even-close-to-being-over-analyst-says-265f7b6d?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 05 Oct 2026 21:25:00 GMT",
-        "ko": "Western Digital 및 Seagate 주식은 분석가들이 도시바 위협을 경시하면서 반등합니다.",
+        "date": "Mon, 05 Oct 2026 21:27:00 GMT",
+        "ko": "애널리스트는 Microsoft의 놀라운 주식 복귀가 거의 끝나지 않았다고 말합니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "sector",
-        "why": "분석가 의견에 따른 단기 반등으로, 업황의 구조가 바뀐 신호로 보기는 어렵습니다.",
+        "scope": "company",
+        "why": "애널리스트 목표주가 의견일 뿐, 회사의 장기 이익 구조와는 무관합니다.",
         "by": "ai"
       }
     ]
   },
   "newsBy": "ai",
   "trCache": {
-    "Meta’s stock is enjoying its best month in 13 years thanks to the company’s hot new AI assistant": "Meta의 주식은 회사의 새로운 인공지능 비서 덕분에 13년 만에 최고의 달을 누리고 있습니다.",
     "Nebius’s Price Hike Suggests Michael Burry Made a Mistake and Is Shorting the Best Neocloud Stock": "Nebius의 가격 인상은 Michael Burry가 실수를 저질렀으며 최고의 Neocloud 주식을 반감시키고 있다고 제안합니다.",
     "'This could be something more substantial': Wall Street braces for more Fed rate hikes": "'이것은 더 실질적인 것일 수 있습니다': 더 많은 연준 금리 인상을위한 월스트리트 교정기",
     "Domino's Pizza Stock Is Dirt Cheap, With 30% Potential Upside - What's the Best Play?": "도미노 피자 스톡은 30% 의 잠재력을 가진 흙이 저렴합니다 - 최고의 플레이는 무엇입니까?",
@@ -808,51 +807,10 @@
     "SpaceX’s stock could actually be a bargain, according to this metric": "이 메트릭에 따르면 SpaceX의 주식은 실제로 거래가 될 수 있습니다.",
     "Microsoft’s blazing stock comeback isn’t even close to being over, analyst says": "애널리스트는 Microsoft의 놀라운 주식 복귀가 거의 끝나지 않았다고 말합니다.",
     "Western Digital and Seagate shares bounce back as analysts downplay the Toshiba threat": "Western Digital 및 Seagate 주식은 분석가들이 도시바 위협을 경시하면서 반등합니다.",
-    "The case for Nvidia’s stock to march even higher after clinching its first record high in months": "엔비디아의 주가가 몇 달 만에 사상 최고치를 경신한 후 더 높은 상승세를 보인 사례"
+    "The case for Nvidia’s stock to march even higher after clinching its first record high in months": "엔비디아의 주가가 몇 달 만에 사상 최고치를 경신한 후 더 높은 상승세를 보인 사례",
+    "The S&P 500 is facing rate chaos and narrow breadth. Why one Goldman Sachs insider is still bullish on stocks.": "S&P 500은 금리 혼란과 좁은 폭에 직면해 있습니다. 골드만 삭스 내부자가 여전히 주식에 대해 낙관적인 이유."
   },
   "nvCache": {
-    "https://www.marketwatch.com/story/the-15-worst-performing-s-p-500-stocks-during-a-dismal-september-991f8a07?mod=mw_rss_topstories": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "한 달 주가 등락 정리 기사라 장기 이익과는 무관합니다.",
-      "by": "ai"
-    },
-    "https://www.mk.co.kr/news/stock/12165576": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "증권사 전망 코멘트로, 장기 수익 구조가 바뀐 사실은 아닙니다.",
-      "by": "ai"
-    },
-    "https://www.mk.co.kr/news/stock/12165575": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "배당 여력에 대한 추정치일 뿐 확정된 정책 변화는 아닙니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20261001034000003": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "sector",
-      "why": "월간 수출 지표는 경기 흐름일 뿐 구조 변화로 보기 어렵습니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20261001040400008": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "sector",
-      "why": "동종업체 실적과 주가가 따로 움직인 하루 단위 변동입니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20261001037100008": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "장중 지수 등락은 일상적인 흐름입니다.",
-      "by": "ai"
-    },
     "https://www.yna.co.kr/view/AKR20261001030100030": {
       "act": "none",
       "lasting": "temporary",
@@ -2910,6 +2868,48 @@
       "scope": "sector",
       "why": "실적 추정 보도는 대체로 가격에 먼저 반영돼 있습니다.",
       "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261006176900017": {
+      "act": "watch",
+      "lasting": "structural",
+      "scope": "company",
+      "why": "자회사 합병은 사업 구조가 바뀌는 일이라 변화 내용만 확인해 두면 됩니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/202610066467i": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "업계 분위기를 보여주는 소식일 뿐 기업 이익과는 거리가 멉니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/world/12169636": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "해외 지수 비교 기사로, 보유 근거를 바꿀 내용은 없습니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/2026100663371": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "신규 상품 출시 안내라 기존 투자 판단과는 무관합니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12169623": {
+      "act": "watch",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "소규모 증자라 자금 용도 정도만 가볍게 살펴보면 됩니다.",
+      "by": "ai"
+    },
+    "https://www.marketwatch.com/story/the-s-p-500-is-facing-rate-chaos-and-narrow-breadth-why-one-goldman-sachs-insider-is-still-bullish-on-stocks-84a20206?mod=mw_rss_topstories": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "금리 전망과 증권사 시황 의견은 수시로 바뀌는 단기 코멘트입니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2953,7 +2953,7 @@
       "2026-10-03": 1342.51,
       "2026-10-04": 1342.9,
       "2026-10-05": 1342.07,
-      "2026-10-06": 1338.25
+      "2026-10-06": 1338.14
     },
     "^GSPC": {
       "2026-09-25": 7743.41,
@@ -2995,7 +2995,7 @@
       "2026-10-03": 15.31,
       "2026-10-04": 15.31,
       "2026-10-05": 15.52,
-      "2026-10-06": 15.46
+      "2026-10-06": 15.4
     },
     "^TNX": {
       "2026-09-25": 5.184,
