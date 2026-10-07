@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-07T09:36:02.387Z",
+  "asOf": "2026-10-07T10:36:47.004Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-07T06:32:50.000Z"
     },
     "KRW=X": {
-      "price": 1338.69,
+      "price": 1337.9,
       "prev": 1343.75,
-      "chg": -0.38,
+      "chg": -0.44,
       "prevDay": "2026-10-06",
       "basis": "prev-close-bar",
-      "time": "2026-10-07T09:35:42.000Z"
+      "time": "2026-10-07T10:36:18.000Z"
     },
     "^GSPC": {
       "price": 7818.93,
@@ -43,12 +43,12 @@
       "time": "2026-10-06T22:31:33.000Z"
     },
     "^VIX": {
-      "price": 15.32,
+      "price": 15.58,
       "prev": 15.010000228881836,
-      "chg": 2.07,
+      "chg": 3.8,
       "prevDay": "2026-10-06",
       "basis": "prev-close-bar",
-      "time": "2026-10-07T09:20:46.000Z"
+      "time": "2026-10-07T10:21:16.000Z"
     },
     "^TNX": {
       "price": 5.269,
@@ -60,7 +60,7 @@
     }
   },
   "fx": {
-    "low52": 1338.69,
+    "low52": 1337.9,
     "high52": 1554.48,
     "pct": 0
   },
@@ -80,11 +80,11 @@
       "chg3m": 6.06
     },
     "KRW=X": {
-      "last": 1338.69,
-      "low52": 1338.69,
+      "last": 1337.9,
+      "low52": 1337.9,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -10.66
+      "chg3m": -10.72
     },
     "^GSPC": {
       "last": 7818.93,
@@ -101,11 +101,11 @@
       "chg3m": 5.32
     },
     "^VIX": {
-      "last": 15.32,
+      "last": 15.58,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.105,
-      "chg3m": -10.72
+      "pct52": 0.12,
+      "chg3m": -9.21
     },
     "^TNX": {
       "last": 5.27,
@@ -366,18 +366,18 @@
   "news": {
     "kr": [
       {
-        "title": "BGF, 반도체 소재 손자회사 지분 전량 매입…지배구조 개편(종합)",
-        "link": "https://www.yna.co.kr/view/AKR20261007167551008",
+        "title": "엔키화이트햇·마더스제약, 코스닥 상장예심 통과",
+        "link": "https://www.yna.co.kr/view/AKR20261007189900008",
         "source": "연합뉴스",
-        "date": "Wed, 7 Oct 2026 18:06:09 +0900",
+        "date": "Wed, 7 Oct 2026 18:57:11 +0900",
         "act": "none",
-        "lasting": "structural",
+        "lasting": "temporary",
         "scope": "company",
-        "why": "지배구조 정리는 구조적 변화지만 당장 이익 흐름을 바꾸진 않습니다.",
+        "why": "상장 예심 통과는 절차상 단계로 장기 이익과는 별개입니다.",
         "by": "ai"
       },
       {
-        "title": "삼전, 자사주 매입 없는 첫날 '선방'…단기 변동성 주의",
+        "title": "\"삼성전자 더 떨어질 줄 알았는데\"…주가 버틴 이유 있었다",
         "link": "https://www.hankyung.com/article/2026100790911",
         "source": "한국경제",
         "date": "Wed, 07 Oct 2026 17:31:19 +0900",
@@ -399,14 +399,14 @@
         "by": "ai"
       },
       {
-        "title": "에피소드컴퍼니, 140억원 제3자배정 유상증자",
-        "link": "https://www.yna.co.kr/view/AKR20261007174800008",
+        "title": "이소영 장관 \"홈플러스 협력업체 정책자금 금리인하 적극 검토\"",
+        "link": "https://www.yna.co.kr/view/AKR20261007188500030",
         "source": "연합뉴스",
-        "date": "Wed, 7 Oct 2026 17:29:15 +0900",
-        "act": "watch",
+        "date": "Wed, 7 Oct 2026 18:38:44 +0900",
+        "act": "none",
         "lasting": "temporary",
-        "scope": "company",
-        "why": "자금 조달로 주식 수가 늘어날 수 있어 사용처를 확인해볼 만합니다.",
+        "scope": "sector",
+        "why": "협력업체 금융 지원 검토 단계로 구조 변화로 보기 어렵습니다.",
         "by": "ai"
       },
       {
@@ -446,15 +446,15 @@
         "by": "ai"
       },
       {
-        "title": "Meta stock achieves a golden cross as shares thrive since Muse introduction",
-        "link": "https://www.marketwatch.com/story/meta-stock-achieves-a-golden-cross-as-shares-thrive-since-muse-introduction-5ba818d4?mod=mw_rss_topstories",
+        "title": "Elon Musk and Intel CEO shore up chipmaker’s role in Terafab project — and here’s what the news is doing to the stock.",
+        "link": "https://www.marketwatch.com/story/elon-musk-and-intel-ceo-shore-up-chipmakers-role-in-terafab-project-and-heres-what-the-news-is-doing-to-the-stock-315d0974?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Wed, 07 Oct 2026 08:07:00 GMT",
-        "ko": "Muse 도입 이후 주식이 번창함에 따라 메타 주식은 황금 십자가를 달성합니다.",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "차트 신호와 단기 주가 흐름일 뿐, 10년 뒤 이익과는 무관합니다.",
+        "date": "Wed, 07 Oct 2026 10:24:00 GMT",
+        "ko": "일론 머스크 (Elon Musk) 와 인텔 CEO는 테라팹 프로젝트에서 칩메이커의 역할을 강조했습니다. 이 소식이 주식에 미치는 영향은 다음과 같습니다.",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": "sector",
+        "why": "반도체 생산 구조에 관한 장기 이슈지만 제목만으로는 확정 내용이 없어 지켜보는 정도입니다.",
         "by": "ai"
       },
       {
@@ -470,15 +470,15 @@
         "by": "ai"
       },
       {
-        "title": "The S&P 500 is back in record territory as the ‘Magnificent Seven’ ride to the rescue",
-        "link": "https://www.marketwatch.com/story/the-s-p-500-is-back-in-record-territory-as-the-magnificent-seven-ride-to-the-rescue-e062724d?mod=mw_rss_topstories",
+        "title": "Meta stock achieves a golden cross as shares thrive since Muse introduction",
+        "link": "https://www.marketwatch.com/story/meta-stock-achieves-a-golden-cross-as-shares-thrive-since-muse-introduction-5ba818d4?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Tue, 06 Oct 2026 21:52:00 GMT",
-        "ko": "S&P 500은 ‘매그니피센트 세븐‘ 의 구조 작전으로 기록적인 영토로 돌아왔습니다.",
+        "date": "Wed, 07 Oct 2026 08:07:00 GMT",
+        "ko": "Muse 도입 이후 주식이 번창함에 따라 메타 주식은 황금 십자가를 달성합니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
-        "why": "지수 신고가는 일시적 흐름이며 기업 이익 구조를 바꾸지 않습니다.",
+        "scope": "company",
+        "why": "차트 신호와 단기 주가 흐름일 뿐, 10년 뒤 이익과는 무관합니다.",
         "by": "ai"
       },
       {
@@ -509,7 +509,6 @@
   },
   "newsBy": "ai",
   "trCache": {
-    "GameStop stock jumps as CEO Ryan Cohen buys $26 million in shares": "CEO 라이언 코헨 (Ryan Cohen) 이 $26,000,000의 주식을 매수하면서 GameStop 주가가 뛰어오릅니다.",
     "Why Muse just added billions to Meta's market cap": "Muse가 Meta의 시가 총액에 수십억 달러를 추가한 이유",
     "Stock market today: Dow slips, Nasdaq and S&P 500 drift higher as oil pares losses after Trump's UN address": "오늘날의 주식 시장: 다우 슬립, 나스닥 및 S&P 500은 트럼프의 유엔 연설 이후 유가 손실에 따라 더 높아진다.",
     "Tax-free bond yields are in a sweet spot. Get in before it’s too late.": "비과세 채권 수익률은 좋은 위치에 있습니다. 늦기 전에 입장하세요.",
@@ -808,30 +807,10 @@
     "Oct. 9 has loomed large in stock-market history. Why investors still shouldn’t buy into an October jinx.": "10월 9일은 주식 시장의 역사에서 큰 반향을 일으켰습니다. 투자자들이 여전히 10월 징크스에 매수해서는 안 되는 이유.",
     "India’s central bank hikes rates for the first time since 2023 as inflation creeps up": "인플레이션이 기승을 부리면서 인도 중앙은행이 2023년 이후 처음으로 금리를 인상했습니다.",
     "India’s central bank hikes rates for the first time since 2023 as inflation risks build": "인플레이션 위험이 커짐에 따라 인도 중앙은행이 2023년 이후 처음으로 금리를 인상합니다.",
-    "Meta stock achieves a golden cross as shares thrive since Muse introduction": "Muse 도입 이후 주식이 번창함에 따라 메타 주식은 황금 십자가를 달성합니다."
+    "Meta stock achieves a golden cross as shares thrive since Muse introduction": "Muse 도입 이후 주식이 번창함에 따라 메타 주식은 황금 십자가를 달성합니다.",
+    "Elon Musk and Intel CEO shore up chipmaker’s role in Terafab project — and here’s what the news is doing to the stock.": "일론 머스크 (Elon Musk) 와 인텔 CEO는 테라팹 프로젝트에서 칩메이커의 역할을 강조했습니다. 이 소식이 주식에 미치는 영향은 다음과 같습니다."
   },
   "nvCache": {
-    "https://www.yna.co.kr/view/AKR20261001193100002": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "sector",
-      "why": "증시 상황에 따른 상환 증가로, 증권업 구조가 바뀐 일은 아닙니다.",
-      "by": "ai"
-    },
-    "https://www.marketwatch.com/story/the-stock-market-is-anything-but-normal-right-now-and-these-charts-show-it-91ea187d?mod=mw_rss_topstories": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "시장 분위기를 설명하는 해설로 기업 이익과는 무관합니다.",
-      "by": "ai"
-    },
-    "https://www.marketwatch.com/story/republicans-sabotaged-their-own-bill-to-prevent-people-in-congress-from-trading-stocks-why-828ef40d?mod=mw_rss_topstories": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "의원 주식거래 규제 논의 단계일 뿐 기업 실적에 영향은 없습니다.",
-      "by": "ai"
-    },
     "https://www.hankyung.com/article/2026100178786": {
       "act": "none",
       "lasting": "temporary",
@@ -2910,6 +2889,27 @@
       "scope": "market",
       "why": "특정 기간 수익률 비교라 장기 보유 판단을 바꾸진 않습니다.",
       "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261007189900008": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "상장 예심 통과는 절차상 단계로 장기 이익과는 별개입니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261007188500030": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "sector",
+      "why": "협력업체 금융 지원 검토 단계로 구조 변화로 보기 어렵습니다.",
+      "by": "ai"
+    },
+    "https://www.marketwatch.com/story/elon-musk-and-intel-ceo-shore-up-chipmakers-role-in-terafab-project-and-heres-what-the-news-is-doing-to-the-stock-315d0974?mod=mw_rss_topstories": {
+      "act": "watch",
+      "lasting": "structural",
+      "scope": "sector",
+      "why": "반도체 생산 구조에 관한 장기 이슈지만 제목만으로는 확정 내용이 없어 지켜보는 정도입니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2953,7 +2953,7 @@
       "2026-10-04": 1342.9,
       "2026-10-05": 1342.07,
       "2026-10-06": 1336.82,
-      "2026-10-07": 1338.69
+      "2026-10-07": 1337.9
     },
     "^GSPC": {
       "2026-09-26": 7743.41,
@@ -2995,7 +2995,7 @@
       "2026-10-04": 15.31,
       "2026-10-05": 15.52,
       "2026-10-06": 15.01,
-      "2026-10-07": 15.32
+      "2026-10-07": 15.58
     },
     "^TNX": {
       "2026-09-26": 5.184,
