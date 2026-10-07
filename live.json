@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-07T07:49:22.877Z",
+  "asOf": "2026-10-07T08:35:35.379Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-07T06:32:50.000Z"
     },
     "KRW=X": {
-      "price": 1337.83,
+      "price": 1337.74,
       "prev": 1343.75,
-      "chg": -0.44,
+      "chg": -0.45,
       "prevDay": "2026-10-06",
       "basis": "prev-close-bar",
-      "time": "2026-10-07T07:49:02.000Z"
+      "time": "2026-10-07T08:35:14.000Z"
     },
     "^GSPC": {
       "price": 7818.93,
@@ -43,12 +43,12 @@
       "time": "2026-10-06T22:31:33.000Z"
     },
     "^VIX": {
-      "price": 15.23,
+      "price": 15.25,
       "prev": 15.010000228881836,
-      "chg": 1.47,
+      "chg": 1.6,
       "prevDay": "2026-10-06",
       "basis": "prev-close-bar",
-      "time": "2026-10-07T07:34:01.000Z"
+      "time": "2026-10-07T08:20:01.000Z"
     },
     "^TNX": {
       "price": 5.269,
@@ -60,7 +60,7 @@
     }
   },
   "fx": {
-    "low52": 1337.83,
+    "low52": 1337.74,
     "high52": 1554.48,
     "pct": 0
   },
@@ -80,11 +80,11 @@
       "chg3m": 6.06
     },
     "KRW=X": {
-      "last": 1337.83,
-      "low52": 1337.83,
+      "last": 1337.74,
+      "low52": 1337.74,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -10.72
+      "chg3m": -10.73
     },
     "^GSPC": {
       "last": 7818.93,
@@ -101,11 +101,11 @@
       "chg3m": 5.32
     },
     "^VIX": {
-      "last": 15.23,
+      "last": 15.25,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.1,
-      "chg3m": -11.25
+      "pct52": 0.101,
+      "chg3m": -11.13
     },
     "^TNX": {
       "last": 5.27,
@@ -366,25 +366,25 @@
   "news": {
     "kr": [
       {
-        "title": "국고채 금리 대체로 상승…3년물 연 3.961%",
-        "link": "https://www.yna.co.kr/view/AKR20261007163200008",
+        "title": "에피소드컴퍼니, 140억원 제3자배정 유상증자",
+        "link": "https://www.yna.co.kr/view/AKR20261007174800008",
         "source": "연합뉴스",
-        "date": "Wed, 7 Oct 2026 16:40:47 +0900",
-        "act": "none",
+        "date": "Wed, 7 Oct 2026 17:29:15 +0900",
+        "act": "watch",
         "lasting": "temporary",
-        "scope": "market",
-        "why": "금리는 매일 오르내리는 지표로 장기 수익성과는 거리가 있습니다.",
+        "scope": "company",
+        "why": "자금 조달로 주식 수가 늘어날 수 있어 사용처를 확인해볼 만합니다.",
         "by": "ai"
       },
       {
-        "title": "은행주 밸류업 2막...'얼마나 잘 버느냐'가 주가 가른다",
-        "link": "https://www.hankyung.com/article/202610078173i",
+        "title": "올해 680% 뛴 가온전선, 장중 시총 10조 돌파…'빅테크 배전'이 몸값 바꿨다",
+        "link": "https://www.hankyung.com/article/202610078842i",
         "source": "한국경제",
-        "date": "Wed, 07 Oct 2026 15:56:18 +0900",
+        "date": "Wed, 07 Oct 2026 16:48:32 +0900",
         "act": "none",
         "lasting": "structural",
         "scope": "sector",
-        "why": "주주환원 흐름이 수익성 중심으로 옮겨가는 업종 해설로, 오늘 할 일은 없습니다.",
+        "why": "전력·배전 수요 확대라는 흐름이지만 급등 자체는 이미 가격에 반영된 상태입니다.",
         "by": "ai"
       },
       {
@@ -399,25 +399,25 @@
         "by": "ai"
       },
       {
-        "title": "외국인직접투자 3분기 누적 도착액 149억달러…역대 최대",
-        "link": "https://www.yna.co.kr/view/AKR20261007156000003",
+        "title": "예보, OK금융그룹과 예별손보 주식매매계약서 체결",
+        "link": "https://www.yna.co.kr/view/AKR20261007174300002",
         "source": "연합뉴스",
-        "date": "Wed, 7 Oct 2026 16:12:44 +0900",
+        "date": "Wed, 7 Oct 2026 17:27:33 +0900",
         "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "투자 유입 지표 호조일 뿐 개별 기업 이익과 직접 연결되진 않습니다.",
+        "lasting": "structural",
+        "scope": "company",
+        "why": "매각 계약은 지배구조 변화지만 장기 이익 영향은 아직 알기 어렵습니다.",
         "by": "ai"
       },
       {
-        "title": "코스피, 1.98% 내린 6803 마감…코스닥 2.34% 하락",
-        "link": "https://www.hankyung.com/article/2026100786516",
+        "title": "\"앱토스, 기관용 블록체인 개선안 '모노무브' 선보여\"",
+        "link": "https://www.hankyung.com/article/2026100789396",
         "source": "한국경제",
-        "date": "Wed, 07 Oct 2026 15:36:41 +0900",
+        "date": "Wed, 07 Oct 2026 16:45:45 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
-        "why": "하루 지수 등락은 장기 수익과 무관한 일상적 변동입니다.",
+        "scope": "sector",
+        "why": "해외 블록체인 기술 소식으로 국내 보유 종목과 직접 연결되지 않습니다.",
         "by": "ai"
       },
       {
@@ -446,15 +446,15 @@
         "by": "ai"
       },
       {
-        "title": "The S&P 500 is back in record territory as the ‘Magnificent Seven’ ride to the rescue",
-        "link": "https://www.marketwatch.com/story/the-s-p-500-is-back-in-record-territory-as-the-magnificent-seven-ride-to-the-rescue-e062724d?mod=mw_rss_topstories",
+        "title": "Meta stock achieves a golden cross as shares thrive since Muse introduction",
+        "link": "https://www.marketwatch.com/story/meta-stock-achieves-a-golden-cross-as-shares-thrive-since-muse-introduction-5ba818d4?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Tue, 06 Oct 2026 21:52:00 GMT",
-        "ko": "S&P 500은 ‘매그니피센트 세븐‘ 의 구조 작전으로 기록적인 영토로 돌아왔습니다.",
+        "date": "Wed, 07 Oct 2026 08:07:00 GMT",
+        "ko": "Muse 도입 이후 주식이 번창함에 따라 메타 주식은 황금 십자가를 달성합니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
-        "why": "지수 신고가는 일시적 흐름이며 기업 이익 구조를 바꾸지 않습니다.",
+        "scope": "company",
+        "why": "차트 신호와 단기 주가 흐름일 뿐, 10년 뒤 이익과는 무관합니다.",
         "by": "ai"
       },
       {
@@ -470,15 +470,15 @@
         "by": "ai"
       },
       {
-        "title": "Oct. 9 has loomed large in stock-market history. Why investors still shouldn’t buy into an October jinx.",
-        "link": "https://www.marketwatch.com/story/oct-9-has-loomed-large-in-stock-market-history-why-investors-still-shouldnt-buy-into-an-october-jinx-81d7149b?mod=mw_rss_topstories",
+        "title": "The S&P 500 is back in record territory as the ‘Magnificent Seven’ ride to the rescue",
+        "link": "https://www.marketwatch.com/story/the-s-p-500-is-back-in-record-territory-as-the-magnificent-seven-ride-to-the-rescue-e062724d?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Tue, 06 Oct 2026 20:37:00 GMT",
-        "ko": "10월 9일은 주식 시장의 역사에서 큰 반향을 일으켰습니다. 투자자들이 여전히 10월 징크스에 매수해서는 안 되는 이유.",
+        "date": "Tue, 06 Oct 2026 21:52:00 GMT",
+        "ko": "S&P 500은 ‘매그니피센트 세븐‘ 의 구조 작전으로 기록적인 영토로 돌아왔습니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "특정 달의 징크스는 기업 이익과 무관한 계절적 이야기입니다.",
+        "why": "지수 신고가는 일시적 흐름이며 기업 이익 구조를 바꾸지 않습니다.",
         "by": "ai"
       },
       {
@@ -494,22 +494,21 @@
         "by": "ai"
       },
       {
-        "title": "Marvell just impressed Wall Street with ‘good numbers plus a better story’",
-        "link": "https://www.marketwatch.com/story/marvell-just-impressed-wall-street-with-good-numbers-plus-a-better-story-57fbbf23?mod=mw_rss_topstories",
+        "title": "Oct. 9 has loomed large in stock-market history. Why investors still shouldn’t buy into an October jinx.",
+        "link": "https://www.marketwatch.com/story/oct-9-has-loomed-large-in-stock-market-history-why-investors-still-shouldnt-buy-into-an-october-jinx-81d7149b?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Tue, 06 Oct 2026 20:21:00 GMT",
-        "ko": "Marvell은 방금 ‘좋은 숫자와 더 나은 이야기‘ 로 월스트리트에 깊은 인상을 남겼습니다.",
+        "date": "Tue, 06 Oct 2026 20:37:00 GMT",
+        "ko": "10월 9일은 주식 시장의 역사에서 큰 반향을 일으켰습니다. 투자자들이 여전히 10월 징크스에 매수해서는 안 되는 이유.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
-        "why": "분기 실적과 전망에 대한 반응으로, 장기 수익구조가 바뀐 소식은 아닙니다.",
+        "scope": "market",
+        "why": "특정 달의 징크스는 기업 이익과 무관한 계절적 이야기입니다.",
         "by": "ai"
       }
     ]
   },
   "newsBy": "ai",
   "trCache": {
-    "Stock market today: Nasdaq, S&P 500 drift higher as oil retreats, AI trade powers market": "오늘날의 주식 시장: 나스닥, 석유 후퇴에 따른 S&P 500 상승, AI 무역 동력 시장",
     "GameStop stock jumps as CEO Ryan Cohen buys $26 million in shares": "CEO 라이언 코헨 (Ryan Cohen) 이 $26,000,000의 주식을 매수하면서 GameStop 주가가 뛰어오릅니다.",
     "Why Muse just added billions to Meta's market cap": "Muse가 Meta의 시가 총액에 수십억 달러를 추가한 이유",
     "Stock market today: Dow slips, Nasdaq and S&P 500 drift higher as oil pares losses after Trump's UN address": "오늘날의 주식 시장: 다우 슬립, 나스닥 및 S&P 500은 트럼프의 유엔 연설 이후 유가 손실에 따라 더 높아진다.",
@@ -808,44 +807,10 @@
     "The S&P 500 is back in record territory as the ‘Magnificent Seven’ ride to the rescue": "S&P 500은 ‘매그니피센트 세븐‘ 의 구조 작전으로 기록적인 영토로 돌아왔습니다.",
     "Oct. 9 has loomed large in stock-market history. Why investors still shouldn’t buy into an October jinx.": "10월 9일은 주식 시장의 역사에서 큰 반향을 일으켰습니다. 투자자들이 여전히 10월 징크스에 매수해서는 안 되는 이유.",
     "India’s central bank hikes rates for the first time since 2023 as inflation creeps up": "인플레이션이 기승을 부리면서 인도 중앙은행이 2023년 이후 처음으로 금리를 인상했습니다.",
-    "India’s central bank hikes rates for the first time since 2023 as inflation risks build": "인플레이션 위험이 커짐에 따라 인도 중앙은행이 2023년 이후 처음으로 금리를 인상합니다."
+    "India’s central bank hikes rates for the first time since 2023 as inflation risks build": "인플레이션 위험이 커짐에 따라 인도 중앙은행이 2023년 이후 처음으로 금리를 인상합니다.",
+    "Meta stock achieves a golden cross as shares thrive since Muse introduction": "Muse 도입 이후 주식이 번창함에 따라 메타 주식은 황금 십자가를 달성합니다."
   },
   "nvCache": {
-    "https://www.marketwatch.com/story/september-jobs-report-may-show-labor-market-is-on-the-mend-but-its-far-from-cured-ebac2472?mod=mw_rss_topstories": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "고용지표는 매달 나오는 경기 흐름 신호라 장기 기업가치와는 거리가 멉니다.",
-      "by": "ai"
-    },
-    "https://www.marketwatch.com/story/u-s-manufacturers-say-inflation-is-bad-and-not-getting-any-better-8281edef?mod=mw_rss_topstories": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "경기 흐름에 따른 물가 체감 이야기로, 기업의 장기 이익 구조를 바꾸는 내용은 아닙니다.",
-      "by": "ai"
-    },
-    "https://www.marketwatch.com/story/30-year-mortgage-rate-posts-biggest-jump-in-four-years-e288f596?mod=mw_rss_topstories": {
-      "act": "watch",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "금리 변동은 늘 있는 일이라 당장 할 일은 없고 흐름만 보면 됩니다.",
-      "by": "ai"
-    },
-    "https://www.marketwatch.com/story/this-couple-took-out-an-adjustable-rate-mortgage-when-rates-were-over-8-heres-how-it-worked-out-d52e592a?mod=mw_rss_topstories": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "개인 대출 사례를 다룬 생활 금융 기사라 기업 이익과는 직접 관련이 없습니다.",
-      "by": "ai"
-    },
-    "https://www.marketwatch.com/story/financial-stocks-are-falling-below-a-key-chart-level-to-warn-the-worst-is-yet-to-come-86e43092?mod=mw_rss_topstories": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "sector",
-      "why": "차트 수준 이탈은 단기 가격 흐름 해석일 뿐 업종 수익 구조 변화는 아닙니다.",
-      "by": "ai"
-    },
     "https://www.marketwatch.com/story/this-silent-alarm-in-the-bond-market-tells-you-which-stocks-to-buy-and-which-to-avoid-4568ac53?mod=mw_rss_topstories": {
       "act": "none",
       "lasting": "temporary",
@@ -2910,6 +2875,41 @@
       "scope": "market",
       "why": "상장폐지 기준 운용이 흔들리는 제도 이슈라 진행 방향을 지켜볼 만합니다.",
       "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261007174800008": {
+      "act": "watch",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "자금 조달로 주식 수가 늘어날 수 있어 사용처를 확인해볼 만합니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/202610078842i": {
+      "act": "none",
+      "lasting": "structural",
+      "scope": "sector",
+      "why": "전력·배전 수요 확대라는 흐름이지만 급등 자체는 이미 가격에 반영된 상태입니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261007174300002": {
+      "act": "none",
+      "lasting": "structural",
+      "scope": "company",
+      "why": "매각 계약은 지배구조 변화지만 장기 이익 영향은 아직 알기 어렵습니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/2026100789396": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "sector",
+      "why": "해외 블록체인 기술 소식으로 국내 보유 종목과 직접 연결되지 않습니다.",
+      "by": "ai"
+    },
+    "https://www.marketwatch.com/story/meta-stock-achieves-a-golden-cross-as-shares-thrive-since-muse-introduction-5ba818d4?mod=mw_rss_topstories": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "차트 신호와 단기 주가 흐름일 뿐, 10년 뒤 이익과는 무관합니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2953,7 +2953,7 @@
       "2026-10-04": 1342.9,
       "2026-10-05": 1342.07,
       "2026-10-06": 1336.82,
-      "2026-10-07": 1337.83
+      "2026-10-07": 1337.74
     },
     "^GSPC": {
       "2026-09-26": 7743.41,
@@ -2995,7 +2995,7 @@
       "2026-10-04": 15.31,
       "2026-10-05": 15.52,
       "2026-10-06": 15.01,
-      "2026-10-07": 15.23
+      "2026-10-07": 15.25
     },
     "^TNX": {
       "2026-09-26": 5.184,
