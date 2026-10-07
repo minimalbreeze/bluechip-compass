@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-06T23:10:57.075Z",
+  "asOf": "2026-10-07T00:01:32.406Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-06T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1337.07,
+      "price": 1339.58,
       "prev": 1343.75,
-      "chg": -0.5,
+      "chg": -0.31,
       "prevDay": "2026-10-06",
       "basis": "prev-close-bar",
-      "time": "2026-10-06T23:10:42.000Z"
+      "time": "2026-10-07T00:01:17.000Z"
     },
     "^GSPC": {
       "price": 7818.93,
@@ -60,9 +60,9 @@
     }
   },
   "fx": {
-    "low52": 1337.07,
+    "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0
+    "pct": 0.002
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": 3.07
     },
     "KRW=X": {
-      "last": 1337.07,
-      "low52": 1337.07,
+      "last": 1339.58,
+      "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0,
-      "chg3m": -10.77
+      "pct52": 0.002,
+      "chg3m": -10.6
     },
     "^GSPC": {
       "last": 7818.93,
@@ -366,69 +366,69 @@
   "news": {
     "kr": [
       {
-        "title": "실손24 EMR업체에 지원금 72억원…청구 실적 없어도 유지비 준다",
-        "link": "https://www.yna.co.kr/view/AKR20261006188200002",
+        "title": "하나증권 \"미래에셋, 스페이스X 평가손에 3분기 적자 예상…목표가↓\"",
+        "link": "https://www.yna.co.kr/view/AKR20261007031000008",
         "source": "연합뉴스",
-        "date": "Wed, 7 Oct 2026 05:57:00 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "sector",
-        "why": "제도 초기 지원금 집행 소식으로 장기 수익 구조를 바꾸는 내용은 아닙니다.",
-        "by": "ai"
-      },
-      {
-        "title": "보조금 끊긴다니 '주가 70% 폭등'…두 달 만에 무슨 일이 [종목+]",
-        "link": "https://www.hankyung.com/article/2026100659916",
-        "source": "한국경제",
-        "date": "Wed, 07 Oct 2026 06:30:06 +0900",
+        "date": "Wed, 7 Oct 2026 08:53:23 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
-        "why": "단기 급등 소식으로, 장기 이익 구조가 바뀌었는지는 제목만으로 알기 어렵습니다.",
+        "why": "보유 자산 평가손에 따른 분기 실적 변동으로 일시적 성격입니다.",
         "by": "ai"
       },
       {
-        "title": "“추가 금리인상 필요없을 수도” 연준위원 첫 발언, 파장은",
-        "link": "https://www.mk.co.kr/news/stock/12169906",
+        "title": "코스닥 석 달 만에 900선 회복…\"반도체 소부장 중심 대응해야\" [분석+]",
+        "link": "https://www.hankyung.com/article/2026100768556",
+        "source": "한국경제",
+        "date": "Wed, 07 Oct 2026 08:13:12 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "지수 회복과 업종 대응 조언은 단기 시황 이야기입니다.",
+        "by": "ai"
+      },
+      {
+        "title": "하나증권, 코스맥스 목표가 38만원으로…“비수기에도 매출 증가 예상” [오늘 나온 보고서]",
+        "link": "https://www.mk.co.kr/news/stock/12169986",
         "source": "매일경제",
-        "date": "Wed, 07 Oct 2026 08:04:00 +09:00",
+        "date": "Wed, 07 Oct 2026 08:53:05 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "증권사 목표가와 분기 매출 전망은 단기 추정치입니다.",
+        "by": "ai"
+      },
+      {
+        "title": "유안타증권 \"LS일렉트릭, 3분기 실적 서프라이즈 전망\"",
+        "link": "https://www.yna.co.kr/view/AKR20261007030900008",
+        "source": "연합뉴스",
+        "date": "Wed, 7 Oct 2026 08:47:05 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "한 분기 실적 전망일 뿐 사업 구조가 바뀐 건 아닙니다.",
+        "by": "ai"
+      },
+      {
+        "title": "올해 200조 순매도한 외국인…이 와중에 꾸준히 사모은 '톱10'",
+        "link": "https://www.hankyung.com/article/202610066044i",
+        "source": "한국경제",
+        "date": "Wed, 07 Oct 2026 08:00:08 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "외국인 수급 집계는 과거 흐름 요약으로 할 일이 없습니다.",
+        "by": "ai"
+      },
+      {
+        "title": "카카오뱅크 목표가 내린 KB증권 “잔금대출·스테이블코인 성장 기회”",
+        "link": "https://www.mk.co.kr/news/stock/12169959",
+        "source": "매일경제",
+        "date": "Wed, 07 Oct 2026 08:48:57 +09:00",
         "act": "watch",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "금리 경로에 대한 발언은 시장 전체 분위기에 영향을 주지만 방향은 수시로 바뀝니다.",
-        "by": "ai"
-      },
-      {
-        "title": "용모 평가·미자격자 서류 합격…'불공정 채용' 공공기관들",
-        "link": "https://www.yna.co.kr/view/AKR20261006189200001",
-        "source": "연합뉴스",
-        "date": "Wed, 7 Oct 2026 05:00:05 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "공공기관 채용 절차 문제로 기업 실적과는 직접 관련이 적습니다.",
-        "by": "ai"
-      },
-      {
-        "title": "\"120만원 간다더니 어쩌다\"…반토막 난 주가에 개미들 '눈물' [종목+]",
-        "link": "https://www.hankyung.com/article/2026100660516",
-        "source": "한국경제",
-        "date": "Wed, 07 Oct 2026 06:30:01 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "주가 하락과 목표가 괴리 자체는 기업 이익의 변화를 알려주지 않습니다.",
-        "by": "ai"
-      },
-      {
-        "title": "“코스맥스, K뷰티 수출 훈풍 제대로 탔다”…하나증권, 목표가↑",
-        "link": "https://www.mk.co.kr/news/stock/12169903",
-        "source": "매일경제",
-        "date": "Wed, 07 Oct 2026 07:55:03 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "증권사 목표주가 조정은 전망일 뿐, 투자 근거를 바꾸는 사건은 아닙니다.",
+        "lasting": "structural",
+        "scope": "sector",
+        "why": "새 금융 서비스 성장 가능성은 업종 구조 변화라 지켜볼 만합니다.",
         "by": "ai"
       }
     ],
@@ -811,48 +811,6 @@
     "Oct. 9 has loomed large in stock-market history. Why investors still shouldn’t buy into an October jinx.": "10월 9일은 주식 시장의 역사에서 큰 반향을 일으켰습니다. 투자자들이 여전히 10월 징크스에 매수해서는 안 되는 이유."
   },
   "nvCache": {
-    "https://www.yna.co.kr/view/AKR20261001096100008": {
-      "act": "watch",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "금리 변동은 시장 전반에 영향을 주지만 하루 움직임만으로 판단하기 어렵습니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20261001095000008": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "무상증자는 주식 수만 늘 뿐 회사의 이익 자체를 바꾸지 않습니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20261001086800002": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "sector",
-      "why": "가상자산 시총·거래량 변동은 주기적으로 반복되는 흐름입니다.",
-      "by": "ai"
-    },
-    "https://www.hankyung.com/article/2026100173296": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "지수 일간 등락과 자사주 매수 소식은 하루짜리 변동입니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20261001049400003": {
-      "act": "watch",
-      "lasting": "structural",
-      "scope": "sector",
-      "why": "대규모 산업단지 조성은 업종 생산기반이 바뀌는 장기 사안입니다.",
-      "by": "ai"
-    },
-    "https://www.hankyung.com/article/2026100170816": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "sector",
-      "why": "증권가 실적 전망일 뿐 확정된 변화는 아닙니다.",
-      "by": "ai"
-    },
     "https://www.yna.co.kr/view/AKR20261001065851002": {
       "act": "watch",
       "lasting": "temporary",
@@ -2910,6 +2868,48 @@
       "scope": "company",
       "why": "증권사 목표주가 조정은 전망일 뿐, 투자 근거를 바꾸는 사건은 아닙니다.",
       "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261007031000008": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "보유 자산 평가손에 따른 분기 실적 변동으로 일시적 성격입니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/2026100768556": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "지수 회복과 업종 대응 조언은 단기 시황 이야기입니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12169986": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "증권사 목표가와 분기 매출 전망은 단기 추정치입니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261007030900008": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "한 분기 실적 전망일 뿐 사업 구조가 바뀐 건 아닙니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/202610066044i": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "외국인 수급 집계는 과거 흐름 요약으로 할 일이 없습니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12169959": {
+      "act": "watch",
+      "lasting": "structural",
+      "scope": "sector",
+      "why": "새 금융 서비스 성장 가능성은 업종 구조 변화라 지켜볼 만합니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2953,7 +2953,7 @@
       "2026-10-04": 1342.9,
       "2026-10-05": 1342.07,
       "2026-10-06": 1336.82,
-      "2026-10-07": 1337.07
+      "2026-10-07": 1339.58
     },
     "^GSPC": {
       "2026-09-25": 7743.41,
