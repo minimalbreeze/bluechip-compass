@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-07T00:01:32.406Z",
+  "asOf": "2026-10-07T00:11:58.711Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-06T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1339.58,
+      "price": 1340.28,
       "prev": 1343.75,
-      "chg": -0.31,
+      "chg": -0.26,
       "prevDay": "2026-10-06",
       "basis": "prev-close-bar",
-      "time": "2026-10-07T00:01:17.000Z"
+      "time": "2026-10-07T00:11:48.000Z"
     },
     "^GSPC": {
       "price": 7818.93,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.002
+    "pct": 0.005
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": 3.07
     },
     "KRW=X": {
-      "last": 1339.58,
+      "last": 1340.28,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.002,
-      "chg3m": -10.6
+      "pct52": 0.005,
+      "chg3m": -10.56
     },
     "^GSPC": {
       "last": 7818.93,
@@ -366,14 +366,14 @@
   "news": {
     "kr": [
       {
-        "title": "하나증권 \"미래에셋, 스페이스X 평가손에 3분기 적자 예상…목표가↓\"",
-        "link": "https://www.yna.co.kr/view/AKR20261007031000008",
+        "title": "[게시판] 키움증권, 연말까지 '중개형 ISA 혜자 이벤트 시즌3' 진행",
+        "link": "https://www.yna.co.kr/view/AKR20261007034200008",
         "source": "연합뉴스",
-        "date": "Wed, 7 Oct 2026 08:53:23 +0900",
+        "date": "Wed, 7 Oct 2026 08:59:32 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
-        "why": "보유 자산 평가손에 따른 분기 실적 변동으로 일시적 성격입니다.",
+        "why": "한시적 판촉 이벤트로 장기 이익 구조와는 거리가 멉니다.",
         "by": "ai"
       },
       {
@@ -399,14 +399,14 @@
         "by": "ai"
       },
       {
-        "title": "유안타증권 \"LS일렉트릭, 3분기 실적 서프라이즈 전망\"",
-        "link": "https://www.yna.co.kr/view/AKR20261007030900008",
+        "title": "하나증권 \"미래에셋, 스페이스X 평가손에 3분기 적자 예상…목표가↓\"",
+        "link": "https://www.yna.co.kr/view/AKR20261007031000008",
         "source": "연합뉴스",
-        "date": "Wed, 7 Oct 2026 08:47:05 +0900",
+        "date": "Wed, 7 Oct 2026 08:53:23 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
-        "why": "한 분기 실적 전망일 뿐 사업 구조가 바뀐 건 아닙니다.",
+        "why": "보유 자산 평가손에 따른 분기 실적 변동으로 일시적 성격입니다.",
         "by": "ai"
       },
       {
@@ -811,13 +811,6 @@
     "Oct. 9 has loomed large in stock-market history. Why investors still shouldn’t buy into an October jinx.": "10월 9일은 주식 시장의 역사에서 큰 반향을 일으켰습니다. 투자자들이 여전히 10월 징크스에 매수해서는 안 되는 이유."
   },
   "nvCache": {
-    "https://www.yna.co.kr/view/AKR20261001065851002": {
-      "act": "watch",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "고객정보 유출과 당국 조사는 신뢰 문제지만, 제재 범위가 확인되기 전까진 단발 사건으로 봅니다.",
-      "by": "ai"
-    },
     "https://www.yna.co.kr/view/AKR20261001095200002": {
       "act": "none",
       "lasting": "temporary",
@@ -2910,6 +2903,13 @@
       "scope": "sector",
       "why": "새 금융 서비스 성장 가능성은 업종 구조 변화라 지켜볼 만합니다.",
       "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261007034200008": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "한시적 판촉 이벤트로 장기 이익 구조와는 거리가 멉니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2953,7 +2953,7 @@
       "2026-10-04": 1342.9,
       "2026-10-05": 1342.07,
       "2026-10-06": 1336.82,
-      "2026-10-07": 1339.58
+      "2026-10-07": 1340.28
     },
     "^GSPC": {
       "2026-09-25": 7743.41,
