@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-07T08:35:35.379Z",
+  "asOf": "2026-10-07T09:36:02.387Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-07T06:32:50.000Z"
     },
     "KRW=X": {
-      "price": 1337.74,
+      "price": 1338.69,
       "prev": 1343.75,
-      "chg": -0.45,
+      "chg": -0.38,
       "prevDay": "2026-10-06",
       "basis": "prev-close-bar",
-      "time": "2026-10-07T08:35:14.000Z"
+      "time": "2026-10-07T09:35:42.000Z"
     },
     "^GSPC": {
       "price": 7818.93,
@@ -43,12 +43,12 @@
       "time": "2026-10-06T22:31:33.000Z"
     },
     "^VIX": {
-      "price": 15.25,
+      "price": 15.32,
       "prev": 15.010000228881836,
-      "chg": 1.6,
+      "chg": 2.07,
       "prevDay": "2026-10-06",
       "basis": "prev-close-bar",
-      "time": "2026-10-07T08:20:01.000Z"
+      "time": "2026-10-07T09:20:46.000Z"
     },
     "^TNX": {
       "price": 5.269,
@@ -60,7 +60,7 @@
     }
   },
   "fx": {
-    "low52": 1337.74,
+    "low52": 1338.69,
     "high52": 1554.48,
     "pct": 0
   },
@@ -80,11 +80,11 @@
       "chg3m": 6.06
     },
     "KRW=X": {
-      "last": 1337.74,
-      "low52": 1337.74,
+      "last": 1338.69,
+      "low52": 1338.69,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -10.73
+      "chg3m": -10.66
     },
     "^GSPC": {
       "last": 7818.93,
@@ -101,11 +101,11 @@
       "chg3m": 5.32
     },
     "^VIX": {
-      "last": 15.25,
+      "last": 15.32,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.101,
-      "chg3m": -11.13
+      "pct52": 0.105,
+      "chg3m": -10.72
     },
     "^TNX": {
       "last": 5.27,
@@ -366,6 +366,39 @@
   "news": {
     "kr": [
       {
+        "title": "BGF, 반도체 소재 손자회사 지분 전량 매입…지배구조 개편(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261007167551008",
+        "source": "연합뉴스",
+        "date": "Wed, 7 Oct 2026 18:06:09 +0900",
+        "act": "none",
+        "lasting": "structural",
+        "scope": "company",
+        "why": "지배구조 정리는 구조적 변화지만 당장 이익 흐름을 바꾸진 않습니다.",
+        "by": "ai"
+      },
+      {
+        "title": "삼전, 자사주 매입 없는 첫날 '선방'…단기 변동성 주의",
+        "link": "https://www.hankyung.com/article/2026100790911",
+        "source": "한국경제",
+        "date": "Wed, 07 Oct 2026 17:31:19 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "자사주 매입 종료에 따른 단기 수급 이야기입니다.",
+        "by": "ai"
+      },
+      {
+        "title": "에피소드컴퍼니, 20억원 규모 유상증자 실시",
+        "link": "https://www.mk.co.kr/news/stock/12170763",
+        "source": "매일경제",
+        "date": "Wed, 07 Oct 2026 17:51:20 +09:00",
+        "act": "watch",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "소규모 증자이나 자금 사용처와 반복 여부는 지켜볼 만합니다.",
+        "by": "ai"
+      },
+      {
         "title": "에피소드컴퍼니, 140억원 제3자배정 유상증자",
         "link": "https://www.yna.co.kr/view/AKR20261007174800008",
         "source": "연합뉴스",
@@ -377,58 +410,25 @@
         "by": "ai"
       },
       {
-        "title": "올해 680% 뛴 가온전선, 장중 시총 10조 돌파…'빅테크 배전'이 몸값 바꿨다",
-        "link": "https://www.hankyung.com/article/202610078842i",
+        "title": "가온전선 신고가…장중 시총 10조원 돌파",
+        "link": "https://www.hankyung.com/article/2026100790941",
         "source": "한국경제",
-        "date": "Wed, 07 Oct 2026 16:48:32 +0900",
+        "date": "Wed, 07 Oct 2026 17:30:01 +0900",
         "act": "none",
-        "lasting": "structural",
-        "scope": "sector",
-        "why": "전력·배전 수요 확대라는 흐름이지만 급등 자체는 이미 가격에 반영된 상태입니다.",
-        "by": "ai"
-      },
-      {
-        "title": "“기본조차 안 지키는 위법 반복…사후약방문식 감사 안돼” 금감원, 증권사 질타",
-        "link": "https://www.mk.co.kr/news/stock/12170546",
-        "source": "매일경제",
-        "date": "Wed, 07 Oct 2026 16:14:15 +09:00",
-        "act": "watch",
         "lasting": "temporary",
-        "scope": "sector",
-        "why": "감독 강도가 세지는 신호지만 아직 구체적 제재는 제목에 없습니다.",
-        "by": "ai"
-      },
-      {
-        "title": "예보, OK금융그룹과 예별손보 주식매매계약서 체결",
-        "link": "https://www.yna.co.kr/view/AKR20261007174300002",
-        "source": "연합뉴스",
-        "date": "Wed, 7 Oct 2026 17:27:33 +0900",
-        "act": "none",
-        "lasting": "structural",
         "scope": "company",
-        "why": "매각 계약은 지배구조 변화지만 장기 이익 영향은 아직 알기 어렵습니다.",
+        "why": "신고가와 시총은 가격 결과일 뿐 사업 근거가 바뀐 건 아닙니다.",
         "by": "ai"
       },
       {
-        "title": "\"앱토스, 기관용 블록체인 개선안 '모노무브' 선보여\"",
-        "link": "https://www.hankyung.com/article/2026100789396",
-        "source": "한국경제",
-        "date": "Wed, 07 Oct 2026 16:45:45 +0900",
+        "title": "\"주식 모르면 ETF부터 하랬는데…\" 10개중 7개는 코스피200에 밀려",
+        "link": "https://www.mk.co.kr/news/stock/12170759",
+        "source": "매일경제",
+        "date": "Wed, 07 Oct 2026 17:50:37 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": "sector",
-        "why": "해외 블록체인 기술 소식으로 국내 보유 종목과 직접 연결되지 않습니다.",
-        "by": "ai"
-      },
-      {
-        "title": "[속보] 거래소, 법원 ‘시총 미달 상폐’ 급제동에 “후속 상폐절차 유예”",
-        "link": "https://www.mk.co.kr/news/stock/12170508",
-        "source": "매일경제",
-        "date": "Wed, 07 Oct 2026 15:53:11 +09:00",
-        "act": "watch",
-        "lasting": "structural",
         "scope": "market",
-        "why": "상장폐지 기준 운용이 흔들리는 제도 이슈라 진행 방향을 지켜볼 만합니다.",
+        "why": "특정 기간 수익률 비교라 장기 보유 판단을 바꾸진 않습니다.",
         "by": "ai"
       }
     ],
@@ -494,15 +494,15 @@
         "by": "ai"
       },
       {
-        "title": "Oct. 9 has loomed large in stock-market history. Why investors still shouldn’t buy into an October jinx.",
-        "link": "https://www.marketwatch.com/story/oct-9-has-loomed-large-in-stock-market-history-why-investors-still-shouldnt-buy-into-an-october-jinx-81d7149b?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "date": "Tue, 06 Oct 2026 20:37:00 GMT",
-        "ko": "10월 9일은 주식 시장의 역사에서 큰 반향을 일으켰습니다. 투자자들이 여전히 10월 징크스에 매수해서는 안 되는 이유.",
+        "title": "Labor market faltered in September as jobs increased by just 29,000, unemployment rate rose to 4.2%",
+        "link": "https://www.cnbc.com/2026/10/02/jobs-report-september-2026.html",
+        "source": "CNBC",
+        "date": "Fri, 02 Oct 2026 13:45:58 GMT",
+        "ko": "9월에 일자리가 29,000개 증가하고 실업률이 4.2% 로 증가하면서 노동 시장은 흔들렸다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "특정 달의 징크스는 기업 이익과 무관한 계절적 이야기입니다.",
+        "why": "월간 고용 지표는 변동이 큰 단기 수치로, 기업 10년 이익과는 거리가 멉니다.",
         "by": "ai"
       }
     ]
@@ -811,41 +811,6 @@
     "Meta stock achieves a golden cross as shares thrive since Muse introduction": "Muse 도입 이후 주식이 번창함에 따라 메타 주식은 황금 십자가를 달성합니다."
   },
   "nvCache": {
-    "https://www.marketwatch.com/story/this-silent-alarm-in-the-bond-market-tells-you-which-stocks-to-buy-and-which-to-avoid-4568ac53?mod=mw_rss_topstories": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "채권 신호를 근거로 한 매매 조언성 기사로, 기업 이익과 직접 연결되지 않습니다.",
-      "by": "ai"
-    },
-    "https://www.marketwatch.com/story/the-treasury-department-started-trump-accounts-for-60-million-kids-but-families-still-have-to-take-this-step-if-they-want-one-003d9282?mod=mw_rss_topstories": {
-      "act": "none",
-      "lasting": "structural",
-      "scope": "market",
-      "why": "제도성 저축 계좌 소식으로, 보유 종목의 이익과는 직접 관련이 적습니다.",
-      "by": "ai"
-    },
-    "https://www.marketwatch.com/story/bond-yields-suddenly-retreat-from-recent-highs-as-buyers-step-back-into-the-treasury-market-e3840e3d?mod=mw_rss_topstories": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "금리 등락은 늘 있는 일로 기업 10년 이익과는 거리가 멉니다.",
-      "by": "ai"
-    },
-    "https://www.mk.co.kr/news/stock/12166681": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "실적 기대를 다룬 전망성 기사로 투자 근거를 바꾸진 않습니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20261001159700004": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "창업경진대회 수상 소식으로 상장사 이익과 직접 연결되지 않습니다.",
-      "by": "ai"
-    },
     "https://www.yna.co.kr/view/AKR20261001193100002": {
       "act": "none",
       "lasting": "temporary",
@@ -2910,6 +2875,41 @@
       "scope": "company",
       "why": "차트 신호와 단기 주가 흐름일 뿐, 10년 뒤 이익과는 무관합니다.",
       "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261007167551008": {
+      "act": "none",
+      "lasting": "structural",
+      "scope": "company",
+      "why": "지배구조 정리는 구조적 변화지만 당장 이익 흐름을 바꾸진 않습니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/2026100790911": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "자사주 매입 종료에 따른 단기 수급 이야기입니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12170763": {
+      "act": "watch",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "소규모 증자이나 자금 사용처와 반복 여부는 지켜볼 만합니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/2026100790941": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "신고가와 시총은 가격 결과일 뿐 사업 근거가 바뀐 건 아닙니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12170759": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "특정 기간 수익률 비교라 장기 보유 판단을 바꾸진 않습니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2953,7 +2953,7 @@
       "2026-10-04": 1342.9,
       "2026-10-05": 1342.07,
       "2026-10-06": 1336.82,
-      "2026-10-07": 1337.74
+      "2026-10-07": 1338.69
     },
     "^GSPC": {
       "2026-09-26": 7743.41,
@@ -2995,7 +2995,7 @@
       "2026-10-04": 15.31,
       "2026-10-05": 15.52,
       "2026-10-06": 15.01,
-      "2026-10-07": 15.25
+      "2026-10-07": 15.32
     },
     "^TNX": {
       "2026-09-26": 5.184,
