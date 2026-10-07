@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-07T12:37:41.515Z",
+  "asOf": "2026-10-07T13:22:12.467Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-07T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1339.22,
+      "price": 1339.06,
       "prev": 1343.75,
-      "chg": -0.34,
+      "chg": -0.35,
       "prevDay": "2026-10-06",
       "basis": "prev-close-bar",
-      "time": "2026-10-07T12:37:33.000Z"
+      "time": "2026-10-07T13:21:50.000Z"
     },
     "^GSPC": {
       "price": 7818.93,
@@ -43,12 +43,12 @@
       "time": "2026-10-06T22:31:33.000Z"
     },
     "^VIX": {
-      "price": 15.81,
+      "price": 15.76,
       "prev": 15.010000228881836,
-      "chg": 5.33,
+      "chg": 5,
       "prevDay": "2026-10-06",
       "basis": "prev-close-bar",
-      "time": "2026-10-07T12:22:31.000Z"
+      "time": "2026-10-07T13:06:46.000Z"
     },
     "^TNX": {
       "price": 5.348,
@@ -56,11 +56,11 @@
       "chg": 1.5,
       "prevDay": "2026-10-06",
       "basis": "prev-close-bar",
-      "time": "2026-10-07T12:22:34.000Z"
+      "time": "2026-10-07T13:06:54.000Z"
     }
   },
   "fx": {
-    "low52": 1339.17,
+    "low52": 1339.06,
     "high52": 1554.48,
     "pct": 0
   },
@@ -80,11 +80,11 @@
       "chg3m": 6.06
     },
     "KRW=X": {
-      "last": 1339.22,
-      "low52": 1339.17,
+      "last": 1339.06,
+      "low52": 1339.06,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -10.63
+      "chg3m": -10.64
     },
     "^GSPC": {
       "last": 7818.93,
@@ -101,11 +101,11 @@
       "chg3m": 5.32
     },
     "^VIX": {
-      "last": 15.81,
+      "last": 15.76,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.133,
-      "chg3m": -7.87
+      "pct52": 0.13,
+      "chg3m": -8.16
     },
     "^TNX": {
       "last": 5.35,
@@ -366,6 +366,39 @@
   "news": {
     "kr": [
       {
+        "title": "인도중앙은행, 3년8개월만 첫 기준금리 인상…\"인플레 대응\"",
+        "link": "https://www.yna.co.kr/view/AKR20261007203000084",
+        "source": "연합뉴스",
+        "date": "Wed, 7 Oct 2026 21:51:03 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "해외 중앙은행의 금리 결정은 경기 흐름에 따라 바뀌는 일시적 정책 변화입니다.",
+        "by": "ai"
+      },
+      {
+        "title": "美증시 공포의 10월?…\"평균 수익률은 평범\"",
+        "link": "https://www.hankyung.com/article/2026100790751",
+        "source": "한국경제",
+        "date": "Wed, 07 Oct 2026 21:00:04 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "특정 달의 계절성 이야기일 뿐 기업 이익과는 무관합니다.",
+        "by": "ai"
+      },
+      {
+        "title": "에피소드컴퍼니, 20억원 규모 유상증자 실시",
+        "link": "https://www.mk.co.kr/news/stock/12170763",
+        "source": "매일경제",
+        "date": "Wed, 07 Oct 2026 17:51:20 +09:00",
+        "act": "watch",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "소규모 증자이나 자금 사용처와 반복 여부는 지켜볼 만합니다.",
+        "by": "ai"
+      },
+      {
         "title": "올해 수은 해킹 시도 283건, 작년의 8배…지난달 한은 공격도(종합2보)",
         "link": "https://www.yna.co.kr/view/AKR20261007044852002",
         "source": "연합뉴스",
@@ -385,39 +418,6 @@
         "lasting": "temporary",
         "scope": "company",
         "why": "자사주 매입 종료에 따른 단기 수급 이야기입니다.",
-        "by": "ai"
-      },
-      {
-        "title": "에피소드컴퍼니, 20억원 규모 유상증자 실시",
-        "link": "https://www.mk.co.kr/news/stock/12170763",
-        "source": "매일경제",
-        "date": "Wed, 07 Oct 2026 17:51:20 +09:00",
-        "act": "watch",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "소규모 증자이나 자금 사용처와 반복 여부는 지켜볼 만합니다.",
-        "by": "ai"
-      },
-      {
-        "title": "올해 수은 해킹 시도 283건, 작년의 8배…지난달 한은 공격도(종합)",
-        "link": "https://www.yna.co.kr/view/AKR20261007044851002",
-        "source": "연합뉴스",
-        "date": "Wed, 7 Oct 2026 19:33:33 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "같은 사안의 중복 보도로, 오늘 투자 판단을 바꿀 내용은 아닙니다.",
-        "by": "ai"
-      },
-      {
-        "title": "가온전선 신고가…장중 시총 10조원 돌파",
-        "link": "https://www.hankyung.com/article/2026100790941",
-        "source": "한국경제",
-        "date": "Wed, 07 Oct 2026 17:30:01 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "신고가와 시총은 가격 결과일 뿐 사업 근거가 바뀐 건 아닙니다.",
         "by": "ai"
       },
       {
@@ -446,15 +446,15 @@
         "by": "ai"
       },
       {
-        "title": "These two hard-hit stocks are poised for a comeback, says fund manager",
-        "link": "https://www.marketwatch.com/story/these-two-hard-hit-stocks-are-poised-for-a-comeback-says-fund-manager-cccc0c4e?mod=mw_rss_topstories",
+        "title": "‘Trump accounts’ could force MAGA children to own New York Times stock",
+        "link": "https://www.marketwatch.com/story/trump-accounts-could-force-maga-children-to-own-new-york-times-stock-46177c96?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Wed, 07 Oct 2026 11:40:00 GMT",
-        "ko": "펀드 매니저는 이 두 건의 하드 히트 주식은 복귀할 준비가 되어 있다고 말합니다.",
+        "date": "Wed, 07 Oct 2026 12:43:00 GMT",
+        "ko": "‘트럼프 계정’ 은 MAGA 어린이들에게 뉴욕 타임스 주식을 소유하도록 강요할 수 있습니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
-        "why": "특정인의 전망일 뿐 기업 실적 구조가 바뀐 소식은 아닙니다.",
+        "scope": "market",
+        "why": "지수 편입 구성에 관한 화제성 기사로, 기업 이익 구조와는 거리가 멉니다.",
         "by": "ai"
       },
       {
@@ -470,15 +470,15 @@
         "by": "ai"
       },
       {
-        "title": "Meta stock scores a rare ‘golden cross’ buy signal as investors swarm to its top-charting AI agent",
-        "link": "https://www.marketwatch.com/story/meta-stock-achieves-a-golden-cross-as-shares-thrive-since-muse-introduction-5ba818d4?mod=mw_rss_topstories",
+        "title": "These two hard-hit stocks are poised for a comeback, says fund manager",
+        "link": "https://www.marketwatch.com/story/these-two-hard-hit-stocks-are-poised-for-a-comeback-says-fund-manager-cccc0c4e?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Wed, 07 Oct 2026 11:18:00 GMT",
-        "ko": "메타 주식은 투자자들이 최고 수준의 AI 에이전트로 몰려들면서 희귀한 ‘골든 크로스’ 매수 신호를 기록했습니다.",
+        "date": "Wed, 07 Oct 2026 11:40:00 GMT",
+        "ko": "펀드 매니저는 이 두 건의 하드 히트 주식은 복귀할 준비가 되어 있다고 말합니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
-        "why": "차트 신호와 단기 주가 흐름일 뿐, 10년 뒤 이익과는 무관합니다.",
+        "why": "특정인의 전망일 뿐 기업 실적 구조가 바뀐 소식은 아닙니다.",
         "by": "ai"
       },
       {
@@ -494,22 +494,21 @@
         "by": "ai"
       },
       {
-        "title": "Labor market faltered in September as jobs increased by just 29,000, unemployment rate rose to 4.2%",
-        "link": "https://www.cnbc.com/2026/10/02/jobs-report-september-2026.html",
-        "source": "CNBC",
-        "date": "Fri, 02 Oct 2026 13:45:58 GMT",
-        "ko": "9월에 일자리가 29,000개 증가하고 실업률이 4.2% 로 증가하면서 노동 시장은 흔들렸다.",
+        "title": "Meta’s stock scores a rare ‘golden cross’ buy signal as investors swarm to its chart-topping AI agent Muse",
+        "link": "https://www.marketwatch.com/story/meta-stock-achieves-a-golden-cross-as-shares-thrive-since-muse-introduction-5ba818d4?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "date": "Wed, 07 Oct 2026 11:18:00 GMT",
+        "ko": "차트 인기 인공지능 에이전트 뮤즈 (Muse) 에 투자자들이 몰려들면서 메타의 주식은 희귀한 ‘골든 크로스’ 매수 신호를 기록했다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
-        "why": "월간 고용 지표는 변동이 큰 단기 수치로, 기업 10년 이익과는 거리가 멉니다.",
+        "scope": "company",
+        "why": "차트 신호와 단기 주가 흐름일 뿐, 10년 뒤 이익과는 무관합니다.",
         "by": "ai"
       }
     ]
   },
   "newsBy": "ai",
   "trCache": {
-    "Tax-free bond yields are in a sweet spot. Get in before it’s too late.": "비과세 채권 수익률은 좋은 위치에 있습니다. 늦기 전에 입장하세요.",
     "Circle Stock Spikes As Binance Takes $100 Million Slice": "바이낸스가 $100 Million Slice를 가져감에 따라 Circle Stock Spikes",
     "Sandisk’s stock is rising: Why one analyst says AI could help it reach new heights": "샌디스크의 주가가 상승하고 있습니다: 한 애널리스트가 AI가 새로운 수준에 도달하는 데 도움이 될 수 있다고 말하는 이유",
     "Stock Market Today: Dow Skids As Trump Threatens Iran; Apple Nears Buy Point (Live Coverage)": "오늘의 주식 시장: 트럼프가 이란을 위협함에 따라 다우 스키드; 애플 니어스 바이 포인트 (라이브 커버리지)",
@@ -808,23 +807,10 @@
     "Meta stock achieves a golden cross as shares thrive since Muse introduction": "Muse 도입 이후 주식이 번창함에 따라 메타 주식은 황금 십자가를 달성합니다.",
     "Elon Musk and Intel CEO shore up chipmaker’s role in Terafab project — and here’s what the news is doing to the stock.": "일론 머스크 (Elon Musk) 와 인텔 CEO는 테라팹 프로젝트에서 칩메이커의 역할을 강조했습니다. 이 소식이 주식에 미치는 영향은 다음과 같습니다.",
     "These two hard-hit stocks are poised for a comeback, says fund manager": "펀드 매니저는 이 두 건의 하드 히트 주식은 복귀할 준비가 되어 있다고 말합니다.",
-    "Meta stock scores a rare ‘golden cross’ buy signal as investors swarm to its top-charting AI agent": "메타 주식은 투자자들이 최고 수준의 AI 에이전트로 몰려들면서 희귀한 ‘골든 크로스’ 매수 신호를 기록했습니다."
+    "Meta stock scores a rare ‘golden cross’ buy signal as investors swarm to its top-charting AI agent": "메타 주식은 투자자들이 최고 수준의 AI 에이전트로 몰려들면서 희귀한 ‘골든 크로스’ 매수 신호를 기록했습니다.",
+    "Meta’s stock scores a rare ‘golden cross’ buy signal as investors swarm to its chart-topping AI agent Muse": "차트 인기 인공지능 에이전트 뮤즈 (Muse) 에 투자자들이 몰려들면서 메타의 주식은 희귀한 ‘골든 크로스’ 매수 신호를 기록했다."
   },
   "nvCache": {
-    "https://www.hankyung.com/article/2026100178876": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "주가 등락에 대한 경고성 분석일 뿐 투자 근거를 바꾸지 않습니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20261002026800008": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "증권사 수혜 전망일 뿐 실제 이익 변화는 확인되지 않았습니다.",
-      "by": "ai"
-    },
     "https://www.hankyung.com/article/202610018417i": {
       "act": "none",
       "lasting": "temporary",
@@ -2910,6 +2896,20 @@
       "scope": "company",
       "why": "특정인의 전망일 뿐 기업 실적 구조가 바뀐 소식은 아닙니다.",
       "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261007203000084": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "해외 중앙은행의 금리 결정은 경기 흐름에 따라 바뀌는 일시적 정책 변화입니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/2026100790751": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "특정 달의 계절성 이야기일 뿐 기업 이익과는 무관합니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2953,7 +2953,7 @@
       "2026-10-04": 1342.9,
       "2026-10-05": 1342.07,
       "2026-10-06": 1336.82,
-      "2026-10-07": 1339.22
+      "2026-10-07": 1339.06
     },
     "^GSPC": {
       "2026-09-26": 7743.41,
@@ -2995,7 +2995,7 @@
       "2026-10-04": 15.31,
       "2026-10-05": 15.52,
       "2026-10-06": 15.01,
-      "2026-10-07": 15.81
+      "2026-10-07": 15.76
     },
     "^TNX": {
       "2026-09-26": 5.184,
