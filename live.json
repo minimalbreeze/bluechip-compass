@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-08T00:00:01.296Z",
+  "asOf": "2026-10-08T00:10:32.100Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-07T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1339.48,
+      "price": 1337.88,
       "prev": 1339.739990234375,
-      "chg": -0.02,
+      "chg": -0.14,
       "prevDay": "2026-10-07",
       "basis": "prev-close-bar",
-      "time": "2026-10-07T23:59:47.000Z"
+      "time": "2026-10-08T00:10:12.000Z"
     },
     "^GSPC": {
       "price": 7801.77,
@@ -60,9 +60,9 @@
     }
   },
   "fx": {
-    "low52": 1339.17,
+    "low52": 1337.88,
     "high52": 1554.48,
-    "pct": 0.003
+    "pct": 0
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": 5.93
     },
     "KRW=X": {
-      "last": 1339.92,
-      "low52": 1339.17,
+      "last": 1337.88,
+      "low52": 1337.88,
       "high52": 1554.48,
-      "pct52": 0.003,
-      "chg3m": -10.53
+      "pct52": 0,
+      "chg3m": -10.67
     },
     "^GSPC": {
       "last": 7801.77,
@@ -421,14 +421,14 @@
         "by": "ai"
       },
       {
-        "title": "실적부진에도…“이익 바닥 확인했다” LG전자 목표주가 잇달아 상향 [오늘 나온 보고서]",
-        "link": "https://www.mk.co.kr/news/stock/12171101",
+        "title": "대박난 10년물 국채입찰 시사점은... 월가 “마이크론 3천달러 간다” 보고서 내놔",
+        "link": "https://www.mk.co.kr/news/stock/12171082",
         "source": "매일경제",
-        "date": "Thu, 08 Oct 2026 08:46:21 +09:00",
+        "date": "Thu, 08 Oct 2026 07:59:56 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
-        "why": "목표주가 조정은 애널리스트 의견 변화일 뿐입니다.",
+        "scope": "market",
+        "why": "국채입찰 결과와 목표주가 전망은 단기 재료로, 장기 이익구조와는 거리가 멉니다.",
         "by": "ai"
       }
     ],
@@ -811,13 +811,6 @@
     "Rising yields are quietly crashing the stock market’s earlier winners of 2026": "상승하는 수익률은 2026년 주식 시장의 초기 승자를 조용히 추락시키고 있습니다."
   },
   "nvCache": {
-    "https://www.yna.co.kr/view/AKR20261002053700008": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "국채 수급 전망은 예측 단계라 오늘 할 일은 없습니다.",
-      "by": "ai"
-    },
     "https://www.hankyung.com/article/202610029657i": {
       "act": "none",
       "lasting": "temporary",
@@ -2910,6 +2903,13 @@
       "scope": "company",
       "why": "목표주가 조정은 애널리스트 의견 변화일 뿐입니다.",
       "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12171082": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "국채입찰 결과와 목표주가 전망은 단기 재료로, 장기 이익구조와는 거리가 멉니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2953,7 +2953,7 @@
       "2026-10-05": 1342.07,
       "2026-10-06": 1336.82,
       "2026-10-07": 1339.41,
-      "2026-10-08": 1339.48
+      "2026-10-08": 1337.88
     },
     "^GSPC": {
       "2026-09-26": 7743.41,
