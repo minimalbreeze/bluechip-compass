@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-07T22:59:33.464Z",
+  "asOf": "2026-10-08T00:00:01.296Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-07T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1339.41,
-      "prev": 1343.75,
-      "chg": -0.32,
-      "prevDay": "2026-10-06",
+      "price": 1339.48,
+      "prev": 1339.739990234375,
+      "chg": -0.02,
+      "prevDay": "2026-10-07",
       "basis": "prev-close-bar",
-      "time": "2026-10-07T22:59:02.000Z"
+      "time": "2026-10-07T23:59:47.000Z"
     },
     "^GSPC": {
       "price": 7801.77,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.001
+    "pct": 0.003
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": 5.93
     },
     "KRW=X": {
-      "last": 1339.41,
+      "last": 1339.92,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.001,
-      "chg3m": -10.57
+      "pct52": 0.003,
+      "chg3m": -10.53
     },
     "^GSPC": {
       "last": 7801.77,
@@ -366,69 +366,69 @@
   "news": {
     "kr": [
       {
-        "title": "'주인 못찾은 주식' 1.5조원 육박…미수령 주주 2만6천명",
-        "link": "https://www.yna.co.kr/view/AKR20261007149600008",
+        "title": "3분기 반도체 대기업 공고 102% 증가…경력직은 157% 늘어",
+        "link": "https://www.yna.co.kr/view/AKR20261008035300003",
         "source": "연합뉴스",
-        "date": "Thu, 8 Oct 2026 07:00:04 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "미수령 주식 통계일 뿐, 기업 이익과는 무관한 소식입니다.",
-        "by": "ai"
-      },
-      {
-        "title": "국채금리 24년 만에 최고…3대 지수 일제히 하락 [뉴욕증시 브리핑]",
-        "link": "https://www.hankyung.com/article/2026100896996",
-        "source": "한국경제",
-        "date": "Thu, 08 Oct 2026 07:06:18 +0900",
+        "date": "Thu, 8 Oct 2026 08:52:47 +0900",
         "act": "watch",
         "lasting": "structural",
-        "scope": "market",
-        "why": "금리 수준 변화는 시장 전반에 오래 영향을 줄 수 있어 흐름만 지켜보면 됩니다.",
+        "scope": "sector",
+        "why": "채용 확대는 업황 투자 사이클을 보여주는 신호라 흐름만 지켜보면 됩니다.",
         "by": "ai"
       },
       {
-        "title": "삼전닉스 3년뒤 주가 하느님도 몰라…유행 따라갔다 원금 녹는다는 ELS [이슈플러스]",
-        "link": "https://www.mk.co.kr/news/stock/12171049",
-        "source": "매일경제",
-        "date": "Thu, 08 Oct 2026 06:11:01 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "특정 상품 구조에 대한 경고성 해설로, 장기 보유 근거와는 별개입니다.",
-        "by": "ai"
-      },
-      {
-        "title": "트럼프, 美주담대 급등에 \"연준, 나라 잘 안풀리길 바라는듯\"",
-        "link": "https://www.yna.co.kr/view/AKR20261008009400071",
-        "source": "연합뉴스",
-        "date": "Thu, 8 Oct 2026 06:41:20 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "정책 당국을 향한 발언 자체로 기업 이익이 바뀌지는 않습니다.",
-        "by": "ai"
-      },
-      {
-        "title": "5.35% 찍은 美 국채 10년물…390억달러 입찰 흥행에 상승폭 축소",
-        "link": "https://www.hankyung.com/article/202610089597i",
+        "title": "방화벽 만들더니 'AI 찐 수혜주'로…주가 신고가 쓴 포티넷",
+        "link": "https://www.hankyung.com/article/202610089777i",
         "source": "한국경제",
-        "date": "Thu, 08 Oct 2026 04:54:07 +0900",
-        "act": "watch",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "금리 수준은 시장 전반에 영향을 주지만 입찰 결과는 수시로 변합니다.",
-        "by": "ai"
-      },
-      {
-        "title": "에피소드컴퍼니, 20억원 규모 유상증자 실시",
-        "link": "https://www.mk.co.kr/news/stock/12170763",
-        "source": "매일경제",
-        "date": "Wed, 07 Oct 2026 17:51:20 +09:00",
-        "act": "watch",
+        "date": "Thu, 08 Oct 2026 08:17:35 +0900",
+        "act": "none",
         "lasting": "temporary",
         "scope": "company",
-        "why": "소규모 증자이나 자금 사용처와 반복 여부는 지켜볼 만합니다.",
+        "why": "해외 개별 기업 주가 신고가 소식으로 당장 할 일은 없습니다.",
+        "by": "ai"
+      },
+      {
+        "title": "LG전자 주가 급락에 하나증권 “단기 실적보다 AI 냉각사업 주목”",
+        "link": "https://www.mk.co.kr/news/stock/12171108",
+        "source": "매일경제",
+        "date": "Thu, 08 Oct 2026 08:52:04 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "증권사 의견과 주가 변동일 뿐 사업 구조가 바뀐 건 아닙니다.",
+        "by": "ai"
+      },
+      {
+        "title": "키움증권, 한글날 기념 '연 5.8% 금리' 발행어음 특판 출시",
+        "link": "https://www.yna.co.kr/view/AKR20261008034200008",
+        "source": "연합뉴스",
+        "date": "Thu, 8 Oct 2026 08:51:02 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "기간 한정 금융상품 판매 소식으로 기업 가치와는 무관합니다.",
+        "by": "ai"
+      },
+      {
+        "title": "'어닝쇼크'에 10% 떨어졌지만...증권가는 \"LG전자, AI발 성장 스토리 유효\"",
+        "link": "https://www.hankyung.com/article/202610079527i",
+        "source": "한국경제",
+        "date": "Thu, 08 Oct 2026 08:11:16 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "분기 실적 부진과 증권가 전망은 이미 가격에 반영된 이야기입니다.",
+        "by": "ai"
+      },
+      {
+        "title": "실적부진에도…“이익 바닥 확인했다” LG전자 목표주가 잇달아 상향 [오늘 나온 보고서]",
+        "link": "https://www.mk.co.kr/news/stock/12171101",
+        "source": "매일경제",
+        "date": "Thu, 08 Oct 2026 08:46:21 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "목표주가 조정은 애널리스트 의견 변화일 뿐입니다.",
         "by": "ai"
       }
     ],
@@ -811,48 +811,6 @@
     "Rising yields are quietly crashing the stock market’s earlier winners of 2026": "상승하는 수익률은 2026년 주식 시장의 초기 승자를 조용히 추락시키고 있습니다."
   },
   "nvCache": {
-    "https://finance.yahoo.com/markets/stocks/articles/why-autozone-stock-rallied-today-020051614.html": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "하루 주가 등락 설명 기사로, 10년 뒤 이익을 바꿀 내용은 제목만으론 보이지 않습니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20261002044300008": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "장중 지수 등락은 일상적인 흐름으로 장기 판단과 무관합니다.",
-      "by": "ai"
-    },
-    "https://www.mk.co.kr/news/stock/12166874": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "추천·상승률 중심 홍보성 소식이라 근거 확인이 어렵습니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20261002042300017": {
-      "act": "watch",
-      "lasting": "temporary",
-      "scope": "sector",
-      "why": "금융 보안 사고는 규제·비용으로 번질 수 있어 경과만 지켜봅니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20261002049400008": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "고객 유치용 단기 이벤트로 장기 이익과는 무관합니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20261002048500008": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "앱 서비스 개편은 통상적인 운영 변화에 가깝습니다.",
-      "by": "ai"
-    },
     "https://www.yna.co.kr/view/AKR20261002053700008": {
       "act": "none",
       "lasting": "temporary",
@@ -2910,6 +2868,48 @@
       "scope": "market",
       "why": "금리 변동에 따른 주가 순환일 뿐, 기업 장기 이익 구조가 바뀐 신호는 아닙니다.",
       "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261008035300003": {
+      "act": "watch",
+      "lasting": "structural",
+      "scope": "sector",
+      "why": "채용 확대는 업황 투자 사이클을 보여주는 신호라 흐름만 지켜보면 됩니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/202610089777i": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "해외 개별 기업 주가 신고가 소식으로 당장 할 일은 없습니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12171108": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "증권사 의견과 주가 변동일 뿐 사업 구조가 바뀐 건 아닙니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261008034200008": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "기간 한정 금융상품 판매 소식으로 기업 가치와는 무관합니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/202610079527i": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "분기 실적 부진과 증권가 전망은 이미 가격에 반영된 이야기입니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12171101": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "목표주가 조정은 애널리스트 의견 변화일 뿐입니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2942,7 +2942,6 @@
       "2026-10-08": 898.43
     },
     "KRW=X": {
-      "2026-09-26": 1354.4,
       "2026-09-27": 1354.92,
       "2026-09-28": 1359.77,
       "2026-09-29": 1352.4,
@@ -2953,7 +2952,8 @@
       "2026-10-04": 1342.9,
       "2026-10-05": 1342.07,
       "2026-10-06": 1336.82,
-      "2026-10-07": 1339.41
+      "2026-10-07": 1339.41,
+      "2026-10-08": 1339.48
     },
     "^GSPC": {
       "2026-09-26": 7743.41,
