@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-08T18:42:14.460Z",
+  "asOf": "2026-10-08T22:03:26.062Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,36 +19,36 @@
       "time": "2026-10-08T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1342.74,
+      "price": 1342.21,
       "prev": 1339.739990234375,
-      "chg": 0.22,
+      "chg": 0.18,
       "prevDay": "2026-10-07",
       "basis": "prev-close-bar",
-      "time": "2026-10-08T18:42:03.000Z"
+      "time": "2026-10-08T22:02:20.000Z"
     },
     "^GSPC": {
-      "price": 7756.17,
+      "price": 7765.36,
       "prev": 7801.77001953125,
-      "chg": -0.58,
+      "chg": -0.47,
       "prevDay": "2026-10-07",
       "basis": "prev-close-bar",
-      "time": "2026-10-08T18:42:09.000Z"
+      "time": "2026-10-08T20:46:43.000Z"
     },
     "^IXIC": {
-      "price": 27167.646,
+      "price": 27193.34,
       "prev": 27538.689453125,
-      "chg": -1.35,
+      "chg": -1.25,
       "prevDay": "2026-10-07",
       "basis": "prev-close-bar",
-      "time": "2026-10-08T18:42:08.000Z"
+      "time": "2026-10-08T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 15.54,
+      "price": 15.41,
       "prev": 15.079999923706055,
-      "chg": 3.05,
+      "chg": 2.19,
       "prevDay": "2026-10-07",
       "basis": "prev-close-bar",
-      "time": "2026-10-08T18:27:01.000Z"
+      "time": "2026-10-08T20:15:01.000Z"
     },
     "^TNX": {
       "price": 5.231,
@@ -56,13 +56,13 @@
       "chg": -0.87,
       "prevDay": "2026-10-07",
       "basis": "prev-close-bar",
-      "time": "2026-10-08T18:27:05.000Z"
+      "time": "2026-10-08T18:59:55.000Z"
     }
   },
   "fx": {
-    "low52": 1339.17,
+    "low52": 1339.08,
     "high52": 1554.48,
-    "pct": 0.017
+    "pct": 0.015
   },
   "hist": {
     "^KS11": {
@@ -80,32 +80,32 @@
       "chg3m": 6.06
     },
     "KRW=X": {
-      "last": 1342.74,
-      "low52": 1339.17,
+      "last": 1342.21,
+      "low52": 1339.08,
       "high52": 1554.48,
-      "pct52": 0.017,
-      "chg3m": -10.35
+      "pct52": 0.015,
+      "chg3m": -9.79
     },
     "^GSPC": {
-      "last": 7756.17,
+      "last": 7765.36,
       "low52": 6343.72,
       "high52": 7818.93,
-      "pct52": 0.957,
-      "chg3m": 3.2
+      "pct52": 0.964,
+      "chg3m": 3.33
     },
     "^IXIC": {
-      "last": 27167.65,
+      "last": 27193.34,
       "low52": 20794.64,
       "high52": 27599.79,
-      "pct52": 0.936,
-      "chg3m": 5
+      "pct52": 0.94,
+      "chg3m": 5.1
     },
     "^VIX": {
-      "last": 15.54,
+      "last": 15.41,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.118,
-      "chg3m": -5.82
+      "pct52": 0.11,
+      "chg3m": -6.61
     },
     "^TNX": {
       "last": 5.23,
@@ -117,16 +117,16 @@
   },
   "regime": {
     "by": "ai",
-    "asOf": "2026-10-07T15:06:40.585Z",
+    "asOf": "2026-10-08T22:03:16.485Z",
     "kr": {
       "why": {
-        "rates": "미 10년물 금리(^TNX)가 5.31%로 1년 범위 최상단(위치 100%)이고 3개월간 +16.24% 올랐으며, '국채 매도세 재개…10년물 금리 2002년 4월 이후 최고' 헤드라인도 금리 상승 쪽을 가리킵니다.",
-        "growth": "코스피가 3개월간 -14.18% 조정받았지만 1년 범위 내 위치는 61%(6941.39, 범위 3561.81~9114.55)로 여전히 중상단이고 VIX도 15.73으로 낮아, 침체라기보다 둔화 국면으로 보는 것이 자료상 타당합니다.",
-        "valuation": "코스피 1년 범위 내 위치 61%는 뚜렷하게 싸지도 비싸지도 않은 구간이며, 밸류에이션 지표(PER 등)가 주어지지 않아 중립값인 '보통'으로 둡니다.",
-        "fx": "원/달러(KRW=X)가 1339.1로 1년 범위(1339.1~1554.48)의 최하단(위치 0%)이고 3개월간 -10.64% 하락해 원화가 강해진 상태입니다.",
-        "geo": "VIX가 15.73으로 1년 범위 하위 13%에 머물고 제시된 헤드라인에도 전쟁·제재 같은 충격 사건이 없어 평온으로 분류합니다."
+        "rates": "미국 10년물 금리(^TNX)가 5.23%로 1년 범위의 94% 위치, 3개월 간 +13.5%로 올라 시장금리가 오르는 쪽에 서 있습니다(한은 기준금리 자체 수치는 자료에 없어 시장금리로 판단).",
+        "growth": "코스피가 3개월 간 -15.49% 내렸지만 1년 범위에서는 58% 위치이고 헤드라인에는 삼성전자 실적 신기록, K배터리 호실적이 섞여 있어 침체 단정보다는 둔화 국면으로 봤습니다.",
+        "valuation": "코스피 6803.9는 1년 범위 3561.81~9114.55의 58% 위치로 극단적으로 싸지도 비싸지도 않은 중간 수준입니다(PER 등 밸류 지표는 자료에 없음).",
+        "fx": "원/달러가 1342.21로 1년 범위(1339.08~1554.48)의 2% 위치, 3개월 간 -9.79%라 원화가 뚜렷하게 강한 쪽입니다.",
+        "geo": "VIX가 15.41로 1년 범위의 11% 위치까지 낮고 헤드라인에도 충격성 사건이 없어 긴장도는 낮습니다."
       },
-      "summary": "금리는 오르는데 원화는 1년 최저 수준(1339.1)까지 강해졌고, 코스피는 3개월 -14.18% 조정을 받았지만 1년 범위 61% 자리에 있습니다. 공포지수(VIX 15.73)가 낮아 시장 분위기는 차분한 가운데 '금리 상승 + 성장 둔화' 성격의 국면입니다.",
+      "summary": "원화가 1342원대로 1년 중 가장 강한 편이고 변동성지수(VIX 15.41)도 낮지만, 코스피는 3개월 간 -15.49% 밀렸고 장기금리는 5.23%로 1년 고점권입니다. 금리는 오르고 주가는 쉬어가는 '둔화 + 금리부담' 국면으로 분류됩니다.",
       "rates": "hike",
       "growth": "slow",
       "valuation": "fair",
@@ -135,18 +135,18 @@
     },
     "us": {
       "why": {
-        "rates": "10년물 금리(^TNX)가 5.31%로 1년 범위 최상단(위치 100%), 3개월 +16.24%이고 인도 중앙은행의 3년8개월 만의 인상 소식 등 긴축 쪽 재료가 함께 나오고 있습니다.",
-        "growth": "S&P500이 7768.71로 1년 범위의 97% 지점이고 3개월 +2.55% 상승 중이라, 무역적자 1056억 달러·노동시장 관련 헤드라인에도 불구하고 현재 수치상으로는 양호한 쪽으로 분류됩니다.",
-        "valuation": "지수가 1년 범위 최상단 부근(위치 97%, 고점 7818.93 근접)이고 동시에 10년물이 5.31%까지 올라 있어 가격 부담이 큰 구간으로 봅니다.",
-        "fx": "원/달러(KRW=X)가 1339.1로 1년 범위 최하단(위치 0%), 3개월 -10.64%여서 달러 대비 원화가 강한 상태입니다.",
-        "geo": "VIX 15.73(1년 범위 하위 13%)으로 변동성이 낮고 제시된 헤드라인에 즉각적 충격 사건이 없어 평온으로 판정합니다."
+        "rates": "10년물 금리(^TNX) 5.23%는 1년 범위 3.95~5.31의 94% 위치이고 3개월 간 +13.5%, 모기지 금리 7.5% 돌파 보도까지 더해져 금리가 오르는 쪽입니다.",
+        "growth": "S&P500이 7765.36으로 1년 범위의 96% 위치, 3개월 간 +3.33% 상승해 지수 흐름만 보면 경기 위축 신호는 보이지 않습니다(고용·GDP 수치는 자료에 없음).",
+        "valuation": "S&P500이 1년 범위 6343.72~7818.93의 96% 위치로 고점 부근이라 가격 부담이 큰 편입니다(이익 대비 지표는 자료에 없어 지수 위치로만 판단).",
+        "fx": "원/달러 1342.21은 1년 범위의 2% 위치, 3개월 -9.79%로 달러 대비 원화가 강한 상태입니다.",
+        "geo": "VIX는 15.41로 낮지만 '관세가 일상 품목 물가의 주원인', '1년 기대인플레 2023년 5월 이후 최고' 같은 정책·물가 관련 헤드라인이 반복돼 평온보다는 긴장으로 봤습니다."
       },
-      "summary": "미국 증시는 1년 최고가 부근(위치 97%)까지 올라와 있고 변동성(VIX 15.73)도 낮아 표면적으로는 안정된 상승 국면입니다. 다만 10년물 금리가 5.31%로 1년 최고치여서 '높은 금리 + 비싼 가격'이 겹친 상태라는 점을 이해해 두면 좋습니다.",
+      "summary": "주가는 1년 고점 부근(범위의 96%)까지 올라와 있지만, 10년물 금리 5.23%와 관세·기대인플레 우려가 동시에 얹혀 있는 상태입니다. 즉 '경기와 증시는 버티는데 금리·물가 쪽 부담이 커진' 국면으로 분류됩니다.",
       "rates": "hike",
       "growth": "expand",
       "valuation": "rich",
       "fx": "strong",
-      "geo": "calm"
+      "geo": "tense"
     }
   },
   "stocks": {
@@ -156,7 +156,7 @@
         "prev": 162800,
         "chg": 0,
         "prevDay": "2026-10-08",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-10-08T06:30:29.000Z"
       },
       "207940": {
@@ -164,7 +164,7 @@
         "prev": 1219000,
         "chg": 0,
         "prevDay": "2026-10-08",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-10-08T06:30:10.000Z"
       },
       "005930": {
@@ -172,7 +172,7 @@
         "prev": 262000,
         "chg": 0,
         "prevDay": "2026-10-08",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-10-08T06:32:40.000Z"
       },
       "000660": {
@@ -180,7 +180,7 @@
         "prev": 1681000,
         "chg": 0,
         "prevDay": "2026-10-08",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-10-08T06:30:18.000Z"
       },
       "005380": {
@@ -188,7 +188,7 @@
         "prev": 324500,
         "chg": 0,
         "prevDay": "2026-10-08",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-10-08T06:30:18.000Z"
       },
       "055550": {
@@ -196,7 +196,7 @@
         "prev": 99500,
         "chg": 0,
         "prevDay": "2026-10-08",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-10-08T06:30:01.000Z"
       },
       "000810": {
@@ -204,7 +204,7 @@
         "prev": 612000,
         "chg": 0,
         "prevDay": "2026-10-08",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-10-08T06:30:29.000Z"
       },
       "033780": {
@@ -212,7 +212,7 @@
         "prev": 177400,
         "chg": 0,
         "prevDay": "2026-10-08",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-10-08T06:30:02.000Z"
       },
       "035420": {
@@ -220,7 +220,7 @@
         "prev": 183800,
         "chg": 0,
         "prevDay": "2026-10-08",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-10-08T06:30:21.000Z"
       },
       "005490": {
@@ -228,7 +228,7 @@
         "prev": 306500,
         "chg": 0,
         "prevDay": "2026-10-08",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-10-08T06:30:15.000Z"
       },
       "028260": {
@@ -236,7 +236,7 @@
         "prev": 317500,
         "chg": 0,
         "prevDay": "2026-10-08",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-10-08T06:30:02.000Z"
       },
       "012450": {
@@ -244,7 +244,7 @@
         "prev": 891000,
         "chg": 0,
         "prevDay": "2026-10-08",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-10-08T06:32:10.000Z"
       },
       "017670": {
@@ -252,128 +252,128 @@
         "prev": 84100,
         "chg": 0,
         "prevDay": "2026-10-08",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-10-08T06:30:09.000Z"
       }
     },
     "us": {
       "MSFT": {
-        "price": 521.685,
+        "price": 522.61,
         "prev": 529.760009765625,
-        "chg": -1.52,
+        "chg": -1.35,
         "prevDay": "2026-10-07",
         "basis": "prev-close-bar",
-        "time": "2026-10-08T18:42:12.000Z"
+        "time": "2026-10-08T20:00:01.000Z"
       },
       "AAPL": {
-        "price": 339.99,
+        "price": 340.42,
         "prev": 336.6700134277344,
-        "chg": 0.99,
+        "chg": 1.11,
         "prevDay": "2026-10-07",
         "basis": "prev-close-bar",
-        "time": "2026-10-08T18:42:13.000Z"
+        "time": "2026-10-08T20:00:00.000Z"
       },
       "GOOGL": {
-        "price": 347.48,
+        "price": 348.29,
         "prev": 350.5,
-        "chg": -0.86,
+        "chg": -0.63,
         "prevDay": "2026-10-07",
         "basis": "prev-close-bar",
-        "time": "2026-10-08T18:42:12.000Z"
+        "time": "2026-10-08T20:00:01.000Z"
       },
       "BRK.B": {
-        "price": 513.04,
+        "price": 511.05,
         "prev": 506.25,
-        "chg": 1.34,
+        "chg": 0.95,
         "prevDay": "2026-10-07",
         "basis": "prev-close-bar",
-        "time": "2026-10-08T18:42:10.000Z"
+        "time": "2026-10-08T20:02:58.000Z"
       },
       "V": {
-        "price": 379.605,
+        "price": 375.1,
         "prev": 372.1000061035156,
-        "chg": 2.02,
+        "chg": 0.81,
         "prevDay": "2026-10-07",
         "basis": "prev-close-bar",
-        "time": "2026-10-08T18:42:07.000Z"
+        "time": "2026-10-08T20:00:03.000Z"
       },
       "JNJ": {
-        "price": 256.29,
+        "price": 256.48,
         "prev": 258.45001220703125,
-        "chg": -0.84,
+        "chg": -0.76,
         "prevDay": "2026-10-07",
         "basis": "prev-close-bar",
-        "time": "2026-10-08T18:42:12.000Z"
+        "time": "2026-10-08T20:00:02.000Z"
       },
       "PG": {
-        "price": 150.1,
+        "price": 150.59,
         "prev": 147.82000732421875,
-        "chg": 1.54,
+        "chg": 1.87,
         "prevDay": "2026-10-07",
         "basis": "prev-close-bar",
-        "time": "2026-10-08T18:42:12.000Z"
+        "time": "2026-10-08T20:02:44.000Z"
       },
       "KO": {
-        "price": 87.755,
+        "price": 87.77,
         "prev": 85.81999969482422,
-        "chg": 2.25,
+        "chg": 2.27,
         "prevDay": "2026-10-07",
         "basis": "prev-close-bar",
-        "time": "2026-10-08T18:42:12.000Z"
+        "time": "2026-10-08T20:00:02.000Z"
       },
       "COST": {
-        "price": 948.405,
+        "price": 947.92,
         "prev": 942.25,
-        "chg": 0.65,
+        "chg": 0.6,
         "prevDay": "2026-10-07",
         "basis": "prev-close-bar",
-        "time": "2026-10-08T18:41:58.000Z"
+        "time": "2026-10-08T20:00:01.000Z"
       },
       "WM": {
-        "price": 210.265,
+        "price": 210.1,
         "prev": 208.94000244140625,
-        "chg": 0.63,
+        "chg": 0.56,
         "prevDay": "2026-10-07",
         "basis": "prev-close-bar",
-        "time": "2026-10-08T18:41:45.000Z"
+        "time": "2026-10-08T20:00:02.000Z"
       },
       "LIN": {
-        "price": 482.08,
+        "price": 481.7,
         "prev": 483.9800109863281,
-        "chg": -0.39,
+        "chg": -0.47,
         "prevDay": "2026-10-07",
         "basis": "prev-close-bar",
-        "time": "2026-10-08T18:42:09.000Z"
+        "time": "2026-10-08T20:00:01.000Z"
       },
       "XOM": {
-        "price": 168.68,
+        "price": 168.5,
         "prev": 164.0500030517578,
-        "chg": 2.82,
+        "chg": 2.71,
         "prevDay": "2026-10-07",
         "basis": "prev-close-bar",
-        "time": "2026-10-08T18:42:06.000Z"
+        "time": "2026-10-08T20:04:14.000Z"
       },
       "NVDA": {
-        "price": 230.387,
+        "price": 230.48,
         "prev": 237.47000122070312,
-        "chg": -2.98,
+        "chg": -2.94,
         "prevDay": "2026-10-07",
         "basis": "prev-close-bar",
-        "time": "2026-10-08T18:42:12.000Z"
+        "time": "2026-10-08T20:00:01.000Z"
       }
     }
   },
   "news": {
     "kr": [
       {
-        "title": "삼성생명, 해외 신종자본증권 2조원 첫 발행…\"해외투자 강화\"",
-        "link": "https://www.yna.co.kr/view/AKR20261008182400002",
+        "title": "한은 앞 'CBDC 반대' 현수막…한은 \"일반인용 도입 안해\"",
+        "link": "https://www.yna.co.kr/view/AKR20261008209800002",
         "source": "연합뉴스",
-        "date": "Thu, 8 Oct 2026 18:07:07 +0900",
+        "date": "Fri, 9 Oct 2026 05:55:00 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
-        "why": "자본 조달 결정으로, 당장 사업 구조가 바뀌는 사안은 아닙니다.",
+        "scope": "sector",
+        "why": "일반인용 도입은 안 한다는 해명 수준이라 당장 바뀌는 건 없습니다.",
         "by": "ai"
       },
       {
@@ -388,25 +388,25 @@
         "by": "ai"
       },
       {
-        "title": "“3개월 새 300% 뛰었는데 아직 시작도 안 했다”…대박난 ‘이 주식’ 뭐길래",
-        "link": "https://www.mk.co.kr/news/economy/12172028",
+        "title": "“전기차 안 팔려 죽을맛이었는데”…K배터리 기업, 호실적 낸 비결은",
+        "link": "https://www.mk.co.kr/news/business/12172123",
         "source": "매일경제",
-        "date": "Thu, 08 Oct 2026 22:45:41 +09:00",
+        "date": "Fri, 09 Oct 2026 05:59:17 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
-        "why": "단기 급등을 전하는 기사로 기업 이익 구조와는 무관합니다.",
+        "scope": "sector",
+        "why": "분기 실적 이야기로, 업종의 장기 구조가 바뀐 건 아닙니다.",
         "by": "ai"
       },
       {
-        "title": "초과 세수, 기금·국채발행 축소에 얼마나…박홍근 \"협의 중\"",
-        "link": "https://www.yna.co.kr/view/AKR20261008172300002",
+        "title": "삼성생명, 해외 신종자본증권 2조원 첫 발행…\"해외투자 강화\"",
+        "link": "https://www.yna.co.kr/view/AKR20261008182400002",
         "source": "연합뉴스",
-        "date": "Thu, 8 Oct 2026 17:03:40 +0900",
+        "date": "Thu, 8 Oct 2026 18:07:07 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
-        "why": "재정 운용 협의 단계라 기업 이익과 직접 연결되지 않습니다.",
+        "scope": "company",
+        "why": "자본 조달 결정으로, 당장 사업 구조가 바뀌는 사안은 아닙니다.",
         "by": "ai"
       },
       {
@@ -421,14 +421,14 @@
         "by": "ai"
       },
       {
-        "title": "100조 실적 잔칫날인데 삼전 주가는 왜…“극단적 저평가”라는데",
-        "link": "https://www.mk.co.kr/news/stock/12171940",
+        "title": "“3개월 새 300% 뛰었는데 아직 시작도 안 했다”…대박난 ‘이 주식’ 뭐길래",
+        "link": "https://www.mk.co.kr/news/economy/12172028",
         "source": "매일경제",
-        "date": "Thu, 08 Oct 2026 19:48:52 +09:00",
+        "date": "Thu, 08 Oct 2026 22:45:41 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
-        "why": "실적과 주가의 단기 괴리를 다룬 시황 해석이라 투자 근거가 바뀐 건 아닙니다.",
+        "why": "단기 급등을 전하는 기사로 기업 이익 구조와는 무관합니다.",
         "by": "ai"
       }
     ],
@@ -446,15 +446,15 @@
         "by": "ai"
       },
       {
-        "title": "Bond yields fell, as the Treasury market passed a crucial test of investor confidence",
-        "link": "https://www.marketwatch.com/story/the-treasury-market-is-facing-a-crucial-vote-of-investor-confidence-31fa8d41?mod=mw_rss_topstories",
+        "title": "Why a longtime skeptic of Palantir’s stock is finally saying it’s time to buy",
+        "link": "https://www.marketwatch.com/story/why-a-longtime-skeptic-of-palantirs-stock-is-finally-saying-its-time-to-buy-60cdeede?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Thu, 08 Oct 2026 18:19:00 GMT",
-        "ko": "국채 시장이 투자자 신뢰도에 대한 중요한 테스트를 통과함에 따라 채권 수익률이 하락했습니다.",
+        "date": "Thu, 08 Oct 2026 21:56:00 GMT",
+        "ko": "Palantir의 주식에 대한 오랜 회의론자가 마침내 구매할 때라고 말하는 이유는 무엇입니까?",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
-        "why": "투자 심리를 다룬 전망성 기사로 구체적 사실 변화는 없습니다.",
+        "scope": "company",
+        "why": "애널리스트 의견 변화일 뿐 기업 이익 구조가 달라진 건 아닙니다.",
         "by": "ai"
       },
       {
@@ -470,15 +470,15 @@
         "by": "ai"
       },
       {
-        "title": "Rising interest rates: The good, the bad and the ugly for retirees",
-        "link": "https://www.marketwatch.com/story/the-good-the-bad-and-the-ugly-of-rising-interest-rates-ee465a81?mod=mw_rss_topstories",
+        "title": "Should I put my nest egg in a 30-year Treasury bond?",
+        "link": "https://www.marketwatch.com/story/should-i-put-my-nest-egg-in-a-30-year-treasury-bond-89db6e09?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Thu, 08 Oct 2026 17:45:00 GMT",
-        "ko": "이자율 상승: 은퇴자에게 좋은 점, 나쁜 점, 추한 점",
+        "date": "Thu, 08 Oct 2026 20:32:00 GMT",
+        "ko": "내 둥지 알을 30년 국채에 넣어야 할까?",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "금리 흐름에 대한 일반 해설로, 당장 대응할 내용은 없습니다.",
+        "why": "특정 기업 실적이 아닌 자산배분 의견 기사라 오늘 할 일은 없습니다.",
         "by": "ai"
       },
       {
@@ -494,22 +494,21 @@
         "by": "ai"
       },
       {
-        "title": "Why a longtime skeptic of Palantir’s stock is finally saying it’s time to buy",
-        "link": "https://www.marketwatch.com/story/why-a-longtime-skeptic-of-palantirs-stock-is-finally-saying-its-time-to-buy-60cdeede?mod=mw_rss_topstories",
+        "title": "With mortgage rates soaring above 7.5%, the smart money rents in America",
+        "link": "https://www.marketwatch.com/story/with-mortgage-rates-soaring-above-7-5-the-smart-money-rents-in-america-ef0eb5aa?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Thu, 08 Oct 2026 16:32:00 GMT",
-        "ko": "Palantir의 주식에 대한 오랜 회의론자가 마침내 구매할 때라고 말하는 이유는 무엇입니까?",
-        "act": "none",
+        "date": "Thu, 08 Oct 2026 20:30:00 GMT",
+        "ko": "주택담보대출 금리가 7.5% 이상 치솟으면서 미국의 스마트 머니 임대료는",
+        "act": "watch",
         "lasting": "temporary",
-        "scope": "company",
-        "why": "애널리스트 의견 변화일 뿐 기업 이익 구조가 달라진 건 아닙니다.",
+        "scope": "market",
+        "why": "금리 수준은 경기 흐름에 따라 변하는 사안이라 지켜보는 정도면 충분합니다.",
         "by": "ai"
       }
     ]
   },
   "newsBy": "ai",
   "trCache": {
-    "Want to bet on risky, high-beta stocks? Why you should wait for this week in October.": "위험한 하이 베타 주식에 베팅하고 싶으신가요? 10월 이번 주를 기다려야 하는 이유",
     "Erie Indemnity Stock: Is ERIE Underperforming the Financial Services Sector?": "Erie 손해 배상 주식: Erie가 금융 서비스 부문을 부진하게 수행하고 있습니까?",
     "Fenimore Bets on NASDAQ’s (NDAQ) Non-Transactional Revenue Streams": "NASDAQ (NDAQ) 의 비거래 수익 스트림에 대한 Fenimore 베팅",
     "The Nasdaq’s rapid rise to a record is sending a message to investors: Don’t wait for a pullback to buy": "나스닥의 급속한 기록 상승은 투자자들에게 다음과 같은 메시지를 보내고 있습니다. 매수 철회를 기다리지 마십시오.",
@@ -808,30 +807,10 @@
     "The Treasury market is facing a crucial vote of investor confidence": "재무 시장은 투자자 신뢰의 중요한 투표에 직면하고 있습니다",
     "Why a longtime skeptic of Palantir’s stock is finally saying it’s time to buy": "Palantir의 주식에 대한 오랜 회의론자가 마침내 구매할 때라고 말하는 이유는 무엇입니까?",
     "Rising interest rates: The good, the bad and the ugly for retirees": "이자율 상승: 은퇴자에게 좋은 점, 나쁜 점, 추한 점",
-    "Bond yields fell, as the Treasury market passed a crucial test of investor confidence": "국채 시장이 투자자 신뢰도에 대한 중요한 테스트를 통과함에 따라 채권 수익률이 하락했습니다."
+    "Bond yields fell, as the Treasury market passed a crucial test of investor confidence": "국채 시장이 투자자 신뢰도에 대한 중요한 테스트를 통과함에 따라 채권 수익률이 하락했습니다.",
+    "With mortgage rates soaring above 7.5%, the smart money rents in America": "주택담보대출 금리가 7.5% 이상 치솟으면서 미국의 스마트 머니 임대료는"
   },
   "nvCache": {
-    "https://www.mk.co.kr/news/stock/12167737": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "배당 기대는 일회성 이벤트로 장기 이익 구조를 바꾸지 않습니다.",
-      "by": "ai"
-    },
-    "https://www.mk.co.kr/news/stock/12167729": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "해외 지수 등락에 따른 단기 기대일 뿐입니다.",
-      "by": "ai"
-    },
-    "https://www.hankyung.com/article/2026100204936": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "자금 흐름 소식일 뿐, 기업의 장기 이익과는 직접 관련이 적습니다.",
-      "by": "ai"
-    },
     "https://www.mk.co.kr/news/stock/12167780": {
       "act": "watch",
       "lasting": "temporary",
@@ -2910,6 +2889,27 @@
       "scope": "company",
       "why": "애널리스트 의견 변화일 뿐 기업 이익 구조가 달라진 건 아닙니다.",
       "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261008209800002": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "sector",
+      "why": "일반인용 도입은 안 한다는 해명 수준이라 당장 바뀌는 건 없습니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/business/12172123": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "sector",
+      "why": "분기 실적 이야기로, 업종의 장기 구조가 바뀐 건 아닙니다.",
+      "by": "ai"
+    },
+    "https://www.marketwatch.com/story/with-mortgage-rates-soaring-above-7-5-the-smart-money-rents-in-america-ef0eb5aa?mod=mw_rss_topstories": {
+      "act": "watch",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "금리 수준은 경기 흐름에 따라 변하는 사안이라 지켜보는 정도면 충분합니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2953,7 +2953,7 @@
       "2026-10-05": 1342.07,
       "2026-10-06": 1336.82,
       "2026-10-07": 1339.41,
-      "2026-10-08": 1342.74
+      "2026-10-08": 1342.21
     },
     "^GSPC": {
       "2026-09-27": 7743.41,
@@ -2967,7 +2967,7 @@
       "2026-10-05": 7773.95,
       "2026-10-06": 7818.93,
       "2026-10-07": 7801.77,
-      "2026-10-08": 7756.17
+      "2026-10-08": 7765.36
     },
     "^IXIC": {
       "2026-09-27": 27068.717,
@@ -2981,7 +2981,7 @@
       "2026-10-05": 27477.31,
       "2026-10-06": 27599.887,
       "2026-10-07": 27538.691,
-      "2026-10-08": 27167.646
+      "2026-10-08": 27193.34
     },
     "^VIX": {
       "2026-09-27": 14.87,
@@ -2995,7 +2995,7 @@
       "2026-10-05": 15.52,
       "2026-10-06": 15.01,
       "2026-10-07": 15.08,
-      "2026-10-08": 15.54
+      "2026-10-08": 15.41
     },
     "^TNX": {
       "2026-09-27": 5.184,
@@ -3205,7 +3205,7 @@
       "2026-10-05": 525.18,
       "2026-10-06": 529.3,
       "2026-10-07": 529.76,
-      "2026-10-08": 521.685
+      "2026-10-08": 522.61
     },
     "AAPL": {
       "2026-09-27": 341.07,
@@ -3219,7 +3219,7 @@
       "2026-10-05": 332.89,
       "2026-10-06": 333.63,
       "2026-10-07": 336.67,
-      "2026-10-08": 339.99
+      "2026-10-08": 340.42
     },
     "GOOGL": {
       "2026-09-27": 343.92,
@@ -3233,7 +3233,7 @@
       "2026-10-05": 346.47,
       "2026-10-06": 347.68,
       "2026-10-07": 350.5,
-      "2026-10-08": 347.48
+      "2026-10-08": 348.29
     },
     "BRK.B": {
       "2026-08-29": 505,
@@ -3254,7 +3254,7 @@
       "2026-10-05": 369.71,
       "2026-10-06": 370.64,
       "2026-10-07": 372.1,
-      "2026-10-08": 379.605
+      "2026-10-08": 375.1
     },
     "JNJ": {
       "2026-09-27": 271.22,
@@ -3268,7 +3268,7 @@
       "2026-10-05": 252.93,
       "2026-10-06": 254.78,
       "2026-10-07": 258.45,
-      "2026-10-08": 256.29
+      "2026-10-08": 256.48
     },
     "PG": {
       "2026-09-27": 146.23,
@@ -3282,7 +3282,7 @@
       "2026-10-05": 145.94,
       "2026-10-06": 148.41,
       "2026-10-07": 147.82,
-      "2026-10-08": 150.1
+      "2026-10-08": 150.59
     },
     "KO": {
       "2026-09-27": 87.81,
@@ -3296,7 +3296,7 @@
       "2026-10-05": 86.51,
       "2026-10-06": 86.17,
       "2026-10-07": 85.82,
-      "2026-10-08": 87.755
+      "2026-10-08": 87.77
     },
     "COST": {
       "2026-09-27": 922.765,
@@ -3310,7 +3310,7 @@
       "2026-10-05": 923.52,
       "2026-10-06": 935.68,
       "2026-10-07": 942.25,
-      "2026-10-08": 948.405
+      "2026-10-08": 947.92
     },
     "WM": {
       "2026-09-27": 206.83,
@@ -3324,7 +3324,7 @@
       "2026-10-05": 206.66,
       "2026-10-06": 207.88,
       "2026-10-07": 208.94,
-      "2026-10-08": 210.265
+      "2026-10-08": 210.1
     },
     "LIN": {
       "2026-09-27": 469.89,
@@ -3338,7 +3338,7 @@
       "2026-10-05": 482.38,
       "2026-10-06": 489.95,
       "2026-10-07": 483.98,
-      "2026-10-08": 482.08
+      "2026-10-08": 481.7
     },
     "XOM": {
       "2026-09-27": 160.59,
@@ -3352,7 +3352,7 @@
       "2026-10-05": 164,
       "2026-10-06": 164.48,
       "2026-10-07": 164.05,
-      "2026-10-08": 168.68
+      "2026-10-08": 168.5
     },
     "NVDA": {
       "2026-09-27": 225.07,
@@ -3366,7 +3366,7 @@
       "2026-10-05": 238.9,
       "2026-10-06": 239.24,
       "2026-10-07": 237.47,
-      "2026-10-08": 230.387
+      "2026-10-08": 230.48
     },
     "BRK-B": {
       "2026-09-27": 505.48,
@@ -3380,7 +3380,7 @@
       "2026-10-05": 504.26,
       "2026-10-06": 505.54,
       "2026-10-07": 506.25,
-      "2026-10-08": 513.04
+      "2026-10-08": 511.05
     }
   },
   "failed": [
