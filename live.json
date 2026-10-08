@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-08T11:49:43.026Z",
+  "asOf": "2026-10-08T12:50:15.963Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-08T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1343.08,
+      "price": 1343.58,
       "prev": 1339.739990234375,
-      "chg": 0.25,
+      "chg": 0.29,
       "prevDay": "2026-10-07",
       "basis": "prev-close-bar",
-      "time": "2026-10-08T11:49:30.000Z"
+      "time": "2026-10-08T12:49:59.000Z"
     },
     "^GSPC": {
       "price": 7801.77,
@@ -43,26 +43,26 @@
       "time": "2026-10-07T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 15.9,
+      "price": 15.75,
       "prev": 15.079999923706055,
-      "chg": 5.44,
+      "chg": 4.44,
       "prevDay": "2026-10-07",
       "basis": "prev-close-bar",
-      "time": "2026-10-08T11:34:31.000Z"
+      "time": "2026-10-08T12:34:46.000Z"
     },
     "^TNX": {
-      "price": 5.277,
+      "price": 5.328,
       "prev": 5.2769999504089355,
-      "chg": 0,
+      "chg": 0.97,
       "prevDay": "2026-10-07",
       "basis": "prev-close-bar",
-      "time": "2026-10-07T18:59:54.000Z"
+      "time": "2026-10-08T12:34:55.000Z"
     }
   },
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.018
+    "pct": 0.02
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": 7.34
     },
     "KRW=X": {
-      "last": 1343.08,
+      "last": 1343.58,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.018,
-      "chg3m": -10.32
+      "pct52": 0.02,
+      "chg3m": -10.29
     },
     "^GSPC": {
       "last": 7801.77,
@@ -101,18 +101,18 @@
       "chg3m": 4.78
     },
     "^VIX": {
-      "last": 15.9,
+      "last": 15.75,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.138,
-      "chg3m": -3.64
+      "pct52": 0.13,
+      "chg3m": -4.55
     },
     "^TNX": {
-      "last": 5.28,
+      "last": 5.33,
       "low52": 3.95,
-      "high52": 5.31,
-      "pct52": 0.975,
-      "chg3m": 15.5
+      "high52": 5.33,
+      "pct52": 1,
+      "chg3m": 15.6
     }
   },
   "regime": {
@@ -434,6 +434,30 @@
     ],
     "us": [
       {
+        "title": "Inflation on many everyday items was entirely due to tariffs, NY Fed says",
+        "link": "https://www.cnbc.com/2026/10/08/inflation-tariffs-trump-fed-consumer-goods.html",
+        "source": "CNBC",
+        "date": "Thu, 08 Oct 2026 12:05:16 GMT",
+        "ko": "NY Fed는 많은 일상 품목에 대한 인플레이션은 전적으로 관세 때문이라고 말합니다.",
+        "act": "watch",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "관세발 물가는 정책 변화로 되돌릴 수 있어 당장은 흐름만 지켜보면 됩니다.",
+        "by": "ai"
+      },
+      {
+        "title": "Rising yields are quietly crashing the stock market’s earlier winners of 2026",
+        "link": "https://www.marketwatch.com/story/rising-yields-are-quietly-crashing-the-stock-markets-earlier-winners-of-2026-a29f2863?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "date": "Thu, 08 Oct 2026 12:32:00 GMT",
+        "ko": "상승하는 수익률은 2026년 주식 시장의 초기 승자를 조용히 추락시키고 있습니다.",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "금리 변동에 따른 주가 순환일 뿐, 기업 장기 이익 구조가 바뀐 신호는 아닙니다.",
+        "by": "ai"
+      },
+      {
         "title": "Inflation fears on the rise as one-year outlook in Fed survey hits highest level since May 2023",
         "link": "https://www.cnbc.com/2026/10/07/inflation-fears-on-the-rise-as-one-year-outlook-in-fed-survey-hits-highest-since-may-2023.html",
         "source": "CNBC",
@@ -470,30 +494,6 @@
         "by": "ai"
       },
       {
-        "title": "Rising yields are quietly crashing the stock market’s earlier winners of 2026",
-        "link": "https://www.marketwatch.com/story/rising-yields-are-quietly-crashing-the-stock-markets-earlier-winners-of-2026-a29f2863?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "date": "Thu, 08 Oct 2026 11:00:00 GMT",
-        "ko": "상승하는 수익률은 2026년 주식 시장의 초기 승자를 조용히 추락시키고 있습니다.",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "금리 변동에 따른 주가 순환일 뿐, 기업 장기 이익 구조가 바뀐 신호는 아닙니다.",
-        "by": "ai"
-      },
-      {
-        "title": "Trade deficit hits $105.6 billion, widest since just before Trump tariffs enacted last year",
-        "link": "https://www.cnbc.com/2026/10/06/trade-deficit-hits-105point6-billion-widest-since-just-before-trump-tariffs-enacted-last-year.html",
-        "source": "CNBC",
-        "date": "Tue, 06 Oct 2026 15:52:22 GMT",
-        "ko": "무역 적자는 지난해 트럼프 관세 부과 직전보다 가장 큰 1056억 달러 ($) 를 기록했다.",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "월간 무역수지 수치는 변동이 크고 기업 이익과 직접 연결되지 않습니다.",
-        "by": "ai"
-      },
-      {
         "title": "A true ‘nuclear renaissance’ is taking shape, and these stocks could be big winners",
         "link": "https://www.marketwatch.com/story/a-true-nuclear-renaissance-is-taking-shape-and-these-stocks-could-be-big-winners-e04f7364?mod=mw_rss_topstories",
         "source": "MarketWatch",
@@ -509,7 +509,6 @@
   },
   "newsBy": "ai",
   "trCache": {
-    "The bond market is flashing a warning for stocks. These sectors are already wobbling.": "채권 시장은 주식에 대한 경고를 깜박이고 있습니다. 이 부문들은 이미 흔들리고 있습니다.",
     "U.S. Stock Futures Climb as Oil Falls, Optimism Builds Ahead of Trump-Xi Summit": "석유 폭락으로 미국 주식 선물 상승, 트럼프-시진핑 정상회담 앞두고 낙관론 구축",
     "Bank of England defies Fed’s rate-hike lead, leaving rates unchanged": "잉글랜드 은행, Fed의 금리 인상 주도권에 저항, 금리 변동 없음",
     "Kalshi asks CFTC to allow margin trading on prediction markets": "Kalshi는 CFTC에 예측 시장에서 마진 거래를 허용하도록 요청합니다.",
@@ -808,16 +807,10 @@
     "Rising yields are quietly crashing the stock market’s earlier winners of 2026": "상승하는 수익률은 2026년 주식 시장의 초기 승자를 조용히 추락시키고 있습니다.",
     "Oil prices are jumping again. How the S&P 500 has performed on days crude has seen big gains may be surprising.": "유가가 다시 뛰고 있습니다. S&P 500이 조잡한 날에 수행한 방식은 큰 이득을 보았다는 것은 놀라운 일일 수 있습니다.",
     "French bonds are suffering through their worst decade since 1803 — and investors are bracing for more pain": "프랑스 채권은 1803년 이후 최악의 10년을 겪고 있으며 투자자들은 더 많은 고통을 겪고 있습니다.",
-    "A true ‘nuclear renaissance’ is taking shape, and these stocks could be big winners": "진정한 ‘핵 르네상스’ 가 형성되고 있으며, 이러한 주식은 큰 승자가 될 수 있습니다."
+    "A true ‘nuclear renaissance’ is taking shape, and these stocks could be big winners": "진정한 ‘핵 르네상스’ 가 형성되고 있으며, 이러한 주식은 큰 승자가 될 수 있습니다.",
+    "Inflation on many everyday items was entirely due to tariffs, NY Fed says": "NY Fed는 많은 일상 품목에 대한 인플레이션은 전적으로 관세 때문이라고 말합니다."
   },
   "nvCache": {
-    "https://www.hankyung.com/article/202610020826i": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "sector",
-      "why": "주가 등락 비교일 뿐 기업 이익 구조가 바뀐 소식은 아닙니다.",
-      "by": "ai"
-    },
     "https://www.yna.co.kr/view/AKR20261002064300054": {
       "act": "none",
       "lasting": "structural",
@@ -2910,6 +2903,13 @@
       "scope": "company",
       "why": "실적과 주가의 단기 괴리를 다룬 시황 해석이라 투자 근거가 바뀐 건 아닙니다.",
       "by": "ai"
+    },
+    "https://www.cnbc.com/2026/10/08/inflation-tariffs-trump-fed-consumer-goods.html": {
+      "act": "watch",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "관세발 물가는 정책 변화로 되돌릴 수 있어 당장은 흐름만 지켜보면 됩니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2953,7 +2953,7 @@
       "2026-10-05": 1342.07,
       "2026-10-06": 1336.82,
       "2026-10-07": 1339.41,
-      "2026-10-08": 1343.08
+      "2026-10-08": 1343.58
     },
     "^GSPC": {
       "2026-09-27": 7743.41,
@@ -2995,7 +2995,7 @@
       "2026-10-05": 15.52,
       "2026-10-06": 15.01,
       "2026-10-07": 15.08,
-      "2026-10-08": 15.9
+      "2026-10-08": 15.75
     },
     "^TNX": {
       "2026-09-27": 5.184,
@@ -3009,7 +3009,7 @@
       "2026-10-05": 5.311,
       "2026-10-06": 5.269,
       "2026-10-07": 5.277,
-      "2026-10-08": 5.277
+      "2026-10-08": 5.328
     },
     "105560.KS": {
       "2026-09-27": 173200,
