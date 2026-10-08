@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-08T08:48:03.670Z",
+  "asOf": "2026-10-08T09:48:38.638Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-08T06:33:00.000Z"
     },
     "KRW=X": {
-      "price": 1341.48,
+      "price": 1344.18,
       "prev": 1339.739990234375,
-      "chg": 0.13,
+      "chg": 0.33,
       "prevDay": "2026-10-07",
       "basis": "prev-close-bar",
-      "time": "2026-10-08T08:47:46.000Z"
+      "time": "2026-10-08T09:48:22.000Z"
     },
     "^GSPC": {
       "price": 7801.77,
@@ -43,12 +43,12 @@
       "time": "2026-10-07T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 15.61,
+      "price": 15.69,
       "prev": 15.079999923706055,
-      "chg": 3.51,
+      "chg": 4.05,
       "prevDay": "2026-10-07",
       "basis": "prev-close-bar",
-      "time": "2026-10-08T08:32:46.000Z"
+      "time": "2026-10-08T09:33:16.000Z"
     },
     "^TNX": {
       "price": 5.277,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1339.17,
     "high52": 1554.48,
-    "pct": 0.011
+    "pct": 0.023
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": 7.34
     },
     "KRW=X": {
-      "last": 1341.48,
+      "last": 1344.18,
       "low52": 1339.17,
       "high52": 1554.48,
-      "pct52": 0.011,
-      "chg3m": -10.43
+      "pct52": 0.023,
+      "chg3m": -10.25
     },
     "^GSPC": {
       "last": 7801.77,
@@ -101,11 +101,11 @@
       "chg3m": 4.78
     },
     "^VIX": {
-      "last": 15.61,
+      "last": 15.69,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.122,
-      "chg3m": -5.39
+      "pct52": 0.126,
+      "chg3m": -4.91
     },
     "^TNX": {
       "last": 5.28,
@@ -366,14 +366,14 @@
   "news": {
     "kr": [
       {
-        "title": "초과 세수, 기금·국채발행 축소에 얼마나…박홍근 \"협의 중\"",
-        "link": "https://www.yna.co.kr/view/AKR20261008172300002",
+        "title": "삼성생명, 해외 신종자본증권 2조원 첫 발행…\"해외투자 강화\"",
+        "link": "https://www.yna.co.kr/view/AKR20261008182400002",
         "source": "연합뉴스",
-        "date": "Thu, 8 Oct 2026 17:03:40 +0900",
+        "date": "Thu, 8 Oct 2026 18:07:07 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
-        "why": "재정 운용 협의 단계라 기업 이익과 직접 연결되지 않습니다.",
+        "scope": "company",
+        "why": "자본 조달 결정으로, 당장 사업 구조가 바뀌는 사안은 아닙니다.",
         "by": "ai"
       },
       {
@@ -388,25 +388,25 @@
         "by": "ai"
       },
       {
-        "title": "한울반도체, 20억원 규모 유상증자 실시",
-        "link": "https://www.mk.co.kr/news/stock/12171873",
+        "title": "제이케이시냅스, 20억원 규모 유상증자 실시",
+        "link": "https://www.mk.co.kr/news/stock/12171872",
         "source": "매일경제",
         "date": "Thu, 08 Oct 2026 17:46:19 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
-        "why": "소규모 자금조달로 장기 사업구조를 바꿀 사안은 아닙니다.",
+        "why": "소액 증자 공시만으로는 장기 이익 변화를 알기 어렵습니다.",
         "by": "ai"
       },
       {
-        "title": "국고채 금리 혼조세…중단기 금리 상승하고 초장기 하락(종합)",
-        "link": "https://www.yna.co.kr/view/AKR20261008167551008",
+        "title": "초과 세수, 기금·국채발행 축소에 얼마나…박홍근 \"협의 중\"",
+        "link": "https://www.yna.co.kr/view/AKR20261008172300002",
         "source": "연합뉴스",
-        "date": "Thu, 8 Oct 2026 17:02:55 +0900",
+        "date": "Thu, 8 Oct 2026 17:03:40 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "금리 일간 등락은 수시로 바뀌는 시장 가격 변동입니다.",
+        "why": "재정 운용 협의 단계라 기업 이익과 직접 연결되지 않습니다.",
         "by": "ai"
       },
       {
@@ -421,14 +421,14 @@
         "by": "ai"
       },
       {
-        "title": "제이케이시냅스, 20억원 규모 유상증자 실시",
-        "link": "https://www.mk.co.kr/news/stock/12171872",
+        "title": "한울반도체, 20억원 규모 유상증자 실시",
+        "link": "https://www.mk.co.kr/news/stock/12171873",
         "source": "매일경제",
         "date": "Thu, 08 Oct 2026 17:46:19 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
-        "why": "소액 증자 공시만으로는 장기 이익 변화를 알기 어렵습니다.",
+        "why": "소규모 자금조달로 장기 사업구조를 바꿀 사안은 아닙니다.",
         "by": "ai"
       }
     ],
@@ -446,15 +446,15 @@
         "by": "ai"
       },
       {
-        "title": "Rising yields are quietly crashing the stock market’s earlier winners of 2026",
-        "link": "https://www.marketwatch.com/story/rising-yields-are-quietly-crashing-the-stock-markets-earlier-winners-of-2026-a29f2863?mod=mw_rss_topstories",
+        "title": "Oil prices are jumping again. How the S&P 500 has performed on days crude has seen big gains may be surprising.",
+        "link": "https://www.marketwatch.com/story/oil-prices-are-jumping-again-how-the-s-p-500-has-performed-on-days-crude-has-seen-big-gains-may-be-surprising-283555c1?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Wed, 07 Oct 2026 22:32:00 GMT",
-        "ko": "상승하는 수익률은 2026년 주식 시장의 초기 승자를 조용히 추락시키고 있습니다.",
+        "date": "Thu, 08 Oct 2026 09:33:00 GMT",
+        "ko": "유가가 다시 뛰고 있습니다. S&P 500이 조잡한 날에 수행한 방식은 큰 이득을 보았다는 것은 놀라운 일일 수 있습니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "금리 변동에 따른 주가 순환일 뿐, 기업 장기 이익 구조가 바뀐 신호는 아닙니다.",
+        "why": "유가와 지수의 하루 움직임은 장기 이익과 무관한 단기 변동입니다.",
         "by": "ai"
       },
       {
@@ -470,15 +470,15 @@
         "by": "ai"
       },
       {
-        "title": "Higher yields are taking their toll on all areas of the stock market, except the one that matters",
-        "link": "https://www.marketwatch.com/story/higher-yields-are-taking-their-toll-on-all-areas-of-the-stock-market-except-the-one-that-matters-69a90322?mod=mw_rss_topstories",
+        "title": "French bonds are suffering through their worst decade since 1803 — and investors are bracing for more pain",
+        "link": "https://www.marketwatch.com/story/french-bonds-are-suffering-through-its-worst-decade-since-1803-and-investors-are-bracing-for-more-pain-63df8fe7?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Wed, 07 Oct 2026 20:58:00 GMT",
-        "ko": "더 높은 수익률은 주식 시장의 모든 영역에 영향을 미칩니다. 단, 중요한 영역은 제외합니다.",
-        "act": "none",
-        "lasting": "temporary",
+        "date": "Thu, 08 Oct 2026 09:32:00 GMT",
+        "ko": "프랑스 채권은 1803년 이후 최악의 10년을 겪고 있으며 투자자들은 더 많은 고통을 겪고 있습니다.",
+        "act": "watch",
+        "lasting": "structural",
         "scope": "market",
-        "why": "금리와 주가 관계를 다룬 시황 해설로 기업 이익 구조와는 무관합니다.",
+        "why": "특정국 국채 부진은 장기 금리 환경 변화일 수 있어 흐름만 지켜보면 됩니다.",
         "by": "ai"
       },
       {
@@ -494,23 +494,21 @@
         "by": "ai"
       },
       {
-        "title": "Options traders are betting on a dramatic drop in interest rates",
-        "link": "https://www.marketwatch.com/story/options-traders-are-betting-on-a-dramatic-drop-in-interest-rates-141066fb?mod=mw_rss_topstories",
+        "title": "Rising yields are quietly crashing the stock market’s earlier winners of 2026",
+        "link": "https://www.marketwatch.com/story/rising-yields-are-quietly-crashing-the-stock-markets-earlier-winners-of-2026-a29f2863?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Wed, 07 Oct 2026 20:36:00 GMT",
-        "ko": "옵션 트레이더가 이자율의 급격한 하락에 베팅하고 있습니다",
+        "date": "Wed, 07 Oct 2026 22:32:00 GMT",
+        "ko": "상승하는 수익률은 2026년 주식 시장의 초기 승자를 조용히 추락시키고 있습니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "일부 투자자의 단기 베팅 포지션일 뿐 장기 근거와 상관없습니다.",
+        "why": "금리 변동에 따른 주가 순환일 뿐, 기업 장기 이익 구조가 바뀐 신호는 아닙니다.",
         "by": "ai"
       }
     ]
   },
   "newsBy": "ai",
   "trCache": {
-    "Quantum stocks are getting hot again after a brutal summer. Can the rally last?": "잔인한 여름이 지나고 양자 재고가 다시 뜨거워지고 있습니다. 랠리가 지속될 수 있을까요?",
-    "Mortgage and refinance rates today, Tuesday, September 22, 2026: Rates move lower, but 30-year still over 7%": "2026년 9월 22일 화요일 모기지 및 재융자 금리: 금리는 낮아졌지만 30년은 여전히 7% 이상",
     "Novo Nordisk stock gets drilled on pipeline concerns — its CEO sees a main problem": "Novo Nordisk 재고가 파이프라인 문제로 시추됨 — CEO가 주요 문제를 보고 있음",
     "The bond market is flashing a warning for stocks. These sectors are already wobbling.": "채권 시장은 주식에 대한 경고를 깜박이고 있습니다. 이 부문들은 이미 흔들리고 있습니다.",
     "U.S. Stock Futures Climb as Oil Falls, Optimism Builds Ahead of Trump-Xi Summit": "석유 폭락으로 미국 주식 선물 상승, 트럼프-시진핑 정상회담 앞두고 낙관론 구축",
@@ -808,30 +806,11 @@
     "Higher yields are taking their toll on all areas of the stock market, except the one that matters": "더 높은 수익률은 주식 시장의 모든 영역에 영향을 미칩니다. 단, 중요한 영역은 제외합니다.",
     "Options traders are betting on a dramatic drop in interest rates": "옵션 트레이더가 이자율의 급격한 하락에 베팅하고 있습니다",
     "Fed’s minutes show no appetite for a series of interest-rate hikes": "Fed의 회의록에는 일련의 금리 인상에 대한 욕구가 보이지 않습니다.",
-    "Rising yields are quietly crashing the stock market’s earlier winners of 2026": "상승하는 수익률은 2026년 주식 시장의 초기 승자를 조용히 추락시키고 있습니다."
+    "Rising yields are quietly crashing the stock market’s earlier winners of 2026": "상승하는 수익률은 2026년 주식 시장의 초기 승자를 조용히 추락시키고 있습니다.",
+    "Oil prices are jumping again. How the S&P 500 has performed on days crude has seen big gains may be surprising.": "유가가 다시 뛰고 있습니다. S&P 500이 조잡한 날에 수행한 방식은 큰 이득을 보았다는 것은 놀라운 일일 수 있습니다.",
+    "French bonds are suffering through their worst decade since 1803 — and investors are bracing for more pain": "프랑스 채권은 1803년 이후 최악의 10년을 겪고 있으며 투자자들은 더 많은 고통을 겪고 있습니다."
   },
   "nvCache": {
-    "https://www.yna.co.kr/view/AKR20261002116100053": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "지역 기관 채용 소식으로 기업 이익과 무관합니다.",
-      "by": "ai"
-    },
-    "https://www.mk.co.kr/news/stock/12167670": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "sector",
-      "why": "지수 등락 보도일 뿐 투자 근거를 바꾸진 않습니다.",
-      "by": "ai"
-    },
-    "https://www.marketwatch.com/story/falling-wages-soaring-energy-prices-and-inflation-its-beginning-to-look-a-lot-like-the-1970s-d645cbca?mod=mw_rss_topstories": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "과거와 비교한 해설성 기사로, 당장 기업 이익이 달라지는 내용은 아닙니다.",
-      "by": "ai"
-    },
     "https://www.hankyung.com/article/2026100314597": {
       "act": "none",
       "lasting": "temporary",
@@ -2910,6 +2889,27 @@
       "scope": "company",
       "why": "소액 증자 공시만으로는 장기 이익 변화를 알기 어렵습니다.",
       "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261008182400002": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "자본 조달 결정으로, 당장 사업 구조가 바뀌는 사안은 아닙니다.",
+      "by": "ai"
+    },
+    "https://www.marketwatch.com/story/oil-prices-are-jumping-again-how-the-s-p-500-has-performed-on-days-crude-has-seen-big-gains-may-be-surprising-283555c1?mod=mw_rss_topstories": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "유가와 지수의 하루 움직임은 장기 이익과 무관한 단기 변동입니다.",
+      "by": "ai"
+    },
+    "https://www.marketwatch.com/story/french-bonds-are-suffering-through-its-worst-decade-since-1803-and-investors-are-bracing-for-more-pain-63df8fe7?mod=mw_rss_topstories": {
+      "act": "watch",
+      "lasting": "structural",
+      "scope": "market",
+      "why": "특정국 국채 부진은 장기 금리 환경 변화일 수 있어 흐름만 지켜보면 됩니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2953,7 +2953,7 @@
       "2026-10-05": 1342.07,
       "2026-10-06": 1336.82,
       "2026-10-07": 1339.41,
-      "2026-10-08": 1341.48
+      "2026-10-08": 1344.18
     },
     "^GSPC": {
       "2026-09-27": 7743.41,
@@ -2995,7 +2995,7 @@
       "2026-10-05": 15.52,
       "2026-10-06": 15.01,
       "2026-10-07": 15.08,
-      "2026-10-08": 15.61
+      "2026-10-08": 15.69
     },
     "^TNX": {
       "2026-09-27": 5.184,
