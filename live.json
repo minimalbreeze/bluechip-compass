@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-08T22:03:26.062Z",
+  "asOf": "2026-10-08T23:04:27.954Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-08T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1342.21,
-      "prev": 1339.739990234375,
-      "chg": 0.18,
-      "prevDay": "2026-10-07",
+      "price": 1342.31,
+      "prev": 1339.0799560546875,
+      "chg": 0.24,
+      "prevDay": "2026-10-08",
       "basis": "prev-close-bar",
-      "time": "2026-10-08T22:02:20.000Z"
+      "time": "2026-10-08T23:04:09.000Z"
     },
     "^GSPC": {
       "price": 7765.36,
@@ -80,11 +80,11 @@
       "chg3m": 6.06
     },
     "KRW=X": {
-      "last": 1342.21,
+      "last": 1342.31,
       "low52": 1339.08,
       "high52": 1554.48,
       "pct52": 0.015,
-      "chg3m": -9.79
+      "chg3m": -9.78
     },
     "^GSPC": {
       "last": 7765.36,
@@ -366,6 +366,39 @@
   "news": {
     "kr": [
       {
+        "title": "[인터뷰] '가치투자 1세대' 이채원 \"1만피? 3천피?…코스피, 다지는 시간 가질것 \"",
+        "link": "https://www.yna.co.kr/view/AKR20261008179900008",
+        "source": "연합뉴스",
+        "date": "Fri, 9 Oct 2026 07:00:02 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "시장 전망에 대한 개인 견해로, 기업 이익과 무관합니다.",
+        "by": "ai"
+      },
+      {
+        "title": "\"오픈AI 매출 기대 못 미친다\"…S&P500·나스닥 '하락' [뉴욕증시 브리핑]",
+        "link": "https://www.hankyung.com/article/2026100923007",
+        "source": "한국경제",
+        "date": "Fri, 09 Oct 2026 07:20:34 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "해외 지수의 하루 등락이며 장기 근거를 바꾸지 않습니다.",
+        "by": "ai"
+      },
+      {
+        "title": "세달만에 90만원 뚝, 33% 급락한 SK하닉…코스피 톱 10곳 중 8곳도 떨어졌다",
+        "link": "https://www.mk.co.kr/news/stock/12172148",
+        "source": "매일경제",
+        "date": "Fri, 09 Oct 2026 07:07:33 +09:00",
+        "act": "watch",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "주가 하락 자체는 사건이 아니니 실적 흐름만 지켜보면 됩니다.",
+        "by": "ai"
+      },
+      {
         "title": "한은 앞 'CBDC 반대' 현수막…한은 \"일반인용 도입 안해\"",
         "link": "https://www.yna.co.kr/view/AKR20261008209800002",
         "source": "연합뉴스",
@@ -397,39 +430,6 @@
         "scope": "sector",
         "why": "분기 실적 이야기로, 업종의 장기 구조가 바뀐 건 아닙니다.",
         "by": "ai"
-      },
-      {
-        "title": "삼성생명, 해외 신종자본증권 2조원 첫 발행…\"해외투자 강화\"",
-        "link": "https://www.yna.co.kr/view/AKR20261008182400002",
-        "source": "연합뉴스",
-        "date": "Thu, 8 Oct 2026 18:07:07 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "자본 조달 결정으로, 당장 사업 구조가 바뀌는 사안은 아닙니다.",
-        "by": "ai"
-      },
-      {
-        "title": "엘리스그룹, 청약증거금 10조 뭉칫돈",
-        "link": "https://www.hankyung.com/article/2026100817861",
-        "source": "한국경제",
-        "date": "Thu, 08 Oct 2026 17:35:19 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "공모 청약 열기는 단기 자금 흐름일 뿐입니다.",
-        "by": "ai"
-      },
-      {
-        "title": "“3개월 새 300% 뛰었는데 아직 시작도 안 했다”…대박난 ‘이 주식’ 뭐길래",
-        "link": "https://www.mk.co.kr/news/economy/12172028",
-        "source": "매일경제",
-        "date": "Thu, 08 Oct 2026 22:45:41 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "단기 급등을 전하는 기사로 기업 이익 구조와는 무관합니다.",
-        "by": "ai"
       }
     ],
     "us": [
@@ -446,15 +446,15 @@
         "by": "ai"
       },
       {
-        "title": "Why a longtime skeptic of Palantir’s stock is finally saying it’s time to buy",
-        "link": "https://www.marketwatch.com/story/why-a-longtime-skeptic-of-palantirs-stock-is-finally-saying-its-time-to-buy-60cdeede?mod=mw_rss_topstories",
+        "title": "Micron, Nvidia and AI chip stocks fall as report on OpenAI’s revenue causes ‘undue concern’",
+        "link": "https://www.marketwatch.com/story/micron-nvidia-and-ai-chip-stocks-fall-as-report-on-openais-revenue-causes-undue-concern-2a2bcf53?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Thu, 08 Oct 2026 21:56:00 GMT",
-        "ko": "Palantir의 주식에 대한 오랜 회의론자가 마침내 구매할 때라고 말하는 이유는 무엇입니까?",
+        "date": "Thu, 08 Oct 2026 22:08:00 GMT",
+        "ko": "마이크론, 엔비디아, AI 칩 주식은 OpenAI의 매출 원인에 대한 보고서로 하락 ‘과도한 우려’",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
-        "why": "애널리스트 의견 변화일 뿐 기업 이익 구조가 달라진 건 아닙니다.",
+        "scope": "sector",
+        "why": "보고서 한 건에 따른 심리성 하락으로, 반도체 수요 구조가 바뀐 증거는 제목만으로 확인되지 않습니다.",
         "by": "ai"
       },
       {
@@ -470,15 +470,15 @@
         "by": "ai"
       },
       {
-        "title": "Should I put my nest egg in a 30-year Treasury bond?",
-        "link": "https://www.marketwatch.com/story/should-i-put-my-nest-egg-in-a-30-year-treasury-bond-89db6e09?mod=mw_rss_topstories",
+        "title": "Why a longtime skeptic of Palantir’s stock is finally saying it’s time to buy",
+        "link": "https://www.marketwatch.com/story/why-a-longtime-skeptic-of-palantirs-stock-is-finally-saying-its-time-to-buy-60cdeede?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Thu, 08 Oct 2026 20:32:00 GMT",
-        "ko": "내 둥지 알을 30년 국채에 넣어야 할까?",
+        "date": "Thu, 08 Oct 2026 21:56:00 GMT",
+        "ko": "Palantir의 주식에 대한 오랜 회의론자가 마침내 구매할 때라고 말하는 이유는 무엇입니까?",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
-        "why": "특정 기업 실적이 아닌 자산배분 의견 기사라 오늘 할 일은 없습니다.",
+        "scope": "company",
+        "why": "애널리스트 의견 변화일 뿐 기업 이익 구조가 달라진 건 아닙니다.",
         "by": "ai"
       },
       {
@@ -494,22 +494,21 @@
         "by": "ai"
       },
       {
-        "title": "With mortgage rates soaring above 7.5%, the smart money rents in America",
-        "link": "https://www.marketwatch.com/story/with-mortgage-rates-soaring-above-7-5-the-smart-money-rents-in-america-ef0eb5aa?mod=mw_rss_topstories",
+        "title": "Should I put my nest egg in a 30-year Treasury bond?",
+        "link": "https://www.marketwatch.com/story/should-i-put-my-nest-egg-in-a-30-year-treasury-bond-89db6e09?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Thu, 08 Oct 2026 20:30:00 GMT",
-        "ko": "주택담보대출 금리가 7.5% 이상 치솟으면서 미국의 스마트 머니 임대료는",
-        "act": "watch",
+        "date": "Thu, 08 Oct 2026 20:32:00 GMT",
+        "ko": "내 둥지 알을 30년 국채에 넣어야 할까?",
+        "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "금리 수준은 경기 흐름에 따라 변하는 사안이라 지켜보는 정도면 충분합니다.",
+        "why": "특정 기업 실적이 아닌 자산배분 의견 기사라 오늘 할 일은 없습니다.",
         "by": "ai"
       }
     ]
   },
   "newsBy": "ai",
   "trCache": {
-    "Erie Indemnity Stock: Is ERIE Underperforming the Financial Services Sector?": "Erie 손해 배상 주식: Erie가 금융 서비스 부문을 부진하게 수행하고 있습니까?",
     "Fenimore Bets on NASDAQ’s (NDAQ) Non-Transactional Revenue Streams": "NASDAQ (NDAQ) 의 비거래 수익 스트림에 대한 Fenimore 베팅",
     "The Nasdaq’s rapid rise to a record is sending a message to investors: Don’t wait for a pullback to buy": "나스닥의 급속한 기록 상승은 투자자들에게 다음과 같은 메시지를 보내고 있습니다. 매수 철회를 기다리지 마십시오.",
     "Tech stocks rise, Bitcoin rallies as Treasury yields ease: AlphaCheck": "기술주 상승, 비트코인 랠리, 국채 수익률 완화: 알파체크 (AlphaCheck)",
@@ -808,37 +807,10 @@
     "Why a longtime skeptic of Palantir’s stock is finally saying it’s time to buy": "Palantir의 주식에 대한 오랜 회의론자가 마침내 구매할 때라고 말하는 이유는 무엇입니까?",
     "Rising interest rates: The good, the bad and the ugly for retirees": "이자율 상승: 은퇴자에게 좋은 점, 나쁜 점, 추한 점",
     "Bond yields fell, as the Treasury market passed a crucial test of investor confidence": "국채 시장이 투자자 신뢰도에 대한 중요한 테스트를 통과함에 따라 채권 수익률이 하락했습니다.",
-    "With mortgage rates soaring above 7.5%, the smart money rents in America": "주택담보대출 금리가 7.5% 이상 치솟으면서 미국의 스마트 머니 임대료는"
+    "With mortgage rates soaring above 7.5%, the smart money rents in America": "주택담보대출 금리가 7.5% 이상 치솟으면서 미국의 스마트 머니 임대료는",
+    "Micron, Nvidia and AI chip stocks fall as report on OpenAI’s revenue causes ‘undue concern’": "마이크론, 엔비디아, AI 칩 주식은 OpenAI의 매출 원인에 대한 보고서로 하락 ‘과도한 우려’"
   },
   "nvCache": {
-    "https://www.mk.co.kr/news/stock/12167780": {
-      "act": "watch",
-      "lasting": "temporary",
-      "scope": "sector",
-      "why": "전산사고 배상은 일회성 비용이지만 보안 투자 부담이 늘어날지 지켜볼 만합니다.",
-      "by": "ai"
-    },
-    "https://www.hankyung.com/article/2026100317407": {
-      "act": "watch",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "금리 수준에 따른 자금 흐름 전망 기사로, 당장 할 일보다 흐름만 알아두면 됩니다.",
-      "by": "ai"
-    },
-    "https://www.hankyung.com/article/2026100179916": {
-      "act": "watch",
-      "lasting": "structural",
-      "scope": "sector",
-      "why": "원전 수출 산업화는 장기 변화 소재지만, 아직 전망 단계라 확인된 수치는 없습니다.",
-      "by": "ai"
-    },
-    "https://www.marketwatch.com/story/as-treasury-yields-touch-generational-highs-investors-brace-for-the-market-fallout-0457e698?mod=mw_rss_topstories": {
-      "act": "watch",
-      "lasting": "structural",
-      "scope": "market",
-      "why": "금리 수준이 장기간 높게 유지되면 시장 전반의 할인율이 달라질 수 있어 흐름만 지켜보면 됩니다.",
-      "by": "ai"
-    },
     "https://www.marketwatch.com/story/the-u-s-jobs-market-just-took-a-turn-for-the-worse-or-did-it-c44c371b?mod=mw_rss_topstories": {
       "act": "none",
       "lasting": "temporary",
@@ -2910,6 +2882,34 @@
       "scope": "market",
       "why": "금리 수준은 경기 흐름에 따라 변하는 사안이라 지켜보는 정도면 충분합니다.",
       "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261008179900008": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "시장 전망에 대한 개인 견해로, 기업 이익과 무관합니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/2026100923007": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "해외 지수의 하루 등락이며 장기 근거를 바꾸지 않습니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12172148": {
+      "act": "watch",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "주가 하락 자체는 사건이 아니니 실적 흐름만 지켜보면 됩니다.",
+      "by": "ai"
+    },
+    "https://www.marketwatch.com/story/micron-nvidia-and-ai-chip-stocks-fall-as-report-on-openais-revenue-causes-undue-concern-2a2bcf53?mod=mw_rss_topstories": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "sector",
+      "why": "보고서 한 건에 따른 심리성 하락으로, 반도체 수요 구조가 바뀐 증거는 제목만으로 확인되지 않습니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2942,7 +2942,6 @@
       "2026-10-09": 892.27
     },
     "KRW=X": {
-      "2026-09-27": 1354.92,
       "2026-09-28": 1359.77,
       "2026-09-29": 1352.4,
       "2026-09-30": 1355.56,
@@ -2953,7 +2952,8 @@
       "2026-10-05": 1342.07,
       "2026-10-06": 1336.82,
       "2026-10-07": 1339.41,
-      "2026-10-08": 1342.21
+      "2026-10-08": 1342.21,
+      "2026-10-09": 1342.31
     },
     "^GSPC": {
       "2026-09-27": 7743.41,
