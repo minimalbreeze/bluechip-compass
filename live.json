@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-08T23:04:27.954Z",
+  "asOf": "2026-10-09T00:02:30.297Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-08T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1342.31,
+      "price": 1342.79,
       "prev": 1339.0799560546875,
-      "chg": 0.24,
+      "chg": 0.28,
       "prevDay": "2026-10-08",
       "basis": "prev-close-bar",
-      "time": "2026-10-08T23:04:09.000Z"
+      "time": "2026-10-09T00:02:18.000Z"
     },
     "^GSPC": {
       "price": 7765.36,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1339.08,
     "high52": 1554.48,
-    "pct": 0.015
+    "pct": 0.017
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": 6.06
     },
     "KRW=X": {
-      "last": 1342.31,
+      "last": 1342.79,
       "low52": 1339.08,
       "high52": 1554.48,
-      "pct52": 0.015,
-      "chg3m": -9.78
+      "pct52": 0.017,
+      "chg3m": -9.75
     },
     "^GSPC": {
       "last": 7765.36,
@@ -366,6 +366,39 @@
   "news": {
     "kr": [
       {
+        "title": "같은 K열풍인데 주가는 딴판…K뷰티 웃고, K콘텐츠 울고",
+        "link": "https://www.yna.co.kr/view/AKR20261008210200008",
+        "source": "연합뉴스",
+        "date": "Fri, 9 Oct 2026 08:00:00 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "sector",
+        "why": "업종별 주가 흐름 비교 기사로, 장기 수익력 변화를 말해주진 않습니다.",
+        "by": "ai"
+      },
+      {
+        "title": "\"음식료 톱픽은 KT&G\"…증권가가 제시한 3가지 이유",
+        "link": "https://www.hankyung.com/article/202610082205i",
+        "source": "한국경제",
+        "date": "Fri, 09 Oct 2026 08:00:06 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "증권사 선호주 의견일 뿐, 회사의 장기 이익 구조가 바뀐 건 아닙니다.",
+        "by": "ai"
+      },
+      {
+        "title": "세달만에 90만원 뚝, 33% 급락한 SK하닉…코스피 톱 10곳 중 8곳도 떨어졌다",
+        "link": "https://www.mk.co.kr/news/stock/12172148",
+        "source": "매일경제",
+        "date": "Fri, 09 Oct 2026 07:07:33 +09:00",
+        "act": "watch",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "주가 하락 자체는 사건이 아니니 실적 흐름만 지켜보면 됩니다.",
+        "by": "ai"
+      },
+      {
         "title": "[인터뷰] '가치투자 1세대' 이채원 \"1만피? 3천피?…코스피, 다지는 시간 가질것 \"",
         "link": "https://www.yna.co.kr/view/AKR20261008179900008",
         "source": "연합뉴스",
@@ -385,39 +418,6 @@
         "lasting": "temporary",
         "scope": "market",
         "why": "해외 지수의 하루 등락이며 장기 근거를 바꾸지 않습니다.",
-        "by": "ai"
-      },
-      {
-        "title": "세달만에 90만원 뚝, 33% 급락한 SK하닉…코스피 톱 10곳 중 8곳도 떨어졌다",
-        "link": "https://www.mk.co.kr/news/stock/12172148",
-        "source": "매일경제",
-        "date": "Fri, 09 Oct 2026 07:07:33 +09:00",
-        "act": "watch",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "주가 하락 자체는 사건이 아니니 실적 흐름만 지켜보면 됩니다.",
-        "by": "ai"
-      },
-      {
-        "title": "한은 앞 'CBDC 반대' 현수막…한은 \"일반인용 도입 안해\"",
-        "link": "https://www.yna.co.kr/view/AKR20261008209800002",
-        "source": "연합뉴스",
-        "date": "Fri, 9 Oct 2026 05:55:00 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "sector",
-        "why": "일반인용 도입은 안 한다는 해명 수준이라 당장 바뀌는 건 없습니다.",
-        "by": "ai"
-      },
-      {
-        "title": "삼성전자 실적 신기록 주가 향방은 [한경 프리미엄9 TODAY]",
-        "link": "https://www.hankyung.com/article/2026100818961",
-        "source": "한국경제",
-        "date": "Thu, 08 Oct 2026 17:57:09 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "분기 실적과 주가 전망 기사로, 장기 사업 구조가 바뀐 소식은 아닙니다.",
         "by": "ai"
       },
       {
@@ -811,20 +811,6 @@
     "Micron, Nvidia and AI chip stocks fall as report on OpenAI’s revenue causes ‘undue concern’": "마이크론, 엔비디아, AI 칩 주식은 OpenAI의 매출 원인에 대한 보고서로 하락 ‘과도한 우려’"
   },
   "nvCache": {
-    "https://www.marketwatch.com/story/the-u-s-jobs-market-just-took-a-turn-for-the-worse-or-did-it-c44c371b?mod=mw_rss_topstories": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "고용 지표 해석을 둘러싼 논의로, 구체적 수치 변화는 제목만으로 알기 어렵습니다.",
-      "by": "ai"
-    },
-    "https://www.marketwatch.com/story/i-made-500-000-from-a-stock-sale-in-my-ira-could-this-change-my-retirement-6bddcf0d?mod=mw_rss_topstories": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "개인 재무 상담 성격의 글로, 기업 이익과는 무관합니다.",
-      "by": "ai"
-    },
     "https://www.marketwatch.com/story/i-have-a-low-interest-rate-im-80-years-old-should-i-move-out-of-my-house-because-of-dangerous-stairs-389c3c7b?mod=mw_rss_topstories": {
       "act": "none",
       "lasting": "temporary",
@@ -2910,6 +2896,20 @@
       "scope": "sector",
       "why": "보고서 한 건에 따른 심리성 하락으로, 반도체 수요 구조가 바뀐 증거는 제목만으로 확인되지 않습니다.",
       "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261008210200008": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "sector",
+      "why": "업종별 주가 흐름 비교 기사로, 장기 수익력 변화를 말해주진 않습니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/202610082205i": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "증권사 선호주 의견일 뿐, 회사의 장기 이익 구조가 바뀐 건 아닙니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2953,7 +2953,7 @@
       "2026-10-06": 1336.82,
       "2026-10-07": 1339.41,
       "2026-10-08": 1342.21,
-      "2026-10-09": 1342.31
+      "2026-10-09": 1342.79
     },
     "^GSPC": {
       "2026-09-27": 7743.41,
