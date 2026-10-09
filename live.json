@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-09T06:26:10.049Z",
+  "asOf": "2026-10-09T06:37:41.358Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -366,14 +366,14 @@
   "news": {
     "kr": [
       {
-        "title": "같은 K열풍인데 주가는 딴판…K뷰티 웃고, K콘텐츠 울고",
-        "link": "https://www.yna.co.kr/view/AKR20261008210200008",
+        "title": "[외환] 원/달러 환율 4.3원 오른 1,342.8원(15:30 기준가)",
+        "link": "https://www.yna.co.kr/view/AKR20261009043000002",
         "source": "연합뉴스",
-        "date": "Fri, 9 Oct 2026 08:00:00 +0900",
+        "date": "Fri, 9 Oct 2026 15:33:31 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "sector",
-        "why": "업종별 주가 흐름 비교 기사로, 장기 수익력 변화를 말해주진 않습니다.",
+        "scope": "market",
+        "why": "환율 하루 변동은 일상적인 움직임이라 오늘 할 일은 없습니다.",
         "by": "ai"
       },
       {
@@ -388,7 +388,7 @@
         "by": "ai"
       },
       {
-        "title": "[단독] 주성엔지니어링 ‘텐배거’에 웃은 오스템 최규옥… 주식 고수 회장님들 ‘눈길’",
+        "title": "주성엔지니어링 ‘텐배거’에 웃은 오스템 최규옥… 주식 고수 회장님들 ‘눈길’",
         "link": "https://www.mk.co.kr/news/stock/12172298",
         "source": "매일경제",
         "date": "Fri, 09 Oct 2026 15:16:34 +09:00",
@@ -396,6 +396,17 @@
         "lasting": "temporary",
         "scope": "company",
         "why": "특정 인물의 투자 성과 소식으로 기업 실적과는 직접 관련이 없습니다.",
+        "by": "ai"
+      },
+      {
+        "title": "같은 K열풍인데 주가는 딴판…K뷰티 웃고, K콘텐츠 울고",
+        "link": "https://www.yna.co.kr/view/AKR20261008210200008",
+        "source": "연합뉴스",
+        "date": "Fri, 9 Oct 2026 08:00:00 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "sector",
+        "why": "업종별 주가 흐름 비교 기사로, 장기 수익력 변화를 말해주진 않습니다.",
         "by": "ai"
       },
       {
@@ -418,17 +429,6 @@
         "lasting": "temporary",
         "scope": "market",
         "why": "지수 등락과 해석 논쟁일 뿐, 기업 이익 구조가 바뀐 소식은 아닙니다.",
-        "by": "ai"
-      },
-      {
-        "title": "\"스타벅스에 인수되나\"…치폴레 주가 6% 급등",
-        "link": "https://www.hankyung.com/article/202610092535i",
-        "source": "한국경제",
-        "date": "Fri, 09 Oct 2026 11:08:11 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "확인되지 않은 인수설에 따른 단기 주가 반응으로 보입니다.",
         "by": "ai"
       }
     ],
@@ -811,13 +811,6 @@
     "SpaceX’s Starlink Mobile plans are pressuring AT&T and Verizon shares": "SpaceX의 Starlink Mobile 계획은 AT&T 및 Verizon 주식을 압박하고 있습니다"
   },
   "nvCache": {
-    "https://www.yna.co.kr/view/AKR20261003016300002": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "sector",
-      "why": "금융지원 확대 발표만으로 업종 구조가 바뀌진 않습니다.",
-      "by": "ai"
-    },
     "https://www.hankyung.com/article/202610020638i": {
       "act": "none",
       "lasting": "temporary",
@@ -2909,6 +2902,13 @@
       "lasting": "temporary",
       "scope": "company",
       "why": "특정 인물의 투자 성과 소식으로 기업 실적과는 직접 관련이 없습니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261009043000002": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "환율 하루 변동은 일상적인 움직임이라 오늘 할 일은 없습니다.",
       "by": "ai"
     }
   },
