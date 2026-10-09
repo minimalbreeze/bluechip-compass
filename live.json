@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-09T12:50:48.920Z",
+  "asOf": "2026-10-09T13:22:14.452Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-08T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1340.9,
+      "price": 1341.23,
       "prev": 1339.0799560546875,
-      "chg": 0.14,
+      "chg": 0.16,
       "prevDay": "2026-10-08",
       "basis": "prev-close-bar",
-      "time": "2026-10-09T10:08:22.000Z"
+      "time": "2026-10-09T13:21:53.000Z"
     },
     "^GSPC": {
       "price": 7765.36,
@@ -43,26 +43,26 @@
       "time": "2026-10-08T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 15.16,
+      "price": 15.17,
       "prev": 15.40999984741211,
-      "chg": -1.62,
+      "chg": -1.56,
       "prevDay": "2026-10-08",
       "basis": "prev-close-bar",
-      "time": "2026-10-09T12:35:31.000Z"
+      "time": "2026-10-09T13:07:01.000Z"
     },
     "^TNX": {
-      "price": 5.24,
+      "price": 5.25,
       "prev": 5.230999946594238,
-      "chg": 0.17,
+      "chg": 0.36,
       "prevDay": "2026-10-08",
       "basis": "prev-close-bar",
-      "time": "2026-10-09T12:35:35.000Z"
+      "time": "2026-10-09T13:06:55.000Z"
     }
   },
   "fx": {
     "low52": 1339.08,
     "high52": 1554.48,
-    "pct": 0.008
+    "pct": 0.01
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": 7.34
     },
     "KRW=X": {
-      "last": 1340.9,
+      "last": 1341.23,
       "low52": 1339.08,
       "high52": 1554.48,
-      "pct52": 0.008,
-      "chg3m": -9.88
+      "pct52": 0.01,
+      "chg3m": -9.86
     },
     "^GSPC": {
       "last": 7765.36,
@@ -101,18 +101,18 @@
       "chg3m": 5.1
     },
     "^VIX": {
-      "last": 15.16,
+      "last": 15.17,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.096,
-      "chg3m": -3.25
+      "pct52": 0.097,
+      "chg3m": -3.19
     },
     "^TNX": {
-      "last": 5.24,
+      "last": 5.25,
       "low52": 3.95,
       "high52": 5.31,
-      "pct52": 0.948,
-      "chg3m": 14.29
+      "pct52": 0.955,
+      "chg3m": 14.5
     }
   },
   "regime": {
@@ -437,13 +437,13 @@
         "title": "Treasury's Bessent hires Trump's controversial former Fed board pick, Judy Shelton, as advisor",
         "link": "https://www.cnbc.com/2026/10/09/judy-shelton-scott-bessent-treasury.html",
         "source": "CNBC",
-        "date": "Fri, 09 Oct 2026 12:49:28 GMT",
+        "date": "Fri, 09 Oct 2026 13:09:19 GMT",
         "ko": "재무부의 베슨트 (Bessent) 는 트럼프의 논란의 여지가 있는 전 연준 이사회 픽인 주디 셸턴 (Judy Shelton) 을 고문으로 고용합니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
+        "why": "인사 소식일 뿐 기업 이익에 직접 영향은 확인되지 않습니다.",
+        "by": "ai"
       },
       {
         "title": "Aging bull: Why this 4-year-old stock-market rally still packs a punch",
@@ -453,9 +453,9 @@
         "ko": "노령 황소: 4 년 된이 주식 시장 랠리가 여전히 펀치를 포장하는 이유",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
+        "scope": "market",
+        "why": "시장 흐름에 대한 해설 기사로 오늘 할 일은 없습니다.",
+        "by": "ai"
       },
       {
         "title": "Inflation on many everyday items was entirely due to tariffs, NY Fed says",
@@ -811,20 +811,6 @@
     "Treasury's Bessent hires Trump's controversial former Fed board pick, Judy Shelton, as advisor": "재무부의 베슨트 (Bessent) 는 트럼프의 논란의 여지가 있는 전 연준 이사회 픽인 주디 셸턴 (Judy Shelton) 을 고문으로 고용합니다."
   },
   "nvCache": {
-    "https://www.mk.co.kr/news/stock/12168112": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "sector",
-      "why": "자금이 몰린다는 흐름 소식일 뿐 기업 이익 구조를 바꾸는 내용은 아닙니다.",
-      "by": "ai"
-    },
-    "https://www.hankyung.com/article/202610042610i": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "선거 영향 시나리오 전망이라 기업 이익과 직접 연결되지 않습니다.",
-      "by": "ai"
-    },
     "https://www.mk.co.kr/news/stock/12168128": {
       "act": "watch",
       "lasting": "structural",
@@ -2910,6 +2896,20 @@
       "scope": "market",
       "why": "특정 기관의 시장 전망일 뿐, 기업 이익 구조가 바뀐 건 아닙니다.",
       "by": "ai"
+    },
+    "https://www.cnbc.com/2026/10/09/judy-shelton-scott-bessent-treasury.html": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "인사 소식일 뿐 기업 이익에 직접 영향은 확인되지 않습니다.",
+      "by": "ai"
+    },
+    "https://www.marketwatch.com/story/aging-bull-why-the-four-year-old-stock-market-rally-can-still-pack-a-punch-d1271631?mod=mw_rss_topstories": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "시장 흐름에 대한 해설 기사로 오늘 할 일은 없습니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2953,7 +2953,7 @@
       "2026-10-06": 1336.82,
       "2026-10-07": 1339.41,
       "2026-10-08": 1342.21,
-      "2026-10-09": 1340.9
+      "2026-10-09": 1341.23
     },
     "^GSPC": {
       "2026-09-28": 7683.69,
@@ -2995,7 +2995,7 @@
       "2026-10-06": 15.01,
       "2026-10-07": 15.08,
       "2026-10-08": 15.41,
-      "2026-10-09": 15.16
+      "2026-10-09": 15.17
     },
     "^TNX": {
       "2026-09-28": 5.24,
@@ -3009,7 +3009,7 @@
       "2026-10-06": 5.269,
       "2026-10-07": 5.277,
       "2026-10-08": 5.231,
-      "2026-10-09": 5.24
+      "2026-10-09": 5.25
     },
     "105560.KS": {
       "2026-09-28": 174200,
@@ -3384,7 +3384,6 @@
     }
   },
   "failed": [
-    "news/us/Yahoo Finance: HTTP 404",
-    "news-ai/us: 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011Cfrh8e8a13H6mdCfMwp1j\"}"
+    "news/us/Yahoo Finance: HTTP 404"
   ]
 }
