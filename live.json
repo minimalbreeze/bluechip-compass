@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-09T20:51:13.127Z",
+  "asOf": "2026-10-09T21:02:12.885Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-08T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1339.84,
+      "price": 1340.02,
       "prev": 1339.0799560546875,
-      "chg": 0.06,
+      "chg": 0.07,
       "prevDay": "2026-10-08",
       "basis": "prev-close-bar",
-      "time": "2026-10-09T20:50:56.000Z"
+      "time": "2026-10-09T20:59:59.000Z"
     },
     "^GSPC": {
       "price": 7811.54,
@@ -40,7 +40,7 @@
       "chg": 0.64,
       "prevDay": "2026-10-08",
       "basis": "prev-close-bar",
-      "time": "2026-10-09T20:51:00.000Z"
+      "time": "2026-10-09T21:01:54.000Z"
     },
     "^VIX": {
       "price": 14.84,
@@ -80,11 +80,11 @@
       "chg3m": 7.34
     },
     "KRW=X": {
-      "last": 1339.84,
+      "last": 1340.02,
       "low52": 1339.08,
       "high52": 1554.48,
       "pct52": 0.004,
-      "chg3m": -9.85
+      "chg3m": -9.84
     },
     "^GSPC": {
       "last": 7811.54,
@@ -366,14 +366,14 @@
   "news": {
     "kr": [
       {
-        "title": "광주 군공항 찾은 최태원, 반도체 투자 우려 '한방에' 불식",
-        "link": "https://www.yna.co.kr/view/AKR20261009046800054",
+        "title": "은행권 금리 경쟁…1년만기 예금 3%대 후반으로 속속 인상",
+        "link": "https://www.yna.co.kr/view/AKR20261009056800002",
         "source": "연합뉴스",
-        "date": "Fri, 9 Oct 2026 16:52:02 +0900",
+        "date": "Sat, 10 Oct 2026 05:53:01 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
-        "why": "경영진 행보 소식으로 실제 투자 계획 변경은 확인되지 않습니다.",
+        "scope": "sector",
+        "why": "예금 금리 경쟁은 금리 사이클에 따라 반복되는 일로, 업종 수익 구조 자체를 바꾸지는 않습니다.",
         "by": "ai"
       },
       {
@@ -399,14 +399,14 @@
         "by": "ai"
       },
       {
-        "title": "[외환] 원/달러 환율 4.3원 오른 1,342.8원(15:30 기준가)",
-        "link": "https://www.yna.co.kr/view/AKR20261009043000002",
+        "title": "광주 군공항 찾은 최태원, 반도체 투자 우려 '한방에' 불식",
+        "link": "https://www.yna.co.kr/view/AKR20261009046800054",
         "source": "연합뉴스",
-        "date": "Fri, 9 Oct 2026 15:33:31 +0900",
+        "date": "Fri, 9 Oct 2026 16:52:02 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
-        "why": "환율 하루 변동은 일상적인 움직임이라 오늘 할 일은 없습니다.",
+        "scope": "company",
+        "why": "경영진 행보 소식으로 실제 투자 계획 변경은 확인되지 않습니다.",
         "by": "ai"
       },
       {
@@ -811,13 +811,6 @@
     "Here’s how Treasury yields could rise to 6% — even without market upheaval": "시장 격변 없이도 국채 수익률이 6% 까지 상승할 수 있는 방법은 다음과 같습니다."
   },
   "nvCache": {
-    "https://www.yna.co.kr/view/AKR20261003020700030": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "sector",
-      "why": "공공기관 비축시설 손익 소식으로 상장기업 장기 이익과는 거리가 멉니다.",
-      "by": "ai"
-    },
     "https://www.yna.co.kr/view/AKR20261003033300008": {
       "act": "none",
       "lasting": "temporary",
@@ -2910,6 +2903,13 @@
       "scope": "market",
       "why": "금리 경로는 시장 전반의 할인율을 바꾸는 요소라 흐름만 지켜보면 됩니다.",
       "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261009056800002": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "sector",
+      "why": "예금 금리 경쟁은 금리 사이클에 따라 반복되는 일로, 업종 수익 구조 자체를 바꾸지는 않습니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2953,7 +2953,7 @@
       "2026-10-06": 1336.82,
       "2026-10-07": 1339.41,
       "2026-10-08": 1342.21,
-      "2026-10-09": 1339.84
+      "2026-10-09": 1340.02
     },
     "^GSPC": {
       "2026-09-28": 7683.69,
