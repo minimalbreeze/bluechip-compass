@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-09T06:48:00.528Z",
+  "asOf": "2026-10-09T07:48:35.331Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -43,12 +43,12 @@
       "time": "2026-10-08T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 15.41,
+      "price": 15.28,
       "prev": 15.40999984741211,
-      "chg": 0,
+      "chg": -0.84,
       "prevDay": "2026-10-08",
       "basis": "prev-close-bar",
-      "time": "2026-10-08T20:15:01.000Z"
+      "time": "2026-10-09T07:33:16.000Z"
     },
     "^TNX": {
       "price": 5.231,
@@ -101,11 +101,11 @@
       "chg3m": 5.1
     },
     "^VIX": {
-      "last": 15.41,
+      "last": 15.28,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.11,
-      "chg3m": -6.61
+      "pct52": 0.103,
+      "chg3m": -2.49
     },
     "^TNX": {
       "last": 5.23,
@@ -377,14 +377,14 @@
         "by": "ai"
       },
       {
-        "title": "\"삼성닉스·마이크론 다 담았다\"…상장일 110억 몰린 ETF",
-        "link": "https://www.hankyung.com/article/202610092653i",
+        "title": "'한글' 넘어 '인공지능 직원' 미국에 판다는 한컴…주가 반등 가능할까",
+        "link": "https://www.hankyung.com/article/202610081938i",
         "source": "한국경제",
-        "date": "Fri, 09 Oct 2026 14:09:01 +0900",
+        "date": "Fri, 09 Oct 2026 15:00:02 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "sector",
-        "why": "신규 ETF 상장일 자금 유입은 단기 수급 이슈입니다.",
+        "scope": "company",
+        "why": "신사업 추진 소식일 뿐 실적 변화는 아직 확인되지 않았습니다.",
         "by": "ai"
       },
       {
@@ -410,14 +410,14 @@
         "by": "ai"
       },
       {
-        "title": "5%대 美 금리 vs 불뿜는 반도체 실적…10월 증시 향방 가를 3대 변수",
-        "link": "https://www.hankyung.com/article/202610081087i",
+        "title": "\"삼성닉스·마이크론 다 담았다\"…상장일 110억 몰린 ETF",
+        "link": "https://www.hankyung.com/article/202610092653i",
         "source": "한국경제",
-        "date": "Fri, 09 Oct 2026 14:00:04 +0900",
+        "date": "Fri, 09 Oct 2026 14:09:01 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
-        "why": "월간 증시 전망 기사로 기업 이익을 바꾸는 사실은 없습니다.",
+        "scope": "sector",
+        "why": "신규 ETF 상장일 자금 유입은 단기 수급 이슈입니다.",
         "by": "ai"
       },
       {
@@ -811,13 +811,6 @@
     "SpaceX’s Starlink Mobile plans are pressuring AT&T and Verizon shares": "SpaceX의 Starlink Mobile 계획은 AT&T 및 Verizon 주식을 압박하고 있습니다"
   },
   "nvCache": {
-    "https://www.hankyung.com/article/202610020638i": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "주가 목표 수준을 다루는 내용이라 사업 근거와 무관합니다.",
-      "by": "ai"
-    },
     "https://www.hankyung.com/article/202610042304i": {
       "act": "watch",
       "lasting": "temporary",
@@ -2910,6 +2903,13 @@
       "scope": "market",
       "why": "환율 하루 변동은 일상적인 움직임이라 오늘 할 일은 없습니다.",
       "by": "ai"
+    },
+    "https://www.hankyung.com/article/202610081938i": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "신사업 추진 소식일 뿐 실적 변화는 아직 확인되지 않았습니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2995,7 +2995,7 @@
       "2026-10-06": 15.01,
       "2026-10-07": 15.08,
       "2026-10-08": 15.41,
-      "2026-10-09": 15.41
+      "2026-10-09": 15.28
     },
     "^TNX": {
       "2026-09-28": 5.24,
