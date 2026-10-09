@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-09T01:46:09.188Z",
+  "asOf": "2026-10-09T01:56:34.427Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-08T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1341.76,
+      "price": 1342.06,
       "prev": 1339.0799560546875,
-      "chg": 0.2,
+      "chg": 0.22,
       "prevDay": "2026-10-08",
       "basis": "prev-close-bar",
-      "time": "2026-10-09T01:46:00.000Z"
+      "time": "2026-10-09T01:56:16.000Z"
     },
     "^GSPC": {
       "price": 7765.36,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1339.08,
     "high52": 1554.48,
-    "pct": 0.012
+    "pct": 0.014
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": 7.34
     },
     "KRW=X": {
-      "last": 1341.76,
+      "last": 1342.06,
       "low52": 1339.08,
       "high52": 1554.48,
-      "pct52": 0.012,
-      "chg3m": -9.82
+      "pct52": 0.014,
+      "chg3m": -9.8
     },
     "^GSPC": {
       "last": 7765.36,
@@ -388,14 +388,14 @@
         "by": "ai"
       },
       {
-        "title": "브라질증시 폭등 예상한 전설의 ‘투자 기계’…함께 매수한 종목은?",
-        "link": "https://www.mk.co.kr/news/stock/12172188",
+        "title": "“241층 구조대 오나요?”…고점서 36% 빠진 삼성전기, 증권가 전망은",
+        "link": "https://www.mk.co.kr/news/stock/12172221",
         "source": "매일경제",
-        "date": "Fri, 09 Oct 2026 09:05:51 +09:00",
+        "date": "Fri, 09 Oct 2026 10:49:34 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
-        "why": "유명 투자자의 포트폴리오 소식으로 기업 이익이 바뀌는 내용은 아닙니다.",
+        "scope": "company",
+        "why": "주가 하락과 증권가 전망일 뿐, 사업 구조가 바뀌었다는 내용은 없습니다.",
         "by": "ai"
       },
       {
@@ -421,14 +421,14 @@
         "by": "ai"
       },
       {
-        "title": "세달만에 90만원 뚝, 33% 급락한 SK하닉…코스피 톱 10곳 중 8곳도 떨어졌다",
-        "link": "https://www.mk.co.kr/news/stock/12172148",
+        "title": "브라질증시 폭등 예상한 전설의 ‘투자 기계’…함께 매수한 종목은?",
+        "link": "https://www.mk.co.kr/news/stock/12172188",
         "source": "매일경제",
-        "date": "Fri, 09 Oct 2026 07:07:33 +09:00",
-        "act": "watch",
+        "date": "Fri, 09 Oct 2026 09:05:51 +09:00",
+        "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "주가 하락 자체는 사건이 아니니 실적 흐름만 지켜보면 됩니다.",
+        "why": "유명 투자자의 포트폴리오 소식으로 기업 이익이 바뀌는 내용은 아닙니다.",
         "by": "ai"
       }
     ],
@@ -811,13 +811,6 @@
     "SpaceX’s Starlink Mobile plans are pressuring AT&T and Verizon shares": "SpaceX의 Starlink Mobile 계획은 AT&T 및 Verizon 주식을 압박하고 있습니다"
   },
   "nvCache": {
-    "https://www.mk.co.kr/news/stock/12167872": {
-      "act": "none",
-      "lasting": "structural",
-      "scope": "market",
-      "why": "증권사 리포트 관행을 다룬 내용으로 당장 할 일은 없습니다.",
-      "by": "ai"
-    },
     "https://www.yna.co.kr/view/AKR20261003032300002": {
       "act": "none",
       "lasting": "temporary",
@@ -2910,6 +2903,13 @@
       "scope": "market",
       "why": "금리 수준 변화는 시장 전반의 밸류에이션에 오래 영향을 주는 흐름이라 흐름만 지켜보면 됩니다.",
       "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12172221": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "주가 하락과 증권가 전망일 뿐, 사업 구조가 바뀌었다는 내용은 없습니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2953,7 +2953,7 @@
       "2026-10-06": 1336.82,
       "2026-10-07": 1339.41,
       "2026-10-08": 1342.21,
-      "2026-10-09": 1341.76
+      "2026-10-09": 1342.06
     },
     "^GSPC": {
       "2026-09-27": 7743.41,
