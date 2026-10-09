@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-09T07:48:35.331Z",
+  "asOf": "2026-10-09T08:49:03.812Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -43,12 +43,12 @@
       "time": "2026-10-08T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 15.28,
+      "price": 15.25,
       "prev": 15.40999984741211,
-      "chg": -0.84,
+      "chg": -1.04,
       "prevDay": "2026-10-08",
       "basis": "prev-close-bar",
-      "time": "2026-10-09T07:33:16.000Z"
+      "time": "2026-10-09T08:33:46.000Z"
     },
     "^TNX": {
       "price": 5.231,
@@ -101,11 +101,11 @@
       "chg3m": 5.1
     },
     "^VIX": {
-      "last": 15.28,
+      "last": 15.25,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.103,
-      "chg3m": -2.49
+      "pct52": 0.101,
+      "chg3m": -2.68
     },
     "^TNX": {
       "last": 5.23,
@@ -366,14 +366,14 @@
   "news": {
     "kr": [
       {
-        "title": "[외환] 원/달러 환율 4.3원 오른 1,342.8원(15:30 기준가)",
-        "link": "https://www.yna.co.kr/view/AKR20261009043000002",
+        "title": "광주 군공항 찾은 최태원, 반도체 투자 우려 '한방에' 불식",
+        "link": "https://www.yna.co.kr/view/AKR20261009046800054",
         "source": "연합뉴스",
-        "date": "Fri, 9 Oct 2026 15:33:31 +0900",
+        "date": "Fri, 9 Oct 2026 16:52:02 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
-        "why": "환율 하루 변동은 일상적인 움직임이라 오늘 할 일은 없습니다.",
+        "scope": "company",
+        "why": "경영진 행보 소식으로 실제 투자 계획 변경은 확인되지 않습니다.",
         "by": "ai"
       },
       {
@@ -388,25 +388,25 @@
         "by": "ai"
       },
       {
-        "title": "오픈AI 매출발 나스닥 하락... 결국 시장의 소음이었나",
-        "link": "https://www.mk.co.kr/news/stock/12172248",
+        "title": "\"1100억 투자해 1조 수익\"…회장님은 주식 고수",
+        "link": "https://www.mk.co.kr/news/stock/12172429",
         "source": "매일경제",
-        "date": "Fri, 09 Oct 2026 12:01:26 +09:00",
+        "date": "Fri, 09 Oct 2026 17:30:35 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
-        "why": "지수 등락과 해석 논쟁일 뿐, 기업 이익 구조가 바뀐 소식은 아닙니다.",
+        "scope": "company",
+        "why": "과거 투자 성과를 다룬 이야기로 본업 이익과는 무관합니다.",
         "by": "ai"
       },
       {
-        "title": "같은 K열풍인데 주가는 딴판…K뷰티 웃고, K콘텐츠 울고",
-        "link": "https://www.yna.co.kr/view/AKR20261008210200008",
+        "title": "[외환] 원/달러 환율 4.3원 오른 1,342.8원(15:30 기준가)",
+        "link": "https://www.yna.co.kr/view/AKR20261009043000002",
         "source": "연합뉴스",
-        "date": "Fri, 9 Oct 2026 08:00:00 +0900",
+        "date": "Fri, 9 Oct 2026 15:33:31 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "sector",
-        "why": "업종별 주가 흐름 비교 기사로, 장기 수익력 변화를 말해주진 않습니다.",
+        "scope": "market",
+        "why": "환율 하루 변동은 일상적인 움직임이라 오늘 할 일은 없습니다.",
         "by": "ai"
       },
       {
@@ -421,14 +421,14 @@
         "by": "ai"
       },
       {
-        "title": "“241층 구조대 오나요?”…고점서 36% 빠진 삼성전기, 증권가 전망은",
-        "link": "https://www.mk.co.kr/news/stock/12172221",
+        "title": "반도체 소부장·2차전지 덕에 코스닥은 선방",
+        "link": "https://www.mk.co.kr/news/stock/12172396",
         "source": "매일경제",
-        "date": "Fri, 09 Oct 2026 10:49:34 +09:00",
+        "date": "Fri, 09 Oct 2026 17:03:09 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
-        "why": "주가 하락과 증권가 전망일 뿐, 사업 구조가 바뀌었다는 내용은 없습니다.",
+        "scope": "market",
+        "why": "특정일 지수 흐름을 전한 내용이라 장기 판단 근거는 아닙니다.",
         "by": "ai"
       }
     ],
@@ -811,27 +811,6 @@
     "SpaceX’s Starlink Mobile plans are pressuring AT&T and Verizon shares": "SpaceX의 Starlink Mobile 계획은 AT&T 및 Verizon 주식을 압박하고 있습니다"
   },
   "nvCache": {
-    "https://www.hankyung.com/article/202610042304i": {
-      "act": "watch",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "수급 흐름은 변동이 잦고 기업 이익 구조를 바꾸지는 않습니다.",
-      "by": "ai"
-    },
-    "https://www.hankyung.com/article/202610042113i": {
-      "act": "none",
-      "lasting": "structural",
-      "scope": "sector",
-      "why": "전망과 의견을 담은 기사로, 오늘 당장 확인할 사실 변화는 없습니다.",
-      "by": "ai"
-    },
-    "https://www.mk.co.kr/news/stock/12167989": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "외국인 매매 비중 변화는 수급 흐름이라 기업 이익 구조와는 다릅니다.",
-      "by": "ai"
-    },
     "https://www.yna.co.kr/view/AKR20261004021800001": {
       "act": "watch",
       "lasting": "temporary",
@@ -2910,6 +2889,27 @@
       "scope": "company",
       "why": "신사업 추진 소식일 뿐 실적 변화는 아직 확인되지 않았습니다.",
       "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261009046800054": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "경영진 행보 소식으로 실제 투자 계획 변경은 확인되지 않습니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12172429": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "과거 투자 성과를 다룬 이야기로 본업 이익과는 무관합니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12172396": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "특정일 지수 흐름을 전한 내용이라 장기 판단 근거는 아닙니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2995,7 +2995,7 @@
       "2026-10-06": 15.01,
       "2026-10-07": 15.08,
       "2026-10-08": 15.41,
-      "2026-10-09": 15.28
+      "2026-10-09": 15.25
     },
     "^TNX": {
       "2026-09-28": 5.24,
