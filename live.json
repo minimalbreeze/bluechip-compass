@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-09T01:35:45.623Z",
+  "asOf": "2026-10-09T01:46:09.188Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-08T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1342.09,
+      "price": 1341.76,
       "prev": 1339.0799560546875,
-      "chg": 0.22,
+      "chg": 0.2,
       "prevDay": "2026-10-08",
       "basis": "prev-close-bar",
-      "time": "2026-10-09T01:35:36.000Z"
+      "time": "2026-10-09T01:46:00.000Z"
     },
     "^GSPC": {
       "price": 7765.36,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1339.08,
     "high52": 1554.48,
-    "pct": 0.014
+    "pct": 0.012
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": 7.34
     },
     "KRW=X": {
-      "last": 1342.09,
+      "last": 1341.76,
       "low52": 1339.08,
       "high52": 1554.48,
-      "pct52": 0.014,
-      "chg3m": -9.8
+      "pct52": 0.012,
+      "chg3m": -9.82
     },
     "^GSPC": {
       "last": 7765.36,
@@ -377,14 +377,14 @@
         "by": "ai"
       },
       {
-        "title": "\"음식료 톱픽은 KT&G\"…증권가가 제시한 3가지 이유",
-        "link": "https://www.hankyung.com/article/202610082205i",
+        "title": "AI 랠리의 뒤편, '6% 금리'의 그림자가 다가온다 [조윤남의 사이클투자]",
+        "link": "https://www.hankyung.com/article/202610066078i",
         "source": "한국경제",
-        "date": "Fri, 09 Oct 2026 08:00:06 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "증권사 선호주 의견일 뿐, 회사의 장기 이익 구조가 바뀐 건 아닙니다.",
+        "date": "Fri, 09 Oct 2026 10:01:02 +0900",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": "market",
+        "why": "금리 수준 변화는 시장 전반의 밸류에이션에 오래 영향을 주는 흐름이라 흐름만 지켜보면 됩니다.",
         "by": "ai"
       },
       {
@@ -410,14 +410,14 @@
         "by": "ai"
       },
       {
-        "title": "\"오픈AI 매출 기대 못 미친다\"…S&P500·나스닥 '하락' [뉴욕증시 브리핑]",
-        "link": "https://www.hankyung.com/article/2026100923007",
+        "title": "\"음식료 톱픽은 KT&G\"…증권가가 제시한 3가지 이유",
+        "link": "https://www.hankyung.com/article/202610082205i",
         "source": "한국경제",
-        "date": "Fri, 09 Oct 2026 07:20:34 +0900",
+        "date": "Fri, 09 Oct 2026 08:00:06 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
-        "why": "해외 지수의 하루 등락이며 장기 근거를 바꾸지 않습니다.",
+        "scope": "company",
+        "why": "증권사 선호주 의견일 뿐, 회사의 장기 이익 구조가 바뀐 건 아닙니다.",
         "by": "ai"
       },
       {
@@ -811,13 +811,6 @@
     "SpaceX’s Starlink Mobile plans are pressuring AT&T and Verizon shares": "SpaceX의 Starlink Mobile 계획은 AT&T 및 Verizon 주식을 압박하고 있습니다"
   },
   "nvCache": {
-    "https://www.yna.co.kr/view/AKR20261003023000008": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "실적 발표 앞둔 지수 전망 기사로 장기 수익성과는 무관합니다.",
-      "by": "ai"
-    },
     "https://www.mk.co.kr/news/stock/12167872": {
       "act": "none",
       "lasting": "structural",
@@ -2910,6 +2903,13 @@
       "scope": "sector",
       "why": "위성 통신이 통신업 경쟁 구도를 바꿀 수 있어 흐름만 지켜볼 사안입니다.",
       "by": "ai"
+    },
+    "https://www.hankyung.com/article/202610066078i": {
+      "act": "watch",
+      "lasting": "structural",
+      "scope": "market",
+      "why": "금리 수준 변화는 시장 전반의 밸류에이션에 오래 영향을 주는 흐름이라 흐름만 지켜보면 됩니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2953,7 +2953,7 @@
       "2026-10-06": 1336.82,
       "2026-10-07": 1339.41,
       "2026-10-08": 1342.21,
-      "2026-10-09": 1342.09
+      "2026-10-09": 1341.76
     },
     "^GSPC": {
       "2026-09-27": 7743.41,
