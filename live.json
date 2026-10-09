@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-09T05:54:43.112Z",
+  "asOf": "2026-10-09T06:05:26.341Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -377,14 +377,14 @@
         "by": "ai"
       },
       {
-        "title": "\"스타벅스에 인수되나\"…치폴레 주가 6% 급등",
-        "link": "https://www.hankyung.com/article/202610092535i",
+        "title": "\"삼성닉스·마이크론 다 담았다\"…상장일 110억 몰린 ETF",
+        "link": "https://www.hankyung.com/article/202610092653i",
         "source": "한국경제",
-        "date": "Fri, 09 Oct 2026 11:08:11 +0900",
+        "date": "Fri, 09 Oct 2026 14:09:01 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
-        "why": "확인되지 않은 인수설에 따른 단기 주가 반응으로 보입니다.",
+        "scope": "sector",
+        "why": "신규 ETF 상장일 자금 유입은 단기 수급 이슈입니다.",
         "by": "ai"
       },
       {
@@ -399,25 +399,14 @@
         "by": "ai"
       },
       {
-        "title": "[인터뷰] '가치투자 1세대' 이채원 \"1만피? 3천피?…코스피, 다지는 시간 가질것 \"",
-        "link": "https://www.yna.co.kr/view/AKR20261008179900008",
-        "source": "연합뉴스",
-        "date": "Fri, 9 Oct 2026 07:00:02 +0900",
+        "title": "5%대 美 금리 vs 불뿜는 반도체 실적…10월 증시 향방 가를 3대 변수",
+        "link": "https://www.hankyung.com/article/202610081087i",
+        "source": "한국경제",
+        "date": "Fri, 09 Oct 2026 14:00:04 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "시장 전망에 대한 개인 견해로, 기업 이익과 무관합니다.",
-        "by": "ai"
-      },
-      {
-        "title": "AI 랠리의 뒤편, '6% 금리'의 그림자가 다가온다 [조윤남의 사이클투자]",
-        "link": "https://www.hankyung.com/article/202610066078i",
-        "source": "한국경제",
-        "date": "Fri, 09 Oct 2026 10:01:02 +0900",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": "market",
-        "why": "금리 수준 변화는 시장 전반의 밸류에이션에 오래 영향을 주는 흐름이라 흐름만 지켜보면 됩니다.",
+        "why": "월간 증시 전망 기사로 기업 이익을 바꾸는 사실은 없습니다.",
         "by": "ai"
       },
       {
@@ -429,6 +418,17 @@
         "lasting": "temporary",
         "scope": "company",
         "why": "주가 하락과 증권가 전망일 뿐, 사업 구조가 바뀌었다는 내용은 없습니다.",
+        "by": "ai"
+      },
+      {
+        "title": "\"스타벅스에 인수되나\"…치폴레 주가 6% 급등",
+        "link": "https://www.hankyung.com/article/202610092535i",
+        "source": "한국경제",
+        "date": "Fri, 09 Oct 2026 11:08:11 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "확인되지 않은 인수설에 따른 단기 주가 반응으로 보입니다.",
         "by": "ai"
       }
     ],
@@ -811,20 +811,6 @@
     "SpaceX’s Starlink Mobile plans are pressuring AT&T and Verizon shares": "SpaceX의 Starlink Mobile 계획은 AT&T 및 Verizon 주식을 압박하고 있습니다"
   },
   "nvCache": {
-    "https://www.yna.co.kr/view/AKR20261002179200008": {
-      "act": "watch",
-      "lasting": "temporary",
-      "scope": "sector",
-      "why": "공급 확대 시점 전망은 업황 사이클 이야기라 지켜보면 됩니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20261003027400004": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "개별 기업의 상속세 분쟁 사례로 장기 이익과는 거리가 멉니다.",
-      "by": "ai"
-    },
     "https://www.hankyung.com/article/2026100206306": {
       "act": "none",
       "lasting": "temporary",
@@ -2909,6 +2895,20 @@
       "lasting": "temporary",
       "scope": "market",
       "why": "지수 등락과 해석 논쟁일 뿐, 기업 이익 구조가 바뀐 소식은 아닙니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/202610092653i": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "sector",
+      "why": "신규 ETF 상장일 자금 유입은 단기 수급 이슈입니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/202610081087i": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "월간 증시 전망 기사로 기업 이익을 바꾸는 사실은 없습니다.",
       "by": "ai"
     }
   },
