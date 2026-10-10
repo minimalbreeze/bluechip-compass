@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-10T21:12:15.722Z",
+  "asOf": "2026-10-10T22:12:43.493Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -366,14 +366,14 @@
   "news": {
     "kr": [
       {
-        "title": "[마켓인사이트] 삼성전자 역대급 실적에도 짓눌린 코스피, 반등 가능성은",
-        "link": "https://www.yna.co.kr/view/AKR20261010015700008",
+        "title": "답답한 증시 대신 발행어음?…증권사, 4∼5% 상품 잇달아 출시",
+        "link": "https://www.yna.co.kr/view/AKR20261009024400008",
         "source": "연합뉴스",
-        "date": "Sun, 11 Oct 2026 06:00:03 +0900",
+        "date": "Sun, 11 Oct 2026 06:20:00 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
-        "why": "실적과 지수 흐름에 대한 단기 해석이라 장기 근거와는 무관합니다.",
+        "scope": "sector",
+        "why": "증권사 상품 출시 소식으로, 장기 이익 구조를 바꾸는 내용은 아닙니다.",
         "by": "ai"
       },
       {
@@ -399,14 +399,14 @@
         "by": "ai"
       },
       {
-        "title": "증권사, 중소·벤처 투자 70%가 수도권…'생산적 금융'에도 쏠림",
-        "link": "https://www.yna.co.kr/view/AKR20261009051600002",
+        "title": "국채금리 급등에 줄어든 매력에도…개인, 리츠 ETF 순매수액↑",
+        "link": "https://www.yna.co.kr/view/AKR20261008168900008",
         "source": "연합뉴스",
-        "date": "Sun, 11 Oct 2026 05:59:01 +0900",
+        "date": "Sun, 11 Oct 2026 06:10:01 +0900",
         "act": "watch",
-        "lasting": "structural",
+        "lasting": "temporary",
         "scope": "sector",
-        "why": "자금 배분의 지역 쏠림은 정책 변화로 이어질 수 있어 흐름만 봐둘 만합니다.",
+        "why": "금리 움직임과 수급 변화는 업종 수익에 영향을 줄 수 있어 흐름만 지켜보면 됩니다.",
         "by": "ai"
       },
       {
@@ -811,20 +811,6 @@
     "‘I feel like a loser’: My stock portfolio is swinging wildly. Is it finally time to worry?": "‘나는 패배자처럼 느껴진다’: 내 주식 포트폴리오는 거칠게 흔들리고 있다. 드디어 걱정할 시간인가?"
   },
   "nvCache": {
-    "https://www.hankyung.com/article/2026100203776": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "증권가 전망일 뿐 기업의 장기 이익과는 거리가 멉니다.",
-      "by": "ai"
-    },
-    "https://www.mk.co.kr/news/stock/12168506": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "sector",
-      "why": "단기 수급과 상품 출시 소식으로 업종 구조가 바뀐 건 아닙니다.",
-      "by": "ai"
-    },
     "https://www.hankyung.com/article/2026100537351": {
       "act": "none",
       "lasting": "temporary",
@@ -2909,6 +2895,20 @@
       "lasting": "structural",
       "scope": "sector",
       "why": "자금 배분의 지역 쏠림은 정책 변화로 이어질 수 있어 흐름만 봐둘 만합니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261009024400008": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "sector",
+      "why": "증권사 상품 출시 소식으로, 장기 이익 구조를 바꾸는 내용은 아닙니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261008168900008": {
+      "act": "watch",
+      "lasting": "temporary",
+      "scope": "sector",
+      "why": "금리 움직임과 수급 변화는 업종 수익에 영향을 줄 수 있어 흐름만 지켜보면 됩니다.",
       "by": "ai"
     }
   },
