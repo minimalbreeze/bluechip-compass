@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-10T00:03:24.435Z",
+  "asOf": "2026-10-10T01:03:58.498Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -366,6 +366,39 @@
   "news": {
     "kr": [
       {
+        "title": "[IPO챗] 이번주 수요예측 10곳…진코스텍 등 2개사 상장",
+        "link": "https://www.yna.co.kr/view/AKR20261008073000008",
+        "source": "연합뉴스",
+        "date": "Sat, 10 Oct 2026 09:00:05 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "공모 일정 안내로, 보유 기업 실적과는 무관한 정보입니다.",
+        "by": "ai"
+      },
+      {
+        "title": "랩 수익률, 코스피의 6배…\"수수료 더 내도 전문가 찾는다\"",
+        "link": "https://www.hankyung.com/article/2026100928971",
+        "source": "한국경제",
+        "date": "Sat, 10 Oct 2026 08:29:26 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "특정 기간 수익률 비교일 뿐, 장기 투자 근거를 바꾸지 않습니다.",
+        "by": "ai"
+      },
+      {
+        "title": "삼전닉스 대신 방산·반도체 테마형으로…변화하는 레버리지 ETF 판도",
+        "link": "https://www.mk.co.kr/news/stock/12172657",
+        "source": "매일경제",
+        "date": "Sat, 10 Oct 2026 09:05:32 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "단기 자금이 몰리는 테마 변화로, 기업 이익과는 별개입니다.",
+        "by": "ai"
+      },
+      {
         "title": "은행권 금리 경쟁…1년만기 예금 3%대 후반으로 속속 인상",
         "link": "https://www.yna.co.kr/view/AKR20261009056800002",
         "source": "연합뉴스",
@@ -396,39 +429,6 @@
         "lasting": "structural",
         "scope": "market",
         "why": "시장 전반의 해석 기사로, 오늘 당장 할 일은 없습니다.",
-        "by": "ai"
-      },
-      {
-        "title": "광주 군공항 찾은 최태원, 반도체 투자 우려 '한방에' 불식",
-        "link": "https://www.yna.co.kr/view/AKR20261009046800054",
-        "source": "연합뉴스",
-        "date": "Fri, 9 Oct 2026 16:52:02 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "경영진 행보 소식으로 실제 투자 계획 변경은 확인되지 않습니다.",
-        "by": "ai"
-      },
-      {
-        "title": "ETF·주식 직접 고르다 지친 개미…랩에 1억 맡겼더니 '반전'",
-        "link": "https://www.hankyung.com/article/2026100929331",
-        "source": "한국경제",
-        "date": "Sat, 10 Oct 2026 07:37:55 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "투자 방식 소개 기사일 뿐, 보유 근거를 바꿀 내용은 없습니다.",
-        "by": "ai"
-      },
-      {
-        "title": "[단독] “1100억으로 1.2조 수익 냈습니다”…주식으로 대박낸 회장님",
-        "link": "https://www.mk.co.kr/news/stock/12172464",
-        "source": "매일경제",
-        "date": "Fri, 09 Oct 2026 17:35:29 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "특정 투자자의 수익 성과 소식이라 기업의 장기 이익과는 무관합니다.",
         "by": "ai"
       }
     ],
@@ -811,27 +811,6 @@
     "Here’s how Treasury yields could rise to 6% — even without market upheaval": "시장 격변 없이도 국채 수익률이 6% 까지 상승할 수 있는 방법은 다음과 같습니다."
   },
   "nvCache": {
-    "https://www.yna.co.kr/view/AKR20261004020300002": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "한시적 고금리 예적금 판촉으로 장기 이익 구조와는 거리가 멉니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20261005015400053": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "sector",
-      "why": "지자체 협력 업무협약 수준으로 기업 이익과 연결을 확인하기 어렵습니다.",
-      "by": "ai"
-    },
-    "https://www.hankyung.com/article/2026100204896": {
-      "act": "watch",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "주주환원·지배구조 논쟁 단계로, 확정된 변화가 아니라 경과만 지켜보면 됩니다.",
-      "by": "ai"
-    },
     "https://www.hankyung.com/article/202610042842i": {
       "act": "none",
       "lasting": "temporary",
@@ -2909,6 +2888,27 @@
       "lasting": "temporary",
       "scope": "market",
       "why": "투자 방식 소개 기사일 뿐, 보유 근거를 바꿀 내용은 없습니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261008073000008": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "공모 일정 안내로, 보유 기업 실적과는 무관한 정보입니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/2026100928971": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "특정 기간 수익률 비교일 뿐, 장기 투자 근거를 바꾸지 않습니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12172657": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "단기 자금이 몰리는 테마 변화로, 기업 이익과는 별개입니다.",
       "by": "ai"
     }
   },
