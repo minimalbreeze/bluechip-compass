@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-11T04:15:20.529Z",
+  "asOf": "2026-10-11T05:15:46.595Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -44,18 +44,18 @@
     },
     "^VIX": {
       "price": 14.84,
-      "prev": 14.84000015258789,
+      "prev": 14.84,
       "chg": 0,
-      "prevDay": "2026-10-09",
-      "basis": "prev-close-bar",
+      "prevDay": "2026-10-10",
+      "basis": "prev-close-memo",
       "time": "2026-10-09T20:15:01.000Z"
     },
     "^TNX": {
       "price": 5.244,
-      "prev": 5.24399995803833,
+      "prev": 5.244,
       "chg": 0,
-      "prevDay": "2026-10-09",
-      "basis": "prev-close-bar",
+      "prevDay": "2026-10-10",
+      "basis": "prev-close-memo",
       "time": "2026-10-09T18:59:55.000Z"
     }
   },
@@ -366,14 +366,14 @@
   "news": {
     "kr": [
       {
-        "title": "반도체 부럽지 않은 '건담 파워'...미국에서도 통할까",
-        "link": "https://www.hankyung.com/article/202610113674i",
+        "title": "\"엔화로 美국채 사볼까\"…원·엔 환율 18년 만에 최저 [노정동의 어쩌다 투자자]",
+        "link": "https://www.hankyung.com/article/2026100807866",
         "source": "한국경제",
-        "date": "Sun, 11 Oct 2026 09:00:07 +0900",
+        "date": "Sun, 11 Oct 2026 13:00:02 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "sector",
-        "why": "해외 진출 기대를 다룬 전망성 기사로, 실적 변화는 아직 확인되지 않았습니다.",
+        "scope": "market",
+        "why": "환율 변동은 수시로 오가는 일로 기업 장기 이익과는 거리가 있습니다.",
         "by": "ai"
       },
       {
@@ -388,14 +388,14 @@
         "by": "ai"
       },
       {
-        "title": "뚝 떨어진 원달러 환율…수혜 업종과 현 시점 투자전략은?",
-        "link": "https://www.hankyung.com/article/202610081591i",
+        "title": "반도체 부럽지 않은 '건담 파워'...미국에서도 통할까",
+        "link": "https://www.hankyung.com/article/202610113674i",
         "source": "한국경제",
-        "date": "Sun, 11 Oct 2026 08:00:05 +0900",
+        "date": "Sun, 11 Oct 2026 09:00:07 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
-        "why": "환율은 늘 움직이고 전략 제안은 추측에 가깝습니다.",
+        "scope": "sector",
+        "why": "해외 진출 기대를 다룬 전망성 기사로, 실적 변화는 아직 확인되지 않았습니다.",
         "by": "ai"
       },
       {
@@ -410,14 +410,14 @@
         "by": "ai"
       },
       {
-        "title": "美 실적 시즌 돌입…\"외국인 돌아온다\" 칠천피 안착 청신호 [주간전망]",
-        "link": "https://www.hankyung.com/article/2026100815406",
+        "title": "뚝 떨어진 원달러 환율…수혜 업종과 현 시점 투자전략은?",
+        "link": "https://www.hankyung.com/article/202610081591i",
         "source": "한국경제",
-        "date": "Sun, 11 Oct 2026 07:56:51 +0900",
+        "date": "Sun, 11 Oct 2026 08:00:05 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "수급과 지수 전망 기사로, 기업 이익을 바꾸진 않습니다.",
+        "why": "환율은 늘 움직이고 전략 제안은 추측에 가깝습니다.",
         "by": "ai"
       },
       {
@@ -811,13 +811,6 @@
     "‘I feel like a loser’: My stock portfolio is swinging wildly. Is it finally time to worry?": "‘나는 패배자처럼 느껴진다’: 내 주식 포트폴리오는 거칠게 흔들리고 있다. 드디어 걱정할 시간인가?"
   },
   "nvCache": {
-    "https://www.hankyung.com/article/202610064007i": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "분기 실적 전망과 시장 우려를 다룬 내용으로, 장기 투자 근거를 바꾸지는 않습니다.",
-      "by": "ai"
-    },
     "https://www.marketwatch.com/story/spacexs-stock-could-actually-be-a-bargain-according-to-this-metric-ac3ddf45?mod=mw_rss_topstories": {
       "act": "none",
       "lasting": "temporary",
@@ -2910,6 +2903,13 @@
       "scope": "market",
       "why": "자산배분 조언 기사로, 기업 이익이나 투자 근거를 바꾸는 내용이 아닙니다.",
       "by": "ai"
+    },
+    "https://www.hankyung.com/article/2026100807866": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "환율 변동은 수시로 오가는 일로 기업 장기 이익과는 거리가 있습니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2984,7 +2984,6 @@
       "2026-10-11": 27366.17
     },
     "^VIX": {
-      "2026-09-29": 16.04,
       "2026-09-30": 16.34,
       "2026-10-01": 16.39,
       "2026-10-02": 15.31,
@@ -2995,10 +2994,10 @@
       "2026-10-07": 15.08,
       "2026-10-08": 15.41,
       "2026-10-09": 14.84,
-      "2026-10-10": 14.84
+      "2026-10-10": 14.84,
+      "2026-10-11": 14.84
     },
     "^TNX": {
-      "2026-09-29": 5.255,
       "2026-09-30": 5.293,
       "2026-10-01": 5.237,
       "2026-10-02": 5.277,
@@ -3009,7 +3008,8 @@
       "2026-10-07": 5.277,
       "2026-10-08": 5.231,
       "2026-10-09": 5.244,
-      "2026-10-10": 5.244
+      "2026-10-10": 5.244,
+      "2026-10-11": 5.244
     },
     "105560.KS": {
       "2026-09-30": 168800,
