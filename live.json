@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-11T20:22:59.766Z",
+  "asOf": "2026-10-11T21:23:32.420Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-08T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1340.02,
+      "price": 1340.98,
       "prev": 1340.9,
-      "chg": -0.07,
+      "chg": 0.01,
       "prevDay": "2026-10-10",
       "basis": "prev-close-memo",
-      "time": "2026-10-11T14:08:48.000Z"
+      "time": "2026-10-11T21:14:31.000Z"
     },
     "^GSPC": {
       "price": 7811.54,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1339.08,
     "high52": 1554.48,
-    "pct": 0.004
+    "pct": 0.009
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": 7.34
     },
     "KRW=X": {
-      "last": 1340.02,
+      "last": 1340.98,
       "low52": 1339.08,
       "high52": 1554.48,
-      "pct52": 0.004,
-      "chg3m": -9.84
+      "pct52": 0.009,
+      "chg3m": -9.77
     },
     "^GSPC": {
       "last": 7811.54,
@@ -366,14 +366,14 @@
   "news": {
     "kr": [
       {
-        "title": "무보 '떼인 돈' 3.8조원…남은 채권 절반은 10년 이상 미회수",
-        "link": "https://www.yna.co.kr/view/AKR20261011042200003",
+        "title": "\"호남 반도체 국가산단 사업비 9조…인근 분양가 2배 이상\"",
+        "link": "https://www.yna.co.kr/view/AKR20261011036100003",
         "source": "연합뉴스",
-        "date": "Sun, 11 Oct 2026 18:04:55 +0900",
+        "date": "Mon, 12 Oct 2026 06:15:01 +0900",
         "act": "none",
         "lasting": "structural",
         "scope": "sector",
-        "why": "공적 보증기관의 누적 미회수 문제로, 보유 기업 이익과 직접 연결되긴 어렵습니다.",
+        "why": "국가산단 조성은 장기 과제로 당장 개별 기업 이익에 미치는 영향은 불확실합니다.",
         "by": "ai"
       },
       {
@@ -388,14 +388,25 @@
         "by": "ai"
       },
       {
-        "title": "고금리 버틴 금융·헬스케어 실적 줄줄이 … 14일 美CPI가 증시 향배 좌우",
-        "link": "https://www.mk.co.kr/news/stock/12173055",
+        "title": "“역시 주식은 낮에 하는 게 아니네요”...개미들, 국장 믿음 버리고 미장 갔다",
+        "link": "https://www.mk.co.kr/news/stock/12173229",
         "source": "매일경제",
-        "date": "Mon, 12 Oct 2026 04:30:00 +09:00",
+        "date": "Mon, 12 Oct 2026 06:10:35 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "실적 발표와 물가지표는 반복되는 단기 이벤트로, 장기 이익 구조와는 거리가 멉니다.",
+        "why": "투자자 심리와 자금 흐름을 다룬 기사로 기업 이익과는 무관합니다.",
+        "by": "ai"
+      },
+      {
+        "title": "\"작년 한은 인수 위조지폐 9천700장…SNS엔 버젓이 판매글\"",
+        "link": "https://www.yna.co.kr/view/AKR20261011034500001",
+        "source": "연합뉴스",
+        "date": "Mon, 12 Oct 2026 06:13:01 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "위조지폐 관련 사회 이슈로 상장기업 실적과 직접 연결되지 않습니다.",
         "by": "ai"
       },
       {
@@ -410,25 +421,14 @@
         "by": "ai"
       },
       {
-        "title": "이틀 대출에 연 10%씩 받는 증권사들…8개월 이자수익만 1200억 달해",
-        "link": "https://www.mk.co.kr/news/stock/12173206",
+        "title": "역대급 실적에도 주가 ‘반토막’…피크아웃 우려, 중국에 발목잡힌 조선株",
+        "link": "https://www.mk.co.kr/news/stock/12173225",
         "source": "매일경제",
-        "date": "Sun, 11 Oct 2026 21:03:43 +09:00",
+        "date": "Mon, 12 Oct 2026 05:43:42 +09:00",
         "act": "watch",
-        "lasting": "temporary",
+        "lasting": "structural",
         "scope": "sector",
-        "why": "한 기간의 이자수익 집계이지만 수수료 체계 논란으로 번질지 지켜볼 만합니다.",
-        "by": "ai"
-      },
-      {
-        "title": "환율·채권, 환율 1300원 초반 추가하락 가능성",
-        "link": "https://www.hankyung.com/article/2026101145051",
-        "source": "한국경제",
-        "date": "Sun, 11 Oct 2026 18:00:52 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "환율 전망은 수시로 바뀌는 단기 변수로 오늘 할 일은 없습니다.",
+        "why": "업황 정점 논란과 경쟁국 추격은 업종 구조와 닿아 있어 흐름을 지켜볼 만합니다.",
         "by": "ai"
       }
     ],
@@ -811,34 +811,6 @@
     "We’re about to get a huge read on whether earnings can keep propping up the stock market": "우리는 수입이 주식 시장을 계속 유지할 수 있는지에 대해 많은 것을 알게 될 것입니다."
   },
   "nvCache": {
-    "https://www.yna.co.kr/view/AKR20261006032100008": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "기업 설명회 개최 소식으로 실적이나 투자 근거와는 무관한 일상적 행사입니다.",
-      "by": "ai"
-    },
-    "https://www.hankyung.com/article/202610064393i": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "특정 투자자 매매 동향일 뿐 기업 이익 구조와는 무관합니다.",
-      "by": "ai"
-    },
-    "https://www.hankyung.com/article/2026100644136": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "하루 수급과 지수 등락은 장기 보유 근거를 바꾸지 않습니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20261006047400008": {
-      "act": "none",
-      "lasting": "structural",
-      "scope": "sector",
-      "why": "소액 투자 접근성을 넓히는 서비스지만 당장 기업 이익과는 거리가 멉니다.",
-      "by": "ai"
-    },
     "https://www.mk.co.kr/news/stock/12168967": {
       "act": "none",
       "lasting": "temporary",
@@ -2910,6 +2882,34 @@
       "scope": "market",
       "why": "실적 발표와 물가지표는 반복되는 단기 이벤트로, 장기 이익 구조와는 거리가 멉니다.",
       "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261011036100003": {
+      "act": "none",
+      "lasting": "structural",
+      "scope": "sector",
+      "why": "국가산단 조성은 장기 과제로 당장 개별 기업 이익에 미치는 영향은 불확실합니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12173229": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "투자자 심리와 자금 흐름을 다룬 기사로 기업 이익과는 무관합니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261011034500001": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "위조지폐 관련 사회 이슈로 상장기업 실적과 직접 연결되지 않습니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12173225": {
+      "act": "watch",
+      "lasting": "structural",
+      "scope": "sector",
+      "why": "업황 정점 논란과 경쟁국 추격은 업종 구조와 닿아 있어 흐름을 지켜볼 만합니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2953,7 +2953,7 @@
       "2026-10-08": 1342.21,
       "2026-10-09": 1340.02,
       "2026-10-10": 1340.9,
-      "2026-10-11": 1340.02
+      "2026-10-11": 1340.98
     },
     "^GSPC": {
       "2026-09-30": 7651.54,
