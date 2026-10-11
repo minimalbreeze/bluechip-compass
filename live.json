@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-11T08:17:04.944Z",
+  "asOf": "2026-10-11T09:17:30.989Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -366,6 +366,17 @@
   "news": {
     "kr": [
       {
+        "title": "무보 '떼인 돈' 3.8조원…남은 채권 절반은 10년 이상 미회수",
+        "link": "https://www.yna.co.kr/view/AKR20261011042200003",
+        "source": "연합뉴스",
+        "date": "Sun, 11 Oct 2026 18:04:55 +0900",
+        "act": "none",
+        "lasting": "structural",
+        "scope": "sector",
+        "why": "공적 보증기관의 누적 미회수 문제로, 보유 기업 이익과 직접 연결되긴 어렵습니다.",
+        "by": "ai"
+      },
+      {
         "title": "인디 화장품 브랜드 성장에 펌텍코리아 한 달 새 24%↑...3분기 최대 실적 기대",
         "link": "https://www.hankyung.com/article/202610114214i",
         "source": "한국경제",
@@ -418,17 +429,6 @@
         "lasting": "temporary",
         "scope": "sector",
         "why": "해외 진출 기대를 다룬 전망성 기사로, 실적 변화는 아직 확인되지 않았습니다.",
-        "by": "ai"
-      },
-      {
-        "title": "자사주매입 5배 늘었지만 삼닉 빼면 13%↓",
-        "link": "https://www.mk.co.kr/news/stock/12173038",
-        "source": "매일경제",
-        "date": "Sun, 11 Oct 2026 16:52:22 +09:00",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": "market",
-        "why": "자사주 매입이 일부 대형주에 쏠린 현상은 주주환원 흐름을 보는 참고점입니다.",
         "by": "ai"
       }
     ],
@@ -811,13 +811,6 @@
     "‘I feel like a loser’: My stock portfolio is swinging wildly. Is it finally time to worry?": "‘나는 패배자처럼 느껴진다’: 내 주식 포트폴리오는 거칠게 흔들리고 있다. 드디어 걱정할 시간인가?"
   },
   "nvCache": {
-    "https://www.yna.co.kr/view/AKR20261006026000008": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "증자로 목표가는 낮췄지만 성장동력은 유지된다는 평가입니다.",
-      "by": "ai"
-    },
     "https://www.hankyung.com/article/202610064183i": {
       "act": "none",
       "lasting": "temporary",
@@ -2909,6 +2902,13 @@
       "lasting": "structural",
       "scope": "market",
       "why": "자사주 매입이 일부 대형주에 쏠린 현상은 주주환원 흐름을 보는 참고점입니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261011042200003": {
+      "act": "none",
+      "lasting": "structural",
+      "scope": "sector",
+      "why": "공적 보증기관의 누적 미회수 문제로, 보유 기업 이익과 직접 연결되긴 어렵습니다.",
       "by": "ai"
     }
   },
