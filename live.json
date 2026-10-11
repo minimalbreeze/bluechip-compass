@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-11T21:23:32.420Z",
+  "asOf": "2026-10-11T22:23:59.463Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-08T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1340.98,
+      "price": 1341.07,
       "prev": 1340.9,
       "chg": 0.01,
       "prevDay": "2026-10-10",
       "basis": "prev-close-memo",
-      "time": "2026-10-11T21:14:31.000Z"
+      "time": "2026-10-11T22:03:16.000Z"
     },
     "^GSPC": {
       "price": 7811.54,
@@ -80,7 +80,7 @@
       "chg3m": 7.34
     },
     "KRW=X": {
-      "last": 1340.98,
+      "last": 1341.07,
       "low52": 1339.08,
       "high52": 1554.48,
       "pct52": 0.009,
@@ -366,25 +366,25 @@
   "news": {
     "kr": [
       {
-        "title": "\"호남 반도체 국가산단 사업비 9조…인근 분양가 2배 이상\"",
-        "link": "https://www.yna.co.kr/view/AKR20261011036100003",
+        "title": "코람코자산신탁, 여의도 ABL타워 인수 우선협상대상자로 선정",
+        "link": "https://www.yna.co.kr/view/AKR20261009038800008",
         "source": "연합뉴스",
-        "date": "Mon, 12 Oct 2026 06:15:01 +0900",
+        "date": "Mon, 12 Oct 2026 07:00:03 +0900",
         "act": "none",
-        "lasting": "structural",
-        "scope": "sector",
-        "why": "국가산단 조성은 장기 과제로 당장 개별 기업 이익에 미치는 영향은 불확실합니다.",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "개별 자산 인수 단계 소식이라 장기 이익 구조와는 거리가 멉니다.",
         "by": "ai"
       },
       {
-        "title": "역대급 주주환원…든든한 고배당주 찾아라",
-        "link": "https://www.hankyung.com/article/2026101145041",
+        "title": "\"싸게 살 기회왔네\"…주가 20% 빠졌는데 증권가 찜한 이유 [종목+]",
+        "link": "https://www.hankyung.com/article/2026100816816",
         "source": "한국경제",
-        "date": "Sun, 11 Oct 2026 18:07:05 +0900",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": "market",
-        "why": "주주환원 확대 흐름은 기업 체질 변화일 수 있어 추세만 지켜보면 됩니다.",
+        "date": "Mon, 12 Oct 2026 06:30:04 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "주가 하락과 증권가 시각은 단기 의견일 뿐 사업 근거를 바꾸지 않습니다.",
         "by": "ai"
       },
       {
@@ -399,25 +399,25 @@
         "by": "ai"
       },
       {
-        "title": "\"작년 한은 인수 위조지폐 9천700장…SNS엔 버젓이 판매글\"",
-        "link": "https://www.yna.co.kr/view/AKR20261011034500001",
+        "title": "\"호남 반도체 국가산단 사업비 9조…인근 분양가 2배 이상\"",
+        "link": "https://www.yna.co.kr/view/AKR20261011036100003",
         "source": "연합뉴스",
-        "date": "Mon, 12 Oct 2026 06:13:01 +0900",
+        "date": "Mon, 12 Oct 2026 06:15:01 +0900",
         "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "위조지폐 관련 사회 이슈로 상장기업 실적과 직접 연결되지 않습니다.",
+        "lasting": "structural",
+        "scope": "sector",
+        "why": "국가산단 조성은 장기 과제로 당장 개별 기업 이익에 미치는 영향은 불확실합니다.",
         "by": "ai"
       },
       {
-        "title": "증시 위축에 주가 급락…증권주, 다시 살아날까",
-        "link": "https://www.hankyung.com/article/2026101145031",
+        "title": "\"외국인 몰려와서 웃었는데\"…한 달 새 23% 급락하자 '울상' [종목+]",
+        "link": "https://www.hankyung.com/article/2026100816356",
         "source": "한국경제",
-        "date": "Sun, 11 Oct 2026 18:04:11 +0900",
+        "date": "Mon, 12 Oct 2026 06:30:01 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "sector",
-        "why": "거래 위축에 따른 업종 주가 등락은 반복되는 일시적 흐름입니다.",
+        "scope": "company",
+        "why": "한 달 수급과 주가 변동 소식으로, 회사의 10년 이익과는 무관합니다.",
         "by": "ai"
       },
       {
@@ -811,27 +811,6 @@
     "We’re about to get a huge read on whether earnings can keep propping up the stock market": "우리는 수입이 주식 시장을 계속 유지할 수 있는지에 대해 많은 것을 알게 될 것입니다."
   },
   "nvCache": {
-    "https://www.mk.co.kr/news/stock/12168967": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "기대감에 따른 단기 주가 움직임이라 보유 근거를 바꾸지 않습니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20261006050000008": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "미수령 배당금 찾아주기 안내로 기업 이익과는 무관한 소식입니다.",
-      "by": "ai"
-    },
-    "https://www.hankyung.com/article/2026100648646": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "증권사 투자자 행사 소식으로 기업 이익과는 무관합니다.",
-      "by": "ai"
-    },
     "https://www.hankyung.com/article/2026100647476": {
       "act": "none",
       "lasting": "temporary",
@@ -2910,6 +2889,27 @@
       "scope": "sector",
       "why": "업황 정점 논란과 경쟁국 추격은 업종 구조와 닿아 있어 흐름을 지켜볼 만합니다.",
       "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261009038800008": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "개별 자산 인수 단계 소식이라 장기 이익 구조와는 거리가 멉니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/2026100816816": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "주가 하락과 증권가 시각은 단기 의견일 뿐 사업 근거를 바꾸지 않습니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/2026100816356": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "한 달 수급과 주가 변동 소식으로, 회사의 10년 이익과는 무관합니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2953,7 +2953,7 @@
       "2026-10-08": 1342.21,
       "2026-10-09": 1340.02,
       "2026-10-10": 1340.9,
-      "2026-10-11": 1340.98
+      "2026-10-11": 1341.07
     },
     "^GSPC": {
       "2026-09-30": 7651.54,
