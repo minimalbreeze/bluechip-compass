@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-11T22:23:59.463Z",
+  "asOf": "2026-10-11T23:24:25.311Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-08T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1341.07,
-      "prev": 1340.9,
-      "chg": 0.01,
-      "prevDay": "2026-10-10",
+      "price": 1341.29,
+      "prev": 1341.07,
+      "chg": 0.02,
+      "prevDay": "2026-10-11",
       "basis": "prev-close-memo",
-      "time": "2026-10-11T22:03:16.000Z"
+      "time": "2026-10-11T23:21:10.000Z"
     },
     "^GSPC": {
       "price": 7811.54,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1339.08,
     "high52": 1554.48,
-    "pct": 0.009
+    "pct": 0.01
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": 7.34
     },
     "KRW=X": {
-      "last": 1341.07,
+      "last": 1341.29,
       "low52": 1339.08,
       "high52": 1554.48,
-      "pct52": 0.009,
-      "chg3m": -9.77
+      "pct52": 0.01,
+      "chg3m": -9.75
     },
     "^GSPC": {
       "last": 7811.54,
@@ -366,25 +366,25 @@
   "news": {
     "kr": [
       {
-        "title": "코람코자산신탁, 여의도 ABL타워 인수 우선협상대상자로 선정",
-        "link": "https://www.yna.co.kr/view/AKR20261009038800008",
+        "title": "IBK증권, 이엔에프테크 기업분석 개시…\"사상 최대실적 전망\"",
+        "link": "https://www.yna.co.kr/view/AKR20261012018100008",
         "source": "연합뉴스",
-        "date": "Mon, 12 Oct 2026 07:00:03 +0900",
+        "date": "Mon, 12 Oct 2026 08:17:42 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
-        "why": "개별 자산 인수 단계 소식이라 장기 이익 구조와는 거리가 멉니다.",
+        "why": "증권사 분석 개시와 실적 전망은 의견일 뿐 구조 변화는 아닙니다.",
         "by": "ai"
       },
       {
-        "title": "\"싸게 살 기회왔네\"…주가 20% 빠졌는데 증권가 찜한 이유 [종목+]",
-        "link": "https://www.hankyung.com/article/2026100816816",
+        "title": "\"삼양식품, 환율 영향 제한적…조정은 매수 기회\"-KB",
+        "link": "https://www.hankyung.com/article/2026101249006",
         "source": "한국경제",
-        "date": "Mon, 12 Oct 2026 06:30:04 +0900",
+        "date": "Mon, 12 Oct 2026 07:36:28 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
-        "why": "주가 하락과 증권가 시각은 단기 의견일 뿐 사업 근거를 바꾸지 않습니다.",
+        "why": "환율과 주가 조정에 대한 증권사 의견으로 장기 근거와는 무관합니다.",
         "by": "ai"
       },
       {
@@ -399,25 +399,25 @@
         "by": "ai"
       },
       {
-        "title": "\"호남 반도체 국가산단 사업비 9조…인근 분양가 2배 이상\"",
-        "link": "https://www.yna.co.kr/view/AKR20261011036100003",
+        "title": "한투증권 \"방향성 부재 코스피…3분기 이익 전망치 하향 조정\"",
+        "link": "https://www.yna.co.kr/view/AKR20261012016200008",
         "source": "연합뉴스",
-        "date": "Mon, 12 Oct 2026 06:15:01 +0900",
+        "date": "Mon, 12 Oct 2026 08:15:17 +0900",
         "act": "none",
-        "lasting": "structural",
-        "scope": "sector",
-        "why": "국가산단 조성은 장기 과제로 당장 개별 기업 이익에 미치는 영향은 불확실합니다.",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "분기 이익 전망치 조정은 흔한 단기 변동 신호입니다.",
         "by": "ai"
       },
       {
-        "title": "\"외국인 몰려와서 웃었는데\"…한 달 새 23% 급락하자 '울상' [종목+]",
-        "link": "https://www.hankyung.com/article/2026100816356",
+        "title": "뜨거운 반도체 소부장…이번주도 달릴까 [오늘 아침, 당신이 알아야 할 7가지]",
+        "link": "https://www.hankyung.com/article/202610114705i",
         "source": "한국경제",
-        "date": "Mon, 12 Oct 2026 06:30:01 +0900",
+        "date": "Mon, 12 Oct 2026 07:33:16 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
-        "why": "한 달 수급과 주가 변동 소식으로, 회사의 10년 이익과는 무관합니다.",
+        "scope": "sector",
+        "why": "업종 주가 흐름을 전하는 기사로 오늘 할 일은 없습니다.",
         "by": "ai"
       },
       {
@@ -811,34 +811,6 @@
     "We’re about to get a huge read on whether earnings can keep propping up the stock market": "우리는 수입이 주식 시장을 계속 유지할 수 있는지에 대해 많은 것을 알게 될 것입니다."
   },
   "nvCache": {
-    "https://www.hankyung.com/article/2026100647476": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "신규 서비스 출시로, 장기 이익 변화는 제목만으로 알기 어렵습니다.",
-      "by": "ai"
-    },
-    "https://www.hankyung.com/article/2026100647566": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "sector",
-      "why": "해외 지수 흐름에 따른 하루 주가 변동일 뿐입니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20261006066600008": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "행사 안내일 뿐 기업 이익이나 투자 근거와는 무관합니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20261006058100008": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "감사의견 통계는 시장 전반 참고 정보로, 특정 기업 근거를 흔들지 않습니다.",
-      "by": "ai"
-    },
     "https://www.mk.co.kr/news/stock/12169038": {
       "act": "none",
       "lasting": "temporary",
@@ -2910,6 +2882,34 @@
       "scope": "company",
       "why": "한 달 수급과 주가 변동 소식으로, 회사의 10년 이익과는 무관합니다.",
       "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261012018100008": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "증권사 분석 개시와 실적 전망은 의견일 뿐 구조 변화는 아닙니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/2026101249006": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "환율과 주가 조정에 대한 증권사 의견으로 장기 근거와는 무관합니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261012016200008": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "분기 이익 전망치 조정은 흔한 단기 변동 신호입니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/202610114705i": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "sector",
+      "why": "업종 주가 흐름을 전하는 기사로 오늘 할 일은 없습니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2942,7 +2942,6 @@
       "2026-10-12": 892.27
     },
     "KRW=X": {
-      "2026-09-30": 1355.56,
       "2026-10-01": 1358.91,
       "2026-10-02": 1342.51,
       "2026-10-03": 1342.51,
@@ -2953,7 +2952,8 @@
       "2026-10-08": 1342.21,
       "2026-10-09": 1340.02,
       "2026-10-10": 1340.9,
-      "2026-10-11": 1341.07
+      "2026-10-11": 1341.07,
+      "2026-10-12": 1341.29
     },
     "^GSPC": {
       "2026-09-30": 7651.54,
