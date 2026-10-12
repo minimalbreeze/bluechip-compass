@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-11T23:24:25.311Z",
+  "asOf": "2026-10-12T00:02:01.746Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-08T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1341.29,
+      "price": 1338.88,
       "prev": 1341.07,
-      "chg": 0.02,
+      "chg": -0.16,
       "prevDay": "2026-10-11",
       "basis": "prev-close-memo",
-      "time": "2026-10-11T23:21:10.000Z"
+      "time": "2026-10-12T00:01:49.000Z"
     },
     "^GSPC": {
       "price": 7811.54,
@@ -60,9 +60,9 @@
     }
   },
   "fx": {
-    "low52": 1339.08,
+    "low52": 1338.78,
     "high52": 1554.48,
-    "pct": 0.01
+    "pct": 0
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": 7.34
     },
     "KRW=X": {
-      "last": 1341.29,
-      "low52": 1339.08,
+      "last": 1338.78,
+      "low52": 1338.78,
       "high52": 1554.48,
-      "pct52": 0.01,
-      "chg3m": -9.75
+      "pct52": 0,
+      "chg3m": -9.92
     },
     "^GSPC": {
       "last": 7811.54,
@@ -366,25 +366,58 @@
   "news": {
     "kr": [
       {
-        "title": "IBK증권, 이엔에프테크 기업분석 개시…\"사상 최대실적 전망\"",
-        "link": "https://www.yna.co.kr/view/AKR20261012018100008",
+        "title": "한투증권 \"초과 세수 활용 촉각…통화정책이 금리 변수\"",
+        "link": "https://www.yna.co.kr/view/AKR20261012022900008",
         "source": "연합뉴스",
-        "date": "Mon, 12 Oct 2026 08:17:42 +0900",
+        "date": "Mon, 12 Oct 2026 08:57:19 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
-        "why": "증권사 분석 개시와 실적 전망은 의견일 뿐 구조 변화는 아닙니다.",
+        "scope": "market",
+        "why": "증권사 금리 전망 코멘트로, 기업 이익을 직접 바꾸지는 않습니다.",
         "by": "ai"
       },
       {
-        "title": "\"삼양식품, 환율 영향 제한적…조정은 매수 기회\"-KB",
-        "link": "https://www.hankyung.com/article/2026101249006",
+        "title": "\"SK하이닉스, 3분기 영업익 80조 '깜짝 실적'…목표가↑\"-메리츠",
+        "link": "https://www.hankyung.com/article/2026101250426",
         "source": "한국경제",
-        "date": "Mon, 12 Oct 2026 07:36:28 +0900",
+        "date": "Mon, 12 Oct 2026 08:22:52 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
-        "why": "환율과 주가 조정에 대한 증권사 의견으로 장기 근거와는 무관합니다.",
+        "why": "분기 실적과 목표가 상향은 통상 가격에 빠르게 반영됩니다.",
+        "by": "ai"
+      },
+      {
+        "title": "“LG엔솔, ESS 병목 완화·내년 이익 개선”…삼성증권, 목표가 46만→50만원",
+        "link": "https://www.mk.co.kr/news/stock/12173256",
+        "source": "매일경제",
+        "date": "Mon, 12 Oct 2026 08:26:50 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "목표가 조정과 내년 전망일 뿐, 장기 사업 구조의 변화는 아닙니다.",
+        "by": "ai"
+      },
+      {
+        "title": "유진증권 \"항공운송업, 여객·화물 수요 견조…비중확대 유지\"",
+        "link": "https://www.yna.co.kr/view/AKR20261012023300008",
+        "source": "연합뉴스",
+        "date": "Mon, 12 Oct 2026 08:56:21 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "sector",
+        "why": "업종 수요가 견조하다는 의견 제시로, 오늘 할 일은 없습니다.",
+        "by": "ai"
+      },
+      {
+        "title": "\"원익IPS, 2028년까지 실적 가시성 높아…목표가↑\"-메리츠",
+        "link": "https://www.hankyung.com/article/2026101249366",
+        "source": "한국경제",
+        "date": "Mon, 12 Oct 2026 08:22:27 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "증권사의 실적 가시성 평가로, 투자 근거를 흔들 내용은 아닙니다.",
         "by": "ai"
       },
       {
@@ -396,39 +429,6 @@
         "lasting": "temporary",
         "scope": "market",
         "why": "투자자 심리와 자금 흐름을 다룬 기사로 기업 이익과는 무관합니다.",
-        "by": "ai"
-      },
-      {
-        "title": "한투증권 \"방향성 부재 코스피…3분기 이익 전망치 하향 조정\"",
-        "link": "https://www.yna.co.kr/view/AKR20261012016200008",
-        "source": "연합뉴스",
-        "date": "Mon, 12 Oct 2026 08:15:17 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "분기 이익 전망치 조정은 흔한 단기 변동 신호입니다.",
-        "by": "ai"
-      },
-      {
-        "title": "뜨거운 반도체 소부장…이번주도 달릴까 [오늘 아침, 당신이 알아야 할 7가지]",
-        "link": "https://www.hankyung.com/article/202610114705i",
-        "source": "한국경제",
-        "date": "Mon, 12 Oct 2026 07:33:16 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "sector",
-        "why": "업종 주가 흐름을 전하는 기사로 오늘 할 일은 없습니다.",
-        "by": "ai"
-      },
-      {
-        "title": "역대급 실적에도 주가 ‘반토막’…피크아웃 우려, 중국에 발목잡힌 조선株",
-        "link": "https://www.mk.co.kr/news/stock/12173225",
-        "source": "매일경제",
-        "date": "Mon, 12 Oct 2026 05:43:42 +09:00",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": "sector",
-        "why": "업황 정점 논란과 경쟁국 추격은 업종 구조와 닿아 있어 흐름을 지켜볼 만합니다.",
         "by": "ai"
       }
     ],
@@ -811,41 +811,6 @@
     "We’re about to get a huge read on whether earnings can keep propping up the stock market": "우리는 수입이 주식 시장을 계속 유지할 수 있는지에 대해 많은 것을 알게 될 것입니다."
   },
   "nvCache": {
-    "https://www.mk.co.kr/news/stock/12169038": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "단기 매매 동향 소식이라 장기 보유 판단과는 거리가 멉니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20261006069700008": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "업계 행사 안내 성격으로 기업 이익과 직접 연결되지 않습니다.",
-      "by": "ai"
-    },
-    "https://www.mk.co.kr/news/economy/12169058": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "특정인 보유 지분 가치 변동 소식으로, 회사의 장기 이익과는 직접 관련이 적습니다.",
-      "by": "ai"
-    },
-    "https://www.hankyung.com/article/202610064967i": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "자금 조달 방식 다변화 소식으로, 장기 수익 구조를 바꿀 내용은 아닙니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20261006087200008": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "금리 일중 등락은 늘 있는 일이라 장기 투자 근거와는 거리가 멉니다.",
-      "by": "ai"
-    },
     "https://www.yna.co.kr/view/AKR20261006090000008": {
       "act": "none",
       "lasting": "temporary",
@@ -2910,6 +2875,41 @@
       "scope": "sector",
       "why": "업종 주가 흐름을 전하는 기사로 오늘 할 일은 없습니다.",
       "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261012022900008": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "증권사 금리 전망 코멘트로, 기업 이익을 직접 바꾸지는 않습니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/2026101250426": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "분기 실적과 목표가 상향은 통상 가격에 빠르게 반영됩니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12173256": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "목표가 조정과 내년 전망일 뿐, 장기 사업 구조의 변화는 아닙니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261012023300008": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "sector",
+      "why": "업종 수요가 견조하다는 의견 제시로, 오늘 할 일은 없습니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/2026101249366": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "증권사의 실적 가시성 평가로, 투자 근거를 흔들 내용은 아닙니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2953,7 +2953,7 @@
       "2026-10-09": 1340.02,
       "2026-10-10": 1340.9,
       "2026-10-11": 1341.07,
-      "2026-10-12": 1341.29
+      "2026-10-12": 1338.88
     },
     "^GSPC": {
       "2026-09-30": 7651.54,
