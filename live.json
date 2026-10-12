@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-12T20:57:38.065Z",
+  "asOf": "2026-10-12T21:08:02.484Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-12T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1334,
+      "price": 1333.89,
       "prev": 1341.07,
-      "chg": -0.53,
+      "chg": -0.54,
       "prevDay": "2026-10-11",
       "basis": "prev-close-memo",
-      "time": "2026-10-12T20:57:17.000Z"
+      "time": "2026-10-12T21:05:56.000Z"
     },
     "^GSPC": {
       "price": 7807.24,
@@ -40,7 +40,7 @@
       "chg": -0.44,
       "prevDay": "2026-10-11",
       "basis": "prev-close-memo",
-      "time": "2026-10-12T20:57:26.000Z"
+      "time": "2026-10-12T21:07:51.000Z"
     },
     "^VIX": {
       "price": 15.21,
@@ -60,7 +60,7 @@
     }
   },
   "fx": {
-    "low52": 1334,
+    "low52": 1333.89,
     "high52": 1554.48,
     "pct": 0
   },
@@ -80,11 +80,11 @@
       "chg3m": 7.34
     },
     "KRW=X": {
-      "last": 1334,
-      "low52": 1334,
+      "last": 1333.89,
+      "low52": 1333.89,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -10.24
+      "chg3m": -10.25
     },
     "^GSPC": {
       "last": 7807.24,
@@ -366,14 +366,14 @@
   "news": {
     "kr": [
       {
-        "title": "제일엠앤에스, 유상증자…중소기업은행 등에 3자 배정",
-        "link": "https://www.yna.co.kr/view/AKR20261012171000008",
+        "title": "\"신용카드 위장가맹점 10여년간 1만6천명 적발…실적 감소세\"",
+        "link": "https://www.yna.co.kr/view/AKR20261012137600002",
         "source": "연합뉴스",
-        "date": "Mon, 12 Oct 2026 19:52:15 +0900",
-        "act": "watch",
+        "date": "Tue, 13 Oct 2026 05:59:42 +0900",
+        "act": "none",
         "lasting": "temporary",
-        "scope": "company",
-        "why": "제3자 배정 증자는 지분 희석 요인이지만, 규모와 사용처는 제목만으론 알 수 없어 확인이 필요합니다.",
+        "scope": "sector",
+        "why": "적발 실적 자체는 개별 기업 장기 이익과 직접 연결되기 어렵습니다.",
         "by": "ai"
       },
       {
@@ -399,14 +399,14 @@
         "by": "ai"
       },
       {
-        "title": "제이앤티지·데스틴파워, 코스닥 상장예비심사 통과",
-        "link": "https://www.yna.co.kr/view/AKR20261012164400008",
+        "title": "'레버리지 경고 놓친' 한은 금안국 직원들, 주식거래 53배로↑",
+        "link": "https://www.yna.co.kr/view/AKR20261012149300002",
         "source": "연합뉴스",
-        "date": "Mon, 12 Oct 2026 18:16:07 +0900",
+        "date": "Tue, 13 Oct 2026 05:53:00 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
-        "why": "신규 상장 절차 소식으로 기존 보유 종목 가치와는 거리가 멉니다.",
+        "scope": "market",
+        "why": "기관 내부 이슈로, 기업 이익 구조를 바꾸는 내용은 아닙니다.",
         "by": "ai"
       },
       {
@@ -811,20 +811,6 @@
     "Why Ciena, Lumentum and other optical stocks were among the market’s biggest losers on Monday": "월요일에 Ciena, Lumentum 및 기타 광학 주식이 시장에서 가장 큰 패자였던 이유"
   },
   "nvCache": {
-    "https://www.mk.co.kr/news/stock/12170205": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "해외 기관의 시각일 뿐, 기업의 10년 뒤 이익을 바꾸는 사실은 아닙니다.",
-      "by": "ai"
-    },
-    "https://www.mk.co.kr/news/stock/12170194": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "단기 매매 동향 소개로, 장기 투자 근거와는 관련이 없습니다.",
-      "by": "ai"
-    },
     "https://www.hankyung.com/article/2026100776866": {
       "act": "none",
       "lasting": "temporary",
@@ -2910,6 +2896,20 @@
       "scope": "sector",
       "why": "하루 주가 급락 소식으로, 업종의 장기 수익력 변화는 제목만으론 확인되지 않습니다.",
       "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261012137600002": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "sector",
+      "why": "적발 실적 자체는 개별 기업 장기 이익과 직접 연결되기 어렵습니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261012149300002": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "기관 내부 이슈로, 기업 이익 구조를 바꾸는 내용은 아닙니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2953,7 +2953,7 @@
       "2026-10-09": 1340.02,
       "2026-10-10": 1340.9,
       "2026-10-11": 1341.07,
-      "2026-10-12": 1334
+      "2026-10-12": 1333.89
     },
     "^GSPC": {
       "2026-10-01": 7666.45,
