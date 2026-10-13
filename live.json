@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-12T23:09:00.669Z",
+  "asOf": "2026-10-13T00:01:32.645Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-12T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1334.04,
+      "price": 1335.68,
       "prev": 1334.15,
-      "chg": -0.01,
+      "chg": 0.11,
       "prevDay": "2026-10-12",
       "basis": "prev-close-memo",
-      "time": "2026-10-12T23:08:45.000Z"
+      "time": "2026-10-13T00:01:16.000Z"
     },
     "^GSPC": {
       "price": 7807.24,
@@ -60,7 +60,7 @@
     }
   },
   "fx": {
-    "low52": 1334.08,
+    "low52": 1335.68,
     "high52": 1554.48,
     "pct": 0
   },
@@ -80,11 +80,11 @@
       "chg3m": 7.34
     },
     "KRW=X": {
-      "last": 1334.08,
-      "low52": 1334.08,
+      "last": 1335.68,
+      "low52": 1335.68,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -10.24
+      "chg3m": -10.13
     },
     "^GSPC": {
       "last": 7807.24,
@@ -366,69 +366,69 @@
   "news": {
     "kr": [
       {
-        "title": "\"신용카드 위장가맹점 10여년간 1만6천명 적발…실적 감소세\"",
-        "link": "https://www.yna.co.kr/view/AKR20261012137600002",
+        "title": "키움증권, 현대모비스 목표가↓ \"3분기 수익성 전망치 하회\"",
+        "link": "https://www.yna.co.kr/view/AKR20261013030800008",
         "source": "연합뉴스",
-        "date": "Tue, 13 Oct 2026 05:59:42 +0900",
+        "date": "Tue, 13 Oct 2026 08:50:02 +0900",
         "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "증권사 목표주가 조정은 분기 전망 변화로 장기 이익과는 거리가 있습니다.",
+        "by": "ai"
+      },
+      {
+        "title": "\"메모리 부족, 1년 내 완화…자금 조달이 가장 큰 문제\" 혹 탄의 작심 발언…반도체 급락 [김현석의 월스트리트나우]",
+        "link": "https://www.hankyung.com/article/202610137377i",
+        "source": "한국경제",
+        "date": "Tue, 13 Oct 2026 08:13:02 +0900",
+        "act": "watch",
         "lasting": "temporary",
         "scope": "sector",
-        "why": "적발 실적 자체는 개별 기업 장기 이익과 직접 연결되기 어렵습니다.",
+        "why": "메모리 수급과 자금 조달 전망은 업종 사이클 이슈라 흐름만 지켜보면 됩니다.",
         "by": "ai"
       },
       {
-        "title": "삼성 믿고 샀더니 대박 났다…바닥 찍고 77% 급등한 주식",
-        "link": "https://www.hankyung.com/article/202610126833i",
-        "source": "한국경제",
-        "date": "Tue, 13 Oct 2026 07:00:06 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "주가 급등 자체는 이익 구조 변화가 아니라 지나간 가격 이야기입니다.",
-        "by": "ai"
-      },
-      {
-        "title": "“주식 도대체 왜 떨어지는데요”…삼성전자 100조 실적도 못살리네",
-        "link": "https://www.mk.co.kr/news/stock/12173990",
+        "title": "반도체 주가에 새 도파민이 필요... 창신 뉴스에 삼전닉스 주가 하락하는 이유",
+        "link": "https://www.mk.co.kr/news/business/12174116",
         "source": "매일경제",
-        "date": "Mon, 12 Oct 2026 19:05:38 +09:00",
-        "act": "none",
+        "date": "Tue, 13 Oct 2026 08:55:25 +09:00",
+        "act": "watch",
         "lasting": "temporary",
-        "scope": "market",
-        "why": "실적과 주가가 엇갈린 단기 흐름일 뿐 구조 변화로 보기 어렵습니다.",
+        "scope": "sector",
+        "why": "경쟁사 뉴스에 따른 단기 주가 반응으로, 구조 변화인지는 아직 알기 어렵습니다.",
         "by": "ai"
       },
       {
-        "title": "'레버리지 경고 놓친' 한은 금안국 직원들, 주식거래 53배로↑",
-        "link": "https://www.yna.co.kr/view/AKR20261012149300002",
+        "title": "KB증권, CJ ENM 목표주가↓…\"업황 반등 가시화 제한적\"",
+        "link": "https://www.yna.co.kr/view/AKR20261013028100008",
         "source": "연합뉴스",
-        "date": "Tue, 13 Oct 2026 05:53:00 +0900",
+        "date": "Tue, 13 Oct 2026 08:35:04 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "업황 반등 시점에 대한 전망 조정일 뿐 투자 근거를 흔들진 않습니다.",
+        "by": "ai"
+      },
+      {
+        "title": "\"현대로템, 내년 실적 추정치 하향…목표가↓\"-한국",
+        "link": "https://www.hankyung.com/article/2026101376106",
+        "source": "한국경제",
+        "date": "Tue, 13 Oct 2026 08:02:30 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "내년 실적 추정치 조정은 흔한 일이며 10년 이익과는 별개입니다.",
+        "by": "ai"
+      },
+      {
+        "title": "‘국장 탈출 지능순’ 조소에도…“내년 코스피 12000 가능” [오늘 나온 보고서]",
+        "link": "https://www.mk.co.kr/news/stock/12174113",
+        "source": "매일경제",
+        "date": "Tue, 13 Oct 2026 08:52:32 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "기관 내부 이슈로, 기업 이익 구조를 바꾸는 내용은 아닙니다.",
-        "by": "ai"
-      },
-      {
-        "title": "솔리다임 IPO 바라보는 시각…\"주주 가치 훼손\" vs \"상장 필요\" [종목+]",
-        "link": "https://www.hankyung.com/article/2026101266056",
-        "source": "한국경제",
-        "date": "Tue, 13 Oct 2026 06:30:04 +0900",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": "company",
-        "why": "자회사 상장은 주주 가치 배분 구조와 얽힌 사안이라 진행 경과만 지켜보면 됩니다.",
-        "by": "ai"
-      },
-      {
-        "title": "고금리 버틴 금융·헬스케어 실적 줄줄이…14일 美CPI가 증시 향배 좌우 [동여의도 위클리]",
-        "link": "https://www.mk.co.kr/news/stock/12173980",
-        "source": "매일경제",
-        "date": "Mon, 12 Oct 2026 18:25:44 +09:00",
-        "act": "watch",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "물가지표 발표는 단기 변동 요인이라 지켜보는 정도면 충분합니다.",
+        "why": "지수 전망 보고서는 의견일 뿐, 오늘 할 일은 없습니다.",
         "by": "ai"
       }
     ],
@@ -811,48 +811,6 @@
     "Investors worry the bull market is getting old. But history shows it can continue to age gracefully.": "투자자들은 황소 시장이 늙어가고 있다고 우려합니다. 그러나 역사는 그것이 계속해서 우아하게 노화될 수 있음을 보여줍니다."
   },
   "nvCache": {
-    "https://www.yna.co.kr/view/AKR20261007093300002": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "중앙은행 내부 인사로 기업 이익과는 직접 관련이 적습니다.",
-      "by": "ai"
-    },
-    "https://www.hankyung.com/article/202610077796i": {
-      "act": "watch",
-      "lasting": "structural",
-      "scope": "sector",
-      "why": "실적과 주가가 따로 가는 배경에 규제 변수가 있어 흐름만 지켜볼 사안입니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20261007105100008": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "시장조성 계약 해지는 거래 제도상의 사안으로, 기업 이익과는 거리가 멉니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20261007106200008": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "제휴 발표 단계로 실제 수익 기여 규모는 아직 확인되지 않습니다.",
-      "by": "ai"
-    },
-    "https://www.cnbc.com/2026/10/07/india-rbi-interest-rates-inflation.html": {
-      "act": "watch",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "금리 인상은 물가에 따라 오가는 경기 흐름이라 당장 할 일은 없고 방향만 지켜보면 됩니다.",
-      "by": "ai"
-    },
-    "https://www.hankyung.com/article/2026100782486": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "성과급은 해마다 달라지는 비용 요인으로 장기 수익력을 바꾸진 않습니다.",
-      "by": "ai"
-    },
     "https://www.hankyung.com/article/202610078167i": {
       "act": "watch",
       "lasting": "structural",
@@ -2910,6 +2868,48 @@
       "scope": "market",
       "why": "시장 수명에 대한 해석 기사일 뿐, 기업 이익을 바꾸는 내용은 없습니다.",
       "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261013030800008": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "증권사 목표주가 조정은 분기 전망 변화로 장기 이익과는 거리가 있습니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/202610137377i": {
+      "act": "watch",
+      "lasting": "temporary",
+      "scope": "sector",
+      "why": "메모리 수급과 자금 조달 전망은 업종 사이클 이슈라 흐름만 지켜보면 됩니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/business/12174116": {
+      "act": "watch",
+      "lasting": "temporary",
+      "scope": "sector",
+      "why": "경쟁사 뉴스에 따른 단기 주가 반응으로, 구조 변화인지는 아직 알기 어렵습니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261013028100008": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "업황 반등 시점에 대한 전망 조정일 뿐 투자 근거를 흔들진 않습니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/2026101376106": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "내년 실적 추정치 조정은 흔한 일이며 10년 이익과는 별개입니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12174113": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "지수 전망 보고서는 의견일 뿐, 오늘 할 일은 없습니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2953,7 +2953,7 @@
       "2026-10-10": 1340.9,
       "2026-10-11": 1341.07,
       "2026-10-12": 1334.15,
-      "2026-10-13": 1334.04
+      "2026-10-13": 1335.68
     },
     "^GSPC": {
       "2026-10-01": 7666.45,
