@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-13T08:50:02.530Z",
+  "asOf": "2026-10-13T09:50:38.732Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-13T06:32:50.000Z"
     },
     "KRW=X": {
-      "price": 1339.69,
+      "price": 1338.94,
       "prev": 1334.15,
-      "chg": 0.42,
+      "chg": 0.36,
       "prevDay": "2026-10-12",
       "basis": "prev-close-memo",
-      "time": "2026-10-13T08:49:43.000Z"
+      "time": "2026-10-13T09:50:15.000Z"
     },
     "^GSPC": {
       "price": 7807.24,
@@ -43,12 +43,12 @@
       "time": "2026-10-12T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 15.39,
+      "price": 15.36,
       "prev": 15.210000038146973,
-      "chg": 1.18,
+      "chg": 0.99,
       "prevDay": "2026-10-12",
       "basis": "prev-close-bar",
-      "time": "2026-10-13T08:34:46.000Z"
+      "time": "2026-10-13T09:35:16.000Z"
     },
     "^TNX": {
       "price": 5.24,
@@ -60,9 +60,9 @@
     }
   },
   "fx": {
-    "low52": 1339.08,
+    "low52": 1338.94,
     "high52": 1554.48,
-    "pct": 0.003
+    "pct": 0
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": 5.42
     },
     "KRW=X": {
-      "last": 1339.69,
-      "low52": 1339.08,
+      "last": 1338.94,
+      "low52": 1338.94,
       "high52": 1554.48,
-      "pct52": 0.003,
-      "chg3m": -9.86
+      "pct52": 0,
+      "chg3m": -9.91
     },
     "^GSPC": {
       "last": 7807.24,
@@ -101,11 +101,11 @@
       "chg3m": 3.72
     },
     "^VIX": {
-      "last": 15.39,
+      "last": 15.36,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.109,
-      "chg3m": -18.01
+      "pct52": 0.108,
+      "chg3m": -18.17
     },
     "^TNX": {
       "last": 5.24,
@@ -366,69 +366,69 @@
   "news": {
     "kr": [
       {
-        "title": "국고채 금리, 코스피 급락·외인 매수에 이틀째 큰 폭 하락",
-        "link": "https://www.yna.co.kr/view/AKR20261013164900008",
+        "title": "진코스텍·멜콘, 코스닥 신규상장…오는 15일 거래 개시",
+        "link": "https://www.yna.co.kr/view/AKR20261013178400008",
         "source": "연합뉴스",
-        "date": "Tue, 13 Oct 2026 17:16:05 +0900",
+        "date": "Tue, 13 Oct 2026 18:15:43 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "금리와 수급의 단기 변동으로 장기 이익과는 거리가 있습니다.",
+        "why": "신규 상장 일정 안내로 장기 투자 판단에 영향이 적습니다.",
         "by": "ai"
       },
       {
-        "title": "KB증권, 반복 민원 AI로 해결…고객경험 신속 개선",
-        "link": "https://www.hankyung.com/article/2026101379641",
+        "title": "中 반도체에 휘청…코스피 수익률 '꼴찌'",
+        "link": "https://www.hankyung.com/article/2026101395801",
         "source": "한국경제",
-        "date": "Tue, 13 Oct 2026 16:37:09 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "업무 효율 개선 소식으로 투자 근거를 흔들 내용은 아닙니다.",
-        "by": "ai"
-      },
-      {
-        "title": "\"코스피 5000까지 밀릴 수도 … 당분간 美 주식 비중 늘릴만\"",
-        "link": "https://www.mk.co.kr/news/stock/12174776",
-        "source": "매일경제",
-        "date": "Tue, 13 Oct 2026 17:47:32 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "지수 전망과 비중 의견일 뿐 확인된 사실은 아닙니다.",
-        "by": "ai"
-      },
-      {
-        "title": "SK네트웍스 \"업스테이지 주식 200억원에 추가취득\"",
-        "link": "https://www.yna.co.kr/view/AKR20261013166000008",
-        "source": "연합뉴스",
-        "date": "Tue, 13 Oct 2026 17:15:41 +0900",
-        "act": "none",
-        "lasting": "structural",
-        "scope": "company",
-        "why": "지분 추가 취득은 사업 방향 변화지만 규모는 제한적입니다.",
-        "by": "ai"
-      },
-      {
-        "title": "완성차 부진에 환율 악재까지… 현대모비스 주가 눈높이 낮추는 증권사들",
-        "link": "https://www.hankyung.com/article/202610139163i",
-        "source": "한국경제",
-        "date": "Tue, 13 Oct 2026 16:37:05 +0900",
+        "date": "Tue, 13 Oct 2026 17:48:36 +0900",
         "act": "watch",
+        "lasting": "structural",
+        "scope": "sector",
+        "why": "해외 반도체 경쟁 구도 변화는 업종 수익성에 오래 영향을 줄 수 있습니다.",
+        "by": "ai"
+      },
+      {
+        "title": "삼전닉스 자사주 매입 끝나자 주가 와르르 … 코스피 사줄 사람이 없다 [머니닥터 시장진단]",
+        "link": "https://www.mk.co.kr/news/stock/12174815",
+        "source": "매일경제",
+        "date": "Tue, 13 Oct 2026 18:33:35 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "수급과 단기 주가 흐름 이야기로 기업 실적 구조와는 무관합니다.",
+        "by": "ai"
+      },
+      {
+        "title": "용인시장, 국토부 장관에 반도체클러스터 교통망 확충 요청",
+        "link": "https://www.yna.co.kr/view/AKR20261013171600061",
+        "source": "연합뉴스",
+        "date": "Tue, 13 Oct 2026 17:45:23 +0900",
+        "act": "none",
         "lasting": "temporary",
         "scope": "sector",
-        "why": "업황 부진과 환율은 반복되는 변수라 흐름만 지켜보면 됩니다.",
+        "why": "지자체의 인프라 요청 단계일 뿐 확정된 변화는 아닙니다.",
         "by": "ai"
       },
       {
-        "title": "반도체 기둥 쓰러지자 와르르 … 韓증시, 일본·대만 낙폭의 3배",
-        "link": "https://www.mk.co.kr/news/stock/12174775",
-        "source": "매일경제",
-        "date": "Tue, 13 Oct 2026 17:47:32 +09:00",
-        "act": "watch",
+        "title": "한번 빠지면 최소 4년…\"실적보다 모멘텀 필요\"",
+        "link": "https://www.hankyung.com/article/2026101395961",
+        "source": "한국경제",
+        "date": "Tue, 13 Oct 2026 17:38:08 +0900",
+        "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "하루 낙폭 비교일 뿐, 장기 이익 구조가 바뀐 건 아닙니다.",
+        "why": "시장 분위기에 대한 의견으로 투자 근거를 바꾸지 않습니다.",
+        "by": "ai"
+      },
+      {
+        "title": "[뉴스&분석] 中 반도체 쇼크에 … 6천피 턱걸이",
+        "link": "https://www.mk.co.kr/news/stock/12174799",
+        "source": "매일경제",
+        "date": "Tue, 13 Oct 2026 17:51:59 +09:00",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": "sector",
+        "why": "반도체 경쟁 환경 변화 여부는 업종 차원에서 지켜볼 만합니다.",
         "by": "ai"
       }
     ],
@@ -446,15 +446,15 @@
         "by": "ai"
       },
       {
-        "title": "The SpaceX threat could loom over AT&T’s stock for a prolonged stretch, analyst cautions",
-        "link": "https://www.marketwatch.com/story/the-spacex-threat-could-loom-over-at-ts-stock-for-a-prolonged-stretch-analyst-cautions-71436853?mod=mw_rss_topstories",
+        "title": "What to expect from Europe’s most valuable company before it kicks off tech earnings",
+        "link": "https://www.marketwatch.com/story/what-to-expect-from-europes-most-valuable-company-before-it-kicks-off-tech-earnings-a6272cc0?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Tue, 13 Oct 2026 00:18:00 GMT",
-        "ko": "분석가들은 스페이스X 위협이 AT&T의 재고를 장기간 장악할 수 있다고 경고했다.",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": "sector",
-        "why": "위성 통신이 기존 통신업 경쟁 구도를 바꿀 수 있어 흐름만 지켜볼 사안입니다.",
+        "date": "Tue, 13 Oct 2026 09:33:00 GMT",
+        "ko": "기술 수익을 창출하기 전에 유럽에서 가장 가치 있는 회사에서 기대할 수 있는 것",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "실적 발표 전 기대를 다룬 기사로, 장기 수익 구조를 바꾸는 내용은 아닙니다.",
         "by": "ai"
       },
       {
@@ -470,15 +470,15 @@
         "by": "ai"
       },
       {
-        "title": "Investors worry the bull market is getting old. But history shows it can continue to age gracefully.",
-        "link": "https://www.marketwatch.com/story/investors-worry-the-bull-market-is-getting-old-but-history-shows-it-can-continue-to-age-gracefully-0402e69c?mod=mw_rss_topstories",
+        "title": "The Korean stock market’s in freefall, and these are the reasons why",
+        "link": "https://www.marketwatch.com/story/the-korean-stock-markets-in-freefall-and-these-are-the-reasons-why-9615ac8d?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 12 Oct 2026 22:27:00 GMT",
-        "ko": "투자자들은 황소 시장이 늙어가고 있다고 우려합니다. 그러나 역사는 그것이 계속해서 우아하게 노화될 수 있음을 보여줍니다.",
+        "date": "Tue, 13 Oct 2026 09:03:00 GMT",
+        "ko": "한국 주식시장이 자유낙하하는 이유는 다음과 같습니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "시장 수명에 대한 해석 기사일 뿐, 기업 이익을 바꾸는 내용은 없습니다.",
+        "why": "시장 급락의 원인을 해설하는 기사로, 보유 이유를 흔드는 사실은 확인되지 않습니다.",
         "by": "ai"
       },
       {
@@ -494,23 +494,21 @@
         "by": "ai"
       },
       {
-        "title": "Brazilian stocks are breaking out as investors look for opportunities beyond tech",
-        "link": "https://www.marketwatch.com/story/brazilian-stocks-are-breaking-out-as-investors-look-for-opportunities-beyond-tech-7fbed032?mod=mw_rss_topstories",
+        "title": "The SpaceX threat could loom over AT&T’s stock for a prolonged stretch, analyst cautions",
+        "link": "https://www.marketwatch.com/story/the-spacex-threat-could-loom-over-at-ts-stock-for-a-prolonged-stretch-analyst-cautions-71436853?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 12 Oct 2026 22:00:00 GMT",
-        "ko": "투자자들이 기술 이상의 기회를 모색하면서 브라질 주식이 급등하고 있습니다.",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "특정 지역 증시의 단기 자금 흐름일 뿐, 보유 근거와는 무관합니다.",
+        "date": "Tue, 13 Oct 2026 00:18:00 GMT",
+        "ko": "분석가들은 스페이스X 위협이 AT&T의 재고를 장기간 장악할 수 있다고 경고했다.",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": "sector",
+        "why": "위성 통신이 기존 통신업 경쟁 구도를 바꿀 수 있어 흐름만 지켜볼 사안입니다.",
         "by": "ai"
       }
     ]
   },
   "newsBy": "ai",
   "trCache": {
-    "How to Play CrowdStrike Stock at All-Time Highs": "역대 최고 기록으로 CrowdStrike Stock을 플레이하는 방법",
-    "Here are the hidden flaws in Warsh’s new way of tracking inflation": "Warsh의 새로운 인플레이션 추적 방법의 숨겨진 결함은 다음과 같습니다.",
     "Softbank’s mega junk-bond deal shows capital for the AI race is getting more expensive": "소프트뱅크의 대규모 정크본드 거래는 인공지능 경쟁을 위한 자본이 점점 더 비싸지고 있음을 보여준다.",
     "Why CoreWeave’s beaten-down stock could be due for a major comeback": "CoreWeave의 패배한 주식이 대대적인 복귀로 이어질 수 있는 이유",
     "Financial stocks are falling as rates rise. Why that’s a problem for the broader market.": "금리가 상승함에 따라 금융주가 하락하고 있습니다. 이것이 더 넓은 시장의 문제인 이유입니다.",
@@ -808,65 +806,11 @@
     "Nvidia and AMD shares fall as new AI announcements fail to re-energize investors": "새로운 AI 발표가 투자자들의 활력을 되찾지 못하면서 엔비디아와 AMD 주식이 하락합니다.",
     "Investors worry the bull market is getting old. But history shows it can continue to age gracefully.": "투자자들은 황소 시장이 늙어가고 있다고 우려합니다. 그러나 역사는 그것이 계속해서 우아하게 노화될 수 있음을 보여줍니다.",
     "The SpaceX threat could loom over AT&T’s stock for a prolonged stretch, analyst cautions": "분석가들은 스페이스X 위협이 AT&T의 재고를 장기간 장악할 수 있다고 경고했다.",
-    "IMF warns bond yields could see a 'disorderly' spike as debt, inflation risks worsen": "IMF, 채권 수익률이 부채로 '무질서한' 급등세를 보일 수 있다고 경고, 인플레이션 위험 악화"
+    "IMF warns bond yields could see a 'disorderly' spike as debt, inflation risks worsen": "IMF, 채권 수익률이 부채로 '무질서한' 급등세를 보일 수 있다고 경고, 인플레이션 위험 악화",
+    "What to expect from Europe’s most valuable company before it kicks off tech earnings": "기술 수익을 창출하기 전에 유럽에서 가장 가치 있는 회사에서 기대할 수 있는 것",
+    "The Korean stock market’s in freefall, and these are the reasons why": "한국 주식시장이 자유낙하하는 이유는 다음과 같습니다."
   },
   "nvCache": {
-    "https://www.yna.co.kr/view/AKR20261008079700030": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "정기 채용 공고로 장기 이익과는 관련이 적은 일상적 소식입니다.",
-      "by": "ai"
-    },
-    "https://www.hankyung.com/article/202610080451i": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "단기 주가 급등 소식일 뿐 기업 이익 구조가 바뀐 근거는 없습니다.",
-      "by": "ai"
-    },
-    "https://www.hankyung.com/article/202610089558i": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "특정 종목의 단기 수급·주가 흐름 소개로 장기 판단 근거는 아닙니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20261008091000002": {
-      "act": "watch",
-      "lasting": "structural",
-      "scope": "company",
-      "why": "보험사 인수는 사업 구성을 바꾸는 변화라 진행 상황만 지켜보면 됩니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20261008092000008": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "금리 하루 등락은 시장 전반의 일상적 변동입니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20261008092600003": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "sector",
-      "why": "반도체 생태계 투자 소식이지만 실적 변화는 아직 확인되지 않습니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20261008093400008": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "지수 수급과 단기 변동 이야기로, 기업 이익 구조와는 무관합니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20261008101700008": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "펀드 판매 물량 추가 배정은 단기 영업 소식으로 장기 이익 구조와는 거리가 멉니다.",
-      "by": "ai"
-    },
     "https://www.yna.co.kr/view/AKR20261008121100008": {
       "act": "none",
       "lasting": "temporary",
@@ -2910,6 +2854,62 @@
       "scope": "market",
       "why": "하루 낙폭 비교일 뿐, 장기 이익 구조가 바뀐 건 아닙니다.",
       "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261013178400008": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "신규 상장 일정 안내로 장기 투자 판단에 영향이 적습니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/2026101395801": {
+      "act": "watch",
+      "lasting": "structural",
+      "scope": "sector",
+      "why": "해외 반도체 경쟁 구도 변화는 업종 수익성에 오래 영향을 줄 수 있습니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12174815": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "수급과 단기 주가 흐름 이야기로 기업 실적 구조와는 무관합니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261013171600061": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "sector",
+      "why": "지자체의 인프라 요청 단계일 뿐 확정된 변화는 아닙니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/2026101395961": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "시장 분위기에 대한 의견으로 투자 근거를 바꾸지 않습니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12174799": {
+      "act": "watch",
+      "lasting": "structural",
+      "scope": "sector",
+      "why": "반도체 경쟁 환경 변화 여부는 업종 차원에서 지켜볼 만합니다.",
+      "by": "ai"
+    },
+    "https://www.marketwatch.com/story/what-to-expect-from-europes-most-valuable-company-before-it-kicks-off-tech-earnings-a6272cc0?mod=mw_rss_topstories": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "실적 발표 전 기대를 다룬 기사로, 장기 수익 구조를 바꾸는 내용은 아닙니다.",
+      "by": "ai"
+    },
+    "https://www.marketwatch.com/story/the-korean-stock-markets-in-freefall-and-these-are-the-reasons-why-9615ac8d?mod=mw_rss_topstories": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "시장 급락의 원인을 해설하는 기사로, 보유 이유를 흔드는 사실은 확인되지 않습니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2953,7 +2953,7 @@
       "2026-10-10": 1340.9,
       "2026-10-11": 1341.07,
       "2026-10-12": 1334.15,
-      "2026-10-13": 1339.69
+      "2026-10-13": 1338.94
     },
     "^GSPC": {
       "2026-10-02": 7722.72,
@@ -2995,7 +2995,7 @@
       "2026-10-10": 14.84,
       "2026-10-11": 14.84,
       "2026-10-12": 15.21,
-      "2026-10-13": 15.39
+      "2026-10-13": 15.36
     },
     "^TNX": {
       "2026-10-02": 5.277,
