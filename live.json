@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-14T20:59:55.980Z",
+  "asOf": "2026-10-14T21:10:26.501Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-14T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1341.09,
+      "price": 1341.15,
       "prev": 1334.1300048828125,
-      "chg": 0.52,
+      "chg": 0.53,
       "prevDay": "2026-10-13",
       "basis": "prev-close-bar",
-      "time": "2026-10-14T20:59:41.000Z"
+      "time": "2026-10-14T21:08:28.000Z"
     },
     "^GSPC": {
       "price": 7718.94,
@@ -40,7 +40,7 @@
       "chg": -1.88,
       "prevDay": "2026-10-13",
       "basis": "prev-close-bar",
-      "time": "2026-10-14T20:59:49.000Z"
+      "time": "2026-10-14T21:10:15.000Z"
     },
     "^VIX": {
       "price": 16.87,
@@ -80,7 +80,7 @@
       "chg3m": 5.42
     },
     "KRW=X": {
-      "last": 1341.09,
+      "last": 1341.15,
       "low52": 1334.13,
       "high52": 1554.48,
       "pct52": 0.032,
@@ -366,14 +366,14 @@
   "news": {
     "kr": [
       {
-        "title": "신현송 한은 총재, 중·일 중앙은행 총재와 경제동향 논의",
-        "link": "https://www.yna.co.kr/view/AKR20261014176200002",
+        "title": "한은, 올해 법인카드 오사용 15건·274만원…\"관리·감독 강화\"",
+        "link": "https://www.yna.co.kr/view/AKR20261014175400002",
         "source": "연합뉴스",
-        "date": "Wed, 14 Oct 2026 20:00:01 +0900",
+        "date": "Thu, 15 Oct 2026 05:56:01 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "중앙은행 간 정례 논의 수준으로 기업 이익과 직접 연결되진 않습니다.",
+        "why": "기관 내부 관리 이슈로 기업 이익과는 무관한 단발성 소식입니다.",
         "by": "ai"
       },
       {
@@ -399,14 +399,14 @@
         "by": "ai"
       },
       {
-        "title": "휴맥스, 50억원 유상증자…주식회사 제이투비에 제3자배정",
-        "link": "https://www.yna.co.kr/view/AKR20261014163100008",
+        "title": "신현송 한은 총재, 중·일 중앙은행 총재와 경제동향 논의",
+        "link": "https://www.yna.co.kr/view/AKR20261014176200002",
         "source": "연합뉴스",
-        "date": "Wed, 14 Oct 2026 17:30:59 +0900",
-        "act": "watch",
+        "date": "Wed, 14 Oct 2026 20:00:01 +0900",
+        "act": "none",
         "lasting": "temporary",
-        "scope": "company",
-        "why": "제3자배정 증자는 지분 희석과 자금용도를 확인할 사안입니다.",
+        "scope": "market",
+        "why": "중앙은행 간 정례 논의 수준으로 기업 이익과 직접 연결되진 않습니다.",
         "by": "ai"
       },
       {
@@ -811,13 +811,6 @@
     "Meet the baby chasers — they’re transforming the housing market and solving the childcare crisis": "베이비 체이서를 만나보세요. 베이비 체이서는 주택 시장을 변화시키고 육아 위기를 해결하고 있습니다."
   },
   "nvCache": {
-    "https://www.hankyung.com/article/2026101145031": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "sector",
-      "why": "거래 위축에 따른 업종 주가 등락은 반복되는 일시적 흐름입니다.",
-      "by": "ai"
-    },
     "https://www.hankyung.com/article/2026101145051": {
       "act": "none",
       "lasting": "temporary",
@@ -2910,6 +2903,13 @@
       "scope": "sector",
       "why": "주거 수요 흐름을 다룬 트렌드 기사로, 당장 확인할 일은 없습니다.",
       "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261014175400002": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "기관 내부 관리 이슈로 기업 이익과는 무관한 단발성 소식입니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2953,7 +2953,7 @@
       "2026-10-11": 1341.07,
       "2026-10-12": 1334.15,
       "2026-10-13": 1341.13,
-      "2026-10-14": 1341.09
+      "2026-10-14": 1341.15
     },
     "^GSPC": {
       "2026-10-03": 7722.72,
