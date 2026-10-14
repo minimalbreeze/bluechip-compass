@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-14T00:02:00.041Z",
+  "asOf": "2026-10-14T00:12:25.316Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-13T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1340.28,
+      "price": 1338.18,
       "prev": 1334.1300048828125,
-      "chg": 0.46,
+      "chg": 0.3,
       "prevDay": "2026-10-13",
       "basis": "prev-close-bar",
-      "time": "2026-10-14T00:01:43.000Z"
+      "time": "2026-10-14T00:12:14.000Z"
     },
     "^GSPC": {
       "price": 7805.45,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1334.13,
     "high52": 1554.48,
-    "pct": 0.028
+    "pct": 0.018
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": 8.18
     },
     "KRW=X": {
-      "last": 1340.28,
+      "last": 1338.18,
       "low52": 1334.13,
       "high52": 1554.48,
-      "pct52": 0.028,
-      "chg3m": -9.89
+      "pct52": 0.018,
+      "chg3m": -10.03
     },
     "^GSPC": {
       "last": 7805.45,
@@ -366,14 +366,14 @@
   "news": {
     "kr": [
       {
-        "title": "이형일 \"반도체 다음은 서비스산업…입법 협조 요청드린다\"",
-        "link": "https://www.yna.co.kr/view/AKR20261014029000002",
+        "title": "전날 급락했던 코스피, 상승 출발…1%대 오름세",
+        "link": "https://www.yna.co.kr/view/AKR20261014037100008",
         "source": "연합뉴스",
-        "date": "Wed, 14 Oct 2026 08:38:42 +0900",
+        "date": "Wed, 14 Oct 2026 09:06:59 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "정책 협조 요청 단계로 아직 확정된 내용이 없습니다.",
+        "why": "하루 등락은 기업 이익과 무관한 단기 흐름입니다.",
         "by": "ai"
       },
       {
@@ -399,14 +399,14 @@
         "by": "ai"
       },
       {
-        "title": "유진투자증권, 현대오토에버 목표가↓…\"피지컬 AI 매출 지연\"",
-        "link": "https://www.yna.co.kr/view/AKR20261014028200008",
+        "title": "[게시판] NH농협은행 금융투자자문, 키움증권 영웅문S에서도 이용",
+        "link": "https://www.yna.co.kr/view/AKR20261014035100002",
         "source": "연합뉴스",
-        "date": "Wed, 14 Oct 2026 08:38:26 +0900",
+        "date": "Wed, 14 Oct 2026 09:06:06 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
-        "why": "증권사 목표가 조정은 전망 변경일 뿐 사업 근거를 흔들지 않습니다.",
+        "why": "서비스 채널 확대 소식으로 장기 이익 구조와는 거리가 있습니다.",
         "by": "ai"
       },
       {
@@ -811,20 +811,6 @@
     "Six Flags’ stock slumps near 17-year low after fatal incident": "식스플래그의 주가는 치명적인 사고 이후 17년 가까이 부진했다."
   },
   "nvCache": {
-    "https://www.marketwatch.com/story/french-bonds-are-suffering-through-its-worst-decade-since-1803-and-investors-are-bracing-for-more-pain-63df8fe7?mod=mw_rss_topstories": {
-      "act": "watch",
-      "lasting": "structural",
-      "scope": "market",
-      "why": "특정국 국채 부진은 장기 금리 환경 변화일 수 있어 흐름만 지켜보면 됩니다.",
-      "by": "ai"
-    },
-    "https://www.hankyung.com/article/2026100818961": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "분기 실적과 주가 전망 기사로, 장기 사업 구조가 바뀐 소식은 아닙니다.",
-      "by": "ai"
-    },
     "https://www.marketwatch.com/story/a-true-nuclear-renaissance-is-taking-shape-and-these-stocks-could-be-big-winners-e04f7364?mod=mw_rss_topstories": {
       "act": "none",
       "lasting": "structural",
@@ -2910,6 +2896,20 @@
       "scope": "market",
       "why": "지수 변동폭을 해석한 기사로 오늘 할 일은 없습니다.",
       "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261014037100008": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "하루 등락은 기업 이익과 무관한 단기 흐름입니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261014035100002": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "서비스 채널 확대 소식으로 장기 이익 구조와는 거리가 있습니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2953,7 +2953,7 @@
       "2026-10-11": 1341.07,
       "2026-10-12": 1334.15,
       "2026-10-13": 1341.13,
-      "2026-10-14": 1340.28
+      "2026-10-14": 1338.18
     },
     "^GSPC": {
       "2026-10-02": 7722.72,
