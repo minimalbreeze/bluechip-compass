@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-14T22:10:55.627Z",
+  "asOf": "2026-10-14T23:11:27.798Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-14T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1340.81,
-      "prev": 1334.1300048828125,
-      "chg": 0.5,
-      "prevDay": "2026-10-13",
+      "price": 1341.48,
+      "prev": 1340.31005859375,
+      "chg": 0.09,
+      "prevDay": "2026-10-14",
       "basis": "prev-close-bar",
-      "time": "2026-10-14T22:10:36.000Z"
+      "time": "2026-10-14T23:11:09.000Z"
     },
     "^GSPC": {
       "price": 7718.94,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1334.13,
     "high52": 1554.48,
-    "pct": 0.03
+    "pct": 0.033
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": 5.42
     },
     "KRW=X": {
-      "last": 1340.81,
+      "last": 1341.48,
       "low52": 1334.13,
       "high52": 1554.48,
-      "pct52": 0.03,
-      "chg3m": -9.1
+      "pct52": 0.033,
+      "chg3m": -9.05
     },
     "^GSPC": {
       "last": 7718.94,
@@ -366,6 +366,39 @@
   "news": {
     "kr": [
       {
+        "title": "[마켓뷰] 또 고개 든 AI 수익성 논란…설상가상 반도체주",
+        "link": "https://www.yna.co.kr/view/AKR20261015018100008",
+        "source": "연합뉴스",
+        "date": "Thu, 15 Oct 2026 07:57:29 +0900",
+        "act": "watch",
+        "lasting": "temporary",
+        "scope": "sector",
+        "why": "AI 수익성 논쟁은 반복되는 주제로, 업종 흐름만 지켜보면 됩니다.",
+        "by": "ai"
+      },
+      {
+        "title": "\"물린 주식 '존버' 판단은 손실 아닌 방향성\"…'00년생 운용역' 조언이",
+        "link": "https://www.hankyung.com/article/202610142432i",
+        "source": "한국경제",
+        "date": "Thu, 15 Oct 2026 07:30:02 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "개인 의견 소개일 뿐 기업 이익과는 무관합니다.",
+        "by": "ai"
+      },
+      {
+        "title": "판매 늘어도 원가 부담…“기아, 3분기 실적 기대치 밑돌 ”",
+        "link": "https://www.mk.co.kr/news/stock/12176365",
+        "source": "매일경제",
+        "date": "Thu, 15 Oct 2026 08:05:25 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "분기 실적 전망치 하회는 일시적 변동에 가깝습니다.",
+        "by": "ai"
+      },
+      {
         "title": "한은, 올해 법인카드 오사용 15건·274만원…\"관리·감독 강화\"",
         "link": "https://www.yna.co.kr/view/AKR20261014175400002",
         "source": "연합뉴스",
@@ -377,14 +410,14 @@
         "by": "ai"
       },
       {
-        "title": "\"먼작귀 팝콘통 웃돈 붙더니 주가도 쑥\"…2주만에 25% 뛰었다 [종목+]",
-        "link": "https://www.hankyung.com/article/2026101419406",
+        "title": "美 물가 충격에 3대 지수 하락…나스닥 1.9%↓ [뉴욕증시 브리핑]",
+        "link": "https://www.hankyung.com/article/2026101527736",
         "source": "한국경제",
-        "date": "Thu, 15 Oct 2026 06:30:10 +0900",
+        "date": "Thu, 15 Oct 2026 07:20:27 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
-        "why": "단기 인기 상품과 주가 급등 소식으로 장기 이익 구조와는 거리가 멉니다.",
+        "scope": "market",
+        "why": "하루 단위 지수 등락으로 장기 이익은 달라지지 않습니다.",
         "by": "ai"
       },
       {
@@ -396,39 +429,6 @@
         "lasting": "temporary",
         "scope": "market",
         "why": "해외 특정 시장으로의 단기 자금 이동 소식일 뿐, 기업 이익 구조와는 무관합니다.",
-        "by": "ai"
-      },
-      {
-        "title": "신현송 한은 총재, 중·일 중앙은행 총재와 경제동향 논의",
-        "link": "https://www.yna.co.kr/view/AKR20261014176200002",
-        "source": "연합뉴스",
-        "date": "Wed, 14 Oct 2026 20:00:01 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "중앙은행 간 정례 논의 수준으로 기업 이익과 직접 연결되진 않습니다.",
-        "by": "ai"
-      },
-      {
-        "title": "실적 공포에 줄줄이 꺾이는데…2차전지주 동반 강세 이유는 [분석+]",
-        "link": "https://www.hankyung.com/article/2026101420086",
-        "source": "한국경제",
-        "date": "Thu, 15 Oct 2026 06:30:07 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "sector",
-        "why": "업종 단기 수급 흐름 설명일 뿐 투자 근거를 바꾸는 내용은 아닙니다.",
-        "by": "ai"
-      },
-      {
-        "title": "에스원, 기존 자사주 전량소각·4500억 추가 매입",
-        "link": "https://www.mk.co.kr/news/stock/12176126",
-        "source": "매일경제",
-        "date": "Wed, 14 Oct 2026 20:21:16 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "주주환원 정책 발표로, 회사가 돈 버는 구조 자체가 달라진 일은 아닙니다.",
         "by": "ai"
       }
     ],
@@ -446,15 +446,15 @@
         "by": "ai"
       },
       {
-        "title": "CoreWeave’s AI bonds tumble, raising red flags for the wider market",
-        "link": "https://www.marketwatch.com/story/coreweave-sparks-worry-about-broader-credit-market-stress-as-its-bonds-tumble-887458e4?mod=mw_rss_topstories",
+        "title": "Rocket Lab’s stock slides as the company pushes back Neutron’s first launch",
+        "link": "https://www.marketwatch.com/story/rocket-labs-stock-slides-as-the-company-pushes-back-neutrons-first-launch-afd2932a?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Wed, 14 Oct 2026 22:03:00 GMT",
-        "ko": "CoreWeave의 인공지능 채권은 폭넓은 시장의 적신호를 불러일으키고 있습니다.",
+        "date": "Wed, 14 Oct 2026 22:33:00 GMT",
+        "ko": "회사가 Neutron의 첫 출시를 추진함에 따라 Rocket Lab의 재고 슬라이드",
         "act": "watch",
         "lasting": "temporary",
-        "scope": "market",
-        "why": "한 회사 채권 약세가 신용시장 불안 우려로 번지는지 지켜볼 만합니다.",
+        "scope": "company",
+        "why": "신규 발사체 일정은 중요하지만 주가 변동 자체는 단기 이슈입니다.",
         "by": "ai"
       },
       {
@@ -470,15 +470,15 @@
         "by": "ai"
       },
       {
-        "title": "From a record high to a 10% drop in just two months: Why small-cap stocks have unraveled so fast",
-        "link": "https://www.marketwatch.com/story/from-a-record-high-to-a-10-drop-in-just-two-months-why-small-cap-stocks-have-unraveled-so-fast-1cf0f4d5?mod=mw_rss_topstories",
+        "title": "You’re probably too invested in equities. Why a 60-40 portfolio is still the smart way to go.",
+        "link": "https://www.marketwatch.com/story/youre-probably-too-invested-in-equities-why-a-60-40-portfolio-is-still-the-smart-way-to-go-853daade?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Wed, 14 Oct 2026 21:54:00 GMT",
-        "ko": "단 두 달 만에 사상 최고치에서 10% 하락: 소자본 주식이 이렇게 빨리 풀린 이유",
+        "date": "Wed, 14 Oct 2026 22:25:00 GMT",
+        "ko": "당신은 아마도 주식에 너무 많이 투자했을 것입니다. 60-40 포트폴리오가 여전히 현명한 방법인 이유.",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "지수 조정은 흔한 변동이며 기업 이익 구조가 바뀐 신호는 아닙니다.",
+        "why": "자산배분에 관한 일반적 논평으로 오늘 할 일은 없습니다.",
         "by": "ai"
       },
       {
@@ -494,23 +494,21 @@
         "by": "ai"
       },
       {
-        "title": "Meet the baby chasers — they’re transforming the housing market and solving the childcare crisis",
-        "link": "https://www.marketwatch.com/story/meet-the-baby-chasers-theyre-transforming-the-housing-market-and-solving-the-childcare-crisis-574b5bcc?mod=mw_rss_topstories",
+        "title": "Your Social Security check will rise an average of $75 a month — will it be able to keep up with inflation?",
+        "link": "https://www.marketwatch.com/story/social-securitys-cola-will-be-3-6-in-2027-as-inflation-persists-f7c9dff2?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Wed, 14 Oct 2026 20:39:00 GMT",
-        "ko": "베이비 체이서를 만나보세요. 베이비 체이서는 주택 시장을 변화시키고 육아 위기를 해결하고 있습니다.",
+        "date": "Wed, 14 Oct 2026 22:24:00 GMT",
+        "ko": "귀하의 사회 보장 수표는 한 달에 평균 $75 상승합니다 — 인플레이션을 따라갈 수 있습니까?",
         "act": "none",
-        "lasting": "structural",
-        "scope": "sector",
-        "why": "주거 수요 흐름을 다룬 트렌드 기사로, 당장 확인할 일은 없습니다.",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "물가 연동 연금 조정 소식으로, 기업 이익 구조와는 거리가 멉니다.",
         "by": "ai"
       }
     ]
   },
   "newsBy": "ai",
   "trCache": {
-    "Is IDEX Corporation Stock Outperforming the S&P 500?": "IDEX Corporation 주식이 S&P 500을 능가합니까?",
-    "Is gridlock in Washington actually good for stocks? Here’s what historical market data says.": "워싱턴의 교착 상태가 실제로 주식에 좋은가요? 과거 시장 데이터는 다음과 같습니다.",
     "Is International Paper Stock Underperforming the Dow?": "국제 제지 재고가 다우지수를 밑도는가?",
     "Huawei Is Ramping Up to New Chips in 2027. What That Means for Nvidia Stock Now.": "화웨이는 2027년에 새로운 칩을 출시할 예정입니다. 지금 Nvidia Stock에 대한 의미.",
     "As Amazon Stock Prospers, Traders Might Consider This Option Play": "Amazon Stock Prospers로서 트레이더는 이 옵션 플레이를 고려할 수 있습니다.",
@@ -808,51 +806,11 @@
     "Why Dell’s stock was one of the S&P 500’s biggest laggards on Wednesday": "수요일에 Dell의 주식이 S&P 500의 가장 큰 후발주자 중 하나인 이유",
     "CoreWeave’s AI bonds tumble, raising red flags for the wider market": "CoreWeave의 인공지능 채권은 폭넓은 시장의 적신호를 불러일으키고 있습니다.",
     "Meet the baby chasers — they’re transforming the housing market and solving the childcare crisis": "베이비 체이서를 만나보세요. 베이비 체이서는 주택 시장을 변화시키고 육아 위기를 해결하고 있습니다.",
-    "From a record high to a 10% drop in just two months: Why small-cap stocks have unraveled so fast": "단 두 달 만에 사상 최고치에서 10% 하락: 소자본 주식이 이렇게 빨리 풀린 이유"
+    "From a record high to a 10% drop in just two months: Why small-cap stocks have unraveled so fast": "단 두 달 만에 사상 최고치에서 10% 하락: 소자본 주식이 이렇게 빨리 풀린 이유",
+    "Rocket Lab’s stock slides as the company pushes back Neutron’s first launch": "회사가 Neutron의 첫 출시를 추진함에 따라 Rocket Lab의 재고 슬라이드",
+    "You’re probably too invested in equities. Why a 60-40 portfolio is still the smart way to go.": "당신은 아마도 주식에 너무 많이 투자했을 것입니다. 60-40 포트폴리오가 여전히 현명한 방법인 이유."
   },
   "nvCache": {
-    "https://www.marketwatch.com/story/bank-earnings-to-shed-the-first-light-on-how-higher-yields-are-affecting-the-economy-cf3763ef?mod=mw_rss_topstories": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "sector",
-      "why": "분기 실적 발표 예고일 뿐, 장기 수익 구조를 바꾸는 내용은 아직 없습니다.",
-      "by": "ai"
-    },
-    "https://www.marketwatch.com/story/the-bull-market-is-turning-4-years-old-but-yields-could-crash-the-party-1305fe6c?mod=mw_rss_topstories": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "시장 전반의 흐름을 해석한 논평으로, 기업 이익 구조를 바꾸는 소식은 아닙니다.",
-      "by": "ai"
-    },
-    "https://www.marketwatch.com/story/were-about-to-get-a-huge-read-on-whether-earnings-can-keep-propping-up-the-stock-market-459b565b?mod=mw_rss_topstories": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "실적 시즌 전망을 다룬 일반적 논평으로, 당장 확인할 사실은 없습니다.",
-      "by": "ai"
-    },
-    "https://www.mk.co.kr/news/stock/12173055": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "실적 발표와 물가지표는 반복되는 단기 이벤트로, 장기 이익 구조와는 거리가 멉니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20261011036100003": {
-      "act": "none",
-      "lasting": "structural",
-      "scope": "sector",
-      "why": "국가산단 조성은 장기 과제로 당장 개별 기업 이익에 미치는 영향은 불확실합니다.",
-      "by": "ai"
-    },
-    "https://www.mk.co.kr/news/stock/12173229": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "투자자 심리와 자금 흐름을 다룬 기사로 기업 이익과는 무관합니다.",
-      "by": "ai"
-    },
     "https://www.yna.co.kr/view/AKR20261011034500001": {
       "act": "none",
       "lasting": "temporary",
@@ -2910,6 +2868,48 @@
       "scope": "market",
       "why": "지수 조정은 흔한 변동이며 기업 이익 구조가 바뀐 신호는 아닙니다.",
       "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261015018100008": {
+      "act": "watch",
+      "lasting": "temporary",
+      "scope": "sector",
+      "why": "AI 수익성 논쟁은 반복되는 주제로, 업종 흐름만 지켜보면 됩니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/202610142432i": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "개인 의견 소개일 뿐 기업 이익과는 무관합니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12176365": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "분기 실적 전망치 하회는 일시적 변동에 가깝습니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/2026101527736": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "하루 단위 지수 등락으로 장기 이익은 달라지지 않습니다.",
+      "by": "ai"
+    },
+    "https://www.marketwatch.com/story/rocket-labs-stock-slides-as-the-company-pushes-back-neutrons-first-launch-afd2932a?mod=mw_rss_topstories": {
+      "act": "watch",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "신규 발사체 일정은 중요하지만 주가 변동 자체는 단기 이슈입니다.",
+      "by": "ai"
+    },
+    "https://www.marketwatch.com/story/youre-probably-too-invested-in-equities-why-a-60-40-portfolio-is-still-the-smart-way-to-go-853daade?mod=mw_rss_topstories": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "자산배분에 관한 일반적 논평으로 오늘 할 일은 없습니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2942,7 +2942,6 @@
       "2026-10-15": 823.88
     },
     "KRW=X": {
-      "2026-10-03": 1342.51,
       "2026-10-04": 1342.9,
       "2026-10-05": 1342.07,
       "2026-10-06": 1336.82,
@@ -2953,7 +2952,8 @@
       "2026-10-11": 1341.07,
       "2026-10-12": 1334.15,
       "2026-10-13": 1341.13,
-      "2026-10-14": 1340.81
+      "2026-10-14": 1340.81,
+      "2026-10-15": 1341.48
     },
     "^GSPC": {
       "2026-10-03": 7722.72,
