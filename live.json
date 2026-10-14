@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-14T07:49:20.108Z",
+  "asOf": "2026-10-14T08:49:44.547Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-14T06:33:00.000Z"
     },
     "KRW=X": {
-      "price": 1334.58,
+      "price": 1335.43,
       "prev": 1334.1300048828125,
-      "chg": 0.03,
+      "chg": 0.1,
       "prevDay": "2026-10-13",
       "basis": "prev-close-bar",
-      "time": "2026-10-14T07:49:07.000Z"
+      "time": "2026-10-14T08:49:32.000Z"
     },
     "^GSPC": {
       "price": 7805.45,
@@ -43,12 +43,12 @@
       "time": "2026-10-13T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 15.21,
+      "price": 15.18,
       "prev": 15.270000457763672,
-      "chg": -0.39,
+      "chg": -0.59,
       "prevDay": "2026-10-13",
       "basis": "prev-close-bar",
-      "time": "2026-10-14T07:34:01.000Z"
+      "time": "2026-10-14T08:34:31.000Z"
     },
     "^TNX": {
       "price": 5.217,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1334.13,
     "high52": 1554.48,
-    "pct": 0.002
+    "pct": 0.006
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -1.62
     },
     "KRW=X": {
-      "last": 1334.58,
+      "last": 1335.43,
       "low52": 1334.13,
       "high52": 1554.48,
-      "pct52": 0.002,
-      "chg3m": -10.27
+      "pct52": 0.006,
+      "chg3m": -10.22
     },
     "^GSPC": {
       "last": 7805.45,
@@ -101,11 +101,11 @@
       "chg3m": 5.11
     },
     "^VIX": {
-      "last": 15.21,
+      "last": 15.18,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.099,
-      "chg3m": -18.45
+      "pct52": 0.097,
+      "chg3m": -18.61
     },
     "^TNX": {
       "last": 5.22,
@@ -366,14 +366,14 @@
   "news": {
     "kr": [
       {
-        "title": "국고채 금리 일제히 상승…3년물 연 3.883%",
-        "link": "https://www.yna.co.kr/view/AKR20261014154900008",
+        "title": "휴맥스, 50억원 유상증자…주식회사 제이투비에 제3자배정",
+        "link": "https://www.yna.co.kr/view/AKR20261014163100008",
         "source": "연합뉴스",
-        "date": "Wed, 14 Oct 2026 16:40:15 +0900",
+        "date": "Wed, 14 Oct 2026 17:30:59 +0900",
         "act": "watch",
         "lasting": "temporary",
-        "scope": "market",
-        "why": "금리 변동은 시장 전반에 영향을 주지만 하루 움직임은 일상적입니다.",
+        "scope": "company",
+        "why": "제3자배정 증자는 지분 희석과 자금용도를 확인할 사안입니다.",
         "by": "ai"
       },
       {
@@ -388,25 +388,25 @@
         "by": "ai"
       },
       {
-        "title": "“지수·수급·이슈 한눈에”…토스증권, AI 투자정보 서비스 강화",
-        "link": "https://www.mk.co.kr/news/stock/12175720",
+        "title": "\"美보다 기대수익 높은 日증시 주목하라\"",
+        "link": "https://www.mk.co.kr/news/stock/12176012",
         "source": "매일경제",
-        "date": "Wed, 14 Oct 2026 16:04:17 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "개별 증권사의 서비스 개편 소식으로 장기 판단과는 거리가 있습니다.",
-        "by": "ai"
-      },
-      {
-        "title": "코스피, 반등 실패…6거래일 연속 내리며 '6천피' 턱걸이(종합)",
-        "link": "https://www.yna.co.kr/view/AKR20261014138351008",
-        "source": "연합뉴스",
-        "date": "Wed, 14 Oct 2026 16:36:11 +0900",
+        "date": "Wed, 14 Oct 2026 17:45:25 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "연속 하락은 흔한 지수 등락이며 오늘 할 일은 없습니다.",
+        "why": "해외 증시 전망 의견일 뿐 보유 근거를 바꾸지 않습니다.",
+        "by": "ai"
+      },
+      {
+        "title": "국고채 금리, 사흘만에 상승…美 물가 발표 앞두고 숨고르기(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261014154951008",
+        "source": "연합뉴스",
+        "date": "Wed, 14 Oct 2026 16:52:14 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "금리 일간 등락은 흔한 일로 장기 투자와 무관합니다.",
         "by": "ai"
       },
       {
@@ -421,14 +421,14 @@
         "by": "ai"
       },
       {
-        "title": "CXMT 쇼크 하루만에 태세 전환… 삼전닉스 다시 담고 소부장 던졌다 [주식 초고수는 지금]",
-        "link": "https://www.mk.co.kr/news/stock/12175646",
+        "title": "창구서 계좌 개설땐 수수료 13배 … 증권사 차등부과 관행 손본다",
+        "link": "https://www.mk.co.kr/news/stock/12176005",
         "source": "매일경제",
-        "date": "Wed, 14 Oct 2026 15:17:29 +09:00",
+        "date": "Wed, 14 Oct 2026 17:44:38 +09:00",
         "act": "none",
-        "lasting": "temporary",
+        "lasting": "structural",
         "scope": "sector",
-        "why": "하루 단위 매매 동향일 뿐, 업종의 구조가 바뀐 소식은 아닙니다.",
+        "why": "수수료 관행 개선은 업종 제도 변화지만 당장 할 일은 없습니다.",
         "by": "ai"
       }
     ],
@@ -811,34 +811,6 @@
     "'Godzilla El Niño' is wreaking havoc with Philippine central bank's inflation forecasts": "'고질라 엘니뇨' 는 필리핀 중앙은행의 인플레이션 예측으로 혼란을 겪고 있다."
   },
   "nvCache": {
-    "https://www.hankyung.com/article/2026100928971": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "특정 기간 수익률 비교일 뿐, 장기 투자 근거를 바꾸지 않습니다.",
-      "by": "ai"
-    },
-    "https://www.mk.co.kr/news/stock/12172657": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "단기 자금이 몰리는 테마 변화로, 기업 이익과는 별개입니다.",
-      "by": "ai"
-    },
-    "https://www.hankyung.com/article/2026100804296": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "구체적 근거 없는 전망성 경고라 오늘 할 일은 없습니다.",
-      "by": "ai"
-    },
-    "https://www.marketwatch.com/story/i-feel-like-a-loser-my-etfs-go-up-one-day-and-crash-the-next-is-this-a-bad-sign-0c9848b2?mod=mw_rss_topstories": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "시장 변동에 대한 심리 기사로, 기업 이익과는 무관합니다.",
-      "by": "ai"
-    },
     "https://www.hankyung.com/article/2026100813616": {
       "act": "none",
       "lasting": "temporary",
@@ -2910,6 +2882,34 @@
       "scope": "company",
       "why": "단기 주가 급등 소식으로 10년 뒤 이익을 말해주지는 않습니다.",
       "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261014163100008": {
+      "act": "watch",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "제3자배정 증자는 지분 희석과 자금용도를 확인할 사안입니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12176012": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "해외 증시 전망 의견일 뿐 보유 근거를 바꾸지 않습니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261014154951008": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "금리 일간 등락은 흔한 일로 장기 투자와 무관합니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12176005": {
+      "act": "none",
+      "lasting": "structural",
+      "scope": "sector",
+      "why": "수수료 관행 개선은 업종 제도 변화지만 당장 할 일은 없습니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2953,7 +2953,7 @@
       "2026-10-11": 1341.07,
       "2026-10-12": 1334.15,
       "2026-10-13": 1341.13,
-      "2026-10-14": 1334.58
+      "2026-10-14": 1335.43
     },
     "^GSPC": {
       "2026-10-03": 7722.72,
@@ -2995,7 +2995,7 @@
       "2026-10-11": 14.84,
       "2026-10-12": 15.21,
       "2026-10-13": 15.27,
-      "2026-10-14": 15.21
+      "2026-10-14": 15.18
     },
     "^TNX": {
       "2026-10-03": 5.277,
