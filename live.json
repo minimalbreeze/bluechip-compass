@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-15T07:48:48.798Z",
+  "asOf": "2026-10-15T08:49:20.829Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-15T06:33:00.000Z"
     },
     "KRW=X": {
-      "price": 1343.33,
+      "price": 1344.98,
       "prev": 1340.31005859375,
-      "chg": 0.23,
+      "chg": 0.35,
       "prevDay": "2026-10-14",
       "basis": "prev-close-bar",
-      "time": "2026-10-15T07:48:23.000Z"
+      "time": "2026-10-15T08:49:02.000Z"
     },
     "^GSPC": {
       "price": 7718.94,
@@ -48,7 +48,7 @@
       "chg": 3.68,
       "prevDay": "2026-10-14",
       "basis": "prev-close-bar",
-      "time": "2026-10-15T07:33:31.000Z"
+      "time": "2026-10-15T08:34:01.000Z"
     },
     "^TNX": {
       "price": 5.19,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1334.13,
     "high52": 1554.48,
-    "pct": 0.041
+    "pct": 0.049
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -4.82
     },
     "KRW=X": {
-      "last": 1343.13,
+      "last": 1344.98,
       "low52": 1334.13,
       "high52": 1554.48,
-      "pct52": 0.041,
-      "chg3m": -8.94
+      "pct52": 0.049,
+      "chg3m": -8.82
     },
     "^GSPC": {
       "last": 7718.94,
@@ -105,7 +105,7 @@
       "low52": 13.47,
       "high52": 31.05,
       "pct52": 0.229,
-      "chg3m": -6.22
+      "chg3m": 2.58
     },
     "^TNX": {
       "last": 5.19,
@@ -366,69 +366,69 @@
   "news": {
     "kr": [
       {
-        "title": "\"지역 농축협 연체액 21조원 육박…외국인 연체금도 11배 급증\"(종합)",
-        "link": "https://www.yna.co.kr/view/AKR20261015061251030",
+        "title": "캠코, 공공기관 국유재산 매매 엇박자에 \"시스템 정비\"(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261015134551002",
         "source": "연합뉴스",
-        "date": "Thu, 15 Oct 2026 16:40:50 +0900",
+        "date": "Thu, 15 Oct 2026 17:33:11 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "공공 자산 관리 행정 이슈로 기업 이익과 직접 관련이 적습니다.",
+        "by": "ai"
+      },
+      {
+        "title": "AI 투자 수익성 의문에 코스피 '폭락'…4월 수준까지 후퇴",
+        "link": "https://www.hankyung.com/article/202610154356i",
+        "source": "한국경제",
+        "date": "Thu, 15 Oct 2026 16:43:40 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "지수 하루 급락은 흔한 변동으로 투자 근거를 바꾸진 않습니다.",
+        "by": "ai"
+      },
+      {
+        "title": "물가·AI공포 겹악재…5600 무너진 코스피",
+        "link": "https://www.mk.co.kr/news/stock/12177086",
+        "source": "매일경제",
+        "date": "Thu, 15 Oct 2026 17:46:54 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "물가와 투자심리에 따른 지수 등락은 반복되는 일입니다.",
+        "by": "ai"
+      },
+      {
+        "title": "\"채권대차시장 203조원…외인보유 국채, 담보 활용 방안 관심↑\"",
+        "link": "https://www.yna.co.kr/view/AKR20261015157200008",
+        "source": "연합뉴스",
+        "date": "Thu, 15 Oct 2026 17:32:31 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "채권 담보 제도 논의 단계로 제목만으로는 영향 파악이 어렵습니다.",
+        "by": "ai"
+      },
+      {
+        "title": "\"금리·AI 수익성 의구심·수급 공백 겹쳐, 투매보단 관망·분할매수\" [전문가 긴급진단 전문]",
+        "link": "https://www.hankyung.com/article/202610154379i",
+        "source": "한국경제",
+        "date": "Thu, 15 Oct 2026 16:43:14 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "전문가 시황 코멘트일 뿐 기업 실적을 바꾸는 소식은 아닙니다.",
+        "by": "ai"
+      },
+      {
+        "title": "'AI 빚잔치' 도미노…美 코어위브 15% 폭락에 亞증시 패닉",
+        "link": "https://www.mk.co.kr/news/stock/12177059",
+        "source": "매일경제",
+        "date": "Thu, 15 Oct 2026 17:40:04 +09:00",
         "act": "watch",
-        "lasting": "structural",
+        "lasting": "temporary",
         "scope": "sector",
-        "why": "상호금융 연체 누적은 업종 건전성 흐름이라 추세를 지켜볼 만합니다.",
-        "by": "ai"
-      },
-      {
-        "title": "증시 또 '검은 목요일'…코스피·코스닥 7% 넘게 폭락",
-        "link": "https://www.hankyung.com/article/2026101543276",
-        "source": "한국경제",
-        "date": "Thu, 15 Oct 2026 15:49:44 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "하루 급락은 가격 변동일 뿐 기업 이익 구조를 바꾸지는 않습니다.",
-        "by": "ai"
-      },
-      {
-        "title": "SK하이닉스 줍줍…삼성전자는 던졌다 [주식 초고수는 지금]",
-        "link": "https://www.mk.co.kr/news/stock/12176835",
-        "source": "매일경제",
-        "date": "Thu, 15 Oct 2026 16:12:22 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "단기 매매 동향 소개라 장기 투자 근거와는 무관합니다.",
-        "by": "ai"
-      },
-      {
-        "title": "국고채 금리 일제히 하락…3년물 연 3.867%",
-        "link": "https://www.yna.co.kr/view/AKR20261015150300008",
-        "source": "연합뉴스",
-        "date": "Thu, 15 Oct 2026 16:40:49 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "금리 일변동은 수시로 오르내리는 일상적인 시장 지표입니다.",
-        "by": "ai"
-      },
-      {
-        "title": "급락장에 휩쓸린 새내기주…멜콘·진코스텍 상장 첫날 '롤러코스터'",
-        "link": "https://www.hankyung.com/article/202610154326i",
-        "source": "한국경제",
-        "date": "Thu, 15 Oct 2026 15:34:36 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "신규 상장 첫날 변동성은 단기 수급 현상에 가깝습니다.",
-        "by": "ai"
-      },
-      {
-        "title": "코스피·코스닥 7%대 급락 마감, 양 시장 서킷 발동",
-        "link": "https://www.mk.co.kr/news/stock/12176820",
-        "source": "매일경제",
-        "date": "Thu, 15 Oct 2026 16:03:55 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "서킷브레이커는 변동성 대응 장치일 뿐 구조 변화는 아닙니다.",
+        "why": "AI 투자 자금조달 방식에 의문이 번지는지 흐름만 지켜보면 됩니다.",
         "by": "ai"
       }
     ],
@@ -811,48 +811,6 @@
     "The AI trade is splintering as inflation fears rattle hyped-up tech stocks": "인플레이션이 덜컹거리는 기술 주가를 우려하면서 AI 거래가 쪼개지고 있다."
   },
   "nvCache": {
-    "https://www.marketwatch.com/story/heres-why-goldman-sachs-just-flipped-bullish-on-stocks-for-the-rest-of-the-year-dfa3b0af?mod=mw_rss_topstories": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "하반기 전망 의견으로, 투자 근거를 바꿀 사실은 아닙니다.",
-      "by": "ai"
-    },
-    "https://www.hankyung.com/article/2026101269401": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "개별 주가 등락을 설명하는 기사로 장기 이익과는 거리가 멉니다.",
-      "by": "ai"
-    },
-    "https://www.mk.co.kr/news/stock/12173990": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "실적과 주가가 엇갈린 단기 흐름일 뿐 구조 변화로 보기 어렵습니다.",
-      "by": "ai"
-    },
-    "https://www.cnbc.com/2026/10/12/india-inflation-oil-energy-iran-war.html": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "물가 지표는 매달 변동하는 수치라 장기 이익과는 거리가 멉니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20261012171000008": {
-      "act": "watch",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "제3자 배정 증자는 지분 희석 요인이지만, 규모와 사용처는 제목만으론 알 수 없어 확인이 필요합니다.",
-      "by": "ai"
-    },
-    "https://www.marketwatch.com/story/this-five-star-money-manager-shares-three-stock-picks-including-one-betting-on-dying-american-malls-9253a787?mod=mw_rss_topstories": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "특정 운용역의 종목 의견일 뿐 기업 이익 구조와는 무관합니다.",
-      "by": "ai"
-    },
     "https://www.marketwatch.com/story/mired-in-their-worst-losing-streak-in-years-small-caps-could-be-the-best-way-for-investors-to-play-crucial-cpi-data-40e2f716?mod=mw_rss_topstories": {
       "act": "none",
       "lasting": "temporary",
@@ -2910,6 +2868,48 @@
       "scope": "market",
       "why": "서킷브레이커는 변동성 대응 장치일 뿐 구조 변화는 아닙니다.",
       "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261015134551002": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "공공 자산 관리 행정 이슈로 기업 이익과 직접 관련이 적습니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/202610154356i": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "지수 하루 급락은 흔한 변동으로 투자 근거를 바꾸진 않습니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12177086": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "물가와 투자심리에 따른 지수 등락은 반복되는 일입니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261015157200008": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "채권 담보 제도 논의 단계로 제목만으로는 영향 파악이 어렵습니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/202610154379i": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "전문가 시황 코멘트일 뿐 기업 실적을 바꾸는 소식은 아닙니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12177059": {
+      "act": "watch",
+      "lasting": "temporary",
+      "scope": "sector",
+      "why": "AI 투자 자금조달 방식에 의문이 번지는지 흐름만 지켜보면 됩니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2953,7 +2953,7 @@
       "2026-10-12": 1334.15,
       "2026-10-13": 1341.13,
       "2026-10-14": 1340.81,
-      "2026-10-15": 1343.33
+      "2026-10-15": 1344.98
     },
     "^GSPC": {
       "2026-10-04": 7722.72,
