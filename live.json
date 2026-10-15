@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-15T04:02:03.104Z",
+  "asOf": "2026-10-15T04:12:25.332Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -8,7 +8,7 @@
       "chg": -8.02,
       "prevDay": "2026-10-14",
       "basis": "prev-close-bar",
-      "time": "2026-10-15T03:41:50.000Z"
+      "time": "2026-10-15T03:52:10.000Z"
     },
     "^KQ11": {
       "price": 757.81,
@@ -16,15 +16,15 @@
       "chg": -8.02,
       "prevDay": "2026-10-14",
       "basis": "prev-close-bar",
-      "time": "2026-10-15T03:41:50.000Z"
+      "time": "2026-10-15T03:52:10.000Z"
     },
     "KRW=X": {
-      "price": 1347.73,
+      "price": 1349.58,
       "prev": 1340.31005859375,
-      "chg": 0.55,
+      "chg": 0.69,
       "prevDay": "2026-10-14",
       "basis": "prev-close-bar",
-      "time": "2026-10-15T04:01:50.000Z"
+      "time": "2026-10-15T04:12:15.000Z"
     },
     "^GSPC": {
       "price": 7718.94,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1334.13,
     "high52": 1554.48,
-    "pct": 0.062
+    "pct": 0.07
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -5.2
     },
     "KRW=X": {
-      "last": 1347.73,
+      "last": 1349.58,
       "low52": 1334.13,
       "high52": 1554.48,
-      "pct52": 0.062,
-      "chg3m": -8.63
+      "pct52": 0.07,
+      "chg3m": -8.5
     },
     "^GSPC": {
       "last": 7718.94,
@@ -366,14 +366,14 @@
   "news": {
     "kr": [
       {
-        "title": "소진공 \"홈플러스 입점업체 긴급자금 금리 인하 적극 협의\"",
-        "link": "https://www.yna.co.kr/view/AKR20261015094500030",
+        "title": "중소기업 청년 \"임금격차 줄이는 것 넘어 청약·주거지원 필요\"",
+        "link": "https://www.yna.co.kr/view/AKR20261015086100530",
         "source": "연합뉴스",
-        "date": "Thu, 15 Oct 2026 12:56:45 +0900",
+        "date": "Thu, 15 Oct 2026 13:00:01 +0900",
         "act": "none",
-        "lasting": "temporary",
-        "scope": "sector",
-        "why": "특정 업체 사태에 따른 한시적 지원 협의라 장기 이익과는 거리가 멉니다.",
+        "lasting": "structural",
+        "scope": "market",
+        "why": "정책 제안 단계라 기업 이익에 직접 영향은 아직 불분명합니다.",
         "by": "ai"
       },
       {
@@ -399,14 +399,14 @@
         "by": "ai"
       },
       {
-        "title": "코스피·코스닥 1단계 서킷브레이커 발동…8% 넘게 폭락(종합)",
-        "link": "https://www.yna.co.kr/view/AKR20261015093551008",
+        "title": "[속보] 코스닥 이어 코스피도 거래재개…서킷브레이커 해제",
+        "link": "https://www.yna.co.kr/view/AKR20261015095300008",
         "source": "연합뉴스",
-        "date": "Thu, 15 Oct 2026 12:45:26 +0900",
-        "act": "watch",
+        "date": "Thu, 15 Oct 2026 12:59:04 +0900",
+        "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "하루 변동성 사건이며, 기업 이익 구조가 바뀐 증거는 아직 없습니다.",
+        "why": "거래 재개는 당일 변동성 사건으로 기업 가치와는 별개입니다.",
         "by": "ai"
       },
       {
@@ -811,20 +811,6 @@
     "The AI trade is splintering as inflation fears rattle hyped-up tech stocks": "인플레이션이 덜컹거리는 기술 주가를 우려하면서 AI 거래가 쪼개지고 있다."
   },
   "nvCache": {
-    "https://www.yna.co.kr/view/AKR20261012110500002": {
-      "act": "watch",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "금리 방향 언급은 시장 전반에 영향이지만 원론적 발언 수준입니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20261012108600002": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "예산의 성장·물가 영향 추정치로, 기업 이익 구조를 바꾸지는 않습니다.",
-      "by": "ai"
-    },
     "https://www.yna.co.kr/view/AKR20261012110700008": {
       "act": "none",
       "lasting": "temporary",
@@ -2910,6 +2896,20 @@
       "scope": "company",
       "why": "제재 금액이 크지 않은 일회성 사안으로, 사업 구조가 바뀌는 일은 아닙니다.",
       "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261015086100530": {
+      "act": "none",
+      "lasting": "structural",
+      "scope": "market",
+      "why": "정책 제안 단계라 기업 이익에 직접 영향은 아직 불분명합니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261015095300008": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "거래 재개는 당일 변동성 사건으로 기업 가치와는 별개입니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2953,7 +2953,7 @@
       "2026-10-12": 1334.15,
       "2026-10-13": 1341.13,
       "2026-10-14": 1340.81,
-      "2026-10-15": 1347.73
+      "2026-10-15": 1349.58
     },
     "^GSPC": {
       "2026-10-04": 7722.72,
