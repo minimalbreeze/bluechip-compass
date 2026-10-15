@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-15T08:49:20.829Z",
+  "asOf": "2026-10-15T09:49:55.087Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-15T06:33:00.000Z"
     },
     "KRW=X": {
-      "price": 1344.98,
+      "price": 1343.98,
       "prev": 1340.31005859375,
-      "chg": 0.35,
+      "chg": 0.27,
       "prevDay": "2026-10-14",
       "basis": "prev-close-bar",
-      "time": "2026-10-15T08:49:02.000Z"
+      "time": "2026-10-15T09:49:30.000Z"
     },
     "^GSPC": {
       "price": 7718.94,
@@ -43,12 +43,12 @@
       "time": "2026-10-14T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 17.49,
+      "price": 17.52,
       "prev": 16.8700008392334,
-      "chg": 3.68,
+      "chg": 3.85,
       "prevDay": "2026-10-14",
       "basis": "prev-close-bar",
-      "time": "2026-10-15T08:34:01.000Z"
+      "time": "2026-10-15T09:34:31.000Z"
     },
     "^TNX": {
       "price": 5.19,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1334.13,
     "high52": 1554.48,
-    "pct": 0.049
+    "pct": 0.045
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -4.82
     },
     "KRW=X": {
-      "last": 1344.98,
+      "last": 1343.98,
       "low52": 1334.13,
       "high52": 1554.48,
-      "pct52": 0.049,
-      "chg3m": -8.82
+      "pct52": 0.045,
+      "chg3m": -8.88
     },
     "^GSPC": {
       "last": 7718.94,
@@ -101,11 +101,11 @@
       "chg3m": 4.59
     },
     "^VIX": {
-      "last": 17.49,
+      "last": 17.52,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.229,
-      "chg3m": 2.58
+      "pct52": 0.23,
+      "chg3m": 2.76
     },
     "^TNX": {
       "last": 5.19,
@@ -366,83 +366,83 @@
   "news": {
     "kr": [
       {
-        "title": "캠코, 공공기관 국유재산 매매 엇박자에 \"시스템 정비\"(종합)",
-        "link": "https://www.yna.co.kr/view/AKR20261015134551002",
+        "title": "'OLED 소재업체' 에스에프씨, 코스피 신규상장 예비심사 통과",
+        "link": "https://www.yna.co.kr/view/AKR20261015168700008",
         "source": "연합뉴스",
-        "date": "Thu, 15 Oct 2026 17:33:11 +0900",
+        "date": "Thu, 15 Oct 2026 18:34:50 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
-        "why": "공공 자산 관리 행정 이슈로 기업 이익과 직접 관련이 적습니다.",
+        "scope": "company",
+        "why": "상장 예비심사 통과는 절차상 단계로 기업가치 본질과는 거리가 있습니다.",
         "by": "ai"
       },
       {
-        "title": "AI 투자 수익성 의문에 코스피 '폭락'…4월 수준까지 후퇴",
-        "link": "https://www.hankyung.com/article/202610154356i",
+        "title": "폭락…주식계좌 열어보기가 두렵다",
+        "link": "https://www.hankyung.com/article/2026101548591",
         "source": "한국경제",
-        "date": "Thu, 15 Oct 2026 16:43:40 +0900",
+        "date": "Thu, 15 Oct 2026 17:58:30 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "지수 하루 급락은 흔한 변동으로 투자 근거를 바꾸진 않습니다.",
+        "why": "시장 급락을 묘사한 감정적 표현일 뿐, 구조 변화 근거는 없습니다.",
         "by": "ai"
       },
       {
-        "title": "물가·AI공포 겹악재…5600 무너진 코스피",
-        "link": "https://www.mk.co.kr/news/stock/12177086",
+        "title": "韓 투자비중 확대 나선 ‘경영관여펀드’ 달튼 “저평가 국내주식 여전히 많아…밸류업 5~6년내 가능”",
+        "link": "https://www.mk.co.kr/news/stock/12177104",
         "source": "매일경제",
-        "date": "Thu, 15 Oct 2026 17:46:54 +09:00",
+        "date": "Thu, 15 Oct 2026 18:05:46 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "물가와 투자심리에 따른 지수 등락은 반복되는 일입니다.",
+        "why": "특정 펀드의 전망 발언으로, 당장 기업 이익을 바꾸지는 않습니다.",
         "by": "ai"
       },
       {
-        "title": "\"채권대차시장 203조원…외인보유 국채, 담보 활용 방안 관심↑\"",
-        "link": "https://www.yna.co.kr/view/AKR20261015157200008",
+        "title": "부산 이전 금융기관, 부산은행 예치 14.9%…지역인재 채용 미달",
+        "link": "https://www.yna.co.kr/view/AKR20261015161600051",
         "source": "연합뉴스",
-        "date": "Thu, 15 Oct 2026 17:32:31 +0900",
+        "date": "Thu, 15 Oct 2026 18:00:58 +0900",
         "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "채권 담보 제도 논의 단계로 제목만으로는 영향 파악이 어렵습니다.",
-        "by": "ai"
-      },
-      {
-        "title": "\"금리·AI 수익성 의구심·수급 공백 겹쳐, 투매보단 관망·분할매수\" [전문가 긴급진단 전문]",
-        "link": "https://www.hankyung.com/article/202610154379i",
-        "source": "한국경제",
-        "date": "Thu, 15 Oct 2026 16:43:14 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "전문가 시황 코멘트일 뿐 기업 실적을 바꾸는 소식은 아닙니다.",
-        "by": "ai"
-      },
-      {
-        "title": "'AI 빚잔치' 도미노…美 코어위브 15% 폭락에 亞증시 패닉",
-        "link": "https://www.mk.co.kr/news/stock/12177059",
-        "source": "매일경제",
-        "date": "Thu, 15 Oct 2026 17:40:04 +09:00",
-        "act": "watch",
         "lasting": "temporary",
         "scope": "sector",
-        "why": "AI 투자 자금조달 방식에 의문이 번지는지 흐름만 지켜보면 됩니다.",
+        "why": "지역 정책 이행 현황 보도로 금융업 수익 구조와는 연결이 약합니다.",
+        "by": "ai"
+      },
+      {
+        "title": "애플, 시총 5조弗 돌파…엔비디아 이어 두번째",
+        "link": "https://www.hankyung.com/article/2026101548181",
+        "source": "한국경제",
+        "date": "Thu, 15 Oct 2026 17:46:01 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "해외 대형주 시총 기록으로 보유 종목 근거와는 직접 관련이 적습니다.",
+        "by": "ai"
+      },
+      {
+        "title": "이자만 받던 한국 국채, 담보로도 쓴다…채권시장 ‘새 돈줄’ 주목",
+        "link": "https://www.mk.co.kr/news/economy/12177097",
+        "source": "매일경제",
+        "date": "Thu, 15 Oct 2026 17:59:00 +09:00",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": "sector",
+        "why": "국채 담보 활용은 채권시장 제도 변화라 흐름만 지켜보면 됩니다.",
         "by": "ai"
       }
     ],
     "us": [
       {
-        "title": "How high inflation became a 'fact of life' in the U.S.",
-        "link": "https://www.cnbc.com/2026/10/14/high-inflation-fed-expectations.html",
+        "title": "Analysis: Why a $2 trillion deficit and 5% Treasury yields are becoming America's biggest economic challenge",
+        "link": "https://www.cnbc.com/2026/10/15/treasury-yields-deficit-national-debt-ai.html",
         "source": "CNBC",
-        "date": "Wed, 14 Oct 2026 17:20:23 GMT",
-        "ko": "미국에서 높은 인플레이션이 '삶의 사실' 이 된 방법",
+        "date": "Thu, 15 Oct 2026 09:30:06 GMT",
+        "ko": "분석: 2조 달러의 적자와 5% 의 국채 수익률이 미국의 최대 경제 과제가 되는 이유",
         "act": "watch",
         "lasting": "structural",
         "scope": "market",
-        "why": "물가 흐름은 시장 전반에 오래 영향을 주지만 당장 할 일은 없습니다.",
+        "why": "재정적자와 금리 수준은 시장 전반에 오래 영향을 주는 환경 변화라 흐름만 지켜보면 됩니다.",
         "by": "ai"
       },
       {
@@ -458,15 +458,15 @@
         "by": "ai"
       },
       {
-        "title": "'Godzilla El Niño' is wreaking havoc with Philippine central bank's inflation forecasts",
-        "link": "https://www.cnbc.com/2026/10/14/godzilla-el-nino-asia-inflation-philippines.html",
+        "title": "How high inflation became a 'fact of life' in the U.S.",
+        "link": "https://www.cnbc.com/2026/10/14/high-inflation-fed-expectations.html",
         "source": "CNBC",
-        "date": "Wed, 14 Oct 2026 04:24:28 GMT",
-        "ko": "'고질라 엘니뇨' 는 필리핀 중앙은행의 인플레이션 예측으로 혼란을 겪고 있다.",
-        "act": "none",
-        "lasting": "temporary",
+        "date": "Wed, 14 Oct 2026 17:20:23 GMT",
+        "ko": "미국에서 높은 인플레이션이 '삶의 사실' 이 된 방법",
+        "act": "watch",
+        "lasting": "structural",
         "scope": "market",
-        "why": "날씨에 따른 물가 변수는 일시적이고 보유 근거와는 거리가 멉니다.",
+        "why": "물가 흐름은 시장 전반에 오래 영향을 주지만 당장 할 일은 없습니다.",
         "by": "ai"
       },
       {
@@ -482,15 +482,15 @@
         "by": "ai"
       },
       {
-        "title": "The latest inflation data is expected to show price increases are accelerating",
-        "link": "https://www.cnbc.com/2026/10/13/september-consumer-price-index-inflation.html",
+        "title": "'Godzilla El Niño' is wreaking havoc with Philippine central bank's inflation forecasts",
+        "link": "https://www.cnbc.com/2026/10/14/godzilla-el-nino-asia-inflation-philippines.html",
         "source": "CNBC",
-        "date": "Tue, 13 Oct 2026 18:05:57 GMT",
-        "ko": "최신 인플레이션 데이터는 가격 상승이 가속화되고 있음을 보여줄 것으로 예상됩니다.",
+        "date": "Wed, 14 Oct 2026 04:24:28 GMT",
+        "ko": "'고질라 엘니뇨' 는 필리핀 중앙은행의 인플레이션 예측으로 혼란을 겪고 있다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "물가 지표는 매달 나오는 단기 변수라 장기 이익과는 거리가 있습니다.",
+        "why": "날씨에 따른 물가 변수는 일시적이고 보유 근거와는 거리가 멉니다.",
         "by": "ai"
       },
       {
@@ -509,7 +509,6 @@
   },
   "newsBy": "ai",
   "trCache": {
-    "Huawei Is Ramping Up to New Chips in 2027. What That Means for Nvidia Stock Now.": "화웨이는 2027년에 새로운 칩을 출시할 예정입니다. 지금 Nvidia Stock에 대한 의미.",
     "As Amazon Stock Prospers, Traders Might Consider This Option Play": "Amazon Stock Prospers로서 트레이더는 이 옵션 플레이를 고려할 수 있습니다.",
     "BMW CEO sees risk of cheap Chinese cars in Europe but opposes tariffs": "BMW CEO는 유럽에서 저렴한 중국 자동차의 위험을 보고 있지만 관세에 반대합니다.",
     "Is Skyworks Solutions Stock Outperforming the Dow?": "Skyworks Solutions 주가가 DOW를 능가합니까?",
@@ -808,58 +807,10 @@
     "From a record high to a 10% drop in just two months: Why small-cap stocks have unraveled so fast": "단 두 달 만에 사상 최고치에서 10% 하락: 소자본 주식이 이렇게 빨리 풀린 이유",
     "Rocket Lab’s stock slides as the company pushes back Neutron’s first launch": "회사가 Neutron의 첫 출시를 추진함에 따라 Rocket Lab의 재고 슬라이드",
     "You’re probably too invested in equities. Why a 60-40 portfolio is still the smart way to go.": "당신은 아마도 주식에 너무 많이 투자했을 것입니다. 60-40 포트폴리오가 여전히 현명한 방법인 이유.",
-    "The AI trade is splintering as inflation fears rattle hyped-up tech stocks": "인플레이션이 덜컹거리는 기술 주가를 우려하면서 AI 거래가 쪼개지고 있다."
+    "The AI trade is splintering as inflation fears rattle hyped-up tech stocks": "인플레이션이 덜컹거리는 기술 주가를 우려하면서 AI 거래가 쪼개지고 있다.",
+    "Analysis: Why a $2 trillion deficit and 5% Treasury yields are becoming America's biggest economic challenge": "분석: 2조 달러의 적자와 5% 의 국채 수익률이 미국의 최대 경제 과제가 되는 이유"
   },
   "nvCache": {
-    "https://www.marketwatch.com/story/mired-in-their-worst-losing-streak-in-years-small-caps-could-be-the-best-way-for-investors-to-play-crucial-cpi-data-40e2f716?mod=mw_rss_topstories": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "지표 발표를 앞둔 단기 전망으로 장기 근거를 바꾸지 않습니다.",
-      "by": "ai"
-    },
-    "https://www.hankyung.com/article/2026101271706": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "외국인 수급을 다룬 분석 기사로, 기업 이익 구조가 바뀐다는 내용은 아닙니다.",
-      "by": "ai"
-    },
-    "https://www.marketwatch.com/story/buy-these-stocks-as-plays-on-googles-big-spending-analyst-says-a159c170?mod=mw_rss_topstories": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "애널리스트 의견일 뿐 회사의 장기 이익 구조가 바뀐 소식은 아닙니다.",
-      "by": "ai"
-    },
-    "https://www.marketwatch.com/story/these-stocks-could-be-the-future-winners-and-losers-of-a-massive-shift-in-it-spending-bfc88c05?mod=mw_rss_topstories": {
-      "act": "watch",
-      "lasting": "structural",
-      "scope": "sector",
-      "why": "IT 지출 흐름 변화는 업종 전반의 장기 구조 이슈라 지켜볼 만합니다.",
-      "by": "ai"
-    },
-    "https://www.marketwatch.com/story/why-ciena-lumentum-and-other-optical-stocks-were-among-the-markets-biggest-losers-on-monday-b3e53f6a?mod=mw_rss_topstories": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "sector",
-      "why": "하루 주가 급락 소식으로, 업종의 장기 수익력 변화는 제목만으론 확인되지 않습니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20261012137600002": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "sector",
-      "why": "적발 실적 자체는 개별 기업 장기 이익과 직접 연결되기 어렵습니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20261012149300002": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "기관 내부 이슈로, 기업 이익 구조를 바꾸는 내용은 아닙니다.",
-      "by": "ai"
-    },
     "https://www.marketwatch.com/story/brazilian-stocks-are-breaking-out-as-investors-look-for-opportunities-beyond-tech-7fbed032?mod=mw_rss_topstories": {
       "act": "none",
       "lasting": "temporary",
@@ -2910,6 +2861,55 @@
       "scope": "sector",
       "why": "AI 투자 자금조달 방식에 의문이 번지는지 흐름만 지켜보면 됩니다.",
       "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261015168700008": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "상장 예비심사 통과는 절차상 단계로 기업가치 본질과는 거리가 있습니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/2026101548591": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "시장 급락을 묘사한 감정적 표현일 뿐, 구조 변화 근거는 없습니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12177104": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "특정 펀드의 전망 발언으로, 당장 기업 이익을 바꾸지는 않습니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261015161600051": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "sector",
+      "why": "지역 정책 이행 현황 보도로 금융업 수익 구조와는 연결이 약합니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/2026101548181": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "해외 대형주 시총 기록으로 보유 종목 근거와는 직접 관련이 적습니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/economy/12177097": {
+      "act": "watch",
+      "lasting": "structural",
+      "scope": "sector",
+      "why": "국채 담보 활용은 채권시장 제도 변화라 흐름만 지켜보면 됩니다.",
+      "by": "ai"
+    },
+    "https://www.cnbc.com/2026/10/15/treasury-yields-deficit-national-debt-ai.html": {
+      "act": "watch",
+      "lasting": "structural",
+      "scope": "market",
+      "why": "재정적자와 금리 수준은 시장 전반에 오래 영향을 주는 환경 변화라 흐름만 지켜보면 됩니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2953,7 +2953,7 @@
       "2026-10-12": 1334.15,
       "2026-10-13": 1341.13,
       "2026-10-14": 1340.81,
-      "2026-10-15": 1344.98
+      "2026-10-15": 1343.98
     },
     "^GSPC": {
       "2026-10-04": 7722.72,
@@ -2995,7 +2995,7 @@
       "2026-10-12": 15.21,
       "2026-10-13": 15.27,
       "2026-10-14": 16.87,
-      "2026-10-15": 17.49
+      "2026-10-15": 17.52
     },
     "^TNX": {
       "2026-10-04": 5.277,
