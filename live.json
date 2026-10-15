@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-15T00:02:02.414Z",
+  "asOf": "2026-10-15T00:12:31.019Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-14T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1340.48,
+      "price": 1341.77,
       "prev": 1340.31005859375,
-      "chg": 0.01,
+      "chg": 0.11,
       "prevDay": "2026-10-14",
       "basis": "prev-close-bar",
-      "time": "2026-10-15T00:01:41.000Z"
+      "time": "2026-10-15T00:12:15.000Z"
     },
     "^GSPC": {
       "price": 7718.94,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1334.13,
     "high52": 1554.48,
-    "pct": 0.029
+    "pct": 0.035
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": 5.42
     },
     "KRW=X": {
-      "last": 1340.58,
+      "last": 1341.77,
       "low52": 1334.13,
       "high52": 1554.48,
-      "pct52": 0.029,
-      "chg3m": -9.11
+      "pct52": 0.035,
+      "chg3m": -9.03
     },
     "^GSPC": {
       "last": 7718.94,
@@ -366,14 +366,14 @@
   "news": {
     "kr": [
       {
-        "title": "대신증권 \"백화점 3사, 성장 둔화에도 이익 개선 전망\"",
-        "link": "https://www.yna.co.kr/view/AKR20261015029900008",
+        "title": "'반도체 투톱' 급락에 코스피, 장 초반 5% 내려 5,600대",
+        "link": "https://www.yna.co.kr/view/AKR20261015034500008",
         "source": "연합뉴스",
-        "date": "Thu, 15 Oct 2026 08:56:20 +0900",
+        "date": "Thu, 15 Oct 2026 09:05:41 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "sector",
-        "why": "증권사 업종 전망일 뿐 유통업 구조가 바뀐 건 아닙니다.",
+        "scope": "market",
+        "why": "지수 하루 변동일 뿐, 기업의 10년 이익 구조를 바꾸는 내용은 없습니다.",
         "by": "ai"
       },
       {
@@ -388,25 +388,25 @@
         "by": "ai"
       },
       {
-        "title": "“삼전 주가, 역사적 저평가”라는데…KB증권 “비중 확대할 기회”",
-        "link": "https://www.mk.co.kr/news/stock/12176392",
+        "title": "[속보] 코스피, 장중 4%대 급락…매도 사이드카 발동",
+        "link": "https://www.mk.co.kr/news/stock/12176424",
         "source": "매일경제",
-        "date": "Thu, 15 Oct 2026 08:53:12 +09:00",
+        "date": "Thu, 15 Oct 2026 09:11:09 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
-        "why": "목표주가·투자의견은 증권사 견해일 뿐입니다.",
+        "scope": "market",
+        "why": "사이드카는 급변동 시 작동하는 장치로, 투자 근거와는 무관합니다.",
         "by": "ai"
       },
       {
-        "title": "DS증권, CJ프레시웨이 목표가↓…\"3분기 실적 기대치 하회전망\"",
-        "link": "https://www.yna.co.kr/view/AKR20261015025800008",
+        "title": "[속보] 코스피, 5.6% 급락한 5,673개장…코스닥도 4.8% 내려",
+        "link": "https://www.yna.co.kr/view/AKR20261015032400008",
         "source": "연합뉴스",
-        "date": "Thu, 15 Oct 2026 08:34:05 +0900",
+        "date": "Thu, 15 Oct 2026 09:01:09 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
-        "why": "한 분기 실적 전망 조정은 장기 이익과 무관합니다.",
+        "scope": "market",
+        "why": "시장 전체의 단기 급락 소식이라 오늘 할 일은 없습니다.",
         "by": "ai"
       },
       {
@@ -421,14 +421,14 @@
         "by": "ai"
       },
       {
-        "title": "AI 멈추면 경기침체가 온다...CPI 높았는데 장기금리 떨어진 이유",
-        "link": "https://www.mk.co.kr/news/business/12176388",
+        "title": "[속보] 코스피, 5.6% 급락한 5673개장…코스닥도 4.8% 내려",
+        "link": "https://www.mk.co.kr/news/stock/12176419",
         "source": "매일경제",
-        "date": "Thu, 15 Oct 2026 08:44:55 +09:00",
-        "act": "watch",
+        "date": "Thu, 15 Oct 2026 09:03:03 +09:00",
+        "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "금리와 경기 해석 기사로, 제목만으로는 확정할 게 없습니다.",
+        "why": "앞선 기사와 같은 내용의 반복 보도로, 새로운 정보가 없습니다.",
         "by": "ai"
       }
     ],
@@ -446,15 +446,15 @@
         "by": "ai"
       },
       {
-        "title": "The AI trade is splintering as inflation fears rattle hyped-up tech stocks",
-        "link": "https://www.marketwatch.com/story/the-ai-trade-is-splintering-as-inflation-fears-rattle-hyped-up-tech-stocks-dbf49369?mod=mw_rss_topstories",
+        "title": "Rocket Lab’s stock slides as the company pushes back Neutron’s first launch",
+        "link": "https://www.marketwatch.com/story/rocket-labs-stock-slides-as-the-company-pushes-back-neutrons-first-launch-afd2932a?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Wed, 14 Oct 2026 23:36:00 GMT",
-        "ko": "인플레이션이 덜컹거리는 기술 주가를 우려하면서 AI 거래가 쪼개지고 있다.",
-        "act": "none",
+        "date": "Thu, 15 Oct 2026 00:02:00 GMT",
+        "ko": "회사가 Neutron의 첫 출시를 추진함에 따라 Rocket Lab의 재고 슬라이드",
+        "act": "watch",
         "lasting": "temporary",
-        "scope": "market",
-        "why": "물가와 투자심리에 따른 단기 변동으로, 기업 이익 구조가 바뀐 소식은 아닙니다.",
+        "scope": "company",
+        "why": "신규 발사체 일정은 중요하지만 주가 변동 자체는 단기 이슈입니다.",
         "by": "ai"
       },
       {
@@ -470,15 +470,15 @@
         "by": "ai"
       },
       {
-        "title": "Rocket Lab’s stock slides as the company pushes back Neutron’s first launch",
-        "link": "https://www.marketwatch.com/story/rocket-labs-stock-slides-as-the-company-pushes-back-neutrons-first-launch-afd2932a?mod=mw_rss_topstories",
+        "title": "The AI trade is splintering as inflation fears rattle hyped-up tech stocks",
+        "link": "https://www.marketwatch.com/story/the-ai-trade-is-splintering-as-inflation-fears-rattle-hyped-up-tech-stocks-dbf49369?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Wed, 14 Oct 2026 22:33:00 GMT",
-        "ko": "회사가 Neutron의 첫 출시를 추진함에 따라 Rocket Lab의 재고 슬라이드",
-        "act": "watch",
+        "date": "Wed, 14 Oct 2026 23:36:00 GMT",
+        "ko": "인플레이션이 덜컹거리는 기술 주가를 우려하면서 AI 거래가 쪼개지고 있다.",
+        "act": "none",
         "lasting": "temporary",
-        "scope": "company",
-        "why": "신규 발사체 일정은 중요하지만 주가 변동 자체는 단기 이슈입니다.",
+        "scope": "market",
+        "why": "물가와 투자심리에 따른 단기 변동으로, 기업 이익 구조가 바뀐 소식은 아닙니다.",
         "by": "ai"
       },
       {
@@ -811,34 +811,6 @@
     "The AI trade is splintering as inflation fears rattle hyped-up tech stocks": "인플레이션이 덜컹거리는 기술 주가를 우려하면서 AI 거래가 쪼개지고 있다."
   },
   "nvCache": {
-    "https://www.yna.co.kr/view/AKR20261012016200008": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "분기 이익 전망치 조정은 흔한 단기 변동 신호입니다.",
-      "by": "ai"
-    },
-    "https://www.hankyung.com/article/202610114705i": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "sector",
-      "why": "업종 주가 흐름을 전하는 기사로 오늘 할 일은 없습니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20261012022900008": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "증권사 금리 전망 코멘트로, 기업 이익을 직접 바꾸지는 않습니다.",
-      "by": "ai"
-    },
-    "https://www.hankyung.com/article/2026101250426": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "분기 실적과 목표가 상향은 통상 가격에 빠르게 반영됩니다.",
-      "by": "ai"
-    },
     "https://www.mk.co.kr/news/stock/12173256": {
       "act": "none",
       "lasting": "temporary",
@@ -2910,6 +2882,34 @@
       "scope": "market",
       "why": "물가와 투자심리에 따른 단기 변동으로, 기업 이익 구조가 바뀐 소식은 아닙니다.",
       "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261015034500008": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "지수 하루 변동일 뿐, 기업의 10년 이익 구조를 바꾸는 내용은 없습니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12176424": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "사이드카는 급변동 시 작동하는 장치로, 투자 근거와는 무관합니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261015032400008": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "시장 전체의 단기 급락 소식이라 오늘 할 일은 없습니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12176419": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "앞선 기사와 같은 내용의 반복 보도로, 새로운 정보가 없습니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2953,7 +2953,7 @@
       "2026-10-12": 1334.15,
       "2026-10-13": 1341.13,
       "2026-10-14": 1340.81,
-      "2026-10-15": 1340.48
+      "2026-10-15": 1341.77
     },
     "^GSPC": {
       "2026-10-03": 7722.72,
