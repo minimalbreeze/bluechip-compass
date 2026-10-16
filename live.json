@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-16T10:49:57.426Z",
+  "asOf": "2026-10-16T11:50:30.468Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -8,7 +8,7 @@
       "chg": 2.05,
       "prevDay": "2026-10-15",
       "basis": "prev-close-bar",
-      "time": "2026-10-16T06:32:50.000Z"
+      "time": "2026-10-16T11:05:40.000Z"
     },
     "^KQ11": {
       "price": 794.78,
@@ -16,15 +16,15 @@
       "chg": 4.46,
       "prevDay": "2026-10-15",
       "basis": "prev-close-bar",
-      "time": "2026-10-16T06:32:50.000Z"
+      "time": "2026-10-16T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1330.99,
+      "price": 1331.82,
       "prev": 1339.3499755859375,
-      "chg": -0.62,
+      "chg": -0.56,
       "prevDay": "2026-10-15",
       "basis": "prev-close-bar",
-      "time": "2026-10-16T10:49:37.000Z"
+      "time": "2026-10-16T11:50:12.000Z"
     },
     "^GSPC": {
       "price": 7744.06,
@@ -43,12 +43,12 @@
       "time": "2026-10-15T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 16.1,
+      "price": 16.14,
       "prev": 16.459999084472656,
-      "chg": -2.19,
+      "chg": -1.94,
       "prevDay": "2026-10-15",
       "basis": "prev-close-bar",
-      "time": "2026-10-16T10:34:31.000Z"
+      "time": "2026-10-16T11:35:01.000Z"
     },
     "^TNX": {
       "price": 5.089,
@@ -60,7 +60,7 @@
     }
   },
   "fx": {
-    "low52": 1330.99,
+    "low52": 1331.82,
     "high52": 1554.48,
     "pct": 0
   },
@@ -80,11 +80,11 @@
       "chg3m": 1.38
     },
     "KRW=X": {
-      "last": 1330.99,
-      "low52": 1330.99,
+      "last": 1331.82,
+      "low52": 1331.82,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -10.05
+      "chg3m": -10
     },
     "^GSPC": {
       "last": 7744.06,
@@ -101,11 +101,11 @@
       "chg3m": 4.72
     },
     "^VIX": {
-      "last": 16.1,
+      "last": 16.14,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.15,
-      "chg3m": -3.25
+      "pct52": 0.152,
+      "chg3m": -3
     },
     "^TNX": {
       "last": 5.09,
@@ -366,25 +366,25 @@
   "news": {
     "kr": [
       {
-        "title": "키움증권 \"한화오션 주식 5천92억원어치 추가취득…지분율 2.7%\"",
-        "link": "https://www.yna.co.kr/view/AKR20261016157600008",
+        "title": "CJ그룹, 다우키움그룹과 중앙일보 인수전 참여 가능성",
+        "link": "https://www.yna.co.kr/view/AKR20261016170000030",
         "source": "연합뉴스",
-        "date": "Fri, 16 Oct 2026 17:50:52 +0900",
+        "date": "Fri, 16 Oct 2026 20:03:31 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
-        "why": "지분 취득 공시는 수급 이벤트로 장기 이익과는 거리가 멉니다.",
+        "why": "인수 참여 '가능성' 단계라 확정된 사실이 없습니다.",
         "by": "ai"
       },
       {
-        "title": "월가 \"코스피, 역대급 저평가\"라지만…AI 실적 의구심 풀려야 반등",
-        "link": "https://www.hankyung.com/article/2026101671221",
+        "title": "방산·증권·엔터 실적 눈높이 낮아졌다",
+        "link": "https://www.hankyung.com/article/2026101671211",
         "source": "한국경제",
-        "date": "Fri, 16 Oct 2026 18:12:59 +0900",
-        "act": "none",
+        "date": "Fri, 16 Oct 2026 19:48:47 +0900",
+        "act": "watch",
         "lasting": "temporary",
-        "scope": "market",
-        "why": "밸류에이션 논평과 전망일 뿐 기업 이익 구조가 바뀐 소식은 아닙니다.",
+        "scope": "sector",
+        "why": "실적 전망 하향은 업종 흐름이나 구조 변화로 보긴 이릅니다.",
         "by": "ai"
       },
       {
@@ -399,25 +399,25 @@
         "by": "ai"
       },
       {
-        "title": "바이오포트 \"패밀리팜 주식 21억원어치 취득…지분율 44.5%\"",
-        "link": "https://www.yna.co.kr/view/AKR20261016155300008",
+        "title": "키움증권 \"한화오션 주식 5천92억원어치 추가취득…지분율 2.7%\"",
+        "link": "https://www.yna.co.kr/view/AKR20261016157600008",
         "source": "연합뉴스",
-        "date": "Fri, 16 Oct 2026 17:35:51 +0900",
+        "date": "Fri, 16 Oct 2026 17:50:52 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
-        "why": "지분 취득 공시로, 장기 이익 구조를 바꾸는 내용은 아닙니다.",
+        "why": "지분 취득 공시는 수급 이벤트로 장기 이익과는 거리가 멉니다.",
         "by": "ai"
       },
       {
-        "title": "삼전닉스 이익 급증…주가는 왜? [한경 프리미엄9 TODAY]",
-        "link": "https://www.hankyung.com/article/2026101671151",
+        "title": "\"증시 운명 걸렸다\"…테슬라·한은·중국에 쏠린 눈[다음주 변수 미리보기]",
+        "link": "https://www.hankyung.com/article/202610167208i",
         "source": "한국경제",
-        "date": "Fri, 16 Oct 2026 18:08:57 +0900",
+        "date": "Fri, 16 Oct 2026 19:13:36 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "sector",
-        "why": "실적과 주가 괴리를 해설하는 기사로, 보유 근거를 흔들 내용은 없습니다.",
+        "scope": "market",
+        "why": "일정 안내성 전망 기사로 오늘 할 일은 없습니다.",
         "by": "ai"
       },
       {
@@ -446,15 +446,15 @@
         "by": "ai"
       },
       {
-        "title": "Jefferies technical analyst finds an encouraging development in Thursday rebound, setting stage for rally into year-end",
-        "link": "https://www.marketwatch.com/story/jefferies-technical-analyst-finds-an-encouraging-development-in-thursday-rebound-setting-stage-for-rally-into-year-end-34ad6e31?mod=mw_rss_topstories",
+        "title": "Nearly 40% of the S&P 500 is in a bear market. Here are 10 of those stocks that analysts say can gain up to 81%.",
+        "link": "https://www.marketwatch.com/story/nearly-40-of-the-s-p-500-is-in-a-bear-market-here-are-10-of-those-stocks-that-analysts-say-can-gain-up-to-81-93a51af6?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Fri, 16 Oct 2026 10:38:00 GMT",
-        "ko": "Jefferies 기술 분석가는 목요일 반등에서 고무적인 발전을 발견하여 연말에 랠리를 시작할 단계를 설정합니다.",
+        "date": "Fri, 16 Oct 2026 10:56:00 GMT",
+        "ko": "S&P 500의 거의 40% 가 베어 마켓에 있습니다. 애널리스트들이 최대 81% 의 수익을 올릴 수 있다고 말하는 주식 10가지를 소개합니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "증권사 기술적 분석 전망일 뿐 기업 이익과는 무관합니다.",
+        "why": "목표주가 전망 모음 기사로, 기업 이익의 구조를 바꾸는 내용은 없습니다.",
         "by": "ai"
       },
       {
@@ -470,15 +470,15 @@
         "by": "ai"
       },
       {
-        "title": "Here are the key things Fed Chairman Kevin Warsh said — and didn’t say — while Americans were sleeping Thursday night",
-        "link": "https://www.marketwatch.com/story/here-are-the-key-things-fed-chairman-kevin-warsh-said-and-didnt-say-while-americans-were-sleeping-thursday-night-b82238a1?mod=mw_rss_topstories",
+        "title": "How a midterm sweep by Democrats could turn this tech selloff into a tech crash",
+        "link": "https://www.marketwatch.com/story/how-a-midterm-sweep-by-democrats-could-turn-this-tech-selloff-into-a-tech-crash-a1d1a82f?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Fri, 16 Oct 2026 09:16:00 GMT",
-        "ko": "다음은 연준 의장 케빈 워시 (Kevin Warsh) 가 미국인들이 목요일 밤에 자고있는 동안 말한 주요 내용입니다.",
+        "date": "Fri, 16 Oct 2026 10:49:00 GMT",
+        "ko": "민주당의 중간선거가 이 기술 매각을 기술 폭락으로 바꿀 수 있는 방법",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "통화정책 발언은 시장 전체 이슈지만 제목만으로는 내용을 알 수 없어 오늘 할 일은 없습니다.",
+        "why": "선거 전망에 기댄 시나리오 기사로, 기업 이익을 바꾸는 사실은 아닙니다.",
         "by": "ai"
       },
       {
@@ -494,22 +494,21 @@
         "by": "ai"
       },
       {
-        "title": "How a midterm sweep by Democrats could turn this tech selloff into a tech crash",
-        "link": "https://www.marketwatch.com/story/how-a-midterm-sweep-by-democrats-could-turn-this-tech-selloff-into-a-tech-crash-a1d1a82f?mod=mw_rss_topstories",
+        "title": "Jefferies technical analyst finds an encouraging development in Thursday rebound, setting stage for rally into year-end",
+        "link": "https://www.marketwatch.com/story/jefferies-technical-analyst-finds-an-encouraging-development-in-thursday-rebound-setting-stage-for-rally-into-year-end-34ad6e31?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Thu, 15 Oct 2026 21:56:00 GMT",
-        "ko": "민주당의 중간선거가 이 기술 매각을 기술 폭락으로 바꿀 수 있는 방법",
+        "date": "Fri, 16 Oct 2026 10:38:00 GMT",
+        "ko": "Jefferies 기술 분석가는 목요일 반등에서 고무적인 발전을 발견하여 연말에 랠리를 시작할 단계를 설정합니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "선거 전망에 기댄 시나리오 기사로, 기업 이익을 바꾸는 사실은 아닙니다.",
+        "why": "증권사 기술적 분석 전망일 뿐 기업 이익과는 무관합니다.",
         "by": "ai"
       }
     ]
   },
   "newsBy": "ai",
   "trCache": {
-    "Meta’s Muse Is Dominating the App Store. What This Means for META Stock.": "Meta의 Muse가 App Store를 지배하고 있습니다. META Stock에 대한 의미.",
     "Dollar Climbs on Hawkish Fed President Collins": "콜린스 호키시 연준 회장 달러 등반",
     "Bitcoin ETFs Attract Nearly $1 Billion As Crypto Rally Strengthens": "비트코인 ETF는 암호화폐 랠리가 강화됨에 따라 거의 10억 $ 를 유치합니다",
     "RBC Is Bullish on Kraft Heinz Stock and Expects Growth to Return in 2027": "RBC는 Kraft Heinz 주식에 대해 강세를 보이고 있으며 2027년에 성장이 회복될 것으로 예상합니다.",
@@ -808,37 +807,10 @@
     "How a midterm sweep by Democrats could turn this tech selloff into a tech crash": "민주당의 중간선거가 이 기술 매각을 기술 폭락으로 바꿀 수 있는 방법",
     "Don’t ditch tech stocks just yet. Make these moves to take advantage of the latest AI reset.": "아직 기술 주식을 버리지 마세요. 최신 AI 재설정을 활용하려면 이러한 조치를 취하십시오.",
     "Here are the key things Fed Chairman Kevin Warsh said — and didn’t say — while Americans were sleeping Thursday night": "다음은 연준 의장 케빈 워시 (Kevin Warsh) 가 미국인들이 목요일 밤에 자고있는 동안 말한 주요 내용입니다.",
-    "Jefferies technical analyst finds an encouraging development in Thursday rebound, setting stage for rally into year-end": "Jefferies 기술 분석가는 목요일 반등에서 고무적인 발전을 발견하여 연말에 랠리를 시작할 단계를 설정합니다."
+    "Jefferies technical analyst finds an encouraging development in Thursday rebound, setting stage for rally into year-end": "Jefferies 기술 분석가는 목요일 반등에서 고무적인 발전을 발견하여 연말에 랠리를 시작할 단계를 설정합니다.",
+    "Nearly 40% of the S&P 500 is in a bear market. Here are 10 of those stocks that analysts say can gain up to 81%.": "S&P 500의 거의 40% 가 베어 마켓에 있습니다. 애널리스트들이 최대 81% 의 수익을 올릴 수 있다고 말하는 주식 10가지를 소개합니다."
   },
   "nvCache": {
-    "https://www.mk.co.kr/news/stock/12174815": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "수급과 단기 주가 흐름 이야기로 기업 실적 구조와는 무관합니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20261013171600061": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "sector",
-      "why": "지자체의 인프라 요청 단계일 뿐 확정된 변화는 아닙니다.",
-      "by": "ai"
-    },
-    "https://www.hankyung.com/article/2026101395961": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "시장 분위기에 대한 의견으로 투자 근거를 바꾸지 않습니다.",
-      "by": "ai"
-    },
-    "https://www.mk.co.kr/news/stock/12174799": {
-      "act": "watch",
-      "lasting": "structural",
-      "scope": "sector",
-      "why": "반도체 경쟁 환경 변화 여부는 업종 차원에서 지켜볼 만합니다.",
-      "by": "ai"
-    },
     "https://www.marketwatch.com/story/what-to-expect-from-europes-most-valuable-company-before-it-kicks-off-tech-earnings-a6272cc0?mod=mw_rss_topstories": {
       "act": "none",
       "lasting": "temporary",
@@ -2910,6 +2882,34 @@
       "scope": "market",
       "why": "증권사 기술적 분석 전망일 뿐 기업 이익과는 무관합니다.",
       "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261016170000030": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "인수 참여 '가능성' 단계라 확정된 사실이 없습니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/2026101671211": {
+      "act": "watch",
+      "lasting": "temporary",
+      "scope": "sector",
+      "why": "실적 전망 하향은 업종 흐름이나 구조 변화로 보긴 이릅니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/202610167208i": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "일정 안내성 전망 기사로 오늘 할 일은 없습니다.",
+      "by": "ai"
+    },
+    "https://www.marketwatch.com/story/nearly-40-of-the-s-p-500-is-in-a-bear-market-here-are-10-of-those-stocks-that-analysts-say-can-gain-up-to-81-93a51af6?mod=mw_rss_topstories": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "목표주가 전망 모음 기사로, 기업 이익의 구조를 바꾸는 내용은 없습니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2953,7 +2953,7 @@
       "2026-10-13": 1341.13,
       "2026-10-14": 1340.81,
       "2026-10-15": 1341.21,
-      "2026-10-16": 1330.99
+      "2026-10-16": 1331.82
     },
     "^GSPC": {
       "2026-10-05": 7773.95,
@@ -2995,7 +2995,7 @@
       "2026-10-13": 15.27,
       "2026-10-14": 16.87,
       "2026-10-15": 16.46,
-      "2026-10-16": 16.1
+      "2026-10-16": 16.14
     },
     "^TNX": {
       "2026-10-05": 5.311,
