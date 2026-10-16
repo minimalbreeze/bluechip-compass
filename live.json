@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-16T07:48:31.356Z",
+  "asOf": "2026-10-16T08:48:58.024Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-16T06:32:50.000Z"
     },
     "KRW=X": {
-      "price": 1332.3,
+      "price": 1332.1,
       "prev": 1339.3499755859375,
-      "chg": -0.53,
+      "chg": -0.54,
       "prevDay": "2026-10-15",
       "basis": "prev-close-bar",
-      "time": "2026-10-16T07:48:03.000Z"
+      "time": "2026-10-16T08:48:41.000Z"
     },
     "^GSPC": {
       "price": 7744.06,
@@ -43,12 +43,12 @@
       "time": "2026-10-15T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 16.03,
+      "price": 16.05,
       "prev": 16.459999084472656,
-      "chg": -2.61,
+      "chg": -2.49,
       "prevDay": "2026-10-15",
       "basis": "prev-close-bar",
-      "time": "2026-10-16T07:33:01.000Z"
+      "time": "2026-10-16T08:33:31.000Z"
     },
     "^TNX": {
       "price": 5.089,
@@ -60,7 +60,7 @@
     }
   },
   "fx": {
-    "low52": 1332.3,
+    "low52": 1332.1,
     "high52": 1554.48,
     "pct": 0
   },
@@ -80,11 +80,11 @@
       "chg3m": 1.38
     },
     "KRW=X": {
-      "last": 1332.3,
-      "low52": 1332.3,
+      "last": 1332.1,
+      "low52": 1332.1,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -9.96
+      "chg3m": -9.98
     },
     "^GSPC": {
       "last": 7744.06,
@@ -101,11 +101,11 @@
       "chg3m": 4.72
     },
     "^VIX": {
-      "last": 16.03,
+      "last": 16.05,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.146,
-      "chg3m": -3.67
+      "pct52": 0.147,
+      "chg3m": -3.55
     },
     "^TNX": {
       "last": 5.09,
@@ -366,69 +366,69 @@
   "news": {
     "kr": [
       {
-        "title": "국고채 금리 일제히 하락…3년물 연 3.854%",
-        "link": "https://www.yna.co.kr/view/AKR20261016141800008",
+        "title": "바이오포트 \"패밀리팜 주식 21억원어치 취득…지분율 44.5%\"",
+        "link": "https://www.yna.co.kr/view/AKR20261016155300008",
         "source": "연합뉴스",
-        "date": "Fri, 16 Oct 2026 16:40:48 +0900",
+        "date": "Fri, 16 Oct 2026 17:35:51 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
-        "why": "금리 일일 등락은 장기 기업 이익과 직접 연결되지 않습니다.",
+        "scope": "company",
+        "why": "지분 취득 공시로, 장기 이익 구조를 바꾸는 내용은 아닙니다.",
         "by": "ai"
       },
       {
-        "title": "실적 부진 전망에도 생명보험주 강세…장기금리 상승에 건전성 개선 기대",
-        "link": "https://www.hankyung.com/article/202610166590i",
+        "title": "쪼개진 분식회계 수사…상장사는 중수청, 中企는 경찰",
+        "link": "https://www.hankyung.com/article/2026101670491",
         "source": "한국경제",
-        "date": "Fri, 16 Oct 2026 16:05:59 +0900",
+        "date": "Fri, 16 Oct 2026 17:36:22 +0900",
+        "act": "none",
+        "lasting": "structural",
+        "scope": "market",
+        "why": "수사 체계 개편은 제도 변화지만 당장 기업 이익과는 거리가 있습니다.",
+        "by": "ai"
+      },
+      {
+        "title": "CJ, 다우키움과 손잡고 중앙일보 인수전 참전",
+        "link": "https://www.mk.co.kr/news/stock/12178091",
+        "source": "매일경제",
+        "date": "Fri, 16 Oct 2026 17:41:57 +09:00",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": "company",
+        "why": "인수 참전 단계로 결과가 미정이라 진행 경과만 지켜보면 됩니다.",
+        "by": "ai"
+      },
+      {
+        "title": "임금님표이천쌀, 올해 수출 100t 육박…역대 최대 실적",
+        "link": "https://www.yna.co.kr/view/AKR20261016146800061",
+        "source": "연합뉴스",
+        "date": "Fri, 16 Oct 2026 17:04:06 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "sector",
-        "why": "금리 기대에 따른 단기 주가 강세로 업종 구조 변화는 아닙니다.",
+        "why": "연간 수출 실적 소식으로 규모가 작고 일시적 성과입니다.",
         "by": "ai"
       },
       {
-        "title": "“지금 팔아? 좀 더 버텨?”…급락 뒤 반등한 코스피, 전문가 의견 보니",
-        "link": "https://www.mk.co.kr/news/stock/12177886",
-        "source": "매일경제",
-        "date": "Fri, 16 Oct 2026 15:48:54 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "전문가 전망 소개일 뿐 보유 이유를 흔드는 사실은 없습니다.",
-        "by": "ai"
-      },
-      {
-        "title": "외국인 '사자'에 반등 성공했지만…추세 상승엔 신중론 우세",
-        "link": "https://www.yna.co.kr/view/AKR20261016135400008",
-        "source": "연합뉴스",
-        "date": "Fri, 16 Oct 2026 16:35:25 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "수급과 단기 전망 이야기로 오늘 할 일은 없습니다.",
-        "by": "ai"
-      },
-      {
-        "title": "[단독]교공 출자 펀드 중 청산 실적 선두는 헬리오스·IMM·웰투시",
-        "link": "https://www.hankyung.com/article/202610166755i",
+        "title": "골드만 \"코스피 1만2000 간다\" 고수…'찐반등' 열쇠는",
+        "link": "https://www.hankyung.com/article/202610166654i",
         "source": "한국경제",
-        "date": "Fri, 16 Oct 2026 16:02:58 +0900",
+        "date": "Fri, 16 Oct 2026 17:19:14 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "증권사 목표 전망일 뿐 기업의 실제 이익을 바꾸지 않습니다.",
+        "by": "ai"
+      },
+      {
+        "title": "美 국채금리 하락에 … 모처럼 웃은 韓 바이오株",
+        "link": "https://www.mk.co.kr/news/stock/12178088",
+        "source": "매일경제",
+        "date": "Fri, 16 Oct 2026 17:41:56 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": "sector",
-        "why": "기관 펀드 운용 성과 소식으로 상장사 이익과 거리가 멉니다.",
-        "by": "ai"
-      },
-      {
-        "title": "오전 이어 오후에도 삼전 사고 닉스 팔고 [주식 초고수는 지금]",
-        "link": "https://www.mk.co.kr/news/stock/12177876",
-        "source": "매일경제",
-        "date": "Fri, 16 Oct 2026 15:40:19 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "특정 투자자의 단기 매매 동향일 뿐 근거를 바꾸지 않습니다.",
+        "why": "금리 변동에 따른 일시적 주가 흐름 설명입니다.",
         "by": "ai"
       }
     ],
@@ -811,48 +811,6 @@
     "Here are the key things Fed Chairman Kevin Warsh said — and didn’t say — while Americans were sleeping Thursday night": "다음은 연준 의장 케빈 워시 (Kevin Warsh) 가 미국인들이 목요일 밤에 자고있는 동안 말한 주요 내용입니다."
   },
   "nvCache": {
-    "https://www.hankyung.com/article/202610126221i": {
-      "act": "watch",
-      "lasting": "structural",
-      "scope": "market",
-      "why": "금리 수준과 투자 사이클 이야기라 흐름만 천천히 지켜보면 됩니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20261013101451008": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "지수 급락과 변동성 상승은 흔한 단기 변동으로 기업 이익과는 다릅니다.",
-      "by": "ai"
-    },
-    "https://www.mk.co.kr/news/stock/12174595": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "수급 주체 변화를 다룬 해석 기사로 사업 구조와는 무관합니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20261013138851008": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "외국인 매도에 따른 하루 등락일 뿐 장기 근거를 흔들지 않습니다.",
-      "by": "ai"
-    },
-    "https://www.mk.co.kr/news/stock/12174533": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "단기 매매 동향 소개라 장기 보유 판단에 쓸 정보가 적습니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20261013164900008": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "금리와 수급의 단기 변동으로 장기 이익과는 거리가 있습니다.",
-      "by": "ai"
-    },
     "https://www.hankyung.com/article/2026101379641": {
       "act": "none",
       "lasting": "temporary",
@@ -2910,6 +2868,48 @@
       "scope": "market",
       "why": "통화정책 발언은 시장 전체 이슈지만 제목만으로는 내용을 알 수 없어 오늘 할 일은 없습니다.",
       "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261016155300008": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "지분 취득 공시로, 장기 이익 구조를 바꾸는 내용은 아닙니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/2026101670491": {
+      "act": "none",
+      "lasting": "structural",
+      "scope": "market",
+      "why": "수사 체계 개편은 제도 변화지만 당장 기업 이익과는 거리가 있습니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12178091": {
+      "act": "watch",
+      "lasting": "structural",
+      "scope": "company",
+      "why": "인수 참전 단계로 결과가 미정이라 진행 경과만 지켜보면 됩니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261016146800061": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "sector",
+      "why": "연간 수출 실적 소식으로 규모가 작고 일시적 성과입니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/202610166654i": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "증권사 목표 전망일 뿐 기업의 실제 이익을 바꾸지 않습니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12178088": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "sector",
+      "why": "금리 변동에 따른 일시적 주가 흐름 설명입니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2953,7 +2953,7 @@
       "2026-10-13": 1341.13,
       "2026-10-14": 1340.81,
       "2026-10-15": 1341.21,
-      "2026-10-16": 1332.3
+      "2026-10-16": 1332.1
     },
     "^GSPC": {
       "2026-10-05": 7773.95,
@@ -2995,7 +2995,7 @@
       "2026-10-13": 15.27,
       "2026-10-14": 16.87,
       "2026-10-15": 16.46,
-      "2026-10-16": 16.03
+      "2026-10-16": 16.05
     },
     "^TNX": {
       "2026-10-05": 5.311,
