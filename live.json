@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-15T23:13:34.490Z",
+  "asOf": "2026-10-16T00:02:01.028Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-15T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1340.97,
+      "price": 1340.98,
       "prev": 1339.3499755859375,
       "chg": 0.12,
       "prevDay": "2026-10-15",
       "basis": "prev-close-bar",
-      "time": "2026-10-15T23:13:21.000Z"
+      "time": "2026-10-16T00:01:50.000Z"
     },
     "^GSPC": {
       "price": 7744.06,
@@ -67,9 +67,9 @@
   "hist": {
     "^KS11": {
       "last": 6008.81,
-      "low52": 3657.28,
+      "low52": 3748.37,
       "high52": 9114.55,
-      "pct52": 0.431,
+      "pct52": 0.421,
       "chg3m": -19.62
     },
     "^KQ11": {
@@ -80,7 +80,7 @@
       "chg3m": -1.62
     },
     "KRW=X": {
-      "last": 1340.97,
+      "last": 1340.98,
       "low52": 1334.13,
       "high52": 1554.48,
       "pct52": 0.031,
@@ -366,25 +366,58 @@
   "news": {
     "kr": [
       {
-        "title": "삼성전기 8조 투자 이어 SK 반도체 소재기업 세종공장 확장 추진",
-        "link": "https://www.yna.co.kr/view/AKR20261015156600063",
+        "title": "유안타증권 \"코스피 급락, 외국인 매도 받아줄 매수 부족 비롯\"",
+        "link": "https://www.yna.co.kr/view/AKR20261016023600008",
         "source": "연합뉴스",
-        "date": "Fri, 16 Oct 2026 06:00:06 +0900",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": "sector",
-        "why": "대규모 설비 증설은 업종의 장기 생산능력을 바꾸는 흐름이라 추이만 봐두면 됩니다.",
-        "by": "ai"
-      },
-      {
-        "title": "美 국채금리 하락에 3대 지수 반등…다우 1.08% 상승 [뉴욕증시 브리핑]",
-        "link": "https://www.hankyung.com/article/2026101652966",
-        "source": "한국경제",
-        "date": "Fri, 16 Oct 2026 07:41:46 +0900",
+        "date": "Fri, 16 Oct 2026 08:38:15 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "금리와 지수의 하루 등락은 장기 이익과 무관합니다.",
+        "why": "수급 해석일 뿐 기업 이익 구조와는 무관합니다.",
+        "by": "ai"
+      },
+      {
+        "title": "'급락 후 무조건 올랐다'…월가 \"코스피·메모리 저가매수 기회\"",
+        "link": "https://www.hankyung.com/article/202610165257i",
+        "source": "한국경제",
+        "date": "Fri, 16 Oct 2026 08:30:39 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "저가매수 전망은 의견이며 장기 근거를 바꾸지 않습니다.",
+        "by": "ai"
+      },
+      {
+        "title": "PPI 폭등했는데 금리 왜 떨어졌나... 증시 색깔 이렇게 바뀐다",
+        "link": "https://www.mk.co.kr/news/economy/12177435",
+        "source": "매일경제",
+        "date": "Fri, 16 Oct 2026 08:43:14 +09:00",
+        "act": "watch",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "물가와 금리 흐름은 배경으로만 지켜보면 됩니다.",
+        "by": "ai"
+      },
+      {
+        "title": "신한증권 \"증권주, 악재 덜 반영돼\"…목표가 잇단 하향",
+        "link": "https://www.yna.co.kr/view/AKR20261016025700008",
+        "source": "연합뉴스",
+        "date": "Fri, 16 Oct 2026 08:36:33 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "sector",
+        "why": "증권사 목표가 조정은 전망 변경일 뿐입니다.",
+        "by": "ai"
+      },
+      {
+        "title": "62% 급등에도 '역대급 매도 폭탄'…발칵 뒤집어진 대만 증시",
+        "link": "https://www.hankyung.com/article/2026101654166",
+        "source": "한국경제",
+        "date": "Fri, 16 Oct 2026 08:20:18 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "해외 증시의 단기 수급 변동으로 보입니다.",
         "by": "ai"
       },
       {
@@ -396,39 +429,6 @@
         "lasting": "temporary",
         "scope": "company",
         "why": "분기 실적 전망과 목표가 조정은 단기 평가 변화입니다.",
-        "by": "ai"
-      },
-      {
-        "title": "환율 내렸지만 유가 올라서…9월 수입물가 넉 달만에 상승",
-        "link": "https://www.yna.co.kr/view/AKR20261015160300002",
-        "source": "연합뉴스",
-        "date": "Fri, 16 Oct 2026 06:00:01 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "환율과 유가에 따라 매달 오르내리는 지표라 장기 이익과는 거리가 멉니다.",
-        "by": "ai"
-      },
-      {
-        "title": "물가 최고치 찍었는데 증시 반등…시장 여전히 'Fed 금리동결'에 무게",
-        "link": "https://www.hankyung.com/article/202610165216i",
-        "source": "한국경제",
-        "date": "Fri, 16 Oct 2026 06:40:58 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "금리 전망과 지수 등락은 수시로 바뀌는 단기 변수입니다.",
-        "by": "ai"
-      },
-      {
-        "title": "“10만원까지 빠져라, 주식 더 받는다”…삼성전자 직원 익명글에 뿔난 주주들",
-        "link": "https://www.mk.co.kr/news/economy/12177162",
-        "source": "매일경제",
-        "date": "Thu, 15 Oct 2026 19:51:46 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "직원 익명글 논란은 회사 이익과 직접 관련이 없는 일시적 소음입니다.",
         "by": "ai"
       }
     ],
@@ -811,41 +811,6 @@
     "Don’t ditch tech stocks just yet. Make these moves to take advantage of the latest AI reset.": "아직 기술 주식을 버리지 마세요. 최신 AI 재설정을 활용하려면 이러한 조치를 취하십시오."
   },
   "nvCache": {
-    "https://www.hankyung.com/article/202610137697i": {
-      "act": "watch",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "목표주가 조정은 증권사 전망 변경일 뿐, 실제 실적 발표를 지켜보면 됩니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20261013037851008": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "지수 급락은 흔한 단기 변동으로 기업 이익 구조와는 별개입니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20261013039900002": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "sector",
-      "why": "금융지원 협약은 통상적 영업 활동으로 장기 이익 변화는 크지 않습니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20261013040800002": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "신규 상품 출시로, 장기 이익 구조를 바꿀 사안은 아닙니다.",
-      "by": "ai"
-    },
-    "https://www.mk.co.kr/news/stock/12174186": {
-      "act": "watch",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "장중 급락은 일시적 변동이며 원인은 제목만으로 알 수 없습니다.",
-      "by": "ai"
-    },
     "https://www.yna.co.kr/view/AKR20261013040700008": {
       "act": "watch",
       "lasting": "temporary",
@@ -2910,6 +2875,41 @@
       "scope": "company",
       "why": "분기 실적 전망과 목표가 조정은 단기 평가 변화입니다.",
       "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261016023600008": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "수급 해석일 뿐 기업 이익 구조와는 무관합니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/202610165257i": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "저가매수 전망은 의견이며 장기 근거를 바꾸지 않습니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/economy/12177435": {
+      "act": "watch",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "물가와 금리 흐름은 배경으로만 지켜보면 됩니다.",
+      "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261016025700008": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "sector",
+      "why": "증권사 목표가 조정은 전망 변경일 뿐입니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/2026101654166": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "해외 증시의 단기 수급 변동으로 보입니다.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2953,7 +2953,7 @@
       "2026-10-13": 1341.13,
       "2026-10-14": 1340.81,
       "2026-10-15": 1341.21,
-      "2026-10-16": 1340.97
+      "2026-10-16": 1340.98
     },
     "^GSPC": {
       "2026-10-04": 7722.72,
