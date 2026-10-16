@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-16T08:48:58.024Z",
+  "asOf": "2026-10-16T09:49:28.113Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-16T06:32:50.000Z"
     },
     "KRW=X": {
-      "price": 1332.1,
+      "price": 1330.85,
       "prev": 1339.3499755859375,
-      "chg": -0.54,
+      "chg": -0.63,
       "prevDay": "2026-10-15",
       "basis": "prev-close-bar",
-      "time": "2026-10-16T08:48:41.000Z"
+      "time": "2026-10-16T09:49:12.000Z"
     },
     "^GSPC": {
       "price": 7744.06,
@@ -43,12 +43,12 @@
       "time": "2026-10-15T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 16.05,
+      "price": 16.01,
       "prev": 16.459999084472656,
-      "chg": -2.49,
+      "chg": -2.73,
       "prevDay": "2026-10-15",
       "basis": "prev-close-bar",
-      "time": "2026-10-16T08:33:31.000Z"
+      "time": "2026-10-16T09:34:01.000Z"
     },
     "^TNX": {
       "price": 5.089,
@@ -60,7 +60,7 @@
     }
   },
   "fx": {
-    "low52": 1332.1,
+    "low52": 1330.85,
     "high52": 1554.48,
     "pct": 0
   },
@@ -80,11 +80,11 @@
       "chg3m": 1.38
     },
     "KRW=X": {
-      "last": 1332.1,
-      "low52": 1332.1,
+      "last": 1330.85,
+      "low52": 1330.85,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -9.98
+      "chg3m": -10.06
     },
     "^GSPC": {
       "last": 7744.06,
@@ -101,11 +101,11 @@
       "chg3m": 4.72
     },
     "^VIX": {
-      "last": 16.05,
+      "last": 16.01,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.147,
-      "chg3m": -3.55
+      "pct52": 0.144,
+      "chg3m": -3.79
     },
     "^TNX": {
       "last": 5.09,
@@ -366,6 +366,39 @@
   "news": {
     "kr": [
       {
+        "title": "키움증권 \"한화오션 주식 5천92억원어치 추가취득…지분율 2.7%\"",
+        "link": "https://www.yna.co.kr/view/AKR20261016157600008",
+        "source": "연합뉴스",
+        "date": "Fri, 16 Oct 2026 17:50:52 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "지분 취득 공시는 수급 이벤트로 장기 이익과는 거리가 멉니다.",
+        "by": "ai"
+      },
+      {
+        "title": "코스피 PER 26년來 최저…이렇게 싼데 선뜻 안산다",
+        "link": "https://www.hankyung.com/article/2026101671401",
+        "source": "한국경제",
+        "date": "Fri, 16 Oct 2026 17:57:48 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "밸류에이션 수준 보도일 뿐 기업 이익 구조가 바뀐 건 아닙니다.",
+        "by": "ai"
+      },
+      {
+        "title": "“내년까지 주식계좌 안볼랍니다”…8일만에 추락 겨우 멈췄지만",
+        "link": "https://www.mk.co.kr/news/stock/12178156",
+        "source": "매일경제",
+        "date": "Fri, 16 Oct 2026 18:38:06 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "단기 등락과 투자심리 묘사라 오늘 할 일은 없습니다.",
+        "by": "ai"
+      },
+      {
         "title": "바이오포트 \"패밀리팜 주식 21억원어치 취득…지분율 44.5%\"",
         "link": "https://www.yna.co.kr/view/AKR20261016155300008",
         "source": "연합뉴스",
@@ -388,47 +421,14 @@
         "by": "ai"
       },
       {
-        "title": "CJ, 다우키움과 손잡고 중앙일보 인수전 참전",
-        "link": "https://www.mk.co.kr/news/stock/12178091",
+        "title": "CSA 코스믹, 20억원 규모 유상증자 실시",
+        "link": "https://www.mk.co.kr/news/stock/12178112",
         "source": "매일경제",
-        "date": "Fri, 16 Oct 2026 17:41:57 +09:00",
+        "date": "Fri, 16 Oct 2026 17:59:22 +09:00",
         "act": "watch",
         "lasting": "structural",
         "scope": "company",
-        "why": "인수 참전 단계로 결과가 미정이라 진행 경과만 지켜보면 됩니다.",
-        "by": "ai"
-      },
-      {
-        "title": "임금님표이천쌀, 올해 수출 100t 육박…역대 최대 실적",
-        "link": "https://www.yna.co.kr/view/AKR20261016146800061",
-        "source": "연합뉴스",
-        "date": "Fri, 16 Oct 2026 17:04:06 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "sector",
-        "why": "연간 수출 실적 소식으로 규모가 작고 일시적 성과입니다.",
-        "by": "ai"
-      },
-      {
-        "title": "골드만 \"코스피 1만2000 간다\" 고수…'찐반등' 열쇠는",
-        "link": "https://www.hankyung.com/article/202610166654i",
-        "source": "한국경제",
-        "date": "Fri, 16 Oct 2026 17:19:14 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "증권사 목표 전망일 뿐 기업의 실제 이익을 바꾸지 않습니다.",
-        "by": "ai"
-      },
-      {
-        "title": "美 국채금리 하락에 … 모처럼 웃은 韓 바이오株",
-        "link": "https://www.mk.co.kr/news/stock/12178088",
-        "source": "매일경제",
-        "date": "Fri, 16 Oct 2026 17:41:56 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "sector",
-        "why": "금리 변동에 따른 일시적 주가 흐름 설명입니다.",
+        "why": "유상증자는 지분 희석과 자금사정을 알려주니 규모와 용도를 확인해 두세요.",
         "by": "ai"
       }
     ],
@@ -449,7 +449,7 @@
         "title": "Here are the key things Fed Chairman Kevin Warsh said — and didn’t say — while Americans were sleeping Thursday night",
         "link": "https://www.marketwatch.com/story/here-are-the-key-things-fed-chairman-kevin-warsh-said-and-didnt-say-while-americans-were-sleeping-thursday-night-b82238a1?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Fri, 16 Oct 2026 07:07:00 GMT",
+        "date": "Fri, 16 Oct 2026 09:16:00 GMT",
         "ko": "다음은 연준 의장 케빈 워시 (Kevin Warsh) 가 미국인들이 목요일 밤에 자고있는 동안 말한 주요 내용입니다.",
         "act": "none",
         "lasting": "temporary",
@@ -811,34 +811,6 @@
     "Here are the key things Fed Chairman Kevin Warsh said — and didn’t say — while Americans were sleeping Thursday night": "다음은 연준 의장 케빈 워시 (Kevin Warsh) 가 미국인들이 목요일 밤에 자고있는 동안 말한 주요 내용입니다."
   },
   "nvCache": {
-    "https://www.hankyung.com/article/2026101379641": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "company",
-      "why": "업무 효율 개선 소식으로 투자 근거를 흔들 내용은 아닙니다.",
-      "by": "ai"
-    },
-    "https://www.mk.co.kr/news/stock/12174776": {
-      "act": "none",
-      "lasting": "temporary",
-      "scope": "market",
-      "why": "지수 전망과 비중 의견일 뿐 확인된 사실은 아닙니다.",
-      "by": "ai"
-    },
-    "https://www.yna.co.kr/view/AKR20261013166000008": {
-      "act": "none",
-      "lasting": "structural",
-      "scope": "company",
-      "why": "지분 추가 취득은 사업 방향 변화지만 규모는 제한적입니다.",
-      "by": "ai"
-    },
-    "https://www.hankyung.com/article/202610139163i": {
-      "act": "watch",
-      "lasting": "temporary",
-      "scope": "sector",
-      "why": "업황 부진과 환율은 반복되는 변수라 흐름만 지켜보면 됩니다.",
-      "by": "ai"
-    },
     "https://www.mk.co.kr/news/stock/12174775": {
       "act": "watch",
       "lasting": "temporary",
@@ -2910,6 +2882,34 @@
       "scope": "sector",
       "why": "금리 변동에 따른 일시적 주가 흐름 설명입니다.",
       "by": "ai"
+    },
+    "https://www.yna.co.kr/view/AKR20261016157600008": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "company",
+      "why": "지분 취득 공시는 수급 이벤트로 장기 이익과는 거리가 멉니다.",
+      "by": "ai"
+    },
+    "https://www.hankyung.com/article/2026101671401": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "밸류에이션 수준 보도일 뿐 기업 이익 구조가 바뀐 건 아닙니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12178156": {
+      "act": "none",
+      "lasting": "temporary",
+      "scope": "market",
+      "why": "단기 등락과 투자심리 묘사라 오늘 할 일은 없습니다.",
+      "by": "ai"
+    },
+    "https://www.mk.co.kr/news/stock/12178112": {
+      "act": "watch",
+      "lasting": "structural",
+      "scope": "company",
+      "why": "유상증자는 지분 희석과 자금사정을 알려주니 규모와 용도를 확인해 두세요.",
+      "by": "ai"
     }
   },
   "dayClose": {
@@ -2953,7 +2953,7 @@
       "2026-10-13": 1341.13,
       "2026-10-14": 1340.81,
       "2026-10-15": 1341.21,
-      "2026-10-16": 1332.1
+      "2026-10-16": 1330.85
     },
     "^GSPC": {
       "2026-10-05": 7773.95,
@@ -2995,7 +2995,7 @@
       "2026-10-13": 15.27,
       "2026-10-14": 16.87,
       "2026-10-15": 16.46,
-      "2026-10-16": 16.05
+      "2026-10-16": 16.01
     },
     "^TNX": {
       "2026-10-05": 5.311,
