@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-17T09:52:30.643Z",
+  "asOf": "2026-10-17T10:52:50.923Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -366,10 +366,10 @@
   "news": {
     "kr": [
       {
-        "title": "[부고] 양재진(IBK투자증권 강남센터 부장)씨 빙모상",
-        "link": "https://www.yna.co.kr/view/AKR20261017044000008",
+        "title": "한은 총재 \"화폐의 단일성 중요…한은금융망 국제화 추진\"",
+        "link": "https://www.yna.co.kr/view/AKR20261017043100002",
         "source": "연합뉴스",
-        "date": "Sat, 17 Oct 2026 18:40:51 +0900",
+        "date": "Sat, 17 Oct 2026 19:32:30 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -399,15 +399,15 @@
         "by": "ai"
       },
       {
-        "title": "[다음주 경제] 기준금리 3연속 인상할까…생산자 물가도 발표",
-        "link": "https://www.yna.co.kr/view/AKR20261017011700002",
+        "title": "[부고] 양재진(IBK투자증권 강남센터 부장)씨 빙모상",
+        "link": "https://www.yna.co.kr/view/AKR20261017044000008",
         "source": "연합뉴스",
-        "date": "Sat, 17 Oct 2026 09:07:32 +0900",
-        "act": "watch",
+        "date": "Sat, 17 Oct 2026 18:40:51 +0900",
+        "act": "none",
         "lasting": "temporary",
-        "scope": "market",
-        "why": "금리와 물가 발표는 시장 전체 흐름을 보는 참고 지표입니다.",
-        "by": "ai"
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
       },
       {
         "title": "\"유독 하이닉스 주가만 더 빠진다\"…개미들 분통 터진 까닭 [분석+]",
@@ -3385,6 +3385,6 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg7c1MzkTfBpwzPrtgZ3a\"}"
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg7gcEENivoZJzRN9tJX5\"}"
   ]
 }
