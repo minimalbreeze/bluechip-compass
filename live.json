@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-17T21:27:29.220Z",
+  "asOf": "2026-10-17T22:27:53.995Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg85dcvZv"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg8bcKvqW"
   },
   "stocks": {
     "kr": {
@@ -368,10 +368,10 @@
   "news": {
     "kr": [
       {
-        "title": "솔리다임 미국 상장 준비 속도…주관사 선정 이어 대관 강화",
-        "link": "https://www.yna.co.kr/view/AKR20261017046600003",
+        "title": "신한증권, 추천 안한 주식에도 '종목추천 이용료'…금감원 지적",
+        "link": "https://www.yna.co.kr/view/AKR20261016164600008",
         "source": "연합뉴스",
-        "date": "Sun, 18 Oct 2026 06:19:50 +0900",
+        "date": "Sun, 18 Oct 2026 06:35:01 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -401,13 +401,13 @@
         "by": "ai"
       },
       {
-        "title": "폭락장세 뒤 반등했지만 악재는 여전…이번주 코스피 향배는",
-        "link": "https://www.yna.co.kr/view/AKR20261016179400008",
+        "title": "올해 서울 일반분양 작년 3배 육박…'청약 대어' 줄이어",
+        "link": "https://www.yna.co.kr/view/AKR20261017035400003",
         "source": "연합뉴스",
-        "date": "Sun, 18 Oct 2026 06:00:08 +0900",
+        "date": "Sun, 18 Oct 2026 06:31:01 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -3387,7 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg8X18qek6HpmaLLxfubZ\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg8X19Lfbu22YfZwKMwzn\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg8bcKvqWaPMj2qsT6jK4\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg8bcLSc1WQ7c69WnSsBR\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg8bcLpArsHGN727D9vva\"}"
   ]
 }
