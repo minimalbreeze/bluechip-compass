@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-17T08:52:09.940Z",
+  "asOf": "2026-10-17T09:52:30.643Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -366,15 +366,15 @@
   "news": {
     "kr": [
       {
-        "title": "[다음주 경제] 기준금리 3연속 인상할까…생산자 물가도 발표",
-        "link": "https://www.yna.co.kr/view/AKR20261017011700002",
+        "title": "[부고] 양재진(IBK투자증권 강남센터 부장)씨 빙모상",
+        "link": "https://www.yna.co.kr/view/AKR20261017044000008",
         "source": "연합뉴스",
-        "date": "Sat, 17 Oct 2026 09:07:32 +0900",
-        "act": "watch",
+        "date": "Sat, 17 Oct 2026 18:40:51 +0900",
+        "act": "none",
         "lasting": "temporary",
-        "scope": "market",
-        "why": "금리와 물가 발표는 시장 전체 흐름을 보는 참고 지표입니다.",
-        "by": "ai"
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
       },
       {
         "title": "미 채권시장이 보내는 신호, 어떻게 읽어야 할까",
@@ -399,14 +399,14 @@
         "by": "ai"
       },
       {
-        "title": "코스피 꺾이자…해외 코인거래소 '큰손' 90% 이상 반등 베팅",
-        "link": "https://www.yna.co.kr/view/AKR20261016169500002",
+        "title": "[다음주 경제] 기준금리 3연속 인상할까…생산자 물가도 발표",
+        "link": "https://www.yna.co.kr/view/AKR20261017011700002",
         "source": "연합뉴스",
-        "date": "Sat, 17 Oct 2026 05:55:01 +0900",
-        "act": "none",
+        "date": "Sat, 17 Oct 2026 09:07:32 +0900",
+        "act": "watch",
         "lasting": "temporary",
         "scope": "market",
-        "why": "단기 투자심리 지표일 뿐 기업 이익과는 무관합니다.",
+        "why": "금리와 물가 발표는 시장 전체 흐름을 보는 참고 지표입니다.",
         "by": "ai"
       },
       {
@@ -3384,6 +3384,7 @@
     }
   },
   "failed": [
-    "news/us/Yahoo Finance: HTTP 404"
+    "news/us/Yahoo Finance: HTTP 404",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg7c1MzkTfBpwzPrtgZ3a\"}"
   ]
 }
