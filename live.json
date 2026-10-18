@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-18T08:31:45.723Z",
+  "asOf": "2026-10-18T09:32:06.087Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg9Pf8QV6"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg9UFzh68"
   },
   "stocks": {
     "kr": {
@@ -368,13 +368,13 @@
   "news": {
     "kr": [
       {
-        "title": "40년 만에 오른 잠재성장률…'반도체 착시'의 함정",
-        "link": "https://www.hankyung.com/article/202610188723i",
+        "title": "9월 생산자물가 발표…한은 금통위도 개최",
+        "link": "https://www.hankyung.com/article/2026101888201",
         "source": "한국경제",
-        "date": "Sun, 18 Oct 2026 16:23:54 +0900",
+        "date": "Sun, 18 Oct 2026 17:22:58 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -390,10 +390,10 @@
         "by": "rules"
       },
       {
-        "title": "연금개미, 국내 반도체 ETF 팔고 미국 대표지수 샀다",
-        "link": "https://www.hankyung.com/article/202610167004i",
+        "title": "환율·채권, 원화 강세…1330원 밑으로 하락할까",
+        "link": "https://www.hankyung.com/article/2026101888191",
         "source": "한국경제",
-        "date": "Sun, 18 Oct 2026 15:35:56 +0900",
+        "date": "Sun, 18 Oct 2026 17:19:39 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -412,10 +412,10 @@
         "by": "rules"
       },
       {
-        "title": "자사주 최대 10% 소각 기대…피에이치에이 '들썩'",
-        "link": "https://www.hankyung.com/article/202610188607i",
+        "title": "뉴욕·상하이 증시, 메타·테슬라 등 실적이 증시 향방 좌우",
+        "link": "https://www.hankyung.com/article/2026101888171",
         "source": "한국경제",
-        "date": "Sun, 18 Oct 2026 15:32:07 +0900",
+        "date": "Sun, 18 Oct 2026 17:18:16 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg9Pf8QV6QsQvqxSTPtUv\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg9Pf8nZVhhAnHbAbiNEc\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg9Pf93wGcqfGWSYPTdRR\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg9UFzh68AUvoDaxZnN2B\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg9UG1C6iHbNTfbrTZ7xL\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg9UG1bQFSmdQc3aiwsPo\"}"
   ]
 }
