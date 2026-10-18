@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-18T01:28:55.847Z",
+  "asOf": "2026-10-18T02:29:22.628Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg8qR1QgP"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg8v2MT8J"
   },
   "stocks": {
     "kr": {
@@ -401,17 +401,6 @@
         "by": "ai"
       },
       {
-        "title": "신한증권, 추천 안한 주식에도 '종목추천 이용료'…금감원 지적",
-        "link": "https://www.yna.co.kr/view/AKR20261016164600008",
-        "source": "연합뉴스",
-        "date": "Sun, 18 Oct 2026 06:35:01 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
         "title": "코스피, 급락 후 반등 이어갈까…美 빅테크 실적에 쏠리는 눈 [주간전망]",
         "link": "https://www.hankyung.com/article/2026101668656",
         "source": "한국경제",
@@ -432,6 +421,17 @@
         "scope": "market",
         "why": "단기 등락과 투자심리 묘사라 오늘 할 일은 없습니다.",
         "by": "ai"
+      },
+      {
+        "title": "빚투 3천억 강제청산…\"증시 무너져도 정부 '예의 주시' 말뿐\" [분석+]",
+        "link": "https://www.hankyung.com/article/2026101780247",
+        "source": "한국경제",
+        "date": "Sat, 17 Oct 2026 23:03:05 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
       }
     ],
     "us": [
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg8qR1QgPJDfvk5SsnZcp\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg8qR1invqbJ4f1jTuChw\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg8qR1yAhj42rgXPcH2gH\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg8v2MT8JAo1nBX3dBXfa\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg8v2MnE4uNEEZwSaRK8w\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg8v2N2NRUFQywe7iWHSK\"}"
   ]
 }
