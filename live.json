@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-18T04:30:06.728Z",
+  "asOf": "2026-10-18T05:30:34.231Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -44,18 +44,18 @@
     },
     "^VIX": {
       "price": 19.99,
-      "prev": 19.989999771118164,
+      "prev": 19.99,
       "chg": 0,
-      "prevDay": "2026-10-16",
-      "basis": "prev-close-bar",
+      "prevDay": "2026-10-17",
+      "basis": "prev-close-memo",
       "time": "2026-10-16T20:15:01.000Z"
     },
     "^TNX": {
       "price": 5.098,
-      "prev": 5.0980000495910645,
+      "prev": 5.098,
       "chg": 0,
-      "prevDay": "2026-10-16",
-      "basis": "prev-close-bar",
+      "prevDay": "2026-10-17",
+      "basis": "prev-close-memo",
       "time": "2026-10-16T18:59:55.000Z"
     }
   },
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg95ELyjY"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg99qjhff"
   },
   "stocks": {
     "kr": {
@@ -368,6 +368,28 @@
   "news": {
     "kr": [
       {
+        "title": "코스피 14% 빠질 때 혼자 7% 올랐다…'이 종목' 뭐길래 [노정동의 어쩌다 투자자]",
+        "link": "https://www.hankyung.com/article/2026101667136",
+        "source": "한국경제",
+        "date": "Sun, 18 Oct 2026 13:00:06 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "코스피 급락에 미장으로…순매수 1위 반도체 3배 ETF는 40% 급락",
+        "link": "https://www.mk.co.kr/news/stock/12178768",
+        "source": "매일경제",
+        "date": "Sun, 18 Oct 2026 14:11:38 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
         "title": "'초저가 외식'도 버티기 한계…6년만의 가격인상에 주가급등",
         "link": "https://www.hankyung.com/article/202610188245i",
         "source": "한국경제",
@@ -379,13 +401,13 @@
         "by": "rules"
       },
       {
-        "title": "올해 200조 던진 외국인, 언제 돌아오나…증권가가 꼽은 반등 분수령",
-        "link": "https://www.mk.co.kr/news/stock/12178723",
+        "title": "“내 계좌 다 녹았어요”…지난주 14.5% 폭락 코스피, 언제나 회복?",
+        "link": "https://www.mk.co.kr/news/stock/12178764",
         "source": "매일경제",
-        "date": "Sun, 18 Oct 2026 12:43:02 +09:00",
+        "date": "Sun, 18 Oct 2026 14:00:07 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -401,37 +423,15 @@
         "by": "rules"
       },
       {
-        "title": "“증시 폭등 없었으면 폭락도 없었다”…국민연금 국조 꺼내든 국힘",
-        "link": "https://www.mk.co.kr/news/politics/12178257",
+        "title": "올해 200조 던진 외국인, 언제 돌아오나…증권가가 꼽은 반등 분수령",
+        "link": "https://www.mk.co.kr/news/stock/12178723",
         "source": "매일경제",
-        "date": "Fri, 16 Oct 2026 22:01:18 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "정치권 공방으로 기업 이익과는 직접 관련이 적은 일시적 이슈입니다.",
-        "by": "ai"
-      },
-      {
-        "title": "빚투 3천억 강제청산…\"증시 무너져도 정부 '예의 주시' 말뿐\" [분석+]",
-        "link": "https://www.hankyung.com/article/2026101780247",
-        "source": "한국경제",
-        "date": "Sat, 17 Oct 2026 23:03:05 +0900",
+        "date": "Sun, 18 Oct 2026 12:43:02 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
-      },
-      {
-        "title": "“내년까지 주식계좌 안볼랍니다”…8일만에 추락 겨우 멈췄지만",
-        "link": "https://www.mk.co.kr/news/stock/12178156",
-        "source": "매일경제",
-        "date": "Fri, 16 Oct 2026 18:38:06 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "단기 등락과 투자심리 묘사라 오늘 할 일은 없습니다.",
-        "by": "ai"
       }
     ],
     "us": [
@@ -2986,7 +2986,6 @@
       "2026-10-18": 26140.033
     },
     "^VIX": {
-      "2026-10-06": 15.01,
       "2026-10-07": 15.08,
       "2026-10-08": 15.41,
       "2026-10-09": 14.84,
@@ -2997,10 +2996,10 @@
       "2026-10-14": 16.87,
       "2026-10-15": 16.46,
       "2026-10-16": 19.99,
-      "2026-10-17": 19.99
+      "2026-10-17": 19.99,
+      "2026-10-18": 19.99
     },
     "^TNX": {
-      "2026-10-06": 5.269,
       "2026-10-07": 5.277,
       "2026-10-08": 5.231,
       "2026-10-09": 5.244,
@@ -3011,7 +3010,8 @@
       "2026-10-14": 5.19,
       "2026-10-15": 5.089,
       "2026-10-16": 5.098,
-      "2026-10-17": 5.098
+      "2026-10-17": 5.098,
+      "2026-10-18": 5.098
     },
     "105560.KS": {
       "2026-10-07": 168500,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg95ELyjYi8dZtvJg3h2t\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg95EMLZpfcCYcEpz9FAM\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg95EMdBcbw74URkF9aHC\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg99qjhffvjXvgciBV5dq\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg99qkCgjBrH4qkrBGDyF\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg99qkgwigNoEyVrqsV5g\"}"
   ]
 }
