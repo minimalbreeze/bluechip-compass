@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-18T02:29:22.628Z",
+  "asOf": "2026-10-18T03:29:47.152Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg8v2MT8J"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg8zdWwLR"
   },
   "stocks": {
     "kr": {
@@ -368,17 +368,6 @@
   "news": {
     "kr": [
       {
-        "title": "신한은행, 중저신용자 민간 중금리대출 금리 0.3%p 추가 인하",
-        "link": "https://www.yna.co.kr/view/AKR20261016159400002",
-        "source": "연합뉴스",
-        "date": "Sun, 18 Oct 2026 09:00:03 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
         "title": "'초저가 외식'도 버티기 한계…6년만의 가격인상에 주가급등",
         "link": "https://www.hankyung.com/article/202610188245i",
         "source": "한국경제",
@@ -427,6 +416,17 @@
         "link": "https://www.hankyung.com/article/2026101780247",
         "source": "한국경제",
         "date": "Sat, 17 Oct 2026 23:03:05 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "제넥신, 30억원 규모 유상증자 실시",
+        "link": "https://www.mk.co.kr/news/stock/12178111",
+        "source": "매일경제",
+        "date": "Fri, 16 Oct 2026 17:59:22 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg8v2MT8JAo1nBX3dBXfa\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg8v2MnE4uNEEZwSaRK8w\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg8v2N2NRUFQywe7iWHSK\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg8zdWwLRUVGnFCLUjQVz\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg8zdXgyypYqzkgxgSRLo\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg8zdYLRcmNDbFGeGSaFf\"}"
   ]
 }
