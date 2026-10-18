@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-17T23:28:13.199Z",
+  "asOf": "2026-10-18T00:28:34.670Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg8gD7oGs"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg8kp4v5t"
   },
   "stocks": {
     "kr": {
@@ -368,21 +368,21 @@
   "news": {
     "kr": [
       {
-        "title": "신한증권, 추천 안한 주식에도 '종목추천 이용료'…금감원 지적",
-        "link": "https://www.yna.co.kr/view/AKR20261016164600008",
+        "title": "신한은행, 중저신용자 민간 중금리대출 금리 0.3%p 추가 인하",
+        "link": "https://www.yna.co.kr/view/AKR20261016159400002",
         "source": "연합뉴스",
-        "date": "Sun, 18 Oct 2026 06:35:01 +0900",
+        "date": "Sun, 18 Oct 2026 09:00:03 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "빚투 3천억 강제청산…\"증시 무너져도 정부 '예의 주시' 말뿐\" [분석+]",
-        "link": "https://www.hankyung.com/article/2026101780247",
+        "title": "'초저가 외식'도 버티기 한계…6년만의 가격인상에 주가급등",
+        "link": "https://www.hankyung.com/article/202610188245i",
         "source": "한국경제",
-        "date": "Sat, 17 Oct 2026 23:03:05 +0900",
+        "date": "Sun, 18 Oct 2026 08:45:49 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -401,10 +401,10 @@
         "by": "ai"
       },
       {
-        "title": "올해 서울 일반분양 작년 3배 육박…'청약 대어' 줄이어",
-        "link": "https://www.yna.co.kr/view/AKR20261017035400003",
+        "title": "신한증권, 추천 안한 주식에도 '종목추천 이용료'…금감원 지적",
+        "link": "https://www.yna.co.kr/view/AKR20261016164600008",
         "source": "연합뉴스",
-        "date": "Sun, 18 Oct 2026 06:31:01 +0900",
+        "date": "Sun, 18 Oct 2026 06:35:01 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -412,13 +412,13 @@
         "by": "rules"
       },
       {
-        "title": "전쟁은 얼마나 오래 주식시장을 지배하는가 [조윤남의 사이클투자]",
-        "link": "https://www.hankyung.com/article/202610126778i",
+        "title": "코스피, 급락 후 반등 이어갈까…美 빅테크 실적에 쏠리는 눈 [주간전망]",
+        "link": "https://www.hankyung.com/article/2026101668656",
         "source": "한국경제",
-        "date": "Sat, 17 Oct 2026 19:44:16 +0900",
+        "date": "Sun, 18 Oct 2026 08:00:07 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg8gD7oGsPaXDVct3J9v7\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg8gD8CbCHCV2GqbKaXVS\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg8gD8WCCER8AS3r6LYwR\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg8kp4v5tMTUBo969R31d\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg8kp5Rr4vFohkaCQ5wpJ\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg8kp5pf36LtWEUVZ2fNw\"}"
   ]
 }
