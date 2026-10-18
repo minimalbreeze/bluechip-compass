@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-18T20:36:20.219Z",
+  "asOf": "2026-10-18T21:36:41.725Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-16T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1334.2,
+      "price": 1335.94,
       "prev": 1329.6,
-      "chg": 0.35,
+      "chg": 0.48,
       "prevDay": "2026-10-17",
       "basis": "prev-close-memo",
-      "time": "2026-10-18T15:47:35.000Z"
+      "time": "2026-10-18T21:23:57.000Z"
     },
     "^GSPC": {
       "price": 7659.44,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1334.13,
     "high52": 1554.48,
-    "pct": 0
+    "pct": 0.008
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": 1.38
     },
     "KRW=X": {
-      "last": 1334.2,
+      "last": 1335.94,
       "low52": 1334.13,
       "high52": 1554.48,
-      "pct52": 0,
-      "chg3m": -9.58
+      "pct52": 0.008,
+      "chg3m": -9.47
     },
     "^GSPC": {
       "last": 7659.44,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg9wtvQ3S"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgARWmnWi"
   },
   "stocks": {
     "kr": {
@@ -368,14 +368,14 @@
   "news": {
     "kr": [
       {
-        "title": "토스증권, 윤리·준법경영 선포식…김규빈 대표가 TF장",
-        "link": "https://www.yna.co.kr/view/AKR20261018052200008",
+        "title": "핀다, 핀테크 최초 저축은행 인수 눈앞…AI 활용 비대면 영업",
+        "link": "https://www.yna.co.kr/view/AKR20261018026100002",
         "source": "연합뉴스",
-        "date": "Sun, 18 Oct 2026 19:20:58 +0900",
-        "act": "none",
-        "lasting": "temporary",
+        "date": "Mon, 19 Oct 2026 05:59:00 +0900",
+        "act": "watch",
+        "lasting": "structural",
         "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
         "by": "rules"
       },
       {
@@ -390,13 +390,24 @@
         "by": "rules"
       },
       {
-        "title": "실적 발표에는 널뛰는 주식 … 기준금리 변화 영향은 미미 한 까닭",
-        "link": "https://www.mk.co.kr/news/economy/12178906",
+        "title": "요즘 증시, 닷컴버블 급락장과 꼭 닮았다…“긴 겨울 대비” 분석도",
+        "link": "https://www.mk.co.kr/news/stock/12179137",
         "source": "매일경제",
-        "date": "Mon, 19 Oct 2026 05:20:00 +09:00",
+        "date": "Mon, 19 Oct 2026 05:55:28 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "토스증권, 윤리·준법경영 선포식…김규빈 대표가 TF장",
+        "link": "https://www.yna.co.kr/view/AKR20261018052200008",
+        "source": "연합뉴스",
+        "date": "Sun, 18 Oct 2026 19:20:58 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -412,24 +423,13 @@
         "by": "rules"
       },
       {
-        "title": "10월들어 20%빠진 코스피 ... 1년후 주가 전망은?",
-        "link": "https://www.mk.co.kr/news/stock/12178942",
+        "title": "실적 발표에는 널뛰는 주식 … 기준금리 변화 영향은 미미 한 까닭",
+        "link": "https://www.mk.co.kr/news/economy/12178906",
         "source": "매일경제",
-        "date": "Mon, 19 Oct 2026 05:00:00 +09:00",
+        "date": "Mon, 19 Oct 2026 05:20:00 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "뉴욕·상하이 증시, 메타·테슬라 등 실적이 증시 향방 좌우",
-        "link": "https://www.hankyung.com/article/2026101888171",
-        "source": "한국경제",
-        "date": "Sun, 18 Oct 2026 17:18:16 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -2955,7 +2955,7 @@
       "2026-10-15": 1341.21,
       "2026-10-16": 1334.2,
       "2026-10-17": 1329.6,
-      "2026-10-18": 1334.2
+      "2026-10-18": 1335.94
     },
     "^GSPC": {
       "2026-10-07": 7801.77,
@@ -3387,7 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgALupqtCsXaYKH42854a\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgALuqChvUF2HafaLWWen\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgARWmnWiAqobg2Q3bgo3\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgARWnHnU9mZpZapWwED8\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgARWnfM9CbrswTsBrJnw\"}"
   ]
 }
