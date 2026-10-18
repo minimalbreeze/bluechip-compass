@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-18T05:30:34.231Z",
+  "asOf": "2026-10-18T06:30:59.188Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg99qjhff"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg9ESx3Wn"
   },
   "stocks": {
     "kr": {
@@ -368,10 +368,10 @@
   "news": {
     "kr": [
       {
-        "title": "코스피 14% 빠질 때 혼자 7% 올랐다…'이 종목' 뭐길래 [노정동의 어쩌다 투자자]",
-        "link": "https://www.hankyung.com/article/2026101667136",
+        "title": "美 장기채·원유 ETF 날았다…코스피 폭락에 레버리지 6000억 뭉칫돈",
+        "link": "https://www.hankyung.com/article/202610167299i",
         "source": "한국경제",
-        "date": "Sun, 18 Oct 2026 13:00:06 +0900",
+        "date": "Sun, 18 Oct 2026 14:20:48 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -390,13 +390,13 @@
         "by": "rules"
       },
       {
-        "title": "'초저가 외식'도 버티기 한계…6년만의 가격인상에 주가급등",
-        "link": "https://www.hankyung.com/article/202610188245i",
+        "title": "\"일주일 새 20% 껑충\"…실적 눈높이 높아진 '이 종목'",
+        "link": "https://www.hankyung.com/article/202610188556i",
         "source": "한국경제",
-        "date": "Sun, 18 Oct 2026 08:45:49 +0900",
+        "date": "Sun, 18 Oct 2026 14:02:06 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -412,10 +412,10 @@
         "by": "rules"
       },
       {
-        "title": "코스피, 급락 후 반등 이어갈까…美 빅테크 실적에 쏠리는 눈 [주간전망]",
-        "link": "https://www.hankyung.com/article/2026101668656",
+        "title": "코스피 14% 빠질 때 혼자 7% 올랐다…'이 종목' 뭐길래 [노정동의 어쩌다 투자자]",
+        "link": "https://www.hankyung.com/article/2026101667136",
         "source": "한국경제",
-        "date": "Sun, 18 Oct 2026 08:00:07 +0900",
+        "date": "Sun, 18 Oct 2026 13:00:06 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg99qjhffvjXvgciBV5dq\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg99qkCgjBrH4qkrBGDyF\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg99qkgwigNoEyVrqsV5g\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg9ESx3Wn7sC1djUosvfe\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg9ESxY2P7Zcg4fKHW96e\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg9ESxxaMT71kRx1UNHz4\"}"
   ]
 }
