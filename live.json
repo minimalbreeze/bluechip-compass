@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-18T07:31:22.898Z",
+  "asOf": "2026-10-18T08:31:45.723Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg9K451AC"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg9Pf8QV6"
   },
   "stocks": {
     "kr": {
@@ -368,6 +368,28 @@
   "news": {
     "kr": [
       {
+        "title": "40년 만에 오른 잠재성장률…'반도체 착시'의 함정",
+        "link": "https://www.hankyung.com/article/202610188723i",
+        "source": "한국경제",
+        "date": "Sun, 18 Oct 2026 16:23:54 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "밸류업 공시 제각각 … \"핵심지표 표준화해야\"",
+        "link": "https://www.mk.co.kr/news/stock/12178991",
+        "source": "매일경제",
+        "date": "Sun, 18 Oct 2026 17:19:43 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
         "title": "연금개미, 국내 반도체 ETF 팔고 미국 대표지수 샀다",
         "link": "https://www.hankyung.com/article/202610167004i",
         "source": "한국경제",
@@ -379,10 +401,10 @@
         "by": "rules"
       },
       {
-        "title": "삼전닉스 월요일에 주가 어떡해요?…‘中딥시크 쇼크’ 또 온다는데",
-        "link": "https://www.mk.co.kr/news/business/12178901",
+        "title": "美증시로 피난간 개미 '울상'",
+        "link": "https://www.mk.co.kr/news/stock/12178989",
         "source": "매일경제",
-        "date": "Sun, 18 Oct 2026 16:17:54 +09:00",
+        "date": "Sun, 18 Oct 2026 17:19:42 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -401,32 +423,10 @@
         "by": "rules"
       },
       {
-        "title": "코스피 20% 빠져도 “韓 기초체력 반등” 이유 보니 [매플 위켄드]",
-        "link": "https://www.mk.co.kr/news/economy/12178869",
+        "title": "코스피 급락에 '강제 청산' 경고등",
+        "link": "https://www.mk.co.kr/news/stock/12178990",
         "source": "매일경제",
-        "date": "Sun, 18 Oct 2026 16:06:09 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "美 장기채·원유 ETF 날았다…코스피 폭락에 레버리지 6000억 뭉칫돈",
-        "link": "https://www.hankyung.com/article/202610167299i",
-        "source": "한국경제",
-        "date": "Sun, 18 Oct 2026 14:20:48 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "코스피 급락에 미장으로…순매수 1위 반도체 3배 ETF는 40% 급락",
-        "link": "https://www.mk.co.kr/news/stock/12178768",
-        "source": "매일경제",
-        "date": "Sun, 18 Oct 2026 14:11:38 +09:00",
+        "date": "Sun, 18 Oct 2026 17:19:42 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg9K451ACa433FcXUo6G2\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg9K45VRyA6rS8hAfGFxc\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg9K45sFWETB2UtRLfJjC\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg9Pf8QV6QsQvqxSTPtUv\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg9Pf8nZVhhAnHbAbiNEc\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg9Pf93wGcqfGWSYPTdRR\"}"
   ]
 }
