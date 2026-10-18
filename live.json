@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-18T13:33:37.447Z",
+  "asOf": "2026-10-18T14:34:08.173Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-16T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1329.6,
+      "price": 1334.2,
       "prev": 1329.6,
-      "chg": 0,
+      "chg": 0.35,
       "prevDay": "2026-10-17",
       "basis": "prev-close-memo",
-      "time": "2026-10-18T03:30:30.000Z"
+      "time": "2026-10-18T14:06:40.000Z"
     },
     "^GSPC": {
       "price": 7659.44,
@@ -60,7 +60,7 @@
     }
   },
   "fx": {
-    "low52": 1329.6,
+    "low52": 1334.13,
     "high52": 1554.48,
     "pct": 0
   },
@@ -80,11 +80,11 @@
       "chg3m": 1.38
     },
     "KRW=X": {
-      "last": 1329.6,
-      "low52": 1329.6,
+      "last": 1334.2,
+      "low52": 1334.13,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -9.9
+      "chg3m": -9.58
     },
     "^GSPC": {
       "last": 7659.44,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg9ngE2YA"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg9sHrafb"
   },
   "stocks": {
     "kr": {
@@ -368,21 +368,32 @@
   "news": {
     "kr": [
       {
-        "title": "토스증권, 윤리·준법경영 선포식…김규빈 대표가 TF장",
-        "link": "https://www.yna.co.kr/view/AKR20261018052200008",
-        "source": "연합뉴스",
-        "date": "Sun, 18 Oct 2026 19:20:58 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
         "title": "9월 생산자물가 발표…한은 금통위도 개최",
         "link": "https://www.hankyung.com/article/2026101888201",
         "source": "한국경제",
         "date": "Sun, 18 Oct 2026 17:22:58 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "필라델피아 반도체지수 8일연속 하락…역대최장 경신 하루 남겼다",
+        "link": "https://www.mk.co.kr/news/stock/12179121",
+        "source": "매일경제",
+        "date": "Sun, 18 Oct 2026 22:36:16 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "환율·채권, 원화 강세…1330원 밑으로 하락할까",
+        "link": "https://www.hankyung.com/article/2026101888191",
+        "source": "한국경제",
+        "date": "Sun, 18 Oct 2026 17:19:39 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -401,13 +412,13 @@
         "by": "rules"
       },
       {
-        "title": "환율·채권, 원화 강세…1330원 밑으로 하락할까",
-        "link": "https://www.hankyung.com/article/2026101888191",
+        "title": "뉴욕·상하이 증시, 메타·테슬라 등 실적이 증시 향방 좌우",
+        "link": "https://www.hankyung.com/article/2026101888171",
         "source": "한국경제",
-        "date": "Sun, 18 Oct 2026 17:19:39 +0900",
+        "date": "Sun, 18 Oct 2026 17:18:16 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -419,17 +430,6 @@
         "act": "none",
         "lasting": "temporary",
         "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "뉴욕·상하이 증시, 메타·테슬라 등 실적이 증시 향방 좌우",
-        "link": "https://www.hankyung.com/article/2026101888171",
-        "source": "한국경제",
-        "date": "Sun, 18 Oct 2026 17:18:16 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -448,11 +448,11 @@
         "by": "ai"
       },
       {
-        "title": "Stocks are heading for a high-stakes showdown, as strong earnings collide with rising borrowing costs",
-        "link": "https://www.marketwatch.com/story/stocks-are-heading-for-a-high-stakes-showdown-as-strong-earnings-collide-with-rising-borrowing-costs-6f8ea5b8?mod=mw_rss_topstories",
+        "title": "These surprising stocks could be some of the biggest drivers of S&P 500 earnings growth",
+        "link": "https://www.marketwatch.com/story/these-surprising-stocks-could-be-some-of-the-biggest-drivers-of-s-p-500-earnings-growth-ea073a07?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Sun, 18 Oct 2026 13:00:00 GMT",
-        "ko": "강력한 수익과 차입 비용의 증가가 충돌하면서 주식은 높은 지분의 대결로 향하고 있습니다.",
+        "date": "Sun, 18 Oct 2026 14:00:00 GMT",
+        "ko": "이러한 놀라운 주식은 S&P 500 수익 성장의 가장 큰 원동력이 될 수 있습니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -472,11 +472,11 @@
         "by": "ai"
       },
       {
-        "title": "There is a silent market rotation inside the S&P 500 that’s warning of more weakness ahead",
-        "link": "https://www.marketwatch.com/story/there-is-a-silent-market-rotation-inside-the-s-p-500-thats-warning-of-more-weakness-ahead-549e7650?mod=mw_rss_topstories",
+        "title": "Stocks are heading for a high-stakes showdown, as strong earnings collide with rising borrowing costs",
+        "link": "https://www.marketwatch.com/story/stocks-are-heading-for-a-high-stakes-showdown-as-strong-earnings-collide-with-rising-borrowing-costs-6f8ea5b8?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Sun, 18 Oct 2026 12:00:00 GMT",
-        "ko": "S&P 500 내부에는 앞으로 더 많은 약세를 경고하는 조용한 시장 회전이 있습니다.",
+        "date": "Sun, 18 Oct 2026 13:00:00 GMT",
+        "ko": "강력한 수익과 차입 비용의 증가가 충돌하면서 주식은 높은 지분의 대결로 향하고 있습니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -496,11 +496,11 @@
         "by": "ai"
       },
       {
-        "title": "Meet the home buyers totally unfazed by 7% mortgage rates",
-        "link": "https://www.marketwatch.com/story/meet-the-home-buyers-totally-unfazed-by-7-mortgage-rates-7a9b1cc7?mod=mw_rss_topstories",
+        "title": "There is a silent market rotation inside the S&P 500 that’s warning of more weakness ahead",
+        "link": "https://www.marketwatch.com/story/there-is-a-silent-market-rotation-inside-the-s-p-500-thats-warning-of-more-weakness-ahead-549e7650?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Sat, 17 Oct 2026 13:00:00 GMT",
-        "ko": "주택 구매자를 7% 의 주택담보대출 금리로 전혀 놀라지 않고 만나보세요.",
+        "date": "Sun, 18 Oct 2026 12:00:00 GMT",
+        "ko": "S&P 500 내부에는 앞으로 더 많은 약세를 경고하는 조용한 시장 회전이 있습니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -511,7 +511,6 @@
   },
   "newsBy": "ai",
   "trCache": {
-    "A CEO Shakeup Just Tanked This Stock. How to Play It Here.": "CEO 쉐이크업이 방금 이 주식을 유조했습니다. 여기에서 플레이하는 방법.",
     "Will Lowe's Stock Keep Falling? Unusually Heavy LOW Put Options Activity May Imply This - Or Does It?": "로우의 주가는 계속 하락할 것인가? 비정상적으로 무거운 로우 풋 옵션 활동이 이를 암시할 수 있습니다 - 또는 그렇습니까?",
     "This Stock Is Trading at New All-Time Highs and Looks Like a Great Long-Term Winner": "이 주식은 새로운 사상 최고치에 거래되고 있으며 훌륭한 장기 우승자처럼 보입니다.",
     "Leveraged loan fund assets rise as Fed turns hawkish": "레버리지 대출 펀드 자산은 Fed가 매파적으로 변함에 따라 상승합니다.",
@@ -810,7 +809,8 @@
     "Microsoft, Shopify and 3 more AI stocks that are favorite Wall Street earnings plays": "마이크로소프트, 쇼피파이 등 월스트리트 수익으로 가장 좋아하는 AI 주식 3종",
     "Meet the home buyers totally unfazed by 7% mortgage rates": "주택 구매자를 7% 의 주택담보대출 금리로 전혀 놀라지 않고 만나보세요.",
     "There is a silent market rotation inside the S&P 500 that’s warning of more weakness ahead": "S&P 500 내부에는 앞으로 더 많은 약세를 경고하는 조용한 시장 회전이 있습니다.",
-    "Stocks are heading for a high-stakes showdown, as strong earnings collide with rising borrowing costs": "강력한 수익과 차입 비용의 증가가 충돌하면서 주식은 높은 지분의 대결로 향하고 있습니다."
+    "Stocks are heading for a high-stakes showdown, as strong earnings collide with rising borrowing costs": "강력한 수익과 차입 비용의 증가가 충돌하면서 주식은 높은 지분의 대결로 향하고 있습니다.",
+    "These surprising stocks could be some of the biggest drivers of S&P 500 earnings growth": "이러한 놀라운 주식은 S&P 500 수익 성장의 가장 큰 원동력이 될 수 있습니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2955,7 +2955,7 @@
       "2026-10-15": 1341.21,
       "2026-10-16": 1334.2,
       "2026-10-17": 1329.6,
-      "2026-10-18": 1329.6
+      "2026-10-18": 1334.2
     },
     "^GSPC": {
       "2026-10-07": 7801.77,
@@ -3386,9 +3386,10 @@
     }
   },
   "failed": [
+    "news/kr/연합뉴스: fetch failed",
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg9ngE2YA7EMCZqvT5FGY\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg9ngEHA3W1WKdLdSumrP\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg9ngEVKC3JgRbqpgfKZ3\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg9sHrafb6RwrfU32izCo\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg9sHs2CDbcKurw7QbpF3\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cg9sHsLoRhPf9HqvjXtGo\"}"
   ]
 }
