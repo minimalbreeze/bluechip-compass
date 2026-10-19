@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-19T08:48:08.704Z",
+  "asOf": "2026-10-19T09:48:32.907Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-19T06:33:00.000Z"
     },
     "KRW=X": {
-      "price": 1329.78,
+      "price": 1330.29,
       "prev": 1334.66,
-      "chg": -0.37,
+      "chg": -0.33,
       "prevDay": "2026-10-18",
       "basis": "prev-close-memo",
-      "time": "2026-10-19T08:47:57.000Z"
+      "time": "2026-10-19T09:48:21.000Z"
     },
     "^GSPC": {
       "price": 7659.44,
@@ -43,12 +43,12 @@
       "time": "2026-10-16T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 18.56,
+      "price": 18.64,
       "prev": 19.99,
-      "chg": -7.15,
+      "chg": -6.75,
       "prevDay": "2026-10-18",
       "basis": "prev-close-memo",
-      "time": "2026-10-19T08:32:46.000Z"
+      "time": "2026-10-19T09:33:16.000Z"
     },
     "^TNX": {
       "price": 5.098,
@@ -60,7 +60,7 @@
     }
   },
   "fx": {
-    "low52": 1329.88,
+    "low52": 1330.29,
     "high52": 1554.48,
     "pct": 0
   },
@@ -80,11 +80,11 @@
       "chg3m": -2.48
     },
     "KRW=X": {
-      "last": 1329.88,
-      "low52": 1329.88,
+      "last": 1330.29,
+      "low52": 1330.29,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -9.88
+      "chg3m": -9.85
     },
     "^GSPC": {
       "last": 7659.44,
@@ -101,11 +101,11 @@
       "chg3m": 1.17
     },
     "^VIX": {
-      "last": 18.56,
+      "last": 18.64,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.29,
-      "chg3m": -0.75
+      "pct52": 0.294,
+      "chg3m": -0.32
     },
     "^TNX": {
       "last": 5.1,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgBJiW7i7"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgBPKesGS"
   },
   "stocks": {
     "kr": {
@@ -368,6 +368,39 @@
   "news": {
     "kr": [
       {
+        "title": "이찬진 \"단일종목 ETF, 상장일정 맞추기 위해 심사 빨리 진행\"(종합2보)",
+        "link": "https://www.yna.co.kr/view/AKR20261019071352002",
+        "source": "연합뉴스",
+        "date": "Mon, 19 Oct 2026 17:52:18 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "'코어위브 신용 쇼크' 더 세게 맞은 코스피",
+        "link": "https://www.hankyung.com/article/2026101914781",
+        "source": "한국경제",
+        "date": "Mon, 19 Oct 2026 17:58:56 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "NH아문디운용 성장주도 코리아 펀드 출시 1년…“반도체 소부장 투자 확대”",
+        "link": "https://www.mk.co.kr/news/stock/12179925",
+        "source": "매일경제",
+        "date": "Mon, 19 Oct 2026 17:57:12 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
         "title": "유니슨 \"계열사 유니슨에너지 주식 150억원에 취득\"",
         "link": "https://www.yna.co.kr/view/AKR20261019158500008",
         "source": "연합뉴스",
@@ -379,10 +412,10 @@
         "by": "rules"
       },
       {
-        "title": "증시 주인공된 배터리주…미국 ESS 시장 中 업체 퇴출에 삼성SDI·LG엔솔 강세",
-        "link": "https://www.hankyung.com/article/202610191270i",
+        "title": "방산주, 3분기 어닝쇼크 전망에도 강세",
+        "link": "https://www.hankyung.com/article/2026101915271",
         "source": "한국경제",
-        "date": "Mon, 19 Oct 2026 17:08:38 +0900",
+        "date": "Mon, 19 Oct 2026 17:58:26 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -390,46 +423,13 @@
         "by": "rules"
       },
       {
-        "title": "JP모건 \"코스피 매우 싸지만 … 바닥은 글쎄\"",
-        "link": "https://www.mk.co.kr/news/stock/12179891",
+        "title": "실적 발표에는 널뛰는 주식…기준금리 변화 영향은 미미 한 까닭 [너드의 투자법]",
+        "link": "https://www.mk.co.kr/news/economy/12179919",
         "source": "매일경제",
-        "date": "Mon, 19 Oct 2026 17:45:49 +09:00",
+        "date": "Mon, 19 Oct 2026 17:51:51 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "국고채 금리, 금통위 앞두고 일제히 상승…3년물 연 3.877%(종합)",
-        "link": "https://www.yna.co.kr/view/AKR20261019145251008",
-        "source": "연합뉴스",
-        "date": "Mon, 19 Oct 2026 16:59:02 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "코스피 9% 빠질 때 조용히 올랐다…급락장 피난처 된 이 업종",
-        "link": "https://www.hankyung.com/article/202610191159i",
-        "source": "한국경제",
-        "date": "Mon, 19 Oct 2026 16:45:58 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "솔리다임 美상장 질문에 이찬진 \"중복상장 해당\"",
-        "link": "https://www.mk.co.kr/news/stock/12179879",
-        "source": "매일경제",
-        "date": "Mon, 19 Oct 2026 17:40:33 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -448,14 +448,14 @@
         "by": "rules"
       },
       {
-        "title": "These surprising stocks could be some of the biggest drivers of S&P 500 earnings growth",
-        "link": "https://www.marketwatch.com/story/these-surprising-stocks-could-be-some-of-the-biggest-drivers-of-s-p-500-earnings-growth-ea073a07?mod=mw_rss_topstories",
+        "title": "France and the U.S. share the same debt trap. Only one has a global lifeline.",
+        "link": "https://www.marketwatch.com/story/france-and-the-u-s-share-the-same-debt-trap-only-one-has-a-global-lifeline-3ae61b42?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Sun, 18 Oct 2026 14:00:00 GMT",
-        "ko": "이러한 놀라운 주식은 S&P 500 수익 성장의 가장 큰 원동력이 될 수 있습니다.",
+        "date": "Mon, 19 Oct 2026 09:30:00 GMT",
+        "ko": "프랑스와 미국은 동일한 부채 함정을 공유합니다. 단 한 명만이 글로벌 라이프라인을 가지고 있습니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -472,11 +472,11 @@
         "by": "ai"
       },
       {
-        "title": "Stocks are heading for a high-stakes showdown, as strong earnings collide with rising borrowing costs",
-        "link": "https://www.marketwatch.com/story/stocks-are-heading-for-a-high-stakes-showdown-as-strong-earnings-collide-with-rising-borrowing-costs-6f8ea5b8?mod=mw_rss_topstories",
+        "title": "These surprising stocks could be some of the biggest drivers of S&P 500 earnings growth",
+        "link": "https://www.marketwatch.com/story/these-surprising-stocks-could-be-some-of-the-biggest-drivers-of-s-p-500-earnings-growth-ea073a07?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Sun, 18 Oct 2026 13:00:00 GMT",
-        "ko": "강력한 수익과 차입 비용의 증가가 충돌하면서 주식은 높은 지분의 대결로 향하고 있습니다.",
+        "date": "Sun, 18 Oct 2026 14:00:00 GMT",
+        "ko": "이러한 놀라운 주식은 S&P 500 수익 성장의 가장 큰 원동력이 될 수 있습니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -496,11 +496,11 @@
         "by": "ai"
       },
       {
-        "title": "There is a silent market rotation inside the S&P 500 that’s warning of more weakness ahead",
-        "link": "https://www.marketwatch.com/story/there-is-a-silent-market-rotation-inside-the-s-p-500-thats-warning-of-more-weakness-ahead-549e7650?mod=mw_rss_topstories",
+        "title": "Stocks are heading for a high-stakes showdown, as strong earnings collide with rising borrowing costs",
+        "link": "https://www.marketwatch.com/story/stocks-are-heading-for-a-high-stakes-showdown-as-strong-earnings-collide-with-rising-borrowing-costs-6f8ea5b8?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Sun, 18 Oct 2026 12:00:00 GMT",
-        "ko": "S&P 500 내부에는 앞으로 더 많은 약세를 경고하는 조용한 시장 회전이 있습니다.",
+        "date": "Sun, 18 Oct 2026 13:00:00 GMT",
+        "ko": "강력한 수익과 차입 비용의 증가가 충돌하면서 주식은 높은 지분의 대결로 향하고 있습니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -511,7 +511,6 @@
   },
   "newsBy": "ai",
   "trCache": {
-    "A $200 Billion Reason to Buy GE Vernova Stock": "GE Vernova 주식을 구매해야 하는 $2,000억의 이유",
     "Arm Stock: Too Good to Sell, Too Expensive to Buy": "암 스톡 (Arm Stock): 팔기에는 너무 좋고, 사기에는 너무 비싸다.",
     "Microsoft (MSFT) Raises Its Dividend 8%. Does AI Spending Change the Investment Case?": "Microsoft (MSFT) 는 배당금을 8% 인상합니다. AI 지출이 투자 사례를 바꾸나요?",
     "CRCL Stock Alert: What to Know as Circle Lands $100 Billion Deal With Binance": "CRCL Stock Alert: Circle Lands로 알아야 할 사항 Binance와의 $1,000억 거래",
@@ -810,7 +809,8 @@
     "These surprising stocks could be some of the biggest drivers of S&P 500 earnings growth": "이러한 놀라운 주식은 S&P 500 수익 성장의 가장 큰 원동력이 될 수 있습니다.",
     "India’s Finance Minister blames easy exits and excess liquidity for equity market's underperformance": "인도 재무장관은 쉬운 출구와 초과 유동성을 주식 시장의 저조한 실적 탓으로 돌린다.",
     "India’s Finance Minister says easy exits and excess liquidity fuel equity market's underperformance": "인도 재무장관, 쉬운 출구 및 초과 유동성 연료 주식 시장의 실적 부진",
-    "India’s finance minister says market liquidity makes it easier for investors to exit": "인도 재무장관은 시장 유동성을 통해 투자자들이 쉽게 빠져나갈 수 있다고 말합니다."
+    "India’s finance minister says market liquidity makes it easier for investors to exit": "인도 재무장관은 시장 유동성을 통해 투자자들이 쉽게 빠져나갈 수 있다고 말합니다.",
+    "France and the U.S. share the same debt trap. Only one has a global lifeline.": "프랑스와 미국은 동일한 부채 함정을 공유합니다. 단 한 명만이 글로벌 라이프라인을 가지고 있습니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2955,7 +2955,7 @@
       "2026-10-16": 1334.2,
       "2026-10-17": 1329.6,
       "2026-10-18": 1334.66,
-      "2026-10-19": 1329.78
+      "2026-10-19": 1330.29
     },
     "^GSPC": {
       "2026-10-08": 7765.36,
@@ -2997,7 +2997,7 @@
       "2026-10-16": 19.99,
       "2026-10-17": 19.99,
       "2026-10-18": 19.99,
-      "2026-10-19": 18.56
+      "2026-10-19": 18.64
     },
     "^TNX": {
       "2026-10-08": 5.231,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgBJiW7i7MSjjmuxirrjB\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgBJiWY1zvkJtmuQRPFe4\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgBJiWrNMnmBKwBbycpAd\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgBPKesGSTyUYLjviyT5u\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgBPKfPWdTAuBHbLBDV25\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgBPKfna5THEjSspxuRRt\"}"
   ]
 }
