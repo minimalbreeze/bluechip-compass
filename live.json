@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-19T07:47:38.261Z",
+  "asOf": "2026-10-19T08:48:08.704Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-19T06:33:00.000Z"
     },
     "KRW=X": {
-      "price": 1330.88,
+      "price": 1329.78,
       "prev": 1334.66,
-      "chg": -0.28,
+      "chg": -0.37,
       "prevDay": "2026-10-18",
       "basis": "prev-close-memo",
-      "time": "2026-10-19T07:47:22.000Z"
+      "time": "2026-10-19T08:47:57.000Z"
     },
     "^GSPC": {
       "price": 7659.44,
@@ -43,12 +43,12 @@
       "time": "2026-10-16T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 18.31,
+      "price": 18.56,
       "prev": 19.99,
-      "chg": -8.4,
+      "chg": -7.15,
       "prevDay": "2026-10-18",
       "basis": "prev-close-memo",
-      "time": "2026-10-19T07:32:16.000Z"
+      "time": "2026-10-19T08:32:46.000Z"
     },
     "^TNX": {
       "price": 5.098,
@@ -60,7 +60,7 @@
     }
   },
   "fx": {
-    "low52": 1330.88,
+    "low52": 1329.88,
     "high52": 1554.48,
     "pct": 0
   },
@@ -80,11 +80,11 @@
       "chg3m": -2.48
     },
     "KRW=X": {
-      "last": 1330.88,
-      "low52": 1330.88,
+      "last": 1329.88,
+      "low52": 1329.88,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -9.81
+      "chg3m": -9.88
     },
     "^GSPC": {
       "last": 7659.44,
@@ -101,11 +101,11 @@
       "chg3m": 1.17
     },
     "^VIX": {
-      "last": 18.31,
+      "last": 18.56,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.275,
-      "chg3m": -2.09
+      "pct52": 0.29,
+      "chg3m": -0.75
     },
     "^TNX": {
       "last": 5.1,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgBE6tCHY"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgBJiW7i7"
   },
   "stocks": {
     "kr": {
@@ -368,21 +368,10 @@
   "news": {
     "kr": [
       {
-        "title": "국고채 금리 일제히 상승…3년물 연 3.877%",
-        "link": "https://www.yna.co.kr/view/AKR20261019145200008",
+        "title": "유니슨 \"계열사 유니슨에너지 주식 150억원에 취득\"",
+        "link": "https://www.yna.co.kr/view/AKR20261019158500008",
         "source": "연합뉴스",
-        "date": "Mon, 19 Oct 2026 16:42:12 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "교직원공제회, '반도체 소부장' 펀드 투자로 1100억 벌었다",
-        "link": "https://www.hankyung.com/article/2026101998781",
-        "source": "한국경제",
-        "date": "Mon, 19 Oct 2026 15:53:20 +0900",
+        "date": "Mon, 19 Oct 2026 17:35:32 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -390,21 +379,10 @@
         "by": "rules"
       },
       {
-        "title": "‘상승전환’ 코스피, 1.8% 오른 5768 마감…코스닥도 올라",
-        "link": "https://www.mk.co.kr/news/stock/12179680",
-        "source": "매일경제",
-        "date": "Mon, 19 Oct 2026 15:57:43 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "중앙일보 매각 본입찰에 다우키움·오리온 등 6곳 참여",
-        "link": "https://www.yna.co.kr/view/AKR20261019144500008",
-        "source": "연합뉴스",
-        "date": "Mon, 19 Oct 2026 16:40:55 +0900",
+        "title": "증시 주인공된 배터리주…미국 ESS 시장 中 업체 퇴출에 삼성SDI·LG엔솔 강세",
+        "link": "https://www.hankyung.com/article/202610191270i",
+        "source": "한국경제",
+        "date": "Mon, 19 Oct 2026 17:08:38 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -412,21 +390,43 @@
         "by": "rules"
       },
       {
-        "title": "삼성운용, 'KODEX 미국배당다우존스액티브' 20일 상장",
-        "link": "https://www.hankyung.com/article/202610191072i",
-        "source": "한국경제",
-        "date": "Mon, 19 Oct 2026 15:49:12 +0900",
+        "title": "JP모건 \"코스피 매우 싸지만 … 바닥은 글쎄\"",
+        "link": "https://www.mk.co.kr/news/stock/12179891",
+        "source": "매일경제",
+        "date": "Mon, 19 Oct 2026 17:45:49 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "반도체 대형주 던지고 장비주로 [주식 초고수는 지금]",
-        "link": "https://www.mk.co.kr/news/stock/12179645",
+        "title": "국고채 금리, 금통위 앞두고 일제히 상승…3년물 연 3.877%(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261019145251008",
+        "source": "연합뉴스",
+        "date": "Mon, 19 Oct 2026 16:59:02 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "코스피 9% 빠질 때 조용히 올랐다…급락장 피난처 된 이 업종",
+        "link": "https://www.hankyung.com/article/202610191159i",
+        "source": "한국경제",
+        "date": "Mon, 19 Oct 2026 16:45:58 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "솔리다임 美상장 질문에 이찬진 \"중복상장 해당\"",
+        "link": "https://www.mk.co.kr/news/stock/12179879",
         "source": "매일경제",
-        "date": "Mon, 19 Oct 2026 15:28:39 +09:00",
+        "date": "Mon, 19 Oct 2026 17:40:33 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -436,14 +436,14 @@
     ],
     "us": [
       {
-        "title": "India’s Finance Minister says easy exits and excess liquidity fuel equity market's underperformance",
+        "title": "India’s finance minister says market liquidity makes it easier for investors to exit",
         "link": "https://www.cnbc.com/2026/10/18/india-ai-nifty50-sensex-investors.html",
         "source": "CNBC",
-        "date": "Mon, 19 Oct 2026 04:46:26 GMT",
-        "ko": "인도 재무장관, 쉬운 출구 및 초과 유동성 연료 주식 시장의 실적 부진",
+        "date": "Mon, 19 Oct 2026 08:23:33 GMT",
+        "ko": "인도 재무장관은 시장 유동성을 통해 투자자들이 쉽게 빠져나갈 수 있다고 말합니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -511,7 +511,6 @@
   },
   "newsBy": "ai",
   "trCache": {
-    "Leveraged loan fund assets rise as Fed turns hawkish": "레버리지 대출 펀드 자산은 Fed가 매파적으로 변함에 따라 상승합니다.",
     "A $200 Billion Reason to Buy GE Vernova Stock": "GE Vernova 주식을 구매해야 하는 $2,000억의 이유",
     "Arm Stock: Too Good to Sell, Too Expensive to Buy": "암 스톡 (Arm Stock): 팔기에는 너무 좋고, 사기에는 너무 비싸다.",
     "Microsoft (MSFT) Raises Its Dividend 8%. Does AI Spending Change the Investment Case?": "Microsoft (MSFT) 는 배당금을 8% 인상합니다. AI 지출이 투자 사례를 바꾸나요?",
@@ -810,7 +809,8 @@
     "Stocks are heading for a high-stakes showdown, as strong earnings collide with rising borrowing costs": "강력한 수익과 차입 비용의 증가가 충돌하면서 주식은 높은 지분의 대결로 향하고 있습니다.",
     "These surprising stocks could be some of the biggest drivers of S&P 500 earnings growth": "이러한 놀라운 주식은 S&P 500 수익 성장의 가장 큰 원동력이 될 수 있습니다.",
     "India’s Finance Minister blames easy exits and excess liquidity for equity market's underperformance": "인도 재무장관은 쉬운 출구와 초과 유동성을 주식 시장의 저조한 실적 탓으로 돌린다.",
-    "India’s Finance Minister says easy exits and excess liquidity fuel equity market's underperformance": "인도 재무장관, 쉬운 출구 및 초과 유동성 연료 주식 시장의 실적 부진"
+    "India’s Finance Minister says easy exits and excess liquidity fuel equity market's underperformance": "인도 재무장관, 쉬운 출구 및 초과 유동성 연료 주식 시장의 실적 부진",
+    "India’s finance minister says market liquidity makes it easier for investors to exit": "인도 재무장관은 시장 유동성을 통해 투자자들이 쉽게 빠져나갈 수 있다고 말합니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2955,7 +2955,7 @@
       "2026-10-16": 1334.2,
       "2026-10-17": 1329.6,
       "2026-10-18": 1334.66,
-      "2026-10-19": 1330.88
+      "2026-10-19": 1329.78
     },
     "^GSPC": {
       "2026-10-08": 7765.36,
@@ -2997,7 +2997,7 @@
       "2026-10-16": 19.99,
       "2026-10-17": 19.99,
       "2026-10-18": 19.99,
-      "2026-10-19": 18.31
+      "2026-10-19": 18.56
     },
     "^TNX": {
       "2026-10-08": 5.231,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgBE6tCHYTFyQ4X9SBK47\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgBE6tiHaVG5Qp8R9zL8L\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgBE6u5sZpg8rKDNfz9KU\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgBJiW7i7MSjjmuxirrjB\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgBJiWY1zvkJtmuQRPFe4\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgBJiWrNMnmBKwBbycpAd\"}"
   ]
 }
