@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-19T00:01:52.381Z",
+  "asOf": "2026-10-19T00:12:16.051Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-16T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1335.08,
+      "price": 1335.48,
       "prev": 1334.66,
-      "chg": 0.03,
+      "chg": 0.06,
       "prevDay": "2026-10-18",
       "basis": "prev-close-memo",
-      "time": "2026-10-19T00:01:42.000Z"
+      "time": "2026-10-19T00:12:09.000Z"
     },
     "^GSPC": {
       "price": 7659.44,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1334.13,
     "high52": 1554.48,
-    "pct": 0.004
+    "pct": 0.006
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": 1.38
     },
     "KRW=X": {
-      "last": 1335.08,
+      "last": 1335.48,
       "low52": 1334.13,
       "high52": 1554.48,
-      "pct52": 0.004,
-      "chg3m": -9.52
+      "pct52": 0.006,
+      "chg3m": -9.5
     },
     "^GSPC": {
       "last": 7659.44,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgAcaspJw"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgAdNqyCq"
   },
   "stocks": {
     "kr": {
@@ -368,13 +368,13 @@
   "news": {
     "kr": [
       {
-        "title": "신한증권 \"은행주, 반길 수만 없는 아웃퍼폼…시장 안정이 관건\"",
-        "link": "https://www.yna.co.kr/view/AKR20261019026200008",
+        "title": "코스피, 3.2% 급락한 5,488 개장…코스닥도 2.7%↓",
+        "link": "https://www.yna.co.kr/view/AKR20261019033200008",
         "source": "연합뉴스",
-        "date": "Mon, 19 Oct 2026 08:49:56 +0900",
+        "date": "Mon, 19 Oct 2026 09:07:06 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -401,13 +401,13 @@
         "by": "rules"
       },
       {
-        "title": "교보증권, 넷마블 목표주가 16%↓…\"신작 성과 확인 필요\"",
-        "link": "https://www.yna.co.kr/view/AKR20261019023900008",
+        "title": "[속보] 코스피, 3.2% 급락한 5,488 개장…코스닥도 2.7%↓",
+        "link": "https://www.yna.co.kr/view/AKR20261019030400008",
         "source": "연합뉴스",
-        "date": "Mon, 19 Oct 2026 08:40:29 +0900",
+        "date": "Mon, 19 Oct 2026 09:02:01 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -2955,7 +2955,7 @@
       "2026-10-16": 1334.2,
       "2026-10-17": 1329.6,
       "2026-10-18": 1334.66,
-      "2026-10-19": 1335.08
+      "2026-10-19": 1335.48
     },
     "^GSPC": {
       "2026-10-07": 7801.77,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgAcaspJwjm6inXnavQaE\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgAcatAtbANNQPe9u7R6b\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgAcatUyws24Z6Ys4xmoA\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgAdNqyCqK4XeRpYZDAhU\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgAdNrXSq7kRcCZEoddVD\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgAdNrvFo3hYTpNu9scTD\"}"
   ]
 }
