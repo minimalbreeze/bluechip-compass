@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-18T23:37:32.312Z",
+  "asOf": "2026-10-19T00:01:52.381Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-16T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1334.28,
+      "price": 1335.08,
       "prev": 1334.66,
-      "chg": -0.03,
+      "chg": 0.03,
       "prevDay": "2026-10-18",
       "basis": "prev-close-memo",
-      "time": "2026-10-18T23:37:24.000Z"
+      "time": "2026-10-19T00:01:42.000Z"
     },
     "^GSPC": {
       "price": 7659.44,
@@ -62,14 +62,14 @@
   "fx": {
     "low52": 1334.13,
     "high52": 1554.48,
-    "pct": 0.001
+    "pct": 0.004
   },
   "hist": {
     "^KS11": {
       "last": 5668.05,
-      "low52": 3748.37,
+      "low52": 3814.69,
       "high52": 9114.55,
-      "pct52": 0.358,
+      "pct52": 0.35,
       "chg3m": -17.34
     },
     "^KQ11": {
@@ -80,11 +80,11 @@
       "chg3m": 1.38
     },
     "KRW=X": {
-      "last": 1334.28,
+      "last": 1335.08,
       "low52": 1334.13,
       "high52": 1554.48,
-      "pct52": 0.001,
-      "chg3m": -9.58
+      "pct52": 0.004,
+      "chg3m": -9.52
     },
     "^GSPC": {
       "last": 7659.44,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgAajF6xw"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgAcaspJw"
   },
   "stocks": {
     "kr": {
@@ -368,10 +368,10 @@
   "news": {
     "kr": [
       {
-        "title": "DS증권 \"유럽 방산주 추세전환, 韓 방산도 상승 가능성\"",
-        "link": "https://www.yna.co.kr/view/AKR20261019021300008",
+        "title": "신한증권 \"은행주, 반길 수만 없는 아웃퍼폼…시장 안정이 관건\"",
+        "link": "https://www.yna.co.kr/view/AKR20261019026200008",
         "source": "연합뉴스",
-        "date": "Mon, 19 Oct 2026 08:30:28 +0900",
+        "date": "Mon, 19 Oct 2026 08:49:56 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -379,13 +379,13 @@
         "by": "rules"
       },
       {
-        "title": "코스피 새파랗게 질린 날…혼자 13% 뛴 종목 있었다 [종목+]",
-        "link": "https://www.hankyung.com/article/2026101658136",
+        "title": "\"LIG D&A, 3분기 실적 예상 밑돌고 4분기도 비용 부담 우려…목표가↓\"-대신",
+        "link": "https://www.hankyung.com/article/2026101994386",
         "source": "한국경제",
-        "date": "Mon, 19 Oct 2026 06:30:03 +0900",
+        "date": "Mon, 19 Oct 2026 08:12:01 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -401,10 +401,10 @@
         "by": "rules"
       },
       {
-        "title": "대신증권 \"금, 내년도 전고점 상회 어려워…반등 시 비중 조정\"",
-        "link": "https://www.yna.co.kr/view/AKR20261019019900008",
+        "title": "교보증권, 넷마블 목표주가 16%↓…\"신작 성과 확인 필요\"",
+        "link": "https://www.yna.co.kr/view/AKR20261019023900008",
         "source": "연합뉴스",
-        "date": "Mon, 19 Oct 2026 08:26:08 +0900",
+        "date": "Mon, 19 Oct 2026 08:40:29 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -412,10 +412,10 @@
         "by": "rules"
       },
       {
-        "title": "9월 생산자물가 발표…한은 금통위도 개최",
-        "link": "https://www.hankyung.com/article/2026101888201",
+        "title": "\"코스피 급락은 반도체 쏠림 때문…편중 위험 줄여야\"-유진",
+        "link": "https://www.hankyung.com/article/2026101993526",
         "source": "한국경제",
-        "date": "Sun, 18 Oct 2026 17:22:58 +0900",
+        "date": "Mon, 19 Oct 2026 08:00:34 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -2955,7 +2955,7 @@
       "2026-10-16": 1334.2,
       "2026-10-17": 1329.6,
       "2026-10-18": 1334.66,
-      "2026-10-19": 1334.28
+      "2026-10-19": 1335.08
     },
     "^GSPC": {
       "2026-10-07": 7801.77,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgAajF6xw8RxBmfqUjtSJ\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgAajFdhqfTUdYtdb1Ea6\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgAajFzJPaexXVUzAbCkQ\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgAcaspJwjm6inXnavQaE\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgAcatAtbANNQPe9u7R6b\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgAcatUyws24Z6Ys4xmoA\"}"
   ]
 }
