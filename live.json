@@ -1,30 +1,30 @@
 {
-  "asOf": "2026-10-19T04:42:31.725Z",
+  "asOf": "2026-10-19T04:52:53.365Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
-      "price": 5702.14,
+      "price": 5702.88,
       "prev": 5668.05,
-      "chg": 0.6,
-      "prevDay": "2026-10-18",
-      "basis": "prev-close-memo",
-      "time": "2026-10-19T04:22:20.000Z"
-    },
-    "^KQ11": {
-      "price": 799.62,
-      "prev": 794.78,
       "chg": 0.61,
       "prevDay": "2026-10-18",
       "basis": "prev-close-memo",
-      "time": "2026-10-19T04:22:20.000Z"
+      "time": "2026-10-19T04:32:40.000Z"
     },
-    "KRW=X": {
-      "price": 1331.61,
-      "prev": 1334.66,
-      "chg": -0.23,
+    "^KQ11": {
+      "price": 798.71,
+      "prev": 794.78,
+      "chg": 0.49,
       "prevDay": "2026-10-18",
       "basis": "prev-close-memo",
-      "time": "2026-10-19T04:42:15.000Z"
+      "time": "2026-10-19T04:32:40.000Z"
+    },
+    "KRW=X": {
+      "price": 1331.32,
+      "prev": 1334.66,
+      "chg": -0.25,
+      "prevDay": "2026-10-18",
+      "basis": "prev-close-memo",
+      "time": "2026-10-19T04:52:38.000Z"
     },
     "^GSPC": {
       "price": 7659.44,
@@ -60,31 +60,31 @@
     }
   },
   "fx": {
-    "low52": 1331.61,
+    "low52": 1331.32,
     "high52": 1554.48,
     "pct": 0
   },
   "hist": {
     "^KS11": {
-      "last": 5702.14,
+      "last": 5702.88,
       "low52": 3814.69,
       "high52": 9114.55,
       "pct52": 0.356,
-      "chg3m": -21.72
+      "chg3m": -21.71
     },
     "^KQ11": {
-      "last": 799.62,
+      "last": 798.71,
       "low52": 644.78,
       "high52": 1226.18,
-      "pct52": 0.266,
-      "chg3m": -3.59
+      "pct52": 0.265,
+      "chg3m": -3.7
     },
     "KRW=X": {
-      "last": 1331.61,
-      "low52": 1331.61,
+      "last": 1331.32,
+      "low52": 1331.32,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -9.76
+      "chg3m": -9.78
     },
     "^GSPC": {
       "last": 7659.44,
@@ -149,25 +149,25 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgAyzBKMV"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgAzn13FR"
   },
   "stocks": {
     "kr": {
       "105560": {
-        "price": 161600,
+        "price": 161700,
         "prev": 160000,
-        "chg": 1,
+        "chg": 1.06,
         "prevDay": "2026-10-18",
         "basis": "prev-close-memo",
-        "time": "2026-10-19T04:22:27.000Z"
+        "time": "2026-10-19T04:32:49.000Z"
       },
       "207940": {
-        "price": 1400000,
+        "price": 1402000,
         "prev": 1298000,
-        "chg": 7.86,
+        "chg": 8.01,
         "prevDay": "2026-10-18",
         "basis": "prev-close-memo",
-        "time": "2026-10-19T04:22:29.000Z"
+        "time": "2026-10-19T04:32:49.000Z"
       },
       "005930": {
         "price": 216000,
@@ -175,15 +175,15 @@
         "chg": 0.23,
         "prevDay": "2026-10-18",
         "basis": "prev-close-memo",
-        "time": "2026-10-19T04:22:30.000Z"
+        "time": "2026-10-19T04:32:51.000Z"
       },
       "000660": {
-        "price": 1257500,
+        "price": 1260000,
         "prev": 1272000,
-        "chg": -1.14,
+        "chg": -0.94,
         "prevDay": "2026-10-18",
         "basis": "prev-close-memo",
-        "time": "2026-10-19T04:22:30.000Z"
+        "time": "2026-10-19T04:32:49.000Z"
       },
       "005380": {
         "price": 325000,
@@ -191,63 +191,63 @@
         "chg": 4.17,
         "prevDay": "2026-10-18",
         "basis": "prev-close-memo",
-        "time": "2026-10-19T04:22:27.000Z"
+        "time": "2026-10-19T04:32:51.000Z"
       },
       "055550": {
-        "price": 92700,
+        "price": 92800,
         "prev": 93400,
-        "chg": -0.75,
+        "chg": -0.64,
         "prevDay": "2026-10-18",
         "basis": "prev-close-memo",
-        "time": "2026-10-19T04:22:27.000Z"
+        "time": "2026-10-19T04:32:49.000Z"
       },
       "000810": {
-        "price": 606000,
+        "price": 608000,
         "prev": 586000,
-        "chg": 3.41,
+        "chg": 3.75,
         "prevDay": "2026-10-18",
         "basis": "prev-close-memo",
-        "time": "2026-10-19T04:22:22.000Z"
+        "time": "2026-10-19T04:32:52.000Z"
       },
       "033780": {
-        "price": 192000,
+        "price": 192700,
         "prev": 190500,
+        "chg": 1.15,
+        "prevDay": "2026-10-18",
+        "basis": "prev-close-memo",
+        "time": "2026-10-19T04:32:49.000Z"
+      },
+      "035420": {
+        "price": 181300,
+        "prev": 180000,
+        "chg": 0.72,
+        "prevDay": "2026-10-18",
+        "basis": "prev-close-memo",
+        "time": "2026-10-19T04:32:49.000Z"
+      },
+      "005490": {
+        "price": 311000,
+        "prev": 296500,
+        "chg": 4.89,
+        "prevDay": "2026-10-18",
+        "basis": "prev-close-memo",
+        "time": "2026-10-19T04:32:49.000Z"
+      },
+      "028260": {
+        "price": 281500,
+        "prev": 286500,
+        "chg": -1.75,
+        "prevDay": "2026-10-18",
+        "basis": "prev-close-memo",
+        "time": "2026-10-19T04:32:49.000Z"
+      },
+      "012450": {
+        "price": 895000,
+        "prev": 888000,
         "chg": 0.79,
         "prevDay": "2026-10-18",
         "basis": "prev-close-memo",
-        "time": "2026-10-19T04:22:30.000Z"
-      },
-      "035420": {
-        "price": 181200,
-        "prev": 180000,
-        "chg": 0.67,
-        "prevDay": "2026-10-18",
-        "basis": "prev-close-memo",
-        "time": "2026-10-19T04:22:29.000Z"
-      },
-      "005490": {
-        "price": 310500,
-        "prev": 296500,
-        "chg": 4.72,
-        "prevDay": "2026-10-18",
-        "basis": "prev-close-memo",
-        "time": "2026-10-19T04:22:29.000Z"
-      },
-      "028260": {
-        "price": 280500,
-        "prev": 286500,
-        "chg": -2.09,
-        "prevDay": "2026-10-18",
-        "basis": "prev-close-memo",
-        "time": "2026-10-19T04:22:30.000Z"
-      },
-      "012450": {
-        "price": 898000,
-        "prev": 888000,
-        "chg": 1.13,
-        "prevDay": "2026-10-18",
-        "basis": "prev-close-memo",
-        "time": "2026-10-19T04:22:27.000Z"
+        "time": "2026-10-19T04:32:49.000Z"
       },
       "017670": {
         "price": 78300,
@@ -255,7 +255,7 @@
         "chg": -0.13,
         "prevDay": "2026-10-18",
         "basis": "prev-close-memo",
-        "time": "2026-10-19T04:22:29.000Z"
+        "time": "2026-10-19T04:32:49.000Z"
       }
     },
     "us": {
@@ -436,11 +436,11 @@
     ],
     "us": [
       {
-        "title": "India’s Finance Minister blames easy exits and excess liquidity for equity market's underperformance",
+        "title": "India’s Finance Minister says easy exits and excess liquidity fuel equity market's underperformance",
         "link": "https://www.cnbc.com/2026/10/18/india-ai-nifty50-sensex-investors.html",
         "source": "CNBC",
-        "date": "Sun, 18 Oct 2026 23:00:01 GMT",
-        "ko": "인도 재무장관은 쉬운 출구와 초과 유동성을 주식 시장의 저조한 실적 탓으로 돌린다.",
+        "date": "Mon, 19 Oct 2026 04:46:26 GMT",
+        "ko": "인도 재무장관, 쉬운 출구 및 초과 유동성 연료 주식 시장의 실적 부진",
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
@@ -511,7 +511,6 @@
   },
   "newsBy": "ai",
   "trCache": {
-    "This Stock Is Trading at New All-Time Highs and Looks Like a Great Long-Term Winner": "이 주식은 새로운 사상 최고치에 거래되고 있으며 훌륭한 장기 우승자처럼 보입니다.",
     "Leveraged loan fund assets rise as Fed turns hawkish": "레버리지 대출 펀드 자산은 Fed가 매파적으로 변함에 따라 상승합니다.",
     "A $200 Billion Reason to Buy GE Vernova Stock": "GE Vernova 주식을 구매해야 하는 $2,000억의 이유",
     "Arm Stock: Too Good to Sell, Too Expensive to Buy": "암 스톡 (Arm Stock): 팔기에는 너무 좋고, 사기에는 너무 비싸다.",
@@ -810,7 +809,8 @@
     "There is a silent market rotation inside the S&P 500 that’s warning of more weakness ahead": "S&P 500 내부에는 앞으로 더 많은 약세를 경고하는 조용한 시장 회전이 있습니다.",
     "Stocks are heading for a high-stakes showdown, as strong earnings collide with rising borrowing costs": "강력한 수익과 차입 비용의 증가가 충돌하면서 주식은 높은 지분의 대결로 향하고 있습니다.",
     "These surprising stocks could be some of the biggest drivers of S&P 500 earnings growth": "이러한 놀라운 주식은 S&P 500 수익 성장의 가장 큰 원동력이 될 수 있습니다.",
-    "India’s Finance Minister blames easy exits and excess liquidity for equity market's underperformance": "인도 재무장관은 쉬운 출구와 초과 유동성을 주식 시장의 저조한 실적 탓으로 돌린다."
+    "India’s Finance Minister blames easy exits and excess liquidity for equity market's underperformance": "인도 재무장관은 쉬운 출구와 초과 유동성을 주식 시장의 저조한 실적 탓으로 돌린다.",
+    "India’s Finance Minister says easy exits and excess liquidity fuel equity market's underperformance": "인도 재무장관, 쉬운 출구 및 초과 유동성 연료 주식 시장의 실적 부진"
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2927,7 +2927,7 @@
       "2026-10-16": 5668.05,
       "2026-10-17": 5668.05,
       "2026-10-18": 5668.05,
-      "2026-10-19": 5702.14
+      "2026-10-19": 5702.88
     },
     "^KQ11": {
       "2026-10-08": 892.27,
@@ -2941,7 +2941,7 @@
       "2026-10-16": 794.78,
       "2026-10-17": 794.78,
       "2026-10-18": 794.78,
-      "2026-10-19": 799.62
+      "2026-10-19": 798.71
     },
     "KRW=X": {
       "2026-10-08": 1342.21,
@@ -2955,7 +2955,7 @@
       "2026-10-16": 1334.2,
       "2026-10-17": 1329.6,
       "2026-10-18": 1334.66,
-      "2026-10-19": 1331.61
+      "2026-10-19": 1331.32
     },
     "^GSPC": {
       "2026-10-08": 7765.36,
@@ -3025,7 +3025,7 @@
       "2026-10-16": 160000,
       "2026-10-17": 160000,
       "2026-10-18": 160000,
-      "2026-10-19": 161600
+      "2026-10-19": 161700
     },
     "207940.KS": {
       "2026-10-08": 1219000,
@@ -3039,7 +3039,7 @@
       "2026-10-16": 1298000,
       "2026-10-17": 1298000,
       "2026-10-18": 1298000,
-      "2026-10-19": 1400000
+      "2026-10-19": 1402000
     },
     "005930.KS": {
       "2026-10-08": 262000,
@@ -3067,7 +3067,7 @@
       "2026-10-16": 1272000,
       "2026-10-17": 1272000,
       "2026-10-18": 1272000,
-      "2026-10-19": 1257500
+      "2026-10-19": 1260000
     },
     "005380.KS": {
       "2026-10-08": 324500,
@@ -3095,7 +3095,7 @@
       "2026-10-16": 93400,
       "2026-10-17": 93400,
       "2026-10-18": 93400,
-      "2026-10-19": 92700
+      "2026-10-19": 92800
     },
     "000810.KS": {
       "2026-10-08": 612000,
@@ -3109,7 +3109,7 @@
       "2026-10-16": 586000,
       "2026-10-17": 586000,
       "2026-10-18": 586000,
-      "2026-10-19": 606000
+      "2026-10-19": 608000
     },
     "033780.KS": {
       "2026-10-08": 177400,
@@ -3123,7 +3123,7 @@
       "2026-10-16": 190500,
       "2026-10-17": 190500,
       "2026-10-18": 190500,
-      "2026-10-19": 192000
+      "2026-10-19": 192700
     },
     "035420.KS": {
       "2026-10-08": 183800,
@@ -3137,7 +3137,7 @@
       "2026-10-16": 180000,
       "2026-10-17": 180000,
       "2026-10-18": 180000,
-      "2026-10-19": 181200
+      "2026-10-19": 181300
     },
     "005490.KS": {
       "2026-10-08": 306500,
@@ -3151,7 +3151,7 @@
       "2026-10-16": 296500,
       "2026-10-17": 296500,
       "2026-10-18": 296500,
-      "2026-10-19": 310500
+      "2026-10-19": 311000
     },
     "028260.KS": {
       "2026-10-08": 317500,
@@ -3165,7 +3165,7 @@
       "2026-10-16": 286500,
       "2026-10-17": 286500,
       "2026-10-18": 286500,
-      "2026-10-19": 280500
+      "2026-10-19": 281500
     },
     "012450.KS": {
       "2026-10-08": 891000,
@@ -3179,7 +3179,7 @@
       "2026-10-16": 888000,
       "2026-10-17": 888000,
       "2026-10-18": 888000,
-      "2026-10-19": 898000
+      "2026-10-19": 895000
     },
     "017670.KS": {
       "2026-10-08": 84100,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgAyzBKMVAmUvyZPA9tcD\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgAyzBehJroMZACKJ5LBb\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgAyzBvK9RtXExMin1pNG\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgAzn13FRwtu8CddXQBfr\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgAzn1Q5SVHAyiZzGwYY1\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgAzn1gT579MHHXUhid7j\"}"
   ]
 }
