@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-19T10:48:55.542Z",
+  "asOf": "2026-10-19T11:49:17.454Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -8,7 +8,7 @@
       "chg": 1.76,
       "prevDay": "2026-10-18",
       "basis": "prev-close-memo",
-      "time": "2026-10-19T06:32:40.000Z"
+      "time": "2026-10-19T11:05:40.000Z"
     },
     "^KQ11": {
       "price": 808.89,
@@ -16,15 +16,15 @@
       "chg": 1.78,
       "prevDay": "2026-10-18",
       "basis": "prev-close-memo",
-      "time": "2026-10-19T06:33:00.000Z"
+      "time": "2026-10-19T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1328.88,
+      "price": 1329.23,
       "prev": 1334.66,
-      "chg": -0.43,
+      "chg": -0.41,
       "prevDay": "2026-10-18",
       "basis": "prev-close-memo",
-      "time": "2026-10-19T10:48:41.000Z"
+      "time": "2026-10-19T11:49:08.000Z"
     },
     "^GSPC": {
       "price": 7659.44,
@@ -43,12 +43,12 @@
       "time": "2026-10-16T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 18.67,
+      "price": 18.9,
       "prev": 19.99,
-      "chg": -6.6,
+      "chg": -5.45,
       "prevDay": "2026-10-18",
       "basis": "prev-close-memo",
-      "time": "2026-10-19T10:33:46.000Z"
+      "time": "2026-10-19T11:34:01.000Z"
     },
     "^TNX": {
       "price": 5.098,
@@ -60,7 +60,7 @@
     }
   },
   "fx": {
-    "low52": 1328.88,
+    "low52": 1329.23,
     "high52": 1554.48,
     "pct": 0
   },
@@ -80,11 +80,11 @@
       "chg3m": -2.48
     },
     "KRW=X": {
-      "last": 1328.88,
-      "low52": 1328.88,
+      "last": 1329.23,
+      "low52": 1329.23,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -9.94
+      "chg3m": -9.92
     },
     "^GSPC": {
       "last": 7659.44,
@@ -101,11 +101,11 @@
       "chg3m": 1.17
     },
     "^VIX": {
-      "last": 18.67,
+      "last": 18.9,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.296,
-      "chg3m": -0.16
+      "pct52": 0.309,
+      "chg3m": 1.07
     },
     "^TNX": {
       "last": 5.1,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgBTvhWhU"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgBYXgcp5"
   },
   "stocks": {
     "kr": {
@@ -368,13 +368,13 @@
   "news": {
     "kr": [
       {
-        "title": "이찬진 \"단일종목 ETF, 상장일정 맞추기 위해 심사 빨리 진행\"(종합2보)",
-        "link": "https://www.yna.co.kr/view/AKR20261019071352002",
+        "title": "[게시판] DB저축銀, 파킹통장 한도 1억원으로 확대…금리 3.3%",
+        "link": "https://www.yna.co.kr/view/AKR20261019175000002",
         "source": "연합뉴스",
-        "date": "Mon, 19 Oct 2026 17:52:18 +0900",
+        "date": "Mon, 19 Oct 2026 20:39:56 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -401,10 +401,10 @@
         "by": "rules"
       },
       {
-        "title": "유니슨 \"계열사 유니슨에너지 주식 150억원에 취득\"",
-        "link": "https://www.yna.co.kr/view/AKR20261019158500008",
+        "title": "이찬진 \"단일종목 ETF, 상장일정 맞추기 위해 심사 빨리 진행\"(종합2보)",
+        "link": "https://www.yna.co.kr/view/AKR20261019071352002",
         "source": "연합뉴스",
-        "date": "Mon, 19 Oct 2026 17:35:32 +0900",
+        "date": "Mon, 19 Oct 2026 17:52:18 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -448,14 +448,14 @@
         "by": "rules"
       },
       {
-        "title": "The S&P 500 is masking a hidden market pullback. Why Morgan Stanley says an index retreat would signal a buying opportunity.",
-        "link": "https://www.marketwatch.com/story/the-s-p-500-is-masking-a-hidden-market-pullback-why-morgan-stanley-says-an-index-retreat-would-signal-a-buying-opportunity-08d079c0?mod=mw_rss_topstories",
+        "title": "Tech stocks stumbled. Now comes a crucial week for Wall Street.",
+        "link": "https://www.marketwatch.com/story/tech-stocks-stumbled-now-comes-a-crucial-week-for-wall-street-2a093abe?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 19 Oct 2026 10:23:00 GMT",
-        "ko": "S&P 500은 숨겨진 시장 철수를 가리고 있습니다. 모건 스탠리 (Morgan Stanley) 가 지수 후퇴가 구매 기회를 알릴 것이라고 말하는 이유.",
+        "date": "Mon, 19 Oct 2026 11:30:00 GMT",
+        "ko": "기술 주식이 비틀거렸습니다. 이제 월스트리트에게 중요한 한 주가 다가옵니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -472,14 +472,14 @@
         "by": "ai"
       },
       {
-        "title": "Big tech is wobbling. Goldman Sachs says it’s time to buy these 23 unloved stocks instead.",
-        "link": "https://www.marketwatch.com/story/big-tech-is-wobbling-goldman-sachs-says-its-time-to-buy-these-23-unloved-stocks-instead-cff7a9e0?mod=mw_rss_topstories",
+        "title": "The S&P 500 is masking a hidden market pullback. Why Morgan Stanley says an index retreat would signal a buying opportunity.",
+        "link": "https://www.marketwatch.com/story/the-s-p-500-is-masking-a-hidden-market-pullback-why-morgan-stanley-says-an-index-retreat-would-signal-a-buying-opportunity-08d079c0?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 19 Oct 2026 09:58:00 GMT",
-        "ko": "빅 테크가 흔들리고 있습니다. 골드만삭스는 이 23개의 사랑받지 못한 주식을 대신 매수할 때가 되었다고 말합니다.",
+        "date": "Mon, 19 Oct 2026 10:23:00 GMT",
+        "ko": "S&P 500은 숨겨진 시장 철수를 가리고 있습니다. 모건 스탠리 (Morgan Stanley) 가 지수 후퇴가 구매 기회를 알릴 것이라고 말하는 이유.",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -496,11 +496,11 @@
         "by": "ai"
       },
       {
-        "title": "France and the U.S. share the same debt trap. Only one has a global lifeline.",
-        "link": "https://www.marketwatch.com/story/france-and-the-u-s-share-the-same-debt-trap-only-one-has-a-global-lifeline-3ae61b42?mod=mw_rss_topstories",
+        "title": "Big tech is wobbling. Goldman Sachs says it’s time to buy these 23 unloved stocks instead.",
+        "link": "https://www.marketwatch.com/story/big-tech-is-wobbling-goldman-sachs-says-its-time-to-buy-these-23-unloved-stocks-instead-cff7a9e0?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 19 Oct 2026 09:30:00 GMT",
-        "ko": "프랑스와 미국은 동일한 부채 함정을 공유합니다. 단 한 명만이 글로벌 라이프라인을 가지고 있습니다.",
+        "date": "Mon, 19 Oct 2026 09:58:00 GMT",
+        "ko": "빅 테크가 흔들리고 있습니다. 골드만삭스는 이 23개의 사랑받지 못한 주식을 대신 매수할 때가 되었다고 말합니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -511,7 +511,6 @@
   },
   "newsBy": "ai",
   "trCache": {
-    "CRCL Stock Alert: What to Know as Circle Lands $100 Billion Deal With Binance": "CRCL Stock Alert: Circle Lands로 알아야 할 사항 Binance와의 $1,000억 거래",
     "Prediction: 3 Stocks That Will Be Worth More Than Palantir 5 Years From Now": "예측: 5년 후 Palantir보다 더 가치가 있는 3가지 주식",
     "Switzerland keeps interest rates at 0% — but markets are betting it can’t avoid the global hiking cycle much longer": "스위스는 금리를 0% 로 유지하지만 시장은 글로벌 하이킹 사이클을 훨씬 더 오래 피할 수 없다고 내다보고 있습니다.",
     "Nebius Stock Spikes 4% on Higher Computer Prices. How to Play NBIS Stock Here.": "더 높은 컴퓨터 가격에 네비우스 주식 급등 4%. 여기서 NBIS Stock을 플레이하는 방법.",
@@ -810,7 +809,8 @@
     "India’s finance minister says market liquidity makes it easier for investors to exit": "인도 재무장관은 시장 유동성을 통해 투자자들이 쉽게 빠져나갈 수 있다고 말합니다.",
     "France and the U.S. share the same debt trap. Only one has a global lifeline.": "프랑스와 미국은 동일한 부채 함정을 공유합니다. 단 한 명만이 글로벌 라이프라인을 가지고 있습니다.",
     "The S&P 500 is masking a hidden market pullback. Why Morgan Stanley says an index retreat would signal a buying opportunity.": "S&P 500은 숨겨진 시장 철수를 가리고 있습니다. 모건 스탠리 (Morgan Stanley) 가 지수 후퇴가 구매 기회를 알릴 것이라고 말하는 이유.",
-    "Big tech is wobbling. Goldman Sachs says it’s time to buy these 23 unloved stocks instead.": "빅 테크가 흔들리고 있습니다. 골드만삭스는 이 23개의 사랑받지 못한 주식을 대신 매수할 때가 되었다고 말합니다."
+    "Big tech is wobbling. Goldman Sachs says it’s time to buy these 23 unloved stocks instead.": "빅 테크가 흔들리고 있습니다. 골드만삭스는 이 23개의 사랑받지 못한 주식을 대신 매수할 때가 되었다고 말합니다.",
+    "Tech stocks stumbled. Now comes a crucial week for Wall Street.": "기술 주식이 비틀거렸습니다. 이제 월스트리트에게 중요한 한 주가 다가옵니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2955,7 +2955,7 @@
       "2026-10-16": 1334.2,
       "2026-10-17": 1329.6,
       "2026-10-18": 1334.66,
-      "2026-10-19": 1328.88
+      "2026-10-19": 1329.23
     },
     "^GSPC": {
       "2026-10-08": 7765.36,
@@ -2997,7 +2997,7 @@
       "2026-10-16": 19.99,
       "2026-10-17": 19.99,
       "2026-10-18": 19.99,
-      "2026-10-19": 18.67
+      "2026-10-19": 18.9
     },
     "^TNX": {
       "2026-10-08": 5.231,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgBTvhWhUSMYHkkoDeGam\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgBTvhsXyPVL8hmsrbqgi\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgBTviAtRTFfb75m7TBiB\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgBYXgcp5Ki6JFoniyKLo\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgBYXh4Mi1exd6iKerUkk\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgBYXhQgqnhwFhyYx8oeu\"}"
   ]
 }
