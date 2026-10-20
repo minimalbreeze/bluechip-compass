@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-20T08:46:55.770Z",
+  "asOf": "2026-10-20T09:47:19.008Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-20T06:33:00.000Z"
     },
     "KRW=X": {
-      "price": 1326.14,
+      "price": 1327.98,
       "prev": 1333.4300537109375,
-      "chg": -0.55,
+      "chg": -0.41,
       "prevDay": "2026-10-19",
       "basis": "prev-close-bar",
-      "time": "2026-10-20T08:46:38.000Z"
+      "time": "2026-10-20T09:47:11.000Z"
     },
     "^GSPC": {
       "price": 7690.73,
@@ -43,12 +43,12 @@
       "time": "2026-10-19T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 18.53,
+      "price": 18.61,
       "prev": 18.440000534057617,
-      "chg": 0.49,
+      "chg": 0.92,
       "prevDay": "2026-10-19",
       "basis": "prev-close-bar",
-      "time": "2026-10-20T08:31:31.000Z"
+      "time": "2026-10-20T09:32:01.000Z"
     },
     "^TNX": {
       "price": 5.136,
@@ -60,7 +60,7 @@
     }
   },
   "fx": {
-    "low52": 1326.14,
+    "low52": 1327.98,
     "high52": 1554.48,
     "pct": 0
   },
@@ -80,11 +80,11 @@
       "chg3m": -1.25
     },
     "KRW=X": {
-      "last": 1326.14,
-      "low52": 1326.14,
+      "last": 1327.98,
+      "low52": 1327.98,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -10.03
+      "chg3m": -9.91
     },
     "^GSPC": {
       "last": 7690.73,
@@ -101,11 +101,11 @@
       "chg3m": 2.88
     },
     "^VIX": {
-      "last": 18.53,
+      "last": 18.61,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.288,
-      "chg3m": -0.27
+      "pct52": 0.292,
+      "chg3m": 0.16
     },
     "^TNX": {
       "last": 5.14,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgDCS39rH"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgDH38Kqy"
   },
   "stocks": {
     "kr": {
@@ -368,24 +368,24 @@
   "news": {
     "kr": [
       {
-        "title": "금융당국 \"솔리다임 중복상장\" 경고…국내 주식시장 영향은?",
-        "link": "https://www.yna.co.kr/view/AKR20261020129000008",
+        "title": "경찰, 금융기관 해킹사건 중수청에 통보키로…'중대범죄' 판단(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261020139551002",
         "source": "연합뉴스",
-        "date": "Tue, 20 Oct 2026 17:37:09 +0900",
-        "act": "none",
-        "lasting": "temporary",
+        "date": "Tue, 20 Oct 2026 18:11:15 +0900",
+        "act": "watch",
+        "lasting": "structural",
         "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
         "by": "rules"
       },
       {
-        "title": "“AI 버블의 전조? 지금 사라”…월가 지원사격에도 코스피 흔들린 이유",
-        "link": "https://www.hankyung.com/article/202610203734i",
+        "title": "메타·구글·MS 실적 발표, 'AI 버블론' 잠재울까",
+        "link": "https://www.hankyung.com/article/2026102040051",
         "source": "한국경제",
-        "date": "Tue, 20 Oct 2026 16:56:56 +0900",
+        "date": "Tue, 20 Oct 2026 17:59:05 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -401,21 +401,21 @@
         "by": "rules"
       },
       {
-        "title": "4분기 공적채권 59조원 발행…국고채 추가 축소 검토",
-        "link": "https://www.yna.co.kr/view/AKR20261020153900002",
+        "title": "충북 수출 3분기 124억달러…분기 최대 실적 또 경신",
+        "link": "https://www.yna.co.kr/view/AKR20261020159800064",
         "source": "연합뉴스",
-        "date": "Tue, 20 Oct 2026 17:31:12 +0900",
+        "date": "Tue, 20 Oct 2026 18:01:44 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "증시 하락 속 예탁금 9개월 만에 최저…반대매매 5일째 500억↑",
-        "link": "https://www.hankyung.com/article/2026102038217",
+        "title": "\"日증시 아직 저평가…반도체소재·방산 유망\"",
+        "link": "https://www.hankyung.com/article/2026102040011",
         "source": "한국경제",
-        "date": "Tue, 20 Oct 2026 16:56:21 +0900",
+        "date": "Tue, 20 Oct 2026 17:58:00 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -448,11 +448,11 @@
         "by": "rules"
       },
       {
-        "title": "It’s a rough housing market, and Goldman Sachs expects it to get worse",
-        "link": "https://www.marketwatch.com/story/its-a-rough-housing-market-and-goldman-sachs-expects-it-to-get-worse-be2c5aac?mod=mw_rss_topstories",
+        "title": "My unmarried partner of 17 years left me his $1.1 million home. His three children are livid. Should I share my inheritance?",
+        "link": "https://www.marketwatch.com/story/my-unmarried-partner-of-17-years-left-me-his-1-1-million-home-his-three-children-are-livid-should-i-share-my-inheritance-a11d593d?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Tue, 20 Oct 2026 08:13:00 GMT",
-        "ko": "거친 주택 시장이며 골드만 삭스는 상황이 더 나빠질 것으로 예상합니다.",
+        "date": "Tue, 20 Oct 2026 09:30:00 GMT",
+        "ko": "17년 동안 결혼하지 않은 파트너가 저에게 110만 달러 ($) 의 집을 남겨주었습니다. 그의 세 자녀는 생생하다. 유산을 공유해야 합니까?",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -472,11 +472,11 @@
         "by": "ai"
       },
       {
-        "title": "Credit markets have entered uncharted territory as the riskiest junk bonds send a warning to investors",
-        "link": "https://www.marketwatch.com/story/credit-markets-have-entered-uncharted-territory-as-the-riskiest-junk-bonds-send-a-warning-to-investors-816a05d5?mod=mw_rss_topstories",
+        "title": "South Korean IPO flop is the latest in a string of disappointments for the global AI trade",
+        "link": "https://www.marketwatch.com/story/south-korean-ipo-flop-is-the-latest-in-a-string-of-disappointments-for-the-global-ai-trade-fc97748c?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 19 Oct 2026 21:36:00 GMT",
-        "ko": "가장 위험한 정크 채권이 투자자에게 경고를 보내면서 신용 시장이 미지의 영역에 진입했습니다.",
+        "date": "Tue, 20 Oct 2026 09:30:00 GMT",
+        "ko": "한국 IPO 플랍은 글로벌 AI 거래에 대한 실망의 연속에서 최신입니다",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -496,11 +496,11 @@
         "by": "ai"
       },
       {
-        "title": "Micron and other chip stocks spring back to life after bruising selloff",
-        "link": "https://www.marketwatch.com/story/micron-and-other-chip-stocks-spring-back-to-life-after-bruising-selloff-16486541?mod=mw_rss_topstories",
+        "title": "It’s a rough housing market, and Goldman Sachs expects it to get worse",
+        "link": "https://www.marketwatch.com/story/its-a-rough-housing-market-and-goldman-sachs-expects-it-to-get-worse-be2c5aac?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 19 Oct 2026 21:06:00 GMT",
-        "ko": "마이크론 및 기타 칩 재고는 멍든 매각 후 다시 살아납니다.",
+        "date": "Tue, 20 Oct 2026 08:13:00 GMT",
+        "ko": "거친 주택 시장이며 골드만 삭스는 상황이 더 나빠질 것으로 예상합니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -511,8 +511,6 @@
   },
   "newsBy": "ai",
   "trCache": {
-    "2 Beaten-Down Stocks to Buy Before They Bounce Back": "반등하기 전에 매수해야 할 패배한 주식 2개",
-    "The stock market is ‘priced for perfection.’ Here’s what could drive a nearly 20% slump for the S&P 500 next year.": "주식 시장은 ‘완벽을 위한 가격입니다.’ 내년 S&P 500의 약 20% 의 부진을 초래할 수 있는 요소는 다음과 같습니다.",
     "Fidelity analyst predicts new 4-year Bitcoin bull market": "피델리티 애널리스트는 새로운 4년 비트코인 황소 시장을 예측합니다",
     "Black Monday’s stock-market warning signal came from the bond market — and it’s back, says Wall Street veteran": "블랙 먼데이의 주식 시장 경고 신호는 채권 시장에서 왔고 다시 돌아 왔다고 월스트리트 베테랑이 말합니다.",
     "Equity LifeStyle (ELS) Slides Near 52-Week Lows: Can Core Rental Stability Offset Higher Rates?": "Equity LifeStyle (ELS) Slides Near 52-Week Lows: 핵심 렌탈 안정성이 더 높은 요금을 상쇄할 수 있습니까?",
@@ -810,7 +808,9 @@
     "Why the Treasury’s financing plans are sparking anxiety on Wall Street": "재무부의 자금 조달 계획이 월스트리트에 불안을 불러 일으키는 이유",
     "Credit markets have entered uncharted territory as the riskiest junk bonds send a warning to investors": "가장 위험한 정크 채권이 투자자에게 경고를 보내면서 신용 시장이 미지의 영역에 진입했습니다.",
     "SpaceX earnings will be all about AI — for better or for worse": "SpaceX 수입은 더 좋든 나쁘든 AI에 관한 모든 것이 될 것입니다.",
-    "It’s a rough housing market, and Goldman Sachs expects it to get worse": "거친 주택 시장이며 골드만 삭스는 상황이 더 나빠질 것으로 예상합니다."
+    "It’s a rough housing market, and Goldman Sachs expects it to get worse": "거친 주택 시장이며 골드만 삭스는 상황이 더 나빠질 것으로 예상합니다.",
+    "My unmarried partner of 17 years left me his $1.1 million home. His three children are livid. Should I share my inheritance?": "17년 동안 결혼하지 않은 파트너가 저에게 110만 달러 ($) 의 집을 남겨주었습니다. 그의 세 자녀는 생생하다. 유산을 공유해야 합니까?",
+    "South Korean IPO flop is the latest in a string of disappointments for the global AI trade": "한국 IPO 플랍은 글로벌 AI 거래에 대한 실망의 연속에서 최신입니다"
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2955,7 +2955,7 @@
       "2026-10-17": 1329.6,
       "2026-10-18": 1334.66,
       "2026-10-19": 1331.42,
-      "2026-10-20": 1326.14
+      "2026-10-20": 1327.98
     },
     "^GSPC": {
       "2026-10-09": 7811.54,
@@ -2997,7 +2997,7 @@
       "2026-10-17": 19.99,
       "2026-10-18": 19.99,
       "2026-10-19": 18.44,
-      "2026-10-20": 18.53
+      "2026-10-20": 18.61
     },
     "^TNX": {
       "2026-10-09": 5.244,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgDCS39rHXjfH9WwEb6Ld\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgDCS3grDQikn14ZqXyfj\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgDCS44AY8diZ1RSaUQXS\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgDH38KqyXk6RQwFTejRb\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgDH38hR8AXoVNSXqbS2P\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgDH38zGy6UM1M4nnaWiV\"}"
   ]
 }
