@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-20T21:00:06.148Z",
+  "asOf": "2026-10-20T21:10:28.700Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-20T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1325.92,
+      "price": 1325.55,
       "prev": 1333.4300537109375,
-      "chg": -0.56,
+      "chg": -0.59,
       "prevDay": "2026-10-19",
       "basis": "prev-close-bar",
-      "time": "2026-10-20T20:59:54.000Z"
+      "time": "2026-10-20T21:01:47.000Z"
     },
     "^GSPC": {
       "price": 7712.57,
@@ -40,7 +40,7 @@
       "chg": -0.02,
       "prevDay": "2026-10-19",
       "basis": "prev-close-bar",
-      "time": "2026-10-20T20:59:56.000Z"
+      "time": "2026-10-20T21:10:22.000Z"
     },
     "^VIX": {
       "price": 17.31,
@@ -60,7 +60,7 @@
     }
   },
   "fx": {
-    "low52": 1325.92,
+    "low52": 1325.55,
     "high52": 1554.48,
     "pct": 0
   },
@@ -80,11 +80,11 @@
       "chg3m": -2.48
     },
     "KRW=X": {
-      "last": 1325.92,
-      "low52": 1325.92,
+      "last": 1325.55,
+      "low52": 1325.55,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -9.06
+      "chg3m": -9.08
     },
     "^GSPC": {
       "last": 7712.57,
@@ -368,10 +368,10 @@
   "news": {
     "kr": [
       {
-        "title": "외국인 요양보호사 부족한데…취업비자 발급은 '찔끔'",
-        "link": "https://www.yna.co.kr/view/AKR20261020092000001",
+        "title": "\"부자∼중산층 구간, 약 1년 반 동안 예금 줄이고 주식 크게↑\"",
+        "link": "https://www.yna.co.kr/view/AKR20261020141500002",
         "source": "연합뉴스",
-        "date": "Wed, 21 Oct 2026 05:00:01 +0900",
+        "date": "Wed, 21 Oct 2026 05:58:00 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -401,13 +401,13 @@
         "by": "rules"
       },
       {
-        "title": "삼성증권 \"모니모서 신규 계좌 개설시 코스피200 주식 증정\"",
-        "link": "https://www.yna.co.kr/view/AKR20261020171900008",
+        "title": "외국인 요양보호사 부족한데…취업비자 발급은 '찔끔'",
+        "link": "https://www.yna.co.kr/view/AKR20261020092000001",
         "source": "연합뉴스",
-        "date": "Tue, 20 Oct 2026 20:09:32 +0900",
+        "date": "Wed, 21 Oct 2026 05:00:01 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -2955,7 +2955,7 @@
       "2026-10-17": 1329.6,
       "2026-10-18": 1334.66,
       "2026-10-19": 1331.42,
-      "2026-10-20": 1325.92
+      "2026-10-20": 1325.55
     },
     "^GSPC": {
       "2026-10-09": 7811.54,
@@ -3387,7 +3387,7 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgEALmKjX1otbrfiMo79k\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgEALmok5Ntsp7PK75GKV\"}"
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgEB8fAvHwzjvHA8sqARU\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgEB8fZjPGz7UPoXrxCp1\"}"
   ]
 }
