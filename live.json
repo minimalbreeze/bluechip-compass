@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-20T10:59:45.670Z",
+  "asOf": "2026-10-20T12:00:12.832Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -8,7 +8,7 @@
       "chg": -3.73,
       "prevDay": "2026-10-19",
       "basis": "prev-close-bar",
-      "time": "2026-10-20T06:32:10.000Z"
+      "time": "2026-10-20T11:05:40.000Z"
     },
     "^KQ11": {
       "price": 781.97,
@@ -16,15 +16,15 @@
       "chg": -3.33,
       "prevDay": "2026-10-19",
       "basis": "prev-close-bar",
-      "time": "2026-10-20T06:33:00.000Z"
+      "time": "2026-10-20T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1327.61,
+      "price": 1328,
       "prev": 1333.4300537109375,
-      "chg": -0.44,
+      "chg": -0.41,
       "prevDay": "2026-10-19",
       "basis": "prev-close-bar",
-      "time": "2026-10-20T10:59:34.000Z"
+      "time": "2026-10-20T11:59:57.000Z"
     },
     "^GSPC": {
       "price": 7690.73,
@@ -43,12 +43,12 @@
       "time": "2026-10-19T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 18.77,
+      "price": 18.66,
       "prev": 18.440000534057617,
-      "chg": 1.79,
+      "chg": 1.19,
       "prevDay": "2026-10-19",
       "basis": "prev-close-bar",
-      "time": "2026-10-20T10:44:31.000Z"
+      "time": "2026-10-20T11:44:46.000Z"
     },
     "^TNX": {
       "price": 5.136,
@@ -60,7 +60,7 @@
     }
   },
   "fx": {
-    "low52": 1327.61,
+    "low52": 1328,
     "high52": 1554.48,
     "pct": 0
   },
@@ -80,11 +80,11 @@
       "chg3m": -1.25
     },
     "KRW=X": {
-      "last": 1327.61,
-      "low52": 1327.61,
+      "last": 1328,
+      "low52": 1328,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -9.93
+      "chg3m": -9.91
     },
     "^GSPC": {
       "last": 7690.73,
@@ -101,11 +101,11 @@
       "chg3m": 2.88
     },
     "^VIX": {
-      "last": 18.77,
+      "last": 18.66,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.301,
-      "chg3m": 1.02
+      "pct52": 0.295,
+      "chg3m": 0.43
     },
     "^TNX": {
       "last": 5.14,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgDNZXubS"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgDTAujBx"
   },
   "stocks": {
     "kr": {
@@ -368,21 +368,21 @@
   "news": {
     "kr": [
       {
-        "title": "경찰, 금융기관 해킹사건 중수청에 통보키로…'중대범죄' 판단(종합)",
-        "link": "https://www.yna.co.kr/view/AKR20261020139551002",
+        "title": "삼성증권 \"모니모서 신규 계좌 개설시 코스피200 주식 증정\"",
+        "link": "https://www.yna.co.kr/view/AKR20261020171900008",
         "source": "연합뉴스",
-        "date": "Tue, 20 Oct 2026 18:11:15 +0900",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": null,
-        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
+        "date": "Tue, 20 Oct 2026 20:09:32 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "'내 주식 살아날까' 두근두근…美서 들려올 소식 뭐길래",
-        "link": "https://www.hankyung.com/article/2026102040051",
+        "title": "\"신혼집 살 돈 2억이…\" 주식판 뛰어든 30대 개미 '피눈물'",
+        "link": "https://www.hankyung.com/article/2026102042507",
         "source": "한국경제",
-        "date": "Tue, 20 Oct 2026 17:59:05 +0900",
+        "date": "Tue, 20 Oct 2026 19:13:51 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -401,21 +401,21 @@
         "by": "rules"
       },
       {
-        "title": "충북 수출 3분기 124억달러…분기 최대 실적 또 경신",
-        "link": "https://www.yna.co.kr/view/AKR20261020159800064",
+        "title": "경찰, 금융기관 해킹사건 중수청에 통보키로…'중대범죄' 판단(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261020139551002",
         "source": "연합뉴스",
-        "date": "Tue, 20 Oct 2026 18:01:44 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "date": "Tue, 20 Oct 2026 18:11:15 +0900",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": null,
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
         "by": "rules"
       },
       {
-        "title": "\"日증시 아직 저평가…반도체소재·방산 유망\"",
-        "link": "https://www.hankyung.com/article/2026102040011",
+        "title": "'내 주식 살아날까' 두근두근…美서 들려올 소식 뭐길래",
+        "link": "https://www.hankyung.com/article/2026102040051",
         "source": "한국경제",
-        "date": "Tue, 20 Oct 2026 17:58:00 +0900",
+        "date": "Tue, 20 Oct 2026 17:59:05 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -472,11 +472,11 @@
         "by": "ai"
       },
       {
-        "title": "Strategist Tom Lee says he’s buying the AI stock dip, and Cisco holds the key",
+        "title": "Strategist Tom Lee says he’s buying the AI-stock dip, and Cisco holds the key",
         "link": "https://www.marketwatch.com/story/strategist-tom-lee-says-hes-buying-the-ai-stock-dip-and-cisco-holds-the-key-33233a9d?mod=mw_rss_topstories",
         "source": "MarketWatch",
         "date": "Tue, 20 Oct 2026 10:15:00 GMT",
-        "ko": "전략가 톰 리 (Tom Lee) 는 AI 주식 딥을 사고 있다고 말하며 시스코는 열쇠를 쥐고 있습니다.",
+        "ko": "전략가 톰 리 (Tom Lee) 는 AI 주식 딥을 구매하고 있으며 시스코가 열쇠를 쥐고 있다고 말합니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -511,7 +511,6 @@
   },
   "newsBy": "ai",
   "trCache": {
-    "Equity LifeStyle (ELS) Slides Near 52-Week Lows: Can Core Rental Stability Offset Higher Rates?": "Equity LifeStyle (ELS) Slides Near 52-Week Lows: 핵심 렌탈 안정성이 더 높은 요금을 상쇄할 수 있습니까?",
     "With the stock market ‘priced for perfection,’ the S&P 500 is in danger of a 20% slump next year": "주식 시장이 ‘완벽한 가격‘ 을 책정함에 따라 S&P 500은 내년에 20% 의 부진에 빠질 위험에 처해 있습니다.",
     "This Little-Known AI Chip Stock Doubled. Its New Chips Now Double Optical Speed": "이 잘 알려지지 않은 AI 칩 재고가 두 배로 증가했습니다. 새로운 칩으로 광학 속도 2배 향상",
     "Why AutoZone Stock Rallied Today": "AutoZone 주가가 오늘 상승한 이유",
@@ -810,7 +809,8 @@
     "My unmarried partner of 17 years left me his $1.1 million home. His three children are livid. Should I share my inheritance?": "17년 동안 결혼하지 않은 파트너가 저에게 110만 달러 ($) 의 집을 남겨주었습니다. 그의 세 자녀는 생생하다. 유산을 공유해야 합니까?",
     "South Korean IPO flop is the latest in a string of disappointments for the global AI trade": "한국 IPO 플랍은 글로벌 AI 거래에 대한 실망의 연속에서 최신입니다",
     "Why smaller stocks face worse prospects than the S&P 500 in the coming years": "향후 몇 년 동안 소규모 주식이 S&P 500보다 더 나쁜 전망에 직면하는 이유",
-    "Strategist Tom Lee says he’s buying the AI stock dip, and Cisco holds the key": "전략가 톰 리 (Tom Lee) 는 AI 주식 딥을 사고 있다고 말하며 시스코는 열쇠를 쥐고 있습니다."
+    "Strategist Tom Lee says he’s buying the AI stock dip, and Cisco holds the key": "전략가 톰 리 (Tom Lee) 는 AI 주식 딥을 사고 있다고 말하며 시스코는 열쇠를 쥐고 있습니다.",
+    "Strategist Tom Lee says he’s buying the AI-stock dip, and Cisco holds the key": "전략가 톰 리 (Tom Lee) 는 AI 주식 딥을 구매하고 있으며 시스코가 열쇠를 쥐고 있다고 말합니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2955,7 +2955,7 @@
       "2026-10-17": 1329.6,
       "2026-10-18": 1334.66,
       "2026-10-19": 1331.42,
-      "2026-10-20": 1327.61
+      "2026-10-20": 1328
     },
     "^GSPC": {
       "2026-10-09": 7811.54,
@@ -2997,7 +2997,7 @@
       "2026-10-17": 19.99,
       "2026-10-18": 19.99,
       "2026-10-19": 18.44,
-      "2026-10-20": 18.77
+      "2026-10-20": 18.66
     },
     "^TNX": {
       "2026-10-09": 5.244,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgDNZXubSo9yG9tZTNWcQ\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgDNZYRMP9oSk1hu6eZYW\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgDNZYpuRzgvHC3JVPstL\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgDTAujBxduXqYcKrnfsh\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgDTAv9jiXZ82q4kuMAQV\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgDTAvWac5tUadyko2emj\"}"
   ]
 }
