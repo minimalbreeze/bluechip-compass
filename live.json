@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-20T00:01:37.615Z",
+  "asOf": "2026-10-20T00:11:57.630Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-19T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1327.28,
+      "price": 1327.11,
       "prev": 1333.4300537109375,
-      "chg": -0.46,
+      "chg": -0.47,
       "prevDay": "2026-10-19",
       "basis": "prev-close-bar",
-      "time": "2026-10-20T00:01:30.000Z"
+      "time": "2026-10-20T00:11:51.000Z"
     },
     "^GSPC": {
       "price": 7690.73,
@@ -60,7 +60,7 @@
     }
   },
   "fx": {
-    "low52": 1327.28,
+    "low52": 1327.11,
     "high52": 1554.48,
     "pct": 0
   },
@@ -80,11 +80,11 @@
       "chg3m": 1.38
     },
     "KRW=X": {
-      "last": 1327.28,
-      "low52": 1327.28,
+      "last": 1327.11,
+      "low52": 1327.11,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -9.96
+      "chg3m": -9.97
     },
     "^GSPC": {
       "last": 7690.73,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgCWNh9aS"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgCXAQU1T"
   },
   "stocks": {
     "kr": {
@@ -368,13 +368,13 @@
   "news": {
     "kr": [
       {
-        "title": "다올증권, 에스엠 목표가↑…\"투어 확대·신인 데뷔 기대\"",
-        "link": "https://www.yna.co.kr/view/AKR20261020031400008",
+        "title": "코스피, 0.60% 내린 5,733.57 출발…코스닥도 0.44%↓",
+        "link": "https://www.yna.co.kr/view/AKR20261020036800008",
         "source": "연합뉴스",
-        "date": "Tue, 20 Oct 2026 08:44:54 +0900",
+        "date": "Tue, 20 Oct 2026 09:05:35 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -390,10 +390,10 @@
         "by": "rules"
       },
       {
-        "title": "삼성전자 주가 19% 떨어졌는데…KB증권 “내년 이익성장 이미 확보”",
-        "link": "https://www.mk.co.kr/news/stock/12180252",
+        "title": "“불법 투자로 돈 벌다가, 퇴사하면 그만?”…증권가 주식투자의 민낯",
+        "link": "https://www.mk.co.kr/news/economy/12180261",
         "source": "매일경제",
-        "date": "Tue, 20 Oct 2026 08:59:31 +09:00",
+        "date": "Tue, 20 Oct 2026 09:07:05 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -401,13 +401,13 @@
         "by": "rules"
       },
       {
-        "title": "키움증권, 녹십자 목표가↓…\"코로나 치료제 매출 전년비 급감\"",
-        "link": "https://www.yna.co.kr/view/AKR20261020029100008",
+        "title": "다올증권, 에스엠 목표가↑…\"투어 확대·신인 데뷔 기대\"",
+        "link": "https://www.yna.co.kr/view/AKR20261020031400008",
         "source": "연합뉴스",
-        "date": "Tue, 20 Oct 2026 08:37:25 +0900",
+        "date": "Tue, 20 Oct 2026 08:44:54 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -423,13 +423,13 @@
         "by": "rules"
       },
       {
-        "title": "“실적 개선 속도 못 따라가는 주가”…삼성전기 목표가 175만원 유지 [오늘 나온 보고서]",
-        "link": "https://www.mk.co.kr/news/stock/12180245",
+        "title": "삼성전자 주가 19% 떨어졌는데…KB증권 “내년 이익성장 이미 확보”",
+        "link": "https://www.mk.co.kr/news/stock/12180252",
         "source": "매일경제",
-        "date": "Tue, 20 Oct 2026 08:52:17 +09:00",
+        "date": "Tue, 20 Oct 2026 08:59:31 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -2955,7 +2955,7 @@
       "2026-10-17": 1329.6,
       "2026-10-18": 1334.66,
       "2026-10-19": 1331.42,
-      "2026-10-20": 1327.28
+      "2026-10-20": 1327.11
     },
     "^GSPC": {
       "2026-10-08": 7765.36,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgCWNh9aS37bnj4iaJsN2\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgCWNhioxgyUz9TENiuHt\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgCWNiLXKrgyufLmJyQcx\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgCXAQU1T6JnzbiJmbpoP\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgCXAQuogwSkPBozsQ8on\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgCXARHt8F2bfwSBrxNH4\"}"
   ]
 }
