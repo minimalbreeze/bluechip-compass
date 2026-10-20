@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-19T23:35:15.124Z",
+  "asOf": "2026-10-20T00:01:37.615Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-19T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1330.9,
+      "price": 1327.28,
       "prev": 1333.4300537109375,
-      "chg": -0.19,
+      "chg": -0.46,
       "prevDay": "2026-10-19",
       "basis": "prev-close-bar",
-      "time": "2026-10-19T23:35:04.000Z"
+      "time": "2026-10-20T00:01:30.000Z"
     },
     "^GSPC": {
       "price": 7690.73,
@@ -60,7 +60,7 @@
     }
   },
   "fx": {
-    "low52": 1330.88,
+    "low52": 1327.28,
     "high52": 1554.48,
     "pct": 0
   },
@@ -80,11 +80,11 @@
       "chg3m": 1.38
     },
     "KRW=X": {
-      "last": 1330.88,
-      "low52": 1330.88,
+      "last": 1327.28,
+      "low52": 1327.28,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -9.71
+      "chg3m": -9.96
     },
     "^GSPC": {
       "last": 7690.73,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgCUN3mZW"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgCWNh9aS"
   },
   "stocks": {
     "kr": {
@@ -368,13 +368,13 @@
   "news": {
     "kr": [
       {
-        "title": "대신증권 \"LG CNS, 3분기 실적 예상치 5% 상회 전망\"",
-        "link": "https://www.yna.co.kr/view/AKR20261020025300008",
+        "title": "다올증권, 에스엠 목표가↑…\"투어 확대·신인 데뷔 기대\"",
+        "link": "https://www.yna.co.kr/view/AKR20261020031400008",
         "source": "연합뉴스",
-        "date": "Tue, 20 Oct 2026 08:25:05 +0900",
+        "date": "Tue, 20 Oct 2026 08:44:54 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -390,10 +390,10 @@
         "by": "rules"
       },
       {
-        "title": "한투증권 “NAVER, 주가 상승분 대부분 반납…낮은 밸류에이션 매력”",
-        "link": "https://www.mk.co.kr/news/stock/12180233",
+        "title": "삼성전자 주가 19% 떨어졌는데…KB증권 “내년 이익성장 이미 확보”",
+        "link": "https://www.mk.co.kr/news/stock/12180252",
         "source": "매일경제",
-        "date": "Tue, 20 Oct 2026 08:32:13 +09:00",
+        "date": "Tue, 20 Oct 2026 08:59:31 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -401,10 +401,10 @@
         "by": "rules"
       },
       {
-        "title": "하나증권, 대한통운 목표가↓…\"3분기 실적, 24% 감소 전망\"",
-        "link": "https://www.yna.co.kr/view/AKR20261020022800008",
+        "title": "키움증권, 녹십자 목표가↓…\"코로나 치료제 매출 전년비 급감\"",
+        "link": "https://www.yna.co.kr/view/AKR20261020029100008",
         "source": "연합뉴스",
-        "date": "Tue, 20 Oct 2026 08:11:31 +0900",
+        "date": "Tue, 20 Oct 2026 08:37:25 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
@@ -423,10 +423,10 @@
         "by": "rules"
       },
       {
-        "title": "투자비에 눌린 CJ대한통운 실적…“내년 택배 단가 인상 기대”",
-        "link": "https://www.mk.co.kr/news/stock/12180227",
+        "title": "“실적 개선 속도 못 따라가는 주가”…삼성전기 목표가 175만원 유지 [오늘 나온 보고서]",
+        "link": "https://www.mk.co.kr/news/stock/12180245",
         "source": "매일경제",
-        "date": "Tue, 20 Oct 2026 08:16:28 +09:00",
+        "date": "Tue, 20 Oct 2026 08:52:17 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
@@ -2955,7 +2955,7 @@
       "2026-10-17": 1329.6,
       "2026-10-18": 1334.66,
       "2026-10-19": 1331.42,
-      "2026-10-20": 1330.9
+      "2026-10-20": 1327.28
     },
     "^GSPC": {
       "2026-10-08": 7765.36,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgCUN3mZWzQraQjsP1DKQ\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgCUN4GZiBypnfLFMBBMC\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgCUN4aQya18NVQWFhocT\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgCWNh9aS37bnj4iaJsN2\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgCWNhioxgyUz9TENiuHt\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgCWNiLXKrgyufLmJyQcx\"}"
   ]
 }
