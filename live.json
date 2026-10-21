@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-21T21:10:10.877Z",
+  "asOf": "2026-10-21T22:10:34.307Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-21T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1326.39,
+      "price": 1326.11,
       "prev": 1330,
-      "chg": -0.27,
+      "chg": -0.29,
       "prevDay": "2026-10-20",
       "basis": "prev-close-bar",
-      "time": "2026-10-21T21:02:28.000Z"
+      "time": "2026-10-21T22:10:17.000Z"
     },
     "^GSPC": {
       "price": 7757.17,
@@ -40,7 +40,7 @@
       "chg": 1.05,
       "prevDay": "2026-10-20",
       "basis": "prev-close-bar",
-      "time": "2026-10-21T21:09:58.000Z"
+      "time": "2026-10-21T21:15:59.000Z"
     },
     "^VIX": {
       "price": 16.68,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1323.94,
     "high52": 1554.48,
-    "pct": 0.011
+    "pct": 0.009
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -1.25
     },
     "KRW=X": {
-      "last": 1326.39,
+      "last": 1326.11,
       "low52": 1323.94,
       "high52": 1554.48,
-      "pct52": 0.011,
-      "chg3m": -9.43
+      "pct52": 0.009,
+      "chg3m": -9.45
     },
     "^GSPC": {
       "last": 7757.17,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgFf8D4oR"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgG9XMavS"
   },
   "stocks": {
     "kr": {
@@ -368,10 +368,10 @@
   "news": {
     "kr": [
       {
-        "title": "한은 '매파적 동결' 유력…내달 인상 재개 신호 주목",
-        "link": "https://www.yna.co.kr/view/AKR20261021147400002",
+        "title": "[우분투칼럼] 아프리카 증시가 울리는 자립의 종소리",
+        "link": "https://www.yna.co.kr/view/AKR20261006025000898",
         "source": "연합뉴스",
-        "date": "Thu, 22 Oct 2026 05:30:07 +0900",
+        "date": "Thu, 22 Oct 2026 07:00:04 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -401,10 +401,10 @@
         "by": "rules"
       },
       {
-        "title": "TKG휴켐스 \"티케이지엠켐 주식 467억원에 추가취득\"",
-        "link": "https://www.yna.co.kr/view/AKR20261021154200008",
+        "title": "한은 '매파적 동결' 유력…내달 인상 재개 신호 주목",
+        "link": "https://www.yna.co.kr/view/AKR20261021147400002",
         "source": "연합뉴스",
-        "date": "Wed, 21 Oct 2026 18:22:22 +0900",
+        "date": "Thu, 22 Oct 2026 05:30:07 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -2955,7 +2955,7 @@
       "2026-10-18": 1334.66,
       "2026-10-19": 1331.42,
       "2026-10-20": 1326.24,
-      "2026-10-21": 1326.39
+      "2026-10-21": 1326.11
     },
     "^GSPC": {
       "2026-10-10": 7811.54,
@@ -3387,7 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgG4vFwtmAMTzYPjdwJJK\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgG4vGQgVsp8m7bKwdhyD\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgG9XMavS5jBS5HKLqo5C\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgG9XMxk8FDLqWWVCpw8U\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgG9XNDNndhTZ68vgcF2q\"}"
   ]
 }
