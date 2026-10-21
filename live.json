@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-21T20:39:06.185Z",
+  "asOf": "2026-10-21T20:49:27.717Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-21T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1326.53,
+      "price": 1325.84,
       "prev": 1330,
-      "chg": -0.26,
+      "chg": -0.31,
       "prevDay": "2026-10-20",
       "basis": "prev-close-bar",
-      "time": "2026-10-21T20:38:50.000Z"
+      "time": "2026-10-21T20:49:15.000Z"
     },
     "^GSPC": {
       "price": 7757.17,
@@ -40,7 +40,7 @@
       "chg": 1.05,
       "prevDay": "2026-10-20",
       "basis": "prev-close-bar",
-      "time": "2026-10-21T20:38:59.000Z"
+      "time": "2026-10-21T20:49:18.000Z"
     },
     "^VIX": {
       "price": 16.68,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1323.94,
     "high52": 1554.48,
-    "pct": 0.011
+    "pct": 0.008
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -1.25
     },
     "KRW=X": {
-      "last": 1326.53,
+      "last": 1325.84,
       "low52": 1323.94,
       "high52": 1554.48,
-      "pct52": 0.011,
-      "chg3m": -9.42
+      "pct52": 0.008,
+      "chg3m": -9.46
     },
     "^GSPC": {
       "last": 7757.17,
@@ -2955,7 +2955,7 @@
       "2026-10-18": 1334.66,
       "2026-10-19": 1331.42,
       "2026-10-20": 1326.24,
-      "2026-10-21": 1326.53
+      "2026-10-21": 1325.84
     },
     "^GSPC": {
       "2026-10-10": 7811.54,
@@ -3387,7 +3387,7 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgG2YoiG8eurMFPW5hFzh\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgG2Yp84KpiQ2R68D45XN\"}"
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgG3Ld3qNhV2xm7CoGLpu\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgG3LdS9xkNcRcopdbnEk\"}"
   ]
 }
