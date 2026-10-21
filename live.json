@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-21T08:32:45.739Z",
+  "asOf": "2026-10-21T09:33:11.342Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -24,7 +24,7 @@
       "chg": -0.42,
       "prevDay": "2026-10-20",
       "basis": "prev-close-bar",
-      "time": "2026-10-21T08:32:31.000Z"
+      "time": "2026-10-21T09:33:00.000Z"
     },
     "^GSPC": {
       "price": 7712.57,
@@ -43,12 +43,12 @@
       "time": "2026-10-20T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 17.21,
+      "price": 17.42,
       "prev": 17.309999465942383,
-      "chg": -0.58,
+      "chg": 0.64,
       "prevDay": "2026-10-20",
       "basis": "prev-close-bar",
-      "time": "2026-10-21T08:17:31.000Z"
+      "time": "2026-10-21T09:18:01.000Z"
     },
     "^TNX": {
       "price": 5.117,
@@ -101,11 +101,11 @@
       "chg3m": 5.12
     },
     "^VIX": {
-      "last": 17.21,
+      "last": 17.42,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.213,
-      "chg3m": -7.82
+      "pct52": 0.225,
+      "chg3m": -6.7
     },
     "^TNX": {
       "last": 5.12,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgF5AJ2Yw"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgF9mYYsL"
   },
   "stocks": {
     "kr": {
@@ -368,32 +368,10 @@
   "news": {
     "kr": [
       {
-        "title": "금통위 앞두고 국고채 금리 대체로 하락…3년물 연 3.822%(종합)",
-        "link": "https://www.yna.co.kr/view/AKR20261021144851008",
+        "title": "TKG휴켐스 \"티케이지엠켐 주식 467억원에 추가취득\"",
+        "link": "https://www.yna.co.kr/view/AKR20261021154200008",
         "source": "연합뉴스",
-        "date": "Wed, 21 Oct 2026 17:07:11 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "\"새 주인 맞는다\" 코스피 폭락 뚫고 35% 상승...국내 1위 업체는?",
-        "link": "https://www.hankyung.com/article/202610216181i",
-        "source": "한국경제",
-        "date": "Wed, 21 Oct 2026 17:04:53 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "美주식 '주간 거래' 시세 먹통 … 서학개미 혼란",
-        "link": "https://www.mk.co.kr/news/stock/12181957",
-        "source": "매일경제",
-        "date": "Wed, 21 Oct 2026 17:31:07 +09:00",
+        "date": "Wed, 21 Oct 2026 18:22:22 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -401,10 +379,21 @@
         "by": "rules"
       },
       {
-        "title": "신용 부족 청년·외국인 카드 발급 쉬워진다…혁신서비스 지정",
-        "link": "https://www.yna.co.kr/view/AKR20261021146300002",
-        "source": "연합뉴스",
-        "date": "Wed, 21 Oct 2026 17:02:45 +0900",
+        "title": "외국인, 삼전닉스 1조 순매수에…코스피 반등",
+        "link": "https://www.hankyung.com/article/2026102167771",
+        "source": "한국경제",
+        "date": "Wed, 21 Oct 2026 18:13:52 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "에이루트, 17억원 규모 유상증자 실시",
+        "link": "https://www.mk.co.kr/news/stock/12182064",
+        "source": "매일경제",
+        "date": "Wed, 21 Oct 2026 17:56:22 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -412,21 +401,32 @@
         "by": "rules"
       },
       {
-        "title": "SK하이닉스, 40조 자사주 매입 한 달 앞당겨 끝냈다",
-        "link": "https://www.hankyung.com/article/2026102165657",
-        "source": "한국경제",
-        "date": "Wed, 21 Oct 2026 17:03:16 +0900",
+        "title": "루멘스바이오스 \"폴라리스우노 주식 138억원에 취득\"",
+        "link": "https://www.yna.co.kr/view/AKR20261021158700008",
+        "source": "연합뉴스",
+        "date": "Wed, 21 Oct 2026 18:22:05 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "신한투자증권, 우수고객 56명 초청 ‘원데이 골프 아카데미’ 개최",
-        "link": "https://www.mk.co.kr/news/stock/12181872",
+        "title": "코스닥 새내기주 엘리스 월가서도 주목하는 까닭",
+        "link": "https://www.hankyung.com/article/2026102167791",
+        "source": "한국경제",
+        "date": "Wed, 21 Oct 2026 18:12:55 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "알에프텍, 90억원 규모 유상증자 실시",
+        "link": "https://www.mk.co.kr/news/stock/12182063",
         "source": "매일경제",
-        "date": "Wed, 21 Oct 2026 16:56:18 +09:00",
+        "date": "Wed, 21 Oct 2026 17:56:21 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -448,14 +448,14 @@
         "by": "rules"
       },
       {
-        "title": "Bull markets tend to peak with a whimper, not a bang — but a 15% correction for the S&P 500 may be next",
-        "link": "https://www.marketwatch.com/story/bull-markets-tend-to-peak-with-a-whimper-not-a-bang-but-a-15-correction-for-the-s-p-500-may-be-next-dab40e2c?mod=mw_rss_topstories",
+        "title": "We have a $300,000 mortgage with a 2.75% interest rate. I want to pay it off. My husband says I’m crazy. Who’s right?",
+        "link": "https://www.marketwatch.com/story/we-have-a-300-000-mortgage-with-a-2-75-interest-rate-i-want-to-pay-it-off-my-husband-says-im-crazy-whos-right-4ed15226?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Wed, 21 Oct 2026 00:24:00 GMT",
-        "ko": "황소 시장은 쾅 소리가 아니라 징징거리며 최고조에 달하는 경향이 있습니다. 하지만 S&P 500에 대한 15% 수정이 다음이 될 수 있습니다.",
+        "date": "Wed, 21 Oct 2026 09:15:00 GMT",
+        "ko": "저희는 2.75% 의 이자율로 $300,000의 모기지를 보유하고 있습니다. 갚고 싶어요. 남편은 내가 미쳤다고 한다. 누가 옳은가요?",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -472,11 +472,11 @@
         "by": "rules"
       },
       {
-        "title": "Super Micro’s stock soars after surprise update — with Dell and HPE shares joining the rally",
-        "link": "https://www.marketwatch.com/story/super-micros-stock-soars-after-surprise-update-with-dell-and-hpe-shares-joining-the-rally-1837a69f?mod=mw_rss_topstories",
+        "title": "Why SpaceX’s stock is surging — and lifting the broader AI universe along with it",
+        "link": "https://www.marketwatch.com/story/why-spacexs-stock-is-surging-and-lifting-the-broader-ai-universe-along-with-it-0cd62f39?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Wed, 21 Oct 2026 00:15:00 GMT",
-        "ko": "슈퍼 마이크로의 주식은 깜짝 업데이트 후 치솟습니다 — Dell과 HPE 주식이 랠리에 합류하면서",
+        "date": "Wed, 21 Oct 2026 08:55:00 GMT",
+        "ko": "SpaceX의 재고가 급증하고 더 넓은 AI 우주를 그와 함께 들어 올리는 이유",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -496,23 +496,21 @@
         "by": "rules"
       },
       {
-        "title": "Tesla’s stock rises as Elon Musk drops new clues about a possible SpaceX merger",
-        "link": "https://www.marketwatch.com/story/teslas-stock-rises-as-elon-musk-drops-new-clues-about-a-possible-spacex-merger-8cc44fc2?mod=mw_rss_topstories",
+        "title": "AI stocks are probably in a bubble — but might be worth holding onto, says Citadel’s Ken Griffin",
+        "link": "https://www.marketwatch.com/story/ai-stocks-are-probably-in-a-bubble-but-might-be-worth-holding-onto-says-citadels-ken-griffin-87f535ce?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Wed, 21 Oct 2026 00:14:00 GMT",
-        "ko": "Elon Musk가 SpaceX 합병 가능성에 대한 새로운 단서를 떨어뜨리면서 Tesla의 주가가 상승합니다.",
-        "act": "watch",
-        "lasting": "structural",
+        "date": "Wed, 21 Oct 2026 08:50:00 GMT",
+        "ko": "시타델 (Citadel) 의 켄 그리핀 (Ken Griffin) 은 인공지능 (AI) 주식은 거품 속에 있을 수 있지만 버틸만한 가치가 있다고 말합니다.",
+        "act": "none",
+        "lasting": "temporary",
         "scope": null,
-        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
     ]
   },
   "newsBy": "rules",
   "trCache": {
-    "Akamai’s stock is surging. A $12 billion Anthropic deal reveals its powerful edge over cloud providers.": "Akamai의 재고가 급증하고 있습니다. $120억 규모의 Anthropic 거래를 통해 클라우드 공급업체에 대한 강력한 우위를 알 수 있습니다.",
-    "Why the alternative to the ‘clear and present’ danger from bond yields is this AI-fueled market that has quietly outperformed": "채권 수익률로 인한 ‘명확하고 현재적인’ 위험에 대한 대안이 조용히 실적을 능가한 이 AI 연료 시장인 이유는 무엇입니까?",
     "From $6 eggs to $50,000 cars, these charts show how inflation has defined the past 5 years": "$6 달걀에서 $50,000 자동차에 이르기까지, 이 차트는 인플레이션이 지난 5년 동안 어떻게 정의되었는지를 보여줍니다.",
     "The stock market could be due for a nasty selloff, judging by these two signals": "주식 시장은 이 두 가지 신호로 판단할 때 불쾌한 매도세로 인한 것일 수 있습니다.",
     "The options market is sending a contrarian signal about oil prices": "옵션 시장은 유가에 대한 반대 신호를 보내고 있습니다",
@@ -810,7 +808,9 @@
     "Super Micro’s stock soars after surprise update — with Dell and HPE shares joining the rally": "슈퍼 마이크로의 주식은 깜짝 업데이트 후 치솟습니다 — Dell과 HPE 주식이 랠리에 합류하면서",
     "Tesla’s stock rises as Elon Musk drops new clues about a possible SpaceX merger": "Elon Musk가 SpaceX 합병 가능성에 대한 새로운 단서를 떨어뜨리면서 Tesla의 주가가 상승합니다.",
     "Why SpaceX’s stock is surging — and lifting the broader AI universe along with it": "SpaceX의 재고가 급증하고 더 넓은 AI 우주를 그와 함께 들어 올리는 이유",
-    "UK inflation jumps to 3.5% — cementing rate hike expectations": "영국 인플레이션 3.5% 로 급등 — 시멘팅 금리 인상 기대"
+    "UK inflation jumps to 3.5% — cementing rate hike expectations": "영국 인플레이션 3.5% 로 급등 — 시멘팅 금리 인상 기대",
+    "We have a $300,000 mortgage with a 2.75% interest rate. I want to pay it off. My husband says I’m crazy. Who’s right?": "저희는 2.75% 의 이자율로 $300,000의 모기지를 보유하고 있습니다. 갚고 싶어요. 남편은 내가 미쳤다고 한다. 누가 옳은가요?",
+    "AI stocks are probably in a bubble — but might be worth holding onto, says Citadel’s Ken Griffin": "시타델 (Citadel) 의 켄 그리핀 (Ken Griffin) 은 인공지능 (AI) 주식은 거품 속에 있을 수 있지만 버틸만한 가치가 있다고 말합니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2997,7 +2997,7 @@
       "2026-10-18": 19.99,
       "2026-10-19": 18.44,
       "2026-10-20": 17.31,
-      "2026-10-21": 17.21
+      "2026-10-21": 17.42
     },
     "^TNX": {
       "2026-10-10": 5.244,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgF5AJ2Ywfw2BtosM5hwP\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgF5AJW5VNS1BJdafA3h8\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgF5AJut1vaviG56jzgBn\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgF9mYYsLdJoReTYfvZeg\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgF9mZ57EiiRzifogQxqm\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgF9mZuyNTTahaTbSUR3J\"}"
   ]
 }
