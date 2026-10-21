@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-21T00:01:39.653Z",
+  "asOf": "2026-10-21T00:11:58.770Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-20T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1323.38,
+      "price": 1325.58,
       "prev": 1330,
-      "chg": -0.5,
+      "chg": -0.33,
       "prevDay": "2026-10-20",
       "basis": "prev-close-bar",
-      "time": "2026-10-21T00:01:30.000Z"
+      "time": "2026-10-21T00:11:53.000Z"
     },
     "^GSPC": {
       "price": 7712.57,
@@ -60,7 +60,7 @@
     }
   },
   "fx": {
-    "low52": 1322.88,
+    "low52": 1325.58,
     "high52": 1554.48,
     "pct": 0
   },
@@ -80,11 +80,11 @@
       "chg3m": -2.48
     },
     "KRW=X": {
-      "last": 1322.88,
-      "low52": 1322.88,
+      "last": 1325.58,
+      "low52": 1325.58,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -9.27
+      "chg3m": -9.08
     },
     "^GSPC": {
       "last": 7712.57,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgEQBmW1s"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgEQyQHc6"
   },
   "stocks": {
     "kr": {
@@ -368,13 +368,13 @@
   "news": {
     "kr": [
       {
-        "title": "신한증권, 석화기업 목표가↓…\"역래깅 회복에도 회복 지연\"",
-        "link": "https://www.yna.co.kr/view/AKR20261021029900008",
+        "title": "코스피, 2%대 반등하며 5,666 출발…코스닥도 1.46%↑",
+        "link": "https://www.yna.co.kr/view/AKR20261021034000008",
         "source": "연합뉴스",
-        "date": "Wed, 21 Oct 2026 08:54:16 +0900",
+        "date": "Wed, 21 Oct 2026 09:05:15 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -401,13 +401,13 @@
         "by": "rules"
       },
       {
-        "title": "하나증권, SK이터닉스에 \"3분기 실적 이연…4분기 집중 반영\"",
-        "link": "https://www.yna.co.kr/view/AKR20261021027700008",
+        "title": "KB운용, 반도체·AI 등 첨단산업투자 펀드 출시",
+        "link": "https://www.yna.co.kr/view/AKR20261021031700008",
         "source": "연합뉴스",
-        "date": "Wed, 21 Oct 2026 08:40:14 +0900",
+        "date": "Wed, 21 Oct 2026 08:59:15 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -423,13 +423,13 @@
         "by": "rules"
       },
       {
-        "title": "코스피 폭락할때 고고히 상승한 대만…“메모리 쏠림 韓과 대비” [오늘 나온 보고서]",
+        "title": "“같은 반도체 국가, 대만은 5% 한국은 -9%”…생태계 차이 크다는데 [오늘 나온 보고서]",
         "link": "https://www.mk.co.kr/news/stock/12181352",
         "source": "매일경제",
         "date": "Wed, 21 Oct 2026 08:57:34 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -2955,7 +2955,7 @@
       "2026-10-18": 1334.66,
       "2026-10-19": 1331.42,
       "2026-10-20": 1326.24,
-      "2026-10-21": 1323.38
+      "2026-10-21": 1325.58
     },
     "^GSPC": {
       "2026-10-09": 7811.54,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgEQBmW1sCZvQJK73UCXy\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgEQBmy3wmeT6a1gpG9hP\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgEQBnFfKLGix2W9zMnMf\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgEQyQHc6GiFGdZkpRnbB\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgEQyQncmMBDx4a3nkZVh\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgEQyRCfR2iJg8VGhQ11F\"}"
   ]
 }
