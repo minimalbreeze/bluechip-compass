@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-21T22:10:34.307Z",
+  "asOf": "2026-10-21T23:10:56.451Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-21T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1326.11,
-      "prev": 1330,
-      "chg": -0.29,
-      "prevDay": "2026-10-20",
+      "price": 1326.33,
+      "prev": 1323.93994140625,
+      "chg": 0.18,
+      "prevDay": "2026-10-21",
       "basis": "prev-close-bar",
-      "time": "2026-10-21T22:10:17.000Z"
+      "time": "2026-10-21T23:08:11.000Z"
     },
     "^GSPC": {
       "price": 7757.17,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1323.94,
     "high52": 1554.48,
-    "pct": 0.009
+    "pct": 0.01
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -1.25
     },
     "KRW=X": {
-      "last": 1326.11,
+      "last": 1326.33,
       "low52": 1323.94,
       "high52": 1554.48,
-      "pct52": 0.009,
-      "chg3m": -9.45
+      "pct52": 0.01,
+      "chg3m": -9.43
     },
     "^GSPC": {
       "last": 7757.17,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgG9XMavS"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgGE8MPD4"
   },
   "stocks": {
     "kr": {
@@ -368,21 +368,21 @@
   "news": {
     "kr": [
       {
-        "title": "[우분투칼럼] 아프리카 증시가 울리는 자립의 종소리",
-        "link": "https://www.yna.co.kr/view/AKR20261006025000898",
+        "title": "[마켓뷰] AI 투심 개선 vs 차익 실현…코스피 향방은",
+        "link": "https://www.yna.co.kr/view/AKR20261022022400008",
         "source": "연합뉴스",
-        "date": "Thu, 22 Oct 2026 07:00:04 +0900",
+        "date": "Thu, 22 Oct 2026 08:02:40 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "LS에코에너지, 급락 딛고 급등…증권가 목표주가 줄상향 이유",
-        "link": "https://www.hankyung.com/article/202610216480i",
+        "title": "스페이스X 훈풍에 기술주 강세…나스닥 1.05% ↑ [뉴욕증시 브리핑]",
+        "link": "https://www.hankyung.com/article/2026102273436",
         "source": "한국경제",
-        "date": "Wed, 21 Oct 2026 18:30:02 +0900",
+        "date": "Thu, 22 Oct 2026 07:05:30 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -401,10 +401,10 @@
         "by": "rules"
       },
       {
-        "title": "한은 '매파적 동결' 유력…내달 인상 재개 신호 주목",
-        "link": "https://www.yna.co.kr/view/AKR20261021147400002",
+        "title": "[우분투칼럼] 아프리카 증시가 울리는 자립의 종소리",
+        "link": "https://www.yna.co.kr/view/AKR20261006025000898",
         "source": "연합뉴스",
-        "date": "Thu, 22 Oct 2026 05:30:07 +0900",
+        "date": "Thu, 22 Oct 2026 07:00:04 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -412,13 +412,13 @@
         "by": "rules"
       },
       {
-        "title": "외국인, 삼전닉스 1조 순매수에…코스피 반등",
-        "link": "https://www.hankyung.com/article/2026102167771",
+        "title": "\"약속의 11월, 이번엔 다르다\"…증권가가 찍은 '효자 종목' [한경우의 케이스스터디]",
+        "link": "https://www.hankyung.com/article/2026102158686",
         "source": "한국경제",
-        "date": "Wed, 21 Oct 2026 18:13:52 +0900",
+        "date": "Thu, 22 Oct 2026 06:30:01 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -448,11 +448,11 @@
         "by": "rules"
       },
       {
-        "title": "7 healthcare stocks that stand out as investors pay up for the sector",
-        "link": "https://www.marketwatch.com/story/7-healthcare-stocks-that-stand-out-as-investors-pay-up-for-the-sector-d9b0c173?mod=mw_rss_topstories",
+        "title": "Meta’s stock rises as investors glimpse an opportunity that could dwarf the ad business",
+        "link": "https://www.marketwatch.com/story/metas-stock-rises-as-investors-glimpse-an-opportunity-that-could-dwarf-the-ad-business-89369c6c?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Wed, 21 Oct 2026 20:59:00 GMT",
-        "ko": "투자자들이 이 부문을 위해 지불하는 7개의 헬스케어 주식",
+        "date": "Wed, 21 Oct 2026 23:07:00 GMT",
+        "ko": "투자자들이 광고 비즈니스를 왜소하게 만들 수 있는 기회를 엿보면서 Meta의 주가가 상승합니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -472,11 +472,11 @@
         "by": "rules"
       },
       {
-        "title": "My partner of 17 years left me his $1 million home. His children say I influenced him to do so. Should I share my inheritance?",
-        "link": "https://www.marketwatch.com/story/my-unmarried-partner-of-17-years-left-me-his-1-1-million-home-his-three-children-are-livid-should-i-share-my-inheritance-a11d593d?mod=mw_rss_topstories",
+        "title": "7 healthcare stocks that stand out as investors pay up for the sector",
+        "link": "https://www.marketwatch.com/story/7-healthcare-stocks-that-stand-out-as-investors-pay-up-for-the-sector-d9b0c173?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Wed, 21 Oct 2026 20:31:00 GMT",
-        "ko": "17년 동안의 제 파트너는 저에게 100만 달러 ($) 의 집을 남겨주었습니다. 그의 자녀들은 내가 그에게 그렇게 하도록 영향을 주었다고 말한다. 유산을 공유해야 합니까?",
+        "date": "Wed, 21 Oct 2026 20:59:00 GMT",
+        "ko": "투자자들이 이 부문을 위해 지불하는 7개의 헬스케어 주식",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -496,11 +496,11 @@
         "by": "rules"
       },
       {
-        "title": "We have a $300,000 mortgage with a 2.75% interest rate. I want to pay it off. My husband says I’m crazy. Who’s right?",
-        "link": "https://www.marketwatch.com/story/we-have-a-300-000-mortgage-with-a-2-75-interest-rate-i-want-to-pay-it-off-my-husband-says-im-crazy-whos-right-4ed15226?mod=mw_rss_topstories",
+        "title": "My partner of 17 years left me his $1 million home. His children say I influenced him to do so. Should I share my inheritance?",
+        "link": "https://www.marketwatch.com/story/my-unmarried-partner-of-17-years-left-me-his-1-1-million-home-his-three-children-are-livid-should-i-share-my-inheritance-a11d593d?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Wed, 21 Oct 2026 20:15:00 GMT",
-        "ko": "저희는 2.75% 의 이자율로 $300,000의 모기지를 보유하고 있습니다. 갚고 싶어요. 남편은 내가 미쳤다고 한다. 누가 옳은가요?",
+        "date": "Wed, 21 Oct 2026 20:31:00 GMT",
+        "ko": "17년 동안의 제 파트너는 저에게 100만 달러 ($) 의 집을 남겨주었습니다. 그의 자녀들은 내가 그에게 그렇게 하도록 영향을 주었다고 말한다. 유산을 공유해야 합니까?",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -511,7 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "Why investors aren’t buying yet another attempt by the Treasury Department to calm the rattled bond market": "투자자들이 덜컹거리는 채권 시장을 진정시키기 위해 재무부의 또 다른 시도를 사지 않는 이유",
     "A 10% risk-free yield? For some, yes.": "10% 무위험 수익률? 어떤 사람들에게는 그렇습니다.",
     "This is why you might see 8% mortgage rates soon": "이것이 곧 8% 의 주택담보대출 금리를 볼 수 있는 이유입니다.",
     "Nike’s stock is one of the worst in the S&P 500 — and BofA says it’s not done sliding": "나이키의 주식은 S&P 500에서 최악 중 하나이며, BofA는 슬라이딩이 완료되지 않았다고 말합니다.",
@@ -810,7 +809,8 @@
     "AI stocks are probably in a bubble — but might be worth holding onto, says Citadel’s Ken Griffin": "시타델 (Citadel) 의 켄 그리핀 (Ken Griffin) 은 인공지능 (AI) 주식은 거품 속에 있을 수 있지만 버틸만한 가치가 있다고 말합니다.",
     "Opposition to data centers will drive up inflation, says BlackRock’s Larry Fink": "BlackRock의 Larry Fink는 데이터 센터에 대한 반대가 인플레이션을 증가시킬 것이라고 말합니다.",
     "AI stocks are probably in a bubble — but might be worth holding on to, says Citadel’s Ken Griffin": "시타델 (Citadel) 의 켄 그리핀 (Ken Griffin) 은 인공지능 (AI) 주식은 거품 속에 있을 수 있지만 버틸만한 가치가 있다고 말합니다.",
-    "7 healthcare stocks that stand out as investors pay up for the sector": "투자자들이 이 부문을 위해 지불하는 7개의 헬스케어 주식"
+    "7 healthcare stocks that stand out as investors pay up for the sector": "투자자들이 이 부문을 위해 지불하는 7개의 헬스케어 주식",
+    "Meta’s stock rises as investors glimpse an opportunity that could dwarf the ad business": "투자자들이 광고 비즈니스를 왜소하게 만들 수 있는 기회를 엿보면서 Meta의 주가가 상승합니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2944,7 +2944,6 @@
       "2026-10-22": 792.76
     },
     "KRW=X": {
-      "2026-10-10": 1340.9,
       "2026-10-11": 1341.07,
       "2026-10-12": 1334.15,
       "2026-10-13": 1341.13,
@@ -2955,7 +2954,8 @@
       "2026-10-18": 1334.66,
       "2026-10-19": 1331.42,
       "2026-10-20": 1326.24,
-      "2026-10-21": 1326.11
+      "2026-10-21": 1326.11,
+      "2026-10-22": 1326.33
     },
     "^GSPC": {
       "2026-10-10": 7811.54,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgG9XMavS5jBS5HKLqo5C\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgG9XMxk8FDLqWWVCpw8U\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgG9XNDNndhTZ68vgcF2q\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgGE8MPD4am4Q8eDgexu5\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgGE8MtDoSL3dBjPxyaF1\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgGE8NKkuyHhUL8fNTowW\"}"
   ]
 }
