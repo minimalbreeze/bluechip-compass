@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-20T23:11:19.261Z",
+  "asOf": "2026-10-21T00:01:39.653Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-20T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1325.9,
+      "price": 1323.38,
       "prev": 1330,
-      "chg": -0.31,
+      "chg": -0.5,
       "prevDay": "2026-10-20",
       "basis": "prev-close-bar",
-      "time": "2026-10-20T23:11:06.000Z"
+      "time": "2026-10-21T00:01:30.000Z"
     },
     "^GSPC": {
       "price": 7712.57,
@@ -60,16 +60,16 @@
     }
   },
   "fx": {
-    "low52": 1325.92,
+    "low52": 1322.88,
     "high52": 1554.48,
     "pct": 0
   },
   "hist": {
     "^KS11": {
       "last": 5768.01,
-      "low52": 3814.69,
+      "low52": 3823.84,
       "high52": 9114.55,
-      "pct52": 0.369,
+      "pct52": 0.367,
       "chg3m": -20.82
     },
     "^KQ11": {
@@ -80,11 +80,11 @@
       "chg3m": -2.48
     },
     "KRW=X": {
-      "last": 1325.92,
-      "low52": 1325.92,
+      "last": 1322.88,
+      "low52": 1322.88,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -9.06
+      "chg3m": -9.27
     },
     "^GSPC": {
       "last": 7712.57,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgELM845C"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgEQBmW1s"
   },
   "stocks": {
     "kr": {
@@ -368,32 +368,10 @@
   "news": {
     "kr": [
       {
-        "title": "[마켓뷰] 메타 실적발표 앞두고 뉴욕증시 혼조 마감…코스피 향방은",
-        "link": "https://www.yna.co.kr/view/AKR20261021019400008",
+        "title": "신한증권, 석화기업 목표가↓…\"역래깅 회복에도 회복 지연\"",
+        "link": "https://www.yna.co.kr/view/AKR20261021029900008",
         "source": "연합뉴스",
-        "date": "Wed, 21 Oct 2026 08:08:15 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "\"HD현대중공업, 환율·파업에 3분기 실적 '주춤'…목표가↓\"-KB",
-        "link": "https://www.hankyung.com/article/2026102146566",
-        "source": "한국경제",
-        "date": "Wed, 21 Oct 2026 07:34:38 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "반도체 주식 내던진 외인... 재매수 시점은 언제일까",
-        "link": "https://www.mk.co.kr/news/business/12181294",
-        "source": "매일경제",
-        "date": "Wed, 21 Oct 2026 07:36:49 +09:00",
+        "date": "Wed, 21 Oct 2026 08:54:16 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -401,21 +379,21 @@
         "by": "rules"
       },
       {
-        "title": "한투증권, 카카오 목표가↓…\"3분기 영업익, 전망치 밑돌 듯\"",
-        "link": "https://www.yna.co.kr/view/AKR20261021021100008",
-        "source": "연합뉴스",
-        "date": "Wed, 21 Oct 2026 08:06:21 +0900",
+        "title": "\"농심, 3분기 실적 기대치 밑돌 전망\"-유안타",
+        "link": "https://www.hankyung.com/article/2026102148346",
+        "source": "한국경제",
+        "date": "Wed, 21 Oct 2026 08:34:51 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "유가 하락·호실적에 다우·S&P500 반등했지만…나스닥 부진 [뉴욕증시 브리핑]",
-        "link": "https://www.hankyung.com/article/2026102146396",
-        "source": "한국경제",
-        "date": "Wed, 21 Oct 2026 07:16:13 +0900",
+        "title": "“코스피, 심폐소생 가능합니까?”…전문가 3인이 꼽은 반등 조건 [증시 긴급진단]",
+        "link": "https://www.mk.co.kr/news/stock/12181353",
+        "source": "매일경제",
+        "date": "Wed, 21 Oct 2026 08:57:54 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -423,10 +401,32 @@
         "by": "rules"
       },
       {
-        "title": "바닥은 11월입니다 … 코스피 연말 반등 투자전략은",
-        "link": "https://www.mk.co.kr/news/stock/12180834",
+        "title": "하나증권, SK이터닉스에 \"3분기 실적 이연…4분기 집중 반영\"",
+        "link": "https://www.yna.co.kr/view/AKR20261021027700008",
+        "source": "연합뉴스",
+        "date": "Wed, 21 Oct 2026 08:40:14 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "'가짜뉴스'에 반색한 주가…머스크 \"스페이스X, 테슬라 합병 위원회 구성\" [김현석의 월스트리트나우]",
+        "link": "https://www.hankyung.com/article/202610214695i",
+        "source": "한국경제",
+        "date": "Wed, 21 Oct 2026 08:11:21 +0900",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": null,
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
+        "by": "rules"
+      },
+      {
+        "title": "코스피 폭락할때 고고히 상승한 대만…“메모리 쏠림 韓과 대비” [오늘 나온 보고서]",
+        "link": "https://www.mk.co.kr/news/stock/12181352",
         "source": "매일경제",
-        "date": "Wed, 21 Oct 2026 04:30:00 +09:00",
+        "date": "Wed, 21 Oct 2026 08:57:34 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -448,11 +448,11 @@
         "by": "rules"
       },
       {
-        "title": "Super Micro’s stock soars after surprise update — with Dell and HPE shares joining the rally",
-        "link": "https://www.marketwatch.com/story/super-micros-stock-soars-after-surprise-update-with-dell-and-hpe-shares-joining-the-rally-1837a69f?mod=mw_rss_topstories",
+        "title": "Why SpaceX’s stock is surging — and lifting the broader AI universe along with it",
+        "link": "https://www.marketwatch.com/story/why-spacexs-stock-is-surging-and-lifting-the-broader-ai-universe-along-with-it-0cd62f39?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Tue, 20 Oct 2026 22:37:00 GMT",
-        "ko": "슈퍼 마이크로의 주식은 깜짝 업데이트 후 치솟습니다 — Dell과 HPE 주식이 랠리에 합류하면서",
+        "date": "Tue, 20 Oct 2026 23:10:00 GMT",
+        "ko": "SpaceX의 재고가 급증하고 더 넓은 AI 우주를 그와 함께 들어 올리는 이유",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -472,15 +472,15 @@
         "by": "rules"
       },
       {
-        "title": "Tesla’s stock rises as Elon Musk drops new clues about a possible SpaceX merger",
-        "link": "https://www.marketwatch.com/story/teslas-stock-rises-as-elon-musk-drops-new-clues-about-a-possible-spacex-merger-8cc44fc2?mod=mw_rss_topstories",
+        "title": "Super Micro’s stock soars after surprise update — with Dell and HPE shares joining the rally",
+        "link": "https://www.marketwatch.com/story/super-micros-stock-soars-after-surprise-update-with-dell-and-hpe-shares-joining-the-rally-1837a69f?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Tue, 20 Oct 2026 22:33:00 GMT",
-        "ko": "Elon Musk가 SpaceX 합병 가능성에 대한 새로운 단서를 떨어뜨리면서 Tesla의 주가가 상승합니다.",
-        "act": "watch",
-        "lasting": "structural",
+        "date": "Tue, 20 Oct 2026 22:37:00 GMT",
+        "ko": "슈퍼 마이크로의 주식은 깜짝 업데이트 후 치솟습니다 — Dell과 HPE 주식이 랠리에 합류하면서",
+        "act": "none",
+        "lasting": "temporary",
         "scope": null,
-        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
@@ -496,22 +496,21 @@
         "by": "ai"
       },
       {
-        "title": "Netflix vows to revive viewership trends, but investors hit ‘sell’ on the stock",
-        "link": "https://www.marketwatch.com/story/netflix-vows-to-revive-viewership-trends-but-investors-hit-sell-on-the-stock-3e24420a?mod=mw_rss_topstories",
+        "title": "Tesla’s stock rises as Elon Musk drops new clues about a possible SpaceX merger",
+        "link": "https://www.marketwatch.com/story/teslas-stock-rises-as-elon-musk-drops-new-clues-about-a-possible-spacex-merger-8cc44fc2?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Tue, 20 Oct 2026 22:30:00 GMT",
-        "ko": "넷플릭스는 시청률 추세를 되살리겠다고 맹세했지만, 투자자들은 주식에서 ‘매도’ 를 기록했다.",
-        "act": "none",
-        "lasting": "temporary",
+        "date": "Tue, 20 Oct 2026 22:33:00 GMT",
+        "ko": "Elon Musk가 SpaceX 합병 가능성에 대한 새로운 단서를 떨어뜨리면서 Tesla의 주가가 상승합니다.",
+        "act": "watch",
+        "lasting": "structural",
         "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
         "by": "rules"
       }
     ]
   },
   "newsBy": "ai",
   "trCache": {
-    "Akamai stock is surging. A $12 billion Anthropic deal reveals its powerful edge over cloud providers.": "Akamai 주식이 급등하고 있습니다. $120억 규모의 Anthropic 거래를 통해 클라우드 공급업체에 대한 강력한 우위를 알 수 있습니다.",
     "After capital-markets day flop, Novo strikes licensing deal that sends a Swedish company’s stock soaring": "자본 시장의 날 플랍이 끝난 후, Novo는 스웨덴 회사의 주식이 급등하는 라이선스 계약을 체결합니다.",
     "Akamai’s stock is surging. A $12 billion Anthropic deal reveals its powerful edge over cloud providers.": "Akamai의 재고가 급증하고 있습니다. $120억 규모의 Anthropic 거래를 통해 클라우드 공급업체에 대한 강력한 우위를 알 수 있습니다.",
     "Why the alternative to the ‘clear and present’ danger from bond yields is this AI-fueled market that has quietly outperformed": "채권 수익률로 인한 ‘명확하고 현재적인’ 위험에 대한 대안이 조용히 실적을 능가한 이 AI 연료 시장인 이유는 무엇입니까?",
@@ -810,7 +809,8 @@
     "Bull markets tend to peak with a whimper, not a bang — but a 15% correction for the S&P 500 may be next": "황소 시장은 쾅 소리가 아니라 징징거리며 최고조에 달하는 경향이 있습니다. 하지만 S&P 500에 대한 15% 수정이 다음이 될 수 있습니다.",
     "Netflix vows to revive viewership trends, but investors hit ‘sell’ on the stock": "넷플릭스는 시청률 추세를 되살리겠다고 맹세했지만, 투자자들은 주식에서 ‘매도’ 를 기록했다.",
     "Super Micro’s stock soars after surprise update — with Dell and HPE shares joining the rally": "슈퍼 마이크로의 주식은 깜짝 업데이트 후 치솟습니다 — Dell과 HPE 주식이 랠리에 합류하면서",
-    "Tesla’s stock rises as Elon Musk drops new clues about a possible SpaceX merger": "Elon Musk가 SpaceX 합병 가능성에 대한 새로운 단서를 떨어뜨리면서 Tesla의 주가가 상승합니다."
+    "Tesla’s stock rises as Elon Musk drops new clues about a possible SpaceX merger": "Elon Musk가 SpaceX 합병 가능성에 대한 새로운 단서를 떨어뜨리면서 Tesla의 주가가 상승합니다.",
+    "Why SpaceX’s stock is surging — and lifting the broader AI universe along with it": "SpaceX의 재고가 급증하고 더 넓은 AI 우주를 그와 함께 들어 올리는 이유"
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2955,7 +2955,7 @@
       "2026-10-18": 1334.66,
       "2026-10-19": 1331.42,
       "2026-10-20": 1326.24,
-      "2026-10-21": 1325.9
+      "2026-10-21": 1323.38
     },
     "^GSPC": {
       "2026-10-09": 7811.54,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgELM845CFvuaLbPeVWjG\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgELM8W7KfYi8KSSijieo\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgELM8pxErvNkZSrFS9jK\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgEQBmW1sCZvQJK73UCXy\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgEQBmy3wmeT6a1gpG9hP\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgEQBnFfKLGix2W9zMnMf\"}"
   ]
 }
