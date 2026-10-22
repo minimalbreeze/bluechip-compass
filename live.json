@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-22T10:46:51.796Z",
+  "asOf": "2026-10-22T11:47:12.852Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -8,7 +8,7 @@
       "chg": -3.52,
       "prevDay": "2026-10-21",
       "basis": "prev-close-bar",
-      "time": "2026-10-22T06:32:40.000Z"
+      "time": "2026-10-22T11:05:40.000Z"
     },
     "^KQ11": {
       "price": 764.1,
@@ -16,15 +16,15 @@
       "chg": -3.62,
       "prevDay": "2026-10-21",
       "basis": "prev-close-bar",
-      "time": "2026-10-22T06:33:00.000Z"
+      "time": "2026-10-22T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1322.82,
+      "price": 1323.71,
       "prev": 1323.93994140625,
-      "chg": -0.08,
+      "chg": -0.02,
       "prevDay": "2026-10-21",
       "basis": "prev-close-bar",
-      "time": "2026-10-22T10:46:37.000Z"
+      "time": "2026-10-22T11:47:07.000Z"
     },
     "^GSPC": {
       "price": 7757.17,
@@ -43,12 +43,12 @@
       "time": "2026-10-21T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 18.21,
+      "price": 18.29,
       "prev": 16.68000030517578,
-      "chg": 9.17,
+      "chg": 9.65,
       "prevDay": "2026-10-21",
       "basis": "prev-close-bar",
-      "time": "2026-10-22T10:31:31.000Z"
+      "time": "2026-10-22T11:32:01.000Z"
     },
     "^TNX": {
       "price": 5.146,
@@ -60,7 +60,7 @@
     }
   },
   "fx": {
-    "low52": 1322.82,
+    "low52": 1323.71,
     "high52": 1554.48,
     "pct": 0
   },
@@ -80,11 +80,11 @@
       "chg3m": 1.43
     },
     "KRW=X": {
-      "last": 1322.82,
-      "low52": 1322.82,
+      "last": 1323.71,
+      "low52": 1323.71,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -9.67
+      "chg3m": -9.61
     },
     "^GSPC": {
       "last": 7757.17,
@@ -101,11 +101,11 @@
       "chg3m": 6.91
     },
     "^VIX": {
-      "last": 18.21,
+      "last": 18.29,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.27,
-      "chg3m": 0
+      "pct52": 0.274,
+      "chg3m": 0.44
     },
     "^TNX": {
       "last": 5.15,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgH9CKXN4"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgHDoF8Pb"
   },
   "stocks": {
     "kr": {
@@ -368,6 +368,39 @@
   "news": {
     "kr": [
       {
+        "title": "거래소 \"코스닥 승강제 '절대평가' 방식 검토 중…확정은 아냐\"",
+        "link": "https://www.yna.co.kr/view/AKR20261022191300008",
+        "source": "연합뉴스",
+        "date": "Thu, 22 Oct 2026 20:02:51 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "교보증권, 3000억 규모 자본확충 나서",
+        "link": "https://www.hankyung.com/article/2026102296851",
+        "source": "한국경제",
+        "date": "Thu, 22 Oct 2026 19:35:39 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "“자동차 주식은 좋은 일이 아예 없나요?”…환율까지 안도와준다는데",
+        "link": "https://www.mk.co.kr/news/economy/12183412",
+        "source": "매일경제",
+        "date": "Thu, 22 Oct 2026 20:38:09 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
         "title": "골드만 \"기관투자자⅓ 투자금 늘릴 계획…최대위험 지정학 긴장\"",
         "link": "https://www.yna.co.kr/view/AKR20261022125100008",
         "source": "연합뉴스",
@@ -379,54 +412,21 @@
         "by": "rules"
       },
       {
-        "title": "'7월 악몽'서 깨어난 IBM, 호실적에 반등",
-        "link": "https://www.hankyung.com/article/2026102294031",
+        "title": "교보증권 3000억원 유상증자…자기자본 2.5조로 껑충",
+        "link": "https://www.hankyung.com/article/202610229635i",
         "source": "한국경제",
-        "date": "Thu, 22 Oct 2026 18:34:36 +0900",
+        "date": "Thu, 22 Oct 2026 19:19:05 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "‘스페이스X 공모주 0주’ 묶인 돈 보상받나…금감원 “투자자 보상 검토”",
-        "link": "https://www.mk.co.kr/news/economy/12183341",
+        "title": "코스닥 승강제 최상위 리그…자격되면 숫자 제한 안둔다",
+        "link": "https://www.mk.co.kr/news/stock/12183387",
         "source": "매일경제",
-        "date": "Thu, 22 Oct 2026 19:26:19 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "숙련기능 외국인력 체류기간 연장 간소화…근속기간 가점도 확대",
-        "link": "https://www.yna.co.kr/view/AKR20261022189000004",
-        "source": "연합뉴스",
-        "date": "Thu, 22 Oct 2026 19:22:12 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "버킨백 중고가격 떨어지자 에르메스 올 주가 35% 급락",
-        "link": "https://www.hankyung.com/article/2026102294051",
-        "source": "한국경제",
-        "date": "Thu, 22 Oct 2026 18:33:58 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "이렇게 벌어도 7만전자·20만닉스?…코스피 적정가 다시 계산해봤습니다 [머니닥터 시장진단]",
-        "link": "https://www.mk.co.kr/news/business/12183300",
-        "source": "매일경제",
-        "date": "Thu, 22 Oct 2026 18:42:42 +09:00",
+        "date": "Thu, 22 Oct 2026 20:08:23 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -2955,7 +2955,7 @@
       "2026-10-19": 1331.42,
       "2026-10-20": 1326.24,
       "2026-10-21": 1326.11,
-      "2026-10-22": 1322.82
+      "2026-10-22": 1323.71
     },
     "^GSPC": {
       "2026-10-11": 7811.54,
@@ -2997,7 +2997,7 @@
       "2026-10-19": 18.44,
       "2026-10-20": 17.31,
       "2026-10-21": 16.68,
-      "2026-10-22": 18.21
+      "2026-10-22": 18.29
     },
     "^TNX": {
       "2026-10-11": 5.244,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgH9CKXN4FsqgNkt4LMgx\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgH9CL1tbwqEv2ZfBn8V9\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgH9CLQCkY1F4rBCMrahj\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgHDoF8PbqvufUjAN48eW\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgHDoFZSjuPuYTS5Cdstc\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgHDoFzUswnqKwt4mE5q8\"}"
   ]
 }
