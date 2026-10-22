@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-22T20:03:38.067Z",
+  "asOf": "2026-10-22T20:14:03.033Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,20 +19,20 @@
       "time": "2026-10-22T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1325.79,
+      "price": 1325.55,
       "prev": 1323.93994140625,
-      "chg": 0.14,
+      "chg": 0.12,
       "prevDay": "2026-10-21",
       "basis": "prev-close-bar",
-      "time": "2026-10-22T20:03:20.000Z"
+      "time": "2026-10-22T20:13:55.000Z"
     },
     "^GSPC": {
-      "price": 7663.35,
+      "price": 7663.43,
       "prev": 7757.169921875,
       "chg": -1.21,
       "prevDay": "2026-10-21",
       "basis": "prev-close-bar",
-      "time": "2026-10-22T20:03:32.000Z"
+      "time": "2026-10-22T20:13:55.000Z"
     },
     "^IXIC": {
       "price": 26008.86,
@@ -40,15 +40,15 @@
       "chg": -2.6,
       "prevDay": "2026-10-21",
       "basis": "prev-close-bar",
-      "time": "2026-10-22T20:03:30.000Z"
+      "time": "2026-10-22T20:13:53.000Z"
     },
     "^VIX": {
-      "price": 19.82,
+      "price": 19.19,
       "prev": 16.68000030517578,
-      "chg": 18.82,
+      "chg": 15.05,
       "prevDay": "2026-10-21",
       "basis": "prev-close-bar",
-      "time": "2026-10-22T19:48:31.000Z"
+      "time": "2026-10-22T19:58:46.000Z"
     },
     "^TNX": {
       "price": 4.953,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1323.94,
     "high52": 1554.48,
-    "pct": 0.008
+    "pct": 0.007
   },
   "hist": {
     "^KS11": {
@@ -80,18 +80,18 @@
       "chg3m": 5.75
     },
     "KRW=X": {
-      "last": 1325.84,
+      "last": 1325.55,
       "low52": 1323.94,
       "high52": 1554.48,
-      "pct52": 0.008,
-      "chg3m": -8.76
+      "pct52": 0.007,
+      "chg3m": -8.78
     },
     "^GSPC": {
-      "last": 7663.35,
+      "last": 7663.43,
       "low52": 6343.72,
       "high52": 7818.93,
       "pct52": 0.895,
-      "chg3m": 3.37
+      "chg3m": 3.38
     },
     "^IXIC": {
       "last": 26008.86,
@@ -101,11 +101,11 @@
       "chg3m": 4.32
     },
     "^VIX": {
-      "last": 19.82,
+      "last": 19.19,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.361,
-      "chg3m": 8.84
+      "pct52": 0.325,
+      "chg3m": 5.38
     },
     "^TNX": {
       "last": 4.95,
@@ -448,15 +448,15 @@
         "by": "rules"
       },
       {
-        "title": "Moderna’s cancer vaccine hits its targets, but an embargo breach rattles investors and the stock tumbles",
+        "title": "Moderna’s cancer vaccine hits its targets, but a data leak rattles investors and the stock tumbles",
         "link": "https://www.marketwatch.com/story/modernas-stock-tumbles-after-reported-leak-of-data-for-cancer-vaccine-dcc897c1?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Thu, 22 Oct 2026 19:31:00 GMT",
-        "ko": "모데르나의 암 백신은 목표를 달성했지만, 금수 조치 위반으로 투자자들이 덜컹거리고 주식이 폭락합니다.",
-        "act": "watch",
-        "lasting": "structural",
+        "date": "Thu, 22 Oct 2026 20:02:00 GMT",
+        "ko": "모데르나의 암 백신은 목표를 달성했지만 데이터 유출로 투자자가 덜컹거리고 주식이 폭락합니다.",
+        "act": "none",
+        "lasting": "temporary",
         "scope": null,
-        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
@@ -511,7 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "Nvidia makes a statement with historic $150 billion buyback announcement": "엔비디아는 역사적인 1,500억 달러 ($) 규모의 환매 발표와 함께 성명을 발표합니다.",
     "The stock market usually booms in the November-to-April stretch. This indicator suggests otherwise.": "주식 시장은 일반적으로 11 월에서 4 월 사이에 호황을 누리고 있습니다. 이 표시등은 그렇지 않음을 나타냅니다.",
     "MongoDB’s stock is down more than 20% as CEO decamps to Meta": "CEO가 Meta로 하락함에 따라 MongoDB의 주가가 20% 이상 하락했습니다.",
     "Nvidia is right: Its stock is a bargain by this measure": "엔비디아는 옳다: 그 재고는이 조치에 의한 거래이다",
@@ -810,7 +809,8 @@
     "Why this JPMorgan strategist thinks the stock market’s tailspin might have run its course": "이 JP모건 전략가가 주식 시장의 테일스핀이 코스를 달렸을 것이라고 생각하는 이유",
     "Moderna’s stock tumbles after reported leak of data for cancer vaccine": "암 백신에 대한 데이터 유출이 보고된 후 모데르나의 재고가 떨어짐",
     "Young investors are betting on prediction markets and crypto. But this bestselling author says the boring money moves still work.": "젊은 투자자들은 예측 시장과 암호화폐에 베팅하고 있습니다. 그러나 이 베스트셀러 저자는 지루한 돈이 여전히 작동한다고 말합니다.",
-    "Moderna’s cancer vaccine hits its targets, but an embargo breach rattles investors and the stock tumbles": "모데르나의 암 백신은 목표를 달성했지만, 금수 조치 위반으로 투자자들이 덜컹거리고 주식이 폭락합니다."
+    "Moderna’s cancer vaccine hits its targets, but an embargo breach rattles investors and the stock tumbles": "모데르나의 암 백신은 목표를 달성했지만, 금수 조치 위반으로 투자자들이 덜컹거리고 주식이 폭락합니다.",
+    "Moderna’s cancer vaccine hits its targets, but a data leak rattles investors and the stock tumbles": "모데르나의 암 백신은 목표를 달성했지만 데이터 유출로 투자자가 덜컹거리고 주식이 폭락합니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2955,7 +2955,7 @@
       "2026-10-19": 1331.42,
       "2026-10-20": 1326.24,
       "2026-10-21": 1326.11,
-      "2026-10-22": 1325.79
+      "2026-10-22": 1325.55
     },
     "^GSPC": {
       "2026-10-11": 7811.54,
@@ -2969,7 +2969,7 @@
       "2026-10-19": 7690.73,
       "2026-10-20": 7712.57,
       "2026-10-21": 7757.17,
-      "2026-10-22": 7663.35
+      "2026-10-22": 7663.43
     },
     "^IXIC": {
       "2026-10-11": 27366.17,
@@ -2997,7 +2997,7 @@
       "2026-10-19": 18.44,
       "2026-10-20": 17.31,
       "2026-10-21": 16.68,
-      "2026-10-22": 19.82
+      "2026-10-22": 19.19
     },
     "^TNX": {
       "2026-10-11": 5.244,
@@ -3387,7 +3387,7 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgHseqz4C1ko5GzHKicQ1\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgHserWKHexqHoyw2Myfq\"}"
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgHtSv6PhLgQcDrrkhR8j\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgHtSvaAP5syqbnoFJkUt\"}"
   ]
 }
