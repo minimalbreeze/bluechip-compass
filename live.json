@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-21T23:10:56.451Z",
+  "asOf": "2026-10-22T00:01:21.663Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-21T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1326.33,
+      "price": 1327.78,
       "prev": 1323.93994140625,
-      "chg": 0.18,
+      "chg": 0.29,
       "prevDay": "2026-10-21",
       "basis": "prev-close-bar",
-      "time": "2026-10-21T23:08:11.000Z"
+      "time": "2026-10-22T00:01:14.000Z"
     },
     "^GSPC": {
       "price": 7757.17,
@@ -62,14 +62,14 @@
   "fx": {
     "low52": 1323.94,
     "high52": 1554.48,
-    "pct": 0.01
+    "pct": 0.017
   },
   "hist": {
     "^KS11": {
       "last": 5552.74,
-      "low52": 3823.84,
+      "low52": 3845.56,
       "high52": 9114.55,
-      "pct52": 0.327,
+      "pct52": 0.324,
       "chg3m": -18.59
     },
     "^KQ11": {
@@ -80,11 +80,11 @@
       "chg3m": -1.25
     },
     "KRW=X": {
-      "last": 1326.33,
+      "last": 1327.78,
       "low52": 1323.94,
       "high52": 1554.48,
-      "pct52": 0.01,
-      "chg3m": -9.43
+      "pct52": 0.017,
+      "chg3m": -9.33
     },
     "^GSPC": {
       "last": 7757.17,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgGE8MPD4"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgGHyMqws"
   },
   "stocks": {
     "kr": {
@@ -368,21 +368,10 @@
   "news": {
     "kr": [
       {
-        "title": "[마켓뷰] AI 투심 개선 vs 차익 실현…코스피 향방은",
-        "link": "https://www.yna.co.kr/view/AKR20261022022400008",
+        "title": "IBK증권, 기업은행 연계 계좌개설 이벤트…선착순 주식 증정",
+        "link": "https://www.yna.co.kr/view/AKR20261022033500008",
         "source": "연합뉴스",
-        "date": "Thu, 22 Oct 2026 08:02:40 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "스페이스X 훈풍에 기술주 강세…나스닥 1.05% ↑ [뉴욕증시 브리핑]",
-        "link": "https://www.hankyung.com/article/2026102273436",
-        "source": "한국경제",
-        "date": "Thu, 22 Oct 2026 07:05:30 +0900",
+        "date": "Thu, 22 Oct 2026 08:55:20 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -390,32 +379,43 @@
         "by": "rules"
       },
       {
-        "title": "이렇게 벌어도 7만전자·20만닉스? … 코스피 적정가 다시 계산해봤습니다",
-        "link": "https://www.mk.co.kr/news/stock/12181696",
-        "source": "매일경제",
-        "date": "Thu, 22 Oct 2026 05:10:00 +09:00",
+        "title": "\"ASML 메모리 장비 매출 2배…반도체 공급 부족 장기화 신호\"-키움",
+        "link": "https://www.hankyung.com/article/2026102274786",
+        "source": "한국경제",
+        "date": "Thu, 22 Oct 2026 08:22:41 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "[우분투칼럼] 아프리카 증시가 울리는 자립의 종소리",
-        "link": "https://www.yna.co.kr/view/AKR20261006025000898",
+        "title": "하나증권 “LS일렉트릭, 견조한 수요…대규모 계약 공시로 확인”",
+        "link": "https://www.mk.co.kr/news/stock/12182454",
+        "source": "매일경제",
+        "date": "Thu, 22 Oct 2026 08:55:22 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "키움증권 \"LIG D&A 방사청 제재, 단기실적 영향 제한적\"",
+        "link": "https://www.yna.co.kr/view/AKR20261022029200008",
         "source": "연합뉴스",
-        "date": "Thu, 22 Oct 2026 07:00:04 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "date": "Thu, 22 Oct 2026 08:38:22 +0900",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": "company",
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
         "by": "rules"
       },
       {
-        "title": "\"약속의 11월, 이번엔 다르다\"…증권가가 찍은 '효자 종목' [한경우의 케이스스터디]",
-        "link": "https://www.hankyung.com/article/2026102158686",
+        "title": "테슬라 영업익 56% 급감…'어닝 서프라이즈' 뒤에 가려진 투자 딜레마",
+        "link": "https://www.hankyung.com/article/202610227459i",
         "source": "한국경제",
-        "date": "Thu, 22 Oct 2026 06:30:01 +0900",
+        "date": "Thu, 22 Oct 2026 08:12:27 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -423,10 +423,10 @@
         "by": "rules"
       },
       {
-        "title": "삼성전기, 엔비디아와 AI 반도체 깐부 됐다…AI 기판 장기 공급",
-        "link": "https://www.mk.co.kr/news/stock/12182179",
+        "title": "링컨까지 소환한 베센트... 앤트로픽 상장, 다음달 확정인가",
+        "link": "https://www.mk.co.kr/news/business/12182433",
         "source": "매일경제",
-        "date": "Wed, 21 Oct 2026 20:57:16 +09:00",
+        "date": "Thu, 22 Oct 2026 08:43:00 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -448,11 +448,11 @@
         "by": "rules"
       },
       {
-        "title": "Meta’s stock rises as investors glimpse an opportunity that could dwarf the ad business",
-        "link": "https://www.marketwatch.com/story/metas-stock-rises-as-investors-glimpse-an-opportunity-that-could-dwarf-the-ad-business-89369c6c?mod=mw_rss_topstories",
+        "title": "Tesla’s stock falls as Elon Musk leaves investors wanting more",
+        "link": "https://www.marketwatch.com/story/teslas-stock-falls-as-elon-musk-leaves-investors-wanting-more-eb347f38?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Wed, 21 Oct 2026 23:07:00 GMT",
-        "ko": "투자자들이 광고 비즈니스를 왜소하게 만들 수 있는 기회를 엿보면서 Meta의 주가가 상승합니다.",
+        "date": "Wed, 21 Oct 2026 23:29:00 GMT",
+        "ko": "일론 머스크가 투자자들에게 더 많은 것을 요구하면서 테슬라의 주가는 하락합니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -472,11 +472,11 @@
         "by": "rules"
       },
       {
-        "title": "7 healthcare stocks that stand out as investors pay up for the sector",
-        "link": "https://www.marketwatch.com/story/7-healthcare-stocks-that-stand-out-as-investors-pay-up-for-the-sector-d9b0c173?mod=mw_rss_topstories",
+        "title": "Meta’s stock rises as investors glimpse an opportunity that could dwarf the ad business",
+        "link": "https://www.marketwatch.com/story/metas-stock-rises-as-investors-glimpse-an-opportunity-that-could-dwarf-the-ad-business-89369c6c?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Wed, 21 Oct 2026 20:59:00 GMT",
-        "ko": "투자자들이 이 부문을 위해 지불하는 7개의 헬스케어 주식",
+        "date": "Wed, 21 Oct 2026 23:07:00 GMT",
+        "ko": "투자자들이 광고 비즈니스를 왜소하게 만들 수 있는 기회를 엿보면서 Meta의 주가가 상승합니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -496,11 +496,11 @@
         "by": "rules"
       },
       {
-        "title": "My partner of 17 years left me his $1 million home. His children say I influenced him to do so. Should I share my inheritance?",
-        "link": "https://www.marketwatch.com/story/my-unmarried-partner-of-17-years-left-me-his-1-1-million-home-his-three-children-are-livid-should-i-share-my-inheritance-a11d593d?mod=mw_rss_topstories",
+        "title": "7 healthcare stocks that stand out as investors pay up for the sector",
+        "link": "https://www.marketwatch.com/story/7-healthcare-stocks-that-stand-out-as-investors-pay-up-for-the-sector-d9b0c173?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Wed, 21 Oct 2026 20:31:00 GMT",
-        "ko": "17년 동안의 제 파트너는 저에게 100만 달러 ($) 의 집을 남겨주었습니다. 그의 자녀들은 내가 그에게 그렇게 하도록 영향을 주었다고 말한다. 유산을 공유해야 합니까?",
+        "date": "Wed, 21 Oct 2026 20:59:00 GMT",
+        "ko": "투자자들이 이 부문을 위해 지불하는 7개의 헬스케어 주식",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -511,7 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "A 10% risk-free yield? For some, yes.": "10% 무위험 수익률? 어떤 사람들에게는 그렇습니다.",
     "This is why you might see 8% mortgage rates soon": "이것이 곧 8% 의 주택담보대출 금리를 볼 수 있는 이유입니다.",
     "Nike’s stock is one of the worst in the S&P 500 — and BofA says it’s not done sliding": "나이키의 주식은 S&P 500에서 최악 중 하나이며, BofA는 슬라이딩이 완료되지 않았다고 말합니다.",
     "Microsoft’s stock has roared back to life, closing at its highest level of the year": "Microsoft의 주가가 다시 살아나면서 올해 최고 수준으로 마감되었습니다.",
@@ -810,7 +809,8 @@
     "Opposition to data centers will drive up inflation, says BlackRock’s Larry Fink": "BlackRock의 Larry Fink는 데이터 센터에 대한 반대가 인플레이션을 증가시킬 것이라고 말합니다.",
     "AI stocks are probably in a bubble — but might be worth holding on to, says Citadel’s Ken Griffin": "시타델 (Citadel) 의 켄 그리핀 (Ken Griffin) 은 인공지능 (AI) 주식은 거품 속에 있을 수 있지만 버틸만한 가치가 있다고 말합니다.",
     "7 healthcare stocks that stand out as investors pay up for the sector": "투자자들이 이 부문을 위해 지불하는 7개의 헬스케어 주식",
-    "Meta’s stock rises as investors glimpse an opportunity that could dwarf the ad business": "투자자들이 광고 비즈니스를 왜소하게 만들 수 있는 기회를 엿보면서 Meta의 주가가 상승합니다."
+    "Meta’s stock rises as investors glimpse an opportunity that could dwarf the ad business": "투자자들이 광고 비즈니스를 왜소하게 만들 수 있는 기회를 엿보면서 Meta의 주가가 상승합니다.",
+    "Tesla’s stock falls as Elon Musk leaves investors wanting more": "일론 머스크가 투자자들에게 더 많은 것을 요구하면서 테슬라의 주가는 하락합니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2955,7 +2955,7 @@
       "2026-10-19": 1331.42,
       "2026-10-20": 1326.24,
       "2026-10-21": 1326.11,
-      "2026-10-22": 1326.33
+      "2026-10-22": 1327.78
     },
     "^GSPC": {
       "2026-10-10": 7811.54,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgGE8MPD4am4Q8eDgexu5\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgGE8MtDoSL3dBjPxyaF1\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgGE8NKkuyHhUL8fNTowW\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgGHyMqwsyhs668rTquLx\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgGHyND2R4SfBnpB3vbJm\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgGHyNVQ9a4NDASaS2k1D\"}"
   ]
 }
