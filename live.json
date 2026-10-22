@@ -1,30 +1,30 @@
 {
-  "asOf": "2026-10-22T06:45:18.731Z",
+  "asOf": "2026-10-22T07:45:41.450Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
-      "price": 5539.94,
+      "price": 5533.77,
       "prev": 5735.66015625,
-      "chg": -3.41,
+      "chg": -3.52,
       "prevDay": "2026-10-21",
       "basis": "prev-close-bar",
-      "time": "2026-10-22T06:25:10.000Z"
+      "time": "2026-10-22T06:32:40.000Z"
     },
     "^KQ11": {
-      "price": 765.36,
+      "price": 764.1,
       "prev": 792.760009765625,
-      "chg": -3.46,
+      "chg": -3.62,
       "prevDay": "2026-10-21",
       "basis": "prev-close-bar",
-      "time": "2026-10-22T06:25:10.000Z"
+      "time": "2026-10-22T06:33:00.000Z"
     },
     "KRW=X": {
-      "price": 1322.78,
+      "price": 1321.73,
       "prev": 1323.93994140625,
-      "chg": -0.09,
+      "chg": -0.17,
       "prevDay": "2026-10-21",
       "basis": "prev-close-bar",
-      "time": "2026-10-22T06:45:08.000Z"
+      "time": "2026-10-22T07:45:25.000Z"
     },
     "^GSPC": {
       "price": 7757.17,
@@ -32,7 +32,7 @@
       "chg": 0,
       "prevDay": "2026-10-21",
       "basis": "prev-close-bar",
-      "time": "2026-10-21T20:31:21.000Z"
+      "time": "2026-10-21T20:00:00.000Z"
     },
     "^IXIC": {
       "price": 26702.857,
@@ -43,12 +43,12 @@
       "time": "2026-10-21T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 16.68,
+      "price": 18.24,
       "prev": 16.68000030517578,
-      "chg": 0,
+      "chg": 9.35,
       "prevDay": "2026-10-21",
       "basis": "prev-close-bar",
-      "time": "2026-10-21T20:15:01.000Z"
+      "time": "2026-10-22T07:30:31.000Z"
     },
     "^TNX": {
       "price": 5.146,
@@ -60,31 +60,31 @@
     }
   },
   "fx": {
-    "low52": 1322.78,
+    "low52": 1321.73,
     "high52": 1554.48,
     "pct": 0
   },
   "hist": {
     "^KS11": {
-      "last": 5539.94,
+      "last": 5533.77,
       "low52": 3845.56,
       "high52": 9114.55,
-      "pct52": 0.322,
-      "chg3m": -17.9
+      "pct52": 0.32,
+      "chg3m": -17.99
     },
     "^KQ11": {
-      "last": 765.36,
+      "last": 764.1,
       "low52": 644.78,
       "high52": 1226.18,
-      "pct52": 0.207,
-      "chg3m": 1.6
+      "pct52": 0.205,
+      "chg3m": 1.43
     },
     "KRW=X": {
-      "last": 1322.78,
-      "low52": 1322.78,
+      "last": 1321.73,
+      "low52": 1321.73,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -9.67
+      "chg3m": -9.75
     },
     "^GSPC": {
       "last": 7757.17,
@@ -101,11 +101,11 @@
       "chg3m": 6.91
     },
     "^VIX": {
-      "last": 16.68,
+      "last": 18.24,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.183,
-      "chg3m": -10.66
+      "pct52": 0.271,
+      "chg3m": 0.16
     },
     "^TNX": {
       "last": 5.15,
@@ -149,41 +149,41 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgGpmyNtc"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgGuP2Pux"
   },
   "stocks": {
     "kr": {
       "105560": {
-        "price": 158400,
+        "price": 158200,
         "prev": 160600,
-        "chg": -1.37,
+        "chg": -1.49,
         "prevDay": "2026-10-21",
         "basis": "prev-close-bar",
-        "time": "2026-10-22T06:19:55.000Z"
+        "time": "2026-10-22T06:30:23.000Z"
       },
       "207940": {
-        "price": 1358000,
+        "price": 1361000,
         "prev": 1417000,
-        "chg": -4.16,
+        "chg": -3.95,
         "prevDay": "2026-10-21",
         "basis": "prev-close-bar",
-        "time": "2026-10-22T06:19:57.000Z"
+        "time": "2026-10-22T06:30:13.000Z"
       },
       "005930": {
-        "price": 215500,
+        "price": 214500,
         "prev": 223500,
-        "chg": -3.58,
+        "chg": -4.03,
         "prevDay": "2026-10-21",
         "basis": "prev-close-bar",
-        "time": "2026-10-22T06:19:59.000Z"
+        "time": "2026-10-22T06:30:11.000Z"
       },
       "000660": {
-        "price": 1220000,
+        "price": 1223000,
         "prev": 1294000,
-        "chg": -5.72,
+        "chg": -5.49,
         "prevDay": "2026-10-21",
         "basis": "prev-close-bar",
-        "time": "2026-10-22T06:20:00.000Z"
+        "time": "2026-10-22T06:30:04.000Z"
       },
       "005380": {
         "price": 301500,
@@ -191,47 +191,47 @@
         "chg": -2.58,
         "prevDay": "2026-10-21",
         "basis": "prev-close-bar",
-        "time": "2026-10-22T06:19:57.000Z"
+        "time": "2026-10-22T06:30:01.000Z"
       },
       "055550": {
-        "price": 90200,
+        "price": 90300,
         "prev": 91700,
-        "chg": -1.64,
+        "chg": -1.53,
         "prevDay": "2026-10-21",
         "basis": "prev-close-bar",
-        "time": "2026-10-22T06:19:56.000Z"
+        "time": "2026-10-22T06:30:25.000Z"
       },
       "000810": {
-        "price": 612000,
+        "price": 608000,
         "prev": 601000,
-        "chg": 1.83,
+        "chg": 1.16,
         "prevDay": "2026-10-21",
         "basis": "prev-close-bar",
-        "time": "2026-10-22T06:19:57.000Z"
+        "time": "2026-10-22T06:30:07.000Z"
       },
       "033780": {
-        "price": 193700,
+        "price": 193800,
         "prev": 194000,
-        "chg": -0.15,
+        "chg": -0.1,
         "prevDay": "2026-10-21",
         "basis": "prev-close-bar",
-        "time": "2026-10-22T06:19:49.000Z"
+        "time": "2026-10-22T06:30:11.000Z"
       },
       "035420": {
-        "price": 176100,
+        "price": 176400,
         "prev": 179500,
-        "chg": -1.89,
+        "chg": -1.73,
         "prevDay": "2026-10-21",
         "basis": "prev-close-bar",
-        "time": "2026-10-22T06:19:57.000Z"
+        "time": "2026-10-22T06:30:08.000Z"
       },
       "005490": {
-        "price": 286500,
+        "price": 286000,
         "prev": 301000,
-        "chg": -4.82,
+        "chg": -4.98,
         "prevDay": "2026-10-21",
         "basis": "prev-close-bar",
-        "time": "2026-10-22T06:19:55.000Z"
+        "time": "2026-10-22T06:30:10.000Z"
       },
       "028260": {
         "price": 288500,
@@ -239,23 +239,23 @@
         "chg": -0.52,
         "prevDay": "2026-10-21",
         "basis": "prev-close-bar",
-        "time": "2026-10-22T06:19:59.000Z"
+        "time": "2026-10-22T06:30:16.000Z"
       },
       "012450": {
-        "price": 814000,
+        "price": 811000,
         "prev": 814000,
-        "chg": 0,
+        "chg": -0.37,
         "prevDay": "2026-10-21",
         "basis": "prev-close-bar",
-        "time": "2026-10-22T06:19:57.000Z"
+        "time": "2026-10-22T06:30:27.000Z"
       },
       "017670": {
-        "price": 76000,
+        "price": 76200,
         "prev": 77300,
-        "chg": -1.68,
+        "chg": -1.42,
         "prevDay": "2026-10-21",
         "basis": "prev-close-bar",
-        "time": "2026-10-22T06:19:50.000Z"
+        "time": "2026-10-22T06:30:19.000Z"
       }
     },
     "us": {
@@ -368,68 +368,68 @@
   "news": {
     "kr": [
       {
-        "title": "[특징주] 삼성E&A, 3분기 호실적·자사주 취득에 16% 급등(종합)",
-        "link": "https://www.yna.co.kr/view/AKR20261022039551008",
+        "title": "이억원 \"솔리다임 중복상장 규제대상…SK하이닉스 등 의무 발생\"(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261022083551002",
         "source": "연합뉴스",
-        "date": "Thu, 22 Oct 2026 15:37:19 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "date": "Thu, 22 Oct 2026 16:40:54 +0900",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": null,
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
         "by": "rules"
       },
       {
-        "title": "'건설 대장주'도 제쳤다...깜짝 실적·자사주 소각에 날아오른 삼성E&A",
-        "link": "https://www.hankyung.com/article/202610228732i",
+        "title": "타이어株 하락에도...증권가 \"전기차 최대 수혜주는 2차전지 아닌 타이어\"",
+        "link": "https://www.hankyung.com/article/202610228558i",
         "source": "한국경제",
-        "date": "Thu, 22 Oct 2026 15:37:10 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "LG디스플레이 3분기, 전기比 흑자전환…영업이익 2506억원",
-        "link": "https://www.mk.co.kr/news/stock/12182920",
-        "source": "매일경제",
-        "date": "Thu, 22 Oct 2026 15:44:50 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "[외환] 원/달러 환율 1.0원 내린 1,324.2원(15:30 기준가)",
-        "link": "https://www.yna.co.kr/view/AKR20261022143200002",
-        "source": "연합뉴스",
-        "date": "Thu, 22 Oct 2026 15:36:59 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "[속보] 코스피, 낙폭 키워 3.5% 급락 마감…코스닥도 3.6%↓",
-        "link": "https://www.hankyung.com/article/2026102289886",
-        "source": "한국경제",
-        "date": "Thu, 22 Oct 2026 15:34:55 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "‘단종레’ 출시 한달 만에 개미 해외주식 순매수 전환…“외화유출 억제효과 의문”",
-        "link": "https://www.mk.co.kr/news/stock/12182844",
-        "source": "매일경제",
-        "date": "Thu, 22 Oct 2026 15:11:08 +09:00",
+        "date": "Thu, 22 Oct 2026 16:36:12 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "“코스피200 주식 선착순 증정”…IBK투자증권, 기업은행 연계 계좌개설 이벤트",
+        "link": "https://www.mk.co.kr/news/stock/12183018",
+        "source": "매일경제",
+        "date": "Thu, 22 Oct 2026 16:24:33 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "코스피, 3.5% 급락한 5,533…메타 호실적에도 AI 의구심 지속(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261022153000008",
+        "source": "연합뉴스",
+        "date": "Thu, 22 Oct 2026 16:25:52 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "예상 웃돈 실적에도 주가 '뚝'…삼성바이오, '수주 공백'에 발목",
+        "link": "https://www.hankyung.com/article/202610228895i",
+        "source": "한국경제",
+        "date": "Thu, 22 Oct 2026 16:29:06 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "반등 하루 만에 다시 꺾인 코스피…삼전닉스 동반 하락에 5500선 마감",
+        "link": "https://www.mk.co.kr/news/stock/12182940",
+        "source": "매일경제",
+        "date": "Thu, 22 Oct 2026 15:51:18 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -448,11 +448,11 @@
         "by": "rules"
       },
       {
-        "title": "Tesla’s stock falls as Elon Musk leaves investors wanting more",
-        "link": "https://www.marketwatch.com/story/teslas-stock-falls-as-elon-musk-leaves-investors-wanting-more-eb347f38?mod=mw_rss_topstories",
+        "title": "Top HSBC strategist has a warning for retail investors chasing the AI rally",
+        "link": "https://www.marketwatch.com/story/top-hsbc-strategist-has-a-warning-for-retail-investors-chasing-the-ai-rally-e0318ada?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Wed, 21 Oct 2026 23:29:00 GMT",
-        "ko": "일론 머스크가 투자자들에게 더 많은 것을 요구하면서 테슬라의 주가는 하락합니다.",
+        "date": "Thu, 22 Oct 2026 06:46:00 GMT",
+        "ko": "HSBC의 최고 전략가는 AI 랠리를 추구하는 소매 투자자들에게 경고하고 있습니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -472,11 +472,11 @@
         "by": "rules"
       },
       {
-        "title": "Meta’s stock rises as investors glimpse an opportunity that could dwarf the ad business",
-        "link": "https://www.marketwatch.com/story/metas-stock-rises-as-investors-glimpse-an-opportunity-that-could-dwarf-the-ad-business-89369c6c?mod=mw_rss_topstories",
+        "title": "Tesla’s stock falls as Elon Musk leaves investors wanting more",
+        "link": "https://www.marketwatch.com/story/teslas-stock-falls-as-elon-musk-leaves-investors-wanting-more-eb347f38?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Wed, 21 Oct 2026 23:07:00 GMT",
-        "ko": "투자자들이 광고 비즈니스를 왜소하게 만들 수 있는 기회를 엿보면서 Meta의 주가가 상승합니다.",
+        "date": "Wed, 21 Oct 2026 23:29:00 GMT",
+        "ko": "일론 머스크가 투자자들에게 더 많은 것을 요구하면서 테슬라의 주가는 하락합니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -496,11 +496,11 @@
         "by": "rules"
       },
       {
-        "title": "7 healthcare stocks that stand out as investors pay up for the sector",
-        "link": "https://www.marketwatch.com/story/7-healthcare-stocks-that-stand-out-as-investors-pay-up-for-the-sector-d9b0c173?mod=mw_rss_topstories",
+        "title": "Meta’s stock rises as investors glimpse an opportunity that could dwarf the ad business",
+        "link": "https://www.marketwatch.com/story/metas-stock-rises-as-investors-glimpse-an-opportunity-that-could-dwarf-the-ad-business-89369c6c?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Wed, 21 Oct 2026 20:59:00 GMT",
-        "ko": "투자자들이 이 부문을 위해 지불하는 7개의 헬스케어 주식",
+        "date": "Wed, 21 Oct 2026 23:07:00 GMT",
+        "ko": "투자자들이 광고 비즈니스를 왜소하게 만들 수 있는 기회를 엿보면서 Meta의 주가가 상승합니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -511,7 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "This is why you might see 8% mortgage rates soon": "이것이 곧 8% 의 주택담보대출 금리를 볼 수 있는 이유입니다.",
     "Nike’s stock is one of the worst in the S&P 500 — and BofA says it’s not done sliding": "나이키의 주식은 S&P 500에서 최악 중 하나이며, BofA는 슬라이딩이 완료되지 않았다고 말합니다.",
     "Microsoft’s stock has roared back to life, closing at its highest level of the year": "Microsoft의 주가가 다시 살아나면서 올해 최고 수준으로 마감되었습니다.",
     "Tesla’s stock falls as launch of Semi truck fails to excite investors": "세미 트럭 출시로 테슬라의 주가가 하락하여 투자자들을 흥분시키지 못함",
@@ -810,7 +809,8 @@
     "AI stocks are probably in a bubble — but might be worth holding on to, says Citadel’s Ken Griffin": "시타델 (Citadel) 의 켄 그리핀 (Ken Griffin) 은 인공지능 (AI) 주식은 거품 속에 있을 수 있지만 버틸만한 가치가 있다고 말합니다.",
     "7 healthcare stocks that stand out as investors pay up for the sector": "투자자들이 이 부문을 위해 지불하는 7개의 헬스케어 주식",
     "Meta’s stock rises as investors glimpse an opportunity that could dwarf the ad business": "투자자들이 광고 비즈니스를 왜소하게 만들 수 있는 기회를 엿보면서 Meta의 주가가 상승합니다.",
-    "Tesla’s stock falls as Elon Musk leaves investors wanting more": "일론 머스크가 투자자들에게 더 많은 것을 요구하면서 테슬라의 주가는 하락합니다."
+    "Tesla’s stock falls as Elon Musk leaves investors wanting more": "일론 머스크가 투자자들에게 더 많은 것을 요구하면서 테슬라의 주가는 하락합니다.",
+    "Top HSBC strategist has a warning for retail investors chasing the AI rally": "HSBC의 최고 전략가는 AI 랠리를 추구하는 소매 투자자들에게 경고하고 있습니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2927,7 +2927,7 @@
       "2026-10-19": 5768.01,
       "2026-10-20": 5552.74,
       "2026-10-21": 5735.66,
-      "2026-10-22": 5539.94
+      "2026-10-22": 5533.77
     },
     "^KQ11": {
       "2026-10-11": 892.27,
@@ -2941,7 +2941,7 @@
       "2026-10-19": 808.89,
       "2026-10-20": 781.97,
       "2026-10-21": 792.76,
-      "2026-10-22": 765.36
+      "2026-10-22": 764.1
     },
     "KRW=X": {
       "2026-10-11": 1341.07,
@@ -2955,7 +2955,7 @@
       "2026-10-19": 1331.42,
       "2026-10-20": 1326.24,
       "2026-10-21": 1326.11,
-      "2026-10-22": 1322.78
+      "2026-10-22": 1321.73
     },
     "^GSPC": {
       "2026-10-11": 7811.54,
@@ -2997,7 +2997,7 @@
       "2026-10-19": 18.44,
       "2026-10-20": 17.31,
       "2026-10-21": 16.68,
-      "2026-10-22": 16.68
+      "2026-10-22": 18.24
     },
     "^TNX": {
       "2026-10-11": 5.244,
@@ -3025,7 +3025,7 @@
       "2026-10-19": 162700,
       "2026-10-20": 160900,
       "2026-10-21": 160600,
-      "2026-10-22": 158400
+      "2026-10-22": 158200
     },
     "207940.KS": {
       "2026-10-11": 1219000,
@@ -3039,7 +3039,7 @@
       "2026-10-19": 1427000,
       "2026-10-20": 1391000,
       "2026-10-21": 1417000,
-      "2026-10-22": 1358000
+      "2026-10-22": 1361000
     },
     "005930.KS": {
       "2026-10-11": 262000,
@@ -3053,7 +3053,7 @@
       "2026-10-19": 218000,
       "2026-10-20": 211500,
       "2026-10-21": 223500,
-      "2026-10-22": 215500
+      "2026-10-22": 214500
     },
     "000660.KS": {
       "2026-10-11": 1681000,
@@ -3067,7 +3067,7 @@
       "2026-10-19": 1277000,
       "2026-10-20": 1223000,
       "2026-10-21": 1294000,
-      "2026-10-22": 1220000
+      "2026-10-22": 1223000
     },
     "005380.KS": {
       "2026-10-11": 324500,
@@ -3095,7 +3095,7 @@
       "2026-10-19": 93300,
       "2026-10-20": 91800,
       "2026-10-21": 91700,
-      "2026-10-22": 90200
+      "2026-10-22": 90300
     },
     "000810.KS": {
       "2026-10-11": 612000,
@@ -3109,7 +3109,7 @@
       "2026-10-19": 607000,
       "2026-10-20": 602000,
       "2026-10-21": 601000,
-      "2026-10-22": 612000
+      "2026-10-22": 608000
     },
     "033780.KS": {
       "2026-10-11": 177400,
@@ -3123,7 +3123,7 @@
       "2026-10-19": 193100,
       "2026-10-20": 194000,
       "2026-10-21": 194000,
-      "2026-10-22": 193700
+      "2026-10-22": 193800
     },
     "035420.KS": {
       "2026-10-11": 183800,
@@ -3137,7 +3137,7 @@
       "2026-10-19": 182900,
       "2026-10-20": 178000,
       "2026-10-21": 179500,
-      "2026-10-22": 176100
+      "2026-10-22": 176400
     },
     "005490.KS": {
       "2026-10-11": 306500,
@@ -3151,7 +3151,7 @@
       "2026-10-19": 314500,
       "2026-10-20": 302000,
       "2026-10-21": 301000,
-      "2026-10-22": 286500
+      "2026-10-22": 286000
     },
     "028260.KS": {
       "2026-10-11": 317500,
@@ -3179,7 +3179,7 @@
       "2026-10-19": 905000,
       "2026-10-20": 799000,
       "2026-10-21": 814000,
-      "2026-10-22": 814000
+      "2026-10-22": 811000
     },
     "017670.KS": {
       "2026-10-11": 84100,
@@ -3193,7 +3193,7 @@
       "2026-10-19": 78500,
       "2026-10-20": 77300,
       "2026-10-21": 77300,
-      "2026-10-22": 76000
+      "2026-10-22": 76200
     },
     "MSFT": {
       "2026-10-11": 535.07,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgGpmyNtcXH2A9HDXZ1wk\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgGpmyteX1VMD4rEMNqnk\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgGpmzLgf9phJqUJmpxAm\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgGuP2Pux14psi77pJE7r\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgGuP2mEAyAf2GD3CGGfD\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgGuP33cF1NT8AhvEeKXm\"}"
   ]
 }
