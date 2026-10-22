@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-22T09:46:25.703Z",
+  "asOf": "2026-10-22T10:46:51.796Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-22T06:33:00.000Z"
     },
     "KRW=X": {
-      "price": 1321.75,
+      "price": 1322.82,
       "prev": 1323.93994140625,
-      "chg": -0.17,
+      "chg": -0.08,
       "prevDay": "2026-10-21",
       "basis": "prev-close-bar",
-      "time": "2026-10-22T09:46:17.000Z"
+      "time": "2026-10-22T10:46:37.000Z"
     },
     "^GSPC": {
       "price": 7757.17,
@@ -43,12 +43,12 @@
       "time": "2026-10-21T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 18.49,
+      "price": 18.21,
       "prev": 16.68000030517578,
-      "chg": 10.85,
+      "chg": 9.17,
       "prevDay": "2026-10-21",
       "basis": "prev-close-bar",
-      "time": "2026-10-22T09:31:16.000Z"
+      "time": "2026-10-22T10:31:31.000Z"
     },
     "^TNX": {
       "price": 5.146,
@@ -60,7 +60,7 @@
     }
   },
   "fx": {
-    "low52": 1321.75,
+    "low52": 1322.82,
     "high52": 1554.48,
     "pct": 0
   },
@@ -80,11 +80,11 @@
       "chg3m": 1.43
     },
     "KRW=X": {
-      "last": 1321.75,
-      "low52": 1321.75,
+      "last": 1322.82,
+      "low52": 1322.82,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -9.74
+      "chg3m": -9.67
     },
     "^GSPC": {
       "last": 7757.17,
@@ -101,11 +101,11 @@
       "chg3m": 6.91
     },
     "^VIX": {
-      "last": 18.49,
+      "last": 18.21,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.286,
-      "chg3m": 1.54
+      "pct52": 0.27,
+      "chg3m": 0
     },
     "^TNX": {
       "last": 5.15,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgH4b2bSu"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgH9CKXN4"
   },
   "stocks": {
     "kr": {
@@ -368,10 +368,10 @@
   "news": {
     "kr": [
       {
-        "title": "교보증권, 상환전환우선주 발행으로 3천억원 자본 확충(종합)",
-        "link": "https://www.yna.co.kr/view/AKR20261022178051008",
+        "title": "골드만 \"기관투자자⅓ 투자금 늘릴 계획…최대위험 지정학 긴장\"",
+        "link": "https://www.yna.co.kr/view/AKR20261022125100008",
         "source": "연합뉴스",
-        "date": "Thu, 22 Oct 2026 18:37:42 +0900",
+        "date": "Thu, 22 Oct 2026 19:30:00 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -379,10 +379,43 @@
         "by": "rules"
       },
       {
-        "title": "日 소프트뱅크, 도쿄 증시서 시총 반토막…AI 투자 과도 불안",
-        "link": "https://www.hankyung.com/article/202610229188i",
+        "title": "'7월 악몽'서 깨어난 IBM, 호실적에 반등",
+        "link": "https://www.hankyung.com/article/2026102294031",
         "source": "한국경제",
-        "date": "Thu, 22 Oct 2026 17:10:28 +0900",
+        "date": "Thu, 22 Oct 2026 18:34:36 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "‘스페이스X 공모주 0주’ 묶인 돈 보상받나…금감원 “투자자 보상 검토”",
+        "link": "https://www.mk.co.kr/news/economy/12183341",
+        "source": "매일경제",
+        "date": "Thu, 22 Oct 2026 19:26:19 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "숙련기능 외국인력 체류기간 연장 간소화…근속기간 가점도 확대",
+        "link": "https://www.yna.co.kr/view/AKR20261022189000004",
+        "source": "연합뉴스",
+        "date": "Thu, 22 Oct 2026 19:22:12 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "버킨백 중고가격 떨어지자 에르메스 올 주가 35% 급락",
+        "link": "https://www.hankyung.com/article/2026102294051",
+        "source": "한국경제",
+        "date": "Thu, 22 Oct 2026 18:33:58 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -397,39 +430,6 @@
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "교보증권, 2천억 유증…트리니케이에스제일차㈜ 등에 3자 배정",
-        "link": "https://www.yna.co.kr/view/AKR20261022178000008",
-        "source": "연합뉴스",
-        "date": "Thu, 22 Oct 2026 18:00:17 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "나스닥 올라도 코스피는 급락…따로노는 한·미 증시, 왜?",
-        "link": "https://www.hankyung.com/article/202610228756i",
-        "source": "한국경제",
-        "date": "Thu, 22 Oct 2026 16:59:29 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "‘큰손’ SK하닉이 돌아왔다…운용사에 3조원 맡기며 채권시장 기대감",
-        "link": "https://www.mk.co.kr/news/stock/12183256",
-        "source": "매일경제",
-        "date": "Thu, 22 Oct 2026 18:07:42 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -448,11 +448,11 @@
         "by": "rules"
       },
       {
-        "title": "A top strategist has a warning for retail investors chasing the AI rally",
-        "link": "https://www.marketwatch.com/story/top-hsbc-strategist-has-a-warning-for-retail-investors-chasing-the-ai-rally-e0318ada?mod=mw_rss_topstories",
+        "title": "Meta’s stock falls in early trading amid broader sector selloff, despite well-received results",
+        "link": "https://www.marketwatch.com/story/metas-stock-rises-as-investors-glimpse-an-opportunity-that-could-dwarf-the-ad-business-89369c6c?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Thu, 22 Oct 2026 09:07:00 GMT",
-        "ko": "최고 전략가는 AI 랠리를 쫓는 소매 투자자에게 경고를 보냅니다.",
+        "date": "Thu, 22 Oct 2026 09:55:00 GMT",
+        "ko": "메타의 주식은 호평을 받았음에도 불구하고 광범위한 부문 매도 중 조기 거래에서 하락합니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -472,11 +472,11 @@
         "by": "rules"
       },
       {
-        "title": "Why a JPMorgan strategist says the stock market’s tailspin might have run its course",
-        "link": "https://www.marketwatch.com/story/why-a-jpmorgan-strategist-says-the-stock-markets-tailspin-might-have-run-its-course-71571335?mod=mw_rss_topstories",
+        "title": "A top strategist has a warning for retail investors chasing the AI rally",
+        "link": "https://www.marketwatch.com/story/top-hsbc-strategist-has-a-warning-for-retail-investors-chasing-the-ai-rally-e0318ada?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Thu, 22 Oct 2026 09:04:00 GMT",
-        "ko": "JP모건 전략가가 주식 시장의 테일스핀이 코스를 달렸을 수 있다고 말하는 이유",
+        "date": "Thu, 22 Oct 2026 09:07:00 GMT",
+        "ko": "최고 전략가는 AI 랠리를 쫓는 소매 투자자에게 경고를 보냅니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -496,14 +496,14 @@
         "by": "rules"
       },
       {
-        "title": "Why a global bank is slashing thousands of jobs — and what the Fed says about AI replacing workers",
-        "link": "https://www.marketwatch.com/story/why-a-global-bank-is-slashing-thousands-of-jobs-and-what-the-fed-says-about-ai-replacing-workers-9529b6ca?mod=mw_rss_topstories",
+        "title": "Why a JPMorgan strategist says the stock market’s tailspin might have run its course",
+        "link": "https://www.marketwatch.com/story/why-a-jpmorgan-strategist-says-the-stock-markets-tailspin-might-have-run-its-course-71571335?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Thu, 22 Oct 2026 08:47:00 GMT",
-        "ko": "글로벌 은행이 수천 개의 일자리를 줄이는 이유와 연준이 AI가 노동자를 대체하는 것에 대해 말하는 것",
+        "date": "Thu, 22 Oct 2026 09:04:00 GMT",
+        "ko": "JP모건 전략가가 주식 시장의 테일스핀이 코스를 달렸을 수 있다고 말하는 이유",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -511,7 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "Why bond-market volatility hasn’t spilled over into stocks": "채권시장 변동성이 주식으로 유출되지 않은 이유",
     "Nike (NKE): Wall Street Tests Whether the Turnaround Can Outrun Weak Demand Ahead of Q1 Results": "나이키 (NKE): 월스트리트는 턴어라운드가 1분기 실적을 앞두고 약한 수요를 능가할 수 있는지 테스트합니다.",
     "Why the upcoming jobs report could send 10-year and 30-year Treasury yields surging": "다가오는 일자리 보고서가 10년 및 30년 국채 수익률을 급증시킬 수 있는 이유",
     "Look closer, and Wall Street’s rally is showing cracks": "더 가까이서 보면 월스트리트의 집회가 균열을 보이고 있습니다.",
@@ -810,7 +809,8 @@
     "Top HSBC strategist has a warning for retail investors chasing the AI rally": "HSBC의 최고 전략가는 AI 랠리를 추구하는 소매 투자자들에게 경고하고 있습니다.",
     "A top strategist has a warning for retail investors chasing the AI rally": "최고 전략가는 AI 랠리를 쫓는 소매 투자자에게 경고를 보냅니다.",
     "Why a JPMorgan strategist says the stock market’s tailspin might have run its course": "JP모건 전략가가 주식 시장의 테일스핀이 코스를 달렸을 수 있다고 말하는 이유",
-    "Why a global bank is slashing thousands of jobs — and what the Fed says about AI replacing workers": "글로벌 은행이 수천 개의 일자리를 줄이는 이유와 연준이 AI가 노동자를 대체하는 것에 대해 말하는 것"
+    "Why a global bank is slashing thousands of jobs — and what the Fed says about AI replacing workers": "글로벌 은행이 수천 개의 일자리를 줄이는 이유와 연준이 AI가 노동자를 대체하는 것에 대해 말하는 것",
+    "Meta’s stock falls in early trading amid broader sector selloff, despite well-received results": "메타의 주식은 호평을 받았음에도 불구하고 광범위한 부문 매도 중 조기 거래에서 하락합니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2955,7 +2955,7 @@
       "2026-10-19": 1331.42,
       "2026-10-20": 1326.24,
       "2026-10-21": 1326.11,
-      "2026-10-22": 1321.75
+      "2026-10-22": 1322.82
     },
     "^GSPC": {
       "2026-10-11": 7811.54,
@@ -2997,7 +2997,7 @@
       "2026-10-19": 18.44,
       "2026-10-20": 17.31,
       "2026-10-21": 16.68,
-      "2026-10-22": 18.49
+      "2026-10-22": 18.21
     },
     "^TNX": {
       "2026-10-11": 5.244,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgH4b2bSudUus6niYhVY8\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgH4b31VidW23wLHJ5EfF\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgH4b3KMG8pZm8qNnS1yy\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgH9CKXN4FsqgNkt4LMgx\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgH9CL1tbwqEv2ZfBn8V9\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgH9CLQCkY1F4rBCMrahj\"}"
   ]
 }
