@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-23T08:25:32.953Z",
+  "asOf": "2026-10-23T09:25:59.947Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-23T06:33:00.000Z"
     },
     "KRW=X": {
-      "price": 1325.48,
+      "price": 1324.99,
       "prev": 1325.5899658203125,
-      "chg": -0.01,
+      "chg": -0.05,
       "prevDay": "2026-10-22",
       "basis": "prev-close-bar",
-      "time": "2026-10-23T08:25:21.000Z"
+      "time": "2026-10-23T09:25:43.000Z"
     },
     "^GSPC": {
       "price": 7663.43,
@@ -43,12 +43,12 @@
       "time": "2026-10-22T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 19.11,
+      "price": 19.15,
       "prev": 19.030000686645508,
-      "chg": 0.42,
+      "chg": 0.63,
       "prevDay": "2026-10-22",
       "basis": "prev-close-bar",
-      "time": "2026-10-23T08:10:16.000Z"
+      "time": "2026-10-23T09:10:46.000Z"
     },
     "^TNX": {
       "price": 4.953,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1323.94,
     "high52": 1554.48,
-    "pct": 0.007
+    "pct": 0.005
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": 0.08
     },
     "KRW=X": {
-      "last": 1325.48,
+      "last": 1324.99,
       "low52": 1323.94,
       "high52": 1554.48,
-      "pct52": 0.007,
-      "chg3m": -8.79
+      "pct52": 0.005,
+      "chg3m": -8.82
     },
     "^GSPC": {
       "last": 7663.43,
@@ -101,11 +101,11 @@
       "chg3m": 4.32
     },
     "^VIX": {
-      "last": 19.11,
+      "last": 19.15,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.321,
-      "chg3m": -7.5
+      "pct52": 0.323,
+      "chg3m": -7.31
     },
     "^TNX": {
       "last": 4.95,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgJrEEGCb"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgJvqbByC"
   },
   "stocks": {
     "kr": {
@@ -368,6 +368,39 @@
   "news": {
     "kr": [
       {
+        "title": "국토장관 \"집값 상승폭 둔화…연말 금리 상향 시 시장 안정화\"(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261023088651003",
+        "source": "연합뉴스",
+        "date": "Fri, 23 Oct 2026 17:39:23 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "중복상장 논란에…비상 걸린 해외 자금조달",
+        "link": "https://www.hankyung.com/article/2026102318401",
+        "source": "한국경제",
+        "date": "Fri, 23 Oct 2026 18:01:31 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "한솔아이원스, 600억원 규모 유상증자 실시",
+        "link": "https://www.mk.co.kr/news/stock/12184459",
+        "source": "매일경제",
+        "date": "Fri, 23 Oct 2026 18:03:19 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
         "title": "박수현 지사 \"계룡에 국방기관 하나도 이전 안 해 유감\"",
         "link": "https://www.yna.co.kr/view/AKR20261023149500063",
         "source": "연합뉴스",
@@ -379,32 +412,10 @@
         "by": "rules"
       },
       {
-        "title": "\"급락장·환율 하락도 버텼다\"…KT&G·삼양식품, 주가 상승세 이유는",
-        "link": "https://www.hankyung.com/article/202610231161i",
+        "title": "시장선 \"리스크 털었다\" SK하이닉스 주가 반등",
+        "link": "https://www.hankyung.com/article/2026102318421",
         "source": "한국경제",
-        "date": "Fri, 23 Oct 2026 16:19:33 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "“5300선까지 밀렸는데, 기사회생”…코스피, 기관 매수에 반등 마감",
-        "link": "https://www.mk.co.kr/news/stock/12184245",
-        "source": "매일경제",
-        "date": "Fri, 23 Oct 2026 16:07:04 +09:00",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": "market",
-        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
-        "by": "rules"
-      },
-      {
-        "title": "NICE \"자회사 나이스프라퍼티 주식 514억원에 추가취득\"",
-        "link": "https://www.yna.co.kr/view/AKR20261023149900008",
-        "source": "연합뉴스",
-        "date": "Fri, 23 Oct 2026 16:51:09 +0900",
+        "date": "Fri, 23 Oct 2026 18:00:47 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -412,24 +423,13 @@
         "by": "rules"
       },
       {
-        "title": "JP모간, 엑시콘·삼화콘덴서 등 지분 5% 이상 보유...실적 성장 기대",
-        "link": "https://www.hankyung.com/article/202610231313i",
-        "source": "한국경제",
-        "date": "Fri, 23 Oct 2026 16:17:54 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "“미국 주식으로 벌긴 벌었는데”…환율에 수익 깎인 서학개미",
-        "link": "https://www.mk.co.kr/news/stock/12184242",
+        "title": "노을, 28억원 규모 유상증자 실시",
+        "link": "https://www.mk.co.kr/news/stock/12184456",
         "source": "매일경제",
-        "date": "Fri, 23 Oct 2026 16:05:09 +09:00",
+        "date": "Fri, 23 Oct 2026 18:02:19 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -448,14 +448,14 @@
         "by": "rules"
       },
       {
-        "title": "We have a $300,000 mortgage with a 2.75% interest rate. I want to pay it off. My husband says I’m crazy. Who’s right?",
-        "link": "https://www.marketwatch.com/story/we-have-a-300-000-mortgage-with-a-2-75-interest-rate-i-want-to-pay-it-off-my-husband-says-im-crazy-whos-right-4ed15226?mod=mw_rss_topstories",
+        "title": "This hot AI-fueled stock has been in a rut. It just beat earnings expectations by 36%.",
+        "link": "https://www.marketwatch.com/story/this-hot-ai-fueled-stock-has-been-in-a-rut-it-just-beat-earnings-expectations-by-36-4a4188cb?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Fri, 23 Oct 2026 06:15:00 GMT",
-        "ko": "저희는 2.75% 의 이자율로 $300,000의 모기지를 보유하고 있습니다. 갚고 싶어요. 남편은 내가 미쳤다고 한다. 누가 옳은가요?",
+        "date": "Fri, 23 Oct 2026 09:19:00 GMT",
+        "ko": "이 뜨거운 AI 연료 주식은 혼란에 빠졌습니다. 예상 수입의 36% 를 상회했습니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -472,11 +472,11 @@
         "by": "rules"
       },
       {
-        "title": "CoreWeave set off a wave of anxiety — but Wall Street’s dire prognosis is premature",
-        "link": "https://www.marketwatch.com/story/coreweave-set-off-a-wave-of-anxiety-but-wall-streets-dire-prognosis-is-premature-edc3f5dd?mod=mw_rss_topstories",
+        "title": "This market signal just occurred for only the second time since 1999. Here’s what happened and what it means.",
+        "link": "https://www.marketwatch.com/story/this-market-signal-just-occurred-for-only-the-second-time-since-1999-heres-what-happened-and-what-it-means-a126cf31?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Thu, 22 Oct 2026 22:54:00 GMT",
-        "ko": "CoreWeave는 불안의 물결을 일으켰지만 월스트리트의 끔찍한 예후는 시기상조입니다.",
+        "date": "Fri, 23 Oct 2026 09:06:00 GMT",
+        "ko": "이 시장 신호는 1999년 이후 두 번째로 발생했습니다. 일어난 일과 그 의미는 다음과 같습니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -496,11 +496,11 @@
         "by": "rules"
       },
       {
-        "title": "The U.S. stock market is fracturing into two camps, and it’s leaving investors with a brutal case of whiplash",
-        "link": "https://www.marketwatch.com/story/the-u-s-stock-market-is-fracturing-into-two-camps-and-its-leaving-investors-with-a-brutal-case-of-whiplash-e8580a99?mod=mw_rss_topstories",
+        "title": "The mobile ambitions of SpaceX see telecom stocks get hit again. What the latest developments mean.",
+        "link": "https://www.marketwatch.com/story/the-mobile-ambitions-of-spacex-see-telecom-stocks-get-hit-again-what-the-latest-developments-mean-9a4159b5?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Thu, 22 Oct 2026 22:17:00 GMT",
-        "ko": "미국 주식 시장은 두 개의 진영으로 분열하고 있으며, 투자자들에게 잔인한 채찍질 사례를 남기고 있습니다.",
+        "date": "Fri, 23 Oct 2026 09:01:00 GMT",
+        "ko": "SpaceX의 모바일 야망은 통신 주식이 다시 타격을 입는 것을 봅니다. 최신 개발이 의미하는 바.",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -511,9 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "A month ago, this JPMorgan team urged caution on stocks. Now it’s going all in on tech.": "한 달 전, JP모건 팀은 주식에 대한 주의를 촉구했습니다. 이제 기술에 모든 것을 쏟아붓고 있습니다.",
-    "Novo Nordisk strikes second licensing deal since frosty capital-markets day": "Novo Nordisk, 서리 낀 자본 시장의 날 이후 두 번째 라이선스 계약 체결",
-    "Morgan Stanley’s Mike Wilson says an S&P 500 correction may be exactly what the market needs": "모건 스탠리의 마이크 윌슨 (Mike Wilson) 은 S&P 500 보정이 시장이 필요로 하는 것과 정확히 일치할 수 있다고 말합니다.",
     "Two stock picks from a money manager who expects small-caps to roar in 2027": "2027년에는 스몰캡이 울릴 것으로 예상되는 머니매니저가 선정한 두 가지 주식",
     "Before you invest in the Oura IPO, understand what you’re buying": "OURA IPO에 투자하기 전에 무엇을 구매하고 있는지 이해해야 합니다.",
     "Junk bonds are heading for worst month since 2022 after punishing global selloff": "정크 본드는 글로벌 매각을 처벌한 후 2022년 이후 최악의 달로 향하고 있습니다.",
@@ -810,7 +807,10 @@
     "3 big reasons Micron and other chip stocks fell hard on Thursday": "마이크론과 다른 칩스톡이 목요일에 강세로 하락한 3가지 큰 이유",
     "Treasury yields log biggest drop since the 2023 banking crisis. Here’s what’s going on.": "재무부는 2023년 은행 위기 이후 가장 큰 하락을 기록했습니다. 현재 상황은 다음과 같습니다.",
     "CoreWeave set off a wave of anxiety — but Wall Street’s dire prognosis is premature": "CoreWeave는 불안의 물결을 일으켰지만 월스트리트의 끔찍한 예후는 시기상조입니다.",
-    "The U.S. stock market is fracturing into two camps, and it’s leaving investors with a brutal case of whiplash": "미국 주식 시장은 두 개의 진영으로 분열하고 있으며, 투자자들에게 잔인한 채찍질 사례를 남기고 있습니다."
+    "The U.S. stock market is fracturing into two camps, and it’s leaving investors with a brutal case of whiplash": "미국 주식 시장은 두 개의 진영으로 분열하고 있으며, 투자자들에게 잔인한 채찍질 사례를 남기고 있습니다.",
+    "This hot AI-fueled stock has been in a rut. It just beat earnings expectations by 36%.": "이 뜨거운 AI 연료 주식은 혼란에 빠졌습니다. 예상 수입의 36% 를 상회했습니다.",
+    "This market signal just occurred for only the second time since 1999. Here’s what happened and what it means.": "이 시장 신호는 1999년 이후 두 번째로 발생했습니다. 일어난 일과 그 의미는 다음과 같습니다.",
+    "The mobile ambitions of SpaceX see telecom stocks get hit again. What the latest developments mean.": "SpaceX의 모바일 야망은 통신 주식이 다시 타격을 입는 것을 봅니다. 최신 개발이 의미하는 바."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2955,7 +2955,7 @@
       "2026-10-20": 1326.24,
       "2026-10-21": 1326.11,
       "2026-10-22": 1325.69,
-      "2026-10-23": 1325.48
+      "2026-10-23": 1324.99
     },
     "^GSPC": {
       "2026-10-12": 7807.24,
@@ -2997,7 +2997,7 @@
       "2026-10-20": 17.31,
       "2026-10-21": 16.68,
       "2026-10-22": 19.03,
-      "2026-10-23": 19.11
+      "2026-10-23": 19.15
     },
     "^TNX": {
       "2026-10-12": 5.24,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgJrEEGCbJuNiR8dGbucP\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgJrEEdH3XVNmJhZEwepM\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgJrEEs9yLm4P1wyaNB2z\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgJvqbByCtGDShdbftQz8\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgJvqba3dgK33CXJJUaNa\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgJvqbqR8eyQhDn8wo8mw\"}"
   ]
 }
