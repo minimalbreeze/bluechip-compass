@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-23T07:49:42.274Z",
+  "asOf": "2026-10-23T08:25:32.953Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-23T06:33:00.000Z"
     },
     "KRW=X": {
-      "price": 1325.93,
+      "price": 1325.48,
       "prev": 1325.5899658203125,
-      "chg": 0.03,
+      "chg": -0.01,
       "prevDay": "2026-10-22",
       "basis": "prev-close-bar",
-      "time": "2026-10-23T07:49:32.000Z"
+      "time": "2026-10-23T08:25:21.000Z"
     },
     "^GSPC": {
       "price": 7663.43,
@@ -43,12 +43,12 @@
       "time": "2026-10-22T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 19.21,
+      "price": 19.11,
       "prev": 19.030000686645508,
-      "chg": 0.95,
+      "chg": 0.42,
       "prevDay": "2026-10-22",
       "basis": "prev-close-bar",
-      "time": "2026-10-23T07:34:31.000Z"
+      "time": "2026-10-23T08:10:16.000Z"
     },
     "^TNX": {
       "price": 4.953,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1323.94,
     "high52": 1554.48,
-    "pct": 0.009
+    "pct": 0.007
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": 0.08
     },
     "KRW=X": {
-      "last": 1325.93,
+      "last": 1325.48,
       "low52": 1323.94,
       "high52": 1554.48,
-      "pct52": 0.009,
-      "chg3m": -8.76
+      "pct52": 0.007,
+      "chg3m": -8.79
     },
     "^GSPC": {
       "last": 7663.43,
@@ -101,11 +101,11 @@
       "chg3m": 4.32
     },
     "^VIX": {
-      "last": 19.21,
+      "last": 19.11,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.327,
-      "chg3m": -7.02
+      "pct52": 0.321,
+      "chg3m": -7.5
     },
     "^TNX": {
       "last": 4.95,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgJoVh5pN"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgJrEEGCb"
   },
   "stocks": {
     "kr": {
@@ -368,21 +368,21 @@
   "news": {
     "kr": [
       {
-        "title": "국고채 금리 일제히 하락…3년물 연 3.803%",
-        "link": "https://www.yna.co.kr/view/AKR20261023146800008",
+        "title": "박수현 지사 \"계룡에 국방기관 하나도 이전 안 해 유감\"",
+        "link": "https://www.yna.co.kr/view/AKR20261023149500063",
         "source": "연합뉴스",
-        "date": "Fri, 23 Oct 2026 16:41:30 +0900",
+        "date": "Fri, 23 Oct 2026 16:56:51 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "\"인니 증시 반값 됐다\"...상반기 1위서 '최저가' 된 코스피 바닥 논쟁",
-        "link": "https://www.hankyung.com/article/202610231500i",
+        "title": "\"급락장·환율 하락도 버텼다\"…KT&G·삼양식품, 주가 상승세 이유는",
+        "link": "https://www.hankyung.com/article/202610231161i",
         "source": "한국경제",
-        "date": "Fri, 23 Oct 2026 16:43:36 +0900",
+        "date": "Fri, 23 Oct 2026 16:19:33 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -401,24 +401,24 @@
         "by": "rules"
       },
       {
-        "title": "원/달러 환율 소폭 반등…1,320원대 중반",
-        "link": "https://www.yna.co.kr/view/AKR20261023134800002",
+        "title": "NICE \"자회사 나이스프라퍼티 주식 514억원에 추가취득\"",
+        "link": "https://www.yna.co.kr/view/AKR20261023149900008",
         "source": "연합뉴스",
-        "date": "Fri, 23 Oct 2026 16:40:34 +0900",
+        "date": "Fri, 23 Oct 2026 16:51:09 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "\"급락장·환율 하락도 버텼다\"…KT&G·삼양식품, 주가 상승세 이유는",
-        "link": "https://www.hankyung.com/article/202610231161i",
+        "title": "JP모간, 엑시콘·삼화콘덴서 등 지분 5% 이상 보유...실적 성장 기대",
+        "link": "https://www.hankyung.com/article/202610231313i",
         "source": "한국경제",
-        "date": "Fri, 23 Oct 2026 16:19:33 +0900",
+        "date": "Fri, 23 Oct 2026 16:17:54 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -2955,7 +2955,7 @@
       "2026-10-20": 1326.24,
       "2026-10-21": 1326.11,
       "2026-10-22": 1325.69,
-      "2026-10-23": 1325.93
+      "2026-10-23": 1325.48
     },
     "^GSPC": {
       "2026-10-12": 7807.24,
@@ -2997,7 +2997,7 @@
       "2026-10-20": 17.31,
       "2026-10-21": 16.68,
       "2026-10-22": 19.03,
-      "2026-10-23": 19.21
+      "2026-10-23": 19.11
     },
     "^TNX": {
       "2026-10-12": 5.24,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgJoVh5pNqZ8tC3ckDcyd\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgJoVhU8hESVzW6pFtdab\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgJoVhkk423PcVrhEJrbY\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgJrEEGCbJuNiR8dGbucP\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgJrEEdH3XVNmJhZEwepM\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgJrEEs9yLm4P1wyaNB2z\"}"
   ]
 }
