@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-23T09:25:59.947Z",
+  "asOf": "2026-10-23T10:26:25.244Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-23T06:33:00.000Z"
     },
     "KRW=X": {
-      "price": 1324.99,
+      "price": 1324.94,
       "prev": 1325.5899658203125,
       "chg": -0.05,
       "prevDay": "2026-10-22",
       "basis": "prev-close-bar",
-      "time": "2026-10-23T09:25:43.000Z"
+      "time": "2026-10-23T10:26:12.000Z"
     },
     "^GSPC": {
       "price": 7663.43,
@@ -43,12 +43,12 @@
       "time": "2026-10-22T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 19.15,
+      "price": 19.55,
       "prev": 19.030000686645508,
-      "chg": 0.63,
+      "chg": 2.73,
       "prevDay": "2026-10-22",
       "basis": "prev-close-bar",
-      "time": "2026-10-23T09:10:46.000Z"
+      "time": "2026-10-23T10:11:01.000Z"
     },
     "^TNX": {
       "price": 4.953,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1323.94,
     "high52": 1554.48,
-    "pct": 0.005
+    "pct": 0.004
   },
   "hist": {
     "^KS11": {
@@ -80,10 +80,10 @@
       "chg3m": 0.08
     },
     "KRW=X": {
-      "last": 1324.99,
+      "last": 1324.94,
       "low52": 1323.94,
       "high52": 1554.48,
-      "pct52": 0.005,
+      "pct52": 0.004,
       "chg3m": -8.82
     },
     "^GSPC": {
@@ -101,11 +101,11 @@
       "chg3m": 4.32
     },
     "^VIX": {
-      "last": 19.15,
+      "last": 19.55,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.323,
-      "chg3m": -7.31
+      "pct52": 0.346,
+      "chg3m": -5.37
     },
     "^TNX": {
       "last": 4.95,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgJvqbByC"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgK1Sppx7"
   },
   "stocks": {
     "kr": {
@@ -368,24 +368,24 @@
   "news": {
     "kr": [
       {
-        "title": "국토장관 \"집값 상승폭 둔화…연말 금리 상향 시 시장 안정화\"(종합)",
-        "link": "https://www.yna.co.kr/view/AKR20261023088651003",
+        "title": "알티캐스트 \"알티모빌리티 주식 65억원에 추가취득\"",
+        "link": "https://www.yna.co.kr/view/AKR20261023169600008",
         "source": "연합뉴스",
-        "date": "Fri, 23 Oct 2026 17:39:23 +0900",
+        "date": "Fri, 23 Oct 2026 18:20:37 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "중복상장 논란에…비상 걸린 해외 자금조달",
-        "link": "https://www.hankyung.com/article/2026102318401",
+        "title": "美 금리 결정에 구글·아마존·삼전닉스 실적까지...코스피 운명가를 슈퍼위크[다음주 변수 미리보기]",
+        "link": "https://www.hankyung.com/article/202610231830i",
         "source": "한국경제",
-        "date": "Fri, 23 Oct 2026 18:01:31 +0900",
+        "date": "Fri, 23 Oct 2026 18:34:41 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -401,21 +401,21 @@
         "by": "rules"
       },
       {
-        "title": "박수현 지사 \"계룡에 국방기관 하나도 이전 안 해 유감\"",
-        "link": "https://www.yna.co.kr/view/AKR20261023149500063",
+        "title": "국토장관 \"집값 상승폭 둔화…연말 금리 상향 시 시장 안정화\"(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261023088651003",
         "source": "연합뉴스",
-        "date": "Fri, 23 Oct 2026 16:56:51 +0900",
+        "date": "Fri, 23 Oct 2026 17:39:23 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "시장선 \"리스크 털었다\" SK하이닉스 주가 반등",
-        "link": "https://www.hankyung.com/article/2026102318421",
+        "title": "중복상장 논란에…비상 걸린 해외 자금조달",
+        "link": "https://www.hankyung.com/article/2026102318401",
         "source": "한국경제",
-        "date": "Fri, 23 Oct 2026 18:00:47 +0900",
+        "date": "Fri, 23 Oct 2026 18:01:31 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -448,14 +448,14 @@
         "by": "rules"
       },
       {
-        "title": "This hot AI-fueled stock has been in a rut. It just beat earnings expectations by 36%.",
-        "link": "https://www.marketwatch.com/story/this-hot-ai-fueled-stock-has-been-in-a-rut-it-just-beat-earnings-expectations-by-36-4a4188cb?mod=mw_rss_topstories",
+        "title": "This market signal just occurred for only the second time since 1999. Here’s what happened and what it means.",
+        "link": "https://www.marketwatch.com/story/this-market-signal-just-occurred-for-only-the-second-time-since-1999-heres-what-happened-and-what-it-means-a126cf31?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Fri, 23 Oct 2026 09:19:00 GMT",
-        "ko": "이 뜨거운 AI 연료 주식은 혼란에 빠졌습니다. 예상 수입의 36% 를 상회했습니다.",
+        "date": "Fri, 23 Oct 2026 09:35:00 GMT",
+        "ko": "이 시장 신호는 1999년 이후 두 번째로 발생했습니다. 일어난 일과 그 의미는 다음과 같습니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -472,14 +472,14 @@
         "by": "rules"
       },
       {
-        "title": "This market signal just occurred for only the second time since 1999. Here’s what happened and what it means.",
-        "link": "https://www.marketwatch.com/story/this-market-signal-just-occurred-for-only-the-second-time-since-1999-heres-what-happened-and-what-it-means-a126cf31?mod=mw_rss_topstories",
+        "title": "This hot AI-fueled stock has been in a rut. It just beat earnings expectations by 36%.",
+        "link": "https://www.marketwatch.com/story/this-hot-ai-fueled-stock-has-been-in-a-rut-it-just-beat-earnings-expectations-by-36-4a4188cb?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Fri, 23 Oct 2026 09:06:00 GMT",
-        "ko": "이 시장 신호는 1999년 이후 두 번째로 발생했습니다. 일어난 일과 그 의미는 다음과 같습니다.",
+        "date": "Fri, 23 Oct 2026 09:19:00 GMT",
+        "ko": "이 뜨거운 AI 연료 주식은 혼란에 빠졌습니다. 예상 수입의 36% 를 상회했습니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -2955,7 +2955,7 @@
       "2026-10-20": 1326.24,
       "2026-10-21": 1326.11,
       "2026-10-22": 1325.69,
-      "2026-10-23": 1324.99
+      "2026-10-23": 1324.94
     },
     "^GSPC": {
       "2026-10-12": 7807.24,
@@ -2997,7 +2997,7 @@
       "2026-10-20": 17.31,
       "2026-10-21": 16.68,
       "2026-10-22": 19.03,
-      "2026-10-23": 19.15
+      "2026-10-23": 19.55
     },
     "^TNX": {
       "2026-10-12": 5.24,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgJvqbByCtGDShdbftQz8\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgJvqba3dgK33CXJJUaNa\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgJvqbqR8eyQhDn8wo8mw\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgK1Sppx7WqKuHSQzH6QA\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgK1SqF1cwfq4PsJRz2qM\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgK1SqWPCN1KkUFh19SfZ\"}"
   ]
 }
