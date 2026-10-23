@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-23T13:21:40.645Z",
+  "asOf": "2026-10-23T13:32:08.348Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,50 +19,50 @@
       "time": "2026-10-23T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1325.58,
+      "price": 1325.92,
       "prev": 1325.5899658203125,
-      "chg": 0,
+      "chg": 0.02,
       "prevDay": "2026-10-22",
       "basis": "prev-close-bar",
-      "time": "2026-10-23T13:21:23.000Z"
+      "time": "2026-10-23T13:31:54.000Z"
     },
     "^GSPC": {
-      "price": 7663.43,
+      "price": 7627.2,
       "prev": 7663.43017578125,
-      "chg": 0,
+      "chg": -0.47,
       "prevDay": "2026-10-22",
       "basis": "prev-close-bar",
-      "time": "2026-10-22T20:31:48.000Z"
+      "time": "2026-10-23T13:31:58.000Z"
     },
     "^IXIC": {
-      "price": 26008.86,
+      "price": 25922.969,
       "prev": 26008.859375,
-      "chg": 0,
+      "chg": -0.33,
       "prevDay": "2026-10-22",
       "basis": "prev-close-bar",
-      "time": "2026-10-22T21:15:59.000Z"
+      "time": "2026-10-23T13:31:58.000Z"
     },
     "^VIX": {
-      "price": 20.11,
+      "price": 20.22,
       "prev": 19.030000686645508,
-      "chg": 5.68,
+      "chg": 6.25,
       "prevDay": "2026-10-22",
       "basis": "prev-close-bar",
-      "time": "2026-10-23T13:06:31.000Z"
+      "time": "2026-10-23T13:16:46.000Z"
     },
     "^TNX": {
-      "price": 4.965,
+      "price": 4.964,
       "prev": 4.953000068664551,
-      "chg": 0.24,
+      "chg": 0.22,
       "prevDay": "2026-10-22",
       "basis": "prev-close-bar",
-      "time": "2026-10-23T13:06:26.000Z"
+      "time": "2026-10-23T13:16:56.000Z"
     }
   },
   "fx": {
     "low52": 1323.94,
     "high52": 1554.48,
-    "pct": 0.007
+    "pct": 0.009
   },
   "hist": {
     "^KS11": {
@@ -80,39 +80,39 @@
       "chg3m": 0.08
     },
     "KRW=X": {
-      "last": 1325.58,
+      "last": 1325.92,
       "low52": 1323.94,
       "high52": 1554.48,
-      "pct52": 0.007,
-      "chg3m": -8.78
+      "pct52": 0.009,
+      "chg3m": -8.76
     },
     "^GSPC": {
-      "last": 7663.43,
+      "last": 7627.7,
       "low52": 6343.72,
       "high52": 7818.93,
-      "pct52": 0.895,
-      "chg3m": 3.38
+      "pct52": 0.87,
+      "chg3m": 2.68
     },
     "^IXIC": {
-      "last": 26008.86,
+      "last": 25922.97,
       "low52": 20794.64,
       "high52": 27599.79,
-      "pct52": 0.766,
-      "chg3m": 4.32
+      "pct52": 0.754,
+      "chg3m": 4.2
     },
     "^VIX": {
-      "last": 20.11,
+      "last": 20.22,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.378,
-      "chg3m": -2.66
+      "pct52": 0.384,
+      "chg3m": -2.13
     },
     "^TNX": {
-      "last": 4.97,
+      "last": 4.96,
       "low52": 3.96,
       "high52": 5.31,
-      "pct52": 0.744,
-      "chg3m": 7.84
+      "pct52": 0.743,
+      "chg3m": 7.82
     }
   },
   "regime": {
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgKEoxb81"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgKFcE83r"
   },
   "stocks": {
     "kr": {
@@ -260,108 +260,108 @@
     },
     "us": {
       "MSFT": {
-        "price": 521.08,
+        "price": 520.17,
         "prev": 521.0800170898438,
-        "chg": 0,
+        "chg": -0.17,
         "prevDay": "2026-10-22",
         "basis": "prev-close-bar",
-        "time": "2026-10-22T20:00:01.000Z"
+        "time": "2026-10-23T13:32:06.000Z"
       },
       "AAPL": {
-        "price": 348.22,
+        "price": 351.09,
         "prev": 348.2200012207031,
-        "chg": 0,
+        "chg": 0.82,
         "prevDay": "2026-10-22",
         "basis": "prev-close-bar",
-        "time": "2026-10-22T20:00:01.000Z"
+        "time": "2026-10-23T13:32:06.000Z"
       },
       "GOOGL": {
-        "price": 324.22,
+        "price": 320.707,
         "prev": 324.2200012207031,
-        "chg": 0,
+        "chg": -1.08,
         "prevDay": "2026-10-22",
         "basis": "prev-close-bar",
-        "time": "2026-10-22T20:00:01.000Z"
+        "time": "2026-10-23T13:32:07.000Z"
       },
       "BRK.B": {
-        "price": 546.97,
+        "price": 547.989,
         "prev": 546.969970703125,
-        "chg": 0,
+        "chg": 0.19,
         "prevDay": "2026-10-22",
         "basis": "prev-close-bar",
-        "time": "2026-10-22T20:03:53.000Z"
+        "time": "2026-10-23T13:32:05.000Z"
       },
       "V": {
-        "price": 414.34,
+        "price": 411.66,
         "prev": 414.3399963378906,
-        "chg": 0,
+        "chg": -0.65,
         "prevDay": "2026-10-22",
         "basis": "prev-close-bar",
-        "time": "2026-10-22T20:00:02.000Z"
+        "time": "2026-10-23T13:32:02.000Z"
       },
       "JNJ": {
-        "price": 267.61,
+        "price": 264.119,
         "prev": 267.6099853515625,
-        "chg": 0,
+        "chg": -1.3,
         "prevDay": "2026-10-22",
         "basis": "prev-close-bar",
-        "time": "2026-10-22T20:00:03.000Z"
+        "time": "2026-10-23T13:32:06.000Z"
       },
       "PG": {
-        "price": 165.59,
+        "price": 163.865,
         "prev": 165.58999633789062,
-        "chg": 0,
+        "chg": -1.04,
         "prevDay": "2026-10-22",
         "basis": "prev-close-bar",
-        "time": "2026-10-22T20:02:30.000Z"
+        "time": "2026-10-23T13:32:04.000Z"
       },
       "KO": {
-        "price": 95.34,
+        "price": 94.51,
         "prev": 95.33999633789062,
-        "chg": 0,
+        "chg": -0.87,
         "prevDay": "2026-10-22",
         "basis": "prev-close-bar",
-        "time": "2026-10-22T20:00:02.000Z"
+        "time": "2026-10-23T13:32:06.000Z"
       },
       "COST": {
-        "price": 1018.21,
+        "price": 1020.06,
         "prev": 1018.2100219726562,
-        "chg": 0,
+        "chg": 0.18,
         "prevDay": "2026-10-22",
         "basis": "prev-close-bar",
-        "time": "2026-10-22T20:00:01.000Z"
+        "time": "2026-10-23T13:32:04.000Z"
       },
       "WM": {
-        "price": 239.1,
+        "price": 239.155,
         "prev": 239.10000610351562,
-        "chg": 0,
+        "chg": 0.02,
         "prevDay": "2026-10-22",
         "basis": "prev-close-bar",
-        "time": "2026-10-22T20:00:02.000Z"
+        "time": "2026-10-23T13:32:00.000Z"
       },
       "LIN": {
-        "price": 510.36,
+        "price": 511.32,
         "prev": 510.3599853515625,
-        "chg": 0,
+        "chg": 0.19,
         "prevDay": "2026-10-22",
         "basis": "prev-close-bar",
-        "time": "2026-10-22T20:00:01.000Z"
+        "time": "2026-10-23T13:31:50.000Z"
       },
       "XOM": {
-        "price": 178.23,
+        "price": 179.27,
         "prev": 178.22999572753906,
-        "chg": 0,
+        "chg": 0.58,
         "prevDay": "2026-10-22",
         "basis": "prev-close-bar",
-        "time": "2026-10-22T20:03:40.000Z"
+        "time": "2026-10-23T13:31:15.000Z"
       },
       "NVDA": {
-        "price": 212.21,
+        "price": 211.15,
         "prev": 212.2100067138672,
-        "chg": 0,
+        "chg": -0.5,
         "prevDay": "2026-10-22",
         "basis": "prev-close-bar",
-        "time": "2026-10-22T20:00:00.000Z"
+        "time": "2026-10-23T13:32:07.000Z"
       }
     }
   },
@@ -379,13 +379,13 @@
         "by": "rules"
       },
       {
-        "title": "美 금리 결정에 구글·아마존·삼전닉스 실적까지...코스피 운명가를 슈퍼위크[다음주 변수 미리보기]",
-        "link": "https://www.hankyung.com/article/202610231830i",
+        "title": "개미가 이겼다…SK하이닉스, 솔리다임 상장 철회에 '급반등' [종목+]",
+        "link": "https://www.hankyung.com/article/2026102314896",
         "source": "한국경제",
-        "date": "Fri, 23 Oct 2026 18:34:41 +0900",
+        "date": "Fri, 23 Oct 2026 22:00:05 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -412,13 +412,13 @@
         "by": "rules"
       },
       {
-        "title": "중복상장 논란에…비상 걸린 해외 자금조달",
-        "link": "https://www.hankyung.com/article/2026102318401",
+        "title": "美 금리 결정에 구글·아마존·삼전닉스 실적까지...코스피 운명가를 슈퍼위크[다음주 변수 미리보기]",
+        "link": "https://www.hankyung.com/article/202610231830i",
         "source": "한국경제",
-        "date": "Fri, 23 Oct 2026 18:01:31 +0900",
+        "date": "Fri, 23 Oct 2026 18:34:41 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -448,11 +448,11 @@
         "by": "rules"
       },
       {
-        "title": "It’s been a painful month for hedge funds. To turn it around, they are shorting U.S. stocks.",
-        "link": "https://www.marketwatch.com/story/its-been-a-painful-month-for-hedge-funds-to-turn-it-around-they-are-shorting-u-s-stocks-d36ee922?mod=mw_rss_topstories",
+        "title": "We have a $300,000 mortgage with a 2.75% interest rate. I want to pay it off. My husband says I’m crazy. Who’s right?",
+        "link": "https://www.marketwatch.com/story/we-have-a-300-000-mortgage-with-a-2-75-interest-rate-i-want-to-pay-it-off-my-husband-says-im-crazy-whos-right-4ed15226?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Fri, 23 Oct 2026 12:23:00 GMT",
-        "ko": "헤지펀드에게는 고통스러운 한 달이었습니다. 이를 돌리기 위해 그들은 미국 주식을 단락시키고 있습니다.",
+        "date": "Fri, 23 Oct 2026 13:30:00 GMT",
+        "ko": "저희는 2.75% 의 이자율로 $300,000의 모기지를 보유하고 있습니다. 갚고 싶어요. 남편은 내가 미쳤다고 한다. 누가 옳은가요?",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -472,11 +472,11 @@
         "by": "rules"
       },
       {
-        "title": "The mobile ambitions of SpaceX are hitting telecom stocks again. Here’s what the latest developments mean.",
-        "link": "https://www.marketwatch.com/story/the-mobile-ambitions-of-spacex-see-telecom-stocks-get-hit-again-what-the-latest-developments-mean-9a4159b5?mod=mw_rss_topstories",
+        "title": "It’s been a painful month for hedge funds. To turn it around, they are shorting U.S. stocks.",
+        "link": "https://www.marketwatch.com/story/its-been-a-painful-month-for-hedge-funds-to-turn-it-around-they-are-shorting-u-s-stocks-d36ee922?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Fri, 23 Oct 2026 11:32:00 GMT",
-        "ko": "SpaceX의 모바일 야망이 통신 주가를 다시 강타하고 있습니다. 최신 개발이 의미하는 바는 다음과 같습니다.",
+        "date": "Fri, 23 Oct 2026 12:23:00 GMT",
+        "ko": "헤지펀드에게는 고통스러운 한 달이었습니다. 이를 돌리기 위해 그들은 미국 주식을 단락시키고 있습니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -496,11 +496,11 @@
         "by": "rules"
       },
       {
-        "title": "The stock market is splitting in two. Is that signaling trouble ahead, or just a new set of winners?",
-        "link": "https://www.marketwatch.com/story/the-stock-market-is-splitting-in-two-is-that-signaling-trouble-ahead-or-just-a-new-set-of-winners-f51aaeab?mod=mw_rss_topstories",
+        "title": "The mobile ambitions of SpaceX are hitting telecom stocks again. Here’s what the latest developments mean.",
+        "link": "https://www.marketwatch.com/story/the-mobile-ambitions-of-spacex-see-telecom-stocks-get-hit-again-what-the-latest-developments-mean-9a4159b5?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Fri, 23 Oct 2026 11:24:00 GMT",
-        "ko": "주식 시장은 둘로 나뉘고 있습니다. 앞으로 신호에 문제가 있습니까, 아니면 새로운 당첨자 집합입니까?",
+        "date": "Fri, 23 Oct 2026 11:32:00 GMT",
+        "ko": "SpaceX의 모바일 야망이 통신 주가를 다시 강타하고 있습니다. 최신 개발이 의미하는 바는 다음과 같습니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -2955,7 +2955,7 @@
       "2026-10-20": 1326.24,
       "2026-10-21": 1326.11,
       "2026-10-22": 1325.69,
-      "2026-10-23": 1325.58
+      "2026-10-23": 1325.92
     },
     "^GSPC": {
       "2026-10-12": 7807.24,
@@ -2969,7 +2969,7 @@
       "2026-10-20": 7712.57,
       "2026-10-21": 7757.17,
       "2026-10-22": 7663.43,
-      "2026-10-23": 7663.43
+      "2026-10-23": 7627.2
     },
     "^IXIC": {
       "2026-10-12": 27245.902,
@@ -2983,7 +2983,7 @@
       "2026-10-20": 26424.816,
       "2026-10-21": 26702.857,
       "2026-10-22": 26008.86,
-      "2026-10-23": 26008.86
+      "2026-10-23": 25922.969
     },
     "^VIX": {
       "2026-10-12": 15.21,
@@ -2997,7 +2997,7 @@
       "2026-10-20": 17.31,
       "2026-10-21": 16.68,
       "2026-10-22": 19.03,
-      "2026-10-23": 20.11
+      "2026-10-23": 20.22
     },
     "^TNX": {
       "2026-10-12": 5.24,
@@ -3011,7 +3011,7 @@
       "2026-10-20": 5.117,
       "2026-10-21": 5.146,
       "2026-10-22": 4.953,
-      "2026-10-23": 4.965
+      "2026-10-23": 4.964
     },
     "105560.KS": {
       "2026-10-12": 162800,
@@ -3207,7 +3207,7 @@
       "2026-10-20": 531.87,
       "2026-10-21": 532.95,
       "2026-10-22": 521.08,
-      "2026-10-23": 521.08
+      "2026-10-23": 520.17
     },
     "AAPL": {
       "2026-10-12": 340.97,
@@ -3221,7 +3221,7 @@
       "2026-10-20": 339.5,
       "2026-10-21": 343.99,
       "2026-10-22": 348.22,
-      "2026-10-23": 348.22
+      "2026-10-23": 351.09
     },
     "GOOGL": {
       "2026-10-12": 352.72,
@@ -3235,7 +3235,7 @@
       "2026-10-20": 340.275,
       "2026-10-21": 334.76,
       "2026-10-22": 324.22,
-      "2026-10-23": 324.22
+      "2026-10-23": 320.707
     },
     "BRK.B": {
       "2026-08-29": 505,
@@ -3256,7 +3256,7 @@
       "2026-10-20": 406.57,
       "2026-10-21": 407.85,
       "2026-10-22": 414.34,
-      "2026-10-23": 414.34
+      "2026-10-23": 411.66
     },
     "JNJ": {
       "2026-10-12": 263.73,
@@ -3270,7 +3270,7 @@
       "2026-10-20": 259.36,
       "2026-10-21": 257.78,
       "2026-10-22": 267.61,
-      "2026-10-23": 267.61
+      "2026-10-23": 264.119
     },
     "PG": {
       "2026-10-12": 153.2,
@@ -3284,7 +3284,7 @@
       "2026-10-20": 159.32,
       "2026-10-21": 156.84,
       "2026-10-22": 165.59,
-      "2026-10-23": 165.59
+      "2026-10-23": 163.865
     },
     "KO": {
       "2026-10-12": 89.79,
@@ -3298,7 +3298,7 @@
       "2026-10-20": 93.49,
       "2026-10-21": 92.68,
       "2026-10-22": 95.34,
-      "2026-10-23": 95.34
+      "2026-10-23": 94.51
     },
     "COST": {
       "2026-10-12": 959.44,
@@ -3312,7 +3312,7 @@
       "2026-10-20": 994.61,
       "2026-10-21": 998.31,
       "2026-10-22": 1018.21,
-      "2026-10-23": 1018.21
+      "2026-10-23": 1020.06
     },
     "WM": {
       "2026-10-12": 211.14,
@@ -3326,7 +3326,7 @@
       "2026-10-20": 231.73,
       "2026-10-21": 229.58,
       "2026-10-22": 239.1,
-      "2026-10-23": 239.1
+      "2026-10-23": 239.155
     },
     "LIN": {
       "2026-10-12": 487.35,
@@ -3340,7 +3340,7 @@
       "2026-10-20": 501.89,
       "2026-10-21": 500.57,
       "2026-10-22": 510.36,
-      "2026-10-23": 510.36
+      "2026-10-23": 511.32
     },
     "XOM": {
       "2026-10-12": 172.15,
@@ -3354,7 +3354,7 @@
       "2026-10-20": 177.86,
       "2026-10-21": 178.09,
       "2026-10-22": 178.23,
-      "2026-10-23": 178.23
+      "2026-10-23": 179.27
     },
     "NVDA": {
       "2026-10-12": 226.32,
@@ -3368,7 +3368,7 @@
       "2026-10-20": 216.47,
       "2026-10-21": 221.97,
       "2026-10-22": 212.21,
-      "2026-10-23": 212.21
+      "2026-10-23": 211.15
     },
     "BRK-B": {
       "2026-10-12": 517.6,
@@ -3382,13 +3382,13 @@
       "2026-10-20": 539.82,
       "2026-10-21": 538.99,
       "2026-10-22": 546.97,
-      "2026-10-23": 546.97
+      "2026-10-23": 547.989
     }
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgKEoxb817CDfgD3k8fpg\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgKEoy1Rd5TyWcUjccz6u\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgKEoyMWd93DqixzmEbZa\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgKFcE83rj9nW3rKZTAhj\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgKFcEdJpxcwX5i2muyPm\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgKFcEzeKq7trdg6qJW4S\"}"
   ]
 }
