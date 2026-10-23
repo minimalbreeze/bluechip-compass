@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-23T07:25:07.794Z",
+  "asOf": "2026-10-23T07:49:42.274Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-23T06:33:00.000Z"
     },
     "KRW=X": {
-      "price": 1326.11,
+      "price": 1325.93,
       "prev": 1325.5899658203125,
-      "chg": 0.04,
+      "chg": 0.03,
       "prevDay": "2026-10-22",
       "basis": "prev-close-bar",
-      "time": "2026-10-23T07:24:57.000Z"
+      "time": "2026-10-23T07:49:32.000Z"
     },
     "^GSPC": {
       "price": 7663.43,
@@ -43,12 +43,12 @@
       "time": "2026-10-22T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 19.03,
+      "price": 19.21,
       "prev": 19.030000686645508,
-      "chg": 0,
+      "chg": 0.95,
       "prevDay": "2026-10-22",
       "basis": "prev-close-bar",
-      "time": "2026-10-22T20:15:01.000Z"
+      "time": "2026-10-23T07:34:31.000Z"
     },
     "^TNX": {
       "price": 4.953,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1323.94,
     "high52": 1554.48,
-    "pct": 0.011
+    "pct": 0.009
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": 0.08
     },
     "KRW=X": {
-      "last": 1326.38,
+      "last": 1325.93,
       "low52": 1323.94,
       "high52": 1554.48,
-      "pct52": 0.011,
-      "chg3m": -8.72
+      "pct52": 0.009,
+      "chg3m": -8.76
     },
     "^GSPC": {
       "last": 7663.43,
@@ -101,11 +101,11 @@
       "chg3m": 4.32
     },
     "^VIX": {
-      "last": 19.03,
+      "last": 19.21,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.316,
-      "chg3m": 4.5
+      "pct52": 0.327,
+      "chg3m": -7.02
     },
     "^TNX": {
       "last": 4.95,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgJmd15WH"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgJoVh5pN"
   },
   "stocks": {
     "kr": {
@@ -368,24 +368,24 @@
   "news": {
     "kr": [
       {
-        "title": "코인 해외로 한번만 보내도 매달 보고…한은 \"논의 후 확정\"(종합)",
-        "link": "https://www.yna.co.kr/view/AKR20261023077551002",
+        "title": "국고채 금리 일제히 하락…3년물 연 3.803%",
+        "link": "https://www.yna.co.kr/view/AKR20261023146800008",
         "source": "연합뉴스",
-        "date": "Fri, 23 Oct 2026 16:18:51 +0900",
+        "date": "Fri, 23 Oct 2026 16:41:30 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "JP모간, 엑시콘·삼화콘덴서 등 지분 5% 이상 보유...실적 성장 기대",
-        "link": "https://www.hankyung.com/article/202610231313i",
+        "title": "\"인니 증시 반값 됐다\"...상반기 1위서 '최저가' 된 코스피 바닥 논쟁",
+        "link": "https://www.hankyung.com/article/202610231500i",
         "source": "한국경제",
-        "date": "Fri, 23 Oct 2026 16:17:54 +0900",
+        "date": "Fri, 23 Oct 2026 16:43:36 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -401,21 +401,21 @@
         "by": "rules"
       },
       {
-        "title": "나이스정보통신 \"계열사 나이스프라퍼티 주식 602억원에 취득\"",
-        "link": "https://www.yna.co.kr/view/AKR20261023138700008",
+        "title": "원/달러 환율 소폭 반등…1,320원대 중반",
+        "link": "https://www.yna.co.kr/view/AKR20261023134800002",
         "source": "연합뉴스",
-        "date": "Fri, 23 Oct 2026 16:11:09 +0900",
+        "date": "Fri, 23 Oct 2026 16:40:34 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "오락가락 코스피에…100원짜리 '곱버스' 단타 베팅 늘었다",
-        "link": "https://www.hankyung.com/article/202610230928i",
+        "title": "\"급락장·환율 하락도 버텼다\"…KT&G·삼양식품, 주가 상승세 이유는",
+        "link": "https://www.hankyung.com/article/202610231161i",
         "source": "한국경제",
-        "date": "Fri, 23 Oct 2026 16:13:26 +0900",
+        "date": "Fri, 23 Oct 2026 16:19:33 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -2955,7 +2955,7 @@
       "2026-10-20": 1326.24,
       "2026-10-21": 1326.11,
       "2026-10-22": 1325.69,
-      "2026-10-23": 1326.11
+      "2026-10-23": 1325.93
     },
     "^GSPC": {
       "2026-10-12": 7807.24,
@@ -2997,7 +2997,7 @@
       "2026-10-20": 17.31,
       "2026-10-21": 16.68,
       "2026-10-22": 19.03,
-      "2026-10-23": 19.03
+      "2026-10-23": 19.21
     },
     "^TNX": {
       "2026-10-12": 5.24,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgJmd15WHKvYdz1Frs4Gv\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgJmd1RaY1Ra88FsycZfZ\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgJmd1iCYj53ZeywmgSjz\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgJoVh5pNqZ8tC3ckDcyd\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgJoVhU8hESVzW6pFtdab\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgJoVhkk423PcVrhEJrbY\"}"
   ]
 }
