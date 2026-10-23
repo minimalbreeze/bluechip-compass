@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-23T00:02:10.288Z",
+  "asOf": "2026-10-23T00:12:32.045Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-22T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1325.98,
+      "price": 1324.88,
       "prev": 1325.5899658203125,
-      "chg": 0.03,
+      "chg": -0.05,
       "prevDay": "2026-10-22",
       "basis": "prev-close-bar",
-      "time": "2026-10-23T00:02:02.000Z"
+      "time": "2026-10-23T00:12:26.000Z"
     },
     "^GSPC": {
       "price": 7663.43,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1323.94,
     "high52": 1554.48,
-    "pct": 0.009
+    "pct": 0.004
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": 5.75
     },
     "KRW=X": {
-      "last": 1325.98,
+      "last": 1324.88,
       "low52": 1323.94,
       "high52": 1554.48,
-      "pct52": 0.009,
-      "chg3m": -8.75
+      "pct52": 0.004,
+      "chg3m": -8.83
     },
     "^GSPC": {
       "last": 7663.43,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgJBqrjri"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgJCdggto"
   },
   "stocks": {
     "kr": {
@@ -368,13 +368,13 @@
   "news": {
     "kr": [
       {
-        "title": "삼성E&A, 3분기 깜짝 실적에 증권사 목표가 줄상향",
-        "link": "https://www.yna.co.kr/view/AKR20261023033300008",
+        "title": "코스피, 2.4% 내린 5,403 개장…코스닥도 2% 내려",
+        "link": "https://www.yna.co.kr/view/AKR20261023037700008",
         "source": "연합뉴스",
-        "date": "Fri, 23 Oct 2026 08:56:45 +0900",
+        "date": "Fri, 23 Oct 2026 09:05:27 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -401,13 +401,13 @@
         "by": "rules"
       },
       {
-        "title": "노을, 28억원 유상증자…지구홀딩스 주식회사에 제3자배정",
-        "link": "https://www.yna.co.kr/view/AKR20261023032400008",
+        "title": "[속보] 코스피, 2.4% 내린 5,403 개장…코스닥도 2% 내려",
+        "link": "https://www.yna.co.kr/view/AKR20261023036800008",
         "source": "연합뉴스",
-        "date": "Fri, 23 Oct 2026 08:53:23 +0900",
+        "date": "Fri, 23 Oct 2026 09:01:09 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -2955,7 +2955,7 @@
       "2026-10-20": 1326.24,
       "2026-10-21": 1326.11,
       "2026-10-22": 1325.69,
-      "2026-10-23": 1325.98
+      "2026-10-23": 1324.88
     },
     "^GSPC": {
       "2026-10-11": 7811.54,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgJBqrjriNfeenqf8rWP9\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgJBqsD8FSfVWCAQu3qsj\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgJBqsXEASKiaF8iT72u3\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgJCdggtoHn9tzXetTKkS\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgJCdhEdRfSqYZfvG2fYV\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgJCdhdhmEy3Bq5GbEtgK\"}"
   ]
 }
