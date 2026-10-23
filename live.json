@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-22T23:06:47.610Z",
+  "asOf": "2026-10-23T00:02:10.288Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-22T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1325.09,
+      "price": 1325.98,
       "prev": 1325.5899658203125,
-      "chg": -0.04,
+      "chg": 0.03,
       "prevDay": "2026-10-22",
       "basis": "prev-close-bar",
-      "time": "2026-10-22T23:06:38.000Z"
+      "time": "2026-10-23T00:02:02.000Z"
     },
     "^GSPC": {
       "price": 7663.43,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1323.94,
     "high52": 1554.48,
-    "pct": 0.005
+    "pct": 0.009
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": 5.75
     },
     "KRW=X": {
-      "last": 1325.11,
+      "last": 1325.98,
       "low52": 1323.94,
       "high52": 1554.48,
-      "pct52": 0.005,
-      "chg3m": -8.81
+      "pct52": 0.009,
+      "chg3m": -8.75
     },
     "^GSPC": {
       "last": 7663.43,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgJ7cvhQP"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgJBqrjri"
   },
   "stocks": {
     "kr": {
@@ -368,24 +368,57 @@
   "news": {
     "kr": [
       {
-        "title": "[인터뷰] 현대차증권 센터장 \"지금은 버텨야…4분기 코스피 5,300∼7,200\"",
-        "link": "https://www.yna.co.kr/view/AKR20261022169100008",
+        "title": "삼성E&A, 3분기 깜짝 실적에 증권사 목표가 줄상향",
+        "link": "https://www.yna.co.kr/view/AKR20261023033300008",
         "source": "연합뉴스",
-        "date": "Fri, 23 Oct 2026 07:00:02 +0900",
+        "date": "Fri, 23 Oct 2026 08:56:45 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "AI 투자 불안에 나스닥 2.6% 급락…반도체지수 6.7%↓ [뉴욕증시 브리핑]",
-        "link": "https://www.hankyung.com/article/2026102399666",
+        "title": "삼전·닉스 사면서 '인버스 베팅'…급락장 초고수 순매수 1위는",
+        "link": "https://www.hankyung.com/article/202610230069i",
         "source": "한국경제",
-        "date": "Fri, 23 Oct 2026 07:16:48 +0900",
+        "date": "Fri, 23 Oct 2026 08:25:00 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "KB증권, LG디스플레이 목표가 1만원으로 내려…“IT 수요 회복이 관건”",
+        "link": "https://www.mk.co.kr/news/stock/12183764",
+        "source": "매일경제",
+        "date": "Fri, 23 Oct 2026 08:09:26 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "노을, 28억원 유상증자…지구홀딩스 주식회사에 제3자배정",
+        "link": "https://www.yna.co.kr/view/AKR20261023032400008",
+        "source": "연합뉴스",
+        "date": "Fri, 23 Oct 2026 08:53:23 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "\"삼성E&A, '깜짝 실적'에 주주환원 확대 기대까지…목표가↑\"-신한",
+        "link": "https://www.hankyung.com/article/2026102300946",
+        "source": "한국경제",
+        "date": "Fri, 23 Oct 2026 08:15:25 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -397,39 +430,6 @@
         "act": "none",
         "lasting": "temporary",
         "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "안전자산 찾아서…美 10년물 국채 금리, 한달만에 5% 밑으로",
-        "link": "https://www.yna.co.kr/view/AKR20261023009000072",
-        "source": "연합뉴스",
-        "date": "Fri, 23 Oct 2026 06:14:56 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "中 통신장비 밀려난 자리…국내 장비주가 채울까",
-        "link": "https://www.hankyung.com/article/202610229287i",
-        "source": "한국경제",
-        "date": "Fri, 23 Oct 2026 06:30:08 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "[단독] “자동차 주식은 좋은 일이 아예 없나요?”…환율까지 안도와준다는데",
-        "link": "https://www.mk.co.kr/news/stock/12183412",
-        "source": "매일경제",
-        "date": "Thu, 22 Oct 2026 20:38:09 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -2955,7 +2955,7 @@
       "2026-10-20": 1326.24,
       "2026-10-21": 1326.11,
       "2026-10-22": 1325.69,
-      "2026-10-23": 1325.09
+      "2026-10-23": 1325.98
     },
     "^GSPC": {
       "2026-10-11": 7811.54,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgJ7cvhQPc9XLA9otEb7L\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgJ7cwBvVajBcG4KjdE5W\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgJ7cwZjPMQ36Xaa8GaXY\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgJBqrjriNfeenqf8rWP9\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgJBqsD8FSfVWCAQu3qsj\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgJBqsXEASKiaF8iT72u3\"}"
   ]
 }
