@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-23T22:03:34.567Z",
+  "asOf": "2026-10-23T23:03:59.377Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -20,9 +20,9 @@
     },
     "KRW=X": {
       "price": 1323.66,
-      "prev": 1325.5899658203125,
-      "chg": -0.15,
-      "prevDay": "2026-10-22",
+      "prev": 1323.6600341796875,
+      "chg": 0,
+      "prevDay": "2026-10-23",
       "basis": "prev-close-bar",
       "time": "2026-10-23T21:29:05.000Z"
     },
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgKvcEvTh"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgL1DSVRZ"
   },
   "stocks": {
     "kr": {
@@ -379,13 +379,13 @@
         "by": "rules"
       },
       {
-        "title": "솔리다임 상장 접자 '환호'…SK하이닉스, 하루 만에 '급반등' [종목+]",
-        "link": "https://www.hankyung.com/article/2026102314896",
+        "title": "\"곧 코스피 반등 기회 온다…급락 시 조금씩 매수해야\"",
+        "link": "https://www.hankyung.com/article/202610229175i",
         "source": "한국경제",
-        "date": "Fri, 23 Oct 2026 22:00:05 +0900",
+        "date": "Sat, 24 Oct 2026 07:00:12 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -412,13 +412,13 @@
         "by": "rules"
       },
       {
-        "title": "美 금리 결정에 구글·아마존·삼전닉스 실적까지...코스피 운명가를 슈퍼위크[다음주 변수 미리보기]",
-        "link": "https://www.hankyung.com/article/202610231830i",
+        "title": "솔리다임 상장 접자 '환호'…SK하이닉스, 하루 만에 '급반등' [종목+]",
+        "link": "https://www.hankyung.com/article/2026102314896",
         "source": "한국경제",
-        "date": "Fri, 23 Oct 2026 18:34:41 +0900",
+        "date": "Fri, 23 Oct 2026 22:00:05 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -2944,7 +2944,6 @@
       "2026-10-24": 751.69
     },
     "KRW=X": {
-      "2026-10-12": 1334.15,
       "2026-10-13": 1341.13,
       "2026-10-14": 1340.81,
       "2026-10-15": 1341.21,
@@ -2955,7 +2954,8 @@
       "2026-10-20": 1326.24,
       "2026-10-21": 1326.11,
       "2026-10-22": 1325.69,
-      "2026-10-23": 1323.66
+      "2026-10-23": 1323.66,
+      "2026-10-24": 1323.66
     },
     "^GSPC": {
       "2026-10-12": 7807.24,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgKvcEvThqEGt7D8YVAQm\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgKvcFPzUn8FUWgaT9S8c\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgKvcFo3ob7CNeYWcc6zc\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgL1DSVRZL3jo9R17VdXs\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgL1DSxCsUTH9Pie5b3mb\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgL1DTNzvMpr3eVWv9Czm\"}"
   ]
 }
