@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-24T04:05:55.636Z",
+  "asOf": "2026-10-24T05:06:21.274Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -44,17 +44,17 @@
     },
     "^VIX": {
       "price": 19.45,
-      "prev": 19.030000686645508,
-      "chg": 2.21,
-      "prevDay": "2026-10-22",
+      "prev": 19.450000762939453,
+      "chg": 0,
+      "prevDay": "2026-10-23",
       "basis": "prev-close-bar",
       "time": "2026-10-23T20:15:01.000Z"
     },
     "^TNX": {
       "price": 4.988,
-      "prev": 4.953000068664551,
-      "chg": 0.71,
-      "prevDay": "2026-10-22",
+      "prev": 4.98799991607666,
+      "chg": 0,
+      "prevDay": "2026-10-23",
       "basis": "prev-close-bar",
       "time": "2026-10-23T18:59:56.000Z"
     }
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgLQEsJdf"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgLUr8iGR"
   },
   "stocks": {
     "kr": {
@@ -379,10 +379,10 @@
         "by": "rules"
       },
       {
-        "title": "\"인니 증시 반값 됐다\"…상반기 1위서 '최저가'로, 코스피 바닥 논쟁",
-        "link": "https://www.hankyung.com/article/202610231657i",
+        "title": "결국은 높아진 금리 때문에 생긴 문제들",
+        "link": "https://www.hankyung.com/article/202610231113i",
         "source": "한국경제",
-        "date": "Sat, 24 Oct 2026 10:00:06 +0900",
+        "date": "Sat, 24 Oct 2026 13:00:02 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -401,24 +401,13 @@
         "by": "rules"
       },
       {
-        "title": "국토장관 \"집값 상승폭 둔화…연말 금리 상향 시 시장 안정화\"(종합)",
-        "link": "https://www.yna.co.kr/view/AKR20261023088651003",
-        "source": "연합뉴스",
-        "date": "Fri, 23 Oct 2026 17:39:23 +0900",
+        "title": "\"인니 증시 반값 됐다\"…상반기 1위서 '최저가'로, 코스피 바닥 논쟁",
+        "link": "https://www.hankyung.com/article/202610231657i",
+        "source": "한국경제",
+        "date": "Sat, 24 Oct 2026 10:00:06 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "반도체 투자 확대 기대에...1주일간 40% 오른 '이 종목'",
-        "link": "https://www.hankyung.com/article/202610242271i",
-        "source": "한국경제",
-        "date": "Sat, 24 Oct 2026 09:33:12 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -430,6 +419,17 @@
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "반도체 투자 확대 기대에...1주일간 40% 오른 '이 종목'",
+        "link": "https://www.hankyung.com/article/202610242271i",
+        "source": "한국경제",
+        "date": "Sat, 24 Oct 2026 09:33:12 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -2986,7 +2986,6 @@
       "2026-10-24": 25955.342
     },
     "^VIX": {
-      "2026-10-12": 15.21,
       "2026-10-13": 15.27,
       "2026-10-14": 16.87,
       "2026-10-15": 16.46,
@@ -2997,10 +2996,10 @@
       "2026-10-20": 17.31,
       "2026-10-21": 16.68,
       "2026-10-22": 19.03,
-      "2026-10-23": 19.45
+      "2026-10-23": 19.45,
+      "2026-10-24": 19.45
     },
     "^TNX": {
-      "2026-10-12": 5.24,
       "2026-10-13": 5.217,
       "2026-10-14": 5.19,
       "2026-10-15": 5.089,
@@ -3011,7 +3010,8 @@
       "2026-10-20": 5.117,
       "2026-10-21": 5.146,
       "2026-10-22": 4.953,
-      "2026-10-23": 4.988
+      "2026-10-23": 4.988,
+      "2026-10-24": 4.988
     },
     "105560.KS": {
       "2026-10-13": 162400,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgLQEsJdf5C9wNELVWMpC\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgLQEsoQK7cvjRw83DJqq\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgLQEtBiLLZJrGMqhASJa\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgLUr8iGRqfLnNWuM7Vea\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgLUr96azr2fDHhwPZVcr\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgLUr9PhVL2mU5CN2sh1H\"}"
   ]
 }
