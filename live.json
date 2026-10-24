@@ -1,21 +1,21 @@
 {
-  "asOf": "2026-10-24T01:04:46.802Z",
+  "asOf": "2026-10-24T02:05:06.521Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
       "price": 5550.3,
-      "prev": 5550.3,
+      "prev": 5550.2998046875,
       "chg": 0,
       "prevDay": "2026-10-23",
-      "basis": "prev-close-memo",
+      "basis": "prev-close-bar",
       "time": "2026-10-23T11:05:40.000Z"
     },
     "^KQ11": {
       "price": 751.69,
-      "prev": 751.69,
+      "prev": 751.6900024414062,
       "chg": 0,
       "prevDay": "2026-10-23",
-      "basis": "prev-close-memo",
+      "basis": "prev-close-bar",
       "time": "2026-10-23T11:05:40.000Z"
     },
     "KRW=X": {
@@ -66,18 +66,18 @@
   },
   "hist": {
     "^KS11": {
-      "last": 5533.77,
+      "last": 5550.3,
       "low52": 3845.56,
       "high52": 9114.55,
-      "pct52": 0.32,
-      "chg3m": -17.99
+      "pct52": 0.324,
+      "chg3m": -18.35
     },
     "^KQ11": {
-      "last": 764.1,
+      "last": 751.69,
       "low52": 644.78,
       "high52": 1226.18,
-      "pct52": 0.205,
-      "chg3m": 1.43
+      "pct52": 0.184,
+      "chg3m": 0.08
     },
     "KRW=X": {
       "last": 1323.66,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgLARgFYT"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgLF2WFit"
   },
   "stocks": {
     "kr": {
@@ -379,13 +379,13 @@
         "by": "rules"
       },
       {
-        "title": "반도체 투자 확대 기대에...1주일간 40% 오른 '이 종목'",
-        "link": "https://www.hankyung.com/article/202610242271i",
+        "title": "\"인니 증시 반값 됐다\"…상반기 1위서 '최저가'로, 코스피 바닥 논쟁",
+        "link": "https://www.hankyung.com/article/202610231657i",
         "source": "한국경제",
-        "date": "Sat, 24 Oct 2026 09:33:12 +0900",
+        "date": "Sat, 24 Oct 2026 10:00:06 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -412,13 +412,13 @@
         "by": "rules"
       },
       {
-        "title": "美·이란 전운에 유가 급등…뉴욕증시 3대 지수 일제히 하락",
-        "link": "https://www.hankyung.com/article/2026102422807",
+        "title": "반도체 투자 확대 기대에...1주일간 40% 오른 '이 종목'",
+        "link": "https://www.hankyung.com/article/202610242271i",
         "source": "한국경제",
-        "date": "Sat, 24 Oct 2026 09:29:10 +0900",
+        "date": "Sat, 24 Oct 2026 09:33:12 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgLARgFYTNz3TuHCxGYk8\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgLARgpmLfJdbqEDweKKt\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgLARhDqK8APMPtMjs8PB\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgLF2WFitHuksxJeTHjTx\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgLF2WjF2EBbDjcXEhcHF\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgLF2X8oEjLEEPq3xzNTa\"}"
   ]
 }
