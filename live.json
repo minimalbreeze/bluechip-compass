@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-24T20:43:14.301Z",
+  "asOf": "2026-10-24T21:43:36.907Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgMJKmBUb"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgMntsxSZ"
   },
   "stocks": {
     "kr": {
@@ -368,10 +368,10 @@
   "news": {
     "kr": [
       {
-        "title": "알티캐스트 \"알티모빌리티 주식 65억원에 추가취득\"",
-        "link": "https://www.yna.co.kr/view/AKR20261023169600008",
+        "title": "내 주식 주문 어디로 갔나 봤더니…60%는 넥스트레이드로",
+        "link": "https://www.yna.co.kr/view/AKR20261024022500008",
         "source": "연합뉴스",
-        "date": "Fri, 23 Oct 2026 18:20:37 +0900",
+        "date": "Sun, 25 Oct 2026 06:30:00 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -401,6 +401,17 @@
         "by": "rules"
       },
       {
+        "title": "상장사 62곳 PBR 개선안 제출 완료…주요 상장사 계획 보니",
+        "link": "https://www.yna.co.kr/view/AKR20261024023600008",
+        "source": "연합뉴스",
+        "date": "Sun, 25 Oct 2026 06:20:01 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
         "title": "코스피 빠질 때 혼자 37% '불기둥'…실적 두 배 터진 이 회사 [종목+]",
         "link": "https://www.hankyung.com/article/2026102309936",
         "source": "한국경제",
@@ -416,17 +427,6 @@
         "link": "https://www.mk.co.kr/news/stock/12184884",
         "source": "매일경제",
         "date": "Sat, 24 Oct 2026 21:40:50 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "미국 주식시장은 트럼프 1기 때를 닮아가고 있다 [조윤남의 사이클투자]",
-        "link": "https://www.hankyung.com/article/202610191057i",
-        "source": "한국경제",
-        "date": "Sat, 24 Oct 2026 14:00:07 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -3387,7 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgMiHqpmJ7V3FkT9P5ktG\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgMiHrDpgZTrutRCbYprQ\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgMntsxSZYr5djUtUQ2KW\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgMnttEp36GhRZFcFJChC\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgMnttThe5knoBoPqcmTa\"}"
   ]
 }
