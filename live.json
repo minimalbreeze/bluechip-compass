@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-24T12:49:29.760Z",
+  "asOf": "2026-10-24T13:49:57.037Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgM6AY7XD"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgMAmvXLd"
   },
   "stocks": {
     "kr": {
@@ -472,18 +472,6 @@
         "by": "rules"
       },
       {
-        "title": "Will Anthropic pull off a November IPO? Time is running out to file key paperwork.",
-        "link": "https://www.marketwatch.com/story/will-anthropic-pull-off-a-november-ipo-time-is-running-out-to-file-key-paperwork-52677343?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "date": "Fri, 23 Oct 2026 22:00:00 GMT",
-        "ko": "Anthropic이 11월 IPO를 시작할까요? 주요 서류를 제출할 시간이 얼마 남지 않았습니다.",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
         "title": "India’s finance minister says market liquidity makes it easier for investors to exit",
         "link": "https://www.cnbc.com/2026/10/18/india-ai-nifty50-sensex-investors.html",
         "source": "CNBC",
@@ -505,6 +493,18 @@
         "lasting": "temporary",
         "scope": "market",
         "why": "금리 전망에 대한 추측성 분석일 뿐, 확정된 정책 변화가 아닙니다.",
+        "by": "ai"
+      },
+      {
+        "title": "Economists: Hot PPI shows Fed's work is not done",
+        "link": "https://www.cnbc.com/2026/10/15/pce-ppi-september-fed-reserve-rate-hike.html",
+        "source": "CNBC",
+        "date": "Thu, 15 Oct 2026 15:37:59 GMT",
+        "ko": "이코노미스트: Hot PPI는 Fed의 작업이 완료되지 않았음을 보여줍니다.",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "물가 지표 한 번의 수치로, 장기 기업 이익을 바꾸는 변화로 보기는 어렵습니다.",
         "by": "ai"
       }
     ]
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgM6AY7XDgT98ccJCMGWk\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgM6AYcH4F6AFhxUkpsPv\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgM6AYyrJoEHWeQAopFXv\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgMAmvXLdP3uFnYFcuBRM\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgMAmvxsqJGjiDvJFuWjo\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgMAmwGVaK2MjB9HaMr2V\"}"
   ]
 }
