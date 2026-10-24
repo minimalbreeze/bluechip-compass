@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-24T13:49:57.037Z",
+  "asOf": "2026-10-24T14:28:33.449Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgMAmvXLd"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgMDigUFz"
   },
   "stocks": {
     "kr": {
@@ -379,6 +379,28 @@
         "by": "rules"
       },
       {
+        "title": "\"외인 놀이터 된 코스피, 못 버티겠다\"…개미 떠나자 50조 증발 [분석+]",
+        "link": "https://www.hankyung.com/article/2026102426856",
+        "source": "한국경제",
+        "date": "Sat, 24 Oct 2026 22:03:22 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "증시 큰 변동성에도 버티는 보험주…배당·방어주로 부각된다는데",
+        "link": "https://www.mk.co.kr/news/stock/12184896",
+        "source": "매일경제",
+        "date": "Sat, 24 Oct 2026 23:11:45 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
         "title": "코스피 빠질 때 혼자 37% '불기둥'…실적 두 배 터진 이 회사 [종목+]",
         "link": "https://www.hankyung.com/article/2026102309936",
         "source": "한국경제",
@@ -410,28 +432,6 @@
         "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
-      },
-      {
-        "title": "9100→5500까지 하락한 코스피…“11월은 W자 반등에 주목”",
-        "link": "https://www.mk.co.kr/news/stock/12184843",
-        "source": "매일경제",
-        "date": "Sat, 24 Oct 2026 17:06:17 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "결국은 높아진 금리 때문에 생긴 문제들",
-        "link": "https://www.hankyung.com/article/202610231113i",
-        "source": "한국경제",
-        "date": "Sat, 24 Oct 2026 13:00:02 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
       }
     ],
     "us": [
@@ -441,18 +441,6 @@
         "source": "CNBC",
         "date": "Wed, 21 Oct 2026 07:50:10 GMT",
         "ko": "영국 인플레이션 3.5% 로 급등 — 시멘팅 금리 인상 기대",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "‘Non-answers’ aren’t working. This is what investors really need from the Fed.",
-        "link": "https://www.marketwatch.com/story/non-answers-arent-working-this-is-what-investors-really-need-from-the-fed-673a9dce?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "date": "Sat, 24 Oct 2026 11:30:00 GMT",
-        "ko": "‘비답변자’ 가 작동하지 않습니다. 이것이 투자자들이 연준에 진정으로 필요로 하는 것입니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -505,6 +493,18 @@
         "lasting": "temporary",
         "scope": "market",
         "why": "물가 지표 한 번의 수치로, 장기 기업 이익을 바꾸는 변화로 보기는 어렵습니다.",
+        "by": "ai"
+      },
+      {
+        "title": "U.S. Treasury dismisses IMF debt warning and 'messy' forecasting",
+        "link": "https://www.cnbc.com/2026/10/15/zervos-imf-us-debt-warning.html",
+        "source": "CNBC",
+        "date": "Thu, 15 Oct 2026 13:42:32 GMT",
+        "ko": "미국 재무부, IMF 채무 경고 및 '지저분한' 예측 기각",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "국가 부채 전망에 대한 입장 차이로, 기업 이익과는 거리가 멉니다.",
         "by": "ai"
       }
     ]
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgMAmvXLdP3uFnYFcuBRM\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgMAmvxsqJGjiDvJFuWjo\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgMAmwGVaK2MjB9HaMr2V\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgMDigUFzsHCsai7zF9g9\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgMDigk8fr4ni8EgKpxP5\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgMDigy2PEx6fm4uHxUYm\"}"
   ]
 }
