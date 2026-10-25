@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-25T10:04:11.546Z",
+  "asOf": "2026-10-25T11:04:41.681Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgNmNLxvU"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgNqywMaq"
   },
   "stocks": {
     "kr": {
@@ -423,13 +423,13 @@
         "by": "rules"
       },
       {
-        "title": "AI 주도주 바뀌는데…삼전닉스 '다음 주자' 없는 韓증시",
+        "title": "\"삼전닉스만 믿었는데\"…외국인 빠진 코스피의 치명적 약점",
         "link": "https://www.hankyung.com/article/2026102535151",
         "source": "한국경제",
         "date": "Sun, 25 Oct 2026 18:04:15 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgNmNLxvUV2r7t817m3Qc\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgNmNMMEirQoATKE8iwyw\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgNmNMbsHyMyrWv3oaenN\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgNqywMaqFofdcFDP8GfZ\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgNqywhRR9KzqYygenF1T\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgNqywz32KCAmR67Y3MSz\"}"
   ]
 }
