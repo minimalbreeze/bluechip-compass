@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-25T22:09:07.680Z",
+  "asOf": "2026-10-25T23:09:30.377Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-23T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1323.56,
+      "price": 1323.43,
       "prev": 1325.4,
-      "chg": -0.14,
+      "chg": -0.15,
       "prevDay": "2026-10-24",
       "basis": "prev-close-memo",
-      "time": "2026-10-25T22:06:36.000Z"
+      "time": "2026-10-25T23:08:30.000Z"
     },
     "^GSPC": {
       "price": 7623.68,
@@ -60,7 +60,7 @@
     }
   },
   "fx": {
-    "low52": 1323.56,
+    "low52": 1323.43,
     "high52": 1554.48,
     "pct": 0
   },
@@ -80,11 +80,11 @@
       "chg3m": 0.08
     },
     "KRW=X": {
-      "last": 1323.56,
-      "low52": 1323.56,
+      "last": 1323.43,
+      "low52": 1323.43,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -8.23
+      "chg3m": -8.24
     },
     "^GSPC": {
       "last": 7623.68,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgPiedaQK"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgPoFfmKU"
   },
   "stocks": {
     "kr": {
@@ -368,6 +368,39 @@
   "news": {
     "kr": [
       {
+        "title": "[인터뷰] 이성호 NH증권 본부장 \"올해 채권금리 상승은 성장의 대가\"",
+        "link": "https://www.yna.co.kr/view/AKR20261025020300008",
+        "source": "연합뉴스",
+        "date": "Mon, 26 Oct 2026 07:06:33 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "개미들 국내 증시 탈출할 때…대치동 부자들이 담은 '이 주식'",
+        "link": "https://www.hankyung.com/article/202610216130i",
+        "source": "한국경제",
+        "date": "Mon, 26 Oct 2026 07:50:37 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "“하나금융지주, 자본비율 개선 제한적이지만 배당 매력 더욱 부각”",
+        "link": "https://www.mk.co.kr/news/stock/12185342",
+        "source": "매일경제",
+        "date": "Mon, 26 Oct 2026 07:40:33 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
         "title": "중금리대출 확대에…카드론 금리 석달 만에 13%대로 하락",
         "link": "https://www.yna.co.kr/view/AKR20261025029100002",
         "source": "연합뉴스",
@@ -379,13 +412,13 @@
         "by": "rules"
       },
       {
-        "title": "환율·채권…'초강세' 원화, 1200원대 진입하나",
-        "link": "https://www.hankyung.com/article/2026102535301",
+        "title": "\"실리콘투, 3분기 실적 기대치 밑돌 전망…목표가↓\"-상상인",
+        "link": "https://www.hankyung.com/article/2026102639886",
         "source": "한국경제",
-        "date": "Sun, 25 Oct 2026 18:24:25 +0900",
+        "date": "Mon, 26 Oct 2026 07:41:20 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -394,39 +427,6 @@
         "link": "https://www.mk.co.kr/news/stock/12185323",
         "source": "매일경제",
         "date": "Mon, 26 Oct 2026 06:06:26 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "원/달러 환율 1,310원대 근접…명목실효환율 2년만에 최고",
-        "link": "https://www.yna.co.kr/view/AKR20261025043600002",
-        "source": "연합뉴스",
-        "date": "Mon, 26 Oct 2026 05:55:00 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "저가 매수냐, 관망이냐…증권가도 '갑론을박'",
-        "link": "https://www.hankyung.com/article/2026102535141",
-        "source": "한국경제",
-        "date": "Sun, 25 Oct 2026 18:06:55 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "“주가 신경 안 쓴단 딱지 떼야죠”…PBR 공개전 자발적 개선계획 낸 상장사들",
-        "link": "https://www.mk.co.kr/news/stock/12185322",
-        "source": "매일경제",
-        "date": "Mon, 26 Oct 2026 06:05:35 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -2955,7 +2955,7 @@
       "2026-10-22": 1325.69,
       "2026-10-23": 1323.66,
       "2026-10-24": 1325.4,
-      "2026-10-25": 1323.56
+      "2026-10-25": 1323.43
     },
     "^GSPC": {
       "2026-10-14": 7718.94,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgPiedaQKCboVcRkNFt3L\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgPiedyiYNG1XcK5rTMDv\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgPieeGLepnfzyVEsVBnp\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgPoFfmKUG5rChr2LNjGc\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgPoFgGKfNKPaTrJ2KozN\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgPoFgjbn6FycKSRM7jrd\"}"
   ]
 }
