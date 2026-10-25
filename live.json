@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-24T23:44:29.380Z",
+  "asOf": "2026-10-25T00:44:58.958Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgMx7VDdH"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgN2j2uK1"
   },
   "stocks": {
     "kr": {
@@ -379,13 +379,13 @@
         "by": "rules"
       },
       {
-        "title": "코스피, 바닥 다지기 나설까…美 FOMC·삼전닉스 실적 주목 [주간전망]",
-        "link": "https://www.hankyung.com/article/2026102308326",
+        "title": "\"주식 평가액 1159억 급증\"…전직 고위공직자가 담은 종목은",
+        "link": "https://www.hankyung.com/article/2026102529337",
         "source": "한국경제",
-        "date": "Sun, 25 Oct 2026 08:00:04 +0900",
+        "date": "Sun, 25 Oct 2026 09:12:23 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -401,24 +401,13 @@
         "by": "rules"
       },
       {
-        "title": "내 주식 주문 어디로 갔나 봤더니…60%는 넥스트레이드로",
-        "link": "https://www.yna.co.kr/view/AKR20261024022500008",
-        "source": "연합뉴스",
-        "date": "Sun, 25 Oct 2026 06:30:00 +0900",
+        "title": "\"삼전닉스 다음은 여기\"…내년 '시총 3위' 쟁탈전 막 올랐다",
+        "link": "https://www.hankyung.com/article/2026102529037",
+        "source": "한국경제",
+        "date": "Sun, 25 Oct 2026 08:33:24 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "코스피 빠질 때 혼자 37% '불기둥'…실적 두 배 터진 이 회사 [종목+]",
-        "link": "https://www.hankyung.com/article/2026102309936",
-        "source": "한국경제",
-        "date": "Sat, 24 Oct 2026 15:52:49 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -430,6 +419,17 @@
         "act": "none",
         "lasting": "temporary",
         "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "코스피, 바닥 다지기 나설까…美 FOMC·삼전닉스 실적 주목 [주간전망]",
+        "link": "https://www.hankyung.com/article/2026102308326",
+        "source": "한국경제",
+        "date": "Sun, 25 Oct 2026 08:00:04 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgMx7VDdHurQsbpoy63MP\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgMx7VbD2bQbUsxZFv7Xo\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgMx7VsKgf9MfHS8huKNw\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgN2j2uK12WcAU6kAJNuT\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgN2j3RZvu2KmMHeRC9fR\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgN2j3nPqjXENEn418NqR\"}"
   ]
 }
