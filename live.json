@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-25T02:45:47.666Z",
+  "asOf": "2026-10-25T03:46:07.345Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -20,11 +20,11 @@
     },
     "KRW=X": {
       "price": 1325.4,
-      "prev": 1325.4000244140625,
+      "prev": 1325.4,
       "chg": 0,
       "prevDay": "2026-10-24",
-      "basis": "prev-close-bar",
-      "time": "2026-10-24T03:30:32.000Z"
+      "basis": "prev-close-memo",
+      "time": "2026-10-25T03:30:32.000Z"
     },
     "^GSPC": {
       "price": 7623.68,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgNBwNa8a"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgNGYCFxc"
   },
   "stocks": {
     "kr": {
@@ -368,10 +368,21 @@
   "news": {
     "kr": [
       {
-        "title": "\"주식 평가액 1159억 급증\"…전직 고위공직자가 담은 종목은",
-        "link": "https://www.hankyung.com/article/2026102529337",
+        "title": "규정 어기고 금융업체 주식 소유…KPIC코포레이션, 공정위 제재",
+        "link": "https://www.yna.co.kr/view/AKR20261023109000002",
+        "source": "연합뉴스",
+        "date": "Sun, 25 Oct 2026 12:00:04 +0900",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": null,
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
+        "by": "rules"
+      },
+      {
+        "title": "'주식창 열기가 무섭다'…대기업 시총 한 달 새 1100조 '증발'",
+        "link": "https://www.hankyung.com/article/2026102530707",
         "source": "한국경제",
-        "date": "Sun, 25 Oct 2026 09:12:23 +0900",
+        "date": "Sun, 25 Oct 2026 11:24:56 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -390,10 +401,10 @@
         "by": "rules"
       },
       {
-        "title": "\"삼전닉스 다음은 여기\"…내년 '시총 3위' 쟁탈전 막 올랐다",
-        "link": "https://www.hankyung.com/article/2026102529037",
+        "title": "\"주식 평가액 1159억 급증\"…전직 고위공직자가 담은 종목은",
+        "link": "https://www.hankyung.com/article/2026102529337",
         "source": "한국경제",
-        "date": "Sun, 25 Oct 2026 08:33:24 +0900",
+        "date": "Sun, 25 Oct 2026 09:12:23 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -412,24 +423,13 @@
         "by": "rules"
       },
       {
-        "title": "코스피, 바닥 다지기 나설까…美 FOMC·삼전닉스 실적 주목 [주간전망]",
-        "link": "https://www.hankyung.com/article/2026102308326",
+        "title": "\"삼전닉스 다음은 여기\"…내년 '시총 3위' 쟁탈전 막 올랐다",
+        "link": "https://www.hankyung.com/article/2026102529037",
         "source": "한국경제",
-        "date": "Sun, 25 Oct 2026 08:00:04 +0900",
+        "date": "Sun, 25 Oct 2026 08:33:24 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "9100→5500까지 하락한 코스피…“11월은 W자 반등에 주목”",
-        "link": "https://www.mk.co.kr/news/stock/12184843",
-        "source": "매일경제",
-        "date": "Sat, 24 Oct 2026 17:06:17 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgNBwNa8ay54VbpdRQJw1\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgNBwNvTDdZoMAawXxa9a\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgNBwPE4btwG6GuGrLMY6\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgNGYCFxciMxXecfpSWPB\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgNGYCbHtniQFf2pG6qDe\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgNGYCtQcs4ukvWS7Rsxj\"}"
   ]
 }
