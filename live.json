@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-26T12:50:35.631Z",
+  "asOf": "2026-10-26T13:21:58.858Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-26T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1325.28,
+      "price": 1325.32,
       "prev": 1323.43,
       "chg": 0.14,
       "prevDay": "2026-10-25",
       "basis": "prev-close-memo",
-      "time": "2026-10-26T12:50:22.000Z"
+      "time": "2026-10-26T13:21:51.000Z"
     },
     "^GSPC": {
       "price": 7623.68,
@@ -43,12 +43,12 @@
       "time": "2026-10-23T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 19.17,
+      "price": 19.06,
       "prev": 19.45,
-      "chg": -1.44,
+      "chg": -2.01,
       "prevDay": "2026-10-25",
       "basis": "prev-close-memo",
-      "time": "2026-10-26T12:35:16.000Z"
+      "time": "2026-10-26T13:06:46.000Z"
     },
     "^TNX": {
       "price": 4.99,
@@ -56,7 +56,7 @@
       "chg": 0.04,
       "prevDay": "2026-10-25",
       "basis": "prev-close-memo",
-      "time": "2026-10-26T12:35:12.000Z"
+      "time": "2026-10-26T13:06:42.000Z"
     }
   },
   "fx": {
@@ -80,7 +80,7 @@
       "chg3m": -7.98
     },
     "KRW=X": {
-      "last": 1325.28,
+      "last": 1325.32,
       "low52": 1323.94,
       "high52": 1554.48,
       "pct52": 0.006,
@@ -101,18 +101,18 @@
       "chg3m": 4.34
     },
     "^VIX": {
-      "last": 19.17,
+      "last": 19.06,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.324,
-      "chg3m": 12.17
+      "pct52": 0.318,
+      "chg3m": 11.53
     },
     "^TNX": {
       "last": 4.99,
       "low52": 3.96,
       "high52": 5.31,
-      "pct52": 0.761,
-      "chg3m": 7.92
+      "pct52": 0.762,
+      "chg3m": 7.96
     }
   },
   "regime": {
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgQssEAfG"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgQvG3fGU"
   },
   "stocks": {
     "kr": {
@@ -379,24 +379,24 @@
         "by": "rules"
       },
       {
-        "title": "유니트리, JP모건의 투자의견·목표주가 상향에 7%대 급등",
-        "link": "https://www.hankyung.com/article/202610266136i",
+        "title": "외인 놀이터 아니었어?…\"코스피, 내년 하반기 9천피 재진입\" [분석+]",
+        "link": "https://www.hankyung.com/article/2026102658706",
         "source": "한국경제",
-        "date": "Mon, 26 Oct 2026 18:44:30 +0900",
+        "date": "Mon, 26 Oct 2026 22:00:01 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "“있는 돈 없는 돈, 이미 다 끌어넣었나”…코스피 거래대금도 하락세",
-        "link": "https://www.mk.co.kr/news/stock/12186320",
+        "title": "100억 벌고 90억 잃어도 세금은 100억 기준...증권사 교육세 13배 폭증",
+        "link": "https://www.mk.co.kr/news/stock/12186366",
         "source": "매일경제",
-        "date": "Mon, 26 Oct 2026 21:30:23 +09:00",
+        "date": "Mon, 26 Oct 2026 22:13:22 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -412,24 +412,24 @@
         "by": "rules"
       },
       {
-        "title": "사상최고 치솟던 브라질 증시…우파 집권 실패하자 '찬바람'",
-        "link": "https://www.hankyung.com/article/2026102660241",
+        "title": "\"합병 전 테슬라 매수\"…애플 먹구름 \"아이폰 18 부진\"[월가 업&다운]",
+        "link": "https://www.hankyung.com/article/202610266297i",
         "source": "한국경제",
-        "date": "Mon, 26 Oct 2026 17:35:07 +0900",
-        "act": "none",
-        "lasting": "temporary",
+        "date": "Mon, 26 Oct 2026 21:51:31 +0900",
+        "act": "watch",
+        "lasting": "structural",
         "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
         "by": "rules"
       },
       {
-        "title": "“투자금까지 모았지만 함부로 못 들어가”…K반도체 대어들 IPO 속도조절",
-        "link": "https://www.mk.co.kr/news/business/12186261",
+        "title": "“있는 돈 없는 돈, 이미 다 끌어넣었나”…코스피 거래대금도 하락세",
+        "link": "https://www.mk.co.kr/news/stock/12186320",
         "source": "매일경제",
-        "date": "Mon, 26 Oct 2026 20:11:04 +09:00",
+        "date": "Mon, 26 Oct 2026 21:30:23 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -2955,7 +2955,7 @@
       "2026-10-23": 1323.66,
       "2026-10-24": 1325.4,
       "2026-10-25": 1323.43,
-      "2026-10-26": 1325.28
+      "2026-10-26": 1325.32
     },
     "^GSPC": {
       "2026-10-15": 7744.06,
@@ -2997,7 +2997,7 @@
       "2026-10-23": 19.45,
       "2026-10-24": 19.45,
       "2026-10-25": 19.45,
-      "2026-10-26": 19.17
+      "2026-10-26": 19.06
     },
     "^TNX": {
       "2026-10-15": 5.089,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgQssEAfGSFrVRHNKaPex\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgQssEdSmXaKEBYqtWtQA\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgQssEvZUC9EjmpA3V1T9\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgQvG3fGUwMEFfFbj37h8\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgQvG4A2iCXcsBWQZXCaS\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgQvG4XMUurrAfMq5ReNb\"}"
   ]
 }
