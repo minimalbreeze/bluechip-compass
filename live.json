@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-26T21:10:15.635Z",
+  "asOf": "2026-10-26T23:49:41.695Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-26T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1325.24,
+      "price": 1325.02,
       "prev": 1323.43,
-      "chg": 0.14,
+      "chg": 0.12,
       "prevDay": "2026-10-25",
       "basis": "prev-close-memo",
-      "time": "2026-10-26T21:10:05.000Z"
+      "time": "2026-10-26T23:49:35.000Z"
     },
     "^GSPC": {
       "price": 7676.77,
@@ -40,7 +40,7 @@
       "chg": 0.82,
       "prevDay": "2026-10-25",
       "basis": "prev-close-memo",
-      "time": "2026-10-26T21:10:06.000Z"
+      "time": "2026-10-26T21:15:59.000Z"
     },
     "^VIX": {
       "price": 18.39,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1323.94,
     "high52": 1554.48,
-    "pct": 0.006
+    "pct": 0.005
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": 0.08
     },
     "KRW=X": {
-      "last": 1325.24,
+      "last": 1325.02,
       "low52": 1323.94,
       "high52": 1554.48,
-      "pct52": 0.006,
-      "chg3m": -8.11
+      "pct52": 0.005,
+      "chg3m": -8.13
     },
     "^GSPC": {
       "last": 7676.77,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgR8BThsn"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgRk8LKFF"
   },
   "stocks": {
     "kr": {
@@ -368,10 +368,10 @@
   "news": {
     "kr": [
       {
-        "title": "고금리에 中企 건전성 비상…기업銀 연체율 15년여 만에 최고",
-        "link": "https://www.yna.co.kr/view/AKR20261026148400002",
+        "title": "유안타증권 \"기업은행, 3분기 환율 하락 수혜\"",
+        "link": "https://www.yna.co.kr/view/AKR20261027027500008",
         "source": "연합뉴스",
-        "date": "Tue, 27 Oct 2026 05:55:00 +0900",
+        "date": "Tue, 27 Oct 2026 08:37:17 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -379,21 +379,10 @@
         "by": "rules"
       },
       {
-        "title": "\"데이터센터 멈출 수도\"…초대형 상장 앞둔 앤트로픽의 경고",
-        "link": "https://www.hankyung.com/article/202610276399i",
+        "title": "금리 오르는데 고꾸라진 은행주…언제쯤 반등할까 [종목+]",
+        "link": "https://www.hankyung.com/article/2026102766946",
         "source": "한국경제",
-        "date": "Tue, 27 Oct 2026 04:31:19 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "“이번주도 반등 없으면 큰일”…삼전닉스 주주환원·빅테크 실적·美금리 나온다",
-        "link": "https://www.mk.co.kr/news/stock/12186509",
-        "source": "매일경제",
-        "date": "Tue, 27 Oct 2026 05:45:21 +09:00",
+        "date": "Tue, 27 Oct 2026 08:41:17 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -401,21 +390,10 @@
         "by": "rules"
       },
       {
-        "title": "앤트로픽 상장 초읽기…8000억달러 AI 투자 약정에 시장 촉각",
-        "link": "https://www.hankyung.com/article/202610276393i",
-        "source": "한국경제",
-        "date": "Tue, 27 Oct 2026 04:05:20 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "앤트로픽, 나스닥 상장 신청",
-        "link": "https://www.mk.co.kr/news/stock/12186407",
+        "title": "“BNK금융, 이익신뢰도 저하됐지만 주가 급락 과도”…목표가↓",
+        "link": "https://www.mk.co.kr/news/stock/12186568",
         "source": "매일경제",
-        "date": "Mon, 26 Oct 2026 23:18:26 +09:00",
+        "date": "Tue, 27 Oct 2026 08:26:15 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -423,14 +401,36 @@
         "by": "rules"
       },
       {
-        "title": "\"합병 전 테슬라 매수\"…애플 먹구름 \"아이폰 18 부진\" [월가 업&다운]",
-        "link": "https://www.hankyung.com/article/202610266297i",
-        "source": "한국경제",
-        "date": "Mon, 26 Oct 2026 21:51:31 +0900",
-        "act": "watch",
-        "lasting": "structural",
+        "title": "키움증권 \"증권주 주가, 거래대금과 함께 바닥권 근접\"",
+        "link": "https://www.yna.co.kr/view/AKR20261027027000008",
+        "source": "연합뉴스",
+        "date": "Tue, 27 Oct 2026 08:32:01 +0900",
+        "act": "none",
+        "lasting": "temporary",
         "scope": null,
-        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "\"앤트로픽, IPO 증권신고서 제출…예상 웃돈 수익성 확인\"-메리츠",
+        "link": "https://www.hankyung.com/article/2026102766116",
+        "source": "한국경제",
+        "date": "Tue, 27 Oct 2026 08:30:08 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "닷컴버블보다 더 힘든 장세? 증시 상승 위한 ‘마지막 고비’는",
+        "link": "https://www.mk.co.kr/news/stock/12186567",
+        "source": "매일경제",
+        "date": "Tue, 27 Oct 2026 08:25:38 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
     ],
@@ -448,14 +448,14 @@
         "by": "rules"
       },
       {
-        "title": "Why Lumentum’s stock led the S&P 500 higher on Monday",
-        "link": "https://www.marketwatch.com/story/why-lumentums-stock-led-the-s-p-500-higher-on-monday-0dff125b?mod=mw_rss_topstories",
+        "title": "Dividend stocks are having an excellent October as tech sector struggles",
+        "link": "https://www.marketwatch.com/story/dividend-stocks-are-having-an-excellent-october-as-tech-sector-struggles-5ae40b02?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 26 Oct 2026 21:04:00 GMT",
-        "ko": "Lumentum의 주가가 월요일에 S&P 500을 상승시킨 이유",
+        "date": "Mon, 26 Oct 2026 22:10:00 GMT",
+        "ko": "기술 부문이 어려움을 겪고 있는 가운데 배당주는 훌륭한 10월을 보내고 있습니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -472,14 +472,14 @@
         "by": "rules"
       },
       {
-        "title": "With the Anthropic IPO, the devil is in the details",
-        "link": "https://www.marketwatch.com/story/with-the-anthropic-ipo-the-devil-is-in-the-details-239d571d?mod=mw_rss_topstories",
+        "title": "Options traders are seizing control of the S&P 500",
+        "link": "https://www.marketwatch.com/story/options-traders-are-seizing-control-of-the-s-p-500-1add94ca?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 26 Oct 2026 20:50:00 GMT",
-        "ko": "Anthropic IPO를 통해 악마는 세부 사항에 있습니다.",
+        "date": "Mon, 26 Oct 2026 22:03:00 GMT",
+        "ko": "거래자들이 S&P 500의 지배권을 장악하고 있는 옵션",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -499,7 +499,7 @@
         "title": "Nvidia, AMD and Broadcom could buy Meta shares as part of $35 billion stock offering",
         "link": "https://www.marketwatch.com/story/nvidia-amd-and-broadcom-could-buy-meta-shares-as-part-of-35-billion-stock-offering-d816fec2?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 26 Oct 2026 20:38:00 GMT",
+        "date": "Mon, 26 Oct 2026 21:44:00 GMT",
         "ko": "엔비디아, AMD 및 브로드컴은 350억 달러 ($) 규모의 주식 제공의 일환으로 메타 주식을 매입할 수 있습니다.",
         "act": "none",
         "lasting": "temporary",
@@ -511,8 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "The 15 worst-performing S&P 500 stocks during a dismal September": "암울한 9월 동안 최악의 S&P 500 주식 15개",
-    "How the ‘AI put’ has become the only thing that matters for stocks": "‘AI PUT’ 이 주식에 중요한 유일한 요소가 된 방법",
     "France’s bond market is stumbling. Should Americans care?": "프랑스의 채권 시장은 비틀거리고 있습니다. 미국인들이 관심을 가져야 할까요?",
     "My wife never went back to work after raising our kids. Do I have to share my retirement savings 50/50?": "제 아내는 아이들을 키운 후 다시는 일하러 가지 않았습니다. 은퇴 저축액을 50/50으로 나눠야 하나요?",
     "Oracle has reportedly signed a $7 billion deal with Tencent. It could provide relief for the troubled stock.": "오라클은 텐센트와 70억 달러 ($) 규모의 계약을 체결한 것으로 알려졌다. 문제가 있는 재고에 대한 안도감을 제공할 수 있습니다.",
@@ -810,7 +808,9 @@
     "These energy stocks are poised to profit from an imminent AI power crunch": "이러한 에너지 재고는 임박한 AI 전력 위기에서 이익을 얻을 준비가되어 있습니다.",
     "Sorry investors, but there’s no such thing as an early ‘Santa Claus rally.’ Here’s when the real gains typically happen.": "투자자 여러분께 죄송하지만, 초기 ‘산타클로스 집회‘ 같은 것은 없습니다. ’실질적인 이득이 일반적으로 발생할 때입니다.",
     "With the Anthropic IPO, the devil is in the details": "Anthropic IPO를 통해 악마는 세부 사항에 있습니다.",
-    "Why Lumentum’s stock led the S&P 500 higher on Monday": "Lumentum의 주가가 월요일에 S&P 500을 상승시킨 이유"
+    "Why Lumentum’s stock led the S&P 500 higher on Monday": "Lumentum의 주가가 월요일에 S&P 500을 상승시킨 이유",
+    "Dividend stocks are having an excellent October as tech sector struggles": "기술 부문이 어려움을 겪고 있는 가운데 배당주는 훌륭한 10월을 보내고 있습니다.",
+    "Options traders are seizing control of the S&P 500": "거래자들이 S&P 500의 지배권을 장악하고 있는 옵션"
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2955,7 +2955,7 @@
       "2026-10-23": 1323.66,
       "2026-10-24": 1325.4,
       "2026-10-25": 1323.43,
-      "2026-10-26": 1325.24
+      "2026-10-26": 1325.02
     },
     "^GSPC": {
       "2026-10-15": 7744.06,
@@ -3387,7 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgRXyByY5p8XbotHJEVK7\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgRXyCMc7KtRbxEUPiNXq\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgRk8LKFFcBqYET4coSdp\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgRk8LsygA5AQopL3H9tQ\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgRk8MJ2tUdr9vDBtQ3RY\"}"
   ]
 }
