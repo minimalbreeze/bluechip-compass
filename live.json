@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-26T00:01:53.655Z",
+  "asOf": "2026-10-26T00:12:17.194Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-23T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1323.48,
+      "price": 1323.45,
       "prev": 1323.43,
       "chg": 0,
       "prevDay": "2026-10-25",
       "basis": "prev-close-memo",
-      "time": "2026-10-26T00:01:40.000Z"
+      "time": "2026-10-26T00:12:00.000Z"
     },
     "^GSPC": {
       "price": 7623.68,
@@ -60,7 +60,7 @@
     }
   },
   "fx": {
-    "low52": 1323.28,
+    "low52": 1323.45,
     "high52": 1554.48,
     "pct": 0
   },
@@ -80,11 +80,11 @@
       "chg3m": 0.08
     },
     "KRW=X": {
-      "last": 1323.28,
-      "low52": 1323.28,
+      "last": 1323.45,
+      "low52": 1323.45,
       "high52": 1554.48,
       "pct52": 0,
-      "chg3m": -8.25
+      "chg3m": -8.24
     },
     "^GSPC": {
       "last": 7623.68,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgPsFNpow"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgPt3LZQy"
   },
   "stocks": {
     "kr": {
@@ -368,24 +368,24 @@
   "news": {
     "kr": [
       {
-        "title": "대신증권 \"美중간선거, 방향 전환보다 국내사이클 증폭 역할\"",
-        "link": "https://www.yna.co.kr/view/AKR20261026023400008",
+        "title": "코스피, 1% 안팎 하락 출발…코스닥도 내려",
+        "link": "https://www.yna.co.kr/view/AKR20261026032600008",
         "source": "연합뉴스",
-        "date": "Mon, 26 Oct 2026 08:52:30 +0900",
+        "date": "Mon, 26 Oct 2026 09:06:08 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "개미들 국내 증시 탈출할 때…대치동 부자들이 담은 '이 주식'",
-        "link": "https://www.hankyung.com/article/202610216130i",
+        "title": "코스피 0.92% 내린 5499…코스닥 1.27% 내린 742 개장",
+        "link": "https://www.hankyung.com/article/2026102642666",
         "source": "한국경제",
-        "date": "Mon, 26 Oct 2026 07:50:37 +0900",
+        "date": "Mon, 26 Oct 2026 09:04:38 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -401,24 +401,24 @@
         "by": "rules"
       },
       {
-        "title": "식품기업 3분기 실적 전망 희비 교차…해외 성장이 성패 갈라",
-        "link": "https://www.yna.co.kr/view/AKR20261025050100030",
+        "title": "대신증권 \"美중간선거, 방향 전환보다 국내사이클 증폭 역할\"",
+        "link": "https://www.yna.co.kr/view/AKR20261026023400008",
         "source": "연합뉴스",
-        "date": "Mon, 26 Oct 2026 08:43:22 +0900",
+        "date": "Mon, 26 Oct 2026 08:52:30 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "\"실리콘투, 3분기 실적 기대치 밑돌 전망…목표가↓\"-상상인",
-        "link": "https://www.hankyung.com/article/2026102639886",
+        "title": "\"코스피 하단 5200…비중확대 말고 정유·해운 등 선별투자\"",
+        "link": "https://www.hankyung.com/article/2026102640936",
         "source": "한국경제",
-        "date": "Mon, 26 Oct 2026 07:41:20 +0900",
+        "date": "Mon, 26 Oct 2026 08:18:22 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -2955,7 +2955,7 @@
       "2026-10-23": 1323.66,
       "2026-10-24": 1325.4,
       "2026-10-25": 1323.43,
-      "2026-10-26": 1323.48
+      "2026-10-26": 1323.45
     },
     "^GSPC": {
       "2026-10-14": 7718.94,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgPsFNpowU6McCcSq2GxP\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgPsFPKpjm5Xobhuf4qmx\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgPsFPgeRMCDuRBSyXAYA\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgPt3LZQyd7RpQRydW8ej\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgPt3M4g3fEVFcZfXY8Vi\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgPt3MUyh5g2KyvLw62Yh\"}"
   ]
 }
