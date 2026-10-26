@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-26T11:50:07.935Z",
+  "asOf": "2026-10-26T12:50:35.631Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-26T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1324.14,
+      "price": 1325.28,
       "prev": 1323.43,
-      "chg": 0.05,
+      "chg": 0.14,
       "prevDay": "2026-10-25",
       "basis": "prev-close-memo",
-      "time": "2026-10-26T11:49:53.000Z"
+      "time": "2026-10-26T12:50:22.000Z"
     },
     "^GSPC": {
       "price": 7623.68,
@@ -43,26 +43,26 @@
       "time": "2026-10-23T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 19.53,
+      "price": 19.17,
       "prev": 19.45,
-      "chg": 0.41,
+      "chg": -1.44,
       "prevDay": "2026-10-25",
       "basis": "prev-close-memo",
-      "time": "2026-10-26T11:34:46.000Z"
+      "time": "2026-10-26T12:35:16.000Z"
     },
     "^TNX": {
-      "price": 4.988,
+      "price": 4.99,
       "prev": 4.988,
-      "chg": 0,
+      "chg": 0.04,
       "prevDay": "2026-10-25",
       "basis": "prev-close-memo",
-      "time": "2026-10-23T18:59:56.000Z"
+      "time": "2026-10-26T12:35:12.000Z"
     }
   },
   "fx": {
     "low52": 1323.94,
     "high52": 1554.48,
-    "pct": 0.001
+    "pct": 0.006
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -7.98
     },
     "KRW=X": {
-      "last": 1324.14,
+      "last": 1325.28,
       "low52": 1323.94,
       "high52": 1554.48,
-      "pct52": 0.001,
-      "chg3m": -8.19
+      "pct52": 0.006,
+      "chg3m": -8.11
     },
     "^GSPC": {
       "last": 7623.68,
@@ -101,18 +101,18 @@
       "chg3m": 4.34
     },
     "^VIX": {
-      "last": 19.53,
+      "last": 19.17,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.345,
-      "chg3m": 14.28
+      "pct52": 0.324,
+      "chg3m": 12.17
     },
     "^TNX": {
       "last": 4.99,
       "low52": 3.96,
       "high52": 5.31,
       "pct52": 0.761,
-      "chg3m": 8.34
+      "chg3m": 7.92
     }
   },
   "regime": {
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgQoFpDoh"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgQssEAfG"
   },
   "stocks": {
     "kr": {
@@ -390,13 +390,13 @@
         "by": "rules"
       },
       {
-        "title": "“투자금까지 모았지만 함부로 못 들어가”…K반도체 대어들 IPO 속도조절",
-        "link": "https://www.mk.co.kr/news/business/12186261",
+        "title": "“있는 돈 없는 돈, 이미 다 끌어넣었나”…코스피 거래대금도 하락세",
+        "link": "https://www.mk.co.kr/news/stock/12186320",
         "source": "매일경제",
-        "date": "Mon, 26 Oct 2026 20:11:04 +09:00",
+        "date": "Mon, 26 Oct 2026 21:30:23 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -423,10 +423,10 @@
         "by": "rules"
       },
       {
-        "title": "9월에라도 피신할걸…주식형 펀드 빼서 여기 넣었으면 돈 벌었다",
-        "link": "https://www.mk.co.kr/news/stock/12186232",
+        "title": "“투자금까지 모았지만 함부로 못 들어가”…K반도체 대어들 IPO 속도조절",
+        "link": "https://www.mk.co.kr/news/business/12186261",
         "source": "매일경제",
-        "date": "Mon, 26 Oct 2026 19:42:01 +09:00",
+        "date": "Mon, 26 Oct 2026 20:11:04 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -448,11 +448,11 @@
         "by": "rules"
       },
       {
-        "title": "The stock market’s biggest test in weeks is here",
-        "link": "https://www.marketwatch.com/story/the-stock-markets-biggest-test-in-weeks-is-here-256f5a37?mod=mw_rss_topstories",
+        "title": "Musk says SpaceX’s AI rivals are in trouble, sending their stocks lower",
+        "link": "https://www.marketwatch.com/story/musk-says-spacex-landed-a-40-billion-debt-deal-and-forecasts-doom-for-some-ai-rivals-a0a4991e?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 26 Oct 2026 11:37:00 GMT",
-        "ko": "주식 시장에서 몇 주 만에 가장 큰 테스트가 여기에 있습니다",
+        "date": "Mon, 26 Oct 2026 12:39:00 GMT",
+        "ko": "머스크는 스페이스X의 AI 라이벌들이 곤경에 처해 있어 주식을 낮추고 있다고 말한다.",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -472,11 +472,11 @@
         "by": "rules"
       },
       {
-        "title": "Verizon’s stock rises as subscriber surge impresses Wall Street",
-        "link": "https://www.marketwatch.com/story/verizons-stock-rises-as-subscriber-surge-impresses-wall-street-2be3ef2c?mod=mw_rss_topstories",
+        "title": "Nvidia, AMD and Broadcom could buy Meta shares as part of $35 billion stock offering",
+        "link": "https://www.marketwatch.com/story/nvidia-amd-and-broadcom-could-buy-meta-shares-as-part-of-35-billion-stock-offering-d816fec2?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 26 Oct 2026 11:11:00 GMT",
-        "ko": "구독자 급등이 월스트리트에 영향을 미치면서 Verizon의 주가가 상승합니다.",
+        "date": "Mon, 26 Oct 2026 12:08:00 GMT",
+        "ko": "엔비디아, AMD 및 브로드컴은 350억 달러 ($) 규모의 주식 제공의 일환으로 메타 주식을 매입할 수 있습니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -496,14 +496,14 @@
         "by": "rules"
       },
       {
-        "title": "The Kospi index is the leading indicator for the global AI trade — and Goldman just slashed its forecast by 25%",
-        "link": "https://www.marketwatch.com/story/the-kospi-index-is-the-leading-indicator-for-the-global-ai-trade-and-goldman-just-slashed-its-forecast-by-25-ccfe2690?mod=mw_rss_topstories",
+        "title": "The stock market’s biggest test in weeks is here",
+        "link": "https://www.marketwatch.com/story/the-stock-markets-biggest-test-in-weeks-is-here-256f5a37?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 26 Oct 2026 10:43:00 GMT",
-        "ko": "코스피 지수는 글로벌 AI 거래의 주요 지표이며, 골드만은 예측치를 25% 삭감했습니다.",
+        "date": "Mon, 26 Oct 2026 11:37:00 GMT",
+        "ko": "주식 시장에서 몇 주 만에 가장 큰 테스트가 여기에 있습니다",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -511,8 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "‘I’m afraid of human stupidity’: Why this top economist prefers U.S. tech and gold over bonds": "‘인간의 어리석음이 두렵다’: 이 최고 경제학자가 채권보다 미국 기술과 금을 선호하는 이유",
-    "Citi tells investors it’s time to sell Moderna after 600%-plus stock gains": "Citi는 투자자들에게 600% 이상의 주가 상승 후 Moderna를 판매할 때라고 말합니다.",
     "U.S. inflation rises again and keeps the pressure on Fed": "미국 인플레이션은 다시 상승하여 연준에 대한 압력을 유지합니다.",
     "U.S. inflation rises, keeping pressure on Fed": "미국 인플레이션 상승, 연준 압박 유지",
     "How Amazon’s stock can fight off the AI threat and soar 46%": "아마존의 주식이 AI 위협을 물리치고 46% 급등할 수 있는 방법",
@@ -810,7 +808,9 @@
     "The Kospi index is the leading indicator for the global AI trade — and Goldman just slashed its forecast by 25%": "코스피 지수는 글로벌 AI 거래의 주요 지표이며, 골드만은 예측치를 25% 삭감했습니다.",
     "Cheesecake Factory was just the subject of unflattering headlines. It’s actually one of the hottest stocks around.": "치즈케이크 공장은 아첨하지 않는 헤드라인의 주제에 불과했습니다. 실제로 주변에서 가장 인기 있는 주식 중 하나입니다.",
     "The stock market’s biggest test in weeks is here": "주식 시장에서 몇 주 만에 가장 큰 테스트가 여기에 있습니다",
-    "Verizon’s stock rises as subscriber surge impresses Wall Street": "구독자 급등이 월스트리트에 영향을 미치면서 Verizon의 주가가 상승합니다."
+    "Verizon’s stock rises as subscriber surge impresses Wall Street": "구독자 급등이 월스트리트에 영향을 미치면서 Verizon의 주가가 상승합니다.",
+    "Musk says SpaceX’s AI rivals are in trouble, sending their stocks lower": "머스크는 스페이스X의 AI 라이벌들이 곤경에 처해 있어 주식을 낮추고 있다고 말한다.",
+    "Nvidia, AMD and Broadcom could buy Meta shares as part of $35 billion stock offering": "엔비디아, AMD 및 브로드컴은 350억 달러 ($) 규모의 주식 제공의 일환으로 메타 주식을 매입할 수 있습니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2955,7 +2955,7 @@
       "2026-10-23": 1323.66,
       "2026-10-24": 1325.4,
       "2026-10-25": 1323.43,
-      "2026-10-26": 1324.14
+      "2026-10-26": 1325.28
     },
     "^GSPC": {
       "2026-10-15": 7744.06,
@@ -2997,7 +2997,7 @@
       "2026-10-23": 19.45,
       "2026-10-24": 19.45,
       "2026-10-25": 19.45,
-      "2026-10-26": 19.53
+      "2026-10-26": 19.17
     },
     "^TNX": {
       "2026-10-15": 5.089,
@@ -3011,7 +3011,7 @@
       "2026-10-23": 4.988,
       "2026-10-24": 4.988,
       "2026-10-25": 4.988,
-      "2026-10-26": 4.988
+      "2026-10-26": 4.99
     },
     "105560.KS": {
       "2026-10-15": 156700,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgQoFpDohkBP8W2MZcZdW\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgQoFpeMuBLawZvzFwTHN\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgQoFpyD2Bn3MD1hVrRwq\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgQssEAfGSFrVRHNKaPex\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgQssEdSmXaKEBYqtWtQA\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgQssEvZUC9EjmpA3V1T9\"}"
   ]
 }
