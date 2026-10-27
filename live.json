@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-27T11:47:46.104Z",
+  "asOf": "2026-10-27T12:48:08.644Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-27T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1327.69,
+      "price": 1327.18,
       "prev": 1321.760009765625,
-      "chg": 0.45,
+      "chg": 0.41,
       "prevDay": "2026-10-26",
       "basis": "prev-close-bar",
-      "time": "2026-10-27T11:47:35.000Z"
+      "time": "2026-10-27T12:47:50.000Z"
     },
     "^GSPC": {
       "price": 7676.77,
@@ -43,26 +43,26 @@
       "time": "2026-10-26T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 17.84,
+      "price": 17.73,
       "prev": 18.389999389648438,
-      "chg": -2.99,
+      "chg": -3.59,
       "prevDay": "2026-10-26",
       "basis": "prev-close-bar",
-      "time": "2026-10-27T11:32:31.000Z"
+      "time": "2026-10-27T12:32:46.000Z"
     },
     "^TNX": {
-      "price": 4.986,
+      "price": 4.988,
       "prev": 4.986000061035156,
-      "chg": 0,
+      "chg": 0.04,
       "prevDay": "2026-10-26",
       "basis": "prev-close-bar",
-      "time": "2026-10-26T18:59:52.000Z"
+      "time": "2026-10-27T12:32:54.000Z"
     }
   },
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.025
+    "pct": 0.023
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -0.59
     },
     "KRW=X": {
-      "last": 1327.69,
+      "last": 1327.15,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.025,
-      "chg3m": -6.54
+      "pct52": 0.023,
+      "chg3m": -6.58
     },
     "^GSPC": {
       "last": 7676.77,
@@ -101,18 +101,18 @@
       "chg3m": 7.06
     },
     "^VIX": {
-      "last": 17.84,
+      "last": 17.73,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.249,
-      "chg3m": 11.57
+      "pct52": 0.242,
+      "chg3m": 10.88
     },
     "^TNX": {
       "last": 4.99,
       "low52": 3.96,
       "high52": 5.31,
-      "pct52": 0.759,
-      "chg3m": 7.88
+      "pct52": 0.761,
+      "chg3m": 6.97
     }
   },
   "regime": {
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgSgtHGCW"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgSmVJng8"
   },
   "stocks": {
     "kr": {
@@ -390,14 +390,14 @@
         "by": "rules"
       },
       {
-        "title": "JYP 지분 인수 추진 발표에 주가 ‘들썩’…금감원 “불공정거래 예의주시”",
-        "link": "https://www.mk.co.kr/news/stock/12187530",
+        "title": "단일종목 레버리지, 외국인은 이미 털고나왔다…대부분 비중 0%대로",
+        "link": "https://www.mk.co.kr/news/stock/12187661",
         "source": "매일경제",
-        "date": "Tue, 27 Oct 2026 19:29:16 +09:00",
-        "act": "watch",
-        "lasting": "structural",
+        "date": "Tue, 27 Oct 2026 21:09:59 +09:00",
+        "act": "none",
+        "lasting": "temporary",
         "scope": null,
-        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
@@ -423,14 +423,14 @@
         "by": "rules"
       },
       {
-        "title": "[인기검색TOP5] 나무가, JYP Ent., 대한전선, 한미반도체, SK텔레콤",
-        "link": "https://www.mk.co.kr/news/stock/12187463",
+        "title": "JYP 지분 인수 추진 발표에 주가 ‘들썩’…금감원 “불공정거래 예의주시”",
+        "link": "https://www.mk.co.kr/news/stock/12187530",
         "source": "매일경제",
-        "date": "Tue, 27 Oct 2026 18:26:12 +09:00",
-        "act": "none",
-        "lasting": "temporary",
+        "date": "Tue, 27 Oct 2026 19:29:16 +09:00",
+        "act": "watch",
+        "lasting": "structural",
         "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
         "by": "rules"
       }
     ],
@@ -448,14 +448,14 @@
         "by": "rules"
       },
       {
-        "title": "Why reported Khamenei call for end to ‘neither war nor peace’ moved markets — a bit",
-        "link": "https://www.marketwatch.com/story/why-reported-khamenei-call-for-end-to-neither-war-nor-peace-moved-markets-a-bit-dd94b602?mod=mw_rss_topstories",
+        "title": "Why SoFi’s stock is soaring after earnings",
+        "link": "https://www.marketwatch.com/story/sofis-stock-climbs-as-lending-surge-drives-an-earnings-beat-and-rosy-outlook-0c978535?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Tue, 27 Oct 2026 11:45:00 GMT",
-        "ko": "Khamenei가 ‘전쟁도 평화도 아닌‘ 움직이는 시장을 종식시킬 것을 촉구한다고 보도한 이유 — 약간",
+        "date": "Tue, 27 Oct 2026 12:21:00 GMT",
+        "ko": "수입 이후 SoFi의 주식이 급등하는 이유",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -472,14 +472,14 @@
         "by": "rules"
       },
       {
-        "title": "AI debt trouble could help Fed’s Warsh get his way with fewer rate hikes",
-        "link": "https://www.marketwatch.com/story/ai-debt-trouble-could-help-feds-warsh-get-his-way-with-fewer-rate-hikes-b3dc4525?mod=mw_rss_topstories",
+        "title": "Here’s the question three tech-sector earnings reports raise about the future of AI",
+        "link": "https://www.marketwatch.com/story/heres-the-question-three-tech-sector-earnings-reports-raise-about-the-future-of-ai-5676248b?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Tue, 27 Oct 2026 11:34:00 GMT",
-        "ko": "AI 부채 문제로 인해 Fed의 Warsh가 금리 인상을 줄이면서 자신의 길을 얻는 데 도움이 될 수 있습니다.",
+        "date": "Tue, 27 Oct 2026 11:51:00 GMT",
+        "ko": "다음은 인공지능의 미래에 대한 세 가지 기술 부문 수익 보고서의 질문입니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -496,14 +496,14 @@
         "by": "rules"
       },
       {
-        "title": "Big Tech’s earnings are on deck. There’s more for investors to watch than AI spending.",
-        "link": "https://www.marketwatch.com/story/big-techs-earnings-are-on-deck-theres-more-for-investors-to-watch-than-ai-spending-bb566c90?mod=mw_rss_topstories",
+        "title": "Why reported Khamenei call for end to ‘neither war nor peace’ moved markets — a bit",
+        "link": "https://www.marketwatch.com/story/why-reported-khamenei-call-for-end-to-neither-war-nor-peace-moved-markets-a-bit-dd94b602?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Tue, 27 Oct 2026 11:31:00 GMT",
-        "ko": "빅 테크의 수입은 덱에 있습니다. AI 지출보다 투자자가 지켜봐야 할 것이 더 많습니다.",
+        "date": "Tue, 27 Oct 2026 11:45:00 GMT",
+        "ko": "Khamenei가 ‘전쟁도 평화도 아닌‘ 움직이는 시장을 종식시킬 것을 촉구한다고 보도한 이유 — 약간",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -511,8 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "Why Micron’s big earnings report isn’t lifting the stock": "마이크론의 큰 수익 보고서가 주가를 올리지 못하는 이유",
-    "September jobs report may show labor market is on the mend — but it’s far from cured": "9월 일자리 보고서는 노동 시장이 개선되고 있음을 보여줄 수 있지만 치료와는 거리가 멀다.",
     "U.S. manufacturers say inflation is bad and not getting any better": "미국 제조업체들은 인플레이션이 나쁘고 나아지지 않는다고 말합니다.",
     "30-year mortgage rate posts biggest jump in four years": "30년 모기지 이자율, 4년 만에 가장 큰 폭으로 상승",
     "30-year mortgage rate posts biggest jump in four years — to nearly 7.3%": "30년 모기지 이자율, 4년 만에 가장 큰 폭으로 상승 — 거의 7.3%",
@@ -810,7 +808,9 @@
     "Fed rate hikes are coming, but not this week: CNBC survey": "연준 금리 인상이 다가오고 있지만 이번 주에는 아니다: CNBC 설문조사",
     "Why reported Khamenei call for end to ‘neither war nor peace’ moved markets — a bit": "Khamenei가 ‘전쟁도 평화도 아닌‘ 움직이는 시장을 종식시킬 것을 촉구한다고 보도한 이유 — 약간",
     "AI debt trouble could help Fed’s Warsh get his way with fewer rate hikes": "AI 부채 문제로 인해 Fed의 Warsh가 금리 인상을 줄이면서 자신의 길을 얻는 데 도움이 될 수 있습니다.",
-    "Big Tech’s earnings are on deck. There’s more for investors to watch than AI spending.": "빅 테크의 수입은 덱에 있습니다. AI 지출보다 투자자가 지켜봐야 할 것이 더 많습니다."
+    "Big Tech’s earnings are on deck. There’s more for investors to watch than AI spending.": "빅 테크의 수입은 덱에 있습니다. AI 지출보다 투자자가 지켜봐야 할 것이 더 많습니다.",
+    "Why SoFi’s stock is soaring after earnings": "수입 이후 SoFi의 주식이 급등하는 이유",
+    "Here’s the question three tech-sector earnings reports raise about the future of AI": "다음은 인공지능의 미래에 대한 세 가지 기술 부문 수익 보고서의 질문입니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2955,7 +2955,7 @@
       "2026-10-24": 1325.4,
       "2026-10-25": 1323.43,
       "2026-10-26": 1325.02,
-      "2026-10-27": 1327.69
+      "2026-10-27": 1327.18
     },
     "^GSPC": {
       "2026-10-16": 7659.44,
@@ -2997,7 +2997,7 @@
       "2026-10-24": 19.45,
       "2026-10-25": 19.45,
       "2026-10-26": 18.39,
-      "2026-10-27": 17.84
+      "2026-10-27": 17.73
     },
     "^TNX": {
       "2026-10-16": 5.098,
@@ -3011,7 +3011,7 @@
       "2026-10-24": 4.988,
       "2026-10-25": 4.988,
       "2026-10-26": 4.986,
-      "2026-10-27": 4.986
+      "2026-10-27": 4.988
     },
     "105560.KS": {
       "2026-10-16": 160000,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgSgtHGCWqxAU5Zz9ojyv\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgSgtHY55drupC1KJDwKM\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgSgtHmDYz1fCfDgebrrN\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgSmVJng8eEaqG5hkUf7Y\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgSmVKDTmj3kkRXwZWWP2\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgSmVKZ3y2eoo3xW24sUh\"}"
   ]
 }
