@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-27T07:46:14.512Z",
+  "asOf": "2026-10-27T08:46:35.257Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-27T06:32:50.000Z"
     },
     "KRW=X": {
-      "price": 1324.67,
+      "price": 1326.05,
       "prev": 1321.760009765625,
-      "chg": 0.22,
+      "chg": 0.32,
       "prevDay": "2026-10-26",
       "basis": "prev-close-bar",
-      "time": "2026-10-27T07:46:05.000Z"
+      "time": "2026-10-27T08:46:20.000Z"
     },
     "^GSPC": {
       "price": 7676.77,
@@ -43,12 +43,12 @@
       "time": "2026-10-26T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 18.41,
+      "price": 18.45,
       "prev": 18.389999389648438,
-      "chg": 0.11,
+      "chg": 0.33,
       "prevDay": "2026-10-26",
       "basis": "prev-close-bar",
-      "time": "2026-10-27T07:31:01.000Z"
+      "time": "2026-10-27T08:31:16.000Z"
     },
     "^TNX": {
       "price": 4.986,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.013
+    "pct": 0.018
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -0.59
     },
     "KRW=X": {
-      "last": 1324.67,
+      "last": 1326.05,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.013,
-      "chg3m": -6.75
+      "pct52": 0.018,
+      "chg3m": -6.66
     },
     "^GSPC": {
       "last": 7676.77,
@@ -101,11 +101,11 @@
       "chg3m": 7.06
     },
     "^VIX": {
-      "last": 18.41,
+      "last": 18.45,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.281,
-      "chg3m": 15.13
+      "pct52": 0.283,
+      "chg3m": 15.38
     },
     "^TNX": {
       "last": 4.99,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgSNU3LGw"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgST4wGMT"
   },
   "stocks": {
     "kr": {
@@ -368,10 +368,10 @@
   "news": {
     "kr": [
       {
-        "title": "SKAI, 10억원 유상증자…전찬우에 제3자배정",
-        "link": "https://www.yna.co.kr/view/AKR20261027155700008",
+        "title": "인천도시가스 \"청라아이디씨피에프브이 주식 120억원에 취득\"",
+        "link": "https://www.yna.co.kr/view/AKR20261027162400008",
         "source": "연합뉴스",
-        "date": "Tue, 27 Oct 2026 16:39:30 +0900",
+        "date": "Tue, 27 Oct 2026 17:10:10 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -379,10 +379,10 @@
         "by": "rules"
       },
       {
-        "title": "삼성증권 '금융돌' 루미나, 데뷔곡 250만 뷰 돌파",
-        "link": "https://www.hankyung.com/article/2026102772711",
+        "title": "신한투자증권, 3분기 순이익 653억원…전년비 35% 감소",
+        "link": "https://www.hankyung.com/article/2026102785856",
         "source": "한국경제",
-        "date": "Tue, 27 Oct 2026 16:15:15 +0900",
+        "date": "Tue, 27 Oct 2026 17:26:13 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -390,10 +390,10 @@
         "by": "rules"
       },
       {
-        "title": "“치킨값은 번다던 공모주, 진짜 돈 될까?”…하반기 청약 성적표 따져보니",
-        "link": "https://www.mk.co.kr/news/stock/12187212",
+        "title": "\"흑자전환·8천억弗 투자\"… 앤트로픽 수익성 확인에 반도체株 반색",
+        "link": "https://www.mk.co.kr/news/stock/12187428",
         "source": "매일경제",
-        "date": "Tue, 27 Oct 2026 16:29:52 +09:00",
+        "date": "Tue, 27 Oct 2026 17:43:52 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -401,35 +401,35 @@
         "by": "rules"
       },
       {
-        "title": "원/달러 환율, 미 금리 결정 경계감 속 1,320원대 보합권",
-        "link": "https://www.yna.co.kr/view/AKR20261027145700002",
+        "title": "두산로보틱스 \"두산신기술투자조합2호 주식 400억원에 취득\"",
+        "link": "https://www.yna.co.kr/view/AKR20261027161300008",
         "source": "연합뉴스",
-        "date": "Tue, 27 Oct 2026 16:33:34 +0900",
+        "date": "Tue, 27 Oct 2026 17:01:04 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "박현주 \"삼전닉스 없으면 엔비디아도 스톱\"…'반도체 고점론' 직격",
+        "link": "https://www.hankyung.com/article/202610278372i",
+        "source": "한국경제",
+        "date": "Tue, 27 Oct 2026 17:20:12 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "앤트로픽 훈풍에 코스피 3% 반등",
+        "link": "https://www.mk.co.kr/news/stock/12187425",
+        "source": "매일경제",
+        "date": "Tue, 27 Oct 2026 17:43:46 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "日 기업 인수설에 JYP 주가 7% 급등",
-        "link": "https://www.hankyung.com/article/202610277938i",
-        "source": "한국경제",
-        "date": "Tue, 27 Oct 2026 16:02:51 +0900",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": null,
-        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
-        "by": "rules"
-      },
-      {
-        "title": "‘주식농부’ 박영옥 조광피혁 지분 매각 나서…승소한 조광피혁 “의혹 사실 아냐”",
-        "link": "https://www.mk.co.kr/news/stock/12187198",
-        "source": "매일경제",
-        "date": "Tue, 27 Oct 2026 16:25:27 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -2955,7 +2955,7 @@
       "2026-10-24": 1325.4,
       "2026-10-25": 1323.43,
       "2026-10-26": 1325.02,
-      "2026-10-27": 1324.67
+      "2026-10-27": 1326.05
     },
     "^GSPC": {
       "2026-10-16": 7659.44,
@@ -2997,7 +2997,7 @@
       "2026-10-24": 19.45,
       "2026-10-25": 19.45,
       "2026-10-26": 18.39,
-      "2026-10-27": 18.41
+      "2026-10-27": 18.45
     },
     "^TNX": {
       "2026-10-16": 5.098,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgSNU3LGw6RiDztQo1Qqh\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgSNU3jbVG9ia7k7JE5yA\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgSNU3zDgJCHnT8Mayqzv\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgST4wGMTfH7WRBWkk2iA\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgST4wmrYRpobWxp13HtG\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgST4x6hpiMVqgxWQuf5M\"}"
   ]
 }
