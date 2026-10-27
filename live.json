@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-27T21:03:56.132Z",
+  "asOf": "2026-10-27T21:16:57.418Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -40,7 +40,7 @@
       "chg": 1.18,
       "prevDay": "2026-10-26",
       "basis": "prev-close-bar",
-      "time": "2026-10-27T21:03:50.000Z"
+      "time": "2026-10-27T21:16:01.000Z"
     },
     "^VIX": {
       "price": 17.52,
@@ -368,13 +368,13 @@
   "news": {
     "kr": [
       {
-        "title": "금융위, 초고금리 불법사금융 '징역 10년·벌금 5억'으로 강화",
-        "link": "https://www.yna.co.kr/view/AKR20261027178700002",
+        "title": "반도체 실적 호조에도…기업 경기 전망 2개월 연속 '부정적'",
+        "link": "https://www.yna.co.kr/view/AKR20261027167600003",
         "source": "연합뉴스",
-        "date": "Tue, 27 Oct 2026 19:13:10 +0900",
+        "date": "Wed, 28 Oct 2026 06:00:08 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -401,13 +401,13 @@
         "by": "rules"
       },
       {
-        "title": "미래에셋, 日증권사 품는다…박현주 회장 \"29일 발표\"(종합2보)",
-        "link": "https://www.yna.co.kr/view/AKR20261027154952008",
+        "title": "금융위, 초고금리 불법사금융 '징역 10년·벌금 5억'으로 강화",
+        "link": "https://www.yna.co.kr/view/AKR20261027178700002",
         "source": "연합뉴스",
-        "date": "Tue, 27 Oct 2026 18:23:45 +0900",
+        "date": "Tue, 27 Oct 2026 19:13:10 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -3387,7 +3387,7 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgTRJ8PiFr3zyCQFmY35E\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgTRJ8tUqd8B59xfn4acS\"}"
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgTSHiuwz3rWPRk1c9X79\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgTSHjHWzaM25XiePizzm\"}"
   ]
 }
