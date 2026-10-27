@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-26T23:49:41.695Z",
+  "asOf": "2026-10-27T00:02:05.162Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-26T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1325.02,
-      "prev": 1323.43,
-      "chg": 0.12,
-      "prevDay": "2026-10-25",
-      "basis": "prev-close-memo",
-      "time": "2026-10-26T23:49:35.000Z"
+      "price": 1325.68,
+      "prev": 1321.760009765625,
+      "chg": 0.3,
+      "prevDay": "2026-10-26",
+      "basis": "prev-close-bar",
+      "time": "2026-10-27T00:01:55.000Z"
     },
     "^GSPC": {
       "price": 7676.77,
@@ -60,9 +60,9 @@
     }
   },
   "fx": {
-    "low52": 1323.94,
+    "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.005
+    "pct": 0.017
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": 0.08
     },
     "KRW=X": {
-      "last": 1325.02,
-      "low52": 1323.94,
+      "last": 1325.68,
+      "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.005,
-      "chg3m": -8.13
+      "pct52": 0.017,
+      "chg3m": -6.68
     },
     "^GSPC": {
       "last": 7676.77,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgRk8LKFF"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgRm5918F"
   },
   "stocks": {
     "kr": {
@@ -390,10 +390,10 @@
         "by": "rules"
       },
       {
-        "title": "“BNK금융, 이익신뢰도 저하됐지만 주가 급락 과도”…목표가↓",
-        "link": "https://www.mk.co.kr/news/stock/12186568",
+        "title": "“이익 안정적이지만 주가 재평가 더딜 듯”…기업은행 목표가↓",
+        "link": "https://www.mk.co.kr/news/stock/12186587",
         "source": "매일경제",
-        "date": "Tue, 27 Oct 2026 08:26:15 +09:00",
+        "date": "Tue, 27 Oct 2026 08:53:31 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -423,10 +423,10 @@
         "by": "rules"
       },
       {
-        "title": "닷컴버블보다 더 힘든 장세? 증시 상승 위한 ‘마지막 고비’는",
-        "link": "https://www.mk.co.kr/news/stock/12186567",
+        "title": "“BNK금융, 이익신뢰도 저하됐지만 주가 급락 과도”…목표가↓",
+        "link": "https://www.mk.co.kr/news/stock/12186568",
         "source": "매일경제",
-        "date": "Tue, 27 Oct 2026 08:25:38 +09:00",
+        "date": "Tue, 27 Oct 2026 08:26:15 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -2944,7 +2944,6 @@
       "2026-10-27": 727.21
     },
     "KRW=X": {
-      "2026-10-15": 1341.21,
       "2026-10-16": 1334.2,
       "2026-10-17": 1329.6,
       "2026-10-18": 1334.66,
@@ -2955,7 +2954,8 @@
       "2026-10-23": 1323.66,
       "2026-10-24": 1325.4,
       "2026-10-25": 1323.43,
-      "2026-10-26": 1325.02
+      "2026-10-26": 1325.02,
+      "2026-10-27": 1325.68
     },
     "^GSPC": {
       "2026-10-15": 7744.06,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgRk8LKFFcBqYET4coSdp\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgRk8LsygA5AQopL3H9tQ\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgRk8MJ2tUdr9vDBtQ3RY\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgRm5918FbjDW4gFVvYsW\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgRm59Z7b5HRmBs71Taf1\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgRm59yRPAYsPRsFgJbLP\"}"
   ]
 }
