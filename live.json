@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-27T12:48:08.644Z",
+  "asOf": "2026-10-27T13:21:36.797Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-27T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1327.18,
+      "price": 1327.27,
       "prev": 1321.760009765625,
-      "chg": 0.41,
+      "chg": 0.42,
       "prevDay": "2026-10-26",
       "basis": "prev-close-bar",
-      "time": "2026-10-27T12:47:50.000Z"
+      "time": "2026-10-27T13:21:21.000Z"
     },
     "^GSPC": {
       "price": 7676.77,
@@ -43,26 +43,26 @@
       "time": "2026-10-26T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 17.73,
+      "price": 17.88,
       "prev": 18.389999389648438,
-      "chg": -3.59,
+      "chg": -2.77,
       "prevDay": "2026-10-26",
       "basis": "prev-close-bar",
-      "time": "2026-10-27T12:32:46.000Z"
+      "time": "2026-10-27T13:06:16.000Z"
     },
     "^TNX": {
-      "price": 4.988,
+      "price": 4.999,
       "prev": 4.986000061035156,
-      "chg": 0.04,
+      "chg": 0.26,
       "prevDay": "2026-10-26",
       "basis": "prev-close-bar",
-      "time": "2026-10-27T12:32:54.000Z"
+      "time": "2026-10-27T13:06:24.000Z"
     }
   },
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.023
+    "pct": 0.024
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -0.59
     },
     "KRW=X": {
-      "last": 1327.15,
+      "last": 1327.27,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.023,
-      "chg3m": -6.58
+      "pct52": 0.024,
+      "chg3m": -6.57
     },
     "^GSPC": {
       "last": 7676.77,
@@ -101,18 +101,18 @@
       "chg3m": 7.06
     },
     "^VIX": {
-      "last": 17.73,
+      "last": 17.88,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.242,
-      "chg3m": 10.88
+      "pct52": 0.251,
+      "chg3m": 11.82
     },
     "^TNX": {
-      "last": 4.99,
+      "last": 5,
       "low52": 3.96,
       "high52": 5.31,
-      "pct52": 0.761,
-      "chg3m": 6.97
+      "pct52": 0.769,
+      "chg3m": 7.21
     }
   },
   "regime": {
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgSmVJng8"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgSp3LrZG"
   },
   "stocks": {
     "kr": {
@@ -379,14 +379,14 @@
         "by": "rules"
       },
       {
-        "title": "박현주 \"AI혁명 이제 10%…반도체 고점론은 착각\"",
-        "link": "https://www.hankyung.com/article/2026102787901",
+        "title": "200만 구독자 '짠한형 신동엽' 제작사, 75억원에 흡수합병",
+        "link": "https://www.hankyung.com/article/2026102790247",
         "source": "한국경제",
-        "date": "Tue, 27 Oct 2026 18:15:20 +0900",
-        "act": "none",
-        "lasting": "temporary",
+        "date": "Tue, 27 Oct 2026 21:40:53 +0900",
+        "act": "watch",
+        "lasting": "structural",
         "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
         "by": "rules"
       },
       {
@@ -412,13 +412,13 @@
         "by": "rules"
       },
       {
-        "title": "\"증시 반등 변수는 美장기금리·외국인 수급\"",
-        "link": "https://www.hankyung.com/article/2026102787911",
+        "title": "박현주 \"AI혁명 이제 10%…반도체 고점론은 착각\"",
+        "link": "https://www.hankyung.com/article/2026102787901",
         "source": "한국경제",
-        "date": "Tue, 27 Oct 2026 18:13:34 +0900",
+        "date": "Tue, 27 Oct 2026 18:15:20 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -2955,7 +2955,7 @@
       "2026-10-24": 1325.4,
       "2026-10-25": 1323.43,
       "2026-10-26": 1325.02,
-      "2026-10-27": 1327.18
+      "2026-10-27": 1327.27
     },
     "^GSPC": {
       "2026-10-16": 7659.44,
@@ -2997,7 +2997,7 @@
       "2026-10-24": 19.45,
       "2026-10-25": 19.45,
       "2026-10-26": 18.39,
-      "2026-10-27": 17.73
+      "2026-10-27": 17.88
     },
     "^TNX": {
       "2026-10-16": 5.098,
@@ -3011,7 +3011,7 @@
       "2026-10-24": 4.988,
       "2026-10-25": 4.988,
       "2026-10-26": 4.986,
-      "2026-10-27": 4.988
+      "2026-10-27": 4.999
     },
     "105560.KS": {
       "2026-10-16": 160000,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgSmVJng8eEaqG5hkUf7Y\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgSmVKDTmj3kkRXwZWWP2\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgSmVKZ3y2eoo3xW24sUh\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgSp3LrZGjxCou2Qd3S96\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgSp3MARZFzjv2dY6LQR2\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgSp3MNZrLHWJZEky8hps\"}"
   ]
 }
