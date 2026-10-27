@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-27T22:17:20.458Z",
+  "asOf": "2026-10-27T23:17:39.665Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-27T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1326.75,
+      "price": 1326.28,
       "prev": 1321.760009765625,
-      "chg": 0.38,
+      "chg": 0.34,
       "prevDay": "2026-10-26",
       "basis": "prev-close-bar",
-      "time": "2026-10-27T22:15:32.000Z"
+      "time": "2026-10-27T23:17:33.000Z"
     },
     "^GSPC": {
       "price": 7722.6,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.021
+    "pct": 0.019
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -7.98
     },
     "KRW=X": {
-      "last": 1326.75,
+      "last": 1326.28,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.021,
-      "chg3m": -6.61
+      "pct52": 0.019,
+      "chg3m": -6.64
     },
     "^GSPC": {
       "last": 7722.6,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgTWtnoo2"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgTbVaLPd"
   },
   "stocks": {
     "kr": {
@@ -368,10 +368,10 @@
   "news": {
     "kr": [
       {
-        "title": "반도체 실적 호조에도…기업 경기 전망 2개월 연속 '부정적'",
-        "link": "https://www.yna.co.kr/view/AKR20261027167600003",
+        "title": "DB증권, F&F 목표가↓…\"일부 브랜드 역성장에 실적 부진 예상\"",
+        "link": "https://www.yna.co.kr/view/AKR20261028023400008",
         "source": "연합뉴스",
-        "date": "Wed, 28 Oct 2026 06:00:08 +0900",
+        "date": "Wed, 28 Oct 2026 08:09:28 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
@@ -379,21 +379,10 @@
         "by": "rules"
       },
       {
-        "title": "삼성전자, HBM 매출 하이닉스 첫 추월 가능성…\"주가 재평가\" [분석+]",
-        "link": "https://www.hankyung.com/article/2026102790476",
+        "title": "앤트로픽 훈풍에 기술주 강세 지속…나스닥 1.18%↑ [뉴욕증시 브리핑]",
+        "link": "https://www.hankyung.com/article/2026102892456",
         "source": "한국경제",
-        "date": "Tue, 27 Oct 2026 22:15:01 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "앤트로픽發 AI 랠리 이틀째 지속...나스닥 1.2% 상승, 보잉 11% 급락 [월가월부]",
-        "link": "https://www.mk.co.kr/news/stock/12187991",
-        "source": "매일경제",
-        "date": "Wed, 28 Oct 2026 07:15:36 +09:00",
+        "date": "Wed, 28 Oct 2026 07:08:50 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -401,10 +390,21 @@
         "by": "rules"
       },
       {
-        "title": "금융위, 초고금리 불법사금융 '징역 10년·벌금 5억'으로 강화",
-        "link": "https://www.yna.co.kr/view/AKR20261027178700002",
+        "title": "“신한지주, 3분기 실적 아쉽지만 연간 최대 실적 기정사실”…목표가는↓",
+        "link": "https://www.mk.co.kr/news/stock/12188010",
+        "source": "매일경제",
+        "date": "Wed, 28 Oct 2026 08:16:55 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "[마켓뷰] 하이닉스 주주환원책 기대…코스피 상승 이어갈까",
+        "link": "https://www.yna.co.kr/view/AKR20261028022600008",
         "source": "연합뉴스",
-        "date": "Tue, 27 Oct 2026 19:13:10 +0900",
+        "date": "Wed, 28 Oct 2026 08:07:30 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -412,10 +412,10 @@
         "by": "rules"
       },
       {
-        "title": "200만 구독자 '짠한형 신동엽' 제작사, 75억원에 흡수합병",
-        "link": "https://www.hankyung.com/article/2026102790247",
+        "title": "'외국인 931억 순매수'...입찰 제재 한숨 돌린 LIG D&A, 3% 반등",
+        "link": "https://www.hankyung.com/article/202610277973i",
         "source": "한국경제",
-        "date": "Tue, 27 Oct 2026 21:40:53 +0900",
+        "date": "Wed, 28 Oct 2026 07:00:06 +0900",
         "act": "watch",
         "lasting": "structural",
         "scope": null,
@@ -423,10 +423,10 @@
         "by": "rules"
       },
       {
-        "title": "삼전닉스 PER이 겨우 3배? … 코스피 적정가는 8700, 지지선은 4200",
-        "link": "https://www.mk.co.kr/news/stock/12187371",
+        "title": "“HD현대일렉트릭, 매출 신기록이지만 환율에 발목”…목표가↓",
+        "link": "https://www.mk.co.kr/news/stock/12188000",
         "source": "매일경제",
-        "date": "Wed, 28 Oct 2026 04:30:00 +09:00",
+        "date": "Wed, 28 Oct 2026 07:54:08 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -448,11 +448,11 @@
         "by": "rules"
       },
       {
-        "title": "CoreWeave and other AI stocks rise as Anthropic restores the market’s faith in sustained spending",
-        "link": "https://www.marketwatch.com/story/coreweave-and-other-ai-stocks-rise-as-anthropic-restores-the-markets-faith-in-sustained-spending-c71d7186?mod=mw_rss_topstories",
+        "title": "Retail traders buy the dip on chip stocks — but Robinhood gets burned by the crypto market",
+        "link": "https://www.marketwatch.com/story/retail-traders-buy-the-dip-on-chip-stocks-but-robinhood-gets-burned-by-the-crypto-market-33cea913?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Tue, 27 Oct 2026 21:41:00 GMT",
-        "ko": "Anthropic이 지속적인 지출에 대한 시장의 믿음을 회복함에 따라 CoreWeave 및 기타 AI 주식이 상승합니다.",
+        "date": "Tue, 27 Oct 2026 22:51:00 GMT",
+        "ko": "소매 거래자들은 딥온 칩 주식을 구매하지만 로빈후드는 암호화폐 시장에 의해 불타게 됩니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -472,11 +472,11 @@
         "by": "rules"
       },
       {
-        "title": "The rest of the market is leaving Big Tech behind after a historic comeback",
-        "link": "https://www.marketwatch.com/story/the-rest-of-the-market-is-leaving-big-tech-behind-after-a-historic-comeback-324e9fb2?mod=mw_rss_topstories",
+        "title": "CoreWeave and other AI stocks rise as Anthropic restores the market’s faith in sustained spending",
+        "link": "https://www.marketwatch.com/story/coreweave-and-other-ai-stocks-rise-as-anthropic-restores-the-markets-faith-in-sustained-spending-c71d7186?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Tue, 27 Oct 2026 21:28:00 GMT",
-        "ko": "시장의 나머지 부분은 역사적인 컴백 후 빅 테크를 남겨두고 있습니다",
+        "date": "Tue, 27 Oct 2026 21:41:00 GMT",
+        "ko": "Anthropic이 지속적인 지출에 대한 시장의 믿음을 회복함에 따라 CoreWeave 및 기타 AI 주식이 상승합니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -496,11 +496,11 @@
         "by": "rules"
       },
       {
-        "title": "Retail traders buy the dip on chip stocks — but Robinhood gets burned by the crypto market",
-        "link": "https://www.marketwatch.com/story/retail-traders-buy-the-dip-on-chip-stocks-but-robinhood-gets-burned-by-the-crypto-market-33cea913?mod=mw_rss_topstories",
+        "title": "The rest of the market is leaving Big Tech behind after a historic comeback",
+        "link": "https://www.marketwatch.com/story/the-rest-of-the-market-is-leaving-big-tech-behind-after-a-historic-comeback-324e9fb2?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Tue, 27 Oct 2026 21:20:00 GMT",
-        "ko": "소매 거래자들은 딥온 칩 주식을 구매하지만 로빈후드는 암호화폐 시장에 의해 불타게 됩니다.",
+        "date": "Tue, 27 Oct 2026 21:28:00 GMT",
+        "ko": "시장의 나머지 부분은 역사적인 컴백 후 빅 테크를 남겨두고 있습니다",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -2955,7 +2955,7 @@
       "2026-10-24": 1325.4,
       "2026-10-25": 1323.43,
       "2026-10-26": 1325.02,
-      "2026-10-27": 1326.75
+      "2026-10-27": 1326.28
     },
     "^GSPC": {
       "2026-10-16": 7659.44,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgTWtnoo2rDWEANqJDNbL\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgTWto4BacnyFJywiJGXc\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgTWtoMHbacszHMXnMCws\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgTbVaLPddJiy7kPLWgEh\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgTbVajhjoXNL4ripAgda\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgTbVb1poeFUNCe4YhDLX\"}"
   ]
 }
