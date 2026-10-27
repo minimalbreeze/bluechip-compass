@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-27T00:02:05.162Z",
+  "asOf": "2026-10-27T00:12:25.285Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-26T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1325.68,
+      "price": 1324.28,
       "prev": 1321.760009765625,
-      "chg": 0.3,
+      "chg": 0.19,
       "prevDay": "2026-10-26",
       "basis": "prev-close-bar",
-      "time": "2026-10-27T00:01:55.000Z"
+      "time": "2026-10-27T00:12:18.000Z"
     },
     "^GSPC": {
       "price": 7676.77,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.017
+    "pct": 0.011
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": 0.08
     },
     "KRW=X": {
-      "last": 1325.68,
+      "last": 1324.28,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.017,
-      "chg3m": -6.68
+      "pct52": 0.011,
+      "chg3m": -6.78
     },
     "^GSPC": {
       "last": 7676.77,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgRm5918F"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgRmrrVUe"
   },
   "stocks": {
     "kr": {
@@ -379,10 +379,10 @@
         "by": "rules"
       },
       {
-        "title": "금리 오르는데 고꾸라진 은행주…언제쯤 반등할까 [종목+]",
-        "link": "https://www.hankyung.com/article/2026102766946",
+        "title": "\"삼양식품, 환율 우려 선반영…가격 경쟁력 변함없어\"-한화",
+        "link": "https://www.hankyung.com/article/2026102768196",
         "source": "한국경제",
-        "date": "Tue, 27 Oct 2026 08:41:17 +0900",
+        "date": "Tue, 27 Oct 2026 08:49:27 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -390,10 +390,10 @@
         "by": "rules"
       },
       {
-        "title": "“이익 안정적이지만 주가 재평가 더딜 듯”…기업은행 목표가↓",
-        "link": "https://www.mk.co.kr/news/stock/12186587",
+        "title": "“반도체株 회복 불씨, 앤트로픽이 붙였다 [오늘 나온 보고서]",
+        "link": "https://www.mk.co.kr/news/stock/12186591",
         "source": "매일경제",
-        "date": "Tue, 27 Oct 2026 08:53:31 +09:00",
+        "date": "Tue, 27 Oct 2026 09:06:52 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -412,24 +412,24 @@
         "by": "rules"
       },
       {
-        "title": "\"앤트로픽, IPO 증권신고서 제출…예상 웃돈 수익성 확인\"-메리츠",
-        "link": "https://www.hankyung.com/article/2026102766116",
+        "title": "\"금리 올랐는데 왜\"…한 달 새 14% 폭락에 개미들 '당혹' [종목+]",
+        "link": "https://www.hankyung.com/article/2026102766946",
         "source": "한국경제",
-        "date": "Tue, 27 Oct 2026 08:30:08 +0900",
+        "date": "Tue, 27 Oct 2026 08:41:17 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "“BNK금융, 이익신뢰도 저하됐지만 주가 급락 과도”…목표가↓",
-        "link": "https://www.mk.co.kr/news/stock/12186568",
+        "title": "[속보] 코스피 3%대 상승 출발…코스닥도 2%대 상승",
+        "link": "https://www.mk.co.kr/news/stock/12186590",
         "source": "매일경제",
-        "date": "Tue, 27 Oct 2026 08:26:15 +09:00",
+        "date": "Tue, 27 Oct 2026 09:05:25 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -2955,7 +2955,7 @@
       "2026-10-24": 1325.4,
       "2026-10-25": 1323.43,
       "2026-10-26": 1325.02,
-      "2026-10-27": 1325.68
+      "2026-10-27": 1324.28
     },
     "^GSPC": {
       "2026-10-15": 7744.06,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgRm5918FbjDW4gFVvYsW\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgRm59Z7b5HRmBs71Taf1\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgRm59yRPAYsPRsFgJbLP\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgRmrrVUe2pWoYge9jDkH\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgRmrs1VAQJzLfY2tKswg\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgRmrsHcQMFWAghy3ik7E\"}"
   ]
 }
