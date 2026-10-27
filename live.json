@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-27T09:46:57.930Z",
+  "asOf": "2026-10-27T10:47:21.648Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -24,7 +24,7 @@
       "chg": 0.41,
       "prevDay": "2026-10-26",
       "basis": "prev-close-bar",
-      "time": "2026-10-27T09:46:40.000Z"
+      "time": "2026-10-27T10:47:13.000Z"
     },
     "^GSPC": {
       "price": 7676.77,
@@ -43,12 +43,12 @@
       "time": "2026-10-26T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 18.23,
+      "price": 18.33,
       "prev": 18.389999389648438,
-      "chg": -0.87,
+      "chg": -0.33,
       "prevDay": "2026-10-26",
       "basis": "prev-close-bar",
-      "time": "2026-10-27T09:31:46.000Z"
+      "time": "2026-10-27T10:32:01.000Z"
     },
     "^TNX": {
       "price": 4.986,
@@ -101,11 +101,11 @@
       "chg3m": 7.06
     },
     "^VIX": {
-      "last": 18.23,
+      "last": 18.33,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.271,
-      "chg3m": 14.01
+      "pct52": 0.276,
+      "chg3m": 14.63
     },
     "^TNX": {
       "last": 4.99,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgSXfzBuK"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgScH6g2c"
   },
   "stocks": {
     "kr": {
@@ -368,6 +368,39 @@
   "news": {
     "kr": [
       {
+        "title": "금융위, 초고금리 불법사금융 '징역 10년·벌금 5억'으로 강화",
+        "link": "https://www.yna.co.kr/view/AKR20261027178700002",
+        "source": "연합뉴스",
+        "date": "Tue, 27 Oct 2026 19:13:10 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "박현주 \"AI혁명 이제 10%…반도체 고점론은 착각\"",
+        "link": "https://www.hankyung.com/article/2026102787901",
+        "source": "한국경제",
+        "date": "Tue, 27 Oct 2026 18:15:20 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "JYP 지분 인수 추진 발표에 주가 ‘들썩’…금감원 “불공정거래 예의주시”",
+        "link": "https://www.mk.co.kr/news/stock/12187530",
+        "source": "매일경제",
+        "date": "Tue, 27 Oct 2026 19:29:16 +09:00",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": null,
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
+        "by": "rules"
+      },
+      {
         "title": "미래에셋, 日증권사 품는다…박현주 회장 \"29일 발표\"(종합2보)",
         "link": "https://www.yna.co.kr/view/AKR20261027154952008",
         "source": "연합뉴스",
@@ -379,13 +412,13 @@
         "by": "rules"
       },
       {
-        "title": "신한투자증권, 3분기 순이익 653억원…전년비 35% 감소",
-        "link": "https://www.hankyung.com/article/2026102785856",
+        "title": "\"증시 반등 변수는 美장기금리·외국인 수급\"",
+        "link": "https://www.hankyung.com/article/2026102787911",
         "source": "한국경제",
-        "date": "Tue, 27 Oct 2026 17:26:13 +0900",
+        "date": "Tue, 27 Oct 2026 18:13:34 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -394,39 +427,6 @@
         "link": "https://www.mk.co.kr/news/stock/12187463",
         "source": "매일경제",
         "date": "Tue, 27 Oct 2026 18:26:12 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "박현주 미래에셋회장, 일본 증권회사 M&A 예고…29일 발표(종합)",
-        "link": "https://www.yna.co.kr/view/AKR20261027154951008",
-        "source": "연합뉴스",
-        "date": "Tue, 27 Oct 2026 17:50:24 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "박현주 \"삼전닉스 없으면 엔비디아도 스톱\"…'반도체 고점론' 직격",
-        "link": "https://www.hankyung.com/article/202610278372i",
-        "source": "한국경제",
-        "date": "Tue, 27 Oct 2026 17:20:12 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "그린플러스, 100억원 규모 유상증자 실시",
-        "link": "https://www.mk.co.kr/news/stock/12187448",
-        "source": "매일경제",
-        "date": "Tue, 27 Oct 2026 17:58:14 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -448,14 +448,14 @@
         "by": "rules"
       },
       {
-        "title": "Designer Betsey Johnson takes $7 million SoCal home off the market",
-        "link": "https://www.marketwatch.com/story/designer-betsey-johnson-takes-7-million-socal-home-off-the-market-1f027f0e?mod=mw_rss_topstories",
+        "title": "Customers are chasing higher-rate products, and that’s bad news for banks like HSBC",
+        "link": "https://www.marketwatch.com/story/customers-are-chasing-higher-rate-products-and-thats-bad-news-for-banks-like-hsbc-3a6ec793?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Tue, 27 Oct 2026 09:02:00 GMT",
-        "ko": "디자이너 벳시 존슨 (Betsey Johnson) 은 시장에서 $7 million SoCal을 집으로 가져갑니다.",
+        "date": "Tue, 27 Oct 2026 10:02:00 GMT",
+        "ko": "고객들은 높은 금리의 상품을 추구하고 있으며, 이는 HSBC와 같은 은행에 좋지 않은 소식입니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -472,14 +472,14 @@
         "by": "rules"
       },
       {
-        "title": "Dividend stocks are having an excellent October as tech sector struggles",
-        "link": "https://www.marketwatch.com/story/dividend-stocks-are-having-an-excellent-october-as-tech-sector-struggles-5ae40b02?mod=mw_rss_topstories",
+        "title": "Designer Betsey Johnson takes $7 million SoCal home off the market",
+        "link": "https://www.marketwatch.com/story/designer-betsey-johnson-takes-7-million-socal-home-off-the-market-1f027f0e?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 26 Oct 2026 22:10:00 GMT",
-        "ko": "기술 부문이 어려움을 겪고 있는 가운데 배당주는 훌륭한 10월을 보내고 있습니다.",
+        "date": "Tue, 27 Oct 2026 09:02:00 GMT",
+        "ko": "디자이너 벳시 존슨 (Betsey Johnson) 은 시장에서 $7 million SoCal을 집으로 가져갑니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -496,14 +496,14 @@
         "by": "rules"
       },
       {
-        "title": "Options traders are seizing control of the S&P 500",
-        "link": "https://www.marketwatch.com/story/options-traders-are-seizing-control-of-the-s-p-500-1add94ca?mod=mw_rss_topstories",
+        "title": "Dividend stocks are having an excellent October as tech sector struggles",
+        "link": "https://www.marketwatch.com/story/dividend-stocks-are-having-an-excellent-october-as-tech-sector-struggles-5ae40b02?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 26 Oct 2026 22:03:00 GMT",
-        "ko": "거래자들이 S&P 500의 지배권을 장악하고 있는 옵션",
+        "date": "Mon, 26 Oct 2026 22:10:00 GMT",
+        "ko": "기술 부문이 어려움을 겪고 있는 가운데 배당주는 훌륭한 10월을 보내고 있습니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -511,7 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "My wife never went back to work after raising our kids. Do I have to share my retirement savings 50/50?": "제 아내는 아이들을 키운 후 다시는 일하러 가지 않았습니다. 은퇴 저축액을 50/50으로 나눠야 하나요?",
     "Oracle has reportedly signed a $7 billion deal with Tencent. It could provide relief for the troubled stock.": "오라클은 텐센트와 70억 달러 ($) 규모의 계약을 체결한 것으로 알려졌다. 문제가 있는 재고에 대한 안도감을 제공할 수 있습니다.",
     "The stock market is a hollow tree that could be about to snap, warns bond king Gundlach": "주식 시장은 곧 스냅 될 수있는 빈 나무입니다, 채권 왕 Gundlach 경고",
     "Why Amazon got a call-up to the Goldman Sachs conviction list of top stocks": "아마존이 골드만삭스의 최고 주식 유죄 판결 목록에 이름을 올린 이유",
@@ -810,7 +809,8 @@
     "Why Lumentum’s stock led the S&P 500 higher on Monday": "Lumentum의 주가가 월요일에 S&P 500을 상승시킨 이유",
     "Dividend stocks are having an excellent October as tech sector struggles": "기술 부문이 어려움을 겪고 있는 가운데 배당주는 훌륭한 10월을 보내고 있습니다.",
     "Options traders are seizing control of the S&P 500": "거래자들이 S&P 500의 지배권을 장악하고 있는 옵션",
-    "Designer Betsey Johnson takes $7 million SoCal home off the market": "디자이너 벳시 존슨 (Betsey Johnson) 은 시장에서 $7 million SoCal을 집으로 가져갑니다."
+    "Designer Betsey Johnson takes $7 million SoCal home off the market": "디자이너 벳시 존슨 (Betsey Johnson) 은 시장에서 $7 million SoCal을 집으로 가져갑니다.",
+    "Customers are chasing higher-rate products, and that’s bad news for banks like HSBC": "고객들은 높은 금리의 상품을 추구하고 있으며, 이는 HSBC와 같은 은행에 좋지 않은 소식입니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2997,7 +2997,7 @@
       "2026-10-24": 19.45,
       "2026-10-25": 19.45,
       "2026-10-26": 18.39,
-      "2026-10-27": 18.23
+      "2026-10-27": 18.33
     },
     "^TNX": {
       "2026-10-16": 5.098,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgSXfzBuKShp84fg9Gpfn\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgSXfzUWi3wQRXAofX8YV\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgSXfzheycMBfNpqoTwrj\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgScH6g2cEAJMKKtKKKhn\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgScH774cGxPUTsSeiF3U\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgScH7Ueb5tXvvRc74RbQ\"}"
   ]
 }
