@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-27T13:21:36.797Z",
+  "asOf": "2026-10-27T13:31:59.566Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,28 +19,28 @@
       "time": "2026-10-27T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1327.27,
+      "price": 1327.58,
       "prev": 1321.760009765625,
-      "chg": 0.42,
+      "chg": 0.44,
       "prevDay": "2026-10-26",
       "basis": "prev-close-bar",
-      "time": "2026-10-27T13:21:21.000Z"
+      "time": "2026-10-27T13:31:50.000Z"
     },
     "^GSPC": {
-      "price": 7676.77,
+      "price": 7702.31,
       "prev": 7676.77001953125,
-      "chg": 0,
+      "chg": 0.33,
       "prevDay": "2026-10-26",
       "basis": "prev-close-bar",
-      "time": "2026-10-26T20:43:43.000Z"
+      "time": "2026-10-27T13:31:53.000Z"
     },
     "^IXIC": {
-      "price": 26169.38,
+      "price": 26291.795,
       "prev": 26169.380859375,
-      "chg": 0,
+      "chg": 0.47,
       "prevDay": "2026-10-26",
       "basis": "prev-close-bar",
-      "time": "2026-10-26T21:15:59.000Z"
+      "time": "2026-10-27T13:31:48.000Z"
     },
     "^VIX": {
       "price": 17.88,
@@ -48,21 +48,21 @@
       "chg": -2.77,
       "prevDay": "2026-10-26",
       "basis": "prev-close-bar",
-      "time": "2026-10-27T13:06:16.000Z"
+      "time": "2026-10-27T13:16:46.000Z"
     },
     "^TNX": {
-      "price": 4.999,
+      "price": 4.99,
       "prev": 4.986000061035156,
-      "chg": 0.26,
+      "chg": 0.08,
       "prevDay": "2026-10-26",
       "basis": "prev-close-bar",
-      "time": "2026-10-27T13:06:24.000Z"
+      "time": "2026-10-27T13:16:44.000Z"
     }
   },
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.024
+    "pct": 0.025
   },
   "hist": {
     "^KS11": {
@@ -80,25 +80,25 @@
       "chg3m": -0.59
     },
     "KRW=X": {
-      "last": 1327.27,
+      "last": 1327.58,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.024,
-      "chg3m": -6.57
+      "pct52": 0.025,
+      "chg3m": -6.55
     },
     "^GSPC": {
-      "last": 7676.77,
+      "last": 7702.31,
       "low52": 6343.72,
       "high52": 7818.93,
-      "pct52": 0.904,
-      "chg3m": 4.93
+      "pct52": 0.921,
+      "chg3m": 3.56
     },
     "^IXIC": {
-      "last": 26169.38,
+      "last": 26291.79,
       "low52": 20794.64,
       "high52": 27599.79,
-      "pct52": 0.79,
-      "chg3m": 7.06
+      "pct52": 0.808,
+      "chg3m": 4.66
     },
     "^VIX": {
       "last": 17.88,
@@ -108,11 +108,11 @@
       "chg3m": 11.82
     },
     "^TNX": {
-      "last": 5,
+      "last": 4.99,
       "low52": 3.96,
       "high52": 5.31,
-      "pct52": 0.769,
-      "chg3m": 7.21
+      "pct52": 0.762,
+      "chg3m": 7.01
     }
   },
   "regime": {
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgSp3LrZG"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgSpqEsvY"
   },
   "stocks": {
     "kr": {
@@ -260,108 +260,108 @@
     },
     "us": {
       "MSFT": {
-        "price": 532.6,
+        "price": 532.67,
         "prev": 532.5999755859375,
-        "chg": 0,
+        "chg": 0.01,
         "prevDay": "2026-10-26",
         "basis": "prev-close-bar",
-        "time": "2026-10-26T20:00:01.000Z"
+        "time": "2026-10-27T13:31:57.000Z"
       },
       "AAPL": {
-        "price": 343.91,
+        "price": 344.402,
         "prev": 343.9100036621094,
-        "chg": 0,
+        "chg": 0.14,
         "prevDay": "2026-10-26",
         "basis": "prev-close-bar",
-        "time": "2026-10-26T20:00:01.000Z"
+        "time": "2026-10-27T13:31:57.000Z"
       },
       "GOOGL": {
-        "price": 316.8,
+        "price": 317.6,
         "prev": 316.79998779296875,
-        "chg": 0,
+        "chg": 0.25,
         "prevDay": "2026-10-26",
         "basis": "prev-close-bar",
-        "time": "2026-10-26T20:00:01.000Z"
+        "time": "2026-10-27T13:31:57.000Z"
       },
       "BRK.B": {
-        "price": 548.56,
+        "price": 547.636,
         "prev": 548.5599975585938,
-        "chg": 0,
+        "chg": -0.17,
         "prevDay": "2026-10-26",
         "basis": "prev-close-bar",
-        "time": "2026-10-26T20:00:53.000Z"
+        "time": "2026-10-27T13:31:57.000Z"
       },
       "V": {
-        "price": 404.16,
+        "price": 403.16,
         "prev": 404.1600036621094,
-        "chg": 0,
+        "chg": -0.25,
         "prevDay": "2026-10-26",
         "basis": "prev-close-bar",
-        "time": "2026-10-26T20:00:02.000Z"
+        "time": "2026-10-27T13:31:56.000Z"
       },
       "JNJ": {
-        "price": 266.3,
+        "price": 265.385,
         "prev": 266.29998779296875,
-        "chg": 0,
+        "chg": -0.34,
         "prevDay": "2026-10-26",
         "basis": "prev-close-bar",
-        "time": "2026-10-26T20:00:02.000Z"
+        "time": "2026-10-27T13:31:56.000Z"
       },
       "PG": {
-        "price": 159.92,
+        "price": 159.23,
         "prev": 159.9199981689453,
-        "chg": 0,
+        "chg": -0.43,
         "prevDay": "2026-10-26",
         "basis": "prev-close-bar",
-        "time": "2026-10-26T20:02:24.000Z"
+        "time": "2026-10-27T13:31:56.000Z"
       },
       "KO": {
-        "price": 92.7,
+        "price": 91.986,
         "prev": 92.69999694824219,
-        "chg": 0,
+        "chg": -0.77,
         "prevDay": "2026-10-26",
         "basis": "prev-close-bar",
-        "time": "2026-10-26T20:00:02.000Z"
+        "time": "2026-10-27T13:31:57.000Z"
       },
       "COST": {
-        "price": 1005.16,
+        "price": 1001.81,
         "prev": 1005.1599731445312,
-        "chg": 0,
+        "chg": -0.33,
         "prevDay": "2026-10-26",
         "basis": "prev-close-bar",
-        "time": "2026-10-26T20:00:01.000Z"
+        "time": "2026-10-27T13:31:50.000Z"
       },
       "WM": {
-        "price": 241.02,
+        "price": 239.16,
         "prev": 241.02000427246094,
-        "chg": 0,
+        "chg": -0.77,
         "prevDay": "2026-10-26",
         "basis": "prev-close-bar",
-        "time": "2026-10-26T20:00:03.000Z"
+        "time": "2026-10-27T13:31:54.000Z"
       },
       "LIN": {
-        "price": 507.56,
+        "price": 505.945,
         "prev": 507.55999755859375,
-        "chg": 0,
+        "chg": -0.32,
         "prevDay": "2026-10-26",
         "basis": "prev-close-bar",
-        "time": "2026-10-26T20:00:01.000Z"
+        "time": "2026-10-27T13:31:54.000Z"
       },
       "XOM": {
-        "price": 184.54,
+        "price": 184.775,
         "prev": 184.5399932861328,
-        "chg": 0,
+        "chg": 0.13,
         "prevDay": "2026-10-26",
         "basis": "prev-close-bar",
-        "time": "2026-10-26T20:03:31.000Z"
+        "time": "2026-10-27T13:31:58.000Z"
       },
       "NVDA": {
-        "price": 216,
+        "price": 217.82,
         "prev": 216,
-        "chg": 0,
+        "chg": 0.84,
         "prevDay": "2026-10-26",
         "basis": "prev-close-bar",
-        "time": "2026-10-26T20:00:00.000Z"
+        "time": "2026-10-27T13:31:57.000Z"
       }
     }
   },
@@ -448,14 +448,14 @@
         "by": "rules"
       },
       {
-        "title": "Why SoFi’s stock is soaring after earnings",
-        "link": "https://www.marketwatch.com/story/sofis-stock-climbs-as-lending-surge-drives-an-earnings-beat-and-rosy-outlook-0c978535?mod=mw_rss_topstories",
+        "title": "A bigger-than-expected win for Democrats in the midterms could deliver ‘short-lived weakness’ for stocks, strategists say",
+        "link": "https://www.marketwatch.com/story/this-surprise-election-result-could-deliver-short-lived-weakness-for-stocks-strategists-say-2278a22e?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Tue, 27 Oct 2026 12:21:00 GMT",
-        "ko": "수입 이후 SoFi의 주식이 급등하는 이유",
+        "date": "Tue, 27 Oct 2026 13:30:00 GMT",
+        "ko": "전략가들은 중간선거에서 민주당이 예상보다 큰 승리를 거두면 주식에 ‘단기 약세’ 를 가져올 수 있다고 말한다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -472,11 +472,11 @@
         "by": "rules"
       },
       {
-        "title": "Here’s the question three tech-sector earnings reports raise about the future of AI",
-        "link": "https://www.marketwatch.com/story/heres-the-question-three-tech-sector-earnings-reports-raise-about-the-future-of-ai-5676248b?mod=mw_rss_topstories",
+        "title": "Why SoFi’s stock is soaring after earnings",
+        "link": "https://www.marketwatch.com/story/sofis-stock-climbs-as-lending-surge-drives-an-earnings-beat-and-rosy-outlook-0c978535?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Tue, 27 Oct 2026 11:51:00 GMT",
-        "ko": "다음은 인공지능의 미래에 대한 세 가지 기술 부문 수익 보고서의 질문입니다.",
+        "date": "Tue, 27 Oct 2026 12:21:00 GMT",
+        "ko": "수입 이후 SoFi의 주식이 급등하는 이유",
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
@@ -496,14 +496,14 @@
         "by": "rules"
       },
       {
-        "title": "Why reported Khamenei call for end to ‘neither war nor peace’ moved markets — a bit",
-        "link": "https://www.marketwatch.com/story/why-reported-khamenei-call-for-end-to-neither-war-nor-peace-moved-markets-a-bit-dd94b602?mod=mw_rss_topstories",
+        "title": "Here’s the question three tech-sector earnings reports raise about the future of AI",
+        "link": "https://www.marketwatch.com/story/heres-the-question-three-tech-sector-earnings-reports-raise-about-the-future-of-ai-5676248b?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Tue, 27 Oct 2026 11:45:00 GMT",
-        "ko": "Khamenei가 ‘전쟁도 평화도 아닌‘ 움직이는 시장을 종식시킬 것을 촉구한다고 보도한 이유 — 약간",
+        "date": "Tue, 27 Oct 2026 11:51:00 GMT",
+        "ko": "다음은 인공지능의 미래에 대한 세 가지 기술 부문 수익 보고서의 질문입니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -511,7 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "U.S. manufacturers say inflation is bad and not getting any better": "미국 제조업체들은 인플레이션이 나쁘고 나아지지 않는다고 말합니다.",
     "30-year mortgage rate posts biggest jump in four years": "30년 모기지 이자율, 4년 만에 가장 큰 폭으로 상승",
     "30-year mortgage rate posts biggest jump in four years — to nearly 7.3%": "30년 모기지 이자율, 4년 만에 가장 큰 폭으로 상승 — 거의 7.3%",
     "This couple took out an adjustable-rate mortgage when rates were over 8%. Here’s how it worked out.": "이 부부는 금리가 8% 이상일 때 조정 금리 모기지를 꺼냈습니다. 해결 방법은 다음과 같습니다.",
@@ -810,7 +809,8 @@
     "AI debt trouble could help Fed’s Warsh get his way with fewer rate hikes": "AI 부채 문제로 인해 Fed의 Warsh가 금리 인상을 줄이면서 자신의 길을 얻는 데 도움이 될 수 있습니다.",
     "Big Tech’s earnings are on deck. There’s more for investors to watch than AI spending.": "빅 테크의 수입은 덱에 있습니다. AI 지출보다 투자자가 지켜봐야 할 것이 더 많습니다.",
     "Why SoFi’s stock is soaring after earnings": "수입 이후 SoFi의 주식이 급등하는 이유",
-    "Here’s the question three tech-sector earnings reports raise about the future of AI": "다음은 인공지능의 미래에 대한 세 가지 기술 부문 수익 보고서의 질문입니다."
+    "Here’s the question three tech-sector earnings reports raise about the future of AI": "다음은 인공지능의 미래에 대한 세 가지 기술 부문 수익 보고서의 질문입니다.",
+    "A bigger-than-expected win for Democrats in the midterms could deliver ‘short-lived weakness’ for stocks, strategists say": "전략가들은 중간선거에서 민주당이 예상보다 큰 승리를 거두면 주식에 ‘단기 약세’ 를 가져올 수 있다고 말한다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2955,7 +2955,7 @@
       "2026-10-24": 1325.4,
       "2026-10-25": 1323.43,
       "2026-10-26": 1325.02,
-      "2026-10-27": 1327.27
+      "2026-10-27": 1327.58
     },
     "^GSPC": {
       "2026-10-16": 7659.44,
@@ -2969,7 +2969,7 @@
       "2026-10-24": 7623.68,
       "2026-10-25": 7623.68,
       "2026-10-26": 7676.77,
-      "2026-10-27": 7676.77
+      "2026-10-27": 7702.31
     },
     "^IXIC": {
       "2026-10-16": 26140.033,
@@ -2983,7 +2983,7 @@
       "2026-10-24": 25955.342,
       "2026-10-25": 25955.342,
       "2026-10-26": 26169.38,
-      "2026-10-27": 26169.38
+      "2026-10-27": 26291.795
     },
     "^VIX": {
       "2026-10-16": 19.99,
@@ -3011,7 +3011,7 @@
       "2026-10-24": 4.988,
       "2026-10-25": 4.988,
       "2026-10-26": 4.986,
-      "2026-10-27": 4.999
+      "2026-10-27": 4.99
     },
     "105560.KS": {
       "2026-10-16": 160000,
@@ -3207,7 +3207,7 @@
       "2026-10-24": 524.51,
       "2026-10-25": 524.51,
       "2026-10-26": 532.6,
-      "2026-10-27": 532.6
+      "2026-10-27": 532.67
     },
     "AAPL": {
       "2026-10-16": 343.46,
@@ -3221,7 +3221,7 @@
       "2026-10-24": 347.725,
       "2026-10-25": 347.725,
       "2026-10-26": 343.91,
-      "2026-10-27": 343.91
+      "2026-10-27": 344.402
     },
     "GOOGL": {
       "2026-10-16": 340.59,
@@ -3235,7 +3235,7 @@
       "2026-10-24": 320.21,
       "2026-10-25": 320.21,
       "2026-10-26": 316.8,
-      "2026-10-27": 316.8
+      "2026-10-27": 317.6
     },
     "BRK.B": {
       "2026-08-29": 505,
@@ -3256,7 +3256,7 @@
       "2026-10-24": 407.92,
       "2026-10-25": 407.92,
       "2026-10-26": 404.16,
-      "2026-10-27": 404.16
+      "2026-10-27": 403.16
     },
     "JNJ": {
       "2026-10-16": 255.56,
@@ -3270,7 +3270,7 @@
       "2026-10-24": 263.81,
       "2026-10-25": 263.81,
       "2026-10-26": 266.3,
-      "2026-10-27": 266.3
+      "2026-10-27": 265.385
     },
     "PG": {
       "2026-10-16": 159.35,
@@ -3284,7 +3284,7 @@
       "2026-10-24": 161.02,
       "2026-10-25": 161.02,
       "2026-10-26": 159.92,
-      "2026-10-27": 159.92
+      "2026-10-27": 159.23
     },
     "KO": {
       "2026-10-16": 93.9,
@@ -3298,7 +3298,7 @@
       "2026-10-24": 92.71,
       "2026-10-25": 92.71,
       "2026-10-26": 92.7,
-      "2026-10-27": 92.7
+      "2026-10-27": 91.986
     },
     "COST": {
       "2026-10-16": 989.11,
@@ -3312,7 +3312,7 @@
       "2026-10-24": 1003.32,
       "2026-10-25": 1003.32,
       "2026-10-26": 1005.16,
-      "2026-10-27": 1005.16
+      "2026-10-27": 1001.81
     },
     "WM": {
       "2026-10-16": 226.86,
@@ -3326,7 +3326,7 @@
       "2026-10-24": 239.38,
       "2026-10-25": 239.38,
       "2026-10-26": 241.02,
-      "2026-10-27": 241.02
+      "2026-10-27": 239.16
     },
     "LIN": {
       "2026-10-16": 498.43,
@@ -3340,7 +3340,7 @@
       "2026-10-24": 508.83,
       "2026-10-25": 508.83,
       "2026-10-26": 507.56,
-      "2026-10-27": 507.56
+      "2026-10-27": 505.945
     },
     "XOM": {
       "2026-10-16": 178.98,
@@ -3354,7 +3354,7 @@
       "2026-10-24": 183.21,
       "2026-10-25": 183.21,
       "2026-10-26": 184.54,
-      "2026-10-27": 184.54
+      "2026-10-27": 184.775
     },
     "NVDA": {
       "2026-10-16": 214.13,
@@ -3368,7 +3368,7 @@
       "2026-10-24": 210.96,
       "2026-10-25": 210.96,
       "2026-10-26": 216,
-      "2026-10-27": 216
+      "2026-10-27": 217.82
     },
     "BRK-B": {
       "2026-10-16": 532.02,
@@ -3382,13 +3382,13 @@
       "2026-10-24": 542.19,
       "2026-10-25": 542.19,
       "2026-10-26": 548.56,
-      "2026-10-27": 548.56
+      "2026-10-27": 547.636
     }
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgSp3LrZGjxCou2Qd3S96\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgSp3MARZFzjv2dY6LQR2\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgSp3MNZrLHWJZEky8hps\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgSpqEsvYR1WcPorMC1ti\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgSpqFNT8puTrW7bfpA5Q\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgSpqFoF8Xcsu1qB7anjs\"}"
   ]
 }
