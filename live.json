@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-28T21:10:40.259Z",
+  "asOf": "2026-10-28T22:11:04.432Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-28T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1342.22,
+      "price": 1342.95,
       "prev": 1324.77001953125,
-      "chg": 1.32,
+      "chg": 1.37,
       "prevDay": "2026-10-27",
       "basis": "prev-close-bar",
-      "time": "2026-10-28T21:10:25.000Z"
+      "time": "2026-10-28T22:10:45.000Z"
     },
     "^GSPC": {
       "price": 7743.98,
@@ -32,7 +32,7 @@
       "chg": 0.28,
       "prevDay": "2026-10-27",
       "basis": "prev-close-bar",
-      "time": "2026-10-28T20:20:01.000Z"
+      "time": "2026-10-28T21:18:42.000Z"
     },
     "^IXIC": {
       "price": 26549.852,
@@ -40,7 +40,7 @@
       "chg": 0.27,
       "prevDay": "2026-10-27",
       "basis": "prev-close-bar",
-      "time": "2026-10-28T21:10:32.000Z"
+      "time": "2026-10-28T21:15:59.000Z"
     },
     "^VIX": {
       "price": 16.91,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.088
+    "pct": 0.091
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -0.59
     },
     "KRW=X": {
-      "last": 1342.22,
+      "last": 1342.95,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.088,
-      "chg3m": -6.51
+      "pct52": 0.091,
+      "chg3m": -6.46
     },
     "^GSPC": {
       "last": 7743.98,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgUuqGnrd"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgVQDypJh"
   },
   "stocks": {
     "kr": {
@@ -379,13 +379,13 @@
         "by": "rules"
       },
       {
-        "title": "월가, '12월 금리 인상' 확률 85%…\"이번에 왜 안 올렸나\" 비판도[Fed 워치]",
-        "link": "https://www.hankyung.com/article/202610291927i",
+        "title": "\"다음은 반도체 후공정\"...반도체 랠리, 장비주로 온기 번질까",
+        "link": "https://www.hankyung.com/article/202610280783i",
         "source": "한국경제",
-        "date": "Thu, 29 Oct 2026 05:20:37 +0900",
+        "date": "Thu, 29 Oct 2026 06:30:10 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -412,10 +412,10 @@
         "by": "rules"
       },
       {
-        "title": "Fed, 연 8회 금리결정 회의 줄이기로 \"내년 7번, 2028년부턴 6번\" [Fed워치]",
-        "link": "https://www.hankyung.com/article/202610291915i",
+        "title": "\"너무 차이 난다\"…코스피 급등해도 LG이노텍 개미는 '울상' [종목+]",
+        "link": "https://www.hankyung.com/article/2026102808756",
         "source": "한국경제",
-        "date": "Thu, 29 Oct 2026 04:44:04 +0900",
+        "date": "Thu, 29 Oct 2026 06:30:07 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -436,6 +436,30 @@
     ],
     "us": [
       {
+        "title": "Here are five key takeaways from the Fed rate decision and Warsh news conference",
+        "link": "https://www.cnbc.com/2026/10/28/fed-rate-decision-warsh-takeaways.html",
+        "source": "CNBC",
+        "date": "Wed, 28 Oct 2026 21:31:46 GMT",
+        "ko": "다음은 연방준비제도 (Fed) 금리 결정 및 워시 기자회견의 5가지 주요 내용입니다.",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "Lumentum’s stock pops as investors cheer a possible sale to Marvell",
+        "link": "https://www.marketwatch.com/story/lumentums-stock-pops-as-investors-cheer-a-possible-sale-to-marvell-07c1d0e8?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "date": "Wed, 28 Oct 2026 22:08:00 GMT",
+        "ko": "투자자들이 Marvell에 대한 매각 가능성을 응원할 때 Lumentum의 주식이 튀어오릅니다.",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
         "title": "Bessent says 'not necessarily' a mistake if the Fed hikes again",
         "link": "https://www.cnbc.com/2026/10/28/scott-bessent-interview.html",
         "source": "CNBC",
@@ -448,14 +472,14 @@
         "by": "rules"
       },
       {
-        "title": "ServiceNow’s stock slides as earnings miss clouds a raised AI outlook",
-        "link": "https://www.marketwatch.com/story/servicenows-stock-slides-as-earnings-miss-clouds-a-raised-ai-outlook-96e48385?mod=mw_rss_topstories",
+        "title": "We’re in our 70s. Should we pay off our 2.5% mortgage — or put the money in a high-yield savings account?",
+        "link": "https://www.marketwatch.com/story/we-are-in-our-70s-should-we-pay-off-our-2-5-mortgage-or-build-up-our-savings-5a35e9c1?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Wed, 28 Oct 2026 21:07:00 GMT",
-        "ko": "ServiceNow의 주가는 수익이 구름을 그리워하면서 AI 전망이 높아짐에 따라 미끄러집니다.",
+        "date": "Wed, 28 Oct 2026 21:30:00 GMT",
+        "ko": "우리는 70대입니다. 주택담보대출 2.5% 를 갚아야 할까요, 아니면 고수익 저축 계좌에 돈을 넣어야 할까요?",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -472,38 +496,14 @@
         "by": "rules"
       },
       {
-        "title": "Vertiv earnings just sent an upbeat signal about AI ahead of Big Tech results",
-        "link": "https://www.marketwatch.com/story/vertiv-earnings-just-sent-an-upbeat-signal-about-ai-ahead-of-big-tech-results-5714a105?mod=mw_rss_topstories",
+        "title": "Why did the Fed hold off on raising interest rates? Warsh says it’s because an ‘information-rich’ period is coming.",
+        "link": "https://www.marketwatch.com/story/why-did-the-fed-hold-off-on-raising-interest-rates-warsh-says-its-because-an-information-rich-period-is-coming-098ced8d?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Wed, 28 Oct 2026 20:49:00 GMT",
-        "ko": "Vertiv 수입은 빅 테크 결과에 앞서 AI에 대한 긍정적인 신호를 보냈습니다.",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "UK inflation jumps to 3.5% — cementing rate hike expectations",
-        "link": "https://www.cnbc.com/2026/10/21/inflation-uk-cpi-interest-rates.html",
-        "source": "CNBC",
-        "date": "Wed, 21 Oct 2026 07:50:10 GMT",
-        "ko": "영국 인플레이션 3.5% 로 급등 — 시멘팅 금리 인상 기대",
+        "date": "Wed, 28 Oct 2026 21:27:00 GMT",
+        "ko": "연준이 금리 인상을 보류한 이유는 무엇인가? 워시는 ‘정보가 풍부한‘ 시기가 다가오고 있기 때문이라고 말합니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "Micron’s stock rises after SK Hynix earnings. Here’s its next major test.",
-        "link": "https://www.marketwatch.com/story/microns-stock-rises-after-sk-hynix-earnings-heres-its-next-major-test-99853d0e?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "date": "Wed, 28 Oct 2026 20:45:00 GMT",
-        "ko": "마이크론의 주식은 SK하이닉스 수익 후 상승합니다. 다음은 다음 주요 테스트입니다.",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -511,10 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "As Treasury yields touch generational highs, investors brace for the market fallout": "국채가 터치 제너레이션 하이를 산출함에 따라 투자자들은 시장의 낙진을 보완합니다.",
-    "The U.S. jobs market just took a turn for the worse. Or did it?": "미국 일자리 시장은 최악의 상황으로 치닫고 있다. 아니면 그랬을까요?",
-    "I made $500,000 from a stock sale in my IRA. Could this change my retirement?": "IRA에서 주식 판매로 $500,000를 벌었습니다. 이것이 내 은퇴를 바꿀 수 있습니까?",
-    "A tough job market is pushing more young Americans to make a big bet: on themselves": "어려운 취업 시장은 더 많은 젊은 미국인들이 큰 내기를하도록 밀어 붙이고 있습니다.",
     "Fed minutes coming this week could give markets important clues about future rate hikes": "이번 주에 예정된 연준 회의록을 통해 시장은 향후 금리 인상에 대한 중요한 단서를 얻을 수 있습니다.",
     "October can be a scary month for stocks. Here’s what investors need to watch this year.": "10월은 주식에 있어 무서운 달이 될 수 있습니다. 올해 투자자들이 주목해야 할 사항은 다음과 같습니다.",
     "The average U.S. stock is quietly getting crushed. Morgan Stanley says these ones are worth buying now.": "평균적인 미국 주식은 조용히 뭉개지고 있습니다. 모건 스탠리 (Morgan Stanley) 는 이것들이 지금 구입할 가치가 있다고 말합니다.",
@@ -810,7 +806,11 @@
     "Healthcare stocks are on their biggest hot streak in a generation. Think twice before chasing the rally.": "헬스케어 주식은 한 세대 만에 가장 뜨거운 인기를 누리고 있습니다. 집회를 쫓기 전에 두 번 생각하십시오.",
     "Bessent says 'not necessarily' a mistake if the Fed hikes again": "베센트는 연준이 다시 하이킹을 한다면 '반드시 그렇지는 않다' 고 말한다.",
     "Here’s what just sent Oracle’s stock soaring": "방금 오라클의 주식이 급등한 이유는 다음과 같습니다.",
-    "ServiceNow’s stock slides as earnings miss clouds a raised AI outlook": "ServiceNow의 주가는 수익이 구름을 그리워하면서 AI 전망이 높아짐에 따라 미끄러집니다."
+    "ServiceNow’s stock slides as earnings miss clouds a raised AI outlook": "ServiceNow의 주가는 수익이 구름을 그리워하면서 AI 전망이 높아짐에 따라 미끄러집니다.",
+    "Here are five key takeaways from the Fed rate decision and Warsh news conference": "다음은 연방준비제도 (Fed) 금리 결정 및 워시 기자회견의 5가지 주요 내용입니다.",
+    "Lumentum’s stock pops as investors cheer a possible sale to Marvell": "투자자들이 Marvell에 대한 매각 가능성을 응원할 때 Lumentum의 주식이 튀어오릅니다.",
+    "We’re in our 70s. Should we pay off our 2.5% mortgage — or put the money in a high-yield savings account?": "우리는 70대입니다. 주택담보대출 2.5% 를 갚아야 할까요, 아니면 고수익 저축 계좌에 돈을 넣어야 할까요?",
+    "Why did the Fed hold off on raising interest rates? Warsh says it’s because an ‘information-rich’ period is coming.": "연준이 금리 인상을 보류한 이유는 무엇인가? 워시는 ‘정보가 풍부한‘ 시기가 다가오고 있기 때문이라고 말합니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2955,7 +2955,7 @@
       "2026-10-25": 1323.43,
       "2026-10-26": 1325.02,
       "2026-10-27": 1326.28,
-      "2026-10-28": 1342.22
+      "2026-10-28": 1342.95
     },
     "^GSPC": {
       "2026-10-17": 7659.44,
@@ -3387,7 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgVKcqPbbiaX6Qm9978aD\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgVKcqpQ38iB56Gh6Gmti\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgVQDypJh9M9yVxTcS3ZX\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgVQDzKok7YoojrAHNr8N\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgVQDzhe53BstQBUgkFTs\"}"
   ]
 }
