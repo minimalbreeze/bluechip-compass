@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-28T08:49:17.182Z",
+  "asOf": "2026-10-28T09:49:42.746Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-28T06:33:00.000Z"
     },
     "KRW=X": {
-      "price": 1339.17,
+      "price": 1338.63,
       "prev": 1324.77001953125,
-      "chg": 1.09,
+      "chg": 1.05,
       "prevDay": "2026-10-27",
       "basis": "prev-close-bar",
-      "time": "2026-10-28T08:49:07.000Z"
+      "time": "2026-10-28T09:49:24.000Z"
     },
     "^GSPC": {
       "price": 7722.6,
@@ -43,12 +43,12 @@
       "time": "2026-10-27T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 17.58,
+      "price": 17.59,
       "prev": 17.520000457763672,
-      "chg": 0.34,
+      "chg": 0.4,
       "prevDay": "2026-10-27",
       "basis": "prev-close-bar",
-      "time": "2026-10-28T08:34:01.000Z"
+      "time": "2026-10-28T09:34:31.000Z"
     },
     "^TNX": {
       "price": 4.993,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.075
+    "pct": 0.072
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": 0.84
     },
     "KRW=X": {
-      "last": 1339.17,
+      "last": 1338.63,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.075,
-      "chg3m": -6.72
+      "pct52": 0.072,
+      "chg3m": -6.76
     },
     "^GSPC": {
       "last": 7722.6,
@@ -101,11 +101,11 @@
       "chg3m": 5.4
     },
     "^VIX": {
-      "last": 17.58,
+      "last": 17.59,
       "low52": 13.47,
       "high52": 31.05,
       "pct52": 0.234,
-      "chg3m": 10.84
+      "chg3m": 10.91
     },
     "^TNX": {
       "last": 4.99,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgUM5nemf"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgURh2knE"
   },
   "stocks": {
     "kr": {
@@ -368,6 +368,39 @@
   "news": {
     "kr": [
       {
+        "title": "증선위, 실적 부풀린 피델릭스에 감사인지정 3년 등 조치",
+        "link": "https://www.yna.co.kr/view/AKR20261028180900002",
+        "source": "연합뉴스",
+        "date": "Wed, 28 Oct 2026 18:44:11 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "외국인 1.1조 폭풍 매수에…코스피 뜀박질",
+        "link": "https://www.hankyung.com/article/2026102814461",
+        "source": "한국경제",
+        "date": "Wed, 28 Oct 2026 18:10:54 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "삼전닉스 PER이 겨우 3배? … 코스피 적정가는 8700, 지지선은 4200 [머니닥터 시장진단]",
+        "link": "https://www.mk.co.kr/news/stock/12188780",
+        "source": "매일경제",
+        "date": "Wed, 28 Oct 2026 18:29:17 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
         "title": "지엔코, 30억원 제3자배정 유상증자",
         "link": "https://www.yna.co.kr/view/AKR20261028169800008",
         "source": "연합뉴스",
@@ -379,10 +412,10 @@
         "by": "rules"
       },
       {
-        "title": "외국인 50일만에 최대규모 순매수…반도체주 불기둥",
-        "link": "https://www.hankyung.com/article/202610280907i",
+        "title": "미래에셋증권, 자체 토큰 기반 채권 발행",
+        "link": "https://www.hankyung.com/article/2026102814441",
         "source": "한국경제",
-        "date": "Wed, 28 Oct 2026 16:58:21 +0900",
+        "date": "Wed, 28 Oct 2026 18:03:12 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -390,47 +423,14 @@
         "by": "rules"
       },
       {
-        "title": "삼성전기·삼성물산 \"생큐, AI\" … 3분기 매출도 영업이익도 '쑥'",
-        "link": "https://www.mk.co.kr/news/stock/12188740",
+        "title": "지엔코, 30억원 규모 유상증자 실시",
+        "link": "https://www.mk.co.kr/news/stock/12188771",
         "source": "매일경제",
-        "date": "Wed, 28 Oct 2026 17:44:02 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "이형일, 블룸버그 아태대표 만나 선진국 채권지수 격상 요청",
-        "link": "https://www.yna.co.kr/view/AKR20261028129200002",
-        "source": "연합뉴스",
-        "date": "Wed, 28 Oct 2026 17:00:02 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "증권업계 '세컨더리펀드 성공'을 기원하며",
-        "link": "https://www.hankyung.com/article/202610265655i",
-        "source": "한국경제",
-        "date": "Wed, 28 Oct 2026 16:44:01 +0900",
+        "date": "Wed, 28 Oct 2026 18:02:23 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "[단독] 증권사·코인거래소·숙박대행까지…해킹에 속수무책 당했다",
-        "link": "https://www.mk.co.kr/news/stock/12188720",
-        "source": "매일경제",
-        "date": "Wed, 28 Oct 2026 17:41:06 +09:00",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": null,
-        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
         "by": "rules"
       }
     ],
@@ -441,6 +441,30 @@
         "source": "CNBC",
         "date": "Tue, 27 Oct 2026 15:51:00 GMT",
         "ko": "연준 금리 인상이 다가오고 있지만 이번 주에는 아니다: CNBC 설문조사",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "SK Hynix delivered on third-quarter results — but the outlook is what really mattered to Wall Street and the AI trade",
+        "link": "https://www.marketwatch.com/story/sk-hynix-delivered-on-third-quarter-results-but-the-outlook-is-what-really-mattered-to-wall-street-and-the-ai-trade-2fde9a57?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "date": "Wed, 28 Oct 2026 09:25:00 GMT",
+        "ko": "SK하이닉스는 3분기 실적을 달성했지만 전망은 월스트리트와 AI 거래에 정말로 중요한 것입니다.",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "UK inflation jumps to 3.5% — cementing rate hike expectations",
+        "link": "https://www.cnbc.com/2026/10/21/inflation-uk-cpi-interest-rates.html",
+        "source": "CNBC",
+        "date": "Wed, 21 Oct 2026 07:50:10 GMT",
+        "ko": "영국 인플레이션 3.5% 로 급등 — 시멘팅 금리 인상 기대",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -460,11 +484,11 @@
         "by": "rules"
       },
       {
-        "title": "UK inflation jumps to 3.5% — cementing rate hike expectations",
-        "link": "https://www.cnbc.com/2026/10/21/inflation-uk-cpi-interest-rates.html",
+        "title": "Housing is flashing warning signs just as the Fed weighs more interest rate hikes",
+        "link": "https://www.cnbc.com/2026/10/20/housing-mortgage-rates-real-estate-federal-reserve.html",
         "source": "CNBC",
-        "date": "Wed, 21 Oct 2026 07:50:10 GMT",
-        "ko": "영국 인플레이션 3.5% 로 급등 — 시멘팅 금리 인상 기대",
+        "date": "Wed, 21 Oct 2026 11:20:58 GMT",
+        "ko": "연준이 더 많은 금리 인상에 무게를 두는 것처럼 주택은 경고 신호가 깜박입니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -482,36 +506,11 @@
         "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
-      },
-      {
-        "title": "Housing is flashing warning signs just as the Fed weighs more interest rate hikes",
-        "link": "https://www.cnbc.com/2026/10/20/housing-mortgage-rates-real-estate-federal-reserve.html",
-        "source": "CNBC",
-        "date": "Wed, 21 Oct 2026 11:20:58 GMT",
-        "ko": "연준이 더 많은 금리 인상에 무게를 두는 것처럼 주택은 경고 신호가 깜박입니다.",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "The rest of the market is leaving Big Tech behind after a historic comeback",
-        "link": "https://www.marketwatch.com/story/the-rest-of-the-market-is-leaving-big-tech-behind-after-a-historic-comeback-324e9fb2?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "date": "Tue, 27 Oct 2026 21:28:00 GMT",
-        "ko": "시장의 나머지 부분은 역사적인 컴백 후 빅 테크를 남겨두고 있습니다",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
       }
     ]
   },
   "newsBy": "rules",
   "trCache": {
-    "Here’s the bond-market alternative as U.S. and other developed markets debt deteriorate": "다음은 미국 및 기타 선진국 시장의 부채가 악화됨에 따라 채권 시장의 대안입니다.",
     "Brazil is holding an election — and for the stock market, there’s more to gain than to lose, says fund manager": "브라질은 선거를 치르고 있으며 주식 시장의 경우 잃는 것보다 얻는 것이 더 많다고 펀드 매니저는 말합니다.",
     "Three reasons this Wall Street market-making powerhouse says investors should reload on stocks right now": "이 월스트리트 시장 조성 강국이 투자자들이 지금 당장 주식에 재장전해야 한다고 말하는 세 가지 이유",
     "Nike’s stock heads for its worst year ever as the company’s troubles mount": "나이키의 주식은 회사의 문제가 불거지면서 사상 최악의 해를 맞이합니다.",
@@ -810,7 +809,8 @@
     "What gold and platinum are telling us about the stock market’s direction": "주식 시장의 방향에 대해 우리에게 말해주는 금과 플래티넘은 무엇입니까?",
     "CoreWeave and other AI stocks rise as Anthropic restores the market’s faith in sustained spending": "Anthropic이 지속적인 지출에 대한 시장의 믿음을 회복함에 따라 CoreWeave 및 기타 AI 주식이 상승합니다.",
     "The rest of the market is leaving Big Tech behind after a historic comeback": "시장의 나머지 부분은 역사적인 컴백 후 빅 테크를 남겨두고 있습니다",
-    "Retail traders buy the dip on chip stocks — but Robinhood gets burned by the crypto market": "소매 거래자들은 딥온 칩 주식을 구매하지만 로빈후드는 암호화폐 시장에 의해 불타게 됩니다."
+    "Retail traders buy the dip on chip stocks — but Robinhood gets burned by the crypto market": "소매 거래자들은 딥온 칩 주식을 구매하지만 로빈후드는 암호화폐 시장에 의해 불타게 됩니다.",
+    "SK Hynix delivered on third-quarter results — but the outlook is what really mattered to Wall Street and the AI trade": "SK하이닉스는 3분기 실적을 달성했지만 전망은 월스트리트와 AI 거래에 정말로 중요한 것입니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2955,7 +2955,7 @@
       "2026-10-25": 1323.43,
       "2026-10-26": 1325.02,
       "2026-10-27": 1326.28,
-      "2026-10-28": 1339.17
+      "2026-10-28": 1338.63
     },
     "^GSPC": {
       "2026-10-17": 7659.44,
@@ -2997,7 +2997,7 @@
       "2026-10-25": 19.45,
       "2026-10-26": 18.39,
       "2026-10-27": 17.52,
-      "2026-10-28": 17.58
+      "2026-10-28": 17.59
     },
     "^TNX": {
       "2026-10-17": 5.098,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgUM5nemfRqgzv2bEw2ym\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgUM5oD1EWkGSsVrL5Thp\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgUM5oY6gsQbg2fopg2jo\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgURh2knEJrES5v5GWtxt\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgURh3GXz96se4g4p7vGk\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgURh4RUyYZBKezGhpH44\"}"
   ]
 }
