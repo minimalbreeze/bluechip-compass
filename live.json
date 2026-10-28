@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-28T00:02:02.008Z",
+  "asOf": "2026-10-28T00:12:21.144Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-27T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1326.48,
+      "price": 1326.78,
       "prev": 1324.77001953125,
-      "chg": 0.13,
+      "chg": 0.15,
       "prevDay": "2026-10-27",
       "basis": "prev-close-bar",
-      "time": "2026-10-28T00:01:55.000Z"
+      "time": "2026-10-28T00:12:16.000Z"
     },
     "^GSPC": {
       "price": 7722.6,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.02
+    "pct": 0.022
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -7.98
     },
     "KRW=X": {
-      "last": 1326.48,
+      "last": 1326.78,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.02,
-      "chg3m": -7.61
+      "pct52": 0.022,
+      "chg3m": -7.59
     },
     "^GSPC": {
       "last": 7722.6,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgTesq1u3"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgTffURwR"
   },
   "stocks": {
     "kr": {
@@ -368,10 +368,21 @@
   "news": {
     "kr": [
       {
-        "title": "[속보] 대신증권, 고객정보 3만8천여건 유출…긴급 대응조치 시행",
-        "link": "https://www.yna.co.kr/view/AKR20261028037400008",
+        "title": "코스피, 2%대 올라 5,700대 출발…코스닥도 상승세",
+        "link": "https://www.yna.co.kr/view/AKR20261028041800008",
         "source": "연합뉴스",
-        "date": "Wed, 28 Oct 2026 08:56:23 +0900",
+        "date": "Wed, 28 Oct 2026 09:05:59 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "\"화장품주, 단기 불확실성에 따른 주가 조정은 매수 기회\"-한투",
+        "link": "https://www.hankyung.com/article/2026102892886",
+        "source": "한국경제",
+        "date": "Wed, 28 Oct 2026 07:59:16 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -379,13 +390,35 @@
         "by": "rules"
       },
       {
-        "title": "[속보] SK하이닉스, 60조원 추가 주주환원…배당·자사주 매입",
-        "link": "https://www.hankyung.com/article/2026102894967",
-        "source": "한국경제",
-        "date": "Wed, 28 Oct 2026 08:36:02 +0900",
+        "title": "[속보] 대신증권, 고객정보 3만8천여건 유출…긴급 대응조치 시행",
+        "link": "https://www.mk.co.kr/news/stock/12188030",
+        "source": "매일경제",
+        "date": "Wed, 28 Oct 2026 08:59:06 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "SK하닉, 2만원 배당·20조 자사주 매입 등 60조 추가 주주환원",
+        "link": "https://www.yna.co.kr/view/AKR20261028036200003",
+        "source": "연합뉴스",
+        "date": "Wed, 28 Oct 2026 09:03:16 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "반도체 이틀째 급반등…\"연말 랠리 시작\" vs \"조정 아직 안 끝나\" [김현석의 월스트리트나우]",
+        "link": "https://www.hankyung.com/article/202610289291i",
+        "source": "한국경제",
+        "date": "Wed, 28 Oct 2026 07:58:18 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -397,39 +430,6 @@
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "신한증권, LG이노텍 목표가↓…\"아쉬운 수익성, 성장성 유효\"",
-        "link": "https://www.yna.co.kr/view/AKR20261028034900008",
-        "source": "연합뉴스",
-        "date": "Wed, 28 Oct 2026 08:52:08 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "셀트리온, 신제품 성장에 최대 실적…증권가 목표가 '줄상향'",
-        "link": "https://www.hankyung.com/article/2026102894776",
-        "source": "한국경제",
-        "date": "Wed, 28 Oct 2026 08:34:50 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "“HD현대일렉트릭, 매출 신기록이지만 환율에 발목”…목표가↓",
-        "link": "https://www.mk.co.kr/news/stock/12188000",
-        "source": "매일경제",
-        "date": "Wed, 28 Oct 2026 07:54:08 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -2955,7 +2955,7 @@
       "2026-10-25": 1323.43,
       "2026-10-26": 1325.02,
       "2026-10-27": 1326.28,
-      "2026-10-28": 1326.48
+      "2026-10-28": 1326.78
     },
     "^GSPC": {
       "2026-10-16": 7659.44,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgTesq1u3cY23bEnBkkrB\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgTesqNUoBjnsh4Gof2i7\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgTesqeMBttLstWDMrayz\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgTffURwRnMMw3urR6j2J\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgTffUe5d9mYNK2ZPZcz8\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgTffUnmRFnj9RVU4y4BX\"}"
   ]
 }
