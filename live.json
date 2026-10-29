@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-29T13:42:52.767Z",
+  "asOf": "2026-10-29T13:53:18.727Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,50 +19,50 @@
       "time": "2026-10-29T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1337.73,
+      "price": 1337.68,
       "prev": 1326.81005859375,
       "chg": 0.82,
       "prevDay": "2026-10-28",
       "basis": "prev-close-bar",
-      "time": "2026-10-29T13:42:46.000Z"
+      "time": "2026-10-29T13:52:57.000Z"
     },
     "^GSPC": {
-      "price": 7711.48,
+      "price": 7708.01,
       "prev": 7743.97998046875,
-      "chg": -0.42,
+      "chg": -0.46,
       "prevDay": "2026-10-28",
       "basis": "prev-close-bar",
-      "time": "2026-10-29T13:42:47.000Z"
+      "time": "2026-10-29T13:53:09.000Z"
     },
     "^IXIC": {
-      "price": 26170.072,
+      "price": 26148.135,
       "prev": 26549.849609375,
-      "chg": -1.43,
+      "chg": -1.51,
       "prevDay": "2026-10-28",
       "basis": "prev-close-bar",
-      "time": "2026-10-29T13:42:47.000Z"
+      "time": "2026-10-29T13:53:06.000Z"
     },
     "^VIX": {
-      "price": 16.99,
+      "price": 17.19,
       "prev": 16.90999984741211,
-      "chg": 0.47,
+      "chg": 1.66,
       "prevDay": "2026-10-28",
       "basis": "prev-close-bar",
-      "time": "2026-10-29T13:25:01.000Z"
+      "time": "2026-10-29T13:38:01.000Z"
     },
     "^TNX": {
-      "price": 4.997,
+      "price": 4.966,
       "prev": 5.045000076293945,
-      "chg": -0.95,
+      "chg": -1.57,
       "prevDay": "2026-10-28",
       "basis": "prev-close-bar",
-      "time": "2026-10-29T13:27:44.000Z"
+      "time": "2026-10-29T13:38:04.000Z"
     }
   },
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.069
+    "pct": 0.068
   },
   "hist": {
     "^KS11": {
@@ -80,39 +80,39 @@
       "chg3m": 6.71
     },
     "KRW=X": {
-      "last": 1337.73,
+      "last": 1337.68,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.069,
-      "chg3m": -6.35
+      "pct52": 0.068,
+      "chg3m": -6.36
     },
     "^GSPC": {
-      "last": 7711.48,
+      "last": 7707.99,
       "low52": 6343.72,
       "high52": 7818.93,
-      "pct52": 0.927,
-      "chg3m": 1.46
+      "pct52": 0.925,
+      "chg3m": 1.41
     },
     "^IXIC": {
-      "last": 26170.07,
+      "last": 26148.13,
       "low52": 20794.64,
       "high52": 27599.79,
-      "pct52": 0.79,
-      "chg3m": 0.99
+      "pct52": 0.787,
+      "chg3m": 0.9
     },
     "^VIX": {
-      "last": 16.99,
+      "last": 17.19,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.2,
-      "chg3m": 2.97
+      "pct52": 0.212,
+      "chg3m": 4.18
     },
     "^TNX": {
-      "last": 5,
+      "last": 4.97,
       "low52": 3.96,
       "high52": 5.31,
-      "pct52": 0.767,
-      "chg3m": 6.64
+      "pct52": 0.744,
+      "chg3m": 5.98
     }
   },
   "regime": {
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgWdHDviH"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgWe5MQxV"
   },
   "stocks": {
     "kr": {
@@ -260,108 +260,108 @@
     },
     "us": {
       "MSFT": {
-        "price": 535.95,
+        "price": 530.9,
         "prev": 531.010009765625,
-        "chg": 0.93,
+        "chg": -0.02,
         "prevDay": "2026-10-28",
         "basis": "prev-close-bar",
-        "time": "2026-10-29T13:42:51.000Z"
+        "time": "2026-10-29T13:53:16.000Z"
       },
       "AAPL": {
-        "price": 349.572,
+        "price": 350.15,
         "prev": 343.8299865722656,
-        "chg": 1.67,
+        "chg": 1.84,
         "prevDay": "2026-10-28",
         "basis": "prev-close-bar",
-        "time": "2026-10-29T13:42:51.000Z"
+        "time": "2026-10-29T13:53:16.000Z"
       },
       "GOOGL": {
-        "price": 282.81,
+        "price": 283.425,
         "prev": 324.8900146484375,
-        "chg": -12.95,
+        "chg": -12.76,
         "prevDay": "2026-10-28",
         "basis": "prev-close-bar",
-        "time": "2026-10-29T13:42:51.000Z"
+        "time": "2026-10-29T13:53:16.000Z"
       },
       "BRK.B": {
-        "price": 547.28,
+        "price": 547.1,
         "prev": 540.3400268554688,
-        "chg": 1.28,
+        "chg": 1.25,
         "prevDay": "2026-10-28",
         "basis": "prev-close-bar",
-        "time": "2026-10-29T13:42:40.000Z"
+        "time": "2026-10-29T13:52:58.000Z"
       },
       "V": {
-        "price": 409.16,
+        "price": 410.73,
         "prev": 400.6000061035156,
-        "chg": 2.14,
+        "chg": 2.53,
         "prevDay": "2026-10-28",
         "basis": "prev-close-bar",
-        "time": "2026-10-29T13:42:50.000Z"
+        "time": "2026-10-29T13:53:16.000Z"
       },
       "JNJ": {
-        "price": 276.53,
+        "price": 276.62,
         "prev": 271.0400085449219,
-        "chg": 2.03,
-        "prevDay": "2026-10-28",
-        "basis": "prev-close-bar",
-        "time": "2026-10-29T13:42:45.000Z"
-      },
-      "PG": {
-        "price": 159.42,
-        "prev": 158.25999450683594,
-        "chg": 0.73,
-        "prevDay": "2026-10-28",
-        "basis": "prev-close-bar",
-        "time": "2026-10-29T13:42:35.000Z"
-      },
-      "KO": {
-        "price": 92.44,
-        "prev": 91.7300033569336,
-        "chg": 0.77,
-        "prevDay": "2026-10-28",
-        "basis": "prev-close-bar",
-        "time": "2026-10-29T13:42:49.000Z"
-      },
-      "COST": {
-        "price": 988.96,
-        "prev": 982.72998046875,
-        "chg": 0.63,
-        "prevDay": "2026-10-28",
-        "basis": "prev-close-bar",
-        "time": "2026-10-29T13:42:43.000Z"
-      },
-      "WM": {
-        "price": 229.79,
-        "prev": 225.14999389648438,
         "chg": 2.06,
         "prevDay": "2026-10-28",
         "basis": "prev-close-bar",
-        "time": "2026-10-29T13:42:29.000Z"
+        "time": "2026-10-29T13:53:16.000Z"
+      },
+      "PG": {
+        "price": 158.94,
+        "prev": 158.25999450683594,
+        "chg": 0.43,
+        "prevDay": "2026-10-28",
+        "basis": "prev-close-bar",
+        "time": "2026-10-29T13:53:10.000Z"
+      },
+      "KO": {
+        "price": 92.45,
+        "prev": 91.7300033569336,
+        "chg": 0.78,
+        "prevDay": "2026-10-28",
+        "basis": "prev-close-bar",
+        "time": "2026-10-29T13:53:10.000Z"
+      },
+      "COST": {
+        "price": 989.073,
+        "prev": 982.72998046875,
+        "chg": 0.65,
+        "prevDay": "2026-10-28",
+        "basis": "prev-close-bar",
+        "time": "2026-10-29T13:53:16.000Z"
+      },
+      "WM": {
+        "price": 230.635,
+        "prev": 225.14999389648438,
+        "chg": 2.44,
+        "prevDay": "2026-10-28",
+        "basis": "prev-close-bar",
+        "time": "2026-10-29T13:52:45.000Z"
       },
       "LIN": {
-        "price": 508.37,
+        "price": 506.33,
         "prev": 508.1600036621094,
-        "chg": 0.04,
+        "chg": -0.36,
         "prevDay": "2026-10-28",
         "basis": "prev-close-bar",
-        "time": "2026-10-29T13:42:43.000Z"
+        "time": "2026-10-29T13:53:10.000Z"
       },
       "XOM": {
-        "price": 182.78,
+        "price": 183.345,
         "prev": 182.02000427246094,
-        "chg": 0.42,
+        "chg": 0.73,
         "prevDay": "2026-10-28",
         "basis": "prev-close-bar",
-        "time": "2026-10-29T13:42:45.000Z"
+        "time": "2026-10-29T13:53:16.000Z"
       },
       "NVDA": {
-        "price": 213.36,
+        "price": 213.015,
         "prev": 215.3800048828125,
-        "chg": -0.94,
+        "chg": -1.1,
         "prevDay": "2026-10-28",
         "basis": "prev-close-bar",
-        "time": "2026-10-29T13:42:51.000Z"
+        "time": "2026-10-29T13:53:17.000Z"
       }
     }
   },
@@ -448,14 +448,14 @@
         "by": "rules"
       },
       {
-        "title": "Consumer spending flattens out after inflation surge",
-        "link": "https://www.marketwatch.com/story/consumer-spending-flattens-out-after-inflation-surge-e7761d25?mod=mw_rss_topstories",
+        "title": "Lilly raised sales guidance for third time this year as Zepbound sales soar. Its stock is rallying.",
+        "link": "https://www.marketwatch.com/story/lilly-raises-outlook-for-third-time-this-year-as-zepbound-sales-soar-6d987407?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Thu, 29 Oct 2026 13:01:00 GMT",
-        "ko": "인플레이션 급증 후 소비자 지출이 평평해짐",
+        "date": "Thu, 29 Oct 2026 13:49:00 GMT",
+        "ko": "Lilly는 Zepbound 판매가 급증함에 따라 올해 세 번째로 판매 지침을 제기했습니다. 재고가 집결하고 있습니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -463,7 +463,7 @@
         "title": "Third-quarter U.S. GDP increases a better-than-expected 3.4% as September inflation accelerates",
         "link": "https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html",
         "source": "CNBC",
-        "date": "Thu, 29 Oct 2026 13:08:00 GMT",
+        "date": "Thu, 29 Oct 2026 13:50:36 GMT",
         "ko": "9월 인플레이션이 가속화됨에 따라 미국 3분기 GDP는 예상보다 더 나은 3.4% 증가",
         "act": "none",
         "lasting": "temporary",
@@ -472,23 +472,11 @@
         "by": "rules"
       },
       {
-        "title": "Our church has a $1.5 million bequest earning 3.75% in a bank account. Is inflation eroding it?",
-        "link": "https://www.marketwatch.com/story/there-may-be-better-investment-options-my-church-received-1-5-million-from-a-parishioner-is-3-75-interest-enough-5164d790?mod=mw_rss_topstories",
+        "title": "Why Alphabet’s stock could see its worst day ever after the latest results",
+        "link": "https://www.marketwatch.com/story/why-alphabets-stock-could-see-its-worst-drop-in-years-after-the-latest-results-6b64cf98?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Thu, 29 Oct 2026 13:00:00 GMT",
-        "ko": "우리 교회는 은행 계좌로 3.75% 의 수익을 올리는 150만 달러 ($) 의 유증을 가지고 있습니다. 인플레이션이 이를 침식하고 있습니까?",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "Analysis: Kevin Warsh is keeping his options open — and Wall Street guessing",
-        "link": "https://www.cnbc.com/2026/10/29/kevin-warsh-fed-october-rate-decision-december-hike.html",
-        "source": "CNBC",
-        "date": "Thu, 29 Oct 2026 12:38:18 GMT",
-        "ko": "분석: 케빈 워시 (Kevin Warsh) 는 옵션을 열어두고 월스트리트 추측",
+        "date": "Thu, 29 Oct 2026 13:47:00 GMT",
+        "ko": "알파벳의 주식이 최신 결과 이후 최악의 날을 볼 수 있었던 이유",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -496,14 +484,26 @@
         "by": "rules"
       },
       {
-        "title": "Inflation surges, PCE shows. Fed pause on rate hikes unlikely to last long with prices still rising.",
-        "link": "https://www.marketwatch.com/story/inflation-surges-pce-shows-fed-pause-on-rate-hikes-unlikely-to-last-long-with-prices-still-rising-79128886?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "date": "Thu, 29 Oct 2026 12:36:00 GMT",
-        "ko": "인플레이션이 급증하면 PCE가 표시됩니다. 금리 인상에 대한 연준의 일시 중지는 가격이 여전히 상승하면서 오래 지속될 것 같지 않습니다.",
+        "title": "Analysis: Kevin Warsh is keeping Wall Street guessing. It may be his most powerful tool.",
+        "link": "https://www.cnbc.com/2026/10/29/kevin-warsh-fed-october-rate-decision-december-hike.html",
+        "source": "CNBC",
+        "date": "Thu, 29 Oct 2026 13:51:17 GMT",
+        "ko": "분석: 케빈 워시 (Kevin Warsh) 는 월스트리트의 추측을 유지하고 있습니다. 그것은 그의 가장 강력한 도구일 수 있습니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "ServiceNow’s stock is on track for its worst day ever. Here’s what went wrong.",
+        "link": "https://www.marketwatch.com/story/servicenow-stock-is-on-track-for-its-largest-drop-on-record-but-jpmorgan-sees-a-bright-spot-5e5b05c6?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "date": "Thu, 29 Oct 2026 13:44:00 GMT",
+        "ko": "ServiceNow의 재고는 사상 최악의 날을 맞고 있습니다. 다음은 문제가 발생한 내용입니다.",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -511,9 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "Trade deficit hits $105.6 billion, widest since just before Trump tariffs enacted last year": "무역 적자는 지난해 트럼프 관세 부과 직전보다 가장 큰 1056억 달러 ($) 를 기록했다.",
-    "Fed minutes coming tomorrow could give markets important clues about future rate hikes": "내일 예정된 연방준비제도 (Fed) 회의록을 통해 시장은 향후 금리 인상에 대한 중요한 단서를 얻을 수 있습니다",
-    "Prediction markets are coming for pop culture": "대중 문화에 대한 예측 시장이 다가오고 있습니다",
     "These 5 chip stocks are cheaper than the S&P 500 — and offer faster growth": "이 5개의 칩 재고는 S&P 500보다 저렴하며 더 빠른 성장을 제공합니다.",
     "How Meta’s stock can surge to $1,000, according to the biggest bull on Wall Street": "월스트리트에서 가장 큰 황소에 따르면 메타의 주식이 $1,000까지 급등할 수 있는 방법",
     "Marvell just impressed Wall Street with ‘good numbers plus a better story’": "Marvell은 방금 ‘좋은 숫자와 더 나은 이야기‘ 로 월스트리트에 깊은 인상을 남겼습니다.",
@@ -810,7 +807,10 @@
     "Lilly raised sales guidance for third time this year as Zepbound sales soar. Its stock is rallying.": "Lilly는 Zepbound 판매가 급증함에 따라 올해 세 번째로 판매 지침을 제기했습니다. 재고가 집결하고 있습니다.",
     "European Central Bank keeps key interest rate on hold at 2.5%": "유럽중앙은행은 주요 금리를 2.5% 로 보류",
     "Consumer spending flattens out after inflation surge": "인플레이션 급증 후 소비자 지출이 평평해짐",
-    "Our church has a $1.5 million bequest earning 3.75% in a bank account. Is inflation eroding it?": "우리 교회는 은행 계좌로 3.75% 의 수익을 올리는 150만 달러 ($) 의 유증을 가지고 있습니다. 인플레이션이 이를 침식하고 있습니까?"
+    "Our church has a $1.5 million bequest earning 3.75% in a bank account. Is inflation eroding it?": "우리 교회는 은행 계좌로 3.75% 의 수익을 올리는 150만 달러 ($) 의 유증을 가지고 있습니다. 인플레이션이 이를 침식하고 있습니까?",
+    "Why Alphabet’s stock could see its worst day ever after the latest results": "알파벳의 주식이 최신 결과 이후 최악의 날을 볼 수 있었던 이유",
+    "Analysis: Kevin Warsh is keeping Wall Street guessing. It may be his most powerful tool.": "분석: 케빈 워시 (Kevin Warsh) 는 월스트리트의 추측을 유지하고 있습니다. 그것은 그의 가장 강력한 도구일 수 있습니다.",
+    "ServiceNow’s stock is on track for its worst day ever. Here’s what went wrong.": "ServiceNow의 재고는 사상 최악의 날을 맞고 있습니다. 다음은 문제가 발생한 내용입니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2955,7 +2955,7 @@
       "2026-10-26": 1325.02,
       "2026-10-27": 1326.28,
       "2026-10-28": 1342.2,
-      "2026-10-29": 1337.73
+      "2026-10-29": 1337.68
     },
     "^GSPC": {
       "2026-10-18": 7659.44,
@@ -2969,7 +2969,7 @@
       "2026-10-26": 7676.77,
       "2026-10-27": 7722.6,
       "2026-10-28": 7743.98,
-      "2026-10-29": 7711.48
+      "2026-10-29": 7708.01
     },
     "^IXIC": {
       "2026-10-18": 26140.033,
@@ -2983,7 +2983,7 @@
       "2026-10-26": 26169.38,
       "2026-10-27": 26477.81,
       "2026-10-28": 26549.852,
-      "2026-10-29": 26170.072
+      "2026-10-29": 26148.135
     },
     "^VIX": {
       "2026-10-18": 19.99,
@@ -2997,7 +2997,7 @@
       "2026-10-26": 18.39,
       "2026-10-27": 17.52,
       "2026-10-28": 16.91,
-      "2026-10-29": 16.99
+      "2026-10-29": 17.19
     },
     "^TNX": {
       "2026-10-18": 5.098,
@@ -3011,7 +3011,7 @@
       "2026-10-26": 4.986,
       "2026-10-27": 4.993,
       "2026-10-28": 5.045,
-      "2026-10-29": 4.997
+      "2026-10-29": 4.966
     },
     "105560.KS": {
       "2026-10-18": 160000,
@@ -3207,7 +3207,7 @@
       "2026-10-26": 532.6,
       "2026-10-27": 531.33,
       "2026-10-28": 531.01,
-      "2026-10-29": 535.95
+      "2026-10-29": 530.9
     },
     "AAPL": {
       "2026-10-18": 343.46,
@@ -3221,7 +3221,7 @@
       "2026-10-26": 343.91,
       "2026-10-27": 347.1,
       "2026-10-28": 343.83,
-      "2026-10-29": 349.572
+      "2026-10-29": 350.15
     },
     "GOOGL": {
       "2026-10-18": 340.59,
@@ -3235,7 +3235,7 @@
       "2026-10-26": 316.8,
       "2026-10-27": 320.58,
       "2026-10-28": 324.89,
-      "2026-10-29": 282.81
+      "2026-10-29": 283.425
     },
     "BRK.B": {
       "2026-08-29": 505,
@@ -3256,7 +3256,7 @@
       "2026-10-26": 404.16,
       "2026-10-27": 401.86,
       "2026-10-28": 400.6,
-      "2026-10-29": 409.16
+      "2026-10-29": 410.73
     },
     "JNJ": {
       "2026-10-18": 255.56,
@@ -3270,7 +3270,7 @@
       "2026-10-26": 266.3,
       "2026-10-27": 268.73,
       "2026-10-28": 271.04,
-      "2026-10-29": 276.53
+      "2026-10-29": 276.62
     },
     "PG": {
       "2026-10-18": 159.35,
@@ -3284,7 +3284,7 @@
       "2026-10-26": 159.92,
       "2026-10-27": 159.23,
       "2026-10-28": 158.26,
-      "2026-10-29": 159.42
+      "2026-10-29": 158.94
     },
     "KO": {
       "2026-10-18": 93.9,
@@ -3298,7 +3298,7 @@
       "2026-10-26": 92.7,
       "2026-10-27": 91.18,
       "2026-10-28": 91.73,
-      "2026-10-29": 92.44
+      "2026-10-29": 92.45
     },
     "COST": {
       "2026-10-18": 989.11,
@@ -3312,7 +3312,7 @@
       "2026-10-26": 1005.16,
       "2026-10-27": 992.13,
       "2026-10-28": 982.73,
-      "2026-10-29": 988.96
+      "2026-10-29": 989.073
     },
     "WM": {
       "2026-10-18": 226.86,
@@ -3326,7 +3326,7 @@
       "2026-10-26": 241.02,
       "2026-10-27": 235.81,
       "2026-10-28": 225.15,
-      "2026-10-29": 229.79
+      "2026-10-29": 230.635
     },
     "LIN": {
       "2026-10-18": 498.43,
@@ -3340,7 +3340,7 @@
       "2026-10-26": 507.56,
       "2026-10-27": 508.65,
       "2026-10-28": 508.16,
-      "2026-10-29": 508.37
+      "2026-10-29": 506.33
     },
     "XOM": {
       "2026-10-18": 178.98,
@@ -3354,7 +3354,7 @@
       "2026-10-26": 184.54,
       "2026-10-27": 179.91,
       "2026-10-28": 182.02,
-      "2026-10-29": 182.78
+      "2026-10-29": 183.345
     },
     "NVDA": {
       "2026-10-18": 214.13,
@@ -3368,7 +3368,7 @@
       "2026-10-26": 216,
       "2026-10-27": 217.94,
       "2026-10-28": 215.38,
-      "2026-10-29": 213.36
+      "2026-10-29": 213.015
     },
     "BRK-B": {
       "2026-10-18": 532.02,
@@ -3382,13 +3382,13 @@
       "2026-10-26": 548.56,
       "2026-10-27": 542.99,
       "2026-10-28": 540.34,
-      "2026-10-29": 547.28
+      "2026-10-29": 547.1
     }
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgWdHDviHUYUnf97BxiM6\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgWdHENWjDyZ5w6LpEnhh\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgWdHEp3jtZPbwTX1GKEY\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgWe5MQxVpCx5yeP6PwJD\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgWe5NnoXGshAuEVB7QnS\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgWe5P6fWLaYNQA6WHAz6\"}"
   ]
 }
