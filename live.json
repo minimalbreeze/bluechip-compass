@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-29T13:02:44.016Z",
+  "asOf": "2026-10-29T13:22:09.753Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-29T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1337.78,
+      "price": 1337.38,
       "prev": 1326.81005859375,
-      "chg": 0.83,
+      "chg": 0.8,
       "prevDay": "2026-10-28",
       "basis": "prev-close-bar",
-      "time": "2026-10-29T13:02:27.000Z"
+      "time": "2026-10-29T13:21:58.000Z"
     },
     "^GSPC": {
       "price": 7743.98,
@@ -43,26 +43,26 @@
       "time": "2026-10-28T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 17.08,
+      "price": 16.89,
       "prev": 16.90999984741211,
-      "chg": 1.01,
+      "chg": -0.12,
       "prevDay": "2026-10-28",
       "basis": "prev-close-bar",
-      "time": "2026-10-29T12:47:31.000Z"
+      "time": "2026-10-29T13:06:46.000Z"
     },
     "^TNX": {
-      "price": 5.007,
+      "price": 5.005,
       "prev": 5.045000076293945,
-      "chg": -0.75,
+      "chg": -0.79,
       "prevDay": "2026-10-28",
       "basis": "prev-close-bar",
-      "time": "2026-10-29T12:47:24.000Z"
+      "time": "2026-10-29T13:06:54.000Z"
     }
   },
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.069
+    "pct": 0.067
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": 6.71
     },
     "KRW=X": {
-      "last": 1337.78,
+      "last": 1337.38,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.069,
-      "chg3m": -6.35
+      "pct52": 0.067,
+      "chg3m": -6.38
     },
     "^GSPC": {
       "last": 7743.98,
@@ -101,18 +101,18 @@
       "chg3m": 4.63
     },
     "^VIX": {
-      "last": 17.08,
+      "last": 16.89,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.205,
-      "chg3m": 3.52
+      "pct52": 0.195,
+      "chg3m": 2.36
     },
     "^TNX": {
       "last": 5.01,
       "low52": 3.96,
       "high52": 5.31,
-      "pct52": 0.776,
-      "chg3m": 6.89
+      "pct52": 0.773,
+      "chg3m": 6.81
     }
   },
   "regime": {
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgWaDfmGv"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgWbhbWvt"
   },
   "stocks": {
     "kr": {
@@ -436,10 +436,34 @@
     ],
     "us": [
       {
+        "title": "European Central Bank keeps key interest rate on hold at 2.5%",
+        "link": "https://www.cnbc.com/2026/10/29/european-central-bank-interest-rates.html",
+        "source": "CNBC",
+        "date": "Thu, 29 Oct 2026 13:21:52 GMT",
+        "ko": "유럽중앙은행은 주요 금리를 2.5% 로 보류",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "Consumer spending flattens out after inflation surge",
+        "link": "https://www.marketwatch.com/story/consumer-spending-flattens-out-after-inflation-surge-e7761d25?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "date": "Thu, 29 Oct 2026 13:01:00 GMT",
+        "ko": "인플레이션 급증 후 소비자 지출이 평평해짐",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
         "title": "Third-quarter U.S. GDP increases a better-than-expected 3.4% as September inflation accelerates",
         "link": "https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html",
         "source": "CNBC",
-        "date": "Thu, 29 Oct 2026 12:55:04 GMT",
+        "date": "Thu, 29 Oct 2026 13:08:00 GMT",
         "ko": "9월 인플레이션이 가속화됨에 따라 미국 3분기 GDP는 예상보다 더 나은 3.4% 증가",
         "act": "none",
         "lasting": "temporary",
@@ -448,11 +472,11 @@
         "by": "rules"
       },
       {
-        "title": "Inflation surges, PCE shows. Fed pause on rate hikes unlikely to last long with prices still rising.",
-        "link": "https://www.marketwatch.com/story/inflation-surges-pce-shows-fed-pause-on-rate-hikes-unlikely-to-last-long-with-prices-still-rising-79128886?mod=mw_rss_topstories",
+        "title": "Our church has a $1.5 million bequest earning 3.75% in a bank account. Is inflation eroding it?",
+        "link": "https://www.marketwatch.com/story/there-may-be-better-investment-options-my-church-received-1-5-million-from-a-parishioner-is-3-75-interest-enough-5164d790?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Thu, 29 Oct 2026 12:36:00 GMT",
-        "ko": "인플레이션이 급증하면 PCE가 표시됩니다. 금리 인상에 대한 연준의 일시 중지는 가격이 여전히 상승하면서 오래 지속될 것 같지 않습니다.",
+        "date": "Thu, 29 Oct 2026 13:00:00 GMT",
+        "ko": "우리 교회는 은행 계좌로 3.75% 의 수익을 올리는 150만 달러 ($) 의 유증을 가지고 있습니다. 인플레이션이 이를 침식하고 있습니까?",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -472,38 +496,14 @@
         "by": "rules"
       },
       {
-        "title": "Caterpillar’s stock heads for worst day in 7 years — and what that means for the Dow",
-        "link": "https://www.marketwatch.com/story/caterpillars-stock-heads-for-worst-day-in-7-years-and-what-that-means-for-the-dow-d67f1fb7?mod=mw_rss_topstories",
+        "title": "Inflation surges, PCE shows. Fed pause on rate hikes unlikely to last long with prices still rising.",
+        "link": "https://www.marketwatch.com/story/inflation-surges-pce-shows-fed-pause-on-rate-hikes-unlikely-to-last-long-with-prices-still-rising-79128886?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Thu, 29 Oct 2026 12:25:00 GMT",
-        "ko": "Caterpillar의 주식은 7년 만에 최악의 날을 맞이합니다 — 그리고 그것이 다우 지수에게 의미하는 바는",
+        "date": "Thu, 29 Oct 2026 12:36:00 GMT",
+        "ko": "인플레이션이 급증하면 PCE가 표시됩니다. 금리 인상에 대한 연준의 일시 중지는 가격이 여전히 상승하면서 오래 지속될 것 같지 않습니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "Here are five key takeaways from the Fed rate decision and Warsh news conference",
-        "link": "https://www.cnbc.com/2026/10/28/fed-rate-decision-warsh-takeaways.html",
-        "source": "CNBC",
-        "date": "Wed, 28 Oct 2026 21:31:46 GMT",
-        "ko": "다음은 연방준비제도 (Fed) 금리 결정 및 워시 기자회견의 5가지 주요 내용입니다.",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "Lilly raised sales guidance for third time this year as Zepbound sales soar. Its stock is rallying.",
-        "link": "https://www.marketwatch.com/story/lilly-raises-outlook-for-third-time-this-year-as-zepbound-sales-soar-6d987407?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "date": "Thu, 29 Oct 2026 12:03:00 GMT",
-        "ko": "Lilly는 Zepbound 판매가 급증함에 따라 올해 세 번째로 판매 지침을 제기했습니다. 재고가 집결하고 있습니다.",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -511,9 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "Should I put my nest egg in a 30-year Treasury bond?": "내 둥지 알을 30년 국채에 넣어야 할까?",
-    "Wall Street is hyping AI. This fund manager is betting instead on fires, HVAC and Berkshire Hathaway.": "월스트리트는 인공지능을 흥분시키고 있습니다. 이 펀드 매니저는 화재, HVAC 및 버크셔 해서웨이에 베팅하고 있습니다.",
-    "America’s favorite index is misleading investors about the state of the stock market": "미국이 가장 선호하는 지수는 주식 시장의 상태에 대해 투자자를 현혹하는 것입니다.",
     "Trade deficit hits $105.6 billion, widest since just before Trump tariffs enacted last year": "무역 적자는 지난해 트럼프 관세 부과 직전보다 가장 큰 1056억 달러 ($) 를 기록했다.",
     "Fed minutes coming tomorrow could give markets important clues about future rate hikes": "내일 예정된 연방준비제도 (Fed) 회의록을 통해 시장은 향후 금리 인상에 대한 중요한 단서를 얻을 수 있습니다",
     "Prediction markets are coming for pop culture": "대중 문화에 대한 예측 시장이 다가오고 있습니다",
@@ -810,7 +807,10 @@
     "Inflation surges, PCE shows. Fed pause on rate hikes unlikely to last long with prices still rising.": "인플레이션이 급증하면 PCE가 표시됩니다. 금리 인상에 대한 연준의 일시 중지는 가격이 여전히 상승하면서 오래 지속될 것 같지 않습니다.",
     "Analysis: Kevin Warsh is keeping his options open — and Wall Street guessing": "분석: 케빈 워시 (Kevin Warsh) 는 옵션을 열어두고 월스트리트 추측",
     "Caterpillar’s stock heads for worst day in 7 years — and what that means for the Dow": "Caterpillar의 주식은 7년 만에 최악의 날을 맞이합니다 — 그리고 그것이 다우 지수에게 의미하는 바는",
-    "Lilly raised sales guidance for third time this year as Zepbound sales soar. Its stock is rallying.": "Lilly는 Zepbound 판매가 급증함에 따라 올해 세 번째로 판매 지침을 제기했습니다. 재고가 집결하고 있습니다."
+    "Lilly raised sales guidance for third time this year as Zepbound sales soar. Its stock is rallying.": "Lilly는 Zepbound 판매가 급증함에 따라 올해 세 번째로 판매 지침을 제기했습니다. 재고가 집결하고 있습니다.",
+    "European Central Bank keeps key interest rate on hold at 2.5%": "유럽중앙은행은 주요 금리를 2.5% 로 보류",
+    "Consumer spending flattens out after inflation surge": "인플레이션 급증 후 소비자 지출이 평평해짐",
+    "Our church has a $1.5 million bequest earning 3.75% in a bank account. Is inflation eroding it?": "우리 교회는 은행 계좌로 3.75% 의 수익을 올리는 150만 달러 ($) 의 유증을 가지고 있습니다. 인플레이션이 이를 침식하고 있습니까?"
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2955,7 +2955,7 @@
       "2026-10-26": 1325.02,
       "2026-10-27": 1326.28,
       "2026-10-28": 1342.2,
-      "2026-10-29": 1337.78
+      "2026-10-29": 1337.38
     },
     "^GSPC": {
       "2026-10-18": 7659.44,
@@ -2997,7 +2997,7 @@
       "2026-10-26": 18.39,
       "2026-10-27": 17.52,
       "2026-10-28": 16.91,
-      "2026-10-29": 17.08
+      "2026-10-29": 16.89
     },
     "^TNX": {
       "2026-10-18": 5.098,
@@ -3011,7 +3011,7 @@
       "2026-10-26": 4.986,
       "2026-10-27": 4.993,
       "2026-10-28": 5.045,
-      "2026-10-29": 5.007
+      "2026-10-29": 5.005
     },
     "105560.KS": {
       "2026-10-18": 160000,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgWaDfmGv1v4Wi6CcReCe\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgWaDgAqDzZQkdwtxH6ux\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgWaDgUgV4tnJ5XPrGrQC\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgWbhbWvtzgqXuwwiut3d\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgWbhc3g8giZ83s5KinKu\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgWbhcSFBZuWkve812nFD\"}"
   ]
 }
