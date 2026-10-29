@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-29T20:58:53.843Z",
+  "asOf": "2026-10-29T21:09:15.948Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-29T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1339.17,
+      "price": 1339.52,
       "prev": 1326.81005859375,
-      "chg": 0.93,
+      "chg": 0.96,
       "prevDay": "2026-10-28",
       "basis": "prev-close-bar",
-      "time": "2026-10-29T20:58:48.000Z"
+      "time": "2026-10-29T21:08:57.000Z"
     },
     "^GSPC": {
       "price": 7720.39,
@@ -40,7 +40,7 @@
       "chg": -1.38,
       "prevDay": "2026-10-28",
       "basis": "prev-close-bar",
-      "time": "2026-10-29T20:58:48.000Z"
+      "time": "2026-10-29T21:09:08.000Z"
     },
     "^VIX": {
       "price": 17.2,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.075
+    "pct": 0.077
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": 0.84
     },
     "KRW=X": {
-      "last": 1339.17,
+      "last": 1339.65,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.075,
-      "chg3m": -6.25
+      "pct52": 0.077,
+      "chg3m": -6.22
     },
     "^GSPC": {
       "last": 7720.39,
@@ -368,13 +368,13 @@
   "news": {
     "kr": [
       {
-        "title": "미 연준 이어 ECB도 금리 동결…\"인플레·경기둔화 위험 여전\"(종합)",
-        "link": "https://www.yna.co.kr/view/AKR20261029208552082",
+        "title": "외국인 한 달만에 다시 '셀코리아'…지난달 19.1조 순매도",
+        "link": "https://www.yna.co.kr/view/AKR20261029188200002",
         "source": "연합뉴스",
-        "date": "Fri, 30 Oct 2026 00:15:46 +0900",
+        "date": "Fri, 30 Oct 2026 06:00:06 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -390,21 +390,21 @@
         "by": "rules"
       },
       {
-        "title": "프랑스 대란에 AI 신용위험 덮쳐 … 미국 국채 매력 커지며 뭉칫돈 몰린다",
-        "link": "https://www.mk.co.kr/news/stock/12190028",
+        "title": "“국장은 웬만하면 하지 말라던데요”…10대 해외주식 비중, 60대의 5.5배",
+        "link": "https://www.mk.co.kr/news/stock/12191069",
         "source": "매일경제",
-        "date": "Fri, 30 Oct 2026 04:30:00 +09:00",
+        "date": "Fri, 30 Oct 2026 06:02:32 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "[2보] ECB 금리 동결…예금금리 연 2.50％",
-        "link": "https://www.yna.co.kr/view/AKR20261029208551082",
+        "title": "미 연준 이어 ECB도 금리 동결…\"인플레·경기둔화 위험 여전\"(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261029208552082",
         "source": "연합뉴스",
-        "date": "Thu, 29 Oct 2026 22:38:28 +0900",
+        "date": "Fri, 30 Oct 2026 00:15:46 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -423,13 +423,13 @@
         "by": "rules"
       },
       {
-        "title": "KB증권, 3분기 순이익 2730억…전년 동기比 70% 증가",
-        "link": "https://www.mk.co.kr/news/stock/12190841",
+        "title": "프랑스 대란에 AI 신용위험 덮쳐 … 미국 국채 매력 커지며 뭉칫돈 몰린다",
+        "link": "https://www.mk.co.kr/news/stock/12190028",
         "source": "매일경제",
-        "date": "Fri, 30 Oct 2026 01:03:22 +09:00",
+        "date": "Fri, 30 Oct 2026 04:30:00 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -2955,7 +2955,7 @@
       "2026-10-26": 1325.02,
       "2026-10-27": 1326.28,
       "2026-10-28": 1342.2,
-      "2026-10-29": 1339.17
+      "2026-10-29": 1339.52
     },
     "^GSPC": {
       "2026-10-18": 7659.44,
@@ -3387,7 +3387,7 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgXCXg5ZuSgQmqoDugwDh\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgXCXge3eebAzrsFrU8s7\"}"
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgXDKXsVTKFxLsFd24LPs\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgXDKYQEGa1ruELy6EpTG\"}"
   ]
 }
