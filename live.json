@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-29T10:01:26.608Z",
+  "asOf": "2026-10-29T11:01:48.242Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-29T06:33:00.000Z"
     },
     "KRW=X": {
-      "price": 1337.29,
+      "price": 1337.89,
       "prev": 1326.81005859375,
-      "chg": 0.79,
+      "chg": 0.84,
       "prevDay": "2026-10-28",
       "basis": "prev-close-bar",
-      "time": "2026-10-29T10:01:08.000Z"
+      "time": "2026-10-29T11:01:33.000Z"
     },
     "^GSPC": {
       "price": 7743.98,
@@ -43,12 +43,12 @@
       "time": "2026-10-28T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 17.06,
+      "price": 17.1,
       "prev": 16.90999984741211,
-      "chg": 0.89,
+      "chg": 1.12,
       "prevDay": "2026-10-28",
       "basis": "prev-close-bar",
-      "time": "2026-10-29T09:46:16.000Z"
+      "time": "2026-10-29T10:46:31.000Z"
     },
     "^TNX": {
       "price": 5.045,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.067
+    "pct": 0.069
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": 6.71
     },
     "KRW=X": {
-      "last": 1337.29,
+      "last": 1337.89,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.067,
-      "chg3m": -6.39
+      "pct52": 0.069,
+      "chg3m": -6.34
     },
     "^GSPC": {
       "last": 7743.98,
@@ -101,11 +101,11 @@
       "chg3m": 4.63
     },
     "^VIX": {
-      "last": 17.06,
+      "last": 17.1,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.204,
-      "chg3m": 3.39
+      "pct52": 0.206,
+      "chg3m": 3.64
     },
     "^TNX": {
       "last": 5.05,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgWLPr6HS"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgWQzp4Rq"
   },
   "stocks": {
     "kr": {
@@ -368,6 +368,39 @@
   "news": {
     "kr": [
       {
+        "title": "\"인수 제안받은 기업, 주주에 검토결과·거절이유 밝히도록 해야\"",
+        "link": "https://www.yna.co.kr/view/AKR20261029192400008",
+        "source": "연합뉴스",
+        "date": "Thu, 29 Oct 2026 19:08:25 +0900",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": null,
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
+        "by": "rules"
+      },
+      {
+        "title": "\"인수 제안 보냈다\"더니…JYP \"스팸으로 차단된 메일\"",
+        "link": "https://www.hankyung.com/article/2026102945807",
+        "source": "한국경제",
+        "date": "Thu, 29 Oct 2026 19:28:18 +0900",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": null,
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
+        "by": "rules"
+      },
+      {
+        "title": "다시 ‘바이 코리아’ 시동 건 외국인…“AI 성장성·주주환원에 컴백 달려” [매플 인터뷰]",
+        "link": "https://www.mk.co.kr/news/business/12190268",
+        "source": "매일경제",
+        "date": "Thu, 29 Oct 2026 18:38:28 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
         "title": "UBS, '8000→7500' 코스피 목표치 또 낮춰…\"원화강세 부담\"",
         "link": "https://www.yna.co.kr/view/AKR20261029196100008",
         "source": "연합뉴스",
@@ -383,39 +416,6 @@
         "link": "https://www.hankyung.com/article/2026102944261",
         "source": "한국경제",
         "date": "Thu, 29 Oct 2026 18:02:46 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "다시 ‘바이 코리아’ 시동 건 외국인…“AI 성장성·주주환원에 컴백 달려” [매플 인터뷰]",
-        "link": "https://www.mk.co.kr/news/business/12190268",
-        "source": "매일경제",
-        "date": "Thu, 29 Oct 2026 18:38:28 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "국민성장펀드, 국내 최대 태양광 발전소·반도체 밸류체인 투자",
-        "link": "https://www.yna.co.kr/view/AKR20261029196900002",
-        "source": "연합뉴스",
-        "date": "Thu, 29 Oct 2026 18:48:30 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "IRP 주식투자 '70% 족쇄' 푼다…IMA 편입도 가능",
-        "link": "https://www.hankyung.com/article/2026102943261",
-        "source": "한국경제",
-        "date": "Thu, 29 Oct 2026 18:00:17 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -2955,7 +2955,7 @@
       "2026-10-26": 1325.02,
       "2026-10-27": 1326.28,
       "2026-10-28": 1342.2,
-      "2026-10-29": 1337.29
+      "2026-10-29": 1337.89
     },
     "^GSPC": {
       "2026-10-18": 7659.44,
@@ -2997,7 +2997,7 @@
       "2026-10-26": 18.39,
       "2026-10-27": 17.52,
       "2026-10-28": 16.91,
-      "2026-10-29": 17.06
+      "2026-10-29": 17.1
     },
     "^TNX": {
       "2026-10-18": 5.098,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgWLPr6HSnPgyxu4eLbcr\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgWLPrTrKct83mptyeyk3\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgWLProh86XN4NJjSmRVL\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgWQzp4Rqy5UcNisQge6y\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgWQzpXTr6dKnkmHnygbj\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgWQzptHPD1EVy2P9h6bb\"}"
   ]
 }
