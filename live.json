@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-29T00:01:48.074Z",
+  "asOf": "2026-10-29T00:12:08.849Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-28T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1340.98,
+      "price": 1338.28,
       "prev": 1326.81005859375,
-      "chg": 1.07,
+      "chg": 0.86,
       "prevDay": "2026-10-28",
       "basis": "prev-close-bar",
-      "time": "2026-10-29T00:01:36.000Z"
+      "time": "2026-10-29T00:12:02.000Z"
     },
     "^GSPC": {
       "price": 7743.98,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.083
+    "pct": 0.071
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -0.59
     },
     "KRW=X": {
-      "last": 1340.98,
+      "last": 1338.28,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.083,
-      "chg3m": -6.13
+      "pct52": 0.071,
+      "chg3m": -6.32
     },
     "^GSPC": {
       "last": 7743.98,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgVYfiVUP"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgVZTUY7e"
   },
   "stocks": {
     "kr": {
@@ -368,10 +368,10 @@
   "news": {
     "kr": [
       {
-        "title": "증권가, 美 연준 금리 동결에 \"긴축 종료 아닌 숨 고르기\"",
-        "link": "https://www.yna.co.kr/view/AKR20261029037000008",
+        "title": "한은 \"美 금리 동결했으나 대외 리스크 요인 상존\"",
+        "link": "https://www.yna.co.kr/view/AKR20261029044400002",
         "source": "연합뉴스",
-        "date": "Thu, 29 Oct 2026 08:53:34 +0900",
+        "date": "Thu, 29 Oct 2026 09:08:01 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -401,13 +401,13 @@
         "by": "rules"
       },
       {
-        "title": "키움증권, 인텔리안테크 목표가↓…\"3분기 실적 일시적 부진 예상\"",
-        "link": "https://www.yna.co.kr/view/AKR20261029036700008",
+        "title": "코스피, 보합권서 등락…전날 6%대 급등후 숨고르기",
+        "link": "https://www.yna.co.kr/view/AKR20261029043800008",
         "source": "연합뉴스",
-        "date": "Thu, 29 Oct 2026 08:45:21 +0900",
+        "date": "Thu, 29 Oct 2026 09:06:23 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -448,6 +448,30 @@
         "by": "rules"
       },
       {
+        "title": "The major reason Microsoft’s stock is heading higher after earnings",
+        "link": "https://www.marketwatch.com/story/the-major-reason-microsofts-stock-is-heading-higher-after-earnings-c019a036?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "date": "Thu, 29 Oct 2026 00:10:00 GMT",
+        "ko": "마이크로소프트의 주가가 수익 이후 상승하고 있는 주요 이유",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "Bessent says 'not necessarily' a mistake if the Fed hikes again",
+        "link": "https://www.cnbc.com/2026/10/28/scott-bessent-interview.html",
+        "source": "CNBC",
+        "date": "Wed, 28 Oct 2026 21:06:37 GMT",
+        "ko": "베센트는 연준이 다시 하이킹을 한다면 '반드시 그렇지는 않다' 고 말한다.",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
         "title": "Why Alphabet’s stock could see its worst drop in years after the latest results",
         "link": "https://www.marketwatch.com/story/why-alphabets-stock-could-see-its-worst-drop-in-years-after-the-latest-results-6b64cf98?mod=mw_rss_topstories",
         "source": "MarketWatch",
@@ -460,11 +484,11 @@
         "by": "rules"
       },
       {
-        "title": "Bessent says 'not necessarily' a mistake if the Fed hikes again",
-        "link": "https://www.cnbc.com/2026/10/28/scott-bessent-interview.html",
+        "title": "Fed rate hikes are coming, but not this week: CNBC survey",
+        "link": "https://www.cnbc.com/2026/10/27/federal-reserve-rate-hike-timing-expectations.html",
         "source": "CNBC",
-        "date": "Wed, 28 Oct 2026 21:06:37 GMT",
-        "ko": "베센트는 연준이 다시 하이킹을 한다면 '반드시 그렇지는 않다' 고 말한다.",
+        "date": "Tue, 27 Oct 2026 15:51:00 GMT",
+        "ko": "연준 금리 인상이 다가오고 있지만 이번 주에는 아니다: CNBC 설문조사",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -482,36 +506,11 @@
         "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
-      },
-      {
-        "title": "Fed rate hikes are coming, but not this week: CNBC survey",
-        "link": "https://www.cnbc.com/2026/10/27/federal-reserve-rate-hike-timing-expectations.html",
-        "source": "CNBC",
-        "date": "Tue, 27 Oct 2026 15:51:00 GMT",
-        "ko": "연준 금리 인상이 다가오고 있지만 이번 주에는 아니다: CNBC 설문조사",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "ServiceNow’s stock slides as earnings miss overshadows a raised AI outlook",
-        "link": "https://www.marketwatch.com/story/servicenows-stock-slides-as-earnings-miss-clouds-a-raised-ai-outlook-96e48385?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "date": "Wed, 28 Oct 2026 23:02:00 GMT",
-        "ko": "수익 손실로 인한 ServiceNow의 주식 슬라이드가 AI 전망을 뒤덮습니다.",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
       }
     ]
   },
   "newsBy": "rules",
   "trCache": {
-    "What Bessent is now saying after bond yields didn’t stop rising on ‘I am the house’ remark": "채권 수익률이 ‘나는 집이다‘ 발언으로 상승을 멈추지 않은 후 베센트가 지금 말하고 있는 것은",
     "Bond selloff is opening up rare opportunities for investors. Here is where to look, says major bank.": "채권 매각은 투자자들에게 희귀한 기회를 열어주고 있습니다. 주요 은행은 다음과 같이 말합니다.",
     "Musk hints TSMC may join his mega chip venture, and Intel’s stock is taking a hit": "머스크는 TSMC가 그의 메가 칩 벤처에 합류할 수 있으며 인텔의 주식이 타격을 받고 있음을 암시합니다.",
     "An AI ‘reality check’ may take the S&P 500 to 5,000. Here are the trades to make, this strategist says.": "AI ‘현실 확인’ 은 S&P 500에서 5,000까지 걸릴 수 있습니다. 이 전략가는 다음과 같은 거래를 할 수 있다고 말합니다.",
@@ -810,7 +809,8 @@
     "Why did the Fed hold off on raising interest rates? Warsh says it’s because an ‘information-rich’ period is coming.": "연준이 금리 인상을 보류한 이유는 무엇인가? 워시는 ‘정보가 풍부한‘ 시기가 다가오고 있기 때문이라고 말합니다.",
     "ServiceNow’s stock slides as earnings miss overshadows a raised AI outlook": "수익 손실로 인한 ServiceNow의 주식 슬라이드가 AI 전망을 뒤덮습니다.",
     "Why Alphabet’s stock could see its worst drop in years after the latest results": "알파벳의 주가가 최근 결과 이후 몇 년 동안 최악의 하락을 볼 수 있었던 이유",
-    "Fortinet’s stock is taking a dive after earnings. Here’s why.": "Fortinet의 주식은 수입을 올린 후 다이빙을 하고 있습니다. 그 이유는 다음과 같습니다."
+    "Fortinet’s stock is taking a dive after earnings. Here’s why.": "Fortinet의 주식은 수입을 올린 후 다이빙을 하고 있습니다. 그 이유는 다음과 같습니다.",
+    "The major reason Microsoft’s stock is heading higher after earnings": "마이크로소프트의 주가가 수익 이후 상승하고 있는 주요 이유"
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2955,7 +2955,7 @@
       "2026-10-26": 1325.02,
       "2026-10-27": 1326.28,
       "2026-10-28": 1342.2,
-      "2026-10-29": 1340.98
+      "2026-10-29": 1338.28
     },
     "^GSPC": {
       "2026-10-17": 7659.44,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgVYfiVUPrgtyow5ALi8R\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgVYfisJ2p88JMBjAZLy6\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgVYfj9f9WPPVFsKxZRvs\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgVZTUY7e3345daDFPQgk\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgVZTUz9PVCc68hVXTvtp\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgVZTVFXTfGDQPTgy1dar\"}"
   ]
 }
