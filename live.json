@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-29T20:38:11.831Z",
+  "asOf": "2026-10-29T20:48:35.235Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-29T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1339.23,
+      "price": 1339.53,
       "prev": 1326.81005859375,
-      "chg": 0.94,
+      "chg": 0.96,
       "prevDay": "2026-10-28",
       "basis": "prev-close-bar",
-      "time": "2026-10-29T20:37:58.000Z"
+      "time": "2026-10-29T20:48:18.000Z"
     },
     "^GSPC": {
       "price": 7720.39,
@@ -40,7 +40,7 @@
       "chg": -1.38,
       "prevDay": "2026-10-28",
       "basis": "prev-close-bar",
-      "time": "2026-10-29T20:38:03.000Z"
+      "time": "2026-10-29T20:48:24.000Z"
     },
     "^VIX": {
       "price": 17.2,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.075
+    "pct": 0.076
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": 0.84
     },
     "KRW=X": {
-      "last": 1339.23,
+      "last": 1339.53,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.075,
-      "chg3m": -6.25
+      "pct52": 0.076,
+      "chg3m": -6.23
     },
     "^GSPC": {
       "last": 7720.39,
@@ -448,14 +448,14 @@
         "by": "rules"
       },
       {
-        "title": "The stock market’s best forecasting tool says returns over the next 10 years will be dismal",
-        "link": "https://www.marketwatch.com/story/the-stock-markets-best-forecasting-tool-says-returns-over-the-next-10-years-will-be-dismal-f94fcd87?mod=mw_rss_topstories",
+        "title": "The S&P 500 isn’t the big winner you may think it is",
+        "link": "https://www.marketwatch.com/story/you-cant-rely-on-the-s-p-500-as-much-as-you-may-think-a3ac0cb7?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Thu, 29 Oct 2026 20:26:00 GMT",
-        "ko": "주식 시장에서 가장 좋은 예측 도구는 향후 10년 동안의 수익률이 암울할 것이라고 말합니다.",
+        "date": "Thu, 29 Oct 2026 20:39:00 GMT",
+        "ko": "S&P 500은 여러분이 생각할 수 있는 큰 승자는 아닙니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -472,11 +472,11 @@
         "by": "rules"
       },
       {
-        "title": "Lilly raised sales guidance for third time this year as Zepbound sales soar. Its stock closed at a record high.",
-        "link": "https://www.marketwatch.com/story/lilly-raises-outlook-for-third-time-this-year-as-zepbound-sales-soar-6d987407?mod=mw_rss_topstories",
+        "title": "Sandisk sees revenue nearly quintuple — and its stock is heading higher",
+        "link": "https://www.marketwatch.com/story/sandisk-sees-revenue-nearly-quintuple-and-its-stock-is-heading-higher-b9318916?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Thu, 29 Oct 2026 20:22:00 GMT",
-        "ko": "Lilly는 Zepbound 판매가 급증함에 따라 올해 세 번째로 판매 지침을 제기했습니다. 주가가 사상 최고치로 마감했다.",
+        "date": "Thu, 29 Oct 2026 20:39:00 GMT",
+        "ko": "샌디스크는 거의 5배의 수익을 올리고 있으며 주가는 상승세를 보이고 있습니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
@@ -496,11 +496,11 @@
         "by": "rules"
       },
       {
-        "title": "Microsoft to raise up to $25 billion in bond market as investors get pickier about AI debt binge",
-        "link": "https://www.marketwatch.com/story/microsoft-to-raise-up-to-25-billion-in-bond-market-as-investors-get-pickier-about-ai-debt-binge-7c6ae777?mod=mw_rss_topstories",
+        "title": "The stock market’s best forecasting tool says returns over the next 10 years will be dismal",
+        "link": "https://www.marketwatch.com/story/the-stock-markets-best-forecasting-tool-says-returns-over-the-next-10-years-will-be-dismal-f94fcd87?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Thu, 29 Oct 2026 20:01:00 GMT",
-        "ko": "마이크로소프트, 투자자들이 AI 부채 폭증에 대해 더 까다로워짐에 따라 채권 시장에서 최대 250억 달러 ($) 를 모금",
+        "date": "Thu, 29 Oct 2026 20:26:00 GMT",
+        "ko": "주식 시장에서 가장 좋은 예측 도구는 향후 10년 동안의 수익률이 암울할 것이라고 말합니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -511,8 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "This part of the bond market offers compelling yields with minimal risk": "채권 시장의 이 부분은 최소한의 위험으로 설득력 있는 수익률을 제공합니다.",
-    "Micron’s ridiculously cheap stock could triple from here, according to this analyst’s math": "이 분석가의 계산에 따르면 Micron의 터무니없이 싼 재고는 여기에서 세 배가 될 수 있습니다.",
     "Inflation fears on the rise as one-year outlook in Fed survey hits highest level since May 2023": "연준 조사에서 1년 전망이 2023년 5월 이후 최고 수준을 기록함에 따라 인플레이션에 대한 우려가 증가하고 있습니다.",
     "Higher yields are taking their toll on all areas of the stock market, except the one that matters": "더 높은 수익률은 주식 시장의 모든 영역에 영향을 미칩니다. 단, 중요한 영역은 제외합니다.",
     "Options traders are betting on a dramatic drop in interest rates": "옵션 트레이더가 이자율의 급격한 하락에 베팅하고 있습니다",
@@ -810,7 +808,9 @@
     "Alphabet’s stock just triggered a ‘death cross.’ Could the worst of the selloff be over?": "알파벳의 주식은 방금 ‘죽음의 십자가‘ 를 촉발했습니다. ’최악의 매도세가 끝날 수 있을까?",
     "Microsoft to raise up to $25 billion in bond market as investors get pickier about AI debt binge": "마이크로소프트, 투자자들이 AI 부채 폭증에 대해 더 까다로워짐에 따라 채권 시장에서 최대 250억 달러 ($) 를 모금",
     "Lilly raised sales guidance for third time this year as Zepbound sales soar. Its stock closed at a record high.": "Lilly는 Zepbound 판매가 급증함에 따라 올해 세 번째로 판매 지침을 제기했습니다. 주가가 사상 최고치로 마감했다.",
-    "The stock market’s best forecasting tool says returns over the next 10 years will be dismal": "주식 시장에서 가장 좋은 예측 도구는 향후 10년 동안의 수익률이 암울할 것이라고 말합니다."
+    "The stock market’s best forecasting tool says returns over the next 10 years will be dismal": "주식 시장에서 가장 좋은 예측 도구는 향후 10년 동안의 수익률이 암울할 것이라고 말합니다.",
+    "The S&P 500 isn’t the big winner you may think it is": "S&P 500은 여러분이 생각할 수 있는 큰 승자는 아닙니다.",
+    "Sandisk sees revenue nearly quintuple — and its stock is heading higher": "샌디스크는 거의 5배의 수익을 올리고 있으며 주가는 상승세를 보이고 있습니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2955,7 +2955,7 @@
       "2026-10-26": 1325.02,
       "2026-10-27": 1326.28,
       "2026-10-28": 1342.2,
-      "2026-10-29": 1339.23
+      "2026-10-29": 1339.53
     },
     "^GSPC": {
       "2026-10-18": 7659.44,
@@ -3387,7 +3387,7 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgXAx8F7GLuw35UHwi8wC\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgXAx8evKJnZhyqgL68oW\"}"
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgXBk5UxMuCX22QKwPkBo\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgXBk5ukBEE6DmeY6Z4di\"}"
   ]
 }
