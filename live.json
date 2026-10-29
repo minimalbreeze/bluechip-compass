@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-29T09:01:04.130Z",
+  "asOf": "2026-10-29T10:01:26.608Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-29T06:33:00.000Z"
     },
     "KRW=X": {
-      "price": 1336.41,
+      "price": 1337.29,
       "prev": 1326.81005859375,
-      "chg": 0.72,
+      "chg": 0.79,
       "prevDay": "2026-10-28",
       "basis": "prev-close-bar",
-      "time": "2026-10-29T09:00:54.000Z"
+      "time": "2026-10-29T10:01:08.000Z"
     },
     "^GSPC": {
       "price": 7743.98,
@@ -43,12 +43,12 @@
       "time": "2026-10-28T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 17.28,
+      "price": 17.06,
       "prev": 16.90999984741211,
-      "chg": 2.19,
+      "chg": 0.89,
       "prevDay": "2026-10-28",
       "basis": "prev-close-bar",
-      "time": "2026-10-29T08:45:46.000Z"
+      "time": "2026-10-29T09:46:16.000Z"
     },
     "^TNX": {
       "price": 5.045,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.063
+    "pct": 0.067
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": 6.71
     },
     "KRW=X": {
-      "last": 1336.41,
+      "last": 1337.29,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.063,
-      "chg3m": -6.45
+      "pct52": 0.067,
+      "chg3m": -6.39
     },
     "^GSPC": {
       "last": 7743.98,
@@ -101,11 +101,11 @@
       "chg3m": 4.63
     },
     "^VIX": {
-      "last": 17.28,
+      "last": 17.06,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.217,
-      "chg3m": 4.73
+      "pct52": 0.204,
+      "chg3m": 3.39
     },
     "^TNX": {
       "last": 5.05,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgWFnpKBC"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgWLPr6HS"
   },
   "stocks": {
     "kr": {
@@ -368,73 +368,97 @@
   "news": {
     "kr": [
       {
-        "title": "메디포스트 \"美종속회사 주식 200억원에 추가취득\"",
-        "link": "https://www.yna.co.kr/view/AKR20261029184600008",
+        "title": "UBS, '8000→7500' 코스피 목표치 또 낮춰…\"원화강세 부담\"",
+        "link": "https://www.yna.co.kr/view/AKR20261029196100008",
         "source": "연합뉴스",
-        "date": "Thu, 29 Oct 2026 17:23:14 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "\"한국보다 더 큰 곳 간다\"…미래에셋은 왜 476억원으로 日 증권사를 샀을까?",
-        "link": "https://www.hankyung.com/article/202610293703i",
-        "source": "한국경제",
-        "date": "Thu, 29 Oct 2026 17:38:40 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "3분기 현금배당 30조 파격에도 … 자사주 매입·소각 일정빠져 실망",
-        "link": "https://www.mk.co.kr/news/stock/12190218",
-        "source": "매일경제",
-        "date": "Thu, 29 Oct 2026 17:50:43 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "한은, 11월 최대 7.5조원 규모 통화안정증권 발행",
-        "link": "https://www.yna.co.kr/view/AKR20261029183900002",
-        "source": "연합뉴스",
-        "date": "Thu, 29 Oct 2026 17:17:53 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "1% 투자고수 픽은 반도체 소부장 [한경 프리미엄9 TODAY]",
-        "link": "https://www.hankyung.com/article/2026102943661",
-        "source": "한국경제",
-        "date": "Thu, 29 Oct 2026 17:36:26 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "SK이노, 3.7조 역대최대 이익… 환율 변수에도 윤활기유 특수",
-        "link": "https://www.mk.co.kr/news/stock/12190192",
-        "source": "매일경제",
-        "date": "Thu, 29 Oct 2026 17:46:40 +09:00",
+        "date": "Thu, 29 Oct 2026 18:48:30 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
+      },
+      {
+        "title": "주주환원 110조에도…주가 4% 떨어진 이유",
+        "link": "https://www.hankyung.com/article/2026102944261",
+        "source": "한국경제",
+        "date": "Thu, 29 Oct 2026 18:02:46 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "다시 ‘바이 코리아’ 시동 건 외국인…“AI 성장성·주주환원에 컴백 달려” [매플 인터뷰]",
+        "link": "https://www.mk.co.kr/news/business/12190268",
+        "source": "매일경제",
+        "date": "Thu, 29 Oct 2026 18:38:28 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "국민성장펀드, 국내 최대 태양광 발전소·반도체 밸류체인 투자",
+        "link": "https://www.yna.co.kr/view/AKR20261029196900002",
+        "source": "연합뉴스",
+        "date": "Thu, 29 Oct 2026 18:48:30 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "IRP 주식투자 '70% 족쇄' 푼다…IMA 편입도 가능",
+        "link": "https://www.hankyung.com/article/2026102943261",
+        "source": "한국경제",
+        "date": "Thu, 29 Oct 2026 18:00:17 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "SK하닉 “향후 3년 메모리 완판”…‘실적 피크’ 우려 꺾었다 [플러스 관심종목]",
+        "link": "https://www.mk.co.kr/news/business/12190267",
+        "source": "매일경제",
+        "date": "Thu, 29 Oct 2026 18:38:06 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
       }
     ],
     "us": [
+      {
+        "title": "Analysis: Warsh is learning to wield the Fed's power without showing his hand",
+        "link": "https://www.cnbc.com/2026/10/29/kevin-warsh-fed-october-rate-decision-december-hike.html",
+        "source": "CNBC",
+        "date": "Thu, 29 Oct 2026 09:00:01 GMT",
+        "ko": "분석: 워시는 손을 보여주지 않고 연준의 권력을 휘두르는 법을 배우고 있습니다.",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "ServiceNow stock is on track for its largest drop on record. But JPMorgan sees a bright spot.",
+        "link": "https://www.marketwatch.com/story/servicenow-stock-is-on-track-for-its-largest-drop-on-record-but-jpmorgan-sees-a-bright-spot-5e5b05c6?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "date": "Thu, 29 Oct 2026 09:52:00 GMT",
+        "ko": "ServiceNow 재고는 기록적으로 가장 큰 하락을 기록하고 있습니다. 그러나 JPMorgan은 밝은 곳을 봅니다.",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
       {
         "title": "Here are five key takeaways from the Fed rate decision and Warsh news conference",
         "link": "https://www.cnbc.com/2026/10/28/fed-rate-decision-warsh-takeaways.html",
@@ -451,7 +475,7 @@
         "title": "Why Alphabet’s stock could see its worst drop in years after the latest results",
         "link": "https://www.marketwatch.com/story/why-alphabets-stock-could-see-its-worst-drop-in-years-after-the-latest-results-6b64cf98?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Thu, 29 Oct 2026 01:58:00 GMT",
+        "date": "Thu, 29 Oct 2026 09:08:00 GMT",
         "ko": "알파벳의 주가가 최근 결과 이후 몇 년 동안 최악의 하락을 볼 수 있었던 이유",
         "act": "none",
         "lasting": "temporary",
@@ -482,37 +506,11 @@
         "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
-      },
-      {
-        "title": "Fed rate hikes are coming, but not this week: CNBC survey",
-        "link": "https://www.cnbc.com/2026/10/27/federal-reserve-rate-hike-timing-expectations.html",
-        "source": "CNBC",
-        "date": "Tue, 27 Oct 2026 15:51:00 GMT",
-        "ko": "연준 금리 인상이 다가오고 있지만 이번 주에는 아니다: CNBC 설문조사",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "The major reason Microsoft’s stock is heading higher after earnings",
-        "link": "https://www.marketwatch.com/story/the-major-reason-microsofts-stock-is-heading-higher-after-earnings-c019a036?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "date": "Thu, 29 Oct 2026 00:10:00 GMT",
-        "ko": "마이크로소프트의 주가가 수익 이후 상승하고 있는 주요 이유",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
       }
     ]
   },
   "newsBy": "rules",
   "trCache": {
-    "Bond selloff is opening up rare opportunities for investors. Here is where to look, says major bank.": "채권 매각은 투자자들에게 희귀한 기회를 열어주고 있습니다. 주요 은행은 다음과 같이 말합니다.",
-    "Musk hints TSMC may join his mega chip venture, and Intel’s stock is taking a hit": "머스크는 TSMC가 그의 메가 칩 벤처에 합류할 수 있으며 인텔의 주식이 타격을 받고 있음을 암시합니다.",
     "An AI ‘reality check’ may take the S&P 500 to 5,000. Here are the trades to make, this strategist says.": "AI ‘현실 확인’ 은 S&P 500에서 5,000까지 걸릴 수 있습니다. 이 전략가는 다음과 같은 거래를 할 수 있다고 말합니다.",
     "Intel’s stock drops after Musk hints at an additional partner for big chip venture": "머스크가 빅칩 벤처를 위한 추가 파트너를 힌트한 후 인텔의 재고가 떨어짐",
     "SpaceX’s stock could actually be a bargain, according to this metric": "이 메트릭에 따르면 SpaceX의 주식은 실제로 거래가 될 수 있습니다.",
@@ -810,7 +808,9 @@
     "ServiceNow’s stock slides as earnings miss overshadows a raised AI outlook": "수익 손실로 인한 ServiceNow의 주식 슬라이드가 AI 전망을 뒤덮습니다.",
     "Why Alphabet’s stock could see its worst drop in years after the latest results": "알파벳의 주가가 최근 결과 이후 몇 년 동안 최악의 하락을 볼 수 있었던 이유",
     "Fortinet’s stock is taking a dive after earnings. Here’s why.": "Fortinet의 주식은 수입을 올린 후 다이빙을 하고 있습니다. 그 이유는 다음과 같습니다.",
-    "The major reason Microsoft’s stock is heading higher after earnings": "마이크로소프트의 주가가 수익 이후 상승하고 있는 주요 이유"
+    "The major reason Microsoft’s stock is heading higher after earnings": "마이크로소프트의 주가가 수익 이후 상승하고 있는 주요 이유",
+    "Analysis: Warsh is learning to wield the Fed's power without showing his hand": "분석: 워시는 손을 보여주지 않고 연준의 권력을 휘두르는 법을 배우고 있습니다.",
+    "ServiceNow stock is on track for its largest drop on record. But JPMorgan sees a bright spot.": "ServiceNow 재고는 기록적으로 가장 큰 하락을 기록하고 있습니다. 그러나 JPMorgan은 밝은 곳을 봅니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2955,7 +2955,7 @@
       "2026-10-26": 1325.02,
       "2026-10-27": 1326.28,
       "2026-10-28": 1342.2,
-      "2026-10-29": 1336.41
+      "2026-10-29": 1337.29
     },
     "^GSPC": {
       "2026-10-18": 7659.44,
@@ -2997,7 +2997,7 @@
       "2026-10-26": 18.39,
       "2026-10-27": 17.52,
       "2026-10-28": 16.91,
-      "2026-10-29": 17.28
+      "2026-10-29": 17.06
     },
     "^TNX": {
       "2026-10-18": 5.098,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgWFnpKBC6apMSfEZSiWa\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgWFnppCUVU2qYv2Q6CT2\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgWFnqD1aSghHCUuiG4cb\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgWLPr6HSnPgyxu4eLbcr\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgWLPrTrKct83mptyeyk3\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgWLProh86XN4NJjSmRVL\"}"
   ]
 }
