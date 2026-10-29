@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-29T22:09:38.440Z",
+  "asOf": "2026-10-29T23:09:59.422Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-29T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1338.78,
+      "price": 1338.62,
       "prev": 1326.81005859375,
-      "chg": 0.9,
+      "chg": 0.89,
       "prevDay": "2026-10-28",
       "basis": "prev-close-bar",
-      "time": "2026-10-29T22:09:31.000Z"
+      "time": "2026-10-29T23:09:53.000Z"
     },
     "^GSPC": {
       "price": 7720.39,
@@ -80,11 +80,11 @@
       "chg3m": 0.84
     },
     "KRW=X": {
-      "last": 1338.78,
+      "last": 1338.66,
       "low52": 1321.76,
       "high52": 1554.48,
       "pct52": 0.073,
-      "chg3m": -6.28
+      "chg3m": -6.29
     },
     "^GSPC": {
       "last": 7720.39,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgXHvZVAK"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgXNXUYw4"
   },
   "stocks": {
     "kr": {
@@ -379,13 +379,13 @@
         "by": "rules"
       },
       {
-        "title": "\"연말에 기관이 살 주식 미리 담아라\"…11월 유망종목은? [한경우의 케이스스터디]",
-        "link": "https://www.hankyung.com/article/2026102937066",
+        "title": "\"현대차, 경쟁 심화에 자사주 정책도 재검토…목표가↓\"-하나",
+        "link": "https://www.hankyung.com/article/2026103049056",
         "source": "한국경제",
-        "date": "Fri, 30 Oct 2026 06:30:08 +0900",
+        "date": "Fri, 30 Oct 2026 07:23:41 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -412,13 +412,13 @@
         "by": "rules"
       },
       {
-        "title": "외국인 다시 '팔자 폭탄'…주식 19조·채권 7조 한국서 빠져나갔다",
-        "link": "https://www.hankyung.com/article/2026103048587",
+        "title": "실적공개 끝낸 삼전닉스…증권사 리포트 달라진 점 뜯어보니",
+        "link": "https://www.hankyung.com/article/202610293854i",
         "source": "한국경제",
-        "date": "Fri, 30 Oct 2026 06:29:14 +0900",
+        "date": "Fri, 30 Oct 2026 07:20:02 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -2955,7 +2955,7 @@
       "2026-10-26": 1325.02,
       "2026-10-27": 1326.28,
       "2026-10-28": 1342.2,
-      "2026-10-29": 1338.78
+      "2026-10-29": 1338.62
     },
     "^GSPC": {
       "2026-10-18": 7659.44,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgXHvZVAKKh2meVU4Bnbe\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgXHvZsjBvyDXchxzEey9\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgXHvaCL39DzoANPBt3qL\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgXNXUYw442TiFnSgHags\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgXNXV2ieQV9Upqve2rDS\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgXNXVPYUxEPUE6vCjEKL\"}"
   ]
 }
