@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-30T09:46:43.376Z",
+  "asOf": "2026-10-30T10:47:06.937Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-30T06:32:50.000Z"
     },
     "KRW=X": {
-      "price": 1334.6,
+      "price": 1335.1,
       "prev": 1340.3399658203125,
-      "chg": -0.43,
+      "chg": -0.39,
       "prevDay": "2026-10-29",
       "basis": "prev-close-bar",
-      "time": "2026-10-30T09:30:37.000Z"
+      "time": "2026-10-30T10:06:06.000Z"
     },
     "^GSPC": {
       "price": 7720.39,
@@ -43,12 +43,12 @@
       "time": "2026-10-29T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 18.29,
+      "price": 18.46,
       "prev": 17.200000762939453,
-      "chg": 6.34,
+      "chg": 7.33,
       "prevDay": "2026-10-29",
       "basis": "prev-close-bar",
-      "time": "2026-10-30T09:31:31.000Z"
+      "time": "2026-10-30T10:31:46.000Z"
     },
     "^TNX": {
       "price": 4.989,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.055
+    "pct": 0.057
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": 9.31
     },
     "KRW=X": {
-      "last": 1334.6,
+      "last": 1335.1,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.055,
-      "chg3m": -6.57
+      "pct52": 0.057,
+      "chg3m": -6.53
     },
     "^GSPC": {
       "last": 7720.39,
@@ -101,11 +101,11 @@
       "chg3m": 1.05
     },
     "^VIX": {
-      "last": 18.29,
+      "last": 18.46,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.274,
-      "chg3m": 15.69
+      "pct52": 0.284,
+      "chg3m": 16.76
     },
     "^TNX": {
       "last": 4.99,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgYD5eumE"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgYHgku7w"
   },
   "stocks": {
     "kr": {
@@ -368,6 +368,39 @@
   "news": {
     "kr": [
       {
+        "title": "소프트웨어 개발 기업 래블업, 내달 3일 코스닥 신규 상장",
+        "link": "https://www.yna.co.kr/view/AKR20261030172900008",
+        "source": "연합뉴스",
+        "date": "Fri, 30 Oct 2026 18:54:28 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "\"11월 증시, 그래도 반도체? 전력기기 건설주?\"…증권사들이 꼽은 유망주는",
+        "link": "https://www.hankyung.com/article/202610306989i",
+        "source": "한국경제",
+        "date": "Fri, 30 Oct 2026 18:49:10 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "거래폭발할 땐 여의도 호령했던 증권사…3분기엔 영업이익 반토막 났다",
+        "link": "https://www.mk.co.kr/news/stock/12191863",
+        "source": "매일경제",
+        "date": "Fri, 30 Oct 2026 18:53:42 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
         "title": "토스, 일본 치어증권 인수 추진…\"일본 젊은층 공략\"(종합)",
         "link": "https://www.yna.co.kr/view/AKR20261030090751009",
         "source": "연합뉴스",
@@ -379,13 +412,13 @@
         "by": "rules"
       },
       {
-        "title": "美 빅테크 어닝쇼크…코스피 '불똥'",
-        "link": "https://www.hankyung.com/article/2026103068971",
+        "title": "AI 공격 투자 외친 빅테크, 본업도 흔들…외국인 1.6조 던졌다",
+        "link": "https://www.hankyung.com/article/2026103068781",
         "source": "한국경제",
-        "date": "Fri, 30 Oct 2026 17:56:17 +0900",
+        "date": "Fri, 30 Oct 2026 18:02:35 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -398,39 +431,6 @@
         "lasting": "structural",
         "scope": null,
         "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
-        "by": "rules"
-      },
-      {
-        "title": "국고채 금리 일제히 하락…위험회피 속 주요국 채권 강세(종합)",
-        "link": "https://www.yna.co.kr/view/AKR20261030149151008",
-        "source": "연합뉴스",
-        "date": "Fri, 30 Oct 2026 16:56:34 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "고개 드는 증시 '11월 반등론' [한경 프리미엄9 TODAY]",
-        "link": "https://www.hankyung.com/article/2026103069061",
-        "source": "한국경제",
-        "date": "Fri, 30 Oct 2026 17:44:14 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "자회사 부진 탓에…키움證 어닝쇼크",
-        "link": "https://www.mk.co.kr/news/stock/12191796",
-        "source": "매일경제",
-        "date": "Fri, 30 Oct 2026 17:44:05 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
     ],
@@ -448,11 +448,11 @@
         "by": "rules"
       },
       {
-        "title": "Amazon’s stock drops — even in the face of a bold new cloud forecast",
-        "link": "https://www.marketwatch.com/story/amazons-bold-cloud-forecast-isnt-enough-to-stave-off-a-stock-drop-ee23c1bb?mod=mw_rss_topstories",
+        "title": "Why Intel’s stock is sinking toward its worst drop in two years",
+        "link": "https://www.marketwatch.com/story/why-intels-stock-is-sinking-toward-its-worst-drop-in-two-years-492d71a7?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Fri, 30 Oct 2026 00:15:00 GMT",
-        "ko": "아마존 주가 하락 — 대담한 새로운 클라우드 예측에도 불구하고",
+        "date": "Fri, 30 Oct 2026 09:46:00 GMT",
+        "ko": "인텔의 주가가 2년 만에 최악의 하락세를 기록하는 이유",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -472,15 +472,15 @@
         "by": "rules"
       },
       {
-        "title": "Sandisk sees revenue nearly quintuple — and a stock split is on the way",
-        "link": "https://www.marketwatch.com/story/sandisk-sees-revenue-nearly-quintuple-and-its-stock-is-heading-higher-b9318916?mod=mw_rss_topstories",
+        "title": "Amazon’s stock drops — even in the face of a bold new cloud forecast",
+        "link": "https://www.marketwatch.com/story/amazons-bold-cloud-forecast-isnt-enough-to-stave-off-a-stock-drop-ee23c1bb?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Fri, 30 Oct 2026 00:06:00 GMT",
-        "ko": "샌디스크는 거의 5배의 수익을 보고 있으며 주식 분할이 진행 중입니다",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": "company",
-        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
+        "date": "Fri, 30 Oct 2026 00:15:00 GMT",
+        "ko": "아마존 주가 하락 — 대담한 새로운 클라우드 예측에도 불구하고",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
@@ -496,15 +496,15 @@
         "by": "rules"
       },
       {
-        "title": "Our church has a $1.5 million bequest earning 3.75% in a bank account. Is inflation eroding it?",
-        "link": "https://www.marketwatch.com/story/there-may-be-better-investment-options-my-church-received-1-5-million-from-a-parishioner-is-3-75-interest-enough-5164d790?mod=mw_rss_topstories",
+        "title": "Sandisk sees revenue nearly quintuple — and a stock split is on the way",
+        "link": "https://www.marketwatch.com/story/sandisk-sees-revenue-nearly-quintuple-and-its-stock-is-heading-higher-b9318916?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Fri, 30 Oct 2026 00:05:00 GMT",
-        "ko": "우리 교회는 은행 계좌로 3.75% 의 수익을 올리는 150만 달러 ($) 의 유증을 가지고 있습니다. 인플레이션이 이를 침식하고 있습니까?",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "date": "Fri, 30 Oct 2026 00:06:00 GMT",
+        "ko": "샌디스크는 거의 5배의 수익을 보고 있으며 주식 분할이 진행 중입니다",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": "company",
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
         "by": "rules"
       }
     ]
@@ -2955,7 +2955,7 @@
       "2026-10-27": 1326.28,
       "2026-10-28": 1342.2,
       "2026-10-29": 1338.62,
-      "2026-10-30": 1334.6
+      "2026-10-30": 1335.1
     },
     "^GSPC": {
       "2026-10-19": 7690.73,
@@ -2997,7 +2997,7 @@
       "2026-10-27": 17.52,
       "2026-10-28": 16.91,
       "2026-10-29": 17.2,
-      "2026-10-30": 18.29
+      "2026-10-30": 18.46
     },
     "^TNX": {
       "2026-10-19": 5.136,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgYD5eumEGv3aCYBEaR6c\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgYD5fKpoaokhRQAbhY9Q\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgYD5fgu4HBKPHMsHa8yW\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgYHgku7w4bSQ9NhfoTHV\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgYHgmJgL151UFmUZizSP\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgYHgn3LSQnFavbjZPz72\"}"
   ]
 }
