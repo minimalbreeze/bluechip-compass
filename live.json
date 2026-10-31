@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-31T20:56:48.034Z",
+  "asOf": "2026-10-31T21:57:10.048Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgaZNZMTQ"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgb4bEWs6"
   },
   "stocks": {
     "kr": {
@@ -368,10 +368,10 @@
   "news": {
     "kr": [
       {
-        "title": "반도체 훈풍 무색한 내수…소매판매 5분기만에 감소",
-        "link": "https://www.yna.co.kr/view/AKR20261031028000002",
+        "title": "이달 채권시장 전망은…수급 부담에도 위험회피발 강세 전망도",
+        "link": "https://www.yna.co.kr/view/AKR20261031019400008",
         "source": "연합뉴스",
-        "date": "Sun, 1 Nov 2026 05:52:05 +0900",
+        "date": "Sun, 1 Nov 2026 06:30:01 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -401,13 +401,13 @@
         "by": "rules"
       },
       {
-        "title": "은행 부실채권 1년만에 1.3조 늘었다…8년6개월만에 최대",
-        "link": "https://www.yna.co.kr/view/AKR20261031044700002",
+        "title": "다시 변동성 커지는 증시…코스피 지난달 -16%, 역대 일곱번째",
+        "link": "https://www.yna.co.kr/view/AKR20261031026200008",
         "source": "연합뉴스",
-        "date": "Sun, 1 Nov 2026 05:47:02 +0900",
+        "date": "Sun, 1 Nov 2026 06:25:00 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -3387,7 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgayzEgM1FeW38BVZbikg\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgayzF4B5o2SFUky7p9y4\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgb4bEWs6qhpg39exDe3D\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgb4bEhHVbb2emC4B4pjs\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgb4bEoyts5qrbYrMTb5D\"}"
   ]
 }
