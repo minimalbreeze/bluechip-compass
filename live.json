@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-30T23:11:05.298Z",
+  "asOf": "2026-10-31T00:11:26.747Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -20,9 +20,9 @@
     },
     "KRW=X": {
       "price": 1333.44,
-      "prev": 1340.3399658203125,
-      "chg": -0.51,
-      "prevDay": "2026-10-29",
+      "prev": 1337.97998046875,
+      "chg": -0.34,
+      "prevDay": "2026-10-30",
       "basis": "prev-close-bar",
       "time": "2026-10-30T22:08:10.000Z"
     },
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.05
+    "pct": 0.07
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": 6.71
     },
     "KRW=X": {
-      "last": 1333.44,
+      "last": 1337.98,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.05,
-      "chg3m": -6.65
+      "pct52": 0.07,
+      "chg3m": -6.33
     },
     "^GSPC": {
       "last": 7580.07,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgZGRFwoQ"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgZM2DG1s"
   },
   "stocks": {
     "kr": {
@@ -368,13 +368,13 @@
   "news": {
     "kr": [
       {
-        "title": "[부동산캘린더] 내주 고덕강일3단지 등 전국 4천928가구 청약 접수",
-        "link": "https://www.yna.co.kr/view/AKR20261030169300003",
+        "title": "[IPO챗] 내주 영광·래블업·이에스티 등 3개사 코스닥 입성",
+        "link": "https://www.yna.co.kr/view/AKR20261030067200008",
         "source": "연합뉴스",
-        "date": "Sat, 31 Oct 2026 07:01:00 +0900",
+        "date": "Sat, 31 Oct 2026 09:00:38 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -390,24 +390,24 @@
         "by": "rules"
       },
       {
-        "title": "\"카카오가 美상장 막아\"… 美사모펀드 소송 예고",
-        "link": "https://www.mk.co.kr/news/stock/12192159",
+        "title": "“상장 첫날 던지라는 말이 맞나요”…한국증시 암울하게 하는 새내기주",
+        "link": "https://www.mk.co.kr/news/stock/12192354",
         "source": "매일경제",
-        "date": "Fri, 30 Oct 2026 23:00:03 +09:00",
-        "act": "watch",
-        "lasting": "structural",
+        "date": "Sat, 31 Oct 2026 08:24:45 +09:00",
+        "act": "none",
+        "lasting": "temporary",
         "scope": null,
-        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "소프트웨어 개발 기업 래블업, 내달 3일 코스닥 신규 상장",
-        "link": "https://www.yna.co.kr/view/AKR20261030172900008",
+        "title": "[부동산캘린더] 내주 고덕강일3단지 등 전국 4천928가구 청약 접수",
+        "link": "https://www.yna.co.kr/view/AKR20261030169300003",
         "source": "연합뉴스",
-        "date": "Fri, 30 Oct 2026 18:54:28 +0900",
+        "date": "Sat, 31 Oct 2026 07:01:00 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -423,14 +423,14 @@
         "by": "rules"
       },
       {
-        "title": "거래폭발할 땐 여의도 호령했던 증권사…3분기엔 영업이익 반토막 났다",
-        "link": "https://www.mk.co.kr/news/stock/12191863",
+        "title": "\"카카오가 美상장 막아\"… 美사모펀드 소송 예고",
+        "link": "https://www.mk.co.kr/news/stock/12192159",
         "source": "매일경제",
-        "date": "Fri, 30 Oct 2026 18:53:42 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "date": "Fri, 30 Oct 2026 23:00:03 +09:00",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": null,
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
         "by": "rules"
       }
     ],
@@ -448,11 +448,11 @@
         "by": "rules"
       },
       {
-        "title": "This cybersecurity stock will be the next to join the S&P 500",
-        "link": "https://www.marketwatch.com/story/this-cybersecurity-stock-will-be-the-next-to-join-the-s-p-500-dc976803?mod=mw_rss_topstories",
+        "title": "Has the tech bubble burst? Why the Nasdaq’s rough ride looks eerily like 2000.",
+        "link": "https://www.marketwatch.com/story/has-the-tech-bubble-burst-why-the-nasdaqs-rough-ride-looks-eerily-like-2000-5bcefcb2?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Fri, 30 Oct 2026 22:20:00 GMT",
-        "ko": "이 사이버 보안 주식은 S&P 500에 합류하기 위한 다음 단계가 될 것입니다.",
+        "date": "Fri, 30 Oct 2026 23:14:00 GMT",
+        "ko": "기술 거품이 터졌나요? 왜 나스닥의 거친 주행이 2000년처럼 보이는지.",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -472,11 +472,11 @@
         "by": "rules"
       },
       {
-        "title": "Warsh wants the Fed to say less. Two officials are pushing for more transparency.",
-        "link": "https://www.marketwatch.com/story/the-fed-held-interest-rates-steady-but-these-officials-see-more-hikes-coming-soon-2098bbd8?mod=mw_rss_topstories",
+        "title": "This cybersecurity stock will be the next to join the S&P 500",
+        "link": "https://www.marketwatch.com/story/this-cybersecurity-stock-will-be-the-next-to-join-the-s-p-500-dc976803?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Fri, 30 Oct 2026 21:23:00 GMT",
-        "ko": "워시는 연방준비제도 (Fed) 가 더 적게 말하기를 원합니다. 두 공무원이 투명성을 높이기 위해 노력하고 있습니다.",
+        "date": "Fri, 30 Oct 2026 22:20:00 GMT",
+        "ko": "이 사이버 보안 주식은 S&P 500에 합류하기 위한 다음 단계가 될 것입니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -496,14 +496,14 @@
         "by": "rules"
       },
       {
-        "title": "In a wild October for markets, these stocks were the biggest winners and losers",
-        "link": "https://www.marketwatch.com/story/in-a-wild-october-for-markets-these-stocks-were-the-biggest-winners-and-losers-3736f043?mod=mw_rss_topstories",
+        "title": "Warsh wants the Fed to say less. Two officials are pushing for more transparency.",
+        "link": "https://www.marketwatch.com/story/the-fed-held-interest-rates-steady-but-these-officials-see-more-hikes-coming-soon-2098bbd8?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Fri, 30 Oct 2026 20:52:00 GMT",
-        "ko": "시장을 위한 와일드한 10월, 이 주식은 가장 큰 승자와 패자였습니다.",
+        "date": "Fri, 30 Oct 2026 21:23:00 GMT",
+        "ko": "워시는 연방준비제도 (Fed) 가 더 적게 말하기를 원합니다. 두 공무원이 투명성을 높이기 위해 노력하고 있습니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -511,7 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "Hurricane Isaias to ‘stress test’ oil markets already hobbled by tight fuel supplies": "이미 타이트한 연료 공급으로 어려움을 겪고 있는 석유 시장의 ‘스트레스 테스트’ 를 위한 허리케인 이사야스",
     "Taxing stocks, estates and employee benefits could keep Social Security from running out of money. Here’s who could pay the most.": "주식, 부동산 및 종업원 복리후생에 과세를 부과하면 사회 보장 제도가 자금 부족을 막을 수 있습니다. 가장 많은 금액을 지불할 수 있는 사람은 다음과 같습니다.",
     "More evidence that broad-market index funds remain unbeatable, even in the era of AI stock-picking": "인공지능 주식 피킹 시대에도 브로드 마켓 인덱스 펀드가 타의 추종을 불허한다는 더 많은 증거",
     "AI chip stocks wobble even as investors get clarity on a key OpenAI issue": "주요 OpenAI 이슈에 대한 투자자들의 명확한 이해에도 AI 칩 주식은 흔들립니다.",
@@ -810,7 +809,8 @@
     "Reddit’s stock logs its biggest one-day drop ever. It’s not the last of the bad news, analysts say.": "Reddit의 주식은 사상 최대의 하루 하락을 기록합니다. 분석가들은 이것이 나쁜 소식의 마지막은 아니라고 말합니다.",
     "Why Intel’s stock saw its worst day in decades — and a $140 billion wipeout": "인텔의 주식이 수십 년 만에 최악의 날을 맞이한 이유 — 그리고 1,400억 달러 ($) 의 전멸",
     "Warsh wants the Fed to say less. Two officials are pushing for more transparency.": "워시는 연방준비제도 (Fed) 가 더 적게 말하기를 원합니다. 두 공무원이 투명성을 높이기 위해 노력하고 있습니다.",
-    "This cybersecurity stock will be the next to join the S&P 500": "이 사이버 보안 주식은 S&P 500에 합류하기 위한 다음 단계가 될 것입니다."
+    "This cybersecurity stock will be the next to join the S&P 500": "이 사이버 보안 주식은 S&P 500에 합류하기 위한 다음 단계가 될 것입니다.",
+    "Has the tech bubble burst? Why the Nasdaq’s rough ride looks eerily like 2000.": "기술 거품이 터졌나요? 왜 나스닥의 거친 주행이 2000년처럼 보이는지."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2944,7 +2944,6 @@
       "2026-10-31": 724.38
     },
     "KRW=X": {
-      "2026-10-19": 1331.42,
       "2026-10-20": 1326.24,
       "2026-10-21": 1326.11,
       "2026-10-22": 1325.69,
@@ -2955,7 +2954,8 @@
       "2026-10-27": 1326.28,
       "2026-10-28": 1342.2,
       "2026-10-29": 1338.62,
-      "2026-10-30": 1333.44
+      "2026-10-30": 1333.44,
+      "2026-10-31": 1333.44
     },
     "^GSPC": {
       "2026-10-19": 7690.73,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgZGRFwoQjUWu8Xfe917M\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgZGRG9hmXqcFt85KSVdh\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgZGRGHQ111MUcQxuAzNq\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgZM2DG1sxpPzHRdaqVoA\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgZM2DRgPRmqeUjXLXZBA\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgZM2DYPZPq5dZPtJAJ8c\"}"
   ]
 }
