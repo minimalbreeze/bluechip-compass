@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-31T04:18:55.010Z",
+  "asOf": "2026-10-31T05:19:17.266Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -32,7 +32,7 @@
       "chg": 0,
       "prevDay": "2026-10-30",
       "basis": "prev-close-bar",
-      "time": "2026-10-30T20:00:00.000Z"
+      "time": "2026-10-30T20:47:43.000Z"
     },
     "^IXIC": {
       "price": 25436.998,
@@ -44,17 +44,17 @@
     },
     "^VIX": {
       "price": 19.42,
-      "prev": 17.200000762939453,
-      "chg": 12.91,
-      "prevDay": "2026-10-29",
+      "prev": 19.420000076293945,
+      "chg": 0,
+      "prevDay": "2026-10-30",
       "basis": "prev-close-bar",
       "time": "2026-10-30T20:15:01.000Z"
     },
     "^TNX": {
       "price": 4.929,
-      "prev": 4.988999843597412,
-      "chg": -1.2,
-      "prevDay": "2026-10-29",
+      "prev": 4.928999900817871,
+      "chg": 0,
+      "prevDay": "2026-10-30",
       "basis": "prev-close-bar",
       "time": "2026-10-30T18:59:54.000Z"
     }
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgZftjAay"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgZkVjyuG"
   },
   "stocks": {
     "kr": {
@@ -390,6 +390,17 @@
         "by": "rules"
       },
       {
+        "title": "“‘반도체 업황 연동’ 보안株라 불러주세요”…36% 반등한 한화비전 [이주의 Bull기둥]",
+        "link": "https://www.mk.co.kr/news/stock/12192400",
+        "source": "매일경제",
+        "date": "Sat, 31 Oct 2026 10:56:38 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
         "title": "[부동산캘린더] 내주 고덕강일3단지 등 전국 4천928가구 청약 접수",
         "link": "https://www.yna.co.kr/view/AKR20261030169300003",
         "source": "연합뉴스",
@@ -412,21 +423,10 @@
         "by": "rules"
       },
       {
-        "title": "소프트웨어 개발 기업 래블업, 내달 3일 코스닥 신규 상장",
-        "link": "https://www.yna.co.kr/view/AKR20261030172900008",
-        "source": "연합뉴스",
-        "date": "Fri, 30 Oct 2026 18:54:28 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "AI 투자 공포…美 반도체주 7곳서 하루 새 860조 증발 [뉴욕증시 브리핑]",
-        "link": "https://www.hankyung.com/article/2026103172407",
-        "source": "한국경제",
-        "date": "Sat, 31 Oct 2026 07:09:18 +0900",
+        "title": "“52년 만에 최악의 하루”…주가 29% 폭락 인텔, 시총 183조원 증발",
+        "link": "https://www.mk.co.kr/news/stock/12192398",
+        "source": "매일경제",
+        "date": "Sat, 31 Oct 2026 10:44:36 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -2986,7 +2986,6 @@
       "2026-10-31": 25436.998
     },
     "^VIX": {
-      "2026-10-19": 18.44,
       "2026-10-20": 17.31,
       "2026-10-21": 16.68,
       "2026-10-22": 19.03,
@@ -2997,10 +2996,10 @@
       "2026-10-27": 17.52,
       "2026-10-28": 16.91,
       "2026-10-29": 17.2,
-      "2026-10-30": 19.42
+      "2026-10-30": 19.42,
+      "2026-10-31": 19.42
     },
     "^TNX": {
-      "2026-10-19": 5.136,
       "2026-10-20": 5.117,
       "2026-10-21": 5.146,
       "2026-10-22": 4.953,
@@ -3011,7 +3010,8 @@
       "2026-10-27": 4.993,
       "2026-10-28": 5.045,
       "2026-10-29": 4.989,
-      "2026-10-30": 4.929
+      "2026-10-30": 4.929,
+      "2026-10-31": 4.929
     },
     "105560.KS": {
       "2026-10-20": 160900,
@@ -3386,10 +3386,9 @@
     }
   },
   "failed": [
-    "news/kr/매일경제: fetch failed",
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgZftjAayAbefF7Bf8STx\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgZftjf7C5g4DX9LyPsxt\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgZftk6eiKzKd5nqnVmgg\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgZkVjyuG2jESSHy58fmA\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgZkVkSB8j5EqheB18te9\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgZkVkm2aiCNysThcaTea\"}"
   ]
 }
