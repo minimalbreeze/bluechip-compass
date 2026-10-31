@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-31T07:20:03.519Z",
+  "asOf": "2026-10-31T08:20:31.177Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -32,7 +32,7 @@
       "chg": 0,
       "prevDay": "2026-10-30",
       "basis": "prev-close-bar",
-      "time": "2026-10-30T20:00:00.000Z"
+      "time": "2026-10-30T20:47:43.000Z"
     },
     "^IXIC": {
       "price": 25436.998,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgZuhu6hp"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgZzKJYJK"
   },
   "stocks": {
     "kr": {
@@ -379,13 +379,13 @@
         "by": "rules"
       },
       {
-        "title": "\"주가 떨어져도 돈은 따박따박\"…개미들 2.8조 몰린 상품 [이수의 ETF줌인]",
+        "title": "코스피 힘 못 쓰는데 2.8조 몰렸다…개미들 꽂힌 '이 상품' [이수의 ETF줌인]",
         "link": "https://www.hankyung.com/article/2026103061976",
         "source": "한국경제",
         "date": "Sat, 31 Oct 2026 15:00:03 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgZuhu6hpFUcACaWpAHUN\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgZuhuT3nDWDZK9pxdFEf\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgZuhuifhMbSzC7XJMSSg\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgZzKJYJKmgbSwYzPfcKx\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgZzKK1L35nmAjSWdbhvv\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgZzKKScXmmUBavLaLecR\"}"
   ]
 }
