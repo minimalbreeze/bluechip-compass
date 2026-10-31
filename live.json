@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-31T10:32:02.062Z",
+  "asOf": "2026-10-31T11:32:23.785Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgaALyo9G"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgaEwxAMk"
   },
   "stocks": {
     "kr": {
@@ -379,13 +379,13 @@
         "by": "rules"
       },
       {
-        "title": "코스피 힘 못 쓰는데 2.8조 몰렸다…개미들 꽂힌 '이 상품' [이수의 ETF줌인]",
-        "link": "https://www.hankyung.com/article/2026103061976",
+        "title": "\"주식은 무서워서 못 사겠다\"…한 달 새 4.2조 몰린 '피난처' [투자톡]",
+        "link": "https://www.hankyung.com/article/2026103064936",
         "source": "한국경제",
-        "date": "Sat, 31 Oct 2026 15:00:03 +0900",
+        "date": "Sat, 31 Oct 2026 19:07:53 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -412,13 +412,13 @@
         "by": "rules"
       },
       {
-        "title": "2027년 경제, 반도체 업황이 최대 변수",
-        "link": "https://www.hankyung.com/article/202610281094i",
+        "title": "코스피 힘 못 쓰는데 2.8조 몰렸다…개미들 꽂힌 '이 상품' [이수의 ETF줌인]",
+        "link": "https://www.hankyung.com/article/2026103061976",
         "source": "한국경제",
-        "date": "Sat, 31 Oct 2026 12:00:05 +0900",
+        "date": "Sat, 31 Oct 2026 15:00:03 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgaALyo9GRS4pQt7CFdQ3\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgaALzAxz5EM9rCk1khEp\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgaALzRqgkr6erzwVEKVz\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgaEwxAMkGKjen2aRNYcP\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgaEwxZRJkCexVQ6bVMGF\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgaEwxqYNCkzepbDPiYWi\"}"
   ]
 }
