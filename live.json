@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-01T12:25:12.378Z",
+  "asOf": "2026-11-01T13:14:23.108Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgcCnS9ME"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgcGXxBv7"
   },
   "stocks": {
     "kr": {
@@ -472,18 +472,6 @@
         "by": "rules"
       },
       {
-        "title": "Want guaranteed income in retirement without an annuity? Try laddering I bonds.",
-        "link": "https://www.marketwatch.com/story/how-to-use-i-bonds-to-create-guaranteed-inflation-proof-income-in-retirement-50753fea?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "date": "Sat, 31 Oct 2026 16:02:00 GMT",
-        "ko": "연금 없이 은퇴 후 안정적인 수입을 원하시나요? I 채권을 여러 개 사들여 투자하는 방식을 시도해 보세요.",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
         "title": "Analysis: Kevin Warsh is keeping Wall Street guessing. It may be his most powerful tool",
         "link": "https://www.cnbc.com/2026/10/29/kevin-warsh-fed-october-rate-decision-december-hike.html",
         "source": "CNBC",
@@ -501,6 +489,18 @@
         "source": "CNBC",
         "date": "Wed, 28 Oct 2026 21:31:46 GMT",
         "ko": "다음은 연방준비제도 (Fed) 금리 결정 및 워시 기자회견의 5가지 주요 내용입니다.",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "Bessent says 'not necessarily' a mistake if the Fed hikes again",
+        "link": "https://www.cnbc.com/2026/10/28/scott-bessent-interview.html",
+        "source": "CNBC",
+        "date": "Wed, 28 Oct 2026 21:06:37 GMT",
+        "ko": "베센트는 연준이 다시 하이킹을 한다면 '반드시 그렇지는 않다' 고 말한다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgcCnS9MEkLtz21grrqdT\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgcCnSdsZgXg9Ebn6apaW\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgcCnT1gsNsSQr2U2JePk\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgcGXxBv7cgT7K1iaFqgx\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgcGXxW2W7pRLr4kYg2dW\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgcGXxifQZ6vwmapRnWsf\"}"
   ]
 }
