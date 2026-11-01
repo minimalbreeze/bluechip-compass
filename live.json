@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-31T23:20:05.224Z",
+  "asOf": "2026-11-01T00:20:24.930Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -20,9 +20,9 @@
     },
     "KRW=X": {
       "price": 1335.1,
-      "prev": 1337.97998046875,
-      "chg": -0.22,
-      "prevDay": "2026-10-30",
+      "prev": 1335.0999755859375,
+      "chg": 0,
+      "prevDay": "2026-10-31",
       "basis": "prev-close-bar",
       "time": "2026-10-31T03:30:33.000Z"
     },
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgbAuy4Rd"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgbFWntB7"
   },
   "stocks": {
     "kr": {
@@ -368,10 +368,10 @@
   "news": {
     "kr": [
       {
-        "title": "이달 채권시장 전망은…수급 부담에도 위험회피발 강세 전망도",
-        "link": "https://www.yna.co.kr/view/AKR20261031019400008",
+        "title": "[속보] 반도체 10월 수출 564억달러…2개월 연속 500억달러대",
+        "link": "https://www.yna.co.kr/view/AKR20261101014000003",
         "source": "연합뉴스",
-        "date": "Sun, 1 Nov 2026 06:30:01 +0900",
+        "date": "Sun, 1 Nov 2026 09:00:33 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -401,13 +401,13 @@
         "by": "rules"
       },
       {
-        "title": "다시 변동성 커지는 증시…코스피 지난달 -16%, 역대 일곱번째",
-        "link": "https://www.yna.co.kr/view/AKR20261031026200008",
+        "title": "이달 채권시장 전망은…수급 부담에도 위험회피발 강세 전망도",
+        "link": "https://www.yna.co.kr/view/AKR20261031019400008",
         "source": "연합뉴스",
-        "date": "Sun, 1 Nov 2026 06:25:00 +0900",
+        "date": "Sun, 1 Nov 2026 06:30:01 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -2944,7 +2944,6 @@
       "2026-11-01": 724.38
     },
     "KRW=X": {
-      "2026-10-20": 1326.24,
       "2026-10-21": 1326.11,
       "2026-10-22": 1325.69,
       "2026-10-23": 1323.66,
@@ -2955,7 +2954,8 @@
       "2026-10-28": 1342.2,
       "2026-10-29": 1338.62,
       "2026-10-30": 1333.44,
-      "2026-10-31": 1335.1
+      "2026-10-31": 1335.1,
+      "2026-11-01": 1335.1
     },
     "^GSPC": {
       "2026-10-20": 7712.57,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgbAuy4RddHqZ2SAmrKeK\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgbAuyR1MKCcJFEbF2nKr\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgbAuyk6XWEmcEwjMn3ab\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgbFWntB7zMWhmWdd75mf\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgbFWoDGYF8ja58TGB11y\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgbFWoX8PrHT1Hwvs4Axe\"}"
   ]
 }
