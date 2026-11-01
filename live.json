@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-01T01:20:48.031Z",
+  "asOf": "2026-11-01T02:21:15.429Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgbL7sA6S"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgbQjG4Bw"
   },
   "stocks": {
     "kr": {
@@ -401,17 +401,6 @@
         "by": "rules"
       },
       {
-        "title": "이달 채권시장 전망은…수급 부담에도 위험회피발 강세 전망도",
-        "link": "https://www.yna.co.kr/view/AKR20261031019400008",
-        "source": "연합뉴스",
-        "date": "Sun, 1 Nov 2026 06:30:01 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
         "title": "코스피 힘 못 쓰는데 2.8조 몰렸다…개미들 꽂힌 '이 상품' [이수의 ETF줌인]",
         "link": "https://www.hankyung.com/article/2026103061976",
         "source": "한국경제",
@@ -427,6 +416,17 @@
         "link": "https://www.mk.co.kr/news/stock/12192467",
         "source": "매일경제",
         "date": "Sat, 31 Oct 2026 18:13:26 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "2027년 경제, 반도체 업황이 최대 변수",
+        "link": "https://www.hankyung.com/article/202610281094i",
+        "source": "한국경제",
+        "date": "Sat, 31 Oct 2026 12:00:05 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgbL7sA6Sf5Wj29JcXZtw\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgbL7sa9UPJtppBQMGgLX\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgbL7sqXB65hbMVMiSGch\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgbQjG4BwDzstvte7AbJd\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgbQjGLZX3TLZ78Hwcc5W\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgbQjGaSkPP4Y1D1qH2DA\"}"
   ]
 }
