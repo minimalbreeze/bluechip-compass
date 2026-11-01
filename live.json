@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-01T23:46:04.712Z",
+  "asOf": "2026-11-01T23:55:39.692Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-30T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1333.3,
+      "price": 1332.38,
       "prev": 1335.1,
-      "chg": -0.13,
+      "chg": -0.2,
       "prevDay": "2026-10-31",
       "basis": "prev-close-memo",
-      "time": "2026-11-01T23:45:54.000Z"
+      "time": "2026-11-01T23:55:31.000Z"
     },
     "^GSPC": {
       "price": 7580.07,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.05
+    "pct": 0.046
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": 9.31
     },
     "KRW=X": {
-      "last": 1333.3,
+      "last": 1332.38,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.05,
-      "chg3m": -6.18
+      "pct52": 0.046,
+      "chg3m": -6.25
     },
     "^GSPC": {
       "last": 7580.07,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgd6hqRFU"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgd7SE1U1"
   },
   "stocks": {
     "kr": {
@@ -368,13 +368,13 @@
   "news": {
     "kr": [
       {
-        "title": "IBK증권, 한미약품 목표가↑…\"AI 활용해 신약 개발효율 개선\"",
-        "link": "https://www.yna.co.kr/view/AKR20261102021000008",
+        "title": "\"반도체 자사주매입은 주가하락 완충 역할…관건은 외국인 수급\"",
+        "link": "https://www.yna.co.kr/view/AKR20261102023000008",
         "source": "연합뉴스",
-        "date": "Mon, 2 Nov 2026 08:29:40 +0900",
+        "date": "Mon, 2 Nov 2026 08:43:06 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -401,10 +401,10 @@
         "by": "rules"
       },
       {
-        "title": "대신증권 \"GS건설, 내년부터 수익성 정상화 기대\"",
-        "link": "https://www.yna.co.kr/view/AKR20261102020500008",
+        "title": "iM증권 \"日무라타, MLCC 가격인상…삼성전기 등에 낙수효과\"",
+        "link": "https://www.yna.co.kr/view/AKR20261102023300008",
         "source": "연합뉴스",
-        "date": "Mon, 2 Nov 2026 08:28:26 +0900",
+        "date": "Mon, 2 Nov 2026 08:42:34 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -2955,7 +2955,7 @@
       "2026-10-29": 1338.62,
       "2026-10-30": 1333.44,
       "2026-10-31": 1335.1,
-      "2026-11-01": 1333.3
+      "2026-11-01": 1332.38
     },
     "^GSPC": {
       "2026-10-21": 7757.17,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgd6hqRFU8uM95wji4tNM\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgd6hqxyokDkmVReuU5KT\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgd6hrHqTNzA7Qx8xiqnq\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgd7SE1U1a6aZW2evFXUW\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgd7SEN3kscZ6JqqJ72xA\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgd7SEdBBULb13Xfmnm2a\"}"
   ]
 }
