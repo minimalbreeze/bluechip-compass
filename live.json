@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-01T22:55:17.183Z",
+  "asOf": "2026-11-01T23:46:04.712Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-30T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1332.65,
+      "price": 1333.3,
       "prev": 1335.1,
-      "chg": -0.18,
+      "chg": -0.13,
       "prevDay": "2026-10-31",
       "basis": "prev-close-memo",
-      "time": "2026-11-01T22:55:06.000Z"
+      "time": "2026-11-01T23:45:54.000Z"
     },
     "^GSPC": {
       "price": 7580.07,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.047
+    "pct": 0.05
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": 9.31
     },
     "KRW=X": {
-      "last": 1332.65,
+      "last": 1333.3,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.047,
-      "chg3m": -6.23
+      "pct52": 0.05,
+      "chg3m": -6.18
     },
     "^GSPC": {
       "last": 7580.07,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgd2qCU11"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgd6hqRFU"
   },
   "stocks": {
     "kr": {
@@ -368,10 +368,10 @@
   "news": {
     "kr": [
       {
-        "title": "롯데마트, 외국인 겨냥 '오뚜기 잡채 K-자개 에디션' 2종 출시",
-        "link": "https://www.yna.co.kr/view/AKR20261101036100030",
+        "title": "IBK증권, 한미약품 목표가↑…\"AI 활용해 신약 개발효율 개선\"",
+        "link": "https://www.yna.co.kr/view/AKR20261102021000008",
         "source": "연합뉴스",
-        "date": "Mon, 2 Nov 2026 06:00:02 +0900",
+        "date": "Mon, 2 Nov 2026 08:29:40 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -379,10 +379,10 @@
         "by": "rules"
       },
       {
-        "title": "\"에이피알, 원화 강세에 실적 부진…목표가↓\"-한국",
-        "link": "https://www.hankyung.com/article/2026110289606",
+        "title": "월매출 신기록 쓴 롯데관광개발…4분기 실적 기대감 '쑥'",
+        "link": "https://www.hankyung.com/article/202611029031i",
         "source": "한국경제",
-        "date": "Mon, 02 Nov 2026 07:33:26 +0900",
+        "date": "Mon, 02 Nov 2026 08:10:59 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
@@ -390,43 +390,43 @@
         "by": "rules"
       },
       {
-        "title": "늘 자신감 넘치는 우리 회사 CFO님 … 증시 예측엔 낙제점인 이유",
-        "link": "https://www.mk.co.kr/news/stock/12192768",
+        "title": "“파트론, 내년 스마트폰 수요 부진에 실적 역성장 전망”…투자의견·목표가↓",
+        "link": "https://www.mk.co.kr/news/stock/12193084",
         "source": "매일경제",
-        "date": "Mon, 02 Nov 2026 04:30:00 +09:00",
+        "date": "Mon, 02 Nov 2026 08:32:58 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "내년 공시가 상승 강북이 주도하나…현실화율·세제개편안 변수",
-        "link": "https://www.yna.co.kr/view/AKR20261101044700003",
+        "title": "대신증권 \"GS건설, 내년부터 수익성 정상화 기대\"",
+        "link": "https://www.yna.co.kr/view/AKR20261102020500008",
         "source": "연합뉴스",
-        "date": "Mon, 2 Nov 2026 05:55:01 +0900",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": null,
-        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
-        "by": "rules"
-      },
-      {
-        "title": "“연말까지 빅 이벤트 줄줄이…소비·헬스케어·코스닥 분산할 만”",
-        "link": "https://www.hankyung.com/article/202611018418i",
-        "source": "한국경제",
-        "date": "Mon, 02 Nov 2026 07:20:02 +0900",
+        "date": "Mon, 2 Nov 2026 08:28:26 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "“운동화 선택지 많지만 이건 유일”…주가 76% 폭등한 ‘구멍숭숭’ 못난이 신발",
-        "link": "https://www.mk.co.kr/news/stock/12193024",
+        "title": "\"반도체 자사주 매입, 하단 지지 효과 있지만…반등은 外人 관건\"-키움",
+        "link": "https://www.hankyung.com/article/2026110289946",
+        "source": "한국경제",
+        "date": "Mon, 02 Nov 2026 08:08:47 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "“SK하이닉스, 목표주가 350만원”…‘역사적 저평가’ 해소될 거라는데",
+        "link": "https://www.mk.co.kr/news/stock/12193078",
         "source": "매일경제",
-        "date": "Sun, 01 Nov 2026 21:12:44 +09:00",
+        "date": "Mon, 02 Nov 2026 08:15:59 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -2955,7 +2955,7 @@
       "2026-10-29": 1338.62,
       "2026-10-30": 1333.44,
       "2026-10-31": 1335.1,
-      "2026-11-01": 1332.65
+      "2026-11-01": 1333.3
     },
     "^GSPC": {
       "2026-10-21": 7757.17,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgd2qCU11wi7V2oKUswsP\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgd2qCjdCqmBwqxrAPmjB\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgd2qCu3rhnvdqoPXw6Bj\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgd6hqRFU8uM95wji4tNM\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgd6hqxyokDkmVReuU5KT\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgd6hrHqTNzA7Qx8xiqnq\"}"
   ]
 }
