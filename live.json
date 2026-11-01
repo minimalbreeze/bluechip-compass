@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-01T21:54:54.980Z",
+  "asOf": "2026-11-01T22:45:38.879Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-30T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1333.44,
+      "price": 1332.65,
       "prev": 1335.1,
-      "chg": -0.12,
+      "chg": -0.18,
       "prevDay": "2026-10-31",
       "basis": "prev-close-memo",
-      "time": "2026-11-01T21:25:03.000Z"
+      "time": "2026-11-01T22:45:29.000Z"
     },
     "^GSPC": {
       "price": 7580.07,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.05
+    "pct": 0.047
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": 9.31
     },
     "KRW=X": {
-      "last": 1333.44,
+      "last": 1332.65,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.05,
-      "chg3m": -6.17
+      "pct52": 0.047,
+      "chg3m": -6.23
     },
     "^GSPC": {
       "last": 7580.07,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgcxEC2Gc"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgd26ZcYW"
   },
   "stocks": {
     "kr": {
@@ -379,13 +379,13 @@
         "by": "rules"
       },
       {
-        "title": "증시 급락했지만…\"조정 마무리 단계\" 바닥론도",
-        "link": "https://www.hankyung.com/article/2026110185661",
+        "title": "\"에이피알, 원화 강세에 실적 부진…목표가↓\"-한국",
+        "link": "https://www.hankyung.com/article/2026110289606",
         "source": "한국경제",
-        "date": "Sun, 01 Nov 2026 18:19:03 +0900",
+        "date": "Mon, 02 Nov 2026 07:33:26 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -412,10 +412,10 @@
         "by": "rules"
       },
       {
-        "title": "환율·채권, 무역 흑자 vs 고유가…환율 '줄다리기'",
-        "link": "https://www.hankyung.com/article/2026110185401",
+        "title": "“연말까지 빅 이벤트 줄줄이…소비·헬스케어·코스닥 분산할 만”",
+        "link": "https://www.hankyung.com/article/202611018418i",
         "source": "한국경제",
-        "date": "Sun, 01 Nov 2026 17:58:00 +0900",
+        "date": "Mon, 02 Nov 2026 07:20:02 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -2955,7 +2955,7 @@
       "2026-10-29": 1338.62,
       "2026-10-30": 1333.44,
       "2026-10-31": 1335.1,
-      "2026-11-01": 1333.44
+      "2026-11-01": 1332.65
     },
     "^GSPC": {
       "2026-10-21": 7757.17,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgcxEC2Gc1R34pi4k4cct\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgcxECGANt3xNzUGt4jhH\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgcxECS5mHVYeuHik4w1n\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgd26ZcYWZeFUdWW9hn4k\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgd26a1cE3KZBNAs2g1Xd\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgd26aKi1gSdmNiiybthg\"}"
   ]
 }
