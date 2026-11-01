@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-01T04:21:57.624Z",
+  "asOf": "2026-11-01T05:22:21.900Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -44,18 +44,18 @@
     },
     "^VIX": {
       "price": 19.42,
-      "prev": 19.420000076293945,
+      "prev": 19.42,
       "chg": 0,
-      "prevDay": "2026-10-30",
-      "basis": "prev-close-bar",
+      "prevDay": "2026-10-31",
+      "basis": "prev-close-memo",
       "time": "2026-10-30T20:15:01.000Z"
     },
     "^TNX": {
       "price": 4.929,
-      "prev": 4.928999900817871,
+      "prev": 4.929,
       "chg": 0,
-      "prevDay": "2026-10-30",
-      "basis": "prev-close-bar",
+      "prevDay": "2026-10-31",
+      "basis": "prev-close-memo",
       "time": "2026-10-30T18:59:54.000Z"
     }
   },
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgbZw7RAw"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgbeYGMNr"
   },
   "stocks": {
     "kr": {
@@ -379,13 +379,13 @@
         "by": "rules"
       },
       {
-        "title": "거래소, 저PBR 상장사 151곳 첫 공표…현대제철·이마트 등 포함",
-        "link": "https://www.hankyung.com/article/2026103177206",
+        "title": "美 중간선거 D-2…누가 이겨야 코스피에 유리할까 [노정동의 어쩌다 투자자]",
+        "link": "https://www.hankyung.com/article/2026103175746",
         "source": "한국경제",
-        "date": "Sun, 01 Nov 2026 12:01:02 +0900",
+        "date": "Sun, 01 Nov 2026 13:00:04 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -412,13 +412,13 @@
         "by": "rules"
       },
       {
-        "title": "연금 고수들, 美 지수 대신 코스피200·반도체 담았다",
-        "link": "https://www.hankyung.com/article/202611018112i",
+        "title": "거래소, 저PBR 상장사 151곳 첫 공표…현대제철·이마트 등 포함",
+        "link": "https://www.hankyung.com/article/2026103177206",
         "source": "한국경제",
-        "date": "Sun, 01 Nov 2026 10:41:31 +0900",
+        "date": "Sun, 01 Nov 2026 12:01:02 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -2986,7 +2986,6 @@
       "2026-11-01": 25436.998
     },
     "^VIX": {
-      "2026-10-20": 17.31,
       "2026-10-21": 16.68,
       "2026-10-22": 19.03,
       "2026-10-23": 19.45,
@@ -2997,10 +2996,10 @@
       "2026-10-28": 16.91,
       "2026-10-29": 17.2,
       "2026-10-30": 19.42,
-      "2026-10-31": 19.42
+      "2026-10-31": 19.42,
+      "2026-11-01": 19.42
     },
     "^TNX": {
-      "2026-10-20": 5.117,
       "2026-10-21": 5.146,
       "2026-10-22": 4.953,
       "2026-10-23": 4.988,
@@ -3011,7 +3010,8 @@
       "2026-10-28": 5.045,
       "2026-10-29": 4.989,
       "2026-10-30": 4.929,
-      "2026-10-31": 4.929
+      "2026-10-31": 4.929,
+      "2026-11-01": 4.929
     },
     "105560.KS": {
       "2026-10-21": 160600,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgbZw7RAwCXLCmvbG5mvX\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgbZw7m1CAKVVq6Eg5kmH\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgbZw82t6hyd3ZjX2sHiJ\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgbeYGMNr3KHTbxhmfEj9\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgbeYGrsupqn6biiGKbnJ\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgbeYHKR6KUBvrnMLngqe\"}"
   ]
 }
