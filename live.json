@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-01T20:54:32.206Z",
+  "asOf": "2026-11-01T21:54:54.980Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -24,7 +24,7 @@
       "chg": -0.12,
       "prevDay": "2026-10-31",
       "basis": "prev-close-memo",
-      "time": "2026-11-01T14:23:04.000Z"
+      "time": "2026-11-01T21:25:03.000Z"
     },
     "^GSPC": {
       "price": 7580.07,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgcRjogpp"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgcxEC2Gc"
   },
   "stocks": {
     "kr": {
@@ -368,13 +368,13 @@
   "news": {
     "kr": [
       {
-        "title": "[부고] 정연준(금호건설 재무본부 전무)씨 부친상",
-        "link": "https://www.yna.co.kr/view/AKR20261101023400003",
+        "title": "롯데마트, 외국인 겨냥 '오뚜기 잡채 K-자개 에디션' 2종 출시",
+        "link": "https://www.yna.co.kr/view/AKR20261101036100030",
         "source": "연합뉴스",
-        "date": "Sun, 1 Nov 2026 12:01:19 +0900",
+        "date": "Mon, 2 Nov 2026 06:00:02 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -401,14 +401,14 @@
         "by": "rules"
       },
       {
-        "title": "저PBR 151개사 명단 첫공개…현대제철 등 시총 1조 이상도 포함",
-        "link": "https://www.yna.co.kr/view/AKR20261031025200008",
+        "title": "내년 공시가 상승 강북이 주도하나…현실화율·세제개편안 변수",
+        "link": "https://www.yna.co.kr/view/AKR20261101044700003",
         "source": "연합뉴스",
-        "date": "Sun, 1 Nov 2026 12:00:12 +0900",
-        "act": "none",
-        "lasting": "temporary",
+        "date": "Mon, 2 Nov 2026 05:55:01 +0900",
+        "act": "watch",
+        "lasting": "structural",
         "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
         "by": "rules"
       },
       {
@@ -3387,7 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgcsd94zHgPxTbrNhcLNN\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgcsd9Ra18zyAq8q6vc1u\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgcxEC2Gc1R34pi4k4cct\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgcxECGANt3xNzUGt4jhH\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgcxECS5mHVYeuHik4w1n\"}"
   ]
 }
