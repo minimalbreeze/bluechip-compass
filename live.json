@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-02T08:47:50.143Z",
+  "asOf": "2026-11-02T09:48:15.151Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-02T06:33:00.000Z"
     },
     "KRW=X": {
-      "price": 1341.42,
+      "price": 1341.49,
       "prev": 1332.38,
       "chg": 0.68,
       "prevDay": "2026-11-01",
       "basis": "prev-close-memo",
-      "time": "2026-11-02T08:47:34.000Z"
+      "time": "2026-11-02T09:48:01.000Z"
     },
     "^GSPC": {
       "price": 7580.07,
@@ -43,12 +43,12 @@
       "time": "2026-10-30T21:15:59.000Z"
     },
     "^VIX": {
-      "price": 19.05,
+      "price": 18.9,
       "prev": 19.42,
-      "chg": -1.91,
+      "chg": -2.68,
       "prevDay": "2026-11-01",
       "basis": "prev-close-memo",
-      "time": "2026-11-02T08:32:31.000Z"
+      "time": "2026-11-02T09:33:01.000Z"
     },
     "^TNX": {
       "price": 4.929,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.084
+    "pct": 0.085
   },
   "hist": {
     "^KS11": {
@@ -80,10 +80,10 @@
       "chg3m": 13.89
     },
     "KRW=X": {
-      "last": 1341.42,
+      "last": 1341.49,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.084,
+      "pct52": 0.085,
       "chg3m": -5.61
     },
     "^GSPC": {
@@ -101,11 +101,11 @@
       "chg3m": -4.32
     },
     "^VIX": {
-      "last": 19.05,
+      "last": 18.9,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.317,
-      "chg3m": 25.74
+      "pct52": 0.309,
+      "chg3m": 24.75
     },
     "^TNX": {
       "last": 4.93,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgdp1xG2y"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgdtdAoHX"
   },
   "stocks": {
     "kr": {
@@ -379,13 +379,13 @@
         "by": "rules"
       },
       {
-        "title": "인니 데이터센터 완공에 8% 뛴 LG CNS…증권가 \"성장 여력 충분\"",
-        "link": "https://www.hankyung.com/article/202611020394i",
+        "title": "FCF 높은 코스닥 유망 상장사는 [한경 프리미엄9 TODAY]",
+        "link": "https://www.hankyung.com/article/2026110210461",
         "source": "한국경제",
-        "date": "Mon, 02 Nov 2026 16:26:22 +0900",
+        "date": "Mon, 02 Nov 2026 17:35:45 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -412,24 +412,24 @@
         "by": "rules"
       },
       {
-        "title": "\"언제 반등할까\" 시총 100조 뚫린 현대차·기아…증권가 평가는",
-        "link": "https://www.hankyung.com/article/202611020629i",
+        "title": "삼전 특별배당 30조…ETF마다 분배금 지급 제각각",
+        "link": "https://www.hankyung.com/article/2026110209871",
         "source": "한국경제",
-        "date": "Mon, 02 Nov 2026 16:12:59 +0900",
+        "date": "Mon, 02 Nov 2026 17:29:48 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "SK스퀘어, 4.3조원 주주환원…하이닉스 배당 수입 70% 푼다",
-        "link": "https://www.mk.co.kr/news/stock/12193825",
+        "title": "이틀간 1조원 사들인 연기금 … 인텔 쇼크에도 코스피 반등",
+        "link": "https://www.mk.co.kr/news/stock/12193826",
         "source": "매일경제",
         "date": "Mon, 02 Nov 2026 17:38:24 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -448,11 +448,11 @@
         "by": "rules"
       },
       {
-        "title": "Marine sniper turned macro strategist says this bull market has six to 12 months left. Here’s his playbook.",
-        "link": "https://www.marketwatch.com/story/marine-sniper-turned-macro-strategist-says-this-bull-market-has-six-to-12-months-left-heres-his-playbook-8b48ce6e?mod=mw_rss_topstories",
+        "title": "Tech stocks have made big V-shaped rebounds five times in 30 months — and now Deutsche Bank forecasts another bounce",
+        "link": "https://www.marketwatch.com/story/tech-stocks-have-made-big-v-shaped-rebounds-five-times-in-30-months-and-now-deutsche-bank-forecasts-another-bounce-0a552a62?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 02 Nov 2026 07:25:00 GMT",
-        "ko": "마린 스나이퍼로 변신한 매크로 전략가는 이 황소 시장이 6 ~ 12개월 남았다고 말합니다. 여기 그의 플레이북이 있습니다.",
+        "date": "Mon, 02 Nov 2026 09:47:00 GMT",
+        "ko": "기술주들은 30개월 동안 5번의 큰 V자 반등을 이루었으며, 이제 도이체방크는 또 다른 반등을 예고합니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -472,11 +472,11 @@
         "by": "rules"
       },
       {
-        "title": "This is the biggest threat to the AI-powered bull market",
-        "link": "https://www.marketwatch.com/story/this-is-the-biggest-threat-to-the-ai-powered-bull-market-e757ca37?mod=mw_rss_topstories",
+        "title": "The election will be good news, regardless of outcome, says Morgan Stanley’s chief stock-market strategist",
+        "link": "https://www.marketwatch.com/story/the-election-will-be-good-news-regardless-of-outcome-says-morgan-stanleys-chief-stock-market-strategist-ffa320ed?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 02 Nov 2026 00:22:00 GMT",
-        "ko": "이는 AI 기반의 황소 시장에 대한 가장 큰 위협입니다.",
+        "date": "Mon, 02 Nov 2026 09:15:00 GMT",
+        "ko": "Morgan Stanley의 수석 주식 시장 전략가는 결과에 관계없이 선거가 좋은 소식이 될 것이라고 말합니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -496,14 +496,14 @@
         "by": "rules"
       },
       {
-        "title": "Apple’s new earnings era begins at a critical time for Big Tech",
-        "link": "https://www.marketwatch.com/story/apples-new-earnings-era-begins-at-a-critical-time-for-big-tech-2236a44e?mod=mw_rss_topstories",
+        "title": "Your stock portfolio increasingly hinges on the bond market — and the midterm elections",
+        "link": "https://www.marketwatch.com/story/your-stock-portfolio-increasingly-hinges-on-the-bond-market-and-the-midterm-elections-dc1abadb?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 02 Nov 2026 00:21:00 GMT",
-        "ko": "Apple의 새로운 수익 시대는 빅 테크의 중요한 시기에 시작됩니다.",
+        "date": "Mon, 02 Nov 2026 08:56:00 GMT",
+        "ko": "귀하의 주식 포트폴리오는 점점 더 채권 시장에 달려 있습니다 — 그리고 중간 선거",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -511,8 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "‘I feel like a loser’: My stock portfolio is swinging wildly. Should I be worried?": "‘나는 패배자처럼 느껴진다’: 내 주식 포트폴리오는 거칠게 흔들리고 있다. 걱정할까?",
-    "S&P 500 at 10,000 or bust: New ETF offers investors all-or-nothing bet on the index": "10,000 또는 BUST에서 S&P 500: 새로운 ETF는 투자자들에게 전혀 또는 전혀 지수에 베팅하지 않을 것을 제안합니다.",
     "Why Nvidia’s stock is dodging the AI credit scare that is crushing Broadcom and Oracle": "엔비디아의 주식이 브로드컴과 오라클을 압도하는 인공지능 신용공포를 피하는 이유",
     "‘I feel like a loser’: My stock portfolio is swinging wildly. Is it finally time to worry?": "‘나는 패배자처럼 느껴진다’: 내 주식 포트폴리오는 거칠게 흔들리고 있다. 드디어 걱정할 시간인가?",
     "Bank earnings to shed the first light on how higher yields are affecting the economy": "높은 수익률이 경제에 미치는 영향에 대한 첫 번째 시각을 밝히기 위한 은행 수익",
@@ -810,7 +808,9 @@
     "Your stock portfolio increasingly hinges on the bond market — and the midterm elections": "귀하의 주식 포트폴리오는 점점 더 채권 시장에 달려 있습니다 — 그리고 중간 선거",
     "This is the biggest threat to the AI-powered bull market": "이는 AI 기반의 황소 시장에 대한 가장 큰 위협입니다.",
     "Apple’s new earnings era begins at a critical time for Big Tech": "Apple의 새로운 수익 시대는 빅 테크의 중요한 시기에 시작됩니다.",
-    "Marine sniper turned macro strategist says this bull market has six to 12 months left. Here’s his playbook.": "마린 스나이퍼로 변신한 매크로 전략가는 이 황소 시장이 6 ~ 12개월 남았다고 말합니다. 여기 그의 플레이북이 있습니다."
+    "Marine sniper turned macro strategist says this bull market has six to 12 months left. Here’s his playbook.": "마린 스나이퍼로 변신한 매크로 전략가는 이 황소 시장이 6 ~ 12개월 남았다고 말합니다. 여기 그의 플레이북이 있습니다.",
+    "Tech stocks have made big V-shaped rebounds five times in 30 months — and now Deutsche Bank forecasts another bounce": "기술주들은 30개월 동안 5번의 큰 V자 반등을 이루었으며, 이제 도이체방크는 또 다른 반등을 예고합니다.",
+    "The election will be good news, regardless of outcome, says Morgan Stanley’s chief stock-market strategist": "Morgan Stanley의 수석 주식 시장 전략가는 결과에 관계없이 선거가 좋은 소식이 될 것이라고 말합니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2955,7 +2955,7 @@
       "2026-10-30": 1333.44,
       "2026-10-31": 1335.1,
       "2026-11-01": 1332.38,
-      "2026-11-02": 1341.42
+      "2026-11-02": 1341.49
     },
     "^GSPC": {
       "2026-10-22": 7663.43,
@@ -2997,7 +2997,7 @@
       "2026-10-30": 19.42,
       "2026-10-31": 19.42,
       "2026-11-01": 19.42,
-      "2026-11-02": 19.05
+      "2026-11-02": 18.9
     },
     "^TNX": {
       "2026-10-22": 4.953,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgdp1xG2ysWVSdvYdKkWn\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgdp1xhKPdoJXATuN7kgb\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgdp1xzRtCo1dRgvrpgee\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgdtdAoHXbCDXjgg9cNWP\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgdtdB8sseCK9Y5GwDALe\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgdtdBSUqhRJNcKPejw45\"}"
   ]
 }
