@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-02T22:05:39.444Z",
+  "asOf": "2026-11-02T23:06:02.464Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-02T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1345.53,
+      "price": 1344.49,
       "prev": 1332.38,
-      "chg": 0.99,
+      "chg": 0.91,
       "prevDay": "2026-11-01",
       "basis": "prev-close-memo",
-      "time": "2026-11-02T22:00:43.000Z"
+      "time": "2026-11-02T23:05:48.000Z"
     },
     "^GSPC": {
       "price": 7541.4,
@@ -40,7 +40,7 @@
       "chg": -1.07,
       "prevDay": "2026-11-01",
       "basis": "prev-close-memo",
-      "time": "2026-11-02T22:05:29.000Z"
+      "time": "2026-11-02T22:15:59.000Z"
     },
     "^VIX": {
       "price": 21.15,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.102
+    "pct": 0.098
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": 9.31
     },
     "KRW=X": {
-      "last": 1345.53,
+      "last": 1344.49,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.102,
-      "chg3m": -5.32
+      "pct52": 0.098,
+      "chg3m": -5.39
     },
     "^GSPC": {
       "last": 7541.4,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgerrcB9N"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgewTfzXX"
   },
   "stocks": {
     "kr": {
@@ -368,21 +368,21 @@
   "news": {
     "kr": [
       {
-        "title": "호반, 한진칼 최대주주 가능성에…조원태, 주식 추가 매입키로(종합)",
-        "link": "https://www.yna.co.kr/view/AKR20261102091751003",
+        "title": "한양증권에서도 해킹…고객정보 등 일부 정보 유출",
+        "link": "https://www.yna.co.kr/view/AKR20261103022900008",
         "source": "연합뉴스",
-        "date": "Mon, 2 Nov 2026 18:56:04 +0900",
-        "act": "none",
-        "lasting": "temporary",
+        "date": "Tue, 3 Nov 2026 07:57:10 +0900",
+        "act": "watch",
+        "lasting": "structural",
         "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
         "by": "rules"
       },
       {
-        "title": "\"반도체 끝났나\" 했는데…'삼전닉스' 급반등하자 나온 전망 [종목+]",
-        "link": "https://www.hankyung.com/article/2026110208686",
+        "title": "주당 10만원 깨진 기아…증권사들이 '바닥론' 꺼내는 이유",
+        "link": "https://www.hankyung.com/article/202611020546i",
         "source": "한국경제",
-        "date": "Mon, 02 Nov 2026 22:00:02 +0900",
+        "date": "Tue, 03 Nov 2026 07:20:02 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -401,10 +401,21 @@
         "by": "rules"
       },
       {
-        "title": "FCF 높은 코스닥 유망 상장사는 [한경 프리미엄9 TODAY]",
-        "link": "https://www.hankyung.com/article/2026110210461",
+        "title": "[속보] 한양증권에서도 해킹…고객정보 등 일부 정보 유출",
+        "link": "https://www.yna.co.kr/view/AKR20261103021200008",
+        "source": "연합뉴스",
+        "date": "Tue, 3 Nov 2026 07:46:26 +0900",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": null,
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
+        "by": "rules"
+      },
+      {
+        "title": "국제유가 급락에도 기술주 매도세 지속…나스닥 1.07% ↓ [뉴욕증시 브리핑]",
+        "link": "https://www.hankyung.com/article/2026110315406",
         "source": "한국경제",
-        "date": "Mon, 02 Nov 2026 17:35:45 +0900",
+        "date": "Tue, 03 Nov 2026 07:09:25 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -421,17 +432,6 @@
         "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
-      },
-      {
-        "title": "삼전 특별배당 30조…ETF마다 분배금 지급 제각각",
-        "link": "https://www.hankyung.com/article/2026110209871",
-        "source": "한국경제",
-        "date": "Mon, 02 Nov 2026 17:29:48 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
       }
     ],
     "us": [
@@ -441,6 +441,30 @@
         "source": "CNBC",
         "date": "Thu, 29 Oct 2026 14:48:01 GMT",
         "ko": "유럽중앙은행은 주요 금리를 2.5% 로 보류",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "Traders rushing into a leveraged ETF to make a bullish bet on the Nasdaq-100 just got burned",
+        "link": "https://www.marketwatch.com/story/traders-rushing-into-a-leveraged-etf-to-make-a-bullish-bet-on-the-nasdaq-100-just-got-burned-d6775191?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "date": "Mon, 02 Nov 2026 22:03:00 GMT",
+        "ko": "나스닥-100에 강세를 보이기 위해 레버리지 ETF에 돌진하는 트레이더들은 방금 화상을 입었습니다.",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "Third-quarter U.S. GDP increases a better-than-expected 3.4% as September inflation accelerates",
+        "link": "https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html",
+        "source": "CNBC",
+        "date": "Thu, 29 Oct 2026 18:06:31 GMT",
+        "ko": "9월 인플레이션이 가속화됨에 따라 미국 3분기 GDP는 예상보다 더 나은 3.4% 증가",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -460,14 +484,14 @@
         "by": "rules"
       },
       {
-        "title": "Third-quarter U.S. GDP increases a better-than-expected 3.4% as September inflation accelerates",
-        "link": "https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html",
+        "title": "Analysis: Kevin Warsh is keeping Wall Street guessing. It may be his most powerful tool",
+        "link": "https://www.cnbc.com/2026/10/29/kevin-warsh-fed-october-rate-decision-december-hike.html",
         "source": "CNBC",
-        "date": "Thu, 29 Oct 2026 18:06:31 GMT",
-        "ko": "9월 인플레이션이 가속화됨에 따라 미국 3분기 GDP는 예상보다 더 나은 3.4% 증가",
+        "date": "Thu, 29 Oct 2026 17:32:34 GMT",
+        "ko": "분석: 케빈 워시 (Kevin Warsh) 는 월스트리트의 추측을 유지하고 있습니다. 그의 가장 강력한 도구일 수 있습니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -482,36 +506,11 @@
         "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
-      },
-      {
-        "title": "Analysis: Kevin Warsh is keeping Wall Street guessing. It may be his most powerful tool",
-        "link": "https://www.cnbc.com/2026/10/29/kevin-warsh-fed-october-rate-decision-december-hike.html",
-        "source": "CNBC",
-        "date": "Thu, 29 Oct 2026 17:32:34 GMT",
-        "ko": "분석: 케빈 워시 (Kevin Warsh) 는 월스트리트의 추측을 유지하고 있습니다. 그의 가장 강력한 도구일 수 있습니다.",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "Palantir earnings reveal a major AI turning point",
-        "link": "https://www.marketwatch.com/story/palantir-earnings-reveal-a-major-ai-turning-point-db766110?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "date": "Mon, 02 Nov 2026 21:09:00 GMT",
-        "ko": "Palantir 수입은 주요 AI 전환점을 보여줍니다",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
       }
     ]
   },
   "newsBy": "rules",
   "trCache": {
-    "Mired in their worst losing streak in years, small caps could be the best way for investors to play crucial CPI data": "몇 년 만에 최악의 연패를 기록한 스몰 캡은 투자자가 중요한 CPI 데이터를 플레이하는 가장 좋은 방법이 될 수 있습니다.",
     "Buy these stocks as plays on Google’s big spending, analyst says": "애널리스트는 이 주식을 Google의 대규모 지출에 대한 플레이로 구매한다고 말합니다.",
     "These stocks could be the future winners — and losers — of a massive shift in IT spending": "이러한 주식은 IT 지출의 엄청난 변화의 미래 승자이자 패자가 될 수 있습니다.",
     "Why Ciena, Lumentum and other optical stocks were among the market’s biggest losers on Monday": "월요일에 Ciena, Lumentum 및 기타 광학 주식이 시장에서 가장 큰 패자였던 이유",
@@ -810,7 +809,8 @@
     "The bond-market rally is defying the typical investing playbook. Here’s why.": "채권시장 랠리는 전형적인 투자 플레이북을 거스르고 있습니다. 그 이유는 다음과 같습니다.",
     "Wall Street’s most hated stocks are faring far better than its favorites": "월스트리트에서 가장 싫어하는 주식은 인기 주식보다 훨씬 더 잘 팔리고 있습니다.",
     "The stock market has gone nowhere for the past 5 months. It’s now looking like a bargain.": "주식 시장은 지난 5개월 동안 아무데도 가지 않았습니다. 이제 흥정처럼 보입니다.",
-    "Palantir earnings reveal a major AI turning point": "Palantir 수입은 주요 AI 전환점을 보여줍니다"
+    "Palantir earnings reveal a major AI turning point": "Palantir 수입은 주요 AI 전환점을 보여줍니다",
+    "Traders rushing into a leveraged ETF to make a bullish bet on the Nasdaq-100 just got burned": "나스닥-100에 강세를 보이기 위해 레버리지 ETF에 돌진하는 트레이더들은 방금 화상을 입었습니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2955,7 +2955,7 @@
       "2026-10-30": 1333.44,
       "2026-10-31": 1335.1,
       "2026-11-01": 1332.38,
-      "2026-11-02": 1345.53
+      "2026-11-02": 1344.49
     },
     "^GSPC": {
       "2026-10-22": 7663.43,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgerrcB9N4vFsGFJbsm3i\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgerrccC6yxqumMtYd1qu\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgerrcrL5tQsoUnuTzRRv\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgewTfzXX4Ct3rNFc7kHT\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgewTgRKbgYrmXU3HvL7z\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgewTgnuQ7CLwnxDRQ2Mw\"}"
   ]
 }
