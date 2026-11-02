@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-02T00:01:58.964Z",
+  "asOf": "2026-11-02T00:12:20.777Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-10-30T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1331.88,
+      "price": 1335.08,
       "prev": 1332.38,
-      "chg": -0.04,
+      "chg": 0.2,
       "prevDay": "2026-11-01",
       "basis": "prev-close-memo",
-      "time": "2026-11-02T00:01:53.000Z"
+      "time": "2026-11-02T00:12:10.000Z"
     },
     "^GSPC": {
       "price": 7580.07,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.043
+    "pct": 0.057
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": 9.31
     },
     "KRW=X": {
-      "last": 1331.88,
+      "last": 1335.08,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.043,
-      "chg3m": -6.28
+      "pct52": 0.057,
+      "chg3m": -6.06
     },
     "^GSPC": {
       "last": 7580.07,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgd7vBGJU"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgd8i26B4"
   },
   "stocks": {
     "kr": {
@@ -368,13 +368,13 @@
   "news": {
     "kr": [
       {
-        "title": "\"반도체 자사주매입은 주가하락 완충 역할…관건은 외국인 수급\"",
-        "link": "https://www.yna.co.kr/view/AKR20261102023000008",
+        "title": "[속보] 코스피, 1%대 하락 출발…코스닥 약세",
+        "link": "https://www.yna.co.kr/view/AKR20261102029200008",
         "source": "연합뉴스",
-        "date": "Mon, 2 Nov 2026 08:43:06 +0900",
+        "date": "Mon, 2 Nov 2026 09:02:34 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -390,7 +390,7 @@
         "by": "rules"
       },
       {
-        "title": "내년 코스피 ‘상고하저’…“하반기 자본비용 심화” [오늘나온보고서]",
+        "title": "“코스피 1년만 더 기다릴까요?”…내년 ‘상반기까지만’ 전망 나온 이유는 [오늘나온 보고서]",
         "link": "https://www.mk.co.kr/news/stock/12193096",
         "source": "매일경제",
         "date": "Mon, 02 Nov 2026 08:56:13 +09:00",
@@ -401,13 +401,13 @@
         "by": "rules"
       },
       {
-        "title": "iM증권 \"日무라타, MLCC 가격인상…삼성전기 등에 낙수효과\"",
-        "link": "https://www.yna.co.kr/view/AKR20261102023300008",
+        "title": "증권가, '3분기 환율 부담' 에이피알에 \"해외 성장 지속\"",
+        "link": "https://www.yna.co.kr/view/AKR20261102025200008",
         "source": "연합뉴스",
-        "date": "Mon, 2 Nov 2026 08:42:34 +0900",
+        "date": "Mon, 2 Nov 2026 08:55:40 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -2955,7 +2955,7 @@
       "2026-10-30": 1333.44,
       "2026-10-31": 1335.1,
       "2026-11-01": 1332.38,
-      "2026-11-02": 1331.88
+      "2026-11-02": 1335.08
     },
     "^GSPC": {
       "2026-10-21": 7757.17,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgd7vBGJU2Yf86NbDnGCa\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgd7vBjpbhuGGnrrVxHiV\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgd7vC8PJ54YTfctTh8zq\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgd8i26B4ZDjSoZtdoF2k\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgd8i2RkuHxruvuThHZdN\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgd8i2hdnG8wigZvCHfux\"}"
   ]
 }
