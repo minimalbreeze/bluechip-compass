@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-02T23:06:02.464Z",
+  "asOf": "2026-11-03T00:01:26.839Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-02T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1344.49,
-      "prev": 1332.38,
-      "chg": 0.91,
-      "prevDay": "2026-11-01",
+      "price": 1345.08,
+      "prev": 1344.49,
+      "chg": 0.04,
+      "prevDay": "2026-11-02",
       "basis": "prev-close-memo",
-      "time": "2026-11-02T23:05:48.000Z"
+      "time": "2026-11-03T00:01:19.000Z"
     },
     "^GSPC": {
       "price": 7541.4,
@@ -35,12 +35,12 @@
       "time": "2026-11-02T21:50:59.000Z"
     },
     "^IXIC": {
-      "price": 25164.316,
+      "price": 25164.363,
       "prev": 25436.998,
       "chg": -1.07,
       "prevDay": "2026-11-01",
       "basis": "prev-close-memo",
-      "time": "2026-11-02T22:15:59.000Z"
+      "time": "2026-11-02T23:18:15.000Z"
     },
     "^VIX": {
       "price": 21.15,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.098
+    "pct": 0.101
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": 9.31
     },
     "KRW=X": {
-      "last": 1344.49,
+      "last": 1345.3,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.098,
-      "chg3m": -5.39
+      "pct52": 0.101,
+      "chg3m": -5.34
     },
     "^GSPC": {
       "last": 7541.4,
@@ -94,7 +94,7 @@
       "chg3m": -2.36
     },
     "^IXIC": {
-      "last": 25164.32,
+      "last": 25164.36,
       "low52": 20794.64,
       "high52": 27599.79,
       "pct52": 0.642,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgewTfzXX"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgf1giuy8"
   },
   "stocks": {
     "kr": {
@@ -368,14 +368,14 @@
   "news": {
     "kr": [
       {
-        "title": "한양증권에서도 해킹…고객정보 등 일부 정보 유출",
-        "link": "https://www.yna.co.kr/view/AKR20261103022900008",
+        "title": "한투증권, 삼성전자 목표가 57만→44만원…\"추가 상승동력 필요\"",
+        "link": "https://www.yna.co.kr/view/AKR20261103031400008",
         "source": "연합뉴스",
-        "date": "Tue, 3 Nov 2026 07:57:10 +0900",
-        "act": "watch",
-        "lasting": "structural",
+        "date": "Tue, 3 Nov 2026 08:45:35 +0900",
+        "act": "none",
+        "lasting": "temporary",
         "scope": null,
-        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
@@ -390,25 +390,25 @@
         "by": "rules"
       },
       {
-        "title": "“일본 투자자들 부럽네”…앤트로픽, 4.7조원 규모 공모주 판다",
-        "link": "https://www.mk.co.kr/news/stock/12193997",
+        "title": "“S-Oil 신고가 경신 관건은 배당·샤힌” [오늘 나온 보고서]",
+        "link": "https://www.mk.co.kr/news/stock/12194342",
         "source": "매일경제",
-        "date": "Mon, 02 Nov 2026 22:29:05 +09:00",
+        "date": "Tue, 03 Nov 2026 09:00:55 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "[속보] 한양증권에서도 해킹…고객정보 등 일부 정보 유출",
-        "link": "https://www.yna.co.kr/view/AKR20261103021200008",
+        "title": "하나증권, S-OIL 목표가 하향…\"영업익 줄고 주가 박스권 전망\"",
+        "link": "https://www.yna.co.kr/view/AKR20261103031000008",
         "source": "연합뉴스",
-        "date": "Tue, 3 Nov 2026 07:46:26 +0900",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": null,
-        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
+        "date": "Tue, 3 Nov 2026 08:43:01 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
@@ -423,14 +423,14 @@
         "by": "rules"
       },
       {
-        "title": "늘 자신감 넘치는 우리회사 CFO님…증시 예측엔 낙제점인 이유 [너드의 투자법]",
-        "link": "https://www.mk.co.kr/news/stock/12193967",
+        "title": "한양증권서도 개인정보 유출…금투업권 해킹 비상",
+        "link": "https://www.mk.co.kr/news/stock/12194338",
         "source": "매일경제",
-        "date": "Mon, 02 Nov 2026 21:49:26 +09:00",
-        "act": "none",
-        "lasting": "temporary",
+        "date": "Tue, 03 Nov 2026 09:00:12 +09:00",
+        "act": "watch",
+        "lasting": "structural",
         "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
         "by": "rules"
       }
     ],
@@ -2944,7 +2944,6 @@
       "2026-11-03": 734.36
     },
     "KRW=X": {
-      "2026-10-22": 1325.69,
       "2026-10-23": 1323.66,
       "2026-10-24": 1325.4,
       "2026-10-25": 1323.43,
@@ -2955,7 +2954,8 @@
       "2026-10-30": 1333.44,
       "2026-10-31": 1335.1,
       "2026-11-01": 1332.38,
-      "2026-11-02": 1344.49
+      "2026-11-02": 1344.49,
+      "2026-11-03": 1345.08
     },
     "^GSPC": {
       "2026-10-22": 7663.43,
@@ -2983,7 +2983,7 @@
       "2026-10-30": 25436.998,
       "2026-10-31": 25436.998,
       "2026-11-01": 25436.998,
-      "2026-11-02": 25164.316
+      "2026-11-02": 25164.363
     },
     "^VIX": {
       "2026-10-22": 19.03,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgewTfzXX4Ct3rNFc7kHT\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgewTgRKbgYrmXU3HvL7z\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgewTgnuQ7CLwnxDRQ2Mw\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgf1giuy8hhR8SRCZoDYe\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgf1gjNFtrkpXddjdy5gp\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgf1gjqHxtqdF3npffNoL\"}"
   ]
 }
