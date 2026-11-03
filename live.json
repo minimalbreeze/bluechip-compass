@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-03T08:47:49.342Z",
+  "asOf": "2026-11-03T09:48:12.936Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-03T06:33:00.000Z"
     },
     "KRW=X": {
-      "price": 1343.95,
+      "price": 1343.81,
       "prev": 1325.52001953125,
-      "chg": 1.39,
+      "chg": 1.38,
       "prevDay": "2026-11-02",
       "basis": "prev-close-bar",
-      "time": "2026-11-03T08:47:41.000Z"
+      "time": "2026-11-03T09:47:57.000Z"
     },
     "^GSPC": {
       "price": 7541.4,
@@ -43,12 +43,12 @@
       "time": "2026-11-02T23:18:15.000Z"
     },
     "^VIX": {
-      "price": 21.74,
+      "price": 21.61,
       "prev": 21.149999618530273,
-      "chg": 2.79,
+      "chg": 2.17,
       "prevDay": "2026-11-02",
       "basis": "prev-close-bar",
-      "time": "2026-11-03T08:32:31.000Z"
+      "time": "2026-11-03T09:33:01.000Z"
     },
     "^TNX": {
       "price": 4.894,
@@ -80,11 +80,11 @@
       "chg3m": -2.14
     },
     "KRW=X": {
-      "last": 1343.95,
+      "last": 1343.81,
       "low52": 1321.76,
       "high52": 1554.48,
       "pct52": 0.095,
-      "chg3m": -5.51
+      "chg3m": -5.52
     },
     "^GSPC": {
       "last": 7541.4,
@@ -101,11 +101,11 @@
       "chg3m": -4.55
     },
     "^VIX": {
-      "last": 21.74,
+      "last": 21.61,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.47,
-      "chg3m": 45.91
+      "pct52": 0.463,
+      "chg3m": 45.03
     },
     "^TNX": {
       "last": 4.89,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgfhpogqs"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgfnRvUZm"
   },
   "stocks": {
     "kr": {
@@ -368,6 +368,39 @@
   "news": {
     "kr": [
       {
+        "title": "삼성생명, 에스원 주식 13만7천주 매각…금산법 위반 우려에",
+        "link": "https://www.yna.co.kr/view/AKR20261103172400002",
+        "source": "연합뉴스",
+        "date": "Tue, 3 Nov 2026 18:12:56 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "호실적 낸 팰런티어 차익실현 매물에 뚝",
+        "link": "https://www.hankyung.com/article/2026110336531",
+        "source": "한국경제",
+        "date": "Tue, 03 Nov 2026 17:54:32 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "비트맥스, 216억원 규모 유상증자 실시",
+        "link": "https://www.mk.co.kr/news/stock/12195166",
+        "source": "매일경제",
+        "date": "Tue, 03 Nov 2026 17:56:24 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
         "title": "비트맥스, 215억원 유상증자…한국첨단소재에 제3자배정",
         "link": "https://www.yna.co.kr/view/AKR20261103159900008",
         "source": "연합뉴스",
@@ -379,10 +412,10 @@
         "by": "rules"
       },
       {
-        "title": "주식 팔지도 않았는데 양도세 내라고?…스페이스X와 합병 소식에 테슬라 주주들 비상",
-        "link": "https://www.hankyung.com/article/202611033376i",
+        "title": "\"너무 비싸게 샀나\"…마벨, 루멘텀 인수발표 후 급락",
+        "link": "https://www.hankyung.com/article/2026110336551",
         "source": "한국경제",
-        "date": "Tue, 03 Nov 2026 16:56:24 +0900",
+        "date": "Tue, 03 Nov 2026 17:54:12 +0900",
         "act": "watch",
         "lasting": "structural",
         "scope": null,
@@ -390,46 +423,13 @@
         "by": "rules"
       },
       {
-        "title": "\"고금리 더 간다 … 똘똘한 종목 쥐고 일단 버텨라\"",
-        "link": "https://www.mk.co.kr/news/stock/12195134",
+        "title": "한울앤제주, 22억원 규모 유상증자 실시",
+        "link": "https://www.mk.co.kr/news/stock/12195165",
         "source": "매일경제",
-        "date": "Tue, 03 Nov 2026 17:43:38 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "국고채 금리, 위험회피 속 외국인 선물 매수에 일제히 하락(종합)",
-        "link": "https://www.yna.co.kr/view/AKR20261103155151008",
-        "source": "연합뉴스",
-        "date": "Tue, 3 Nov 2026 16:55:02 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "외국인 관광객 증가에도 주가 반토막…호텔신라 반등 조건은",
-        "link": "https://www.hankyung.com/article/202611032670i",
-        "source": "한국경제",
-        "date": "Tue, 03 Nov 2026 16:26:36 +0900",
+        "date": "Tue, 03 Nov 2026 17:56:24 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "알테오젠 분기최대 실적 … KAI는 매출 50% 늘었네",
-        "link": "https://www.mk.co.kr/news/stock/12195133",
-        "source": "매일경제",
-        "date": "Tue, 03 Nov 2026 17:43:37 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -2955,7 +2955,7 @@
       "2026-10-31": 1335.1,
       "2026-11-01": 1332.38,
       "2026-11-02": 1344.49,
-      "2026-11-03": 1343.95
+      "2026-11-03": 1343.81
     },
     "^GSPC": {
       "2026-10-23": 7623.68,
@@ -2997,7 +2997,7 @@
       "2026-10-31": 19.42,
       "2026-11-01": 19.42,
       "2026-11-02": 21.15,
-      "2026-11-03": 21.74
+      "2026-11-03": 21.61
     },
     "^TNX": {
       "2026-10-23": 4.988,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgfhpogqsi5GmMfGSxpqU\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgfhppDqQee25DvWpJ6v6\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgfhppe8tcXuw9ic8Tjet\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgfnRvUZmcySEKgYZ9DAm\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgfnRvq9pWkzJ1tgNhyvJ\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgfnRw7XNns9qA7Z9TvJt\"}"
   ]
 }
