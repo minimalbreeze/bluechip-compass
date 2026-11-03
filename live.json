@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-03T13:21:54.395Z",
+  "asOf": "2026-11-03T13:32:19.805Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-03T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1344.5,
+      "price": 1341.18,
       "prev": 1325.52001953125,
-      "chg": 1.43,
+      "chg": 1.18,
       "prevDay": "2026-11-02",
       "basis": "prev-close-bar",
-      "time": "2026-11-03T13:21:40.000Z"
+      "time": "2026-11-03T13:32:06.000Z"
     },
     "^GSPC": {
       "price": 7541.4,
@@ -43,12 +43,12 @@
       "time": "2026-11-02T23:18:15.000Z"
     },
     "^VIX": {
-      "price": 21.41,
+      "price": 21.47,
       "prev": 21.149999618530273,
-      "chg": 1.23,
+      "chg": 1.51,
       "prevDay": "2026-11-02",
       "basis": "prev-close-bar",
-      "time": "2026-11-03T13:06:31.000Z"
+      "time": "2026-11-03T13:17:01.000Z"
     },
     "^TNX": {
       "price": 4.894,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.098
+    "pct": 0.084
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -2.14
     },
     "KRW=X": {
-      "last": 1344.5,
+      "last": 1341.22,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.098,
-      "chg3m": -5.47
+      "pct52": 0.084,
+      "chg3m": -5.7
     },
     "^GSPC": {
       "last": 7541.4,
@@ -101,11 +101,11 @@
       "chg3m": -4.55
     },
     "^VIX": {
-      "last": 21.41,
+      "last": 21.47,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.452,
-      "chg3m": 43.69
+      "pct52": 0.455,
+      "chg3m": 44.09
     },
     "^TNX": {
       "last": 4.89,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgg4j3FC8"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgg5X9Z14"
   },
   "stocks": {
     "kr": {
@@ -448,14 +448,14 @@
         "by": "rules"
       },
       {
-        "title": "Shopify’s stock slides after earnings. This is what’s worrying Wall Street.",
-        "link": "https://www.marketwatch.com/story/shopifys-stock-slides-after-earnings-this-is-whats-worrying-wall-street-e2e8d52b?mod=mw_rss_topstories",
+        "title": "It’s finally Election Day — and prediction markets may show ‘too much confidence in a good night for Democrats’",
+        "link": "https://www.marketwatch.com/story/its-finally-election-day-and-prediction-markets-may-show-too-much-confidence-in-a-good-night-for-democrats-3c6742df?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Tue, 03 Nov 2026 12:59:00 GMT",
-        "ko": "수입 후 Shopify의 주식 슬라이드. 이것이 바로 월스트리트의 걱정거리입니다.",
+        "date": "Tue, 03 Nov 2026 13:26:00 GMT",
+        "ko": "드디어 선거일입니다. 예측 시장은 '민주당에게 좋은 밤에 너무 많은 자신감‘ 을 보여줄 수 있습니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -465,6 +465,30 @@
         "source": "CNBC",
         "date": "Thu, 29 Oct 2026 14:48:01 GMT",
         "ko": "유럽중앙은행은 주요 금리를 2.5% 로 보류",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "Shopify’s stock slides after earnings. This is what’s worrying Wall Street.",
+        "link": "https://www.marketwatch.com/story/shopifys-stock-slides-after-earnings-this-is-whats-worrying-wall-street-e2e8d52b?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "date": "Tue, 03 Nov 2026 13:26:00 GMT",
+        "ko": "수입 후 Shopify의 주식 슬라이드. 이것이 바로 월스트리트의 걱정거리입니다.",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "Third-quarter U.S. GDP increases a better-than-expected 3.4% as September inflation accelerates",
+        "link": "https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html",
+        "source": "CNBC",
+        "date": "Thu, 29 Oct 2026 18:06:31 GMT",
+        "ko": "9월 인플레이션이 가속화됨에 따라 미국 3분기 GDP는 예상보다 더 나은 3.4% 증가",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -482,36 +506,11 @@
         "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
-      },
-      {
-        "title": "Third-quarter U.S. GDP increases a better-than-expected 3.4% as September inflation accelerates",
-        "link": "https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html",
-        "source": "CNBC",
-        "date": "Thu, 29 Oct 2026 18:06:31 GMT",
-        "ko": "9월 인플레이션이 가속화됨에 따라 미국 3분기 GDP는 예상보다 더 나은 3.4% 증가",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "Wall Street’s most hated stocks are faring far better than its favorites",
-        "link": "https://www.marketwatch.com/story/wall-streets-most-hated-stocks-are-faring-far-better-than-its-favorites-4c1d6c68?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "date": "Tue, 03 Nov 2026 12:22:00 GMT",
-        "ko": "월스트리트에서 가장 싫어하는 주식은 인기 주식보다 훨씬 더 잘 팔리고 있습니다.",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
       }
     ]
   },
   "newsBy": "rules",
   "trCache": {
-    "What to expect from Europe’s most valuable company before it kicks off tech earnings": "기술 수익을 창출하기 전에 유럽에서 가장 가치 있는 회사에서 기대할 수 있는 것",
     "The Korean stock market’s in freefall, and these are the reasons why": "한국 주식시장이 자유낙하하는 이유는 다음과 같습니다.",
     "Six Flags’ stock slumps near 52-week lows after fatal accident": "식스플래그의 주가는 치명적인 사고 이후 52주 저점 부근에서 급락했다.",
     "U.S. wealth has shifted to stocks from homes. There are big reasons to worry.": "미국의 부는 주택에서 주식으로 옮겨갔습니다. 걱정해야 할 큰 이유가 있습니다.",
@@ -810,7 +809,8 @@
     "This signal from the corporate bond market has historically preceded big drawdowns for the S&P 500": "회사 채권 시장의 이러한 신호는 역사적으로 S&P 500에 대한 큰 하락을 선행했습니다.",
     "What analysts are saying as Apple’s stock falls after earnings report": "수익 보고서 이후 애플의 주가가 하락함에 따라 애널리스트들이 말하는 것",
     "What analysts are telling us while Apple’s stock falls after earnings report": "수익 보고서 이후 애플의 주가가 하락하는 동안 애널리스트들이 우리에게 말하는 것",
-    "Shopify’s stock slides after earnings. This is what’s worrying Wall Street.": "수입 후 Shopify의 주식 슬라이드. 이것이 바로 월스트리트의 걱정거리입니다."
+    "Shopify’s stock slides after earnings. This is what’s worrying Wall Street.": "수입 후 Shopify의 주식 슬라이드. 이것이 바로 월스트리트의 걱정거리입니다.",
+    "It’s finally Election Day — and prediction markets may show ‘too much confidence in a good night for Democrats’": "드디어 선거일입니다. 예측 시장은 '민주당에게 좋은 밤에 너무 많은 자신감‘ 을 보여줄 수 있습니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2955,7 +2955,7 @@
       "2026-10-31": 1335.1,
       "2026-11-01": 1332.38,
       "2026-11-02": 1344.49,
-      "2026-11-03": 1344.5
+      "2026-11-03": 1341.18
     },
     "^GSPC": {
       "2026-10-23": 7623.68,
@@ -2997,7 +2997,7 @@
       "2026-10-31": 19.42,
       "2026-11-01": 19.42,
       "2026-11-02": 21.15,
-      "2026-11-03": 21.41
+      "2026-11-03": 21.47
     },
     "^TNX": {
       "2026-10-23": 4.988,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgg4j3FC8cvFr18kLVU1w\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgg4j3sAKaD7sbXUQKWpc\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgg4j4JTGXBU2XVU5JsRo\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgg5X9Z14DCQxPXQDkTnd\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgg5XA31zWvE13VvWEHMb\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgg5XAHeGeKY7w84J5B9N\"}"
   ]
 }
