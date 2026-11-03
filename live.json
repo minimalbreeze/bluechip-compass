@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-03T00:01:26.839Z",
+  "asOf": "2026-11-03T00:11:54.057Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-02T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1345.08,
-      "prev": 1344.49,
-      "chg": 0.04,
+      "price": 1342.1,
+      "prev": 1325.52001953125,
+      "chg": 1.25,
       "prevDay": "2026-11-02",
-      "basis": "prev-close-memo",
-      "time": "2026-11-03T00:01:19.000Z"
+      "basis": "prev-close-bar",
+      "time": "2026-11-03T00:11:45.000Z"
     },
     "^GSPC": {
       "price": 7541.4,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.101
+    "pct": 0.087
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": 9.31
     },
     "KRW=X": {
-      "last": 1345.3,
+      "last": 1342.1,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.101,
-      "chg3m": -5.34
+      "pct52": 0.087,
+      "chg3m": -5.64
     },
     "^GSPC": {
       "last": 7541.4,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgf1giuy8"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgf2Uxwbz"
   },
   "stocks": {
     "kr": {
@@ -368,13 +368,13 @@
   "news": {
     "kr": [
       {
-        "title": "한투증권, 삼성전자 목표가 57만→44만원…\"추가 상승동력 필요\"",
-        "link": "https://www.yna.co.kr/view/AKR20261103031400008",
+        "title": "[속보] 코스피·코스닥, 2%대 하락 출발",
+        "link": "https://www.yna.co.kr/view/AKR20261103038600008",
         "source": "연합뉴스",
-        "date": "Tue, 3 Nov 2026 08:45:35 +0900",
+        "date": "Tue, 3 Nov 2026 09:02:55 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -401,13 +401,13 @@
         "by": "rules"
       },
       {
-        "title": "하나증권, S-OIL 목표가 하향…\"영업익 줄고 주가 박스권 전망\"",
-        "link": "https://www.yna.co.kr/view/AKR20261103031000008",
+        "title": "한투증권, 삼성전자 목표가 57만→44만원…\"추가 상승동력 필요\"",
+        "link": "https://www.yna.co.kr/view/AKR20261103031400008",
         "source": "연합뉴스",
-        "date": "Tue, 3 Nov 2026 08:43:01 +0900",
+        "date": "Tue, 3 Nov 2026 08:45:35 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -448,11 +448,11 @@
         "by": "rules"
       },
       {
-        "title": "Traders rushing into a leveraged ETF to make a bullish bet on the Nasdaq-100 just got burned",
-        "link": "https://www.marketwatch.com/story/traders-rushing-into-a-leveraged-etf-to-make-a-bullish-bet-on-the-nasdaq-100-just-got-burned-d6775191?mod=mw_rss_topstories",
+        "title": "Nasdaq-100 tumbles into its third correction this year as AI worries mount",
+        "link": "https://www.marketwatch.com/story/nasdaq-100-tumbles-into-its-third-correction-this-year-as-ai-worries-mount-abee4c0d?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 02 Nov 2026 22:03:00 GMT",
-        "ko": "나스닥-100에 강세를 보이기 위해 레버리지 ETF에 돌진하는 트레이더들은 방금 화상을 입었습니다.",
+        "date": "Tue, 03 Nov 2026 00:03:00 GMT",
+        "ko": "Nasdaq-100은 AI 걱정이 커지면서 올해 세 번째 교정 작업에 착수했습니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -472,14 +472,14 @@
         "by": "rules"
       },
       {
-        "title": "Wall Street’s most hated stocks are faring far better than its favorites",
-        "link": "https://www.marketwatch.com/story/wall-streets-most-hated-stocks-are-faring-far-better-than-its-favorites-4c1d6c68?mod=mw_rss_topstories",
+        "title": "Traders rushing into a leveraged ETF to make a bullish bet on the Nasdaq-100 just got burned",
+        "link": "https://www.marketwatch.com/story/traders-rushing-into-a-leveraged-etf-to-make-a-bullish-bet-on-the-nasdaq-100-just-got-burned-d6775191?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 02 Nov 2026 21:45:00 GMT",
-        "ko": "월스트리트에서 가장 싫어하는 주식은 인기 주식보다 훨씬 더 잘 팔리고 있습니다.",
+        "date": "Mon, 02 Nov 2026 22:03:00 GMT",
+        "ko": "나스닥-100에 강세를 보이기 위해 레버리지 ETF에 돌진하는 트레이더들은 방금 화상을 입었습니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -496,11 +496,11 @@
         "by": "rules"
       },
       {
-        "title": "The stock market has gone nowhere for the past 5 months. It’s now looking like a bargain.",
-        "link": "https://www.marketwatch.com/story/the-stock-market-has-gone-nowhere-for-the-past-5-months-its-now-looking-like-a-bargain-150914c2?mod=mw_rss_topstories",
+        "title": "Wall Street’s most hated stocks are faring far better than its favorites",
+        "link": "https://www.marketwatch.com/story/wall-streets-most-hated-stocks-are-faring-far-better-than-its-favorites-4c1d6c68?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 02 Nov 2026 21:29:00 GMT",
-        "ko": "주식 시장은 지난 5개월 동안 아무데도 가지 않았습니다. 이제 흥정처럼 보입니다.",
+        "date": "Mon, 02 Nov 2026 21:45:00 GMT",
+        "ko": "월스트리트에서 가장 싫어하는 주식은 인기 주식보다 훨씬 더 잘 팔리고 있습니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -511,7 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "Buy these stocks as plays on Google’s big spending, analyst says": "애널리스트는 이 주식을 Google의 대규모 지출에 대한 플레이로 구매한다고 말합니다.",
     "These stocks could be the future winners — and losers — of a massive shift in IT spending": "이러한 주식은 IT 지출의 엄청난 변화의 미래 승자이자 패자가 될 수 있습니다.",
     "Why Ciena, Lumentum and other optical stocks were among the market’s biggest losers on Monday": "월요일에 Ciena, Lumentum 및 기타 광학 주식이 시장에서 가장 큰 패자였던 이유",
     "Brazilian stocks are breaking out as investors look for opportunities beyond tech": "투자자들이 기술 이상의 기회를 모색하면서 브라질 주식이 급등하고 있습니다.",
@@ -810,7 +809,8 @@
     "Wall Street’s most hated stocks are faring far better than its favorites": "월스트리트에서 가장 싫어하는 주식은 인기 주식보다 훨씬 더 잘 팔리고 있습니다.",
     "The stock market has gone nowhere for the past 5 months. It’s now looking like a bargain.": "주식 시장은 지난 5개월 동안 아무데도 가지 않았습니다. 이제 흥정처럼 보입니다.",
     "Palantir earnings reveal a major AI turning point": "Palantir 수입은 주요 AI 전환점을 보여줍니다",
-    "Traders rushing into a leveraged ETF to make a bullish bet on the Nasdaq-100 just got burned": "나스닥-100에 강세를 보이기 위해 레버리지 ETF에 돌진하는 트레이더들은 방금 화상을 입었습니다."
+    "Traders rushing into a leveraged ETF to make a bullish bet on the Nasdaq-100 just got burned": "나스닥-100에 강세를 보이기 위해 레버리지 ETF에 돌진하는 트레이더들은 방금 화상을 입었습니다.",
+    "Nasdaq-100 tumbles into its third correction this year as AI worries mount": "Nasdaq-100은 AI 걱정이 커지면서 올해 세 번째 교정 작업에 착수했습니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2955,7 +2955,7 @@
       "2026-10-31": 1335.1,
       "2026-11-01": 1332.38,
       "2026-11-02": 1344.49,
-      "2026-11-03": 1345.08
+      "2026-11-03": 1342.1
     },
     "^GSPC": {
       "2026-10-22": 7663.43,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgf1giuy8hhR8SRCZoDYe\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgf1gjNFtrkpXddjdy5gp\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgf1gjqHxtqdF3npffNoL\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgf2UxwbzvZViHwh6Ei6A\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgf2UyHSjJcSmXfmS7grV\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgf2UyZaAzrCEnj7cxJ6z\"}"
   ]
 }
