@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-03T09:48:12.936Z",
+  "asOf": "2026-11-03T10:45:27.079Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-03T06:33:00.000Z"
     },
     "KRW=X": {
-      "price": 1343.81,
+      "price": 1344.08,
       "prev": 1325.52001953125,
-      "chg": 1.38,
+      "chg": 1.4,
       "prevDay": "2026-11-02",
       "basis": "prev-close-bar",
-      "time": "2026-11-03T09:47:57.000Z"
+      "time": "2026-11-03T10:45:05.000Z"
     },
     "^GSPC": {
       "price": 7541.4,
@@ -43,12 +43,12 @@
       "time": "2026-11-02T23:18:15.000Z"
     },
     "^VIX": {
-      "price": 21.61,
+      "price": 21.32,
       "prev": 21.149999618530273,
-      "chg": 2.17,
+      "chg": 0.8,
       "prevDay": "2026-11-02",
       "basis": "prev-close-bar",
-      "time": "2026-11-03T09:33:01.000Z"
+      "time": "2026-11-03T10:30:01.000Z"
     },
     "^TNX": {
       "price": 4.894,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.095
+    "pct": 0.096
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -2.14
     },
     "KRW=X": {
-      "last": 1343.81,
+      "last": 1344.08,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.095,
-      "chg3m": -5.52
+      "pct52": 0.096,
+      "chg3m": -5.5
     },
     "^GSPC": {
       "last": 7541.4,
@@ -101,11 +101,11 @@
       "chg3m": -4.55
     },
     "^VIX": {
-      "last": 21.61,
+      "last": 21.32,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.463,
-      "chg3m": 45.03
+      "pct52": 0.447,
+      "chg3m": 43.09
     },
     "^TNX": {
       "last": 4.89,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgfnRvUZm"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgfro4pAc"
   },
   "stocks": {
     "kr": {
@@ -448,11 +448,11 @@
         "by": "rules"
       },
       {
-        "title": "Here’s why Palantir’s stock is down despite a ‘bombastic’ quarter",
-        "link": "https://www.marketwatch.com/story/heres-why-palantirs-stock-is-down-despite-a-bombastic-quarter-42c9fdb8?mod=mw_rss_topstories",
+        "title": "This signal from the corporate bond market has historically preceded big drawdowns for the S&P 500",
+        "link": "https://www.marketwatch.com/story/this-signal-from-the-corporate-bond-market-has-historically-preceded-big-drawdowns-for-the-s-p-500-8c1a3d25?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Tue, 03 Nov 2026 00:59:00 GMT",
-        "ko": "팔란티르의 주가가 '폭등‘ 한 분기임에도 불구하고 하락한 이유는 다음과 같습니다.",
+        "date": "Tue, 03 Nov 2026 10:31:00 GMT",
+        "ko": "회사 채권 시장의 이러한 신호는 역사적으로 S&P 500에 대한 큰 하락을 선행했습니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -472,14 +472,14 @@
         "by": "rules"
       },
       {
-        "title": "Apple’s iPhone business is booming. Here’s why the stock is falling anyway.",
-        "link": "https://www.marketwatch.com/story/apples-iphone-business-is-booming-heres-why-the-stock-is-falling-anyway-07de9fff?mod=mw_rss_topstories",
+        "title": "What analysts are saying as Apple’s stock falls after earnings report",
+        "link": "https://www.marketwatch.com/story/what-analysts-are-saying-as-apples-stock-falls-after-earnings-report-f0afa357?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Tue, 03 Nov 2026 00:52:00 GMT",
-        "ko": "애플의 아이폰 사업은 호황을 누리고 있습니다. 어쨌든 주가가 하락하는 이유는 다음과 같습니다.",
+        "date": "Tue, 03 Nov 2026 10:20:00 GMT",
+        "ko": "수익 보고서 이후 애플의 주가가 하락함에 따라 애널리스트들이 말하는 것",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -496,11 +496,11 @@
         "by": "rules"
       },
       {
-        "title": "Nasdaq-100 tumbles into its third correction this year as AI worries mount",
-        "link": "https://www.marketwatch.com/story/nasdaq-100-tumbles-into-its-third-correction-this-year-as-ai-worries-mount-abee4c0d?mod=mw_rss_topstories",
+        "title": "Here’s why Palantir’s stock is down despite a ‘bombastic’ quarter",
+        "link": "https://www.marketwatch.com/story/heres-why-palantirs-stock-is-down-despite-a-bombastic-quarter-42c9fdb8?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Tue, 03 Nov 2026 00:03:00 GMT",
-        "ko": "Nasdaq-100은 AI 걱정이 커지면서 올해 세 번째 교정 작업에 착수했습니다.",
+        "date": "Tue, 03 Nov 2026 00:59:00 GMT",
+        "ko": "팔란티르의 주가가 '폭등‘ 한 분기임에도 불구하고 하락한 이유는 다음과 같습니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -511,8 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "Nvidia and AMD shares fall as new AI announcements fail to re-energize investors": "새로운 AI 발표가 투자자들의 활력을 되찾지 못하면서 엔비디아와 AMD 주식이 하락합니다.",
-    "Investors worry the bull market is getting old. But history shows it can continue to age gracefully.": "투자자들은 황소 시장이 늙어가고 있다고 우려합니다. 그러나 역사는 그것이 계속해서 우아하게 노화될 수 있음을 보여줍니다.",
     "The SpaceX threat could loom over AT&T’s stock for a prolonged stretch, analyst cautions": "분석가들은 스페이스X 위협이 AT&T의 재고를 장기간 장악할 수 있다고 경고했다.",
     "IMF warns bond yields could see a 'disorderly' spike as debt, inflation risks worsen": "IMF, 채권 수익률이 부채로 '무질서한' 급등세를 보일 수 있다고 경고, 인플레이션 위험 악화",
     "What to expect from Europe’s most valuable company before it kicks off tech earnings": "기술 수익을 창출하기 전에 유럽에서 가장 가치 있는 회사에서 기대할 수 있는 것",
@@ -810,7 +808,9 @@
     "Nasdaq-100 tumbles into its third correction this year as AI worries mount": "Nasdaq-100은 AI 걱정이 커지면서 올해 세 번째 교정 작업에 착수했습니다.",
     "Here’s why Palantir’s stock is down despite a ‘bombastic’ quarter": "팔란티르의 주가가 '폭등‘ 한 분기임에도 불구하고 하락한 이유는 다음과 같습니다.",
     "Apple’s iPhone business is booming. Here’s why the stock is falling anyway.": "애플의 아이폰 사업은 호황을 누리고 있습니다. 어쨌든 주가가 하락하는 이유는 다음과 같습니다.",
-    "Australia hikes rates to 18-year high to fight inflation": "호주, 인플레이션에 대처하기 위해 18년 만의 최고 금리 인상"
+    "Australia hikes rates to 18-year high to fight inflation": "호주, 인플레이션에 대처하기 위해 18년 만의 최고 금리 인상",
+    "This signal from the corporate bond market has historically preceded big drawdowns for the S&P 500": "회사 채권 시장의 이러한 신호는 역사적으로 S&P 500에 대한 큰 하락을 선행했습니다.",
+    "What analysts are saying as Apple’s stock falls after earnings report": "수익 보고서 이후 애플의 주가가 하락함에 따라 애널리스트들이 말하는 것"
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2955,7 +2955,7 @@
       "2026-10-31": 1335.1,
       "2026-11-01": 1332.38,
       "2026-11-02": 1344.49,
-      "2026-11-03": 1343.81
+      "2026-11-03": 1344.08
     },
     "^GSPC": {
       "2026-10-23": 7623.68,
@@ -2997,7 +2997,7 @@
       "2026-10-31": 19.42,
       "2026-11-01": 19.42,
       "2026-11-02": 21.15,
-      "2026-11-03": 21.61
+      "2026-11-03": 21.32
     },
     "^TNX": {
       "2026-10-23": 4.988,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgfnRvUZmcySEKgYZ9DAm\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgfnRvq9pWkzJ1tgNhyvJ\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgfnRw7XNns9qA7Z9TvJt\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgfro4pAcG89ZTpJjHbdD\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgfro5GTL32gQaHt53QYW\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgfro5Y5RvErK5cbbk4UE\"}"
   ]
 }
