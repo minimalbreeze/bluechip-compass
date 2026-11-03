@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-03T10:48:36.859Z",
+  "asOf": "2026-11-03T11:48:57.793Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -8,7 +8,7 @@
       "chg": -3.59,
       "prevDay": "2026-11-02",
       "basis": "prev-close-bar",
-      "time": "2026-11-03T06:32:40.000Z"
+      "time": "2026-11-03T11:05:40.000Z"
     },
     "^KQ11": {
       "price": 704.39,
@@ -16,15 +16,15 @@
       "chg": -4.08,
       "prevDay": "2026-11-02",
       "basis": "prev-close-bar",
-      "time": "2026-11-03T06:33:00.000Z"
+      "time": "2026-11-03T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1344.08,
+      "price": 1345.08,
       "prev": 1325.52001953125,
-      "chg": 1.4,
+      "chg": 1.48,
       "prevDay": "2026-11-02",
       "basis": "prev-close-bar",
-      "time": "2026-11-03T10:48:23.000Z"
+      "time": "2026-11-03T11:48:41.000Z"
     },
     "^GSPC": {
       "price": 7541.4,
@@ -43,12 +43,12 @@
       "time": "2026-11-02T23:18:15.000Z"
     },
     "^VIX": {
-      "price": 21.36,
+      "price": 21.38,
       "prev": 21.149999618530273,
-      "chg": 0.99,
+      "chg": 1.09,
       "prevDay": "2026-11-02",
       "basis": "prev-close-bar",
-      "time": "2026-11-03T10:33:16.000Z"
+      "time": "2026-11-03T11:33:46.000Z"
     },
     "^TNX": {
       "price": 4.894,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.096
+    "pct": 0.1
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -2.14
     },
     "KRW=X": {
-      "last": 1344.08,
+      "last": 1345.08,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.096,
-      "chg3m": -5.5
+      "pct52": 0.1,
+      "chg3m": -5.43
     },
     "^GSPC": {
       "last": 7541.4,
@@ -101,11 +101,11 @@
       "chg3m": -4.55
     },
     "^VIX": {
-      "last": 21.36,
+      "last": 21.38,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.449,
-      "chg3m": 43.36
+      "pct52": 0.45,
+      "chg3m": 43.49
     },
     "^TNX": {
       "last": 4.89,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgfs342g5"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgfwdyK6u"
   },
   "stocks": {
     "kr": {
@@ -368,13 +368,13 @@
   "news": {
     "kr": [
       {
-        "title": "삼성생명, 에스원 주식 13만7천주 매각…금산법 위반 우려에",
-        "link": "https://www.yna.co.kr/view/AKR20261103172400002",
+        "title": "李대통령 국채발언 놓고 공방…\"잘못 보고했나\"·\"줄어든 것 맞아\"(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261103162451001",
         "source": "연합뉴스",
-        "date": "Tue, 3 Nov 2026 18:12:56 +0900",
+        "date": "Tue, 3 Nov 2026 20:10:23 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -390,21 +390,21 @@
         "by": "rules"
       },
       {
-        "title": "비트맥스, 216억원 규모 유상증자 실시",
-        "link": "https://www.mk.co.kr/news/stock/12195166",
+        "title": "“주식? 물려도 될 만한 종목에 물려야죠”…고금리시대, 과감한 손절 기준은",
+        "link": "https://www.mk.co.kr/news/stock/12195235",
         "source": "매일경제",
-        "date": "Tue, 03 Nov 2026 17:56:24 +09:00",
+        "date": "Tue, 03 Nov 2026 19:48:39 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "비트맥스, 215억원 유상증자…한국첨단소재에 제3자배정",
-        "link": "https://www.yna.co.kr/view/AKR20261103159900008",
+        "title": "삼성생명, 에스원 주식 13만7천주 매각…금산법 위반 우려에",
+        "link": "https://www.yna.co.kr/view/AKR20261103172400002",
         "source": "연합뉴스",
-        "date": "Tue, 3 Nov 2026 17:06:01 +0900",
+        "date": "Tue, 3 Nov 2026 18:12:56 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -423,8 +423,8 @@
         "by": "rules"
       },
       {
-        "title": "한울앤제주, 22억원 규모 유상증자 실시",
-        "link": "https://www.mk.co.kr/news/stock/12195165",
+        "title": "비트맥스, 216억원 규모 유상증자 실시",
+        "link": "https://www.mk.co.kr/news/stock/12195166",
         "source": "매일경제",
         "date": "Tue, 03 Nov 2026 17:56:24 +09:00",
         "act": "none",
@@ -2955,7 +2955,7 @@
       "2026-10-31": 1335.1,
       "2026-11-01": 1332.38,
       "2026-11-02": 1344.49,
-      "2026-11-03": 1344.08
+      "2026-11-03": 1345.08
     },
     "^GSPC": {
       "2026-10-23": 7623.68,
@@ -2997,7 +2997,7 @@
       "2026-10-31": 19.42,
       "2026-11-01": 19.42,
       "2026-11-02": 21.15,
-      "2026-11-03": 21.36
+      "2026-11-03": 21.38
     },
     "^TNX": {
       "2026-10-23": 4.988,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgfs342g5zbUxHrnPzP4a\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgfs34XT3zhjxJDnRnf5g\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgfs34um7xy1UQdPQUUe9\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgfwdyK6ubu7AXfC8snqS\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgfwdygvtoELnTQCW7U3J\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgfwdz1HDDUqfzxnxDNgw\"}"
   ]
 }
