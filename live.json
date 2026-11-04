@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-04T08:49:13.114Z",
+  "asOf": "2026-11-04T14:24:39.415Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -8,7 +8,7 @@
       "chg": 0.62,
       "prevDay": "2026-11-03",
       "basis": "prev-close-bar",
-      "time": "2026-11-04T06:32:50.000Z"
+      "time": "2026-11-04T11:05:40.000Z"
     },
     "^KQ11": {
       "price": 714.95,
@@ -16,15 +16,15 @@
       "chg": 1.5,
       "prevDay": "2026-11-03",
       "basis": "prev-close-bar",
-      "time": "2026-11-04T06:32:40.000Z"
+      "time": "2026-11-04T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1338.58,
+      "price": 1338.9,
       "prev": 1344.81005859375,
-      "chg": -0.46,
+      "chg": -0.44,
       "prevDay": "2026-11-03",
       "basis": "prev-close-bar",
-      "time": "2026-11-04T08:49:06.000Z"
+      "time": "2026-11-04T14:24:18.000Z"
     },
     "^GSPC": {
       "price": 7568.92,
@@ -32,7 +32,7 @@
       "chg": 0,
       "prevDay": "2026-11-03",
       "basis": "prev-close-bar",
-      "time": "2026-11-03T21:00:00.000Z"
+      "time": "2026-11-03T21:30:13.000Z"
     },
     "^IXIC": {
       "price": 25372.01,
@@ -43,26 +43,26 @@
       "time": "2026-11-03T22:15:59.000Z"
     },
     "^VIX": {
-      "price": 19.1,
+      "price": 17.95,
       "prev": 20.829999923706055,
-      "chg": -8.31,
+      "chg": -13.83,
       "prevDay": "2026-11-03",
       "basis": "prev-close-bar",
-      "time": "2026-11-04T08:34:01.000Z"
+      "time": "2026-11-04T14:09:16.000Z"
     },
     "^TNX": {
-      "price": 4.952,
+      "price": 4.921,
       "prev": 4.952000141143799,
-      "chg": 0,
+      "chg": -0.63,
       "prevDay": "2026-11-03",
       "basis": "prev-close-bar",
-      "time": "2026-11-03T19:59:55.000Z"
+      "time": "2026-11-04T14:09:13.000Z"
     }
   },
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.072
+    "pct": 0.074
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -3.04
     },
     "KRW=X": {
-      "last": 1338.58,
+      "last": 1338.9,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.072,
-      "chg3m": -4.86
+      "pct52": 0.074,
+      "chg3m": -4.84
     },
     "^GSPC": {
       "last": 7568.92,
@@ -101,18 +101,18 @@
       "chg3m": -3.71
     },
     "^VIX": {
-      "last": 19.1,
+      "last": 17.95,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.32,
-      "chg3m": 23.54
+      "pct52": 0.255,
+      "chg3m": 16.11
     },
     "^TNX": {
-      "last": 4.95,
+      "last": 4.92,
       "low52": 3.96,
       "high52": 5.31,
-      "pct52": 0.734,
-      "chg3m": 6.04
+      "pct52": 0.709,
+      "chg3m": 5.56
     }
   },
   "regime": {
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cghbju3yF"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgi3KVrpB"
   },
   "stocks": {
     "kr": {
@@ -368,10 +368,10 @@
   "news": {
     "kr": [
       {
-        "title": "사람인 \"중앙일보 주식 714억원어치 취득…지분율 12.9%\"",
-        "link": "https://www.yna.co.kr/view/AKR20261104161600008",
+        "title": "정책금융기관 글로벌 스케일업 협력펀드 위탁운용사 3곳 선정",
+        "link": "https://www.yna.co.kr/view/AKR20261104167500002",
         "source": "연합뉴스",
-        "date": "Wed, 4 Nov 2026 17:42:33 +0900",
+        "date": "Wed, 4 Nov 2026 18:21:04 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -379,10 +379,10 @@
         "by": "rules"
       },
       {
-        "title": "'블루 쓰나미' 흔들린 뉴욕증시, 연말랠리 올까",
-        "link": "https://www.hankyung.com/article/2026110463601",
+        "title": "삼전닉스 덮친 '블루 쓰나미'…반도체 수요 꺾일까 [분석+]",
+        "link": "https://www.hankyung.com/article/2026110461576",
         "source": "한국경제",
-        "date": "Wed, 04 Nov 2026 17:43:19 +0900",
+        "date": "Wed, 04 Nov 2026 22:00:04 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -390,51 +390,75 @@
         "by": "rules"
       },
       {
-        "title": "\"기업가치 자신감\" … 곽동신 또 자사주 매입",
-        "link": "https://www.mk.co.kr/news/stock/12196694",
+        "title": "급등과 급락 반복한 코스피…무엇이 흔들었나 [Visual]",
+        "link": "https://www.mk.co.kr/news/stock/12196891",
         "source": "매일경제",
-        "date": "Wed, 04 Nov 2026 17:43:55 +09:00",
+        "date": "Wed, 04 Nov 2026 20:46:56 +09:00",
         "act": "none",
         "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "다우기술 \"중앙일보 주식 1천900억원어치 취득…지분율 34.4%\"",
+        "link": "https://www.yna.co.kr/view/AKR20261104162300008",
+        "source": "연합뉴스",
+        "date": "Wed, 4 Nov 2026 17:47:01 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "\"7개월 만에 37억\"…배용준·주지훈 '122억 주식'에 무슨 일이",
+        "link": "https://www.hankyung.com/article/2026110465397",
+        "source": "한국경제",
+        "date": "Wed, 04 Nov 2026 19:45:57 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "CJ·신세계·다우키움 컨소시엄 … 5200억에 중앙일보 인수 계약",
+        "link": "https://www.mk.co.kr/news/stock/12196795",
+        "source": "매일경제",
+        "date": "Wed, 04 Nov 2026 19:30:26 +09:00",
+        "act": "watch",
+        "lasting": "structural",
         "scope": "company",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "프로티나, 73억원 제3자배정 유상증자",
-        "link": "https://www.yna.co.kr/view/AKR20261104158300008",
-        "source": "연합뉴스",
-        "date": "Wed, 4 Nov 2026 17:23:32 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "\"투기판 된 美증시, 폭락올수도\"",
-        "link": "https://www.hankyung.com/article/2026110463611",
-        "source": "한국경제",
-        "date": "Wed, 04 Nov 2026 17:41:31 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "선거 졌지만 … 주식투자는 美공화당이 이겨",
-        "link": "https://www.mk.co.kr/news/stock/12196691",
-        "source": "매일경제",
-        "date": "Wed, 04 Nov 2026 17:43:53 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
         "by": "rules"
       }
     ],
     "us": [
+      {
+        "title": "Euro zone inflation hits 4% for first time in three years as interest rate hike looms",
+        "link": "https://www.cnbc.com/2026/11/04/euro-zone-cpi-inflation-october-ecb-rate-hike.html",
+        "source": "CNBC",
+        "date": "Wed, 04 Nov 2026 10:47:30 GMT",
+        "ko": "유로존 인플레이션, 금리인상 직기 3년만에 처음으로 4% 기록",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "ADP says businesses added 86,000 jobs in October. The labor market shows small signs of improvement.",
+        "link": "https://www.marketwatch.com/story/adp-says-businesses-add-86-000-jobs-in-october-labor-market-shows-small-signs-of-improvement-64c89fd3?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "date": "Wed, 04 Nov 2026 13:55:00 GMT",
+        "ko": "ADP는 기업들이 10월에 86,000개의 일자리를 추가했다고 말합니다. 노동 시장은 작은 개선 징후를 보인다.",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
       {
         "title": "Job openings posted big September gain in positive sign for labor market ahead of payrolls report",
         "link": "https://www.cnbc.com/2026/11/03/job-openings-posted-big-september-gain-in-positive-sign-for-labor-market-ahead-of-payrolls-report.html",
@@ -448,11 +472,11 @@
         "by": "rules"
       },
       {
-        "title": "Here’s why AMD’s stock is rising — and sending a confident message about the AI trade",
-        "link": "https://www.marketwatch.com/story/heres-why-amds-stock-is-rising-and-sending-a-confident-message-about-the-ai-trade-11cb4d8a?mod=mw_rss_topstories",
+        "title": "Tesla and SpaceX shares slide as Musk’s political push falls flat",
+        "link": "https://www.marketwatch.com/story/tesla-and-spacex-shares-slide-as-musks-political-push-falls-flat-c15d29a3?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Wed, 04 Nov 2026 01:16:00 GMT",
-        "ko": "AMD의 주가가 상승하고 AI 거래에 대한 자신감 있는 메시지를 보내는 이유는 다음과 같습니다.",
+        "date": "Wed, 04 Nov 2026 13:41:00 GMT",
+        "ko": "테슬라와 스페이스X는 머스크의 정치적 압박이 평평해지면서 슬라이드를 공유합니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -472,38 +496,14 @@
         "by": "rules"
       },
       {
-        "title": "Super Micro’s stock pops as earnings show booming demand for AI servers",
-        "link": "https://www.marketwatch.com/story/super-micros-stock-pops-as-earnings-show-booming-demand-for-ai-servers-2d179658?mod=mw_rss_topstories",
+        "title": "Treasury opens the door to changes in how it finances the growing U.S. debt. Here’s what you need to know.",
+        "link": "https://www.marketwatch.com/story/treasury-opens-the-door-to-changes-in-how-it-finances-the-growing-u-s-debt-heres-what-you-need-to-know-6001f7e1?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Wed, 04 Nov 2026 01:12:00 GMT",
-        "ko": "AI 서버에 대한 수요가 호황을 누리면서 Super Micro의 주가가 급등하고 있습니다.",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "European Central Bank keeps key interest rate on hold at 2.5%",
-        "link": "https://www.cnbc.com/2026/10/29/european-central-bank-interest-rates.html",
-        "source": "CNBC",
-        "date": "Thu, 29 Oct 2026 14:48:01 GMT",
-        "ko": "유럽중앙은행은 주요 금리를 2.5% 로 보류",
+        "date": "Wed, 04 Nov 2026 13:32:00 GMT",
+        "ko": "재무부는 증가하는 미국 부채에 대한 자금 조달 방법의 변화에 문을 엽니다. 알아두셔야 할 사항입니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "What analysts are telling us while Apple’s stock falls after earnings report",
-        "link": "https://www.marketwatch.com/story/what-analysts-are-saying-as-apples-stock-falls-after-earnings-report-f0afa357?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "date": "Tue, 03 Nov 2026 22:48:00 GMT",
-        "ko": "수익 보고서 이후 애플의 주가가 하락하는 동안 애널리스트들이 우리에게 말하는 것",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -511,10 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "The latest inflation data is expected to show price increases are accelerating": "최신 인플레이션 데이터는 가격 상승이 가속화되고 있음을 보여줄 것으로 예상됩니다.",
-    "New SEC rules would fleece everyday investors to enrich Wall Street": "새로운 SEC 규칙은 일상적인 투자자들에게 월스트리트의 풍요로움을 선사할 것입니다.",
-    "AST SpaceMobile’s stock is feeling the heat from SpaceX’s wireless plans": "AST SpaceMobile의 재고는 SpaceX의 무선 요금제에서 열기를 느끼고 있습니다.",
-    "AI fatigue is gripping the market and driving chip stocks toward their worst stretch in 16 months": "AI 피로가 시장을 사로잡고 칩 재고를 16개월 만에 최악의 상황으로 몰고 가고 있습니다.",
     "Chip stocks suffer worst stretch in 16 months as AI fatigue grips the market": "인공지능 (AI) 의 피로가 시장을 사로잡으면서 칩 재고는 16개월 만에 최악의 스트레칭에 시달리고 있다.",
     "Six Flags’ stock slumps near 17-year low after fatal incident": "식스플래그의 주가는 치명적인 사고 이후 17년 가까이 부진했다.",
     "'Godzilla El Niño' is wreaking havoc with Philippine central bank's inflation forecasts": "'고질라 엘니뇨' 는 필리핀 중앙은행의 인플레이션 예측으로 혼란을 겪고 있다.",
@@ -810,7 +806,11 @@
     "Super Micro’s stock pops as earnings show booming demand for AI servers": "AI 서버에 대한 수요가 호황을 누리면서 Super Micro의 주가가 급등하고 있습니다.",
     "Anthropic’s IPO is a high-stakes referendum on Big Tech — and this chart proves it": "Anthropic의 IPO는 Big Tech에 대한 높은 지분의 국민 투표이며, 이 차트는 이를 증명합니다.",
     "AI’s control over the bond market is growing — even rivaling war and elections": "채권 시장에 대한 AI의 통제력은 점점 더 커지고 있습니다. 심지어 전쟁과 선거에 필적할 정도입니다.",
-    "Here’s why AMD’s stock is rising — and sending a confident message about the AI trade": "AMD의 주가가 상승하고 AI 거래에 대한 자신감 있는 메시지를 보내는 이유는 다음과 같습니다."
+    "Here’s why AMD’s stock is rising — and sending a confident message about the AI trade": "AMD의 주가가 상승하고 AI 거래에 대한 자신감 있는 메시지를 보내는 이유는 다음과 같습니다.",
+    "Euro zone inflation hits 4% for first time in three years as interest rate hike looms": "유로존 인플레이션, 금리인상 직기 3년만에 처음으로 4% 기록",
+    "ADP says businesses added 86,000 jobs in October. The labor market shows small signs of improvement.": "ADP는 기업들이 10월에 86,000개의 일자리를 추가했다고 말합니다. 노동 시장은 작은 개선 징후를 보인다.",
+    "Tesla and SpaceX shares slide as Musk’s political push falls flat": "테슬라와 스페이스X는 머스크의 정치적 압박이 평평해지면서 슬라이드를 공유합니다.",
+    "Treasury opens the door to changes in how it finances the growing U.S. debt. Here’s what you need to know.": "재무부는 증가하는 미국 부채에 대한 자금 조달 방법의 변화에 문을 엽니다. 알아두셔야 할 사항입니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2955,7 +2955,7 @@
       "2026-11-01": 1332.38,
       "2026-11-02": 1344.49,
       "2026-11-03": 1343.59,
-      "2026-11-04": 1338.58
+      "2026-11-04": 1338.9
     },
     "^GSPC": {
       "2026-10-24": 7623.68,
@@ -2997,7 +2997,7 @@
       "2026-11-01": 19.42,
       "2026-11-02": 21.15,
       "2026-11-03": 20.83,
-      "2026-11-04": 19.1
+      "2026-11-04": 17.95
     },
     "^TNX": {
       "2026-10-24": 4.988,
@@ -3011,7 +3011,7 @@
       "2026-11-01": 4.929,
       "2026-11-02": 4.894,
       "2026-11-03": 4.952,
-      "2026-11-04": 4.952
+      "2026-11-04": 4.921
     },
     "105560.KS": {
       "2026-10-24": 153000,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cghbju3yFkQZbrSnb9Bzy\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CghbjuXzywcZy6eDnMAzr\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CghbjuvoeyzD2yCYoU4df\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgi3KVrpBha6PqTXSK7Fw\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgi3KWFNxs3QFQgwnGhdd\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgi3KWYVQKGJGpiskNhxS\"}"
   ]
 }
