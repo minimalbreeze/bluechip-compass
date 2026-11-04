@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-04T07:48:52.809Z",
+  "asOf": "2026-11-04T08:49:13.114Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-04T06:32:40.000Z"
     },
     "KRW=X": {
-      "price": 1339.88,
+      "price": 1338.58,
       "prev": 1344.81005859375,
-      "chg": -0.37,
+      "chg": -0.46,
       "prevDay": "2026-11-03",
       "basis": "prev-close-bar",
-      "time": "2026-11-04T07:48:34.000Z"
+      "time": "2026-11-04T08:49:06.000Z"
     },
     "^GSPC": {
       "price": 7568.92,
@@ -32,7 +32,7 @@
       "chg": 0,
       "prevDay": "2026-11-03",
       "basis": "prev-close-bar",
-      "time": "2026-11-03T21:30:13.000Z"
+      "time": "2026-11-03T21:00:00.000Z"
     },
     "^IXIC": {
       "price": 25372.01,
@@ -43,12 +43,12 @@
       "time": "2026-11-03T22:15:59.000Z"
     },
     "^VIX": {
-      "price": 20.83,
+      "price": 19.1,
       "prev": 20.829999923706055,
-      "chg": 0,
+      "chg": -8.31,
       "prevDay": "2026-11-03",
       "basis": "prev-close-bar",
-      "time": "2026-11-03T21:15:01.000Z"
+      "time": "2026-11-04T08:34:01.000Z"
     },
     "^TNX": {
       "price": 4.952,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.078
+    "pct": 0.072
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -3.04
     },
     "KRW=X": {
-      "last": 1339.88,
+      "last": 1338.58,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.078,
-      "chg3m": -4.77
+      "pct52": 0.072,
+      "chg3m": -4.86
     },
     "^GSPC": {
       "last": 7568.92,
@@ -101,11 +101,11 @@
       "chg3m": -3.71
     },
     "^VIX": {
-      "last": 20.83,
+      "last": 19.1,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.419,
-      "chg3m": 39.8
+      "pct52": 0.32,
+      "chg3m": 23.54
     },
     "^TNX": {
       "last": 4.95,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CghX92aUH"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cghbju3yF"
   },
   "stocks": {
     "kr": {
@@ -368,21 +368,21 @@
   "news": {
     "kr": [
       {
-        "title": "국고채 금리 일제히 하락…3년물 연 3.714%",
-        "link": "https://www.yna.co.kr/view/AKR20261104149000008",
+        "title": "사람인 \"중앙일보 주식 714억원어치 취득…지분율 12.9%\"",
+        "link": "https://www.yna.co.kr/view/AKR20261104161600008",
         "source": "연합뉴스",
-        "date": "Wed, 4 Nov 2026 16:40:33 +0900",
+        "date": "Wed, 4 Nov 2026 17:42:33 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "\"석유화학주 다 내리는데\"…DL 주가 '불기둥' 쏜 배경",
-        "link": "https://www.hankyung.com/article/202611045788i",
+        "title": "'블루 쓰나미' 흔들린 뉴욕증시, 연말랠리 올까",
+        "link": "https://www.hankyung.com/article/2026110463601",
         "source": "한국경제",
-        "date": "Wed, 04 Nov 2026 15:55:40 +0900",
+        "date": "Wed, 04 Nov 2026 17:43:19 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -390,43 +390,43 @@
         "by": "rules"
       },
       {
-        "title": "“욕설·비방에 불법 리딩방까지 잡는다”…토스증권, AI 검수 도입",
-        "link": "https://www.mk.co.kr/news/stock/12196498",
+        "title": "\"기업가치 자신감\" … 곽동신 또 자사주 매입",
+        "link": "https://www.mk.co.kr/news/stock/12196694",
         "source": "매일경제",
-        "date": "Wed, 04 Nov 2026 16:18:44 +09:00",
+        "date": "Wed, 04 Nov 2026 17:43:55 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "미 중간선거 민주당 우세에…환율 0.5원 오른 1,341.5원",
-        "link": "https://www.yna.co.kr/view/AKR20261104141900002",
+        "title": "프로티나, 73억원 제3자배정 유상증자",
+        "link": "https://www.yna.co.kr/view/AKR20261104158300008",
         "source": "연합뉴스",
-        "date": "Wed, 4 Nov 2026 16:27:28 +0900",
+        "date": "Wed, 4 Nov 2026 17:23:32 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "[속보] 홍콩ELS 과징금 은행·증권사 약 3700억원 확정",
-        "link": "https://www.hankyung.com/article/2026110459437",
+        "title": "\"투기판 된 美증시, 폭락올수도\"",
+        "link": "https://www.hankyung.com/article/2026110463611",
         "source": "한국경제",
-        "date": "Wed, 04 Nov 2026 15:50:30 +0900",
-        "act": "watch",
-        "lasting": "structural",
+        "date": "Wed, 04 Nov 2026 17:41:31 +0900",
+        "act": "none",
+        "lasting": "temporary",
         "scope": null,
-        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "장중 급락한 삼전닉스 ‘줍줍’한 초고수...‘블루웨이브’ 탄 친환경주는 차익실현 [주식 초고수는 지금]",
-        "link": "https://www.mk.co.kr/news/stock/12196490",
+        "title": "선거 졌지만 … 주식투자는 美공화당이 이겨",
+        "link": "https://www.mk.co.kr/news/stock/12196691",
         "source": "매일경제",
-        "date": "Wed, 04 Nov 2026 16:13:34 +09:00",
+        "date": "Wed, 04 Nov 2026 17:43:53 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -2955,7 +2955,7 @@
       "2026-11-01": 1332.38,
       "2026-11-02": 1344.49,
       "2026-11-03": 1343.59,
-      "2026-11-04": 1339.88
+      "2026-11-04": 1338.58
     },
     "^GSPC": {
       "2026-10-24": 7623.68,
@@ -2997,7 +2997,7 @@
       "2026-11-01": 19.42,
       "2026-11-02": 21.15,
       "2026-11-03": 20.83,
-      "2026-11-04": 20.83
+      "2026-11-04": 19.1
     },
     "^TNX": {
       "2026-10-24": 4.988,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CghX92aUHV5BzXPcpCAY5\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CghX935EfApkd4U5zsW4e\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CghX93X2ZwxV2KG75LrhU\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cghbju3yFkQZbrSnb9Bzy\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CghbjuXzywcZy6eDnMAzr\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CghbjuvoeyzD2yCYoU4df\"}"
   ]
 }
