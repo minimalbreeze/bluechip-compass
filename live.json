@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-04T22:16:34.273Z",
+  "asOf": "2026-11-04T23:16:57.012Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-04T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1340.26,
+      "price": 1340.04,
       "prev": 1344.81005859375,
-      "chg": -0.34,
+      "chg": -0.35,
       "prevDay": "2026-11-03",
       "basis": "prev-close-bar",
-      "time": "2026-11-04T22:13:43.000Z"
+      "time": "2026-11-04T23:05:52.000Z"
     },
     "^GSPC": {
       "price": 7688.62,
@@ -40,7 +40,7 @@
       "chg": 1.44,
       "prevDay": "2026-11-03",
       "basis": "prev-close-bar",
-      "time": "2026-11-04T22:15:58.000Z"
+      "time": "2026-11-04T22:15:59.000Z"
     },
     "^VIX": {
       "price": 16.61,
@@ -80,11 +80,11 @@
       "chg3m": -2.14
     },
     "KRW=X": {
-      "last": 1340.26,
+      "last": 1340.04,
       "low52": 1321.76,
       "high52": 1554.48,
       "pct52": 0.079,
-      "chg3m": -4.74
+      "chg3m": -4.76
     },
     "^GSPC": {
       "last": 7688.62,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgifJhjMt"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgijukYy1"
   },
   "stocks": {
     "kr": {
@@ -368,10 +368,10 @@
   "news": {
     "kr": [
       {
-        "title": "외국인 발길, 명동 넘어 골목·시장으로…서울 상권지도 바뀐다",
-        "link": "https://www.yna.co.kr/view/AKR20261104152300004",
+        "title": "한투증권, 현대백화점 목표가↓…\"원화강세로 모멘텀 감소\"",
+        "link": "https://www.yna.co.kr/view/AKR20261105024000008",
         "source": "연합뉴스",
-        "date": "Thu, 5 Nov 2026 05:55:00 +0900",
+        "date": "Thu, 5 Nov 2026 08:08:16 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -379,13 +379,46 @@
         "by": "rules"
       },
       {
-        "title": "\"가만히 있어도 700억 몰린다?\"…증권가가 주목한 종목 [분석+]",
-        "link": "https://www.hankyung.com/article/2026110456416",
+        "title": "호재들이 'AI 규제 우려' 지웠다…美 증시 급등 [오늘 아침, 당신이 알아야 할 7가지]",
+        "link": "https://www.hankyung.com/article/202611056961i",
         "source": "한국경제",
-        "date": "Thu, 05 Nov 2026 06:30:01 +0900",
+        "date": "Thu, 05 Nov 2026 07:31:25 +0900",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": null,
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
+        "by": "rules"
+      },
+      {
+        "title": "버넥트, 경영권 매각설 부인… “사실무근, 실적 개선에 집중”",
+        "link": "https://www.mk.co.kr/news/stock/12197845",
+        "source": "매일경제",
+        "date": "Thu, 05 Nov 2026 08:11:17 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "피노, 1천830억원 제3자배정 유상증자",
+        "link": "https://www.yna.co.kr/view/AKR20261105021500008",
+        "source": "연합뉴스",
+        "date": "Thu, 5 Nov 2026 08:05:03 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "자원값 오르자 日 상사들 '돈방석'…미쓰비시, 1조엔 자사주 매입",
+        "link": "https://www.hankyung.com/article/202611056975i",
+        "source": "한국경제",
+        "date": "Thu, 05 Nov 2026 07:26:15 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -399,39 +432,6 @@
         "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
-      },
-      {
-        "title": "정책금융기관 글로벌 스케일업 협력펀드 위탁운용사 3곳 선정",
-        "link": "https://www.yna.co.kr/view/AKR20261104167500002",
-        "source": "연합뉴스",
-        "date": "Wed, 4 Nov 2026 18:21:04 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "[속보] 필라델피아 반도체 3% 급락…텍사스 AI 데이터센터 건설 중단 우려",
-        "link": "https://www.hankyung.com/article/2026110568997",
-        "source": "한국경제",
-        "date": "Thu, 05 Nov 2026 06:12:10 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "[속보] 미국 중간선거 끝나자 다우지수 3% 급등…18개월만에 최대폭 상승",
-        "link": "https://www.mk.co.kr/news/stock/12197447",
-        "source": "매일경제",
-        "date": "Thu, 05 Nov 2026 06:07:07 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
       }
     ],
     "us": [
@@ -439,7 +439,7 @@
         "title": "Analysis: The Democrats have one chance to extract concessions from Trump. Markets will hate it",
         "link": "https://www.cnbc.com/2026/11/04/democrats-trump-debt-ceiling-fight.html",
         "source": "CNBC",
-        "date": "Wed, 04 Nov 2026 20:28:17 GMT",
+        "date": "Wed, 04 Nov 2026 22:46:43 GMT",
         "ko": "분석: 민주당은 한 번의 기회로 트럼프로부터 양보를 끌어낼 수 있습니다. 시장이 싫어할 것입니다",
         "act": "none",
         "lasting": "temporary",
@@ -448,14 +448,14 @@
         "by": "rules"
       },
       {
-        "title": "Qualcomm’s stock falls as twin forces pressure sales",
-        "link": "https://www.marketwatch.com/story/qualcomms-stock-falls-as-twin-forces-pressure-sales-fa161159?mod=mw_rss_topstories",
+        "title": "This year’s worst-performing S&P 500 stock is finally seeing some major relief",
+        "link": "https://www.marketwatch.com/story/this-years-worst-performing-s-p-500-stock-is-finally-seeing-some-major-relief-fff3fa85?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Wed, 04 Nov 2026 22:03:00 GMT",
-        "ko": "쌍둥이 세력의 판매 압박으로 Qualcomm의 주가가 하락합니다.",
+        "date": "Wed, 04 Nov 2026 22:46:00 GMT",
+        "ko": "올해 최악의 실적을 기록한 S&P 500 주가가 마침내 큰 하락세를 보이고 있습니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -472,11 +472,11 @@
         "by": "rules"
       },
       {
-        "title": "Micron and other chip stocks slip as election results strike at the core of data-center optimism",
-        "link": "https://www.marketwatch.com/story/micron-and-other-chip-stocks-slip-as-election-results-strike-at-the-core-of-data-center-optimism-b55d19b3?mod=mw_rss_topstories",
+        "title": "Qualcomm’s stock falls as twin forces pressure sales",
+        "link": "https://www.marketwatch.com/story/qualcomms-stock-falls-as-twin-forces-pressure-sales-fa161159?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Wed, 04 Nov 2026 21:55:00 GMT",
-        "ko": "데이터 센터 낙관론의 핵심에서 선거 결과가 나오면서 마이크론 및 기타 칩 재고가 미끄러짐",
+        "date": "Wed, 04 Nov 2026 22:03:00 GMT",
+        "ko": "쌍둥이 세력의 판매 압박으로 Qualcomm의 주가가 하락합니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -496,11 +496,11 @@
         "by": "rules"
       },
       {
-        "title": "These stocks soared the most today after the Democrats trounced Trump",
-        "link": "https://www.marketwatch.com/story/these-stocks-have-soared-the-most-today-after-the-democrats-trounced-trump-9d785314?mod=mw_rss_topstories",
+        "title": "Micron and other chip stocks slip as election results strike at the core of data-center optimism",
+        "link": "https://www.marketwatch.com/story/micron-and-other-chip-stocks-slip-as-election-results-strike-at-the-core-of-data-center-optimism-b55d19b3?mod=mw_rss_topstories",
         "source": "MarketWatch",
         "date": "Wed, 04 Nov 2026 21:55:00 GMT",
-        "ko": "이 주가는 민주당이 트럼프를 괴롭힌 후 오늘 가장 많이 치솟았다.",
+        "ko": "데이터 센터 낙관론의 핵심에서 선거 결과가 나오면서 마이크론 및 기타 칩 재고가 미끄러짐",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -511,7 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "Will mortgage rates stay above 7% in 2027?": "2027년에 주택담보대출 금리가 7% 를 상회할까요?",
     "Did this year’s COLA beat inflation? Here’s how spending by American seniors stacks up so far in 2026.": "올해 콜라가 인플레이션을 이겼습니까? 2026년 미국 노년층의 지출이 어떻게 증가했는지 알아보세요.",
     "What to expect at the next Fed meeting now that rate-hike odds are rising": "다음 연준 회의에서 금리 인상 배당률이 상승할 것으로 예상되는 사항",
     "CoreWeave sparks worry about broader credit-market stress as its bonds tumble": "CoreWeave는 채권이 하락함에 따라 광범위한 신용 시장 스트레스에 대한 우려를 불러일으킵니다.",
@@ -810,7 +809,8 @@
     "Hospital stocks rallied while drugmakers brace for scrutiny. Here’s what the Democratic wave means for healthcare.": "마약 제조사들이 면밀한 조사를 위해 버티는 동안 병원 재고가 급증했다. 민주당의 물결이 의료에 의미하는 바는 다음과 같습니다.",
     "Wall Street veteran says setup in these stock charts among the most unbelievable he’s seen, as Big Tech sways market": "월스트리트 베테랑은 빅 테크가 시장을 흔들면서 그가 본 것 중 가장 믿을 수 없는 것 중 하나인 이러한 주식 차트에 설정되어 있다고 말합니다.",
     "Qualcomm’s stock falls as twin forces pressure sales": "쌍둥이 세력의 판매 압박으로 Qualcomm의 주가가 하락합니다.",
-    "These stocks soared the most today after the Democrats trounced Trump": "이 주가는 민주당이 트럼프를 괴롭힌 후 오늘 가장 많이 치솟았다."
+    "These stocks soared the most today after the Democrats trounced Trump": "이 주가는 민주당이 트럼프를 괴롭힌 후 오늘 가장 많이 치솟았다.",
+    "This year’s worst-performing S&P 500 stock is finally seeing some major relief": "올해 최악의 실적을 기록한 S&P 500 주가가 마침내 큰 하락세를 보이고 있습니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2955,7 +2955,7 @@
       "2026-11-01": 1332.38,
       "2026-11-02": 1344.49,
       "2026-11-03": 1343.59,
-      "2026-11-04": 1340.26
+      "2026-11-04": 1340.04
     },
     "^GSPC": {
       "2026-10-24": 7623.68,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgifJhjMtkPhJPFkmZdwp\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgifJiG6tBfyH85WMpctV\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgifJifukCVrFWtq2FFNK\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgijukYy1BUtggJzNpyH8\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgijum4y4Txy6SQWqpxRY\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgijumTHWBErhY15avvgp\"}"
   ]
 }
