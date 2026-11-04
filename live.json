@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-04T00:02:59.480Z",
+  "asOf": "2026-11-04T00:13:28.597Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-03T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1344.38,
+      "price": 1345.88,
       "prev": 1344.81005859375,
-      "chg": -0.03,
+      "chg": 0.08,
       "prevDay": "2026-11-03",
       "basis": "prev-close-bar",
-      "time": "2026-11-04T00:02:48.000Z"
+      "time": "2026-11-04T00:13:14.000Z"
     },
     "^GSPC": {
       "price": 7568.92,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.097
+    "pct": 0.104
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": 13.89
     },
     "KRW=X": {
-      "last": 1344.38,
+      "last": 1345.88,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.097,
-      "chg3m": -4.45
+      "pct52": 0.104,
+      "chg3m": -4.34
     },
     "^GSPC": {
       "last": 7568.92,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CggucUL5M"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CggvQr5KF"
   },
   "stocks": {
     "kr": {
@@ -368,13 +368,46 @@
   "news": {
     "kr": [
       {
-        "title": "카카오페이증권, 쿠팡플레이와 주식거래 이벤트",
-        "link": "https://www.yna.co.kr/view/AKR20261104032000008",
+        "title": "[특징주] 이에스티, 코스닥 거래 첫날 장 초반 40∼50%대 상승",
+        "link": "https://www.yna.co.kr/view/AKR20261104035000008",
         "source": "연합뉴스",
-        "date": "Wed, 4 Nov 2026 08:57:44 +0900",
+        "date": "Wed, 4 Nov 2026 09:06:34 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "하락장서 반도체 쓸어담은 1% 초고수…삼성SDI·한진칼도 순매수",
+        "link": "https://www.hankyung.com/article/202611044271i",
+        "source": "한국경제",
+        "date": "Wed, 04 Nov 2026 08:50:02 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "‘어닝 쇼크’ LG생활건강…하나증권 “투자의견 중립으로 하향”",
+        "link": "https://www.mk.co.kr/news/stock/12195969",
+        "source": "매일경제",
+        "date": "Wed, 04 Nov 2026 09:02:46 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "무신사유즈드, 3분기에 최대 실적…\"거래액 전 분기보다 143% 증가\"",
+        "link": "https://www.yna.co.kr/view/AKR20261104032300030",
+        "source": "연합뉴스",
+        "date": "Wed, 4 Nov 2026 09:01:42 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -394,39 +427,6 @@
         "link": "https://www.mk.co.kr/news/business/12195962",
         "source": "매일경제",
         "date": "Wed, 04 Nov 2026 08:51:52 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "이정헌 한은 부산본부장 \"지역 중소기업 효율적 자금 지원 주력\"",
-        "link": "https://www.yna.co.kr/view/AKR20261104027500051",
-        "source": "연합뉴스",
-        "date": "Wed, 4 Nov 2026 08:52:39 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "\"주가 흔들려도 걱정 없다?\"…삼전닉스 '역대급 전망'에 깜짝 [종목+]",
-        "link": "https://www.hankyung.com/article/2026110442246",
-        "source": "한국경제",
-        "date": "Wed, 04 Nov 2026 07:21:01 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "키움증권 “하이브, BTS 활동 가시성 우려는 해소됐지만”…목표가↓",
-        "link": "https://www.mk.co.kr/news/stock/12195947",
-        "source": "매일경제",
-        "date": "Wed, 04 Nov 2026 08:28:36 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -2955,7 +2955,7 @@
       "2026-11-01": 1332.38,
       "2026-11-02": 1344.49,
       "2026-11-03": 1343.59,
-      "2026-11-04": 1344.38
+      "2026-11-04": 1345.88
     },
     "^GSPC": {
       "2026-10-23": 7623.68,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CggucUL5MepC2B3iLg2Lv\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CggucUmcYG7RGgbm4ECBk\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CggucV5jHHyGyiH2pe6eE\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CggvQr5KFUipskDbM9aan\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CggvQraKP9nV2ZKLwFsrF\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CggvQrtBXsvuvUge9tMFu\"}"
   ]
 }
