@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-03T23:57:36.154Z",
+  "asOf": "2026-11-04T00:02:59.480Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-03T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1343.59,
-      "prev": 1325.52001953125,
-      "chg": 1.36,
-      "prevDay": "2026-11-02",
+      "price": 1344.38,
+      "prev": 1344.81005859375,
+      "chg": -0.03,
+      "prevDay": "2026-11-03",
       "basis": "prev-close-bar",
-      "time": "2026-11-03T23:57:27.000Z"
+      "time": "2026-11-04T00:02:48.000Z"
     },
     "^GSPC": {
       "price": 7568.92,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.094
+    "pct": 0.097
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": 13.89
     },
     "KRW=X": {
-      "last": 1343.59,
+      "last": 1344.38,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.094,
-      "chg3m": -5.53
+      "pct52": 0.097,
+      "chg3m": -4.45
     },
     "^GSPC": {
       "last": 7568.92,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgguCe34A"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CggucUL5M"
   },
   "stocks": {
     "kr": {
@@ -368,10 +368,10 @@
   "news": {
     "kr": [
       {
-        "title": "강남구 '공시송달 카톡 안내' 서울 25개 자치구로 확대",
-        "link": "https://www.yna.co.kr/view/AKR20261104031200004",
+        "title": "카카오페이증권, 쿠팡플레이와 주식거래 이벤트",
+        "link": "https://www.yna.co.kr/view/AKR20261104032000008",
         "source": "연합뉴스",
-        "date": "Wed, 4 Nov 2026 08:51:43 +0900",
+        "date": "Wed, 4 Nov 2026 08:57:44 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -401,13 +401,13 @@
         "by": "rules"
       },
       {
-        "title": "SK증권 \"증권주, 주가 바닥 다졌다…4분기 실적 개선 전망\"",
-        "link": "https://www.yna.co.kr/view/AKR20261104026400008",
+        "title": "이정헌 한은 부산본부장 \"지역 중소기업 효율적 자금 지원 주력\"",
+        "link": "https://www.yna.co.kr/view/AKR20261104027500051",
         "source": "연합뉴스",
-        "date": "Wed, 4 Nov 2026 08:36:06 +0900",
+        "date": "Wed, 4 Nov 2026 08:52:39 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -2944,7 +2944,6 @@
       "2026-11-04": 704.39
     },
     "KRW=X": {
-      "2026-10-23": 1323.66,
       "2026-10-24": 1325.4,
       "2026-10-25": 1323.43,
       "2026-10-26": 1325.02,
@@ -2955,7 +2954,8 @@
       "2026-10-31": 1335.1,
       "2026-11-01": 1332.38,
       "2026-11-02": 1344.49,
-      "2026-11-03": 1343.59
+      "2026-11-03": 1343.59,
+      "2026-11-04": 1344.38
     },
     "^GSPC": {
       "2026-10-23": 7623.68,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgguCe34Aj5hrEgYUKUqQ\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgguCeQtMR7mra5skDo2Y\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgguCejjcH3hENvifzUFN\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CggucUL5MepC2B3iLg2Lv\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CggucUmcYG7RGgbm4ECBk\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CggucV5jHHyGyiH2pe6eE\"}"
   ]
 }
