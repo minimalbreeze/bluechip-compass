@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-05T11:46:31.651Z",
+  "asOf": "2026-11-05T12:43:41.755Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-05T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1343.64,
+      "price": 1343.93,
       "prev": 1342.9000244140625,
-      "chg": 0.06,
+      "chg": 0.08,
       "prevDay": "2026-11-04",
       "basis": "prev-close-bar",
-      "time": "2026-11-05T11:46:19.000Z"
+      "time": "2026-11-05T12:43:30.000Z"
     },
     "^GSPC": {
       "price": 7688.62,
@@ -43,12 +43,12 @@
       "time": "2026-11-04T22:15:59.000Z"
     },
     "^VIX": {
-      "price": 16.85,
+      "price": 16.9,
       "prev": 16.610000610351562,
-      "chg": 1.44,
+      "chg": 1.75,
       "prevDay": "2026-11-04",
       "basis": "prev-close-bar",
-      "time": "2026-11-05T11:31:16.000Z"
+      "time": "2026-11-05T12:28:16.000Z"
     },
     "^TNX": {
       "price": 4.894,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.094
+    "pct": 0.095
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -13.1
     },
     "KRW=X": {
-      "last": 1343.64,
+      "last": 1343.93,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.094,
-      "chg3m": -5.2
+      "pct52": 0.095,
+      "chg3m": -5.18
     },
     "^GSPC": {
       "last": 7688.62,
@@ -101,11 +101,11 @@
       "chg3m": -3.57
     },
     "^VIX": {
-      "last": 16.85,
+      "last": 16.9,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.192,
-      "chg3m": 10.27
+      "pct52": 0.195,
+      "chg3m": 10.6
     },
     "^TNX": {
       "last": 4.89,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgjj52nex"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgjoRssgc"
   },
   "stocks": {
     "kr": {
@@ -436,6 +436,30 @@
     ],
     "us": [
       {
+        "title": "Bank of England hikes interest rate for the first time since Iran war, warns inflation will near 5%",
+        "link": "https://www.cnbc.com/2026/11/05/interest-rates-inflation-uk.html",
+        "source": "CNBC",
+        "date": "Thu, 05 Nov 2026 12:37:57 GMT",
+        "ko": "잉글랜드 은행은 이란 전쟁 이후 처음으로 금리를 인상하고 인플레이션이 5% 에 육박할 것이라고 경고했다.",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "Interest rates could go ‘significantly higher’ if oil prices keep climbing — even if the Iran war ends soon",
+        "link": "https://www.marketwatch.com/story/interest-rates-could-go-significantly-higher-if-oil-prices-keep-climbing-even-if-the-iran-war-ends-soon-e3493498?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "date": "Thu, 05 Nov 2026 12:33:00 GMT",
+        "ko": "이란 전쟁이 곧 끝나더라도 유가가 계속 오르면 금리는 ‘상당히 높아질’ 수 있습니다.",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
         "title": "Analysis: The Democrats have one chance to extract concessions from Trump. Markets will hate it",
         "link": "https://www.cnbc.com/2026/11/04/democrats-trump-debt-ceiling-fight.html",
         "source": "CNBC",
@@ -448,11 +472,11 @@
         "by": "rules"
       },
       {
-        "title": "Research firm declares ‘end of the AI trade as we know it’ — and Asian tech stocks reflect the shift",
-        "link": "https://www.marketwatch.com/story/research-firm-declares-end-of-the-ai-trade-as-we-know-it-and-asian-tech-stocks-reflect-the-shift-25ac8e8f?mod=mw_rss_topstories",
+        "title": "An Anthropic IPO when the AI trade is this turbulent? Godspeed!",
+        "link": "https://www.marketwatch.com/story/an-anthropic-ipo-when-the-ai-trade-is-this-turbulent-godspeed-08ca0496?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Thu, 05 Nov 2026 11:22:00 GMT",
-        "ko": "리서치 회사는 ‘우리가 알고 있는 AI 거래의 종료’ 를 선언하고 — 아시아 기술 주식은 그 변화를 반영합니다",
+        "date": "Thu, 05 Nov 2026 12:16:00 GMT",
+        "ko": "AI 거래가 격동적일 때 인류 IPO? 갓스피드!",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -472,38 +496,14 @@
         "by": "rules"
       },
       {
-        "title": "A prolonged war in Iran is the market’s real ‘black swan,’ says this strategist",
-        "link": "https://www.marketwatch.com/story/a-prolonged-war-in-iran-is-the-markets-real-black-swan-says-this-strategist-65d105c7?mod=mw_rss_topstories",
+        "title": "Research firm declares ‘end of the AI trade as we know it’ — and Asian tech stocks reflect the shift",
+        "link": "https://www.marketwatch.com/story/research-firm-declares-end-of-the-ai-trade-as-we-know-it-and-asian-tech-stocks-reflect-the-shift-25ac8e8f?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Thu, 05 Nov 2026 10:20:00 GMT",
-        "ko": "이란과의 장기전은 시장의 진정한 &#39;블랙 스완&#39;이라고 한 전략가는 말합니다.",
+        "date": "Thu, 05 Nov 2026 11:22:00 GMT",
+        "ko": "리서치 회사는 ‘우리가 알고 있는 AI 거래의 종료’ 를 선언하고 — 아시아 기술 주식은 그 변화를 반영합니다",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "Job openings posted big September gain in positive sign for labor market ahead of payrolls report",
-        "link": "https://www.cnbc.com/2026/11/03/job-openings-posted-big-september-gain-in-positive-sign-for-labor-market-ahead-of-payrolls-report.html",
-        "source": "CNBC",
-        "date": "Tue, 03 Nov 2026 19:15:21 GMT",
-        "ko": "채용 공고는 급여 보고서에 앞서 노동 시장에 대한 긍정적 인 신호에 큰 9 월 이득을 게시",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "Toyota’s stock rallies after the company lowered sales guidance. Here’s how rare that is.",
-        "link": "https://www.marketwatch.com/story/toyota-stock-rallies-after-company-lowered-sales-guidance-heres-how-rare-that-is-c3d6c9bf?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "date": "Thu, 05 Nov 2026 10:15:00 GMT",
-        "ko": "도요타의 주식은 회사가 판매 지침을 낮춘 후 랠리합니다. 드문 경우입니다.",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -511,9 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "Rocket Lab’s stock slides as the company pushes back Neutron’s first launch": "회사가 Neutron의 첫 출시를 추진함에 따라 Rocket Lab의 재고 슬라이드",
-    "You’re probably too invested in equities. Why a 60-40 portfolio is still the smart way to go.": "당신은 아마도 주식에 너무 많이 투자했을 것입니다. 60-40 포트폴리오가 여전히 현명한 방법인 이유.",
-    "The AI trade is splintering as inflation fears rattle hyped-up tech stocks": "인플레이션이 덜컹거리는 기술 주가를 우려하면서 AI 거래가 쪼개지고 있다.",
     "Analysis: Why a $2 trillion deficit and 5% Treasury yields are becoming America's biggest economic challenge": "분석: 2조 달러의 적자와 5% 의 국채 수익률이 미국의 최대 경제 과제가 되는 이유",
     "This 30-year market veteran is alarmed by a record-chasing S&P 500. Here’s where he’s investing instead.": "이 30년 경력의 시장 베테랑은 사상 최대를 기록한 S&P 500에 경악하고 있습니다. 여기 그가 투자하고 있는 곳이 있습니다.",
     "U.S. Treasury dismisses IMF debt warning and 'messy' forecasting": "미국 재무부, IMF 채무 경고 및 '지저분한' 예측 기각",
@@ -810,7 +807,10 @@
     "A prolonged war in Iran is the market’s real ‘black swan,’ says this strategist": "이란과의 장기전은 시장의 진정한 &#39;블랙 스완&#39;이라고 한 전략가는 말합니다.",
     "Toyota stock rallies after company lowered sales guidance. Here’s how rare that is.": "회사가 판매 지침을 낮춘 후 도요타 주식이 집결합니다. 드문 경우입니다.",
     "Research firm declares ‘end of the AI trade as we know it’ — and Asian tech stocks reflect the shift": "리서치 회사는 ‘우리가 알고 있는 AI 거래의 종료’ 를 선언하고 — 아시아 기술 주식은 그 변화를 반영합니다",
-    "Toyota’s stock rallies after the company lowered sales guidance. Here’s how rare that is.": "도요타의 주식은 회사가 판매 지침을 낮춘 후 랠리합니다. 드문 경우입니다."
+    "Toyota’s stock rallies after the company lowered sales guidance. Here’s how rare that is.": "도요타의 주식은 회사가 판매 지침을 낮춘 후 랠리합니다. 드문 경우입니다.",
+    "Bank of England hikes interest rate for the first time since Iran war, warns inflation will near 5%": "잉글랜드 은행은 이란 전쟁 이후 처음으로 금리를 인상하고 인플레이션이 5% 에 육박할 것이라고 경고했다.",
+    "Interest rates could go ‘significantly higher’ if oil prices keep climbing — even if the Iran war ends soon": "이란 전쟁이 곧 끝나더라도 유가가 계속 오르면 금리는 ‘상당히 높아질’ 수 있습니다.",
+    "An Anthropic IPO when the AI trade is this turbulent? Godspeed!": "AI 거래가 격동적일 때 인류 IPO? 갓스피드!"
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2955,7 +2955,7 @@
       "2026-11-02": 1344.49,
       "2026-11-03": 1343.59,
       "2026-11-04": 1340.04,
-      "2026-11-05": 1343.64
+      "2026-11-05": 1343.93
     },
     "^GSPC": {
       "2026-10-25": 7623.68,
@@ -2997,7 +2997,7 @@
       "2026-11-02": 21.15,
       "2026-11-03": 20.83,
       "2026-11-04": 16.61,
-      "2026-11-05": 16.85
+      "2026-11-05": 16.9
     },
     "^TNX": {
       "2026-10-25": 4.988,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgjj52nexqiTpd8PDgQyc\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgjj537FXwwH7KaUjEpsR\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgjj53PdZdYbwToZeZEZi\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgjoRssgcp536apsj3Q94\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgjoRtFkGrLoe3318uj23\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgjoRtZrTosQ4DbzxfPSR\"}"
   ]
 }
