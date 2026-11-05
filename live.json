@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-05T07:41:27.360Z",
+  "asOf": "2026-11-05T08:41:52.441Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-05T06:33:00.000Z"
     },
     "KRW=X": {
-      "price": 1340.81,
+      "price": 1341.38,
       "prev": 1342.9000244140625,
-      "chg": -0.16,
+      "chg": -0.11,
       "prevDay": "2026-11-04",
       "basis": "prev-close-bar",
-      "time": "2026-11-05T07:41:06.000Z"
+      "time": "2026-11-05T08:41:41.000Z"
     },
     "^GSPC": {
       "price": 7688.62,
@@ -32,7 +32,7 @@
       "chg": 0,
       "prevDay": "2026-11-04",
       "basis": "prev-close-bar",
-      "time": "2026-11-04T21:51:11.000Z"
+      "time": "2026-11-04T21:00:00.000Z"
     },
     "^IXIC": {
       "price": 25736.514,
@@ -43,12 +43,12 @@
       "time": "2026-11-04T22:15:59.000Z"
     },
     "^VIX": {
-      "price": 16.61,
+      "price": 17.1,
       "prev": 16.610000610351562,
-      "chg": 0,
+      "chg": 2.95,
       "prevDay": "2026-11-04",
       "basis": "prev-close-bar",
-      "time": "2026-11-04T21:15:01.000Z"
+      "time": "2026-11-05T08:26:31.000Z"
     },
     "^TNX": {
       "price": 4.894,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.082
+    "pct": 0.084
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -13.1
     },
     "KRW=X": {
-      "last": 1340.81,
+      "last": 1341.38,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.082,
-      "chg3m": -5.4
+      "pct52": 0.084,
+      "chg3m": -5.36
     },
     "^GSPC": {
       "last": 7688.62,
@@ -101,11 +101,11 @@
       "chg3m": -3.57
     },
     "^VIX": {
-      "last": 16.61,
+      "last": 17.1,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.179,
-      "chg3m": 7.44
+      "pct52": 0.206,
+      "chg3m": 11.91
     },
     "^TNX": {
       "last": 4.89,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgjQP7DbN"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgjUzLLKy"
   },
   "stocks": {
     "kr": {
@@ -368,13 +368,46 @@
   "news": {
     "kr": [
       {
-        "title": "KT&G 3분기 영업익 13.9% 증가…분기 역대 최대 실적(종합)",
-        "link": "https://www.yna.co.kr/view/AKR20261105130651527",
+        "title": "이형일, 피치에 \"AI·반도체 호황, 잠재성장률 반등 기대\"",
+        "link": "https://www.yna.co.kr/view/AKR20261105158300002",
         "source": "연합뉴스",
-        "date": "Thu, 5 Nov 2026 16:17:09 +0900",
+        "date": "Thu, 5 Nov 2026 17:24:17 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "상장사, 중복상장·유증 시 투자자 보호조치 공시해야",
+        "link": "https://www.hankyung.com/article/202611058812i",
+        "source": "한국경제",
+        "date": "Thu, 05 Nov 2026 16:34:06 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "현대차·셀트리온 … 美민주 압승에 주가 신바람",
+        "link": "https://www.mk.co.kr/news/stock/12198728",
+        "source": "매일경제",
+        "date": "Thu, 05 Nov 2026 17:39:22 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "국고채 금리, 美 블루웨이브 파급 효과에 일제히 하락(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261105151251008",
+        "source": "연합뉴스",
+        "date": "Thu, 5 Nov 2026 16:55:40 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -390,46 +423,13 @@
         "by": "rules"
       },
       {
-        "title": "“물적분할시 주식매수청구권 부여.. 빈대 잡으려다 초가삼간 태우고 있다”",
-        "link": "https://www.mk.co.kr/news/stock/12198418",
+        "title": "AI데이터센터 급제동 공포 … 외국인, 메모리株 투매 3조 육박",
+        "link": "https://www.mk.co.kr/news/stock/12198725",
         "source": "매일경제",
-        "date": "Thu, 05 Nov 2026 15:45:17 +09:00",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": null,
-        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
-        "by": "rules"
-      },
-      {
-        "title": "블루웨이브 쇼크 '검은 목요일'…데이터센터 규제 우려에 증시 급락(종합)",
-        "link": "https://www.yna.co.kr/view/AKR20261105086751008",
-        "source": "연합뉴스",
-        "date": "Thu, 5 Nov 2026 16:12:21 +0900",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": null,
-        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
-        "by": "rules"
-      },
-      {
-        "title": "퇴직연금 믿을 곳 없네…반도체 채권혼합 ETF도 흔들",
-        "link": "https://www.hankyung.com/article/202611058614i",
-        "source": "한국경제",
-        "date": "Thu, 05 Nov 2026 16:25:14 +0900",
+        "date": "Thu, 05 Nov 2026 17:39:21 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "[속보] 美블루웨이브 쇼크에 코스피·코스닥, 5%대 급락 마감",
-        "link": "https://www.mk.co.kr/news/stock/12198408",
-        "source": "매일경제",
-        "date": "Thu, 05 Nov 2026 15:38:21 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -448,14 +448,14 @@
         "by": "rules"
       },
       {
-        "title": "Most investors are blind to the possibility of a market crash. Here is the five-part strategy to survive one.",
-        "link": "https://www.marketwatch.com/story/most-investors-are-blind-to-the-possibility-of-a-market-crash-here-is-the-five-part-strategy-to-survive-one-a1762911?mod=mw_rss_topstories",
+        "title": "Dow scores its best day in 18 months in a broad relief rally after Democrats sweep to power in Congress",
+        "link": "https://www.marketwatch.com/story/dow-scores-its-best-day-in-18-months-in-a-broad-relief-rally-after-democrats-sweep-to-power-in-congress-d7348fc0?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Thu, 05 Nov 2026 07:15:00 GMT",
-        "ko": "대부분의 투자자들은 시장 붕괴의 가능성에 눈이 멀어 있습니다. 다음은 생존을 위한 5가지 전략입니다.",
+        "date": "Thu, 05 Nov 2026 08:13:00 GMT",
+        "ko": "다우 지수는 민주당이 의회에서 권력을 장악한 후 광범위한 구호 집회에서 18개월 만에 최고의 날을 기록했습니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -472,11 +472,11 @@
         "by": "rules"
       },
       {
-        "title": "Qualcomm’s stock falls as twin forces pressure sales",
-        "link": "https://www.marketwatch.com/story/qualcomms-stock-falls-as-twin-forces-pressure-sales-fa161159?mod=mw_rss_topstories",
+        "title": "Most investors are blind to the possibility of a market crash. Here is the five-part strategy to survive one.",
+        "link": "https://www.marketwatch.com/story/most-investors-are-blind-to-the-possibility-of-a-market-crash-here-is-the-five-part-strategy-to-survive-one-a1762911?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Thu, 05 Nov 2026 01:06:00 GMT",
-        "ko": "쌍둥이 세력의 판매 압박으로 Qualcomm의 주가가 하락합니다.",
+        "date": "Thu, 05 Nov 2026 07:15:00 GMT",
+        "ko": "대부분의 투자자들은 시장 붕괴의 가능성에 눈이 멀어 있습니다. 다음은 생존을 위한 5가지 전략입니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -496,14 +496,14 @@
         "by": "rules"
       },
       {
-        "title": "This year’s worst-performing S&P 500 stock is finally seeing some major relief",
-        "link": "https://www.marketwatch.com/story/this-years-worst-performing-s-p-500-stock-is-finally-seeing-some-major-relief-fff3fa85?mod=mw_rss_topstories",
+        "title": "Qualcomm’s stock falls as twin forces pressure sales",
+        "link": "https://www.marketwatch.com/story/qualcomms-stock-falls-as-twin-forces-pressure-sales-fa161159?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Thu, 05 Nov 2026 01:05:00 GMT",
-        "ko": "올해 최악의 실적을 기록한 S&P 500 주가가 마침내 큰 하락세를 보이고 있습니다.",
+        "date": "Thu, 05 Nov 2026 01:06:00 GMT",
+        "ko": "쌍둥이 세력의 판매 압박으로 Qualcomm의 주가가 하락합니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -511,7 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "CoreWeave sparks worry about broader credit-market stress as its bonds tumble": "CoreWeave는 채권이 하락함에 따라 광범위한 신용 시장 스트레스에 대한 우려를 불러일으킵니다.",
     "Why Dell’s stock was one of the S&P 500’s biggest laggards on Wednesday": "수요일에 Dell의 주식이 S&P 500의 가장 큰 후발주자 중 하나인 이유",
     "CoreWeave’s AI bonds tumble, raising red flags for the wider market": "CoreWeave의 인공지능 채권은 폭넓은 시장의 적신호를 불러일으키고 있습니다.",
     "Meet the baby chasers — they’re transforming the housing market and solving the childcare crisis": "베이비 체이서를 만나보세요. 베이비 체이서는 주택 시장을 변화시키고 육아 위기를 해결하고 있습니다.",
@@ -810,7 +809,8 @@
     "These stocks soared the most today after the Democrats trounced Trump": "이 주가는 민주당이 트럼프를 괴롭힌 후 오늘 가장 많이 치솟았다.",
     "This year’s worst-performing S&P 500 stock is finally seeing some major relief": "올해 최악의 실적을 기록한 S&P 500 주가가 마침내 큰 하락세를 보이고 있습니다.",
     "Figma’s stock dips as investors worry that AI momentum is coming at a high price": "투자자들이 AI 모멘텀이 높은 가격으로 다가오고 있다고 우려함에 따라 Figma의 주가는 하락했습니다.",
-    "Most investors are blind to the possibility of a market crash. Here is the five-part strategy to survive one.": "대부분의 투자자들은 시장 붕괴의 가능성에 눈이 멀어 있습니다. 다음은 생존을 위한 5가지 전략입니다."
+    "Most investors are blind to the possibility of a market crash. Here is the five-part strategy to survive one.": "대부분의 투자자들은 시장 붕괴의 가능성에 눈이 멀어 있습니다. 다음은 생존을 위한 5가지 전략입니다.",
+    "Dow scores its best day in 18 months in a broad relief rally after Democrats sweep to power in Congress": "다우 지수는 민주당이 의회에서 권력을 장악한 후 광범위한 구호 집회에서 18개월 만에 최고의 날을 기록했습니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2955,7 +2955,7 @@
       "2026-11-02": 1344.49,
       "2026-11-03": 1343.59,
       "2026-11-04": 1340.04,
-      "2026-11-05": 1340.81
+      "2026-11-05": 1341.38
     },
     "^GSPC": {
       "2026-10-25": 7623.68,
@@ -2997,7 +2997,7 @@
       "2026-11-02": 21.15,
       "2026-11-03": 20.83,
       "2026-11-04": 16.61,
-      "2026-11-05": 16.61
+      "2026-11-05": 17.1
     },
     "^TNX": {
       "2026-10-25": 4.988,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgjQP7DbNUvEqjqY6eQ7P\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgjQP7h85S5gmPaEvAeXE\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgjQP85gmmjmftRJrau43\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgjUzLLKyczVVCuesXhz8\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgjUzLiteExQ1pHdhM3QZ\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgjUzLzmFRkCx1DU63dWC\"}"
   ]
 }
