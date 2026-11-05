@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-04T23:16:57.012Z",
+  "asOf": "2026-11-05T00:02:17.491Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-04T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1340.04,
-      "prev": 1344.81005859375,
-      "chg": -0.35,
-      "prevDay": "2026-11-03",
-      "basis": "prev-close-bar",
-      "time": "2026-11-04T23:05:52.000Z"
+      "price": 1340.68,
+      "prev": 1340.04,
+      "chg": 0.05,
+      "prevDay": "2026-11-04",
+      "basis": "prev-close-memo",
+      "time": "2026-11-05T00:02:10.000Z"
     },
     "^GSPC": {
       "price": 7688.62,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.079
+    "pct": 0.082
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -2.14
     },
     "KRW=X": {
-      "last": 1340.04,
+      "last": 1340.88,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.079,
-      "chg3m": -4.76
+      "pct52": 0.082,
+      "chg3m": -4.7
     },
     "^GSPC": {
       "last": 7688.62,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgijukYy1"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgioNJKVK"
   },
   "stocks": {
     "kr": {
@@ -368,10 +368,10 @@
   "news": {
     "kr": [
       {
-        "title": "한투증권, 현대백화점 목표가↓…\"원화강세로 모멘텀 감소\"",
-        "link": "https://www.yna.co.kr/view/AKR20261105024000008",
+        "title": "증권가, 카카오게임즈에 \"3분기 바닥…내년 흑자전환 기대\"",
+        "link": "https://www.yna.co.kr/view/AKR20261105031500008",
         "source": "연합뉴스",
-        "date": "Thu, 5 Nov 2026 08:08:16 +0900",
+        "date": "Thu, 5 Nov 2026 08:54:14 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -379,32 +379,32 @@
         "by": "rules"
       },
       {
-        "title": "호재들이 'AI 규제 우려' 지웠다…美 증시 급등 [오늘 아침, 당신이 알아야 할 7가지]",
-        "link": "https://www.hankyung.com/article/202611056961i",
+        "title": "\"불확실성 청산\" 반도체만 빼고 폭등…연말 랠리 or 불트랩? [김현석의 월스트리트나우]",
+        "link": "https://www.hankyung.com/article/202611056892i",
         "source": "한국경제",
-        "date": "Thu, 05 Nov 2026 07:31:25 +0900",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": null,
-        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
-        "by": "rules"
-      },
-      {
-        "title": "버넥트, 경영권 매각설 부인… “사실무근, 실적 개선에 집중”",
-        "link": "https://www.mk.co.kr/news/stock/12197845",
-        "source": "매일경제",
-        "date": "Thu, 05 Nov 2026 08:11:17 +09:00",
+        "date": "Thu, 05 Nov 2026 08:38:22 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "피노, 1천830억원 제3자배정 유상증자",
-        "link": "https://www.yna.co.kr/view/AKR20261105021500008",
+        "title": "“바닥 찍었다”…증권가, 휴젤 목표가 낮추며 ‘매수’ 유지 [오늘 나온 보고서]",
+        "link": "https://www.mk.co.kr/news/stock/12197893",
+        "source": "매일경제",
+        "date": "Thu, 05 Nov 2026 08:57:12 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "신한증권 \"휴젤, 미국 부진에 이익 기대치 하회\"…목표가↓",
+        "link": "https://www.yna.co.kr/view/AKR20261105031000008",
         "source": "연합뉴스",
-        "date": "Thu, 5 Nov 2026 08:05:03 +0900",
+        "date": "Thu, 5 Nov 2026 08:45:14 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -412,24 +412,24 @@
         "by": "rules"
       },
       {
-        "title": "자원값 오르자 日 상사들 '돈방석'…미쓰비시, 1조엔 자사주 매입",
-        "link": "https://www.hankyung.com/article/202611056975i",
+        "title": "'아픈 손가락'으로 꼽혔는데...현대百 어닝서프라이즈 이끈 '이곳'",
+        "link": "https://www.hankyung.com/article/202611046789i",
         "source": "한국경제",
-        "date": "Thu, 05 Nov 2026 07:26:15 +0900",
+        "date": "Thu, 05 Nov 2026 08:00:16 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "“트럼프가 코스피 악재였네” 귀신같이 ‘다말올’…찐수혜주 따로 있다",
-        "link": "https://www.mk.co.kr/news/stock/12197497",
+        "title": "민주당 선거 압승에 반도체 급락 왜?",
+        "link": "https://www.mk.co.kr/news/stock/12197876",
         "source": "매일경제",
-        "date": "Thu, 05 Nov 2026 06:21:49 +09:00",
+        "date": "Thu, 05 Nov 2026 08:34:02 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -2944,7 +2944,6 @@
       "2026-11-05": 714.95
     },
     "KRW=X": {
-      "2026-10-24": 1325.4,
       "2026-10-25": 1323.43,
       "2026-10-26": 1325.02,
       "2026-10-27": 1326.28,
@@ -2955,7 +2954,8 @@
       "2026-11-01": 1332.38,
       "2026-11-02": 1344.49,
       "2026-11-03": 1343.59,
-      "2026-11-04": 1340.04
+      "2026-11-04": 1340.04,
+      "2026-11-05": 1340.68
     },
     "^GSPC": {
       "2026-10-24": 7623.68,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgijukYy1BUtggJzNpyH8\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgijum4y4Txy6SQWqpxRY\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgijumTHWBErhY15avvgp\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgioNJKVKownwR6ChANHL\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgioNJc72wFFZovEbx178\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgioNJn1zKEYhMStvfFxh\"}"
   ]
 }
