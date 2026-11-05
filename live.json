@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-05T09:42:15.510Z",
+  "asOf": "2026-11-05T10:42:45.299Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-05T06:33:00.000Z"
     },
     "KRW=X": {
-      "price": 1340.47,
+      "price": 1342.28,
       "prev": 1342.9000244140625,
-      "chg": -0.18,
+      "chg": -0.05,
       "prevDay": "2026-11-04",
       "basis": "prev-close-bar",
-      "time": "2026-11-05T09:42:05.000Z"
+      "time": "2026-11-05T10:42:27.000Z"
     },
     "^GSPC": {
       "price": 7688.62,
@@ -43,12 +43,12 @@
       "time": "2026-11-04T22:15:59.000Z"
     },
     "^VIX": {
-      "price": 17.12,
+      "price": 16.85,
       "prev": 16.610000610351562,
-      "chg": 3.07,
+      "chg": 1.44,
       "prevDay": "2026-11-04",
       "basis": "prev-close-bar",
-      "time": "2026-11-05T09:27:01.000Z"
+      "time": "2026-11-05T10:27:31.000Z"
     },
     "^TNX": {
       "price": 4.894,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.08
+    "pct": 0.088
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -13.1
     },
     "KRW=X": {
-      "last": 1340.47,
+      "last": 1342.28,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.08,
-      "chg3m": -5.42
+      "pct52": 0.088,
+      "chg3m": -5.29
     },
     "^GSPC": {
       "last": 7688.62,
@@ -101,11 +101,11 @@
       "chg3m": -3.57
     },
     "^VIX": {
-      "last": 17.12,
+      "last": 16.85,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.208,
-      "chg3m": 10.74
+      "pct52": 0.192,
+      "chg3m": 10.27
     },
     "^TNX": {
       "last": 4.89,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgjZbQsd5"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgjeCy92c"
   },
   "stocks": {
     "kr": {
@@ -379,13 +379,13 @@
         "by": "rules"
       },
       {
-        "title": "美 '블루 쓰나미'에 코스피가 쓸려갔다",
-        "link": "https://www.hankyung.com/article/2026110591631",
+        "title": "美중간선거 '블루웨이브'에…한·일 증시 동반 급락",
+        "link": "https://www.hankyung.com/article/2026110591717",
         "source": "한국경제",
-        "date": "Thu, 05 Nov 2026 17:51:50 +0900",
+        "date": "Thu, 05 Nov 2026 17:44:41 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -412,21 +412,21 @@
         "by": "rules"
       },
       {
-        "title": "美중간선거 '블루웨이브'에…한·일 증시 동반 급락",
-        "link": "https://www.hankyung.com/article/2026110591717",
+        "title": "\"동맹국이 국채 사게 하라\" 마이런 보고서 현실화?",
+        "link": "https://www.hankyung.com/article/2026110591441",
         "source": "한국경제",
-        "date": "Thu, 05 Nov 2026 17:44:41 +0900",
+        "date": "Thu, 05 Nov 2026 17:42:08 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "현대차·셀트리온 … 美민주 압승에 주가 신바람",
-        "link": "https://www.mk.co.kr/news/stock/12198728",
+        "title": "AI데이터센터 급제동 공포 … 외국인, 메모리株 투매 3조 육박",
+        "link": "https://www.mk.co.kr/news/stock/12198725",
         "source": "매일경제",
-        "date": "Thu, 05 Nov 2026 17:39:22 +09:00",
+        "date": "Thu, 05 Nov 2026 17:39:21 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -448,14 +448,13 @@
         "by": "rules"
       },
       {
-        "title": "Dow scores its best day in 18 months in a broad relief rally after Democrats sweep to power in Congress",
-        "link": "https://www.marketwatch.com/story/dow-scores-its-best-day-in-18-months-in-a-broad-relief-rally-after-democrats-sweep-to-power-in-congress-d7348fc0?mod=mw_rss_topstories",
+        "title": "A prolonged war in Iran is the market’s real ‘black swan,’ says this strategist",
+        "link": "https://www.marketwatch.com/story/a-prolonged-war-in-iran-is-the-markets-real-black-swan-says-this-strategist-65d105c7?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Thu, 05 Nov 2026 08:13:00 GMT",
-        "ko": "다우 지수는 민주당이 의회에서 권력을 장악한 후 광범위한 구호 집회에서 18개월 만에 최고의 날을 기록했습니다.",
+        "date": "Thu, 05 Nov 2026 10:20:00 GMT",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -472,14 +471,13 @@
         "by": "rules"
       },
       {
-        "title": "Most investors are blind to the possibility of a market crash. Here is the five-part strategy to survive one.",
-        "link": "https://www.marketwatch.com/story/most-investors-are-blind-to-the-possibility-of-a-market-crash-here-is-the-five-part-strategy-to-survive-one-a1762911?mod=mw_rss_topstories",
+        "title": "Toyota stock rallies after company lowered sales guidance. Here’s how rare that is.",
+        "link": "https://www.marketwatch.com/story/toyota-stock-rallies-after-company-lowered-sales-guidance-heres-how-rare-that-is-c3d6c9bf?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Thu, 05 Nov 2026 07:15:00 GMT",
-        "ko": "대부분의 투자자들은 시장 붕괴의 가능성에 눈이 멀어 있습니다. 다음은 생존을 위한 5가지 전략입니다.",
+        "date": "Thu, 05 Nov 2026 10:15:00 GMT",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -496,14 +494,14 @@
         "by": "rules"
       },
       {
-        "title": "Qualcomm’s stock falls as twin forces pressure sales",
-        "link": "https://www.marketwatch.com/story/qualcomms-stock-falls-as-twin-forces-pressure-sales-fa161159?mod=mw_rss_topstories",
+        "title": "Dow scores its best day in 18 months in a broad relief rally after Democrats sweep to power in Congress",
+        "link": "https://www.marketwatch.com/story/dow-scores-its-best-day-in-18-months-in-a-broad-relief-rally-after-democrats-sweep-to-power-in-congress-d7348fc0?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Thu, 05 Nov 2026 01:06:00 GMT",
-        "ko": "쌍둥이 세력의 판매 압박으로 Qualcomm의 주가가 하락합니다.",
+        "date": "Thu, 05 Nov 2026 08:13:00 GMT",
+        "ko": "다우 지수는 민주당이 의회에서 권력을 장악한 후 광범위한 구호 집회에서 18개월 만에 최고의 날을 기록했습니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -2955,7 +2953,7 @@
       "2026-11-02": 1344.49,
       "2026-11-03": 1343.59,
       "2026-11-04": 1340.04,
-      "2026-11-05": 1340.47
+      "2026-11-05": 1342.28
     },
     "^GSPC": {
       "2026-10-25": 7623.68,
@@ -2997,7 +2995,7 @@
       "2026-11-02": 21.15,
       "2026-11-03": 20.83,
       "2026-11-04": 16.61,
-      "2026-11-05": 17.12
+      "2026-11-05": 16.85
     },
     "^TNX": {
       "2026-10-25": 4.988,
@@ -3387,8 +3385,9 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgjZbQsd5b16HNrSHE2o7\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgjZbR7FkebmJfYh2Jafs\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgjZbRFSvv8BfDkPRkEzg\"}"
+    "translate: 사용 불가 응답",
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgjeCy92cmpNwszRGjGFA\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgjeCyf33E6oB63oGo3Q6\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgjeCz3brfaE2LAtWhMgV\"}"
   ]
 }
