@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-06T14:14:54.956Z",
+  "asOf": "2026-11-06T14:25:24.529Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-06T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1362.83,
+      "price": 1363.68,
       "prev": 1340.0699462890625,
-      "chg": 1.7,
+      "chg": 1.76,
       "prevDay": "2026-11-05",
       "basis": "prev-close-bar",
-      "time": "2026-11-06T14:14:47.000Z"
+      "time": "2026-11-06T14:25:09.000Z"
     },
     "^GSPC": {
       "price": 7353.73,
@@ -43,26 +43,26 @@
       "time": "2026-11-05T22:15:59.000Z"
     },
     "^VIX": {
-      "price": 26.59,
+      "price": 26.75,
       "prev": 28.18000030517578,
-      "chg": -5.64,
+      "chg": -5.07,
       "prevDay": "2026-11-05",
       "basis": "prev-close-bar",
-      "time": "2026-11-06T13:59:46.000Z"
+      "time": "2026-11-06T14:10:01.000Z"
     },
     "^TNX": {
-      "price": 4.868,
+      "price": 4.864,
       "prev": 4.836999893188477,
-      "chg": 0.64,
+      "chg": 0.56,
       "prevDay": "2026-11-05",
       "basis": "prev-close-bar",
-      "time": "2026-11-06T13:59:46.000Z"
+      "time": "2026-11-06T14:10:06.000Z"
     }
   },
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.176
+    "pct": 0.18
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -19.42
     },
     "KRW=X": {
-      "last": 1362.83,
+      "last": 1363.68,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.176,
-      "chg3m": -3.49
+      "pct52": 0.18,
+      "chg3m": -3.43
     },
     "^GSPC": {
       "last": 7353.73,
@@ -101,18 +101,18 @@
       "chg3m": -8.61
     },
     "^VIX": {
-      "last": 26.59,
+      "last": 26.75,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.746,
-      "chg3m": 82.75
+      "pct52": 0.755,
+      "chg3m": 83.85
     },
     "^TNX": {
-      "last": 4.87,
+      "last": 4.86,
       "low52": 3.96,
       "high52": 5.31,
-      "pct52": 0.672,
-      "chg3m": 3.93
+      "pct52": 0.669,
+      "chg3m": 3.84
     }
   },
   "regime": {
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgmpCFUgv"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgmpzefyk"
   },
   "stocks": {
     "kr": {
@@ -472,18 +472,6 @@
         "by": "rules"
       },
       {
-        "title": "Here are the 2027 capital-gains tax rates for each income level",
-        "link": "https://www.marketwatch.com/story/here-are-the-2027-capital-gains-tax-rates-for-each-income-level-166fc306?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "date": "Fri, 06 Nov 2026 13:03:00 GMT",
-        "ko": "다음은 각 소득 수준에 대한 2027년 자본 이득 세율입니다.",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
         "title": "Bank of England hikes interest rate for the first time since Iran war, warns inflation will near 5%",
         "link": "https://www.cnbc.com/2026/11/05/interest-rates-inflation-uk.html",
         "source": "CNBC",
@@ -504,6 +492,18 @@
         "act": "none",
         "lasting": "temporary",
         "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "Euro zone inflation hits 4% for first time in three years as interest rate hike looms",
+        "link": "https://www.cnbc.com/2026/11/04/euro-zone-cpi-inflation-october-ecb-rate-hike.html",
+        "source": "CNBC",
+        "date": "Wed, 04 Nov 2026 10:47:30 GMT",
+        "ko": "유로존 인플레이션, 금리인상 직기 3년만에 처음으로 4% 기록",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -2955,7 +2955,7 @@
       "2026-11-03": 1343.59,
       "2026-11-04": 1340.04,
       "2026-11-05": 1357.27,
-      "2026-11-06": 1362.83
+      "2026-11-06": 1363.68
     },
     "^GSPC": {
       "2026-10-26": 7676.77,
@@ -2997,7 +2997,7 @@
       "2026-11-03": 20.83,
       "2026-11-04": 16.61,
       "2026-11-05": 28.18,
-      "2026-11-06": 26.59
+      "2026-11-06": 26.75
     },
     "^TNX": {
       "2026-10-26": 4.986,
@@ -3011,7 +3011,7 @@
       "2026-11-03": 4.952,
       "2026-11-04": 4.894,
       "2026-11-05": 4.837,
-      "2026-11-06": 4.868
+      "2026-11-06": 4.864
     },
     "105560.KS": {
       "2026-10-26": 147200,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgmpCFUgvT6go4QT5K1QA\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgmpCFmJHUasXZcwb8HB8\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgmpCFxx1uoPBRU5Gi4Qv\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgmpzefykuvNdDS1g6oYz\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgmpzfCUs2kmvWsCW7hfD\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgmpzfao1PdRWHk5gjCjb\"}"
   ]
 }
