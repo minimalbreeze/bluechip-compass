@@ -1,30 +1,30 @@
 {
-  "asOf": "2026-11-06T01:04:06.505Z",
+  "asOf": "2026-11-06T01:14:30.006Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
-      "price": 5015.5,
+      "price": 4936.97,
       "prev": 5383.8,
+      "chg": -8.3,
+      "prevDay": "2026-11-05",
+      "basis": "prev-close-memo",
+      "time": "2026-11-06T00:54:20.000Z"
+    },
+    "^KQ11": {
+      "price": 631.98,
+      "prev": 678.41,
       "chg": -6.84,
       "prevDay": "2026-11-05",
       "basis": "prev-close-memo",
-      "time": "2026-11-06T00:43:50.000Z"
-    },
-    "^KQ11": {
-      "price": 640.97,
-      "prev": 678.41,
-      "chg": -5.52,
-      "prevDay": "2026-11-05",
-      "basis": "prev-close-memo",
-      "time": "2026-11-06T00:43:50.000Z"
+      "time": "2026-11-06T00:54:20.000Z"
     },
     "KRW=X": {
-      "price": 1356.58,
+      "price": 1355.98,
       "prev": 1340.0699462890625,
-      "chg": 1.23,
+      "chg": 1.19,
       "prevDay": "2026-11-05",
       "basis": "prev-close-bar",
-      "time": "2026-11-06T01:03:57.000Z"
+      "time": "2026-11-06T01:14:20.000Z"
     },
     "^GSPC": {
       "price": 7353.73,
@@ -62,29 +62,29 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.149
+    "pct": 0.147
   },
   "hist": {
     "^KS11": {
-      "last": 5015.5,
+      "last": 4936.97,
       "low52": 3846.06,
       "high52": 9114.55,
-      "pct52": 0.222,
-      "chg3m": -21.13
+      "pct52": 0.207,
+      "chg3m": -22.36
     },
     "^KQ11": {
-      "last": 640.97,
-      "low52": 640.97,
+      "last": 631.98,
+      "low52": 631.98,
       "high52": 1226.18,
       "pct52": 0,
-      "chg3m": -17.9
+      "chg3m": -19.05
     },
     "KRW=X": {
-      "last": 1356.48,
+      "last": 1355.98,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.149,
-      "chg3m": -3.94
+      "pct52": 0.147,
+      "chg3m": -3.98
     },
     "^GSPC": {
       "last": 7353.73,
@@ -149,113 +149,113 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgkmtcVk8"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgkngaZvt"
   },
   "stocks": {
     "kr": {
       "105560": {
-        "price": 147100,
+        "price": 146500,
         "prev": 157000,
-        "chg": -6.31,
+        "chg": -6.69,
         "prevDay": "2026-11-05",
         "basis": "prev-close-bar",
-        "time": "2026-11-06T00:44:04.000Z"
+        "time": "2026-11-06T00:54:28.000Z"
       },
       "207940": {
-        "price": 1513000,
+        "price": 1537000,
         "prev": 1520000,
-        "chg": -0.46,
+        "chg": 1.12,
         "prevDay": "2026-11-05",
         "basis": "prev-close-bar",
-        "time": "2026-11-06T00:44:04.000Z"
+        "time": "2026-11-06T00:54:27.000Z"
       },
       "005930": {
-        "price": 187500,
+        "price": 183300,
         "prev": 201500,
-        "chg": -6.95,
+        "chg": -9.03,
         "prevDay": "2026-11-05",
         "basis": "prev-close-bar",
-        "time": "2026-11-06T00:44:03.000Z"
+        "time": "2026-11-06T00:54:28.000Z"
       },
       "000660": {
-        "price": 1156000,
+        "price": 1121000,
         "prev": 1264000,
-        "chg": -8.54,
+        "chg": -11.31,
         "prevDay": "2026-11-05",
         "basis": "prev-close-bar",
-        "time": "2026-11-06T00:44:04.000Z"
+        "time": "2026-11-06T00:54:28.000Z"
       },
       "005380": {
-        "price": 272000,
+        "price": 270000,
         "prev": 293500,
-        "chg": -7.33,
+        "chg": -8.01,
         "prevDay": "2026-11-05",
         "basis": "prev-close-bar",
-        "time": "2026-11-06T00:44:03.000Z"
+        "time": "2026-11-06T00:54:28.000Z"
       },
       "055550": {
-        "price": 84100,
+        "price": 83800,
         "prev": 88700,
-        "chg": -5.19,
+        "chg": -5.52,
         "prevDay": "2026-11-05",
         "basis": "prev-close-bar",
-        "time": "2026-11-06T00:44:04.000Z"
+        "time": "2026-11-06T00:54:27.000Z"
       },
       "000810": {
-        "price": 606000,
+        "price": 605000,
         "prev": 652000,
-        "chg": -7.06,
+        "chg": -7.21,
         "prevDay": "2026-11-05",
         "basis": "prev-close-bar",
-        "time": "2026-11-06T00:44:04.000Z"
+        "time": "2026-11-06T00:54:26.000Z"
       },
       "033780": {
-        "price": 194400,
+        "price": 193900,
         "prev": 194200,
-        "chg": 0.1,
+        "chg": -0.15,
         "prevDay": "2026-11-05",
         "basis": "prev-close-bar",
-        "time": "2026-11-06T00:44:05.000Z"
+        "time": "2026-11-06T00:54:25.000Z"
       },
       "035420": {
-        "price": 178000,
+        "price": 179200,
         "prev": 184900,
-        "chg": -3.73,
+        "chg": -3.08,
         "prevDay": "2026-11-05",
         "basis": "prev-close-bar",
-        "time": "2026-11-06T00:44:03.000Z"
+        "time": "2026-11-06T00:54:28.000Z"
       },
       "005490": {
-        "price": 258500,
+        "price": 257500,
         "prev": 273500,
-        "chg": -5.48,
+        "chg": -5.85,
         "prevDay": "2026-11-05",
         "basis": "prev-close-bar",
-        "time": "2026-11-06T00:44:04.000Z"
+        "time": "2026-11-06T00:54:28.000Z"
       },
       "028260": {
-        "price": 264000,
+        "price": 262500,
         "prev": 290500,
-        "chg": -9.12,
+        "chg": -9.64,
         "prevDay": "2026-11-05",
         "basis": "prev-close-bar",
-        "time": "2026-11-06T00:44:03.000Z"
+        "time": "2026-11-06T00:54:28.000Z"
       },
       "012450": {
-        "price": 625000,
+        "price": 614000,
         "prev": 680000,
-        "chg": -8.09,
+        "chg": -9.71,
         "prevDay": "2026-11-05",
         "basis": "prev-close-bar",
-        "time": "2026-11-06T00:44:03.000Z"
+        "time": "2026-11-06T00:54:27.000Z"
       },
       "017670": {
-        "price": 72300,
+        "price": 72200,
         "prev": 77500,
-        "chg": -6.71,
+        "chg": -6.84,
         "prevDay": "2026-11-05",
         "basis": "prev-close-bar",
-        "time": "2026-11-06T00:44:02.000Z"
+        "time": "2026-11-06T00:54:27.000Z"
       }
     },
     "us": {
@@ -368,21 +368,21 @@
   "news": {
     "kr": [
       {
-        "title": "세계증시 급락 속…증권가 \"데이터센터 규제 우려 과도\"",
-        "link": "https://www.yna.co.kr/view/AKR20261106050600008",
+        "title": "\"울고 싶다\" \"연봉 날아갈 판\"…삼전닉스 등 증시 폭락에 개미들 패닉",
+        "link": "https://www.yna.co.kr/view/AKR20261106060700008",
         "source": "연합뉴스",
-        "date": "Fri, 6 Nov 2026 09:51:21 +0900",
-        "act": "watch",
-        "lasting": "structural",
+        "date": "Fri, 6 Nov 2026 10:09:53 +0900",
+        "act": "none",
+        "lasting": "temporary",
         "scope": null,
-        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "[속보] 코스닥, 이틀 연속 '매도 사이드카' 발동…6%대 급락",
-        "link": "https://www.hankyung.com/article/2026110699936",
+        "title": "[속보] 코스피, 서킷브레이커 이어 매도 사이드카 발동",
+        "link": "https://www.hankyung.com/article/2026110601366",
         "source": "한국경제",
-        "date": "Fri, 06 Nov 2026 09:08:02 +0900",
+        "date": "Fri, 06 Nov 2026 09:37:13 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -401,24 +401,24 @@
         "by": "rules"
       },
       {
-        "title": "[속보] 코스피, 서킷브레이커 이어 매도 사이드카 발동",
-        "link": "https://www.yna.co.kr/view/AKR20261106049900008",
+        "title": "평창군, 외국인 계절근로자 산불예방 정보 '언어 장벽' 낮춘다",
+        "link": "https://www.yna.co.kr/view/AKR20261106058500062",
         "source": "연합뉴스",
-        "date": "Fri, 6 Nov 2026 09:36:13 +0900",
+        "date": "Fri, 6 Nov 2026 10:00:56 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "[속보] 증시 급락에 코스피 서킷브레이커 발동…'5000피' 붕괴",
-        "link": "https://www.hankyung.com/article/2026110699906",
+        "title": "[마켓라이브] 오천피 붕괴·서킷브레이커…美 반도체 쇼크에 '검은 금요일'",
+        "link": "https://www.hankyung.com/article/202611069919i",
         "source": "한국경제",
-        "date": "Fri, 06 Nov 2026 09:07:01 +0900",
+        "date": "Fri, 06 Nov 2026 09:12:03 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -448,11 +448,11 @@
         "by": "rules"
       },
       {
-        "title": "Cloudflare’s stock mounts a big comeback after fastest sales surge in nearly 4 years",
-        "link": "https://www.marketwatch.com/story/cloudflares-stock-mounts-a-big-comeback-after-fastest-sales-surge-in-nearly-4-years-d80d994d?mod=mw_rss_topstories",
+        "title": "Here’s what’s driving Iren’s stock higher after a brutal selloff",
+        "link": "https://www.marketwatch.com/story/heres-whats-driving-irens-stock-higher-after-a-brutal-selloff-0ced09b0?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Thu, 05 Nov 2026 23:50:00 GMT",
-        "ko": "Cloudflare의 주식은 거의 4년 만에 가장 빠른 판매 급증 후 큰 상승세를 보이고 있습니다.",
+        "date": "Fri, 06 Nov 2026 01:07:00 GMT",
+        "ko": "잔인한 매각 이후 Iren의 주식을 더 높게 만드는 요인은 다음과 같습니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -472,11 +472,11 @@
         "by": "rules"
       },
       {
-        "title": "Here are the 2027 capital-gains tax rates for each income level",
-        "link": "https://www.marketwatch.com/story/here-are-the-2027-capital-gains-tax-rates-for-each-income-level-166fc306?mod=mw_rss_topstories",
+        "title": "Cloudflare’s stock mounts a big comeback after fastest sales surge in nearly 4 years",
+        "link": "https://www.marketwatch.com/story/cloudflares-stock-mounts-a-big-comeback-after-fastest-sales-surge-in-nearly-4-years-d80d994d?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Thu, 05 Nov 2026 23:48:00 GMT",
-        "ko": "다음은 각 소득 수준에 대한 2027년 자본 이득 세율입니다.",
+        "date": "Fri, 06 Nov 2026 01:06:00 GMT",
+        "ko": "Cloudflare의 주식은 거의 4년 만에 가장 빠른 판매 급증 후 큰 상승세를 보이고 있습니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -496,11 +496,11 @@
         "by": "rules"
       },
       {
-        "title": "Tech stocks log worst day since 2020 as carnage comes to the AI trade",
-        "link": "https://www.marketwatch.com/story/tech-stocks-log-worst-day-since-2020-as-carnage-comes-to-the-ai-trade-56109845?mod=mw_rss_topstories",
+        "title": "Here are the 2027 capital-gains tax rates for each income level",
+        "link": "https://www.marketwatch.com/story/here-are-the-2027-capital-gains-tax-rates-for-each-income-level-166fc306?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Thu, 05 Nov 2026 22:48:00 GMT",
-        "ko": "인공지능 (AI) 거래에 대학살이 발생하면서 2020년 이후 기술 재고가 최악의 시기를 기록했다.",
+        "date": "Thu, 05 Nov 2026 23:48:00 GMT",
+        "ko": "다음은 각 소득 수준에 대한 2027년 자본 이득 세율입니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -2927,7 +2927,7 @@
       "2026-11-03": 5648.79,
       "2026-11-04": 5683.8,
       "2026-11-05": 5383.8,
-      "2026-11-06": 5015.5
+      "2026-11-06": 4936.97
     },
     "^KQ11": {
       "2026-10-26": 727.21,
@@ -2941,7 +2941,7 @@
       "2026-11-03": 704.39,
       "2026-11-04": 714.95,
       "2026-11-05": 678.41,
-      "2026-11-06": 640.97
+      "2026-11-06": 631.98
     },
     "KRW=X": {
       "2026-10-26": 1325.02,
@@ -2955,7 +2955,7 @@
       "2026-11-03": 1343.59,
       "2026-11-04": 1340.04,
       "2026-11-05": 1357.27,
-      "2026-11-06": 1356.58
+      "2026-11-06": 1355.98
     },
     "^GSPC": {
       "2026-10-25": 7623.68,
@@ -3025,7 +3025,7 @@
       "2026-11-03": 151400,
       "2026-11-04": 151500,
       "2026-11-05": 157000,
-      "2026-11-06": 147100
+      "2026-11-06": 146500
     },
     "207940.KS": {
       "2026-10-26": 1452000,
@@ -3039,7 +3039,7 @@
       "2026-11-03": 1452000,
       "2026-11-04": 1495000,
       "2026-11-05": 1520000,
-      "2026-11-06": 1513000
+      "2026-11-06": 1537000
     },
     "005930.KS": {
       "2026-10-26": 213000,
@@ -3053,7 +3053,7 @@
       "2026-11-03": 219500,
       "2026-11-04": 218000,
       "2026-11-05": 201500,
-      "2026-11-06": 187500
+      "2026-11-06": 183300
     },
     "000660.KS": {
       "2026-10-26": 1275000,
@@ -3067,7 +3067,7 @@
       "2026-11-03": 1398000,
       "2026-11-04": 1396000,
       "2026-11-05": 1264000,
-      "2026-11-06": 1156000
+      "2026-11-06": 1121000
     },
     "005380.KS": {
       "2026-10-26": 288000,
@@ -3081,7 +3081,7 @@
       "2026-11-03": 277500,
       "2026-11-04": 283500,
       "2026-11-05": 293500,
-      "2026-11-06": 272000
+      "2026-11-06": 270000
     },
     "055550.KS": {
       "2026-10-26": 85500,
@@ -3095,7 +3095,7 @@
       "2026-11-03": 85600,
       "2026-11-04": 86300,
       "2026-11-05": 88700,
-      "2026-11-06": 84100
+      "2026-11-06": 83800
     },
     "000810.KS": {
       "2026-10-26": 595000,
@@ -3109,7 +3109,7 @@
       "2026-11-03": 651000,
       "2026-11-04": 653000,
       "2026-11-05": 652000,
-      "2026-11-06": 606000
+      "2026-11-06": 605000
     },
     "033780.KS": {
       "2026-10-26": 188900,
@@ -3123,7 +3123,7 @@
       "2026-11-03": 192700,
       "2026-11-04": 192000,
       "2026-11-05": 194200,
-      "2026-11-06": 194400
+      "2026-11-06": 193900
     },
     "035420.KS": {
       "2026-10-26": 174200,
@@ -3137,7 +3137,7 @@
       "2026-11-03": 169000,
       "2026-11-04": 170800,
       "2026-11-05": 184900,
-      "2026-11-06": 178000
+      "2026-11-06": 179200
     },
     "005490.KS": {
       "2026-10-26": 269500,
@@ -3151,7 +3151,7 @@
       "2026-11-03": 266500,
       "2026-11-04": 276000,
       "2026-11-05": 273500,
-      "2026-11-06": 258500
+      "2026-11-06": 257500
     },
     "028260.KS": {
       "2026-10-26": 292000,
@@ -3165,7 +3165,7 @@
       "2026-11-03": 309500,
       "2026-11-04": 309000,
       "2026-11-05": 290500,
-      "2026-11-06": 264000
+      "2026-11-06": 262500
     },
     "012450.KS": {
       "2026-10-26": 760000,
@@ -3179,7 +3179,7 @@
       "2026-11-03": 740000,
       "2026-11-04": 735000,
       "2026-11-05": 680000,
-      "2026-11-06": 625000
+      "2026-11-06": 614000
     },
     "017670.KS": {
       "2026-10-26": 72100,
@@ -3193,7 +3193,7 @@
       "2026-11-03": 74300,
       "2026-11-04": 77400,
       "2026-11-05": 77500,
-      "2026-11-06": 72300
+      "2026-11-06": 72200
     },
     "MSFT": {
       "2026-10-25": 524.51,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgkmtcVk8vPoXGt19rH6M\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgkmtcx2W9prKWkMUYgCt\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgkmtdPKrBuUzgXrZAgf9\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgkngaZvtZuXHPWfvf8uX\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgkngauHPwtzquCyrdKAm\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgkngbAA3SuFeAVk5ny9m\"}"
   ]
 }
