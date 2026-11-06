@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-06T00:01:43.656Z",
+  "asOf": "2026-11-06T00:12:07.646Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-05T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1356.38,
-      "prev": 1357.27,
-      "chg": -0.07,
+      "price": 1355.18,
+      "prev": 1340.0699462890625,
+      "chg": 1.13,
       "prevDay": "2026-11-05",
-      "basis": "prev-close-memo",
-      "time": "2026-11-06T00:01:36.000Z"
+      "basis": "prev-close-bar",
+      "time": "2026-11-06T00:11:57.000Z"
     },
     "^GSPC": {
       "price": 7353.73,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.149
+    "pct": 0.144
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -3.04
     },
     "KRW=X": {
-      "last": 1356.38,
+      "last": 1355.18,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.149,
-      "chg3m": -4.3
+      "pct52": 0.144,
+      "chg3m": -4.04
     },
     "^GSPC": {
       "last": 7353.73,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgkh8iFpH"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgkhviDNm"
   },
   "stocks": {
     "kr": {
@@ -368,13 +368,13 @@
   "news": {
     "kr": [
       {
-        "title": "이형일 \"증시가 지나치게 반응하지 않도록 조치 선제적 강구\"",
-        "link": "https://www.yna.co.kr/view/AKR20261106033400002",
+        "title": "[속보] 증시 급락에 코스피 서킷브레이커 발동…5천피 밑으로",
+        "link": "https://www.yna.co.kr/view/AKR20261106037400008",
         "source": "연합뉴스",
-        "date": "Fri, 6 Nov 2026 08:54:00 +0900",
+        "date": "Fri, 6 Nov 2026 09:04:35 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -390,24 +390,24 @@
         "by": "rules"
       },
       {
-        "title": "헤지펀드의 항복 선언인가? 폭락한 미국 증시 왜",
-        "link": "https://www.mk.co.kr/news/business/12200062",
+        "title": "[속보] 코스피, 8%대 급락 출발…코스닥 5~6%대↓",
+        "link": "https://www.mk.co.kr/news/stock/12200167",
         "source": "매일경제",
-        "date": "Fri, 06 Nov 2026 08:00:16 +09:00",
+        "date": "Fri, 06 Nov 2026 09:05:16 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "신한증권 \"美 블루웨이브에 국고채 금리 급락…추가 하락 제한\"",
-        "link": "https://www.yna.co.kr/view/AKR20261106032100008",
+        "title": "이형일 \"증시가 지나치게 반응하지 않도록 조치 선제적 강구\"",
+        "link": "https://www.yna.co.kr/view/AKR20261106033400002",
         "source": "연합뉴스",
-        "date": "Fri, 6 Nov 2026 08:51:31 +0900",
+        "date": "Fri, 6 Nov 2026 08:54:00 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -423,10 +423,10 @@
         "by": "rules"
       },
       {
-        "title": "[속보] 뉴욕증시, AI 기술주 투매에 급락…나스닥 5.5%↓",
-        "link": "https://www.mk.co.kr/news/stock/12199715",
+        "title": "영국인들, 9달동안 한국 증시 100조 팔았다…“세금 아끼려고” [오늘 나온 보고서]",
+        "link": "https://www.mk.co.kr/news/stock/12200164",
         "source": "매일경제",
-        "date": "Fri, 06 Nov 2026 06:12:14 +09:00",
+        "date": "Fri, 06 Nov 2026 09:02:31 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -2955,7 +2955,7 @@
       "2026-11-03": 1343.59,
       "2026-11-04": 1340.04,
       "2026-11-05": 1357.27,
-      "2026-11-06": 1356.38
+      "2026-11-06": 1355.18
     },
     "^GSPC": {
       "2026-10-25": 7623.68,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgkh8iFpHNVhim6qRUPyk\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgkh8ihMq6U3KKtGFzovh\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgkh8j5BijwwM8toRwGui\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgkhviDNmY8VNzQsik3w2\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgkhvidBAUiR45tnWN6xo\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgkhvixmWpdaiJG2ZM5Sm\"}"
   ]
 }
