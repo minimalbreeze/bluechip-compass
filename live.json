@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-06T22:01:38.616Z",
+  "asOf": "2026-11-06T23:02:02.899Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -40,7 +40,7 @@
       "chg": 1.09,
       "prevDay": "2026-11-05",
       "basis": "prev-close-bar",
-      "time": "2026-11-06T22:01:26.000Z"
+      "time": "2026-11-06T22:15:59.000Z"
     },
     "^VIX": {
       "price": 25.64,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgnRnWjyj"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgnWPgH9N"
   },
   "stocks": {
     "kr": {
@@ -368,14 +368,14 @@
   "news": {
     "kr": [
       {
-        "title": "[부동산캘린더] 내주 광교 자연앤 센트레빌 등 12곳서 5천215가구 청약",
-        "link": "https://www.yna.co.kr/view/AKR20261106175000003",
+        "title": "미래에셋증권도 해킹…고객 3천800여명·임직원 3만5천여명 정보 유출",
+        "link": "https://www.yna.co.kr/view/AKR20261107014451008",
         "source": "연합뉴스",
-        "date": "Sat, 7 Nov 2026 06:00:01 +0900",
-        "act": "none",
-        "lasting": "temporary",
+        "date": "Sat, 7 Nov 2026 07:56:17 +0900",
+        "act": "watch",
+        "lasting": "structural",
         "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
         "by": "rules"
       },
       {
@@ -390,25 +390,25 @@
         "by": "rules"
       },
       {
-        "title": "‘꺼억~’ 맛있게 먹고 나간 외인은 미국인?…순매도 최다는 영국계",
-        "link": "https://www.mk.co.kr/news/stock/12201284",
+        "title": "[속보] 미래에셋증권도 해킹 당해…“고객·임직원 정보 일부 유출”",
+        "link": "https://www.mk.co.kr/news/economy/12201367",
         "source": "매일경제",
-        "date": "Sat, 07 Nov 2026 06:00:08 +09:00",
-        "act": "none",
-        "lasting": "temporary",
+        "date": "Sat, 07 Nov 2026 07:42:58 +09:00",
+        "act": "watch",
+        "lasting": "structural",
         "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
         "by": "rules"
       },
       {
-        "title": "증권사들, 신용융자 담보비율 인하·반대매매 유예…급락장 대응",
-        "link": "https://www.yna.co.kr/view/AKR20261106190300008",
+        "title": "[속보] 미래에셋증권도 해킹…고객·임직원 정보 일부 유출",
+        "link": "https://www.yna.co.kr/view/AKR20261107014400008",
         "source": "연합뉴스",
-        "date": "Fri, 6 Nov 2026 22:46:04 +0900",
-        "act": "none",
-        "lasting": "temporary",
+        "date": "Sat, 7 Nov 2026 07:36:50 +0900",
+        "act": "watch",
+        "lasting": "structural",
         "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
         "by": "rules"
       },
       {
@@ -423,10 +423,10 @@
         "by": "rules"
       },
       {
-        "title": "증시 폭락에 트럼프 “멍청한 민주당 때문…이들에 투표한 스스로를 탓해야”",
-        "link": "https://www.mk.co.kr/news/stock/12200996",
+        "title": "‘꺼억~’ 맛있게 먹고 나간 외인은 미국인?…순매도 최다는 영국계",
+        "link": "https://www.mk.co.kr/news/stock/12201284",
         "source": "매일경제",
-        "date": "Fri, 06 Nov 2026 22:27:45 +09:00",
+        "date": "Sat, 07 Nov 2026 06:00:08 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgnRnWjyjGW9QU3m4NztL\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgnRnXGV8f4YKcysgwSmo\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgnRnXb5WQ6qk5N7Jjxgs\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgnWPgH9NuGR4M3ztaGme\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgnWPggTmP19ptqy5dCed\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgnWPgzK1iaru6PWdnvmd\"}"
   ]
 }
