@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-06T13:22:18.733Z",
+  "asOf": "2026-11-06T13:32:43.576Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-06T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1357.7,
+      "price": 1360.16,
       "prev": 1340.0699462890625,
-      "chg": 1.32,
+      "chg": 1.5,
       "prevDay": "2026-11-05",
       "basis": "prev-close-bar",
-      "time": "2026-11-06T13:22:00.000Z"
+      "time": "2026-11-06T13:32:30.000Z"
     },
     "^GSPC": {
       "price": 7353.73,
@@ -43,12 +43,12 @@
       "time": "2026-11-05T22:15:59.000Z"
     },
     "^VIX": {
-      "price": 27.51,
+      "price": 27.4,
       "prev": 28.18000030517578,
-      "chg": -2.38,
+      "chg": -2.77,
       "prevDay": "2026-11-05",
       "basis": "prev-close-bar",
-      "time": "2026-11-06T13:07:01.000Z"
+      "time": "2026-11-06T13:17:31.000Z"
     },
     "^TNX": {
       "price": 4.837,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.154
+    "pct": 0.165
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -19.42
     },
     "KRW=X": {
-      "last": 1357.7,
+      "last": 1360.16,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.154,
-      "chg3m": -3.86
+      "pct52": 0.165,
+      "chg3m": -3.68
     },
     "^GSPC": {
       "last": 7353.73,
@@ -101,11 +101,11 @@
       "chg3m": -8.61
     },
     "^VIX": {
-      "last": 27.51,
+      "last": 27.4,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.799,
-      "chg3m": 89.07
+      "pct52": 0.792,
+      "chg3m": 88.32
     },
     "^TNX": {
       "last": 4.84,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgmkBaoHJ"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgmkyeTaa"
   },
   "stocks": {
     "kr": {
@@ -390,10 +390,10 @@
         "by": "rules"
       },
       {
-        "title": "“트럼프 힘 빠지면 우린 힘 난다”…주가상승률·PER 돋보이는 종목들 [플러스 관심종목]",
-        "link": "https://www.mk.co.kr/news/stock/12200838",
+        "title": "증시 폭락에 트럼프 “멍청한 민주당 때문…이들에 투표한 스스로를 탓해야”",
+        "link": "https://www.mk.co.kr/news/stock/12200996",
         "source": "매일경제",
-        "date": "Fri, 06 Nov 2026 20:05:23 +09:00",
+        "date": "Fri, 06 Nov 2026 22:27:45 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -423,13 +423,13 @@
         "by": "rules"
       },
       {
-        "title": "“1000만원어치 주식 샀어요”…코스피 폭락장에 매수 인증한 박용진",
-        "link": "https://www.mk.co.kr/news/stock/12200816",
+        "title": "“트럼프 힘 빠지면 우린 힘 난다”…주가상승률·PER 돋보이는 종목들 [플러스 관심종목]",
+        "link": "https://www.mk.co.kr/news/stock/12200838",
         "source": "매일경제",
-        "date": "Fri, 06 Nov 2026 19:19:08 +09:00",
+        "date": "Fri, 06 Nov 2026 20:05:23 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -441,6 +441,30 @@
         "source": "CNBC",
         "date": "Thu, 05 Nov 2026 21:32:52 GMT",
         "ko": "10월 일자리 보고서가 금요일에 나왔습니다. 알아두어야 할 모든 것",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "Why Democrats should use their new power to embrace Trump’s tariffs",
+        "link": "https://www.marketwatch.com/story/why-democrats-should-use-their-new-power-to-embrace-trumps-tariffs-7c467541?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "date": "Fri, 06 Nov 2026 13:30:00 GMT",
+        "ko": "민주당이 트럼프의 관세를 수용하기 위해 새로운 힘을 사용해야 하는 이유",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": null,
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
+        "by": "rules"
+      },
+      {
+        "title": "Bank of England hikes interest rate for the first time since Iran war, warns inflation will near 5%",
+        "link": "https://www.cnbc.com/2026/11/05/interest-rates-inflation-uk.html",
+        "source": "CNBC",
+        "date": "Thu, 05 Nov 2026 16:01:47 GMT",
+        "ko": "잉글랜드 은행은 이란 전쟁 이후 처음으로 금리를 인상하고 인플레이션이 5% 에 육박할 것이라고 경고했다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -460,14 +484,14 @@
         "by": "rules"
       },
       {
-        "title": "Bank of England hikes interest rate for the first time since Iran war, warns inflation will near 5%",
-        "link": "https://www.cnbc.com/2026/11/05/interest-rates-inflation-uk.html",
+        "title": "Analysis: The Democrats have one chance to extract concessions from Trump. Markets will hate it",
+        "link": "https://www.cnbc.com/2026/11/04/democrats-trump-debt-ceiling-fight.html",
         "source": "CNBC",
-        "date": "Thu, 05 Nov 2026 16:01:47 GMT",
-        "ko": "잉글랜드 은행은 이란 전쟁 이후 처음으로 금리를 인상하고 인플레이션이 5% 에 육박할 것이라고 경고했다.",
+        "date": "Wed, 04 Nov 2026 22:46:43 GMT",
+        "ko": "분석: 민주당은 한 번의 기회로 트럼프로부터 양보를 끌어낼 수 있습니다. 시장이 싫어할 것입니다",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -482,36 +506,11 @@
         "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
-      },
-      {
-        "title": "Analysis: The Democrats have one chance to extract concessions from Trump. Markets will hate it",
-        "link": "https://www.cnbc.com/2026/11/04/democrats-trump-debt-ceiling-fight.html",
-        "source": "CNBC",
-        "date": "Wed, 04 Nov 2026 22:46:43 GMT",
-        "ko": "분석: 민주당은 한 번의 기회로 트럼프로부터 양보를 끌어낼 수 있습니다. 시장이 싫어할 것입니다",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "Goldman’s new gold target: Why the Wall Street bank is saying it’s early to buy the yellow metal",
-        "link": "https://www.marketwatch.com/story/goldmans-new-gold-target-why-the-wall-street-bank-is-saying-its-early-to-buy-the-yellow-metal-d8ae35e0?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "date": "Fri, 06 Nov 2026 12:47:00 GMT",
-        "ko": "골드만의 새로운 금 목표: 월스트리트 은행이 옐로우 메탈을 구입하기 이른 시기라고 말하는 이유",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
       }
     ]
   },
   "newsBy": "rules",
   "trCache": {
-    "Nearly 40% of the S&P 500 is in a bear market. Here are 10 of those stocks that analysts say can gain up to 81%.": "S&P 500의 거의 40% 가 베어 마켓에 있습니다. 애널리스트들이 최대 81% 의 수익을 올릴 수 있다고 말하는 주식 10가지를 소개합니다.",
     "A stock-market ‘sell’ signal has been silenced — but these Bank of America strategists say it’s too early to buy": "주식 시장의 ‘매도’ 신호는 침묵했지만, 이 뱅크오브아메리카 전략가들은 매수하기에는 아직 이르다고 말합니다.",
     "The stock market has already crashed: Why a Wall Street veteran says Nike is the ultimate turnaround trade.": "주식 시장은 이미 추락했습니다: 월스트리트 베테랑이 나이키를 최고의 턴어라운드 트레이드라고 말하는 이유.",
     "Analysis: Everyone expects the Fed to hold rates in October. Kevin Warsh could surprise us all": "분석: 모든 사람들은 10월에 연준이 금리를 유지할 것으로 예상합니다. 케빈 워시 (Kevin Warsh) 는 우리 모두를 놀라게 할 수 있습니다.",
@@ -810,7 +809,8 @@
     "Here are the 2027 capital-gains tax rates for each income level": "다음은 각 소득 수준에 대한 2027년 자본 이득 세율입니다.",
     "Moderna’s stock jumps after biotech raises sales outlook": "바이오테크가 매출 전망을 높인 후 모데르나의 주가가 뛰어오름",
     "Goldman’s new gold target: Why the Wall Street bank is saying it’s early to buy the yellow metal": "골드만의 새로운 금 목표: 월스트리트 은행이 옐로우 메탈을 구입하기 이른 시기라고 말하는 이유",
-    "The S&P 500’s most reliable dividend stocks are beating the market. Here’s how to play them.": "S&P 500의 가장 신뢰할 수 있는 배당주가 시장을 앞서고 있습니다. 게임 방법은 다음과 같습니다."
+    "The S&P 500’s most reliable dividend stocks are beating the market. Here’s how to play them.": "S&P 500의 가장 신뢰할 수 있는 배당주가 시장을 앞서고 있습니다. 게임 방법은 다음과 같습니다.",
+    "Why Democrats should use their new power to embrace Trump’s tariffs": "민주당이 트럼프의 관세를 수용하기 위해 새로운 힘을 사용해야 하는 이유"
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2955,7 +2955,7 @@
       "2026-11-03": 1343.59,
       "2026-11-04": 1340.04,
       "2026-11-05": 1357.27,
-      "2026-11-06": 1357.7
+      "2026-11-06": 1360.16
     },
     "^GSPC": {
       "2026-10-26": 7676.77,
@@ -2997,7 +2997,7 @@
       "2026-11-03": 20.83,
       "2026-11-04": 16.61,
       "2026-11-05": 28.18,
-      "2026-11-06": 27.51
+      "2026-11-06": 27.4
     },
     "^TNX": {
       "2026-10-26": 4.986,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgmkBaoHJT73KbAFRZesq\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgmkBbKnkXUayNo7pNVd6\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgmkBbedYBhoE7i9sY3g3\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgmkyeTaaLZuUNy4PFH4R\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgmkyeu89Q3msYMzkgtWf\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgmkyfBkQejAsyDf5bw5J\"}"
   ]
 }
