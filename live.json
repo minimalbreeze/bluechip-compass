@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-06T13:32:43.576Z",
+  "asOf": "2026-11-06T13:43:08.397Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-06T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1360.16,
+      "price": 1359.02,
       "prev": 1340.0699462890625,
-      "chg": 1.5,
+      "chg": 1.41,
       "prevDay": "2026-11-05",
       "basis": "prev-close-bar",
-      "time": "2026-11-06T13:32:30.000Z"
+      "time": "2026-11-06T13:42:59.000Z"
     },
     "^GSPC": {
       "price": 7353.73,
@@ -43,26 +43,26 @@
       "time": "2026-11-05T22:15:59.000Z"
     },
     "^VIX": {
-      "price": 27.4,
+      "price": 26.85,
       "prev": 28.18000030517578,
-      "chg": -2.77,
+      "chg": -4.72,
       "prevDay": "2026-11-05",
       "basis": "prev-close-bar",
-      "time": "2026-11-06T13:17:31.000Z"
+      "time": "2026-11-06T13:27:46.000Z"
     },
     "^TNX": {
-      "price": 4.837,
+      "price": 4.872,
       "prev": 4.836999893188477,
-      "chg": 0,
+      "chg": 0.72,
       "prevDay": "2026-11-05",
       "basis": "prev-close-bar",
-      "time": "2026-11-05T19:59:54.000Z"
+      "time": "2026-11-06T13:27:56.000Z"
     }
   },
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.165
+    "pct": 0.16
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -19.42
     },
     "KRW=X": {
-      "last": 1360.16,
+      "last": 1359.02,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.165,
-      "chg3m": -3.68
+      "pct52": 0.16,
+      "chg3m": -3.76
     },
     "^GSPC": {
       "last": 7353.73,
@@ -101,18 +101,18 @@
       "chg3m": -8.61
     },
     "^VIX": {
-      "last": 27.4,
+      "last": 26.85,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.792,
-      "chg3m": 88.32
+      "pct52": 0.761,
+      "chg3m": 84.54
     },
     "^TNX": {
-      "last": 4.84,
+      "last": 4.87,
       "low52": 3.96,
       "high52": 5.31,
-      "pct52": 0.649,
-      "chg3m": 2.94
+      "pct52": 0.675,
+      "chg3m": 4.01
     }
   },
   "regime": {
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgmkyeTaa"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgmmmi4f9"
   },
   "stocks": {
     "kr": {
@@ -436,11 +436,11 @@
     ],
     "us": [
       {
-        "title": "The October jobs report is out Friday. Here's everything to expect",
-        "link": "https://www.cnbc.com/2026/11/05/october-jobs-report-preview.html",
+        "title": "U.S. economy added 165,000 jobs in October, way more than expected; unemployment rate at 4.1%",
+        "link": "https://www.cnbc.com/2026/11/06/jobs-report-october-2026.html",
         "source": "CNBC",
-        "date": "Thu, 05 Nov 2026 21:32:52 GMT",
-        "ko": "10월 일자리 보고서가 금요일에 나왔습니다. 알아두어야 할 모든 것",
+        "date": "Fri, 06 Nov 2026 13:39:16 GMT",
+        "ko": "미국 경제는 10월에 예상보다 훨씬 많은 165,000개의 일자리를 추가했습니다. 실업률은 4.1% 입니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -460,11 +460,11 @@
         "by": "rules"
       },
       {
-        "title": "Bank of England hikes interest rate for the first time since Iran war, warns inflation will near 5%",
-        "link": "https://www.cnbc.com/2026/11/05/interest-rates-inflation-uk.html",
+        "title": "The October jobs report is out Friday. Here's everything to expect",
+        "link": "https://www.cnbc.com/2026/11/05/october-jobs-report-preview.html",
         "source": "CNBC",
-        "date": "Thu, 05 Nov 2026 16:01:47 GMT",
-        "ko": "잉글랜드 은행은 이란 전쟁 이후 처음으로 금리를 인상하고 인플레이션이 5% 에 육박할 것이라고 경고했다.",
+        "date": "Thu, 05 Nov 2026 21:32:52 GMT",
+        "ko": "10월 일자리 보고서가 금요일에 나왔습니다. 알아두어야 할 모든 것",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -484,14 +484,14 @@
         "by": "rules"
       },
       {
-        "title": "Analysis: The Democrats have one chance to extract concessions from Trump. Markets will hate it",
-        "link": "https://www.cnbc.com/2026/11/04/democrats-trump-debt-ceiling-fight.html",
+        "title": "Bank of England hikes interest rate for the first time since Iran war, warns inflation will near 5%",
+        "link": "https://www.cnbc.com/2026/11/05/interest-rates-inflation-uk.html",
         "source": "CNBC",
-        "date": "Wed, 04 Nov 2026 22:46:43 GMT",
-        "ko": "분석: 민주당은 한 번의 기회로 트럼프로부터 양보를 끌어낼 수 있습니다. 시장이 싫어할 것입니다",
+        "date": "Thu, 05 Nov 2026 16:01:47 GMT",
+        "ko": "잉글랜드 은행은 이란 전쟁 이후 처음으로 금리를 인상하고 인플레이션이 5% 에 육박할 것이라고 경고했다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -511,7 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "A stock-market ‘sell’ signal has been silenced — but these Bank of America strategists say it’s too early to buy": "주식 시장의 ‘매도’ 신호는 침묵했지만, 이 뱅크오브아메리카 전략가들은 매수하기에는 아직 이르다고 말합니다.",
     "The stock market has already crashed: Why a Wall Street veteran says Nike is the ultimate turnaround trade.": "주식 시장은 이미 추락했습니다: 월스트리트 베테랑이 나이키를 최고의 턴어라운드 트레이드라고 말하는 이유.",
     "Analysis: Everyone expects the Fed to hold rates in October. Kevin Warsh could surprise us all": "분석: 모든 사람들은 10월에 연준이 금리를 유지할 것으로 예상합니다. 케빈 워시 (Kevin Warsh) 는 우리 모두를 놀라게 할 수 있습니다.",
     "Many of 2026’s hottest stocks have seen dramatic comedowns this week": "2026년 가장 뜨거운 주식 중 상당수가 이번 주에 극적인 희극을 보았습니다.",
@@ -810,7 +809,8 @@
     "Moderna’s stock jumps after biotech raises sales outlook": "바이오테크가 매출 전망을 높인 후 모데르나의 주가가 뛰어오름",
     "Goldman’s new gold target: Why the Wall Street bank is saying it’s early to buy the yellow metal": "골드만의 새로운 금 목표: 월스트리트 은행이 옐로우 메탈을 구입하기 이른 시기라고 말하는 이유",
     "The S&P 500’s most reliable dividend stocks are beating the market. Here’s how to play them.": "S&P 500의 가장 신뢰할 수 있는 배당주가 시장을 앞서고 있습니다. 게임 방법은 다음과 같습니다.",
-    "Why Democrats should use their new power to embrace Trump’s tariffs": "민주당이 트럼프의 관세를 수용하기 위해 새로운 힘을 사용해야 하는 이유"
+    "Why Democrats should use their new power to embrace Trump’s tariffs": "민주당이 트럼프의 관세를 수용하기 위해 새로운 힘을 사용해야 하는 이유",
+    "U.S. economy added 165,000 jobs in October, way more than expected; unemployment rate at 4.1%": "미국 경제는 10월에 예상보다 훨씬 많은 165,000개의 일자리를 추가했습니다. 실업률은 4.1% 입니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2955,7 +2955,7 @@
       "2026-11-03": 1343.59,
       "2026-11-04": 1340.04,
       "2026-11-05": 1357.27,
-      "2026-11-06": 1360.16
+      "2026-11-06": 1359.02
     },
     "^GSPC": {
       "2026-10-26": 7676.77,
@@ -2997,7 +2997,7 @@
       "2026-11-03": 20.83,
       "2026-11-04": 16.61,
       "2026-11-05": 28.18,
-      "2026-11-06": 27.4
+      "2026-11-06": 26.85
     },
     "^TNX": {
       "2026-10-26": 4.986,
@@ -3011,7 +3011,7 @@
       "2026-11-03": 4.952,
       "2026-11-04": 4.894,
       "2026-11-05": 4.837,
-      "2026-11-06": 4.837
+      "2026-11-06": 4.872
     },
     "105560.KS": {
       "2026-10-26": 147200,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgmkyeTaaLZuUNy4PFH4R\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgmkyeu89Q3msYMzkgtWf\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgmkyfBkQejAsyDf5bw5J\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgmmmi4f9LcpMTcfAyU2W\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgmmmiPkoFjaZpXuvqciB\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgmmmicuRVCMaaCUkfwk3\"}"
   ]
 }
