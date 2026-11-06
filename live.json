@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-06T00:32:56.324Z",
+  "asOf": "2026-11-06T00:43:19.578Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -8,23 +8,23 @@
       "chg": -8.55,
       "prevDay": "2026-11-05",
       "basis": "prev-close-memo",
-      "time": "2026-11-06T00:12:40.000Z"
+      "time": "2026-11-06T00:23:00.000Z"
     },
     "^KQ11": {
-      "price": 632.04,
+      "price": 633.06,
       "prev": 678.41,
-      "chg": -6.84,
+      "chg": -6.68,
       "prevDay": "2026-11-05",
       "basis": "prev-close-memo",
-      "time": "2026-11-06T00:12:40.000Z"
+      "time": "2026-11-06T00:23:10.000Z"
     },
     "KRW=X": {
-      "price": 1356.28,
+      "price": 1356.48,
       "prev": 1340.0699462890625,
-      "chg": 1.21,
+      "chg": 1.22,
       "prevDay": "2026-11-05",
       "basis": "prev-close-bar",
-      "time": "2026-11-06T00:32:44.000Z"
+      "time": "2026-11-06T00:43:10.000Z"
     },
     "^GSPC": {
       "price": 7353.73,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.148
+    "pct": 0.149
   },
   "hist": {
     "^KS11": {
@@ -73,18 +73,18 @@
       "chg3m": -22.57
     },
     "^KQ11": {
-      "last": 632.04,
-      "low52": 632.04,
+      "last": 633.06,
+      "low52": 633.06,
       "high52": 1226.18,
       "pct52": 0,
-      "chg3m": -19.04
+      "chg3m": -18.91
     },
     "KRW=X": {
-      "last": 1356.28,
+      "last": 1356.48,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.148,
-      "chg3m": -3.96
+      "pct52": 0.149,
+      "chg3m": -3.94
     },
     "^GSPC": {
       "last": 7353.73,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgkjWkv9y"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgkkJhYHW"
   },
   "stocks": {
     "kr": {
@@ -368,10 +368,10 @@
   "news": {
     "kr": [
       {
-        "title": "[속보] 코스피, 거래재개…'20분간 매매중단' 서킷브레이커 해제",
-        "link": "https://www.yna.co.kr/view/AKR20261106044400008",
+        "title": "[속보] 코스피, 서킷브레이커 이어 매도 사이드카 발동",
+        "link": "https://www.yna.co.kr/view/AKR20261106049900008",
         "source": "연합뉴스",
-        "date": "Fri, 6 Nov 2026 09:24:07 +0900",
+        "date": "Fri, 6 Nov 2026 09:36:13 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -390,24 +390,24 @@
         "by": "rules"
       },
       {
-        "title": "“카카오, 플랫폼 사업이 매출 성장 이끈건 맞는데”…IBK투자증권, 목표가↓",
-        "link": "https://www.mk.co.kr/news/stock/12200182",
+        "title": "“데이터센터 짓지 마” 외국인, 반도체 3조 던진 이유",
+        "link": "https://www.mk.co.kr/news/business/12200206",
         "source": "매일경제",
-        "date": "Fri, 06 Nov 2026 09:12:47 +09:00",
+        "date": "Fri, 06 Nov 2026 09:32:50 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "[속보] 반도체주 추락…삼성전자 9%·SK하이닉스 11%대 급락",
-        "link": "https://www.yna.co.kr/view/AKR20261106038700008",
+        "title": "코스피, 8%대 급락에 서킷브레이커…20분간 매매중단후 재개",
+        "link": "https://www.yna.co.kr/view/AKR20261106037451008",
         "source": "연합뉴스",
-        "date": "Fri, 6 Nov 2026 09:09:00 +0900",
+        "date": "Fri, 6 Nov 2026 09:31:10 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -423,13 +423,13 @@
         "by": "rules"
       },
       {
-        "title": "[속보] 증시 급락에 코스피 서킷브레이커 발동…5000피 밑으로",
-        "link": "https://www.mk.co.kr/news/stock/12200170",
+        "title": "“카카오, 플랫폼 사업이 매출 성장 이끈건 맞는데”…IBK투자증권, 목표가↓",
+        "link": "https://www.mk.co.kr/news/stock/12200182",
         "source": "매일경제",
-        "date": "Fri, 06 Nov 2026 09:07:15 +09:00",
+        "date": "Fri, 06 Nov 2026 09:12:47 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -2941,7 +2941,7 @@
       "2026-11-03": 704.39,
       "2026-11-04": 714.95,
       "2026-11-05": 678.41,
-      "2026-11-06": 632.04
+      "2026-11-06": 633.06
     },
     "KRW=X": {
       "2026-10-26": 1325.02,
@@ -2955,7 +2955,7 @@
       "2026-11-03": 1343.59,
       "2026-11-04": 1340.04,
       "2026-11-05": 1357.27,
-      "2026-11-06": 1356.28
+      "2026-11-06": 1356.48
     },
     "^GSPC": {
       "2026-10-25": 7623.68,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgkjWkv9yCEpakazn3LQ1\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgkjWmJDbu3YimS6RcU9Q\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgkjWmcq6zEGXCYeRxNkT\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgkkJhYHWejPL1CG954Xx\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgkkJhyaYgyFSMjszpeus\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgkkJiHC37YpsCFNeqsEP\"}"
   ]
 }
