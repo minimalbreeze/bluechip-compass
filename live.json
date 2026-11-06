@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-06T13:53:33.960Z",
+  "asOf": "2026-11-06T14:03:58.831Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-06T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1357.88,
+      "price": 1358.94,
       "prev": 1340.0699462890625,
-      "chg": 1.33,
+      "chg": 1.41,
       "prevDay": "2026-11-05",
       "basis": "prev-close-bar",
-      "time": "2026-11-06T13:53:23.000Z"
+      "time": "2026-11-06T14:03:46.000Z"
     },
     "^GSPC": {
       "price": 7353.73,
@@ -43,12 +43,12 @@
       "time": "2026-11-05T22:15:59.000Z"
     },
     "^VIX": {
-      "price": 27,
+      "price": 26.43,
       "prev": 28.18000030517578,
-      "chg": -4.19,
+      "chg": -6.21,
       "prevDay": "2026-11-05",
       "basis": "prev-close-bar",
-      "time": "2026-11-06T13:38:16.000Z"
+      "time": "2026-11-06T13:48:46.000Z"
     },
     "^TNX": {
       "price": 4.878,
@@ -56,13 +56,13 @@
       "chg": 0.85,
       "prevDay": "2026-11-05",
       "basis": "prev-close-bar",
-      "time": "2026-11-06T13:38:16.000Z"
+      "time": "2026-11-06T13:48:46.000Z"
     }
   },
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.155
+    "pct": 0.16
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -19.42
     },
     "KRW=X": {
-      "last": 1357.88,
+      "last": 1358.94,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.155,
-      "chg3m": -3.85
+      "pct52": 0.16,
+      "chg3m": -3.77
     },
     "^GSPC": {
       "last": 7353.73,
@@ -101,11 +101,11 @@
       "chg3m": -8.61
     },
     "^VIX": {
-      "last": 27,
+      "last": 26.43,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.77,
-      "chg3m": 85.57
+      "pct52": 0.737,
+      "chg3m": 81.65
     },
     "^TNX": {
       "last": 4.88,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgmnZpPhF"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgmoMsitq"
   },
   "stocks": {
     "kr": {
@@ -368,7 +368,7 @@
   "news": {
     "kr": [
       {
-        "title": "\"변동성 증폭 방지\"…증권사들, 담보비율 낮추고 반대매매 유예",
+        "title": "증권사들, 신용융자 담보비율 인하·반대매매 유예…급락장 대응",
         "link": "https://www.yna.co.kr/view/AKR20261106190300008",
         "source": "연합뉴스",
         "date": "Fri, 6 Nov 2026 22:46:04 +0900",
@@ -436,11 +436,11 @@
     ],
     "us": [
       {
-        "title": "U.S. economy added 165,000 jobs in October, way more than expected; unemployment rate at 4.1%",
+        "title": "U.S. economy added 165,000 jobs in October, way more than expected; unemployment rate slips to 4.1%",
         "link": "https://www.cnbc.com/2026/11/06/jobs-report-october-2026.html",
         "source": "CNBC",
-        "date": "Fri, 06 Nov 2026 13:47:54 GMT",
-        "ko": "미국 경제는 10월에 예상보다 훨씬 많은 165,000개의 일자리를 추가했습니다. 실업률은 4.1% 입니다.",
+        "date": "Fri, 06 Nov 2026 13:58:40 GMT",
+        "ko": "미국 경제는 10월에 예상보다 훨씬 많은 165,000개의 일자리를 추가했습니다. 실업률은 4.1% 로 떨어졌습니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -511,7 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "The stock market has already crashed: Why a Wall Street veteran says Nike is the ultimate turnaround trade.": "주식 시장은 이미 추락했습니다: 월스트리트 베테랑이 나이키를 최고의 턴어라운드 트레이드라고 말하는 이유.",
     "Analysis: Everyone expects the Fed to hold rates in October. Kevin Warsh could surprise us all": "분석: 모든 사람들은 10월에 연준이 금리를 유지할 것으로 예상합니다. 케빈 워시 (Kevin Warsh) 는 우리 모두를 놀라게 할 수 있습니다.",
     "Many of 2026’s hottest stocks have seen dramatic comedowns this week": "2026년 가장 뜨거운 주식 중 상당수가 이번 주에 극적인 희극을 보았습니다.",
     "Here’s how the Fed should reveal its outlook for the economy": "연준이 경제 전망을 발표하는 방식은 다음과 같습니다.",
@@ -810,7 +809,8 @@
     "Goldman’s new gold target: Why the Wall Street bank is saying it’s early to buy the yellow metal": "골드만의 새로운 금 목표: 월스트리트 은행이 옐로우 메탈을 구입하기 이른 시기라고 말하는 이유",
     "The S&P 500’s most reliable dividend stocks are beating the market. Here’s how to play them.": "S&P 500의 가장 신뢰할 수 있는 배당주가 시장을 앞서고 있습니다. 게임 방법은 다음과 같습니다.",
     "Why Democrats should use their new power to embrace Trump’s tariffs": "민주당이 트럼프의 관세를 수용하기 위해 새로운 힘을 사용해야 하는 이유",
-    "U.S. economy added 165,000 jobs in October, way more than expected; unemployment rate at 4.1%": "미국 경제는 10월에 예상보다 훨씬 많은 165,000개의 일자리를 추가했습니다. 실업률은 4.1% 입니다."
+    "U.S. economy added 165,000 jobs in October, way more than expected; unemployment rate at 4.1%": "미국 경제는 10월에 예상보다 훨씬 많은 165,000개의 일자리를 추가했습니다. 실업률은 4.1% 입니다.",
+    "U.S. economy added 165,000 jobs in October, way more than expected; unemployment rate slips to 4.1%": "미국 경제는 10월에 예상보다 훨씬 많은 165,000개의 일자리를 추가했습니다. 실업률은 4.1% 로 떨어졌습니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2955,7 +2955,7 @@
       "2026-11-03": 1343.59,
       "2026-11-04": 1340.04,
       "2026-11-05": 1357.27,
-      "2026-11-06": 1357.88
+      "2026-11-06": 1358.94
     },
     "^GSPC": {
       "2026-10-26": 7676.77,
@@ -2997,7 +2997,7 @@
       "2026-11-03": 20.83,
       "2026-11-04": 16.61,
       "2026-11-05": 28.18,
-      "2026-11-06": 27
+      "2026-11-06": 26.43
     },
     "^TNX": {
       "2026-10-26": 4.986,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgmnZpPhFvkSzXwcsKrVz\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgmnZpqjvE7iMV8uq8CPm\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgmnZq9LpbpyeuAPjGLTQ\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgmoMsitqDNPmt2JjFs8q\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgmoMtDQw3paPd8SU1raK\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgmoMtdy5msorY58hEcE9\"}"
   ]
 }
