@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-06T13:43:08.397Z",
+  "asOf": "2026-11-06T13:53:33.960Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-06T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1359.02,
+      "price": 1357.88,
       "prev": 1340.0699462890625,
-      "chg": 1.41,
+      "chg": 1.33,
       "prevDay": "2026-11-05",
       "basis": "prev-close-bar",
-      "time": "2026-11-06T13:42:59.000Z"
+      "time": "2026-11-06T13:53:23.000Z"
     },
     "^GSPC": {
       "price": 7353.73,
@@ -43,26 +43,26 @@
       "time": "2026-11-05T22:15:59.000Z"
     },
     "^VIX": {
-      "price": 26.85,
+      "price": 27,
       "prev": 28.18000030517578,
-      "chg": -4.72,
+      "chg": -4.19,
       "prevDay": "2026-11-05",
       "basis": "prev-close-bar",
-      "time": "2026-11-06T13:27:46.000Z"
+      "time": "2026-11-06T13:38:16.000Z"
     },
     "^TNX": {
-      "price": 4.872,
+      "price": 4.878,
       "prev": 4.836999893188477,
-      "chg": 0.72,
+      "chg": 0.85,
       "prevDay": "2026-11-05",
       "basis": "prev-close-bar",
-      "time": "2026-11-06T13:27:56.000Z"
+      "time": "2026-11-06T13:38:16.000Z"
     }
   },
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.16
+    "pct": 0.155
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -19.42
     },
     "KRW=X": {
-      "last": 1359.02,
+      "last": 1357.88,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.16,
-      "chg3m": -3.76
+      "pct52": 0.155,
+      "chg3m": -3.85
     },
     "^GSPC": {
       "last": 7353.73,
@@ -101,18 +101,18 @@
       "chg3m": -8.61
     },
     "^VIX": {
-      "last": 26.85,
+      "last": 27,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.761,
-      "chg3m": 84.54
+      "pct52": 0.77,
+      "chg3m": 85.57
     },
     "^TNX": {
-      "last": 4.87,
+      "last": 4.88,
       "low52": 3.96,
       "high52": 5.31,
-      "pct52": 0.675,
-      "chg3m": 4.01
+      "pct52": 0.679,
+      "chg3m": 4.14
     }
   },
   "regime": {
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgmmmi4f9"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgmnZpPhF"
   },
   "stocks": {
     "kr": {
@@ -368,13 +368,13 @@
   "news": {
     "kr": [
       {
-        "title": "'반도체 부품 제조' 동원파츠 코스닥 신규상장…10일부터 거래",
-        "link": "https://www.yna.co.kr/view/AKR20261106175700008",
+        "title": "\"변동성 증폭 방지\"…증권사들, 담보비율 낮추고 반대매매 유예",
+        "link": "https://www.yna.co.kr/view/AKR20261106190300008",
         "source": "연합뉴스",
-        "date": "Fri, 6 Nov 2026 18:52:59 +0900",
+        "date": "Fri, 6 Nov 2026 22:46:04 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -401,13 +401,13 @@
         "by": "rules"
       },
       {
-        "title": "피노 \"종속회사 주식 510억원어치 추가취득…지분율 100%\"",
-        "link": "https://www.yna.co.kr/view/AKR20261106157200008",
+        "title": "'반도체 부품 제조' 동원파츠 코스닥 신규상장…10일부터 거래",
+        "link": "https://www.yna.co.kr/view/AKR20261106175700008",
         "source": "연합뉴스",
-        "date": "Fri, 6 Nov 2026 17:11:01 +0900",
+        "date": "Fri, 6 Nov 2026 18:52:59 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -439,7 +439,7 @@
         "title": "U.S. economy added 165,000 jobs in October, way more than expected; unemployment rate at 4.1%",
         "link": "https://www.cnbc.com/2026/11/06/jobs-report-october-2026.html",
         "source": "CNBC",
-        "date": "Fri, 06 Nov 2026 13:39:16 GMT",
+        "date": "Fri, 06 Nov 2026 13:47:54 GMT",
         "ko": "미국 경제는 10월에 예상보다 훨씬 많은 165,000개의 일자리를 추가했습니다. 실업률은 4.1% 입니다.",
         "act": "none",
         "lasting": "temporary",
@@ -2955,7 +2955,7 @@
       "2026-11-03": 1343.59,
       "2026-11-04": 1340.04,
       "2026-11-05": 1357.27,
-      "2026-11-06": 1359.02
+      "2026-11-06": 1357.88
     },
     "^GSPC": {
       "2026-10-26": 7676.77,
@@ -2997,7 +2997,7 @@
       "2026-11-03": 20.83,
       "2026-11-04": 16.61,
       "2026-11-05": 28.18,
-      "2026-11-06": 26.85
+      "2026-11-06": 27
     },
     "^TNX": {
       "2026-10-26": 4.986,
@@ -3011,7 +3011,7 @@
       "2026-11-03": 4.952,
       "2026-11-04": 4.894,
       "2026-11-05": 4.837,
-      "2026-11-06": 4.872
+      "2026-11-06": 4.878
     },
     "105560.KS": {
       "2026-10-26": 147200,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgmmmi4f9LcpMTcfAyU2W\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgmmmiPkoFjaZpXuvqciB\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgmmmicuRVCMaaCUkfwk3\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgmnZpPhFvkSzXwcsKrVz\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgmnZpqjvE7iMV8uq8CPm\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgmnZq9LpbpyeuAPjGLTQ\"}"
   ]
 }
