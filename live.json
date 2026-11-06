@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-06T14:03:58.831Z",
+  "asOf": "2026-11-06T14:14:54.956Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-06T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1358.94,
+      "price": 1362.83,
       "prev": 1340.0699462890625,
-      "chg": 1.41,
+      "chg": 1.7,
       "prevDay": "2026-11-05",
       "basis": "prev-close-bar",
-      "time": "2026-11-06T14:03:46.000Z"
+      "time": "2026-11-06T14:14:47.000Z"
     },
     "^GSPC": {
       "price": 7353.73,
@@ -43,26 +43,26 @@
       "time": "2026-11-05T22:15:59.000Z"
     },
     "^VIX": {
-      "price": 26.43,
+      "price": 26.59,
       "prev": 28.18000030517578,
-      "chg": -6.21,
+      "chg": -5.64,
       "prevDay": "2026-11-05",
       "basis": "prev-close-bar",
-      "time": "2026-11-06T13:48:46.000Z"
+      "time": "2026-11-06T13:59:46.000Z"
     },
     "^TNX": {
-      "price": 4.878,
+      "price": 4.868,
       "prev": 4.836999893188477,
-      "chg": 0.85,
+      "chg": 0.64,
       "prevDay": "2026-11-05",
       "basis": "prev-close-bar",
-      "time": "2026-11-06T13:48:46.000Z"
+      "time": "2026-11-06T13:59:46.000Z"
     }
   },
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.16
+    "pct": 0.176
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -19.42
     },
     "KRW=X": {
-      "last": 1358.94,
+      "last": 1362.83,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.16,
-      "chg3m": -3.77
+      "pct52": 0.176,
+      "chg3m": -3.49
     },
     "^GSPC": {
       "last": 7353.73,
@@ -101,18 +101,18 @@
       "chg3m": -8.61
     },
     "^VIX": {
-      "last": 26.43,
+      "last": 26.59,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.737,
-      "chg3m": 81.65
+      "pct52": 0.746,
+      "chg3m": 82.75
     },
     "^TNX": {
-      "last": 4.88,
+      "last": 4.87,
       "low52": 3.96,
       "high52": 5.31,
-      "pct52": 0.679,
-      "chg3m": 4.14
+      "pct52": 0.672,
+      "chg3m": 3.93
     }
   },
   "regime": {
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgmoMsitq"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgmpCFUgv"
   },
   "stocks": {
     "kr": {
@@ -439,7 +439,7 @@
         "title": "U.S. economy added 165,000 jobs in October, way more than expected; unemployment rate slips to 4.1%",
         "link": "https://www.cnbc.com/2026/11/06/jobs-report-october-2026.html",
         "source": "CNBC",
-        "date": "Fri, 06 Nov 2026 13:58:40 GMT",
+        "date": "Fri, 06 Nov 2026 14:07:54 GMT",
         "ko": "미국 경제는 10월에 예상보다 훨씬 많은 165,000개의 일자리를 추가했습니다. 실업률은 4.1% 로 떨어졌습니다.",
         "act": "none",
         "lasting": "temporary",
@@ -496,14 +496,14 @@
         "by": "rules"
       },
       {
-        "title": "Moderna’s stock jumps after biotech raises sales outlook",
-        "link": "https://www.marketwatch.com/story/modernas-stock-jumps-after-biotech-raises-sales-outlook-65363127?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "date": "Fri, 06 Nov 2026 12:48:00 GMT",
-        "ko": "바이오테크가 매출 전망을 높인 후 모데르나의 주가가 뛰어오름",
+        "title": "Analysis: The Democrats have one chance to extract concessions from Trump. Markets will hate it",
+        "link": "https://www.cnbc.com/2026/11/04/democrats-trump-debt-ceiling-fight.html",
+        "source": "CNBC",
+        "date": "Wed, 04 Nov 2026 22:46:43 GMT",
+        "ko": "분석: 민주당은 한 번의 기회로 트럼프로부터 양보를 끌어낼 수 있습니다. 시장이 싫어할 것입니다",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -2955,7 +2955,7 @@
       "2026-11-03": 1343.59,
       "2026-11-04": 1340.04,
       "2026-11-05": 1357.27,
-      "2026-11-06": 1358.94
+      "2026-11-06": 1362.83
     },
     "^GSPC": {
       "2026-10-26": 7676.77,
@@ -2997,7 +2997,7 @@
       "2026-11-03": 20.83,
       "2026-11-04": 16.61,
       "2026-11-05": 28.18,
-      "2026-11-06": 26.43
+      "2026-11-06": 26.59
     },
     "^TNX": {
       "2026-10-26": 4.986,
@@ -3011,7 +3011,7 @@
       "2026-11-03": 4.952,
       "2026-11-04": 4.894,
       "2026-11-05": 4.837,
-      "2026-11-06": 4.878
+      "2026-11-06": 4.868
     },
     "105560.KS": {
       "2026-10-26": 147200,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgmoMsitqDNPmt2JjFs8q\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgmoMtDQw3paPd8SU1raK\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgmoMtdy5msorY58hEcE9\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgmpCFUgvT6go4QT5K1QA\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgmpCFmJHUasXZcwb8HB8\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgmpCFxx1uoPBRU5Gi4Qv\"}"
   ]
 }
