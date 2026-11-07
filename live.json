@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-07T20:44:16.796Z",
+  "asOf": "2026-11-07T21:44:40.442Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgoqpY6CG"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgpJJNigx"
   },
   "stocks": {
     "kr": {
@@ -368,13 +368,13 @@
   "news": {
     "kr": [
       {
-        "title": "미래에셋증권도 3만9천여명 정보유출…당국에 전날 밤 신고(종합2보)",
-        "link": "https://www.yna.co.kr/view/AKR20261107014453008",
+        "title": "대형 증권사 3분기 실적 '반토막'…주가도 줄줄이 연저점",
+        "link": "https://www.yna.co.kr/view/AKR20261107048600008",
         "source": "연합뉴스",
-        "date": "Sat, 7 Nov 2026 12:47:45 +0900",
+        "date": "Sun, 8 Nov 2026 06:40:00 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -390,25 +390,25 @@
         "by": "rules"
       },
       {
-        "title": "“코스피에 정말 질렸다”…실망한 개미들 일주일 새 2조 5000억 쓸어담은 ‘이것’",
-        "link": "https://www.mk.co.kr/news/economy/12201494",
+        "title": "“주식 판 돈, 2028년부터 다음날 찾는다는데”…개미들 주의할 ‘이것’",
+        "link": "https://www.mk.co.kr/news/stock/12201558",
         "source": "매일경제",
-        "date": "Sat, 07 Nov 2026 18:02:27 +09:00",
+        "date": "Sun, 08 Nov 2026 06:13:56 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "해킹 대책 문제없나…미래에셋증권도 3만9천여명 정보유출(종합)",
-        "link": "https://www.yna.co.kr/view/AKR20261107014452008",
+        "title": "채권금리 빠르게 내렸지만…'추격 매수냐 관망이냐' 채권시장 신중",
+        "link": "https://www.yna.co.kr/view/AKR20261106190600008",
         "source": "연합뉴스",
-        "date": "Sat, 7 Nov 2026 08:35:34 +0900",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": null,
-        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
+        "date": "Sun, 8 Nov 2026 06:35:01 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
@@ -423,13 +423,13 @@
         "by": "rules"
       },
       {
-        "title": "월가 헤지펀드도 美증시 급락에 직격탄···투자 철수·감원 나섰다",
-        "link": "https://www.mk.co.kr/news/stock/12201467",
+        "title": "“코스피에 정말 질렸다”…실망한 개미들 일주일 새 2조 5000억 쓸어담은 ‘이것’",
+        "link": "https://www.mk.co.kr/news/economy/12201494",
         "source": "매일경제",
-        "date": "Sat, 07 Nov 2026 15:36:30 +09:00",
+        "date": "Sat, 07 Nov 2026 18:02:27 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -3387,7 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgpDhGmpRiDVws4htszxq\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgpDhH2hQp96FTsaemrTq\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgpJJNigxzmUcA2du9QgE\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgpJJP8kP7i56FS4t9Rdh\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgpJJPZo4UvoGPh8XRgBW\"}"
   ]
 }
