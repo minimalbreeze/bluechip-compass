@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-07T08:05:28.614Z",
+  "asOf": "2026-11-07T09:05:50.451Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -32,7 +32,7 @@
       "chg": 0,
       "prevDay": "2026-11-06",
       "basis": "prev-close-bar",
-      "time": "2026-11-06T21:37:09.000Z"
+      "time": "2026-11-06T21:00:00.000Z"
     },
     "^IXIC": {
       "price": 24579.424,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgoDqBn9L"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgoJSAREQ"
   },
   "stocks": {
     "kr": {
@@ -379,10 +379,10 @@
         "by": "rules"
       },
       {
-        "title": "장기 투자자가 오래 머무는 증시가 답이다",
-        "link": "https://www.hankyung.com/article/202611059392i",
+        "title": "하루 만에 4800조 날아갔다…세계 증시 덮친 '블루쓰나미' 쇼크",
+        "link": "https://www.hankyung.com/article/2026110722767",
         "source": "한국경제",
-        "date": "Sat, 07 Nov 2026 14:30:02 +0900",
+        "date": "Sat, 07 Nov 2026 16:50:26 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -390,13 +390,13 @@
         "by": "rules"
       },
       {
-        "title": "월가 헤지펀드도 美증시 급락에 직격탄···투자 철수·감원 나섰다",
-        "link": "https://www.mk.co.kr/news/stock/12201467",
+        "title": "“코스피에 정말 질렸다”…실망한 개미들 일주일 새 2.6조 쓸어 담은 ‘이것’",
+        "link": "https://www.mk.co.kr/news/economy/12201494",
         "source": "매일경제",
-        "date": "Sat, 07 Nov 2026 15:36:30 +09:00",
+        "date": "Sat, 07 Nov 2026 18:02:27 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -412,21 +412,21 @@
         "by": "rules"
       },
       {
-        "title": "코스피 5000선 사수할까…美 물가·MSCI 변경·옵션 만기 '3대 변수' [다음주 변수 미리보기]",
-        "link": "https://www.hankyung.com/article/202611061657i",
+        "title": "장기 투자자가 오래 머무는 증시가 답이다",
+        "link": "https://www.hankyung.com/article/202611059392i",
         "source": "한국경제",
-        "date": "Sat, 07 Nov 2026 12:00:06 +0900",
+        "date": "Sat, 07 Nov 2026 14:30:02 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "“이 숫자를 봐라 … 반도체 투자 둔화기에 메모리가 가장 먼저 꺾인다”",
-        "link": "https://www.mk.co.kr/news/business/12200478",
+        "title": "월가 헤지펀드도 美증시 급락에 직격탄···투자 철수·감원 나섰다",
+        "link": "https://www.mk.co.kr/news/stock/12201467",
         "source": "매일경제",
-        "date": "Sat, 07 Nov 2026 11:01:00 +09:00",
+        "date": "Sat, 07 Nov 2026 15:36:30 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgoDqBn9Lr3f6nqWFDzAT\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgoDqC9ENnJChrQSXFHvs\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgoDqCR6hRBQyncvPnfKK\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgoJSAREQ6RKqcAS6RkYo\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgoJSAxyefXEnCT9xkxJk\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgoJSBJ5Mp9aRhbGYPKLv\"}"
   ]
 }
