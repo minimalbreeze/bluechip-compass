@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-06T23:02:02.899Z",
+  "asOf": "2026-11-07T00:02:27.347Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -20,9 +20,9 @@
     },
     "KRW=X": {
       "price": 1363.65,
-      "prev": 1340.0699462890625,
-      "chg": 1.76,
-      "prevDay": "2026-11-05",
+      "prev": 1356.3399658203125,
+      "chg": 0.54,
+      "prevDay": "2026-11-06",
       "basis": "prev-close-bar",
       "time": "2026-11-06T21:59:58.000Z"
     },
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.18
+    "pct": 0.149
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -13.1
     },
     "KRW=X": {
-      "last": 1363.65,
+      "last": 1356.34,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.18,
-      "chg3m": -3.44
+      "pct52": 0.149,
+      "chg3m": -3.95
     },
     "^GSPC": {
       "last": 7376.86,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgnWPgH9N"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgnazr7Rs"
   },
   "stocks": {
     "kr": {
@@ -368,10 +368,10 @@
   "news": {
     "kr": [
       {
-        "title": "미래에셋증권도 해킹…고객 3천800여명·임직원 3만5천여명 정보 유출",
-        "link": "https://www.yna.co.kr/view/AKR20261107014451008",
+        "title": "해킹 대책 문제없나…미래에셋증권도 3만9천여명 정보유출(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261107014452008",
         "source": "연합뉴스",
-        "date": "Sat, 7 Nov 2026 07:56:17 +0900",
+        "date": "Sat, 7 Nov 2026 08:35:34 +0900",
         "act": "watch",
         "lasting": "structural",
         "scope": null,
@@ -379,13 +379,13 @@
         "by": "rules"
       },
       {
-        "title": "\"이례적으로 강한 고용\"…미국 금리인상 확률 '매우 높음'",
-        "link": "https://www.hankyung.com/article/202611061820i",
+        "title": "폭락했던 AI 기술주 반등…나스닥 1.1% ↑ [뉴욕증시 브리핑]",
+        "link": "https://www.hankyung.com/article/2026110719317",
         "source": "한국경제",
-        "date": "Fri, 06 Nov 2026 23:28:50 +0900",
+        "date": "Sat, 07 Nov 2026 07:25:08 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -401,10 +401,10 @@
         "by": "rules"
       },
       {
-        "title": "[속보] 미래에셋증권도 해킹…고객·임직원 정보 일부 유출",
-        "link": "https://www.yna.co.kr/view/AKR20261107014400008",
+        "title": "미래에셋증권도 해킹…고객 3천800여명·임직원 3만5천여명 정보 유출",
+        "link": "https://www.yna.co.kr/view/AKR20261107014451008",
         "source": "연합뉴스",
-        "date": "Sat, 7 Nov 2026 07:36:50 +0900",
+        "date": "Sat, 7 Nov 2026 07:56:17 +0900",
         "act": "watch",
         "lasting": "structural",
         "scope": null,
@@ -412,10 +412,10 @@
         "by": "rules"
       },
       {
-        "title": "반도체 피난처도 휘청…힘빠진 은행·자동차주",
-        "link": "https://www.hankyung.com/article/2026110615111",
+        "title": "\"삼전닉스 믿고 버텼는데\"…증권가가 내놓은 뜻밖의 조언 [종목+]",
+        "link": "https://www.hankyung.com/article/2026110610246",
         "source": "한국경제",
-        "date": "Fri, 06 Nov 2026 17:29:29 +0900",
+        "date": "Sat, 07 Nov 2026 07:09:29 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -2944,7 +2944,6 @@
       "2026-11-07": 644.27
     },
     "KRW=X": {
-      "2026-10-26": 1325.02,
       "2026-10-27": 1326.28,
       "2026-10-28": 1342.2,
       "2026-10-29": 1338.62,
@@ -2955,7 +2954,8 @@
       "2026-11-03": 1343.59,
       "2026-11-04": 1340.04,
       "2026-11-05": 1357.27,
-      "2026-11-06": 1363.65
+      "2026-11-06": 1363.65,
+      "2026-11-07": 1363.65
     },
     "^GSPC": {
       "2026-10-26": 7676.77,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgnWPgH9NuGR4M3ztaGme\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgnWPggTmP19ptqy5dCed\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgnWPgzK1iaru6PWdnvmd\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgnazr7Rs2Prv3HVLD7Co\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgnazrcSgtkBKZLzTgUju\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgnazs1GJvTEmtaPhQTaB\"}"
   ]
 }
