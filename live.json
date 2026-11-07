@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-07T22:45:00.502Z",
+  "asOf": "2026-11-07T23:41:46.281Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgpNuEBBJ"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgpTEHoTk"
   },
   "stocks": {
     "kr": {
@@ -368,13 +368,13 @@
   "news": {
     "kr": [
       {
-        "title": "대형 증권사 3분기 실적 '반토막'…주가도 줄줄이 연저점",
-        "link": "https://www.yna.co.kr/view/AKR20261107048600008",
+        "title": "'LH 불참 비상' 반도체 배후도시 조성에 광주도시공사 참여",
+        "link": "https://www.yna.co.kr/view/AKR20261106054700054",
         "source": "연합뉴스",
-        "date": "Sun, 8 Nov 2026 06:40:00 +0900",
+        "date": "Sun, 8 Nov 2026 08:10:00 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -390,24 +390,24 @@
         "by": "rules"
       },
       {
-        "title": "“주식 판 돈, 2028년부터 다음날 찾는다는데”…개미들 주의할 ‘이것’",
-        "link": "https://www.mk.co.kr/news/stock/12201558",
+        "title": "“미국 물가부터 옵션 만기까지”…다음 주 증시 변수, 미리 대비하려면",
+        "link": "https://www.mk.co.kr/news/stock/12201573",
         "source": "매일경제",
-        "date": "Sun, 08 Nov 2026 06:13:56 +09:00",
+        "date": "Sun, 08 Nov 2026 08:08:16 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "채권금리 빠르게 내렸지만…'추격 매수냐 관망이냐' 채권시장 신중",
-        "link": "https://www.yna.co.kr/view/AKR20261106190600008",
+        "title": "대형 증권사 3분기 실적 '반토막'…주가도 줄줄이 연저점",
+        "link": "https://www.yna.co.kr/view/AKR20261107048600008",
         "source": "연합뉴스",
-        "date": "Sun, 8 Nov 2026 06:35:01 +0900",
+        "date": "Sun, 8 Nov 2026 06:40:00 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -423,13 +423,13 @@
         "by": "rules"
       },
       {
-        "title": "“코스피에 정말 질렸다”…실망한 개미들 일주일 새 2조 5000억 쓸어담은 ‘이것’",
-        "link": "https://www.mk.co.kr/news/economy/12201494",
+        "title": "“주식 판 돈, 2028년부터 다음날 찾는다는데”…개미들 주의할 ‘이것’",
+        "link": "https://www.mk.co.kr/news/stock/12201558",
         "source": "매일경제",
-        "date": "Sat, 07 Nov 2026 18:02:27 +09:00",
+        "date": "Sun, 08 Nov 2026 06:13:56 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgpNuEBBJ6f8BRLrqfFwn\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgpNuEciMTeBrxgpzf8CC\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgpNuEv5Ww4aoJ6p6H4vf\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgpTEHoTkgXWLo6gYWAKi\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgpTEJ2MANSWhjDnpAe6g\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgpTEJ9ndTyoE99SJZp28\"}"
   ]
 }
