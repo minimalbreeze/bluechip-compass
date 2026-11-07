@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-07T00:02:27.347Z",
+  "asOf": "2026-11-07T01:02:50.120Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgnazr7Rs"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgnfbuGsX"
   },
   "stocks": {
     "kr": {
@@ -390,14 +390,14 @@
         "by": "rules"
       },
       {
-        "title": "[속보] 미래에셋증권도 해킹 당해…“고객·임직원 정보 일부 유출”",
-        "link": "https://www.mk.co.kr/news/economy/12201367",
+        "title": "서학개미, 국장 나락가자 미국 주식 5일만에 3조 샀다",
+        "link": "https://www.mk.co.kr/news/stock/12201389",
         "source": "매일경제",
-        "date": "Sat, 07 Nov 2026 07:42:58 +09:00",
-        "act": "watch",
-        "lasting": "structural",
+        "date": "Sat, 07 Nov 2026 09:44:42 +09:00",
+        "act": "none",
+        "lasting": "temporary",
         "scope": null,
-        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
@@ -423,14 +423,14 @@
         "by": "rules"
       },
       {
-        "title": "‘꺼억~’ 맛있게 먹고 나간 외인은 미국인?…순매도 최다는 영국계",
-        "link": "https://www.mk.co.kr/news/stock/12201284",
+        "title": "은행·보험사 이어 미래에셋증권까지···연쇄 해킹에 시달리는 금융사",
+        "link": "https://www.mk.co.kr/news/stock/12201388",
         "source": "매일경제",
-        "date": "Sat, 07 Nov 2026 06:00:08 +09:00",
-        "act": "none",
-        "lasting": "temporary",
+        "date": "Sat, 07 Nov 2026 09:22:20 +09:00",
+        "act": "watch",
+        "lasting": "structural",
         "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
         "by": "rules"
       }
     ],
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgnazr7Rs2Prv3HVLD7Co\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgnazrcSgtkBKZLzTgUju\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgnazs1GJvTEmtaPhQTaB\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgnfbuGsXnoNE31Vp55BP\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgnfbuggD3BPwjfXM6v5i\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgnfbuyHzEmnRHGmVdsGo\"}"
   ]
 }
