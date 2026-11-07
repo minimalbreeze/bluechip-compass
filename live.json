@@ -1,13 +1,13 @@
 {
-  "asOf": "2026-11-07T01:02:50.120Z",
+  "asOf": "2026-11-07T02:03:12.015Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
       "price": 5059.69,
-      "prev": 5059.69,
+      "prev": 5059.68994140625,
       "chg": 0,
       "prevDay": "2026-11-06",
-      "basis": "prev-close-memo",
+      "basis": "prev-close-bar",
       "time": "2026-11-06T11:05:40.000Z"
     },
     "^KQ11": {
@@ -66,11 +66,11 @@
   },
   "hist": {
     "^KS11": {
-      "last": 5383.8,
+      "last": 5059.69,
       "low52": 3846.06,
       "high52": 9114.55,
-      "pct52": 0.292,
-      "chg3m": -15.34
+      "pct52": 0.23,
+      "chg3m": -23.32
     },
     "^KQ11": {
       "last": 678.41,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgnfbuGsX"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgnkCtNka"
   },
   "stocks": {
     "kr": {
@@ -379,21 +379,21 @@
         "by": "rules"
       },
       {
-        "title": "폭락했던 AI 기술주 반등…나스닥 1.1% ↑ [뉴욕증시 브리핑]",
-        "link": "https://www.hankyung.com/article/2026110719317",
+        "title": "기술주 운명, 다음 주에 달렸다 ⑴ 코어위브 실적 ⑵ 앤트로픽 IPO [김현석의 월스트리트나우]",
+        "link": "https://www.hankyung.com/article/202611071912i",
         "source": "한국경제",
-        "date": "Sat, 07 Nov 2026 07:25:08 +0900",
+        "date": "Sat, 07 Nov 2026 09:13:43 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "서학개미, 국장 나락가자 미국 주식 5일만에 3조 샀다",
-        "link": "https://www.mk.co.kr/news/stock/12201389",
+        "title": "“이 숫자를 봐라 … 반도체 투자 둔화기에 메모리가 가장 먼저 꺾인다”",
+        "link": "https://www.mk.co.kr/news/business/12200478",
         "source": "매일경제",
-        "date": "Sat, 07 Nov 2026 09:44:42 +09:00",
+        "date": "Sat, 07 Nov 2026 11:01:00 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -412,10 +412,10 @@
         "by": "rules"
       },
       {
-        "title": "\"삼전닉스 믿고 버텼는데\"…증권가가 내놓은 뜻밖의 조언 [종목+]",
-        "link": "https://www.hankyung.com/article/2026110610246",
+        "title": "폭락했던 AI 기술주 반등…나스닥 1.1% ↑ [뉴욕증시 브리핑]",
+        "link": "https://www.hankyung.com/article/2026110719317",
         "source": "한국경제",
-        "date": "Sat, 07 Nov 2026 07:09:29 +0900",
+        "date": "Sat, 07 Nov 2026 07:25:08 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -423,14 +423,14 @@
         "by": "rules"
       },
       {
-        "title": "은행·보험사 이어 미래에셋증권까지···연쇄 해킹에 시달리는 금융사",
-        "link": "https://www.mk.co.kr/news/stock/12201388",
+        "title": "‘은둔 고수’ 소문난 김대리, 주식계좌 확인해보니…“이정도면 상위 10%”",
+        "link": "https://www.mk.co.kr/news/stock/12201398",
         "source": "매일경제",
-        "date": "Sat, 07 Nov 2026 09:22:20 +09:00",
-        "act": "watch",
-        "lasting": "structural",
+        "date": "Sat, 07 Nov 2026 10:33:12 +09:00",
+        "act": "none",
+        "lasting": "temporary",
         "scope": null,
-        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
     ],
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgnfbuGsXnoNE31Vp55BP\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgnfbuggD3BPwjfXM6v5i\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgnfbuyHzEmnRHGmVdsGo\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgnkCtNkazwHxv7gURC1s\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgnkCtp3CqtkMmo1w9XcA\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgnkCu7PprCRtSRFwGRM1\"}"
   ]
 }
