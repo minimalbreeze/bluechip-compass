@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-07T06:04:45.651Z",
+  "asOf": "2026-11-07T07:03:37.089Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgo4dGjuk"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgo97b9wb"
   },
   "stocks": {
     "kr": {
@@ -379,21 +379,10 @@
         "by": "rules"
       },
       {
-        "title": "코스피 5000선 사수할까…美 물가·MSCI 변경·옵션 만기 '3대 변수' [다음주 변수 미리보기]",
-        "link": "https://www.hankyung.com/article/202611061657i",
+        "title": "장기 투자자가 오래 머무는 증시가 답이다",
+        "link": "https://www.hankyung.com/article/202611059392i",
         "source": "한국경제",
-        "date": "Sat, 07 Nov 2026 12:00:06 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "“이 숫자를 봐라 … 반도체 투자 둔화기에 메모리가 가장 먼저 꺾인다”",
-        "link": "https://www.mk.co.kr/news/business/12200478",
-        "source": "매일경제",
-        "date": "Sat, 07 Nov 2026 11:01:00 +09:00",
+        "date": "Sat, 07 Nov 2026 14:30:02 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -412,6 +401,28 @@
         "by": "rules"
       },
       {
+        "title": "코스피 5000선 사수할까…美 물가·MSCI 변경·옵션 만기 '3대 변수' [다음주 변수 미리보기]",
+        "link": "https://www.hankyung.com/article/202611061657i",
+        "source": "한국경제",
+        "date": "Sat, 07 Nov 2026 12:00:06 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "미래에셋증권도 해킹…고객 3천800여명·임직원 3만5천여명 정보 유출",
+        "link": "https://www.yna.co.kr/view/AKR20261107014451008",
+        "source": "연합뉴스",
+        "date": "Sat, 7 Nov 2026 07:56:17 +0900",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": null,
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
+        "by": "rules"
+      },
+      {
         "title": "기술주 운명, 다음 주에 달렸다 ⑴ 코어위브 실적 ⑵ 앤트로픽 IPO [김현석의 월스트리트나우]",
         "link": "https://www.hankyung.com/article/202611071912i",
         "source": "한국경제",
@@ -419,17 +430,6 @@
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "‘은둔 고수’ 소문난 김대리, 주식계좌 확인해보니…“이정도면 상위 10%”",
-        "link": "https://www.mk.co.kr/news/stock/12201398",
-        "source": "매일경제",
-        "date": "Sat, 07 Nov 2026 10:33:12 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -3386,9 +3386,10 @@
     }
   },
   "failed": [
+    "news/kr/매일경제: fetch failed",
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgo4dGjukdoQHxYksuGyh\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgo4dHEBfEJVRwzBsykRh\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgo4dHbkjbpK9LSY1WW3a\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgo97b9wbYFmzB73pFEzD\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgo97bciPB3VGMfa2y2sw\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgo97bz3np6QKmXpJTn9m\"}"
   ]
 }
