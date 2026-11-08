@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-08T21:06:26.897Z",
+  "asOf": "2026-11-08T21:52:13.438Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgqj4MkRS"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgrCggYuk"
   },
   "stocks": {
     "kr": {
@@ -496,11 +496,11 @@
         "by": "rules"
       },
       {
-        "title": "This market signal called the tech selloff. Now it’s sending another warning.",
-        "link": "https://www.marketwatch.com/story/this-market-signal-called-the-tech-selloff-now-its-sending-another-warning-f7f8eb9b?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "date": "Sun, 08 Nov 2026 12:00:00 GMT",
-        "ko": "이 시장 신호를 기술 매도라고 합니다. 이제 또 다른 경고가 전송됩니다.",
+        "title": "Analysis: The Democrats have one chance to extract concessions from Trump. Markets will hate it",
+        "link": "https://www.cnbc.com/2026/11/04/democrats-trump-debt-ceiling-fight.html",
+        "source": "CNBC",
+        "date": "Wed, 04 Nov 2026 22:46:43 GMT",
+        "ko": "분석: 민주당은 한 번의 기회로 트럼프로부터 양보를 끌어낼 수 있습니다. 시장이 싫어할 것입니다",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -3387,7 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgr9CDjyvVrpja6bC64Jt\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgr9CEpUjTpeLpx8z3Z8A\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgrCggYukjW5k97viJ6cL\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgrCgh4RW5ZDRBarfaMdc\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgrCghRVxke5mzpDS4dZ3\"}"
   ]
 }
