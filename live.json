@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-07T23:41:46.281Z",
+  "asOf": "2026-11-08T00:42:14.953Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -20,10 +20,10 @@
     },
     "KRW=X": {
       "price": 1363.65,
-      "prev": 1356.3399658203125,
-      "chg": 0.54,
-      "prevDay": "2026-11-06",
-      "basis": "prev-close-bar",
+      "prev": 1363.65,
+      "chg": 0,
+      "prevDay": "2026-11-07",
+      "basis": "prev-close-memo",
       "time": "2026-11-06T21:59:58.000Z"
     },
     "^GSPC": {
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgpTEHoTk"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgpXqmGsz"
   },
   "stocks": {
     "kr": {
@@ -368,10 +368,10 @@
   "news": {
     "kr": [
       {
-        "title": "'LH 불참 비상' 반도체 배후도시 조성에 광주도시공사 참여",
-        "link": "https://www.yna.co.kr/view/AKR20261106054700054",
+        "title": "광주송정역·금호타이어공장 일대 '반도체 관문도시' 조성",
+        "link": "https://www.yna.co.kr/view/AKR20261106086200054",
         "source": "연합뉴스",
-        "date": "Sun, 8 Nov 2026 08:10:00 +0900",
+        "date": "Sun, 8 Nov 2026 09:02:01 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -379,13 +379,13 @@
         "by": "rules"
       },
       {
-        "title": "1500억 자사주 소각에 폭락장 견뎠지만…목표가는 반토막 [종목+]",
-        "link": "https://www.hankyung.com/article/2026110611706",
+        "title": "'블루 웨이브 쇼크'에 휘청인 코스피…반등 열쇠는 [주간전망]",
+        "link": "https://www.hankyung.com/article/2026110609346",
         "source": "한국경제",
-        "date": "Sat, 07 Nov 2026 21:28:50 +0900",
+        "date": "Sun, 08 Nov 2026 08:00:05 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -401,24 +401,24 @@
         "by": "rules"
       },
       {
-        "title": "대형 증권사 3분기 실적 '반토막'…주가도 줄줄이 연저점",
-        "link": "https://www.yna.co.kr/view/AKR20261107048600008",
+        "title": "'232억 펀드 불완전판매' 증권사 임원 감봉…법원 \"과도한 제재\"",
+        "link": "https://www.yna.co.kr/view/AKR20261106182900004",
         "source": "연합뉴스",
-        "date": "Sun, 8 Nov 2026 06:40:00 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "date": "Sun, 8 Nov 2026 09:00:02 +0900",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": null,
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
         "by": "rules"
       },
       {
-        "title": "\"평생 모은 5억 주식에 몰빵, 4억 넘게 날렸다\"…직장인 절규",
-        "link": "https://www.hankyung.com/article/2026110723527",
+        "title": "1500억 자사주 소각에 폭락장 견뎠지만…목표가는 반토막 [종목+]",
+        "link": "https://www.hankyung.com/article/2026110611706",
         "source": "한국경제",
-        "date": "Sat, 07 Nov 2026 19:38:49 +0900",
+        "date": "Sat, 07 Nov 2026 21:28:50 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -2944,7 +2944,6 @@
       "2026-11-08": 644.27
     },
     "KRW=X": {
-      "2026-10-27": 1326.28,
       "2026-10-28": 1342.2,
       "2026-10-29": 1338.62,
       "2026-10-30": 1333.44,
@@ -2955,7 +2954,8 @@
       "2026-11-04": 1340.04,
       "2026-11-05": 1357.27,
       "2026-11-06": 1363.65,
-      "2026-11-07": 1363.65
+      "2026-11-07": 1363.65,
+      "2026-11-08": 1363.65
     },
     "^GSPC": {
       "2026-10-27": 7722.6,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgpTEHoTkgXWLo6gYWAKi\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgpTEJ2MANSWhjDnpAe6g\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgpTEJ9ndTyoE99SJZp28\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgpXqmGszeWtVdhmjDAVx\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgpXqmmeHP7nAWAF5aAV6\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgpXqn8UrFa5yC3pAPZw6\"}"
   ]
 }
