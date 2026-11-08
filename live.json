@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-08T19:51:23.753Z",
+  "asOf": "2026-11-08T20:51:49.701Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -390,17 +390,6 @@
         "by": "rules"
       },
       {
-        "title": "“개미들은 이번 월요일만 기다립니다”…일단 美 반도체는 회복 성공",
-        "link": "https://www.mk.co.kr/news/stock/12201946",
-        "source": "매일경제",
-        "date": "Sun, 08 Nov 2026 20:06:04 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
         "title": "\"AI 전면 규제는 비현실적…코스피 5000서 바닥 테스트\"",
         "link": "https://www.hankyung.com/article/2026110832381",
         "source": "한국경제",
@@ -412,17 +401,6 @@
         "by": "rules"
       },
       {
-        "title": "‘1만피’ 간다더니 이제와 ‘5천피’라고?…황당한 증권사 고무줄 전망",
-        "link": "https://www.mk.co.kr/news/stock/12201928",
-        "source": "매일경제",
-        "date": "Sun, 08 Nov 2026 18:49:55 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
         "title": "환율·채권, '블루 쓰나미'에 환율 다시 뛸수도",
         "link": "https://www.hankyung.com/article/2026110832191",
         "source": "한국경제",
@@ -430,6 +408,28 @@
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "뉴욕·상하이 증시, 美 소비자물가·코어위브 실적 '주목'",
+        "link": "https://www.hankyung.com/article/2026110832181",
+        "source": "한국경제",
+        "date": "Sun, 08 Nov 2026 17:32:53 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "韓 증시, 장투 자금에 달렸다 [한경 프리미엄9 TODAY]",
+        "link": "https://www.hankyung.com/article/2026110832071",
+        "source": "한국경제",
+        "date": "Sun, 08 Nov 2026 17:31:52 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -3386,8 +3386,9 @@
     }
   },
   "failed": [
+    "news/kr/매일경제: fetch failed",
     "news/us/Yahoo Finance: HTTP 404",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgr3UHaRR9aFdEaH13WcQ\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgr3UHwVmcNPx9xwbyjmJ\"}"
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgr85ZnS1ituEskKscH4i\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgr85aHh4FGzyLFZUjySo\"}"
   ]
 }
