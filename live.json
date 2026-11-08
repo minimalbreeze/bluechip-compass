@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-08T00:42:14.953Z",
+  "asOf": "2026-11-08T01:42:39.822Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgpXqmGsz"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgpcSyGti"
   },
   "stocks": {
     "kr": {
@@ -368,6 +368,39 @@
   "news": {
     "kr": [
       {
+        "title": "오세훈 \"국민연금으로 지방선거용 주식도박…李대통령 사과해야\"",
+        "link": "https://www.yna.co.kr/view/AKR20261108016700004",
+        "source": "연합뉴스",
+        "date": "Sun, 8 Nov 2026 10:16:24 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "'GTA6' 출시 앞두고 소니 주가 급등…PS6 개발 속도낸다",
+        "link": "https://www.hankyung.com/article/202611069908i",
+        "source": "한국경제",
+        "date": "Sun, 08 Nov 2026 09:00:02 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "“미국 물가부터 옵션 만기까지”…다음 주 증시 변수, 미리 대비하려면",
+        "link": "https://www.mk.co.kr/news/stock/12201573",
+        "source": "매일경제",
+        "date": "Sun, 08 Nov 2026 08:08:16 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
         "title": "광주송정역·금호타이어공장 일대 '반도체 관문도시' 조성",
         "link": "https://www.yna.co.kr/view/AKR20261106086200054",
         "source": "연합뉴스",
@@ -386,39 +419,6 @@
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "“미국 물가부터 옵션 만기까지”…다음 주 증시 변수, 미리 대비하려면",
-        "link": "https://www.mk.co.kr/news/stock/12201573",
-        "source": "매일경제",
-        "date": "Sun, 08 Nov 2026 08:08:16 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "'232억 펀드 불완전판매' 증권사 임원 감봉…법원 \"과도한 제재\"",
-        "link": "https://www.yna.co.kr/view/AKR20261106182900004",
-        "source": "연합뉴스",
-        "date": "Sun, 8 Nov 2026 09:00:02 +0900",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": null,
-        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
-        "by": "rules"
-      },
-      {
-        "title": "1500억 자사주 소각에 폭락장 견뎠지만…목표가는 반토막 [종목+]",
-        "link": "https://www.hankyung.com/article/2026110611706",
-        "source": "한국경제",
-        "date": "Sat, 07 Nov 2026 21:28:50 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgpXqmGszeWtVdhmjDAVx\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgpXqmmeHP7nAWAF5aAV6\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgpXqn8UrFa5yC3pAPZw6\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgpcSyGtiL7EBiyhfoiv4\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgpcSyiS9Zc4z3wDpBwsW\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgpcSz1YBhLHMVoGVEjsA\"}"
   ]
 }
