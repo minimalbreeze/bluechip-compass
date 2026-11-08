@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-08T08:46:12.209Z",
+  "asOf": "2026-11-08T09:47:30.661Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgqAkENgV"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgqFRNwSL"
   },
   "stocks": {
     "kr": {
@@ -379,14 +379,14 @@
         "by": "rules"
       },
       {
-        "title": "증시 폭락에 떠오르는 손실의 악몽…당신의 기억은 틀렸다",
-        "link": "https://www.hankyung.com/article/202611058459i",
+        "title": "\"AI 전면 규제는 비현실적…코스피 5000서 바닥 테스트\"",
+        "link": "https://www.hankyung.com/article/2026110832381",
         "source": "한국경제",
-        "date": "Sun, 08 Nov 2026 16:01:02 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "date": "Sun, 08 Nov 2026 17:41:53 +0900",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": "market",
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
         "by": "rules"
       },
       {
@@ -412,13 +412,13 @@
         "by": "rules"
       },
       {
-        "title": "\"AI 투자 시험대는 2028년\"...센터장이 보는 반도체 미래는?",
-        "link": "https://www.hankyung.com/article/202611082969i",
+        "title": "환율·채권, '블루 쓰나미'에 환율 다시 치솟나",
+        "link": "https://www.hankyung.com/article/2026110832191",
         "source": "한국경제",
-        "date": "Sun, 08 Nov 2026 15:26:07 +0900",
+        "date": "Sun, 08 Nov 2026 17:33:15 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgqAkENgVqKLMMrx5dvhJ\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgqAkEhngSurebpgYokXR\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgqAkExfSBdn2BeZuSDzS\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgqFRNwSLZRLmgb3mjj4X\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgqFRPQxz3oyyRHa6qHB1\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgqFRPqzqMSfJsoRsspf2\"}"
   ]
 }
