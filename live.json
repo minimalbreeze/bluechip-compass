@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-08T22:52:37.694Z",
+  "asOf": "2026-11-08T23:07:14.800Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-06T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1363.32,
+      "price": 1363.21,
       "prev": 1363.65,
-      "chg": -0.02,
+      "chg": -0.03,
       "prevDay": "2026-11-07",
       "basis": "prev-close-memo",
-      "time": "2026-11-08T22:52:26.000Z"
+      "time": "2026-11-08T23:07:05.000Z"
     },
     "^GSPC": {
       "price": 7376.86,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.179
+    "pct": 0.178
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -19.42
     },
     "KRW=X": {
-      "last": 1363.32,
+      "last": 1363.21,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.179,
-      "chg3m": -3.75
+      "pct52": 0.178,
+      "chg3m": -3.76
     },
     "^GSPC": {
       "last": 7376.86,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgrHHrFGV"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgrJQW9bB"
   },
   "stocks": {
     "kr": {
@@ -368,13 +368,24 @@
   "news": {
     "kr": [
       {
-        "title": "'코스피 대탈출' 경고음…8조 던진 외국인 심상치 않다",
-        "link": "https://www.hankyung.com/article/2026110833407",
-        "source": "한국경제",
-        "date": "Sun, 08 Nov 2026 19:23:56 +0900",
+        "title": "[인터뷰] 이윤희 삼성운용 채권본부장 \"빨라진 금리 하락…전략 재점검\"",
+        "link": "https://www.yna.co.kr/view/AKR20261107023100008",
+        "source": "연합뉴스",
+        "date": "Mon, 9 Nov 2026 08:00:03 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "증시 급락에 연금계좌도 '악'…\"어떻게 하나\" 전문가 답변은",
+        "link": "https://www.hankyung.com/article/202611083134i",
+        "source": "한국경제",
+        "date": "Mon, 09 Nov 2026 08:00:17 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -390,14 +401,14 @@
         "by": "rules"
       },
       {
-        "title": "\"AI 전면 규제는 비현실적…코스피 5000서 바닥 테스트\"",
-        "link": "https://www.hankyung.com/article/2026110832381",
+        "title": "[스타워즈] 증시 폭락에 고군분투…생존자 포트폴리오 보니",
+        "link": "https://www.hankyung.com/article/2026110828686",
         "source": "한국경제",
-        "date": "Sun, 08 Nov 2026 17:41:53 +0900",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": "market",
-        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
+        "date": "Mon, 09 Nov 2026 08:00:02 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
@@ -412,24 +423,13 @@
         "by": "rules"
       },
       {
-        "title": "환율·채권, '블루 쓰나미'에 환율 다시 뛸수도",
-        "link": "https://www.hankyung.com/article/2026110832191",
+        "title": "'코스피 대탈출' 경고음…8조 던진 외국인 심상치 않다",
+        "link": "https://www.hankyung.com/article/2026110833407",
         "source": "한국경제",
-        "date": "Sun, 08 Nov 2026 17:33:15 +0900",
+        "date": "Sun, 08 Nov 2026 19:23:56 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "“개미들은 이번 월요일만 기다립니다”…일단 美 반도체는 회복 성공",
-        "link": "https://www.mk.co.kr/news/stock/12201946",
-        "source": "매일경제",
-        "date": "Sun, 08 Nov 2026 20:06:04 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -2955,7 +2955,7 @@
       "2026-11-05": 1357.27,
       "2026-11-06": 1363.65,
       "2026-11-07": 1363.65,
-      "2026-11-08": 1363.32
+      "2026-11-08": 1363.21
     },
     "^GSPC": {
       "2026-10-28": 7743.98,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgrHHrFGVqSWCjXyebiWC\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgrHHrXPMHzP7B8Gaqs3y\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgrHHrmGq9Wi5USXeUT2v\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgrJQW9bBuTyoFUoinzS9\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgrJQWVBbtZ8LCTquF3RX\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgrJQWiaa1EVTf9p6Abxq\"}"
   ]
 }
