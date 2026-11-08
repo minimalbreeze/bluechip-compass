@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-08T05:44:05.904Z",
+  "asOf": "2026-11-08T06:44:29.124Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -44,18 +44,18 @@
     },
     "^VIX": {
       "price": 25.64,
-      "prev": 25.639999389648438,
+      "prev": 25.64,
       "chg": 0,
-      "prevDay": "2026-11-06",
-      "basis": "prev-close-bar",
+      "prevDay": "2026-11-07",
+      "basis": "prev-close-memo",
       "time": "2026-11-06T21:15:01.000Z"
     },
     "^TNX": {
       "price": 4.859,
-      "prev": 4.859000205993652,
+      "prev": 4.859,
       "chg": 0,
-      "prevDay": "2026-11-06",
-      "basis": "prev-close-bar",
+      "prevDay": "2026-11-07",
+      "basis": "prev-close-memo",
       "time": "2026-11-06T19:59:56.000Z"
     }
   },
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgpvroeDG"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgq1TtHDX"
   },
   "stocks": {
     "kr": {
@@ -379,7 +379,40 @@
         "by": "rules"
       },
       {
-        "title": "커지는 코스피 블루...\"5000선 밑은 '언더슈팅', 패닉셀 할 때 아니다”",
+        "title": "내일부터 반대매매 일단 '숨통'…증권사 담보비율 140% 의무 3개월 면제",
+        "link": "https://www.hankyung.com/article/2026110830387",
+        "source": "한국경제",
+        "date": "Sun, 08 Nov 2026 15:12:27 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "한미 증시 하락에…ETF 시가총액 400조원 붕괴",
+        "link": "https://www.mk.co.kr/news/stock/12201692",
+        "source": "매일경제",
+        "date": "Sun, 08 Nov 2026 15:00:17 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "정부, 어업 분야 외국인 계절노동자 인권 실태 점검",
+        "link": "https://www.yna.co.kr/view/AKR20261106149200030",
+        "source": "연합뉴스",
+        "date": "Sun, 8 Nov 2026 11:00:05 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "커지는 코스피 블루…\"5000선 밑은 '언더슈팅', 패닉셀 할 때 아니다\"",
         "link": "https://www.hankyung.com/article/202611082842i",
         "source": "한국경제",
         "date": "Sun, 08 Nov 2026 14:07:00 +0900",
@@ -398,39 +431,6 @@
         "lasting": "structural",
         "scope": null,
         "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
-        "by": "rules"
-      },
-      {
-        "title": "정부, 어업 분야 외국인 계절노동자 인권 실태 점검",
-        "link": "https://www.yna.co.kr/view/AKR20261106149200030",
-        "source": "연합뉴스",
-        "date": "Sun, 8 Nov 2026 11:00:05 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "\"비행기 가격 왜 이래\"…'역대급 엔저'에 실적 대박난 이 종목",
-        "link": "https://www.hankyung.com/article/202611082940i",
-        "source": "한국경제",
-        "date": "Sun, 08 Nov 2026 13:22:20 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "“미국 물가부터 옵션 만기까지”…다음 주 증시 변수, 미리 대비하려면",
-        "link": "https://www.mk.co.kr/news/stock/12201573",
-        "source": "매일경제",
-        "date": "Sun, 08 Nov 2026 08:08:16 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
     ],
@@ -2986,7 +2986,6 @@
       "2026-11-08": 24579.424
     },
     "^VIX": {
-      "2026-10-27": 17.52,
       "2026-10-28": 16.91,
       "2026-10-29": 17.2,
       "2026-10-30": 19.42,
@@ -2997,10 +2996,10 @@
       "2026-11-04": 16.61,
       "2026-11-05": 28.18,
       "2026-11-06": 25.64,
-      "2026-11-07": 25.64
+      "2026-11-07": 25.64,
+      "2026-11-08": 25.64
     },
     "^TNX": {
-      "2026-10-27": 4.993,
       "2026-10-28": 5.045,
       "2026-10-29": 4.989,
       "2026-10-30": 4.929,
@@ -3011,7 +3010,8 @@
       "2026-11-04": 4.894,
       "2026-11-05": 4.837,
       "2026-11-06": 4.859,
-      "2026-11-07": 4.859
+      "2026-11-07": 4.859,
+      "2026-11-08": 4.859
     },
     "105560.KS": {
       "2026-10-28": 154000,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgpvroeDGTE8WNgZ2SGVn\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgpvrp51RhYxjoN7ZLQxF\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgpvrpKtbVdzXy8ZW5LqM\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgq1TtHDXzMpsJFvedfFa\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgq1Ttk13ciZyzuPJsBCQ\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgq1Tu6L2BFeLgBZQYC58\"}"
   ]
 }
