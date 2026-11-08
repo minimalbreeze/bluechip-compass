@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-08T07:44:50.504Z",
+  "asOf": "2026-11-08T08:46:12.209Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgq64qUjL"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgqAkENgV"
   },
   "stocks": {
     "kr": {
@@ -390,13 +390,13 @@
         "by": "rules"
       },
       {
-        "title": "한미 증시 하락에…ETF 시가총액 400조원 붕괴",
-        "link": "https://www.mk.co.kr/news/stock/12201692",
+        "title": "美 필리지수 반등 성공 … K증시도 진정될까",
+        "link": "https://www.mk.co.kr/news/stock/12201814",
         "source": "매일경제",
-        "date": "Sun, 08 Nov 2026 15:00:17 +09:00",
+        "date": "Sun, 08 Nov 2026 17:26:28 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -423,14 +423,14 @@
         "by": "rules"
       },
       {
-        "title": "‘우협 줄다리기’에 위기 맞은 KDB생명…‘인수자 북적’ 기대 품은 JTBC [M&A복덕방]",
-        "link": "https://www.mk.co.kr/news/stock/12201625",
+        "title": "SK에코 상장 접자 … SK디스커버리 4200억 차익",
+        "link": "https://www.mk.co.kr/news/stock/12201812",
         "source": "매일경제",
-        "date": "Sun, 08 Nov 2026 11:31:06 +09:00",
-        "act": "watch",
-        "lasting": "structural",
+        "date": "Sun, 08 Nov 2026 17:26:27 +09:00",
+        "act": "none",
+        "lasting": "temporary",
         "scope": null,
-        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
     ],
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgq64qUjLmfK7CJwRKeTs\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgq64qrJeMLnTAkna6Pxn\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgq64r6gp7Rw8EpJfD382\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgqAkENgVqKLMMrx5dvhJ\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgqAkEhngSurebpgYokXR\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgqAkExfSBdn2BeZuSDzS\"}"
   ]
 }
