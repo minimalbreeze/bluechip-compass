@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-09T21:08:37.721Z",
+  "asOf": "2026-11-09T22:09:01.481Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-09T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1340.06,
+      "price": 1340.86,
       "prev": 1363.21,
-      "chg": -1.7,
+      "chg": -1.64,
       "prevDay": "2026-11-08",
       "basis": "prev-close-memo",
-      "time": "2026-11-09T21:08:22.000Z"
+      "time": "2026-11-09T22:08:42.000Z"
     },
     "^GSPC": {
       "price": 7549.94,
@@ -32,7 +32,7 @@
       "chg": 2.35,
       "prevDay": "2026-11-08",
       "basis": "prev-close-memo",
-      "time": "2026-11-09T21:08:27.000Z"
+      "time": "2026-11-09T21:20:01.000Z"
     },
     "^IXIC": {
       "price": 25253.139,
@@ -40,15 +40,15 @@
       "chg": 2.74,
       "prevDay": "2026-11-08",
       "basis": "prev-close-memo",
-      "time": "2026-11-09T21:08:26.000Z"
+      "time": "2026-11-09T22:08:50.000Z"
     },
     "^VIX": {
-      "price": 19.98,
+      "price": 19.92,
       "prev": 25.64,
-      "chg": -22.07,
+      "chg": -22.31,
       "prevDay": "2026-11-08",
       "basis": "prev-close-memo",
-      "time": "2026-11-09T20:53:16.000Z"
+      "time": "2026-11-09T21:15:01.000Z"
     },
     "^TNX": {
       "price": 4.864,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.079
+    "pct": 0.082
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -19.42
     },
     "KRW=X": {
-      "last": 1340.06,
+      "last": 1340.86,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.079,
-      "chg3m": -5.39
+      "pct52": 0.082,
+      "chg3m": -5.34
     },
     "^GSPC": {
       "last": 7549.94,
@@ -101,11 +101,11 @@
       "chg3m": -5.02
     },
     "^VIX": {
-      "last": 19.98,
+      "last": 19.92,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.37,
-      "chg3m": 36.57
+      "pct52": 0.367,
+      "chg3m": 36.16
     },
     "^TNX": {
       "last": 4.86,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgsdUDdk8"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgt7muQ95"
   },
   "stocks": {
     "kr": {
@@ -158,7 +158,7 @@
         "prev": 150900,
         "chg": 0,
         "prevDay": "2026-11-09",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-11-09T06:30:16.000Z"
       },
       "207940": {
@@ -166,7 +166,7 @@
         "prev": 1510000,
         "chg": 0,
         "prevDay": "2026-11-09",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-11-09T06:30:27.000Z"
       },
       "005930": {
@@ -174,7 +174,7 @@
         "prev": 189900,
         "chg": 0,
         "prevDay": "2026-11-09",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-11-09T06:30:02.000Z"
       },
       "000660": {
@@ -182,7 +182,7 @@
         "prev": 1136000,
         "chg": 0,
         "prevDay": "2026-11-09",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-11-09T06:30:27.000Z"
       },
       "005380": {
@@ -190,7 +190,7 @@
         "prev": 271500,
         "chg": 0,
         "prevDay": "2026-11-09",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-11-09T06:30:21.000Z"
       },
       "055550": {
@@ -198,7 +198,7 @@
         "prev": 85800,
         "chg": 0,
         "prevDay": "2026-11-09",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-11-09T06:30:10.000Z"
       },
       "000810": {
@@ -206,7 +206,7 @@
         "prev": 606000,
         "chg": 0,
         "prevDay": "2026-11-09",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-11-09T06:30:05.000Z"
       },
       "033780": {
@@ -214,7 +214,7 @@
         "prev": 182400,
         "chg": 0,
         "prevDay": "2026-11-09",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-11-09T06:30:18.000Z"
       },
       "035420": {
@@ -222,7 +222,7 @@
         "prev": 187100,
         "chg": 0,
         "prevDay": "2026-11-09",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-11-09T06:30:19.000Z"
       },
       "005490": {
@@ -230,7 +230,7 @@
         "prev": 259000,
         "chg": 0,
         "prevDay": "2026-11-09",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-11-09T06:30:02.000Z"
       },
       "028260": {
@@ -238,7 +238,7 @@
         "prev": 269500,
         "chg": 0,
         "prevDay": "2026-11-09",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-11-09T06:30:21.000Z"
       },
       "012450": {
@@ -246,7 +246,7 @@
         "prev": 639000,
         "chg": 0,
         "prevDay": "2026-11-09",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-11-09T06:30:02.000Z"
       },
       "017670": {
@@ -254,7 +254,7 @@
         "prev": 77400,
         "chg": 0,
         "prevDay": "2026-11-09",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-11-09T06:30:10.000Z"
       }
     },
@@ -284,20 +284,20 @@
         "time": "2026-11-09T21:00:01.000Z"
       },
       "BRK.B": {
-        "price": 575.08,
+        "price": 575.25,
         "prev": 570.89,
-        "chg": 0.73,
+        "chg": 0.76,
         "prevDay": "2026-11-08",
         "basis": "prev-close-memo",
-        "time": "2026-11-09T21:00:00.000Z"
+        "time": "2026-11-09T21:05:01.000Z"
       },
       "V": {
-        "price": 422.405,
+        "price": 422.16,
         "prev": 422.65,
-        "chg": -0.06,
+        "chg": -0.12,
         "prevDay": "2026-11-08",
         "basis": "prev-close-memo",
-        "time": "2026-11-09T20:59:59.000Z"
+        "time": "2026-11-09T21:00:02.000Z"
       },
       "JNJ": {
         "price": 282.11,
@@ -305,23 +305,23 @@
         "chg": 2.13,
         "prevDay": "2026-11-08",
         "basis": "prev-close-memo",
-        "time": "2026-11-09T20:59:59.000Z"
+        "time": "2026-11-09T21:00:02.000Z"
       },
       "PG": {
-        "price": 168.295,
+        "price": 168.32,
         "prev": 165.4,
-        "chg": 1.75,
+        "chg": 1.77,
         "prevDay": "2026-11-08",
         "basis": "prev-close-memo",
-        "time": "2026-11-09T20:59:59.000Z"
+        "time": "2026-11-09T21:03:05.000Z"
       },
       "KO": {
-        "price": 96.025,
+        "price": 96.03,
         "prev": 95.67,
-        "chg": 0.37,
+        "chg": 0.38,
         "prevDay": "2026-11-08",
         "basis": "prev-close-memo",
-        "time": "2026-11-09T20:59:59.000Z"
+        "time": "2026-11-09T21:00:02.000Z"
       },
       "COST": {
         "price": 1066.18,
@@ -332,12 +332,12 @@
         "time": "2026-11-09T21:00:01.000Z"
       },
       "WM": {
-        "price": 236.59,
+        "price": 236.61,
         "prev": 236.26,
-        "chg": 0.14,
+        "chg": 0.15,
         "prevDay": "2026-11-08",
         "basis": "prev-close-memo",
-        "time": "2026-11-09T20:59:54.000Z"
+        "time": "2026-11-09T21:00:03.000Z"
       },
       "LIN": {
         "price": 520.33,
@@ -348,12 +348,12 @@
         "time": "2026-11-09T21:00:00.000Z"
       },
       "XOM": {
-        "price": 164.76,
+        "price": 164.73,
         "prev": 165.87,
-        "chg": -0.67,
+        "chg": -0.69,
         "prevDay": "2026-11-08",
         "basis": "prev-close-memo",
-        "time": "2026-11-09T20:59:58.000Z"
+        "time": "2026-11-09T21:02:38.000Z"
       },
       "NVDA": {
         "price": 178.67,
@@ -379,13 +379,13 @@
         "by": "rules"
       },
       {
-        "title": "대신증권, 3분기 영업적자 전환…\"거래대금 감소 여파\"",
-        "link": "https://www.hankyung.com/article/2026110958966",
+        "title": "[속보] 엔비디아 4.3% 급락에도 필라델피아 반도체 지수 6.9% 급등",
+        "link": "https://www.hankyung.com/article/2026111061777",
         "source": "한국경제",
-        "date": "Mon, 09 Nov 2026 17:46:49 +0900",
+        "date": "Tue, 10 Nov 2026 06:03:35 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -412,13 +412,13 @@
         "by": "rules"
       },
       {
-        "title": "대신증권, 3분기 영업손실 22억원...유가증권 평가손실에 적자 전환",
-        "link": "https://www.hankyung.com/article/202611095732i",
+        "title": "[속보] 뉴욕증시, 엔비디아 위기에도 급반등…나스닥 2.7%↑",
+        "link": "https://www.hankyung.com/article/2026111061747",
         "source": "한국경제",
-        "date": "Mon, 09 Nov 2026 17:42:19 +0900",
+        "date": "Tue, 10 Nov 2026 06:02:58 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -436,6 +436,54 @@
     ],
     "us": [
       {
+        "title": "3 unexpected reasons why the October jobs report was so strong",
+        "link": "https://www.cnbc.com/2026/11/09/october-jobs-report-hiring-by-sector.html",
+        "source": "CNBC",
+        "date": "Mon, 09 Nov 2026 21:52:30 GMT",
+        "ko": "10월 일자리 보고서가 강한 3가지 예상치 못한 이유",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "As Nvidia’s stock falls, here’s what Wall Street has to say about the Jensen Huang scandal",
+        "link": "https://www.marketwatch.com/story/how-wall-street-is-reacting-to-the-news-of-nvidias-jensen-huang-investigation-into-spy-claims-d8c839ab?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "date": "Mon, 09 Nov 2026 21:55:00 GMT",
+        "ko": "엔비디아의 주가가 하락함에 따라 젠슨 황 스캔들에 대한 월가의 의견은 다음과 같습니다.",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "A key report for where inflation stood in October comes out Tuesday. Here's what to expect",
+        "link": "https://www.cnbc.com/2026/11/09/october-cpi-report-2026-inflation.html",
+        "source": "CNBC",
+        "date": "Mon, 09 Nov 2026 21:03:55 GMT",
+        "ko": "10월 인플레이션이 어디에 있었는지에 대한 주요 보고서가 화요일에 나옵니다. 알아두어야 할 사항",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "Dow sees its third 1,000-point swing in four days. Why the volatility isn’t over yet.",
+        "link": "https://www.marketwatch.com/story/dow-sees-its-third-1-000-point-swing-in-four-days-why-volatility-isnt-over-yet-5380567b?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "date": "Mon, 09 Nov 2026 21:52:00 GMT",
+        "ko": "다우는 4일 만에 세 번째 1,000포인트 스윙을 볼 수 있습니다. 변동성이 아직 끝나지 않은 이유.",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
         "title": "China wholesale inflation hits highest in more than four years as consumer measure slows",
         "link": "https://www.cnbc.com/2026/11/09/china-wholesale-inflation-rises-consumer.html",
         "source": "CNBC",
@@ -448,58 +496,10 @@
         "by": "rules"
       },
       {
-        "title": "Hot U.S. inflation hasn’t cooled off. Rising consumer prices to keep Fed rate hike on track.",
-        "link": "https://www.marketwatch.com/story/hot-u-s-inflation-hasnt-cooled-off-rising-consumer-prices-to-keep-fed-rate-hike-on-track-926c44b0?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "date": "Mon, 09 Nov 2026 21:01:00 GMT",
-        "ko": "뜨거운 미국 인플레이션이 식지 않았습니다. 연준 금리 인상을 유지하기 위해 소비자 물가 상승.",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "U.S. economy added 165,000 jobs in October, way more than expected; unemployment rate slips to 4.1%",
-        "link": "https://www.cnbc.com/2026/11/06/jobs-report-october-2026.html",
-        "source": "CNBC",
-        "date": "Fri, 06 Nov 2026 16:06:59 GMT",
-        "ko": "미국 경제는 10월에 예상보다 훨씬 많은 165,000개의 일자리를 추가했습니다. 실업률은 4.1% 로 떨어졌습니다.",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "Analysts say these chip stocks are bargains. Is it time to buy?",
-        "link": "https://www.marketwatch.com/story/analysts-say-these-chip-stocks-are-bargains-is-it-time-to-buy-fb5fdde8?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "date": "Mon, 09 Nov 2026 20:48:00 GMT",
-        "ko": "분석가들은 이러한 칩 재고가 거래라고 말합니다. 구매할 때가 되었나요?",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "The October jobs report is out Friday. Here's everything to expect",
-        "link": "https://www.cnbc.com/2026/11/05/october-jobs-report-preview.html",
-        "source": "CNBC",
-        "date": "Thu, 05 Nov 2026 21:32:52 GMT",
-        "ko": "10월 일자리 보고서가 금요일에 나왔습니다. 알아두어야 할 모든 것",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
         "title": "The stock-market rally keeps spreading beyond Big Tech. October inflation data could put it to the test.",
         "link": "https://www.marketwatch.com/story/the-stock-market-rally-keeps-spreading-beyond-big-tech-october-inflation-data-could-put-it-to-the-test-c1b87dcd?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 09 Nov 2026 20:42:00 GMT",
+        "date": "Mon, 09 Nov 2026 21:24:00 GMT",
         "ko": "주식 시장 랠리는 빅 테크를 넘어 계속 확산되고 있습니다. 10월 인플레이션 데이터가 이를 테스트할 수 있습니다.",
         "act": "none",
         "lasting": "temporary",
@@ -511,9 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "SpaceX earnings will be all about AI — for better or for worse": "SpaceX 수입은 더 좋든 나쁘든 AI에 관한 모든 것이 될 것입니다.",
-    "It’s a rough housing market, and Goldman Sachs expects it to get worse": "거친 주택 시장이며 골드만 삭스는 상황이 더 나빠질 것으로 예상합니다.",
-    "My unmarried partner of 17 years left me his $1.1 million home. His three children are livid. Should I share my inheritance?": "17년 동안 결혼하지 않은 파트너가 저에게 110만 달러 ($) 의 집을 남겨주었습니다. 그의 세 자녀는 생생하다. 유산을 공유해야 합니까?",
     "South Korean IPO flop is the latest in a string of disappointments for the global AI trade": "한국 IPO 플랍은 글로벌 AI 거래에 대한 실망의 연속에서 최신입니다",
     "Why smaller stocks face worse prospects than the S&P 500 in the coming years": "향후 몇 년 동안 소규모 주식이 S&P 500보다 더 나쁜 전망에 직면하는 이유",
     "Strategist Tom Lee says he’s buying the AI stock dip, and Cisco holds the key": "전략가 톰 리 (Tom Lee) 는 AI 주식 딥을 사고 있다고 말하며 시스코는 열쇠를 쥐고 있습니다.",
@@ -810,7 +807,10 @@
     "Think the bond market is broken? History says a massive turnaround could be coming.": "채권 시장이 망가졌다고 생각하십니까? 역사는 엄청난 전환점이 올 수 있다고 말합니다.",
     "Hot U.S. inflation hasn’t cooled off. Rising consumer prices to keep Fed rate hike on track.": "뜨거운 미국 인플레이션이 식지 않았습니다. 연준 금리 인상을 유지하기 위해 소비자 물가 상승.",
     "The stock-market rally keeps spreading beyond Big Tech. October inflation data could put it to the test.": "주식 시장 랠리는 빅 테크를 넘어 계속 확산되고 있습니다. 10월 인플레이션 데이터가 이를 테스트할 수 있습니다.",
-    "Analysts say these chip stocks are bargains. Is it time to buy?": "분석가들은 이러한 칩 재고가 거래라고 말합니다. 구매할 때가 되었나요?"
+    "Analysts say these chip stocks are bargains. Is it time to buy?": "분석가들은 이러한 칩 재고가 거래라고 말합니다. 구매할 때가 되었나요?",
+    "3 unexpected reasons why the October jobs report was so strong": "10월 일자리 보고서가 강한 3가지 예상치 못한 이유",
+    "A key report for where inflation stood in October comes out Tuesday. Here's what to expect": "10월 인플레이션이 어디에 있었는지에 대한 주요 보고서가 화요일에 나옵니다. 알아두어야 할 사항",
+    "Dow sees its third 1,000-point swing in four days. Why the volatility isn’t over yet.": "다우는 4일 만에 세 번째 1,000포인트 스윙을 볼 수 있습니다. 변동성이 아직 끝나지 않은 이유."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2955,7 +2955,7 @@
       "2026-11-06": 1363.65,
       "2026-11-07": 1363.65,
       "2026-11-08": 1363.21,
-      "2026-11-09": 1340.06
+      "2026-11-09": 1340.86
     },
     "^GSPC": {
       "2026-10-29": 7720.39,
@@ -2997,7 +2997,7 @@
       "2026-11-06": 25.64,
       "2026-11-07": 25.64,
       "2026-11-08": 25.64,
-      "2026-11-09": 19.98
+      "2026-11-09": 19.92
     },
     "^TNX": {
       "2026-10-29": 4.989,
@@ -3256,7 +3256,7 @@
       "2026-11-06": 422.65,
       "2026-11-07": 422.65,
       "2026-11-08": 422.65,
-      "2026-11-09": 422.405
+      "2026-11-09": 422.16
     },
     "JNJ": {
       "2026-10-29": 275.2,
@@ -3284,7 +3284,7 @@
       "2026-11-06": 165.4,
       "2026-11-07": 165.4,
       "2026-11-08": 165.4,
-      "2026-11-09": 168.295
+      "2026-11-09": 168.32
     },
     "KO": {
       "2026-10-29": 92.82,
@@ -3298,7 +3298,7 @@
       "2026-11-06": 95.67,
       "2026-11-07": 95.67,
       "2026-11-08": 95.67,
-      "2026-11-09": 96.025
+      "2026-11-09": 96.03
     },
     "COST": {
       "2026-10-29": 996.08,
@@ -3326,7 +3326,7 @@
       "2026-11-06": 236.26,
       "2026-11-07": 236.26,
       "2026-11-08": 236.26,
-      "2026-11-09": 236.59
+      "2026-11-09": 236.61
     },
     "LIN": {
       "2026-10-29": 503.15,
@@ -3354,7 +3354,7 @@
       "2026-11-06": 165.87,
       "2026-11-07": 165.87,
       "2026-11-08": 165.87,
-      "2026-11-09": 164.76
+      "2026-11-09": 164.73
     },
     "NVDA": {
       "2026-10-29": 213.66,
@@ -3382,12 +3382,13 @@
       "2026-11-06": 570.89,
       "2026-11-07": 570.89,
       "2026-11-08": 570.89,
-      "2026-11-09": 575.08
+      "2026-11-09": 575.25
     }
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgt3AnetzoVuxCgdJxiLg\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgt3AoDPVHSydhWM6sxvC\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgt7muQ95LPw1hqdJensh\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgt7muy7nUMWb3bwgkPCo\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgt7mvJTzPLvbkWR79pMh\"}"
   ]
 }
