@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-09T07:43:41.920Z",
+  "asOf": "2026-11-09T07:54:18.418Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-09T06:33:00.000Z"
     },
     "KRW=X": {
-      "price": 1347.95,
+      "price": 1348.89,
       "prev": 1363.21,
-      "chg": -1.12,
+      "chg": -1.05,
       "prevDay": "2026-11-08",
       "basis": "prev-close-memo",
-      "time": "2026-11-09T07:43:31.000Z"
+      "time": "2026-11-09T07:54:09.000Z"
     },
     "^GSPC": {
       "price": 7376.86,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.113
+    "pct": 0.117
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -20.3
     },
     "KRW=X": {
-      "last": 1347.95,
+      "last": 1348.89,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.113,
-      "chg3m": -4.84
+      "pct52": 0.117,
+      "chg3m": -4.77
     },
     "^GSPC": {
       "last": 7376.86,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgrynhimQ"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgrzbcYXP"
   },
   "stocks": {
     "kr": {
@@ -368,13 +368,13 @@
   "news": {
     "kr": [
       {
-        "title": "급락후 韓증시만 반등 못했다…수급 공백·밋밋한 실적에 발목",
-        "link": "https://www.yna.co.kr/view/AKR20261109098700008",
+        "title": "환율, 달러 강세에도 1,340원대로…4거래일만에 하락",
+        "link": "https://www.yna.co.kr/view/AKR20261109121300002",
         "source": "연합뉴스",
-        "date": "Mon, 9 Nov 2026 16:26:12 +0900",
+        "date": "Mon, 9 Nov 2026 16:41:22 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -401,10 +401,10 @@
         "by": "rules"
       },
       {
-        "title": "삼전닉스 반등에도 코스피는 0.8% 또 하락…'5천피'는 사수(종합)",
-        "link": "https://www.yna.co.kr/view/AKR20261109117751008",
+        "title": "국고채 금리 일제히 상승…3년물 연 3.639%",
+        "link": "https://www.yna.co.kr/view/AKR20261109131600008",
         "source": "연합뉴스",
-        "date": "Mon, 9 Nov 2026 16:18:25 +0900",
+        "date": "Mon, 9 Nov 2026 16:40:41 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -2955,7 +2955,7 @@
       "2026-11-06": 1363.65,
       "2026-11-07": 1363.65,
       "2026-11-08": 1363.21,
-      "2026-11-09": 1347.95
+      "2026-11-09": 1348.89
     },
     "^GSPC": {
       "2026-10-29": 7720.39,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgrynhimQr8XabgKQ4kWk\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgrynhugFdK9yhhKgWgjY\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgryni37zZro3CyGfvnwo\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgrzbcYXPxKBzrw2XK9US\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgrzbcxb3vWtmBfu6ihBj\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgrzbdFhaCXTNnXeFZDDh\"}"
   ]
 }
