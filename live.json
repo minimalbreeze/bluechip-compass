@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-09T22:09:01.481Z",
+  "asOf": "2026-11-09T23:09:25.447Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-09T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1340.86,
+      "price": 1341.8,
       "prev": 1363.21,
-      "chg": -1.64,
+      "chg": -1.57,
       "prevDay": "2026-11-08",
       "basis": "prev-close-memo",
-      "time": "2026-11-09T22:08:42.000Z"
+      "time": "2026-11-09T23:03:45.000Z"
     },
     "^GSPC": {
       "price": 7549.94,
@@ -32,7 +32,7 @@
       "chg": 2.35,
       "prevDay": "2026-11-08",
       "basis": "prev-close-memo",
-      "time": "2026-11-09T21:20:01.000Z"
+      "time": "2026-11-09T22:12:50.000Z"
     },
     "^IXIC": {
       "price": 25253.139,
@@ -40,7 +40,7 @@
       "chg": 2.74,
       "prevDay": "2026-11-08",
       "basis": "prev-close-memo",
-      "time": "2026-11-09T22:08:50.000Z"
+      "time": "2026-11-09T22:15:59.000Z"
     },
     "^VIX": {
       "price": 19.92,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.082
+    "pct": 0.086
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -19.42
     },
     "KRW=X": {
-      "last": 1340.86,
+      "last": 1341.8,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.082,
-      "chg3m": -5.34
+      "pct52": 0.086,
+      "chg3m": -5.27
     },
     "^GSPC": {
       "last": 7549.94,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgt7muQ95"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgtCP3md1"
   },
   "stocks": {
     "kr": {
@@ -368,6 +368,39 @@
   "news": {
     "kr": [
       {
+        "title": "삼성화재 \"계열사 포튜나 탑코 주식 2조2천647억원에 추가취득\"",
+        "link": "https://www.yna.co.kr/view/AKR20261110019100008",
+        "source": "연합뉴스",
+        "date": "Tue, 10 Nov 2026 07:41:28 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "반도체주 일제히 반등…엔비디아 홀로 4%대 급락 [뉴욕증시 브리핑]",
+        "link": "https://www.hankyung.com/article/2026111062276",
+        "source": "한국경제",
+        "date": "Tue, 10 Nov 2026 07:00:28 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "엔비디아만 빼고 다 상승... 달라진 미국 증시, 추세전환 시작인가",
+        "link": "https://www.mk.co.kr/news/business/12203464",
+        "source": "매일경제",
+        "date": "Tue, 10 Nov 2026 08:07:44 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
         "title": "서비스 수출실적 증명 편리하게…무역협회 등 6개 기관 협력",
         "link": "https://www.yna.co.kr/view/AKR20261109140300003",
         "source": "연합뉴스",
@@ -379,13 +412,13 @@
         "by": "rules"
       },
       {
-        "title": "[속보] 엔비디아 4.3% 급락에도 필라델피아 반도체 지수 6.9% 급등",
-        "link": "https://www.hankyung.com/article/2026111061777",
+        "title": "\"8000만원 넣었는데\"…증권사 돌변에 '악!' 곡소리 터졌다 [분석+]",
+        "link": "https://www.hankyung.com/article/2026110954456",
         "source": "한국경제",
-        "date": "Tue, 10 Nov 2026 06:03:35 +0900",
+        "date": "Tue, 10 Nov 2026 06:30:06 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -399,48 +432,15 @@
         "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
-      },
-      {
-        "title": "\"업종별 하위 25%·할증률 40%로\"…'주가 누르기' 정부안 보완론(종합)",
-        "link": "https://www.yna.co.kr/view/AKR20261109147051002",
-        "source": "연합뉴스",
-        "date": "Mon, 9 Nov 2026 20:26:16 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "[속보] 뉴욕증시, 엔비디아 위기에도 급반등…나스닥 2.7%↑",
-        "link": "https://www.hankyung.com/article/2026111061747",
-        "source": "한국경제",
-        "date": "Tue, 10 Nov 2026 06:02:58 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "증시 폭락에도 멘탈 지키려면?…장기 투자 방패 TDF에 주목 [주린이ABC]",
-        "link": "https://www.mk.co.kr/news/stock/12202813",
-        "source": "매일경제",
-        "date": "Mon, 09 Nov 2026 19:04:49 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
       }
     ],
     "us": [
       {
-        "title": "3 unexpected reasons why the October jobs report was so strong",
+        "title": "3 unexpected reasons the October jobs report was so strong",
         "link": "https://www.cnbc.com/2026/11/09/october-jobs-report-hiring-by-sector.html",
         "source": "CNBC",
-        "date": "Mon, 09 Nov 2026 21:52:30 GMT",
-        "ko": "10월 일자리 보고서가 강한 3가지 예상치 못한 이유",
+        "date": "Mon, 09 Nov 2026 22:23:56 GMT",
+        "ko": "10월 일자리 보고서가 강력했던 3가지 예상치 못한 이유",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -448,11 +448,11 @@
         "by": "rules"
       },
       {
-        "title": "As Nvidia’s stock falls, here’s what Wall Street has to say about the Jensen Huang scandal",
-        "link": "https://www.marketwatch.com/story/how-wall-street-is-reacting-to-the-news-of-nvidias-jensen-huang-investigation-into-spy-claims-d8c839ab?mod=mw_rss_topstories",
+        "title": "Rocket Lab shares dip after the company’s ‘defining’ quarter misses the mark",
+        "link": "https://www.marketwatch.com/story/rocket-lab-shares-dip-after-the-companys-defining-quarter-misses-the-mark-9f74c3b5?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 09 Nov 2026 21:55:00 GMT",
-        "ko": "엔비디아의 주가가 하락함에 따라 젠슨 황 스캔들에 대한 월가의 의견은 다음과 같습니다.",
+        "date": "Mon, 09 Nov 2026 22:49:00 GMT",
+        "ko": "회사의 ‘정의‘ 쿼터가 표시를 놓친 후 Rocket Lab 주식 딥",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -472,14 +472,14 @@
         "by": "rules"
       },
       {
-        "title": "Dow sees its third 1,000-point swing in four days. Why the volatility isn’t over yet.",
-        "link": "https://www.marketwatch.com/story/dow-sees-its-third-1-000-point-swing-in-four-days-why-volatility-isnt-over-yet-5380567b?mod=mw_rss_topstories",
+        "title": "As Nvidia’s stock falls, here’s what Wall Street has to say about the Jensen Huang scandal",
+        "link": "https://www.marketwatch.com/story/how-wall-street-is-reacting-to-the-news-of-nvidias-jensen-huang-investigation-into-spy-claims-d8c839ab?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 09 Nov 2026 21:52:00 GMT",
-        "ko": "다우는 4일 만에 세 번째 1,000포인트 스윙을 볼 수 있습니다. 변동성이 아직 끝나지 않은 이유.",
+        "date": "Mon, 09 Nov 2026 21:55:00 GMT",
+        "ko": "엔비디아의 주가가 하락함에 따라 젠슨 황 스캔들에 대한 월가의 의견은 다음과 같습니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -496,11 +496,11 @@
         "by": "rules"
       },
       {
-        "title": "The stock-market rally keeps spreading beyond Big Tech. October inflation data could put it to the test.",
-        "link": "https://www.marketwatch.com/story/the-stock-market-rally-keeps-spreading-beyond-big-tech-october-inflation-data-could-put-it-to-the-test-c1b87dcd?mod=mw_rss_topstories",
+        "title": "Dow sees its third 1,000-point swing in four days. Why the volatility isn’t over yet.",
+        "link": "https://www.marketwatch.com/story/dow-sees-its-third-1-000-point-swing-in-four-days-why-volatility-isnt-over-yet-5380567b?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 09 Nov 2026 21:24:00 GMT",
-        "ko": "주식 시장 랠리는 빅 테크를 넘어 계속 확산되고 있습니다. 10월 인플레이션 데이터가 이를 테스트할 수 있습니다.",
+        "date": "Mon, 09 Nov 2026 21:52:00 GMT",
+        "ko": "다우는 4일 만에 세 번째 1,000포인트 스윙을 볼 수 있습니다. 변동성이 아직 끝나지 않은 이유.",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -511,8 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "South Korean IPO flop is the latest in a string of disappointments for the global AI trade": "한국 IPO 플랍은 글로벌 AI 거래에 대한 실망의 연속에서 최신입니다",
-    "Why smaller stocks face worse prospects than the S&P 500 in the coming years": "향후 몇 년 동안 소규모 주식이 S&P 500보다 더 나쁜 전망에 직면하는 이유",
     "Strategist Tom Lee says he’s buying the AI stock dip, and Cisco holds the key": "전략가 톰 리 (Tom Lee) 는 AI 주식 딥을 사고 있다고 말하며 시스코는 열쇠를 쥐고 있습니다.",
     "Strategist Tom Lee says he’s buying the AI-stock dip, and Cisco holds the key": "전략가 톰 리 (Tom Lee) 는 AI 주식 딥을 구매하고 있으며 시스코가 열쇠를 쥐고 있다고 말합니다.",
     "What happens to Wall Street if CoreWeave defaults? JPMorgan checked the math.": "CoreWeave가 기본값으로 설정되면 월스트리트는 어떻게 되나요? JPMorgan이 계산을 확인했습니다.",
@@ -810,7 +808,9 @@
     "Analysts say these chip stocks are bargains. Is it time to buy?": "분석가들은 이러한 칩 재고가 거래라고 말합니다. 구매할 때가 되었나요?",
     "3 unexpected reasons why the October jobs report was so strong": "10월 일자리 보고서가 강한 3가지 예상치 못한 이유",
     "A key report for where inflation stood in October comes out Tuesday. Here's what to expect": "10월 인플레이션이 어디에 있었는지에 대한 주요 보고서가 화요일에 나옵니다. 알아두어야 할 사항",
-    "Dow sees its third 1,000-point swing in four days. Why the volatility isn’t over yet.": "다우는 4일 만에 세 번째 1,000포인트 스윙을 볼 수 있습니다. 변동성이 아직 끝나지 않은 이유."
+    "Dow sees its third 1,000-point swing in four days. Why the volatility isn’t over yet.": "다우는 4일 만에 세 번째 1,000포인트 스윙을 볼 수 있습니다. 변동성이 아직 끝나지 않은 이유.",
+    "3 unexpected reasons the October jobs report was so strong": "10월 일자리 보고서가 강력했던 3가지 예상치 못한 이유",
+    "Rocket Lab shares dip after the company’s ‘defining’ quarter misses the mark": "회사의 ‘정의‘ 쿼터가 표시를 놓친 후 Rocket Lab 주식 딥"
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2955,7 +2955,7 @@
       "2026-11-06": 1363.65,
       "2026-11-07": 1363.65,
       "2026-11-08": 1363.21,
-      "2026-11-09": 1340.86
+      "2026-11-09": 1341.8
     },
     "^GSPC": {
       "2026-10-29": 7720.39,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgt7muQ95LPw1hqdJensh\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgt7muy7nUMWb3bwgkPCo\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgt7mvJTzPLvbkWR79pMh\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgtCP3md1A7tDX8egPmre\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgtCP46URSPkPZkuF6WkR\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgtCP4S4D1xinuipbzphR\"}"
   ]
 }
