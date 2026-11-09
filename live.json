@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-08T23:07:14.800Z",
+  "asOf": "2026-11-09T00:01:38.728Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-06T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1363.21,
-      "prev": 1363.65,
-      "chg": -0.03,
-      "prevDay": "2026-11-07",
+      "price": 1359.18,
+      "prev": 1363.21,
+      "chg": -0.3,
+      "prevDay": "2026-11-08",
       "basis": "prev-close-memo",
-      "time": "2026-11-08T23:07:05.000Z"
+      "time": "2026-11-09T00:01:29.000Z"
     },
     "^GSPC": {
       "price": 7376.86,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.178
+    "pct": 0.161
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -19.42
     },
     "KRW=X": {
-      "last": 1363.21,
+      "last": 1359.18,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.178,
-      "chg3m": -3.76
+      "pct52": 0.161,
+      "chg3m": -4.04
     },
     "^GSPC": {
       "last": 7376.86,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgrJQW9bB"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgrNZ6dwi"
   },
   "stocks": {
     "kr": {
@@ -368,13 +368,13 @@
   "news": {
     "kr": [
       {
-        "title": "[인터뷰] 이윤희 삼성운용 채권본부장 \"빨라진 금리 하락…전략 재점검\"",
-        "link": "https://www.yna.co.kr/view/AKR20261107023100008",
+        "title": "NH증권 \"증시 급락에도 한은 피벗 기대는 시기상조…이달 인상\"",
+        "link": "https://www.yna.co.kr/view/AKR20261109022900008",
         "source": "연합뉴스",
-        "date": "Mon, 9 Nov 2026 08:00:03 +0900",
+        "date": "Mon, 9 Nov 2026 08:51:12 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -394,6 +394,17 @@
         "link": "https://www.mk.co.kr/news/stock/12201699",
         "source": "매일경제",
         "date": "Mon, 09 Nov 2026 05:30:00 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "iM증권 \"AI 조정에 원화 약세…증시 반등 땐 강세 전환\"",
+        "link": "https://www.yna.co.kr/view/AKR20261109022300008",
+        "source": "연합뉴스",
+        "date": "Mon, 9 Nov 2026 08:46:14 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -421,17 +432,6 @@
         "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
-      },
-      {
-        "title": "'코스피 대탈출' 경고음…8조 던진 외국인 심상치 않다",
-        "link": "https://www.hankyung.com/article/2026110833407",
-        "source": "한국경제",
-        "date": "Sun, 08 Nov 2026 19:23:56 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
       }
     ],
     "us": [
@@ -448,11 +448,11 @@
         "by": "rules"
       },
       {
-        "title": "Corporate America’s profit numbers are just barely beating Wall Street’s expectations",
-        "link": "https://www.marketwatch.com/story/corporate-americas-profit-numbers-are-just-barely-beating-wall-streets-expectations-eaa67fe2?mod=mw_rss_topstories",
+        "title": "You follow the rules for smart stock trading. But are they the right rules?",
+        "link": "https://www.marketwatch.com/story/you-follow-the-rules-for-smart-stock-trading-but-are-they-the-right-rules-9bfe5846?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Sun, 08 Nov 2026 15:00:00 GMT",
-        "ko": "기업 미국의 이익 수치는 월스트리트의 기대치를 거의 상회하지 않습니다.",
+        "date": "Sun, 08 Nov 2026 23:15:00 GMT",
+        "ko": "스마트 주식 거래에 대한 규칙을 따릅니다. 하지만 이것이 올바른 규칙일까요?",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -468,18 +468,6 @@
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "Stocks are moving in sync again for the first time in a while. There’s just one problem.",
-        "link": "https://www.marketwatch.com/story/stocks-are-moving-in-sync-again-for-the-first-time-in-a-while-theres-just-one-problem-c953bf72?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "date": "Sun, 08 Nov 2026 14:00:00 GMT",
-        "ko": "잠시 후 처음으로 주식이 다시 동기화됩니다. 단 한 가지 문제가 있습니다.",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -504,6 +492,18 @@
         "act": "none",
         "lasting": "temporary",
         "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "Euro zone inflation hits 4% for first time in three years as interest rate hike looms",
+        "link": "https://www.cnbc.com/2026/11/04/euro-zone-cpi-inflation-october-ecb-rate-hike.html",
+        "source": "CNBC",
+        "date": "Wed, 04 Nov 2026 10:47:30 GMT",
+        "ko": "유로존 인플레이션, 금리인상 직기 3년만에 처음으로 4% 기록",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -2944,7 +2944,6 @@
       "2026-11-09": 644.27
     },
     "KRW=X": {
-      "2026-10-28": 1342.2,
       "2026-10-29": 1338.62,
       "2026-10-30": 1333.44,
       "2026-10-31": 1335.1,
@@ -2955,7 +2954,8 @@
       "2026-11-05": 1357.27,
       "2026-11-06": 1363.65,
       "2026-11-07": 1363.65,
-      "2026-11-08": 1363.21
+      "2026-11-08": 1363.21,
+      "2026-11-09": 1359.18
     },
     "^GSPC": {
       "2026-10-28": 7743.98,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgrJQW9bBuTyoFUoinzS9\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgrJQWVBbtZ8LCTquF3RX\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgrJQWiaa1EVTf9p6Abxq\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgrNZ6dwiDvwwbeBMMPYw\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgrNZ76yYBS6HDo76Y3h5\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgrNZ7QqcktdjceG5VA84\"}"
   ]
 }
