@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-09T13:21:38.318Z",
+  "asOf": "2026-11-09T13:32:01.953Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-09T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1346.39,
+      "price": 1346.48,
       "prev": 1363.21,
       "chg": -1.23,
       "prevDay": "2026-11-08",
       "basis": "prev-close-memo",
-      "time": "2026-11-09T13:21:25.000Z"
+      "time": "2026-11-09T13:31:52.000Z"
     },
     "^GSPC": {
       "price": 7376.86,
@@ -43,12 +43,12 @@
       "time": "2026-11-06T22:15:59.000Z"
     },
     "^VIX": {
-      "price": 23.01,
+      "price": 23.42,
       "prev": 25.64,
-      "chg": -10.26,
+      "chg": -8.66,
       "prevDay": "2026-11-08",
       "basis": "prev-close-memo",
-      "time": "2026-11-09T13:06:16.000Z"
+      "time": "2026-11-09T13:16:46.000Z"
     },
     "^TNX": {
       "price": 4.859,
@@ -80,11 +80,11 @@
       "chg3m": -20.3
     },
     "KRW=X": {
-      "last": 1346.39,
+      "last": 1346.48,
       "low52": 1321.76,
       "high52": 1554.48,
       "pct52": 0.106,
-      "chg3m": -4.95
+      "chg3m": -4.94
     },
     "^GSPC": {
       "last": 7376.86,
@@ -101,11 +101,11 @@
       "chg3m": -7.06
     },
     "^VIX": {
-      "last": 23.01,
+      "last": 23.42,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.543,
-      "chg3m": 57.28
+      "pct52": 0.566,
+      "chg3m": 60.08
     },
     "^TNX": {
       "last": 4.86,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgsRZMNpp"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgsSMKn72"
   },
   "stocks": {
     "kr": {
@@ -496,14 +496,14 @@
         "by": "rules"
       },
       {
-        "title": "How Wall Street is reacting to the news of Nvidia’s investigation into Jensen Huang spy claims",
-        "link": "https://www.marketwatch.com/story/how-wall-street-is-reacting-to-the-news-of-nvidias-jensen-huang-investigation-into-spy-claims-d8c839ab?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "date": "Mon, 09 Nov 2026 09:12:00 GMT",
-        "ko": "젠슨 황 (Jensen Huang) 스파이 주장에 대한 엔비디아의 조사 소식에 월스트리트가 어떻게 반응하고 있는지",
+        "title": "Bank of England hikes interest rate for the first time since Iran war, warns inflation will near 5%",
+        "link": "https://www.cnbc.com/2026/11/05/interest-rates-inflation-uk.html",
+        "source": "CNBC",
+        "date": "Thu, 05 Nov 2026 16:01:47 GMT",
+        "ko": "잉글랜드 은행은 이란 전쟁 이후 처음으로 금리를 인상하고 인플레이션이 5% 에 육박할 것이라고 경고했다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -2955,7 +2955,7 @@
       "2026-11-06": 1363.65,
       "2026-11-07": 1363.65,
       "2026-11-08": 1363.21,
-      "2026-11-09": 1346.39
+      "2026-11-09": 1346.48
     },
     "^GSPC": {
       "2026-10-29": 7720.39,
@@ -2997,7 +2997,7 @@
       "2026-11-06": 25.64,
       "2026-11-07": 25.64,
       "2026-11-08": 25.64,
-      "2026-11-09": 23.01
+      "2026-11-09": 23.42
     },
     "^TNX": {
       "2026-10-29": 4.989,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgsRZMNppnD9J7DKDDjD2\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgsRZMt5svmoq3FmYzMJ5\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgsRZNERNbygRcKNAxcDP\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgsSMKn72Rcc11Xv62XZX\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgsSMLBv38wdWZJXtD7cF\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgsSMLZjZ2cUHWn3MR6Nm\"}"
   ]
 }
