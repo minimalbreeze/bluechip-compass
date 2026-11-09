@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-09T08:44:02.245Z",
+  "asOf": "2026-11-09T08:54:38.746Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-09T06:33:00.000Z"
     },
     "KRW=X": {
-      "price": 1350.28,
+      "price": 1350.01,
       "prev": 1363.21,
-      "chg": -0.95,
+      "chg": -0.97,
       "prevDay": "2026-11-08",
       "basis": "prev-close-memo",
-      "time": "2026-11-09T08:43:55.000Z"
+      "time": "2026-11-09T08:54:23.000Z"
     },
     "^GSPC": {
       "price": 7376.86,
@@ -43,12 +43,12 @@
       "time": "2026-11-06T22:15:59.000Z"
     },
     "^VIX": {
-      "price": 24.56,
+      "price": 24.28,
       "prev": 25.64,
-      "chg": -4.21,
+      "chg": -5.3,
       "prevDay": "2026-11-08",
       "basis": "prev-close-memo",
-      "time": "2026-11-09T08:28:46.000Z"
+      "time": "2026-11-09T08:39:31.000Z"
     },
     "^TNX": {
       "price": 4.859,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.123
+    "pct": 0.121
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -20.3
     },
     "KRW=X": {
-      "last": 1350.28,
+      "last": 1350.01,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.123,
-      "chg3m": -4.67
+      "pct52": 0.121,
+      "chg3m": -4.69
     },
     "^GSPC": {
       "last": 7376.86,
@@ -101,11 +101,11 @@
       "chg3m": -7.06
     },
     "^VIX": {
-      "last": 24.56,
+      "last": 24.28,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.631,
-      "chg3m": 67.87
+      "pct52": 0.615,
+      "chg3m": 65.96
     },
     "^TNX": {
       "last": 4.86,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgs4PZVrG"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgs5CV4kt"
   },
   "stocks": {
     "kr": {
@@ -368,10 +368,10 @@
   "news": {
     "kr": [
       {
-        "title": "'약국 플랫폼 기업' 바로팜, 코스닥 신규상장…11일부터 거래",
-        "link": "https://www.yna.co.kr/view/AKR20261109141400008",
+        "title": "카카오페이증권제1호스팩 등 총 3개사, 코스닥 상장예심 신청",
+        "link": "https://www.yna.co.kr/view/AKR20261109146200008",
         "source": "연합뉴스",
-        "date": "Mon, 9 Nov 2026 17:21:10 +0900",
+        "date": "Mon, 9 Nov 2026 17:47:27 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -401,13 +401,13 @@
         "by": "rules"
       },
       {
-        "title": "대신증권, 3분기 22억 영업손실…증시 급락에 적자전환",
-        "link": "https://www.yna.co.kr/view/AKR20261109138200008",
+        "title": "'약국 플랫폼 기업' 바로팜, 코스닥 신규상장…11일부터 거래",
+        "link": "https://www.yna.co.kr/view/AKR20261109141400008",
         "source": "연합뉴스",
-        "date": "Mon, 9 Nov 2026 17:11:51 +0900",
+        "date": "Mon, 9 Nov 2026 17:21:10 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -448,6 +448,30 @@
         "by": "rules"
       },
       {
+        "title": "How Wall Street is reacting to the news of Nvidia’s Jensen Huang investigation into spy claims",
+        "link": "https://www.marketwatch.com/story/how-wall-street-is-reacting-to-the-news-of-nvidias-jensen-huang-investigation-into-spy-claims-d8c839ab?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "date": "Mon, 09 Nov 2026 08:51:00 GMT",
+        "ko": "월스트리트가 스파이 주장에 대한 엔비디아의 젠슨 황 (Jensen Huang) 조사 소식에 어떻게 반응하고 있는지",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "U.S. economy added 165,000 jobs in October, way more than expected; unemployment rate slips to 4.1%",
+        "link": "https://www.cnbc.com/2026/11/06/jobs-report-october-2026.html",
+        "source": "CNBC",
+        "date": "Fri, 06 Nov 2026 16:06:59 GMT",
+        "ko": "미국 경제는 10월에 예상보다 훨씬 많은 165,000개의 일자리를 추가했습니다. 실업률은 4.1% 로 떨어졌습니다.",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
         "title": "The S&P 500 could be dangerously exposed to AI. Here are some simple alternatives.",
         "link": "https://www.marketwatch.com/story/the-s-p-500-has-become-a-big-ai-bet-here-are-some-simple-alternatives-3c7574a4?mod=mw_rss_topstories",
         "source": "MarketWatch",
@@ -460,11 +484,11 @@
         "by": "rules"
       },
       {
-        "title": "U.S. economy added 165,000 jobs in October, way more than expected; unemployment rate slips to 4.1%",
-        "link": "https://www.cnbc.com/2026/11/06/jobs-report-october-2026.html",
+        "title": "The October jobs report is out Friday. Here's everything to expect",
+        "link": "https://www.cnbc.com/2026/11/05/october-jobs-report-preview.html",
         "source": "CNBC",
-        "date": "Fri, 06 Nov 2026 16:06:59 GMT",
-        "ko": "미국 경제는 10월에 예상보다 훨씬 많은 165,000개의 일자리를 추가했습니다. 실업률은 4.1% 로 떨어졌습니다.",
+        "date": "Thu, 05 Nov 2026 21:32:52 GMT",
+        "ko": "10월 일자리 보고서가 금요일에 나왔습니다. 알아두어야 할 모든 것",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -482,36 +506,11 @@
         "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
-      },
-      {
-        "title": "The October jobs report is out Friday. Here's everything to expect",
-        "link": "https://www.cnbc.com/2026/11/05/october-jobs-report-preview.html",
-        "source": "CNBC",
-        "date": "Thu, 05 Nov 2026 21:32:52 GMT",
-        "ko": "10월 일자리 보고서가 금요일에 나왔습니다. 알아두어야 할 모든 것",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "You follow the rules for smart stock trading. But are they the right rules?",
-        "link": "https://www.marketwatch.com/story/you-follow-the-rules-for-smart-stock-trading-but-are-they-the-right-rules-9bfe5846?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "date": "Sun, 08 Nov 2026 23:15:00 GMT",
-        "ko": "스마트 주식 거래에 대한 규칙을 따릅니다. 하지만 이것이 올바른 규칙일까요?",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
       }
     ]
   },
   "newsBy": "rules",
   "trCache": {
-    "Big tech is wobbling. Goldman Sachs says it’s time to buy these 23 unloved stocks instead.": "빅 테크가 흔들리고 있습니다. 골드만삭스는 이 23개의 사랑받지 못한 주식을 대신 매수할 때가 되었다고 말합니다.",
     "Tech stocks stumbled. Now comes a crucial week for Wall Street.": "기술 주식이 비틀거렸습니다. 이제 월스트리트에게 중요한 한 주가 다가옵니다.",
     "France and the U.S. share the same debt trap. Why the U.S. has an escape valve.": "프랑스와 미국은 동일한 부채 함정을 공유합니다. 미국에 이스케이프 밸브가 있는 이유.",
     "Micron and other chip stocks spring back to life after bruising selloff": "마이크론 및 기타 칩 재고는 멍든 매각 후 다시 살아납니다.",
@@ -810,7 +809,8 @@
     "Corporate America’s profit numbers are just barely beating Wall Street’s expectations": "기업 미국의 이익 수치는 월스트리트의 기대치를 거의 상회하지 않습니다.",
     "I’m second-guessing my adviser: Is an annuity the right move in this market?": "두 번째로 어드바이저를 추측하고 있습니다. 이 시장에서 연금이 올바른 움직임입니까?",
     "China wholesale inflation hits over four-year high as consumer measure slows": "소비자 측정이 둔화됨에 따라 중국 도매 인플레이션이 4년 동안 최고치를 기록했습니다.",
-    "China wholesale inflation hits highest in more than four years as consumer measure slows": "소비자 측정이 둔화됨에 따라 중국 도매 인플레이션이 4년 이상 최고를 기록했습니다."
+    "China wholesale inflation hits highest in more than four years as consumer measure slows": "소비자 측정이 둔화됨에 따라 중국 도매 인플레이션이 4년 이상 최고를 기록했습니다.",
+    "How Wall Street is reacting to the news of Nvidia’s Jensen Huang investigation into spy claims": "월스트리트가 스파이 주장에 대한 엔비디아의 젠슨 황 (Jensen Huang) 조사 소식에 어떻게 반응하고 있는지"
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2955,7 +2955,7 @@
       "2026-11-06": 1363.65,
       "2026-11-07": 1363.65,
       "2026-11-08": 1363.21,
-      "2026-11-09": 1350.28
+      "2026-11-09": 1350.01
     },
     "^GSPC": {
       "2026-10-29": 7720.39,
@@ -2997,7 +2997,7 @@
       "2026-11-06": 25.64,
       "2026-11-07": 25.64,
       "2026-11-08": 25.64,
-      "2026-11-09": 24.56
+      "2026-11-09": 24.28
     },
     "^TNX": {
       "2026-10-29": 4.989,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgs4PZVrGyAeumsA1vGHJ\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgs4PZx99Rd2M8uCuJJfF\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgs4PaJyXgT63Tyr44Lzw\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgs5CV4ktg8QV27mZrR8n\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgs5CVRME72oQ4ZHL3qCt\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgs5CVhxCwm9Xu32iqh3c\"}"
   ]
 }
