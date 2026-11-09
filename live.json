@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-09T08:54:38.746Z",
+  "asOf": "2026-11-09T09:44:25.884Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-09T06:33:00.000Z"
     },
     "KRW=X": {
-      "price": 1350.01,
+      "price": 1349.16,
       "prev": 1363.21,
-      "chg": -0.97,
+      "chg": -1.03,
       "prevDay": "2026-11-08",
       "basis": "prev-close-memo",
-      "time": "2026-11-09T08:54:23.000Z"
+      "time": "2026-11-09T09:44:03.000Z"
     },
     "^GSPC": {
       "price": 7376.86,
@@ -43,12 +43,12 @@
       "time": "2026-11-06T22:15:59.000Z"
     },
     "^VIX": {
-      "price": 24.28,
+      "price": 24.51,
       "prev": 25.64,
-      "chg": -5.3,
+      "chg": -4.41,
       "prevDay": "2026-11-08",
       "basis": "prev-close-memo",
-      "time": "2026-11-09T08:39:31.000Z"
+      "time": "2026-11-09T09:29:16.000Z"
     },
     "^TNX": {
       "price": 4.859,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.121
+    "pct": 0.118
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -20.3
     },
     "KRW=X": {
-      "last": 1350.01,
+      "last": 1349.16,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.121,
-      "chg3m": -4.69
+      "pct52": 0.118,
+      "chg3m": -4.75
     },
     "^GSPC": {
       "last": 7376.86,
@@ -101,11 +101,11 @@
       "chg3m": -7.06
     },
     "^VIX": {
-      "last": 24.28,
+      "last": 24.59,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.615,
-      "chg3m": 65.96
+      "pct52": 0.633,
+      "chg3m": 68.08
     },
     "^TNX": {
       "last": 4.86,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgs5CV4kt"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgs8zgidD"
   },
   "stocks": {
     "kr": {
@@ -368,6 +368,39 @@
   "news": {
     "kr": [
       {
+        "title": "\"업종별 하위 25%·할증률 40%로\"…'주가 누르기' 정부안 보완론",
+        "link": "https://www.yna.co.kr/view/AKR20261109147000002",
+        "source": "연합뉴스",
+        "date": "Mon, 9 Nov 2026 18:15:08 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "대신증권, 3분기 영업적자 전환…\"거래대금 감소 여파\"",
+        "link": "https://www.hankyung.com/article/2026110958966",
+        "source": "한국경제",
+        "date": "Mon, 09 Nov 2026 17:46:49 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "대신증권, 해킹 피해 고객에 보상보험·수수료 면제 등 지원",
+        "link": "https://www.mk.co.kr/news/stock/12202800",
+        "source": "매일경제",
+        "date": "Mon, 09 Nov 2026 18:08:59 +09:00",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": null,
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
+        "by": "rules"
+      },
+      {
         "title": "카카오페이증권제1호스팩 등 총 3개사, 코스닥 상장예심 신청",
         "link": "https://www.yna.co.kr/view/AKR20261109146200008",
         "source": "연합뉴스",
@@ -379,58 +412,25 @@
         "by": "rules"
       },
       {
-        "title": "\"팬데믹 전 매출 82% 회복\"…CGV, 특별관으로 주가 회복할 수 있을까",
-        "link": "https://www.hankyung.com/article/202611095608i",
+        "title": "대신증권, 3분기 영업손실 22억원...유가증권 평가손실에 적자 전환",
+        "link": "https://www.hankyung.com/article/202611095732i",
         "source": "한국경제",
-        "date": "Mon, 09 Nov 2026 17:07:45 +0900",
+        "date": "Mon, 09 Nov 2026 17:42:19 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "“장중 뛰어올라 살짝 설렜는데”…코스피 5000선 지키며 하락 마감",
-        "link": "https://www.mk.co.kr/news/stock/12202543",
+        "title": "\"반도체 더 꺾이진 않을것 … 공포에 주식 던질때 아냐\"",
+        "link": "https://www.mk.co.kr/news/stock/12202777",
         "source": "매일경제",
-        "date": "Mon, 09 Nov 2026 15:58:00 +09:00",
+        "date": "Mon, 09 Nov 2026 18:00:00 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "'약국 플랫폼 기업' 바로팜, 코스닥 신규상장…11일부터 거래",
-        "link": "https://www.yna.co.kr/view/AKR20261109141400008",
-        "source": "연합뉴스",
-        "date": "Mon, 9 Nov 2026 17:21:10 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "\"보유만 해도 국채보다 더 번다\"…'급락' 코스피, 배당수익률 '골든 크로스'",
-        "link": "https://www.hankyung.com/article/202611095225i",
-        "source": "한국경제",
-        "date": "Mon, 09 Nov 2026 16:32:46 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "금감원, 삼성증권 2.2조 위법 일임매매에 83억대 제재",
-        "link": "https://www.mk.co.kr/news/stock/12202494",
-        "source": "매일경제",
-        "date": "Mon, 09 Nov 2026 15:29:20 +09:00",
-        "act": "watch",
-        "lasting": "structural",
         "scope": null,
-        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
     ],
@@ -448,11 +448,11 @@
         "by": "rules"
       },
       {
-        "title": "How Wall Street is reacting to the news of Nvidia’s Jensen Huang investigation into spy claims",
+        "title": "How Wall Street is reacting to the news of Nvidia’s investigation into Jensen Huang spy claims",
         "link": "https://www.marketwatch.com/story/how-wall-street-is-reacting-to-the-news-of-nvidias-jensen-huang-investigation-into-spy-claims-d8c839ab?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 09 Nov 2026 08:51:00 GMT",
-        "ko": "월스트리트가 스파이 주장에 대한 엔비디아의 젠슨 황 (Jensen Huang) 조사 소식에 어떻게 반응하고 있는지",
+        "date": "Mon, 09 Nov 2026 09:12:00 GMT",
+        "ko": "젠슨 황 (Jensen Huang) 스파이 주장에 대한 엔비디아의 조사 소식에 월스트리트가 어떻게 반응하고 있는지",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -511,7 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "Tech stocks stumbled. Now comes a crucial week for Wall Street.": "기술 주식이 비틀거렸습니다. 이제 월스트리트에게 중요한 한 주가 다가옵니다.",
     "France and the U.S. share the same debt trap. Why the U.S. has an escape valve.": "프랑스와 미국은 동일한 부채 함정을 공유합니다. 미국에 이스케이프 밸브가 있는 이유.",
     "Micron and other chip stocks spring back to life after bruising selloff": "마이크론 및 기타 칩 재고는 멍든 매각 후 다시 살아납니다.",
     "One of this year’s most important relationships in global financial markets is falling apart": "글로벌 금융 시장에서 올해 가장 중요한 관계 중 하나가 무너지고 있습니다.",
@@ -810,7 +809,8 @@
     "I’m second-guessing my adviser: Is an annuity the right move in this market?": "두 번째로 어드바이저를 추측하고 있습니다. 이 시장에서 연금이 올바른 움직임입니까?",
     "China wholesale inflation hits over four-year high as consumer measure slows": "소비자 측정이 둔화됨에 따라 중국 도매 인플레이션이 4년 동안 최고치를 기록했습니다.",
     "China wholesale inflation hits highest in more than four years as consumer measure slows": "소비자 측정이 둔화됨에 따라 중국 도매 인플레이션이 4년 이상 최고를 기록했습니다.",
-    "How Wall Street is reacting to the news of Nvidia’s Jensen Huang investigation into spy claims": "월스트리트가 스파이 주장에 대한 엔비디아의 젠슨 황 (Jensen Huang) 조사 소식에 어떻게 반응하고 있는지"
+    "How Wall Street is reacting to the news of Nvidia’s Jensen Huang investigation into spy claims": "월스트리트가 스파이 주장에 대한 엔비디아의 젠슨 황 (Jensen Huang) 조사 소식에 어떻게 반응하고 있는지",
+    "How Wall Street is reacting to the news of Nvidia’s investigation into Jensen Huang spy claims": "젠슨 황 (Jensen Huang) 스파이 주장에 대한 엔비디아의 조사 소식에 월스트리트가 어떻게 반응하고 있는지"
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2955,7 +2955,7 @@
       "2026-11-06": 1363.65,
       "2026-11-07": 1363.65,
       "2026-11-08": 1363.21,
-      "2026-11-09": 1350.01
+      "2026-11-09": 1349.16
     },
     "^GSPC": {
       "2026-10-29": 7720.39,
@@ -2997,7 +2997,7 @@
       "2026-11-06": 25.64,
       "2026-11-07": 25.64,
       "2026-11-08": 25.64,
-      "2026-11-09": 24.28
+      "2026-11-09": 24.51
     },
     "^TNX": {
       "2026-10-29": 4.989,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgs5CV4ktg8QV27mZrR8n\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgs5CVRME72oQ4ZHL3qCt\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgs5CVhxCwm9Xu32iqh3c\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgs8zgidDUj4VL4rcHB8W\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgs8zgw2LQsM21jDKjx4C\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgs8zh6hameq1gNqNK38h\"}"
   ]
 }
