@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-09T10:55:24.796Z",
+  "asOf": "2026-11-09T11:55:48.839Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -8,7 +8,7 @@
       "chg": -0.81,
       "prevDay": "2026-11-08",
       "basis": "prev-close-memo",
-      "time": "2026-11-09T06:32:50.000Z"
+      "time": "2026-11-09T11:05:40.000Z"
     },
     "^KQ11": {
       "price": 638.97,
@@ -16,15 +16,15 @@
       "chg": -0.82,
       "prevDay": "2026-11-08",
       "basis": "prev-close-memo",
-      "time": "2026-11-09T06:33:00.000Z"
+      "time": "2026-11-09T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1347.38,
+      "price": 1346.08,
       "prev": 1363.21,
-      "chg": -1.16,
+      "chg": -1.26,
       "prevDay": "2026-11-08",
       "basis": "prev-close-memo",
-      "time": "2026-11-09T10:55:07.000Z"
+      "time": "2026-11-09T11:55:38.000Z"
     },
     "^GSPC": {
       "price": 7376.86,
@@ -43,12 +43,12 @@
       "time": "2026-11-06T22:15:59.000Z"
     },
     "^VIX": {
-      "price": 23.74,
+      "price": 23.31,
       "prev": 25.64,
-      "chg": -7.41,
+      "chg": -9.09,
       "prevDay": "2026-11-08",
       "basis": "prev-close-memo",
-      "time": "2026-11-09T10:40:01.000Z"
+      "time": "2026-11-09T11:40:31.000Z"
     },
     "^TNX": {
       "price": 4.859,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.11
+    "pct": 0.105
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -20.3
     },
     "KRW=X": {
-      "last": 1347.38,
+      "last": 1346.08,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.11,
-      "chg3m": -4.88
+      "pct52": 0.105,
+      "chg3m": -4.97
     },
     "^GSPC": {
       "last": 7376.86,
@@ -101,11 +101,11 @@
       "chg3m": -7.06
     },
     "^VIX": {
-      "last": 23.74,
+      "last": 23.31,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.584,
-      "chg3m": 62.27
+      "pct52": 0.56,
+      "chg3m": 59.33
     },
     "^TNX": {
       "last": 4.86,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgsEQd5rb"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgsK1m8EV"
   },
   "stocks": {
     "kr": {
@@ -368,14 +368,14 @@
   "news": {
     "kr": [
       {
-        "title": "삼성화재, 英캐노피우스 지분 추가인수…해외사업 확대",
-        "link": "https://www.yna.co.kr/view/AKR20261109153600002",
+        "title": "\"업종별 하위 25%·할증률 40%로\"…'주가 누르기' 정부안 보완론(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261109147051002",
         "source": "연합뉴스",
-        "date": "Mon, 9 Nov 2026 19:31:51 +0900",
-        "act": "watch",
-        "lasting": "structural",
+        "date": "Mon, 9 Nov 2026 20:26:16 +0900",
+        "act": "none",
+        "lasting": "temporary",
         "scope": null,
-        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
@@ -401,14 +401,14 @@
         "by": "rules"
       },
       {
-        "title": "\"업종별 하위 25%·할증률 40%로\"…'주가 누르기' 정부안 보완론",
-        "link": "https://www.yna.co.kr/view/AKR20261109147000002",
+        "title": "삼성화재, 英캐노피우스 지분 추가인수…해외사업 확대",
+        "link": "https://www.yna.co.kr/view/AKR20261109153600002",
         "source": "연합뉴스",
-        "date": "Mon, 9 Nov 2026 18:15:08 +0900",
-        "act": "none",
-        "lasting": "temporary",
+        "date": "Mon, 9 Nov 2026 19:31:51 +0900",
+        "act": "watch",
+        "lasting": "structural",
         "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
         "by": "rules"
       },
       {
@@ -2955,7 +2955,7 @@
       "2026-11-06": 1363.65,
       "2026-11-07": 1363.65,
       "2026-11-08": 1363.21,
-      "2026-11-09": 1347.38
+      "2026-11-09": 1346.08
     },
     "^GSPC": {
       "2026-10-29": 7720.39,
@@ -2997,7 +2997,7 @@
       "2026-11-06": 25.64,
       "2026-11-07": 25.64,
       "2026-11-08": 25.64,
-      "2026-11-09": 23.74
+      "2026-11-09": 23.31
     },
     "^TNX": {
       "2026-10-29": 4.989,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgsEQd5rb3hDu3ge5NFcD\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgsEQdSReHBUDs6EFZU6p\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgsEQdi4JPhGf24pVBTBy\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgsK1m8EV8w2EbJtwRpis\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgsK1mgDNE4SUMvvq6GVU\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgsK1n15C4qgPqBheaVpM\"}"
   ]
 }
