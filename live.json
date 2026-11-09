@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-09T09:55:01.400Z",
+  "asOf": "2026-11-09T10:55:24.796Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-09T06:33:00.000Z"
     },
     "KRW=X": {
-      "price": 1347.78,
+      "price": 1347.38,
       "prev": 1363.21,
-      "chg": -1.13,
+      "chg": -1.16,
       "prevDay": "2026-11-08",
       "basis": "prev-close-memo",
-      "time": "2026-11-09T09:54:44.000Z"
+      "time": "2026-11-09T10:55:07.000Z"
     },
     "^GSPC": {
       "price": 7376.86,
@@ -43,12 +43,12 @@
       "time": "2026-11-06T22:15:59.000Z"
     },
     "^VIX": {
-      "price": 24.42,
+      "price": 23.74,
       "prev": 25.64,
-      "chg": -4.76,
+      "chg": -7.41,
       "prevDay": "2026-11-08",
       "basis": "prev-close-memo",
-      "time": "2026-11-09T09:39:46.000Z"
+      "time": "2026-11-09T10:40:01.000Z"
     },
     "^TNX": {
       "price": 4.859,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.112
+    "pct": 0.11
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -20.3
     },
     "KRW=X": {
-      "last": 1347.78,
+      "last": 1347.38,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.112,
-      "chg3m": -4.85
+      "pct52": 0.11,
+      "chg3m": -4.88
     },
     "^GSPC": {
       "last": 7376.86,
@@ -101,11 +101,11 @@
       "chg3m": -7.06
     },
     "^VIX": {
-      "last": 24.42,
+      "last": 23.74,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.623,
-      "chg3m": 66.92
+      "pct52": 0.584,
+      "chg3m": 62.27
     },
     "^TNX": {
       "last": 4.86,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgs9oXWYj"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgsEQd5rb"
   },
   "stocks": {
     "kr": {
@@ -368,14 +368,14 @@
   "news": {
     "kr": [
       {
-        "title": "\"업종별 하위 25%·할증률 40%로\"…'주가 누르기' 정부안 보완론",
-        "link": "https://www.yna.co.kr/view/AKR20261109147000002",
+        "title": "삼성화재, 英캐노피우스 지분 추가인수…해외사업 확대",
+        "link": "https://www.yna.co.kr/view/AKR20261109153600002",
         "source": "연합뉴스",
-        "date": "Mon, 9 Nov 2026 18:15:08 +0900",
-        "act": "none",
-        "lasting": "temporary",
+        "date": "Mon, 9 Nov 2026 19:31:51 +0900",
+        "act": "watch",
+        "lasting": "structural",
         "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
         "by": "rules"
       },
       {
@@ -390,24 +390,24 @@
         "by": "rules"
       },
       {
-        "title": "대신증권, 해킹 피해 고객에 보상보험·수수료 면제 등 지원",
-        "link": "https://www.mk.co.kr/news/stock/12202800",
+        "title": "증시 폭락에도 멘탈 지키려면?…장기 투자 방패 TDF에 주목 [주린이ABC]",
+        "link": "https://www.mk.co.kr/news/stock/12202813",
         "source": "매일경제",
-        "date": "Mon, 09 Nov 2026 18:08:59 +09:00",
-        "act": "watch",
-        "lasting": "structural",
+        "date": "Mon, 09 Nov 2026 19:04:49 +09:00",
+        "act": "none",
+        "lasting": "temporary",
         "scope": null,
-        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "카카오페이증권제1호스팩 등 총 3개사, 코스닥 상장예심 신청",
-        "link": "https://www.yna.co.kr/view/AKR20261109146200008",
+        "title": "\"업종별 하위 25%·할증률 40%로\"…'주가 누르기' 정부안 보완론",
+        "link": "https://www.yna.co.kr/view/AKR20261109147000002",
         "source": "연합뉴스",
-        "date": "Mon, 9 Nov 2026 17:47:27 +0900",
+        "date": "Mon, 9 Nov 2026 18:15:08 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -423,14 +423,14 @@
         "by": "rules"
       },
       {
-        "title": "\"반도체 더 꺾이진 않을것 … 공포에 주식 던질때 아냐\"",
-        "link": "https://www.mk.co.kr/news/stock/12202777",
+        "title": "대신증권, 해킹 피해 고객에 보상보험·수수료 면제 등 지원",
+        "link": "https://www.mk.co.kr/news/stock/12202800",
         "source": "매일경제",
-        "date": "Mon, 09 Nov 2026 18:00:00 +09:00",
-        "act": "none",
-        "lasting": "temporary",
+        "date": "Mon, 09 Nov 2026 18:08:59 +09:00",
+        "act": "watch",
+        "lasting": "structural",
         "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
         "by": "rules"
       }
     ],
@@ -448,14 +448,14 @@
         "by": "rules"
       },
       {
-        "title": "How Wall Street is reacting to the news of Nvidia’s investigation into Jensen Huang spy claims",
-        "link": "https://www.marketwatch.com/story/how-wall-street-is-reacting-to-the-news-of-nvidias-jensen-huang-investigation-into-spy-claims-d8c839ab?mod=mw_rss_topstories",
+        "title": "The biggest takeaway from Berkshire Hathaway’s latest quarter isn’t the $357 billion cash or its stock buybacks",
+        "link": "https://www.marketwatch.com/story/the-biggest-takeaway-from-berkshire-hathaways-latest-quarter-isnt-the-357-billion-cash-or-its-stock-buybacks-3069f6a9?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 09 Nov 2026 09:12:00 GMT",
-        "ko": "젠슨 황 (Jensen Huang) 스파이 주장에 대한 엔비디아의 조사 소식에 월스트리트가 어떻게 반응하고 있는지",
+        "date": "Mon, 09 Nov 2026 10:48:00 GMT",
+        "ko": "버크셔 해서웨이 (Berkshire Hathaway) 의 최근 분기에서 가장 큰 장점은 $357억의 현금이나 주식 환매가 아니라는 것입니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -472,14 +472,14 @@
         "by": "rules"
       },
       {
-        "title": "The S&P 500 could be dangerously exposed to AI. Here are some simple alternatives.",
-        "link": "https://www.marketwatch.com/story/the-s-p-500-has-become-a-big-ai-bet-here-are-some-simple-alternatives-3c7574a4?mod=mw_rss_topstories",
+        "title": "The market’s correction is entering its final phase — but wait before buying the dip, says Morgan Stanley chief strategist",
+        "link": "https://www.marketwatch.com/story/the-markets-correction-is-entering-its-final-phase-but-wait-before-buying-the-dip-says-morgan-stanley-chief-strategist-2c1be13e?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 09 Nov 2026 00:40:00 GMT",
-        "ko": "S&P 500은 AI에 위험하게 노출될 수 있습니다. 다음은 몇 가지 간단한 대안입니다.",
+        "date": "Mon, 09 Nov 2026 10:26:00 GMT",
+        "ko": "모건 스탠리 수석 전략가는 시장의 수정이 마지막 단계에 접어들고 있지만 딥을 사기 전에 기다려야 한다고 말합니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -496,11 +496,11 @@
         "by": "rules"
       },
       {
-        "title": "I’m second-guessing my adviser: Is an annuity the right move in this market?",
-        "link": "https://www.marketwatch.com/story/my-adviser-recommended-an-annuity-is-it-the-right-move-in-this-market-environment-00edbbf6?mod=mw_rss_topstories",
+        "title": "How Wall Street is reacting to the news of Nvidia’s investigation into Jensen Huang spy claims",
+        "link": "https://www.marketwatch.com/story/how-wall-street-is-reacting-to-the-news-of-nvidias-jensen-huang-investigation-into-spy-claims-d8c839ab?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 09 Nov 2026 00:30:00 GMT",
-        "ko": "두 번째로 어드바이저를 추측하고 있습니다. 이 시장에서 연금이 올바른 움직임입니까?",
+        "date": "Mon, 09 Nov 2026 09:12:00 GMT",
+        "ko": "젠슨 황 (Jensen Huang) 스파이 주장에 대한 엔비디아의 조사 소식에 월스트리트가 어떻게 반응하고 있는지",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -511,8 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "France and the U.S. share the same debt trap. Why the U.S. has an escape valve.": "프랑스와 미국은 동일한 부채 함정을 공유합니다. 미국에 이스케이프 밸브가 있는 이유.",
-    "Micron and other chip stocks spring back to life after bruising selloff": "마이크론 및 기타 칩 재고는 멍든 매각 후 다시 살아납니다.",
     "One of this year’s most important relationships in global financial markets is falling apart": "글로벌 금융 시장에서 올해 가장 중요한 관계 중 하나가 무너지고 있습니다.",
     "Why a former Intel skeptic is giving up his negative call on the stock after four years": "전 인텔 회의론자가 4년 만에 주식에 대한 부정적인 통화를 포기하는 이유",
     "CoreWeave’s selloff is a lesson in ‘Finance 101’ — and Wall Street says the stock can recover": "CoreWeave의 매각은 ‘Finance 101‘ 의 교훈입니다. 월스트리트는 주식이 회복될 수 있다고 말합니다.",
@@ -810,7 +808,9 @@
     "China wholesale inflation hits over four-year high as consumer measure slows": "소비자 측정이 둔화됨에 따라 중국 도매 인플레이션이 4년 동안 최고치를 기록했습니다.",
     "China wholesale inflation hits highest in more than four years as consumer measure slows": "소비자 측정이 둔화됨에 따라 중국 도매 인플레이션이 4년 이상 최고를 기록했습니다.",
     "How Wall Street is reacting to the news of Nvidia’s Jensen Huang investigation into spy claims": "월스트리트가 스파이 주장에 대한 엔비디아의 젠슨 황 (Jensen Huang) 조사 소식에 어떻게 반응하고 있는지",
-    "How Wall Street is reacting to the news of Nvidia’s investigation into Jensen Huang spy claims": "젠슨 황 (Jensen Huang) 스파이 주장에 대한 엔비디아의 조사 소식에 월스트리트가 어떻게 반응하고 있는지"
+    "How Wall Street is reacting to the news of Nvidia’s investigation into Jensen Huang spy claims": "젠슨 황 (Jensen Huang) 스파이 주장에 대한 엔비디아의 조사 소식에 월스트리트가 어떻게 반응하고 있는지",
+    "The biggest takeaway from Berkshire Hathaway’s latest quarter isn’t the $357 billion cash or its stock buybacks": "버크셔 해서웨이 (Berkshire Hathaway) 의 최근 분기에서 가장 큰 장점은 $357억의 현금이나 주식 환매가 아니라는 것입니다.",
+    "The market’s correction is entering its final phase — but wait before buying the dip, says Morgan Stanley chief strategist": "모건 스탠리 수석 전략가는 시장의 수정이 마지막 단계에 접어들고 있지만 딥을 사기 전에 기다려야 한다고 말합니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2955,7 +2955,7 @@
       "2026-11-06": 1363.65,
       "2026-11-07": 1363.65,
       "2026-11-08": 1363.21,
-      "2026-11-09": 1347.78
+      "2026-11-09": 1347.38
     },
     "^GSPC": {
       "2026-10-29": 7720.39,
@@ -2997,7 +2997,7 @@
       "2026-11-06": 25.64,
       "2026-11-07": 25.64,
       "2026-11-08": 25.64,
-      "2026-11-09": 24.42
+      "2026-11-09": 23.74
     },
     "^TNX": {
       "2026-10-29": 4.989,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgs9oXWYjyoJSNzt7j8i4\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgs9oXrt6ofyepFDDDPYx\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgs9oY91C7JSWw6cwifxX\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgsEQd5rb3hDu3ge5NFcD\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgsEQdSReHBUDs6EFZU6p\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgsEQdi4JPhGf24pVBTBy\"}"
   ]
 }
