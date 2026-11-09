@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-09T07:54:18.418Z",
+  "asOf": "2026-11-09T08:44:02.245Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-09T06:33:00.000Z"
     },
     "KRW=X": {
-      "price": 1348.89,
+      "price": 1350.28,
       "prev": 1363.21,
-      "chg": -1.05,
+      "chg": -0.95,
       "prevDay": "2026-11-08",
       "basis": "prev-close-memo",
-      "time": "2026-11-09T07:54:09.000Z"
+      "time": "2026-11-09T08:43:55.000Z"
     },
     "^GSPC": {
       "price": 7376.86,
@@ -43,12 +43,12 @@
       "time": "2026-11-06T22:15:59.000Z"
     },
     "^VIX": {
-      "price": 25.64,
+      "price": 24.56,
       "prev": 25.64,
-      "chg": 0,
+      "chg": -4.21,
       "prevDay": "2026-11-08",
       "basis": "prev-close-memo",
-      "time": "2026-11-06T21:15:01.000Z"
+      "time": "2026-11-09T08:28:46.000Z"
     },
     "^TNX": {
       "price": 4.859,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.117
+    "pct": 0.123
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -20.3
     },
     "KRW=X": {
-      "last": 1348.89,
+      "last": 1350.28,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.117,
-      "chg3m": -4.77
+      "pct52": 0.123,
+      "chg3m": -4.67
     },
     "^GSPC": {
       "last": 7376.86,
@@ -101,11 +101,11 @@
       "chg3m": -7.06
     },
     "^VIX": {
-      "last": 25.64,
+      "last": 24.56,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.692,
-      "chg3m": 76.22
+      "pct52": 0.631,
+      "chg3m": 67.87
     },
     "^TNX": {
       "last": 4.86,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgrzbcYXP"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgs4PZVrG"
   },
   "stocks": {
     "kr": {
@@ -368,10 +368,10 @@
   "news": {
     "kr": [
       {
-        "title": "환율, 달러 강세에도 1,340원대로…4거래일만에 하락",
-        "link": "https://www.yna.co.kr/view/AKR20261109121300002",
+        "title": "'약국 플랫폼 기업' 바로팜, 코스닥 신규상장…11일부터 거래",
+        "link": "https://www.yna.co.kr/view/AKR20261109141400008",
         "source": "연합뉴스",
-        "date": "Mon, 9 Nov 2026 16:41:22 +0900",
+        "date": "Mon, 9 Nov 2026 17:21:10 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -379,13 +379,13 @@
         "by": "rules"
       },
       {
-        "title": "한국콜마는 '하향' 코스맥스는 '상향'...목표주가, '이것'이 갈랐다",
-        "link": "https://www.hankyung.com/article/202611095374i",
+        "title": "\"팬데믹 전 매출 82% 회복\"…CGV, 특별관으로 주가 회복할 수 있을까",
+        "link": "https://www.hankyung.com/article/202611095608i",
         "source": "한국경제",
-        "date": "Mon, 09 Nov 2026 16:22:37 +0900",
+        "date": "Mon, 09 Nov 2026 17:07:45 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -401,21 +401,21 @@
         "by": "rules"
       },
       {
-        "title": "국고채 금리 일제히 상승…3년물 연 3.639%",
-        "link": "https://www.yna.co.kr/view/AKR20261109131600008",
+        "title": "대신증권, 3분기 22억 영업손실…증시 급락에 적자전환",
+        "link": "https://www.yna.co.kr/view/AKR20261109138200008",
         "source": "연합뉴스",
-        "date": "Mon, 9 Nov 2026 16:40:41 +0900",
+        "date": "Mon, 9 Nov 2026 17:11:51 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "코스피, 5천피 테스트…\"반도체 저가매수\" vs \"AI 비중 조정\"",
-        "link": "https://www.hankyung.com/article/202611095222i",
+        "title": "\"보유만 해도 국채보다 더 번다\"…'급락' 코스피, 배당수익률 '골든 크로스'",
+        "link": "https://www.hankyung.com/article/202611095225i",
         "source": "한국경제",
-        "date": "Mon, 09 Nov 2026 16:16:58 +0900",
+        "date": "Mon, 09 Nov 2026 16:32:46 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -2955,7 +2955,7 @@
       "2026-11-06": 1363.65,
       "2026-11-07": 1363.65,
       "2026-11-08": 1363.21,
-      "2026-11-09": 1348.89
+      "2026-11-09": 1350.28
     },
     "^GSPC": {
       "2026-10-29": 7720.39,
@@ -2997,7 +2997,7 @@
       "2026-11-06": 25.64,
       "2026-11-07": 25.64,
       "2026-11-08": 25.64,
-      "2026-11-09": 25.64
+      "2026-11-09": 24.56
     },
     "^TNX": {
       "2026-10-29": 4.989,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgrzbcYXPxKBzrw2XK9US\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgrzbcxb3vWtmBfu6ihBj\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgrzbdFhaCXTNnXeFZDDh\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgs4PZVrGyAeumsA1vGHJ\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgs4PZx99Rd2M8uCuJJfF\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgs4PaJyXgT63Tyr44Lzw\"}"
   ]
 }
