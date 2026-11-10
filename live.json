@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-10T08:47:14.607Z",
+  "asOf": "2026-11-10T09:42:07.705Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-10T06:33:00.000Z"
     },
     "KRW=X": {
-      "price": 1336.17,
+      "price": 1337.6,
       "prev": 1362.699951171875,
-      "chg": -1.95,
+      "chg": -1.84,
       "prevDay": "2026-11-09",
       "basis": "prev-close-bar",
-      "time": "2026-11-10T08:47:04.000Z"
+      "time": "2026-11-10T09:41:59.000Z"
     },
     "^GSPC": {
       "price": 7549.94,
@@ -43,12 +43,12 @@
       "time": "2026-11-09T22:15:59.000Z"
     },
     "^VIX": {
-      "price": 19.8,
+      "price": 19.97,
       "prev": 19.920000076293945,
-      "chg": -0.6,
+      "chg": 0.25,
       "prevDay": "2026-11-09",
       "basis": "prev-close-bar",
-      "time": "2026-11-10T08:32:01.000Z"
+      "time": "2026-11-10T09:26:46.000Z"
     },
     "^TNX": {
       "price": 4.864,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.062
+    "pct": 0.068
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -16.42
     },
     "KRW=X": {
-      "last": 1336.17,
+      "last": 1337.6,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.062,
-      "chg3m": -5.69
+      "pct52": 0.068,
+      "chg3m": -5.59
     },
     "^GSPC": {
       "last": 7549.94,
@@ -101,11 +101,11 @@
       "chg3m": -5.02
     },
     "^VIX": {
-      "last": 19.8,
+      "last": 19.97,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.36,
-      "chg3m": 38.95
+      "pct52": 0.37,
+      "chg3m": 40.14
     },
     "^TNX": {
       "last": 4.86,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgtxSfURE"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgu2dR7kA"
   },
   "stocks": {
     "kr": {
@@ -368,10 +368,10 @@
   "news": {
     "kr": [
       {
-        "title": "\"코스피 변동성, 韓 고유 요인이 작용한 것…반도체 집중 구조\"(종합)",
-        "link": "https://www.yna.co.kr/view/AKR20261110122251008",
+        "title": "'항암 신약 개발' 넥스아이, 코스닥 신규상장…12일부터 거래 시작",
+        "link": "https://www.yna.co.kr/view/AKR20261110166800008",
         "source": "연합뉴스",
-        "date": "Tue, 10 Nov 2026 17:28:42 +0900",
+        "date": "Tue, 10 Nov 2026 18:11:11 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -379,10 +379,10 @@
         "by": "rules"
       },
       {
-        "title": "'반도체 저승사자' 모건스탠리, 삼전닉스 목표가 하향…“2028년 이후 이익 지속성 관건”",
-        "link": "https://www.hankyung.com/article/202611108106i",
+        "title": "원전 정비 장기화에 이익 75%↓…한전KPS 목표주가 줄하향",
+        "link": "https://www.hankyung.com/article/202611107813i",
         "source": "한국경제",
-        "date": "Tue, 10 Nov 2026 16:42:57 +0900",
+        "date": "Tue, 10 Nov 2026 17:05:26 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -390,32 +390,10 @@
         "by": "rules"
       },
       {
-        "title": "[영상] AI 반도체 : 테크를 넘어 금융산업으로 확장",
-        "link": "https://www.mk.co.kr/news/economy/12203962",
+        "title": "韓·美 증시 ‘바로미터’ … 퀄컴→삼전닉스→코스피 연결고리 따져보니 [플러스 관심종목]",
+        "link": "https://www.mk.co.kr/news/stock/12204256",
         "source": "매일경제",
-        "date": "Tue, 10 Nov 2026 17:00:00 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "CJ 바이오사이언스 \"종속회사 EzBiome 주식 76억원에 추가취득\"",
-        "link": "https://www.yna.co.kr/view/AKR20261110155000008",
-        "source": "연합뉴스",
-        "date": "Tue, 10 Nov 2026 17:00:51 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "살아나는 반도체 투심…4거래일만에 반등 시동건 코스피",
-        "link": "https://www.hankyung.com/article/202611108029i",
-        "source": "한국경제",
-        "date": "Tue, 10 Nov 2026 16:41:09 +0900",
+        "date": "Tue, 10 Nov 2026 17:58:07 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -423,10 +401,32 @@
         "by": "rules"
       },
       {
-        "title": "[단독] 미성년 자녀계좌에도 레버리지 열풍…‘나스닥 2배’ 상품 순매수 상위",
-        "link": "https://www.mk.co.kr/news/stock/12204005",
+        "title": "에코프로비엠 \"종속회사 PT 주식 6천271억원에 추가취득\"",
+        "link": "https://www.yna.co.kr/view/AKR20261110164600008",
+        "source": "연합뉴스",
+        "date": "Tue, 10 Nov 2026 18:00:42 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "[단독] 코스피150과 최대 80% 겹쳐…'코스닥 셀렉트' 실효성 논란",
+        "link": "https://www.hankyung.com/article/202611108161i",
+        "source": "한국경제",
+        "date": "Tue, 10 Nov 2026 17:00:33 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "오가닉티코스메틱, 1013억원 규모 유상증자 실시",
+        "link": "https://www.mk.co.kr/news/stock/12204251",
         "source": "매일경제",
-        "date": "Tue, 10 Nov 2026 16:00:26 +09:00",
+        "date": "Tue, 10 Nov 2026 17:54:12 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -2955,7 +2955,7 @@
       "2026-11-07": 1363.65,
       "2026-11-08": 1363.21,
       "2026-11-09": 1341.8,
-      "2026-11-10": 1336.17
+      "2026-11-10": 1337.6
     },
     "^GSPC": {
       "2026-10-30": 7580.07,
@@ -2997,7 +2997,7 @@
       "2026-11-07": 25.64,
       "2026-11-08": 25.64,
       "2026-11-09": 19.92,
-      "2026-11-10": 19.8
+      "2026-11-10": 19.97
     },
     "^TNX": {
       "2026-10-30": 4.929,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgtxSfUREoeh3dPAicAE1\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgtxSfnH4G72BrJ2LEuTx\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgtxSfyw2eQMmJondAPdj\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgu2dR7kA5gmad6D3BGUm\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgu2dRJf2ubiTtiQCEjre\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgu2dRRqmKg89cqc7yhr4\"}"
   ]
 }
