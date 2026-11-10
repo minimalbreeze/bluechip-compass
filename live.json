@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-09T23:09:25.447Z",
+  "asOf": "2026-11-10T00:01:46.558Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-09T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1341.8,
-      "prev": 1363.21,
-      "chg": -1.57,
-      "prevDay": "2026-11-08",
-      "basis": "prev-close-memo",
-      "time": "2026-11-09T23:03:45.000Z"
+      "price": 1343.53,
+      "prev": 1362.699951171875,
+      "chg": -1.41,
+      "prevDay": "2026-11-09",
+      "basis": "prev-close-bar",
+      "time": "2026-11-10T00:01:41.000Z"
     },
     "^GSPC": {
       "price": 7549.94,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.086
+    "pct": 0.094
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -19.42
     },
     "KRW=X": {
-      "last": 1341.8,
+      "last": 1343.53,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.086,
-      "chg3m": -5.27
+      "pct52": 0.094,
+      "chg3m": -5.17
     },
     "^GSPC": {
       "last": 7549.94,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgtCP3md1"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgtGNau4F"
   },
   "stocks": {
     "kr": {
@@ -368,21 +368,21 @@
   "news": {
     "kr": [
       {
-        "title": "삼성화재 \"계열사 포튜나 탑코 주식 2조2천647억원에 추가취득\"",
-        "link": "https://www.yna.co.kr/view/AKR20261110019100008",
+        "title": "대신증권 \"두산, 증설전까지 판가·제품 구성에 의존…목표가↓\"",
+        "link": "https://www.yna.co.kr/view/AKR20261110030300008",
         "source": "연합뉴스",
-        "date": "Tue, 10 Nov 2026 07:41:28 +0900",
-        "act": "none",
-        "lasting": "temporary",
+        "date": "Tue, 10 Nov 2026 08:48:15 +0900",
+        "act": "watch",
+        "lasting": "structural",
         "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
         "by": "rules"
       },
       {
-        "title": "반도체주 일제히 반등…엔비디아 홀로 4%대 급락 [뉴욕증시 브리핑]",
-        "link": "https://www.hankyung.com/article/2026111062276",
+        "title": "엔비디아만 급락…젠슨 황 스캔들, 美·中 반도체 전쟁으로 번지나 [오늘 아침 당신이 알아야 할 7가지]",
+        "link": "https://www.hankyung.com/article/202611106255i",
         "source": "한국경제",
-        "date": "Tue, 10 Nov 2026 07:00:28 +0900",
+        "date": "Tue, 10 Nov 2026 07:34:27 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -390,10 +390,10 @@
         "by": "rules"
       },
       {
-        "title": "엔비디아만 빼고 다 상승... 달라진 미국 증시, 추세전환 시작인가",
-        "link": "https://www.mk.co.kr/news/business/12203464",
+        "title": "“대만 증시 5% 급반등에도 안심은 금물”…외국인 복귀가 관건 [오늘 나온 보고서]",
+        "link": "https://www.mk.co.kr/news/stock/12203492",
         "source": "매일경제",
-        "date": "Tue, 10 Nov 2026 08:07:44 +09:00",
+        "date": "Tue, 10 Nov 2026 08:47:34 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -401,10 +401,21 @@
         "by": "rules"
       },
       {
-        "title": "서비스 수출실적 증명 편리하게…무역협회 등 6개 기관 협력",
-        "link": "https://www.yna.co.kr/view/AKR20261109140300003",
+        "title": "유진투자증권, 한전기술 목표가↓…\"원전사업 중장기 불확실성\"",
+        "link": "https://www.yna.co.kr/view/AKR20261110029100008",
         "source": "연합뉴스",
-        "date": "Tue, 10 Nov 2026 06:00:02 +0900",
+        "date": "Tue, 10 Nov 2026 08:40:50 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "\"두산, 전자사업 호실적에도…목표가 50%↓\"-DB",
+        "link": "https://www.hankyung.com/article/2026111062696",
+        "source": "한국경제",
+        "date": "Tue, 10 Nov 2026 07:27:52 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
@@ -412,24 +423,13 @@
         "by": "rules"
       },
       {
-        "title": "\"8000만원 넣었는데\"…증권사 돌변에 '악!' 곡소리 터졌다 [분석+]",
-        "link": "https://www.hankyung.com/article/2026110954456",
-        "source": "한국경제",
-        "date": "Tue, 10 Nov 2026 06:30:06 +0900",
+        "title": "하나증권 “두산, 목표가 127만원으로 하향…고부가 소재 수요는 견조”",
+        "link": "https://www.mk.co.kr/news/stock/12203486",
+        "source": "매일경제",
+        "date": "Tue, 10 Nov 2026 08:41:00 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "韓·美 증시 ‘바로미터’ … 퀄컴→삼전닉스→코스피 연결고리 따져보니",
-        "link": "https://www.mk.co.kr/news/business/12202662",
-        "source": "매일경제",
-        "date": "Tue, 10 Nov 2026 05:00:00 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -2944,7 +2944,6 @@
       "2026-11-10": 638.97
     },
     "KRW=X": {
-      "2026-10-29": 1338.62,
       "2026-10-30": 1333.44,
       "2026-10-31": 1335.1,
       "2026-11-01": 1332.38,
@@ -2955,7 +2954,8 @@
       "2026-11-06": 1363.65,
       "2026-11-07": 1363.65,
       "2026-11-08": 1363.21,
-      "2026-11-09": 1341.8
+      "2026-11-09": 1341.8,
+      "2026-11-10": 1343.53
     },
     "^GSPC": {
       "2026-10-29": 7720.39,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgtCP3md1A7tDX8egPmre\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgtCP46URSPkPZkuF6WkR\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgtCP4S4D1xinuipbzphR\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgtGNau4FaQEaQxLECY7W\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgtGNbWXMSgkDRu7PvSJi\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgtGNbv64hYgS668jhSPe\"}"
   ]
 }
