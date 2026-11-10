@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-10T22:10:31.711Z",
+  "asOf": "2026-11-10T23:10:52.296Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-10T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1342.59,
+      "price": 1343.44,
       "prev": 1362.699951171875,
-      "chg": -1.48,
+      "chg": -1.41,
       "prevDay": "2026-11-09",
       "basis": "prev-close-bar",
-      "time": "2026-11-10T22:10:15.000Z"
+      "time": "2026-11-10T23:08:53.000Z"
     },
     "^GSPC": {
       "price": 7520.93,
@@ -40,7 +40,7 @@
       "chg": -0.74,
       "prevDay": "2026-11-09",
       "basis": "prev-close-bar",
-      "time": "2026-11-10T22:10:18.000Z"
+      "time": "2026-11-10T22:15:59.000Z"
     },
     "^VIX": {
       "price": 19.46,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.09
+    "pct": 0.093
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -20.3
     },
     "KRW=X": {
-      "last": 1342.59,
+      "last": 1343.44,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.09,
-      "chg3m": -5.24
+      "pct52": 0.093,
+      "chg3m": -5.18
     },
     "^GSPC": {
       "last": 7520.93,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgv1hUeKR"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgv6JMzQi"
   },
   "stocks": {
     "kr": {
@@ -368,6 +368,39 @@
   "news": {
     "kr": [
       {
+        "title": "[마켓뷰] 겨우 반등했는데…코스피, 美 '빅스텝' 우려에 다시 흔들리나",
+        "link": "https://www.yna.co.kr/view/AKR20261111021500008",
+        "source": "연합뉴스",
+        "date": "Wed, 11 Nov 2026 08:04:27 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "\"전쟁 끝나면 팬오션 웃고 HMM 운다\"…실적 갈릴 내년 운송주",
+        "link": "https://www.hankyung.com/article/202611108482i",
+        "source": "한국경제",
+        "date": "Wed, 11 Nov 2026 08:00:07 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "IBK증권, 크래프톤 목표가 42만→30만원…“내년 이익 전망치 내려”",
+        "link": "https://www.mk.co.kr/news/stock/12204944",
+        "source": "매일경제",
+        "date": "Wed, 11 Nov 2026 08:05:51 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
         "title": "증권사 주식정보서비스 수수료 671억원…금감원 \"안내 강화\"",
         "link": "https://www.yna.co.kr/view/AKR20261110171300002",
         "source": "연합뉴스",
@@ -379,10 +412,10 @@
         "by": "rules"
       },
       {
-        "title": "물가, Fed, 엔비디아 '3연타' 맞은 뉴욕 증시…코어위브는 '기대 이상' 실적 [월가 업&다운]",
-        "link": "https://www.hankyung.com/article/202611118780i",
+        "title": "\"코스피, 반등해도 '전강후약'…추세 회복 판단 일러\"-상상인",
+        "link": "https://www.hankyung.com/article/2026111189186",
         "source": "한국경제",
-        "date": "Wed, 11 Nov 2026 06:59:55 +0900",
+        "date": "Wed, 11 Nov 2026 07:59:39 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -390,43 +423,10 @@
         "by": "rules"
       },
       {
-        "title": "韓·美 증시 ‘바로미터’ … 퀄컴→삼전닉스→코스피 연결고리 따져보니 [플러스 관심종목]",
-        "link": "https://www.mk.co.kr/news/stock/12204256",
+        "title": "“백화점 성장 둔화 부담”…하나증권, 신세계 목표가 43만원→36만5000원 하향",
+        "link": "https://www.mk.co.kr/news/stock/12204912",
         "source": "매일경제",
-        "date": "Tue, 10 Nov 2026 17:58:07 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "신현송 한은 총재, BIS CPMI 의장 선임…지급결제 기준 제정",
-        "link": "https://www.yna.co.kr/view/AKR20261110119300002",
-        "source": "연합뉴스",
-        "date": "Tue, 10 Nov 2026 19:00:00 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "'어닝쇼크' 한전KPS, 2년여 만에 최저가…\"원전 재가동돼야 회복\" [종목+]",
-        "link": "https://www.hankyung.com/article/2026111079916",
-        "source": "한국경제",
-        "date": "Wed, 11 Nov 2026 06:30:06 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "오가닉티코스메틱, 1013억원 규모 유상증자 실시",
-        "link": "https://www.mk.co.kr/news/stock/12204251",
-        "source": "매일경제",
-        "date": "Tue, 10 Nov 2026 17:54:12 +09:00",
+        "date": "Wed, 11 Nov 2026 07:29:38 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -448,11 +448,11 @@
         "by": "rules"
       },
       {
-        "title": "Stocks fall as the 10-year Treasury yield nears 5% mark",
-        "link": "https://www.marketwatch.com/story/why-stocks-are-falling-and-10-year-yields-are-climbing-back-near-5-after-tuesdays-inflation-report-389b8392?mod=mw_rss_topstories",
+        "title": "AMD’s stock fades as investors weigh whether Nvidia’s turmoil will mean lasting wins",
+        "link": "https://www.marketwatch.com/story/amds-stock-fades-as-investors-weigh-whether-nvidias-turmoil-will-mean-lasting-wins-1ecfbc5e?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Tue, 10 Nov 2026 21:42:00 GMT",
-        "ko": "10년물 국채수익률이 5% 에 육박함에 따라 주가는 하락",
+        "date": "Tue, 10 Nov 2026 22:37:00 GMT",
+        "ko": "Nvidia의 혼란이 지속적인 승리를 의미할 것인지에 대한 투자자들의 저울질에 따라 AMD의 주가는 희미해집니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -472,11 +472,11 @@
         "by": "rules"
       },
       {
-        "title": "How the stock market has performed after Veterans Day over the past decade",
-        "link": "https://www.marketwatch.com/story/how-the-stock-market-has-performed-after-veterans-day-over-the-past-decade-7b47233e?mod=mw_rss_topstories",
+        "title": "Looking to buy the dip in chip stocks? Here’s how to avoid buying too soon.",
+        "link": "https://www.marketwatch.com/story/ignore-the-wild-swings-in-chip-stocks-until-they-reach-these-lines-in-the-sand-feb6e00f?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Tue, 10 Nov 2026 21:29:00 GMT",
-        "ko": "지난 10년 동안 재향군인의 날 이후 주식 시장의 성과",
+        "date": "Tue, 10 Nov 2026 22:30:00 GMT",
+        "ko": "칩 스톡의 딥을 사고 싶으신가요? 너무 빨리 구매하지 않는 방법은 다음과 같습니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -496,14 +496,14 @@
         "by": "rules"
       },
       {
-        "title": "Ignore the wild swings in chip stocks until they reach these ‘lines in the sand’",
-        "link": "https://www.marketwatch.com/story/ignore-the-wild-swings-in-chip-stocks-until-they-reach-these-lines-in-the-sand-feb6e00f?mod=mw_rss_topstories",
+        "title": "Stocks fall as the 10-year Treasury yield nears 5% mark",
+        "link": "https://www.marketwatch.com/story/why-stocks-are-falling-and-10-year-yields-are-climbing-back-near-5-after-tuesdays-inflation-report-389b8392?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Tue, 10 Nov 2026 20:53:00 GMT",
-        "ko": "칩 스톡의 와일드 스윙이 이 ‘모래 속의 선‘ 에 도달할 때까지 무시합니다.",
+        "date": "Tue, 10 Nov 2026 21:42:00 GMT",
+        "ko": "10년물 국채수익률이 5% 에 육박함에 따라 주가는 하락",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -511,7 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "Netflix vows to revive viewership trends, but investors hit ‘sell’ on the stock": "넷플릭스는 시청률 추세를 되살리겠다고 맹세했지만, 투자자들은 주식에서 ‘매도’ 를 기록했다.",
     "Super Micro’s stock soars after surprise update — with Dell and HPE shares joining the rally": "슈퍼 마이크로의 주식은 깜짝 업데이트 후 치솟습니다 — Dell과 HPE 주식이 랠리에 합류하면서",
     "Tesla’s stock rises as Elon Musk drops new clues about a possible SpaceX merger": "Elon Musk가 SpaceX 합병 가능성에 대한 새로운 단서를 떨어뜨리면서 Tesla의 주가가 상승합니다.",
     "Why SpaceX’s stock is surging — and lifting the broader AI universe along with it": "SpaceX의 재고가 급증하고 더 넓은 AI 우주를 그와 함께 들어 올리는 이유",
@@ -810,7 +809,8 @@
     "Aggressive Fed rate hikes are quickly becoming the biggest risk to stocks in 2027, says economist": "이코노미스트는 공격적인 연방준비제도 (Fed) 금리 인상이 2027년 주식에 가장 큰 위험이 되고 있다고 말합니다.",
     "Ignore the wild swings in chip stocks until they reach these ‘lines in the sand’": "칩 스톡의 와일드 스윙이 이 ‘모래 속의 선‘ 에 도달할 때까지 무시합니다.",
     "Stocks fall as the 10-year Treasury yield nears 5% mark": "10년물 국채수익률이 5% 에 육박함에 따라 주가는 하락",
-    "How the stock market has performed after Veterans Day over the past decade": "지난 10년 동안 재향군인의 날 이후 주식 시장의 성과"
+    "How the stock market has performed after Veterans Day over the past decade": "지난 10년 동안 재향군인의 날 이후 주식 시장의 성과",
+    "Looking to buy the dip in chip stocks? Here’s how to avoid buying too soon.": "칩 스톡의 딥을 사고 싶으신가요? 너무 빨리 구매하지 않는 방법은 다음과 같습니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2955,7 +2955,7 @@
       "2026-11-07": 1363.65,
       "2026-11-08": 1363.21,
       "2026-11-09": 1341.8,
-      "2026-11-10": 1342.59
+      "2026-11-10": 1343.44
     },
     "^GSPC": {
       "2026-10-30": 7580.07,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgv1hUeKRioB3n7pfMpzY\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgv1hUztyfoPwgEq52g5q\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgv1hVHX1DQhJ8DcEYxGs\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgv6JMzQiiSkHGCxM4ZzH\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgv6JNWfQscCSZ13NeLEX\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgv6JNnnhQVrcRj7dJXni\"}"
   ]
 }
