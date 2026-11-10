@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-10T09:42:07.705Z",
+  "asOf": "2026-11-10T10:42:31.537Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-10T06:33:00.000Z"
     },
     "KRW=X": {
-      "price": 1337.6,
+      "price": 1339.08,
       "prev": 1362.699951171875,
-      "chg": -1.84,
+      "chg": -1.73,
       "prevDay": "2026-11-09",
       "basis": "prev-close-bar",
-      "time": "2026-11-10T09:41:59.000Z"
+      "time": "2026-11-10T10:42:20.000Z"
     },
     "^GSPC": {
       "price": 7549.94,
@@ -43,12 +43,12 @@
       "time": "2026-11-09T22:15:59.000Z"
     },
     "^VIX": {
-      "price": 19.97,
+      "price": 19.92,
       "prev": 19.920000076293945,
-      "chg": 0.25,
+      "chg": 0,
       "prevDay": "2026-11-09",
       "basis": "prev-close-bar",
-      "time": "2026-11-10T09:26:46.000Z"
+      "time": "2026-11-10T10:27:16.000Z"
     },
     "^TNX": {
       "price": 4.864,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.068
+    "pct": 0.074
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -16.42
     },
     "KRW=X": {
-      "last": 1337.6,
+      "last": 1339.08,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.068,
-      "chg3m": -5.59
+      "pct52": 0.074,
+      "chg3m": -5.49
     },
     "^GSPC": {
       "last": 7549.94,
@@ -101,11 +101,11 @@
       "chg3m": -5.02
     },
     "^VIX": {
-      "last": 19.97,
+      "last": 19.92,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.37,
-      "chg3m": 40.14
+      "pct52": 0.367,
+      "chg3m": 39.79
     },
     "^TNX": {
       "last": 4.86,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgu2dR7kA"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgu7EY3QV"
   },
   "stocks": {
     "kr": {
@@ -368,21 +368,21 @@
   "news": {
     "kr": [
       {
-        "title": "'항암 신약 개발' 넥스아이, 코스닥 신규상장…12일부터 거래 시작",
-        "link": "https://www.yna.co.kr/view/AKR20261110166800008",
+        "title": "신현송 한은 총재, BIS CPMI 의장 선임…지급결제 기준 제정",
+        "link": "https://www.yna.co.kr/view/AKR20261110119300002",
         "source": "연합뉴스",
-        "date": "Tue, 10 Nov 2026 18:11:11 +0900",
+        "date": "Tue, 10 Nov 2026 19:00:00 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "원전 정비 장기화에 이익 75%↓…한전KPS 목표주가 줄하향",
-        "link": "https://www.hankyung.com/article/202611107813i",
+        "title": "증시 급락에 개미 주식 하루에 380억 '강제처분'",
+        "link": "https://www.hankyung.com/article/2026111084977",
         "source": "한국경제",
-        "date": "Tue, 10 Nov 2026 17:05:26 +0900",
+        "date": "Tue, 10 Nov 2026 18:26:40 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -401,24 +401,24 @@
         "by": "rules"
       },
       {
-        "title": "에코프로비엠 \"종속회사 PT 주식 6천271억원에 추가취득\"",
-        "link": "https://www.yna.co.kr/view/AKR20261110164600008",
+        "title": "'항암 신약 개발' 넥스아이, 코스닥 신규상장…12일부터 거래 시작",
+        "link": "https://www.yna.co.kr/view/AKR20261110166800008",
         "source": "연합뉴스",
-        "date": "Tue, 10 Nov 2026 18:00:42 +0900",
+        "date": "Tue, 10 Nov 2026 18:11:11 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "[단독] 코스피150과 최대 80% 겹쳐…'코스닥 셀렉트' 실효성 논란",
-        "link": "https://www.hankyung.com/article/202611108161i",
+        "title": "[포토] 엔비디아 시총 260조 증발…삼전닉스는 반등",
+        "link": "https://www.hankyung.com/article/2026111084431",
         "source": "한국경제",
-        "date": "Tue, 10 Nov 2026 17:00:33 +0900",
+        "date": "Tue, 10 Nov 2026 18:06:56 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -448,14 +448,14 @@
         "by": "rules"
       },
       {
-        "title": "Rocket Lab shares dip after the company’s ‘defining’ quarter misses the mark",
-        "link": "https://www.marketwatch.com/story/rocket-lab-shares-dip-after-the-companys-defining-quarter-misses-the-mark-9f74c3b5?mod=mw_rss_topstories",
+        "title": "Fed’s Waller puts half-point rate hike into the mix for December",
+        "link": "https://www.marketwatch.com/story/feds-waller-puts-half-point-rate-hike-into-the-mix-for-december-1bebdffc?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 09 Nov 2026 22:49:00 GMT",
-        "ko": "회사의 ‘정의‘ 쿼터가 표시를 놓친 후 Rocket Lab 주식 딥",
+        "date": "Tue, 10 Nov 2026 09:45:00 GMT",
+        "ko": "Fed's Waller, 12월 하프포인트 금리 인상 결정",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -472,11 +472,11 @@
         "by": "rules"
       },
       {
-        "title": "As Nvidia’s stock falls, here’s what Wall Street has to say about the Jensen Huang scandal",
-        "link": "https://www.marketwatch.com/story/how-wall-street-is-reacting-to-the-news-of-nvidias-jensen-huang-investigation-into-spy-claims-d8c839ab?mod=mw_rss_topstories",
+        "title": "Rocket Lab shares dip after the company’s ‘defining’ quarter misses the mark",
+        "link": "https://www.marketwatch.com/story/rocket-lab-shares-dip-after-the-companys-defining-quarter-misses-the-mark-9f74c3b5?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 09 Nov 2026 21:55:00 GMT",
-        "ko": "엔비디아의 주가가 하락함에 따라 젠슨 황 스캔들에 대한 월가의 의견은 다음과 같습니다.",
+        "date": "Mon, 09 Nov 2026 22:49:00 GMT",
+        "ko": "회사의 ‘정의‘ 쿼터가 표시를 놓친 후 Rocket Lab 주식 딥",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -496,14 +496,14 @@
         "by": "rules"
       },
       {
-        "title": "Dow sees its third 1,000-point swing in four days. Why the volatility isn’t over yet.",
-        "link": "https://www.marketwatch.com/story/dow-sees-its-third-1-000-point-swing-in-four-days-why-volatility-isnt-over-yet-5380567b?mod=mw_rss_topstories",
+        "title": "As Nvidia’s stock falls, here’s what Wall Street has to say about the Jensen Huang scandal",
+        "link": "https://www.marketwatch.com/story/how-wall-street-is-reacting-to-the-news-of-nvidias-jensen-huang-investigation-into-spy-claims-d8c839ab?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 09 Nov 2026 21:52:00 GMT",
-        "ko": "다우는 4일 만에 세 번째 1,000포인트 스윙을 볼 수 있습니다. 변동성이 아직 끝나지 않은 이유.",
+        "date": "Mon, 09 Nov 2026 21:55:00 GMT",
+        "ko": "엔비디아의 주가가 하락함에 따라 젠슨 황 스캔들에 대한 월가의 의견은 다음과 같습니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -511,7 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "Strategist Tom Lee says he’s buying the AI stock dip, and Cisco holds the key": "전략가 톰 리 (Tom Lee) 는 AI 주식 딥을 사고 있다고 말하며 시스코는 열쇠를 쥐고 있습니다.",
     "Strategist Tom Lee says he’s buying the AI-stock dip, and Cisco holds the key": "전략가 톰 리 (Tom Lee) 는 AI 주식 딥을 구매하고 있으며 시스코가 열쇠를 쥐고 있다고 말합니다.",
     "What happens to Wall Street if CoreWeave defaults? JPMorgan checked the math.": "CoreWeave가 기본값으로 설정되면 월스트리트는 어떻게 되나요? JPMorgan이 계산을 확인했습니다.",
     "Meet the college students trying to reverse an obscure ban on trading onion futures": "모호한 양파 선물 거래 금지를 되돌리려는 대학생들을 만나보세요.",
@@ -810,7 +809,8 @@
     "A key report for where inflation stood in October comes out Tuesday. Here's what to expect": "10월 인플레이션이 어디에 있었는지에 대한 주요 보고서가 화요일에 나옵니다. 알아두어야 할 사항",
     "Dow sees its third 1,000-point swing in four days. Why the volatility isn’t over yet.": "다우는 4일 만에 세 번째 1,000포인트 스윙을 볼 수 있습니다. 변동성이 아직 끝나지 않은 이유.",
     "3 unexpected reasons the October jobs report was so strong": "10월 일자리 보고서가 강력했던 3가지 예상치 못한 이유",
-    "Rocket Lab shares dip after the company’s ‘defining’ quarter misses the mark": "회사의 ‘정의‘ 쿼터가 표시를 놓친 후 Rocket Lab 주식 딥"
+    "Rocket Lab shares dip after the company’s ‘defining’ quarter misses the mark": "회사의 ‘정의‘ 쿼터가 표시를 놓친 후 Rocket Lab 주식 딥",
+    "Fed’s Waller puts half-point rate hike into the mix for December": "Fed's Waller, 12월 하프포인트 금리 인상 결정"
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2955,7 +2955,7 @@
       "2026-11-07": 1363.65,
       "2026-11-08": 1363.21,
       "2026-11-09": 1341.8,
-      "2026-11-10": 1337.6
+      "2026-11-10": 1339.08
     },
     "^GSPC": {
       "2026-10-30": 7580.07,
@@ -2997,7 +2997,7 @@
       "2026-11-07": 25.64,
       "2026-11-08": 25.64,
       "2026-11-09": 19.92,
-      "2026-11-10": 19.97
+      "2026-11-10": 19.92
     },
     "^TNX": {
       "2026-10-30": 4.929,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgu2dR7kA5gmad6D3BGUm\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgu2dRJf2ubiTtiQCEjre\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgu2dRRqmKg89cqc7yhr4\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgu7EY3QVuqsCsNDoB123\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgu7EYRUTc5XciUDunykw\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgu7EYnJ6L85cUmAhmWfk\"}"
   ]
 }
