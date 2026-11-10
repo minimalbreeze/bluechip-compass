@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-10T13:32:09.960Z",
+  "asOf": "2026-11-10T13:42:31.530Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-10T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1341.28,
+      "price": 1341.04,
       "prev": 1362.699951171875,
-      "chg": -1.57,
+      "chg": -1.59,
       "prevDay": "2026-11-09",
       "basis": "prev-close-bar",
-      "time": "2026-11-10T13:32:00.000Z"
+      "time": "2026-11-10T13:42:25.000Z"
     },
     "^GSPC": {
       "price": 7549.94,
@@ -43,26 +43,26 @@
       "time": "2026-11-09T22:15:59.000Z"
     },
     "^VIX": {
-      "price": 20.34,
+      "price": 20.05,
       "prev": 19.920000076293945,
-      "chg": 2.11,
+      "chg": 0.65,
       "prevDay": "2026-11-09",
       "basis": "prev-close-bar",
-      "time": "2026-11-10T13:16:46.000Z"
+      "time": "2026-11-10T13:27:16.000Z"
     },
     "^TNX": {
-      "price": 4.864,
+      "price": 4.909,
       "prev": 4.863999843597412,
-      "chg": 0,
+      "chg": 0.93,
       "prevDay": "2026-11-09",
       "basis": "prev-close-bar",
-      "time": "2026-11-09T19:59:53.000Z"
+      "time": "2026-11-10T13:27:24.000Z"
     }
   },
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.082
+    "pct": 0.083
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -16.42
     },
     "KRW=X": {
-      "last": 1340.88,
+      "last": 1341.04,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.082,
-      "chg3m": -5.36
+      "pct52": 0.083,
+      "chg3m": -5.35
     },
     "^GSPC": {
       "last": 7549.94,
@@ -101,18 +101,18 @@
       "chg3m": -5.02
     },
     "^VIX": {
-      "last": 20.31,
+      "last": 20.05,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.389,
-      "chg3m": 42.53
+      "pct52": 0.374,
+      "chg3m": 40.7
     },
     "^TNX": {
-      "last": 4.86,
+      "last": 4.91,
       "low52": 3.96,
       "high52": 5.31,
-      "pct52": 0.669,
-      "chg3m": 3.89
+      "pct52": 0.702,
+      "chg3m": 5.77
     }
   },
   "regime": {
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CguLAqCRY"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CguLxegSp"
   },
   "stocks": {
     "kr": {
@@ -496,11 +496,11 @@
         "by": "rules"
       },
       {
-        "title": "Fed’s Waller puts half-point rate hike into the mix for December",
-        "link": "https://www.marketwatch.com/story/feds-waller-puts-half-point-rate-hike-into-the-mix-for-december-1bebdffc?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "date": "Tue, 10 Nov 2026 09:45:00 GMT",
-        "ko": "Fed's Waller, 12월 하프포인트 금리 인상 결정",
+        "title": "U.S. economy added 165,000 jobs in October, way more than expected; unemployment rate slips to 4.1%",
+        "link": "https://www.cnbc.com/2026/11/06/jobs-report-october-2026.html",
+        "source": "CNBC",
+        "date": "Fri, 06 Nov 2026 16:06:59 GMT",
+        "ko": "미국 경제는 10월에 예상보다 훨씬 많은 165,000개의 일자리를 추가했습니다. 실업률은 4.1% 로 떨어졌습니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -2955,7 +2955,7 @@
       "2026-11-07": 1363.65,
       "2026-11-08": 1363.21,
       "2026-11-09": 1341.8,
-      "2026-11-10": 1341.28
+      "2026-11-10": 1341.04
     },
     "^GSPC": {
       "2026-10-30": 7580.07,
@@ -2997,7 +2997,7 @@
       "2026-11-07": 25.64,
       "2026-11-08": 25.64,
       "2026-11-09": 19.92,
-      "2026-11-10": 20.34
+      "2026-11-10": 20.05
     },
     "^TNX": {
       "2026-10-30": 4.929,
@@ -3011,7 +3011,7 @@
       "2026-11-07": 4.859,
       "2026-11-08": 4.859,
       "2026-11-09": 4.864,
-      "2026-11-10": 4.864
+      "2026-11-10": 4.909
     },
     "105560.KS": {
       "2026-10-30": 155500,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CguLAqCRYGyQULuxYgRNd\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CguLAqbV1Vof8ucNveTs9\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CguLAquLgtB4eZMZs3Ta3\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CguLxegSpF6t5gtpJ15N8\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CguLxf41inedWA34oDzwr\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CguLxfNc71fj6ScTHFyPA\"}"
   ]
 }
