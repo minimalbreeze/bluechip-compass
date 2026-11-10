@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-10T13:42:31.530Z",
+  "asOf": "2026-11-10T13:52:53.917Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-10T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1341.04,
+      "price": 1341.28,
       "prev": 1362.699951171875,
-      "chg": -1.59,
+      "chg": -1.57,
       "prevDay": "2026-11-09",
       "basis": "prev-close-bar",
-      "time": "2026-11-10T13:42:25.000Z"
+      "time": "2026-11-10T13:52:36.000Z"
     },
     "^GSPC": {
       "price": 7549.94,
@@ -43,20 +43,20 @@
       "time": "2026-11-09T22:15:59.000Z"
     },
     "^VIX": {
-      "price": 20.05,
+      "price": 20.54,
       "prev": 19.920000076293945,
-      "chg": 0.65,
+      "chg": 3.11,
       "prevDay": "2026-11-09",
       "basis": "prev-close-bar",
-      "time": "2026-11-10T13:27:16.000Z"
+      "time": "2026-11-10T13:37:31.000Z"
     },
     "^TNX": {
-      "price": 4.909,
+      "price": 4.929,
       "prev": 4.863999843597412,
-      "chg": 0.93,
+      "chg": 1.34,
       "prevDay": "2026-11-09",
       "basis": "prev-close-bar",
-      "time": "2026-11-10T13:27:24.000Z"
+      "time": "2026-11-10T13:37:44.000Z"
     }
   },
   "fx": {
@@ -80,11 +80,11 @@
       "chg3m": -16.42
     },
     "KRW=X": {
-      "last": 1341.04,
+      "last": 1340.97,
       "low52": 1321.76,
       "high52": 1554.48,
       "pct52": 0.083,
-      "chg3m": -5.35
+      "chg3m": -5.36
     },
     "^GSPC": {
       "last": 7549.94,
@@ -101,18 +101,18 @@
       "chg3m": -5.02
     },
     "^VIX": {
-      "last": 20.05,
+      "last": 20.58,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.374,
-      "chg3m": 40.7
+      "pct52": 0.404,
+      "chg3m": 44.42
     },
     "^TNX": {
-      "last": 4.91,
+      "last": 4.93,
       "low52": 3.96,
       "high52": 5.31,
-      "pct52": 0.702,
-      "chg3m": 5.77
+      "pct52": 0.717,
+      "chg3m": 6.21
     }
   },
   "regime": {
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CguLxegSp"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CguMkXaLV"
   },
   "stocks": {
     "kr": {
@@ -436,6 +436,30 @@
     ],
     "us": [
       {
+        "title": "Consumer prices rose 0.4% in October, more than expected, complicating Fed's inflation fight",
+        "link": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html",
+        "source": "CNBC",
+        "date": "Tue, 10 Nov 2026 13:45:04 GMT",
+        "ko": "10월 소비자 물가는 예상보다 0.4% 상승하여 Fed의 인플레이션 싸움이 복잡해졌습니다.",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "Fed’s Waller puts half-point rate hike into the mix for December",
+        "link": "https://www.marketwatch.com/story/feds-waller-puts-half-point-rate-hike-into-the-mix-for-december-1bebdffc?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "date": "Tue, 10 Nov 2026 13:41:00 GMT",
+        "ko": "Fed's Waller, 12월 하프포인트 금리 인상 결정",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
         "title": "3 unexpected reasons the October jobs report was so strong",
         "link": "https://www.cnbc.com/2026/11/09/october-jobs-report-hiring-by-sector.html",
         "source": "CNBC",
@@ -482,36 +506,11 @@
         "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
-      },
-      {
-        "title": "China wholesale inflation hits highest in more than four years as consumer measure slows",
-        "link": "https://www.cnbc.com/2026/11/09/china-wholesale-inflation-rises-consumer.html",
-        "source": "CNBC",
-        "date": "Mon, 09 Nov 2026 02:50:22 GMT",
-        "ko": "소비자 측정이 둔화됨에 따라 중국 도매 인플레이션이 4년 이상 최고를 기록했습니다.",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "U.S. economy added 165,000 jobs in October, way more than expected; unemployment rate slips to 4.1%",
-        "link": "https://www.cnbc.com/2026/11/06/jobs-report-october-2026.html",
-        "source": "CNBC",
-        "date": "Fri, 06 Nov 2026 16:06:59 GMT",
-        "ko": "미국 경제는 10월에 예상보다 훨씬 많은 165,000개의 일자리를 추가했습니다. 실업률은 4.1% 로 떨어졌습니다.",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
       }
     ]
   },
   "newsBy": "rules",
   "trCache": {
-    "My unmarried partner of 17 years left me his $1.1 million home. His children are crying foul. Should I share my inheritance?": "17년 동안 결혼하지 않은 파트너가 저에게 110만 달러 ($) 의 집을 남겨주었습니다. 그의 아이들은 반칙으로 울고 있습니다. 유산을 공유해야 합니까?",
     "Pending home sales sink to 25-year low as buyers flee high mortgage rates": "구매자가 높은 모기지 이자율을 피할 때 보류 중인 주택 판매가 25년 만에 최저치로 떨어집니다.",
     "Here’s why GM’s stock is having its worst day in over a year": "GM의 주식이 1년 넘게 최악의 하루를 보내고 있는 이유는 다음과 같습니다.",
     "Elon Musk promised a SpaceX share to every kid in America — don’t hold your breath": "일론 머스크 (Elon Musk) 는 미국의 모든 어린이에게 SpaceX 주식을 약속했습니다. 숨을 참지 마세요.",
@@ -810,7 +809,8 @@
     "Fed’s Waller puts half-point rate hike into the mix for December": "Fed's Waller, 12월 하프포인트 금리 인상 결정",
     "Anthropic reportedly retracts IPO terms sent to banks by mistake, exposing jitters over AI investments": "Anthropic은 실수로 은행에 보낸 IPO 조건을 철회하여 AI 투자에 대한 불안감을 드러내는 것으로 알려졌습니다.",
     "Nvidia couldn’t derail the stock market’s rally. Hot inflation might.": "엔비디아는 주식 시장의 랠리를 꺾을 수 없었다. 뜨거운 인플레이션이 발생할 수 있습니다.",
-    "Anthropic officially sets the stage for an IPO valuing the company north of $1 trillion": "Anthropic은 공식적으로 회사를 1조 달러 ($1 trillion) 의 가치로 평가하는 IPO의 발판을 마련했습니다."
+    "Anthropic officially sets the stage for an IPO valuing the company north of $1 trillion": "Anthropic은 공식적으로 회사를 1조 달러 ($1 trillion) 의 가치로 평가하는 IPO의 발판을 마련했습니다.",
+    "Consumer prices rose 0.4% in October, more than expected, complicating Fed's inflation fight": "10월 소비자 물가는 예상보다 0.4% 상승하여 Fed의 인플레이션 싸움이 복잡해졌습니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2955,7 +2955,7 @@
       "2026-11-07": 1363.65,
       "2026-11-08": 1363.21,
       "2026-11-09": 1341.8,
-      "2026-11-10": 1341.04
+      "2026-11-10": 1341.28
     },
     "^GSPC": {
       "2026-10-30": 7580.07,
@@ -2997,7 +2997,7 @@
       "2026-11-07": 25.64,
       "2026-11-08": 25.64,
       "2026-11-09": 19.92,
-      "2026-11-10": 20.05
+      "2026-11-10": 20.54
     },
     "^TNX": {
       "2026-10-30": 4.929,
@@ -3011,7 +3011,7 @@
       "2026-11-07": 4.859,
       "2026-11-08": 4.859,
       "2026-11-09": 4.864,
-      "2026-11-10": 4.909
+      "2026-11-10": 4.929
     },
     "105560.KS": {
       "2026-10-30": 155500,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CguLxegSpF6t5gtpJ15N8\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CguLxf41inedWA34oDzwr\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CguLxfNc71fj6ScTHFyPA\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CguMkXaLVwAqydca4ctTr\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CguMkY572Tsdo1bs65ZRN\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CguMkYNTWEZ2GtHP3kKhX\"}"
   ]
 }
