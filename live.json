@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-10T00:01:46.558Z",
+  "asOf": "2026-11-10T00:12:09.833Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-09T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1343.53,
+      "price": 1344.61,
       "prev": 1362.699951171875,
-      "chg": -1.41,
+      "chg": -1.33,
       "prevDay": "2026-11-09",
       "basis": "prev-close-bar",
-      "time": "2026-11-10T00:01:41.000Z"
+      "time": "2026-11-10T00:11:59.000Z"
     },
     "^GSPC": {
       "price": 7549.94,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.094
+    "pct": 0.098
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -19.42
     },
     "KRW=X": {
-      "last": 1343.53,
+      "last": 1344.61,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.094,
-      "chg3m": -5.17
+      "pct52": 0.098,
+      "chg3m": -5.1
     },
     "^GSPC": {
       "last": 7549.94,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgtGNau4F"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgtHAYCsB"
   },
   "stocks": {
     "kr": {
@@ -368,14 +368,14 @@
   "news": {
     "kr": [
       {
-        "title": "대신증권 \"두산, 증설전까지 판가·제품 구성에 의존…목표가↓\"",
-        "link": "https://www.yna.co.kr/view/AKR20261110030300008",
+        "title": "[속보] 코스피, 4~5%대 급등…매수 사이드카 발동",
+        "link": "https://www.yna.co.kr/view/AKR20261110037600008",
         "source": "연합뉴스",
-        "date": "Tue, 10 Nov 2026 08:48:15 +0900",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": null,
-        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
+        "date": "Tue, 10 Nov 2026 09:07:09 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
@@ -401,13 +401,13 @@
         "by": "rules"
       },
       {
-        "title": "유진투자증권, 한전기술 목표가↓…\"원전사업 중장기 불확실성\"",
-        "link": "https://www.yna.co.kr/view/AKR20261110029100008",
+        "title": "코스피, 장초반 4% 급반등해 5,200선 회복…코스닥도 4%↑",
+        "link": "https://www.yna.co.kr/view/AKR20261110036300008",
         "source": "연합뉴스",
-        "date": "Tue, 10 Nov 2026 08:40:50 +0900",
+        "date": "Tue, 10 Nov 2026 09:03:53 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -2955,7 +2955,7 @@
       "2026-11-07": 1363.65,
       "2026-11-08": 1363.21,
       "2026-11-09": 1341.8,
-      "2026-11-10": 1343.53
+      "2026-11-10": 1344.61
     },
     "^GSPC": {
       "2026-10-29": 7720.39,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgtGNau4FaQEaQxLECY7W\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgtGNbWXMSgkDRu7PvSJi\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgtGNbv64hYgS668jhSPe\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgtHAYCsBj6PyzFksencg\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgtHAYXTxwUYUGKBD4hFu\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgtHAYnboCcArZSBuMngE\"}"
   ]
 }
