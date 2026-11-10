@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-10T11:42:55.805Z",
+  "asOf": "2026-11-10T12:43:21.596Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-10T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1338.61,
+      "price": 1338.88,
       "prev": 1362.699951171875,
-      "chg": -1.77,
+      "chg": -1.75,
       "prevDay": "2026-11-09",
       "basis": "prev-close-bar",
-      "time": "2026-11-10T11:42:41.000Z"
+      "time": "2026-11-10T12:43:09.000Z"
     },
     "^GSPC": {
       "price": 7549.94,
@@ -43,12 +43,12 @@
       "time": "2026-11-09T22:15:59.000Z"
     },
     "^VIX": {
-      "price": 20.01,
+      "price": 20.04,
       "prev": 19.920000076293945,
-      "chg": 0.45,
+      "chg": 0.6,
       "prevDay": "2026-11-09",
       "basis": "prev-close-bar",
-      "time": "2026-11-10T11:27:31.000Z"
+      "time": "2026-11-10T12:28:01.000Z"
     },
     "^TNX": {
       "price": 4.864,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.072
+    "pct": 0.074
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -16.42
     },
     "KRW=X": {
-      "last": 1338.61,
+      "last": 1338.88,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.072,
-      "chg3m": -5.52
+      "pct52": 0.074,
+      "chg3m": -5.5
     },
     "^GSPC": {
       "last": 7549.94,
@@ -101,11 +101,11 @@
       "chg3m": -5.02
     },
     "^VIX": {
-      "last": 20.01,
+      "last": 20.04,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.372,
-      "chg3m": 40.42
+      "pct52": 0.374,
+      "chg3m": 40.63
     },
     "^TNX": {
       "last": 4.86,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CguBqhD1E"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CguGSxgN1"
   },
   "stocks": {
     "kr": {
@@ -448,14 +448,14 @@
         "by": "rules"
       },
       {
-        "title": "Anthropic reportedly retracts IPO terms sent to banks by mistake, exposing jitters over AI investments",
-        "link": "https://www.marketwatch.com/story/anthropic-reportedly-retracts-ipo-terms-sent-to-banks-by-mistake-exposing-jitters-over-ai-investments-6116578d?mod=mw_rss_topstories",
+        "title": "Nvidia couldn’t derail the stock market’s rally. Hot inflation might.",
+        "link": "https://www.marketwatch.com/story/nvidia-couldnt-derail-the-stock-markets-rally-hot-inflation-might-8a572024?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Tue, 10 Nov 2026 10:48:00 GMT",
-        "ko": "Anthropic은 실수로 은행에 보낸 IPO 조건을 철회하여 AI 투자에 대한 불안감을 드러내는 것으로 알려졌습니다.",
+        "date": "Tue, 10 Nov 2026 12:33:00 GMT",
+        "ko": "엔비디아는 주식 시장의 랠리를 꺾을 수 없었다. 뜨거운 인플레이션이 발생할 수 있습니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -465,6 +465,30 @@
         "source": "CNBC",
         "date": "Mon, 09 Nov 2026 21:03:55 GMT",
         "ko": "10월 인플레이션이 어디에 있었는지에 대한 주요 보고서가 화요일에 나옵니다. 알아두어야 할 사항",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "Anthropic officially sets the stage for an IPO valuing the company north of $1 trillion",
+        "link": "https://www.marketwatch.com/story/anthropic-reportedly-retracts-ipo-terms-sent-to-banks-by-mistake-exposing-jitters-over-ai-investments-6116578d?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "date": "Tue, 10 Nov 2026 12:32:00 GMT",
+        "ko": "Anthropic은 공식적으로 회사를 1조 달러 ($1 trillion) 의 가치로 평가하는 IPO의 발판을 마련했습니다.",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "China wholesale inflation hits highest in more than four years as consumer measure slows",
+        "link": "https://www.cnbc.com/2026/11/09/china-wholesale-inflation-rises-consumer.html",
+        "source": "CNBC",
+        "date": "Mon, 09 Nov 2026 02:50:22 GMT",
+        "ko": "소비자 측정이 둔화됨에 따라 중국 도매 인플레이션이 4년 이상 최고를 기록했습니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -482,37 +506,11 @@
         "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
-      },
-      {
-        "title": "China wholesale inflation hits highest in more than four years as consumer measure slows",
-        "link": "https://www.cnbc.com/2026/11/09/china-wholesale-inflation-rises-consumer.html",
-        "source": "CNBC",
-        "date": "Mon, 09 Nov 2026 02:50:22 GMT",
-        "ko": "소비자 측정이 둔화됨에 따라 중국 도매 인플레이션이 4년 이상 최고를 기록했습니다.",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "U.S. economy added 165,000 jobs in October, way more than expected; unemployment rate slips to 4.1%",
-        "link": "https://www.cnbc.com/2026/11/06/jobs-report-october-2026.html",
-        "source": "CNBC",
-        "date": "Fri, 06 Nov 2026 16:06:59 GMT",
-        "ko": "미국 경제는 10월에 예상보다 훨씬 많은 165,000개의 일자리를 추가했습니다. 실업률은 4.1% 로 떨어졌습니다.",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
       }
     ]
   },
   "newsBy": "rules",
   "trCache": {
-    "What happens to Wall Street if CoreWeave defaults? JPMorgan checked the math.": "CoreWeave가 기본값으로 설정되면 월스트리트는 어떻게 되나요? JPMorgan이 계산을 확인했습니다.",
-    "Meet the college students trying to reverse an obscure ban on trading onion futures": "모호한 양파 선물 거래 금지를 되돌리려는 대학생들을 만나보세요.",
     "My unmarried partner of 17 years left me his $1.1 million home. His children are crying foul. Should I share my inheritance?": "17년 동안 결혼하지 않은 파트너가 저에게 110만 달러 ($) 의 집을 남겨주었습니다. 그의 아이들은 반칙으로 울고 있습니다. 유산을 공유해야 합니까?",
     "Pending home sales sink to 25-year low as buyers flee high mortgage rates": "구매자가 높은 모기지 이자율을 피할 때 보류 중인 주택 판매가 25년 만에 최저치로 떨어집니다.",
     "Here’s why GM’s stock is having its worst day in over a year": "GM의 주식이 1년 넘게 최악의 하루를 보내고 있는 이유는 다음과 같습니다.",
@@ -810,7 +808,9 @@
     "3 unexpected reasons the October jobs report was so strong": "10월 일자리 보고서가 강력했던 3가지 예상치 못한 이유",
     "Rocket Lab shares dip after the company’s ‘defining’ quarter misses the mark": "회사의 ‘정의‘ 쿼터가 표시를 놓친 후 Rocket Lab 주식 딥",
     "Fed’s Waller puts half-point rate hike into the mix for December": "Fed's Waller, 12월 하프포인트 금리 인상 결정",
-    "Anthropic reportedly retracts IPO terms sent to banks by mistake, exposing jitters over AI investments": "Anthropic은 실수로 은행에 보낸 IPO 조건을 철회하여 AI 투자에 대한 불안감을 드러내는 것으로 알려졌습니다."
+    "Anthropic reportedly retracts IPO terms sent to banks by mistake, exposing jitters over AI investments": "Anthropic은 실수로 은행에 보낸 IPO 조건을 철회하여 AI 투자에 대한 불안감을 드러내는 것으로 알려졌습니다.",
+    "Nvidia couldn’t derail the stock market’s rally. Hot inflation might.": "엔비디아는 주식 시장의 랠리를 꺾을 수 없었다. 뜨거운 인플레이션이 발생할 수 있습니다.",
+    "Anthropic officially sets the stage for an IPO valuing the company north of $1 trillion": "Anthropic은 공식적으로 회사를 1조 달러 ($1 trillion) 의 가치로 평가하는 IPO의 발판을 마련했습니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2955,7 +2955,7 @@
       "2026-11-07": 1363.65,
       "2026-11-08": 1363.21,
       "2026-11-09": 1341.8,
-      "2026-11-10": 1338.61
+      "2026-11-10": 1338.88
     },
     "^GSPC": {
       "2026-10-30": 7580.07,
@@ -2997,7 +2997,7 @@
       "2026-11-07": 25.64,
       "2026-11-08": 25.64,
       "2026-11-09": 19.92,
-      "2026-11-10": 20.01
+      "2026-11-10": 20.04
     },
     "^TNX": {
       "2026-10-30": 4.929,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CguBqhD1Eu86R9XDPji6d\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CguBqhgmPyy9ALEurVocD\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CguBqi4bPXp7NpgtcaKbe\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CguGSxgN1WnXjwitqUcaj\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CguGSySVoC14ahgNeuFEi\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CguGSyqK3GCGk5FsWZRSc\"}"
   ]
 }
