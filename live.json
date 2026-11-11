@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-11T15:13:00.252Z",
+  "asOf": "2026-11-11T15:23:26.134Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,36 +19,36 @@
       "time": "2026-11-11T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1336.08,
+      "price": 1337.13,
       "prev": 1343.8399658203125,
-      "chg": -0.58,
+      "chg": -0.5,
       "prevDay": "2026-11-10",
       "basis": "prev-close-bar",
-      "time": "2026-11-11T15:12:41.000Z"
+      "time": "2026-11-11T15:23:12.000Z"
     },
     "^GSPC": {
-      "price": 7582.77,
+      "price": 7580.44,
       "prev": 7520.93017578125,
-      "chg": 0.82,
+      "chg": 0.79,
       "prevDay": "2026-11-10",
       "basis": "prev-close-bar",
-      "time": "2026-11-11T15:12:51.000Z"
+      "time": "2026-11-11T15:23:17.000Z"
     },
     "^IXIC": {
-      "price": 25379.719,
+      "price": 25369.07,
       "prev": 25065.869140625,
-      "chg": 1.25,
+      "chg": 1.21,
       "prevDay": "2026-11-10",
       "basis": "prev-close-bar",
-      "time": "2026-11-11T15:12:51.000Z"
+      "time": "2026-11-11T15:23:13.000Z"
     },
     "^VIX": {
-      "price": 18.24,
+      "price": 18.19,
       "prev": 19.459999084472656,
-      "chg": -6.27,
+      "chg": -6.53,
       "prevDay": "2026-11-10",
       "basis": "prev-close-bar",
-      "time": "2026-11-11T14:57:46.000Z"
+      "time": "2026-11-11T15:08:16.000Z"
     },
     "^TNX": {
       "price": 4.998,
@@ -56,13 +56,13 @@
       "chg": 0.3,
       "prevDay": "2026-11-10",
       "basis": "prev-close-bar",
-      "time": "2026-11-11T14:57:44.000Z"
+      "time": "2026-11-11T15:08:14.000Z"
     }
   },
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.062
+    "pct": 0.066
   },
   "hist": {
     "^KS11": {
@@ -80,32 +80,32 @@
       "chg3m": -16.42
     },
     "KRW=X": {
-      "last": 1336.08,
+      "last": 1337.13,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.062,
-      "chg3m": -5.6
+      "pct52": 0.066,
+      "chg3m": -5.53
     },
     "^GSPC": {
-      "last": 7582.24,
+      "last": 7580.44,
       "low52": 6343.72,
       "high52": 7818.93,
-      "pct52": 0.84,
-      "chg3m": -2.61
+      "pct52": 0.838,
+      "chg3m": -2.64
     },
     "^IXIC": {
-      "last": 25379.72,
+      "last": 25369.07,
       "low52": 20794.64,
       "high52": 27599.79,
-      "pct52": 0.674,
-      "chg3m": -5.05
+      "pct52": 0.672,
+      "chg3m": -5.09
     },
     "^VIX": {
-      "last": 18.24,
+      "last": 18.19,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.271,
-      "chg3m": 20.08
+      "pct52": 0.268,
+      "chg3m": 19.75
     },
     "^TNX": {
       "last": 5,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgwMfjy6J"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgwNTso9p"
   },
   "stocks": {
     "kr": {
@@ -260,108 +260,108 @@
     },
     "us": {
       "MSFT": {
-        "price": 525.335,
+        "price": 521.501,
         "prev": 533.1599731445312,
-        "chg": -1.47,
+        "chg": -2.19,
         "prevDay": "2026-11-10",
         "basis": "prev-close-bar",
-        "time": "2026-11-11T15:12:58.000Z"
+        "time": "2026-11-11T15:23:24.000Z"
       },
       "AAPL": {
-        "price": 353.325,
+        "price": 353.31,
         "prev": 348.510009765625,
         "chg": 1.38,
         "prevDay": "2026-11-10",
         "basis": "prev-close-bar",
-        "time": "2026-11-11T15:12:57.000Z"
+        "time": "2026-11-11T15:23:25.000Z"
       },
       "GOOGL": {
-        "price": 290.74,
+        "price": 290.885,
         "prev": 287.3800048828125,
-        "chg": 1.17,
+        "chg": 1.22,
         "prevDay": "2026-11-10",
         "basis": "prev-close-bar",
-        "time": "2026-11-11T15:12:57.000Z"
+        "time": "2026-11-11T15:23:25.000Z"
       },
       "BRK.B": {
-        "price": 578.24,
+        "price": 578.92,
         "prev": 583.3400268554688,
-        "chg": -0.87,
+        "chg": -0.76,
         "prevDay": "2026-11-10",
         "basis": "prev-close-bar",
-        "time": "2026-11-11T15:12:55.000Z"
+        "time": "2026-11-11T15:23:22.000Z"
       },
       "V": {
-        "price": 421.875,
+        "price": 421.735,
         "prev": 423,
-        "chg": -0.27,
+        "chg": -0.3,
         "prevDay": "2026-11-10",
         "basis": "prev-close-bar",
-        "time": "2026-11-11T15:12:55.000Z"
+        "time": "2026-11-11T15:23:08.000Z"
       },
       "JNJ": {
-        "price": 277.305,
+        "price": 278.035,
         "prev": 280.7799987792969,
-        "chg": -1.24,
+        "chg": -0.98,
         "prevDay": "2026-11-10",
         "basis": "prev-close-bar",
-        "time": "2026-11-11T15:12:52.000Z"
+        "time": "2026-11-11T15:23:17.000Z"
       },
       "PG": {
-        "price": 166.82,
+        "price": 166.98,
         "prev": 168.66000366210938,
-        "chg": -1.09,
+        "chg": -1,
         "prevDay": "2026-11-10",
         "basis": "prev-close-bar",
-        "time": "2026-11-11T15:12:56.000Z"
+        "time": "2026-11-11T15:23:17.000Z"
       },
       "KO": {
-        "price": 96.23,
+        "price": 96.455,
         "prev": 96.91000366210938,
-        "chg": -0.7,
+        "chg": -0.47,
         "prevDay": "2026-11-10",
         "basis": "prev-close-bar",
-        "time": "2026-11-11T15:12:58.000Z"
+        "time": "2026-11-11T15:23:24.000Z"
       },
       "COST": {
-        "price": 1073.76,
+        "price": 1076.2,
         "prev": 1066.1400146484375,
-        "chg": 0.71,
+        "chg": 0.94,
         "prevDay": "2026-11-10",
         "basis": "prev-close-bar",
-        "time": "2026-11-11T15:12:54.000Z"
+        "time": "2026-11-11T15:23:20.000Z"
       },
       "WM": {
-        "price": 236.68,
+        "price": 237.38,
         "prev": 237.3800048828125,
-        "chg": -0.29,
+        "chg": 0,
         "prevDay": "2026-11-10",
         "basis": "prev-close-bar",
-        "time": "2026-11-11T15:12:58.000Z"
+        "time": "2026-11-11T15:23:22.000Z"
       },
       "LIN": {
-        "price": 523.675,
+        "price": 523.39,
         "prev": 521.780029296875,
-        "chg": 0.36,
+        "chg": 0.31,
         "prevDay": "2026-11-10",
         "basis": "prev-close-bar",
-        "time": "2026-11-11T15:12:52.000Z"
+        "time": "2026-11-11T15:23:18.000Z"
       },
       "XOM": {
-        "price": 166.24,
+        "price": 166.52,
         "prev": 164.47000122070312,
-        "chg": 1.08,
+        "chg": 1.25,
         "prevDay": "2026-11-10",
         "basis": "prev-close-bar",
-        "time": "2026-11-11T15:12:56.000Z"
+        "time": "2026-11-11T15:23:23.000Z"
       },
       "NVDA": {
-        "price": 172.26,
+        "price": 173.2,
         "prev": 168.88999938964844,
-        "chg": 2,
+        "chg": 2.55,
         "prevDay": "2026-11-10",
         "basis": "prev-close-bar",
-        "time": "2026-11-11T15:12:59.000Z"
+        "time": "2026-11-11T15:23:24.000Z"
       }
     }
   },
@@ -448,11 +448,11 @@
         "by": "rules"
       },
       {
-        "title": "Micron and other AI stocks surge as CoreWeave calms Wall Street’s worst fears",
-        "link": "https://www.marketwatch.com/story/micron-and-other-ai-stocks-surge-as-coreweave-calms-wall-streets-worst-fears-0a18152a?mod=mw_rss_topstories",
+        "title": "Market angst is driving investors into low-volatility stocks as AI trade stumbles",
+        "link": "https://www.marketwatch.com/story/market-angst-is-driving-investors-into-low-volatility-stocks-as-ai-trade-stumbles-23d905e9?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Wed, 11 Nov 2026 13:37:00 GMT",
-        "ko": "CoreWeave가 월스트리트의 최악의 공포를 진정시키면서 마이크론 및 기타 AI 주식이 급등",
+        "date": "Wed, 11 Nov 2026 15:15:00 GMT",
+        "ko": "AI 거래가 비틀거리면서 시장의 불안이 투자자들을 저변동성 주식으로 몰고 가고 있습니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -472,14 +472,14 @@
         "by": "rules"
       },
       {
-        "title": "22 stocks of companies with tremendous sales growth",
-        "link": "https://www.marketwatch.com/story/22-stocks-of-companies-with-tremendous-sales-growth-78c3f750?mod=mw_rss_topstories",
+        "title": "Micron and other AI stocks surge as CoreWeave calms Wall Street’s worst fears",
+        "link": "https://www.marketwatch.com/story/micron-and-other-ai-stocks-surge-as-coreweave-calms-wall-streets-worst-fears-0a18152a?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Wed, 11 Nov 2026 13:06:00 GMT",
-        "ko": "엄청난 매출 성장을 이룬 22개의 회사 주식",
+        "date": "Wed, 11 Nov 2026 13:37:00 GMT",
+        "ko": "CoreWeave가 월스트리트의 최악의 공포를 진정시키면서 마이크론 및 기타 AI 주식이 급등",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -496,14 +496,14 @@
         "by": "rules"
       },
       {
-        "title": "China wholesale inflation hits highest in more than four years as consumer measure slows",
-        "link": "https://www.cnbc.com/2026/11/09/china-wholesale-inflation-rises-consumer.html",
-        "source": "CNBC",
-        "date": "Mon, 09 Nov 2026 02:50:22 GMT",
-        "ko": "소비자 측정이 둔화됨에 따라 중국 도매 인플레이션이 4년 이상 최고를 기록했습니다.",
+        "title": "22 stocks of companies with tremendous sales growth",
+        "link": "https://www.marketwatch.com/story/22-stocks-of-companies-with-tremendous-sales-growth-78c3f750?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "date": "Wed, 11 Nov 2026 13:06:00 GMT",
+        "ko": "엄청난 매출 성장을 이룬 22개의 회사 주식",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -2955,7 +2955,7 @@
       "2026-11-08": 1363.21,
       "2026-11-09": 1341.8,
       "2026-11-10": 1343.44,
-      "2026-11-11": 1336.08
+      "2026-11-11": 1337.13
     },
     "^GSPC": {
       "2026-10-31": 7580.07,
@@ -2969,7 +2969,7 @@
       "2026-11-08": 7376.86,
       "2026-11-09": 7549.94,
       "2026-11-10": 7520.93,
-      "2026-11-11": 7582.77
+      "2026-11-11": 7580.44
     },
     "^IXIC": {
       "2026-10-31": 25436.998,
@@ -2983,7 +2983,7 @@
       "2026-11-08": 24579.424,
       "2026-11-09": 25253.139,
       "2026-11-10": 25065.875,
-      "2026-11-11": 25379.719
+      "2026-11-11": 25369.07
     },
     "^VIX": {
       "2026-10-31": 19.42,
@@ -2997,7 +2997,7 @@
       "2026-11-08": 25.64,
       "2026-11-09": 19.92,
       "2026-11-10": 19.46,
-      "2026-11-11": 18.24
+      "2026-11-11": 18.19
     },
     "^TNX": {
       "2026-10-31": 4.929,
@@ -3207,7 +3207,7 @@
       "2026-11-08": 530.61,
       "2026-11-09": 545.18,
       "2026-11-10": 533.16,
-      "2026-11-11": 525.335
+      "2026-11-11": 521.501
     },
     "AAPL": {
       "2026-10-31": 344.63,
@@ -3221,7 +3221,7 @@
       "2026-11-08": 342.37,
       "2026-11-09": 350.69,
       "2026-11-10": 348.51,
-      "2026-11-11": 353.325
+      "2026-11-11": 353.31
     },
     "GOOGL": {
       "2026-10-31": 279.84,
@@ -3235,7 +3235,7 @@
       "2026-11-08": 284.78,
       "2026-11-09": 288.15,
       "2026-11-10": 287.38,
-      "2026-11-11": 290.74
+      "2026-11-11": 290.885
     },
     "BRK.B": {
       "2026-08-29": 505,
@@ -3256,7 +3256,7 @@
       "2026-11-08": 422.65,
       "2026-11-09": 422.16,
       "2026-11-10": 423,
-      "2026-11-11": 421.875
+      "2026-11-11": 421.735
     },
     "JNJ": {
       "2026-10-31": 273.2,
@@ -3270,7 +3270,7 @@
       "2026-11-08": 276.22,
       "2026-11-09": 282.11,
       "2026-11-10": 280.78,
-      "2026-11-11": 277.305
+      "2026-11-11": 278.035
     },
     "PG": {
       "2026-10-31": 161.57,
@@ -3284,7 +3284,7 @@
       "2026-11-08": 165.4,
       "2026-11-09": 168.32,
       "2026-11-10": 168.66,
-      "2026-11-11": 166.82
+      "2026-11-11": 166.98
     },
     "KO": {
       "2026-10-31": 94.08,
@@ -3298,7 +3298,7 @@
       "2026-11-08": 95.67,
       "2026-11-09": 96.03,
       "2026-11-10": 96.91,
-      "2026-11-11": 96.23
+      "2026-11-11": 96.455
     },
     "COST": {
       "2026-10-31": 1012.28,
@@ -3312,7 +3312,7 @@
       "2026-11-08": 1053.56,
       "2026-11-09": 1066.18,
       "2026-11-10": 1066.14,
-      "2026-11-11": 1073.76
+      "2026-11-11": 1076.2
     },
     "WM": {
       "2026-10-31": 233.45,
@@ -3326,7 +3326,7 @@
       "2026-11-08": 236.26,
       "2026-11-09": 236.61,
       "2026-11-10": 237.38,
-      "2026-11-11": 236.68
+      "2026-11-11": 237.38
     },
     "LIN": {
       "2026-10-31": 514.24,
@@ -3340,7 +3340,7 @@
       "2026-11-08": 515.25,
       "2026-11-09": 520.33,
       "2026-11-10": 521.78,
-      "2026-11-11": 523.675
+      "2026-11-11": 523.39
     },
     "XOM": {
       "2026-10-31": 187.25,
@@ -3354,7 +3354,7 @@
       "2026-11-08": 165.87,
       "2026-11-09": 164.73,
       "2026-11-10": 164.47,
-      "2026-11-11": 166.24
+      "2026-11-11": 166.52
     },
     "NVDA": {
       "2026-10-31": 204.64,
@@ -3368,7 +3368,7 @@
       "2026-11-08": 186.64,
       "2026-11-09": 178.67,
       "2026-11-10": 168.89,
-      "2026-11-11": 172.26
+      "2026-11-11": 173.2
     },
     "BRK-B": {
       "2026-10-31": 542.49,
@@ -3382,13 +3382,13 @@
       "2026-11-08": 570.89,
       "2026-11-09": 575.25,
       "2026-11-10": 583.34,
-      "2026-11-11": 578.24
+      "2026-11-11": 578.92
     }
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgwMfjy6JMA8xwFARVv52\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgwMfkM9sFvYV4hiQ5ym9\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgwMfkdmiry5JDJXTQBMB\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgwNTso9pYW6aeuj7Qoin\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgwNTtCiXuFYFvJhcvLGK\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgwNTtXKGcqHKocgUH9DF\"}"
   ]
 }
