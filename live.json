@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-11T21:23:04.291Z",
+  "asOf": "2026-11-11T22:23:29.698Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-11T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1338.9,
+      "price": 1336.63,
       "prev": 1343.8399658203125,
-      "chg": -0.37,
+      "chg": -0.54,
       "prevDay": "2026-11-10",
       "basis": "prev-close-bar",
-      "time": "2026-11-11T21:17:41.000Z"
+      "time": "2026-11-11T22:23:09.000Z"
     },
     "^GSPC": {
       "price": 7619.38,
@@ -32,7 +32,7 @@
       "chg": 1.31,
       "prevDay": "2026-11-10",
       "basis": "prev-close-bar",
-      "time": "2026-11-11T21:20:01.000Z"
+      "time": "2026-11-11T21:42:03.000Z"
     },
     "^IXIC": {
       "price": 25466.19,
@@ -40,15 +40,15 @@
       "chg": 1.6,
       "prevDay": "2026-11-10",
       "basis": "prev-close-bar",
-      "time": "2026-11-11T21:22:52.000Z"
+      "time": "2026-11-11T22:15:59.000Z"
     },
     "^VIX": {
-      "price": 17.47,
+      "price": 17.49,
       "prev": 19.459999084472656,
-      "chg": -10.23,
+      "chg": -10.12,
       "prevDay": "2026-11-10",
       "basis": "prev-close-bar",
-      "time": "2026-11-11T21:07:46.000Z"
+      "time": "2026-11-11T21:15:01.000Z"
     },
     "^TNX": {
       "price": 4.998,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.074
+    "pct": 0.064
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -16.42
     },
     "KRW=X": {
-      "last": 1338.9,
+      "last": 1336.63,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.074,
-      "chg3m": -5.4
+      "pct52": 0.064,
+      "chg3m": -5.56
     },
     "^GSPC": {
       "last": 7619.38,
@@ -101,11 +101,11 @@
       "chg3m": -4.73
     },
     "^VIX": {
-      "last": 17.47,
+      "last": 17.49,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.228,
-      "chg3m": 15.01
+      "pct52": 0.229,
+      "chg3m": 15.14
     },
     "^TNX": {
       "last": 5,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgwQqj6sy"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgwvVjoUM"
   },
   "stocks": {
     "kr": {
@@ -158,7 +158,7 @@
         "prev": 153300,
         "chg": 0,
         "prevDay": "2026-11-11",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-11-11T06:30:23.000Z"
       },
       "207940": {
@@ -166,7 +166,7 @@
         "prev": 1430000,
         "chg": 0,
         "prevDay": "2026-11-11",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-11-11T06:30:22.000Z"
       },
       "005930": {
@@ -174,7 +174,7 @@
         "prev": 206000,
         "chg": 0,
         "prevDay": "2026-11-11",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-11-11T06:30:20.000Z"
       },
       "000660": {
@@ -182,7 +182,7 @@
         "prev": 1277000,
         "chg": 0,
         "prevDay": "2026-11-11",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-11-11T06:30:13.000Z"
       },
       "005380": {
@@ -190,7 +190,7 @@
         "prev": 272500,
         "chg": 0,
         "prevDay": "2026-11-11",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-11-11T06:30:08.000Z"
       },
       "055550": {
@@ -198,7 +198,7 @@
         "prev": 85700,
         "chg": 0,
         "prevDay": "2026-11-11",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-11-11T06:30:30.000Z"
       },
       "000810": {
@@ -206,7 +206,7 @@
         "prev": 566000,
         "chg": 0,
         "prevDay": "2026-11-11",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-11-11T06:30:22.000Z"
       },
       "033780": {
@@ -214,7 +214,7 @@
         "prev": 173100,
         "chg": 0,
         "prevDay": "2026-11-11",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-11-11T06:30:27.000Z"
       },
       "035420": {
@@ -222,7 +222,7 @@
         "prev": 194300,
         "chg": 0,
         "prevDay": "2026-11-11",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-11-11T06:30:01.000Z"
       },
       "005490": {
@@ -230,7 +230,7 @@
         "prev": 276500,
         "chg": 0,
         "prevDay": "2026-11-11",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-11-11T06:30:07.000Z"
       },
       "028260": {
@@ -238,7 +238,7 @@
         "prev": 283000,
         "chg": 0,
         "prevDay": "2026-11-11",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-11-11T06:30:05.000Z"
       },
       "012450": {
@@ -246,7 +246,7 @@
         "prev": 659000,
         "chg": 0,
         "prevDay": "2026-11-11",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-11-11T06:30:24.000Z"
       },
       "017670": {
@@ -254,7 +254,7 @@
         "prev": 82700,
         "chg": 0,
         "prevDay": "2026-11-11",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-11-11T06:30:03.000Z"
       }
     },
@@ -448,11 +448,11 @@
         "by": "rules"
       },
       {
-        "title": "Why this ‘big idea’ to fix Social Security relies on a massive stock-market gamble",
-        "link": "https://www.marketwatch.com/story/why-this-big-idea-to-fix-social-security-relies-on-a-massive-stock-market-gamble-5423f50f?mod=mw_rss_topstories",
+        "title": "Opening trading-card packs has become a $2 billion market. New apps are trying to cash in.",
+        "link": "https://www.marketwatch.com/story/opening-trading-card-packs-has-become-a-2-billion-market-new-apps-are-trying-to-cash-in-b7ba11f5?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Wed, 11 Nov 2026 21:21:00 GMT",
-        "ko": "사회보장제도를 개선하기 위한 이 '큰 아이디어'가 대규모 주식시장 도박에 의존하는 이유",
+        "date": "Wed, 11 Nov 2026 21:55:00 GMT",
+        "ko": "트레이딩 카드 팩 개봉은 20억 달러 규모의 시장으로 성장했습니다. 새로운 앱들이 이 시장에서 수익을 올리려고 합니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -472,15 +472,15 @@
         "by": "rules"
       },
       {
-        "title": "Bloom Energy’s stock is rallying as data-center jitters subside",
-        "link": "https://www.marketwatch.com/story/bloom-energys-stock-is-soaring-as-data-center-jitters-subside-5fda5689?mod=mw_rss_topstories",
+        "title": "Falling oil prices are no longer enough to bring down borrowing costs in the world’s most important bond market",
+        "link": "https://www.marketwatch.com/story/falling-oil-prices-are-no-longer-enough-to-bring-down-borrowing-costs-in-the-worlds-most-important-bond-market-3176d25a?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Wed, 11 Nov 2026 21:14:00 GMT",
-        "ko": "데이터 센터 관련 우려가 완화되면서 Bloom Energy의 주가가 상승하고 있습니다.",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": null,
-        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
+        "date": "Wed, 11 Nov 2026 21:42:00 GMT",
+        "ko": "하락하는 유가만으로는 더 이상 세계에서 가장 중요한 채권 시장의 차입 비용을 낮추기에 충분하지 않습니다.",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
@@ -496,11 +496,11 @@
         "by": "rules"
       },
       {
-        "title": "Sandisk’s stock is soaring, and these three trends could send it even higher",
+        "title": "Sandisk’s stock just staged a big gain. Here’s how it could march even higher.",
         "link": "https://www.marketwatch.com/story/sandisks-stock-is-soaring-and-these-three-trends-could-send-it-even-higher-b0d7d5ec?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Wed, 11 Nov 2026 20:25:00 GMT",
-        "ko": "샌디스크의 주가가 급등하고 있으며, 이 세 가지 추세로 인해 주가가 더욱 상승할 수 있습니다.",
+        "date": "Wed, 11 Nov 2026 21:40:00 GMT",
+        "ko": "샌디스크 주가가 막대한 상승세를 보였습니다. 주가가 더욱 상승할 수 있는 이유를 알아보겠습니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -511,9 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "Tesla’s stock falls as Elon Musk leaves investors wanting more": "일론 머스크가 투자자들에게 더 많은 것을 요구하면서 테슬라의 주가는 하락합니다.",
-    "Top HSBC strategist has a warning for retail investors chasing the AI rally": "HSBC의 최고 전략가는 AI 랠리를 추구하는 소매 투자자들에게 경고하고 있습니다.",
-    "A top strategist has a warning for retail investors chasing the AI rally": "최고 전략가는 AI 랠리를 쫓는 소매 투자자에게 경고를 보냅니다.",
     "Why a JPMorgan strategist says the stock market’s tailspin might have run its course": "JP모건 전략가가 주식 시장의 테일스핀이 코스를 달렸을 수 있다고 말하는 이유",
     "Why a global bank is slashing thousands of jobs — and what the Fed says about AI replacing workers": "글로벌 은행이 수천 개의 일자리를 줄이는 이유와 연준이 AI가 노동자를 대체하는 것에 대해 말하는 것",
     "Meta’s stock falls in early trading amid broader sector selloff, despite well-received results": "메타의 주식은 호평을 받았음에도 불구하고 광범위한 부문 매도 중 조기 거래에서 하락합니다.",
@@ -810,7 +807,10 @@
     "Oracle’s stock is totally misunderstood and should be a ‘go-to’ AI play, says this analyst": "이 애널리스트는 Oracle의 주식이 완전히 오해받고 있으며 '선택해야 할' AI 투자 대상이어야 한다고 말합니다.",
     "Why this ‘big idea’ to fix Social Security relies on a massive stock-market gamble": "사회보장제도를 개선하기 위한 이 '큰 아이디어'가 대규모 주식시장 도박에 의존하는 이유",
     "Bloom Energy’s stock is rallying as data-center jitters subside": "데이터 센터 관련 우려가 완화되면서 Bloom Energy의 주가가 상승하고 있습니다.",
-    "Sandisk’s stock is soaring, and these three trends could send it even higher": "샌디스크의 주가가 급등하고 있으며, 이 세 가지 추세로 인해 주가가 더욱 상승할 수 있습니다."
+    "Sandisk’s stock is soaring, and these three trends could send it even higher": "샌디스크의 주가가 급등하고 있으며, 이 세 가지 추세로 인해 주가가 더욱 상승할 수 있습니다.",
+    "Opening trading-card packs has become a $2 billion market. New apps are trying to cash in.": "트레이딩 카드 팩 개봉은 20억 달러 규모의 시장으로 성장했습니다. 새로운 앱들이 이 시장에서 수익을 올리려고 합니다.",
+    "Falling oil prices are no longer enough to bring down borrowing costs in the world’s most important bond market": "하락하는 유가만으로는 더 이상 세계에서 가장 중요한 채권 시장의 차입 비용을 낮추기에 충분하지 않습니다.",
+    "Sandisk’s stock just staged a big gain. Here’s how it could march even higher.": "샌디스크 주가가 막대한 상승세를 보였습니다. 주가가 더욱 상승할 수 있는 이유를 알아보겠습니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2955,7 +2955,7 @@
       "2026-11-08": 1363.21,
       "2026-11-09": 1341.8,
       "2026-11-10": 1343.44,
-      "2026-11-11": 1338.9
+      "2026-11-11": 1336.63
     },
     "^GSPC": {
       "2026-10-31": 7580.07,
@@ -2997,7 +2997,7 @@
       "2026-11-08": 25.64,
       "2026-11-09": 19.92,
       "2026-11-10": 19.46,
-      "2026-11-11": 17.47
+      "2026-11-11": 17.49
     },
     "^TNX": {
       "2026-10-31": 4.929,
@@ -3387,7 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgwqtVtNgGtcPsJeSehrv\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgwqtWM9vyGkiaLp56aDw\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgwvVjoUMVygJcRBvYf8B\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgwvVkJEze3js7GbyKv3k\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgwvVkarGiSMFHtpQS49Z\"}"
   ]
 }
