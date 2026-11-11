@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-11T13:32:41.672Z",
+  "asOf": "2026-11-11T13:43:04.140Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-11T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1334.27,
+      "price": 1337.27,
       "prev": 1343.8399658203125,
-      "chg": -0.71,
+      "chg": -0.49,
       "prevDay": "2026-11-10",
       "basis": "prev-close-bar",
-      "time": "2026-11-11T13:32:27.000Z"
+      "time": "2026-11-11T13:42:43.000Z"
     },
     "^GSPC": {
       "price": 7520.93,
@@ -43,26 +43,26 @@
       "time": "2026-11-10T22:15:59.000Z"
     },
     "^VIX": {
-      "price": 18.4,
+      "price": 18.37,
       "prev": 19.459999084472656,
-      "chg": -5.45,
+      "chg": -5.6,
       "prevDay": "2026-11-10",
       "basis": "prev-close-bar",
-      "time": "2026-11-11T13:17:31.000Z"
+      "time": "2026-11-11T13:27:46.000Z"
     },
     "^TNX": {
-      "price": 4.9830003,
+      "price": 4.998,
       "prev": 4.982999801635742,
-      "chg": 0,
+      "chg": 0.3,
       "prevDay": "2026-11-10",
       "basis": "prev-close-bar",
-      "time": "2026-11-10T19:59:54.000Z"
+      "time": "2026-11-11T13:27:54.000Z"
     }
   },
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.054
+    "pct": 0.068
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -17.48
     },
     "KRW=X": {
-      "last": 1334.27,
+      "last": 1337.51,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.054,
-      "chg3m": -5.73
+      "pct52": 0.068,
+      "chg3m": -5.5
     },
     "^GSPC": {
       "last": 7520.93,
@@ -101,18 +101,18 @@
       "chg3m": -6.48
     },
     "^VIX": {
-      "last": 18.4,
+      "last": 18.37,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.28,
-      "chg3m": 21.13
+      "pct52": 0.279,
+      "chg3m": 20.93
     },
     "^TNX": {
-      "last": 4.98,
+      "last": 5,
       "low52": 3.96,
       "high52": 5.31,
-      "pct52": 0.757,
-      "chg3m": 7.37
+      "pct52": 0.768,
+      "chg3m": 6.43
     }
   },
   "regime": {
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgwE25tHG"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgwEoy14i"
   },
   "stocks": {
     "kr": {
@@ -448,6 +448,30 @@
         "by": "rules"
       },
       {
+        "title": "Micron and other AI stocks surge as CoreWeave calms Wall Street’s worst fears",
+        "link": "https://www.marketwatch.com/story/micron-and-other-ai-stocks-surge-as-coreweave-calms-wall-streets-worst-fears-0a18152a?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "date": "Wed, 11 Nov 2026 13:37:00 GMT",
+        "ko": "CoreWeave가 월스트리트의 최악의 공포를 진정시키면서 마이크론 및 기타 AI 주식이 급등",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "3 unexpected reasons the October jobs report was so strong",
+        "link": "https://www.cnbc.com/2026/11/09/october-jobs-report-hiring-by-sector.html",
+        "source": "CNBC",
+        "date": "Mon, 09 Nov 2026 22:23:56 GMT",
+        "ko": "10월 일자리 보고서가 강력했던 3가지 예상치 못한 이유",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
         "title": "22 stocks of companies with tremendous sales growth",
         "link": "https://www.marketwatch.com/story/22-stocks-of-companies-with-tremendous-sales-growth-78c3f750?mod=mw_rss_topstories",
         "source": "MarketWatch",
@@ -460,11 +484,11 @@
         "by": "rules"
       },
       {
-        "title": "3 unexpected reasons the October jobs report was so strong",
-        "link": "https://www.cnbc.com/2026/11/09/october-jobs-report-hiring-by-sector.html",
+        "title": "A key report for where inflation stood in October comes out Tuesday. Here's what to expect",
+        "link": "https://www.cnbc.com/2026/11/09/october-cpi-report-2026-inflation.html",
         "source": "CNBC",
-        "date": "Mon, 09 Nov 2026 22:23:56 GMT",
-        "ko": "10월 일자리 보고서가 강력했던 3가지 예상치 못한 이유",
+        "date": "Mon, 09 Nov 2026 21:03:55 GMT",
+        "ko": "10월 인플레이션이 어디에 있었는지에 대한 주요 보고서가 화요일에 나옵니다. 알아두어야 할 사항",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -482,36 +506,11 @@
         "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
-      },
-      {
-        "title": "A key report for where inflation stood in October comes out Tuesday. Here's what to expect",
-        "link": "https://www.cnbc.com/2026/11/09/october-cpi-report-2026-inflation.html",
-        "source": "CNBC",
-        "date": "Mon, 09 Nov 2026 21:03:55 GMT",
-        "ko": "10월 인플레이션이 어디에 있었는지에 대한 주요 보고서가 화요일에 나옵니다. 알아두어야 할 사항",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "CoreWeave’s stock pops as new financing playbook eases debt concerns",
-        "link": "https://www.marketwatch.com/story/coreweaves-stock-pops-as-new-financing-playbook-eases-debt-concerns-70241525?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "date": "Wed, 11 Nov 2026 11:27:00 GMT",
-        "ko": "새로운 자금 조달 플레이북이 부채 문제를 완화함에 따라 CoreWeave의 주가가 급등합니다.",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
       }
     ]
   },
   "newsBy": "rules",
   "trCache": {
-    "We have a $300,000 mortgage with a 2.75% interest rate. I want to pay it off. My husband says I’m crazy. Who’s right?": "저희는 2.75% 의 이자율로 $300,000의 모기지를 보유하고 있습니다. 갚고 싶어요. 남편은 내가 미쳤다고 한다. 누가 옳은가요?",
     "AI stocks are probably in a bubble — but might be worth holding onto, says Citadel’s Ken Griffin": "시타델 (Citadel) 의 켄 그리핀 (Ken Griffin) 은 인공지능 (AI) 주식은 거품 속에 있을 수 있지만 버틸만한 가치가 있다고 말합니다.",
     "Opposition to data centers will drive up inflation, says BlackRock’s Larry Fink": "BlackRock의 Larry Fink는 데이터 센터에 대한 반대가 인플레이션을 증가시킬 것이라고 말합니다.",
     "AI stocks are probably in a bubble — but might be worth holding on to, says Citadel’s Ken Griffin": "시타델 (Citadel) 의 켄 그리핀 (Ken Griffin) 은 인공지능 (AI) 주식은 거품 속에 있을 수 있지만 버틸만한 가치가 있다고 말합니다.",
@@ -810,7 +809,8 @@
     "CoreWeave’s stock pops as new financing playbook eases debt concerns": "새로운 자금 조달 플레이북이 부채 문제를 완화함에 따라 CoreWeave의 주가가 급등합니다.",
     "Why Goldman Sachs is now changing its Federal Reserve interest-rate forecast": "골드만삭스가 연방준비제도이율 전망치를 변경하는 이유",
     "Market angst is driving investors into low-volatility stocks as AI trade stumbles": "AI 거래가 비틀거리면서 시장의 불안이 투자자들을 저변동성 주식으로 몰고 가고 있습니다.",
-    "22 stocks of companies with tremendous sales growth": "엄청난 매출 성장을 이룬 22개의 회사 주식"
+    "22 stocks of companies with tremendous sales growth": "엄청난 매출 성장을 이룬 22개의 회사 주식",
+    "Micron and other AI stocks surge as CoreWeave calms Wall Street’s worst fears": "CoreWeave가 월스트리트의 최악의 공포를 진정시키면서 마이크론 및 기타 AI 주식이 급등"
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2955,7 +2955,7 @@
       "2026-11-08": 1363.21,
       "2026-11-09": 1341.8,
       "2026-11-10": 1343.44,
-      "2026-11-11": 1334.27
+      "2026-11-11": 1337.27
     },
     "^GSPC": {
       "2026-10-31": 7580.07,
@@ -2997,7 +2997,7 @@
       "2026-11-08": 25.64,
       "2026-11-09": 19.92,
       "2026-11-10": 19.46,
-      "2026-11-11": 18.4
+      "2026-11-11": 18.37
     },
     "^TNX": {
       "2026-10-31": 4.929,
@@ -3011,7 +3011,7 @@
       "2026-11-08": 4.859,
       "2026-11-09": 4.864,
       "2026-11-10": 4.983,
-      "2026-11-11": 4.9830003
+      "2026-11-11": 4.998
     },
     "105560.KS": {
       "2026-10-31": 155500,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgwE25tHGZJFL1VYwbgdV\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgwE26GbuJivsJvqPzywx\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgwE26aSn8a6xGv8tWcu5\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgwEoy14iH3qF3yc8vfvL\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgwEoyY581CL7WE91sAed\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgwEoysfHu62ZMqN1yVSn\"}"
   ]
 }
