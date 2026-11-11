@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-11T13:43:04.140Z",
+  "asOf": "2026-11-11T13:53:25.966Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-11T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1337.27,
+      "price": 1336.38,
       "prev": 1343.8399658203125,
-      "chg": -0.49,
+      "chg": -0.56,
       "prevDay": "2026-11-10",
       "basis": "prev-close-bar",
-      "time": "2026-11-11T13:42:43.000Z"
+      "time": "2026-11-11T13:53:13.000Z"
     },
     "^GSPC": {
       "price": 7520.93,
@@ -43,12 +43,12 @@
       "time": "2026-11-10T22:15:59.000Z"
     },
     "^VIX": {
-      "price": 18.37,
+      "price": 18.45,
       "prev": 19.459999084472656,
-      "chg": -5.6,
+      "chg": -5.19,
       "prevDay": "2026-11-10",
       "basis": "prev-close-bar",
-      "time": "2026-11-11T13:27:46.000Z"
+      "time": "2026-11-11T13:38:16.000Z"
     },
     "^TNX": {
       "price": 4.998,
@@ -56,13 +56,13 @@
       "chg": 0.3,
       "prevDay": "2026-11-10",
       "basis": "prev-close-bar",
-      "time": "2026-11-11T13:27:54.000Z"
+      "time": "2026-11-11T13:38:14.000Z"
     }
   },
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.068
+    "pct": 0.063
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -17.48
     },
     "KRW=X": {
-      "last": 1337.51,
+      "last": 1336.38,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.068,
-      "chg3m": -5.5
+      "pct52": 0.063,
+      "chg3m": -5.58
     },
     "^GSPC": {
       "last": 7520.93,
@@ -101,11 +101,11 @@
       "chg3m": -6.48
     },
     "^VIX": {
-      "last": 18.37,
+      "last": 18.45,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.279,
-      "chg3m": 20.93
+      "pct52": 0.283,
+      "chg3m": 21.46
     },
     "^TNX": {
       "last": 5,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgwEoy14i"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgwFboa4Y"
   },
   "stocks": {
     "kr": {
@@ -379,13 +379,13 @@
         "by": "rules"
       },
       {
-        "title": "코스피 '이 조건' 충족해야 내년 7000까지 반등?…증권가가 꼽은 핵심 조건은",
-        "link": "https://www.hankyung.com/article/202611110872i",
+        "title": "\"증시 이 모양인데\"…630억 강제로 팔린 개미들 '피눈물' [분석+]",
+        "link": "https://www.hankyung.com/article/2026111108766",
         "source": "한국경제",
-        "date": "Wed, 11 Nov 2026 18:49:46 +0900",
+        "date": "Wed, 11 Nov 2026 22:00:01 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -412,13 +412,13 @@
         "by": "rules"
       },
       {
-        "title": "제이앤티지·씨앤엠, 흥행 실패에 상장철회",
-        "link": "https://www.hankyung.com/article/2026111110541",
+        "title": "코스피 '이 조건' 충족해야 내년 7000까지 반등?…증권가가 꼽은 핵심 조건은",
+        "link": "https://www.hankyung.com/article/202611110872i",
         "source": "한국경제",
-        "date": "Wed, 11 Nov 2026 17:59:19 +0900",
+        "date": "Wed, 11 Nov 2026 18:49:46 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -2955,7 +2955,7 @@
       "2026-11-08": 1363.21,
       "2026-11-09": 1341.8,
       "2026-11-10": 1343.44,
-      "2026-11-11": 1337.27
+      "2026-11-11": 1336.38
     },
     "^GSPC": {
       "2026-10-31": 7580.07,
@@ -2997,7 +2997,7 @@
       "2026-11-08": 25.64,
       "2026-11-09": 19.92,
       "2026-11-10": 19.46,
-      "2026-11-11": 18.37
+      "2026-11-11": 18.45
     },
     "^TNX": {
       "2026-10-31": 4.929,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgwEoy14iH3qF3yc8vfvL\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgwEoyY581CL7WE91sAed\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgwEoysfHu62ZMqN1yVSn\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgwFboa4YDXNhLouVjDsP\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgwFbp7Zib6fm5WfPWmnw\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgwFbpVNs4zQvD74Woagm\"}"
   ]
 }
