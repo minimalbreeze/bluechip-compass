@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-11T14:14:08.864Z",
+  "asOf": "2026-11-11T14:20:41.352Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-11T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1336.68,
+      "price": 1336.65,
       "prev": 1343.8399658203125,
-      "chg": -0.53,
+      "chg": -0.54,
       "prevDay": "2026-11-10",
       "basis": "prev-close-bar",
-      "time": "2026-11-11T14:13:56.000Z"
+      "time": "2026-11-11T14:20:25.000Z"
     },
     "^GSPC": {
       "price": 7520.93,
@@ -43,12 +43,12 @@
       "time": "2026-11-10T22:15:59.000Z"
     },
     "^VIX": {
-      "price": 18.25,
+      "price": 18.29,
       "prev": 19.459999084472656,
-      "chg": -6.22,
+      "chg": -6.01,
       "prevDay": "2026-11-10",
       "basis": "prev-close-bar",
-      "time": "2026-11-11T13:58:46.000Z"
+      "time": "2026-11-11T14:05:31.000Z"
     },
     "^TNX": {
       "price": 4.998,
@@ -56,7 +56,7 @@
       "chg": 0.3,
       "prevDay": "2026-11-10",
       "basis": "prev-close-bar",
-      "time": "2026-11-11T13:58:54.000Z"
+      "time": "2026-11-11T14:05:24.000Z"
     }
   },
   "fx": {
@@ -80,7 +80,7 @@
       "chg3m": -17.48
     },
     "KRW=X": {
-      "last": 1336.68,
+      "last": 1336.65,
       "low52": 1321.76,
       "high52": 1554.48,
       "pct52": 0.064,
@@ -101,11 +101,11 @@
       "chg3m": -6.48
     },
     "^VIX": {
-      "last": 18.25,
+      "last": 18.29,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.272,
-      "chg3m": 20.14
+      "pct52": 0.274,
+      "chg3m": 20.41
     },
     "^TNX": {
       "last": 5,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgwHBRiyg"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgwHgMdio"
   },
   "stocks": {
     "kr": {
@@ -496,14 +496,14 @@
         "by": "rules"
       },
       {
-        "title": "Market angst is driving investors into low-volatility stocks as AI trade stumbles",
-        "link": "https://www.marketwatch.com/story/market-angst-is-driving-investors-into-low-volatility-stocks-as-ai-trade-stumbles-23d905e9?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "date": "Wed, 11 Nov 2026 12:00:00 GMT",
-        "ko": "AI 거래가 비틀거리면서 시장의 불안이 투자자들을 저변동성 주식으로 몰고 가고 있습니다.",
+        "title": "China wholesale inflation hits highest in more than four years as consumer measure slows",
+        "link": "https://www.cnbc.com/2026/11/09/china-wholesale-inflation-rises-consumer.html",
+        "source": "CNBC",
+        "date": "Mon, 09 Nov 2026 02:50:22 GMT",
+        "ko": "소비자 측정이 둔화됨에 따라 중국 도매 인플레이션이 4년 이상 최고를 기록했습니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -2955,7 +2955,7 @@
       "2026-11-08": 1363.21,
       "2026-11-09": 1341.8,
       "2026-11-10": 1343.44,
-      "2026-11-11": 1336.68
+      "2026-11-11": 1336.65
     },
     "^GSPC": {
       "2026-10-31": 7580.07,
@@ -2997,7 +2997,7 @@
       "2026-11-08": 25.64,
       "2026-11-09": 19.92,
       "2026-11-10": 19.46,
-      "2026-11-11": 18.25
+      "2026-11-11": 18.29
     },
     "^TNX": {
       "2026-10-31": 4.929,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgwHBRiygtYP7sHE5Zmtg\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgwHBS7ntxjqPZ56mNdx6\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgwHBSRuGRPsWmXqCXTx1\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgwHgMdio9hXYY3YCayDw\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgwHgN6kQoQTsuGUbBmm4\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgwHgNQrbvQveDZs3fcTE\"}"
   ]
 }
