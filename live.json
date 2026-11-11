@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-11T08:46:20.775Z",
+  "asOf": "2026-11-11T09:46:43.149Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-11T06:32:50.000Z"
     },
     "KRW=X": {
-      "price": 1334.11,
+      "price": 1332.18,
       "prev": 1343.8399658203125,
-      "chg": -0.72,
+      "chg": -0.87,
       "prevDay": "2026-11-10",
       "basis": "prev-close-bar",
-      "time": "2026-11-11T08:46:08.000Z"
+      "time": "2026-11-11T09:46:28.000Z"
     },
     "^GSPC": {
       "price": 7520.93,
@@ -43,12 +43,12 @@
       "time": "2026-11-10T22:15:59.000Z"
     },
     "^VIX": {
-      "price": 18.74,
+      "price": 18.81,
       "prev": 19.459999084472656,
-      "chg": -3.7,
+      "chg": -3.34,
       "prevDay": "2026-11-10",
       "basis": "prev-close-bar",
-      "time": "2026-11-11T08:31:01.000Z"
+      "time": "2026-11-11T09:31:31.000Z"
     },
     "^TNX": {
       "price": 4.983,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.053
+    "pct": 0.045
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -17.48
     },
     "KRW=X": {
-      "last": 1334.11,
+      "last": 1332.18,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.053,
-      "chg3m": -5.74
+      "pct52": 0.045,
+      "chg3m": -5.88
     },
     "^GSPC": {
       "last": 7520.93,
@@ -101,11 +101,11 @@
       "chg3m": -6.48
     },
     "^VIX": {
-      "last": 18.74,
+      "last": 18.81,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.3,
-      "chg3m": 23.37
+      "pct52": 0.304,
+      "chg3m": 23.83
     },
     "^TNX": {
       "last": 4.98,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgvrBbyxJ"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgvvndVRv"
   },
   "stocks": {
     "kr": {
@@ -368,24 +368,24 @@
   "news": {
     "kr": [
       {
-        "title": "[인사] 미래에셋증권",
-        "link": "https://www.yna.co.kr/view/AKR20261111153500008",
+        "title": "금융위, 13일 자본시장 간담회…코스닥 활성화 등 논의할듯",
+        "link": "https://www.yna.co.kr/view/AKR20261111168700008",
         "source": "연합뉴스",
-        "date": "Wed, 11 Nov 2026 16:59:52 +0900",
+        "date": "Wed, 11 Nov 2026 18:25:27 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "메리츠증권, 3분기 누적 순익 7205억…전년비 12% 증가",
-        "link": "https://www.hankyung.com/article/2026111108226",
+        "title": "코어위브 깜짝 실적에…AI인프라주 '온기'",
+        "link": "https://www.hankyung.com/article/2026111110591",
         "source": "한국경제",
-        "date": "Wed, 11 Nov 2026 17:04:55 +0900",
+        "date": "Wed, 11 Nov 2026 18:07:20 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -401,21 +401,21 @@
         "by": "rules"
       },
       {
-        "title": "미국 '빅스텝' 우려 속 국고채 금리 급등…3년물 연 3.729%(종합)",
-        "link": "https://www.yna.co.kr/view/AKR20261111150551008",
+        "title": "주가 맞히면 포인트…카카오페이 '오늘의 예감'에 폴리마켓 유사 지적",
+        "link": "https://www.yna.co.kr/view/AKR20261111153600017",
         "source": "연합뉴스",
-        "date": "Wed, 11 Nov 2026 16:56:47 +0900",
+        "date": "Wed, 11 Nov 2026 17:41:38 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "외국인, 국내 증시서 네이버 가장 많이 샀다… \"아시아판 코어위브로 재평가 기대\"",
-        "link": "https://www.hankyung.com/article/202611110253i",
+        "title": "제이앤티지·씨앤엠, 흥행 실패에 상장철회",
+        "link": "https://www.hankyung.com/article/2026111110541",
         "source": "한국경제",
-        "date": "Wed, 11 Nov 2026 16:27:49 +0900",
+        "date": "Wed, 11 Nov 2026 17:59:19 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -451,7 +451,7 @@
         "title": "CoreWeave’s stock pops as new financing playbook eases debt concerns",
         "link": "https://www.marketwatch.com/story/coreweaves-stock-pops-as-new-financing-playbook-eases-debt-concerns-70241525?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Wed, 11 Nov 2026 01:12:00 GMT",
+        "date": "Wed, 11 Nov 2026 09:11:00 GMT",
         "ko": "새로운 자금 조달 플레이북이 부채 문제를 완화함에 따라 CoreWeave의 주가가 급등합니다.",
         "act": "none",
         "lasting": "temporary",
@@ -2955,7 +2955,7 @@
       "2026-11-08": 1363.21,
       "2026-11-09": 1341.8,
       "2026-11-10": 1343.44,
-      "2026-11-11": 1334.11
+      "2026-11-11": 1332.18
     },
     "^GSPC": {
       "2026-10-31": 7580.07,
@@ -2997,7 +2997,7 @@
       "2026-11-08": 25.64,
       "2026-11-09": 19.92,
       "2026-11-10": 19.46,
-      "2026-11-11": 18.74
+      "2026-11-11": 18.81
     },
     "^TNX": {
       "2026-10-31": 4.929,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgvrBbyxJnvyokYMams9m\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgvrBcUUmJEPQpbsdDH11\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgvrBcsJCZU2TPtimyck6\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgvvndVRvJr9ErLYX1KUk\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgvvndq2KnGyfEKGCnR2Z\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgvvne7PQG9Kw9Pb8rgpk\"}"
   ]
 }
