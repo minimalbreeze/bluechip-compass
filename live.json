@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-12T10:48:10.965Z",
+  "asOf": "2026-11-12T11:48:34.967Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -8,7 +8,7 @@
       "chg": -0.61,
       "prevDay": "2026-11-11",
       "basis": "prev-close-bar",
-      "time": "2026-11-12T06:32:50.000Z"
+      "time": "2026-11-12T11:05:40.000Z"
     },
     "^KQ11": {
       "price": 696.53,
@@ -16,15 +16,15 @@
       "chg": -1.22,
       "prevDay": "2026-11-11",
       "basis": "prev-close-bar",
-      "time": "2026-11-12T06:33:00.000Z"
+      "time": "2026-11-12T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1330.89,
+      "price": 1332.4,
       "prev": 1341.9100341796875,
-      "chg": -0.82,
+      "chg": -0.71,
       "prevDay": "2026-11-11",
       "basis": "prev-close-bar",
-      "time": "2026-11-12T10:48:04.000Z"
+      "time": "2026-11-12T11:48:17.000Z"
     },
     "^GSPC": {
       "price": 7619.38,
@@ -43,12 +43,12 @@
       "time": "2026-11-11T22:15:59.000Z"
     },
     "^VIX": {
-      "price": 18.26,
+      "price": 18.32,
       "prev": 17.489999771118164,
-      "chg": 4.4,
+      "chg": 4.75,
       "prevDay": "2026-11-11",
       "basis": "prev-close-bar",
-      "time": "2026-11-12T10:33:01.000Z"
+      "time": "2026-11-12T11:33:16.000Z"
     },
     "^TNX": {
       "price": 4.998,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.039
+    "pct": 0.046
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -18.8
     },
     "KRW=X": {
-      "last": 1330.89,
+      "last": 1332.4,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.039,
-      "chg3m": -5.93
+      "pct52": 0.046,
+      "chg3m": -5.82
     },
     "^GSPC": {
       "last": 7619.38,
@@ -101,11 +101,11 @@
       "chg3m": -4.73
     },
     "^VIX": {
-      "last": 18.26,
+      "last": 18.32,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.272,
-      "chg3m": 15.28
+      "pct52": 0.276,
+      "chg3m": 15.66
     },
     "^TNX": {
       "last": 5,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgxuHPG1F"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgxytXhTV"
   },
   "stocks": {
     "kr": {
@@ -448,6 +448,30 @@
         "by": "rules"
       },
       {
+        "title": "Tech stocks may soon enjoy a ‘violent bounce’ — but one strategist warns investors not to take the bait",
+        "link": "https://www.marketwatch.com/story/tech-stocks-may-soon-enjoy-a-violent-bounce-but-one-strategist-warns-investors-not-to-take-the-bait-1a41f9c4?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "date": "Thu, 12 Nov 2026 11:34:00 GMT",
+        "ko": "기술주가 곧 '급격한 반등'을 보일 수 있지만, 한 전략가는 투자자들에게 미끼를 물지 말라고 경고합니다.",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "3 unexpected reasons the October jobs report was so strong",
+        "link": "https://www.cnbc.com/2026/11/09/october-jobs-report-hiring-by-sector.html",
+        "source": "CNBC",
+        "date": "Mon, 09 Nov 2026 22:23:56 GMT",
+        "ko": "10월 일자리 보고서가 강력했던 3가지 예상치 못한 이유",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
         "title": "Nvidia’s stock drops as the board reportedly prepares to remove CEO Jensen Huang",
         "link": "https://www.marketwatch.com/story/nvidias-stock-drops-as-the-board-reportedly-prepares-to-remove-ceo-jensen-huang-9edee58d?mod=mw_rss_topstories",
         "source": "MarketWatch",
@@ -460,11 +484,11 @@
         "by": "rules"
       },
       {
-        "title": "3 unexpected reasons the October jobs report was so strong",
-        "link": "https://www.cnbc.com/2026/11/09/october-jobs-report-hiring-by-sector.html",
+        "title": "A key report for where inflation stood in October comes out Tuesday. Here's what to expect",
+        "link": "https://www.cnbc.com/2026/11/09/october-cpi-report-2026-inflation.html",
         "source": "CNBC",
-        "date": "Mon, 09 Nov 2026 22:23:56 GMT",
-        "ko": "10월 일자리 보고서가 강력했던 3가지 예상치 못한 이유",
+        "date": "Mon, 09 Nov 2026 21:03:55 GMT",
+        "ko": "10월 인플레이션이 어디에 있었는지에 대한 주요 보고서가 화요일에 나옵니다. 알아두어야 할 사항",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -482,36 +506,11 @@
         "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
-      },
-      {
-        "title": "A key report for where inflation stood in October comes out Tuesday. Here's what to expect",
-        "link": "https://www.cnbc.com/2026/11/09/october-cpi-report-2026-inflation.html",
-        "source": "CNBC",
-        "date": "Mon, 09 Nov 2026 21:03:55 GMT",
-        "ko": "10월 인플레이션이 어디에 있었는지에 대한 주요 보고서가 화요일에 나옵니다. 알아두어야 할 사항",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "China wholesale inflation hits highest in more than four years as consumer measure slows",
-        "link": "https://www.cnbc.com/2026/11/09/china-wholesale-inflation-rises-consumer.html",
-        "source": "CNBC",
-        "date": "Mon, 09 Nov 2026 02:50:22 GMT",
-        "ko": "소비자 측정이 둔화됨에 따라 중국 도매 인플레이션이 4년 이상 최고를 기록했습니다.",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
       }
     ]
   },
   "newsBy": "rules",
   "trCache": {
-    "Meta’s stock falls in early trading amid broader sector selloff, despite well-received results": "메타의 주식은 호평을 받았음에도 불구하고 광범위한 부문 매도 중 조기 거래에서 하락합니다.",
     "Markets are pricing in long-term AI winners. This veteran investor says history proves customers win more than innovators.": "시장은 장기적인 AI 승자의 가격을 책정하고 있습니다. 이 베테랑 투자자는 역사가 고객이 혁신가보다 더 많은 것을 이긴다는 것을 증명한다고 말합니다.",
     "IBM’s stock falls as investors struggle to shake off July earnings miss": "투자자들이 7월 수익 미스를 털어내기 위해 고군분투하면서 IBM의 주가가 하락합니다.",
     "Why this JPMorgan strategist thinks the stock market’s tailspin might have run its course": "이 JP모건 전략가가 주식 시장의 테일스핀이 코스를 달렸을 것이라고 생각하는 이유",
@@ -810,7 +809,8 @@
     "Falling oil prices are no longer enough to bring down borrowing costs in the world’s most important bond market": "하락하는 유가만으로는 더 이상 세계에서 가장 중요한 채권 시장의 차입 비용을 낮추기에 충분하지 않습니다.",
     "Sandisk’s stock just staged a big gain. Here’s how it could march even higher.": "샌디스크 주가가 막대한 상승세를 보였습니다. 주가가 더욱 상승할 수 있는 이유를 알아보겠습니다.",
     "Nvidia’s stock drops as the board reportedly prepares to remove CEO Jensen Huang": "Nvidia의 이사회가 CEO 젠슨 황을 해임할 준비를 하고 있다는 소식에 Nvidia 주가가 하락했습니다.",
-    "Nasdaq futures fall as Nvidia sinks 8% after hours on report board may oust Huang": "나스닥 선물 하락, 엔비디아 장 마감 후 8% 하락, 보고서에 따르면 이사회가 황 CEO를 해임할 수 있음"
+    "Nasdaq futures fall as Nvidia sinks 8% after hours on report board may oust Huang": "나스닥 선물 하락, 엔비디아 장 마감 후 8% 하락, 보고서에 따르면 이사회가 황 CEO를 해임할 수 있음",
+    "Tech stocks may soon enjoy a ‘violent bounce’ — but one strategist warns investors not to take the bait": "기술주가 곧 '급격한 반등'을 보일 수 있지만, 한 전략가는 투자자들에게 미끼를 물지 말라고 경고합니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2955,7 +2955,7 @@
       "2026-11-09": 1341.8,
       "2026-11-10": 1343.44,
       "2026-11-11": 1336.58,
-      "2026-11-12": 1330.89
+      "2026-11-12": 1332.4
     },
     "^GSPC": {
       "2026-11-01": 7580.07,
@@ -2997,7 +2997,7 @@
       "2026-11-09": 19.92,
       "2026-11-10": 19.46,
       "2026-11-11": 17.49,
-      "2026-11-12": 18.26
+      "2026-11-12": 18.32
     },
     "^TNX": {
       "2026-11-01": 4.929,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgxuHPG1FJsfFeJ3eC84k\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgxuHPmmDw6ELC1ndvm8a\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgxuHQB5NiZF76A5pyavZ\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgxytXhTVMxK9CKhaJzEg\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgxytY7Wrmbe3L753fFVC\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgxytYPdBYnJusL8r98pL\"}"
   ]
 }
