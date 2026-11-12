@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-12T11:48:34.967Z",
+  "asOf": "2026-11-12T12:48:54.820Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-12T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1332.4,
+      "price": 1331.98,
       "prev": 1341.9100341796875,
-      "chg": -0.71,
+      "chg": -0.74,
       "prevDay": "2026-11-11",
       "basis": "prev-close-bar",
-      "time": "2026-11-12T11:48:17.000Z"
+      "time": "2026-11-12T12:48:47.000Z"
     },
     "^GSPC": {
       "price": 7619.38,
@@ -43,12 +43,12 @@
       "time": "2026-11-11T22:15:59.000Z"
     },
     "^VIX": {
-      "price": 18.32,
+      "price": 18.34,
       "prev": 17.489999771118164,
-      "chg": 4.75,
+      "chg": 4.86,
       "prevDay": "2026-11-11",
       "basis": "prev-close-bar",
-      "time": "2026-11-12T11:33:16.000Z"
+      "time": "2026-11-12T12:33:46.000Z"
     },
     "^TNX": {
       "price": 4.998,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.046
+    "pct": 0.044
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -18.8
     },
     "KRW=X": {
-      "last": 1332.4,
+      "last": 1331.98,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.046,
-      "chg3m": -5.82
+      "pct52": 0.044,
+      "chg3m": -5.85
     },
     "^GSPC": {
       "last": 7619.38,
@@ -101,11 +101,11 @@
       "chg3m": -4.73
     },
     "^VIX": {
-      "last": 18.32,
+      "last": 18.34,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.276,
-      "chg3m": 15.66
+      "pct52": 0.277,
+      "chg3m": 15.78
     },
     "^TNX": {
       "last": 5,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgxytXhTV"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgy4VNXyt"
   },
   "stocks": {
     "kr": {
@@ -390,10 +390,10 @@
         "by": "rules"
       },
       {
-        "title": "주식 투자 선수들이라더니…액티브 ETF, 지수도 못 이겼다 [이슈플러스]",
-        "link": "https://www.mk.co.kr/news/business/12206773",
+        "title": "“물려있는데 뭘 할 수 있죠?”...코스피 거래대금, 6개월새 60% 증발",
+        "link": "https://www.mk.co.kr/news/stock/12206924",
         "source": "매일경제",
-        "date": "Thu, 12 Nov 2026 18:59:04 +09:00",
+        "date": "Thu, 12 Nov 2026 20:57:34 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -423,14 +423,14 @@
         "by": "rules"
       },
       {
-        "title": "하락장·과징금·스페이스X … '악재 쓰나미' 휩쓸린 증권사",
-        "link": "https://www.mk.co.kr/news/stock/12206705",
+        "title": "주식 투자 선수들이라더니…액티브 ETF, 지수도 못 이겼다 [이슈플러스]",
+        "link": "https://www.mk.co.kr/news/business/12206773",
         "source": "매일경제",
-        "date": "Thu, 12 Nov 2026 17:39:14 +09:00",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": null,
-        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
+        "date": "Thu, 12 Nov 2026 18:59:04 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
     ],
@@ -2955,7 +2955,7 @@
       "2026-11-09": 1341.8,
       "2026-11-10": 1343.44,
       "2026-11-11": 1336.58,
-      "2026-11-12": 1332.4
+      "2026-11-12": 1331.98
     },
     "^GSPC": {
       "2026-11-01": 7580.07,
@@ -2997,7 +2997,7 @@
       "2026-11-09": 19.92,
       "2026-11-10": 19.46,
       "2026-11-11": 17.49,
-      "2026-11-12": 18.32
+      "2026-11-12": 18.34
     },
     "^TNX": {
       "2026-11-01": 4.929,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgxytXhTVMxK9CKhaJzEg\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgxytY7Wrmbe3L753fFVC\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgxytYPdBYnJusL8r98pL\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgy4VNXyt7DWvTibEDLrE\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgy4VNjtNV441jwzjGHSd\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgy4VNspao7rkCLt5ugDc\"}"
   ]
 }
