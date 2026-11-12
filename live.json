@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-11T23:23:52.146Z",
+  "asOf": "2026-11-12T00:02:14.361Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-11T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1336.58,
-      "prev": 1343.8399658203125,
-      "chg": -0.54,
-      "prevDay": "2026-11-10",
+      "price": 1333.98,
+      "prev": 1341.9100341796875,
+      "chg": -0.59,
+      "prevDay": "2026-11-11",
       "basis": "prev-close-bar",
-      "time": "2026-11-11T23:19:33.000Z"
+      "time": "2026-11-12T00:02:05.000Z"
     },
     "^GSPC": {
       "price": 7619.38,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.064
+    "pct": 0.053
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -16.42
     },
     "KRW=X": {
-      "last": 1336.58,
+      "last": 1333.98,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.064,
-      "chg3m": -5.57
+      "pct52": 0.053,
+      "chg3m": -5.71
     },
     "^GSPC": {
       "last": 7619.38,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgx16mStb"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgx42UTg5"
   },
   "stocks": {
     "kr": {
@@ -368,13 +368,13 @@
   "news": {
     "kr": [
       {
-        "title": "IBK증권, 티엘비 목표가↑…\"4분기 영업이익률 20%까지 오를 것\"",
-        "link": "https://www.yna.co.kr/view/AKR20261112026700008",
+        "title": "신한증권, 코오롱인더 목표가↓…\"원가·환율 부담에 실적 악화\"",
+        "link": "https://www.yna.co.kr/view/AKR20261112030400008",
         "source": "연합뉴스",
-        "date": "Thu, 12 Nov 2026 08:18:28 +0900",
+        "date": "Thu, 12 Nov 2026 08:46:29 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -401,13 +401,13 @@
         "by": "rules"
       },
       {
-        "title": "[마켓뷰] 이틀연속 반등한 코스피, 코어위브 호재에 더 달리나",
-        "link": "https://www.yna.co.kr/view/AKR20261111181300008",
+        "title": "키움증권 \"실리콘투, 원화강세에 영업익 전망치 하회\"…목표가↓",
+        "link": "https://www.yna.co.kr/view/AKR20261112027900008",
         "source": "연합뉴스",
-        "date": "Thu, 12 Nov 2026 07:35:12 +0900",
+        "date": "Thu, 12 Nov 2026 08:36:40 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -2944,7 +2944,6 @@
       "2026-11-12": 705.1
     },
     "KRW=X": {
-      "2026-10-31": 1335.1,
       "2026-11-01": 1332.38,
       "2026-11-02": 1344.49,
       "2026-11-03": 1343.59,
@@ -2955,7 +2954,8 @@
       "2026-11-08": 1363.21,
       "2026-11-09": 1341.8,
       "2026-11-10": 1343.44,
-      "2026-11-11": 1336.58
+      "2026-11-11": 1336.58,
+      "2026-11-12": 1333.98
     },
     "^GSPC": {
       "2026-10-31": 7580.07,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgx16mStbcXftTBXYZQA7\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgx16mqT6XtC3ctUUg1vW\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgx16n7a4HmBQjj9gQNfL\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgx42UTg54aGeyZd92F12\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgx42UokwXJVgb3VGDWaN\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgx42V68AVZwSaJP2pkuU\"}"
   ]
 }
