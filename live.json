@@ -1,30 +1,30 @@
 {
-  "asOf": "2026-11-12T01:35:27.572Z",
+  "asOf": "2026-11-12T01:45:52.613Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
-      "price": 5383.86,
+      "price": 5345.19,
       "prev": 5375.36,
-      "chg": 0.16,
+      "chg": -0.56,
       "prevDay": "2026-11-11",
       "basis": "prev-close-memo",
-      "time": "2026-11-12T01:15:10.000Z"
+      "time": "2026-11-12T01:25:40.000Z"
     },
     "^KQ11": {
-      "price": 697.57,
+      "price": 695.78,
       "prev": 705.1,
-      "chg": -1.07,
+      "chg": -1.32,
       "prevDay": "2026-11-11",
       "basis": "prev-close-memo",
-      "time": "2026-11-12T01:15:20.000Z"
+      "time": "2026-11-12T01:25:40.000Z"
     },
     "KRW=X": {
-      "price": 1335.99,
+      "price": 1334.68,
       "prev": 1341.9100341796875,
-      "chg": -0.44,
+      "chg": -0.54,
       "prevDay": "2026-11-11",
       "basis": "prev-close-bar",
-      "time": "2026-11-12T01:35:20.000Z"
+      "time": "2026-11-12T01:45:41.000Z"
     },
     "^GSPC": {
       "price": 7619.38,
@@ -62,29 +62,29 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.061
+    "pct": 0.056
   },
   "hist": {
     "^KS11": {
-      "last": 5377.88,
+      "last": 5345.19,
       "low52": 3846.06,
       "high52": 9114.55,
-      "pct52": 0.291,
-      "chg3m": -14.63
+      "pct52": 0.285,
+      "chg3m": -15.15
     },
     "^KQ11": {
-      "last": 697.57,
+      "last": 695.78,
       "low52": 638.97,
       "high52": 1226.18,
-      "pct52": 0.1,
-      "chg3m": -18.36
+      "pct52": 0.097,
+      "chg3m": -18.57
     },
     "KRW=X": {
-      "last": 1335.99,
+      "last": 1334.68,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.061,
-      "chg3m": -5.57
+      "pct52": 0.056,
+      "chg3m": -5.66
     },
     "^GSPC": {
       "last": 7619.38,
@@ -149,81 +149,81 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgxB8mWpi"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgxBvqtnL"
   },
   "stocks": {
     "kr": {
       "105560": {
-        "price": 151700,
+        "price": 151300,
         "prev": 153300,
-        "chg": -1.04,
+        "chg": -1.3,
         "prevDay": "2026-11-11",
         "basis": "prev-close-bar",
-        "time": "2026-11-12T01:15:22.000Z"
+        "time": "2026-11-12T01:25:50.000Z"
       },
       "207940": {
-        "price": 1420000,
+        "price": 1421000,
         "prev": 1430000,
-        "chg": -0.7,
+        "chg": -0.63,
         "prevDay": "2026-11-11",
         "basis": "prev-close-bar",
-        "time": "2026-11-12T01:15:23.000Z"
+        "time": "2026-11-12T01:25:49.000Z"
       },
       "005930": {
-        "price": 210500,
+        "price": 208500,
         "prev": 206000,
-        "chg": 2.18,
+        "chg": 1.21,
         "prevDay": "2026-11-11",
         "basis": "prev-close-bar",
-        "time": "2026-11-12T01:15:24.000Z"
+        "time": "2026-11-12T01:25:50.000Z"
       },
       "000660": {
-        "price": 1278000,
+        "price": 1271000,
         "prev": 1277000,
-        "chg": 0.08,
+        "chg": -0.47,
         "prevDay": "2026-11-11",
         "basis": "prev-close-bar",
-        "time": "2026-11-12T01:15:25.000Z"
+        "time": "2026-11-12T01:25:50.000Z"
       },
       "005380": {
-        "price": 269500,
+        "price": 268250,
         "prev": 272500,
-        "chg": -1.1,
+        "chg": -1.56,
         "prevDay": "2026-11-11",
         "basis": "prev-close-bar",
-        "time": "2026-11-12T01:15:22.000Z"
+        "time": "2026-11-12T01:25:50.000Z"
       },
       "055550": {
-        "price": 84800,
+        "price": 84700,
         "prev": 85700,
-        "chg": -1.05,
+        "chg": -1.17,
         "prevDay": "2026-11-11",
         "basis": "prev-close-bar",
-        "time": "2026-11-12T01:15:22.000Z"
+        "time": "2026-11-12T01:25:46.000Z"
       },
       "000810": {
-        "price": 537000,
+        "price": 535000,
         "prev": 566000,
-        "chg": -5.12,
+        "chg": -5.48,
         "prevDay": "2026-11-11",
         "basis": "prev-close-bar",
-        "time": "2026-11-12T01:15:23.000Z"
+        "time": "2026-11-12T01:25:50.000Z"
       },
       "033780": {
-        "price": 172000,
+        "price": 172100,
         "prev": 173100,
-        "chg": -0.64,
+        "chg": -0.58,
         "prevDay": "2026-11-11",
         "basis": "prev-close-bar",
-        "time": "2026-11-12T01:15:23.000Z"
+        "time": "2026-11-12T01:25:49.000Z"
       },
       "035420": {
-        "price": 182600,
+        "price": 181600,
         "prev": 194300,
-        "chg": -6.02,
+        "chg": -6.54,
         "prevDay": "2026-11-11",
         "basis": "prev-close-bar",
-        "time": "2026-11-12T01:15:25.000Z"
+        "time": "2026-11-12T01:25:50.000Z"
       },
       "005490": {
         "price": 275000,
@@ -231,31 +231,31 @@
         "chg": -0.54,
         "prevDay": "2026-11-11",
         "basis": "prev-close-bar",
-        "time": "2026-11-12T01:15:24.000Z"
+        "time": "2026-11-12T01:25:50.000Z"
       },
       "028260": {
-        "price": 285000,
+        "price": 284500,
         "prev": 283000,
-        "chg": 0.71,
+        "chg": 0.53,
         "prevDay": "2026-11-11",
         "basis": "prev-close-bar",
-        "time": "2026-11-12T01:15:23.000Z"
+        "time": "2026-11-12T01:25:50.000Z"
       },
       "012450": {
-        "price": 663000,
+        "price": 659000,
         "prev": 659000,
-        "chg": 0.61,
+        "chg": 0,
         "prevDay": "2026-11-11",
         "basis": "prev-close-bar",
-        "time": "2026-11-12T01:15:22.000Z"
+        "time": "2026-11-12T01:25:30.000Z"
       },
       "017670": {
-        "price": 81200,
+        "price": 80900,
         "prev": 82700,
-        "chg": -1.81,
+        "chg": -2.18,
         "prevDay": "2026-11-11",
         "basis": "prev-close-bar",
-        "time": "2026-11-12T01:15:24.000Z"
+        "time": "2026-11-12T01:25:50.000Z"
       }
     },
     "us": {
@@ -401,17 +401,6 @@
         "by": "rules"
       },
       {
-        "title": "카카오페이증권, AI기반 '이상 거래 탐지시스템' 도입",
-        "link": "https://www.yna.co.kr/view/AKR20261112056200008",
-        "source": "연합뉴스",
-        "date": "Thu, 12 Nov 2026 09:55:27 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
         "title": "대신자산운용, '주주환원고배당펀드' 설정액 2000억원 돌파",
         "link": "https://www.hankyung.com/article/2026111220716",
         "source": "한국경제",
@@ -427,6 +416,17 @@
         "link": "https://www.mk.co.kr/news/stock/12206044",
         "source": "매일경제",
         "date": "Thu, 12 Nov 2026 09:38:32 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "KB증권 '내 컵 챌린지' 성료…환경보호에 1000만원 기부",
+        "link": "https://www.hankyung.com/article/2026111219776",
+        "source": "한국경제",
+        "date": "Thu, 12 Nov 2026 09:33:09 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -448,14 +448,14 @@
         "by": "rules"
       },
       {
-        "title": "Nasdaq futures fall as Nvidia sinks 8% after hours on report board may oust Huang",
-        "link": "https://www.marketwatch.com/story/nasdaq-futures-fall-as-nvidia-sinks-8-after-hours-on-report-board-may-oust-huang-e99b898d?mod=mw_rss_topstories",
+        "title": "Nvidia’s stock drops as the board reportedly prepares to remove CEO Jensen Huang",
+        "link": "https://www.marketwatch.com/story/nvidias-stock-drops-as-the-board-reportedly-prepares-to-remove-ceo-jensen-huang-9edee58d?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Thu, 12 Nov 2026 01:12:00 GMT",
-        "ko": "나스닥 선물 하락, 엔비디아 장 마감 후 8% 하락, 보고서에 따르면 이사회가 황 CEO를 해임할 수 있음",
+        "date": "Thu, 12 Nov 2026 01:35:00 GMT",
+        "ko": "Nvidia의 이사회가 CEO 젠슨 황을 해임할 준비를 하고 있다는 소식에 Nvidia 주가가 하락했습니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -472,14 +472,14 @@
         "by": "rules"
       },
       {
-        "title": "Nvidia’s stock drops as the board reportedly prepares to remove CEO Jensen Huang",
-        "link": "https://www.marketwatch.com/story/nvidias-stock-drops-as-the-board-reportedly-prepares-to-remove-ceo-jensen-huang-9edee58d?mod=mw_rss_topstories",
+        "title": "Nasdaq futures fall as Nvidia sinks 8% after hours on report board may oust Huang",
+        "link": "https://www.marketwatch.com/story/nasdaq-futures-fall-as-nvidia-sinks-8-after-hours-on-report-board-may-oust-huang-e99b898d?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Thu, 12 Nov 2026 00:57:00 GMT",
-        "ko": "Nvidia의 이사회가 CEO 젠슨 황을 해임할 준비를 하고 있다는 소식에 Nvidia 주가가 하락했습니다.",
+        "date": "Thu, 12 Nov 2026 01:12:00 GMT",
+        "ko": "나스닥 선물 하락, 엔비디아 장 마감 후 8% 하락, 보고서에 따르면 이사회가 황 CEO를 해임할 수 있음",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -2927,7 +2927,7 @@
       "2026-11-09": 5018.85,
       "2026-11-10": 5239.13,
       "2026-11-11": 5375.36,
-      "2026-11-12": 5383.86
+      "2026-11-12": 5345.19
     },
     "^KQ11": {
       "2026-11-01": 724.38,
@@ -2941,7 +2941,7 @@
       "2026-11-09": 638.97,
       "2026-11-10": 667.61,
       "2026-11-11": 705.1,
-      "2026-11-12": 697.57
+      "2026-11-12": 695.78
     },
     "KRW=X": {
       "2026-11-01": 1332.38,
@@ -2955,7 +2955,7 @@
       "2026-11-09": 1341.8,
       "2026-11-10": 1343.44,
       "2026-11-11": 1336.58,
-      "2026-11-12": 1335.99
+      "2026-11-12": 1334.68
     },
     "^GSPC": {
       "2026-10-31": 7580.07,
@@ -3025,7 +3025,7 @@
       "2026-11-09": 150900,
       "2026-11-10": 152700,
       "2026-11-11": 153300,
-      "2026-11-12": 151700
+      "2026-11-12": 151300
     },
     "207940.KS": {
       "2026-11-01": 1487000,
@@ -3039,7 +3039,7 @@
       "2026-11-09": 1510000,
       "2026-11-10": 1468000,
       "2026-11-11": 1430000,
-      "2026-11-12": 1420000
+      "2026-11-12": 1421000
     },
     "005930.KS": {
       "2026-11-01": 225000,
@@ -3053,7 +3053,7 @@
       "2026-11-09": 189900,
       "2026-11-10": 198900,
       "2026-11-11": 206000,
-      "2026-11-12": 210500
+      "2026-11-12": 208500
     },
     "000660.KS": {
       "2026-11-01": 1418000,
@@ -3067,7 +3067,7 @@
       "2026-11-09": 1136000,
       "2026-11-10": 1212000,
       "2026-11-11": 1277000,
-      "2026-11-12": 1278000
+      "2026-11-12": 1271000
     },
     "005380.KS": {
       "2026-11-01": 282000,
@@ -3081,7 +3081,7 @@
       "2026-11-09": 271500,
       "2026-11-10": 275000,
       "2026-11-11": 272500,
-      "2026-11-12": 269500
+      "2026-11-12": 268250
     },
     "055550.KS": {
       "2026-11-01": 89600,
@@ -3095,7 +3095,7 @@
       "2026-11-09": 85800,
       "2026-11-10": 85500,
       "2026-11-11": 85700,
-      "2026-11-12": 84800
+      "2026-11-12": 84700
     },
     "000810.KS": {
       "2026-11-01": 659000,
@@ -3109,7 +3109,7 @@
       "2026-11-09": 606000,
       "2026-11-10": 599000,
       "2026-11-11": 566000,
-      "2026-11-12": 537000
+      "2026-11-12": 535000
     },
     "033780.KS": {
       "2026-11-01": 196200,
@@ -3123,7 +3123,7 @@
       "2026-11-09": 182400,
       "2026-11-10": 175700,
       "2026-11-11": 173100,
-      "2026-11-12": 172000
+      "2026-11-12": 172100
     },
     "035420.KS": {
       "2026-11-01": 172300,
@@ -3137,7 +3137,7 @@
       "2026-11-09": 187100,
       "2026-11-10": 193000,
       "2026-11-11": 194300,
-      "2026-11-12": 182600
+      "2026-11-12": 181600
     },
     "005490.KS": {
       "2026-11-01": 273500,
@@ -3165,7 +3165,7 @@
       "2026-11-09": 269500,
       "2026-11-10": 279000,
       "2026-11-11": 283000,
-      "2026-11-12": 285000
+      "2026-11-12": 284500
     },
     "012450.KS": {
       "2026-11-01": 696000,
@@ -3179,7 +3179,7 @@
       "2026-11-09": 639000,
       "2026-11-10": 659000,
       "2026-11-11": 659000,
-      "2026-11-12": 663000
+      "2026-11-12": 659000
     },
     "017670.KS": {
       "2026-11-01": 75400,
@@ -3193,7 +3193,7 @@
       "2026-11-09": 77400,
       "2026-11-10": 81500,
       "2026-11-11": 82700,
-      "2026-11-12": 81200
+      "2026-11-12": 80900
     },
     "MSFT": {
       "2026-10-31": 521.91,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgxB8mWpiUXD66jZRRbPh\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgxB8mzrWBReRS4TrwTmr\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgxB8nPfhR4WUwHjerXUR\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgxBvqtnL6BzkQ7rcUmsQ\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgxBvrS39y5FabA1XLzGB\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgxBvrkNwsgTYE9CKUA6H\"}"
   ]
 }
