@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-12T07:47:03.680Z",
+  "asOf": "2026-11-12T08:47:27.451Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-12T06:33:00.000Z"
     },
     "KRW=X": {
-      "price": 1333.68,
+      "price": 1333.35,
       "prev": 1341.9100341796875,
-      "chg": -0.61,
+      "chg": -0.64,
       "prevDay": "2026-11-11",
       "basis": "prev-close-bar",
-      "time": "2026-11-12T07:46:56.000Z"
+      "time": "2026-11-12T08:47:11.000Z"
     },
     "^GSPC": {
       "price": 7619.38,
@@ -43,12 +43,12 @@
       "time": "2026-11-11T22:15:59.000Z"
     },
     "^VIX": {
-      "price": 17.49,
+      "price": 18.42,
       "prev": 17.489999771118164,
-      "chg": 0,
+      "chg": 5.32,
       "prevDay": "2026-11-11",
       "basis": "prev-close-bar",
-      "time": "2026-11-11T21:15:01.000Z"
+      "time": "2026-11-12T08:32:16.000Z"
     },
     "^TNX": {
       "price": 4.998,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.051
+    "pct": 0.05
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -18.8
     },
     "KRW=X": {
-      "last": 1333.53,
+      "last": 1333.35,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.051,
-      "chg3m": -5.74
+      "pct52": 0.05,
+      "chg3m": -5.75
     },
     "^GSPC": {
       "last": 7619.38,
@@ -101,11 +101,11 @@
       "chg3m": -4.73
     },
     "^VIX": {
-      "last": 17.49,
+      "last": 18.42,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.229,
-      "chg3m": 15.14
+      "pct52": 0.282,
+      "chg3m": 16.29
     },
     "^TNX": {
       "last": 5,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgxfUJwye"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgxk5S7md"
   },
   "stocks": {
     "kr": {
@@ -368,13 +368,13 @@
   "news": {
     "kr": [
       {
-        "title": "국고채 금리 혼조세…3년물 연 3.729%",
-        "link": "https://www.yna.co.kr/view/AKR20261112153200008",
+        "title": "바이브컴퍼니, 29억9천만원 제3자배정 유상증자",
+        "link": "https://www.yna.co.kr/view/AKR20261112164200008",
         "source": "연합뉴스",
-        "date": "Thu, 12 Nov 2026 16:40:46 +0900",
+        "date": "Thu, 12 Nov 2026 17:29:46 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -390,24 +390,24 @@
         "by": "rules"
       },
       {
-        "title": "“외국인 선물 샀는데 왜 빠졌지?”…옵션 만기일 코스피 막판 ‘출렁’",
-        "link": "https://www.mk.co.kr/news/stock/12206541",
+        "title": "하락장·과징금·스페이스X … '악재 쓰나미' 휩쓸린 증권사",
+        "link": "https://www.mk.co.kr/news/stock/12206705",
         "source": "매일경제",
-        "date": "Thu, 12 Nov 2026 16:34:30 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "date": "Thu, 12 Nov 2026 17:39:14 +09:00",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": null,
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
         "by": "rules"
       },
       {
-        "title": "증시부진·금리상승에 '직격탄'…증권사 3분기 실적 줄줄이 악화(종합)",
-        "link": "https://www.yna.co.kr/view/AKR20261112087051008",
+        "title": "바이브컴퍼니, 50억원 유상증자…에이아이블레이저에 제3자배정",
+        "link": "https://www.yna.co.kr/view/AKR20261112164100008",
         "source": "연합뉴스",
-        "date": "Thu, 12 Nov 2026 16:29:50 +0900",
+        "date": "Thu, 12 Nov 2026 17:28:54 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -423,10 +423,10 @@
         "by": "rules"
       },
       {
-        "title": "SK증권, ESG 평가 2년 연속 A등급…기후위험 관리 강화",
-        "link": "https://www.mk.co.kr/news/stock/12206471",
+        "title": "주식 거래대금 62% 줄었다 … K증시 '썰물'",
+        "link": "https://www.mk.co.kr/news/stock/12206702",
         "source": "매일경제",
-        "date": "Thu, 12 Nov 2026 16:00:01 +09:00",
+        "date": "Thu, 12 Nov 2026 17:39:12 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -2955,7 +2955,7 @@
       "2026-11-09": 1341.8,
       "2026-11-10": 1343.44,
       "2026-11-11": 1336.58,
-      "2026-11-12": 1333.68
+      "2026-11-12": 1333.35
     },
     "^GSPC": {
       "2026-11-01": 7580.07,
@@ -2997,7 +2997,7 @@
       "2026-11-09": 19.92,
       "2026-11-10": 19.46,
       "2026-11-11": 17.49,
-      "2026-11-12": 17.49
+      "2026-11-12": 18.42
     },
     "^TNX": {
       "2026-11-01": 4.929,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgxfUJwyehxMDy7ZeoyYh\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgxfUKSzDMZ9aLc1k7BAk\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgxfUKrJQjgj92p6wTRFC\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgxk5S7mdHgmVqS4dnq8i\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgxk5SeHGnPwfR4JnHaQq\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgxk5T2rEXKJ9F9sjFKR2\"}"
   ]
 }
