@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-12T00:02:14.361Z",
+  "asOf": "2026-11-12T00:12:38.835Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-11T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1333.98,
+      "price": 1332.18,
       "prev": 1341.9100341796875,
-      "chg": -0.59,
+      "chg": -0.73,
       "prevDay": "2026-11-11",
       "basis": "prev-close-bar",
-      "time": "2026-11-12T00:02:05.000Z"
+      "time": "2026-11-12T00:12:28.000Z"
     },
     "^GSPC": {
       "price": 7619.38,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.053
+    "pct": 0.045
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -16.42
     },
     "KRW=X": {
-      "last": 1333.98,
+      "last": 1332.18,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.053,
-      "chg3m": -5.71
+      "pct52": 0.045,
+      "chg3m": -5.84
     },
     "^GSPC": {
       "last": 7619.38,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgx42UTg5"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgx4pWN3r"
   },
   "stocks": {
     "kr": {
@@ -368,6 +368,39 @@
   "news": {
     "kr": [
       {
+        "title": "노동부, 23∼27일 올해 마지막 외국인노동자 고용허가 접수",
+        "link": "https://www.yna.co.kr/view/AKR20261111148100530",
+        "source": "연합뉴스",
+        "date": "Thu, 12 Nov 2026 09:00:05 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "코스피 추종 인버스 ETF 대거 사들인 초고수들...SK하이닉스, 하루만에 순매수로",
+        "link": "https://www.hankyung.com/article/202611121781i",
+        "source": "한국경제",
+        "date": "Thu, 12 Nov 2026 09:01:58 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "“2730억 흑자에서 591억 적자로”…증권사 1.4조 과징금 후폭풍 [오늘 나온 보고서]",
+        "link": "https://www.mk.co.kr/news/stock/12205981",
+        "source": "매일경제",
+        "date": "Thu, 12 Nov 2026 09:10:28 +09:00",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": null,
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
+        "by": "rules"
+      },
+      {
         "title": "신한증권, 코오롱인더 목표가↓…\"원가·환율 부담에 실적 악화\"",
         "link": "https://www.yna.co.kr/view/AKR20261112030400008",
         "source": "연합뉴스",
@@ -379,13 +412,13 @@
         "by": "rules"
       },
       {
-        "title": "[속보] \"엔비디아 이사회, 젠슨 황 해임 준비\"…시간 외 주가 8% 급락",
-        "link": "https://www.hankyung.com/article/202611121576i",
+        "title": "지니언스, 3분기 영업이익 38억원…전년 동기 대비 253%↑",
+        "link": "https://www.hankyung.com/article/2026111217846",
         "source": "한국경제",
-        "date": "Thu, 12 Nov 2026 07:47:09 +0900",
+        "date": "Thu, 12 Nov 2026 08:49:12 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -394,39 +427,6 @@
         "link": "https://www.mk.co.kr/news/world/12205951",
         "source": "매일경제",
         "date": "Thu, 12 Nov 2026 08:19:00 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "키움증권 \"실리콘투, 원화강세에 영업익 전망치 하회\"…목표가↓",
-        "link": "https://www.yna.co.kr/view/AKR20261112027900008",
-        "source": "연합뉴스",
-        "date": "Thu, 12 Nov 2026 08:36:40 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "\"JYP엔터, 스트레이키즈 서구권 팬덤에 3분기 깜짝 실적…목표가↑\"-하나",
-        "link": "https://www.hankyung.com/article/2026111215616",
-        "source": "한국경제",
-        "date": "Thu, 12 Nov 2026 07:41:10 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "“순익 28% 급감했지만”…키움증권, 메리츠금융 목표가 17만원 유지한 이유",
-        "link": "https://www.mk.co.kr/news/stock/12205946",
-        "source": "매일경제",
-        "date": "Thu, 12 Nov 2026 08:12:38 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -451,7 +451,7 @@
         "title": "Nvidia’s stock drops as the board reportedly prepares to remove CEO Jensen Huang",
         "link": "https://www.marketwatch.com/story/nvidias-stock-drops-as-the-board-reportedly-prepares-to-remove-ceo-jensen-huang-9edee58d?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Wed, 11 Nov 2026 23:08:00 GMT",
+        "date": "Thu, 12 Nov 2026 00:06:00 GMT",
         "ko": "Nvidia의 이사회가 CEO 젠슨 황을 해임할 준비를 하고 있다는 소식에 Nvidia 주가가 하락했습니다.",
         "act": "none",
         "lasting": "temporary",
@@ -2955,7 +2955,7 @@
       "2026-11-09": 1341.8,
       "2026-11-10": 1343.44,
       "2026-11-11": 1336.58,
-      "2026-11-12": 1333.98
+      "2026-11-12": 1332.18
     },
     "^GSPC": {
       "2026-10-31": 7580.07,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgx42UTg54aGeyZd92F12\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgx42UokwXJVgb3VGDWaN\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgx42V68AVZwSaJP2pkuU\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgx4pWN3rwTb3piGcBu4R\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgx4pWj8rhRsmPSQ4eRjt\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgx4pWwXKxRtjPv9wuajS\"}"
   ]
 }
