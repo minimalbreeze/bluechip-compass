@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-13T00:01:50.919Z",
+  "asOf": "2026-11-13T00:12:13.961Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-12T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1334.28,
+      "price": 1336.38,
       "prev": 1336.260009765625,
-      "chg": -0.15,
+      "chg": 0.01,
       "prevDay": "2026-11-12",
       "basis": "prev-close-bar",
-      "time": "2026-11-13T00:01:41.000Z"
+      "time": "2026-11-13T00:12:02.000Z"
     },
     "^GSPC": {
       "price": 7592.4,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.054
+    "pct": 0.063
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -17.48
     },
     "KRW=X": {
-      "last": 1334.28,
+      "last": 1336.38,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.054,
-      "chg3m": -5.61
+      "pct52": 0.063,
+      "chg3m": -5.46
     },
     "^GSPC": {
       "last": 7592.4,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgywofQgT"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgyxbaq8u"
   },
   "stocks": {
     "kr": {
@@ -368,13 +368,13 @@
   "news": {
     "kr": [
       {
-        "title": "HLB제약, 3분기 영업이익 8억5천만원…전년 대비 급증",
-        "link": "https://www.yna.co.kr/view/AKR20261113027500017",
+        "title": "원주시, 그린스타트업타운 운영기관 모집…연 9억3천만원 위탁",
+        "link": "https://www.yna.co.kr/view/AKR20261113035600062",
         "source": "연합뉴스",
-        "date": "Fri, 13 Nov 2026 08:56:54 +0900",
+        "date": "Fri, 13 Nov 2026 09:06:57 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -401,13 +401,13 @@
         "by": "rules"
       },
       {
-        "title": "HJ중공업, 3분기 누적 영업이익 1천554억…작년 대비 8배 증가",
-        "link": "https://www.yna.co.kr/view/AKR20261113031800051",
+        "title": "코스피, '젠슨황 퇴임' 속 장초반 2%대 상승…코스닥도 1%대↑",
+        "link": "https://www.yna.co.kr/view/AKR20261113036400008",
         "source": "연합뉴스",
-        "date": "Fri, 13 Nov 2026 08:47:24 +0900",
+        "date": "Fri, 13 Nov 2026 09:04:50 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -2955,7 +2955,7 @@
       "2026-11-10": 1343.44,
       "2026-11-11": 1336.58,
       "2026-11-12": 1334.48,
-      "2026-11-13": 1334.28
+      "2026-11-13": 1336.38
     },
     "^GSPC": {
       "2026-11-01": 7580.07,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgywofQgThZ9QHqDpjfj5\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgywofkWu8kcW1Szc6RTk\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgywofzeoyYbnsRxri2HR\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgyxbaq8uQFyPWdCNFnNv\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgyxbbHv9n9GoKC552R6s\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgyxbbgj1QqaqmcWVaccK\"}"
   ]
 }
