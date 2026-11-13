@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-12T23:08:29.995Z",
+  "asOf": "2026-11-13T00:01:50.919Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-12T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1334.48,
-      "prev": 1341.9100341796875,
-      "chg": -0.55,
-      "prevDay": "2026-11-11",
+      "price": 1334.28,
+      "prev": 1336.260009765625,
+      "chg": -0.15,
+      "prevDay": "2026-11-12",
       "basis": "prev-close-bar",
-      "time": "2026-11-12T23:08:19.000Z"
+      "time": "2026-11-13T00:01:41.000Z"
     },
     "^GSPC": {
       "price": 7592.4,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.055
+    "pct": 0.054
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -17.48
     },
     "KRW=X": {
-      "last": 1334.49,
+      "last": 1334.28,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.055,
-      "chg3m": -5.67
+      "pct52": 0.054,
+      "chg3m": -5.61
     },
     "^GSPC": {
       "last": 7592.4,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgysjhgHW"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgywofQgT"
   },
   "stocks": {
     "kr": {
@@ -368,24 +368,57 @@
   "news": {
     "kr": [
       {
-        "title": "환율·유가 동반 하락에 10월 수입물가 1.8%↓",
-        "link": "https://www.yna.co.kr/view/AKR20261112167900002",
+        "title": "HLB제약, 3분기 영업이익 8억5천만원…전년 대비 급증",
+        "link": "https://www.yna.co.kr/view/AKR20261113027500017",
         "source": "연합뉴스",
-        "date": "Fri, 13 Nov 2026 06:00:03 +0900",
+        "date": "Fri, 13 Nov 2026 08:56:54 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "1400조 벌고도 폭락…개미들 울린 코스피의 '씁쓸한 이면' [분석+]",
-        "link": "https://www.hankyung.com/article/2026111227706",
+        "title": "'젠슨 황 쇼크' 엔비디아 4.34%↓…기술주 전반 하락 마감 [뉴욕증시 브리핑]",
+        "link": "https://www.hankyung.com/article/2026111341036",
         "source": "한국경제",
-        "date": "Fri, 13 Nov 2026 06:30:13 +0900",
+        "date": "Fri, 13 Nov 2026 07:42:43 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "증권가 ‘4천피’ 경고 나왔다…“젠슨 황 사임, 반도체 불확실성 커져” [오늘 나온 보고서]",
+        "link": "https://www.mk.co.kr/news/stock/12207628",
+        "source": "매일경제",
+        "date": "Fri, 13 Nov 2026 08:31:36 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "HJ중공업, 3분기 누적 영업이익 1천554억…작년 대비 8배 증가",
+        "link": "https://www.yna.co.kr/view/AKR20261113031800051",
+        "source": "연합뉴스",
+        "date": "Fri, 13 Nov 2026 08:47:24 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "잰슨황이 촉발한 'AI 반도체 시장 재편'... 한국 반도체주 향방은 [오늘 아침 당신이 알아야 할 7가지]",
+        "link": "https://www.hankyung.com/article/202611134078i",
+        "source": "한국경제",
+        "date": "Fri, 13 Nov 2026 07:38:51 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -397,39 +430,6 @@
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "바이브컴퍼니, 29억9천만원 제3자배정 유상증자",
-        "link": "https://www.yna.co.kr/view/AKR20261112164200008",
-        "source": "연합뉴스",
-        "date": "Thu, 12 Nov 2026 17:29:46 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "\"젠슨 황 불륜이 끝이 아니다\"…금리 인상 공포 겹친 증시 [월가 업&다운]",
-        "link": "https://www.hankyung.com/article/202611133987i",
-        "source": "한국경제",
-        "date": "Fri, 13 Nov 2026 06:30:11 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "[속보] 엔비디아, 젠슨황 사임에 뉴욕증시서 13% 급락 출발",
-        "link": "https://www.mk.co.kr/news/stock/12207212",
-        "source": "매일경제",
-        "date": "Thu, 12 Nov 2026 23:49:37 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -2944,7 +2944,6 @@
       "2026-11-13": 696.53
     },
     "KRW=X": {
-      "2026-11-01": 1332.38,
       "2026-11-02": 1344.49,
       "2026-11-03": 1343.59,
       "2026-11-04": 1340.04,
@@ -2955,7 +2954,8 @@
       "2026-11-09": 1341.8,
       "2026-11-10": 1343.44,
       "2026-11-11": 1336.58,
-      "2026-11-12": 1334.48
+      "2026-11-12": 1334.48,
+      "2026-11-13": 1334.28
     },
     "^GSPC": {
       "2026-11-01": 7580.07,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgysjhgHWhqgV7hC8zoFS\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgysjiE1trs4nAdhcCgqW\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgysjicbRPYLNv989Y9BN\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgywofQgThZ9QHqDpjfj5\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgywofkWu8kcW1Szc6RTk\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgywofzeoyYbnsRxri2HR\"}"
   ]
 }
