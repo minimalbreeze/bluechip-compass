@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-13T07:46:48.207Z",
+  "asOf": "2026-11-13T07:52:26.373Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-13T06:33:00.000Z"
     },
     "KRW=X": {
-      "price": 1336.88,
+      "price": 1336.96,
       "prev": 1336.260009765625,
       "chg": 0.05,
       "prevDay": "2026-11-12",
       "basis": "prev-close-bar",
-      "time": "2026-11-13T07:46:32.000Z"
+      "time": "2026-11-13T07:52:21.000Z"
     },
     "^GSPC": {
       "price": 7592.4,
@@ -80,11 +80,11 @@
       "chg3m": -18.54
     },
     "KRW=X": {
-      "last": 1336.88,
+      "last": 1336.96,
       "low52": 1321.76,
       "high52": 1554.48,
       "pct52": 0.065,
-      "chg3m": -5.43
+      "chg3m": -5.42
     },
     "^GSPC": {
       "last": 7592.4,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgzZG6CkF"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgzZh1mYQ"
   },
   "stocks": {
     "kr": {
@@ -368,13 +368,13 @@
   "news": {
     "kr": [
       {
-        "title": "'젠슨황 퇴임'에도 장중 3%까지 올랐던 코스피, 0.98% 하락 마감(종합)",
-        "link": "https://www.yna.co.kr/view/AKR20261113129251008",
+        "title": "강원랜드 등 4개 기관, 양양국제공항 활성화 '맞손'",
+        "link": "https://www.yna.co.kr/view/AKR20261113148000062",
         "source": "연합뉴스",
-        "date": "Fri, 13 Nov 2026 16:23:21 +0900",
+        "date": "Fri, 13 Nov 2026 16:45:41 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -401,10 +401,10 @@
         "by": "rules"
       },
       {
-        "title": "환율, 달러 강세에 닷새 만에 반등…6.0원 오른 1,336.7원",
-        "link": "https://www.yna.co.kr/view/AKR20261113137600002",
+        "title": "국고채 금리 일제히 상승…3년물 연 3.759%",
+        "link": "https://www.yna.co.kr/view/AKR20261113146700008",
         "source": "연합뉴스",
-        "date": "Fri, 13 Nov 2026 16:18:31 +0900",
+        "date": "Fri, 13 Nov 2026 16:40:21 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -2955,7 +2955,7 @@
       "2026-11-10": 1343.44,
       "2026-11-11": 1336.58,
       "2026-11-12": 1334.48,
-      "2026-11-13": 1336.88
+      "2026-11-13": 1336.96
     },
     "^GSPC": {
       "2026-11-02": 7541.4,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgzZG6CkFxh8irg4hyExa\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgzZG6co1GZB7YFcJH94B\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgzZG6sg2AeNvj7sSJR5v\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgzZh1mYQdrQ9GssEsggn\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgzZh2DaQmwcEmFquQLSy\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgzZh2aA9WKskbEkCH6NF\"}"
   ]
 }
