@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-13T13:22:02.080Z",
+  "asOf": "2026-11-13T13:32:22.230Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-13T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1337.34,
+      "price": 1336.31,
       "prev": 1336.260009765625,
-      "chg": 0.08,
+      "chg": 0,
       "prevDay": "2026-11-12",
       "basis": "prev-close-bar",
-      "time": "2026-11-13T13:21:51.000Z"
+      "time": "2026-11-13T13:32:12.000Z"
     },
     "^GSPC": {
       "price": 7592.4,
@@ -43,12 +43,12 @@
       "time": "2026-11-12T22:15:59.000Z"
     },
     "^VIX": {
-      "price": 18.23,
+      "price": 18.28,
       "prev": 18.700000762939453,
-      "chg": -2.51,
+      "chg": -2.25,
       "prevDay": "2026-11-12",
       "basis": "prev-close-bar",
-      "time": "2026-11-13T13:06:46.000Z"
+      "time": "2026-11-13T13:17:16.000Z"
     },
     "^TNX": {
       "price": 5.1029997,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.067
+    "pct": 0.063
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -18.54
     },
     "KRW=X": {
-      "last": 1337.34,
+      "last": 1336.31,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.067,
-      "chg3m": -5.39
+      "pct52": 0.063,
+      "chg3m": -5.47
     },
     "^GSPC": {
       "last": 7592.4,
@@ -101,11 +101,11 @@
       "chg3m": -4.8
     },
     "^VIX": {
-      "last": 18.23,
+      "last": 18.28,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.271,
-      "chg3m": 22.43
+      "pct52": 0.274,
+      "chg3m": 22.77
     },
     "^TNX": {
       "last": 5.1,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgzzpmdcs"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch11cUoNT"
   },
   "stocks": {
     "kr": {
@@ -439,7 +439,7 @@
         "title": "Bessent: Treasury has wanted Megaspeed restrictions for months, but Commerce is in charge",
         "link": "https://www.cnbc.com/2026/11/13/us-inflation-outlook-federal-reserve-rate-hike.html",
         "source": "CNBC",
-        "date": "Fri, 13 Nov 2026 13:21:31 GMT",
+        "date": "Fri, 13 Nov 2026 13:24:11 GMT",
         "ko": "베센트: 재무부는 몇 달 전부터 메가스피드에 대한 규제를 원했지만, 상무부가 관할하고 있습니다.",
         "act": "watch",
         "lasting": "structural",
@@ -2955,7 +2955,7 @@
       "2026-11-10": 1343.44,
       "2026-11-11": 1336.58,
       "2026-11-12": 1334.48,
-      "2026-11-13": 1337.34
+      "2026-11-13": 1336.31
     },
     "^GSPC": {
       "2026-11-02": 7541.4,
@@ -2997,7 +2997,7 @@
       "2026-11-10": 19.46,
       "2026-11-11": 17.49,
       "2026-11-12": 18.7,
-      "2026-11-13": 18.23
+      "2026-11-13": 18.28
     },
     "^TNX": {
       "2026-11-02": 4.894,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgzzpmdcsKTpGomXNhumh\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgzzpmzSbbPHhCzYxEBd6\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgzzpnHZdMBZ9WvfdMFx7\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch11cUoNTwUFYCUYGvs9V\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch11cVFu8XKnWiQVeG8DW\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch11cVexmGUBep3cC6eP7\"}"
   ]
 }
