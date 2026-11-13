@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-13T12:48:38.217Z",
+  "asOf": "2026-11-13T13:22:02.080Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-13T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1337.14,
+      "price": 1337.34,
       "prev": 1336.260009765625,
-      "chg": 0.07,
+      "chg": 0.08,
       "prevDay": "2026-11-12",
       "basis": "prev-close-bar",
-      "time": "2026-11-13T12:48:29.000Z"
+      "time": "2026-11-13T13:21:51.000Z"
     },
     "^GSPC": {
       "price": 7592.4,
@@ -43,15 +43,15 @@
       "time": "2026-11-12T22:15:59.000Z"
     },
     "^VIX": {
-      "price": 18.26,
+      "price": 18.23,
       "prev": 18.700000762939453,
-      "chg": -2.35,
+      "chg": -2.51,
       "prevDay": "2026-11-12",
       "basis": "prev-close-bar",
-      "time": "2026-11-13T12:33:16.000Z"
+      "time": "2026-11-13T13:06:46.000Z"
     },
     "^TNX": {
-      "price": 5.103,
+      "price": 5.1029997,
       "prev": 5.103000164031982,
       "chg": 0,
       "prevDay": "2026-11-12",
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.066
+    "pct": 0.067
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -18.54
     },
     "KRW=X": {
-      "last": 1337.14,
+      "last": 1337.34,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.066,
-      "chg3m": -5.41
+      "pct52": 0.067,
+      "chg3m": -5.39
     },
     "^GSPC": {
       "last": 7592.4,
@@ -101,11 +101,11 @@
       "chg3m": -4.8
     },
     "^VIX": {
-      "last": 18.26,
+      "last": 18.23,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.272,
-      "chg3m": 22.63
+      "pct52": 0.271,
+      "chg3m": 22.43
     },
     "^TNX": {
       "last": 5.1,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgzxH3qZw"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgzzpmdcs"
   },
   "stocks": {
     "kr": {
@@ -436,15 +436,15 @@
     ],
     "us": [
       {
-        "title": "The Fed expected rate cuts this year. Now it’s bracing for another inflation fight",
+        "title": "Bessent: Treasury has wanted Megaspeed restrictions for months, but Commerce is in charge",
         "link": "https://www.cnbc.com/2026/11/13/us-inflation-outlook-federal-reserve-rate-hike.html",
         "source": "CNBC",
-        "date": "Fri, 13 Nov 2026 11:31:10 GMT",
-        "ko": "연준은 올해 금리 인하를 예상했습니다. 이제 또 다른 인플레이션과의 싸움을 준비하고 있습니다.",
-        "act": "none",
-        "lasting": "temporary",
+        "date": "Fri, 13 Nov 2026 13:21:31 GMT",
+        "ko": "베센트: 재무부는 몇 달 전부터 메가스피드에 대한 규제를 원했지만, 상무부가 관할하고 있습니다.",
+        "act": "watch",
+        "lasting": "structural",
         "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
         "by": "rules"
       },
       {
@@ -511,7 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "The mobile ambitions of SpaceX are hitting telecom stocks again. Here’s what the latest developments mean.": "SpaceX의 모바일 야망이 통신 주가를 다시 강타하고 있습니다. 최신 개발이 의미하는 바는 다음과 같습니다.",
     "Can Nvidia’s stock become a safe haven as Wall Street rethinks the AI trade?": "월스트리트가 AI 거래를 재고하면서 엔비디아의 주식이 안전한 피난처가 될 수 있을까요?",
     "Oil markets are on edge ahead of the weekend, as midterm elections near and fresh U.S. strikes on Iran are predicted": "이란에 대한 미국의 중간 선거와 신선한 타격이 예측되기 때문에 석유 시장은 주말을 앞두고 있습니다.",
     "Some Republicans are opposing Trump on tariffs. Maine’s Susan Collins just got him to back down on Canadian levies.": "일부 공화당원들은 관세 부과에 대해 트럼프를 반대하고 있다. 메인주의 수잔 콜린스 (Susan Collins) 는 방금 그를 캐나다의 부담금으로 물러나게했습니다.",
@@ -810,7 +809,8 @@
     "Earnings growth is set to peter out — but not the bull market, says Goldman Sachs. Here’s what the firm recommends.": "골드만삭스는 이익 성장은 둔화될 것으로 예상되지만, 강세장은 지속될 것이라고 밝혔습니다. 다음은 이 회사가 추천하는 내용입니다.",
     "Profit surprises are normalizing — and that may signal a healthier stock market, say Citi strategists": "Citi 전략가들은 이익 서프라이즈가 정상화되고 있으며, 이는 더 건전한 주식 시장을 시사할 수 있다고 말합니다.",
     "Nvidia has shed nearly $500 billion in market value this week. It’s still a $4 trillion AI behemoth.": "Nvidia는 이번 주에 시가총액이 약 5,000억 달러 감소했습니다. 그럼에도 불구하고 여전히 4조 달러 규모의 AI 거대 기업입니다.",
-    "Microsoft stock slumps on outage that includes the Copilot tool it has been heavily promoting": "Microsoft, 적극적으로 홍보해 온 Copilot 도구를 포함한 서비스 중단으로 주가 하락"
+    "Microsoft stock slumps on outage that includes the Copilot tool it has been heavily promoting": "Microsoft, 적극적으로 홍보해 온 Copilot 도구를 포함한 서비스 중단으로 주가 하락",
+    "Bessent: Treasury has wanted Megaspeed restrictions for months, but Commerce is in charge": "베센트: 재무부는 몇 달 전부터 메가스피드에 대한 규제를 원했지만, 상무부가 관할하고 있습니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2955,7 +2955,7 @@
       "2026-11-10": 1343.44,
       "2026-11-11": 1336.58,
       "2026-11-12": 1334.48,
-      "2026-11-13": 1337.14
+      "2026-11-13": 1337.34
     },
     "^GSPC": {
       "2026-11-02": 7541.4,
@@ -2997,7 +2997,7 @@
       "2026-11-10": 19.46,
       "2026-11-11": 17.49,
       "2026-11-12": 18.7,
-      "2026-11-13": 18.26
+      "2026-11-13": 18.23
     },
     "^TNX": {
       "2026-11-02": 4.894,
@@ -3011,7 +3011,7 @@
       "2026-11-10": 4.983,
       "2026-11-11": 4.998,
       "2026-11-12": 5.103,
-      "2026-11-13": 5.103
+      "2026-11-13": 5.1029997
     },
     "105560.KS": {
       "2026-11-02": 153400,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgzxH3qZwjuNZXnix6zcL\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgzxH4S3Fc2mwSc1ZwBau\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgzxH4qMASYBTwGqjXtHS\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgzzpmdcsKTpGomXNhumh\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgzzpmzSbbPHhCzYxEBd6\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgzzpnHZdMBZ9WvfdMFx7\"}"
   ]
 }
