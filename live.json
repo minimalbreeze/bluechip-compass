@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-13T09:47:31.094Z",
+  "asOf": "2026-11-13T10:47:53.013Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-13T06:33:00.000Z"
     },
     "KRW=X": {
-      "price": 1335.81,
+      "price": 1335.51,
       "prev": 1336.260009765625,
-      "chg": -0.03,
+      "chg": -0.06,
       "prevDay": "2026-11-12",
       "basis": "prev-close-bar",
-      "time": "2026-11-13T09:47:14.000Z"
+      "time": "2026-11-13T10:47:45.000Z"
     },
     "^GSPC": {
       "price": 7592.4,
@@ -43,12 +43,12 @@
       "time": "2026-11-12T22:15:59.000Z"
     },
     "^VIX": {
-      "price": 18.65,
+      "price": 18.47,
       "prev": 18.700000762939453,
-      "chg": -0.27,
+      "chg": -1.23,
       "prevDay": "2026-11-12",
       "basis": "prev-close-bar",
-      "time": "2026-11-13T09:32:16.000Z"
+      "time": "2026-11-13T10:32:31.000Z"
     },
     "^TNX": {
       "price": 5.103,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.06
+    "pct": 0.059
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -18.54
     },
     "KRW=X": {
-      "last": 1335.81,
+      "last": 1335.51,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.06,
-      "chg3m": -5.5
+      "pct52": 0.059,
+      "chg3m": -5.52
     },
     "^GSPC": {
       "last": 7592.4,
@@ -101,11 +101,11 @@
       "chg3m": -4.8
     },
     "^VIX": {
-      "last": 18.65,
+      "last": 18.47,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.295,
-      "chg3m": 25.25
+      "pct52": 0.284,
+      "chg3m": 24.04
     },
     "^TNX": {
       "last": 5.1,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgziTwQ3K"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgzo4yj8t"
   },
   "stocks": {
     "kr": {
@@ -436,6 +436,30 @@
     ],
     "us": [
       {
+        "title": "The Fed expected rate cuts this year. Now it’s bracing for another inflation fight",
+        "link": "https://www.cnbc.com/2026/11/13/us-inflation-outlook-federal-reserve-rate-hike.html",
+        "source": "CNBC",
+        "date": "Fri, 13 Nov 2026 10:00:26 GMT",
+        "ko": "연준은 올해 금리 인하를 예상했습니다. 이제 또 다른 인플레이션과의 싸움을 준비하고 있습니다.",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "Earnings growth is set to peter out — but not the bull market, says Goldman Sachs. Here’s what the firm recommends.",
+        "link": "https://www.marketwatch.com/story/earnings-growth-is-set-to-peter-out-but-not-the-bull-market-says-goldman-sachs-heres-what-the-firm-recommends-bf409a6d?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "date": "Fri, 13 Nov 2026 10:14:00 GMT",
+        "ko": "골드만삭스는 이익 성장은 둔화될 것으로 예상되지만, 강세장은 지속될 것이라고 밝혔습니다. 다음은 이 회사가 추천하는 내용입니다.",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
         "title": "Consumer prices rose 0.4% in October, more than expected, complicating Fed's inflation fight",
         "link": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html",
         "source": "CNBC",
@@ -482,37 +506,11 @@
         "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
-      },
-      {
-        "title": "A key report for where inflation stood in October comes out Tuesday. Here's what to expect",
-        "link": "https://www.cnbc.com/2026/11/09/october-cpi-report-2026-inflation.html",
-        "source": "CNBC",
-        "date": "Mon, 09 Nov 2026 21:03:55 GMT",
-        "ko": "10월 인플레이션이 어디에 있었는지에 대한 주요 보고서가 화요일에 나옵니다. 알아두어야 할 사항",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "The 10 best stocks for a year-end momentum trade",
-        "link": "https://www.marketwatch.com/story/the-10-best-stocks-for-a-year-end-momentum-trade-8d4cf8f7?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "date": "Thu, 12 Nov 2026 21:50:00 GMT",
-        "ko": "연말 모멘텀 거래를 위한 10대 우량주",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
       }
     ]
   },
   "newsBy": "rules",
   "trCache": {
-    "This market signal just occurred for only the second time since 1999. Here’s what happened and what it means.": "이 시장 신호는 1999년 이후 두 번째로 발생했습니다. 일어난 일과 그 의미는 다음과 같습니다.",
-    "The mobile ambitions of SpaceX see telecom stocks get hit again. What the latest developments mean.": "SpaceX의 모바일 야망은 통신 주식이 다시 타격을 입는 것을 봅니다. 최신 개발이 의미하는 바.",
     "The stock market is splitting in two. Is that signaling trouble ahead, or just a new set of winners?": "주식 시장은 둘로 나뉘고 있습니다. 앞으로 신호에 문제가 있습니까, 아니면 새로운 당첨자 집합입니까?",
     "France is getting its credit rating reviewed. What to expect as French debt turmoil has helped turn U.S. Treasury yields around.": "프랑스는 신용 등급을 검토하고 있습니다. 프랑스의 부채 혼란은 미국 국채 수익률을 바꾸는 데 도움이 되었다.",
     "It’s been a painful month for hedge funds. To turn it around, they are shorting U.S. stocks.": "헤지펀드에게는 고통스러운 한 달이었습니다. 이를 돌리기 위해 그들은 미국 주식을 단락시키고 있습니다.",
@@ -810,7 +808,9 @@
     "Nvidia’s stock selloff may be just beginning, even after shedding 30% from its peak": "엔비디아 주식 매도세는 최고가 대비 30% 하락한 후에도 이제 막 시작되었을 수 있습니다.",
     "The 10 best stocks for a year-end momentum trade": "연말 모멘텀 거래를 위한 10대 우량주",
     "The S&P 500 is shrugging off Nvidia’s selloff this week. Here’s what’s keeping the rest of the market afloat.": "S&P 500 지수는 이번 주 엔비디아의 매도세를 딛고 일어서고 있습니다. 다음은 시장의 나머지 부분을 지탱하고 있는 요소입니다.",
-    "Bond yields just saw their biggest surge since 2022 as expectations grow for more Fed rate hikes": "연준의 추가 금리 인상에 대한 기대가 커지면서 채권 수익률이 2022년 이후 가장 큰 폭으로 상승했습니다."
+    "Bond yields just saw their biggest surge since 2022 as expectations grow for more Fed rate hikes": "연준의 추가 금리 인상에 대한 기대가 커지면서 채권 수익률이 2022년 이후 가장 큰 폭으로 상승했습니다.",
+    "The Fed expected rate cuts this year. Now it’s bracing for another inflation fight": "연준은 올해 금리 인하를 예상했습니다. 이제 또 다른 인플레이션과의 싸움을 준비하고 있습니다.",
+    "Earnings growth is set to peter out — but not the bull market, says Goldman Sachs. Here’s what the firm recommends.": "골드만삭스는 이익 성장은 둔화될 것으로 예상되지만, 강세장은 지속될 것이라고 밝혔습니다. 다음은 이 회사가 추천하는 내용입니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2955,7 +2955,7 @@
       "2026-11-10": 1343.44,
       "2026-11-11": 1336.58,
       "2026-11-12": 1334.48,
-      "2026-11-13": 1335.81
+      "2026-11-13": 1335.51
     },
     "^GSPC": {
       "2026-11-02": 7541.4,
@@ -2997,7 +2997,7 @@
       "2026-11-10": 19.46,
       "2026-11-11": 17.49,
       "2026-11-12": 18.7,
-      "2026-11-13": 18.65
+      "2026-11-13": 18.47
     },
     "^TNX": {
       "2026-11-02": 4.894,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgziTwQ3KARud9jCvuJfC\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgziTyFRJDLPoCpiKfq45\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgziTzQdEWxYcmApTFgx3\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgzo4yj8tMcncc5cJwbvt\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgzo4zCAg3upSt3pbwpJQ\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgzo4zWWwmcE6tozJEB57\"}"
   ]
 }
