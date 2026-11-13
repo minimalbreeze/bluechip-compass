@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-13T14:03:21.423Z",
+  "asOf": "2026-11-13T14:13:50.499Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-13T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1336.6,
+      "price": 1336.11,
       "prev": 1336.260009765625,
-      "chg": 0.03,
+      "chg": -0.01,
       "prevDay": "2026-11-12",
       "basis": "prev-close-bar",
-      "time": "2026-11-13T14:03:11.000Z"
+      "time": "2026-11-13T14:13:36.000Z"
     },
     "^GSPC": {
       "price": 7592.4,
@@ -43,26 +43,26 @@
       "time": "2026-11-12T22:15:59.000Z"
     },
     "^VIX": {
-      "price": 17.84,
+      "price": 18.04,
       "prev": 18.700000762939453,
-      "chg": -4.6,
+      "chg": -3.53,
       "prevDay": "2026-11-12",
       "basis": "prev-close-bar",
-      "time": "2026-11-13T13:48:01.000Z"
+      "time": "2026-11-13T13:58:31.000Z"
     },
     "^TNX": {
-      "price": 5.1349998,
+      "price": 5.141,
       "prev": 5.103000164031982,
-      "chg": 0.63,
+      "chg": 0.74,
       "prevDay": "2026-11-12",
       "basis": "prev-close-bar",
-      "time": "2026-11-13T13:48:14.000Z"
+      "time": "2026-11-13T13:58:44.000Z"
     }
   },
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.064
+    "pct": 0.062
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -18.54
     },
     "KRW=X": {
-      "last": 1336.6,
+      "last": 1336.11,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.064,
-      "chg3m": -5.45
+      "pct52": 0.062,
+      "chg3m": -5.48
     },
     "^GSPC": {
       "last": 7592.4,
@@ -101,18 +101,18 @@
       "chg3m": -4.8
     },
     "^VIX": {
-      "last": 17.84,
+      "last": 18.04,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.249,
-      "chg3m": 19.81
+      "pct52": 0.26,
+      "chg3m": 21.16
     },
     "^TNX": {
-      "last": 5.13,
+      "last": 5.14,
       "low52": 3.96,
       "high52": 5.31,
-      "pct52": 0.87,
-      "chg3m": 9.12
+      "pct52": 0.874,
+      "chg3m": 9.24
     }
   },
   "regime": {
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch13yXnmg"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch14mu6iN"
   },
   "stocks": {
     "kr": {
@@ -463,7 +463,7 @@
         "title": "Bessent: Treasury has wanted Megaspeed restrictions for months, but Commerce is in charge",
         "link": "https://www.cnbc.com/2026/11/13/us-inflation-outlook-federal-reserve-rate-hike.html",
         "source": "CNBC",
-        "date": "Fri, 13 Nov 2026 13:58:11 GMT",
+        "date": "Fri, 13 Nov 2026 14:06:31 GMT",
         "ko": "베센트: 재무부는 몇 달 전부터 메가스피드에 대한 규제를 원했지만, 상무부가 관할하고 있습니다.",
         "act": "watch",
         "lasting": "structural",
@@ -2955,7 +2955,7 @@
       "2026-11-10": 1343.44,
       "2026-11-11": 1336.58,
       "2026-11-12": 1334.48,
-      "2026-11-13": 1336.6
+      "2026-11-13": 1336.11
     },
     "^GSPC": {
       "2026-11-02": 7541.4,
@@ -2997,7 +2997,7 @@
       "2026-11-10": 19.46,
       "2026-11-11": 17.49,
       "2026-11-12": 18.7,
-      "2026-11-13": 17.84
+      "2026-11-13": 18.04
     },
     "^TNX": {
       "2026-11-02": 4.894,
@@ -3011,7 +3011,7 @@
       "2026-11-10": 4.983,
       "2026-11-11": 4.998,
       "2026-11-12": 5.103,
-      "2026-11-13": 5.1349998
+      "2026-11-13": 5.141
     },
     "105560.KS": {
       "2026-11-02": 153400,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch13yXnmgkyzhD82ApmS3\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch13yYFZFG99Y4ey8azjS\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch13yYYfvn68gwcR3C71T\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch14mu6iNQwjhQkm6DNiC\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch14mugC2TpCoPqXjmP4q\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch14mv51Evz5bP2yLYrgz\"}"
   ]
 }
