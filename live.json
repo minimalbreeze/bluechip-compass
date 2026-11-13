@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-13T13:32:22.230Z",
+  "asOf": "2026-11-13T13:42:42.768Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-13T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1336.31,
+      "price": 1335.92,
       "prev": 1336.260009765625,
-      "chg": 0,
+      "chg": -0.03,
       "prevDay": "2026-11-12",
       "basis": "prev-close-bar",
-      "time": "2026-11-13T13:32:12.000Z"
+      "time": "2026-11-13T13:42:34.000Z"
     },
     "^GSPC": {
       "price": 7592.4,
@@ -43,26 +43,26 @@
       "time": "2026-11-12T22:15:59.000Z"
     },
     "^VIX": {
-      "price": 18.28,
+      "price": 18.13,
       "prev": 18.700000762939453,
-      "chg": -2.25,
+      "chg": -3.05,
       "prevDay": "2026-11-12",
       "basis": "prev-close-bar",
-      "time": "2026-11-13T13:17:16.000Z"
+      "time": "2026-11-13T13:27:31.000Z"
     },
     "^TNX": {
-      "price": 5.1029997,
+      "price": 5.145,
       "prev": 5.103000164031982,
-      "chg": 0,
+      "chg": 0.82,
       "prevDay": "2026-11-12",
       "basis": "prev-close-bar",
-      "time": "2026-11-12T19:59:54.000Z"
+      "time": "2026-11-13T13:27:34.000Z"
     }
   },
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.063
+    "pct": 0.061
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -18.54
     },
     "KRW=X": {
-      "last": 1336.31,
+      "last": 1335.92,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.063,
-      "chg3m": -5.47
+      "pct52": 0.061,
+      "chg3m": -5.49
     },
     "^GSPC": {
       "last": 7592.4,
@@ -101,18 +101,18 @@
       "chg3m": -4.8
     },
     "^VIX": {
-      "last": 18.28,
+      "last": 18.13,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.274,
-      "chg3m": 22.77
+      "pct52": 0.265,
+      "chg3m": 21.76
     },
     "^TNX": {
-      "last": 5.1,
+      "last": 5.14,
       "low52": 3.96,
       "high52": 5.31,
-      "pct52": 0.846,
-      "chg3m": 8.02
+      "pct52": 0.877,
+      "chg3m": 9.33
     }
   },
   "regime": {
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch11cUoNT"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch12QEVBw"
   },
   "stocks": {
     "kr": {
@@ -436,15 +436,15 @@
     ],
     "us": [
       {
-        "title": "Bessent: Treasury has wanted Megaspeed restrictions for months, but Commerce is in charge",
-        "link": "https://www.cnbc.com/2026/11/13/us-inflation-outlook-federal-reserve-rate-hike.html",
+        "title": "Wholesale prices rose 0.3% in October, putting annual rate at 6.5%, the highest in nearly four years",
+        "link": "https://www.cnbc.com/2026/11/13/ppi-inflation-report-october-2026.html",
         "source": "CNBC",
-        "date": "Fri, 13 Nov 2026 13:24:11 GMT",
-        "ko": "베센트: 재무부는 몇 달 전부터 메가스피드에 대한 규제를 원했지만, 상무부가 관할하고 있습니다.",
-        "act": "watch",
-        "lasting": "structural",
+        "date": "Fri, 13 Nov 2026 13:39:01 GMT",
+        "ko": "10월 도매물가 0.3% 상승, 연간 상승률 6.5%로 4년 만에 최고치 기록",
+        "act": "none",
+        "lasting": "temporary",
         "scope": "market",
-        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
@@ -453,6 +453,30 @@
         "source": "MarketWatch",
         "date": "Fri, 13 Nov 2026 12:25:00 GMT",
         "ko": "Nvidia는 이번 주에 시가총액이 약 5,000억 달러 감소했습니다. 그럼에도 불구하고 여전히 4조 달러 규모의 AI 거대 기업입니다.",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "Bessent: Treasury has wanted Megaspeed restrictions for months, but Commerce is in charge",
+        "link": "https://www.cnbc.com/2026/11/13/us-inflation-outlook-federal-reserve-rate-hike.html",
+        "source": "CNBC",
+        "date": "Fri, 13 Nov 2026 13:41:26 GMT",
+        "ko": "베센트: 재무부는 몇 달 전부터 메가스피드에 대한 규제를 원했지만, 상무부가 관할하고 있습니다.",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": "market",
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
+        "by": "rules"
+      },
+      {
+        "title": "Profit surprises are normalizing — and that may signal a healthier stock market, say Citi strategists",
+        "link": "https://www.marketwatch.com/story/profit-surprises-are-normalizing-and-that-may-signal-a-healthier-stock-market-say-citi-strategists-d8cce7c2?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "date": "Fri, 13 Nov 2026 11:41:00 GMT",
+        "ko": "Citi 전략가들은 이익 서프라이즈가 정상화되고 있으며, 이는 더 건전한 주식 시장을 시사할 수 있다고 말합니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -472,38 +496,14 @@
         "by": "rules"
       },
       {
-        "title": "Microsoft stock slumps on outage that includes the Copilot tool it has been heavily promoting",
-        "link": "https://www.marketwatch.com/story/microsoft-stock-slumps-on-outage-that-includes-the-copilot-tool-it-has-been-heavily-promoting-4007dc4f?mod=mw_rss_topstories",
+        "title": "Earnings growth is set to peter out — but not the bull market, says Goldman Sachs. Here’s what the firm recommends.",
+        "link": "https://www.marketwatch.com/story/earnings-growth-is-set-to-peter-out-but-not-the-bull-market-says-goldman-sachs-heres-what-the-firm-recommends-bf409a6d?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Fri, 13 Nov 2026 12:14:00 GMT",
-        "ko": "Microsoft, 적극적으로 홍보해 온 Copilot 도구를 포함한 서비스 중단으로 주가 하락",
+        "date": "Fri, 13 Nov 2026 10:14:00 GMT",
+        "ko": "골드만삭스는 이익 성장은 둔화될 것으로 예상되지만, 강세장은 지속될 것이라고 밝혔습니다. 다음은 이 회사가 추천하는 내용입니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "3 unexpected reasons the October jobs report was so strong",
-        "link": "https://www.cnbc.com/2026/11/09/october-jobs-report-hiring-by-sector.html",
-        "source": "CNBC",
-        "date": "Mon, 09 Nov 2026 22:23:56 GMT",
-        "ko": "10월 일자리 보고서가 강력했던 3가지 예상치 못한 이유",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "Profit surprises are normalizing — and that may signal a healthier stock market, say Citi strategists",
-        "link": "https://www.marketwatch.com/story/profit-surprises-are-normalizing-and-that-may-signal-a-healthier-stock-market-say-citi-strategists-d8cce7c2?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "date": "Fri, 13 Nov 2026 11:41:00 GMT",
-        "ko": "Citi 전략가들은 이익 서프라이즈가 정상화되고 있으며, 이는 더 건전한 주식 시장을 시사할 수 있다고 말합니다.",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -511,7 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "Can Nvidia’s stock become a safe haven as Wall Street rethinks the AI trade?": "월스트리트가 AI 거래를 재고하면서 엔비디아의 주식이 안전한 피난처가 될 수 있을까요?",
     "Oil markets are on edge ahead of the weekend, as midterm elections near and fresh U.S. strikes on Iran are predicted": "이란에 대한 미국의 중간 선거와 신선한 타격이 예측되기 때문에 석유 시장은 주말을 앞두고 있습니다.",
     "Some Republicans are opposing Trump on tariffs. Maine’s Susan Collins just got him to back down on Canadian levies.": "일부 공화당원들은 관세 부과에 대해 트럼프를 반대하고 있다. 메인주의 수잔 콜린스 (Susan Collins) 는 방금 그를 캐나다의 부담금으로 물러나게했습니다.",
     "Will Anthropic pull off a November IPO? Time is running out to file key paperwork.": "Anthropic이 11월 IPO를 시작할까요? 주요 서류를 제출할 시간이 얼마 남지 않았습니다.",
@@ -810,7 +809,8 @@
     "Profit surprises are normalizing — and that may signal a healthier stock market, say Citi strategists": "Citi 전략가들은 이익 서프라이즈가 정상화되고 있으며, 이는 더 건전한 주식 시장을 시사할 수 있다고 말합니다.",
     "Nvidia has shed nearly $500 billion in market value this week. It’s still a $4 trillion AI behemoth.": "Nvidia는 이번 주에 시가총액이 약 5,000억 달러 감소했습니다. 그럼에도 불구하고 여전히 4조 달러 규모의 AI 거대 기업입니다.",
     "Microsoft stock slumps on outage that includes the Copilot tool it has been heavily promoting": "Microsoft, 적극적으로 홍보해 온 Copilot 도구를 포함한 서비스 중단으로 주가 하락",
-    "Bessent: Treasury has wanted Megaspeed restrictions for months, but Commerce is in charge": "베센트: 재무부는 몇 달 전부터 메가스피드에 대한 규제를 원했지만, 상무부가 관할하고 있습니다."
+    "Bessent: Treasury has wanted Megaspeed restrictions for months, but Commerce is in charge": "베센트: 재무부는 몇 달 전부터 메가스피드에 대한 규제를 원했지만, 상무부가 관할하고 있습니다.",
+    "Wholesale prices rose 0.3% in October, putting annual rate at 6.5%, the highest in nearly four years": "10월 도매물가 0.3% 상승, 연간 상승률 6.5%로 4년 만에 최고치 기록"
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2955,7 +2955,7 @@
       "2026-11-10": 1343.44,
       "2026-11-11": 1336.58,
       "2026-11-12": 1334.48,
-      "2026-11-13": 1336.31
+      "2026-11-13": 1335.92
     },
     "^GSPC": {
       "2026-11-02": 7541.4,
@@ -2997,7 +2997,7 @@
       "2026-11-10": 19.46,
       "2026-11-11": 17.49,
       "2026-11-12": 18.7,
-      "2026-11-13": 18.28
+      "2026-11-13": 18.13
     },
     "^TNX": {
       "2026-11-02": 4.894,
@@ -3011,7 +3011,7 @@
       "2026-11-10": 4.983,
       "2026-11-11": 4.998,
       "2026-11-12": 5.103,
-      "2026-11-13": 5.1029997
+      "2026-11-13": 5.145
     },
     "105560.KS": {
       "2026-11-02": 153400,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch11cUoNTwUFYCUYGvs9V\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch11cVFu8XKnWiQVeG8DW\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch11cVexmGUBep3cC6eP7\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch12QEVBwPP4KaFFB3Kuw\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch12QEi5a1Pr3cJF2Bcv3\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch12QErWcMsh6TpYJ7gfo\"}"
   ]
 }
