@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-14T21:20:13.572Z",
+  "asOf": "2026-11-14T22:20:35.051Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch33U7Jpc"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch3bhcVLK"
   },
   "stocks": {
     "kr": {
@@ -368,13 +368,13 @@
   "news": {
     "kr": [
       {
-        "title": "'젠슨황 스캔들'에 짓눌린 증시…엔비디아 실적·앤트로픽 상장 주시",
-        "link": "https://www.yna.co.kr/view/AKR20261113177200008",
+        "title": "나스닥 23시간 거래 D-3주…\"美투자 확대\" \"국내 영향 제한적\"",
+        "link": "https://www.yna.co.kr/view/AKR20261114040900008",
         "source": "연합뉴스",
-        "date": "Sun, 15 Nov 2026 06:00:05 +0900",
+        "date": "Sun, 15 Nov 2026 06:25:00 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -401,13 +401,13 @@
         "by": "rules"
       },
       {
-        "title": "반도체 뜨거운데 소비 미지근…한은이 짚은 '낙수' 제약 요인",
-        "link": "https://www.yna.co.kr/view/AKR20261114030200002",
+        "title": "\"ESG 지배구조 개선 이끈 주주권리…배당·자사주 득점 늘었다\"",
+        "link": "https://www.yna.co.kr/view/AKR20261114022300008",
         "source": "연합뉴스",
-        "date": "Sun, 15 Nov 2026 05:55:01 +0900",
+        "date": "Sun, 15 Nov 2026 06:20:00 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -3387,7 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch3X6fWDkNzrfchfPucWz\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch3X6frojMVYWSSgg8Xkq\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch3bhcVLKNDxsgB2JSd3C\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch3bhcv8dt6zMdKLwQPG6\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch3bhdCFtmZhsmkKqXeax\"}"
   ]
 }
