@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-14T19:19:22.446Z",
+  "asOf": "2026-11-14T20:19:44.533Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -472,18 +472,6 @@
         "by": "rules"
       },
       {
-        "title": "The scandal at Nvidia is exactly what’s wrong with the S&P 500",
-        "link": "https://www.marketwatch.com/story/the-scandal-at-nvidia-is-exactly-whats-wrong-with-the-s-p-500-7307457e?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "date": "Sat, 14 Nov 2026 17:50:00 GMT",
-        "ko": "Nvidia의 스캔들은 바로 S&P 500의 문제점입니다.",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
         "title": "Consumer prices rose 0.4% in October, more than expected, complicating Fed's inflation fight",
         "link": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html",
         "source": "CNBC",
@@ -501,6 +489,18 @@
         "source": "CNBC",
         "date": "Mon, 09 Nov 2026 22:23:56 GMT",
         "ko": "10월 일자리 보고서가 강력했던 3가지 예상치 못한 이유",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "A key report for where inflation stood in October comes out Tuesday. Here's what to expect",
+        "link": "https://www.cnbc.com/2026/11/09/october-cpi-report-2026-inflation.html",
+        "source": "CNBC",
+        "date": "Mon, 09 Nov 2026 21:03:55 GMT",
+        "ko": "10월 인플레이션이 어디에 있었는지에 대한 주요 보고서가 화요일에 나옵니다. 알아두어야 할 사항",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -3387,7 +3387,7 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch3Mt9nAVEstSVTxovZ59\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch3MtABDvFv2jEbKBeZeN\"}"
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch3SV9nrBovM7fZ7raZm2\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch3SVA9fyiwAbrNKUVD4Z\"}"
   ]
 }
