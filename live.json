@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-14T20:19:44.533Z",
+  "asOf": "2026-11-14T21:20:13.572Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -368,10 +368,10 @@
   "news": {
     "kr": [
       {
-        "title": "두산건설, 3분기 영업이익 271억원…전년 대비 40% 감소",
-        "link": "https://www.yna.co.kr/view/AKR20261114029100003",
+        "title": "'젠슨황 스캔들'에 짓눌린 증시…엔비디아 실적·앤트로픽 상장 주시",
+        "link": "https://www.yna.co.kr/view/AKR20261113177200008",
         "source": "연합뉴스",
-        "date": "Sat, 14 Nov 2026 11:44:15 +0900",
+        "date": "Sun, 15 Nov 2026 06:00:05 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
@@ -401,13 +401,13 @@
         "by": "rules"
       },
       {
-        "title": "[IPO챗] 내주 영광와이케이엠씨 등 3개사 코스닥 입성",
-        "link": "https://www.yna.co.kr/view/AKR20261113076800008",
+        "title": "반도체 뜨거운데 소비 미지근…한은이 짚은 '낙수' 제약 요인",
+        "link": "https://www.yna.co.kr/view/AKR20261114030200002",
         "source": "연합뉴스",
-        "date": "Sat, 14 Nov 2026 09:00:03 +0900",
+        "date": "Sun, 15 Nov 2026 05:55:01 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -444,18 +444,6 @@
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "Why this ‘big idea’ to fix Social Security relies on a massive stock-market gamble",
-        "link": "https://www.marketwatch.com/story/why-this-big-idea-to-fix-social-security-relies-on-a-massive-stock-market-gamble-5423f50f?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "date": "Sat, 14 Nov 2026 17:50:00 GMT",
-        "ko": "사회보장제도를 개선하기 위한 이 '큰 아이디어'가 대규모 주식시장 도박에 의존하는 이유",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -501,6 +489,18 @@
         "source": "CNBC",
         "date": "Mon, 09 Nov 2026 21:03:55 GMT",
         "ko": "10월 인플레이션이 어디에 있었는지에 대한 주요 보고서가 화요일에 나옵니다. 알아두어야 할 사항",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "China wholesale inflation hits highest in more than four years as consumer measure slows",
+        "link": "https://www.cnbc.com/2026/11/09/china-wholesale-inflation-rises-consumer.html",
+        "source": "CNBC",
+        "date": "Mon, 09 Nov 2026 02:50:22 GMT",
+        "ko": "소비자 측정이 둔화됨에 따라 중국 도매 인플레이션이 4년 이상 최고를 기록했습니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -3387,7 +3387,7 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch3SV9nrBovM7fZ7raZm2\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch3SVA9fyiwAbrNKUVD4Z\"}"
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch3X6fWDkNzrfchfPucWz\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch3X6frojMVYWSSgg8Xkq\"}"
   ]
 }
