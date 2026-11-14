@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-13T23:10:02.114Z",
+  "asOf": "2026-11-14T00:10:26.571Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -20,9 +20,9 @@
     },
     "KRW=X": {
       "price": 1335.11,
-      "prev": 1336.260009765625,
-      "chg": -0.09,
-      "prevDay": "2026-11-12",
+      "prev": 1333.780029296875,
+      "chg": 0.1,
+      "prevDay": "2026-11-13",
       "basis": "prev-close-bar",
       "time": "2026-11-13T22:33:36.000Z"
     },
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.057
+    "pct": 0.052
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -18.8
     },
     "KRW=X": {
-      "last": 1335.11,
+      "last": 1333.78,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.057,
-      "chg3m": -5.55
+      "pct52": 0.052,
+      "chg3m": -5.65
     },
     "^GSPC": {
       "last": 7561.67,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch1mfQvua"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch1rGb2Kw"
   },
   "stocks": {
     "kr": {
@@ -368,6 +368,17 @@
   "news": {
     "kr": [
       {
+        "title": "[IPO챗] 내주 영광와이케이엠씨 등 3개사 코스닥 입성",
+        "link": "https://www.yna.co.kr/view/AKR20261113076800008",
+        "source": "연합뉴스",
+        "date": "Sat, 14 Nov 2026 09:00:03 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
         "title": "'조선미녀' 구다이글로벌, 코스피 상장 도전장",
         "link": "https://www.hankyung.com/article/2026111359051",
         "source": "한국경제",
@@ -416,17 +427,6 @@
         "link": "https://www.hankyung.com/article/2026111357911",
         "source": "한국경제",
         "date": "Fri, 13 Nov 2026 17:34:25 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "한국, 디지털자산기본법 입법 가속…법인·기관투자자 시장 개방 본격화[엠블록레터]",
-        "link": "https://www.mk.co.kr/news/stock/12208192",
-        "source": "매일경제",
-        "date": "Fri, 13 Nov 2026 17:05:46 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -2944,7 +2944,6 @@
       "2026-11-14": 699.66
     },
     "KRW=X": {
-      "2026-11-02": 1344.49,
       "2026-11-03": 1343.59,
       "2026-11-04": 1340.04,
       "2026-11-05": 1357.27,
@@ -2955,7 +2954,8 @@
       "2026-11-10": 1343.44,
       "2026-11-11": 1336.58,
       "2026-11-12": 1334.48,
-      "2026-11-13": 1335.11
+      "2026-11-13": 1335.11,
+      "2026-11-14": 1335.11
     },
     "^GSPC": {
       "2026-11-02": 7541.4,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch1mfQvuaXmu9JcvABUvw\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch1mfRKE5gHmTRNoJdPcN\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch1mfRbMWFfQZG9ZictvR\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch1rGb2KwogWwr9aHbG8Q\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch1rGbRdgKCSNpvK3tgjs\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch1rGbiVY8A82wuCBTzpc\"}"
   ]
 }
