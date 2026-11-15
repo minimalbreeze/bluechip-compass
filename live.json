@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-15T02:51:29.109Z",
+  "asOf": "2026-11-15T03:22:29.350Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch3xMmfdW"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch3ziu1xx"
   },
   "stocks": {
     "kr": {
@@ -368,10 +368,10 @@
   "news": {
     "kr": [
       {
-        "title": "영국, 규제기관에 '성장 지원' 의무 추진…\"한국도 도입해야\"",
-        "link": "https://www.yna.co.kr/view/AKR20261115014800003",
+        "title": "반도체설계자동화SW 입찰서 20년 담합한 9개 업체…과징금 2억원",
+        "link": "https://www.yna.co.kr/view/AKR20261113101100002",
         "source": "연합뉴스",
-        "date": "Sun, 15 Nov 2026 11:00:02 +0900",
+        "date": "Sun, 15 Nov 2026 12:00:08 +0900",
         "act": "watch",
         "lasting": "structural",
         "scope": null,
@@ -401,17 +401,6 @@
         "by": "rules"
       },
       {
-        "title": "비반도체 수출도 두자릿수 성장…호주 1위·네덜란드 2위",
-        "link": "https://www.yna.co.kr/view/AKR20261115018000003",
-        "source": "연합뉴스",
-        "date": "Sun, 15 Nov 2026 11:00:01 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
         "title": "키옥시아株 2.2조엔 판 도시바…재상장에 베팅",
         "link": "https://www.hankyung.com/article/202611156927i",
         "source": "한국경제",
@@ -430,6 +419,17 @@
         "act": "none",
         "lasting": "temporary",
         "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "변동성 장세 지속…'젠슨 황 퇴진' 엔비디아 실적에 쏠리는 눈 [주간전망]",
+        "link": "https://www.hankyung.com/article/2026111355876",
+        "source": "한국경제",
+        "date": "Sun, 15 Nov 2026 08:00:08 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch3xMmfdW9ARnDfBT2tWd\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch3xMn2x4ChNHuYpzRjzG\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch3xMnK4qisEmkGaaRRC1\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch3ziu1xx4xDDzCsvr9tP\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch3ziuPnDrahd9VtRcSAF\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch3ziufAQdEs2kCP4SJgK\"}"
   ]
 }
