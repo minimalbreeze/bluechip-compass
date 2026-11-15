@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-15T01:51:09.974Z",
+  "asOf": "2026-11-15T02:22:07.709Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch3skzLS8"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch3v7vut8"
   },
   "stocks": {
     "kr": {
@@ -368,14 +368,14 @@
   "news": {
     "kr": [
       {
-        "title": "나스닥 23시간 거래 D-3주…\"美투자 확대\" \"국내 영향 제한적\"",
-        "link": "https://www.yna.co.kr/view/AKR20261114040900008",
+        "title": "영국, 규제기관에 '성장 지원' 의무 추진…\"한국도 도입해야\"",
+        "link": "https://www.yna.co.kr/view/AKR20261115014800003",
         "source": "연합뉴스",
-        "date": "Sun, 15 Nov 2026 06:25:00 +0900",
-        "act": "none",
-        "lasting": "temporary",
+        "date": "Sun, 15 Nov 2026 11:00:02 +0900",
+        "act": "watch",
+        "lasting": "structural",
         "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
         "by": "rules"
       },
       {
@@ -401,13 +401,13 @@
         "by": "rules"
       },
       {
-        "title": "\"ESG 지배구조 개선 이끈 주주권리…배당·자사주 득점 늘었다\"",
-        "link": "https://www.yna.co.kr/view/AKR20261114022300008",
+        "title": "비반도체 수출도 두자릿수 성장…호주 1위·네덜란드 2위",
+        "link": "https://www.yna.co.kr/view/AKR20261115018000003",
         "source": "연합뉴스",
-        "date": "Sun, 15 Nov 2026 06:20:00 +0900",
+        "date": "Sun, 15 Nov 2026 11:00:01 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch3skzLS8rtfYnfT3jV4h\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch3skzhGgV8xbQUwugbj7\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch3skzx8y3c9bRdy6cFdF\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch3v7vut83jPDXgZcnyFn\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch3v7wJC2fL5S8xYpgMFo\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch3v7waYytFixU789VvEh\"}"
   ]
 }
