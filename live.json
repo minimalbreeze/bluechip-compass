@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-15T03:22:29.350Z",
+  "asOf": "2026-11-15T03:51:51.275Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -20,11 +20,11 @@
     },
     "KRW=X": {
       "price": 1336.2,
-      "prev": 1336.199951171875,
+      "prev": 1336.2,
       "chg": 0,
       "prevDay": "2026-11-14",
-      "basis": "prev-close-bar",
-      "time": "2026-11-14T03:30:48.000Z"
+      "basis": "prev-close-memo",
+      "time": "2026-11-15T03:30:49.000Z"
     },
     "^GSPC": {
       "price": 7561.67,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch3ziu1xx"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch42xn58d"
   },
   "stocks": {
     "kr": {
@@ -379,13 +379,13 @@
         "by": "rules"
       },
       {
-        "title": "\"믿을 건 대표지수뿐\"...연금개미, 반도체 팔고 S&P500 샀다",
-        "link": "https://www.hankyung.com/article/202611135506i",
+        "title": "증시 폭락 후 초고수는 \"반등에 베팅\"…'레버리지·급락주' 담았다",
+        "link": "https://www.hankyung.com/article/202611157013i",
         "source": "한국경제",
-        "date": "Sun, 15 Nov 2026 10:13:03 +0900",
+        "date": "Sun, 15 Nov 2026 11:21:51 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -401,13 +401,13 @@
         "by": "rules"
       },
       {
-        "title": "키옥시아株 2.2조엔 판 도시바…재상장에 베팅",
-        "link": "https://www.hankyung.com/article/202611156927i",
+        "title": "\"믿을 건 대표지수뿐\"...연금개미, 반도체 팔고 S&P500 샀다",
+        "link": "https://www.hankyung.com/article/202611135506i",
         "source": "한국경제",
-        "date": "Sun, 15 Nov 2026 09:34:23 +0900",
+        "date": "Sun, 15 Nov 2026 10:13:03 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -423,13 +423,13 @@
         "by": "rules"
       },
       {
-        "title": "변동성 장세 지속…'젠슨 황 퇴진' 엔비디아 실적에 쏠리는 눈 [주간전망]",
-        "link": "https://www.hankyung.com/article/2026111355876",
+        "title": "키옥시아株 2.2조엔 판 도시바…재상장에 베팅",
+        "link": "https://www.hankyung.com/article/202611156927i",
         "source": "한국경제",
-        "date": "Sun, 15 Nov 2026 08:00:08 +0900",
+        "date": "Sun, 15 Nov 2026 09:34:23 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch3ziu1xx4xDDzCsvr9tP\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch3ziuPnDrahd9VtRcSAF\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch3ziufAQdEs2kCP4SJgK\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch42xn58dnw9AdHGsS7No\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch42xnPUXGCf5ecWdH7oF\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch42xneMAWNiNNExtiRC9\"}"
   ]
 }
