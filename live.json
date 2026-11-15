@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-15T13:55:32.873Z",
+  "asOf": "2026-11-15T14:55:55.705Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch4pzpry8"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch4ubtDa1"
   },
   "stocks": {
     "kr": {
@@ -448,14 +448,14 @@
         "by": "rules"
       },
       {
-        "title": "Gold and silver are supposed to protect against inflation. So why are both metals tumbling instead?",
-        "link": "https://www.marketwatch.com/story/gold-and-silver-are-supposed-to-protect-against-inflation-so-why-are-both-metals-tumbling-instead-1735eca7?mod=mw_rss_topstories",
+        "title": "Will the Anthropic IPO create a disturbance in the broader U.S. equity market, like SpaceX did?",
+        "link": "https://www.marketwatch.com/story/will-the-anthropic-ipo-create-a-disturbance-in-the-broader-u-s-equity-market-like-spacex-did-05ba4351?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Sun, 15 Nov 2026 12:30:00 GMT",
-        "ko": "금과 은은 인플레이션으로부터 보호해 주는 것으로 알려져 있습니다. 그런데 왜 두 금속 모두 가격이 하락하고 있을까요?",
+        "date": "Sun, 15 Nov 2026 14:00:00 GMT",
+        "ko": "Anthropic의 IPO가 SpaceX처럼 미국 주식 시장 전반에 혼란을 야기할까요?",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -465,6 +465,18 @@
         "source": "CNBC",
         "date": "Fri, 13 Nov 2026 15:44:16 GMT",
         "ko": "10월 도매물가 0.3% 상승, 연간 상승률 6.5%로 4년 만에 최고치 기록",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "Gold and silver are supposed to protect against inflation. So why are both metals tumbling instead?",
+        "link": "https://www.marketwatch.com/story/gold-and-silver-are-supposed-to-protect-against-inflation-so-why-are-both-metals-tumbling-instead-1735eca7?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "date": "Sun, 15 Nov 2026 12:30:00 GMT",
+        "ko": "금과 은은 인플레이션으로부터 보호해 주는 것으로 알려져 있습니다. 그런데 왜 두 금속 모두 가격이 하락하고 있을까요?",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -494,24 +506,11 @@
         "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
-      },
-      {
-        "title": "A key report for where inflation stood in October comes out Tuesday. Here's what to expect",
-        "link": "https://www.cnbc.com/2026/11/09/october-cpi-report-2026-inflation.html",
-        "source": "CNBC",
-        "date": "Mon, 09 Nov 2026 21:03:55 GMT",
-        "ko": "10월 인플레이션이 어디에 있었는지에 대한 주요 보고서가 화요일에 나옵니다. 알아두어야 할 사항",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
       }
     ]
   },
   "newsBy": "rules",
   "trCache": {
-    "The stock market’s biggest test in weeks is here": "주식 시장에서 몇 주 만에 가장 큰 테스트가 여기에 있습니다",
     "Verizon’s stock rises as subscriber surge impresses Wall Street": "구독자 급등이 월스트리트에 영향을 미치면서 Verizon의 주가가 상승합니다.",
     "Musk says SpaceX’s AI rivals are in trouble, sending their stocks lower": "머스크는 스페이스X의 AI 라이벌들이 곤경에 처해 있어 주식을 낮추고 있다고 말한다.",
     "Nvidia, AMD and Broadcom could buy Meta shares as part of $35 billion stock offering": "엔비디아, AMD 및 브로드컴은 350억 달러 ($) 규모의 주식 제공의 일환으로 메타 주식을 매입할 수 있습니다.",
@@ -810,7 +809,8 @@
     "China’s hottest stocks these days have one thing in common: names that sound like sheep": "요즘 중국에서 가장 인기 있는 주식에는 한 가지 공통점이 있습니다. 바로 양처럼 들리는 이름입니다.",
     "These 6 battered AI stocks could bounce back big, an analyst says": "한 분석가는 이 6개의 부진한 AI 주식이 크게 반등할 수 있다고 말합니다.",
     "Washington can start delivering on affordability by rejecting Trump’s tariffs": "워싱턴은 트럼프의 관세를 거부함으로써 물가 안정화를 시작할 수 있습니다.",
-    "Gold and silver are supposed to protect against inflation. So why are both metals tumbling instead?": "금과 은은 인플레이션으로부터 보호해 주는 것으로 알려져 있습니다. 그런데 왜 두 금속 모두 가격이 하락하고 있을까요?"
+    "Gold and silver are supposed to protect against inflation. So why are both metals tumbling instead?": "금과 은은 인플레이션으로부터 보호해 주는 것으로 알려져 있습니다. 그런데 왜 두 금속 모두 가격이 하락하고 있을까요?",
+    "Will the Anthropic IPO create a disturbance in the broader U.S. equity market, like SpaceX did?": "Anthropic의 IPO가 SpaceX처럼 미국 주식 시장 전반에 혼란을 야기할까요?"
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch4pzpry8orW2A9M1QyGG\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch4pzqFmwfWKsGxBDGGVa\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch4pzqY9wJG7QSXVGNygS\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch4ubtDa1vpFmDYiXVJws\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch4ubtWSN8rYrA56Hd5ZR\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch4ubtiqCiQJdACWMoiWQ\"}"
   ]
 }
