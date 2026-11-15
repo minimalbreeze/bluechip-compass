@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-15T11:54:48.385Z",
+  "asOf": "2026-11-15T12:55:11.326Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch4fnok7M"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch4kPsDAj"
   },
   "stocks": {
     "kr": {
@@ -448,6 +448,18 @@
         "by": "rules"
       },
       {
+        "title": "Gold and silver are supposed to protect against inflation. So why are both metals tumbling instead?",
+        "link": "https://www.marketwatch.com/story/gold-and-silver-are-supposed-to-protect-against-inflation-so-why-are-both-metals-tumbling-instead-1735eca7?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "date": "Sun, 15 Nov 2026 12:30:00 GMT",
+        "ko": "금과 은은 인플레이션으로부터 보호해 주는 것으로 알려져 있습니다. 그런데 왜 두 금속 모두 가격이 하락하고 있을까요?",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
         "title": "Wholesale prices rose 0.3% in October, putting annual rate at 6.5%, the highest in nearly four years",
         "link": "https://www.cnbc.com/2026/11/13/ppi-inflation-report-october-2026.html",
         "source": "CNBC",
@@ -494,24 +506,11 @@
         "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
-      },
-      {
-        "title": "China wholesale inflation hits highest in more than four years as consumer measure slows",
-        "link": "https://www.cnbc.com/2026/11/09/china-wholesale-inflation-rises-consumer.html",
-        "source": "CNBC",
-        "date": "Mon, 09 Nov 2026 02:50:22 GMT",
-        "ko": "소비자 측정이 둔화됨에 따라 중국 도매 인플레이션이 4년 이상 최고를 기록했습니다.",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
       }
     ]
   },
   "newsBy": "rules",
   "trCache": {
-    "Cheesecake Factory was just the subject of unflattering headlines. It’s actually one of the hottest stocks around.": "치즈케이크 공장은 아첨하지 않는 헤드라인의 주제에 불과했습니다. 실제로 주변에서 가장 인기 있는 주식 중 하나입니다.",
     "The stock market’s biggest test in weeks is here": "주식 시장에서 몇 주 만에 가장 큰 테스트가 여기에 있습니다",
     "Verizon’s stock rises as subscriber surge impresses Wall Street": "구독자 급등이 월스트리트에 영향을 미치면서 Verizon의 주가가 상승합니다.",
     "Musk says SpaceX’s AI rivals are in trouble, sending their stocks lower": "머스크는 스페이스X의 AI 라이벌들이 곤경에 처해 있어 주식을 낮추고 있다고 말한다.",
@@ -810,7 +809,8 @@
     "Bitcoin is now below $69,000 and could fall even further if investors cash out to buy into the Anthropic IPO": "비트코인은 현재 69,000달러 아래로 하락했으며, 투자자들이 앤트로픽(Anthropic) IPO에 투자하기 위해 현금화할 경우 더욱 하락할 수 있습니다.",
     "China’s hottest stocks these days have one thing in common: names that sound like sheep": "요즘 중국에서 가장 인기 있는 주식에는 한 가지 공통점이 있습니다. 바로 양처럼 들리는 이름입니다.",
     "These 6 battered AI stocks could bounce back big, an analyst says": "한 분석가는 이 6개의 부진한 AI 주식이 크게 반등할 수 있다고 말합니다.",
-    "Washington can start delivering on affordability by rejecting Trump’s tariffs": "워싱턴은 트럼프의 관세를 거부함으로써 물가 안정화를 시작할 수 있습니다."
+    "Washington can start delivering on affordability by rejecting Trump’s tariffs": "워싱턴은 트럼프의 관세를 거부함으로써 물가 안정화를 시작할 수 있습니다.",
+    "Gold and silver are supposed to protect against inflation. So why are both metals tumbling instead?": "금과 은은 인플레이션으로부터 보호해 주는 것으로 알려져 있습니다. 그런데 왜 두 금속 모두 가격이 하락하고 있을까요?"
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch4fnok7MHHeWiADSisyJ\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch4fnp1jcvihWktLYXuCP\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch4fnpE8Q45cq5y3WB1dx\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch4kPsDAjRxvDLvgBnB1B\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch4kPsa123oYRtxG1JYhY\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch4kPsr74ZZUuFRYCAEzu\"}"
   ]
 }
