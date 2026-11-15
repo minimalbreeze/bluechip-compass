@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-15T22:58:55.171Z",
+  "asOf": "2026-11-15T23:59:16.407Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-13T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1335.65,
+      "price": 1335.75,
       "prev": 1336.2,
-      "chg": -0.04,
+      "chg": -0.03,
       "prevDay": "2026-11-14",
       "basis": "prev-close-memo",
-      "time": "2026-11-15T22:43:50.000Z"
+      "time": "2026-11-15T23:59:08.000Z"
     },
     "^GSPC": {
       "price": 7561.67,
@@ -80,11 +80,11 @@
       "chg3m": -18.54
     },
     "KRW=X": {
-      "last": 1335.65,
+      "last": 1335.75,
       "low52": 1321.76,
       "high52": 1554.48,
       "pct52": 0.06,
-      "chg3m": -3.87
+      "chg3m": -3.86
     },
     "^GSPC": {
       "last": 7561.67,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch5YS5k91"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch5d31eWw"
   },
   "stocks": {
     "kr": {
@@ -368,10 +368,54 @@
   "news": {
     "kr": [
       {
-        "title": "앤트로픽 상장일 시총에 관심 [한경 프리미엄9 TODAY]",
-        "link": "https://www.hankyung.com/article/2026111575501",
+        "title": "iM증권 \"엔비디아·코스피, 불편한 차트…중요한건 펀더멘털\"",
+        "link": "https://www.yna.co.kr/view/AKR20261116022900008",
+        "source": "연합뉴스",
+        "date": "Mon, 16 Nov 2026 08:43:41 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "반도체 소부장 빛났다…일주일새 32% 불기둥",
+        "link": "https://www.hankyung.com/article/202611146643i",
         "source": "한국경제",
-        "date": "Sun, 15 Nov 2026 18:31:21 +0900",
+        "date": "Mon, 16 Nov 2026 07:40:19 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "KB증권 “삼성전자, 탈엔비디아 시대 최대 수혜주”",
+        "link": "https://www.mk.co.kr/news/stock/12209588",
+        "source": "매일경제",
+        "date": "Mon, 16 Nov 2026 08:45:34 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "SK증권 \"코스닥, 정책 모멘텀 남아있다…시점은 불분명\"",
+        "link": "https://www.yna.co.kr/view/AKR20261116022400008",
+        "source": "연합뉴스",
+        "date": "Mon, 16 Nov 2026 08:42:55 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "\"삼성전자, '연산하는 메모리'가 주가 재평가 열쇠\"-LS",
+        "link": "https://www.hankyung.com/article/2026111679306",
+        "source": "한국경제",
+        "date": "Mon, 16 Nov 2026 07:36:08 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -383,50 +427,6 @@
         "link": "https://www.mk.co.kr/news/stock/12209328",
         "source": "매일경제",
         "date": "Mon, 16 Nov 2026 06:00:00 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "ETF 시장 커질수록 개별 종목 주가는 흔들릴 수도",
-        "link": "https://www.hankyung.com/article/2026111574861",
-        "source": "한국경제",
-        "date": "Sun, 15 Nov 2026 18:30:04 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "[단독] 코스피 3분의1이 대주주지분 과반·저PBR",
-        "link": "https://www.mk.co.kr/news/stock/12209373",
-        "source": "매일경제",
-        "date": "Sun, 15 Nov 2026 17:33:02 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "반도체 패권 전쟁…한국의 길 찾는다",
-        "link": "https://www.hankyung.com/article/2026111575401",
-        "source": "한국경제",
-        "date": "Sun, 15 Nov 2026 17:52:26 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "기술 믿었는데… 특례상장사 절반 공모가서 '반토막'",
-        "link": "https://www.mk.co.kr/news/stock/12209371",
-        "source": "매일경제",
-        "date": "Sun, 15 Nov 2026 17:33:01 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -2955,7 +2955,7 @@
       "2026-11-12": 1334.48,
       "2026-11-13": 1335.11,
       "2026-11-14": 1336.2,
-      "2026-11-15": 1335.65
+      "2026-11-15": 1335.75
     },
     "^GSPC": {
       "2026-11-04": 7688.62,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch5YS5k91Xu3LuKCHrMmK\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch5YS67U3isWLGV8HGz7t\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch5YS6Lbt1xAVo3CLeSs2\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch5d31eWwkLknzp1RNjhB\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch5d32DkaXSDkZKWh8WwP\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch5d32cp8gkvXQGsb5aqb\"}"
   ]
 }
