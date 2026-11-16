@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-16T09:32:31.446Z",
+  "asOf": "2026-11-16T10:33:01.505Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-16T06:33:00.000Z"
     },
     "KRW=X": {
-      "price": 1334.18,
+      "price": 1333.58,
       "prev": 1335.75,
-      "chg": -0.12,
+      "chg": -0.16,
       "prevDay": "2026-11-15",
       "basis": "prev-close-memo",
-      "time": "2026-11-16T09:32:21.000Z"
+      "time": "2026-11-16T10:32:51.000Z"
     },
     "^GSPC": {
       "price": 7561.67,
@@ -43,12 +43,12 @@
       "time": "2026-11-13T22:15:59.000Z"
     },
     "^VIX": {
-      "price": 20.06,
+      "price": 19.99,
       "prev": 19.3,
-      "chg": 3.94,
+      "chg": 3.58,
       "prevDay": "2026-11-15",
       "basis": "prev-close-memo",
-      "time": "2026-11-16T09:17:16.000Z"
+      "time": "2026-11-16T10:17:46.000Z"
     },
     "^TNX": {
       "price": 5.154,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.053
+    "pct": 0.051
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -22.72
     },
     "KRW=X": {
-      "last": 1334.18,
+      "last": 1333.58,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.053,
-      "chg3m": -3.97
+      "pct52": 0.051,
+      "chg3m": -4.02
     },
     "^GSPC": {
       "last": 7561.67,
@@ -101,11 +101,11 @@
       "chg3m": -4.39
     },
     "^VIX": {
-      "last": 20.06,
+      "last": 19.99,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.375,
-      "chg3m": 25.3
+      "pct52": 0.371,
+      "chg3m": 24.86
     },
     "^TNX": {
       "last": 5.15,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch6NkRd5B"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch6TN1KYL"
   },
   "stocks": {
     "kr": {
@@ -368,6 +368,39 @@
   "news": {
     "kr": [
       {
+        "title": "에이엘로봇, 오는 18일 코스닥 신규 상장",
+        "link": "https://www.yna.co.kr/view/AKR20261116168900008",
+        "source": "연합뉴스",
+        "date": "Mon, 16 Nov 2026 19:01:04 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "앤트로픽 상장도 전에 나온 '3배 상품'…구조 뜯어봤더니",
+        "link": "https://www.hankyung.com/article/202611169989i",
+        "source": "한국경제",
+        "date": "Mon, 16 Nov 2026 18:04:48 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "“주식 꼴보기 싫었는데 선물을 주네요”…배당률 5% 넘긴 효자종목 어디",
+        "link": "https://www.mk.co.kr/news/stock/12210265",
+        "source": "매일경제",
+        "date": "Mon, 16 Nov 2026 18:52:42 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
         "title": "상상인증권, 3분기 순이익 37억원…전기 대비 42%↑",
         "link": "https://www.yna.co.kr/view/AKR20261116166100008",
         "source": "연합뉴스",
@@ -390,46 +423,13 @@
         "by": "rules"
       },
       {
-        "title": "저PBR 꼬리표 기업 90% … 주가누르기 아닌 실적 탓",
-        "link": "https://www.mk.co.kr/news/stock/12210231",
+        "title": "기관 주가전망 35년치 뒤져보니…하락장에 매입하는 당신이 진짜 ‘프로’ [너드의 투자법]",
+        "link": "https://www.mk.co.kr/news/it/12210262",
         "source": "매일경제",
-        "date": "Mon, 16 Nov 2026 17:50:53 +09:00",
+        "date": "Mon, 16 Nov 2026 18:44:34 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "인텔릭스·클러쉬, 코스닥 상장 예비심사 신청",
-        "link": "https://www.yna.co.kr/view/AKR20261116161900008",
-        "source": "연합뉴스",
-        "date": "Mon, 16 Nov 2026 17:44:43 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "AI 인프라 성장 기대에 고배당 매력…통신주 달리나",
-        "link": "https://www.hankyung.com/article/2026111600531",
-        "source": "한국경제",
-        "date": "Mon, 16 Nov 2026 17:34:35 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "하락장의 역설 … 배당률 5% 넘긴 곳 두배 쑥",
-        "link": "https://www.mk.co.kr/news/stock/12210188",
-        "source": "매일경제",
-        "date": "Mon, 16 Nov 2026 17:35:30 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -441,6 +441,30 @@
         "source": "CNBC",
         "date": "Fri, 13 Nov 2026 21:18:30 GMT",
         "ko": "연준 설문조사 결과, AI 위험이 금융 시스템에 가장 큰 위협인 것으로 나타남",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "Why Morgan Stanley says it’s time to go ‘max’ overweight on stocks",
+        "link": "https://www.marketwatch.com/story/why-morgan-stanley-says-its-time-to-go-max-overweight-on-stocks-bd33b103?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "date": "Mon, 16 Nov 2026 10:20:00 GMT",
+        "ko": "모건 스탠리가 주식 비중을 '최대로' 확대할 때라고 말하는 이유",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "Wholesale prices rose 0.3% in October, putting annual rate at 6.5%, the highest in nearly four years",
+        "link": "https://www.cnbc.com/2026/11/13/ppi-inflation-report-october-2026.html",
+        "source": "CNBC",
+        "date": "Fri, 13 Nov 2026 15:44:16 GMT",
+        "ko": "10월 도매물가 0.3% 상승, 연간 상승률 6.5%로 4년 만에 최고치 기록",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -460,11 +484,11 @@
         "by": "rules"
       },
       {
-        "title": "Wholesale prices rose 0.3% in October, putting annual rate at 6.5%, the highest in nearly four years",
-        "link": "https://www.cnbc.com/2026/11/13/ppi-inflation-report-october-2026.html",
+        "title": "Consumer prices rose 0.4% in October, more than expected, complicating Fed's inflation fight",
+        "link": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html",
         "source": "CNBC",
-        "date": "Fri, 13 Nov 2026 15:44:16 GMT",
-        "ko": "10월 도매물가 0.3% 상승, 연간 상승률 6.5%로 4년 만에 최고치 기록",
+        "date": "Tue, 10 Nov 2026 23:53:58 GMT",
+        "ko": "10월 소비자 물가는 예상보다 0.4% 상승하여 Fed의 인플레이션 싸움이 복잡해졌습니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -482,36 +506,11 @@
         "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
-      },
-      {
-        "title": "Consumer prices rose 0.4% in October, more than expected, complicating Fed's inflation fight",
-        "link": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html",
-        "source": "CNBC",
-        "date": "Tue, 10 Nov 2026 23:53:58 GMT",
-        "ko": "10월 소비자 물가는 예상보다 0.4% 상승하여 Fed의 인플레이션 싸움이 복잡해졌습니다.",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "3 unexpected reasons the October jobs report was so strong",
-        "link": "https://www.cnbc.com/2026/11/09/october-jobs-report-hiring-by-sector.html",
-        "source": "CNBC",
-        "date": "Mon, 09 Nov 2026 22:23:56 GMT",
-        "ko": "10월 일자리 보고서가 강력했던 3가지 예상치 못한 이유",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
       }
     ]
   },
   "newsBy": "rules",
   "trCache": {
-    "Nvidia, AMD and Broadcom could buy Meta shares as part of $35 billion stock offering": "엔비디아, AMD 및 브로드컴은 350억 달러 ($) 규모의 주식 제공의 일환으로 메타 주식을 매입할 수 있습니다.",
     "Retail investors are getting cold feet about stocks, just when the market needs them most": "소매 투자자들은 시장이 가장 필요로 할 때 주식에 대해 냉담해지고 있습니다.",
     "Two stock picks to capitalize on Wall Street’s misguided AI fears": "월스트리트의 잘못된 AI 두려움을 활용하기 위한 두 가지 주식 추천",
     "These energy stocks are poised to profit from an imminent AI power crunch": "이러한 에너지 재고는 임박한 AI 전력 위기에서 이익을 얻을 준비가되어 있습니다.",
@@ -810,7 +809,8 @@
     "Gold and silver are supposed to protect against inflation. So why are both metals tumbling instead?": "금과 은은 인플레이션으로부터 보호해 주는 것으로 알려져 있습니다. 그런데 왜 두 금속 모두 가격이 하락하고 있을까요?",
     "Will the Anthropic IPO create a disturbance in the broader U.S. equity market, like SpaceX did?": "Anthropic의 IPO가 SpaceX처럼 미국 주식 시장 전반에 혼란을 야기할까요?",
     "Nvidia is gearing up for one of Wall Street’s most anticipated earnings calls in years": "Nvidia, 수년 만에 월스트리트에서 가장 기대되는 실적 발표 준비 중",
-    "Why this 40-year market veteran is making a lonely bet on a 40% stock-market crash — and $500 oil": "40년 경력의 시장 베테랑이 주식 시장 40% 폭락과 유가 500달러에 대해 단독으로 베팅하는 이유"
+    "Why this 40-year market veteran is making a lonely bet on a 40% stock-market crash — and $500 oil": "40년 경력의 시장 베테랑이 주식 시장 40% 폭락과 유가 500달러에 대해 단독으로 베팅하는 이유",
+    "Why Morgan Stanley says it’s time to go ‘max’ overweight on stocks": "모건 스탠리가 주식 비중을 '최대로' 확대할 때라고 말하는 이유"
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2955,7 +2955,7 @@
       "2026-11-13": 1335.11,
       "2026-11-14": 1336.2,
       "2026-11-15": 1335.75,
-      "2026-11-16": 1334.18
+      "2026-11-16": 1333.58
     },
     "^GSPC": {
       "2026-11-05": 7353.73,
@@ -2997,7 +2997,7 @@
       "2026-11-13": 19.3,
       "2026-11-14": 19.3,
       "2026-11-15": 19.3,
-      "2026-11-16": 20.06
+      "2026-11-16": 19.99
     },
     "^TNX": {
       "2026-11-05": 4.837,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch6NkRd5BKNr5GxswhaNG\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch6NkRz9aBjApR3zxE6MA\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch6NkSG1ef4pMtAy58R1W\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch6TN1KYLP87BFHg9n47N\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch6TN1qZCwZP9YpfHSN1Y\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch6TN2Dd8KR2kUCX8FUVL\"}"
   ]
 }
