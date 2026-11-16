@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-16T00:04:37.817Z",
+  "asOf": "2026-11-16T00:14:59.545Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-13T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1335.04,
+      "price": 1336.27,
       "prev": 1335.75,
-      "chg": -0.05,
+      "chg": 0.04,
       "prevDay": "2026-11-15",
       "basis": "prev-close-memo",
-      "time": "2026-11-16T00:04:24.000Z"
+      "time": "2026-11-16T00:14:55.000Z"
     },
     "^GSPC": {
       "price": 7561.67,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.057
+    "pct": 0.062
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -18.54
     },
     "KRW=X": {
-      "last": 1335.04,
+      "last": 1336.27,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.057,
-      "chg3m": -3.91
+      "pct52": 0.062,
+      "chg3m": -3.82
     },
     "^GSPC": {
       "last": 7561.67,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch5dShrNd"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch5eEXzKh"
   },
   "stocks": {
     "kr": {
@@ -368,13 +368,13 @@
   "news": {
     "kr": [
       {
-        "title": "[부산포용금융] 예탁결제원, 증권교육·지역인재 채용·지역세수 증대",
-        "link": "https://www.yna.co.kr/view/AKR20261014033400051",
+        "title": "코스피, 상승 출발 후 보합권에서 등락",
+        "link": "https://www.yna.co.kr/view/AKR20261116029600008",
         "source": "연합뉴스",
-        "date": "Mon, 16 Nov 2026 09:00:04 +0900",
+        "date": "Mon, 16 Nov 2026 09:08:20 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -390,13 +390,24 @@
         "by": "rules"
       },
       {
-        "title": "iM증권 \"엔비디아·코스피, 불편한 차트…중요한건 펀더멘털\"",
-        "link": "https://www.yna.co.kr/view/AKR20261116022900008",
-        "source": "연합뉴스",
-        "date": "Mon, 16 Nov 2026 08:43:41 +0900",
+        "title": "[MK시그널] 고영, AI 반도체 검사 장비와 의료용 로봇의 시너지 기대감 등에 주가 상승률 21.48% 기록",
+        "link": "https://www.mk.co.kr/news/stock/12209607",
+        "source": "매일경제",
+        "date": "Mon, 16 Nov 2026 09:13:52 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "증권가, SK오션플랜트에 \"M&A 이후 불확실\"…목표가 줄하향",
+        "link": "https://www.yna.co.kr/view/AKR20261116025100008",
+        "source": "연합뉴스",
+        "date": "Mon, 16 Nov 2026 09:02:14 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -412,21 +423,10 @@
         "by": "rules"
       },
       {
-        "title": "SK증권 \"코스닥, 정책 모멘텀 남아있다…시점은 불분명\"",
-        "link": "https://www.yna.co.kr/view/AKR20261116022400008",
-        "source": "연합뉴스",
-        "date": "Mon, 16 Nov 2026 08:42:55 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "치솟는 금리, 물가 속 엔비디아 실적 발표…빅위크의 시작 [오늘 아침 당신이 알아야 할 7가지]",
-        "link": "https://www.hankyung.com/article/202611157717i",
-        "source": "한국경제",
-        "date": "Mon, 16 Nov 2026 07:35:57 +0900",
+        "title": "한투운용 ACE 美대표지수 채권혼합형 ETF 2종, 올해 자금유입 1조 돌파",
+        "link": "https://www.mk.co.kr/news/stock/12209606",
+        "source": "매일경제",
+        "date": "Mon, 16 Nov 2026 09:10:51 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -2955,7 +2955,7 @@
       "2026-11-13": 1335.11,
       "2026-11-14": 1336.2,
       "2026-11-15": 1335.75,
-      "2026-11-16": 1335.04
+      "2026-11-16": 1336.27
     },
     "^GSPC": {
       "2026-11-04": 7688.62,
@@ -3386,10 +3386,9 @@
     }
   },
   "failed": [
-    "news/kr/매일경제: fetch failed",
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch5dShrNdkzM35rJsLBUa\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch5dSiNcvCwYuB2BjjPUQ\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch5dSimh3aUqh5y5mnNfi\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch5eEXzKhTenKD7vNs9jR\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch5eEYVb7dvP7GPu3yiHS\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch5eEYttg3znMJTtqVAqe\"}"
   ]
 }
