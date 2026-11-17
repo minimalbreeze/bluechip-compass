@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-17T00:01:30.009Z",
+  "asOf": "2026-11-17T00:12:02.367Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-16T11:05:30.000Z"
     },
     "KRW=X": {
-      "price": 1335.68,
+      "price": 1335.78,
       "prev": 1333.25,
-      "chg": 0.18,
+      "chg": 0.19,
       "prevDay": "2026-11-16",
       "basis": "prev-close-bar",
-      "time": "2026-11-17T00:01:20.000Z"
+      "time": "2026-11-17T00:11:55.000Z"
     },
     "^GSPC": {
       "price": 7416.59,
@@ -80,7 +80,7 @@
       "chg3m": -18.54
     },
     "KRW=X": {
-      "last": 1335.68,
+      "last": 1335.78,
       "low52": 1321.76,
       "high52": 1554.48,
       "pct52": 0.06,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch7X1nR4y"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch7XpPYxa"
   },
   "stocks": {
     "kr": {
@@ -368,13 +368,13 @@
   "news": {
     "kr": [
       {
-        "title": "KB증권, 삼성E&A 목표가↑…\"AI·모듈화로 설계능력 극대화\"",
-        "link": "https://www.yna.co.kr/view/AKR20261117029400008",
+        "title": "코스피, 2%대 하락…다시 장중 '5천피' 아래로",
+        "link": "https://www.yna.co.kr/view/AKR20261117035700008",
         "source": "연합뉴스",
-        "date": "Tue, 17 Nov 2026 08:52:57 +0900",
+        "date": "Tue, 17 Nov 2026 09:07:20 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -401,10 +401,10 @@
         "by": "rules"
       },
       {
-        "title": "신영증권 \"기업 예금 늘며 은행채 발행 압력…유동성 관리 부담\"",
-        "link": "https://www.yna.co.kr/view/AKR20261117027700008",
+        "title": "한투운용 반도체 ETF 리밸런싱…삼전 늘리고 하닉 줄여",
+        "link": "https://www.yna.co.kr/view/AKR20261117035000008",
         "source": "연합뉴스",
-        "date": "Tue, 17 Nov 2026 08:42:29 +0900",
+        "date": "Tue, 17 Nov 2026 09:06:18 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -2955,7 +2955,7 @@
       "2026-11-14": 1336.2,
       "2026-11-15": 1335.75,
       "2026-11-16": 1335.76,
-      "2026-11-17": 1335.68
+      "2026-11-17": 1335.78
     },
     "^GSPC": {
       "2026-11-05": 7353.73,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch7X1nR4yoRQtX2MTv5VE\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch7X1noPsNGUoWcHMAHoK\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch7X1o2nJ2d5KXMQq2rew\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch7XpPYxaw9zVU5Bho879\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch7XpQ5DSdJavYLZu8xHM\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch7XpQUGhMEogmxt1hvUg\"}"
   ]
 }
