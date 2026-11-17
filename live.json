@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-16T23:06:06.336Z",
+  "asOf": "2026-11-17T00:01:30.009Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-16T11:05:30.000Z"
     },
     "KRW=X": {
-      "price": 1335.76,
-      "prev": 1335.75,
-      "chg": 0,
-      "prevDay": "2026-11-15",
-      "basis": "prev-close-memo",
-      "time": "2026-11-16T23:05:41.000Z"
+      "price": 1335.68,
+      "prev": 1333.25,
+      "chg": 0.18,
+      "prevDay": "2026-11-16",
+      "basis": "prev-close-bar",
+      "time": "2026-11-17T00:01:20.000Z"
     },
     "^GSPC": {
       "price": 7416.59,
@@ -80,11 +80,11 @@
       "chg3m": -18.54
     },
     "KRW=X": {
-      "last": 1335.76,
+      "last": 1335.68,
       "low52": 1321.76,
       "high52": 1554.48,
       "pct52": 0.06,
-      "chg3m": -3.86
+      "chg3m": -3.96
     },
     "^GSPC": {
       "last": 7416.59,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch7SnnZvM"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch7X1nR4y"
   },
   "stocks": {
     "kr": {
@@ -368,21 +368,54 @@
   "news": {
     "kr": [
       {
-        "title": "에이엘로봇, 오는 18일 코스닥 신규 상장",
-        "link": "https://www.yna.co.kr/view/AKR20261116168900008",
+        "title": "KB증권, 삼성E&A 목표가↑…\"AI·모듈화로 설계능력 극대화\"",
+        "link": "https://www.yna.co.kr/view/AKR20261117029400008",
         "source": "연합뉴스",
-        "date": "Mon, 16 Nov 2026 19:01:04 +0900",
+        "date": "Tue, 17 Nov 2026 08:52:57 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "AI 매도세 지속에 일제 하락…나스닥 2.49%↓[뉴욕증시 브리핑]",
-        "link": "https://www.hankyung.com/article/2026111706616",
+        "title": "\"엔비디아 악재가 한국엔 호재?\"…증권가서 나온 반전 전망 [분석+]",
+        "link": "https://www.hankyung.com/article/2026111707276",
         "source": "한국경제",
-        "date": "Tue, 17 Nov 2026 07:14:28 +0900",
+        "date": "Tue, 17 Nov 2026 08:27:58 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "KB증권 “현대건설, 연말부터 원전사업 성과 기대”…목표가 15만원 유지",
+        "link": "https://www.mk.co.kr/news/stock/12210864",
+        "source": "매일경제",
+        "date": "Tue, 17 Nov 2026 08:55:53 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "신영증권 \"기업 예금 늘며 은행채 발행 압력…유동성 관리 부담\"",
+        "link": "https://www.yna.co.kr/view/AKR20261117027700008",
+        "source": "연합뉴스",
+        "date": "Tue, 17 Nov 2026 08:42:29 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "[오늘의 증권가 콜]엇갈린 증권가 전망… 반도체 장비주 '웃고' 지주사·방산주는 '울상'",
+        "link": "https://www.hankyung.com/article/202611170721i",
+        "source": "한국경제",
+        "date": "Tue, 17 Nov 2026 08:20:35 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -397,39 +430,6 @@
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "상상인증권, 3분기 순이익 37억원…전기 대비 42%↑",
-        "link": "https://www.yna.co.kr/view/AKR20261116166100008",
-        "source": "연합뉴스",
-        "date": "Mon, 16 Nov 2026 18:11:20 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "'이 종목' 3분기 영업이익 -71%에도....증권가 \"매수 유효\" 왜?",
-        "link": "https://www.hankyung.com/article/202611160410i",
-        "source": "한국경제",
-        "date": "Tue, 17 Nov 2026 07:00:02 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "기관 주가전망 35년치 뒤져보니…하락장에 매입하는 당신이 진짜 ‘프로’ [너드의 투자법]",
-        "link": "https://www.mk.co.kr/news/it/12210262",
-        "source": "매일경제",
-        "date": "Mon, 16 Nov 2026 18:44:34 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -448,11 +448,11 @@
         "by": "rules"
       },
       {
-        "title": "U.S. dollar’s AI-driven breakout could become a stock-market wrecking ball",
-        "link": "https://www.marketwatch.com/story/u-s-dollars-ai-driven-breakout-could-become-a-stock-market-wrecking-ball-18199b95?mod=mw_rss_topstories",
+        "title": "Stanley Druckenmiller dumped these chip stocks while buying into SpaceX and Palantir",
+        "link": "https://www.marketwatch.com/story/stanley-druckenmiller-dumped-these-chip-stocks-while-buying-into-spacex-and-palantir-9ae1f078?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 16 Nov 2026 22:46:00 GMT",
-        "ko": "AI 기반의 미국 달러 강세가 주식 시장을 파괴할 수 있음",
+        "date": "Mon, 16 Nov 2026 23:28:00 GMT",
+        "ko": "스탠리 드럭켄밀러, 반도체 주식 매도하고 SpaceX와 Palantir 주식 매수",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -472,11 +472,11 @@
         "by": "rules"
       },
       {
-        "title": "Berkshire upped its bet on a beleaguered U.S. housing market, while souring on these bank stocks",
-        "link": "https://www.marketwatch.com/story/berkshire-upped-its-bet-on-a-beleaguered-u-s-housing-market-while-souring-on-these-bank-stocks-2e8de402?mod=mw_rss_topstories",
+        "title": "U.S. dollar’s AI-driven breakout could become a stock-market wrecking ball",
+        "link": "https://www.marketwatch.com/story/u-s-dollars-ai-driven-breakout-could-become-a-stock-market-wrecking-ball-18199b95?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 16 Nov 2026 22:33:00 GMT",
-        "ko": "버크셔 해서웨이, 어려움에 처한 미국 주택 시장에 대한 베팅을 늘리는 한편, 이들 은행주에 대한 투자 축소",
+        "date": "Mon, 16 Nov 2026 22:46:00 GMT",
+        "ko": "AI 기반의 미국 달러 강세가 주식 시장을 파괴할 수 있음",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -496,11 +496,11 @@
         "by": "rules"
       },
       {
-        "title": "The FDA declined to approve one of biotech’s most closely watched cancer drugs. The company’s stock tumbled.",
-        "link": "https://www.marketwatch.com/story/the-fda-declined-to-approve-one-of-biotechs-most-closely-watched-cancer-drugs-d7c6a0a3?mod=mw_rss_topstories",
+        "title": "Berkshire upped its bet on a beleaguered U.S. housing market, while souring on these bank stocks",
+        "link": "https://www.marketwatch.com/story/berkshire-upped-its-bet-on-a-beleaguered-u-s-housing-market-while-souring-on-these-bank-stocks-2e8de402?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 16 Nov 2026 22:21:00 GMT",
-        "ko": "FDA가 바이오테크 업계에서 가장 주목받는 항암제 중 하나를 승인하지 않았습니다. 이로 인해 회사의 주가가 폭락했습니다.",
+        "date": "Mon, 16 Nov 2026 22:33:00 GMT",
+        "ko": "버크셔 해서웨이, 어려움에 처한 미국 주택 시장에 대한 베팅을 늘리는 한편, 이들 은행주에 대한 투자 축소",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -511,7 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "‘When do I sell my stocks?’ Ignore the noise and focus on these things.": "‘언제 주식을 팔지?’ 소음은 무시하고 이것들에 집중해.",
     "How Broadcom’s stock can surge and overcome ‘the biggest dislocation in the market’": "Broadcom의 주식이 급등하고 '시장에서 가장 큰 이탈‘ 을 극복할 수 있는 방법",
     "Microsoft earnings will look funky — but an elusive number is finally arriving": "Microsoft 수입은 펑키해 보이지만 난해한 숫자가 마침내 도착합니다.",
     "How to use I-bonds to create guaranteed, inflation-proof income in retirement": "I-채권을 사용하여 은퇴 시 보장된 인플레이션 방지 소득을 창출하는 방법",
@@ -810,7 +809,8 @@
     "The FDA declined to approve one of biotech’s most closely watched cancer drugs. The company’s stock tumbled.": "FDA가 바이오테크 업계에서 가장 주목받는 항암제 중 하나를 승인하지 않았습니다. 이로 인해 회사의 주가가 폭락했습니다.",
     "Nvidia’s stock extends decline following harsh words from the U.S. government": "미국 정부의 가혹한 발언에 이어 엔비디아 주가 하락세 지속",
     "U.S. dollar’s AI-driven breakout could become a stock-market wrecking ball": "AI 기반의 미국 달러 강세가 주식 시장을 파괴할 수 있음",
-    "Berkshire upped its bet on a beleaguered U.S. housing market, while souring on these bank stocks": "버크셔 해서웨이, 어려움에 처한 미국 주택 시장에 대한 베팅을 늘리는 한편, 이들 은행주에 대한 투자 축소"
+    "Berkshire upped its bet on a beleaguered U.S. housing market, while souring on these bank stocks": "버크셔 해서웨이, 어려움에 처한 미국 주택 시장에 대한 베팅을 늘리는 한편, 이들 은행주에 대한 투자 축소",
+    "Stanley Druckenmiller dumped these chip stocks while buying into SpaceX and Palantir": "스탠리 드럭켄밀러, 반도체 주식 매도하고 SpaceX와 Palantir 주식 매수"
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2944,7 +2944,6 @@
       "2026-11-17": 665.65
     },
     "KRW=X": {
-      "2026-11-05": 1357.27,
       "2026-11-06": 1363.65,
       "2026-11-07": 1363.65,
       "2026-11-08": 1363.21,
@@ -2955,7 +2954,8 @@
       "2026-11-13": 1335.11,
       "2026-11-14": 1336.2,
       "2026-11-15": 1335.75,
-      "2026-11-16": 1335.76
+      "2026-11-16": 1335.76,
+      "2026-11-17": 1335.68
     },
     "^GSPC": {
       "2026-11-05": 7353.73,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch7SnnZvMTrNVUMoDjSVT\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch7SnnnK3ZpJkRrMJpdPV\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch7SnnwVXgF8xM8mEQEcN\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch7X1nR4yoRQtX2MTv5VE\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch7X1noPsNGUoWcHMAHoK\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch7X1o2nJ2d5KXMQq2rew\"}"
   ]
 }
