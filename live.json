@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-17T12:45:09.124Z",
+  "asOf": "2026-11-17T13:14:24.543Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-17T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1336.89,
+      "price": 1336.48,
       "prev": 1333.25,
-      "chg": 0.27,
+      "chg": 0.24,
       "prevDay": "2026-11-16",
       "basis": "prev-close-bar",
-      "time": "2026-11-17T12:44:58.000Z"
+      "time": "2026-11-17T13:14:13.000Z"
     },
     "^GSPC": {
       "price": 7416.59,
@@ -43,12 +43,12 @@
       "time": "2026-11-16T22:15:59.000Z"
     },
     "^VIX": {
-      "price": 22.62,
+      "price": 22.71,
       "prev": 22.90999984741211,
-      "chg": -1.27,
+      "chg": -0.87,
       "prevDay": "2026-11-16",
       "basis": "prev-close-bar",
-      "time": "2026-11-17T12:29:46.000Z"
+      "time": "2026-11-17T12:59:01.000Z"
     },
     "^TNX": {
       "price": 5.121,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.065
+    "pct": 0.063
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -24.82
     },
     "KRW=X": {
-      "last": 1336.89,
+      "last": 1336.48,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.065,
-      "chg3m": -3.88
+      "pct52": 0.063,
+      "chg3m": -3.9
     },
     "^GSPC": {
       "last": 7416.59,
@@ -101,11 +101,11 @@
       "chg3m": -6.92
     },
     "^VIX": {
-      "last": 22.62,
+      "last": 22.71,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.52,
-      "chg3m": 49.5
+      "pct52": 0.526,
+      "chg3m": 50.1
     },
     "^TNX": {
       "last": 5.12,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch8XFJtFG"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch8ZUhzf4"
   },
   "stocks": {
     "kr": {
@@ -472,11 +472,11 @@
         "by": "rules"
       },
       {
-        "title": "‘Nvidia spooked me’: Should I sell my stocks or ride out the market turmoil?",
-        "link": "https://www.marketwatch.com/story/nvidia-spooked-me-should-i-sell-my-stocks-or-ride-out-the-market-turmoil-560583c6?mod=mw_rss_topstories",
+        "title": "Tepper and Loeb among fund managers piling into Nvidia and other megacap tech stocks on eve of October drawdown",
+        "link": "https://www.marketwatch.com/story/tepper-loeb-among-fund-managers-piling-into-nvidia-and-other-megacap-tech-on-the-eve-of-october-drawdown-de45f572?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Tue, 17 Nov 2026 10:15:00 GMT",
-        "ko": "‘Nvidia가 저를 놀라게 했어요’: 주식을 팔아야 할까요, 아니면 시장 혼란을 견뎌내야 할까요?",
+        "date": "Tue, 17 Nov 2026 10:28:00 GMT",
+        "ko": "테퍼와 로브, 10월 하락장 전날 엔비디아 및 기타 메가캡 기술주에 투자하는 펀드 매니저들 대열에 합류",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -496,14 +496,14 @@
         "by": "rules"
       },
       {
-        "title": "Here’s how much of Deutsche Bank’s market cap has been wiped away after reports on 15 million leaked documents",
-        "link": "https://www.marketwatch.com/story/heres-how-much-of-deutsche-banks-market-cap-has-been-wiped-away-after-reports-on-15-million-leaked-documents-fe3db078?mod=mw_rss_topstories",
+        "title": "‘Nvidia spooked me’: Should I sell my stocks or ride out the market turmoil?",
+        "link": "https://www.marketwatch.com/story/nvidia-spooked-me-should-i-sell-my-stocks-or-ride-out-the-market-turmoil-560583c6?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Tue, 17 Nov 2026 09:35:00 GMT",
-        "ko": "1,500만 건의 문서 유출 보도 이후 도이체방크의 시가총액이 얼마나 사라졌는지 알아보겠습니다.",
+        "date": "Tue, 17 Nov 2026 10:15:00 GMT",
+        "ko": "‘Nvidia가 저를 놀라게 했어요’: 주식을 팔아야 할까요, 아니면 시장 혼란을 견뎌내야 할까요?",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -511,7 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "When will Anthropic go public? Here’s what to know about the IPO timeline.": "Anthropic은 언제 공개되나요? IPO 일정에 대해 알아두어야 할 사항은 다음과 같습니다.",
     "The big reason Boeing’s stock is falling so hard after earnings": "보잉의 주식이 수입에 힘입어 큰 폭으로 하락하고 있는 이유",
     "A hidden ‘triple top’ in oil price charts suggests the rally has run out of gas": "유가 차트에 숨겨진 ‘트리플 탑’ 은 랠리가 가스가 소진되었음을 암시합니다.",
     "What gold and platinum are telling us about the stock market’s direction": "주식 시장의 방향에 대해 우리에게 말해주는 금과 플래티넘은 무엇입니까?",
@@ -810,7 +809,8 @@
     "Analysis: The Fed's chairman sees an AI revolution coming. Now he has to figure out what it means": "분석: 연준 의장은 AI 혁명이 다가오고 있다고 전망한다. 이제 그는 그것이 무엇을 의미하는지 파악해야 합니다.",
     "Here’s how much of Deutsche Bank’s market cap has been wiped away after reports on 15 million leaked documents": "1,500만 건의 문서 유출 보도 이후 도이체방크의 시가총액이 얼마나 사라졌는지 알아보겠습니다.",
     "‘Nvidia spooked me’: Should I sell my stocks or ride out the market turmoil?": "‘Nvidia가 저를 놀라게 했어요’: 주식을 팔아야 할까요, 아니면 시장 혼란을 견뎌내야 할까요?",
-    "Pick the two sectors where earnings growth will accelerate — as long as the 10-year stays below this key level, say strategists": "전략가들은 10년물 국채 금리가 이 핵심 수준 아래에 머무는 한, 수익 성장세가 가속화될 두 부문을 선택하라고 조언합니다."
+    "Pick the two sectors where earnings growth will accelerate — as long as the 10-year stays below this key level, say strategists": "전략가들은 10년물 국채 금리가 이 핵심 수준 아래에 머무는 한, 수익 성장세가 가속화될 두 부문을 선택하라고 조언합니다.",
+    "Tepper and Loeb among fund managers piling into Nvidia and other megacap tech stocks on eve of October drawdown": "테퍼와 로브, 10월 하락장 전날 엔비디아 및 기타 메가캡 기술주에 투자하는 펀드 매니저들 대열에 합류"
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2955,7 +2955,7 @@
       "2026-11-14": 1336.2,
       "2026-11-15": 1335.75,
       "2026-11-16": 1335.76,
-      "2026-11-17": 1336.89
+      "2026-11-17": 1336.48
     },
     "^GSPC": {
       "2026-11-06": 7376.86,
@@ -2997,7 +2997,7 @@
       "2026-11-14": 19.3,
       "2026-11-15": 19.3,
       "2026-11-16": 22.91,
-      "2026-11-17": 22.62
+      "2026-11-17": 22.71
     },
     "^TNX": {
       "2026-11-06": 4.859,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch8XFJtFGLu17Ce9pgA5U\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch8XFKDr6PHsHUjtRTvpN\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch8XFKTUhaQpr99oVhHaC\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch8ZUhzf4yQrvJ8WgbqrW\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch8ZUiLz4A6ipkV8HsdAf\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch8ZUiadAyBSXiKszgBtV\"}"
   ]
 }
