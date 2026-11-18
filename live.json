@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-18T21:53:30.365Z",
+  "asOf": "2026-11-18T22:11:11.867Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-18T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1332.94,
+      "price": 1332.69,
       "prev": 1335.6700439453125,
-      "chg": -0.2,
+      "chg": -0.22,
       "prevDay": "2026-11-17",
       "basis": "prev-close-bar",
-      "time": "2026-11-18T21:53:13.000Z"
+      "time": "2026-11-18T22:08:53.000Z"
     },
     "^GSPC": {
       "price": 7323.63,
@@ -32,7 +32,7 @@
       "chg": -0.23,
       "prevDay": "2026-11-17",
       "basis": "prev-close-bar",
-      "time": "2026-11-18T21:20:01.000Z"
+      "time": "2026-11-18T21:57:25.000Z"
     },
     "^IXIC": {
       "price": 24429.885,
@@ -40,7 +40,7 @@
       "chg": 0.42,
       "prevDay": "2026-11-17",
       "basis": "prev-close-bar",
-      "time": "2026-11-18T21:53:18.000Z"
+      "time": "2026-11-18T22:11:00.000Z"
     },
     "^VIX": {
       "price": 24.56,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.048
+    "pct": 0.047
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -24.82
     },
     "KRW=X": {
-      "last": 1332.94,
+      "last": 1332.69,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.048,
-      "chg3m": -3.76
+      "pct52": 0.047,
+      "chg3m": -3.78
     },
     "^GSPC": {
       "last": 7323.63,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChB8sWgzX"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChBADknW7"
   },
   "stocks": {
     "kr": {
@@ -368,24 +368,24 @@
   "news": {
     "kr": [
       {
-        "title": "[수능] 주식시장 1시간 늦게 개장…정규장 오전 10시~오후 4시30분",
-        "link": "https://www.yna.co.kr/view/AKR20261118119300008",
+        "title": "4분기 실적 눈높이 낮아져…상장사 10곳중 6곳 전망치 하향",
+        "link": "https://www.yna.co.kr/view/AKR20261118093500008",
         "source": "연합뉴스",
-        "date": "Thu, 19 Nov 2026 06:00:10 +0900",
+        "date": "Thu, 19 Nov 2026 07:00:10 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "반도체 끝물이라는데 1만피 간다?…개미들 혼란 빠뜨린 전망 [분석+]",
-        "link": "https://www.hankyung.com/article/2026111852966",
+        "title": "코스닥은 16% 빠졌는데…이 종목, 나 홀로 35% 뛰었다 [종목+]",
+        "link": "https://www.hankyung.com/article/2026111853286",
         "source": "한국경제",
-        "date": "Wed, 18 Nov 2026 22:00:01 +0900",
+        "date": "Thu, 19 Nov 2026 06:30:06 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -401,10 +401,10 @@
         "by": "rules"
       },
       {
-        "title": "금융지주가 전망한 연말 증시…\"기술적 반등 그칠 가능성\"",
-        "link": "https://www.yna.co.kr/view/AKR20261118147500002",
+        "title": "수능일 주식시장 1시간 늦게 개장…정규장 오전 10시~오후 4시30분",
+        "link": "https://www.yna.co.kr/view/AKR20261118119300008",
         "source": "연합뉴스",
-        "date": "Thu, 19 Nov 2026 05:55:00 +0900",
+        "date": "Thu, 19 Nov 2026 06:00:10 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -412,10 +412,10 @@
         "by": "rules"
       },
       {
-        "title": "삼성·LG가 작정했다…하루 만에 20% 급등한 '이 주식' 정체",
-        "link": "https://www.hankyung.com/article/2026111855081",
+        "title": "반도체 끝물이라는데 1만피 간다?…개미들 혼란 빠뜨린 전망 [분석+]",
+        "link": "https://www.hankyung.com/article/2026111852966",
         "source": "한국경제",
-        "date": "Wed, 18 Nov 2026 18:25:08 +0900",
+        "date": "Wed, 18 Nov 2026 22:00:01 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -448,11 +448,11 @@
         "by": "rules"
       },
       {
-        "title": "Has the stock market’s correction hit bottom yet? Here’s what these contrarian indicators say.",
+        "title": "Has the stock market’s slump hit bottom yet? Here’s what these contrarian indicators say.",
         "link": "https://www.marketwatch.com/story/has-the-stock-markets-correction-hit-bottom-yet-heres-what-these-contrarian-indicators-say-f9104879?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Wed, 18 Nov 2026 21:42:00 GMT",
-        "ko": "주식 시장의 조정이 아직 바닥을 쳤나요? 이러한 역행 지표가 시사하는 바는 다음과 같습니다.",
+        "date": "Wed, 18 Nov 2026 21:58:00 GMT",
+        "ko": "주식 시장의 침체가 아직 바닥을 쳤나요? 이러한 역지(逆指) 지표가 말해주는 바는 다음과 같습니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -472,14 +472,14 @@
         "by": "rules"
       },
       {
-        "title": "‘Nvidia’s turmoil has me spooked’: Should I sell my stocks and buy real estate — or ride out the storm?",
-        "link": "https://www.marketwatch.com/story/nvidia-spooked-me-should-i-sell-my-stocks-or-ride-out-the-market-turmoil-560583c6?mod=mw_rss_topstories",
+        "title": "Palo Alto Networks’ stock soars as earnings show AI has upped the stakes for cybersecurity",
+        "link": "https://www.marketwatch.com/story/palo-alto-networks-stock-soars-as-earnings-show-ai-has-upped-the-stakes-for-cybersecurity-308e34b8?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Wed, 18 Nov 2026 21:00:00 GMT",
-        "ko": "‘엔비디아의 혼란이 저를 겁먹게 만들었어요’: 주식을 팔고 부동산을 사야 할까요, 아니면 폭풍우를 견뎌내야 할까요?",
+        "date": "Wed, 18 Nov 2026 21:55:00 GMT",
+        "ko": "Palo Alto Networks의 주가가 급등했습니다. AI가 사이버 보안의 중요성을 높였다는 실적 결과가 나온 것입니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -496,11 +496,11 @@
         "by": "rules"
       },
       {
-        "title": "Fed minutes show growing unease about the outlook for inflation",
-        "link": "https://www.marketwatch.com/story/fed-minutes-show-growing-unease-about-the-outlook-for-inflation-59e3c13d?mod=mw_rss_topstories",
+        "title": "‘Nvidia’s turmoil has me spooked’: Should I sell my stocks and buy real estate — or ride out the storm?",
+        "link": "https://www.marketwatch.com/story/nvidia-spooked-me-should-i-sell-my-stocks-or-ride-out-the-market-turmoil-560583c6?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Wed, 18 Nov 2026 20:51:00 GMT",
-        "ko": "연준 의사록, 인플레이션 전망에 대한 우려 고조 보여줘",
+        "date": "Wed, 18 Nov 2026 21:00:00 GMT",
+        "ko": "‘엔비디아의 혼란이 저를 겁먹게 만들었어요’: 주식을 팔고 부동산을 사야 할까요, 아니면 폭풍우를 견뎌내야 할까요?",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -511,8 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "ServiceNow stock is on track for its largest drop on record. But JPMorgan sees a bright spot.": "ServiceNow 재고는 기록적으로 가장 큰 하락을 기록하고 있습니다. 그러나 JPMorgan은 밝은 곳을 봅니다.",
-    "You can’t rely on the S&P 500 as much as you may think": "생각만큼 S&P 500에 의존할 수는 없습니다.",
     "The Fed held off on a rate hike. Today’s GDP and inflation reports could make waiting harder.": "연준은 금리 인상을 단행했다. 오늘날의 GDP 및 인플레이션 보고서는 기다리는 것을 더 어렵게 만들 수 있습니다.",
     "Third-quarter U.S. GDP increases a better-than-expected 3.4% as September inflation accelerates": "9월 인플레이션이 가속화됨에 따라 미국 3분기 GDP는 예상보다 더 나은 3.4% 증가",
     "Inflation surges, PCE shows. Fed pause on rate hikes unlikely to last long with prices still rising.": "인플레이션이 급증하면 PCE가 표시됩니다. 금리 인상에 대한 연준의 일시 중지는 가격이 여전히 상승하면서 오래 지속될 것 같지 않습니다.",
@@ -810,7 +808,9 @@
     "Fed minutes show growing unease about the outlook for inflation": "연준 의사록, 인플레이션 전망에 대한 우려 고조 보여줘",
     "‘GTA 6’ is the biggest game of all time. What it means for Take-Two’s stock.": "'GTA 6'는 사상 최고의 게임입니다. Take-Two 주식에 미치는 영향.",
     "‘Nvidia’s turmoil has me spooked’: Should I sell my stocks and buy real estate — or ride out the storm?": "‘엔비디아의 혼란이 저를 겁먹게 만들었어요’: 주식을 팔고 부동산을 사야 할까요, 아니면 폭풍우를 견뎌내야 할까요?",
-    "Has the stock market’s correction hit bottom yet? Here’s what these contrarian indicators say.": "주식 시장의 조정이 아직 바닥을 쳤나요? 이러한 역행 지표가 시사하는 바는 다음과 같습니다."
+    "Has the stock market’s correction hit bottom yet? Here’s what these contrarian indicators say.": "주식 시장의 조정이 아직 바닥을 쳤나요? 이러한 역행 지표가 시사하는 바는 다음과 같습니다.",
+    "Has the stock market’s slump hit bottom yet? Here’s what these contrarian indicators say.": "주식 시장의 침체가 아직 바닥을 쳤나요? 이러한 역지(逆指) 지표가 말해주는 바는 다음과 같습니다.",
+    "Palo Alto Networks’ stock soars as earnings show AI has upped the stakes for cybersecurity": "Palo Alto Networks의 주가가 급등했습니다. AI가 사이버 보안의 중요성을 높였다는 실적 결과가 나온 것입니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2955,7 +2955,7 @@
       "2026-11-15": 1335.75,
       "2026-11-16": 1335.76,
       "2026-11-17": 1334.84,
-      "2026-11-18": 1332.94
+      "2026-11-18": 1332.69
     },
     "^GSPC": {
       "2026-11-07": 7376.86,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChB8sWgzXXgEhCxnFuxdi\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChB8sX8JJmbQGBVzA5HqJ\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChB8sXRuPrygQCvQBSKxs\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChBADknW7DKF8jpzYq6e6\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChBADmKW1YEvwVMRPdAMR\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChBADmiobP6ChYSam4CGX\"}"
   ]
 }
