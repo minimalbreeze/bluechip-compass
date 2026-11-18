@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-17T23:16:48.626Z",
+  "asOf": "2026-11-18T00:02:12.978Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-17T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1334.84,
-      "prev": 1333.25,
-      "chg": 0.12,
-      "prevDay": "2026-11-16",
+      "price": 1335.25,
+      "prev": 1335.6700439453125,
+      "chg": -0.03,
+      "prevDay": "2026-11-17",
       "basis": "prev-close-bar",
-      "time": "2026-11-17T23:14:48.000Z"
+      "time": "2026-11-17T23:22:04.000Z"
     },
     "^GSPC": {
       "price": 7340.53,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.056
+    "pct": 0.06
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -22.72
     },
     "KRW=X": {
-      "last": 1334.84,
+      "last": 1335.67,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.056,
-      "chg3m": -4.02
+      "pct52": 0.06,
+      "chg3m": -3.96
     },
     "^GSPC": {
       "last": 7340.53,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch9MR35cV"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch9Qsrzyu"
   },
   "stocks": {
     "kr": {
@@ -368,13 +368,13 @@
   "news": {
     "kr": [
       {
-        "title": "[마켓뷰] 美증시 하락·엔비디아 호실적…'5천피' 회복 시도하나",
-        "link": "https://www.yna.co.kr/view/AKR20261118024600008",
+        "title": "유진증권, SAMG엔터 목표가↓…\"해외사업 비용 부담\"",
+        "link": "https://www.yna.co.kr/view/AKR20261118034700008",
         "source": "연합뉴스",
-        "date": "Wed, 18 Nov 2026 08:06:17 +0900",
+        "date": "Wed, 18 Nov 2026 08:50:16 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -390,24 +390,24 @@
         "by": "rules"
       },
       {
-        "title": "AI·반도체·금융주 아닙니다…130년 전통 음료수가 44% 급등한 이유",
-        "link": "https://www.mk.co.kr/news/stock/12211884",
+        "title": "엔비디아 매출 103% 폭증…5000선 무너진 코스피 구원투수 될까",
+        "link": "https://www.mk.co.kr/news/stock/12211997",
         "source": "매일경제",
-        "date": "Wed, 18 Nov 2026 06:02:14 +09:00",
+        "date": "Wed, 18 Nov 2026 08:49:07 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "증권사, 계열사 동원해 회사채 발행금리 낮추기 못한다",
-        "link": "https://www.yna.co.kr/view/AKR20261117144300008",
+        "title": "하나증권, 아이에스동서 목표가↓…\"경산 아파트 분양률이 관건\"",
+        "link": "https://www.yna.co.kr/view/AKR20261118030800008",
         "source": "연합뉴스",
-        "date": "Wed, 18 Nov 2026 08:00:04 +0900",
+        "date": "Wed, 18 Nov 2026 08:44:11 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -423,10 +423,10 @@
         "by": "rules"
       },
       {
-        "title": "예상 못한 ‘블루 쓰나미’에 파랗게 질린 증시 … 빅데이터로 본 미래 주가는?",
-        "link": "https://www.mk.co.kr/news/stock/12211329",
+        "title": "“셀트리온, 미국 판매 확대에 성장 지속”…하나증권, 목표가 31만원 제시",
+        "link": "https://www.mk.co.kr/news/stock/12211982",
         "source": "매일경제",
-        "date": "Wed, 18 Nov 2026 05:00:00 +09:00",
+        "date": "Wed, 18 Nov 2026 08:19:00 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -2944,7 +2944,6 @@
       "2026-11-18": 650.06
     },
     "KRW=X": {
-      "2026-11-06": 1363.65,
       "2026-11-07": 1363.65,
       "2026-11-08": 1363.21,
       "2026-11-09": 1341.8,
@@ -2955,7 +2954,8 @@
       "2026-11-14": 1336.2,
       "2026-11-15": 1335.75,
       "2026-11-16": 1335.76,
-      "2026-11-17": 1334.84
+      "2026-11-17": 1334.84,
+      "2026-11-18": 1335.25
     },
     "^GSPC": {
       "2026-11-06": 7376.86,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch9MR35cVYCwUopTkbt9Z\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch9MR3acqXDNsdbJxaDYd\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch9MR3xSH26apCFFnZmns\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch9QsrzyumDUbXLe6oRxZ\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch9QssVFoTuuGWMqP3nnj\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch9QssnNGcMNgiJibmLgM\"}"
   ]
 }
