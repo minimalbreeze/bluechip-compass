@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-18T00:02:12.978Z",
+  "asOf": "2026-11-18T00:12:35.406Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-17T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1335.25,
+      "price": 1331.66,
       "prev": 1335.6700439453125,
-      "chg": -0.03,
+      "chg": -0.3,
       "prevDay": "2026-11-17",
       "basis": "prev-close-bar",
-      "time": "2026-11-17T23:22:04.000Z"
+      "time": "2026-11-18T00:12:25.000Z"
     },
     "^GSPC": {
       "price": 7340.53,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.06
+    "pct": 0.043
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -22.72
     },
     "KRW=X": {
-      "last": 1335.67,
+      "last": 1331.66,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.06,
-      "chg3m": -3.96
+      "pct52": 0.043,
+      "chg3m": -3.85
     },
     "^GSPC": {
       "last": 7340.53,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch9Qsrzyu"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch9Rfk4om"
   },
   "stocks": {
     "kr": {
@@ -368,10 +368,32 @@
   "news": {
     "kr": [
       {
-        "title": "유진증권, SAMG엔터 목표가↓…\"해외사업 비용 부담\"",
-        "link": "https://www.yna.co.kr/view/AKR20261118034700008",
+        "title": "코스피, 2%대 상승 출발…장중 '5천피' 회복",
+        "link": "https://www.yna.co.kr/view/AKR20261118040800008",
         "source": "연합뉴스",
-        "date": "Wed, 18 Nov 2026 08:50:16 +0900",
+        "date": "Wed, 18 Nov 2026 09:06:55 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "와이즈버즈 영업이익 1년 새 2배로…상장 광고업체 19곳 중 증가율 1위",
+        "link": "https://www.hankyung.com/article/2026111835676",
+        "source": "한국경제",
+        "date": "Wed, 18 Nov 2026 08:48:03 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "젠슨황 없는 컨퍼런스콜... 엔비디아 주가는 올랐다 왜?",
+        "link": "https://www.mk.co.kr/news/business/12212008",
+        "source": "매일경제",
+        "date": "Wed, 18 Nov 2026 09:05:04 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -379,13 +401,24 @@
         "by": "rules"
       },
       {
-        "title": "월가 \"엔비디아 AI 반도체 수요 건재\"…\"아직 신중해야\" 의견도",
-        "link": "https://www.hankyung.com/article/202611183378i",
-        "source": "한국경제",
-        "date": "Wed, 18 Nov 2026 07:53:55 +0900",
+        "title": "[속보] 코스피 2%대 상승 출발…장중 '5천피' 회복",
+        "link": "https://www.yna.co.kr/view/AKR20261118039500008",
+        "source": "연합뉴스",
+        "date": "Wed, 18 Nov 2026 09:02:32 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "내년 실적 반등에 주주환원 확대까지...영원무역·한섬 등 패션주 강세",
+        "link": "https://www.hankyung.com/article/202611172174i",
+        "source": "한국경제",
+        "date": "Wed, 18 Nov 2026 08:30:02 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -397,39 +430,6 @@
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "하나증권, 아이에스동서 목표가↓…\"경산 아파트 분양률이 관건\"",
-        "link": "https://www.yna.co.kr/view/AKR20261118030800008",
-        "source": "연합뉴스",
-        "date": "Wed, 18 Nov 2026 08:44:11 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "\"LS, 일렉트릭 호조로 3분기 실적 예상치 부합\"-키움",
-        "link": "https://www.hankyung.com/article/2026111833726",
-        "source": "한국경제",
-        "date": "Wed, 18 Nov 2026 07:50:39 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "“셀트리온, 미국 판매 확대에 성장 지속”…하나증권, 목표가 31만원 제시",
-        "link": "https://www.mk.co.kr/news/stock/12211982",
-        "source": "매일경제",
-        "date": "Wed, 18 Nov 2026 08:19:00 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -2955,7 +2955,7 @@
       "2026-11-15": 1335.75,
       "2026-11-16": 1335.76,
       "2026-11-17": 1334.84,
-      "2026-11-18": 1335.25
+      "2026-11-18": 1331.66
     },
     "^GSPC": {
       "2026-11-06": 7376.86,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch9QsrzyumDUbXLe6oRxZ\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch9QssVFoTuuGWMqP3nnj\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch9QssnNGcMNgiJibmLgM\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch9Rfk4omvFVZfjhtmykV\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch9RfkZ55FrSPDnVxA9wG\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch9RfkuQSw7Eb8FDicRrw\"}"
   ]
 }
