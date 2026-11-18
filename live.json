@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-18T22:53:53.570Z",
+  "asOf": "2026-11-18T23:11:35.967Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-18T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1332.54,
+      "price": 1332.66,
       "prev": 1335.6700439453125,
       "chg": -0.23,
       "prevDay": "2026-11-17",
       "basis": "prev-close-bar",
-      "time": "2026-11-18T22:47:35.000Z"
+      "time": "2026-11-18T23:09:32.000Z"
     },
     "^GSPC": {
       "price": 7323.63,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.046
+    "pct": 0.047
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -24.82
     },
     "KRW=X": {
-      "last": 1332.54,
+      "last": 1332.66,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.046,
-      "chg3m": -3.79
+      "pct52": 0.047,
+      "chg3m": -3.78
     },
     "^GSPC": {
       "last": 7323.63,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChBDUbVAT"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChBEpubkr"
   },
   "stocks": {
     "kr": {
@@ -368,6 +368,39 @@
   "news": {
     "kr": [
       {
+        "title": "[마켓뷰] '앤트로픽 상장' 기대감? 경계감?…코스피 향방은",
+        "link": "https://www.yna.co.kr/view/AKR20261119019300008",
+        "source": "연합뉴스",
+        "date": "Thu, 19 Nov 2026 07:59:51 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "미중러 정상회담, 앤트로픽 상장…코스피 5000선 시험대 [오늘 아침 당신이 알아야 할 7가지]",
+        "link": "https://www.hankyung.com/article/202611196104i",
+        "source": "한국경제",
+        "date": "Thu, 19 Nov 2026 07:41:31 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "“한번에 50bp 올리자” 월러 연준 이사 발언이 미친 역설적 효과",
+        "link": "https://www.mk.co.kr/news/business/12213215",
+        "source": "매일경제",
+        "date": "Thu, 19 Nov 2026 08:05:52 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
         "title": "4분기 실적 눈높이 낮아져…상장사 10곳중 6곳 전망치 하향",
         "link": "https://www.yna.co.kr/view/AKR20261118093500008",
         "source": "연합뉴스",
@@ -379,10 +412,10 @@
         "by": "rules"
       },
       {
-        "title": "코스닥은 16% 빠졌는데…이 종목, 나 홀로 35% 뛰었다 [종목+]",
-        "link": "https://www.hankyung.com/article/2026111853286",
+        "title": "엔비디아 '깜짝 실적'도 소용 없었다…S&P500, 5일 연속 하락 [뉴욕증시 브리핑]",
+        "link": "https://www.hankyung.com/article/2026111961206",
         "source": "한국경제",
-        "date": "Thu, 19 Nov 2026 06:30:06 +0900",
+        "date": "Thu, 19 Nov 2026 07:28:55 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -397,39 +430,6 @@
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "수능일 주식시장 1시간 늦게 개장…정규장 오전 10시~오후 4시30분",
-        "link": "https://www.yna.co.kr/view/AKR20261118119300008",
-        "source": "연합뉴스",
-        "date": "Thu, 19 Nov 2026 06:00:10 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "반도체 끝물이라는데 1만피 간다?…개미들 혼란 빠뜨린 전망 [분석+]",
-        "link": "https://www.hankyung.com/article/2026111852966",
-        "source": "한국경제",
-        "date": "Wed, 18 Nov 2026 22:00:01 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "골치 아픈 엑셀도 한마디로 ‘뚝딱’ … GPT 꺾고 ‘세기의 상장’하는 앤트로픽",
-        "link": "https://www.mk.co.kr/news/stock/12212672",
-        "source": "매일경제",
-        "date": "Thu, 19 Nov 2026 05:10:00 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -448,14 +448,14 @@
         "by": "rules"
       },
       {
-        "title": "Palo Alto Networks’ stock gets a fresh AI-fueled boost from earnings",
-        "link": "https://www.marketwatch.com/story/palo-alto-networks-stock-soars-as-earnings-show-ai-has-upped-the-stakes-for-cybersecurity-308e34b8?mod=mw_rss_topstories",
+        "title": "The stock market is being rocked by the biggest shake-up in a generation as tech falls behind",
+        "link": "https://www.marketwatch.com/story/the-stock-market-is-being-rocked-by-the-biggest-shake-up-in-a-generation-as-tech-falls-behind-66c1f281?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Wed, 18 Nov 2026 22:48:00 GMT",
-        "ko": "Palo Alto Networks의 주가가 실적 호조로 AI 기반의 새로운 상승세를 보이고 있습니다.",
+        "date": "Wed, 18 Nov 2026 22:53:00 GMT",
+        "ko": "기술주가 부진하면서 증시는 한 세대 만에 가장 큰 격변을 겪고 있습니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -465,6 +465,30 @@
         "source": "CNBC",
         "date": "Tue, 17 Nov 2026 13:40:54 GMT",
         "ko": "세인트루이스 연방준비은행의 무살렘 총재, 향후 몇 달 동안 4차례의 추가 금리 인상이 필요할 수 있다고 밝혀",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "Palo Alto Networks’ stock gets a fresh AI-fueled boost from earnings",
+        "link": "https://www.marketwatch.com/story/palo-alto-networks-stock-soars-as-earnings-show-ai-has-upped-the-stakes-for-cybersecurity-308e34b8?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "date": "Wed, 18 Nov 2026 22:53:00 GMT",
+        "ko": "Palo Alto Networks의 주가가 실적 호조로 AI 기반의 새로운 상승세를 보이고 있습니다.",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "Analysis: The Fed's chairman sees an AI revolution coming. Now he has to figure out what it means",
+        "link": "https://www.cnbc.com/2026/11/16/kevin-warsh-fed-ai-jobs-productivity-interest-rateshtml.html",
+        "source": "CNBC",
+        "date": "Tue, 17 Nov 2026 15:35:13 GMT",
+        "ko": "분석: 연준 의장은 AI 혁명이 다가오고 있다고 전망한다. 이제 그는 그것이 무엇을 의미하는지 파악해야 합니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -482,36 +506,11 @@
         "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
-      },
-      {
-        "title": "Analysis: The Fed's chairman sees an AI revolution coming. Now he has to figure out what it means",
-        "link": "https://www.cnbc.com/2026/11/16/kevin-warsh-fed-ai-jobs-productivity-interest-rateshtml.html",
-        "source": "CNBC",
-        "date": "Tue, 17 Nov 2026 15:35:13 GMT",
-        "ko": "분석: 연준 의장은 AI 혁명이 다가오고 있다고 전망한다. 이제 그는 그것이 무엇을 의미하는지 파악해야 합니다.",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "Has the stock market’s slump hit bottom yet? Here’s what these contrarian indicators say.",
-        "link": "https://www.marketwatch.com/story/has-the-stock-markets-correction-hit-bottom-yet-heres-what-these-contrarian-indicators-say-f9104879?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "date": "Wed, 18 Nov 2026 21:58:00 GMT",
-        "ko": "주식 시장의 침체가 아직 바닥을 쳤나요? 이러한 역지(逆指) 지표가 말해주는 바는 다음과 같습니다.",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
       }
     ]
   },
   "newsBy": "rules",
   "trCache": {
-    "Third-quarter U.S. GDP increases a better-than-expected 3.4% as September inflation accelerates": "9월 인플레이션이 가속화됨에 따라 미국 3분기 GDP는 예상보다 더 나은 3.4% 증가",
     "Inflation surges, PCE shows. Fed pause on rate hikes unlikely to last long with prices still rising.": "인플레이션이 급증하면 PCE가 표시됩니다. 금리 인상에 대한 연준의 일시 중지는 가격이 여전히 상승하면서 오래 지속될 것 같지 않습니다.",
     "Analysis: Kevin Warsh is keeping his options open — and Wall Street guessing": "분석: 케빈 워시 (Kevin Warsh) 는 옵션을 열어두고 월스트리트 추측",
     "Caterpillar’s stock heads for worst day in 7 years — and what that means for the Dow": "Caterpillar의 주식은 7년 만에 최악의 날을 맞이합니다 — 그리고 그것이 다우 지수에게 의미하는 바는",
@@ -810,7 +809,8 @@
     "Has the stock market’s correction hit bottom yet? Here’s what these contrarian indicators say.": "주식 시장의 조정이 아직 바닥을 쳤나요? 이러한 역행 지표가 시사하는 바는 다음과 같습니다.",
     "Has the stock market’s slump hit bottom yet? Here’s what these contrarian indicators say.": "주식 시장의 침체가 아직 바닥을 쳤나요? 이러한 역지(逆指) 지표가 말해주는 바는 다음과 같습니다.",
     "Palo Alto Networks’ stock soars as earnings show AI has upped the stakes for cybersecurity": "Palo Alto Networks의 주가가 급등했습니다. AI가 사이버 보안의 중요성을 높였다는 실적 결과가 나온 것입니다.",
-    "Palo Alto Networks’ stock gets a fresh AI-fueled boost from earnings": "Palo Alto Networks의 주가가 실적 호조로 AI 기반의 새로운 상승세를 보이고 있습니다."
+    "Palo Alto Networks’ stock gets a fresh AI-fueled boost from earnings": "Palo Alto Networks의 주가가 실적 호조로 AI 기반의 새로운 상승세를 보이고 있습니다.",
+    "The stock market is being rocked by the biggest shake-up in a generation as tech falls behind": "기술주가 부진하면서 증시는 한 세대 만에 가장 큰 격변을 겪고 있습니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2955,7 +2955,7 @@
       "2026-11-15": 1335.75,
       "2026-11-16": 1335.76,
       "2026-11-17": 1334.84,
-      "2026-11-18": 1332.54
+      "2026-11-18": 1332.66
     },
     "^GSPC": {
       "2026-11-07": 7376.86,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChBDUbVATHrf3QPG6HiAs\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChBDUbsyzC3n9KtsapPft\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChBDUcBq4CsVZYkgADkGS\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChBEpubkrz5GzdxJFcPtN\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChBEpv4JS7YL5xZW4AMay\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChBEpvQ8Qb4petXTUXyJo\"}"
   ]
 }
