@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-18T13:52:47.064Z",
+  "asOf": "2026-11-18T13:53:45.394Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-18T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1332.32,
+      "price": 1332.18,
       "prev": 1335.6700439453125,
-      "chg": -0.25,
+      "chg": -0.26,
       "prevDay": "2026-11-17",
       "basis": "prev-close-bar",
-      "time": "2026-11-18T13:52:27.000Z"
+      "time": "2026-11-18T13:53:36.000Z"
     },
     "^GSPC": {
       "price": 7340.53,
@@ -43,12 +43,12 @@
       "time": "2026-11-17T22:15:59.000Z"
     },
     "^VIX": {
-      "price": 24.29,
+      "price": 24.16,
       "prev": 25.459999084472656,
-      "chg": -4.6,
+      "chg": -5.11,
       "prevDay": "2026-11-17",
       "basis": "prev-close-bar",
-      "time": "2026-11-18T13:37:31.000Z"
+      "time": "2026-11-18T13:38:31.000Z"
     },
     "^TNX": {
       "price": 5.109,
@@ -56,7 +56,7 @@
       "chg": 0.12,
       "prevDay": "2026-11-17",
       "basis": "prev-close-bar",
-      "time": "2026-11-18T13:37:35.000Z"
+      "time": "2026-11-18T13:38:35.000Z"
     }
   },
   "fx": {
@@ -80,11 +80,11 @@
       "chg3m": -20.55
     },
     "KRW=X": {
-      "last": 1332.32,
+      "last": 1332.18,
       "low52": 1321.76,
       "high52": 1554.48,
       "pct52": 0.045,
-      "chg3m": -3.8
+      "chg3m": -3.81
     },
     "^GSPC": {
       "last": 7340.53,
@@ -101,11 +101,11 @@
       "chg3m": -6.67
     },
     "^VIX": {
-      "last": 24.29,
+      "last": 24.16,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.615,
-      "chg3m": 53.25
+      "pct52": 0.608,
+      "chg3m": 52.43
     },
     "^TNX": {
       "last": 5.11,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChAWDM82M"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChAWHeTvz"
   },
   "stocks": {
     "kr": {
@@ -2955,7 +2955,7 @@
       "2026-11-15": 1335.75,
       "2026-11-16": 1335.76,
       "2026-11-17": 1334.84,
-      "2026-11-18": 1332.32
+      "2026-11-18": 1332.18
     },
     "^GSPC": {
       "2026-11-07": 7376.86,
@@ -2997,7 +2997,7 @@
       "2026-11-15": 19.3,
       "2026-11-16": 22.91,
       "2026-11-17": 25.46,
-      "2026-11-18": 24.29
+      "2026-11-18": 24.16
     },
     "^TNX": {
       "2026-11-07": 4.859,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChAWDM82MQyvUX3Dx7G9k\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChAWDMZp2JjXtzoaEGp4K\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChAWDMtv8aaZ1V8Sjn9BC\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChAWHeTvz9LLL564YJuPZ\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChAWHeyvqQugp2FSdUBoT\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChAWHfJY1HJ4aCqz35Z96\"}"
   ]
 }
