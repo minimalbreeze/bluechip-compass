@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-18T08:50:30.250Z",
+  "asOf": "2026-11-18T09:50:59.382Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-18T06:33:00.000Z"
     },
     "KRW=X": {
-      "price": 1330.68,
+      "price": 1331.81,
       "prev": 1335.6700439453125,
-      "chg": -0.37,
+      "chg": -0.29,
       "prevDay": "2026-11-17",
       "basis": "prev-close-bar",
-      "time": "2026-11-18T08:50:20.000Z"
+      "time": "2026-11-18T09:50:45.000Z"
     },
     "^GSPC": {
       "price": 7340.53,
@@ -43,12 +43,12 @@
       "time": "2026-11-17T22:15:59.000Z"
     },
     "^VIX": {
-      "price": 24.01,
+      "price": 23.53,
       "prev": 25.459999084472656,
-      "chg": -5.7,
+      "chg": -7.58,
       "prevDay": "2026-11-17",
       "basis": "prev-close-bar",
-      "time": "2026-11-18T08:35:16.000Z"
+      "time": "2026-11-18T09:35:31.000Z"
     },
     "^TNX": {
       "price": 5.103,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.038
+    "pct": 0.043
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -20.55
     },
     "KRW=X": {
-      "last": 1330.68,
+      "last": 1331.81,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.038,
-      "chg3m": -3.92
+      "pct52": 0.043,
+      "chg3m": -3.84
     },
     "^GSPC": {
       "last": 7340.53,
@@ -101,11 +101,11 @@
       "chg3m": -6.67
     },
     "^VIX": {
-      "last": 24.01,
+      "last": 23.53,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.6,
-      "chg3m": 51.48
+      "pct52": 0.572,
+      "chg3m": 48.45
     },
     "^TNX": {
       "last": 5.1,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChA7AQLzG"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChABmveam"
   },
   "stocks": {
     "kr": {
@@ -368,24 +368,24 @@
   "news": {
     "kr": [
       {
-        "title": "증시 따라 오르내린 국고채 금리…3년물 연 3.736%(종합)",
-        "link": "https://www.yna.co.kr/view/AKR20261118154551008",
+        "title": "씨티, 내년 성장률 전망치 4.1%로 상향…\"반도체 호황 지속\"",
+        "link": "https://www.yna.co.kr/view/AKR20261118175200002",
         "source": "연합뉴스",
-        "date": "Wed, 18 Nov 2026 17:00:16 +0900",
+        "date": "Wed, 18 Nov 2026 18:40:44 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "다음달 코스피200 '물갈이'…가온전선 들어오고 ○○○ 나간다",
-        "link": "https://www.hankyung.com/article/202611185290i",
+        "title": "삼성·LG가 작정했다…하루 만에 20% 급등한 '이 주식' 정체",
+        "link": "https://www.hankyung.com/article/2026111855081",
         "source": "한국경제",
-        "date": "Wed, 18 Nov 2026 16:52:00 +0900",
+        "date": "Wed, 18 Nov 2026 18:25:08 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -401,21 +401,21 @@
         "by": "rules"
       },
       {
-        "title": "한국금융지주 \"한국투자증권 주식 6천500억원에 추가취득\"",
-        "link": "https://www.yna.co.kr/view/AKR20261118155600008",
+        "title": "하나에어로다이내믹스, 코스닥 신규 상장…오는 20일 거래 개시",
+        "link": "https://www.yna.co.kr/view/AKR20261118173400008",
         "source": "연합뉴스",
-        "date": "Wed, 18 Nov 2026 16:46:20 +0900",
+        "date": "Wed, 18 Nov 2026 18:21:44 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "3분기 코스피 영업익 75% '삼전닉스'…코스닥 10곳 중 6곳 적자",
-        "link": "https://www.hankyung.com/article/202611184862i",
+        "title": "반도체가 다했다…코스피 상장사 영업익 10% 증가",
+        "link": "https://www.hankyung.com/article/2026111855111",
         "source": "한국경제",
-        "date": "Wed, 18 Nov 2026 16:33:02 +0900",
+        "date": "Wed, 18 Nov 2026 18:23:41 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -448,14 +448,14 @@
         "by": "rules"
       },
       {
-        "title": "CoreWeave’s stock pops — even as Nvidia talks up a ‘disciplined’ approach to financing",
-        "link": "https://www.marketwatch.com/story/coreweaves-stock-pops-even-as-nvidia-talks-up-a-disciplined-approach-to-financing-e7f00876?mod=mw_rss_topstories",
+        "title": "What Wall Street analysts are now saying after Nvidia’s beat-and-raise quarter",
+        "link": "https://www.marketwatch.com/story/what-wall-street-analysts-are-now-saying-after-nvidias-beat-and-raise-quarter-9311c85d?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Wed, 18 Nov 2026 01:59:00 GMT",
-        "ko": "Nvidia가 '규율 있는' 자금 조달 접근 방식을 강조하는 와중에도 CoreWeave의 주가는 급등했습니다.",
+        "date": "Wed, 18 Nov 2026 09:41:00 GMT",
+        "ko": "Nvidia의 실적 호조와 전망 상향 조정 이후 월스트리트 애널리스트들의 의견",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -472,14 +472,14 @@
         "by": "rules"
       },
       {
-        "title": "Nvidia’s stock rises as blowout numbers help ease CEO transition fears",
-        "link": "https://www.marketwatch.com/story/nvidias-stock-rises-as-blowout-numbers-help-ease-ceo-transition-fears-2f20d38a?mod=mw_rss_topstories",
+        "title": "The S&P 500 just broke a crucial support level. Here’s what history shows may happen now.",
+        "link": "https://www.marketwatch.com/story/the-s-p-500-just-broke-a-crucial-support-level-heres-what-history-shows-may-happen-now-776f6da2?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Wed, 18 Nov 2026 01:28:00 GMT",
-        "ko": "Nvidia의 주가가 상승하면서 폭발적인 실적이 CEO 교체에 대한 우려를 완화하는 데 도움이 되었습니다.",
+        "date": "Wed, 18 Nov 2026 08:50:00 GMT",
+        "ko": "S&P 500 지수가 중요한 지지선을 하향 돌파했습니다. 과거 사례를 통해 지금 어떤 일이 일어날 수 있는지 알아보겠습니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -496,11 +496,11 @@
         "by": "rules"
       },
       {
-        "title": "Costco is benefiting from ‘apocalyptic concerns’ as customers stock up on goods, analysts say",
-        "link": "https://www.marketwatch.com/story/costco-is-benefiting-from-apocalyptic-concerns-as-customers-stock-up-on-goods-analysts-say-24f611ab?mod=mw_rss_topstories",
+        "title": "CoreWeave’s stock pops — even as Nvidia talks up a ‘disciplined’ approach to financing",
+        "link": "https://www.marketwatch.com/story/coreweaves-stock-pops-even-as-nvidia-talks-up-a-disciplined-approach-to-financing-e7f00876?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Tue, 17 Nov 2026 22:46:00 GMT",
-        "ko": "애널리스트들은 고객들이 상품을 비축하면서 코스트코가 '종말에 대한 우려'의 수혜를 보고 있다고 말합니다.",
+        "date": "Wed, 18 Nov 2026 01:59:00 GMT",
+        "ko": "Nvidia가 '규율 있는' 자금 조달 접근 방식을 강조하는 와중에도 CoreWeave의 주가는 급등했습니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -511,8 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "Bill Ackman owns only a handful of stocks. Here is his rule for picking a winner.": "Bill Ackman은 소수의 주식만 소유하고 있습니다. 여기에 승자를 고르는 그의 규칙이 있습니다.",
-    "The AI boom is starting to break time-tested stock-market signals": "인공지능 (AI) 붐이 오랜 시간 검증된 주식 시장 신호를 깨기 시작하고 있다.",
     "Vertiv earnings just sent an upbeat signal about AI ahead of Big Tech results": "Vertiv 수입은 빅 테크 결과에 앞서 AI에 대한 긍정적인 신호를 보냈습니다.",
     "11 bargain-priced stocks of companies that have huge growth potential over the next two years": "향후 2년간 엄청난 성장 잠재력을 가진 11개의 바겐세일드 (bargain-priced) 기업 주식",
     "Want guaranteed income in retirement without an annuity? Try laddering I bonds.": "연금 없이 은퇴 후 안정적인 수입을 원하시나요? I 채권을 여러 개 사들여 투자하는 방식을 시도해 보세요.",
@@ -810,7 +808,9 @@
     "Costco is benefiting from ‘apocalyptic concerns’ as customers stock up on goods, analysts say": "애널리스트들은 고객들이 상품을 비축하면서 코스트코가 '종말에 대한 우려'의 수혜를 보고 있다고 말합니다.",
     "Nvidia’s stock rises as blowout numbers help ease CEO transition fears": "Nvidia의 주가가 상승하면서 폭발적인 실적이 CEO 교체에 대한 우려를 완화하는 데 도움이 되었습니다.",
     "CoreWeave’s stock pops — even as Nvidia talks up a ‘disciplined’ approach to financing": "Nvidia가 '규율 있는' 자금 조달 접근 방식을 강조하는 와중에도 CoreWeave의 주가는 급등했습니다.",
-    "Record diesel prices drive UK inflation to 1-year high of 3.6%": "경유 가격이 사상 최고치를 기록하며 영국 인플레이션이 1년 만에 3.6%로 최고치를 기록했습니다."
+    "Record diesel prices drive UK inflation to 1-year high of 3.6%": "경유 가격이 사상 최고치를 기록하며 영국 인플레이션이 1년 만에 3.6%로 최고치를 기록했습니다.",
+    "What Wall Street analysts are now saying after Nvidia’s beat-and-raise quarter": "Nvidia의 실적 호조와 전망 상향 조정 이후 월스트리트 애널리스트들의 의견",
+    "The S&P 500 just broke a crucial support level. Here’s what history shows may happen now.": "S&P 500 지수가 중요한 지지선을 하향 돌파했습니다. 과거 사례를 통해 지금 어떤 일이 일어날 수 있는지 알아보겠습니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2955,7 +2955,7 @@
       "2026-11-15": 1335.75,
       "2026-11-16": 1335.76,
       "2026-11-17": 1334.84,
-      "2026-11-18": 1330.68
+      "2026-11-18": 1331.81
     },
     "^GSPC": {
       "2026-11-07": 7376.86,
@@ -2997,7 +2997,7 @@
       "2026-11-15": 19.3,
       "2026-11-16": 22.91,
       "2026-11-17": 25.46,
-      "2026-11-18": 24.01
+      "2026-11-18": 23.53
     },
     "^TNX": {
       "2026-11-07": 4.859,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChA7AQLzGGuiVQWSA1L6W\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChA7AQnnd2th1H1ir4Bk7\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChA7ARB6H2KvfsfUZC91J\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChABmveamgcinHXfrwf6j\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChABmw48hCEFBXquQwNVj\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChABmwNV9UYdqdCNxArDr\"}"
   ]
 }
