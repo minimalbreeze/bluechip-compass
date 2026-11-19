@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-19T00:53:52.411Z",
+  "asOf": "2026-11-19T01:04:17.727Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-18T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1330.18,
+      "price": 1330.2,
       "prev": 1333.010009765625,
       "chg": -0.21,
       "prevDay": "2026-11-18",
       "basis": "prev-close-bar",
-      "time": "2026-11-19T00:53:44.000Z"
+      "time": "2026-11-19T01:04:05.000Z"
     },
     "^GSPC": {
       "price": 7323.63,
@@ -80,7 +80,7 @@
       "chg3m": -24.82
     },
     "KRW=X": {
-      "last": 1330.18,
+      "last": 1330.2,
       "low52": 1321.76,
       "high52": 1554.48,
       "pct52": 0.036,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChBNdFPEM"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChBPRMW7c"
   },
   "stocks": {
     "kr": {
@@ -368,21 +368,21 @@
   "news": {
     "kr": [
       {
-        "title": "대신증권 \"코나아이, 실적 둔화에도 성장·고배당이 주가 지지\"",
-        "link": "https://www.yna.co.kr/view/AKR20261119030500008",
+        "title": "키움증권, 대한변협 법률구조재단과 '자립준비청년 법률지원' MOU",
+        "link": "https://www.yna.co.kr/view/AKR20261119051400008",
         "source": "연합뉴스",
-        "date": "Thu, 19 Nov 2026 08:57:29 +0900",
+        "date": "Thu, 19 Nov 2026 09:58:10 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "[오늘의 증권가 콜]中 노선 호재 항공 '맑음'…이차전지·반도체 소재 '흐림'",
-        "link": "https://www.hankyung.com/article/202611196188i",
+        "title": "한한령 해제에 '들석'…증권가 꼽은 수혜주는?",
+        "link": "https://www.hankyung.com/article/202611196544i",
         "source": "한국경제",
-        "date": "Thu, 19 Nov 2026 08:30:51 +0900",
+        "date": "Thu, 19 Nov 2026 09:47:50 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -401,24 +401,13 @@
         "by": "rules"
       },
       {
-        "title": "유진증권 \"엔비디아, 호실적으로 AI 수요 견조…주가 저평가\"",
-        "link": "https://www.yna.co.kr/view/AKR20261119030800008",
-        "source": "연합뉴스",
-        "date": "Thu, 19 Nov 2026 08:52:25 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "[마켓라이브]11월 19일 증시",
-        "link": "https://www.hankyung.com/article/202611196160i",
+        "title": "코스피 40% 빠질 때 88% 뛴 코스맥스…\"여름 비수기도 없었다\"",
+        "link": "https://www.hankyung.com/article/202611185231i",
         "source": "한국경제",
-        "date": "Thu, 19 Nov 2026 08:28:48 +0900",
+        "date": "Thu, 19 Nov 2026 09:17:29 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -430,6 +419,17 @@
         "act": "none",
         "lasting": "temporary",
         "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "수능날엔 주가 떨어진다?…10년치 코스피 성적표 살펴보니",
+        "link": "https://www.hankyung.com/article/202611196398i",
+        "source": "한국경제",
+        "date": "Thu, 19 Nov 2026 09:08:44 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -2955,7 +2955,7 @@
       "2026-11-16": 1335.76,
       "2026-11-17": 1334.84,
       "2026-11-18": 1332.66,
-      "2026-11-19": 1330.18
+      "2026-11-19": 1330.2
     },
     "^GSPC": {
       "2026-11-07": 7376.86,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChBNdFPEMmGiQQChHBakN\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChBNdFr2Z6T3YDTvTr1XJ\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChBNdGG5Kwkmck6GahqQU\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChBPRMW7cXeLJhTH4LT6Q\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChBPRMk19dP5A55wDfMCg\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChBPRMth5DzrigBZJKBsU\"}"
   ]
 }
