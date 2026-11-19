@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-19T09:47:44.637Z",
+  "asOf": "2026-11-19T10:48:05.286Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-19T07:32:50.000Z"
     },
     "KRW=X": {
-      "price": 1329.18,
+      "price": 1328.47,
       "prev": 1333.010009765625,
-      "chg": -0.29,
+      "chg": -0.34,
       "prevDay": "2026-11-18",
       "basis": "prev-close-bar",
-      "time": "2026-11-19T09:47:38.000Z"
+      "time": "2026-11-19T10:47:56.000Z"
     },
     "^GSPC": {
       "price": 7323.63,
@@ -43,12 +43,12 @@
       "time": "2026-11-18T22:15:59.000Z"
     },
     "^VIX": {
-      "price": 22.39,
+      "price": 22.1,
       "prev": 24.559999465942383,
-      "chg": -8.84,
+      "chg": -10.02,
       "prevDay": "2026-11-18",
       "basis": "prev-close-bar",
-      "time": "2026-11-19T09:32:31.000Z"
+      "time": "2026-11-19T10:32:46.000Z"
     },
     "^TNX": {
       "price": 5.066,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.032
+    "pct": 0.029
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -16.94
     },
     "KRW=X": {
-      "last": 1329.18,
+      "last": 1328.47,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.032,
-      "chg3m": -3.74
+      "pct52": 0.029,
+      "chg3m": -3.79
     },
     "^GSPC": {
       "last": 7323.63,
@@ -101,11 +101,11 @@
       "chg3m": -6.69
     },
     "^VIX": {
-      "last": 22.39,
+      "last": 22.1,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.507,
-      "chg3m": 44.92
+      "pct52": 0.491,
+      "chg3m": 43.04
     },
     "^TNX": {
       "last": 5.07,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChC5LVGxY"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChC9wNytQ"
   },
   "stocks": {
     "kr": {
@@ -368,14 +368,25 @@
   "news": {
     "kr": [
       {
-        "title": "HLB·HLB생명과학, 합병 재추진…\"사업 경쟁력 강화\"",
-        "link": "https://www.yna.co.kr/view/AKR20261119161600017",
+        "title": "'특수 정밀화학 소재 제조사' 피지티, 코스닥 상장예심 통과",
+        "link": "https://www.yna.co.kr/view/AKR20261119166100008",
         "source": "연합뉴스",
-        "date": "Thu, 19 Nov 2026 17:53:38 +0900",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": null,
-        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
+        "date": "Thu, 19 Nov 2026 18:49:10 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "코스피200·코스닥150 리밸런싱…대한광통신에 685억 유입될 듯",
+        "link": "https://www.hankyung.com/article/2026111981641",
+        "source": "한국경제",
+        "date": "Thu, 19 Nov 2026 18:10:07 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
@@ -390,10 +401,21 @@
         "by": "rules"
       },
       {
-        "title": "풀무원식품, 미국 자회사 주식 532억원에 추가취득…지분율 100%",
-        "link": "https://www.yna.co.kr/view/AKR20261119161100008",
+        "title": "한양디지텍 \"싱가포르 종속회사 주식 319억원에 추가취득\"",
+        "link": "https://www.yna.co.kr/view/AKR20261119163600008",
         "source": "연합뉴스",
-        "date": "Thu, 19 Nov 2026 17:52:02 +0900",
+        "date": "Thu, 19 Nov 2026 18:48:16 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "어닝쇼크 한국금융지주 \"저가매수\" vs \"신중론\"",
+        "link": "https://www.hankyung.com/article/2026111981691",
+        "source": "한국경제",
+        "date": "Thu, 19 Nov 2026 18:07:54 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -408,28 +430,6 @@
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "국고채 금리, 일제히 하락…유가 급락·외국인 매수(종합)",
-        "link": "https://www.yna.co.kr/view/AKR20261119158751008",
-        "source": "연합뉴스",
-        "date": "Thu, 19 Nov 2026 17:47:52 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "어제 담은 하이브 팔고…삼전닉스 다시 사들인 초고수 [주식 초고수는 지금]",
-        "link": "https://www.mk.co.kr/news/stock/12213650",
-        "source": "매일경제",
-        "date": "Thu, 19 Nov 2026 15:57:06 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -496,14 +496,14 @@
         "by": "rules"
       },
       {
-        "title": "What the ‘death cross’ in small-cap stocks means for the rest of the market",
-        "link": "https://www.marketwatch.com/story/what-the-death-cross-in-small-cap-stocks-means-for-the-rest-of-the-stock-market-edd8e86e?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "date": "Wed, 18 Nov 2026 23:12:00 GMT",
-        "ko": "소형주에서 나타난 '데스 크로스'가 시장 전체에 미치는 영향",
+        "title": "AI risks are the biggest threat to the financial system, Fed survey finds",
+        "link": "https://www.cnbc.com/2026/11/13/ai-risks-financial-system-federal-reserve.html",
+        "source": "CNBC",
+        "date": "Fri, 13 Nov 2026 21:18:30 GMT",
+        "ko": "연준 설문조사 결과, AI 위험이 금융 시스템에 가장 큰 위협인 것으로 나타남",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -2955,7 +2955,7 @@
       "2026-11-16": 1335.76,
       "2026-11-17": 1334.84,
       "2026-11-18": 1332.66,
-      "2026-11-19": 1329.18
+      "2026-11-19": 1328.47
     },
     "^GSPC": {
       "2026-11-08": 7376.86,
@@ -2997,7 +2997,7 @@
       "2026-11-16": 22.91,
       "2026-11-17": 25.46,
       "2026-11-18": 24.56,
-      "2026-11-19": 22.39
+      "2026-11-19": 22.1
     },
     "^TNX": {
       "2026-11-08": 4.859,
@@ -3386,10 +3386,9 @@
     }
   },
   "failed": [
-    "news/kr/한국경제: HTTP 403",
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChC5LVGxYjzLZRqS4Mdtk\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChC5LVcYwEfbewbg9RKJJ\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChC5LVtAy1MXc4yYuqVGr\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChC9wNytQDHYLnaVBXkB3\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChC9wPPgy1SV6abDw36ov\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChC9wPhnYwqzmFmhGsB1K\"}"
   ]
 }
