@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-19T00:01:57.589Z",
+  "asOf": "2026-11-19T00:12:29.734Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-18T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1329.75,
-      "prev": 1332.66,
-      "chg": -0.22,
+      "price": 1329.16,
+      "prev": 1333.010009765625,
+      "chg": -0.29,
       "prevDay": "2026-11-18",
-      "basis": "prev-close-memo",
-      "time": "2026-11-19T00:01:45.000Z"
+      "basis": "prev-close-bar",
+      "time": "2026-11-19T00:12:20.000Z"
     },
     "^GSPC": {
       "price": 7323.63,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.034
+    "pct": 0.032
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -24.82
     },
     "KRW=X": {
-      "last": 1329.75,
+      "last": 1329.16,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.034,
-      "chg3m": -3.99
+      "pct52": 0.032,
+      "chg3m": -3.74
     },
     "^GSPC": {
       "last": 7323.63,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChBJfeRfw"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChBKUFcXJ"
   },
   "stocks": {
     "kr": {
@@ -368,6 +368,28 @@
   "news": {
     "kr": [
       {
+        "title": "대신증권 \"코나아이, 실적 둔화에도 성장·고배당이 주가 지지\"",
+        "link": "https://www.yna.co.kr/view/AKR20261119030500008",
+        "source": "연합뉴스",
+        "date": "Thu, 19 Nov 2026 08:57:29 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "웨이비스, 정부 첨단산업 투자지원금 63억원 확보…국방반도체 강화",
+        "link": "https://www.mk.co.kr/news/stock/12213241",
+        "source": "매일경제",
+        "date": "Thu, 19 Nov 2026 08:41:20 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
         "title": "유진증권 \"엔비디아, 호실적으로 AI 수요 견조…주가 저평가\"",
         "link": "https://www.yna.co.kr/view/AKR20261119030800008",
         "source": "연합뉴스",
@@ -379,21 +401,10 @@
         "by": "rules"
       },
       {
-        "title": "[오늘의 증권가 콜]中 노선 호재 항공 '맑음'…이차전지·반도체 소재 '흐림'",
-        "link": "https://www.hankyung.com/article/202611196188i",
-        "source": "한국경제",
-        "date": "Thu, 19 Nov 2026 08:30:51 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "웨이비스, 정부 첨단산업 투자지원금 63억원 확보…국방반도체 강화",
-        "link": "https://www.mk.co.kr/news/stock/12213241",
+        "title": "하나증권 “한중 FTA 타결에 제주항공 수혜 기대”…목표가 상향",
+        "link": "https://www.mk.co.kr/news/stock/12213234",
         "source": "매일경제",
-        "date": "Thu, 19 Nov 2026 08:41:20 +09:00",
+        "date": "Thu, 19 Nov 2026 08:32:15 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -412,21 +423,10 @@
         "by": "rules"
       },
       {
-        "title": "[마켓라이브]11월 19일 증시",
-        "link": "https://www.hankyung.com/article/202611196160i",
-        "source": "한국경제",
-        "date": "Thu, 19 Nov 2026 08:28:48 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "하나증권 “한중 FTA 타결에 제주항공 수혜 기대”…목표가 상향",
-        "link": "https://www.mk.co.kr/news/stock/12213234",
+        "title": "하나증권 “현대글로비스, 中 자동차 수출 증가에 운반선 확대 수혜”",
+        "link": "https://www.mk.co.kr/news/stock/12213231",
         "source": "매일경제",
-        "date": "Thu, 19 Nov 2026 08:32:15 +09:00",
+        "date": "Thu, 19 Nov 2026 08:28:40 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -2955,7 +2955,7 @@
       "2026-11-16": 1335.76,
       "2026-11-17": 1334.84,
       "2026-11-18": 1332.66,
-      "2026-11-19": 1329.75
+      "2026-11-19": 1329.16
     },
     "^GSPC": {
       "2026-11-07": 7376.86,
@@ -3386,9 +3386,10 @@
     }
   },
   "failed": [
+    "news/kr/한국경제: HTTP 403",
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChBJfeRfwtXd9b2Wq33kS\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChBJfeqDpP4UASxcKs3eD\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChBJff8aLfD7xkss5cnvU\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChBKUFcXJ8G7RzBD46Spi\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChBKUFnx7LBuijMi32UV1\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChBKUFutuhkR7sVKZLA26\"}"
   ]
 }
