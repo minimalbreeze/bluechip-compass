@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-19T21:27:20.928Z",
+  "asOf": "2026-11-19T22:10:04.008Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-19T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1334.2,
+      "price": 1334.17,
       "prev": 1333.010009765625,
       "chg": 0.09,
       "prevDay": "2026-11-18",
       "basis": "prev-close-bar",
-      "time": "2026-11-19T21:27:09.000Z"
+      "time": "2026-11-19T22:09:39.000Z"
     },
     "^GSPC": {
       "price": 7175.83,
@@ -32,7 +32,7 @@
       "chg": -2.02,
       "prevDay": "2026-11-18",
       "basis": "prev-close-bar",
-      "time": "2026-11-19T21:20:01.000Z"
+      "time": "2026-11-19T21:59:18.000Z"
     },
     "^IXIC": {
       "price": 23879.2,
@@ -40,15 +40,15 @@
       "chg": -2.25,
       "prevDay": "2026-11-18",
       "basis": "prev-close-bar",
-      "time": "2026-11-19T21:27:08.000Z"
+      "time": "2026-11-19T22:09:56.000Z"
     },
     "^VIX": {
-      "price": 28.63,
+      "price": 28.44,
       "prev": 24.559999465942383,
-      "chg": 16.57,
+      "chg": 15.8,
       "prevDay": "2026-11-18",
       "basis": "prev-close-bar",
-      "time": "2026-11-19T21:12:01.000Z"
+      "time": "2026-11-19T21:15:01.000Z"
     },
     "^TNX": {
       "price": 5.052,
@@ -80,7 +80,7 @@
       "chg3m": -20.55
     },
     "KRW=X": {
-      "last": 1334.2,
+      "last": 1334.17,
       "low52": 1321.76,
       "high52": 1554.48,
       "pct52": 0.053,
@@ -101,11 +101,11 @@
       "chg3m": -8.09
     },
     "^VIX": {
-      "last": 28.63,
+      "last": 28.44,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.862,
-      "chg3m": 85.31
+      "pct52": 0.852,
+      "chg3m": 84.08
     },
     "^TNX": {
       "last": 5.05,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChCZbW1JA"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChD3wfydi"
   },
   "stocks": {
     "kr": {
@@ -158,7 +158,7 @@
         "prev": 152900,
         "chg": 0,
         "prevDay": "2026-11-19",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-11-19T07:30:21.000Z"
       },
       "207940": {
@@ -166,7 +166,7 @@
         "prev": 1375000,
         "chg": 0,
         "prevDay": "2026-11-19",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-11-19T07:30:04.000Z"
       },
       "005930": {
@@ -174,7 +174,7 @@
         "prev": 196900,
         "chg": 0,
         "prevDay": "2026-11-19",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-11-19T07:30:26.000Z"
       },
       "000660": {
@@ -182,7 +182,7 @@
         "prev": 1183000,
         "chg": 0,
         "prevDay": "2026-11-19",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-11-19T07:30:07.000Z"
       },
       "005380": {
@@ -190,7 +190,7 @@
         "prev": 267500,
         "chg": 0,
         "prevDay": "2026-11-19",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-11-19T07:30:22.000Z"
       },
       "055550": {
@@ -198,7 +198,7 @@
         "prev": 85600,
         "chg": 0,
         "prevDay": "2026-11-19",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-11-19T07:30:01.000Z"
       },
       "000810": {
@@ -206,7 +206,7 @@
         "prev": 525000,
         "chg": 0,
         "prevDay": "2026-11-19",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-11-19T07:30:11.000Z"
       },
       "033780": {
@@ -214,7 +214,7 @@
         "prev": 182500,
         "chg": 0,
         "prevDay": "2026-11-19",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-11-19T07:30:23.000Z"
       },
       "035420": {
@@ -222,7 +222,7 @@
         "prev": 168300,
         "chg": 0,
         "prevDay": "2026-11-19",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-11-19T07:30:23.000Z"
       },
       "005490": {
@@ -230,7 +230,7 @@
         "prev": 259500,
         "chg": 0,
         "prevDay": "2026-11-19",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-11-19T07:30:11.000Z"
       },
       "028260": {
@@ -238,7 +238,7 @@
         "prev": 272500,
         "chg": 0,
         "prevDay": "2026-11-19",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-11-19T07:30:27.000Z"
       },
       "012450": {
@@ -246,7 +246,7 @@
         "prev": 631000,
         "chg": 0,
         "prevDay": "2026-11-19",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-11-19T07:30:28.000Z"
       },
       "017670": {
@@ -254,7 +254,7 @@
         "prev": 80200,
         "chg": 0,
         "prevDay": "2026-11-19",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-11-19T07:30:18.000Z"
       }
     },
@@ -379,10 +379,10 @@
         "by": "rules"
       },
       {
-        "title": "앤트로픽 장중 오름폭 둔화...전문가들 \"기다려서 할인된 가격에 투자하라\" [앤트로픽 상장]",
-        "link": "https://www.hankyung.com/article/202611208726i",
+        "title": "앤트로픽, 상장 첫날 공모가 대비 17% 상승...나스닥 등 뉴욕증시는 동반 하락 [앤트로픽 상장]",
+        "link": "https://www.hankyung.com/article/202611208779i",
         "source": "한국경제",
-        "date": "Fri, 20 Nov 2026 03:59:45 +0900",
+        "date": "Fri, 20 Nov 2026 06:15:41 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -412,10 +412,10 @@
         "by": "rules"
       },
       {
-        "title": "앤트로픽 CFO \"컴퓨팅 자원 75% R&D 투입…IPO로 투자 확대\"[앤트로픽 상장]",
-        "link": "https://www.hankyung.com/article/202611208724i",
+        "title": "[속보] 앤트로픽, 상장 첫날 97.17달러로 마감",
+        "link": "https://www.hankyung.com/article/2026112087777",
         "source": "한국경제",
-        "date": "Fri, 20 Nov 2026 03:38:34 +0900",
+        "date": "Fri, 20 Nov 2026 06:09:16 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -448,14 +448,14 @@
         "by": "rules"
       },
       {
-        "title": "UnitedHealth’s stock plunged after government signals crackdown on Medicare Advantage fraud",
-        "link": "https://www.marketwatch.com/story/unitedhealths-stock-keeps-plunging-after-government-signals-crackdown-on-medicare-advantage-fraud-c4770a45?mod=mw_rss_topstories",
+        "title": "Markets are sending troubling signals about the state of the economy",
+        "link": "https://www.marketwatch.com/story/markets-are-sending-troubling-signals-about-the-state-of-the-economy-8043f20e?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Thu, 19 Nov 2026 21:22:00 GMT",
-        "ko": "UnitedHealth의 주가가 메디케어 어드밴티지 사기 사건에 대한 정부의 단속 신호 이후 급락했습니다.",
+        "date": "Thu, 19 Nov 2026 21:57:00 GMT",
+        "ko": "시장은 경제 상황에 대해 우려스러운 신호를 보내고 있습니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -472,14 +472,14 @@
         "by": "rules"
       },
       {
-        "title": "‘Nvidia’s turmoil has me spooked’: Should I sell my stocks and buy real estate — or ride out the storm?",
-        "link": "https://www.marketwatch.com/story/nvidia-spooked-me-should-i-sell-my-stocks-or-ride-out-the-market-turmoil-560583c6?mod=mw_rss_topstories",
+        "title": "Nvidia’s stock falls further. It has lost $669 billion in six trading days.",
+        "link": "https://www.marketwatch.com/story/nvidias-stock-falls-further-it-has-lost-611-billion-in-six-trading-days-434af231?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Thu, 19 Nov 2026 20:50:00 GMT",
-        "ko": "‘엔비디아의 혼란이 저를 겁먹게 만들었어요’: 주식을 팔고 부동산을 사야 할까요, 아니면 폭풍우를 견뎌내야 할까요?",
+        "date": "Thu, 19 Nov 2026 21:45:00 GMT",
+        "ko": "Nvidia 주가가 추가로 하락했습니다. 6거래일 동안 6,690억 달러를 손실했습니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -496,11 +496,11 @@
         "by": "rules"
       },
       {
-        "title": "Nvidia’s stock falls further. It has lost $611 billion in six trading days.",
-        "link": "https://www.marketwatch.com/story/nvidias-stock-falls-further-it-has-lost-611-billion-in-six-trading-days-434af231?mod=mw_rss_topstories",
+        "title": "Why Micron, Broadcom and other AI stocks gave up their gains Thursday",
+        "link": "https://www.marketwatch.com/story/why-micron-intel-and-other-ai-stocks-are-getting-a-lift-on-thursday-cf6f59f8?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Thu, 19 Nov 2026 20:33:00 GMT",
-        "ko": "Nvidia 주가가 추가로 하락하고 있습니다. 6거래일 동안 6,110억 달러의 손실을 기록했습니다.",
+        "date": "Thu, 19 Nov 2026 21:27:00 GMT",
+        "ko": "마이크론, 브로드컴 및 기타 AI 관련주가 목요일에 상승분을 반납한 이유",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -511,9 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "It’s the strangest job market the U.S. has ever seen. The low-hire, low-fire economy turns 3 years old.": "이것은 미국이 본 것 중 가장 이상한 고용 시장입니다. 저임금, 저화재 경제는 3년이 지났습니다.",
-    "Why Alphabet’s stock is on track for its worst day ever after the latest results": "알파벳의 재고가 최신 결과 이후 최악의 날을 앞두고 있는 이유",
-    "Alphabet’s stock just triggered a ‘death cross.’ Could the worst of the selloff be over?": "알파벳의 주식은 방금 ‘죽음의 십자가‘ 를 촉발했습니다. ’최악의 매도세가 끝날 수 있을까?",
     "Microsoft to raise up to $25 billion in bond market as investors get pickier about AI debt binge": "마이크로소프트, 투자자들이 AI 부채 폭증에 대해 더 까다로워짐에 따라 채권 시장에서 최대 250억 달러 ($) 를 모금",
     "Lilly raised sales guidance for third time this year as Zepbound sales soar. Its stock closed at a record high.": "Lilly는 Zepbound 판매가 급증함에 따라 올해 세 번째로 판매 지침을 제기했습니다. 주가가 사상 최고치로 마감했다.",
     "The stock market’s best forecasting tool says returns over the next 10 years will be dismal": "주식 시장에서 가장 좋은 예측 도구는 향후 10년 동안의 수익률이 암울할 것이라고 말합니다.",
@@ -810,7 +807,10 @@
     "Why Micron, Broadcom and other AI stocks have given up their gains": "마이크론, 브로드컴 및 기타 AI 주식이 상승분을 반납한 이유",
     "Peterson: The Fed's chairman sees an AI revolution coming. Now he has to figure out what it means": "피터슨: 연준 의장은 AI 혁명이 다가오고 있다고 전망합니다. 이제 그는 그 의미를 파악해야 합니다.",
     "Nvidia’s stock falls further. It has lost $611 billion in six trading days.": "Nvidia 주가가 추가로 하락하고 있습니다. 6거래일 동안 6,110억 달러의 손실을 기록했습니다.",
-    "UnitedHealth’s stock plunged after government signals crackdown on Medicare Advantage fraud": "UnitedHealth의 주가가 메디케어 어드밴티지 사기 사건에 대한 정부의 단속 신호 이후 급락했습니다."
+    "UnitedHealth’s stock plunged after government signals crackdown on Medicare Advantage fraud": "UnitedHealth의 주가가 메디케어 어드밴티지 사기 사건에 대한 정부의 단속 신호 이후 급락했습니다.",
+    "Markets are sending troubling signals about the state of the economy": "시장은 경제 상황에 대해 우려스러운 신호를 보내고 있습니다.",
+    "Nvidia’s stock falls further. It has lost $669 billion in six trading days.": "Nvidia 주가가 추가로 하락했습니다. 6거래일 동안 6,690억 달러를 손실했습니다.",
+    "Why Micron, Broadcom and other AI stocks gave up their gains Thursday": "마이크론, 브로드컴 및 기타 AI 관련주가 목요일에 상승분을 반납한 이유"
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2955,7 +2955,7 @@
       "2026-11-16": 1335.76,
       "2026-11-17": 1334.84,
       "2026-11-18": 1332.66,
-      "2026-11-19": 1334.2
+      "2026-11-19": 1334.17
     },
     "^GSPC": {
       "2026-11-08": 7376.86,
@@ -2997,7 +2997,7 @@
       "2026-11-16": 22.91,
       "2026-11-17": 25.46,
       "2026-11-18": 24.56,
-      "2026-11-19": 28.63
+      "2026-11-19": 28.44
     },
     "^TNX": {
       "2026-11-08": 4.859,
@@ -3387,7 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChCzgk5Biyr5Rqu3dJGdy\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChCzgkWiMAk4WC7hYXX5z\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChD3wfydiQ1Bx5MmHXVqF\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChD3wgRvnFzTxnVUEHWM9\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChD3wgmkt4xAxWPUTDCSf\"}"
   ]
 }
