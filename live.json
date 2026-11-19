@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-19T01:04:17.727Z",
+  "asOf": "2026-11-19T01:14:41.059Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-18T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1330.2,
+      "price": 1330.68,
       "prev": 1333.010009765625,
-      "chg": -0.21,
+      "chg": -0.17,
       "prevDay": "2026-11-18",
       "basis": "prev-close-bar",
-      "time": "2026-11-19T01:04:05.000Z"
+      "time": "2026-11-19T01:14:31.000Z"
     },
     "^GSPC": {
       "price": 7323.63,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.036
+    "pct": 0.038
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -24.82
     },
     "KRW=X": {
-      "last": 1330.2,
+      "last": 1330.58,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.036,
-      "chg3m": -3.66
+      "pct52": 0.038,
+      "chg3m": -3.63
     },
     "^GSPC": {
       "last": 7323.63,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChBPRMW7c"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChBQDHtcb"
   },
   "stocks": {
     "kr": {
@@ -368,13 +368,13 @@
   "news": {
     "kr": [
       {
-        "title": "키움증권, 대한변협 법률구조재단과 '자립준비청년 법률지원' MOU",
-        "link": "https://www.yna.co.kr/view/AKR20261119051400008",
+        "title": "코스피, 상승 출발 후 보합권에서 등락",
+        "link": "https://www.yna.co.kr/view/AKR20261119055000008",
         "source": "연합뉴스",
-        "date": "Thu, 19 Nov 2026 09:58:10 +0900",
+        "date": "Thu, 19 Nov 2026 10:07:45 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -394,6 +394,17 @@
         "link": "https://www.mk.co.kr/news/stock/12213241",
         "source": "매일경제",
         "date": "Thu, 19 Nov 2026 08:41:20 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "KB증권, 모험자본투자플랫폼 통해 지역관광 20억원 출자",
+        "link": "https://www.yna.co.kr/view/AKR20261119053200008",
+        "source": "연합뉴스",
+        "date": "Thu, 19 Nov 2026 10:06:08 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -421,17 +432,6 @@
         "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
-      },
-      {
-        "title": "수능날엔 주가 떨어진다?…10년치 코스피 성적표 살펴보니",
-        "link": "https://www.hankyung.com/article/202611196398i",
-        "source": "한국경제",
-        "date": "Thu, 19 Nov 2026 09:08:44 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
       }
     ],
     "us": [
@@ -441,6 +441,30 @@
         "source": "CNBC",
         "date": "Wed, 18 Nov 2026 07:57:37 GMT",
         "ko": "경유 가격이 사상 최고치를 기록하며 영국 인플레이션이 1년 만에 3.6%로 최고치를 기록했습니다.",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "Palo Alto Networks’ stock gets a fresh AI-fueled boost from earnings",
+        "link": "https://www.marketwatch.com/story/palo-alto-networks-stock-soars-as-earnings-show-ai-has-upped-the-stakes-for-cybersecurity-308e34b8?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "date": "Thu, 19 Nov 2026 01:02:00 GMT",
+        "ko": "Palo Alto Networks의 주가가 실적 호조로 AI 기반의 새로운 상승세를 보이고 있습니다.",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "St. Louis Fed's Musalem says four more rate hikes may be needed in coming months",
+        "link": "https://www.cnbc.com/2026/11/17/alberto-musalem-fed-interest-rates.html",
+        "source": "CNBC",
+        "date": "Tue, 17 Nov 2026 13:40:54 GMT",
+        "ko": "세인트루이스 연방준비은행의 무살렘 총재, 향후 몇 달 동안 4차례의 추가 금리 인상이 필요할 수 있다고 밝혀",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -460,30 +484,6 @@
         "by": "rules"
       },
       {
-        "title": "St. Louis Fed's Musalem says four more rate hikes may be needed in coming months",
-        "link": "https://www.cnbc.com/2026/11/17/alberto-musalem-fed-interest-rates.html",
-        "source": "CNBC",
-        "date": "Tue, 17 Nov 2026 13:40:54 GMT",
-        "ko": "세인트루이스 연방준비은행의 무살렘 총재, 향후 몇 달 동안 4차례의 추가 금리 인상이 필요할 수 있다고 밝혀",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "What the ‘death cross’ in small-cap stocks means for the rest of the market",
-        "link": "https://www.marketwatch.com/story/what-the-death-cross-in-small-cap-stocks-means-for-the-rest-of-the-stock-market-edd8e86e?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "date": "Wed, 18 Nov 2026 23:12:00 GMT",
-        "ko": "소형주에서 나타난 '데스 크로스'가 시장 전체에 미치는 영향",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
         "title": "Analysis: The Fed's chairman sees an AI revolution coming. Now he has to figure out what it means",
         "link": "https://www.cnbc.com/2026/11/16/kevin-warsh-fed-ai-jobs-productivity-interest-rateshtml.html",
         "source": "CNBC",
@@ -496,11 +496,11 @@
         "by": "rules"
       },
       {
-        "title": "The stock market is being rocked by the biggest shake-up in a generation as tech falls behind",
-        "link": "https://www.marketwatch.com/story/the-stock-market-is-being-rocked-by-the-biggest-shake-up-in-a-generation-as-tech-falls-behind-66c1f281?mod=mw_rss_topstories",
+        "title": "What the ‘death cross’ in small-cap stocks means for the rest of the market",
+        "link": "https://www.marketwatch.com/story/what-the-death-cross-in-small-cap-stocks-means-for-the-rest-of-the-stock-market-edd8e86e?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Wed, 18 Nov 2026 22:53:00 GMT",
-        "ko": "기술주가 부진하면서 증시는 한 세대 만에 가장 큰 격변을 겪고 있습니다.",
+        "date": "Wed, 18 Nov 2026 23:12:00 GMT",
+        "ko": "소형주에서 나타난 '데스 크로스'가 시장 전체에 미치는 영향",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -2955,7 +2955,7 @@
       "2026-11-16": 1335.76,
       "2026-11-17": 1334.84,
       "2026-11-18": 1332.66,
-      "2026-11-19": 1330.2
+      "2026-11-19": 1330.68
     },
     "^GSPC": {
       "2026-11-07": 7376.86,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChBPRMW7cXeLJhTH4LT6Q\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChBPRMk19dP5A55wDfMCg\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChBPRMth5DzrigBZJKBsU\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChBQDHtcbNeuESQWvSKeD\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChBQDJQ8P63rA8bUQgFtd\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChBQDJoviSaEbz45ESGPh\"}"
   ]
 }
