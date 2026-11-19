@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-19T23:10:26.079Z",
+  "asOf": "2026-11-19T23:28:07.965Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-19T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1333.64,
+      "price": 1333.74,
       "prev": 1333.010009765625,
       "chg": 0.05,
       "prevDay": "2026-11-18",
       "basis": "prev-close-bar",
-      "time": "2026-11-19T23:10:16.000Z"
+      "time": "2026-11-19T23:23:20.000Z"
     },
     "^GSPC": {
       "price": 7175.83,
@@ -80,7 +80,7 @@
       "chg3m": -20.55
     },
     "KRW=X": {
-      "last": 1333.64,
+      "last": 1333.74,
       "low52": 1321.76,
       "high52": 1554.48,
       "pct52": 0.051,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChD8YfVp2"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChD9twxBu"
   },
   "stocks": {
     "kr": {
@@ -368,13 +368,13 @@
   "news": {
     "kr": [
       {
-        "title": "외국인 10월 국내 주식 26조원 팔았다…2개월째 순매도",
-        "link": "https://www.yna.co.kr/view/AKR20261119169500002",
+        "title": "IBK증권 \"KH바텍 주가 저평가…내년부터 데이터센터향 매출↑\"",
+        "link": "https://www.yna.co.kr/view/AKR20261120026100008",
         "source": "연합뉴스",
-        "date": "Fri, 20 Nov 2026 06:00:01 +0900",
+        "date": "Fri, 20 Nov 2026 08:18:50 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -390,24 +390,24 @@
         "by": "rules"
       },
       {
-        "title": "급등 출발로 시작했지만...앤트로픽 상장날 반도체 하락한 이유",
-        "link": "https://www.mk.co.kr/news/business/12214247",
+        "title": "“증시 재평가, 1만피 돌파한다”…조마조마 코스피에 월가 전망 엇갈려",
+        "link": "https://www.mk.co.kr/news/stock/12214253",
         "source": "매일경제",
-        "date": "Fri, 20 Nov 2026 08:07:39 +09:00",
+        "date": "Fri, 20 Nov 2026 08:19:10 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "'특수 정밀화학 소재 제조사' 피지티, 코스닥 상장예심 통과",
-        "link": "https://www.yna.co.kr/view/AKR20261119166100008",
+        "title": "KB증권 \"공급 부족 속 삼전닉스 내년 D램 가격 40% 상승 전망\"",
+        "link": "https://www.yna.co.kr/view/AKR20261120024500008",
         "source": "연합뉴스",
-        "date": "Thu, 19 Nov 2026 18:49:10 +0900",
+        "date": "Fri, 20 Nov 2026 08:17:55 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -423,13 +423,13 @@
         "by": "rules"
       },
       {
-        "title": "금감원 \"고금리 퇴직연금상품, 대기업 몰아주기 안돼\"",
-        "link": "https://www.mk.co.kr/news/stock/12213803",
+        "title": "급등 출발로 시작했지만...앤트로픽 상장날 반도체 하락한 이유",
+        "link": "https://www.mk.co.kr/news/business/12214247",
         "source": "매일경제",
-        "date": "Thu, 19 Nov 2026 17:36:28 +09:00",
+        "date": "Fri, 20 Nov 2026 08:07:39 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -441,6 +441,30 @@
         "source": "CNBC",
         "date": "Wed, 18 Nov 2026 07:57:37 GMT",
         "ko": "경유 가격이 사상 최고치를 기록하며 영국 인플레이션이 1년 만에 3.6%로 최고치를 기록했습니다.",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "These were the only stocks that rose amid the stock market’s wipeout Thursday",
+        "link": "https://www.marketwatch.com/story/these-were-the-only-stocks-that-rose-amid-the-stock-markets-wipeout-thursday-1eaf32ba?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "date": "Thu, 19 Nov 2026 23:11:00 GMT",
+        "ko": "이들 주식은 목요일 주식 시장의 폭락 속에서도 유일하게 상승한 주식이었습니다.",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "St. Louis Fed's Musalem says four more rate hikes may be needed in coming months",
+        "link": "https://www.cnbc.com/2026/11/17/alberto-musalem-fed-interest-rates.html",
+        "source": "CNBC",
+        "date": "Tue, 17 Nov 2026 13:40:54 GMT",
+        "ko": "세인트루이스 연방준비은행의 무살렘 총재, 향후 몇 달 동안 4차례의 추가 금리 인상이 필요할 수 있다고 밝혀",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -460,11 +484,11 @@
         "by": "rules"
       },
       {
-        "title": "St. Louis Fed's Musalem says four more rate hikes may be needed in coming months",
-        "link": "https://www.cnbc.com/2026/11/17/alberto-musalem-fed-interest-rates.html",
+        "title": "Peterson: The Fed's chairman sees an AI revolution coming. Now he has to figure out what it means",
+        "link": "https://www.cnbc.com/2026/11/16/kevin-warsh-fed-ai-jobs-productivity-interest-rateshtml.html",
         "source": "CNBC",
-        "date": "Tue, 17 Nov 2026 13:40:54 GMT",
-        "ko": "세인트루이스 연방준비은행의 무살렘 총재, 향후 몇 달 동안 4차례의 추가 금리 인상이 필요할 수 있다고 밝혀",
+        "date": "Thu, 19 Nov 2026 20:18:47 GMT",
+        "ko": "피터슨: 연준 의장은 AI 혁명이 다가오고 있다고 전망합니다. 이제 그는 그 의미를 파악해야 합니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -482,36 +506,11 @@
         "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
-      },
-      {
-        "title": "Peterson: The Fed's chairman sees an AI revolution coming. Now he has to figure out what it means",
-        "link": "https://www.cnbc.com/2026/11/16/kevin-warsh-fed-ai-jobs-productivity-interest-rateshtml.html",
-        "source": "CNBC",
-        "date": "Thu, 19 Nov 2026 20:18:47 GMT",
-        "ko": "피터슨: 연준 의장은 AI 혁명이 다가오고 있다고 전망합니다. 이제 그는 그 의미를 파악해야 합니다.",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "We’re in our 50s and terrified of a market crash. Should we put $400,000 of our $1 million retirement savings into an annuity?",
-        "link": "https://www.marketwatch.com/story/were-in-our-50s-and-terrified-of-a-market-crash-should-we-put-400-000-of-our-1-million-retirement-savings-into-an-annuity-1943f240?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "date": "Thu, 19 Nov 2026 22:15:00 GMT",
-        "ko": "저희는 50대이며 시장 붕괴가 두렵습니다. 1백만 달러의 은퇴 저축 중 40만 달러를 연금에 넣어야 할까요?",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
       }
     ]
   },
   "newsBy": "rules",
   "trCache": {
-    "The stock market’s best forecasting tool says returns over the next 10 years will be dismal": "주식 시장에서 가장 좋은 예측 도구는 향후 10년 동안의 수익률이 암울할 것이라고 말합니다.",
     "The S&P 500 isn’t the big winner you may think it is": "S&P 500은 여러분이 생각할 수 있는 큰 승자는 아닙니다.",
     "Sandisk sees revenue nearly quintuple — and its stock is heading higher": "샌디스크는 거의 5배의 수익을 올리고 있으며 주가는 상승세를 보이고 있습니다.",
     "Sandisk sees revenue nearly quintuple — and a stock split is on the way": "샌디스크는 거의 5배의 수익을 보고 있으며 주식 분할이 진행 중입니다",
@@ -810,7 +809,8 @@
     "Nvidia’s stock falls further. It has lost $669 billion in six trading days.": "Nvidia 주가가 추가로 하락했습니다. 6거래일 동안 6,690억 달러를 손실했습니다.",
     "Why Micron, Broadcom and other AI stocks gave up their gains Thursday": "마이크론, 브로드컴 및 기타 AI 관련주가 목요일에 상승분을 반납한 이유",
     "Anthropic’s stock surges in its debut — and the rest of the market dives anyway": "앤트로픽의 주가가 상장과 동시에 급등했지만, 시장의 나머지 부분은 어쨌든 하락했습니다.",
-    "Intuit’s downbeat outlook deepens Wall Street’s anxiety about software companies": "Intuit의 비관적인 전망으로 인해 소프트웨어 기업에 대한 월스트리트의 우려가 심화되고 있습니다."
+    "Intuit’s downbeat outlook deepens Wall Street’s anxiety about software companies": "Intuit의 비관적인 전망으로 인해 소프트웨어 기업에 대한 월스트리트의 우려가 심화되고 있습니다.",
+    "These were the only stocks that rose amid the stock market’s wipeout Thursday": "이들 주식은 목요일 주식 시장의 폭락 속에서도 유일하게 상승한 주식이었습니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2955,7 +2955,7 @@
       "2026-11-16": 1335.76,
       "2026-11-17": 1334.84,
       "2026-11-18": 1332.66,
-      "2026-11-19": 1333.64
+      "2026-11-19": 1333.74
     },
     "^GSPC": {
       "2026-11-08": 7376.86,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChD8YfVp29PbMz8F1K7Fu\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChD8YfyqGJHx42s1uHRTe\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChD8Yga3e6MVw2hd6RbXj\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChD9twxBuFFHhnnNA9BLT\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChD9txQDiujE8wxKd2FeG\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChD9txj4h6YPXpjJEW4Jq\"}"
   ]
 }
