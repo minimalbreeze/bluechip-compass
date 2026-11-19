@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-19T00:43:29.930Z",
+  "asOf": "2026-11-19T00:53:52.411Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-18T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1328.78,
+      "price": 1330.18,
       "prev": 1333.010009765625,
-      "chg": -0.32,
+      "chg": -0.21,
       "prevDay": "2026-11-18",
       "basis": "prev-close-bar",
-      "time": "2026-11-19T00:43:21.000Z"
+      "time": "2026-11-19T00:53:44.000Z"
     },
     "^GSPC": {
       "price": 7323.63,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.03
+    "pct": 0.036
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -24.82
     },
     "KRW=X": {
-      "last": 1328.78,
+      "last": 1330.18,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.03,
-      "chg3m": -3.76
+      "pct52": 0.036,
+      "chg3m": -3.66
     },
     "^GSPC": {
       "last": 7323.63,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChBMqMzpy"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChBNdFPEM"
   },
   "stocks": {
     "kr": {
@@ -2955,7 +2955,7 @@
       "2026-11-16": 1335.76,
       "2026-11-17": 1334.84,
       "2026-11-18": 1332.66,
-      "2026-11-19": 1328.78
+      "2026-11-19": 1330.18
     },
     "^GSPC": {
       "2026-11-07": 7376.86,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChBMqMzpyTS9zgPQxFRsK\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChBMqNULrmQhJRha96w5b\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChBMqNtuRSpa8SASF648R\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChBNdFPEMmGiQQChHBakN\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChBNdFr2Z6T3YDTvTr1XJ\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChBNdGG5Kwkmck6GahqQU\"}"
   ]
 }
