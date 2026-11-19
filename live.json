@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-18T23:11:35.967Z",
+  "asOf": "2026-11-19T00:01:57.589Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-18T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1332.66,
-      "prev": 1335.6700439453125,
-      "chg": -0.23,
-      "prevDay": "2026-11-17",
-      "basis": "prev-close-bar",
-      "time": "2026-11-18T23:09:32.000Z"
+      "price": 1329.75,
+      "prev": 1332.66,
+      "chg": -0.22,
+      "prevDay": "2026-11-18",
+      "basis": "prev-close-memo",
+      "time": "2026-11-19T00:01:45.000Z"
     },
     "^GSPC": {
       "price": 7323.63,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.047
+    "pct": 0.034
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -24.82
     },
     "KRW=X": {
-      "last": 1332.66,
+      "last": 1329.75,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.047,
-      "chg3m": -3.78
+      "pct52": 0.034,
+      "chg3m": -3.99
     },
     "^GSPC": {
       "last": 7323.63,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChBEpubkr"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChBJfeRfw"
   },
   "stocks": {
     "kr": {
@@ -368,43 +368,10 @@
   "news": {
     "kr": [
       {
-        "title": "[마켓뷰] '앤트로픽 상장' 기대감? 경계감?…코스피 향방은",
-        "link": "https://www.yna.co.kr/view/AKR20261119019300008",
+        "title": "유진증권 \"엔비디아, 호실적으로 AI 수요 견조…주가 저평가\"",
+        "link": "https://www.yna.co.kr/view/AKR20261119030800008",
         "source": "연합뉴스",
-        "date": "Thu, 19 Nov 2026 07:59:51 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "미중러 정상회담, 앤트로픽 상장…코스피 5000선 시험대 [오늘 아침 당신이 알아야 할 7가지]",
-        "link": "https://www.hankyung.com/article/202611196104i",
-        "source": "한국경제",
-        "date": "Thu, 19 Nov 2026 07:41:31 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "“한번에 50bp 올리자” 월러 연준 이사 발언이 미친 역설적 효과",
-        "link": "https://www.mk.co.kr/news/business/12213215",
-        "source": "매일경제",
-        "date": "Thu, 19 Nov 2026 08:05:52 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "4분기 실적 눈높이 낮아져…상장사 10곳중 6곳 전망치 하향",
-        "link": "https://www.yna.co.kr/view/AKR20261118093500008",
-        "source": "연합뉴스",
-        "date": "Thu, 19 Nov 2026 07:00:10 +0900",
+        "date": "Thu, 19 Nov 2026 08:52:25 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
@@ -412,24 +379,57 @@
         "by": "rules"
       },
       {
-        "title": "엔비디아 '깜짝 실적'도 소용 없었다…S&P500, 5일 연속 하락 [뉴욕증시 브리핑]",
-        "link": "https://www.hankyung.com/article/2026111961206",
+        "title": "[오늘의 증권가 콜]中 노선 호재 항공 '맑음'…이차전지·반도체 소재 '흐림'",
+        "link": "https://www.hankyung.com/article/202611196188i",
         "source": "한국경제",
-        "date": "Thu, 19 Nov 2026 07:28:55 +0900",
+        "date": "Thu, 19 Nov 2026 08:30:51 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "장사 잘했는데 남는 돈이 없다…환율에 당한 상장사, 절반이 3분기 순손실",
-        "link": "https://www.mk.co.kr/news/stock/12213131",
+        "title": "웨이비스, 정부 첨단산업 투자지원금 63억원 확보…국방반도체 강화",
+        "link": "https://www.mk.co.kr/news/stock/12213241",
         "source": "매일경제",
-        "date": "Thu, 19 Nov 2026 06:07:04 +09:00",
+        "date": "Thu, 19 Nov 2026 08:41:20 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "'외국인 겨냥해 용량 줄였더니'…정관장 뿌리삼 매출 27% 증가",
+        "link": "https://www.yna.co.kr/view/AKR20261119027200030",
+        "source": "연합뉴스",
+        "date": "Thu, 19 Nov 2026 08:42:55 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "[마켓라이브]11월 19일 증시",
+        "link": "https://www.hankyung.com/article/202611196160i",
+        "source": "한국경제",
+        "date": "Thu, 19 Nov 2026 08:28:48 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "하나증권 “한중 FTA 타결에 제주항공 수혜 기대”…목표가 상향",
+        "link": "https://www.mk.co.kr/news/stock/12213234",
+        "source": "매일경제",
+        "date": "Thu, 19 Nov 2026 08:32:15 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -448,11 +448,11 @@
         "by": "rules"
       },
       {
-        "title": "The stock market is being rocked by the biggest shake-up in a generation as tech falls behind",
-        "link": "https://www.marketwatch.com/story/the-stock-market-is-being-rocked-by-the-biggest-shake-up-in-a-generation-as-tech-falls-behind-66c1f281?mod=mw_rss_topstories",
+        "title": "What the ‘death cross’ in small-cap stocks means for the rest of the market",
+        "link": "https://www.marketwatch.com/story/what-the-death-cross-in-small-cap-stocks-means-for-the-rest-of-the-stock-market-edd8e86e?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Wed, 18 Nov 2026 22:53:00 GMT",
-        "ko": "기술주가 부진하면서 증시는 한 세대 만에 가장 큰 격변을 겪고 있습니다.",
+        "date": "Wed, 18 Nov 2026 23:12:00 GMT",
+        "ko": "소형주에서 나타난 '데스 크로스'가 시장 전체에 미치는 영향",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -472,14 +472,14 @@
         "by": "rules"
       },
       {
-        "title": "Palo Alto Networks’ stock gets a fresh AI-fueled boost from earnings",
-        "link": "https://www.marketwatch.com/story/palo-alto-networks-stock-soars-as-earnings-show-ai-has-upped-the-stakes-for-cybersecurity-308e34b8?mod=mw_rss_topstories",
+        "title": "The stock market is being rocked by the biggest shake-up in a generation as tech falls behind",
+        "link": "https://www.marketwatch.com/story/the-stock-market-is-being-rocked-by-the-biggest-shake-up-in-a-generation-as-tech-falls-behind-66c1f281?mod=mw_rss_topstories",
         "source": "MarketWatch",
         "date": "Wed, 18 Nov 2026 22:53:00 GMT",
-        "ko": "Palo Alto Networks의 주가가 실적 호조로 AI 기반의 새로운 상승세를 보이고 있습니다.",
+        "ko": "기술주가 부진하면서 증시는 한 세대 만에 가장 큰 격변을 겪고 있습니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -496,14 +496,14 @@
         "by": "rules"
       },
       {
-        "title": "Nvidia’s booming demand is ‘hard to ignore,’ but these four questions loom over the stock",
-        "link": "https://www.marketwatch.com/story/what-wall-street-analysts-are-now-saying-after-nvidias-beat-and-raise-quarter-9311c85d?mod=mw_rss_topstories",
+        "title": "Palo Alto Networks’ stock gets a fresh AI-fueled boost from earnings",
+        "link": "https://www.marketwatch.com/story/palo-alto-networks-stock-soars-as-earnings-show-ai-has-upped-the-stakes-for-cybersecurity-308e34b8?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Wed, 18 Nov 2026 22:31:00 GMT",
-        "ko": "Nvidia의 폭발적인 수요는 ‘무시하기 어렵지만’, 이 네 가지 질문이 주가를 위협하고 있습니다.",
+        "date": "Wed, 18 Nov 2026 22:53:00 GMT",
+        "ko": "Palo Alto Networks의 주가가 실적 호조로 AI 기반의 새로운 상승세를 보이고 있습니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -511,7 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "Inflation surges, PCE shows. Fed pause on rate hikes unlikely to last long with prices still rising.": "인플레이션이 급증하면 PCE가 표시됩니다. 금리 인상에 대한 연준의 일시 중지는 가격이 여전히 상승하면서 오래 지속될 것 같지 않습니다.",
     "Analysis: Kevin Warsh is keeping his options open — and Wall Street guessing": "분석: 케빈 워시 (Kevin Warsh) 는 옵션을 열어두고 월스트리트 추측",
     "Caterpillar’s stock heads for worst day in 7 years — and what that means for the Dow": "Caterpillar의 주식은 7년 만에 최악의 날을 맞이합니다 — 그리고 그것이 다우 지수에게 의미하는 바는",
     "Lilly raised sales guidance for third time this year as Zepbound sales soar. Its stock is rallying.": "Lilly는 Zepbound 판매가 급증함에 따라 올해 세 번째로 판매 지침을 제기했습니다. 재고가 집결하고 있습니다.",
@@ -810,7 +809,8 @@
     "Has the stock market’s slump hit bottom yet? Here’s what these contrarian indicators say.": "주식 시장의 침체가 아직 바닥을 쳤나요? 이러한 역지(逆指) 지표가 말해주는 바는 다음과 같습니다.",
     "Palo Alto Networks’ stock soars as earnings show AI has upped the stakes for cybersecurity": "Palo Alto Networks의 주가가 급등했습니다. AI가 사이버 보안의 중요성을 높였다는 실적 결과가 나온 것입니다.",
     "Palo Alto Networks’ stock gets a fresh AI-fueled boost from earnings": "Palo Alto Networks의 주가가 실적 호조로 AI 기반의 새로운 상승세를 보이고 있습니다.",
-    "The stock market is being rocked by the biggest shake-up in a generation as tech falls behind": "기술주가 부진하면서 증시는 한 세대 만에 가장 큰 격변을 겪고 있습니다."
+    "The stock market is being rocked by the biggest shake-up in a generation as tech falls behind": "기술주가 부진하면서 증시는 한 세대 만에 가장 큰 격변을 겪고 있습니다.",
+    "What the ‘death cross’ in small-cap stocks means for the rest of the market": "소형주에서 나타난 '데스 크로스'가 시장 전체에 미치는 영향"
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2944,7 +2944,6 @@
       "2026-11-19": 662.81
     },
     "KRW=X": {
-      "2026-11-07": 1363.65,
       "2026-11-08": 1363.21,
       "2026-11-09": 1341.8,
       "2026-11-10": 1343.44,
@@ -2955,7 +2954,8 @@
       "2026-11-15": 1335.75,
       "2026-11-16": 1335.76,
       "2026-11-17": 1334.84,
-      "2026-11-18": 1332.66
+      "2026-11-18": 1332.66,
+      "2026-11-19": 1329.75
     },
     "^GSPC": {
       "2026-11-07": 7376.86,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChBEpubkrz5GzdxJFcPtN\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChBEpv4JS7YL5xZW4AMay\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChBEpvQ8Qb4petXTUXyJo\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChBJfeRfwtXd9b2Wq33kS\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChBJfeqDpP4UASxcKs3eD\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChBJff8aLfD7xkss5cnvU\"}"
   ]
 }
