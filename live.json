@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-20T07:46:20.054Z",
+  "asOf": "2026-11-20T08:46:42.608Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-20T06:32:50.000Z"
     },
     "KRW=X": {
-      "price": 1333.61,
+      "price": 1335.55,
       "prev": 1330.4000244140625,
-      "chg": 0.24,
+      "chg": 0.39,
       "prevDay": "2026-11-19",
       "basis": "prev-close-bar",
-      "time": "2026-11-20T07:46:11.000Z"
+      "time": "2026-11-20T08:46:27.000Z"
     },
     "^GSPC": {
       "price": 7175.83,
@@ -43,12 +43,12 @@
       "time": "2026-11-19T22:15:59.000Z"
     },
     "^VIX": {
-      "price": 28.44,
+      "price": 28.56,
       "prev": 28.440000534057617,
-      "chg": 0,
+      "chg": 0.42,
       "prevDay": "2026-11-19",
       "basis": "prev-close-bar",
-      "time": "2026-11-19T21:15:01.000Z"
+      "time": "2026-11-20T08:31:31.000Z"
     },
     "^TNX": {
       "price": 5.052,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.051
+    "pct": 0.059
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -23.21
     },
     "KRW=X": {
-      "last": 1333.61,
+      "last": 1335.55,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.051,
-      "chg3m": -3.47
+      "pct52": 0.059,
+      "chg3m": -3.33
     },
     "^GSPC": {
       "last": 7175.83,
@@ -101,11 +101,11 @@
       "chg3m": -8.09
     },
     "^VIX": {
-      "last": 28.44,
+      "last": 28.56,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.852,
-      "chg3m": 84.08
+      "pct52": 0.858,
+      "chg3m": 87.77
     },
     "^TNX": {
       "last": 5.05,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChDotRR5f"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChDtVTp8G"
   },
   "stocks": {
     "kr": {
@@ -368,43 +368,10 @@
   "news": {
     "kr": [
       {
-        "title": "국고채 금리 일제히 하락…3년물 연 3.642%",
-        "link": "https://www.yna.co.kr/view/AKR20261120145500008",
+        "title": "'AI병목 발생 인프라기업 투자 액티브' 등 ETF 2종 신규상장",
+        "link": "https://www.yna.co.kr/view/AKR20261120148100008",
         "source": "연합뉴스",
-        "date": "Fri, 20 Nov 2026 16:40:46 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "또 '검은 금요일'…코스피·코스닥 5%대 급락 마감",
-        "link": "https://www.hankyung.com/article/2026112003686",
-        "source": "한국경제",
-        "date": "Fri, 20 Nov 2026 15:46:32 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "‘검은 금요일’ 코스피·코스닥 나란히 5%대 급락…3거래일 만 ‘5천피’ 붕괴",
-        "link": "https://www.mk.co.kr/news/stock/12214679",
-        "source": "매일경제",
-        "date": "Fri, 20 Nov 2026 16:06:11 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "내년 공동주택 공시가격 현실화율 69% 유지…5년째 동결",
-        "link": "https://www.yna.co.kr/view/AKR20261120143400003",
-        "source": "연합뉴스",
-        "date": "Fri, 20 Nov 2026 16:38:30 +0900",
+        "date": "Fri, 20 Nov 2026 16:52:54 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -412,21 +379,54 @@
         "by": "rules"
       },
       {
-        "title": "\"중국 자동차 수출 급증에 선박 부족\"… 현대글로비스, 내년 역대 최대 실적 전망",
-        "link": "https://www.hankyung.com/article/202611209677i",
+        "title": "'핫한 산업' 부품은 다 만든다…올해 주가 네배 넘게 뛴 '이 종목'",
+        "link": "https://www.hankyung.com/article/202611200010i",
         "source": "한국경제",
-        "date": "Fri, 20 Nov 2026 15:42:28 +0900",
+        "date": "Fri, 20 Nov 2026 16:29:08 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "오전엔 순매도 1위였던 삼성전자…낙폭 커지자 오후엔 순매수 1위 [주식 초고수는 지금]",
-        "link": "https://www.mk.co.kr/news/stock/12214629",
+        "title": "앤트로픽 쏠림·대중규제 우려 … 반도체株 곤두박질",
+        "link": "https://www.mk.co.kr/news/stock/12214868",
         "source": "매일경제",
-        "date": "Fri, 20 Nov 2026 15:17:35 +09:00",
+        "date": "Fri, 20 Nov 2026 17:38:59 +09:00",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": null,
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
+        "by": "rules"
+      },
+      {
+        "title": "증시 급락에 위험회피…국고채 금리 일제히 하락(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261120145551008",
+        "source": "연합뉴스",
+        "date": "Fri, 20 Nov 2026 16:52:13 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "'AI 테마' 한국·대만 증시 떠나더니…외국인 큰 손들 대신 몰려 '반전'",
+        "link": "https://www.hankyung.com/article/202611200157i",
+        "source": "한국경제",
+        "date": "Fri, 20 Nov 2026 16:25:48 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "앤트로픽 잔칫날, 증시는 '검은 금요일'",
+        "link": "https://www.mk.co.kr/news/stock/12214855",
+        "source": "매일경제",
+        "date": "Fri, 20 Nov 2026 17:36:13 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -2955,7 +2955,7 @@
       "2026-11-17": 1334.84,
       "2026-11-18": 1332.66,
       "2026-11-19": 1333.74,
-      "2026-11-20": 1333.61
+      "2026-11-20": 1335.55
     },
     "^GSPC": {
       "2026-11-09": 7549.94,
@@ -2997,7 +2997,7 @@
       "2026-11-17": 25.46,
       "2026-11-18": 24.56,
       "2026-11-19": 28.44,
-      "2026-11-20": 28.44
+      "2026-11-20": 28.56
     },
     "^TNX": {
       "2026-11-09": 4.864,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChDotRR5fvxm5VpiDm67N\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChDotRtMVqgPzx6WUFqN8\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChDotSDgoqKaaRg4CDRNC\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChDtVTp8GMYxSBMNH4Rhq\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChDtVU5GELvb5Hf8gpxA7\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChDtVUGfd29EVtL7n8TiP\"}"
   ]
 }
