@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-20T00:01:32.521Z",
+  "asOf": "2026-11-20T00:11:53.973Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-19T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1335.18,
-      "prev": 1333.74,
-      "chg": 0.11,
+      "price": 1335.88,
+      "prev": 1330.4000244140625,
+      "chg": 0.41,
       "prevDay": "2026-11-19",
-      "basis": "prev-close-memo",
-      "time": "2026-11-20T00:01:22.000Z"
+      "basis": "prev-close-bar",
+      "time": "2026-11-20T00:11:43.000Z"
     },
     "^GSPC": {
       "price": 7175.83,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.058
+    "pct": 0.061
   },
   "hist": {
     "^KS11": {
@@ -80,10 +80,10 @@
       "chg3m": -20.55
     },
     "KRW=X": {
-      "last": 1335.18,
+      "last": 1335.88,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.058,
+      "pct52": 0.061,
       "chg3m": -3.3
     },
     "^GSPC": {
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChDCSi7Mt"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChDDEX5dB"
   },
   "stocks": {
     "kr": {
@@ -368,13 +368,13 @@
   "news": {
     "kr": [
       {
-        "title": "대신증권 \"증권업 모멘텀 부재…목표주가 31% 하향\"",
-        "link": "https://www.yna.co.kr/view/AKR20261120030600008",
+        "title": "코스피, 4% 안팎 급락 출발…다시 '5천피' 아래로",
+        "link": "https://www.yna.co.kr/view/AKR20261120037000008",
         "source": "연합뉴스",
-        "date": "Fri, 20 Nov 2026 08:47:51 +0900",
+        "date": "Fri, 20 Nov 2026 09:07:04 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -390,10 +390,10 @@
         "by": "rules"
       },
       {
-        "title": "DB증권 “메디톡스, 분기별 법무비 불확실성”…목표가 12만→9만원",
-        "link": "https://www.mk.co.kr/news/stock/12214269",
+        "title": "“미국인들, 삼전닉스 왜 팔죠?”…외국인 두 달 간 국내 주식 45조 순매도",
+        "link": "https://www.mk.co.kr/news/stock/12214312",
         "source": "매일경제",
-        "date": "Fri, 20 Nov 2026 08:34:07 +09:00",
+        "date": "Fri, 20 Nov 2026 09:10:09 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -401,10 +401,10 @@
         "by": "rules"
       },
       {
-        "title": "하나증권 \"스페이스X 수혜주로 RFHIC·LIG아큐버·KMW 등 주목\"",
-        "link": "https://www.yna.co.kr/view/AKR20261120028500008",
+        "title": "[속보] 삼성전자 사업부장, 반도체 메모리 황상준·모바일경험 최원준",
+        "link": "https://www.yna.co.kr/view/AKR20261120030200003",
         "source": "연합뉴스",
-        "date": "Fri, 20 Nov 2026 08:47:05 +0900",
+        "date": "Fri, 20 Nov 2026 09:04:36 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -423,13 +423,13 @@
         "by": "rules"
       },
       {
-        "title": "“증시 재평가, 1만피 돌파한다”…조마조마 코스피에 월가 전망 엇갈려",
-        "link": "https://www.mk.co.kr/news/stock/12214253",
+        "title": "성공적 데뷔 마친 앤트로픽이지만…“매출 대비 주가 과한 면 있다” [오늘 나온 보고서]",
+        "link": "https://www.mk.co.kr/news/stock/12214311",
         "source": "매일경제",
-        "date": "Fri, 20 Nov 2026 08:19:10 +09:00",
+        "date": "Fri, 20 Nov 2026 09:07:31 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -2955,7 +2955,7 @@
       "2026-11-17": 1334.84,
       "2026-11-18": 1332.66,
       "2026-11-19": 1333.74,
-      "2026-11-20": 1335.18
+      "2026-11-20": 1335.88
     },
     "^GSPC": {
       "2026-11-08": 7376.86,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChDCSi7MtwHJXP6EMdAuf\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChDCSibt6zeaCU6oqWv2K\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChDCSj1SqYFbP4THya2YZ\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChDDEX5dBX21MfJbx84kG\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChDDEXUgfr9Pp8P5fLwrm\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChDDEY3AgEdXu1tKHjtRq\"}"
   ]
 }
