@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-20T15:36:53.877Z",
+  "asOf": "2026-11-20T15:47:19.146Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,50 +19,50 @@
       "time": "2026-11-20T11:05:30.000Z"
     },
     "KRW=X": {
-      "price": 1339.06,
+      "price": 1339.51,
       "prev": 1330.4000244140625,
-      "chg": 0.65,
+      "chg": 0.68,
       "prevDay": "2026-11-19",
       "basis": "prev-close-bar",
-      "time": "2026-11-20T15:36:46.000Z"
+      "time": "2026-11-20T15:47:08.000Z"
     },
     "^GSPC": {
-      "price": 7115.71,
+      "price": 7081.39,
       "prev": 7175.830078125,
-      "chg": -0.84,
+      "chg": -1.32,
       "prevDay": "2026-11-19",
       "basis": "prev-close-bar",
-      "time": "2026-11-20T15:36:46.000Z"
+      "time": "2026-11-20T15:47:08.000Z"
     },
     "^IXIC": {
-      "price": 23424.357,
+      "price": 23264.889,
       "prev": 23879.19921875,
-      "chg": -1.9,
+      "chg": -2.57,
       "prevDay": "2026-11-19",
       "basis": "prev-close-bar",
-      "time": "2026-11-20T15:36:43.000Z"
+      "time": "2026-11-20T15:47:06.000Z"
     },
     "^VIX": {
-      "price": 29.08,
+      "price": 29.8,
       "prev": 28.440000534057617,
-      "chg": 2.25,
+      "chg": 4.78,
       "prevDay": "2026-11-19",
       "basis": "prev-close-bar",
-      "time": "2026-11-20T15:21:46.000Z"
+      "time": "2026-11-20T15:32:01.000Z"
     },
     "^TNX": {
-      "price": 4.964,
+      "price": 4.954,
       "prev": 5.052000045776367,
-      "chg": -1.74,
+      "chg": -1.94,
       "prevDay": "2026-11-19",
       "basis": "prev-close-bar",
-      "time": "2026-11-20T15:21:45.000Z"
+      "time": "2026-11-20T15:32:05.000Z"
     }
   },
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.074
+    "pct": 0.076
   },
   "hist": {
     "^KS11": {
@@ -80,39 +80,39 @@
       "chg3m": -16.94
     },
     "KRW=X": {
-      "last": 1339.06,
+      "last": 1339.51,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.074,
-      "chg3m": -3.07
+      "pct52": 0.076,
+      "chg3m": -3.04
     },
     "^GSPC": {
-      "last": 7115.71,
+      "last": 7081.87,
       "low52": 6343.72,
       "high52": 7818.93,
-      "pct52": 0.523,
-      "chg3m": -7.31
+      "pct52": 0.5,
+      "chg3m": -7.76
     },
     "^IXIC": {
-      "last": 23424.36,
+      "last": 23264.89,
       "low52": 20794.64,
       "high52": 27599.79,
-      "pct52": 0.386,
-      "chg3m": -10.43
+      "pct52": 0.363,
+      "chg3m": -11.04
     },
     "^VIX": {
-      "last": 29.08,
+      "last": 29.8,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.888,
-      "chg3m": 91.19
+      "pct52": 0.929,
+      "chg3m": 95.92
     },
     "^TNX": {
-      "last": 4.96,
+      "last": 4.95,
       "low52": 3.96,
       "high52": 5.31,
-      "pct52": 0.743,
-      "chg3m": 7.01
+      "pct52": 0.735,
+      "chg3m": 6.79
     }
   },
   "regime": {
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChERmextw"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChESZkXoC"
   },
   "stocks": {
     "kr": {
@@ -260,108 +260,108 @@
     },
     "us": {
       "MSFT": {
-        "price": 495.74,
+        "price": 492.695,
         "prev": 498.29998779296875,
-        "chg": -0.51,
+        "chg": -1.12,
         "prevDay": "2026-11-19",
         "basis": "prev-close-bar",
-        "time": "2026-11-20T15:36:50.000Z"
+        "time": "2026-11-20T15:47:16.000Z"
       },
       "AAPL": {
-        "price": 349.55,
+        "price": 348.53,
         "prev": 349.2099914550781,
-        "chg": 0.1,
+        "chg": -0.19,
         "prevDay": "2026-11-19",
         "basis": "prev-close-bar",
-        "time": "2026-11-20T15:36:52.000Z"
+        "time": "2026-11-20T15:47:16.000Z"
       },
       "GOOGL": {
-        "price": 279.76,
+        "price": 277.94,
         "prev": 272.6600036621094,
-        "chg": 2.6,
+        "chg": 1.94,
         "prevDay": "2026-11-19",
         "basis": "prev-close-bar",
-        "time": "2026-11-20T15:36:51.000Z"
+        "time": "2026-11-20T15:47:17.000Z"
       },
       "BRK.B": {
-        "price": 575.77,
+        "price": 575.16,
         "prev": 572.0399780273438,
-        "chg": 0.65,
+        "chg": 0.55,
         "prevDay": "2026-11-19",
         "basis": "prev-close-bar",
-        "time": "2026-11-20T15:36:52.000Z"
+        "time": "2026-11-20T15:47:16.000Z"
       },
       "V": {
-        "price": 408.335,
+        "price": 407.46,
         "prev": 402.25,
-        "chg": 1.51,
+        "chg": 1.3,
         "prevDay": "2026-11-19",
         "basis": "prev-close-bar",
-        "time": "2026-11-20T15:36:45.000Z"
+        "time": "2026-11-20T15:47:16.000Z"
       },
       "JNJ": {
-        "price": 271.175,
+        "price": 272.16,
         "prev": 267.1400146484375,
-        "chg": 1.51,
+        "chg": 1.88,
         "prevDay": "2026-11-19",
         "basis": "prev-close-bar",
-        "time": "2026-11-20T15:36:51.000Z"
+        "time": "2026-11-20T15:47:16.000Z"
       },
       "PG": {
-        "price": 171.17,
+        "price": 171.405,
         "prev": 167.85000610351562,
-        "chg": 1.98,
+        "chg": 2.12,
         "prevDay": "2026-11-19",
         "basis": "prev-close-bar",
-        "time": "2026-11-20T15:36:45.000Z"
+        "time": "2026-11-20T15:47:17.000Z"
       },
       "KO": {
-        "price": 97.225,
+        "price": 97.48,
         "prev": 96.08999633789062,
-        "chg": 1.18,
+        "chg": 1.45,
         "prevDay": "2026-11-19",
         "basis": "prev-close-bar",
-        "time": "2026-11-20T15:36:52.000Z"
+        "time": "2026-11-20T15:47:17.000Z"
       },
       "COST": {
-        "price": 1118.975,
+        "price": 1119.56,
         "prev": 1093.8299560546875,
-        "chg": 2.3,
+        "chg": 2.35,
         "prevDay": "2026-11-19",
         "basis": "prev-close-bar",
-        "time": "2026-11-20T15:36:45.000Z"
+        "time": "2026-11-20T15:47:15.000Z"
       },
       "WM": {
-        "price": 243.335,
+        "price": 243.82,
         "prev": 238.6699981689453,
-        "chg": 1.95,
+        "chg": 2.16,
         "prevDay": "2026-11-19",
         "basis": "prev-close-bar",
-        "time": "2026-11-20T15:36:40.000Z"
+        "time": "2026-11-20T15:47:17.000Z"
       },
       "LIN": {
-        "price": 514.965,
+        "price": 511.925,
         "prev": 510.2099914550781,
-        "chg": 0.93,
+        "chg": 0.34,
         "prevDay": "2026-11-19",
         "basis": "prev-close-bar",
-        "time": "2026-11-20T15:36:52.000Z"
+        "time": "2026-11-20T15:47:16.000Z"
       },
       "XOM": {
-        "price": 160.25,
+        "price": 160.82,
         "prev": 158.92999267578125,
-        "chg": 0.83,
+        "chg": 1.19,
         "prevDay": "2026-11-19",
         "basis": "prev-close-bar",
-        "time": "2026-11-20T15:36:52.000Z"
+        "time": "2026-11-20T15:47:16.000Z"
       },
       "NVDA": {
-        "price": 137.88,
+        "price": 135.81,
         "prev": 145.97999572753906,
-        "chg": -5.55,
+        "chg": -6.97,
         "prevDay": "2026-11-19",
         "basis": "prev-close-bar",
-        "time": "2026-11-20T15:36:51.000Z"
+        "time": "2026-11-20T15:47:18.000Z"
       }
     }
   },
@@ -448,14 +448,14 @@
         "by": "rules"
       },
       {
-        "title": "This closely watched investing guru just sold all of his stocks",
-        "link": "https://www.marketwatch.com/story/this-closely-watched-guru-just-sold-everything-474b4389?mod=mw_rss_topstories",
+        "title": "Anthropic’s stock slides closer to IPO price and drags down the AI trade",
+        "link": "https://www.marketwatch.com/story/anthropics-stock-slides-closer-to-ipo-price-and-drags-down-the-ai-trade-cc43a0c4?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Fri, 20 Nov 2026 15:23:00 GMT",
-        "ko": "많은 이들의 주목을 받는 투자 전문가가 방금 모든 주식을 매도했습니다.",
+        "date": "Fri, 20 Nov 2026 15:38:00 GMT",
+        "ko": "앤트로픽의 주가가 IPO 가격에 가까워지면서 AI 관련 주가가 하락했습니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -472,14 +472,14 @@
         "by": "rules"
       },
       {
-        "title": "Anthropic’s stock slides closer to IPO price and drags down the AI trade",
-        "link": "https://www.marketwatch.com/story/anthropics-stock-slides-closer-to-ipo-price-and-drags-down-the-ai-trade-cc43a0c4?mod=mw_rss_topstories",
+        "title": "Nvidia’s stock heads for a stretch of weekly losses unseen since 2008",
+        "link": "https://www.marketwatch.com/story/nvidias-stock-heads-for-a-stretch-of-weekly-losses-unseen-since-2008-91aba9a6?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Fri, 20 Nov 2026 14:34:00 GMT",
-        "ko": "앤트로픽의 주가가 IPO 가격에 가까워지면서 AI 관련 주가가 하락했습니다.",
+        "date": "Fri, 20 Nov 2026 15:38:00 GMT",
+        "ko": "Nvidia 주가, 2008년 이후 처음으로 주간 하락세 지속",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -496,11 +496,11 @@
         "by": "rules"
       },
       {
-        "title": "I’m terrified of a market crash. Should I put $400,000 of my $1 million retirement savings into an annuity?",
-        "link": "https://www.marketwatch.com/story/were-in-our-50s-and-terrified-of-a-market-crash-should-we-put-400-000-of-our-1-million-retirement-savings-into-an-annuity-1943f240?mod=mw_rss_topstories",
+        "title": "This closely watched investing guru just sold all of his stocks",
+        "link": "https://www.marketwatch.com/story/this-closely-watched-guru-just-sold-everything-474b4389?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Fri, 20 Nov 2026 14:30:00 GMT",
-        "ko": "저는 시장 붕괴가 너무나 두렵습니다. 1백만 달러의 은퇴 저축 중 40만 달러를 연금에 넣어야 할까요?",
+        "date": "Fri, 20 Nov 2026 15:23:00 GMT",
+        "ko": "많은 이들의 주목을 받는 투자 전문가가 방금 모든 주식을 매도했습니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -511,7 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "AMD’s stock slides after Intel earnings reveal two big issues": "Intel 수입 이후 AMD의 주가 슬라이드에는 두 가지 큰 문제가 드러납니다.",
     "Why Intel’s stock is sinking toward its worst day in decades — and a $140 billion wipeout": "인텔의 재고가 수십 년 만에 최악의 날을 향해 가라앉고 있는 이유 — 그리고 1,400억 달러 ($) 의 전멸",
     "This strategist correctly recommended shorting Big Tech debt last year. Now he says the yields make it attractive.": "이 전략가는 작년에 빅 테크 부채를 줄일 것을 올바르게 권장했습니다. 이제 그는 수확량이 매력적이라고 말합니다.",
     "Reddit shares on track for largest ever one-day drop — and analysts say the bad news hasn’t ended": "Reddit은 사상 최대 규모의 원데이 드롭을 계획대로 진행 중이며, 분석가들은 나쁜 소식이 끝나지 않았다고 말합니다.",
@@ -810,7 +809,8 @@
     "Bank of America strategist warns doom loop could hit stocks with Wall Street underpricing hard-landing risks": "뱅크오브아메리카(Bank of America)의 한 전략가가 월스트리트가 경착륙 위험을 과소평가하고 있어 악순환이 주식 시장에 타격을 줄 수 있다고 경고했습니다.",
     "GameStop has transformed from a meme stock into a ‘real company,’ analysts say": "애널리스트들은 GameStop이 밈 주식에서 '진짜 회사'로 변모했다고 말합니다.",
     "Anthropic’s stock slides closer to IPO price and drags down the AI trade": "앤트로픽의 주가가 IPO 가격에 가까워지면서 AI 관련 주가가 하락했습니다.",
-    "This closely watched investing guru just sold all of his stocks": "많은 이들의 주목을 받는 투자 전문가가 방금 모든 주식을 매도했습니다."
+    "This closely watched investing guru just sold all of his stocks": "많은 이들의 주목을 받는 투자 전문가가 방금 모든 주식을 매도했습니다.",
+    "Nvidia’s stock heads for a stretch of weekly losses unseen since 2008": "Nvidia 주가, 2008년 이후 처음으로 주간 하락세 지속"
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2955,7 +2955,7 @@
       "2026-11-17": 1334.84,
       "2026-11-18": 1332.66,
       "2026-11-19": 1333.74,
-      "2026-11-20": 1339.06
+      "2026-11-20": 1339.51
     },
     "^GSPC": {
       "2026-11-09": 7549.94,
@@ -2969,7 +2969,7 @@
       "2026-11-17": 7340.53,
       "2026-11-18": 7323.63,
       "2026-11-19": 7175.83,
-      "2026-11-20": 7115.71
+      "2026-11-20": 7081.39
     },
     "^IXIC": {
       "2026-11-09": 25253.139,
@@ -2983,7 +2983,7 @@
       "2026-11-17": 24328.383,
       "2026-11-18": 24429.885,
       "2026-11-19": 23879.2,
-      "2026-11-20": 23424.357
+      "2026-11-20": 23264.889
     },
     "^VIX": {
       "2026-11-09": 19.92,
@@ -2997,7 +2997,7 @@
       "2026-11-17": 25.46,
       "2026-11-18": 24.56,
       "2026-11-19": 28.44,
-      "2026-11-20": 29.08
+      "2026-11-20": 29.8
     },
     "^TNX": {
       "2026-11-09": 4.864,
@@ -3011,7 +3011,7 @@
       "2026-11-17": 5.103,
       "2026-11-18": 5.066,
       "2026-11-19": 5.052,
-      "2026-11-20": 4.964
+      "2026-11-20": 4.954
     },
     "105560.KS": {
       "2026-11-10": 152700,
@@ -3207,7 +3207,7 @@
       "2026-11-17": 506.24,
       "2026-11-18": 508.29,
       "2026-11-19": 498.3,
-      "2026-11-20": 495.74
+      "2026-11-20": 492.695
     },
     "AAPL": {
       "2026-11-09": 350.69,
@@ -3221,7 +3221,7 @@
       "2026-11-17": 351.91,
       "2026-11-18": 352.45,
       "2026-11-19": 349.21,
-      "2026-11-20": 349.55
+      "2026-11-20": 348.53
     },
     "GOOGL": {
       "2026-11-09": 288.15,
@@ -3235,7 +3235,7 @@
       "2026-11-17": 280.2,
       "2026-11-18": 282.44,
       "2026-11-19": 272.66,
-      "2026-11-20": 279.76
+      "2026-11-20": 277.94
     },
     "BRK.B": {
       "2026-08-29": 505,
@@ -3256,7 +3256,7 @@
       "2026-11-17": 416.77,
       "2026-11-18": 415.22,
       "2026-11-19": 402.25,
-      "2026-11-20": 408.335
+      "2026-11-20": 407.46
     },
     "JNJ": {
       "2026-11-09": 282.11,
@@ -3270,7 +3270,7 @@
       "2026-11-17": 278.7,
       "2026-11-18": 272.7,
       "2026-11-19": 267.14,
-      "2026-11-20": 271.175
+      "2026-11-20": 272.16
     },
     "PG": {
       "2026-11-09": 168.32,
@@ -3284,7 +3284,7 @@
       "2026-11-17": 171.72,
       "2026-11-18": 170.29,
       "2026-11-19": 167.85,
-      "2026-11-20": 171.17
+      "2026-11-20": 171.405
     },
     "KO": {
       "2026-11-09": 96.03,
@@ -3298,7 +3298,7 @@
       "2026-11-17": 98.79,
       "2026-11-18": 98.09,
       "2026-11-19": 96.09,
-      "2026-11-20": 97.225
+      "2026-11-20": 97.48
     },
     "COST": {
       "2026-11-09": 1066.18,
@@ -3312,7 +3312,7 @@
       "2026-11-17": 1110.08,
       "2026-11-18": 1096.62,
       "2026-11-19": 1093.83,
-      "2026-11-20": 1118.975
+      "2026-11-20": 1119.56
     },
     "WM": {
       "2026-11-09": 236.61,
@@ -3326,7 +3326,7 @@
       "2026-11-17": 242.69,
       "2026-11-18": 241.21,
       "2026-11-19": 238.67,
-      "2026-11-20": 243.335
+      "2026-11-20": 243.82
     },
     "LIN": {
       "2026-11-09": 520.33,
@@ -3340,7 +3340,7 @@
       "2026-11-17": 515.11,
       "2026-11-18": 512.16,
       "2026-11-19": 510.21,
-      "2026-11-20": 514.965
+      "2026-11-20": 511.925
     },
     "XOM": {
       "2026-11-09": 164.73,
@@ -3354,7 +3354,7 @@
       "2026-11-17": 167.21,
       "2026-11-18": 160.58,
       "2026-11-19": 158.93,
-      "2026-11-20": 160.25
+      "2026-11-20": 160.82
     },
     "NVDA": {
       "2026-11-09": 178.67,
@@ -3368,7 +3368,7 @@
       "2026-11-17": 155.46,
       "2026-11-18": 150.96,
       "2026-11-19": 145.98,
-      "2026-11-20": 137.88
+      "2026-11-20": 135.81
     },
     "BRK-B": {
       "2026-11-09": 575.25,
@@ -3382,13 +3382,13 @@
       "2026-11-17": 586.76,
       "2026-11-18": 574.62,
       "2026-11-19": 572.04,
-      "2026-11-20": 575.77
+      "2026-11-20": 575.16
     }
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChERmextwJVMDTJmcE4vT\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChERmfVeS4pefxSBfMeka\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChERmfthvtheQrPaSp7s8\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChESZkXoC71FpL9Hmu4eb\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChESZkvcDQkfH7AYs3JJJ\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChESZmFiDqpHJvbrm4ddZ\"}"
   ]
 }
