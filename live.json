@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-19T23:28:07.965Z",
+  "asOf": "2026-11-20T00:01:32.521Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-19T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1333.74,
-      "prev": 1333.010009765625,
-      "chg": 0.05,
-      "prevDay": "2026-11-18",
-      "basis": "prev-close-bar",
-      "time": "2026-11-19T23:23:20.000Z"
+      "price": 1335.18,
+      "prev": 1333.74,
+      "chg": 0.11,
+      "prevDay": "2026-11-19",
+      "basis": "prev-close-memo",
+      "time": "2026-11-20T00:01:22.000Z"
     },
     "^GSPC": {
       "price": 7175.83,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.051
+    "pct": 0.058
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -20.55
     },
     "KRW=X": {
-      "last": 1333.74,
+      "last": 1335.18,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.051,
-      "chg3m": -3.41
+      "pct52": 0.058,
+      "chg3m": -3.3
     },
     "^GSPC": {
       "last": 7175.83,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChD9twxBu"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChDCSi7Mt"
   },
   "stocks": {
     "kr": {
@@ -368,10 +368,21 @@
   "news": {
     "kr": [
       {
-        "title": "IBK증권 \"KH바텍 주가 저평가…내년부터 데이터센터향 매출↑\"",
-        "link": "https://www.yna.co.kr/view/AKR20261120026100008",
+        "title": "대신증권 \"증권업 모멘텀 부재…목표주가 31% 하향\"",
+        "link": "https://www.yna.co.kr/view/AKR20261120030600008",
         "source": "연합뉴스",
-        "date": "Fri, 20 Nov 2026 08:18:50 +0900",
+        "date": "Fri, 20 Nov 2026 08:47:51 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "\"증권주, 당분간 상승 모멘텀 없다…'배당 9%' 노려볼만\"",
+        "link": "https://www.hankyung.com/article/2026112089686",
+        "source": "한국경제",
+        "date": "Fri, 20 Nov 2026 08:25:26 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "company",
@@ -379,10 +390,32 @@
         "by": "rules"
       },
       {
-        "title": "앤트로픽 상장 직후 AI株 투매…나스닥 2.25%↓ [뉴욕증시 브리핑]",
-        "link": "https://www.hankyung.com/article/2026112088366",
+        "title": "DB증권 “메디톡스, 분기별 법무비 불확실성”…목표가 12만→9만원",
+        "link": "https://www.mk.co.kr/news/stock/12214269",
+        "source": "매일경제",
+        "date": "Fri, 20 Nov 2026 08:34:07 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "하나증권 \"스페이스X 수혜주로 RFHIC·LIG아큐버·KMW 등 주목\"",
+        "link": "https://www.yna.co.kr/view/AKR20261120028500008",
+        "source": "연합뉴스",
+        "date": "Fri, 20 Nov 2026 08:47:05 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "143조 빨아들인 앤트로픽…상장 첫날 주가 '롤러코스터'",
+        "link": "https://www.hankyung.com/article/2026112088476",
         "source": "한국경제",
-        "date": "Fri, 20 Nov 2026 07:06:56 +0900",
+        "date": "Fri, 20 Nov 2026 07:56:37 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -399,42 +432,33 @@
         "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
-      },
-      {
-        "title": "KB증권 \"공급 부족 속 삼전닉스 내년 D램 가격 40% 상승 전망\"",
-        "link": "https://www.yna.co.kr/view/AKR20261120024500008",
-        "source": "연합뉴스",
-        "date": "Fri, 20 Nov 2026 08:17:55 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "'어닝 쇼크' 씨어스, 지수 편입 힘입어 반등 이어갈까 [종목+]",
-        "link": "https://www.hankyung.com/article/2026111979036",
-        "source": "한국경제",
-        "date": "Fri, 20 Nov 2026 06:30:03 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "급등 출발로 시작했지만...앤트로픽 상장날 반도체 하락한 이유",
-        "link": "https://www.mk.co.kr/news/business/12214247",
-        "source": "매일경제",
-        "date": "Fri, 20 Nov 2026 08:07:39 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
       }
     ],
     "us": [
+      {
+        "title": "Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices",
+        "link": "https://www.cnbc.com/2026/11/20/japan-inflation-cpi-october.html",
+        "source": "CNBC",
+        "date": "Thu, 19 Nov 2026 23:59:29 GMT",
+        "ko": "에너지 보조금 만료로 소비자 물가가 상승하면서 일본의 핵심 인플레이션이 올해 최고치를 기록했습니다.",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": "market",
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
+        "by": "rules"
+      },
+      {
+        "title": "After Anthropic’s ‘bittersweet’ IPO, here’s what lies ahead",
+        "link": "https://www.marketwatch.com/story/after-anthropics-bittersweet-ipo-heres-what-lies-ahead-8c32fdb7?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "date": "Thu, 19 Nov 2026 23:56:00 GMT",
+        "ko": "앤트로픽의 '씁쓸한' IPO 이후, 앞으로의 전망은 다음과 같습니다.",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
       {
         "title": "Record diesel prices drive UK inflation to 1-year high of 3.6%",
         "link": "https://www.cnbc.com/2026/11/18/uk-inflation-cpi-fuel-prices.html",
@@ -482,37 +506,11 @@
         "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
-      },
-      {
-        "title": "Peterson: The Fed's chairman sees an AI revolution coming. Now he has to figure out what it means",
-        "link": "https://www.cnbc.com/2026/11/16/kevin-warsh-fed-ai-jobs-productivity-interest-rateshtml.html",
-        "source": "CNBC",
-        "date": "Thu, 19 Nov 2026 20:18:47 GMT",
-        "ko": "피터슨: 연준 의장은 AI 혁명이 다가오고 있다고 전망합니다. 이제 그는 그 의미를 파악해야 합니다.",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "A CoreWeave co-founder just made an unconventional $30 million wager on its battered bonds",
-        "link": "https://www.marketwatch.com/story/a-coreweave-co-founder-just-made-an-unconventional-30-million-wager-on-its-battered-bonds-5586b0e9?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "date": "Thu, 19 Nov 2026 22:41:00 GMT",
-        "ko": "CoreWeave의 공동 창업자가 최근 타격을 입은 자사 채권에 대해 파격적인 3천만 달러의 베팅을 했습니다.",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
       }
     ]
   },
   "newsBy": "rules",
   "trCache": {
-    "The S&P 500 isn’t the big winner you may think it is": "S&P 500은 여러분이 생각할 수 있는 큰 승자는 아닙니다.",
-    "Sandisk sees revenue nearly quintuple — and its stock is heading higher": "샌디스크는 거의 5배의 수익을 올리고 있으며 주가는 상승세를 보이고 있습니다.",
     "Sandisk sees revenue nearly quintuple — and a stock split is on the way": "샌디스크는 거의 5배의 수익을 보고 있으며 주식 분할이 진행 중입니다",
     "Amazon’s bold cloud forecast isn’t enough to stave off a stock drop": "아마존의 대담한 클라우드 예측만으로는 주식 하락을 막을 수 없습니다",
     "Why Intel’s stock is sinking toward its worst drop in two years": "인텔의 주가가 2년 만에 최악의 하락세를 기록하는 이유",
@@ -810,7 +808,9 @@
     "Why Micron, Broadcom and other AI stocks gave up their gains Thursday": "마이크론, 브로드컴 및 기타 AI 관련주가 목요일에 상승분을 반납한 이유",
     "Anthropic’s stock surges in its debut — and the rest of the market dives anyway": "앤트로픽의 주가가 상장과 동시에 급등했지만, 시장의 나머지 부분은 어쨌든 하락했습니다.",
     "Intuit’s downbeat outlook deepens Wall Street’s anxiety about software companies": "Intuit의 비관적인 전망으로 인해 소프트웨어 기업에 대한 월스트리트의 우려가 심화되고 있습니다.",
-    "These were the only stocks that rose amid the stock market’s wipeout Thursday": "이들 주식은 목요일 주식 시장의 폭락 속에서도 유일하게 상승한 주식이었습니다."
+    "These were the only stocks that rose amid the stock market’s wipeout Thursday": "이들 주식은 목요일 주식 시장의 폭락 속에서도 유일하게 상승한 주식이었습니다.",
+    "Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices": "에너지 보조금 만료로 소비자 물가가 상승하면서 일본의 핵심 인플레이션이 올해 최고치를 기록했습니다.",
+    "After Anthropic’s ‘bittersweet’ IPO, here’s what lies ahead": "앤트로픽의 '씁쓸한' IPO 이후, 앞으로의 전망은 다음과 같습니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2944,7 +2944,6 @@
       "2026-11-20": 684.81
     },
     "KRW=X": {
-      "2026-11-08": 1363.21,
       "2026-11-09": 1341.8,
       "2026-11-10": 1343.44,
       "2026-11-11": 1336.58,
@@ -2955,7 +2954,8 @@
       "2026-11-16": 1335.76,
       "2026-11-17": 1334.84,
       "2026-11-18": 1332.66,
-      "2026-11-19": 1333.74
+      "2026-11-19": 1333.74,
+      "2026-11-20": 1335.18
     },
     "^GSPC": {
       "2026-11-08": 7376.86,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChD9twxBuFFHhnnNA9BLT\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChD9txQDiujE8wxKd2FeG\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChD9txj4h6YPXpjJEW4Jq\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChDCSi7MtwHJXP6EMdAuf\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChDCSibt6zeaCU6oqWv2K\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChDCSj1SqYFbP4THya2YZ\"}"
   ]
 }
