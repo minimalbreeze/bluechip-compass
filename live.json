@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-20T14:13:40.757Z",
+  "asOf": "2026-11-20T14:24:03.254Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-20T11:05:30.000Z"
     },
     "KRW=X": {
-      "price": 1339.18,
+      "price": 1337.91,
       "prev": 1330.4000244140625,
-      "chg": 0.66,
+      "chg": 0.56,
       "prevDay": "2026-11-19",
       "basis": "prev-close-bar",
-      "time": "2026-11-20T14:13:30.000Z"
+      "time": "2026-11-20T14:23:53.000Z"
     },
     "^GSPC": {
       "price": 7175.83,
@@ -43,26 +43,26 @@
       "time": "2026-11-19T22:15:59.000Z"
     },
     "^VIX": {
-      "price": 30.34,
+      "price": 29.89,
       "prev": 28.440000534057617,
-      "chg": 6.68,
+      "chg": 5.1,
       "prevDay": "2026-11-19",
       "basis": "prev-close-bar",
-      "time": "2026-11-20T13:58:31.000Z"
+      "time": "2026-11-20T14:08:46.000Z"
     },
     "^TNX": {
-      "price": 4.98,
+      "price": 4.988,
       "prev": 5.052000045776367,
-      "chg": -1.43,
+      "chg": -1.27,
       "prevDay": "2026-11-19",
       "basis": "prev-close-bar",
-      "time": "2026-11-20T13:58:25.000Z"
+      "time": "2026-11-20T14:08:55.000Z"
     }
   },
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.075
+    "pct": 0.069
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -23.21
     },
     "KRW=X": {
-      "last": 1339.18,
+      "last": 1337.91,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.075,
-      "chg3m": -3.06
+      "pct52": 0.069,
+      "chg3m": -3.15
     },
     "^GSPC": {
       "last": 7175.83,
@@ -101,18 +101,18 @@
       "chg3m": -8.09
     },
     "^VIX": {
-      "last": 30.34,
+      "last": 29.89,
       "low52": 13.47,
       "high52": 31.05,
-      "pct52": 0.96,
-      "chg3m": 99.47
+      "pct52": 0.934,
+      "chg3m": 96.52
     },
     "^TNX": {
-      "last": 4.98,
+      "last": 4.99,
       "low52": 3.96,
       "high52": 5.31,
-      "pct52": 0.755,
-      "chg3m": 7.35
+      "pct52": 0.761,
+      "chg3m": 7.52
     }
   },
   "regime": {
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChEKRbXXZ"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChELDV3sa"
   },
   "stocks": {
     "kr": {
@@ -379,17 +379,6 @@
         "by": "rules"
       },
       {
-        "title": "주가 폭락에도 1.5조 담았다…삼전닉스 또 베팅한 개미들",
-        "link": "https://www.hankyung.com/article/2026112007727",
-        "source": "한국경제",
-        "date": "Fri, 20 Nov 2026 17:52:28 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
         "title": "결국 고꾸라진 코스피 … “바닥이 어디?”보다 중요한 질문은",
         "link": "https://www.mk.co.kr/news/stock/12214887",
         "source": "매일경제",
@@ -412,17 +401,6 @@
         "by": "rules"
       },
       {
-        "title": "코스피 폭등에 돈 쓸어담더니…'70% 하락' 비명 터진 종목",
-        "link": "https://www.hankyung.com/article/2026112007071",
-        "source": "한국경제",
-        "date": "Fri, 20 Nov 2026 17:34:38 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
         "title": "앤트로픽 쏠림·대중규제 우려 … 반도체株 곤두박질",
         "link": "https://www.mk.co.kr/news/stock/12214868",
         "source": "매일경제",
@@ -431,6 +409,28 @@
         "lasting": "structural",
         "scope": null,
         "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
+        "by": "rules"
+      },
+      {
+        "title": "증시 급락에 위험회피…국고채 금리 일제히 하락(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261120145551008",
+        "source": "연합뉴스",
+        "date": "Fri, 20 Nov 2026 16:52:13 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "앤트로픽 잔칫날, 증시는 '검은 금요일'",
+        "link": "https://www.mk.co.kr/news/stock/12214855",
+        "source": "매일경제",
+        "date": "Fri, 20 Nov 2026 17:36:13 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
     ],
@@ -448,14 +448,14 @@
         "by": "rules"
       },
       {
-        "title": "Anthropic’s stock slides closer to IPO price and drags down the AI trade",
-        "link": "https://www.marketwatch.com/story/anthropics-stock-slides-closer-to-ipo-price-and-drags-down-the-ai-trade-cc43a0c4?mod=mw_rss_topstories",
+        "title": "GameStop has transformed from a meme stock into a ‘real company,’ analysts say",
+        "link": "https://www.marketwatch.com/story/gamestop-has-transformed-from-a-meme-stock-into-a-real-company-analysts-say-7ae5c7ed?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Fri, 20 Nov 2026 13:48:00 GMT",
-        "ko": "앤트로픽의 주가가 IPO 가격에 가까워지면서 AI 관련 주가가 하락했습니다.",
+        "date": "Fri, 20 Nov 2026 14:15:00 GMT",
+        "ko": "애널리스트들은 GameStop이 밈 주식에서 '진짜 회사'로 변모했다고 말합니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -472,11 +472,11 @@
         "by": "rules"
       },
       {
-        "title": "Intuit’s downbeat outlook deepens Wall Street’s anxiety about software companies",
-        "link": "https://www.marketwatch.com/story/intuits-downbeat-outlook-deepens-wall-streets-anxiety-about-software-companies-15b878e5?mod=mw_rss_topstories",
+        "title": "Anthropic’s stock slides closer to IPO price and drags down the AI trade",
+        "link": "https://www.marketwatch.com/story/anthropics-stock-slides-closer-to-ipo-price-and-drags-down-the-ai-trade-cc43a0c4?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Fri, 20 Nov 2026 12:59:00 GMT",
-        "ko": "Intuit의 비관적인 전망으로 인해 소프트웨어 기업에 대한 월스트리트의 우려가 심화되고 있습니다.",
+        "date": "Fri, 20 Nov 2026 13:48:00 GMT",
+        "ko": "앤트로픽의 주가가 IPO 가격에 가까워지면서 AI 관련 주가가 하락했습니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -496,14 +496,14 @@
         "by": "rules"
       },
       {
-        "title": "These 5 defense stocks are drawing millions in insider bets ahead of military-spending boom in 2027",
-        "link": "https://www.marketwatch.com/story/these-5-defense-stocks-are-drawing-millions-in-insider-bets-ahead-of-military-spending-boom-in-2027-8b3b556b?mod=mw_rss_topstories",
+        "title": "Intuit’s downbeat outlook deepens Wall Street’s anxiety about software companies",
+        "link": "https://www.marketwatch.com/story/intuits-downbeat-outlook-deepens-wall-streets-anxiety-about-software-companies-15b878e5?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Fri, 20 Nov 2026 12:45:00 GMT",
-        "ko": "2027년 군사 지출 붐을 앞두고 이 5개 방위 산업 주식에 수백만 달러의 내부자 베팅이 몰리고 있습니다.",
+        "date": "Fri, 20 Nov 2026 12:59:00 GMT",
+        "ko": "Intuit의 비관적인 전망으로 인해 소프트웨어 기업에 대한 월스트리트의 우려가 심화되고 있습니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -2955,7 +2955,7 @@
       "2026-11-17": 1334.84,
       "2026-11-18": 1332.66,
       "2026-11-19": 1333.74,
-      "2026-11-20": 1339.18
+      "2026-11-20": 1337.91
     },
     "^GSPC": {
       "2026-11-09": 7549.94,
@@ -2997,7 +2997,7 @@
       "2026-11-17": 25.46,
       "2026-11-18": 24.56,
       "2026-11-19": 28.44,
-      "2026-11-20": 30.34
+      "2026-11-20": 29.89
     },
     "^TNX": {
       "2026-11-09": 4.864,
@@ -3011,7 +3011,7 @@
       "2026-11-17": 5.103,
       "2026-11-18": 5.066,
       "2026-11-19": 5.052,
-      "2026-11-20": 4.98
+      "2026-11-20": 4.988
     },
     "105560.KS": {
       "2026-11-09": 150900,
@@ -3386,9 +3386,10 @@
     }
   },
   "failed": [
+    "news/kr/한국경제: HTTP 403",
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChEKRbXXZTBsiK9ztpugm\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChEKRbwapmDT8q95QAYic\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChEKRcES8goCF3S3Lf1gJ\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChELDV3saZQzgLka6USGc\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChELDVPxgG5XiFgioaxHb\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChELDVg5rkwdkNDqjvsdP\"}"
   ]
 }
