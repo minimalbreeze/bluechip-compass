@@ -1,21 +1,21 @@
 {
-  "asOf": "2026-11-21T02:27:31.462Z",
+  "asOf": "2026-11-21T03:27:55.869Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
       "price": 4869.96,
-      "prev": 4869.96,
+      "prev": 4869.9599609375,
       "chg": 0,
       "prevDay": "2026-11-20",
-      "basis": "prev-close-memo",
+      "basis": "prev-close-bar",
       "time": "2026-11-20T11:05:30.000Z"
     },
     "^KQ11": {
       "price": 645.68,
-      "prev": 645.68,
+      "prev": 645.6799926757812,
       "chg": 0,
       "prevDay": "2026-11-20",
-      "basis": "prev-close-memo",
+      "basis": "prev-close-bar",
       "time": "2026-11-20T11:05:30.000Z"
     },
     "KRW=X": {
@@ -66,18 +66,18 @@
   },
   "hist": {
     "^KS11": {
-      "last": 5137.89,
+      "last": 4869.96,
       "low52": 3846.06,
       "high52": 9114.55,
-      "pct52": 0.245,
-      "chg3m": -20.6
+      "pct52": 0.194,
+      "chg3m": -28.93
     },
     "^KQ11": {
-      "last": 684.81,
+      "last": 645.68,
       "low52": 638.97,
       "high52": 1226.18,
-      "pct52": 0.078,
-      "chg3m": -16.94
+      "pct52": 0.011,
+      "chg3m": -23.21
     },
     "KRW=X": {
       "last": 1334.79,
@@ -105,7 +105,7 @@
       "low52": 13.47,
       "high52": 35.89,
       "pct52": 1,
-      "chg3m": 135.96
+      "chg3m": 132.3
     },
     "^TNX": {
       "last": 4.91,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChFHPHjAy"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChFMzTQHS"
   },
   "stocks": {
     "kr": {
@@ -379,10 +379,10 @@
         "by": "rules"
       },
       {
-        "title": "\"믿었던 AI마저\"…기술주 투매에 나스닥 5% 급락 [뉴욕증시 브리핑]",
-        "link": "https://www.hankyung.com/article/2026112110837",
+        "title": "나스닥 5% 폭락…시험대 오른 국내 증시, 반등 열쇠는 [다음주 주요 변수 미리보기]",
+        "link": "https://www.hankyung.com/article/202611200923i",
         "source": "한국경제",
-        "date": "Sat, 21 Nov 2026 07:27:04 +0900",
+        "date": "Sat, 21 Nov 2026 11:00:08 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -390,10 +390,10 @@
         "by": "rules"
       },
       {
-        "title": "국장서 당해놓고 또?…‘반도체 3배’ 이어 ‘엔비디아’ 쓸어 담는 서학개미",
-        "link": "https://www.mk.co.kr/news/stock/12215178",
+        "title": "역대 최대 IPO 성공한 앤트로픽…오픈AI도 증시 입성 탄력 받나",
+        "link": "https://www.mk.co.kr/news/stock/12215211",
         "source": "매일경제",
-        "date": "Sat, 21 Nov 2026 09:24:56 +09:00",
+        "date": "Sat, 21 Nov 2026 11:41:05 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -412,10 +412,10 @@
         "by": "rules"
       },
       {
-        "title": "앤트로픽 상장은 '마지막 불꽃놀이'...FT의 경고 [월가 업&다운]",
-        "link": "https://www.hankyung.com/article/202611211036i",
+        "title": "\"믿었던 AI마저\"…기술주 투매에 나스닥 5% 급락 [뉴욕증시 브리핑]",
+        "link": "https://www.hankyung.com/article/2026112110837",
         "source": "한국경제",
-        "date": "Sat, 21 Nov 2026 02:25:12 +0900",
+        "date": "Sat, 21 Nov 2026 07:27:04 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -423,13 +423,13 @@
         "by": "rules"
       },
       {
-        "title": "엔비디아 호실적도 못 막았다…나스닥, 기술주 매도에 5.3% 폭락",
-        "link": "https://www.mk.co.kr/news/stock/12215112",
+        "title": "국장서 당해놓고 또?…‘반도체 3배’ 이어 ‘엔비디아’ 쓸어 담는 서학개미",
+        "link": "https://www.mk.co.kr/news/stock/12215178",
         "source": "매일경제",
-        "date": "Sat, 21 Nov 2026 06:24:01 +09:00",
+        "date": "Sat, 21 Nov 2026 09:24:56 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChFHPHjAyGWxqpwRXypUH\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChFHPJ8jDZ1PeTDzJB1hz\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChFHPJS6BKu3CPDWfCJwE\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChFMzTQHSuDxEwyEmBhVG\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChFMzTuJGeEh9GVwwWraL\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChFMzUH7o1NkYZhq8xaMH\"}"
   ]
 }
