@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-21T05:28:36.662Z",
+  "asOf": "2026-11-21T06:28:59.488Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -44,17 +44,17 @@
     },
     "^VIX": {
       "price": 35.89,
-      "prev": 28.440000534057617,
-      "chg": 26.2,
-      "prevDay": "2026-11-19",
+      "prev": 35.88999938964844,
+      "chg": 0,
+      "prevDay": "2026-11-20",
       "basis": "prev-close-bar",
       "time": "2026-11-20T21:15:01.000Z"
     },
     "^TNX": {
       "price": 4.912,
-      "prev": 5.052000045776367,
-      "chg": -2.77,
-      "prevDay": "2026-11-19",
+      "prev": 4.9120001792907715,
+      "chg": 0,
+      "prevDay": "2026-11-20",
       "basis": "prev-close-bar",
       "time": "2026-11-20T19:59:55.000Z"
     }
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChFXCD8RB"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChFboG1Fm"
   },
   "stocks": {
     "kr": {
@@ -379,10 +379,10 @@
         "by": "rules"
       },
       {
-        "title": "반토막 났는데 \"주가 더 빠진다\"…하이닉스 결국 터졌다 [종목+]",
-        "link": "https://www.hankyung.com/article/2026112113316",
+        "title": "\"삼전닉스 아직 안끝났다\"…무디스가 찍은 AI 반도체의 미래",
+        "link": "https://www.hankyung.com/article/2026112113727",
         "source": "한국경제",
-        "date": "Sat, 21 Nov 2026 12:08:50 +0900",
+        "date": "Sat, 21 Nov 2026 14:30:47 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -412,10 +412,10 @@
         "by": "rules"
       },
       {
-        "title": "나스닥 5% 폭락…시험대 오른 국내 증시, 반등 열쇠는 [다음주 주요 변수 미리보기]",
-        "link": "https://www.hankyung.com/article/202611200923i",
+        "title": "반토막 났는데 \"주가 더 빠진다\"…하이닉스 결국 터졌다 [종목+]",
+        "link": "https://www.hankyung.com/article/2026112113316",
         "source": "한국경제",
-        "date": "Sat, 21 Nov 2026 11:00:08 +0900",
+        "date": "Sat, 21 Nov 2026 12:08:50 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -2986,7 +2986,6 @@
       "2026-11-21": 22617.732
     },
     "^VIX": {
-      "2026-11-09": 19.92,
       "2026-11-10": 19.46,
       "2026-11-11": 17.49,
       "2026-11-12": 18.7,
@@ -2997,10 +2996,10 @@
       "2026-11-17": 25.46,
       "2026-11-18": 24.56,
       "2026-11-19": 28.44,
-      "2026-11-20": 35.89
+      "2026-11-20": 35.89,
+      "2026-11-21": 35.89
     },
     "^TNX": {
-      "2026-11-09": 4.864,
       "2026-11-10": 4.983,
       "2026-11-11": 4.998,
       "2026-11-12": 5.103,
@@ -3011,7 +3010,8 @@
       "2026-11-17": 5.103,
       "2026-11-18": 5.066,
       "2026-11-19": 5.052,
-      "2026-11-20": 4.912
+      "2026-11-20": 4.912,
+      "2026-11-21": 4.912
     },
     "105560.KS": {
       "2026-11-10": 152700,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChFXCD8RBVS4K1CVWVcU5\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChFXCDYjMmRMQFsNGDw7P\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChFXCDpr1AgvTUuY29H8s\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChFboG1Fmn66TKsAkZHVn\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChFboGZjiVyKhUXcKK5G3\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChFboGv4w5KoSPbwnbzE1\"}"
   ]
 }
