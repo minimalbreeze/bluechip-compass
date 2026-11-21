@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-21T22:46:37.342Z",
+  "asOf": "2026-11-21T23:08:41.045Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChGtMBo1G"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChGv2m2iX"
   },
   "stocks": {
     "kr": {
@@ -472,18 +472,6 @@
         "by": "rules"
       },
       {
-        "title": "‘Nvidia’s turmoil has me spooked’: Is it time to sell my stocks?",
-        "link": "https://www.marketwatch.com/story/nvidia-spooked-me-should-i-sell-my-stocks-or-ride-out-the-market-turmoil-560583c6?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "date": "Sat, 21 Nov 2026 15:15:00 GMT",
-        "ko": "‘Nvidia의 혼란이 저를 겁먹게 합니다’: 주식을 매도할 때가 되었나요?",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
         "title": "St. Louis Fed's Musalem says four more rate hikes may be needed in coming months",
         "link": "https://www.cnbc.com/2026/11/17/alberto-musalem-fed-interest-rates.html",
         "source": "CNBC",
@@ -501,6 +489,18 @@
         "source": "CNBC",
         "date": "Fri, 20 Nov 2026 21:07:08 GMT",
         "ko": "피터슨: 연준 의장은 AI 혁명이 다가오고 있다고 전망합니다. 이제 그는 그 의미를 파악해야 합니다.",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "AI risks are the biggest threat to the financial system, Fed survey finds",
+        "link": "https://www.cnbc.com/2026/11/13/ai-risks-financial-system-federal-reserve.html",
+        "source": "CNBC",
+        "date": "Fri, 13 Nov 2026 21:18:30 GMT",
+        "ko": "연준 설문조사 결과, AI 위험이 금융 시스템에 가장 큰 위협인 것으로 나타남",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChGtMBo1GyxM4m7R9TmGv\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChGtMCC5CPLPRY9wyXdHc\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChGtMCUvbh9iEC5mTi1F3\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChGv2m2iXsL3E2RhguTQi\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChGv2mXypjk4GFYijrCt4\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChGv2mrKrkJBKPp5MaPD7\"}"
   ]
 }
