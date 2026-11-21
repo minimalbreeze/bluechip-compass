@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-21T02:11:16.303Z",
+  "asOf": "2026-11-21T02:27:31.462Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChFG9QE6H"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChFHPHjAy"
   },
   "stocks": {
     "kr": {
@@ -368,10 +368,10 @@
   "news": {
     "kr": [
       {
-        "title": "\"반도체 호황에도 파급 미미…10억원당 취업유발 2.4명\"",
-        "link": "https://www.yna.co.kr/view/AKR20261120167400002",
+        "title": "[부고] 이창봉(삼성증권 이사)씨 장모상",
+        "link": "https://www.yna.co.kr/view/AKR20261121029200008",
         "source": "연합뉴스",
-        "date": "Sat, 21 Nov 2026 09:00:00 +0900",
+        "date": "Sat, 21 Nov 2026 11:13:19 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -401,13 +401,13 @@
         "by": "rules"
       },
       {
-        "title": "[다음주 경제] 숨 고르기 한 기준금리, 인상할까…한은 성장률 전망은",
-        "link": "https://www.yna.co.kr/view/AKR20261121014700002",
+        "title": "\"반도체 호황에도 파급 미미…10억원당 취업유발 2.4명\"",
+        "link": "https://www.yna.co.kr/view/AKR20261120167400002",
         "source": "연합뉴스",
-        "date": "Sat, 21 Nov 2026 08:36:08 +0900",
+        "date": "Sat, 21 Nov 2026 09:00:00 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChFG9QE6Ho2NMGJr4LKUR\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChFG9Qk6AyK38etNkub6D\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChFG9R9PttGhX4xyt2N1k\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChFHPHjAyGWxqpwRXypUH\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChFHPJ8jDZ1PeTDzJB1hz\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChFHPJS6BKu3CPDWfCJwE\"}"
   ]
 }
