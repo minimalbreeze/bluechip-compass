@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-21T20:45:51.423Z",
+  "asOf": "2026-11-21T21:46:12.941Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChGL7sU6K"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChGok1JXU"
   },
   "stocks": {
     "kr": {
@@ -368,10 +368,10 @@
   "news": {
     "kr": [
       {
-        "title": "[부고] 이창봉(삼성증권 이사)씨 장모상",
-        "link": "https://www.yna.co.kr/view/AKR20261121029200008",
+        "title": "韓 ESG채권 발행 16% 늘었지만…공공기관·은행 쏠림 심화",
+        "link": "https://www.yna.co.kr/view/AKR20261121026400008",
         "source": "연합뉴스",
-        "date": "Sat, 21 Nov 2026 11:13:19 +0900",
+        "date": "Sun, 22 Nov 2026 06:30:01 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -401,10 +401,10 @@
         "by": "rules"
       },
       {
-        "title": "\"반도체 호황에도 파급 미미…10억원당 취업유발 2.4명\"",
-        "link": "https://www.yna.co.kr/view/AKR20261120167400002",
+        "title": "급락장에서도 로봇주는 약진…반도체 장비주 시총 제치기도",
+        "link": "https://www.yna.co.kr/view/AKR20261121027600008",
         "source": "연합뉴스",
-        "date": "Sat, 21 Nov 2026 09:00:00 +0900",
+        "date": "Sun, 22 Nov 2026 06:20:00 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -3387,7 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChGj94fkVhTC89HvPn3gr\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChGj953Zyh8qEfzrLhsX3\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChGok1JXUy4pVkv2QeVXp\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChGok1onpGRmGQkQ91iv8\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChGok2YwwPo2JBU2CMGwo\"}"
   ]
 }
