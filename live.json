@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-21T03:27:55.869Z",
+  "asOf": "2026-11-21T04:28:16.930Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -32,7 +32,7 @@
       "chg": -3.7,
       "prevDay": "2026-11-19",
       "basis": "prev-close-bar",
-      "time": "2026-11-20T21:35:54.000Z"
+      "time": "2026-11-20T21:00:00.000Z"
     },
     "^IXIC": {
       "price": 22617.732,
@@ -105,7 +105,7 @@
       "low52": 13.47,
       "high52": 35.89,
       "pct52": 1,
-      "chg3m": 132.3
+      "chg3m": 135.96
     },
     "^TNX": {
       "last": 4.91,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChFMzTQHS"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChFSbPDhj"
   },
   "stocks": {
     "kr": {
@@ -379,6 +379,39 @@
         "by": "rules"
       },
       {
+        "title": "반토막 났는데 \"주가 더 빠진다\"…하이닉스 결국 터졌다 [종목+]",
+        "link": "https://www.hankyung.com/article/2026112113316",
+        "source": "한국경제",
+        "date": "Sat, 21 Nov 2026 12:08:50 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "한한령 해빙 기대·日 엔터사 인수 추진…하이브 22% ‘쑥’ [이주의 Bull 기둥]",
+        "link": "https://www.mk.co.kr/news/stock/12215238",
+        "source": "매일경제",
+        "date": "Sat, 21 Nov 2026 13:26:09 +09:00",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": null,
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
+        "by": "rules"
+      },
+      {
+        "title": "\"반도체 호황에도 파급 미미…10억원당 취업유발 2.4명\"",
+        "link": "https://www.yna.co.kr/view/AKR20261120167400002",
+        "source": "연합뉴스",
+        "date": "Sat, 21 Nov 2026 09:00:00 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
         "title": "나스닥 5% 폭락…시험대 오른 국내 증시, 반등 열쇠는 [다음주 주요 변수 미리보기]",
         "link": "https://www.hankyung.com/article/202611200923i",
         "source": "한국경제",
@@ -394,39 +427,6 @@
         "link": "https://www.mk.co.kr/news/stock/12215211",
         "source": "매일경제",
         "date": "Sat, 21 Nov 2026 11:41:05 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "\"반도체 호황에도 파급 미미…10억원당 취업유발 2.4명\"",
-        "link": "https://www.yna.co.kr/view/AKR20261120167400002",
-        "source": "연합뉴스",
-        "date": "Sat, 21 Nov 2026 09:00:00 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "\"믿었던 AI마저\"…기술주 투매에 나스닥 5% 급락 [뉴욕증시 브리핑]",
-        "link": "https://www.hankyung.com/article/2026112110837",
-        "source": "한국경제",
-        "date": "Sat, 21 Nov 2026 07:27:04 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "국장서 당해놓고 또?…‘반도체 3배’ 이어 ‘엔비디아’ 쓸어 담는 서학개미",
-        "link": "https://www.mk.co.kr/news/stock/12215178",
-        "source": "매일경제",
-        "date": "Sat, 21 Nov 2026 09:24:56 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChFMzTQHSuDxEwyEmBhVG\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChFMzTuJGeEh9GVwwWraL\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChFMzUH7o1NkYZhq8xaMH\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChFSbPDhjCZK4DYDrZAGb\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChFSbPc1it1vvHtY51DFS\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChFSbPudaV9S1M5q74qmV\"}"
   ]
 }
