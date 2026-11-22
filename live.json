@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-22T15:12:55.718Z",
+  "asOf": "2026-11-22T16:13:23.255Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -368,17 +368,6 @@
   "news": {
     "kr": [
       {
-        "title": "수출 늘면 코스피도 올랐는데…'10년 공식' 흔들린 까닭",
-        "link": "https://www.hankyung.com/article/2026112224601",
-        "source": "한국경제",
-        "date": "Sun, 22 Nov 2026 18:07:22 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
         "title": "\"증시 방어 총력전\"… 불법 공매도 3개월간 특별감시",
         "link": "https://www.mk.co.kr/news/stock/12215737",
         "source": "매일경제",
@@ -386,17 +375,6 @@
         "act": "none",
         "lasting": "temporary",
         "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "환율·채권…원·달러 환율, 연말 1380원대 전망",
-        "link": "https://www.hankyung.com/article/2026112224171",
-        "source": "한국경제",
-        "date": "Sun, 22 Nov 2026 17:23:25 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -412,17 +390,6 @@
         "by": "rules"
       },
       {
-        "title": "뉴욕·상하이 증시, 美 물가지수 발표에 월가 촉각",
-        "link": "https://www.hankyung.com/article/2026112224161",
-        "source": "한국경제",
-        "date": "Sun, 22 Nov 2026 17:22:55 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
         "title": "美증시 투매에 코스피도 '벌벌'…\"월요일이 두렵다\"",
         "link": "https://www.mk.co.kr/news/stock/12215685",
         "source": "매일경제",
@@ -430,6 +397,39 @@
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "MBK, '삼성S펜' 기술 日 와콤 인수 추진",
+        "link": "https://www.mk.co.kr/news/stock/12215656",
+        "source": "매일경제",
+        "date": "Sun, 22 Nov 2026 17:23:54 +09:00",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": null,
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
+        "by": "rules"
+      },
+      {
+        "title": "코스닥 시총 상위 10등에 2곳…이젠 '로봇' 시대",
+        "link": "https://www.mk.co.kr/news/stock/12215657",
+        "source": "매일경제",
+        "date": "Sun, 22 Nov 2026 17:23:54 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "年 8% 수익 배당株로 … 증시 피난처 뜬다",
+        "link": "https://www.mk.co.kr/news/stock/12215654",
+        "source": "매일경제",
+        "date": "Sun, 22 Nov 2026 17:23:53 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -3386,9 +3386,9 @@
     }
   },
   "failed": [
+    "news/kr/한국경제: HTTP 403",
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChJBZUZ8oZJYYZykhEopd\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChJBZV3tvGxuYbyM3rbTB\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChJBZVQyLcqyNrCQg9u8v\"}"
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChJGAtQXk2gcMVQQQdgX6\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChJGAtidUYuv73wEKHiCt\"}"
   ]
 }
