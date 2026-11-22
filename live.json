@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-22T09:06:56.261Z",
+  "asOf": "2026-11-22T10:07:16.425Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChHhekQkp"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChHnFcFoN"
   },
   "stocks": {
     "kr": {
@@ -368,10 +368,10 @@
   "news": {
     "kr": [
       {
-        "title": "환율·채권…원·달러 환율, 연말 1380원대 전망",
-        "link": "https://www.hankyung.com/article/2026112224171",
+        "title": "수출 늘면 코스피도 올랐는데…'10년 공식' 흔들린 까닭",
+        "link": "https://www.hankyung.com/article/2026112224601",
         "source": "한국경제",
-        "date": "Sun, 22 Nov 2026 17:23:25 +0900",
+        "date": "Sun, 22 Nov 2026 18:07:22 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -390,10 +390,10 @@
         "by": "rules"
       },
       {
-        "title": "뉴욕·상하이 증시, 美 물가지수 발표에 월가 촉각",
-        "link": "https://www.hankyung.com/article/2026112224161",
+        "title": "환율·채권…원·달러 환율, 연말 1380원대 전망",
+        "link": "https://www.hankyung.com/article/2026112224171",
         "source": "한국경제",
-        "date": "Sun, 22 Nov 2026 17:22:55 +0900",
+        "date": "Sun, 22 Nov 2026 17:23:25 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -412,13 +412,13 @@
         "by": "rules"
       },
       {
-        "title": "\"中에 못 팔면 어쩌나\" 반도체주 폭락에도…깜짝 전망 나왔다 [노정동의 어쩌다 투자자]",
-        "link": "https://www.hankyung.com/article/2026112000726",
+        "title": "뉴욕·상하이 증시, 美 물가지수 발표에 월가 촉각",
+        "link": "https://www.hankyung.com/article/2026112224161",
         "source": "한국경제",
-        "date": "Sun, 22 Nov 2026 13:00:03 +0900",
+        "date": "Sun, 22 Nov 2026 17:22:55 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChHhekQkppBiJwMX71pbu\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChHhekvG96bFUMm7RZyYp\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChHhemJaWUkvvxFwaqE1u\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChHnFcFoN7HPc51LQ6dy7\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChHnFchLmXn2o3yGeEAos\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChHnFd3BSep1y8qQbkrqr\"}"
   ]
 }
