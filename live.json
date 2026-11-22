@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-22T12:11:43.246Z",
+  "asOf": "2026-11-22T13:12:08.405Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChHwk2gKJ"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChJ2MFYQq"
   },
   "stocks": {
     "kr": {
@@ -368,13 +368,13 @@
   "news": {
     "kr": [
       {
-        "title": "반도체 빼면 기업이익 전망치 '후퇴'…77개 종목 목표가 줄하향 [한경우의 돈 되는 데이터]",
-        "link": "https://www.hankyung.com/article/2026112002456",
+        "title": "수출 늘면 코스피도 올랐는데…'10년 공식' 흔들린 까닭",
+        "link": "https://www.hankyung.com/article/2026112224601",
         "source": "한국경제",
-        "date": "Sun, 22 Nov 2026 20:00:02 +0900",
+        "date": "Sun, 22 Nov 2026 18:07:22 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -390,10 +390,10 @@
         "by": "rules"
       },
       {
-        "title": "수출 늘면 코스피도 올랐는데…'10년 공식' 흔들린 까닭",
-        "link": "https://www.hankyung.com/article/2026112224601",
+        "title": "환율·채권…원·달러 환율, 연말 1380원대 전망",
+        "link": "https://www.hankyung.com/article/2026112224171",
         "source": "한국경제",
-        "date": "Sun, 22 Nov 2026 18:07:22 +0900",
+        "date": "Sun, 22 Nov 2026 17:23:25 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -412,10 +412,10 @@
         "by": "rules"
       },
       {
-        "title": "환율·채권…원·달러 환율, 연말 1380원대 전망",
-        "link": "https://www.hankyung.com/article/2026112224171",
+        "title": "뉴욕·상하이 증시, 美 물가지수 발표에 월가 촉각",
+        "link": "https://www.hankyung.com/article/2026112224161",
         "source": "한국경제",
-        "date": "Sun, 22 Nov 2026 17:23:25 +0900",
+        "date": "Sun, 22 Nov 2026 17:22:55 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -445,6 +445,18 @@
         "lasting": "structural",
         "scope": "market",
         "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
+        "by": "rules"
+      },
+      {
+        "title": "Can stocks bounce back after a brutal week? This timing model says history is on the market’s side.",
+        "link": "https://www.marketwatch.com/story/can-stocks-bounce-back-after-a-brutal-week-this-timing-model-says-history-is-on-the-markets-side-beff1753?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "date": "Sun, 22 Nov 2026 12:30:00 GMT",
+        "ko": "잔혹한 한 주를 보낸 주식 시장이 반등할 수 있을까요? 이 타이밍 모델에 따르면 역사는 시장의 편입니다.",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
@@ -494,24 +506,11 @@
         "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
-      },
-      {
-        "title": "Wholesale prices rose 0.3% in October, putting annual rate at 6.5%, the highest in nearly four years",
-        "link": "https://www.cnbc.com/2026/11/13/ppi-inflation-report-october-2026.html",
-        "source": "CNBC",
-        "date": "Fri, 13 Nov 2026 15:44:16 GMT",
-        "ko": "10월 도매물가 0.3% 상승, 연간 상승률 6.5%로 4년 만에 최고치 기록",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
       }
     ]
   },
   "newsBy": "rules",
   "trCache": {
-    "This is the biggest threat to the AI-powered bull market": "이는 AI 기반의 황소 시장에 대한 가장 큰 위협입니다.",
     "Apple’s new earnings era begins at a critical time for Big Tech": "Apple의 새로운 수익 시대는 빅 테크의 중요한 시기에 시작됩니다.",
     "Marine sniper turned macro strategist says this bull market has six to 12 months left. Here’s his playbook.": "마린 스나이퍼로 변신한 매크로 전략가는 이 황소 시장이 6 ~ 12개월 남았다고 말합니다. 여기 그의 플레이북이 있습니다.",
     "Tech stocks have made big V-shaped rebounds five times in 30 months — and now Deutsche Bank forecasts another bounce": "기술주들은 30개월 동안 5번의 큰 V자 반등을 이루었으며, 이제 도이체방크는 또 다른 반등을 예고합니다.",
@@ -810,7 +809,8 @@
     "How a brutal week for stocks almost wiped out their gains for the entire year": "주식 시장에 혹독했던 한 주가 올해 전체의 상승분을 거의 상쇄한 이야기",
     "Nvidia’s nonstop drama is keeping buyers away from a historically cheap stock": "Nvidia의 끊임없는 논란으로 인해 구매자들이 사상 최저가 주식을 외면하고 있습니다.",
     "Micron and Sandisk stocks might look like bargains, but analysts say that’s actually a red flag": "마이크론과 샌디스크의 주가는 저렴해 보일 수 있지만, 애널리스트들은 이것이 실제로 위험 신호라고 말합니다.",
-    "‘Nvidia’s turmoil has me spooked’: Is it time to sell my stocks?": "‘Nvidia의 혼란이 저를 겁먹게 합니다’: 주식을 매도할 때가 되었나요?"
+    "‘Nvidia’s turmoil has me spooked’: Is it time to sell my stocks?": "‘Nvidia의 혼란이 저를 겁먹게 합니다’: 주식을 매도할 때가 되었나요?",
+    "Can stocks bounce back after a brutal week? This timing model says history is on the market’s side.": "잔혹한 한 주를 보낸 주식 시장이 반등할 수 있을까요? 이 타이밍 모델에 따르면 역사는 시장의 편입니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChHwk2gKJawt2EkWgjCNk\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChHwk2ryRBHSLND6P9QeU\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChHwk2zv1msP4BGfGsobo\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChJ2MFYQqNUAJFXn22UBp\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChJ2MFrX47vffGxbTrVbq\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChJ2MG4fpWd6ZRXZuvvD6\"}"
   ]
 }
