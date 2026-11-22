@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-21T23:46:57.535Z",
+  "asOf": "2026-11-22T00:08:59.549Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -20,10 +20,10 @@
     },
     "KRW=X": {
       "price": 1346.13,
-      "prev": 1334.7900390625,
-      "chg": 0.85,
-      "prevDay": "2026-11-20",
-      "basis": "prev-close-bar",
+      "prev": 1346.13,
+      "chg": 0,
+      "prevDay": "2026-11-21",
+      "basis": "prev-close-memo",
       "time": "2026-11-20T22:36:29.000Z"
     },
     "^GSPC": {
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChGxx4Cni"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChGzdVtas"
   },
   "stocks": {
     "kr": {
@@ -448,18 +448,6 @@
         "by": "rules"
       },
       {
-        "title": "Micron and Sandisk stocks might look like bargains, but analysts say that’s actually a red flag",
-        "link": "https://www.marketwatch.com/story/micron-and-sandisk-stocks-might-look-like-bargains-but-analysts-say-thats-actually-a-red-flag-da1f1f5d?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "date": "Sat, 21 Nov 2026 15:35:00 GMT",
-        "ko": "마이크론과 샌디스크의 주가는 저렴해 보일 수 있지만, 애널리스트들은 이것이 실제로 위험 신호라고 말합니다.",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
         "title": "Record diesel prices drive UK inflation to 1-year high of 3.6%",
         "link": "https://www.cnbc.com/2026/11/18/uk-inflation-cpi-fuel-prices.html",
         "source": "CNBC",
@@ -501,6 +489,18 @@
         "source": "CNBC",
         "date": "Fri, 13 Nov 2026 21:18:30 GMT",
         "ko": "연준 설문조사 결과, AI 위험이 금융 시스템에 가장 큰 위협인 것으로 나타남",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "Wholesale prices rose 0.3% in October, putting annual rate at 6.5%, the highest in nearly four years",
+        "link": "https://www.cnbc.com/2026/11/13/ppi-inflation-report-october-2026.html",
+        "source": "CNBC",
+        "date": "Fri, 13 Nov 2026 15:44:16 GMT",
+        "ko": "10월 도매물가 0.3% 상승, 연간 상승률 6.5%로 4년 만에 최고치 기록",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -2944,7 +2944,6 @@
       "2026-11-22": 645.68
     },
     "KRW=X": {
-      "2026-11-10": 1343.44,
       "2026-11-11": 1336.58,
       "2026-11-12": 1334.48,
       "2026-11-13": 1335.11,
@@ -2955,7 +2954,8 @@
       "2026-11-18": 1332.66,
       "2026-11-19": 1333.74,
       "2026-11-20": 1346.13,
-      "2026-11-21": 1346.13
+      "2026-11-21": 1346.13,
+      "2026-11-22": 1346.13
     },
     "^GSPC": {
       "2026-11-10": 7520.93,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChGxx4Cni7fpESFcnbxxB\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChGxx4NxG1Mmn6ypd3u4T\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChGxx4V9q5Z2WDJDF7H5g\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChGzdVtas7odjQbZTuukF\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChGzdWG9UiZxyJhRGfwVM\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChGzdWXXUA6hHRncz6R3V\"}"
   ]
 }
