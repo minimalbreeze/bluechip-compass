@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-22T01:09:21.250Z",
+  "asOf": "2026-11-22T02:09:43.829Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChH5EUeMW"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChH9qWL1P"
   },
   "stocks": {
     "kr": {
@@ -368,17 +368,6 @@
   "news": {
     "kr": [
       {
-        "title": "韓 ESG채권 발행 16% 늘었지만…공공기관·은행 쏠림 심화",
-        "link": "https://www.yna.co.kr/view/AKR20261121026400008",
-        "source": "연합뉴스",
-        "date": "Sun, 22 Nov 2026 06:30:01 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
         "title": "반도체 소재 승부수 던진 미쓰이화학…주가 회복할수 있을까",
         "link": "https://www.hankyung.com/article/202611211239i",
         "source": "한국경제",
@@ -386,6 +375,28 @@
         "act": "none",
         "lasting": "temporary",
         "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "코스피 ‘곡소리’ 날 때 혼자 ‘잇몸미소’…삼성전자 등에 업은 로봇株, 계속 뛸까?",
+        "link": "https://www.mk.co.kr/news/business/12215429",
+        "source": "매일경제",
+        "date": "Sun, 22 Nov 2026 10:18:20 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "AI 불확실성 vs 美 블랙프라이데이 기대…코스피 변동성 장세 [주간전망]",
+        "link": "https://www.hankyung.com/article/2026112098626",
+        "source": "한국경제",
+        "date": "Sun, 22 Nov 2026 08:00:05 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -401,24 +412,13 @@
         "by": "rules"
       },
       {
-        "title": "급락장에서도 로봇주는 약진…반도체 장비주 시총 제치기도",
-        "link": "https://www.yna.co.kr/view/AKR20261121027600008",
-        "source": "연합뉴스",
-        "date": "Sun, 22 Nov 2026 06:20:00 +0900",
+        "title": "'역대급'으로 커진 공포…\"AI 투자 축소, 반도체 주문 취소 이어질 수도\"",
+        "link": "https://www.hankyung.com/article/202611211616i",
+        "source": "한국경제",
+        "date": "Sat, 21 Nov 2026 21:07:40 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "AI 불확실성 vs 美 블랙프라이데이 기대…코스피 변동성 장세 [주간전망]",
-        "link": "https://www.hankyung.com/article/2026112098626",
-        "source": "한국경제",
-        "date": "Sun, 22 Nov 2026 08:00:05 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChH5EUeMW3tNb6URuE5xZ\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChH5EUqGNcRmC716KZXMN\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChH5EUxTeuhzXxzJ9k41F\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChH9qWL1PMsK4Q4RkkAd7\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChH9qWerf7TcaE9rhjvwN\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChH9qWuyskypFUcSbgb3N\"}"
   ]
 }
