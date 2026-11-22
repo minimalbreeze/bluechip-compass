@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-22T05:05:24.236Z",
+  "asOf": "2026-11-22T06:05:48.752Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -44,18 +44,18 @@
     },
     "^VIX": {
       "price": 35.89,
-      "prev": 35.88999938964844,
+      "prev": 35.89,
       "chg": 0,
-      "prevDay": "2026-11-20",
-      "basis": "prev-close-bar",
+      "prevDay": "2026-11-21",
+      "basis": "prev-close-memo",
       "time": "2026-11-20T21:15:01.000Z"
     },
     "^TNX": {
       "price": 4.912,
-      "prev": 4.9120001792907715,
+      "prev": 4.912,
       "chg": 0,
-      "prevDay": "2026-11-20",
-      "basis": "prev-close-bar",
+      "prevDay": "2026-11-21",
+      "basis": "prev-close-memo",
       "time": "2026-11-20T19:59:55.000Z"
     }
   },
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChHPEV6FJ"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChHTqfAff"
   },
   "stocks": {
     "kr": {
@@ -368,7 +368,7 @@
   "news": {
     "kr": [
       {
-        "title": "\"中에 AI 반도체 못 판다고? 다른 곳 이미 줄 섰다\" [노정동의 어쩌다 투자자]",
+        "title": "\"중국에 못 팔면 어쩌라고\"…반도체주 폭락에도 '놀라운 전망' [노정동의 어쩌다 투자자]",
         "link": "https://www.hankyung.com/article/2026112000726",
         "source": "한국경제",
         "date": "Sun, 22 Nov 2026 13:00:03 +0900",
@@ -2986,7 +2986,6 @@
       "2026-11-22": 22617.732
     },
     "^VIX": {
-      "2026-11-10": 19.46,
       "2026-11-11": 17.49,
       "2026-11-12": 18.7,
       "2026-11-13": 19.3,
@@ -2997,10 +2996,10 @@
       "2026-11-18": 24.56,
       "2026-11-19": 28.44,
       "2026-11-20": 35.89,
-      "2026-11-21": 35.89
+      "2026-11-21": 35.89,
+      "2026-11-22": 35.89
     },
     "^TNX": {
-      "2026-11-10": 4.983,
       "2026-11-11": 4.998,
       "2026-11-12": 5.103,
       "2026-11-13": 5.1540003,
@@ -3011,7 +3010,8 @@
       "2026-11-18": 5.066,
       "2026-11-19": 5.052,
       "2026-11-20": 4.912,
-      "2026-11-21": 4.912
+      "2026-11-21": 4.912,
+      "2026-11-22": 4.912
     },
     "105560.KS": {
       "2026-11-11": 153300,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChHPEV6FJE8Eh5u1Pb1rp\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChHPEVSpnF9NV19MyCzYE\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChHPEVhi2R9vkf9d5X4Nk\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChHTqfAff1veMMumQvfPb\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChHTqfbxaGec2u49zPaqP\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChHTqg127GA22RMrfyCf2\"}"
   ]
 }
