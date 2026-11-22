@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-22T21:30:49.395Z",
+  "asOf": "2026-11-22T22:31:12.734Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-20T11:05:30.000Z"
     },
     "KRW=X": {
-      "price": 1346.04,
+      "price": 1345.5,
       "prev": 1346.13,
-      "chg": -0.01,
+      "chg": -0.05,
       "prevDay": "2026-11-21",
       "basis": "prev-close-memo",
-      "time": "2026-11-22T17:19:57.000Z"
+      "time": "2026-11-22T22:30:33.000Z"
     },
     "^GSPC": {
       "price": 6910.39,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.104
+    "pct": 0.102
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -23.21
     },
     "KRW=X": {
-      "last": 1346.04,
+      "last": 1345.5,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.104,
-      "chg3m": -2.71
+      "pct52": 0.102,
+      "chg3m": -2.75
     },
     "^GSPC": {
       "last": 6910.39,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChJgNrATr"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChJkywZrk"
   },
   "stocks": {
     "kr": {
@@ -379,24 +379,24 @@
         "by": "rules"
       },
       {
-        "title": "수출 늘면 코스피도 올랐는데…'10년 공식' 흔들린 까닭",
-        "link": "https://www.hankyung.com/article/2026112224601",
+        "title": "美 반도체 10% 급락…외인 15조 이탈에 국내증시 비상",
+        "link": "https://www.hankyung.com/article/202611222700i",
         "source": "한국경제",
-        "date": "Sun, 22 Nov 2026 18:07:22 +0900",
+        "date": "Mon, 23 Nov 2026 07:00:06 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "“주가 급락, 좋은 점도 있습니다”…배당수익률 8% 넘은 종목, 올해 7개",
-        "link": "https://www.mk.co.kr/news/stock/12215764",
+        "title": "“저평가 우량주 사놓고 주식창 끕니다”…그 와중에 ‘더 싼 종목’ 찾아보니",
+        "link": "https://www.mk.co.kr/news/business/12215776",
         "source": "매일경제",
-        "date": "Mon, 23 Nov 2026 06:21:42 +09:00",
+        "date": "Mon, 23 Nov 2026 07:16:20 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -412,10 +412,10 @@
         "by": "rules"
       },
       {
-        "title": "환율·채권…원·달러 환율, 연말 1380원대 전망",
-        "link": "https://www.hankyung.com/article/2026112224171",
+        "title": "수출 늘면 코스피도 올랐는데…'10년 공식' 흔들린 까닭",
+        "link": "https://www.hankyung.com/article/2026112224601",
         "source": "한국경제",
-        "date": "Sun, 22 Nov 2026 17:23:25 +0900",
+        "date": "Sun, 22 Nov 2026 18:07:22 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -423,10 +423,10 @@
         "by": "rules"
       },
       {
-        "title": "\"증시 방어 총력전\"… 불법 공매도 3개월간 특별감시",
-        "link": "https://www.mk.co.kr/news/stock/12215737",
+        "title": "반도체주 급락에도 퇴직연금은 샀다…하반기 들어 투자 열기는 ‘뚝’",
+        "link": "https://www.mk.co.kr/news/stock/12215775",
         "source": "매일경제",
-        "date": "Sun, 22 Nov 2026 19:44:06 +09:00",
+        "date": "Mon, 23 Nov 2026 07:15:49 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -2955,7 +2955,7 @@
       "2026-11-19": 1333.74,
       "2026-11-20": 1346.13,
       "2026-11-21": 1346.13,
-      "2026-11-22": 1346.04
+      "2026-11-22": 1345.5
     },
     "^GSPC": {
       "2026-11-11": 7619.38,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChJgNrATr6vahk5a4jhSd\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChJgNrfz85FhZxBfFPTcU\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChJgNs5YHaLwRq9dyZUxb\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChJkywZrkLQWQ2AZw6w7B\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChJkyx4sA89ukkBfMPAwT\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChJkyxSwFhKrcrwFRz1uu\"}"
   ]
 }
