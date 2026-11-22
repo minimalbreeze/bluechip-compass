@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-22T11:11:23.175Z",
+  "asOf": "2026-11-22T12:08:03.276Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChHs9AfbK"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChHwTosBs"
   },
   "stocks": {
     "kr": {
@@ -368,6 +368,28 @@
   "news": {
     "kr": [
       {
+        "title": "반도체 빼면 기업이익 전망치 '후퇴'…77개 종목 목표가 줄하향 [한경우의 돈 되는 데이터]",
+        "link": "https://www.hankyung.com/article/2026112002456",
+        "source": "한국경제",
+        "date": "Sun, 22 Nov 2026 20:00:02 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "“중국 경제 비관하면 허망할 것” 큰소리쳤는데…AI 주식서 2289조 증발?",
+        "link": "https://www.mk.co.kr/news/world/12215746",
+        "source": "매일경제",
+        "date": "Sun, 22 Nov 2026 20:52:49 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
         "title": "수출 늘면 코스피도 올랐는데…'10년 공식' 흔들린 까닭",
         "link": "https://www.hankyung.com/article/2026112224601",
         "source": "한국경제",
@@ -408,28 +430,6 @@
         "act": "none",
         "lasting": "temporary",
         "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "뉴욕·상하이 증시, 美 물가지수 발표에 월가 촉각",
-        "link": "https://www.hankyung.com/article/2026112224161",
-        "source": "한국경제",
-        "date": "Sun, 22 Nov 2026 17:22:55 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "美증시 투매에 코스피도 '벌벌'…\"월요일이 두렵다\"",
-        "link": "https://www.mk.co.kr/news/stock/12215685",
-        "source": "매일경제",
-        "date": "Sun, 22 Nov 2026 17:34:15 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChHs9AfbKdLeurRDoWSDP\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChHs9B7tFbgexBxLWyaNQ\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChHs9BWw2beqEc7XVGNbC\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChHwTosBsKm6VxiLCdBA7\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChHwTpEGtEsz2ipP2KkWk\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChHwTpW9BrvCBfX2ob3YG\"}"
   ]
 }
