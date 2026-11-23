@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-23T21:15:57.912Z",
+  "asOf": "2026-11-23T22:16:23.695Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-23T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1341.58,
+      "price": 1340.87,
       "prev": 1345.64,
-      "chg": -0.3,
+      "chg": -0.35,
       "prevDay": "2026-11-22",
       "basis": "prev-close-memo",
-      "time": "2026-11-23T21:15:46.000Z"
+      "time": "2026-11-23T22:03:21.000Z"
     },
     "^GSPC": {
       "price": 7237.17,
@@ -32,7 +32,7 @@
       "chg": 4.73,
       "prevDay": "2026-11-22",
       "basis": "prev-close-memo",
-      "time": "2026-11-23T21:15:48.000Z"
+      "time": "2026-11-23T21:42:33.000Z"
     },
     "^IXIC": {
       "price": 24089.559,
@@ -40,15 +40,15 @@
       "chg": 6.51,
       "prevDay": "2026-11-22",
       "basis": "prev-close-memo",
-      "time": "2026-11-23T21:15:48.000Z"
+      "time": "2026-11-23T22:15:59.000Z"
     },
     "^VIX": {
-      "price": 26.65,
+      "price": 26.62,
       "prev": 35.89,
-      "chg": -25.75,
+      "chg": -25.83,
       "prevDay": "2026-11-22",
       "basis": "prev-close-memo",
-      "time": "2026-11-23T21:00:46.000Z"
+      "time": "2026-11-23T21:15:01.000Z"
     },
     "^TNX": {
       "price": 4.918,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.085
+    "pct": 0.082
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -23.21
     },
     "KRW=X": {
-      "last": 1341.58,
+      "last": 1340.87,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.085,
-      "chg3m": -3.03
+      "pct52": 0.082,
+      "chg3m": -3.08
     },
     "^GSPC": {
       "last": 7237.17,
@@ -101,11 +101,11 @@
       "chg3m": -7.81
     },
     "^VIX": {
-      "last": 26.65,
+      "last": 26.62,
       "low52": 13.47,
       "high52": 35.89,
-      "pct52": 0.588,
-      "chg3m": 83.67
+      "pct52": 0.587,
+      "chg3m": 83.46
     },
     "^TNX": {
       "last": 4.92,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChL8pWwKm"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChLdfKmVx"
   },
   "stocks": {
     "kr": {
@@ -158,7 +158,7 @@
         "prev": 143700,
         "chg": 0,
         "prevDay": "2026-11-23",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-11-23T06:30:22.000Z"
       },
       "207940": {
@@ -166,7 +166,7 @@
         "prev": 1288000,
         "chg": 0,
         "prevDay": "2026-11-23",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-11-23T06:30:08.000Z"
       },
       "005930": {
@@ -174,7 +174,7 @@
         "prev": 177500,
         "chg": 0,
         "prevDay": "2026-11-23",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-11-23T06:30:18.000Z"
       },
       "000660": {
@@ -182,7 +182,7 @@
         "prev": 1085000,
         "chg": 0,
         "prevDay": "2026-11-23",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-11-23T06:30:10.000Z"
       },
       "005380": {
@@ -190,7 +190,7 @@
         "prev": 247500,
         "chg": 0,
         "prevDay": "2026-11-23",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-11-23T06:30:01.000Z"
       },
       "055550": {
@@ -198,7 +198,7 @@
         "prev": 82300,
         "chg": 0,
         "prevDay": "2026-11-23",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-11-23T06:30:26.000Z"
       },
       "000810": {
@@ -206,7 +206,7 @@
         "prev": 482000,
         "chg": 0,
         "prevDay": "2026-11-23",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-11-23T06:30:10.000Z"
       },
       "033780": {
@@ -214,7 +214,7 @@
         "prev": 178800,
         "chg": 0,
         "prevDay": "2026-11-23",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-11-23T06:30:05.000Z"
       },
       "035420": {
@@ -222,7 +222,7 @@
         "prev": 150000,
         "chg": 0,
         "prevDay": "2026-11-23",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-11-23T06:30:16.000Z"
       },
       "005490": {
@@ -230,7 +230,7 @@
         "prev": 242500,
         "chg": 0,
         "prevDay": "2026-11-23",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-11-23T06:30:14.000Z"
       },
       "028260": {
@@ -238,7 +238,7 @@
         "prev": 246500,
         "chg": 0,
         "prevDay": "2026-11-23",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-11-23T06:30:24.000Z"
       },
       "012450": {
@@ -246,7 +246,7 @@
         "prev": 575000,
         "chg": 0,
         "prevDay": "2026-11-23",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-11-23T06:30:26.000Z"
       },
       "017670": {
@@ -254,7 +254,7 @@
         "prev": 64600,
         "chg": 0,
         "prevDay": "2026-11-23",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-11-23T06:30:05.000Z"
       }
     },
@@ -313,7 +313,7 @@
         "chg": 0.14,
         "prevDay": "2026-11-22",
         "basis": "prev-close-memo",
-        "time": "2026-11-23T21:00:00.000Z"
+        "time": "2026-11-23T21:02:55.000Z"
       },
       "KO": {
         "price": 95.88,
@@ -353,7 +353,7 @@
         "chg": -1.93,
         "prevDay": "2026-11-22",
         "basis": "prev-close-memo",
-        "time": "2026-11-23T20:59:59.000Z"
+        "time": "2026-11-23T21:04:28.000Z"
       },
       "NVDA": {
         "price": 165.05,
@@ -379,21 +379,21 @@
         "by": "rules"
       },
       {
-        "title": "젠슨 황 돌아오자 반도체주 13% 급등…AI 투자심리 반전 [젠슨 황 CEO 복귀]",
-        "link": "https://www.hankyung.com/article/202611245389i",
+        "title": "[속보] 뉴욕증시, 나스닥 6%대 급등 마감…엔비디아 31.5%↑",
+        "link": "https://www.hankyung.com/article/2026112454807",
         "source": "한국경제",
-        "date": "Tue, 24 Nov 2026 00:37:13 +0900",
+        "date": "Tue, 24 Nov 2026 06:07:51 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "닷컴버블 반토막 증시, 회복에 5년 6개월 걸려…개미들 ‘시간과의 싸움’",
-        "link": "https://www.mk.co.kr/news/stock/12216561",
+        "title": "75만원에 산 현대차, 24만원 됐다…외국인 지분도 확 줄었다는데",
+        "link": "https://www.mk.co.kr/news/stock/12216714",
         "source": "매일경제",
-        "date": "Mon, 23 Nov 2026 21:50:08 +09:00",
+        "date": "Tue, 24 Nov 2026 07:14:28 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -412,24 +412,24 @@
         "by": "rules"
       },
       {
-        "title": "젠슨 황 돌아오자 엔비디아 32% 급등…나스닥 7% 뛰며 출발",
-        "link": "https://www.hankyung.com/article/202611245376i",
+        "title": "젠슨 황 돌아오자 반도체주 13% 급등…AI 투자심리 반전 [젠슨 황 CEO 복귀]",
+        "link": "https://www.hankyung.com/article/202611245389i",
         "source": "한국경제",
-        "date": "Tue, 24 Nov 2026 00:09:46 +0900",
+        "date": "Tue, 24 Nov 2026 00:37:13 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "결국 고꾸라진 코스피…“바닥이 어디?”보다 중요한 질문은 [김학균의 이코노믹 인사이트]",
-        "link": "https://www.mk.co.kr/news/stock/12216450",
+        "title": "젠슨 황의 귀환에 뒤집힌 월가...엔비디아 31%·나스닥 6.5% 폭등 [월가월부]",
+        "link": "https://www.mk.co.kr/news/stock/12216703",
         "source": "매일경제",
-        "date": "Mon, 23 Nov 2026 18:33:55 +09:00",
+        "date": "Tue, 24 Nov 2026 06:35:32 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -448,11 +448,11 @@
         "by": "rules"
       },
       {
-        "title": "Jensen Huang’s return to Nvidia saved the stock market — for now. Will the rebound last?",
-        "link": "https://www.marketwatch.com/story/the-return-of-jensen-huang-has-saved-the-u-s-stock-market-for-now-why-the-rebound-may-not-last-f72656ce?mod=mw_rss_topstories",
+        "title": "Nvidia’s stock is surging again. What to know before chasing the AI rally.",
+        "link": "https://www.marketwatch.com/story/nvidias-stock-is-surging-again-what-to-know-before-chasing-the-ai-rally-226688d7?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 23 Nov 2026 20:51:00 GMT",
-        "ko": "젠슨 황의 엔비디아 복귀가 당분간 주식시장을 구해 주었습니다. 이 반등이 지속될까요?",
+        "date": "Mon, 23 Nov 2026 22:04:00 GMT",
+        "ko": "Nvidia의 주가가 다시 급등하고 있습니다. AI 랠리를 쫓기 전에 알아두어야 할 사항.",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -472,11 +472,11 @@
         "by": "rules"
       },
       {
-        "title": "Short sellers get smoked as Nvidia tallies biggest one-day gain in stock-market history",
-        "link": "https://www.marketwatch.com/story/short-sellers-get-smoked-as-nvidia-tallies-biggest-one-day-gain-in-stock-market-history-e9dc6e9c?mod=mw_rss_topstories",
+        "title": "U.S. stocks see best day in more than a year, as return of Jensen Huang revives AI enthusiasm",
+        "link": "https://www.marketwatch.com/story/u-s-stocks-see-best-day-in-more-than-a-year-as-return-of-jensen-huang-revives-ai-enthusiasm-c3b9d274?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 23 Nov 2026 20:40:00 GMT",
-        "ko": "엔비디아가 주식 시장 역사상 최대의 하루 수익을 기록하면서 공매도자들이 큰 손실을 입었습니다.",
+        "date": "Mon, 23 Nov 2026 21:51:00 GMT",
+        "ko": "젠슨 황의 복귀로 AI에 대한 열기가 되살아나면서 미국 주식 시장이 1년 넘게 최고의 하루를 맞이했습니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -496,14 +496,14 @@
         "by": "rules"
       },
       {
-        "title": "Oracle and CoreWeave stocks stage big gains as investors bet the AI cash will keep flowing",
-        "link": "https://www.marketwatch.com/story/oracle-and-coreweave-stocks-stage-big-gains-as-investors-bet-the-ai-cash-will-keep-flowing-eeb1aa85?mod=mw_rss_topstories",
+        "title": "Consumer stocks, seen as safe bet amid cracks in AI trade, were among the S&P 500’s biggest losers Monday",
+        "link": "https://www.marketwatch.com/story/consumer-stocks-seen-as-safe-bet-amid-cracks-in-ai-trade-are-among-the-s-p-500s-biggest-losers-monday-80cf8f81?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 23 Nov 2026 20:25:00 GMT",
-        "ko": "투자자들이 AI 현금이 계속 유입될 것으로 예상하면서 Oracle과 CoreWeave 주가가 크게 상승했습니다.",
+        "date": "Mon, 23 Nov 2026 21:45:00 GMT",
+        "ko": "AI 거래의 균열 속에서 안전한 투자로 여겨지는 소비재 주식은 월요일 S&P 500 지수에서 가장 큰 하락폭을 보인 종목 중 하나였습니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -511,9 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "Job openings posted big September gain in positive sign for labor market ahead of payrolls report": "채용 공고는 급여 보고서에 앞서 노동 시장에 대한 긍정적 인 신호에 큰 9 월 이득을 게시",
-    "U.S. clears path for first regulated equity perpetual futures": "미국, 첫 번째 규제 주식 영구 선물에 대한 경로 정리",
-    "U.S. jobs market perks up, but it’s still not a great time to get hired": "미국 일자리 시장은 특혜를 누리고 있지만, 여전히 채용하기에 좋은 시기는 아닙니다.",
     "An overlooked energy source could solve AI’s power crunch — and these 2 stocks are prime plays": "간과된 에너지원은 AI의 전력 위기를 해결할 수 있습니다. 이 두 가지 주식은 프라임 플레이입니다.",
     "S&P 500 is looking over the edge of a technical cliff — what happens if it falls off?": "S&P 500은 기술적 절벽의 가장자리를 바라보고 있습니다. 떨어지면 어떻게 됩니까?",
     "Super Micro’s stock pops as earnings show booming demand for AI servers": "AI 서버에 대한 수요가 호황을 누리면서 Super Micro의 주가가 급등하고 있습니다.",
@@ -810,7 +807,10 @@
     "Why Monday’s huge stock-market rally is actually a warning sign for bulls": "월요일의 대규모 주식 시장 랠리가 실제로 강세론자들에게 경고 신호인 이유",
     "Oracle and CoreWeave stocks stage big gains as investors bet the AI cash will keep flowing": "투자자들이 AI 현금이 계속 유입될 것으로 예상하면서 Oracle과 CoreWeave 주가가 크게 상승했습니다.",
     "Short sellers get smoked as Nvidia tallies biggest one-day gain in stock-market history": "엔비디아가 주식 시장 역사상 최대의 하루 수익을 기록하면서 공매도자들이 큰 손실을 입었습니다.",
-    "Jensen Huang’s return to Nvidia saved the stock market — for now. Will the rebound last?": "젠슨 황의 엔비디아 복귀가 당분간 주식시장을 구해 주었습니다. 이 반등이 지속될까요?"
+    "Jensen Huang’s return to Nvidia saved the stock market — for now. Will the rebound last?": "젠슨 황의 엔비디아 복귀가 당분간 주식시장을 구해 주었습니다. 이 반등이 지속될까요?",
+    "Nvidia’s stock is surging again. What to know before chasing the AI rally.": "Nvidia의 주가가 다시 급등하고 있습니다. AI 랠리를 쫓기 전에 알아두어야 할 사항.",
+    "U.S. stocks see best day in more than a year, as return of Jensen Huang revives AI enthusiasm": "젠슨 황의 복귀로 AI에 대한 열기가 되살아나면서 미국 주식 시장이 1년 넘게 최고의 하루를 맞이했습니다.",
+    "Consumer stocks, seen as safe bet amid cracks in AI trade, were among the S&P 500’s biggest losers Monday": "AI 거래의 균열 속에서 안전한 투자로 여겨지는 소비재 주식은 월요일 S&P 500 지수에서 가장 큰 하락폭을 보인 종목 중 하나였습니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2955,7 +2955,7 @@
       "2026-11-20": 1346.13,
       "2026-11-21": 1346.13,
       "2026-11-22": 1345.64,
-      "2026-11-23": 1341.58
+      "2026-11-23": 1340.87
     },
     "^GSPC": {
       "2026-11-12": 7592.4,
@@ -2997,7 +2997,7 @@
       "2026-11-20": 35.89,
       "2026-11-21": 35.89,
       "2026-11-22": 35.89,
-      "2026-11-23": 26.65
+      "2026-11-23": 26.62
     },
     "^TNX": {
       "2026-11-12": 5.103,
@@ -3387,7 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChLZ44RKihHA1cYhi8kW4\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChLZ44neoqnvwrBeUPhUK\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChLdfKmVxZJCsv3XGpgER\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChLdfLE3GBRwFTmCqUni4\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChLdfLY98Z74LJCaQwAfq\"}"
   ]
 }
