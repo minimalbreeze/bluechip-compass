@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-23T07:46:29.368Z",
+  "asOf": "2026-11-23T08:46:54.501Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-23T06:33:00.000Z"
     },
     "KRW=X": {
-      "price": 1344.77,
+      "price": 1344.87,
       "prev": 1345.64,
       "chg": -0.06,
       "prevDay": "2026-11-22",
       "basis": "prev-close-memo",
-      "time": "2026-11-23T07:46:20.000Z"
+      "time": "2026-11-23T08:46:44.000Z"
     },
     "^GSPC": {
       "price": 6910.39,
@@ -43,12 +43,12 @@
       "time": "2026-11-20T22:15:59.000Z"
     },
     "^VIX": {
-      "price": 35.89,
+      "price": 31.19,
       "prev": 35.89,
-      "chg": 0,
+      "chg": -13.1,
       "prevDay": "2026-11-22",
       "basis": "prev-close-memo",
-      "time": "2026-11-20T21:15:01.000Z"
+      "time": "2026-11-23T08:31:31.000Z"
     },
     "^TNX": {
       "price": 4.912,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.098
+    "pct": 0.099
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -20.76
     },
     "KRW=X": {
-      "last": 1344.48,
+      "last": 1344.87,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.098,
-      "chg3m": -2.82
+      "pct52": 0.099,
+      "chg3m": -2.79
     },
     "^GSPC": {
       "last": 6910.39,
@@ -101,11 +101,11 @@
       "chg3m": -13.51
     },
     "^VIX": {
-      "last": 35.89,
+      "last": 31.19,
       "low52": 13.47,
       "high52": 35.89,
-      "pct52": 1,
-      "chg3m": 132.3
+      "pct52": 0.79,
+      "chg3m": 105.06
     },
     "^TNX": {
       "last": 4.91,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChKVKrkaE"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChKZw5XED"
   },
   "stocks": {
     "kr": {
@@ -368,10 +368,10 @@
   "news": {
     "kr": [
       {
-        "title": "\"과매도…최악의 경우 코스피 3,000 후반까지\" 리서치센터장 긴급진단(종합)",
-        "link": "https://www.yna.co.kr/view/AKR20261123075951008",
+        "title": "브리즈바이오·인스페이스, 코스닥 상장예심 신청",
+        "link": "https://www.yna.co.kr/view/AKR20261123153800008",
         "source": "연합뉴스",
-        "date": "Mon, 23 Nov 2026 16:41:33 +0900",
+        "date": "Mon, 23 Nov 2026 17:21:53 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -379,10 +379,43 @@
         "by": "rules"
       },
       {
-        "title": "연일 추락하는 증시…\"주가 오히려 오른다\" 증권가 주목한 '이 종목'",
-        "link": "https://www.hankyung.com/article/202611234595i",
+        "title": "\"증시 폭락해도 AI는 계속 간다\"…한투운용, AI 밸류체인 TDF 출시",
+        "link": "https://www.hankyung.com/article/2026112346316",
         "source": "한국경제",
-        "date": "Mon, 23 Nov 2026 16:16:37 +0900",
+        "date": "Mon, 23 Nov 2026 17:16:34 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "중국차 공세에 속수무책 … 현대차 올 주가 67% 뚝",
+        "link": "https://www.mk.co.kr/news/stock/12216380",
+        "source": "매일경제",
+        "date": "Mon, 23 Nov 2026 17:42:37 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "금융위, 롯데카드에 10억원 과징금…유출위험 공시 불충분 판단",
+        "link": "https://www.yna.co.kr/view/AKR20261123149500002",
+        "source": "연합뉴스",
+        "date": "Mon, 23 Nov 2026 17:17:37 +0900",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": null,
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
+        "by": "rules"
+      },
+      {
+        "title": "개미들 98조나 샀는데 어쩌나…여의도 증권가 '섬뜩한 경고' [분석+]",
+        "link": "https://www.hankyung.com/article/2026112346586",
+        "source": "한국경제",
+        "date": "Mon, 23 Nov 2026 17:06:00 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -397,39 +430,6 @@
         "act": "none",
         "lasting": "temporary",
         "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "국고채 금리 일제히 하락…3년물 연 3.623%",
-        "link": "https://www.yna.co.kr/view/AKR20261123144600008",
-        "source": "연합뉴스",
-        "date": "Mon, 23 Nov 2026 16:40:53 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "[마감시황] 4700선 사수한 코스피…美 AI 쇼크에 데이터센터株 급락",
-        "link": "https://www.hankyung.com/article/202611234559i",
-        "source": "한국경제",
-        "date": "Mon, 23 Nov 2026 16:12:29 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "“어디까지 떨어지나” 코스피 장중 5.8% 급락 후 4700선 턱걸이…이틀 연속 매도 사이드카",
-        "link": "https://www.mk.co.kr/news/stock/12216188",
-        "source": "매일경제",
-        "date": "Mon, 23 Nov 2026 15:48:25 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -448,11 +448,11 @@
         "by": "rules"
       },
       {
-        "title": "The number of 401(k) millionaires drops amid stock-market swings",
-        "link": "https://www.marketwatch.com/story/the-number-of-401-k-millionaires-drops-amid-stock-market-swings-23939b94?mod=mw_rss_topstories",
+        "title": "Stock-market slides this steep and fast trigger a rebound 91% of the time over the last decade",
+        "link": "https://www.marketwatch.com/story/stock-market-slides-this-steep-and-fast-trigger-a-rebound-91-of-the-time-over-the-last-decade-798bd2c2?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 23 Nov 2026 05:01:00 GMT",
-        "ko": "주식 시장의 변동으로 401(k) 억만장자의 수가 감소했습니다.",
+        "date": "Mon, 23 Nov 2026 08:37:00 GMT",
+        "ko": "지난 10년간 주식 시장이 이처럼 가파르고 빠르게 하락한 경우 91%가 반등했습니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -472,11 +472,11 @@
         "by": "rules"
       },
       {
-        "title": "Private equity has been buying up hospice centers — with striking consequences",
-        "link": "https://www.marketwatch.com/story/private-equity-has-been-buying-up-hospice-centers-with-striking-consequences-63642545?mod=mw_rss_topstories",
+        "title": "The number of 401(k) millionaires drops amid stock-market swings",
+        "link": "https://www.marketwatch.com/story/the-number-of-401-k-millionaires-drops-amid-stock-market-swings-23939b94?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Sun, 22 Nov 2026 17:22:00 GMT",
-        "ko": "사모펀드가 호스피스 센터를 매입하고 있으며, 그 결과는 놀랍습니다.",
+        "date": "Mon, 23 Nov 2026 05:01:00 GMT",
+        "ko": "주식 시장의 변동으로 401(k) 억만장자의 수가 감소했습니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -496,14 +496,14 @@
         "by": "rules"
       },
       {
-        "title": "‘Nvidia’s turmoil has me spooked’: Is it time to sell my stocks and buy real estate?",
-        "link": "https://www.marketwatch.com/story/nvidia-spooked-me-should-i-sell-my-stocks-or-ride-out-the-market-turmoil-560583c6?mod=mw_rss_topstories",
+        "title": "Private equity has been buying up hospice centers — with striking consequences",
+        "link": "https://www.marketwatch.com/story/private-equity-has-been-buying-up-hospice-centers-with-striking-consequences-63642545?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Sun, 22 Nov 2026 17:00:00 GMT",
-        "ko": "‘엔비디아의 혼란이 저를 겁먹게 만들었어요’: 주식을 매도하고 부동산을 매수할 때가 되었나요?",
+        "date": "Sun, 22 Nov 2026 17:22:00 GMT",
+        "ko": "사모펀드가 호스피스 센터를 매입하고 있으며, 그 결과는 놀랍습니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -511,7 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "The latest market wobble sees Citi giving up on this big tech trade": "최신 시장의 흔들림은 Citi가 이 거대한 기술 거래를 포기하는 것을 보고 있습니다.",
     "Citi throws in the towel on hyperscalers after a key market bet misfires": "Citi는 주요 시장 베팅이 실패한 후 하이퍼스케일러에 수건을 던집니다.",
     "Tech stocks enter November after a brutal October: Is it time to buy the dip?": "잔인한 10월 이후 테크 주식이 11월에 진입합니다: 딥을 살 때가 되었습니까?",
     "Chip stocks are suffering from a ‘crisis of confidence’ — but things aren’t as gloomy as they seem": "칩 주식은 '자신감의 위기‘ 에 시달리고 있지만, 상황이 생각만큼 암울하지는 않습니다.",
@@ -810,7 +809,8 @@
     "Stocks are in a correction heading into the Thanksgiving holiday. What to brace for next.": "추수감사절 연휴를 앞두고 주식 시장이 조정 국면에 접어들었습니다. 다음에는 무엇을 준비해야 할까요?",
     "‘Nvidia’s turmoil has me spooked’: Is it time to sell my stocks and buy real estate?": "‘엔비디아의 혼란이 저를 겁먹게 만들었어요’: 주식을 매도하고 부동산을 매수할 때가 되었나요?",
     "Private equity has been buying up hospice centers — with striking consequences": "사모펀드가 호스피스 센터를 매입하고 있으며, 그 결과는 놀랍습니다.",
-    "The number of 401(k) millionaires drops amid stock-market swings": "주식 시장의 변동으로 401(k) 억만장자의 수가 감소했습니다."
+    "The number of 401(k) millionaires drops amid stock-market swings": "주식 시장의 변동으로 401(k) 억만장자의 수가 감소했습니다.",
+    "Stock-market slides this steep and fast trigger a rebound 91% of the time over the last decade": "지난 10년간 주식 시장이 이처럼 가파르고 빠르게 하락한 경우 91%가 반등했습니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2955,7 +2955,7 @@
       "2026-11-20": 1346.13,
       "2026-11-21": 1346.13,
       "2026-11-22": 1345.64,
-      "2026-11-23": 1344.77
+      "2026-11-23": 1344.87
     },
     "^GSPC": {
       "2026-11-12": 7592.4,
@@ -2997,7 +2997,7 @@
       "2026-11-20": 35.89,
       "2026-11-21": 35.89,
       "2026-11-22": 35.89,
-      "2026-11-23": 35.89
+      "2026-11-23": 31.19
     },
     "^TNX": {
       "2026-11-12": 5.103,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChKVKrkaERgtmFo3eTqeE\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChKVKs89YwLCKh2bfEKGo\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChKVKsQGak3yZyVp3NAKF\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChKZw5XEDMxLCze3a96q7\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChKZw62UyckHV4TX26beK\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChKZw6NKSzNWNjc6daREv\"}"
   ]
 }
