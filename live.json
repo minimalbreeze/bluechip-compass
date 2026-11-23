@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-23T09:58:22.506Z",
+  "asOf": "2026-11-23T10:58:47.438Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-23T06:33:00.000Z"
     },
     "KRW=X": {
-      "price": 1345.29,
+      "price": 1345.7,
       "prev": 1345.64,
-      "chg": -0.03,
+      "chg": 0,
       "prevDay": "2026-11-22",
       "basis": "prev-close-memo",
-      "time": "2026-11-23T09:58:04.000Z"
+      "time": "2026-11-23T10:58:32.000Z"
     },
     "^GSPC": {
       "price": 6910.39,
@@ -43,12 +43,12 @@
       "time": "2026-11-20T22:15:59.000Z"
     },
     "^VIX": {
-      "price": 30.5,
+      "price": 30.16,
       "prev": 35.89,
-      "chg": -15.02,
+      "chg": -15.97,
       "prevDay": "2026-11-22",
       "basis": "prev-close-memo",
-      "time": "2026-11-23T09:43:01.000Z"
+      "time": "2026-11-23T10:43:31.000Z"
     },
     "^TNX": {
       "price": 4.912,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.101
+    "pct": 0.103
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -20.76
     },
     "KRW=X": {
-      "last": 1345.29,
+      "last": 1345.7,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.101,
-      "chg3m": -2.76
+      "pct52": 0.103,
+      "chg3m": -2.73
     },
     "^GSPC": {
       "last": 6910.39,
@@ -101,11 +101,11 @@
       "chg3m": -13.51
     },
     "^VIX": {
-      "last": 30.5,
+      "last": 30.16,
       "low52": 13.47,
       "high52": 35.89,
-      "pct52": 0.76,
-      "chg3m": 110.2
+      "pct52": 0.744,
+      "chg3m": 107.86
     },
     "^TNX": {
       "last": 4.91,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChKfPAnnF"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChKjzNtji"
   },
   "stocks": {
     "kr": {
@@ -368,10 +368,10 @@
   "news": {
     "kr": [
       {
-        "title": "인스피언 \"라온시큐리티 주식 30억원어치 취득…지분율 100%\"",
-        "link": "https://www.yna.co.kr/view/AKR20261123162100008",
+        "title": "미래에셋증권, 'IB 총괄' 사업부 폐지…도입 1년만",
+        "link": "https://www.yna.co.kr/view/AKR20261123163400008",
         "source": "연합뉴스",
-        "date": "Mon, 23 Nov 2026 18:40:31 +0900",
+        "date": "Mon, 23 Nov 2026 19:00:26 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -401,13 +401,13 @@
         "by": "rules"
       },
       {
-        "title": "브리즈바이오·인스페이스, 코스닥 상장예심 신청",
-        "link": "https://www.yna.co.kr/view/AKR20261123153800008",
+        "title": "인스피언 \"라온시큐리티 주식 30억원어치 취득…지분율 100%\"",
+        "link": "https://www.yna.co.kr/view/AKR20261123162100008",
         "source": "연합뉴스",
-        "date": "Mon, 23 Nov 2026 17:21:53 +0900",
+        "date": "Mon, 23 Nov 2026 18:40:31 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -448,14 +448,14 @@
         "by": "rules"
       },
       {
-        "title": "Stocks are serving up a ‘fat pitch’ for investors right now, says Morgan Stanley’s top strategist",
-        "link": "https://www.marketwatch.com/story/stocks-are-serving-up-a-fat-pitch-for-investors-right-now-as-morgan-stanleys-top-strategist-19abe30a?mod=mw_rss_topstories",
+        "title": "The U.S. may enter a recession if the Fed raises rates, hedge-fund manager Bill Ackman says",
+        "link": "https://www.marketwatch.com/story/the-u-s-may-enter-a-recession-if-the-fed-raises-rates-hedge-fund-manager-bill-ackman-says-16738971?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 23 Nov 2026 09:40:00 GMT",
-        "ko": "모건 스탠리의 수석 전략가는 현재 주식이 투자자들에게 '기회'를 제공하고 있다고 말합니다.",
+        "date": "Mon, 23 Nov 2026 10:57:00 GMT",
+        "ko": "헤지펀드 운용사 빌 액먼, \"연준이 금리를 인상하면 미국이 경기 침체에 빠질 수 있다\"고 말해",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -472,14 +472,14 @@
         "by": "rules"
       },
       {
-        "title": "Stock-market slides this steep and fast trigger a rebound 91% of the time over the last decade",
-        "link": "https://www.marketwatch.com/story/stock-market-slides-this-steep-and-fast-trigger-a-rebound-91-of-the-time-over-the-last-decade-798bd2c2?mod=mw_rss_topstories",
+        "title": "Nvidia stock bounces as Trump administration pushes for rehiring of Jensen Huang",
+        "link": "https://www.marketwatch.com/story/nvidia-stock-bounces-as-trump-administration-pushes-for-rehiring-of-jensen-huang-08057c29?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 23 Nov 2026 08:37:00 GMT",
-        "ko": "지난 10년간 주식 시장이 이처럼 가파르고 빠르게 하락한 경우 91%가 반등했습니다.",
+        "date": "Mon, 23 Nov 2026 10:56:00 GMT",
+        "ko": "트럼프 행정부가 젠슨 황의 재고용을 추진하면서 엔비디아 주가가 반등했습니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -496,11 +496,11 @@
         "by": "rules"
       },
       {
-        "title": "The number of 401(k) millionaires drops amid stock-market swings",
-        "link": "https://www.marketwatch.com/story/the-number-of-401-k-millionaires-drops-amid-stock-market-swings-23939b94?mod=mw_rss_topstories",
+        "title": "James Bond films were shot all over the world. Here are 5 properties made famous by 007.",
+        "link": "https://www.marketwatch.com/story/james-bond-films-were-shot-all-over-the-world-here-are-5-properties-made-famous-by-007-dabafbe6?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 23 Nov 2026 05:01:00 GMT",
-        "ko": "주식 시장의 변동으로 401(k) 억만장자의 수가 감소했습니다.",
+        "date": "Mon, 23 Nov 2026 10:02:00 GMT",
+        "ko": "제임스 본드 영화는 전 세계 곳곳에서 촬영되었습니다. 007로 인해 유명해진 5곳의 장소를 소개해드립니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -511,9 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "Chip stocks are suffering from a ‘crisis of confidence’ — but things aren’t as gloomy as they seem": "칩 주식은 '자신감의 위기‘ 에 시달리고 있지만, 상황이 생각만큼 암울하지는 않습니다.",
-    "It may take weeks to tally the midterm election results. Here’s why Wall Street isn’t worried.": "중간 선거 결과를 집계하는 데 몇 주가 걸릴 수 있습니다. 월스트리트가 걱정하지 않는 이유는 다음과 같습니다.",
-    "The bond-market rally is defying the typical investing playbook. Here’s why.": "채권시장 랠리는 전형적인 투자 플레이북을 거스르고 있습니다. 그 이유는 다음과 같습니다.",
     "Wall Street’s most hated stocks are faring far better than its favorites": "월스트리트에서 가장 싫어하는 주식은 인기 주식보다 훨씬 더 잘 팔리고 있습니다.",
     "The stock market has gone nowhere for the past 5 months. It’s now looking like a bargain.": "주식 시장은 지난 5개월 동안 아무데도 가지 않았습니다. 이제 흥정처럼 보입니다.",
     "Palantir earnings reveal a major AI turning point": "Palantir 수입은 주요 AI 전환점을 보여줍니다",
@@ -810,7 +807,10 @@
     "The number of 401(k) millionaires drops amid stock-market swings": "주식 시장의 변동으로 401(k) 억만장자의 수가 감소했습니다.",
     "Stock-market slides this steep and fast trigger a rebound 91% of the time over the last decade": "지난 10년간 주식 시장이 이처럼 가파르고 빠르게 하락한 경우 91%가 반등했습니다.",
     "Stocks are serving up a ‘fat pitch’ for investors right now, as Morgan Stanley’s top strategist": "Morgan Stanley의 수석 전략가인 마이클 윌슨(Michael Wilson)이 말했듯이, 현재 주식은 투자자들에게 '쉬운 공'을 던지고 있습니다.",
-    "Stocks are serving up a ‘fat pitch’ for investors right now, says Morgan Stanley’s top strategist": "모건 스탠리의 수석 전략가는 현재 주식이 투자자들에게 '기회'를 제공하고 있다고 말합니다."
+    "Stocks are serving up a ‘fat pitch’ for investors right now, says Morgan Stanley’s top strategist": "모건 스탠리의 수석 전략가는 현재 주식이 투자자들에게 '기회'를 제공하고 있다고 말합니다.",
+    "The U.S. may enter a recession if the Fed raises rates, hedge-fund manager Bill Ackman says": "헤지펀드 운용사 빌 액먼, \"연준이 금리를 인상하면 미국이 경기 침체에 빠질 수 있다\"고 말해",
+    "Nvidia stock bounces as Trump administration pushes for rehiring of Jensen Huang": "트럼프 행정부가 젠슨 황의 재고용을 추진하면서 엔비디아 주가가 반등했습니다.",
+    "James Bond films were shot all over the world. Here are 5 properties made famous by 007.": "제임스 본드 영화는 전 세계 곳곳에서 촬영되었습니다. 007로 인해 유명해진 5곳의 장소를 소개해드립니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2955,7 +2955,7 @@
       "2026-11-20": 1346.13,
       "2026-11-21": 1346.13,
       "2026-11-22": 1345.64,
-      "2026-11-23": 1345.29
+      "2026-11-23": 1345.7
     },
     "^GSPC": {
       "2026-11-12": 7592.4,
@@ -2997,7 +2997,7 @@
       "2026-11-20": 35.89,
       "2026-11-21": 35.89,
       "2026-11-22": 35.89,
-      "2026-11-23": 30.5
+      "2026-11-23": 30.16
     },
     "^TNX": {
       "2026-11-12": 5.103,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChKfPAnnFqm9RDQkaB7gf\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChKfPBAMmT8H9nLxwU9U5\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChKfPBTUBAEK3QEkV8wq7\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChKjzNtjidgXu3vMjHYwR\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChKjzPJYe6kAwKwDAZ6sg\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChKjzPbuBV8RrJ52StJmB\"}"
   ]
 }
