@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-23T22:16:23.695Z",
+  "asOf": "2026-11-23T23:16:52.978Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-23T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1340.87,
+      "price": 1341.35,
       "prev": 1345.64,
-      "chg": -0.35,
+      "chg": -0.32,
       "prevDay": "2026-11-22",
       "basis": "prev-close-memo",
-      "time": "2026-11-23T22:03:21.000Z"
+      "time": "2026-11-23T23:16:44.000Z"
     },
     "^GSPC": {
       "price": 7237.17,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.082
+    "pct": 0.084
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -23.21
     },
     "KRW=X": {
-      "last": 1340.87,
+      "last": 1341.35,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.082,
-      "chg3m": -3.08
+      "pct52": 0.084,
+      "chg3m": -3.05
     },
     "^GSPC": {
       "last": 7237.17,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChLdfKmVx"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChLiGrfJW"
   },
   "stocks": {
     "kr": {
@@ -368,6 +368,39 @@
   "news": {
     "kr": [
       {
+        "title": "[마켓뷰] '젠슨황 복귀'에 美증시 급등…코스피도 반등하나",
+        "link": "https://www.yna.co.kr/view/AKR20261124022100008",
+        "source": "연합뉴스",
+        "date": "Tue, 24 Nov 2026 08:09:27 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "엔비디아 31% 급등에 美증시 환호…다우 1448P 상승 [젠슨 황 CEO 복귀]",
+        "link": "https://www.hankyung.com/article/202611245513i",
+        "source": "한국경제",
+        "date": "Tue, 24 Nov 2026 06:46:07 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "젠슨 황 돌아오자 엔비디아 31% 폭등…‘반토막’ 코스피도 살아날까",
+        "link": "https://www.mk.co.kr/news/stock/12216740",
+        "source": "매일경제",
+        "date": "Tue, 24 Nov 2026 08:15:22 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
         "title": "미래에셋증권, 'IB 총괄' 사업부 폐지…도입 1년만",
         "link": "https://www.yna.co.kr/view/AKR20261123163400008",
         "source": "연합뉴스",
@@ -379,10 +412,10 @@
         "by": "rules"
       },
       {
-        "title": "[속보] 뉴욕증시, 나스닥 6%대 급등 마감…엔비디아 31.5%↑",
-        "link": "https://www.hankyung.com/article/2026112454807",
+        "title": "또 녹아내린 삼전닉스…증권가가 바닥 확신 못하는 이유 [분석+]",
+        "link": "https://www.hankyung.com/article/2026112347276",
         "source": "한국경제",
-        "date": "Tue, 24 Nov 2026 06:07:51 +0900",
+        "date": "Tue, 24 Nov 2026 06:30:09 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -390,43 +423,10 @@
         "by": "rules"
       },
       {
-        "title": "75만원에 산 현대차, 24만원 됐다…외국인 지분도 확 줄었다는데",
-        "link": "https://www.mk.co.kr/news/stock/12216714",
+        "title": "주가 폭락 두고 엇갈린 처방…與 “주주 보호” 野 “종부세 폐지”",
+        "link": "https://www.mk.co.kr/news/politics/12216715",
         "source": "매일경제",
-        "date": "Tue, 24 Nov 2026 07:14:28 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "인스피언 \"라온시큐리티 주식 30억원어치 취득…지분율 100%\"",
-        "link": "https://www.yna.co.kr/view/AKR20261123162100008",
-        "source": "연합뉴스",
-        "date": "Mon, 23 Nov 2026 18:40:31 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "젠슨 황 돌아오자 반도체주 13% 급등…AI 투자심리 반전 [젠슨 황 CEO 복귀]",
-        "link": "https://www.hankyung.com/article/202611245389i",
-        "source": "한국경제",
-        "date": "Tue, 24 Nov 2026 00:37:13 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "젠슨 황의 귀환에 뒤집힌 월가...엔비디아 31%·나스닥 6.5% 폭등 [월가월부]",
-        "link": "https://www.mk.co.kr/news/stock/12216703",
-        "source": "매일경제",
-        "date": "Tue, 24 Nov 2026 06:35:32 +09:00",
+        "date": "Tue, 24 Nov 2026 07:15:39 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -2955,7 +2955,7 @@
       "2026-11-20": 1346.13,
       "2026-11-21": 1346.13,
       "2026-11-22": 1345.64,
-      "2026-11-23": 1340.87
+      "2026-11-23": 1341.35
     },
     "^GSPC": {
       "2026-11-12": 7592.4,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChLdfKmVxZJCsv3XGpgER\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChLdfLE3GBRwFTmCqUni4\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChLdfLY98Z74LJCaQwAfq\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChLiGrfJWG4qitvm4TLCS\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChLiGs1tpQLboro7FBoyc\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChLiGsHmBjpMdXxz3kmSc\"}"
   ]
 }
