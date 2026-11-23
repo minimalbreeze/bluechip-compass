@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-23T00:01:55.337Z",
+  "asOf": "2026-11-23T00:12:18.076Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-20T11:05:30.000Z"
     },
     "KRW=X": {
-      "price": 1341.28,
+      "price": 1339.58,
       "prev": 1345.64,
-      "chg": -0.32,
+      "chg": -0.45,
       "prevDay": "2026-11-22",
       "basis": "prev-close-memo",
-      "time": "2026-11-23T00:01:46.000Z"
+      "time": "2026-11-23T00:12:12.000Z"
     },
     "^GSPC": {
       "price": 6910.39,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.084
+    "pct": 0.077
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -23.21
     },
     "KRW=X": {
-      "last": 1341.28,
+      "last": 1339.58,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.084,
-      "chg3m": -3.05
+      "pct52": 0.077,
+      "chg3m": -3.17
     },
     "^GSPC": {
       "last": 6910.39,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChJsu9j2G"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChJth3kdG"
   },
   "stocks": {
     "kr": {
@@ -368,6 +368,50 @@
   "news": {
     "kr": [
       {
+        "title": "코스피, 2~3%대 하락해 4,700대로 밀려…코스닥 1%대↓",
+        "link": "https://www.yna.co.kr/view/AKR20261123032200008",
+        "source": "연합뉴스",
+        "date": "Mon, 23 Nov 2026 09:07:17 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "[속보] 코스피, 3%대 하락 출발해 4700대…코스닥 1%대 하락",
+        "link": "https://www.mk.co.kr/news/stock/12215820",
+        "source": "매일경제",
+        "date": "Mon, 23 Nov 2026 09:05:41 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "신한증권 \"코스피, 4,500까지 밀릴 수도…장기 지속가능성 적어\"",
+        "link": "https://www.yna.co.kr/view/AKR20261123028800008",
+        "source": "연합뉴스",
+        "date": "Mon, 23 Nov 2026 09:04:04 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "“코스피 바닥 4200선”…반등 열쇠는 증안펀드·금리 [오늘 나온 보고서]",
+        "link": "https://www.mk.co.kr/news/stock/12215816",
+        "source": "매일경제",
+        "date": "Mon, 23 Nov 2026 09:02:22 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
         "title": "대신증권 \"코스피, 금융위기급 저평가 구간…외인 수급이 관건\"",
         "link": "https://www.yna.co.kr/view/AKR20261123026100008",
         "source": "연합뉴스",
@@ -379,54 +423,10 @@
         "by": "rules"
       },
       {
-        "title": "주식부터 비트코인·금·구리까지 급락…증권가가 꼽은 이유는",
-        "link": "https://www.hankyung.com/article/2026112328756",
-        "source": "한국경제",
-        "date": "Mon, 23 Nov 2026 08:08:43 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
         "title": "유안타증권 “유나이티드제약, 영업익 77% 급감에도 주주환원 기대”",
         "link": "https://www.mk.co.kr/news/stock/12215796",
         "source": "매일경제",
         "date": "Mon, 23 Nov 2026 08:24:00 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "SK증권 \"화장품 주가 향방, 미국·유럽 시장 확장 여부가 핵심\"",
-        "link": "https://www.yna.co.kr/view/AKR20261123025400008",
-        "source": "연합뉴스",
-        "date": "Mon, 23 Nov 2026 08:43:24 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "\"코스피 4300 아래로 밀릴 수 있다\"…AI 수익성 시험대",
-        "link": "https://www.hankyung.com/article/2026112329446",
-        "source": "한국경제",
-        "date": "Mon, 23 Nov 2026 08:06:10 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "“저평가 우량주 사놓고 주식창 끕니다”…그 와중에 ‘더 싼 종목’ 찾아보니",
-        "link": "https://www.mk.co.kr/news/business/12215776",
-        "source": "매일경제",
-        "date": "Mon, 23 Nov 2026 07:16:20 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -2955,7 +2955,7 @@
       "2026-11-20": 1346.13,
       "2026-11-21": 1346.13,
       "2026-11-22": 1345.64,
-      "2026-11-23": 1341.28
+      "2026-11-23": 1339.58
     },
     "^GSPC": {
       "2026-11-11": 7619.38,
@@ -3386,9 +3386,10 @@
     }
   },
   "failed": [
+    "news/kr/한국경제: HTTP 403",
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChJsu9j2G2xHk3mKts8XQ\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChJsu9ug2jSGiqxrJS9Vp\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChJsuA2ddUMKWAFfaRgVz\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChJth3kdGSD32FeJtiVrP\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChJth47x7A8uVaKjAHkKQ\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChJth4PpafdAKg2Pua4NK\"}"
   ]
 }
