@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-23T00:22:37.287Z",
+  "asOf": "2026-11-23T00:33:02.819Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChJuUgroZ"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChJvGoVwp"
   },
   "stocks": {
     "kr": {
@@ -368,13 +368,13 @@
   "news": {
     "kr": [
       {
-        "title": "'1조 달러' 한국 수출, 이달 중순도 역대 최대…반도체 4배 급증(종합)",
-        "link": "https://www.yna.co.kr/view/AKR20261123030651002",
+        "title": "유안타증권, 내년 코스피 전망 '4,000∼7,300'으로 하향",
+        "link": "https://www.yna.co.kr/view/AKR20261123038500008",
         "source": "연합뉴스",
-        "date": "Mon, 23 Nov 2026 09:11:48 +0900",
+        "date": "Mon, 23 Nov 2026 09:29:17 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -390,7 +390,7 @@
         "by": "rules"
       },
       {
-        "title": "[속보] 코스피, 3%대 하락 출발해 4700대…코스닥 1%대 하락",
+        "title": "[속보] “장 초반엔 4700도 위험했다”…코스피, 낙폭 일부 만회",
         "link": "https://www.mk.co.kr/news/stock/12215820",
         "source": "매일경제",
         "date": "Mon, 23 Nov 2026 09:05:41 +09:00",
@@ -401,13 +401,13 @@
         "by": "rules"
       },
       {
-        "title": "코스피, 2~3%대 하락해 4,700대로 밀려…코스닥 1%대↓",
-        "link": "https://www.yna.co.kr/view/AKR20261123032200008",
+        "title": "'1조 달러' 한국 수출, 이달 중순도 역대 최대…반도체 4배 급증(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261123030651002",
         "source": "연합뉴스",
-        "date": "Mon, 23 Nov 2026 09:07:17 +0900",
+        "date": "Mon, 23 Nov 2026 09:11:48 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChJuUgroZ2ry7Gg2seMM4\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChJuUhK6Htfw5oi4QoX47\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChJuUhgB5YRVrxAti9S9n\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChJvGoVwp4AewuAj1yTwM\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChJvGowVRatFKCiwL98oo\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChJvGpE6ZrrJjes8nVaNG\"}"
   ]
 }
