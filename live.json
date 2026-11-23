@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-23T13:43:01.394Z",
+  "asOf": "2026-11-23T13:53:25.031Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-23T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1347.88,
+      "price": 1348.56,
       "prev": 1345.64,
-      "chg": 0.17,
+      "chg": 0.22,
       "prevDay": "2026-11-22",
       "basis": "prev-close-memo",
-      "time": "2026-11-23T13:42:49.000Z"
+      "time": "2026-11-23T13:53:15.000Z"
     },
     "^GSPC": {
       "price": 6910.39,
@@ -43,26 +43,26 @@
       "time": "2026-11-20T22:15:59.000Z"
     },
     "^VIX": {
-      "price": 31.03,
+      "price": 31.26,
       "prev": 35.89,
-      "chg": -13.54,
+      "chg": -12.9,
       "prevDay": "2026-11-22",
       "basis": "prev-close-memo",
-      "time": "2026-11-23T13:27:46.000Z"
+      "time": "2026-11-23T13:38:16.000Z"
     },
     "^TNX": {
-      "price": 4.932,
+      "price": 4.9240003,
       "prev": 4.912,
-      "chg": 0.41,
+      "chg": 0.24,
       "prevDay": "2026-11-22",
       "basis": "prev-close-memo",
-      "time": "2026-11-23T13:27:42.000Z"
+      "time": "2026-11-23T13:38:12.000Z"
     }
   },
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.112
+    "pct": 0.115
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -20.76
     },
     "KRW=X": {
-      "last": 1347.88,
+      "last": 1348.56,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.112,
-      "chg3m": -2.57
+      "pct52": 0.115,
+      "chg3m": -2.52
     },
     "^GSPC": {
       "last": 6910.39,
@@ -101,18 +101,18 @@
       "chg3m": -13.51
     },
     "^VIX": {
-      "last": 31.03,
+      "last": 31.26,
       "low52": 13.47,
       "high52": 35.89,
-      "pct52": 0.783,
-      "chg3m": 113.85
+      "pct52": 0.793,
+      "chg3m": 115.44
     },
     "^TNX": {
-      "last": 4.93,
+      "last": 4.92,
       "low52": 3.96,
       "high52": 5.31,
-      "pct52": 0.719,
-      "chg3m": 5.75
+      "pct52": 0.713,
+      "chg3m": 5.57
     }
   },
   "regime": {
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChKxWkWES"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChKyJinaz"
   },
   "stocks": {
     "kr": {
@@ -448,15 +448,15 @@
         "by": "rules"
       },
       {
-        "title": "UnitedHealth, Humana and CVS stocks slide as U.S targets Medicare Advantage ratings",
-        "link": "https://www.marketwatch.com/story/unitedhealth-humana-and-cvs-stocks-slide-as-u-s-targets-medicare-advantage-ratings-6c2be5bb?mod=mw_rss_topstories",
+        "title": "Cybersecurity stocks have been hot — and now CrowdStrike inks deal to buy Zscaler",
+        "link": "https://www.marketwatch.com/story/cybersecurity-stocks-have-been-hot-and-now-crowdstrike-inks-deal-to-buy-zscaler-df8fd163?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 23 Nov 2026 13:35:00 GMT",
-        "ko": "미국이 메디케어 어드밴티지 등급을 목표로 삼으면서 유나이티드헬스, 휴마나, CVS 주가가 하락했습니다.",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "date": "Mon, 23 Nov 2026 13:47:00 GMT",
+        "ko": "사이버 보안주가 인기를 끌고 있는 가운데, CrowdStrike가 Zscaler 인수 계약을 체결했습니다.",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": "company",
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
         "by": "rules"
       },
       {
@@ -472,11 +472,11 @@
         "by": "rules"
       },
       {
-        "title": "Trump wants Jensen Huang back at Nvidia. What will it take to stop the tech selloff?",
-        "link": "https://www.marketwatch.com/story/trump-wants-jensen-huang-back-at-nvidia-what-will-it-take-to-stop-the-tech-selloff-3f6b091f?mod=mw_rss_topstories",
+        "title": "UnitedHealth, Humana and CVS stocks slide as U.S targets Medicare Advantage ratings",
+        "link": "https://www.marketwatch.com/story/unitedhealth-humana-and-cvs-stocks-slide-as-u-s-targets-medicare-advantage-ratings-6c2be5bb?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 23 Nov 2026 12:26:00 GMT",
-        "ko": "트럼프는 젠슨 황이 엔비디아로 복귀하기를 원합니다. 기술주 매도를 막기 위해서는 무엇이 필요할까요?",
+        "date": "Mon, 23 Nov 2026 13:35:00 GMT",
+        "ko": "미국이 메디케어 어드밴티지 등급을 목표로 삼으면서 유나이티드헬스, 휴마나, CVS 주가가 하락했습니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -496,14 +496,14 @@
         "by": "rules"
       },
       {
-        "title": "Nvidia stock bounces as Trump administration pushes for rehiring of Jensen Huang",
-        "link": "https://www.marketwatch.com/story/nvidia-stock-bounces-as-trump-administration-pushes-for-rehiring-of-jensen-huang-08057c29?mod=mw_rss_topstories",
+        "title": "Trump wants Jensen Huang back at Nvidia. What will it take to stop the tech selloff?",
+        "link": "https://www.marketwatch.com/story/trump-wants-jensen-huang-back-at-nvidia-what-will-it-take-to-stop-the-tech-selloff-3f6b091f?mod=mw_rss_topstories",
         "source": "MarketWatch",
         "date": "Mon, 23 Nov 2026 12:26:00 GMT",
-        "ko": "트럼프 행정부가 젠슨 황의 재고용을 추진하면서 엔비디아 주가가 반등했습니다.",
+        "ko": "트럼프는 젠슨 황이 엔비디아로 복귀하기를 원합니다. 기술주 매도를 막기 위해서는 무엇이 필요할까요?",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -2955,7 +2955,7 @@
       "2026-11-20": 1346.13,
       "2026-11-21": 1346.13,
       "2026-11-22": 1345.64,
-      "2026-11-23": 1347.88
+      "2026-11-23": 1348.56
     },
     "^GSPC": {
       "2026-11-12": 7592.4,
@@ -2997,7 +2997,7 @@
       "2026-11-20": 35.89,
       "2026-11-21": 35.89,
       "2026-11-22": 35.89,
-      "2026-11-23": 31.03
+      "2026-11-23": 31.26
     },
     "^TNX": {
       "2026-11-12": 5.103,
@@ -3011,7 +3011,7 @@
       "2026-11-20": 4.912,
       "2026-11-21": 4.912,
       "2026-11-22": 4.912,
-      "2026-11-23": 4.932
+      "2026-11-23": 4.9240003
     },
     "105560.KS": {
       "2026-11-12": 151800,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChKxWkWESRG26Dojyjsqb\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChKxWm3j7eBAhgYMm42wR\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChKxWmTYAyQMnaykoDBrH\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChKyJinazGNUnPDBdaMx9\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChKyJjLKTTiopS28oY2Ye\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChKyJji9dsQUmXcHJ73rb\"}"
   ]
 }
