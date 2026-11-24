@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-24T22:13:10.971Z",
+  "asOf": "2026-11-24T23:13:33.306Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-24T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1340.56,
+      "price": 1340.92,
       "prev": 1344.31005859375,
-      "chg": -0.28,
+      "chg": -0.25,
       "prevDay": "2026-11-23",
       "basis": "prev-close-bar",
-      "time": "2026-11-24T22:10:13.000Z"
+      "time": "2026-11-24T23:13:18.000Z"
     },
     "^GSPC": {
       "price": 7201.09,
@@ -40,7 +40,7 @@
       "chg": -1.48,
       "prevDay": "2026-11-23",
       "basis": "prev-close-bar",
-      "time": "2026-11-24T22:13:03.000Z"
+      "time": "2026-11-24T22:15:59.000Z"
     },
     "^VIX": {
       "price": 26.36,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.081
+    "pct": 0.082
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -20.76
     },
     "KRW=X": {
-      "last": 1340.56,
+      "last": 1340.92,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.081,
-      "chg3m": -2.89
+      "pct52": 0.082,
+      "chg3m": -2.86
     },
     "^GSPC": {
       "last": 7201.09,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChNXE2Ax2"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChNbq3hAi"
   },
   "stocks": {
     "kr": {
@@ -368,13 +368,57 @@
   "news": {
     "kr": [
       {
-        "title": "'젠슨황 효과' 의문에 반도체지수 8% 급반락…마이크론 11%↓",
-        "link": "https://www.hankyung.com/article/2026112581587",
-        "source": "한국경제",
-        "date": "Wed, 25 Nov 2026 06:48:44 +0900",
+        "title": "마지막 금리인상에 베팅?…외인, 금통위 앞두고 국채선물 대량 매수",
+        "link": "https://www.yna.co.kr/view/AKR20261124171200008",
+        "source": "연합뉴스",
+        "date": "Wed, 25 Nov 2026 08:00:02 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "\"SK하이닉스 Y1 발주 시작…반도체 소부장 '새 성장 사이클'\"-한화",
+        "link": "https://www.hankyung.com/article/2026112582396",
+        "source": "한국경제",
+        "date": "Wed, 25 Nov 2026 07:45:57 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "“CJ제일제당, 잃을 것 없는 주가…내년 식품·바이오 실적 개선 기대”",
+        "link": "https://www.mk.co.kr/news/stock/12217698",
+        "source": "매일경제",
+        "date": "Wed, 25 Nov 2026 07:37:36 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "[마켓뷰] 美기술주 다시 하락…코스피, 또 '5천피' 사수 시험대",
+        "link": "https://www.yna.co.kr/view/AKR20261125022300008",
+        "source": "연합뉴스",
+        "date": "Wed, 25 Nov 2026 07:59:01 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "'AI 기대주' 앤트로픽 상장 나흘 만에 공모가 밑으로 추락",
+        "link": "https://www.hankyung.com/article/2026112582087",
+        "source": "한국경제",
+        "date": "Wed, 25 Nov 2026 07:22:52 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -383,50 +427,6 @@
         "link": "https://www.mk.co.kr/news/stock/12217684",
         "source": "매일경제",
         "date": "Wed, 25 Nov 2026 07:08:59 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "[속보] 필라델피아 반도체지수 7.8%↓…'젠슨황 복귀' 랠리 하루 만에 꺾여",
-        "link": "https://www.hankyung.com/article/2026112581457",
-        "source": "한국경제",
-        "date": "Wed, 25 Nov 2026 06:20:02 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "“종목단타 위험하대서 ETF 갔는데”…17%가 상장 5년내 상폐됐다",
-        "link": "https://www.mk.co.kr/news/stock/12217614",
-        "source": "매일경제",
-        "date": "Wed, 25 Nov 2026 05:42:50 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "[속보] 앤트로픽 6.54% 급락…상장 4거래일 만에 공모가 하회",
-        "link": "https://www.hankyung.com/article/2026112581447",
-        "source": "한국경제",
-        "date": "Wed, 25 Nov 2026 06:18:59 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "“고점에 못 팔았다” 실수 인정한 투자 고수 … 여전히 반도체에 베팅하는 이유",
-        "link": "https://www.mk.co.kr/news/stock/12217412",
-        "source": "매일경제",
-        "date": "Wed, 25 Nov 2026 04:30:00 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -2955,7 +2955,7 @@
       "2026-11-21": 1346.13,
       "2026-11-22": 1345.64,
       "2026-11-23": 1341.35,
-      "2026-11-24": 1340.56
+      "2026-11-24": 1340.92
     },
     "^GSPC": {
       "2026-11-13": 7561.67,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChNXE2Ax2EL1UbzHVfoov\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChNXE38V8aCb3hFW8z8do\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChNXE3bXPMMStZKU2K4P4\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChNbq3hAiEhC5cEAPbSHH\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChNbq4CRZL239NrLAqCwh\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChNbq4dj8ZBkkWZHuuySm\"}"
   ]
 }
