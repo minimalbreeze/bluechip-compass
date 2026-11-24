@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-24T13:42:28.147Z",
+  "asOf": "2026-11-24T13:52:51.459Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-24T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1343.83,
+      "price": 1343.66,
       "prev": 1344.31005859375,
-      "chg": -0.04,
+      "chg": -0.05,
       "prevDay": "2026-11-23",
       "basis": "prev-close-bar",
-      "time": "2026-11-24T13:42:18.000Z"
+      "time": "2026-11-24T13:52:42.000Z"
     },
     "^GSPC": {
       "price": 7237.17,
@@ -43,26 +43,26 @@
       "time": "2026-11-23T22:15:59.000Z"
     },
     "^VIX": {
-      "price": 29.28,
+      "price": 29.65,
       "prev": 26.6200008392334,
-      "chg": 9.99,
+      "chg": 11.38,
       "prevDay": "2026-11-23",
       "basis": "prev-close-bar",
-      "time": "2026-11-24T13:27:16.000Z"
+      "time": "2026-11-24T13:37:46.000Z"
     },
     "^TNX": {
-      "price": 4.896,
+      "price": 4.892,
       "prev": 4.918000221252441,
-      "chg": -0.45,
+      "chg": -0.53,
       "prevDay": "2026-11-23",
       "basis": "prev-close-bar",
-      "time": "2026-11-24T13:27:13.000Z"
+      "time": "2026-11-24T13:37:43.000Z"
     }
   },
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.095
+    "pct": 0.094
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -18.13
     },
     "KRW=X": {
-      "last": 1343.83,
+      "last": 1343.66,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.095,
-      "chg3m": -2.65
+      "pct52": 0.094,
+      "chg3m": -2.67
     },
     "^GSPC": {
       "last": 7237.17,
@@ -101,18 +101,18 @@
       "chg3m": -7.81
     },
     "^VIX": {
-      "last": 29.28,
+      "last": 29.65,
       "low52": 13.47,
       "high52": 35.89,
-      "pct52": 0.705,
-      "chg3m": 102.91
+      "pct52": 0.722,
+      "chg3m": 105.47
     },
     "^TNX": {
-      "last": 4.9,
+      "last": 4.89,
       "low52": 3.96,
       "high52": 5.31,
-      "pct52": 0.692,
-      "chg3m": 4.79
+      "pct52": 0.689,
+      "chg3m": 4.71
     }
   },
   "regime": {
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChMrHEDYE"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChMs5AGRz"
   },
   "stocks": {
     "kr": {
@@ -379,6 +379,17 @@
         "by": "rules"
       },
       {
+        "title": "못믿을 증권사들…\"하이닉스 350만 간다더니 200만원으로 뚝\" [분석+]",
+        "link": "https://www.hankyung.com/article/2026112479007",
+        "source": "한국경제",
+        "date": "Tue, 24 Nov 2026 19:46:13 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
         "title": "“기업들, 탄소가격 따른 영업이익 변화까지 보여줘야”",
         "link": "https://www.mk.co.kr/news/stock/12217452",
         "source": "매일경제",
@@ -401,21 +412,10 @@
         "by": "rules"
       },
       {
-        "title": "국민연금 때문에 꼬인 증시 수급...“증안펀드 10조론 역부족” [최재원의 마켓워치]",
-        "link": "https://www.mk.co.kr/news/stock/12217441",
-        "source": "매일경제",
-        "date": "Tue, 24 Nov 2026 18:13:39 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "국고채 금리 혼조세…코스피 상승 속 외인 선물 매수(종합)",
-        "link": "https://www.yna.co.kr/view/AKR20261124153751008",
-        "source": "연합뉴스",
-        "date": "Tue, 24 Nov 2026 17:02:04 +0900",
+        "title": "[포토] 코스피 지수 5000탈환",
+        "link": "https://www.hankyung.com/article/202611247854i",
+        "source": "한국경제",
+        "date": "Tue, 24 Nov 2026 18:23:27 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -423,10 +423,10 @@
         "by": "rules"
       },
       {
-        "title": "\"생큐, 젠슨\"… 황 복귀하자마자 '깐부 동맹' 주가 동반급등",
-        "link": "https://www.mk.co.kr/news/stock/12217380",
+        "title": "국민연금 때문에 꼬인 증시 수급...“증안펀드 10조론 역부족” [최재원의 마켓워치]",
+        "link": "https://www.mk.co.kr/news/stock/12217441",
         "source": "매일경제",
-        "date": "Tue, 24 Nov 2026 17:30:53 +09:00",
+        "date": "Tue, 24 Nov 2026 18:13:39 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -2955,7 +2955,7 @@
       "2026-11-21": 1346.13,
       "2026-11-22": 1345.64,
       "2026-11-23": 1341.35,
-      "2026-11-24": 1343.83
+      "2026-11-24": 1343.66
     },
     "^GSPC": {
       "2026-11-13": 7561.67,
@@ -2997,7 +2997,7 @@
       "2026-11-21": 35.89,
       "2026-11-22": 35.89,
       "2026-11-23": 26.62,
-      "2026-11-24": 29.28
+      "2026-11-24": 29.65
     },
     "^TNX": {
       "2026-11-13": 5.1540003,
@@ -3011,7 +3011,7 @@
       "2026-11-21": 4.912,
       "2026-11-22": 4.912,
       "2026-11-23": 4.918,
-      "2026-11-24": 4.896
+      "2026-11-24": 4.892
     },
     "105560.KS": {
       "2026-11-13": 159000,
@@ -3386,10 +3386,9 @@
     }
   },
   "failed": [
-    "news/kr/한국경제: HTTP 403",
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChMrHEDYEvFG19scdqmLX\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChMrHEQh1KXnV2DPFVMw4\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChMrHEYNwCJvD9nzzWjx2\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChMs5AGRzmLpDVjLbXsMA\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChMs5AnwEtWf2zjDiy1my\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChMs5BCzER2FE7edghKMS\"}"
   ]
 }
