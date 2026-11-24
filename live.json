@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-24T00:02:19.025Z",
+  "asOf": "2026-11-24T00:12:39.937Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-23T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1339.74,
-      "prev": 1341.35,
-      "chg": -0.12,
+      "price": 1338.57,
+      "prev": 1344.31005859375,
+      "chg": -0.43,
       "prevDay": "2026-11-23",
-      "basis": "prev-close-memo",
-      "time": "2026-11-24T00:02:07.000Z"
+      "basis": "prev-close-bar",
+      "time": "2026-11-24T00:12:31.000Z"
     },
     "^GSPC": {
       "price": 7237.17,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.077
+    "pct": 0.072
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -23.21
     },
     "KRW=X": {
-      "last": 1339.74,
+      "last": 1338.57,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.077,
-      "chg3m": -3.16
+      "pct52": 0.072,
+      "chg3m": -3.03
     },
     "^GSPC": {
       "last": 7237.17,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChLmjodLc"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChLnXaFxZ"
   },
   "stocks": {
     "kr": {
@@ -368,13 +368,13 @@
   "news": {
     "kr": [
       {
-        "title": "LH, 한국증권금융 꿈나눔재단과 자립준비청년 등 주거지원",
-        "link": "https://www.yna.co.kr/view/AKR20261124033700003",
+        "title": "[속보] 코스피 장초반 5∼6% 급등…매수 사이드카 발동",
+        "link": "https://www.yna.co.kr/view/AKR20261124038100008",
         "source": "연합뉴스",
-        "date": "Tue, 24 Nov 2026 08:53:47 +0900",
+        "date": "Tue, 24 Nov 2026 09:06:54 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -390,24 +390,24 @@
         "by": "rules"
       },
       {
-        "title": "하나증권 “KT, 주가 지나치게 저평가…4만5000원선 매수 추천”",
-        "link": "https://www.mk.co.kr/news/stock/12216749",
+        "title": "[속보] 코스피 5~6%대 급반등 출발…코스닥도 3%대 상승",
+        "link": "https://www.mk.co.kr/news/stock/12216774",
         "source": "매일경제",
-        "date": "Tue, 24 Nov 2026 08:29:15 +09:00",
+        "date": "Tue, 24 Nov 2026 09:05:47 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "한화운용, 글로벌 AI 병목 인프라 투자 ETF 신규 상장",
-        "link": "https://www.yna.co.kr/view/AKR20261124031800008",
+        "title": "코스피, '젠슨황 복귀'에 5~6%대 급등…'5천피' 탈환 시도",
+        "link": "https://www.yna.co.kr/view/AKR20261124037600008",
         "source": "연합뉴스",
-        "date": "Tue, 24 Nov 2026 08:45:28 +0900",
+        "date": "Tue, 24 Nov 2026 09:06:34 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -423,10 +423,10 @@
         "by": "rules"
       },
       {
-        "title": "“앤트로픽 지분 가치 반영 안 돼”…하나증권, SK텔레콤 목표가 14만원 유지",
-        "link": "https://www.mk.co.kr/news/stock/12216744",
+        "title": "다올증권, 현대차 목표가 46만원으로 하향…투자의견은 ‘매수’ 유지",
+        "link": "https://www.mk.co.kr/news/stock/12216772",
         "source": "매일경제",
-        "date": "Tue, 24 Nov 2026 08:17:06 +09:00",
+        "date": "Tue, 24 Nov 2026 09:03:46 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -2955,7 +2955,7 @@
       "2026-11-21": 1346.13,
       "2026-11-22": 1345.64,
       "2026-11-23": 1341.35,
-      "2026-11-24": 1339.74
+      "2026-11-24": 1338.57
     },
     "^GSPC": {
       "2026-11-12": 7592.4,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChLmjodLc2p6KYv9WnmGM\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChLmjp2QuhUR5TSYJxS4c\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChLmjpLWmF348BQfG1hKe\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChLnXaFxZEauuUfrqHsCZ\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChLnXag1gFDWUpNkFW4YL\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChLnXaydA3oqVvpWHDCFJ\"}"
   ]
 }
