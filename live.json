@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-23T23:16:52.978Z",
+  "asOf": "2026-11-24T00:02:19.025Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-23T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1341.35,
-      "prev": 1345.64,
-      "chg": -0.32,
-      "prevDay": "2026-11-22",
+      "price": 1339.74,
+      "prev": 1341.35,
+      "chg": -0.12,
+      "prevDay": "2026-11-23",
       "basis": "prev-close-memo",
-      "time": "2026-11-23T23:16:44.000Z"
+      "time": "2026-11-24T00:02:07.000Z"
     },
     "^GSPC": {
       "price": 7237.17,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.084
+    "pct": 0.077
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -23.21
     },
     "KRW=X": {
-      "last": 1341.35,
+      "last": 1339.74,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.084,
-      "chg3m": -3.05
+      "pct52": 0.077,
+      "chg3m": -3.16
     },
     "^GSPC": {
       "last": 7237.17,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChLiGrfJW"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChLmjodLc"
   },
   "stocks": {
     "kr": {
@@ -368,43 +368,10 @@
   "news": {
     "kr": [
       {
-        "title": "[마켓뷰] '젠슨황 복귀'에 美증시 급등…코스피도 반등하나",
-        "link": "https://www.yna.co.kr/view/AKR20261124022100008",
+        "title": "LH, 한국증권금융 꿈나눔재단과 자립준비청년 등 주거지원",
+        "link": "https://www.yna.co.kr/view/AKR20261124033700003",
         "source": "연합뉴스",
-        "date": "Tue, 24 Nov 2026 08:09:27 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "엔비디아 31% 급등에 美증시 환호…다우 1448P 상승 [젠슨 황 CEO 복귀]",
-        "link": "https://www.hankyung.com/article/202611245513i",
-        "source": "한국경제",
-        "date": "Tue, 24 Nov 2026 06:46:07 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "젠슨 황 돌아오자 엔비디아 31% 폭등…‘반토막’ 코스피도 살아날까",
-        "link": "https://www.mk.co.kr/news/stock/12216740",
-        "source": "매일경제",
-        "date": "Tue, 24 Nov 2026 08:15:22 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "미래에셋증권, 'IB 총괄' 사업부 폐지…도입 1년만",
-        "link": "https://www.yna.co.kr/view/AKR20261123163400008",
-        "source": "연합뉴스",
-        "date": "Mon, 23 Nov 2026 19:00:26 +0900",
+        "date": "Tue, 24 Nov 2026 08:53:47 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -412,10 +379,10 @@
         "by": "rules"
       },
       {
-        "title": "또 녹아내린 삼전닉스…증권가가 바닥 확신 못하는 이유 [분석+]",
-        "link": "https://www.hankyung.com/article/2026112347276",
+        "title": "\"삼전닉스, 최악의 시나리오 상당 부분 반영…주가 회복 전망\"",
+        "link": "https://www.hankyung.com/article/2026112456936",
         "source": "한국경제",
-        "date": "Tue, 24 Nov 2026 06:30:09 +0900",
+        "date": "Tue, 24 Nov 2026 08:42:22 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -423,10 +390,43 @@
         "by": "rules"
       },
       {
-        "title": "주가 폭락 두고 엇갈린 처방…與 “주주 보호” 野 “종부세 폐지”",
-        "link": "https://www.mk.co.kr/news/politics/12216715",
+        "title": "하나증권 “KT, 주가 지나치게 저평가…4만5000원선 매수 추천”",
+        "link": "https://www.mk.co.kr/news/stock/12216749",
         "source": "매일경제",
-        "date": "Tue, 24 Nov 2026 07:15:39 +09:00",
+        "date": "Tue, 24 Nov 2026 08:29:15 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "한화운용, 글로벌 AI 병목 인프라 투자 ETF 신규 상장",
+        "link": "https://www.yna.co.kr/view/AKR20261124031800008",
+        "source": "연합뉴스",
+        "date": "Tue, 24 Nov 2026 08:45:28 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "[오늘의 증권가 콜] 목표주가 2배 뛴 금호건설 vs. 25% 깎인 현대차",
+        "link": "https://www.hankyung.com/article/202611245703i",
+        "source": "한국경제",
+        "date": "Tue, 24 Nov 2026 08:31:16 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "“앤트로픽 지분 가치 반영 안 돼”…하나증권, SK텔레콤 목표가 14만원 유지",
+        "link": "https://www.mk.co.kr/news/stock/12216744",
+        "source": "매일경제",
+        "date": "Tue, 24 Nov 2026 08:17:06 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -448,14 +448,14 @@
         "by": "rules"
       },
       {
-        "title": "Nvidia’s stock is surging again. What to know before chasing the AI rally.",
-        "link": "https://www.marketwatch.com/story/nvidias-stock-is-surging-again-what-to-know-before-chasing-the-ai-rally-226688d7?mod=mw_rss_topstories",
+        "title": "The newest addition to the S&P 500 is a maker of viral ice-cream machines",
+        "link": "https://www.marketwatch.com/story/the-newest-addition-to-the-s-p-500-is-a-maker-of-viral-ice-cream-machines-5c6e209a?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 23 Nov 2026 22:04:00 GMT",
-        "ko": "Nvidia의 주가가 다시 급등하고 있습니다. AI 랠리를 쫓기 전에 알아두어야 할 사항.",
+        "date": "Mon, 23 Nov 2026 23:18:00 GMT",
+        "ko": "S&P 500에 새로 편입된 기업은 입소문을 탄 아이스크림 기계 제조업체입니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -472,11 +472,11 @@
         "by": "rules"
       },
       {
-        "title": "U.S. stocks see best day in more than a year, as return of Jensen Huang revives AI enthusiasm",
-        "link": "https://www.marketwatch.com/story/u-s-stocks-see-best-day-in-more-than-a-year-as-return-of-jensen-huang-revives-ai-enthusiasm-c3b9d274?mod=mw_rss_topstories",
+        "title": "Nvidia’s stock is surging again. What to know before chasing the AI rally.",
+        "link": "https://www.marketwatch.com/story/nvidias-stock-is-surging-again-what-to-know-before-chasing-the-ai-rally-226688d7?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 23 Nov 2026 21:51:00 GMT",
-        "ko": "젠슨 황의 복귀로 AI에 대한 열기가 되살아나면서 미국 주식 시장이 1년 넘게 최고의 하루를 맞이했습니다.",
+        "date": "Mon, 23 Nov 2026 22:04:00 GMT",
+        "ko": "Nvidia의 주가가 다시 급등하고 있습니다. AI 랠리를 쫓기 전에 알아두어야 할 사항.",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -496,14 +496,14 @@
         "by": "rules"
       },
       {
-        "title": "Consumer stocks, seen as safe bet amid cracks in AI trade, were among the S&P 500’s biggest losers Monday",
-        "link": "https://www.marketwatch.com/story/consumer-stocks-seen-as-safe-bet-amid-cracks-in-ai-trade-are-among-the-s-p-500s-biggest-losers-monday-80cf8f81?mod=mw_rss_topstories",
+        "title": "U.S. stocks see best day in more than a year, as return of Jensen Huang revives AI enthusiasm",
+        "link": "https://www.marketwatch.com/story/u-s-stocks-see-best-day-in-more-than-a-year-as-return-of-jensen-huang-revives-ai-enthusiasm-c3b9d274?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 23 Nov 2026 21:45:00 GMT",
-        "ko": "AI 거래의 균열 속에서 안전한 투자로 여겨지는 소비재 주식은 월요일 S&P 500 지수에서 가장 큰 하락폭을 보인 종목 중 하나였습니다.",
+        "date": "Mon, 23 Nov 2026 21:51:00 GMT",
+        "ko": "젠슨 황의 복귀로 AI에 대한 열기가 되살아나면서 미국 주식 시장이 1년 넘게 최고의 하루를 맞이했습니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -511,7 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "An overlooked energy source could solve AI’s power crunch — and these 2 stocks are prime plays": "간과된 에너지원은 AI의 전력 위기를 해결할 수 있습니다. 이 두 가지 주식은 프라임 플레이입니다.",
     "S&P 500 is looking over the edge of a technical cliff — what happens if it falls off?": "S&P 500은 기술적 절벽의 가장자리를 바라보고 있습니다. 떨어지면 어떻게 됩니까?",
     "Super Micro’s stock pops as earnings show booming demand for AI servers": "AI 서버에 대한 수요가 호황을 누리면서 Super Micro의 주가가 급등하고 있습니다.",
     "Anthropic’s IPO is a high-stakes referendum on Big Tech — and this chart proves it": "Anthropic의 IPO는 Big Tech에 대한 높은 지분의 국민 투표이며, 이 차트는 이를 증명합니다.",
@@ -810,7 +809,8 @@
     "Jensen Huang’s return to Nvidia saved the stock market — for now. Will the rebound last?": "젠슨 황의 엔비디아 복귀가 당분간 주식시장을 구해 주었습니다. 이 반등이 지속될까요?",
     "Nvidia’s stock is surging again. What to know before chasing the AI rally.": "Nvidia의 주가가 다시 급등하고 있습니다. AI 랠리를 쫓기 전에 알아두어야 할 사항.",
     "U.S. stocks see best day in more than a year, as return of Jensen Huang revives AI enthusiasm": "젠슨 황의 복귀로 AI에 대한 열기가 되살아나면서 미국 주식 시장이 1년 넘게 최고의 하루를 맞이했습니다.",
-    "Consumer stocks, seen as safe bet amid cracks in AI trade, were among the S&P 500’s biggest losers Monday": "AI 거래의 균열 속에서 안전한 투자로 여겨지는 소비재 주식은 월요일 S&P 500 지수에서 가장 큰 하락폭을 보인 종목 중 하나였습니다."
+    "Consumer stocks, seen as safe bet amid cracks in AI trade, were among the S&P 500’s biggest losers Monday": "AI 거래의 균열 속에서 안전한 투자로 여겨지는 소비재 주식은 월요일 S&P 500 지수에서 가장 큰 하락폭을 보인 종목 중 하나였습니다.",
+    "The newest addition to the S&P 500 is a maker of viral ice-cream machines": "S&P 500에 새로 편입된 기업은 입소문을 탄 아이스크림 기계 제조업체입니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2944,7 +2944,6 @@
       "2026-11-24": 635.45
     },
     "KRW=X": {
-      "2026-11-12": 1334.48,
       "2026-11-13": 1335.11,
       "2026-11-14": 1336.2,
       "2026-11-15": 1335.75,
@@ -2955,7 +2954,8 @@
       "2026-11-20": 1346.13,
       "2026-11-21": 1346.13,
       "2026-11-22": 1345.64,
-      "2026-11-23": 1341.35
+      "2026-11-23": 1341.35,
+      "2026-11-24": 1339.74
     },
     "^GSPC": {
       "2026-11-12": 7592.4,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChLiGrfJWG4qitvm4TLCS\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChLiGs1tpQLboro7FBoyc\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChLiGsHmBjpMdXxz3kmSc\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChLmjodLc2p6KYv9WnmGM\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChLmjp2QuhUR5TSYJxS4c\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChLmjpLWmF348BQfG1hKe\"}"
   ]
 }
