@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-24T10:51:22.568Z",
+  "asOf": "2026-11-24T11:51:47.079Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -8,7 +8,7 @@
       "chg": 6.32,
       "prevDay": "2026-11-23",
       "basis": "prev-close-bar",
-      "time": "2026-11-24T06:30:40.000Z"
+      "time": "2026-11-24T11:05:40.000Z"
     },
     "^KQ11": {
       "price": 665.88,
@@ -16,15 +16,15 @@
       "chg": 4.79,
       "prevDay": "2026-11-23",
       "basis": "prev-close-bar",
-      "time": "2026-11-24T06:33:00.000Z"
+      "time": "2026-11-24T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1343.48,
+      "price": 1343.11,
       "prev": 1344.31005859375,
-      "chg": -0.06,
+      "chg": -0.09,
       "prevDay": "2026-11-23",
       "basis": "prev-close-bar",
-      "time": "2026-11-24T10:51:13.000Z"
+      "time": "2026-11-24T11:51:31.000Z"
     },
     "^GSPC": {
       "price": 7237.17,
@@ -43,12 +43,12 @@
       "time": "2026-11-23T22:15:59.000Z"
     },
     "^VIX": {
-      "price": 27.89,
+      "price": 28.84,
       "prev": 26.6200008392334,
-      "chg": 4.77,
+      "chg": 8.34,
       "prevDay": "2026-11-23",
       "basis": "prev-close-bar",
-      "time": "2026-11-24T10:36:01.000Z"
+      "time": "2026-11-24T11:36:31.000Z"
     },
     "^TNX": {
       "price": 4.918,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.093
+    "pct": 0.092
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -18.13
     },
     "KRW=X": {
-      "last": 1343.48,
+      "last": 1343.11,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.093,
-      "chg3m": -2.68
+      "pct52": 0.092,
+      "chg3m": -2.7
     },
     "^GSPC": {
       "last": 7237.17,
@@ -101,11 +101,11 @@
       "chg3m": -7.81
     },
     "^VIX": {
-      "last": 27.89,
+      "last": 28.84,
       "low52": 13.47,
       "high52": 35.89,
-      "pct52": 0.643,
-      "chg3m": 93.28
+      "pct52": 0.686,
+      "chg3m": 99.86
     },
     "^TNX": {
       "last": 4.92,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChMdEVbth"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChMhqgBLJ"
   },
   "stocks": {
     "kr": {
@@ -379,13 +379,24 @@
         "by": "rules"
       },
       {
-        "title": "[포토] 코스피 지수 5000탈환",
-        "link": "https://www.hankyung.com/article/202611247854i",
+        "title": "못믿을 증권사들…\"하이닉스 350만 간다더니 200만원으로 뚝\" [분석+]",
+        "link": "https://www.hankyung.com/article/2026112479007",
         "source": "한국경제",
-        "date": "Tue, 24 Nov 2026 18:23:27 +0900",
+        "date": "Tue, 24 Nov 2026 19:46:13 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "“기업들, 탄소가격 따른 영업이익 변화까지 보여줘야”",
+        "link": "https://www.mk.co.kr/news/stock/12217452",
+        "source": "매일경제",
+        "date": "Tue, 24 Nov 2026 18:57:02 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -401,21 +412,10 @@
         "by": "rules"
       },
       {
-        "title": "[단독] 다올證 인수전, DB·유진·LF 참전하나",
-        "link": "https://www.hankyung.com/article/2026112476371",
+        "title": "[포토] 코스피 지수 5000탈환",
+        "link": "https://www.hankyung.com/article/202611247854i",
         "source": "한국경제",
-        "date": "Tue, 24 Nov 2026 17:50:15 +0900",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": null,
-        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
-        "by": "rules"
-      },
-      {
-        "title": "국고채 금리 혼조세…코스피 상승 속 외인 선물 매수(종합)",
-        "link": "https://www.yna.co.kr/view/AKR20261124153751008",
-        "source": "연합뉴스",
-        "date": "Tue, 24 Nov 2026 17:02:04 +0900",
+        "date": "Tue, 24 Nov 2026 18:23:27 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -423,10 +423,10 @@
         "by": "rules"
       },
       {
-        "title": "[단독] 'IB 특화' 다올투자증권 경영권 판다",
-        "link": "https://www.hankyung.com/article/2026112477551",
-        "source": "한국경제",
-        "date": "Tue, 24 Nov 2026 17:48:44 +0900",
+        "title": "국민연금 때문에 꼬인 증시 수급...“증안펀드 10조론 역부족” [최재원의 마켓워치]",
+        "link": "https://www.mk.co.kr/news/stock/12217441",
+        "source": "매일경제",
+        "date": "Tue, 24 Nov 2026 18:13:39 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -448,11 +448,11 @@
         "by": "rules"
       },
       {
-        "title": "HPE just posted its strongest growth ever — but its stock is sinking",
-        "link": "https://www.marketwatch.com/story/hpe-just-posted-its-strongest-growth-ever-and-its-stock-is-tacking-on-more-big-gains-4421cebb?mod=mw_rss_topstories",
+        "title": "The ‘epic’ buying of retail investors paid off after Nvidia’s 31% stock surge, says strategist",
+        "link": "https://www.marketwatch.com/story/the-epic-buying-of-retail-investors-paid-off-after-nvidias-31-stock-surge-says-strategist-c8f9a502?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Tue, 24 Nov 2026 01:01:00 GMT",
-        "ko": "HPE, 사상 최대의 성장률을 기록했지만 주가는 하락세",
+        "date": "Tue, 24 Nov 2026 11:39:00 GMT",
+        "ko": "전략가는 엔비디아 주가가 31% 급등한 후 개인 투자자들의 '대규모' 매수가 성과를 거뒀다고 말합니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -472,14 +472,14 @@
         "by": "rules"
       },
       {
-        "title": "The newest addition to the S&P 500 is a maker of viral ice-cream machines",
-        "link": "https://www.marketwatch.com/story/the-newest-addition-to-the-s-p-500-is-a-maker-of-viral-ice-cream-machines-5c6e209a?mod=mw_rss_topstories",
+        "title": "HPE just posted its strongest growth ever — but its stock is sinking",
+        "link": "https://www.marketwatch.com/story/hpe-just-posted-its-strongest-growth-ever-and-its-stock-is-tacking-on-more-big-gains-4421cebb?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 23 Nov 2026 23:18:00 GMT",
-        "ko": "S&P 500에 새로 편입된 기업은 입소문을 탄 아이스크림 기계 제조업체입니다.",
+        "date": "Tue, 24 Nov 2026 01:01:00 GMT",
+        "ko": "HPE, 사상 최대의 성장률을 기록했지만 주가는 하락세",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -496,14 +496,14 @@
         "by": "rules"
       },
       {
-        "title": "Nvidia’s stock is surging again. What to know before chasing the AI rally.",
-        "link": "https://www.marketwatch.com/story/nvidias-stock-is-surging-again-what-to-know-before-chasing-the-ai-rally-226688d7?mod=mw_rss_topstories",
+        "title": "The newest addition to the S&P 500 is a maker of viral ice-cream machines",
+        "link": "https://www.marketwatch.com/story/the-newest-addition-to-the-s-p-500-is-a-maker-of-viral-ice-cream-machines-5c6e209a?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Mon, 23 Nov 2026 22:04:00 GMT",
-        "ko": "Nvidia의 주가가 다시 급등하고 있습니다. AI 랠리를 쫓기 전에 알아두어야 할 사항.",
+        "date": "Mon, 23 Nov 2026 23:18:00 GMT",
+        "ko": "S&P 500에 새로 편입된 기업은 입소문을 탄 아이스크림 기계 제조업체입니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -511,7 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "Super Micro’s stock pops as earnings show booming demand for AI servers": "AI 서버에 대한 수요가 호황을 누리면서 Super Micro의 주가가 급등하고 있습니다.",
     "Anthropic’s IPO is a high-stakes referendum on Big Tech — and this chart proves it": "Anthropic의 IPO는 Big Tech에 대한 높은 지분의 국민 투표이며, 이 차트는 이를 증명합니다.",
     "AI’s control over the bond market is growing — even rivaling war and elections": "채권 시장에 대한 AI의 통제력은 점점 더 커지고 있습니다. 심지어 전쟁과 선거에 필적할 정도입니다.",
     "Here’s why AMD’s stock is rising — and sending a confident message about the AI trade": "AMD의 주가가 상승하고 AI 거래에 대한 자신감 있는 메시지를 보내는 이유는 다음과 같습니다.",
@@ -810,7 +809,8 @@
     "U.S. stocks see best day in more than a year, as return of Jensen Huang revives AI enthusiasm": "젠슨 황의 복귀로 AI에 대한 열기가 되살아나면서 미국 주식 시장이 1년 넘게 최고의 하루를 맞이했습니다.",
     "Consumer stocks, seen as safe bet amid cracks in AI trade, were among the S&P 500’s biggest losers Monday": "AI 거래의 균열 속에서 안전한 투자로 여겨지는 소비재 주식은 월요일 S&P 500 지수에서 가장 큰 하락폭을 보인 종목 중 하나였습니다.",
     "The newest addition to the S&P 500 is a maker of viral ice-cream machines": "S&P 500에 새로 편입된 기업은 입소문을 탄 아이스크림 기계 제조업체입니다.",
-    "HPE just posted its strongest growth ever — but its stock is sinking": "HPE, 사상 최대의 성장률을 기록했지만 주가는 하락세"
+    "HPE just posted its strongest growth ever — but its stock is sinking": "HPE, 사상 최대의 성장률을 기록했지만 주가는 하락세",
+    "The ‘epic’ buying of retail investors paid off after Nvidia’s 31% stock surge, says strategist": "전략가는 엔비디아 주가가 31% 급등한 후 개인 투자자들의 '대규모' 매수가 성과를 거뒀다고 말합니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2955,7 +2955,7 @@
       "2026-11-21": 1346.13,
       "2026-11-22": 1345.64,
       "2026-11-23": 1341.35,
-      "2026-11-24": 1343.48
+      "2026-11-24": 1343.11
     },
     "^GSPC": {
       "2026-11-13": 7561.67,
@@ -2997,7 +2997,7 @@
       "2026-11-21": 35.89,
       "2026-11-22": 35.89,
       "2026-11-23": 26.62,
-      "2026-11-24": 27.89
+      "2026-11-24": 28.84
     },
     "^TNX": {
       "2026-11-13": 5.1540003,
@@ -3386,10 +3386,9 @@
     }
   },
   "failed": [
-    "news/kr/매일경제: fetch failed",
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChMdEVbthWG4mCPhqBk8m\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChMdEWDrpQ1HnNSmLMEv4\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChMdEWbRLdxbcmdzNeY2N\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChMhqgBLJki25nQ9YcsF5\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChMhqgfbxMbwqpKFd7ufk\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChMhqh1BtVEN3KEW8gzvX\"}"
   ]
 }
