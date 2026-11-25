@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-24T23:13:33.306Z",
+  "asOf": "2026-11-25T00:01:56.430Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-24T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1340.92,
-      "prev": 1344.31005859375,
-      "chg": -0.25,
-      "prevDay": "2026-11-23",
-      "basis": "prev-close-bar",
-      "time": "2026-11-24T23:13:18.000Z"
+      "price": 1343.98,
+      "prev": 1340.92,
+      "chg": 0.23,
+      "prevDay": "2026-11-24",
+      "basis": "prev-close-memo",
+      "time": "2026-11-25T00:01:28.000Z"
     },
     "^GSPC": {
       "price": 7201.09,
@@ -62,14 +62,14 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.082
+    "pct": 0.095
   },
   "hist": {
     "^KS11": {
       "last": 4708.54,
-      "low52": 3846.06,
+      "low52": 3857.78,
       "high52": 9114.55,
-      "pct52": 0.164,
+      "pct52": 0.162,
       "chg3m": -31.89
     },
     "^KQ11": {
@@ -80,11 +80,11 @@
       "chg3m": -20.76
     },
     "KRW=X": {
-      "last": 1340.92,
+      "last": 1343.98,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.082,
-      "chg3m": -2.86
+      "pct52": 0.095,
+      "chg3m": -2.64
     },
     "^GSPC": {
       "last": 7201.09,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChNbq3hAi"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChNfX4F8A"
   },
   "stocks": {
     "kr": {
@@ -368,10 +368,21 @@
   "news": {
     "kr": [
       {
-        "title": "마지막 금리인상에 베팅?…외인, 금통위 앞두고 국채선물 대량 매수",
-        "link": "https://www.yna.co.kr/view/AKR20261124171200008",
+        "title": "하나증권 \"PCB 업종 업사이클 공급 부족 등으로 내년 지속\"",
+        "link": "https://www.yna.co.kr/view/AKR20261125030500008",
         "source": "연합뉴스",
-        "date": "Wed, 25 Nov 2026 08:00:02 +0900",
+        "date": "Wed, 25 Nov 2026 08:53:27 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "은행株, 코스피 앞질렀지만…증권가 '방심 말라' 조언 나오는 이유",
+        "link": "https://www.hankyung.com/article/202611258310i",
+        "source": "한국경제",
+        "date": "Wed, 25 Nov 2026 08:32:19 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -379,32 +390,10 @@
         "by": "rules"
       },
       {
-        "title": "\"SK하이닉스 Y1 발주 시작…반도체 소부장 '새 성장 사이클'\"-한화",
-        "link": "https://www.hankyung.com/article/2026112582396",
-        "source": "한국경제",
-        "date": "Wed, 25 Nov 2026 07:45:57 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "“CJ제일제당, 잃을 것 없는 주가…내년 식품·바이오 실적 개선 기대”",
-        "link": "https://www.mk.co.kr/news/stock/12217698",
+        "title": "애크먼 “연준 금리 올리면 내년 침체올수도”",
+        "link": "https://www.mk.co.kr/news/business/12217729",
         "source": "매일경제",
-        "date": "Wed, 25 Nov 2026 07:37:36 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "company",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "[마켓뷰] 美기술주 다시 하락…코스피, 또 '5천피' 사수 시험대",
-        "link": "https://www.yna.co.kr/view/AKR20261125022300008",
-        "source": "연합뉴스",
-        "date": "Wed, 25 Nov 2026 07:59:01 +0900",
+        "date": "Wed, 25 Nov 2026 08:44:53 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -412,10 +401,10 @@
         "by": "rules"
       },
       {
-        "title": "'AI 기대주' 앤트로픽 상장 나흘 만에 공모가 밑으로 추락",
-        "link": "https://www.hankyung.com/article/2026112582087",
-        "source": "한국경제",
-        "date": "Wed, 25 Nov 2026 07:22:52 +0900",
+        "title": "신한증권, 리노공업 목표가↓…\"파업으로 생산 차질 영향\"",
+        "link": "https://www.yna.co.kr/view/AKR20261125031500008",
+        "source": "연합뉴스",
+        "date": "Wed, 25 Nov 2026 08:51:14 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -423,13 +412,24 @@
         "by": "rules"
       },
       {
-        "title": "증시 구원투수 ‘증안펀드’ 안통한다?…“그럼 2배로” 확대나선 대만",
-        "link": "https://www.mk.co.kr/news/stock/12217684",
-        "source": "매일경제",
-        "date": "Wed, 25 Nov 2026 07:08:59 +09:00",
+        "title": "삼성 코스닥 액티브 ETF가 픽했는데…8개월 만에 76% '폭락' [종목+]",
+        "link": "https://www.hankyung.com/article/2026112469786",
+        "source": "한국경제",
+        "date": "Wed, 25 Nov 2026 08:30:04 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "“팔면 오르고 사면 떨어지고”…‘롤러코스피’에 갈피 못 잡는 개미들",
+        "link": "https://www.mk.co.kr/news/stock/12217723",
+        "source": "매일경제",
+        "date": "Wed, 25 Nov 2026 08:26:16 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -448,14 +448,14 @@
         "by": "rules"
       },
       {
-        "title": "Anthropic’s stock just broke below its IPO price for the first time",
-        "link": "https://www.marketwatch.com/story/anthropics-stock-just-broke-below-its-ipo-price-for-the-first-time-5dc82668?mod=mw_rss_topstories",
+        "title": "Dell’s stock rises as the AI boom helps sales more than double",
+        "link": "https://www.marketwatch.com/story/dells-stock-rises-as-the-ai-boom-helps-sales-more-than-double-cfb8cf65?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Tue, 24 Nov 2026 21:46:00 GMT",
-        "ko": "Anthropic의 주가가 처음으로 IPO 가격을 하회했습니다.",
+        "date": "Tue, 24 Nov 2026 23:34:00 GMT",
+        "ko": "AI 붐으로 매출이 두 배 이상 증가하면서 Dell의 주가가 상승했습니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -472,11 +472,11 @@
         "by": "rules"
       },
       {
-        "title": "HPE just posted its strongest growth ever — but its stock is sinking",
-        "link": "https://www.marketwatch.com/story/hpe-just-posted-its-strongest-growth-ever-and-its-stock-is-tacking-on-more-big-gains-4421cebb?mod=mw_rss_topstories",
+        "title": "Anthropic’s stock just broke below its IPO price for the first time",
+        "link": "https://www.marketwatch.com/story/anthropics-stock-just-broke-below-its-ipo-price-for-the-first-time-5dc82668?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Tue, 24 Nov 2026 21:45:00 GMT",
-        "ko": "HPE, 사상 최대의 성장률을 기록했지만 주가는 하락세",
+        "date": "Tue, 24 Nov 2026 21:46:00 GMT",
+        "ko": "Anthropic의 주가가 처음으로 IPO 가격을 하회했습니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -496,11 +496,11 @@
         "by": "rules"
       },
       {
-        "title": "Micron’s stock falls as an analyst warns about a future supply glut",
-        "link": "https://www.marketwatch.com/story/microns-stock-falls-as-an-analyst-warns-about-a-future-supply-glut-f7fbeefb?mod=mw_rss_topstories",
+        "title": "HPE just posted its strongest growth ever — but its stock is sinking",
+        "link": "https://www.marketwatch.com/story/hpe-just-posted-its-strongest-growth-ever-and-its-stock-is-tacking-on-more-big-gains-4421cebb?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Tue, 24 Nov 2026 21:22:00 GMT",
-        "ko": "마이크론 주가 하락, 애널리스트가 향후 공급 과잉을 경고",
+        "date": "Tue, 24 Nov 2026 21:45:00 GMT",
+        "ko": "HPE, 사상 최대의 성장률을 기록했지만 주가는 하락세",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -511,7 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "Datadog’s stock extends steep declines in the wake of earnings": "Datadog의 주식은 수익의 여파로 가파른 하락을 연장합니다",
     "Hospital stocks rally while drugmakers brace for scrutiny. Here’s what the Democratic wave means for healthcare.": "마약 제조사들이 면밀한 조사를 위해 버티는 동안 병원 재고가 집결합니다. 민주당의 물결이 의료에 의미하는 바는 다음과 같습니다.",
     "Watch out for Big Tech companies like Meta and Alphabet issuing more shares and diluting your stock ownership": "Meta 및 Alphabet과 같은 빅 테크 회사가 더 많은 주식을 발행하고 주식 소유권을 희석시키는 것을 조심하십시오.",
     "These 12 stocks are good bets to beat the 10-year Treasury over the next decade": "이 12개의 주식은 향후 10년간의 국고를 이길 수 있는 좋은 베팅입니다.",
@@ -810,7 +809,8 @@
     "Americans don’t like Trump’s tariffs. He’s doubling down anyway — as soon as this week.": "미국인들은 트럼프의 관세를 좋아하지 않습니다. 그는 어쨌든 관세를 두 배로 올릴 예정이며, 이번 주에 바로 시행될 것입니다.",
     "The AI debt market isn’t convinced the worst is over for investors": "AI 부채 시장은 투자자에게 최악의 상황이 끝났다고 확신하지 않습니다.",
     "Micron’s stock falls as an analyst warns about a future supply glut": "마이크론 주가 하락, 애널리스트가 향후 공급 과잉을 경고",
-    "GameStop has been saved by trading cards and even Rolex watches, say Wall Street’s newest bulls": "월스트리트의 최신 강세론자들은 게임스탑이 트레이딩 카드와 심지어 롤렉스 시계 덕분에 살아남았다고 말합니다."
+    "GameStop has been saved by trading cards and even Rolex watches, say Wall Street’s newest bulls": "월스트리트의 최신 강세론자들은 게임스탑이 트레이딩 카드와 심지어 롤렉스 시계 덕분에 살아남았다고 말합니다.",
+    "Dell’s stock rises as the AI boom helps sales more than double": "AI 붐으로 매출이 두 배 이상 증가하면서 Dell의 주가가 상승했습니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2944,7 +2944,6 @@
       "2026-11-25": 665.88
     },
     "KRW=X": {
-      "2026-11-13": 1335.11,
       "2026-11-14": 1336.2,
       "2026-11-15": 1335.75,
       "2026-11-16": 1335.76,
@@ -2955,7 +2954,8 @@
       "2026-11-21": 1346.13,
       "2026-11-22": 1345.64,
       "2026-11-23": 1341.35,
-      "2026-11-24": 1340.92
+      "2026-11-24": 1340.92,
+      "2026-11-25": 1343.98
     },
     "^GSPC": {
       "2026-11-13": 7561.67,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChNbq3hAiEhC5cEAPbSHH\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChNbq4CRZL239NrLAqCwh\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChNbq4dj8ZBkkWZHuuySm\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChNfX4F8AzuDqD77kDDMn\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChNfX4axutJGfo145atud\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChNfX4r5gfmez6Kv4DtFZ\"}"
   ]
 }
