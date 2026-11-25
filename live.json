@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-25T14:14:09.809Z",
+  "asOf": "2026-11-25T14:24:37.224Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-25T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1345.54,
+      "price": 1345.55,
       "prev": 1341.02001953125,
       "chg": 0.34,
       "prevDay": "2026-11-24",
       "basis": "prev-close-bar",
-      "time": "2026-11-25T14:13:51.000Z"
+      "time": "2026-11-25T14:24:15.000Z"
     },
     "^GSPC": {
       "price": 7201.09,
@@ -43,20 +43,20 @@
       "time": "2026-11-24T22:15:59.000Z"
     },
     "^VIX": {
-      "price": 31.5,
+      "price": 31.4,
       "prev": 26.360000610351562,
-      "chg": 19.5,
+      "chg": 19.12,
       "prevDay": "2026-11-24",
       "basis": "prev-close-bar",
-      "time": "2026-11-25T13:58:46.000Z"
+      "time": "2026-11-25T14:09:16.000Z"
     },
     "^TNX": {
-      "price": 4.8380003,
+      "price": 4.84,
       "prev": 4.9039998054504395,
-      "chg": -1.35,
+      "chg": -1.31,
       "prevDay": "2026-11-24",
       "basis": "prev-close-bar",
-      "time": "2026-11-25T13:58:53.000Z"
+      "time": "2026-11-25T14:09:23.000Z"
     }
   },
   "fx": {
@@ -80,7 +80,7 @@
       "chg3m": -21.34
     },
     "KRW=X": {
-      "last": 1345.54,
+      "last": 1345.55,
       "low52": 1321.76,
       "high52": 1554.48,
       "pct52": 0.102,
@@ -101,18 +101,18 @@
       "chg3m": -10.58
     },
     "^VIX": {
-      "last": 31.5,
+      "last": 31.4,
       "low52": 13.47,
       "high52": 35.89,
-      "pct52": 0.804,
-      "chg3m": 111.13
+      "pct52": 0.8,
+      "chg3m": 110.46
     },
     "^TNX": {
       "last": 4.84,
       "low52": 3.96,
       "high52": 5.31,
-      "pct52": 0.649,
-      "chg3m": 2.5
+      "pct52": 0.651,
+      "chg3m": 2.54
     }
   },
   "regime": {
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChPnWKJHc"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChPoJZoSL"
   },
   "stocks": {
     "kr": {
@@ -439,8 +439,32 @@
         "title": "Fed’s preferred inflation gauge accelerated to 3.8% in October, raising the 2027 stakes for the central bank",
         "link": "https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html",
         "source": "CNBC",
-        "date": "Wed, 25 Nov 2026 14:11:08 GMT",
+        "date": "Wed, 25 Nov 2026 14:18:45 GMT",
         "ko": "연준이 선호하는 인플레이션 지표가 10월에 3.8%로 상승하면서 중앙은행의 2027년 전망이 높아졌습니다.",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "U.S. proposes fresh tariffs on China and others as Trump doubles down on his favorite trade weapon",
+        "link": "https://www.marketwatch.com/story/u-s-proposes-fresh-tariffs-on-china-others-as-trump-doubles-down-on-his-favorite-trade-weapon-cd9a1df9?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "date": "Wed, 25 Nov 2026 14:14:00 GMT",
+        "ko": "미국, 중국 및 기타 국가에 대한 새로운 관세 부과 제안. 트럼프 대통령, 자신이 선호하는 무역 수단을 더욱 강화",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": "market",
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
+        "by": "rules"
+      },
+      {
+        "title": "Consumer confidence shoots up after Democrats' midterm victories — though inflation worries persist",
+        "link": "https://www.cnbc.com/2026/11/24/consumer-confidence-november-election-midterm.html",
+        "source": "CNBC",
+        "date": "Tue, 24 Nov 2026 18:34:43 GMT",
+        "ko": "민주당의 중간선거 승리 이후 소비자 신뢰도가 급상승했지만 인플레이션 우려는 여전함",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -460,30 +484,6 @@
         "by": "rules"
       },
       {
-        "title": "Consumer confidence shoots up after Democrats' midterm victories — though inflation worries persist",
-        "link": "https://www.cnbc.com/2026/11/24/consumer-confidence-november-election-midterm.html",
-        "source": "CNBC",
-        "date": "Tue, 24 Nov 2026 18:34:43 GMT",
-        "ko": "민주당의 중간선거 승리 이후 소비자 신뢰도가 급상승했지만 인플레이션 우려는 여전함",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "U.S. proposes fresh tariffs on China, others as Trump doubles down on his favorite trade weapon",
-        "link": "https://www.marketwatch.com/story/u-s-proposes-fresh-tariffs-on-china-others-as-trump-doubles-down-on-his-favorite-trade-weapon-cd9a1df9?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "date": "Wed, 25 Nov 2026 13:30:00 GMT",
-        "ko": "미국, 중국 등 대상 신규 관세 부과 제안... 트럼프, 자신이 선호하는 무역 수단에 더욱 의존",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": "market",
-        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
-        "by": "rules"
-      },
-      {
         "title": "Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices",
         "link": "https://www.cnbc.com/2026/11/20/japan-inflation-cpi-october.html",
         "source": "CNBC",
@@ -496,11 +496,11 @@
         "by": "rules"
       },
       {
-        "title": "The S&P 500 is headed to 8,200 — and downturns like this one are actually part of the reason, says JPMorgan",
+        "title": "The S&P 500 is headed for a 14% gain next year — and downturns like this one are actually part of the reason, says JPMorgan",
         "link": "https://www.marketwatch.com/story/the-s-p-500-is-headed-to-8-200-and-downturns-like-this-one-are-actually-part-of-the-reason-why-says-jpmorgan-b6acae4b?mod=mw_rss_topstories",
         "source": "MarketWatch",
         "date": "Wed, 25 Nov 2026 13:23:00 GMT",
-        "ko": "JPMorgan은 S&P 500 지수가 8,200으로 향하고 있으며, 이러한 하락세가 실제로 그 이유 중 하나라고 말합니다.",
+        "ko": "JP모건은 S&P 500 지수가 내년에 14% 상승할 것으로 전망하며, 이번과 같은 하락세가 실제로 그 이유 중 하나라고 말합니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -511,8 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "This year’s worst-performing S&P 500 stock is finally seeing some major relief": "올해 최악의 실적을 기록한 S&P 500 주가가 마침내 큰 하락세를 보이고 있습니다.",
-    "Figma’s stock dips as investors worry that AI momentum is coming at a high price": "투자자들이 AI 모멘텀이 높은 가격으로 다가오고 있다고 우려함에 따라 Figma의 주가는 하락했습니다.",
     "Most investors are blind to the possibility of a market crash. Here is the five-part strategy to survive one.": "대부분의 투자자들은 시장 붕괴의 가능성에 눈이 멀어 있습니다. 다음은 생존을 위한 5가지 전략입니다.",
     "Dow scores its best day in 18 months in a broad relief rally after Democrats sweep to power in Congress": "다우 지수는 민주당이 의회에서 권력을 장악한 후 광범위한 구호 집회에서 18개월 만에 최고의 날을 기록했습니다.",
     "A prolonged war in Iran is the market’s real ‘black swan,’ says this strategist": "이란과의 장기전은 시장의 진정한 &#39;블랙 스완&#39;이라고 한 전략가는 말합니다.",
@@ -810,7 +808,9 @@
     "U.S. proposes fresh tariffs on China, others as Trump doubles down on his favorite trade weapon": "미국, 중국 등 대상 신규 관세 부과 제안... 트럼프, 자신이 선호하는 무역 수단에 더욱 의존",
     "Fed’s preferred inflation gauge accelerated to 3.8% in October, likely sealing rate hike": "연준이 선호하는 인플레이션 지표가 10월에 3.8%로 상승하며 금리 인상 가능성이 높아짐",
     "Inflation gets worse. Now the Fed no choice but to raise U.S. interest rates.": "인플레이션이 악화되고 있습니다. 이제 연준은 미국 금리를 인상할 수밖에 없습니다.",
-    "Fed’s preferred inflation gauge accelerated to 3.8% in October, raising the 2027 stakes for the central bank": "연준이 선호하는 인플레이션 지표가 10월에 3.8%로 상승하면서 중앙은행의 2027년 전망이 높아졌습니다."
+    "Fed’s preferred inflation gauge accelerated to 3.8% in October, raising the 2027 stakes for the central bank": "연준이 선호하는 인플레이션 지표가 10월에 3.8%로 상승하면서 중앙은행의 2027년 전망이 높아졌습니다.",
+    "U.S. proposes fresh tariffs on China and others as Trump doubles down on his favorite trade weapon": "미국, 중국 및 기타 국가에 대한 새로운 관세 부과 제안. 트럼프 대통령, 자신이 선호하는 무역 수단을 더욱 강화",
+    "The S&P 500 is headed for a 14% gain next year — and downturns like this one are actually part of the reason, says JPMorgan": "JP모건은 S&P 500 지수가 내년에 14% 상승할 것으로 전망하며, 이번과 같은 하락세가 실제로 그 이유 중 하나라고 말합니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2955,7 +2955,7 @@
       "2026-11-22": 1345.64,
       "2026-11-23": 1341.35,
       "2026-11-24": 1340.92,
-      "2026-11-25": 1345.54
+      "2026-11-25": 1345.55
     },
     "^GSPC": {
       "2026-11-14": 7561.67,
@@ -2997,7 +2997,7 @@
       "2026-11-22": 35.89,
       "2026-11-23": 26.62,
       "2026-11-24": 26.36,
-      "2026-11-25": 31.5
+      "2026-11-25": 31.4
     },
     "^TNX": {
       "2026-11-14": 5.154,
@@ -3011,7 +3011,7 @@
       "2026-11-22": 4.912,
       "2026-11-23": 4.918,
       "2026-11-24": 4.904,
-      "2026-11-25": 4.8380003
+      "2026-11-25": 4.84
     },
     "105560.KS": {
       "2026-11-14": 159000,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChPnWKJHctNNvn45fgWjK\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChPnWKfMSCkHsf8ojBHiX\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChPnWKyhrtorUhrfHqP6w\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChPoJZoSL8Svo59y6EFJQ\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChPoJaDzHETvFAHuNbpFj\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChPoJaUdNU68SH1vrVX67\"}"
   ]
 }
