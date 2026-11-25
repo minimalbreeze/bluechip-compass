@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-25T00:01:56.430Z",
+  "asOf": "2026-11-25T00:12:21.862Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -20,10 +20,10 @@
     },
     "KRW=X": {
       "price": 1343.98,
-      "prev": 1340.92,
-      "chg": 0.23,
+      "prev": 1341.02001953125,
+      "chg": 0.22,
       "prevDay": "2026-11-24",
-      "basis": "prev-close-memo",
+      "basis": "prev-close-bar",
       "time": "2026-11-25T00:01:28.000Z"
     },
     "^GSPC": {
@@ -84,7 +84,7 @@
       "low52": 1321.76,
       "high52": 1554.48,
       "pct52": 0.095,
-      "chg3m": -2.64
+      "chg3m": -2.41
     },
     "^GSPC": {
       "last": 7201.09,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChNfX4F8A"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChNgKA9bu"
   },
   "stocks": {
     "kr": {
@@ -368,13 +368,13 @@
   "news": {
     "kr": [
       {
-        "title": "하나증권 \"PCB 업종 업사이클 공급 부족 등으로 내년 지속\"",
-        "link": "https://www.yna.co.kr/view/AKR20261125030500008",
+        "title": "코스피, 하루 만에 3%대 급락 출발…장중 '5천피' 반납",
+        "link": "https://www.yna.co.kr/view/AKR20261125036700008",
         "source": "연합뉴스",
-        "date": "Wed, 25 Nov 2026 08:53:27 +0900",
+        "date": "Wed, 25 Nov 2026 09:05:16 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -390,10 +390,10 @@
         "by": "rules"
       },
       {
-        "title": "애크먼 “연준 금리 올리면 내년 침체올수도”",
-        "link": "https://www.mk.co.kr/news/business/12217729",
+        "title": "“코스피 급락에도 버틴 업종은?”...은행주, 견조한 수익성 배당주로 ‘주목’ [오늘 나온 보고서]",
+        "link": "https://www.mk.co.kr/news/stock/12217742",
         "source": "매일경제",
-        "date": "Wed, 25 Nov 2026 08:44:53 +09:00",
+        "date": "Wed, 25 Nov 2026 09:03:53 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -401,13 +401,13 @@
         "by": "rules"
       },
       {
-        "title": "신한증권, 리노공업 목표가↓…\"파업으로 생산 차질 영향\"",
-        "link": "https://www.yna.co.kr/view/AKR20261125031500008",
+        "title": "[게시판] 대신증권, 고배당 금융상품 매수 이벤트",
+        "link": "https://www.yna.co.kr/view/AKR20261125035800008",
         "source": "연합뉴스",
-        "date": "Wed, 25 Nov 2026 08:51:14 +0900",
+        "date": "Wed, 25 Nov 2026 09:03:24 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -423,10 +423,10 @@
         "by": "rules"
       },
       {
-        "title": "“팔면 오르고 사면 떨어지고”…‘롤러코스피’에 갈피 못 잡는 개미들",
-        "link": "https://www.mk.co.kr/news/stock/12217723",
+        "title": "애크먼 “연준 금리 올리면 내년 침체올수도”",
+        "link": "https://www.mk.co.kr/news/business/12217729",
         "source": "매일경제",
-        "date": "Wed, 25 Nov 2026 08:26:16 +09:00",
+        "date": "Wed, 25 Nov 2026 08:44:53 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChNfX4F8AzuDqD77kDDMn\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChNfX4axutJGfo145atud\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChNfX4r5gfmez6Kv4DtFZ\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChNgKA9buFfngXSP7btqB\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChNgKAXBVei9nJssgj86A\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChNgKApXr8CTrReuWrMAY\"}"
   ]
 }
