@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-25T14:03:46.216Z",
+  "asOf": "2026-11-25T14:14:09.809Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-25T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1345.95,
+      "price": 1345.54,
       "prev": 1341.02001953125,
-      "chg": 0.37,
+      "chg": 0.34,
       "prevDay": "2026-11-24",
       "basis": "prev-close-bar",
-      "time": "2026-11-25T14:03:28.000Z"
+      "time": "2026-11-25T14:13:51.000Z"
     },
     "^GSPC": {
       "price": 7201.09,
@@ -43,26 +43,26 @@
       "time": "2026-11-24T22:15:59.000Z"
     },
     "^VIX": {
-      "price": 31.28,
+      "price": 31.5,
       "prev": 26.360000610351562,
-      "chg": 18.66,
+      "chg": 19.5,
       "prevDay": "2026-11-24",
       "basis": "prev-close-bar",
-      "time": "2026-11-25T13:48:31.000Z"
+      "time": "2026-11-25T13:58:46.000Z"
     },
     "^TNX": {
-      "price": 4.842,
+      "price": 4.8380003,
       "prev": 4.9039998054504395,
-      "chg": -1.26,
+      "chg": -1.35,
       "prevDay": "2026-11-24",
       "basis": "prev-close-bar",
-      "time": "2026-11-25T13:48:33.000Z"
+      "time": "2026-11-25T13:58:53.000Z"
     }
   },
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.104
+    "pct": 0.102
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -21.34
     },
     "KRW=X": {
-      "last": 1345.95,
+      "last": 1345.54,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.104,
-      "chg3m": -2.26
+      "pct52": 0.102,
+      "chg3m": -2.29
     },
     "^GSPC": {
       "last": 7201.09,
@@ -101,18 +101,18 @@
       "chg3m": -10.58
     },
     "^VIX": {
-      "last": 31.28,
+      "last": 31.5,
       "low52": 13.47,
       "high52": 35.89,
-      "pct52": 0.794,
-      "chg3m": 109.65
+      "pct52": 0.804,
+      "chg3m": 111.13
     },
     "^TNX": {
       "last": 4.84,
       "low52": 3.96,
       "high52": 5.31,
-      "pct52": 0.652,
-      "chg3m": 2.58
+      "pct52": 0.649,
+      "chg3m": 2.5
     }
   },
   "regime": {
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChPmiM78z"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChPnWKJHc"
   },
   "stocks": {
     "kr": {
@@ -436,11 +436,11 @@
     ],
     "us": [
       {
-        "title": "Fed’s preferred inflation gauge accelerated to 3.8% in October, likely sealing rate hike",
+        "title": "Fed’s preferred inflation gauge accelerated to 3.8% in October, raising the 2027 stakes for the central bank",
         "link": "https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html",
         "source": "CNBC",
-        "date": "Wed, 25 Nov 2026 13:47:28 GMT",
-        "ko": "연준이 선호하는 인플레이션 지표가 10월에 3.8%로 상승하며 금리 인상 가능성이 높아짐",
+        "date": "Wed, 25 Nov 2026 14:11:08 GMT",
+        "ko": "연준이 선호하는 인플레이션 지표가 10월에 3.8%로 상승하면서 중앙은행의 2027년 전망이 높아졌습니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -511,7 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "These stocks soared the most today after the Democrats trounced Trump": "이 주가는 민주당이 트럼프를 괴롭힌 후 오늘 가장 많이 치솟았다.",
     "This year’s worst-performing S&P 500 stock is finally seeing some major relief": "올해 최악의 실적을 기록한 S&P 500 주가가 마침내 큰 하락세를 보이고 있습니다.",
     "Figma’s stock dips as investors worry that AI momentum is coming at a high price": "투자자들이 AI 모멘텀이 높은 가격으로 다가오고 있다고 우려함에 따라 Figma의 주가는 하락했습니다.",
     "Most investors are blind to the possibility of a market crash. Here is the five-part strategy to survive one.": "대부분의 투자자들은 시장 붕괴의 가능성에 눈이 멀어 있습니다. 다음은 생존을 위한 5가지 전략입니다.",
@@ -810,7 +809,8 @@
     "Liquidity peaked. First bitcoin fell, then gold and now stocks. How long the downturn will last, according to this veteran strategist.": "유동성이 정점을 찍었습니다. 먼저 비트코인이 하락했고, 그 다음에는 금이 하락했으며, 이제는 주식이 하락하고 있습니다. 이 베테랑 전략가에 따르면, 이번 하락세는 얼마나 지속될까요?",
     "U.S. proposes fresh tariffs on China, others as Trump doubles down on his favorite trade weapon": "미국, 중국 등 대상 신규 관세 부과 제안... 트럼프, 자신이 선호하는 무역 수단에 더욱 의존",
     "Fed’s preferred inflation gauge accelerated to 3.8% in October, likely sealing rate hike": "연준이 선호하는 인플레이션 지표가 10월에 3.8%로 상승하며 금리 인상 가능성이 높아짐",
-    "Inflation gets worse. Now the Fed no choice but to raise U.S. interest rates.": "인플레이션이 악화되고 있습니다. 이제 연준은 미국 금리를 인상할 수밖에 없습니다."
+    "Inflation gets worse. Now the Fed no choice but to raise U.S. interest rates.": "인플레이션이 악화되고 있습니다. 이제 연준은 미국 금리를 인상할 수밖에 없습니다.",
+    "Fed’s preferred inflation gauge accelerated to 3.8% in October, raising the 2027 stakes for the central bank": "연준이 선호하는 인플레이션 지표가 10월에 3.8%로 상승하면서 중앙은행의 2027년 전망이 높아졌습니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2955,7 +2955,7 @@
       "2026-11-22": 1345.64,
       "2026-11-23": 1341.35,
       "2026-11-24": 1340.92,
-      "2026-11-25": 1345.95
+      "2026-11-25": 1345.54
     },
     "^GSPC": {
       "2026-11-14": 7561.67,
@@ -2997,7 +2997,7 @@
       "2026-11-22": 35.89,
       "2026-11-23": 26.62,
       "2026-11-24": 26.36,
-      "2026-11-25": 31.28
+      "2026-11-25": 31.5
     },
     "^TNX": {
       "2026-11-14": 5.154,
@@ -3011,7 +3011,7 @@
       "2026-11-22": 4.912,
       "2026-11-23": 4.918,
       "2026-11-24": 4.904,
-      "2026-11-25": 4.842
+      "2026-11-25": 4.8380003
     },
     "105560.KS": {
       "2026-11-14": 159000,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChPmiM78ze5PVSY2satMe\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChPmiMWSpweNJYj9QsF3E\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChPmiMqZ1GF62z6FxVqLW\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChPnWKJHctNNvn45fgWjK\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChPnWKfMSCkHsf8ojBHiX\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChPnWKyhrtorUhrfHqP6w\"}"
   ]
 }
