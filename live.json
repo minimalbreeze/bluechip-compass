@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-25T13:43:02.870Z",
+  "asOf": "2026-11-25T13:53:22.922Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-25T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1345.26,
+      "price": 1345.25,
       "prev": 1341.02001953125,
       "chg": 0.32,
       "prevDay": "2026-11-24",
       "basis": "prev-close-bar",
-      "time": "2026-11-25T13:42:32.000Z"
+      "time": "2026-11-25T13:53:16.000Z"
     },
     "^GSPC": {
       "price": 7201.09,
@@ -43,20 +43,20 @@
       "time": "2026-11-24T22:15:59.000Z"
     },
     "^VIX": {
-      "price": 30.88,
+      "price": 31.33,
       "prev": 26.360000610351562,
-      "chg": 17.15,
+      "chg": 18.85,
       "prevDay": "2026-11-24",
       "basis": "prev-close-bar",
-      "time": "2026-11-25T13:27:46.000Z"
+      "time": "2026-11-25T13:38:16.000Z"
     },
     "^TNX": {
-      "price": 4.848,
+      "price": 4.84,
       "prev": 4.9039998054504395,
-      "chg": -1.14,
+      "chg": -1.31,
       "prevDay": "2026-11-24",
       "basis": "prev-close-bar",
-      "time": "2026-11-25T13:27:43.000Z"
+      "time": "2026-11-25T13:38:13.000Z"
     }
   },
   "fx": {
@@ -80,7 +80,7 @@
       "chg3m": -21.34
     },
     "KRW=X": {
-      "last": 1345.26,
+      "last": 1345.25,
       "low52": 1321.76,
       "high52": 1554.48,
       "pct52": 0.101,
@@ -101,18 +101,18 @@
       "chg3m": -10.58
     },
     "^VIX": {
-      "last": 30.88,
+      "last": 31.33,
       "low52": 13.47,
       "high52": 35.89,
-      "pct52": 0.777,
-      "chg3m": 106.97
+      "pct52": 0.797,
+      "chg3m": 109.99
     },
     "^TNX": {
-      "last": 4.85,
+      "last": 4.84,
       "low52": 3.96,
       "high52": 5.31,
-      "pct52": 0.657,
-      "chg3m": 2.71
+      "pct52": 0.651,
+      "chg3m": 2.54
     }
   },
   "regime": {
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChPk8hCK7"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChPkvQ2jJ"
   },
   "stocks": {
     "kr": {
@@ -439,7 +439,7 @@
         "title": "Fed’s preferred inflation gauge accelerated to 3.8% in October, likely sealing rate hike",
         "link": "https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html",
         "source": "CNBC",
-        "date": "Wed, 25 Nov 2026 13:42:27 GMT",
+        "date": "Wed, 25 Nov 2026 13:47:28 GMT",
         "ko": "연준이 선호하는 인플레이션 지표가 10월에 3.8%로 상승하며 금리 인상 가능성이 높아짐",
         "act": "none",
         "lasting": "temporary",
@@ -2955,7 +2955,7 @@
       "2026-11-22": 1345.64,
       "2026-11-23": 1341.35,
       "2026-11-24": 1340.92,
-      "2026-11-25": 1345.26
+      "2026-11-25": 1345.25
     },
     "^GSPC": {
       "2026-11-14": 7561.67,
@@ -2997,7 +2997,7 @@
       "2026-11-22": 35.89,
       "2026-11-23": 26.62,
       "2026-11-24": 26.36,
-      "2026-11-25": 30.88
+      "2026-11-25": 31.33
     },
     "^TNX": {
       "2026-11-14": 5.154,
@@ -3011,7 +3011,7 @@
       "2026-11-22": 4.912,
       "2026-11-23": 4.918,
       "2026-11-24": 4.904,
-      "2026-11-25": 4.848
+      "2026-11-25": 4.84
     },
     "105560.KS": {
       "2026-11-14": 159000,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChPk8hCK7osKe3MTPKQkG\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChPk8hh5RJnuxQWFgXmun\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChPk8hzwErKQkdabAikRD\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChPkvQ2jJuiaoBpQGouZk\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChPkvQYVHivVZh98j3RUB\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChPkvQv3uQEj2crjhXxRm\"}"
   ]
 }
