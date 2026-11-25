@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-25T22:28:31.006Z",
+  "asOf": "2026-11-25T23:28:51.669Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-25T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1343.19,
+      "price": 1343.99,
       "prev": 1341.02001953125,
-      "chg": 0.16,
+      "chg": 0.22,
       "prevDay": "2026-11-24",
       "basis": "prev-close-bar",
-      "time": "2026-11-25T22:23:52.000Z"
+      "time": "2026-11-25T23:28:26.000Z"
     },
     "^GSPC": {
       "price": 7182.78,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.092
+    "pct": 0.096
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -18.13
     },
     "KRW=X": {
-      "last": 1343.19,
+      "last": 1343.99,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.092,
-      "chg3m": -2.46
+      "pct52": 0.096,
+      "chg3m": -2.41
     },
     "^GSPC": {
       "last": 7182.78,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChQSCmcjy"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChQWofZYD"
   },
   "stocks": {
     "kr": {
@@ -368,21 +368,32 @@
   "news": {
     "kr": [
       {
-        "title": "9월 개인사업자·가계신용대출 부실채권비율 12년 만에 최고",
-        "link": "https://www.yna.co.kr/view/AKR20261125175600002",
+        "title": "중진공, 내달 2일까지 '온라인수출 교육·상담회' 참여기업 공모",
+        "link": "https://www.yna.co.kr/view/AKR20261126025000030",
         "source": "연합뉴스",
-        "date": "Thu, 26 Nov 2026 06:00:00 +0900",
-        "act": "none",
-        "lasting": "temporary",
+        "date": "Thu, 26 Nov 2026 08:11:19 +0900",
+        "act": "watch",
+        "lasting": "structural",
         "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
         "by": "rules"
       },
       {
-        "title": "AI 투자 불안에 극심한 변동장…나스닥 0.6% 하락 [뉴욕증시 브리핑]",
-        "link": "https://www.hankyung.com/article/2026112608776",
+        "title": "\"한화솔루션, 내년 실적 소폭 개선에도 현금흐름 부족…목표가↓\"-유안타",
+        "link": "https://www.hankyung.com/article/2026112609486",
         "source": "한국경제",
-        "date": "Thu, 26 Nov 2026 07:10:55 +0900",
+        "date": "Thu, 26 Nov 2026 08:00:32 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "“외국인 이달에만 15조 팔았는데”…10조원대 증안펀드 확대되나",
+        "link": "https://www.mk.co.kr/news/stock/12218903",
+        "source": "매일경제",
+        "date": "Thu, 26 Nov 2026 08:04:49 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -390,46 +401,35 @@
         "by": "rules"
       },
       {
-        "title": "“삼전닉스보다 네가 효자다”…환율·블프·한중FTA ‘겹호재’ 에이피알",
-        "link": "https://www.mk.co.kr/news/stock/12218837",
-        "source": "매일경제",
-        "date": "Thu, 26 Nov 2026 05:50:50 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "올해 마지막 금통위…금리 3.25%로 올리고 성장전망 상향할듯",
-        "link": "https://www.yna.co.kr/view/AKR20261125128400002",
+        "title": "급락장에 자사주 1일 취득 한도 완화…증시 버팀목 효과는?",
+        "link": "https://www.yna.co.kr/view/AKR20261125170400008",
         "source": "연합뉴스",
-        "date": "Thu, 26 Nov 2026 05:45:01 +0900",
+        "date": "Thu, 26 Nov 2026 08:00:03 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "美 증시 장중 급락 후 회복…AI·금리 불안 여전 [월가 업&다운]",
-        "link": "https://www.hankyung.com/article/202611260827i",
+        "title": "반도체에 울고, 앤트로픽에 서럽고…SK그룹주 한 달 새 238조 증발",
+        "link": "https://www.hankyung.com/article/202611250023i",
         "source": "한국경제",
-        "date": "Thu, 26 Nov 2026 06:27:48 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "국장 믿고 물타던 개미들, 슬슬 돈이 없다…증시 대기자금 88조 증발",
-        "link": "https://www.mk.co.kr/news/stock/12218836",
-        "source": "매일경제",
-        "date": "Thu, 26 Nov 2026 05:50:38 +09:00",
+        "date": "Thu, 26 Nov 2026 07:50:44 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "“한화솔루션, 2027년 실적 소폭 개선 VS 현금흐름 부족” 목표가↓",
+        "link": "https://www.mk.co.kr/news/stock/12218896",
+        "source": "매일경제",
+        "date": "Thu, 26 Nov 2026 07:35:34 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -2955,7 +2955,7 @@
       "2026-11-22": 1345.64,
       "2026-11-23": 1341.35,
       "2026-11-24": 1340.92,
-      "2026-11-25": 1343.19
+      "2026-11-25": 1343.99
     },
     "^GSPC": {
       "2026-11-14": 7561.67,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChQSCmcjydE7oF8JPL4X9\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChQSCn334Q7N3FgwSqjZq\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChQSCnLeN7qG3Y9gua3Ap\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChQWofZYDpGCd62YAU1P1\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChQWofxrDAqyvGFa5MCyq\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChQWogFijxuuQvoHkwDMQ\"}"
   ]
 }
