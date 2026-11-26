@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-26T15:26:37.907Z",
+  "asOf": "2026-11-26T15:37:00.271Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-26T11:05:50.000Z"
     },
     "KRW=X": {
-      "price": 1343.82,
+      "price": 1344.01,
       "prev": 1342.6500244140625,
-      "chg": 0.09,
+      "chg": 0.1,
       "prevDay": "2026-11-25",
       "basis": "prev-close-bar",
-      "time": "2026-11-26T15:26:28.000Z"
+      "time": "2026-11-26T15:36:45.000Z"
     },
     "^GSPC": {
       "price": 7182.78,
@@ -43,12 +43,12 @@
       "time": "2026-11-25T22:15:59.000Z"
     },
     "^VIX": {
-      "price": 26.86,
+      "price": 26.77,
       "prev": 28.290000915527344,
-      "chg": -5.05,
+      "chg": -5.37,
       "prevDay": "2026-11-25",
       "basis": "prev-close-bar",
-      "time": "2026-11-26T15:11:16.000Z"
+      "time": "2026-11-26T15:21:46.000Z"
     },
     "^TNX": {
       "price": 4.848,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.095
+    "pct": 0.096
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -21.34
     },
     "KRW=X": {
-      "last": 1343.82,
+      "last": 1344.01,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.095,
-      "chg3m": -1.67
+      "pct52": 0.096,
+      "chg3m": -1.65
     },
     "^GSPC": {
       "last": 7182.78,
@@ -101,11 +101,11 @@
       "chg3m": -10.67
     },
     "^VIX": {
-      "last": 26.86,
+      "last": 26.77,
       "low52": 13.47,
       "high52": 35.89,
-      "pct52": 0.597,
-      "chg3m": 64.38
+      "pct52": 0.593,
+      "chg3m": 63.83
     },
     "^TNX": {
       "last": 4.85,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChRmqkVGL"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChRnddFEP"
   },
   "stocks": {
     "kr": {
@@ -448,11 +448,11 @@
         "by": "rules"
       },
       {
-        "title": "Futures point to Black Friday gains for Wall Street as global markets welcome U.S. resilience.",
+        "title": "Futures point to Black Friday gains on Wall Street as global markets welcome U.S. resilience",
         "link": "https://www.marketwatch.com/story/futures-point-to-black-friday-gains-for-wall-street-as-global-markets-welcome-u-s-resilience-ad6bcef2?mod=mw_rss_topstories",
         "source": "MarketWatch",
         "date": "Thu, 26 Nov 2026 13:41:00 GMT",
-        "ko": "글로벌 시장이 미국의 회복력을 긍정적으로 평가함에 따라, 선물 지수가 블랙프라이데이의 월스트리트 상승세를 가리키고 있습니다.",
+        "ko": "미국 증시 선물 지수가 블랙프라이데이 상승을 가리키고 있으며, 글로벌 시장은 미국의 회복력을 환영하고 있습니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -511,7 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "As Nvidia’s stock heads for a bear market, bargain hunters see a golden buying opportunity": "엔비디아의 주식이 베어 마켓으로 향함에 따라, 흥정 사냥꾼들은 황금의 구매 기회를 목격합니다.",
     "The ‘Musk selloff’ deepens as Tesla and SpaceX combine for $450 billion two-day wipeout": "‘머스크 매각’ 은 테슬라와 스페이스X가 이틀에 걸쳐 4천5백억 달러 ($) 를 전멸시키면서 더욱 심화됩니다.",
     "After tech-stock rout, October jobs report could bring relief — or more pain": "기술 재고 루트 이후, 10월 일자리 보고서는 완화 또는 더 많은 고통을 가져올 수 있습니다.",
     "The October jobs report is out Friday. Here's everything to expect": "10월 일자리 보고서가 금요일에 나왔습니다. 알아두어야 할 모든 것",
@@ -810,7 +809,8 @@
     "Futures point to Black Friday gains for Wall Street as global markets welcome U.S. resilience.": "글로벌 시장이 미국의 회복력을 긍정적으로 평가함에 따라, 선물 지수가 블랙프라이데이의 월스트리트 상승세를 가리키고 있습니다.",
     "The tech rout should bottom soon, with a 25% rally for the S&P 500 to follow, says Deutsche Bank": "도이체방크는 기술주 폭락이 곧 바닥을 찍고 S&P 500 지수가 25% 상승할 것이라고 전망합니다.",
     "Capital preservation rather than chasing the market higher is how hedge funds are negotiating market volatility": "헤지펀드는 시장 상승을 추구하기보다는 자본 보전을 통해 시장 변동성에 대응하고 있습니다.",
-    "Capital preservation rather than chasing the market is how hedge funds are negotiating this volatility": "헤지펀드는 시장을 추격하기보다는 자본 보전을 통해 이러한 변동성을 극복하고 있습니다."
+    "Capital preservation rather than chasing the market is how hedge funds are negotiating this volatility": "헤지펀드는 시장을 추격하기보다는 자본 보전을 통해 이러한 변동성을 극복하고 있습니다.",
+    "Futures point to Black Friday gains on Wall Street as global markets welcome U.S. resilience": "미국 증시 선물 지수가 블랙프라이데이 상승을 가리키고 있으며, 글로벌 시장은 미국의 회복력을 환영하고 있습니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2955,7 +2955,7 @@
       "2026-11-23": 1341.35,
       "2026-11-24": 1340.92,
       "2026-11-25": 1343.99,
-      "2026-11-26": 1343.82
+      "2026-11-26": 1344.01
     },
     "^GSPC": {
       "2026-11-15": 7561.67,
@@ -2997,7 +2997,7 @@
       "2026-11-23": 26.62,
       "2026-11-24": 26.36,
       "2026-11-25": 28.29,
-      "2026-11-26": 26.86
+      "2026-11-26": 26.77
     },
     "^TNX": {
       "2026-11-15": 5.154,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChRmqkVGLoVaqxVHr3Uey\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChRmqkq6trYjZv5bebFb5\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChRmqm5yyBBvCaj9bP4Nb\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChRnddFEPuqCENZbb6ZtA\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChRnddeHcREaBfJBTxsqX\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChRnddxPrBqVsibiDfdwo\"}"
   ]
 }
