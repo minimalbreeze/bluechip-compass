@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-26T00:02:11.368Z",
+  "asOf": "2026-11-26T00:12:34.622Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-25T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1344.38,
-      "prev": 1343.99,
-      "chg": 0.03,
+      "price": 1343.56,
+      "prev": 1342.6500244140625,
+      "chg": 0.07,
       "prevDay": "2026-11-25",
-      "basis": "prev-close-memo",
-      "time": "2026-11-26T00:02:04.000Z"
+      "basis": "prev-close-bar",
+      "time": "2026-11-26T00:11:07.000Z"
     },
     "^GSPC": {
       "price": 7182.78,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.097
+    "pct": 0.094
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -18.13
     },
     "KRW=X": {
-      "last": 1344.38,
+      "last": 1343.56,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.097,
-      "chg3m": -2.38
+      "pct52": 0.094,
+      "chg3m": -1.69
     },
     "^GSPC": {
       "last": 7182.78,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChQZM4q7p"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChQa91aT6"
   },
   "stocks": {
     "kr": {
@@ -368,10 +368,10 @@
   "news": {
     "kr": [
       {
-        "title": "키움운용, '코스닥150커버드콜' ETF 이달 주당 153원 분배",
-        "link": "https://www.yna.co.kr/view/AKR20261126035500008",
+        "title": "코스피, 장초반 1% 안팎 상승 4,700대…코스닥 2%대 강세",
+        "link": "https://www.yna.co.kr/view/AKR20261126038100008",
         "source": "연합뉴스",
-        "date": "Thu, 26 Nov 2026 08:53:12 +0900",
+        "date": "Thu, 26 Nov 2026 09:05:58 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -390,21 +390,21 @@
         "by": "rules"
       },
       {
-        "title": "버리 “나스닥 숏베팅 접었다” 향후 증시 관전 포인트는",
-        "link": "https://www.mk.co.kr/news/business/12218919",
+        "title": "코스피, 장초반 4750선 회복…삼성전자·SK하이닉스 동반 반등",
+        "link": "https://www.mk.co.kr/news/stock/12218953",
         "source": "매일경제",
-        "date": "Thu, 26 Nov 2026 08:38:06 +09:00",
+        "date": "Thu, 26 Nov 2026 09:11:25 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "신한증권 \"인도 ETF, 반도체 변동성 피난처 부상\"",
-        "link": "https://www.yna.co.kr/view/AKR20261126032700008",
+        "title": "노동장관, 반도체 연구원 만나 \"연구시간 확보·건강권 대립 안해\"",
+        "link": "https://www.yna.co.kr/view/AKR20261125161700530",
         "source": "연합뉴스",
-        "date": "Thu, 26 Nov 2026 08:51:32 +0900",
+        "date": "Thu, 26 Nov 2026 09:00:03 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -423,10 +423,10 @@
         "by": "rules"
       },
       {
-        "title": "“이러다 정말 길거리 나앉을 판”…신용대출 등 부실채권비율 12년만에 최악",
-        "link": "https://www.mk.co.kr/news/economy/12218915",
+        "title": "버리 “나스닥 숏베팅 접었다” 향후 증시 관전 포인트는",
+        "link": "https://www.mk.co.kr/news/business/12218919",
         "source": "매일경제",
-        "date": "Thu, 26 Nov 2026 08:35:15 +09:00",
+        "date": "Thu, 26 Nov 2026 08:38:06 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -2955,7 +2955,7 @@
       "2026-11-23": 1341.35,
       "2026-11-24": 1340.92,
       "2026-11-25": 1343.99,
-      "2026-11-26": 1344.38
+      "2026-11-26": 1343.56
     },
     "^GSPC": {
       "2026-11-14": 7561.67,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChQZM4q7p2UcZuhymdLPm\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChQZM5LdxvP3b6PUbE4fG\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChQZM5jwjXA8wb5rZQcT1\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChQa91aT65NbJrcV8t8Xn\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChQa923yM2SFep4ArsrfL\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChQa92SYAbMbrjr6DpyqQ\"}"
   ]
 }
