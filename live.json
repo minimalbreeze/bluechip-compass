@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-26T15:47:22.258Z",
+  "asOf": "2026-11-26T15:57:45.298Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-26T11:05:50.000Z"
     },
     "KRW=X": {
-      "price": 1343.64,
+      "price": 1343.56,
       "prev": 1342.6500244140625,
       "chg": 0.07,
       "prevDay": "2026-11-25",
       "basis": "prev-close-bar",
-      "time": "2026-11-26T15:47:12.000Z"
+      "time": "2026-11-26T15:57:35.000Z"
     },
     "^GSPC": {
       "price": 7182.78,
@@ -43,12 +43,12 @@
       "time": "2026-11-25T22:15:59.000Z"
     },
     "^VIX": {
-      "price": 26.79,
+      "price": 26.7,
       "prev": 28.290000915527344,
-      "chg": -5.3,
+      "chg": -5.62,
       "prevDay": "2026-11-25",
       "basis": "prev-close-bar",
-      "time": "2026-11-26T15:32:16.000Z"
+      "time": "2026-11-26T15:42:31.000Z"
     },
     "^TNX": {
       "price": 4.848,
@@ -80,11 +80,11 @@
       "chg3m": -21.34
     },
     "KRW=X": {
-      "last": 1343.64,
+      "last": 1343.56,
       "low52": 1321.76,
       "high52": 1554.48,
       "pct52": 0.094,
-      "chg3m": -1.68
+      "chg3m": -1.69
     },
     "^GSPC": {
       "last": 7182.78,
@@ -101,11 +101,11 @@
       "chg3m": -10.67
     },
     "^VIX": {
-      "last": 26.79,
+      "last": 26.7,
       "low52": 13.47,
       "high52": 35.89,
-      "pct52": 0.594,
-      "chg3m": 63.95
+      "pct52": 0.59,
+      "chg3m": 63.4
     },
     "^TNX": {
       "last": 4.85,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChRoRUaNM"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChRpDQKAf"
   },
   "stocks": {
     "kr": {
@@ -379,6 +379,17 @@
         "by": "rules"
       },
       {
+        "title": "\"주식으로 와이프 가방 사줬습니다\"…사진 보니 '눈물'",
+        "link": "https://www.hankyung.com/article/2026112633497",
+        "source": "한국경제",
+        "date": "Thu, 26 Nov 2026 19:52:57 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
         "title": "금리 올렸는데 은행주 왜 파래요…한발 먼저 가는 주식 ‘선반영’ 해석",
         "link": "https://www.mk.co.kr/news/stock/12219785",
         "source": "매일경제",
@@ -401,6 +412,17 @@
         "by": "rules"
       },
       {
+        "title": "단기채 늘린 NH증권, 증권주 줄하락에도 '선방'",
+        "link": "https://www.hankyung.com/article/2026112632111",
+        "source": "한국경제",
+        "date": "Thu, 26 Nov 2026 17:55:04 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
         "title": "제 역할 전혀 못하는 ETF…AI·반도체만 담고 투자자는 단타 친다",
         "link": "https://www.mk.co.kr/news/stock/12219765",
         "source": "매일경제",
@@ -409,28 +431,6 @@
         "lasting": "temporary",
         "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "에이피알, 브랜드501 주식 700억원 규모 취득…\"경영권 확보\"(종합)",
-        "link": "https://www.yna.co.kr/view/AKR20261126162651008",
-        "source": "연합뉴스",
-        "date": "Thu, 26 Nov 2026 17:18:43 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "금리·AI 수익성 우려에 관세까지…여의도 족집게 “반등 시그널 이때 나온다” [머니닥터 시장진단]",
-        "link": "https://www.mk.co.kr/news/stock/12219730",
-        "source": "매일경제",
-        "date": "Thu, 26 Nov 2026 18:00:41 +09:00",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": "market",
-        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
         "by": "rules"
       }
     ],
@@ -2955,7 +2955,7 @@
       "2026-11-23": 1341.35,
       "2026-11-24": 1340.92,
       "2026-11-25": 1343.99,
-      "2026-11-26": 1343.64
+      "2026-11-26": 1343.56
     },
     "^GSPC": {
       "2026-11-15": 7561.67,
@@ -2997,7 +2997,7 @@
       "2026-11-23": 26.62,
       "2026-11-24": 26.36,
       "2026-11-25": 28.29,
-      "2026-11-26": 26.79
+      "2026-11-26": 26.7
     },
     "^TNX": {
       "2026-11-15": 5.154,
@@ -3386,10 +3386,9 @@
     }
   },
   "failed": [
-    "news/kr/한국경제: HTTP 403",
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChRoRUaNM3yGQWMiNaHtK\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChRoRUvTifNkSBmVf8L4U\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChRoRVE4t2qvhS4bEqg6q\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChRpDQKAfsHHPbuY3jzEm\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChRpDQiEShvbSP9WHgiPA\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChRpDQz6rSuqUV4N91P5C\"}"
   ]
 }
