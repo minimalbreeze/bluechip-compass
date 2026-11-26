@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-26T07:42:14.296Z",
+  "asOf": "2026-11-26T08:42:35.638Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-26T06:33:00.000Z"
     },
     "KRW=X": {
-      "price": 1342.28,
+      "price": 1343.18,
       "prev": 1342.6500244140625,
-      "chg": -0.03,
+      "chg": 0.04,
       "prevDay": "2026-11-25",
       "basis": "prev-close-bar",
-      "time": "2026-11-26T07:42:03.000Z"
+      "time": "2026-11-26T08:42:20.000Z"
     },
     "^GSPC": {
       "price": 7182.78,
@@ -43,12 +43,12 @@
       "time": "2026-11-25T22:15:59.000Z"
     },
     "^VIX": {
-      "price": 28.29,
+      "price": 27.06,
       "prev": 28.290000915527344,
-      "chg": 0,
+      "chg": -4.35,
       "prevDay": "2026-11-25",
       "basis": "prev-close-bar",
-      "time": "2026-11-25T21:15:01.000Z"
+      "time": "2026-11-26T08:27:16.000Z"
     },
     "^TNX": {
       "price": 4.848,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.088
+    "pct": 0.092
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -20.7
     },
     "KRW=X": {
-      "last": 1342.28,
+      "last": 1343.18,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.088,
-      "chg3m": -1.78
+      "pct52": 0.092,
+      "chg3m": -1.72
     },
     "^GSPC": {
       "last": 7182.78,
@@ -101,11 +101,11 @@
       "chg3m": -10.67
     },
     "^VIX": {
-      "last": 28.29,
+      "last": 27.06,
       "low52": 13.47,
       "high52": 35.89,
-      "pct52": 0.661,
-      "chg3m": 89.61
+      "pct52": 0.606,
+      "chg3m": 65.61
     },
     "^TNX": {
       "last": 4.85,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChRARokyi"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChRF2kh89"
   },
   "stocks": {
     "kr": {
@@ -368,10 +368,21 @@
   "news": {
     "kr": [
       {
-        "title": "'5G 특화망' 유캐스트, 코스닥 신규 상장…30일 첫 거래",
-        "link": "https://www.yna.co.kr/view/AKR20261126157700008",
+        "title": "한은, 12월 최대 5.7조원 규모 통화안정증권 발행",
+        "link": "https://www.yna.co.kr/view/AKR20261126175000002",
         "source": "연합뉴스",
-        "date": "Thu, 26 Nov 2026 16:28:11 +0900",
+        "date": "Thu, 26 Nov 2026 17:30:05 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "[마감시황] 장 막판 상승폭 반납한 코스피…0.29% 오른 4711.21 마감",
+        "link": "https://www.hankyung.com/article/202611262700i",
+        "source": "한국경제",
+        "date": "Thu, 26 Nov 2026 16:08:03 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -379,21 +390,10 @@
         "by": "rules"
       },
       {
-        "title": "NH투자증권, 이노씨에스알과 네팔 벽돌 탄소감축 MOU",
-        "link": "https://www.hankyung.com/article/2026112626336",
-        "source": "한국경제",
-        "date": "Thu, 26 Nov 2026 15:38:35 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "초고수, 기준금리 인상에 금융주 손 떼고 대한항공 담았다[주식 초고수는 지금]",
-        "link": "https://www.mk.co.kr/news/stock/12219395",
+        "title": "\"증시 안정 위해 반드시 증액\" vs \"지수 방어 효과 제한적\"",
+        "link": "https://www.mk.co.kr/news/stock/12219691",
         "source": "매일경제",
-        "date": "Thu, 26 Nov 2026 15:16:42 +09:00",
+        "date": "Thu, 26 Nov 2026 17:40:54 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -401,10 +401,10 @@
         "by": "rules"
       },
       {
-        "title": "한은, 내년 성장률 4.1%로 대폭 상향…경상흑자 5천400억달러(종합3보)",
-        "link": "https://www.yna.co.kr/view/AKR20261126059053002",
+        "title": "에이피알, 브랜드501 주식 700억원 규모 취득…\"경영권 확보\"(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261126162651008",
         "source": "연합뉴스",
-        "date": "Thu, 26 Nov 2026 16:14:41 +0900",
+        "date": "Thu, 26 Nov 2026 17:18:43 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -412,10 +412,10 @@
         "by": "rules"
       },
       {
-        "title": "“주식보다 낫네”...'年 6%' 우량회사채, JP모간도 주목",
-        "link": "https://www.hankyung.com/article/202611262331i",
+        "title": "증권주 주가 두자릿수 하락할 때...NH투자증권은 선방한 이유",
+        "link": "https://www.hankyung.com/article/202611260989i",
         "source": "한국경제",
-        "date": "Thu, 26 Nov 2026 15:31:38 +0900",
+        "date": "Thu, 26 Nov 2026 15:50:12 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -423,28 +423,28 @@
         "by": "rules"
       },
       {
-        "title": "홈플러스 매각에 1곳 인수의향서 제출…인수여력이 관건",
-        "link": "https://www.mk.co.kr/news/stock/12219327",
+        "title": "삼성SDI도 1.4조원 자사주 전량 소각",
+        "link": "https://www.mk.co.kr/news/stock/12219678",
         "source": "매일경제",
-        "date": "Thu, 26 Nov 2026 14:32:33 +09:00",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": null,
-        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
+        "date": "Thu, 26 Nov 2026 17:40:37 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
     ],
     "us": [
       {
-        "title": "Fed’s preferred inflation gauge accelerated to 3.8% in October, raising the 2027 stakes for the central bank",
-        "link": "https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html",
+        "title": "U.S. tariff-hike threats pile pressure on partners to sign trade deals",
+        "link": "https://www.cnbc.com/2026/11/26/us-tariffs-hike-trade-agreement.html",
         "source": "CNBC",
-        "date": "Wed, 25 Nov 2026 14:18:45 GMT",
-        "ko": "연준이 선호하는 인플레이션 지표가 10월에 3.8%로 상승하면서 중앙은행의 2027년 전망이 높아졌습니다.",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "date": "Thu, 26 Nov 2026 08:09:39 GMT",
+        "ko": "미국의 관세 인상 위협으로 인해 파트너 국가들이 무역 협정에 서명하도록 압박이 가중되고 있습니다.",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": null,
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
         "by": "rules"
       },
       {
@@ -460,11 +460,11 @@
         "by": "rules"
       },
       {
-        "title": "Consumer confidence shoots up after Democrats' midterm victories — though inflation worries persist",
-        "link": "https://www.cnbc.com/2026/11/24/consumer-confidence-november-election-midterm.html",
+        "title": "Fed’s preferred inflation gauge accelerated to 3.8% in October, raising the 2027 stakes for the central bank",
+        "link": "https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html",
         "source": "CNBC",
-        "date": "Tue, 24 Nov 2026 18:34:43 GMT",
-        "ko": "민주당의 중간선거 승리 이후 소비자 신뢰도가 급상승했지만 인플레이션 우려는 여전함",
+        "date": "Wed, 25 Nov 2026 14:18:45 GMT",
+        "ko": "연준이 선호하는 인플레이션 지표가 10월에 3.8%로 상승하면서 중앙은행의 2027년 전망이 높아졌습니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -484,15 +484,15 @@
         "by": "rules"
       },
       {
-        "title": "Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices",
-        "link": "https://www.cnbc.com/2026/11/20/japan-inflation-cpi-october.html",
+        "title": "Consumer confidence shoots up after Democrats' midterm victories — though inflation worries persist",
+        "link": "https://www.cnbc.com/2026/11/24/consumer-confidence-november-election-midterm.html",
         "source": "CNBC",
-        "date": "Fri, 20 Nov 2026 01:49:03 GMT",
-        "ko": "에너지 보조금 만료로 소비자 물가가 상승하면서 일본의 핵심 인플레이션이 올해 최고치를 기록했습니다.",
-        "act": "watch",
-        "lasting": "structural",
+        "date": "Tue, 24 Nov 2026 18:34:43 GMT",
+        "ko": "민주당의 중간선거 승리 이후 소비자 신뢰도가 급상승했지만 인플레이션 우려는 여전함",
+        "act": "none",
+        "lasting": "temporary",
         "scope": "market",
-        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
@@ -511,7 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "Interest rates could go ‘significantly higher’ if oil prices keep climbing — even if the Iran war ends soon": "이란 전쟁이 곧 끝나더라도 유가가 계속 오르면 금리는 ‘상당히 높아질’ 수 있습니다.",
     "An Anthropic IPO when the AI trade is this turbulent? Godspeed!": "AI 거래가 격동적일 때 인류 IPO? 갓스피드!",
     "Micron, Sandisk and other AI stocks are falling hard: ‘Investors don’t like uncertainty’": "마이크론, 샌디스크 및 기타 AI 주식이 강세로 하락하고 있다: ‘투자자들은 불확실성을 좋아하지 않는다’",
     "Bloom Energy’s stock is one of the S&P 500’s biggest losers amid fears of data-center delays": "Bloom Energy의 주식은 데이터 센터 지연의 두려움 속에서 S&P 500의 가장 큰 패자 중 하나입니다.",
@@ -810,7 +809,8 @@
     "Nvidia’s stock has given back a big chunk of Monday’s rally as dip buyers cash in": "엔비디아 주가가 하락 매수세에 힘입어 월요일 상승분의 상당 부분을 회복했습니다.",
     "HP’s stock is a standout gainer in the tech selloff, as an earnings beat still matters": "HP의 주가는 실적 호조가 여전히 중요하기 때문에 기술주 매도세 속에서도 두드러진 상승세를 보이고 있습니다.",
     "Why this stock-market selloff is probably going to get worse before it gets better": "이번 주식 시장 매도세가 나아지기 전에 더 악화될 가능성이 높은 이유",
-    "Is the stock market open for Thanksgiving? The answer might surprise you.": "추수감사절에 주식시장이 열리나요? 답을 듣고 놀라실 수도 있습니다."
+    "Is the stock market open for Thanksgiving? The answer might surprise you.": "추수감사절에 주식시장이 열리나요? 답을 듣고 놀라실 수도 있습니다.",
+    "U.S. tariff-hike threats pile pressure on partners to sign trade deals": "미국의 관세 인상 위협으로 인해 파트너 국가들이 무역 협정에 서명하도록 압박이 가중되고 있습니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2955,7 +2955,7 @@
       "2026-11-23": 1341.35,
       "2026-11-24": 1340.92,
       "2026-11-25": 1343.99,
-      "2026-11-26": 1342.28
+      "2026-11-26": 1343.18
     },
     "^GSPC": {
       "2026-11-15": 7561.67,
@@ -2997,7 +2997,7 @@
       "2026-11-23": 26.62,
       "2026-11-24": 26.36,
       "2026-11-25": 28.29,
-      "2026-11-26": 28.29
+      "2026-11-26": 27.06
     },
     "^TNX": {
       "2026-11-15": 5.154,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChRARokyiRxeNihAWPorG\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChRARp36pbqrECmYVrCgj\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChRARpEzjiXsWbqhh1mRr\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChRF2kh897BnZP1RFSVvu\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChRF2kvGRsntUw35KFJv8\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChRF2m3TJPKBz5djmveZq\"}"
   ]
 }
