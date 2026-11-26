@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-26T09:42:57.550Z",
+  "asOf": "2026-11-26T10:43:25.545Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-26T06:33:00.000Z"
     },
     "KRW=X": {
-      "price": 1343.6,
+      "price": 1344.51,
       "prev": 1342.6500244140625,
-      "chg": 0.07,
+      "chg": 0.14,
       "prevDay": "2026-11-25",
       "basis": "prev-close-bar",
-      "time": "2026-11-26T09:42:42.000Z"
+      "time": "2026-11-26T10:43:04.000Z"
     },
     "^GSPC": {
       "price": 7182.78,
@@ -43,12 +43,12 @@
       "time": "2026-11-25T22:15:59.000Z"
     },
     "^VIX": {
-      "price": 27.18,
+      "price": 27.09,
       "prev": 28.290000915527344,
-      "chg": -3.92,
+      "chg": -4.24,
       "prevDay": "2026-11-25",
       "basis": "prev-close-bar",
-      "time": "2026-11-26T09:27:46.000Z"
+      "time": "2026-11-26T10:28:01.000Z"
     },
     "^TNX": {
       "price": 4.848,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.094
+    "pct": 0.098
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -20.7
     },
     "KRW=X": {
-      "last": 1343.6,
+      "last": 1344.51,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.094,
-      "chg3m": -1.68
+      "pct52": 0.098,
+      "chg3m": -1.62
     },
     "^GSPC": {
       "last": 7182.78,
@@ -101,11 +101,11 @@
       "chg3m": -10.67
     },
     "^VIX": {
-      "last": 27.18,
+      "last": 27.09,
       "low52": 13.47,
       "high52": 35.89,
-      "pct52": 0.612,
-      "chg3m": 66.34
+      "pct52": 0.607,
+      "chg3m": 65.79
     },
     "^TNX": {
       "last": 4.85,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChRKdjY6s"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChRQFAkr1"
   },
   "stocks": {
     "kr": {
@@ -379,6 +379,39 @@
         "by": "rules"
       },
       {
+        "title": "단기채 늘린 NH증권, 증권주 줄하락에도 '선방'",
+        "link": "https://www.hankyung.com/article/2026112632111",
+        "source": "한국경제",
+        "date": "Thu, 26 Nov 2026 17:55:04 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "제 역할 전혀 못하는 ETF…AI·반도체만 담고 투자자는 단타 친다",
+        "link": "https://www.mk.co.kr/news/stock/12219765",
+        "source": "매일경제",
+        "date": "Thu, 26 Nov 2026 19:35:27 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "에이피알, 브랜드501 주식 700억원 규모 취득…\"경영권 확보\"(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261126162651008",
+        "source": "연합뉴스",
+        "date": "Thu, 26 Nov 2026 17:18:43 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
         "title": "[마감시황] 장 막판 상승폭 반납한 코스피…0.29% 오른 4711.21 마감",
         "link": "https://www.hankyung.com/article/202611262700i",
         "source": "한국경제",
@@ -399,39 +432,6 @@
         "scope": "market",
         "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
         "by": "rules"
-      },
-      {
-        "title": "에이피알, 브랜드501 주식 700억원 규모 취득…\"경영권 확보\"(종합)",
-        "link": "https://www.yna.co.kr/view/AKR20261126162651008",
-        "source": "연합뉴스",
-        "date": "Thu, 26 Nov 2026 17:18:43 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "증권주 주가 두자릿수 하락할 때...NH투자증권은 선방한 이유",
-        "link": "https://www.hankyung.com/article/202611260989i",
-        "source": "한국경제",
-        "date": "Thu, 26 Nov 2026 15:50:12 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "\"증시 안정 위해 반드시 증액\" vs \"지수 방어 효과 제한적\"",
-        "link": "https://www.mk.co.kr/news/stock/12219691",
-        "source": "매일경제",
-        "date": "Thu, 26 Nov 2026 17:40:54 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
       }
     ],
     "us": [
@@ -439,7 +439,7 @@
         "title": "U.S. tariff-hike threats pile pressure on partners to sign trade deals",
         "link": "https://www.cnbc.com/2026/11/26/us-tariffs-hike-trade-agreement.html",
         "source": "CNBC",
-        "date": "Thu, 26 Nov 2026 08:09:39 GMT",
+        "date": "Thu, 26 Nov 2026 10:02:44 GMT",
         "ko": "미국의 관세 인상 위협으로 인해 파트너 국가들이 무역 협정에 서명하도록 압박이 가중되고 있습니다.",
         "act": "watch",
         "lasting": "structural",
@@ -448,14 +448,14 @@
         "by": "rules"
       },
       {
-        "title": "Is the stock market open for Thanksgiving? The answer might surprise you.",
-        "link": "https://www.marketwatch.com/story/is-the-stock-market-open-for-thanksgiving-the-answer-might-surprise-you-e68114d4?mod=mw_rss_topstories",
+        "title": "Futures point to Black Friday gains for Wall Street as global markets welcome U.S. resilience.",
+        "link": "https://www.marketwatch.com/story/futures-point-to-black-friday-gains-for-wall-street-as-global-markets-welcome-u-s-resilience-ad6bcef2?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Thu, 26 Nov 2026 07:16:00 GMT",
-        "ko": "추수감사절에 주식시장이 열리나요? 답을 듣고 놀라실 수도 있습니다.",
+        "date": "Thu, 26 Nov 2026 10:37:00 GMT",
+        "ko": "글로벌 시장이 미국의 회복력을 긍정적으로 평가함에 따라, 선물 지수가 블랙프라이데이의 월스트리트 상승세를 가리키고 있습니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -472,14 +472,14 @@
         "by": "rules"
       },
       {
-        "title": "Why this stock-market selloff is probably going to get worse before it gets better",
-        "link": "https://www.marketwatch.com/story/why-this-stock-market-selloff-is-probably-going-to-get-worse-before-it-gets-better-fce63a89?mod=mw_rss_topstories",
+        "title": "The tech rout should bottom soon, with a 25% rally for the S&P 500 to follow, says Deutsche Bank",
+        "link": "https://www.marketwatch.com/story/the-tech-rout-should-bottom-soon-with-a-25-rally-for-the-s-p-500-to-follow-says-deutsche-bank-c9070bf6?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Thu, 26 Nov 2026 00:33:00 GMT",
-        "ko": "이번 주식 시장 매도세가 나아지기 전에 더 악화될 가능성이 높은 이유",
+        "date": "Thu, 26 Nov 2026 10:11:00 GMT",
+        "ko": "도이체방크는 기술주 폭락이 곧 바닥을 찍고 S&P 500 지수가 25% 상승할 것이라고 전망합니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -496,11 +496,11 @@
         "by": "rules"
       },
       {
-        "title": "Oracle, CoreWeave and other tech stocks bounce back after selloff",
-        "link": "https://www.marketwatch.com/story/oracles-stock-sinks-toward-a-3-year-low-as-the-ai-trade-continues-to-unravel-d4698d77?mod=mw_rss_topstories",
+        "title": "Is the stock market open for Thanksgiving? The answer might surprise you.",
+        "link": "https://www.marketwatch.com/story/is-the-stock-market-open-for-thanksgiving-the-answer-might-surprise-you-e68114d4?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Wed, 25 Nov 2026 22:16:00 GMT",
-        "ko": "오라클, CoreWeave 및 기타 기술주, 매도세 이후 반등",
+        "date": "Thu, 26 Nov 2026 07:16:00 GMT",
+        "ko": "추수감사절에 주식시장이 열리나요? 답을 듣고 놀라실 수도 있습니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -511,8 +511,6 @@
   },
   "newsBy": "rules",
   "trCache": {
-    "An Anthropic IPO when the AI trade is this turbulent? Godspeed!": "AI 거래가 격동적일 때 인류 IPO? 갓스피드!",
-    "Micron, Sandisk and other AI stocks are falling hard: ‘Investors don’t like uncertainty’": "마이크론, 샌디스크 및 기타 AI 주식이 강세로 하락하고 있다: ‘투자자들은 불확실성을 좋아하지 않는다’",
     "Bloom Energy’s stock is one of the S&P 500’s biggest losers amid fears of data-center delays": "Bloom Energy의 주식은 데이터 센터 지연의 두려움 속에서 S&P 500의 가장 큰 패자 중 하나입니다.",
     "Is this ‘the big one’ for the stock market? Wall Street sounds off as tech plunges.": "이것이 주식 시장에 대한 ’큰 것’ 입니까? 월스트리트는 기술 급락으로 소리가 나지 않습니다.",
     "As Nvidia’s stock heads for a bear market, bargain hunters see a golden buying opportunity": "엔비디아의 주식이 베어 마켓으로 향함에 따라, 흥정 사냥꾼들은 황금의 구매 기회를 목격합니다.",
@@ -810,7 +808,9 @@
     "HP’s stock is a standout gainer in the tech selloff, as an earnings beat still matters": "HP의 주가는 실적 호조가 여전히 중요하기 때문에 기술주 매도세 속에서도 두드러진 상승세를 보이고 있습니다.",
     "Why this stock-market selloff is probably going to get worse before it gets better": "이번 주식 시장 매도세가 나아지기 전에 더 악화될 가능성이 높은 이유",
     "Is the stock market open for Thanksgiving? The answer might surprise you.": "추수감사절에 주식시장이 열리나요? 답을 듣고 놀라실 수도 있습니다.",
-    "U.S. tariff-hike threats pile pressure on partners to sign trade deals": "미국의 관세 인상 위협으로 인해 파트너 국가들이 무역 협정에 서명하도록 압박이 가중되고 있습니다."
+    "U.S. tariff-hike threats pile pressure on partners to sign trade deals": "미국의 관세 인상 위협으로 인해 파트너 국가들이 무역 협정에 서명하도록 압박이 가중되고 있습니다.",
+    "Futures point to Black Friday gains for Wall Street as global markets welcome U.S. resilience.": "글로벌 시장이 미국의 회복력을 긍정적으로 평가함에 따라, 선물 지수가 블랙프라이데이의 월스트리트 상승세를 가리키고 있습니다.",
+    "The tech rout should bottom soon, with a 25% rally for the S&P 500 to follow, says Deutsche Bank": "도이체방크는 기술주 폭락이 곧 바닥을 찍고 S&P 500 지수가 25% 상승할 것이라고 전망합니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2955,7 +2955,7 @@
       "2026-11-23": 1341.35,
       "2026-11-24": 1340.92,
       "2026-11-25": 1343.99,
-      "2026-11-26": 1343.6
+      "2026-11-26": 1344.51
     },
     "^GSPC": {
       "2026-11-15": 7561.67,
@@ -2997,7 +2997,7 @@
       "2026-11-23": 26.62,
       "2026-11-24": 26.36,
       "2026-11-25": 28.29,
-      "2026-11-26": 27.18
+      "2026-11-26": 27.09
     },
     "^TNX": {
       "2026-11-15": 5.154,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChRKdjY6sErc1UPXGXk6g\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChRKdjuvstynoEGFANzCL\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChRKdkCoJpzTCArHhPZ6B\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChRQFAkr1CBvqW9yxJPj9\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChRQFBB9VfjJ8WTNDZhTg\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChRQFBT2itYzU6SDnJ2Kn\"}"
   ]
 }
