@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-26T08:42:35.638Z",
+  "asOf": "2026-11-26T09:42:57.550Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-26T06:33:00.000Z"
     },
     "KRW=X": {
-      "price": 1343.18,
+      "price": 1343.6,
       "prev": 1342.6500244140625,
-      "chg": 0.04,
+      "chg": 0.07,
       "prevDay": "2026-11-25",
       "basis": "prev-close-bar",
-      "time": "2026-11-26T08:42:20.000Z"
+      "time": "2026-11-26T09:42:42.000Z"
     },
     "^GSPC": {
       "price": 7182.78,
@@ -43,12 +43,12 @@
       "time": "2026-11-25T22:15:59.000Z"
     },
     "^VIX": {
-      "price": 27.06,
+      "price": 27.18,
       "prev": 28.290000915527344,
-      "chg": -4.35,
+      "chg": -3.92,
       "prevDay": "2026-11-25",
       "basis": "prev-close-bar",
-      "time": "2026-11-26T08:27:16.000Z"
+      "time": "2026-11-26T09:27:46.000Z"
     },
     "^TNX": {
       "price": 4.848,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.092
+    "pct": 0.094
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -20.7
     },
     "KRW=X": {
-      "last": 1343.18,
+      "last": 1343.6,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.092,
-      "chg3m": -1.72
+      "pct52": 0.094,
+      "chg3m": -1.68
     },
     "^GSPC": {
       "last": 7182.78,
@@ -101,11 +101,11 @@
       "chg3m": -10.67
     },
     "^VIX": {
-      "last": 27.06,
+      "last": 27.18,
       "low52": 13.47,
       "high52": 35.89,
-      "pct52": 0.606,
-      "chg3m": 65.61
+      "pct52": 0.612,
+      "chg3m": 66.34
     },
     "^TNX": {
       "last": 4.85,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChRF2kh89"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChRKdjY6s"
   },
   "stocks": {
     "kr": {
@@ -390,14 +390,14 @@
         "by": "rules"
       },
       {
-        "title": "\"증시 안정 위해 반드시 증액\" vs \"지수 방어 효과 제한적\"",
-        "link": "https://www.mk.co.kr/news/stock/12219691",
+        "title": "금리·AI 수익성 우려에 관세까지…여의도 족집게 “반등 시그널 이때 나온다” [머니닥터 시장진단]",
+        "link": "https://www.mk.co.kr/news/stock/12219730",
         "source": "매일경제",
-        "date": "Thu, 26 Nov 2026 17:40:54 +09:00",
-        "act": "none",
-        "lasting": "temporary",
+        "date": "Thu, 26 Nov 2026 18:00:41 +09:00",
+        "act": "watch",
+        "lasting": "structural",
         "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
         "by": "rules"
       },
       {
@@ -423,13 +423,13 @@
         "by": "rules"
       },
       {
-        "title": "삼성SDI도 1.4조원 자사주 전량 소각",
-        "link": "https://www.mk.co.kr/news/stock/12219678",
+        "title": "\"증시 안정 위해 반드시 증액\" vs \"지수 방어 효과 제한적\"",
+        "link": "https://www.mk.co.kr/news/stock/12219691",
         "source": "매일경제",
-        "date": "Thu, 26 Nov 2026 17:40:37 +09:00",
+        "date": "Thu, 26 Nov 2026 17:40:54 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -2955,7 +2955,7 @@
       "2026-11-23": 1341.35,
       "2026-11-24": 1340.92,
       "2026-11-25": 1343.99,
-      "2026-11-26": 1343.18
+      "2026-11-26": 1343.6
     },
     "^GSPC": {
       "2026-11-15": 7561.67,
@@ -2997,7 +2997,7 @@
       "2026-11-23": 26.62,
       "2026-11-24": 26.36,
       "2026-11-25": 28.29,
-      "2026-11-26": 27.06
+      "2026-11-26": 27.18
     },
     "^TNX": {
       "2026-11-15": 5.154,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChRF2kh897BnZP1RFSVvu\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChRF2kvGRsntUw35KFJv8\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChRF2m3TJPKBz5djmveZq\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChRKdjY6sErc1UPXGXk6g\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChRKdjuvstynoEGFANzCL\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChRKdkCoJpzTCArHhPZ6B\"}"
   ]
 }
