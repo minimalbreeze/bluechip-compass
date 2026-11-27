@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-27T21:09:06.922Z",
+  "asOf": "2026-11-27T22:09:29.876Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-27T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1333.03,
+      "price": 1333,
       "prev": 1342.969970703125,
       "chg": -0.74,
       "prevDay": "2026-11-26",
       "basis": "prev-close-bar",
-      "time": "2026-11-27T21:08:51.000Z"
+      "time": "2026-11-27T22:09:01.000Z"
     },
     "^GSPC": {
       "price": 7297.49,
@@ -80,7 +80,7 @@
       "chg3m": -20.7
     },
     "KRW=X": {
-      "last": 1333.03,
+      "last": 1333,
       "low52": 1321.76,
       "high52": 1554.48,
       "pct52": 0.048,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChTi2fKa5"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChUCNVAgw"
   },
   "stocks": {
     "kr": {
@@ -158,7 +158,7 @@
         "prev": 145000,
         "chg": 0,
         "prevDay": "2026-11-27",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-11-27T06:30:06.000Z"
       },
       "207940": {
@@ -166,7 +166,7 @@
         "prev": 1351000,
         "chg": 0,
         "prevDay": "2026-11-27",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-11-27T06:30:28.000Z"
       },
       "005930": {
@@ -174,7 +174,7 @@
         "prev": 179100,
         "chg": 0,
         "prevDay": "2026-11-27",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-11-27T06:30:04.000Z"
       },
       "000660": {
@@ -182,7 +182,7 @@
         "prev": 1110000,
         "chg": 0,
         "prevDay": "2026-11-27",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-11-27T06:30:19.000Z"
       },
       "005380": {
@@ -190,7 +190,7 @@
         "prev": 269000,
         "chg": 0,
         "prevDay": "2026-11-27",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-11-27T06:30:26.000Z"
       },
       "055550": {
@@ -198,7 +198,7 @@
         "prev": 83900,
         "chg": 0,
         "prevDay": "2026-11-27",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-11-27T06:30:09.000Z"
       },
       "000810": {
@@ -206,7 +206,7 @@
         "prev": 524000,
         "chg": 0,
         "prevDay": "2026-11-27",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-11-27T06:30:06.000Z"
       },
       "033780": {
@@ -214,7 +214,7 @@
         "prev": 176200,
         "chg": 0,
         "prevDay": "2026-11-27",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-11-27T06:30:29.000Z"
       },
       "035420": {
@@ -222,7 +222,7 @@
         "prev": 163400,
         "chg": 0,
         "prevDay": "2026-11-27",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-11-27T06:30:28.000Z"
       },
       "005490": {
@@ -230,7 +230,7 @@
         "prev": 258500,
         "chg": 0,
         "prevDay": "2026-11-27",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-11-27T06:30:28.000Z"
       },
       "028260": {
@@ -238,7 +238,7 @@
         "prev": 259000,
         "chg": 0,
         "prevDay": "2026-11-27",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-11-27T06:30:12.000Z"
       },
       "012450": {
@@ -246,7 +246,7 @@
         "prev": 663000,
         "chg": 0,
         "prevDay": "2026-11-27",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-11-27T06:30:12.000Z"
       },
       "017670": {
@@ -254,7 +254,7 @@
         "prev": 65200,
         "chg": 0,
         "prevDay": "2026-11-27",
-        "basis": "prev-close-memo",
+        "basis": "prev-close-bar",
         "time": "2026-11-27T06:30:26.000Z"
       }
     },
@@ -379,21 +379,10 @@
         "by": "rules"
       },
       {
-        "title": "\"눈물 쏟고 고개 숙이고\"…코스피 반토막에 전문가들도 '충격'",
-        "link": "https://www.hankyung.com/article/202611274867H",
-        "source": "한국경제",
-        "date": "Fri, 27 Nov 2026 18:17:01 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "美 세포배양 로봇社 셀트리오, 韓 상장 속도",
-        "link": "https://www.mk.co.kr/news/stock/12220397",
+        "title": "한국서 5% 뛴 SK하이닉스, 미국선 7%대 급등…나스닥도 2.31%↑",
+        "link": "https://www.mk.co.kr/news/stock/12220603",
         "source": "매일경제",
-        "date": "Fri, 27 Nov 2026 17:33:34 +09:00",
+        "date": "Sat, 28 Nov 2026 06:58:26 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -412,24 +401,35 @@
         "by": "rules"
       },
       {
-        "title": "바이오·로봇·배터리 급등…코스닥 간만에 웃었다",
-        "link": "https://www.hankyung.com/article/2026112753921",
-        "source": "한국경제",
-        "date": "Fri, 27 Nov 2026 17:45:06 +0900",
+        "title": "주식시장 새내기인데 첫날 몸값이 6.6조원…개미가 만나는 美 기업 달라졌다",
+        "link": "https://www.mk.co.kr/news/stock/12220593",
+        "source": "매일경제",
+        "date": "Sat, 28 Nov 2026 06:28:57 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "'증안펀드 증액 기대감'… 하루 8% 튀어 오른 코스닥",
-        "link": "https://www.mk.co.kr/news/stock/12220396",
+        "title": "“오래 기다렸죠?” 돌아온 외국인…삼전닉스 내다팔더니 ‘이것’ 샀다",
+        "link": "https://www.mk.co.kr/news/stock/12220584",
         "source": "매일경제",
-        "date": "Fri, 27 Nov 2026 17:33:33 +09:00",
+        "date": "Sat, 28 Nov 2026 06:19:12 +09:00",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "美 세포배양 로봇社 셀트리오, 韓 상장 속도",
+        "link": "https://www.mk.co.kr/news/stock/12220397",
+        "source": "매일경제",
+        "date": "Fri, 27 Nov 2026 17:33:34 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -2955,7 +2955,7 @@
       "2026-11-24": 1340.92,
       "2026-11-25": 1343.99,
       "2026-11-26": 1344.47,
-      "2026-11-27": 1333.03
+      "2026-11-27": 1333
     },
     "^GSPC": {
       "2026-11-16": 7416.59,
@@ -3386,8 +3386,10 @@
     }
   },
   "failed": [
+    "news/kr/한국경제: HTTP 403",
     "news/us/Yahoo Finance: HTTP 404",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChU7mRguPanTgHEZ6WSBv\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChU7mS4UZck4Fv6Eg1hm4\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChUCNVAgwMxUfzrpWscbh\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChUCNVUo7acJ2wH4GyN1H\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChUCNVkQsK2z8Wcyok5dL\"}"
   ]
 }
