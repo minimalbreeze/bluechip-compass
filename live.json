@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-27T20:58:45.613Z",
+  "asOf": "2026-11-27T21:09:06.922Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-27T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1333.37,
+      "price": 1333.03,
       "prev": 1342.969970703125,
-      "chg": -0.71,
+      "chg": -0.74,
       "prevDay": "2026-11-26",
       "basis": "prev-close-bar",
-      "time": "2026-11-27T20:58:36.000Z"
+      "time": "2026-11-27T21:08:51.000Z"
     },
     "^GSPC": {
       "price": 7297.49,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.05
+    "pct": 0.048
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -20.7
     },
     "KRW=X": {
-      "last": 1333.37,
+      "last": 1333.03,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.05,
-      "chg3m": -2.88
+      "pct52": 0.048,
+      "chg3m": -2.9
     },
     "^GSPC": {
       "last": 7297.49,
@@ -390,6 +390,17 @@
         "by": "rules"
       },
       {
+        "title": "美 세포배양 로봇社 셀트리오, 韓 상장 속도",
+        "link": "https://www.mk.co.kr/news/stock/12220397",
+        "source": "매일경제",
+        "date": "Fri, 27 Nov 2026 17:33:34 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
         "title": "대동, 550억원 주주배정 유상증자 결정",
         "link": "https://www.yna.co.kr/view/AKR20261127146900008",
         "source": "연합뉴스",
@@ -412,21 +423,10 @@
         "by": "rules"
       },
       {
-        "title": "국고채 금리, 증시 강세에 중단기물 상승…초장기물은 하락(종합)",
-        "link": "https://www.yna.co.kr/view/AKR20261127135151008",
-        "source": "연합뉴스",
-        "date": "Fri, 27 Nov 2026 17:06:23 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "'증안펀드 증액' 기대에 코스닥 급등",
-        "link": "https://www.hankyung.com/article/2026112754441",
-        "source": "한국경제",
-        "date": "Fri, 27 Nov 2026 17:43:59 +0900",
+        "title": "'증안펀드 증액 기대감'… 하루 8% 튀어 오른 코스닥",
+        "link": "https://www.mk.co.kr/news/stock/12220396",
+        "source": "매일경제",
+        "date": "Fri, 27 Nov 2026 17:33:33 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -2955,7 +2955,7 @@
       "2026-11-24": 1340.92,
       "2026-11-25": 1343.99,
       "2026-11-26": 1344.47,
-      "2026-11-27": 1333.37
+      "2026-11-27": 1333.03
     },
     "^GSPC": {
       "2026-11-16": 7416.59,
@@ -3386,9 +3386,8 @@
     }
   },
   "failed": [
-    "news/kr/매일경제: fetch failed",
     "news/us/Yahoo Finance: HTTP 404",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChU6ydDQxXQzAhTPx3bYF\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChU6ydfgrroxWZVfE9H6B\"}"
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChU7mRguPanTgHEZ6WSBv\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChU7mS4UZck4Fv6Eg1hm4\"}"
   ]
 }
