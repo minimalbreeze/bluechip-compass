@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-26T23:47:25.260Z",
+  "asOf": "2026-11-27T00:01:51.316Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-26T11:05:50.000Z"
     },
     "KRW=X": {
-      "price": 1344.47,
-      "prev": 1342.6500244140625,
+      "price": 1344.88,
+      "prev": 1342.969970703125,
       "chg": 0.14,
-      "prevDay": "2026-11-25",
+      "prevDay": "2026-11-26",
       "basis": "prev-close-bar",
-      "time": "2026-11-26T23:47:19.000Z"
+      "time": "2026-11-27T00:01:29.000Z"
     },
     "^GSPC": {
       "price": 7182.78,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.098
+    "pct": 0.099
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -21.34
     },
     "KRW=X": {
-      "last": 1344.47,
+      "last": 1344.88,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.098,
-      "chg3m": -1.62
+      "pct52": 0.099,
+      "chg3m": -2.04
     },
     "^GSPC": {
       "last": 7182.78,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChSS2fpht"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChST8WsVG"
   },
   "stocks": {
     "kr": {
@@ -379,14 +379,25 @@
         "by": "rules"
       },
       {
-        "title": "DS투자증권 “SK스퀘어, 4조3000억 주주환원 전망…당초 계획의 14배”",
-        "link": "https://www.mk.co.kr/news/stock/12219839",
-        "source": "매일경제",
-        "date": "Fri, 27 Nov 2026 08:39:29 +09:00",
+        "title": "반등 시도했지만 강보합…증권가선 \"급등도 약세장의 일부다\" 경고",
+        "link": "https://www.hankyung.com/article/202611262497i",
+        "source": "한국경제",
+        "date": "Fri, 27 Nov 2026 08:29:56 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "브랜드 501인수한 APR...증권가가 보는 적정인수가는? [오늘 나온 보고서]",
+        "link": "https://www.mk.co.kr/news/stock/12219844",
+        "source": "매일경제",
+        "date": "Fri, 27 Nov 2026 08:53:31 +09:00",
+        "act": "watch",
+        "lasting": "structural",
+        "scope": null,
+        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
         "by": "rules"
       },
       {
@@ -401,35 +412,24 @@
         "by": "rules"
       },
       {
-        "title": "팔사람은 다 팔았다던데... 주가 V자 반등 안나온 이유",
-        "link": "https://www.mk.co.kr/news/business/12219828",
-        "source": "매일경제",
-        "date": "Fri, 27 Nov 2026 08:10:21 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "SK증권 \"LG CNS, 내년부터 AI 인프라 사업 성장 본격화\"",
-        "link": "https://www.yna.co.kr/view/AKR20261127023900008",
-        "source": "연합뉴스",
-        "date": "Fri, 27 Nov 2026 08:36:27 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "금리 올렸는데 은행주 왜 파래요…한발 먼저 가는 주식 ‘선반영’ 해석",
-        "link": "https://www.mk.co.kr/news/stock/12219785",
-        "source": "매일경제",
-        "date": "Thu, 26 Nov 2026 22:06:04 +09:00",
+        "title": "[오늘의 증권가 콜]엇갈린 목표주가...M&A·해외사업 '맑음', AI 불확실성·금리 부담 '흐림'",
+        "link": "https://www.hankyung.com/article/202611273737i",
+        "source": "한국경제",
+        "date": "Fri, 27 Nov 2026 08:29:14 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "DS투자증권 “SK스퀘어, 4조3000억 주주환원 전망…당초 계획의 14배”",
+        "link": "https://www.mk.co.kr/news/stock/12219839",
+        "source": "매일경제",
+        "date": "Fri, 27 Nov 2026 08:39:29 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -2944,7 +2944,6 @@
       "2026-11-27": 655.71
     },
     "KRW=X": {
-      "2026-11-15": 1335.75,
       "2026-11-16": 1335.76,
       "2026-11-17": 1334.84,
       "2026-11-18": 1332.66,
@@ -2955,7 +2954,8 @@
       "2026-11-23": 1341.35,
       "2026-11-24": 1340.92,
       "2026-11-25": 1343.99,
-      "2026-11-26": 1344.47
+      "2026-11-26": 1344.47,
+      "2026-11-27": 1344.88
     },
     "^GSPC": {
       "2026-11-15": 7561.67,
@@ -3386,10 +3386,9 @@
     }
   },
   "failed": [
-    "news/kr/한국경제: HTTP 403",
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChSS2fphtyds7sUszqWHp\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChSS2g9Yx7ccaHsB6L9vJ\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChSS2gRfpcbNHEHgKTsSV\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChST8WsVGKxgqD8BXS8xT\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChST8X8MjSYG78tBY6LnA\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChST8XGYqC29R6ZA6Hk4U\"}"
   ]
 }
