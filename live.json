@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-27T10:17:28.872Z",
+  "asOf": "2026-11-27T10:47:12.566Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-27T06:32:50.000Z"
     },
     "KRW=X": {
-      "price": 1333.72,
+      "price": 1333.98,
       "prev": 1342.969970703125,
-      "chg": -0.69,
+      "chg": -0.67,
       "prevDay": "2026-11-26",
       "basis": "prev-close-bar",
-      "time": "2026-11-27T10:17:13.000Z"
+      "time": "2026-11-27T10:47:00.000Z"
     },
     "^GSPC": {
       "price": 7182.78,
@@ -43,12 +43,12 @@
       "time": "2026-11-25T22:15:59.000Z"
     },
     "^VIX": {
-      "price": 24.91,
+      "price": 24.64,
       "prev": 26.799999237060547,
-      "chg": -7.05,
+      "chg": -8.06,
       "prevDay": "2026-11-26",
       "basis": "prev-close-bar",
-      "time": "2026-11-27T10:02:16.000Z"
+      "time": "2026-11-27T10:32:01.000Z"
     },
     "^TNX": {
       "price": 4.848,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.051
+    "pct": 0.053
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -15.36
     },
     "KRW=X": {
-      "last": 1333.72,
+      "last": 1333.98,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.051,
-      "chg3m": -2.85
+      "pct52": 0.053,
+      "chg3m": -2.83
     },
     "^GSPC": {
       "last": 7182.78,
@@ -101,11 +101,11 @@
       "chg3m": -10.67
     },
     "^VIX": {
-      "last": 24.91,
+      "last": 24.64,
       "low52": 13.47,
       "high52": 35.89,
-      "pct52": 0.51,
-      "chg3m": 63.88
+      "pct52": 0.498,
+      "chg3m": 62.11
     },
     "^TNX": {
       "last": 4.85,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChTG5LVYR"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChTJLpb8B"
   },
   "stocks": {
     "kr": {
@@ -368,10 +368,10 @@
   "news": {
     "kr": [
       {
-        "title": "대동, 550억원 주주배정 유상증자 결정",
-        "link": "https://www.yna.co.kr/view/AKR20261127146900008",
+        "title": "피노, 188억5천만원 유상증자…이케이케이알파제이호사모투자합자회사에 제3자배정",
+        "link": "https://www.yna.co.kr/view/AKR20261127159500008",
         "source": "연합뉴스",
-        "date": "Fri, 27 Nov 2026 18:11:20 +0900",
+        "date": "Fri, 27 Nov 2026 19:34:34 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -401,13 +401,13 @@
         "by": "rules"
       },
       {
-        "title": "국고채 금리, 증시 강세에 중단기물 상승…초장기물은 하락(종합)",
-        "link": "https://www.yna.co.kr/view/AKR20261127135151008",
+        "title": "대동, 550억원 주주배정 유상증자 결정",
+        "link": "https://www.yna.co.kr/view/AKR20261127146900008",
         "source": "연합뉴스",
-        "date": "Fri, 27 Nov 2026 17:06:23 +0900",
+        "date": "Fri, 27 Nov 2026 18:11:20 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -423,7 +423,7 @@
         "by": "rules"
       },
       {
-        "title": "'증안펀드 기대감' 대단하네 … 하루 8% 튀어 오른 코스닥",
+        "title": "'증안펀드 증액 기대감'… 하루 8% 튀어 오른 코스닥",
         "link": "https://www.mk.co.kr/news/stock/12220396",
         "source": "매일경제",
         "date": "Fri, 27 Nov 2026 17:33:33 +09:00",
@@ -448,14 +448,14 @@
         "by": "rules"
       },
       {
-        "title": "Is the stock market open on Black Friday?",
-        "link": "https://www.marketwatch.com/story/is-the-stock-market-open-on-black-friday-0a735c45?mod=mw_rss_topstories",
+        "title": "This investment strategist is 100% in cash — and warns that buying the Nasdaq dip is like catching a falling knife",
+        "link": "https://www.marketwatch.com/story/this-investment-strategist-is-100-in-cash-and-warns-that-buying-the-nasdaq-dip-is-like-catching-a-falling-knife-64f5b233?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Fri, 27 Nov 2026 05:01:00 GMT",
-        "ko": "블랙프라이데이에도 주식시장이 열리나요?",
+        "date": "Fri, 27 Nov 2026 10:37:00 GMT",
+        "ko": "이 투자 전략가는 100% 현금 보유 중이며 나스닥 하락 시 매수하는 것은 떨어지는 칼을 잡는 것과 같다고 경고합니다.",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -472,11 +472,11 @@
         "by": "rules"
       },
       {
-        "title": "I’m terrified of a market crash. Should I put $400,000 of my $1 million retirement savings into an annuity?",
-        "link": "https://www.marketwatch.com/story/were-in-our-50s-and-terrified-of-a-market-crash-should-we-put-400-000-of-our-1-million-retirement-savings-into-an-annuity-1943f240?mod=mw_rss_topstories",
+        "title": "The AI stock crash is mostly over, JPMorgan says — but a worse phase could be coming in 2027",
+        "link": "https://www.marketwatch.com/story/the-ai-stock-crash-is-mostly-over-jpmorgan-says-but-a-worse-phase-could-be-coming-in-2027-fa769fbd?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "date": "Thu, 26 Nov 2026 21:45:00 GMT",
-        "ko": "저는 시장 붕괴가 너무나 두렵습니다. 1백만 달러의 은퇴 저축 중 40만 달러를 연금에 넣어야 할까요?",
+        "date": "Fri, 27 Nov 2026 10:32:00 GMT",
+        "ko": "JP모건은 AI 주식 폭락이 대부분 끝났지만 2027년에는 더 나쁜 국면이 도래할 수 있다고 말합니다.",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -496,23 +496,21 @@
         "by": "rules"
       },
       {
-        "title": "Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices",
-        "link": "https://www.cnbc.com/2026/11/20/japan-inflation-cpi-october.html",
-        "source": "CNBC",
-        "date": "Fri, 20 Nov 2026 01:49:03 GMT",
-        "ko": "에너지 보조금 만료로 소비자 물가가 상승하면서 일본의 핵심 인플레이션이 올해 최고치를 기록했습니다.",
-        "act": "watch",
-        "lasting": "structural",
-        "scope": "market",
-        "why": "제목에 규제·판결·인수처럼 구조를 바꿀 수 있는 낱말이 있습니다. 보유 종목과 관련 있는지만 확인하세요.",
+        "title": "Is the stock market open on Black Friday?",
+        "link": "https://www.marketwatch.com/story/is-the-stock-market-open-on-black-friday-0a735c45?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "date": "Fri, 27 Nov 2026 05:01:00 GMT",
+        "ko": "블랙프라이데이에도 주식시장이 열리나요?",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
     ]
   },
   "newsBy": "rules",
   "trCache": {
-    "After tech-stock rout, October jobs report could bring relief — or more pain": "기술 재고 루트 이후, 10월 일자리 보고서는 완화 또는 더 많은 고통을 가져올 수 있습니다.",
-    "The October jobs report is out Friday. Here's everything to expect": "10월 일자리 보고서가 금요일에 나왔습니다. 알아두어야 할 모든 것",
     "Tech stocks log worst day since 2020 as carnage comes to the AI trade": "인공지능 (AI) 거래에 대학살이 발생하면서 2020년 이후 기술 재고가 최악의 시기를 기록했다.",
     "Buy the dip or wait it out? Young investors react as retail stock selling hits one of its highest levels since COVID crash.": "딥을 사거나 기다리시나요? 소매 주식 판매가 코로나19 사태 이후 가장 높은 수준 중 하나에 도달함에 따라 젊은 투자자들이 반응합니다.",
     "The ‘Musk selloff’ deepens as Tesla and SpaceX combine for $456 billion two-day wipeout": "‘머스크 매각' 은 테슬라와 스페이스X가 이틀에 걸쳐 4천560억 달러 ($) 를 벌어들임에 따라 더욱 심화된다.",
@@ -810,7 +808,9 @@
     "Capital preservation rather than chasing the market higher is how hedge funds are negotiating market volatility": "헤지펀드는 시장 상승을 추구하기보다는 자본 보전을 통해 시장 변동성에 대응하고 있습니다.",
     "Capital preservation rather than chasing the market is how hedge funds are negotiating this volatility": "헤지펀드는 시장을 추격하기보다는 자본 보전을 통해 이러한 변동성을 극복하고 있습니다.",
     "Futures point to Black Friday gains on Wall Street as global markets welcome U.S. resilience": "미국 증시 선물 지수가 블랙프라이데이 상승을 가리키고 있으며, 글로벌 시장은 미국의 회복력을 환영하고 있습니다.",
-    "Is the stock market open on Black Friday?": "블랙프라이데이에도 주식시장이 열리나요?"
+    "Is the stock market open on Black Friday?": "블랙프라이데이에도 주식시장이 열리나요?",
+    "This investment strategist is 100% in cash — and warns that buying the Nasdaq dip is like catching a falling knife": "이 투자 전략가는 100% 현금 보유 중이며 나스닥 하락 시 매수하는 것은 떨어지는 칼을 잡는 것과 같다고 경고합니다.",
+    "The AI stock crash is mostly over, JPMorgan says — but a worse phase could be coming in 2027": "JP모건은 AI 주식 폭락이 대부분 끝났지만 2027년에는 더 나쁜 국면이 도래할 수 있다고 말합니다."
   },
   "nvCache": {
     "https://www.mk.co.kr/news/economy/12175134": {
@@ -2955,7 +2955,7 @@
       "2026-11-24": 1340.92,
       "2026-11-25": 1343.99,
       "2026-11-26": 1344.47,
-      "2026-11-27": 1333.72
+      "2026-11-27": 1333.98
     },
     "^GSPC": {
       "2026-11-16": 7416.59,
@@ -2997,7 +2997,7 @@
       "2026-11-24": 26.36,
       "2026-11-25": 28.29,
       "2026-11-26": 26.8,
-      "2026-11-27": 24.91
+      "2026-11-27": 24.64
     },
     "^TNX": {
       "2026-11-16": 5.121,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChTG5LVYRqUbeR2oSx5Ko\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChTG5Lrctqo2mH3bePFLK\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChTG5M7z2burY8cdMErNg\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChTJLpb8BaMzDbnjB4m4z\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChTJLpvELpJfscVBT3Z5e\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChTJLqBMN9WhMU3ErCn4v\"}"
   ]
 }
