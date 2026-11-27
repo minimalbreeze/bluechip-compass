@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-27T07:46:11.027Z",
+  "asOf": "2026-11-27T08:16:44.950Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-27T06:32:50.000Z"
     },
     "KRW=X": {
-      "price": 1335.58,
+      "price": 1333.15,
       "prev": 1342.969970703125,
-      "chg": -0.55,
+      "chg": -0.73,
       "prevDay": "2026-11-26",
       "basis": "prev-close-bar",
-      "time": "2026-11-27T07:46:03.000Z"
+      "time": "2026-11-27T08:16:32.000Z"
     },
     "^GSPC": {
       "price": 7182.78,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.059
+    "pct": 0.049
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -15.36
     },
     "KRW=X": {
-      "last": 1335.58,
+      "last": 1333.18,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.059,
-      "chg3m": -2.72
+      "pct52": 0.049,
+      "chg3m": -2.89
     },
     "^GSPC": {
       "last": 7182.78,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChT4YAoEe"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChT6sMuEi"
   },
   "stocks": {
     "kr": {
@@ -368,10 +368,10 @@
   "news": {
     "kr": [
       {
-        "title": "엔비디아발 'AI 조정' 잦아드나…코스피·코스닥, 급등 마감(종합)",
-        "link": "https://www.yna.co.kr/view/AKR20261127078351008",
+        "title": "국고채 금리, 증시 강세에 중단기물 상승…초장기물은 하락(종합)",
+        "link": "https://www.yna.co.kr/view/AKR20261127135151008",
         "source": "연합뉴스",
-        "date": "Fri, 27 Nov 2026 16:35:56 +0900",
+        "date": "Fri, 27 Nov 2026 17:06:23 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
@@ -379,13 +379,46 @@
         "by": "rules"
       },
       {
-        "title": "\"국민 말라 죽어간다\"…전문가, 증시 급락에 쓴소리",
-        "link": "https://www.hankyung.com/article/202611274846H",
+        "title": "외국인·기관 쌍끌이 매수에 코스피 4.3% 급등…4900선 탈환",
+        "link": "https://www.hankyung.com/article/2026112751366",
         "source": "한국경제",
-        "date": "Fri, 27 Nov 2026 15:47:39 +0900",
+        "date": "Fri, 27 Nov 2026 16:14:26 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "'외국인 쇼핑' 효과 본 무신사 … 매출 34% 증가하며 실적 잔치",
+        "link": "https://www.mk.co.kr/news/stock/12220354",
+        "source": "매일경제",
+        "date": "Fri, 27 Nov 2026 17:13:08 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "국고채 금리 대체로 상승…3년물 연 3.685%",
+        "link": "https://www.yna.co.kr/view/AKR20261127135100008",
+        "source": "연합뉴스",
+        "date": "Fri, 27 Nov 2026 16:42:27 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "\"발표 직전 살걸\"…기업들 '자사주 소각' 한 방에 '개미 환호'",
+        "link": "https://www.hankyung.com/article/202611274923i",
+        "source": "한국경제",
+        "date": "Fri, 27 Nov 2026 15:59:16 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -397,39 +430,6 @@
         "act": "none",
         "lasting": "temporary",
         "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "경남제약, 40억원 유상증자…㈜엑스에 제3자배정",
-        "link": "https://www.yna.co.kr/view/AKR20261127130900008",
-        "source": "연합뉴스",
-        "date": "Fri, 27 Nov 2026 16:32:07 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "코스피 4.3% 상승 4900 회복…코스닥 8%대 올라 700 탈환",
-        "link": "https://www.hankyung.com/article/2026112750106",
-        "source": "한국경제",
-        "date": "Fri, 27 Nov 2026 15:35:34 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "5% 뛴 SK하이닉스 담고 4.7% 오른 삼성전자 던졌다…초고수, 삼전닉스 정반대 매매[주식 초고수는 지금]",
-        "link": "https://www.mk.co.kr/news/stock/12220218",
-        "source": "매일경제",
-        "date": "Fri, 27 Nov 2026 15:42:48 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       }
@@ -2955,7 +2955,7 @@
       "2026-11-24": 1340.92,
       "2026-11-25": 1343.99,
       "2026-11-26": 1344.47,
-      "2026-11-27": 1335.58
+      "2026-11-27": 1333.15
     },
     "^GSPC": {
       "2026-11-16": 7416.59,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChT4YAoEetr7uMXJMGboT\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChT4YBA4qoJTGq4DvNc29\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChT4YBQhohhjUvwFxeUcC\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChT6sMuEieRrMjpMrDvXL\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChT6sN98YHyETpb1eWXEN\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChT6sNGZyBYTtY1t6EdYf\"}"
   ]
 }
