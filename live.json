@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-27T22:09:29.876Z",
+  "asOf": "2026-11-27T23:09:51.595Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChUCNVAgw"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChUGyTSCh"
   },
   "stocks": {
     "kr": {
@@ -379,6 +379,17 @@
         "by": "rules"
       },
       {
+        "title": "증안펀드 기대로 8% 뛴 코스닥…현 시점 투자전략 짜보니",
+        "link": "https://www.hankyung.com/article/202611275027i",
+        "source": "한국경제",
+        "date": "Sat, 28 Nov 2026 07:20:02 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "market",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
         "title": "한국서 5% 뛴 SK하이닉스, 미국선 7%대 급등…나스닥도 2.31%↑",
         "link": "https://www.mk.co.kr/news/stock/12220603",
         "source": "매일경제",
@@ -401,32 +412,21 @@
         "by": "rules"
       },
       {
+        "title": "AI 투자 우려 속 기술주 반등…나스닥 2.3% 상승 [뉴욕증시]",
+        "link": "https://www.hankyung.com/article/2026112857597",
+        "source": "한국경제",
+        "date": "Sat, 28 Nov 2026 07:11:30 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
         "title": "주식시장 새내기인데 첫날 몸값이 6.6조원…개미가 만나는 美 기업 달라졌다",
         "link": "https://www.mk.co.kr/news/stock/12220593",
         "source": "매일경제",
         "date": "Sat, 28 Nov 2026 06:28:57 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "“오래 기다렸죠?” 돌아온 외국인…삼전닉스 내다팔더니 ‘이것’ 샀다",
-        "link": "https://www.mk.co.kr/news/stock/12220584",
-        "source": "매일경제",
-        "date": "Sat, 28 Nov 2026 06:19:12 +09:00",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "美 세포배양 로봇社 셀트리오, 韓 상장 속도",
-        "link": "https://www.mk.co.kr/news/stock/12220397",
-        "source": "매일경제",
-        "date": "Fri, 27 Nov 2026 17:33:34 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -3386,10 +3386,9 @@
     }
   },
   "failed": [
-    "news/kr/한국경제: HTTP 403",
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChUCNVAgwMxUfzrpWscbh\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChUCNVUo7acJ2wH4GyN1H\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChUCNVkQsK2z8Wcyok5dL\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChUGyTSChCEQtNhKKVaGF\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChUGyTs1SLZJKCNAi9x87\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChUGyU9cFm4E9Cu4oXJ8K\"}"
   ]
 }
