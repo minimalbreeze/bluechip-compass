@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-27T00:01:51.316Z",
+  "asOf": "2026-11-27T00:12:14.801Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-26T11:05:50.000Z"
     },
     "KRW=X": {
-      "price": 1344.88,
+      "price": 1344.96,
       "prev": 1342.969970703125,
-      "chg": 0.14,
+      "chg": 0.15,
       "prevDay": "2026-11-26",
       "basis": "prev-close-bar",
-      "time": "2026-11-27T00:01:29.000Z"
+      "time": "2026-11-27T00:12:09.000Z"
     },
     "^GSPC": {
       "price": 7182.78,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.099
+    "pct": 0.101
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -21.34
     },
     "KRW=X": {
-      "last": 1344.88,
+      "last": 1345.28,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.099,
-      "chg3m": -2.04
+      "pct52": 0.101,
+      "chg3m": -2.01
     },
     "^GSPC": {
       "last": 7182.78,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChST8WsVG"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChSTvUdq2"
   },
   "stocks": {
     "kr": {
@@ -368,24 +368,13 @@
   "news": {
     "kr": [
       {
-        "title": "키움증권, 펄어비스 목표가↓…\"신작 출시까지 실적 단절 구간\"",
-        "link": "https://www.yna.co.kr/view/AKR20261127024000008",
+        "title": "코스피 장초반 1% 이내 강보합세…코스닥 1%대 상승",
+        "link": "https://www.yna.co.kr/view/AKR20261127031600008",
         "source": "연합뉴스",
-        "date": "Fri, 27 Nov 2026 08:41:18 +0900",
+        "date": "Fri, 27 Nov 2026 09:05:53 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "company",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "반등 시도했지만 강보합…증권가선 \"급등도 약세장의 일부다\" 경고",
-        "link": "https://www.hankyung.com/article/202611262497i",
-        "source": "한국경제",
-        "date": "Fri, 27 Nov 2026 08:29:56 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -401,6 +390,28 @@
         "by": "rules"
       },
       {
+        "title": "키움증권, 펄어비스 목표가↓…\"신작 출시까지 실적 단절 구간\"",
+        "link": "https://www.yna.co.kr/view/AKR20261127024000008",
+        "source": "연합뉴스",
+        "date": "Fri, 27 Nov 2026 08:41:18 +0900",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "DS투자증권 “SK스퀘어, 4조3000억 주주환원 전망…당초 계획의 14배”",
+        "link": "https://www.mk.co.kr/news/stock/12219839",
+        "source": "매일경제",
+        "date": "Fri, 27 Nov 2026 08:39:29 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
         "title": "신한증권 \"코스피 급락에도 바닥 판단 아직 일러\"",
         "link": "https://www.yna.co.kr/view/AKR20261127025200008",
         "source": "연합뉴스",
@@ -412,21 +423,10 @@
         "by": "rules"
       },
       {
-        "title": "[오늘의 증권가 콜]엇갈린 목표주가...M&A·해외사업 '맑음', AI 불확실성·금리 부담 '흐림'",
-        "link": "https://www.hankyung.com/article/202611273737i",
-        "source": "한국경제",
-        "date": "Fri, 27 Nov 2026 08:29:14 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": "market",
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "DS투자증권 “SK스퀘어, 4조3000억 주주환원 전망…당초 계획의 14배”",
-        "link": "https://www.mk.co.kr/news/stock/12219839",
+        "title": "팔사람은 다 팔았다던데... 주가 V자 반등 안나온 이유",
+        "link": "https://www.mk.co.kr/news/business/12219828",
         "source": "매일경제",
-        "date": "Fri, 27 Nov 2026 08:39:29 +09:00",
+        "date": "Fri, 27 Nov 2026 08:10:21 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -2955,7 +2955,7 @@
       "2026-11-24": 1340.92,
       "2026-11-25": 1343.99,
       "2026-11-26": 1344.47,
-      "2026-11-27": 1344.88
+      "2026-11-27": 1344.96
     },
     "^GSPC": {
       "2026-11-15": 7561.67,
@@ -3386,9 +3386,10 @@
     }
   },
   "failed": [
+    "news/kr/한국경제: HTTP 403",
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChST8WsVGKxgqD8BXS8xT\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChST8X8MjSYG78tBY6LnA\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChST8XGYqC29R6ZA6Hk4U\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChSTvUdq2KCsFnva1xVHZ\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChSTvUpEnxaG71k53BhiQ\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChSTvUwS37prCm37DGqFD\"}"
   ]
 }
