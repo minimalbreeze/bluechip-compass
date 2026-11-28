@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-28T03:11:18.328Z",
+  "asOf": "2026-11-28T03:56:30.809Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -19,12 +19,12 @@
       "time": "2026-11-27T11:05:40.000Z"
     },
     "KRW=X": {
-      "price": 1333,
+      "price": 1333.9,
       "prev": 1343.530029296875,
-      "chg": -0.78,
+      "chg": -0.72,
       "prevDay": "2026-11-27",
       "basis": "prev-close-bar",
-      "time": "2026-11-27T22:09:01.000Z"
+      "time": "2026-11-28T03:30:50.000Z"
     },
     "^GSPC": {
       "price": 7297.49,
@@ -62,7 +62,7 @@
   "fx": {
     "low52": 1321.76,
     "high52": 1554.48,
-    "pct": 0.094
+    "pct": 0.052
   },
   "hist": {
     "^KS11": {
@@ -80,11 +80,11 @@
       "chg3m": -15.36
     },
     "KRW=X": {
-      "last": 1343.53,
+      "last": 1333.9,
       "low52": 1321.76,
       "high52": 1554.48,
-      "pct52": 0.094,
-      "chg3m": -2.14
+      "pct52": 0.052,
+      "chg3m": -1.8
     },
     "^GSPC": {
       "last": 7297.49,
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChUbPL8fy"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChUeqHYiz"
   },
   "stocks": {
     "kr": {
@@ -379,13 +379,13 @@
         "by": "rules"
       },
       {
-        "title": "\"주식 더 담고 현금 줄여라\"… 자산배분 키워드는 '한국·미국·인프라'[2027년 대전망]",
-        "link": "https://www.hankyung.com/article/202611273951i",
+        "title": "코스피 5000선 뚫을까…증안펀드·젠슨 황에 쏠린 눈[다음주 주요변수 미리보기]",
+        "link": "https://www.hankyung.com/article/202611275312i",
         "source": "한국경제",
-        "date": "Sat, 28 Nov 2026 09:00:12 +0900",
+        "date": "Sat, 28 Nov 2026 12:00:04 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -412,13 +412,13 @@
         "by": "rules"
       },
       {
-        "title": "증안펀드 기대로 8% 뛴 코스닥…현 시점 투자전략 짜보니",
-        "link": "https://www.hankyung.com/article/202611275027i",
+        "title": "\"주식 더 담고 현금 줄여라\"… 자산배분 키워드는 '한국·미국·인프라'[2027년 대전망]",
+        "link": "https://www.hankyung.com/article/202611273951i",
         "source": "한국경제",
-        "date": "Sat, 28 Nov 2026 07:20:02 +0900",
+        "date": "Sat, 28 Nov 2026 09:00:12 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": "market",
+        "scope": null,
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -2955,7 +2955,7 @@
       "2026-11-25": 1343.99,
       "2026-11-26": 1344.47,
       "2026-11-27": 1333,
-      "2026-11-28": 1333
+      "2026-11-28": 1333.9
     },
     "^GSPC": {
       "2026-11-16": 7416.59,
@@ -3387,8 +3387,8 @@
   },
   "failed": [
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChUbPL8fyDcr2ZSiw4Ri4\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChUbPLi9gGrD4oa6Qh1D8\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChUbPM6yC955DX4f9HZx4\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChUeqHYizc241EqyVYswW\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChUeqHw3sCeqAXyUKfimE\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChUeqJCARNHGdo5oHQvHV\"}"
   ]
 }
