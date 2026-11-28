@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-28T00:10:13.555Z",
+  "asOf": "2026-11-28T01:10:35.228Z",
   "source": "Yahoo Finance chart API",
   "quotes": {
     "^KS11": {
@@ -149,7 +149,7 @@
       "geo": "calm"
     },
     "stale": true,
-    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChUMaS9zc"
+    "staleWhy": "401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChUSBRDdt"
   },
   "stocks": {
     "kr": {
@@ -379,13 +379,24 @@
         "by": "rules"
       },
       {
-        "title": "한국서 5% 뛴 SK하이닉스, 미국선 7%대 급등…나스닥도 2.31%↑",
-        "link": "https://www.mk.co.kr/news/stock/12220603",
-        "source": "매일경제",
-        "date": "Sat, 28 Nov 2026 06:58:26 +09:00",
+        "title": "\"주식 더 담고 현금 줄여라\"… 자산배분 키워드는 '한국·미국·인프라'[2027년 대전망]",
+        "link": "https://www.hankyung.com/article/202611273951i",
+        "source": "한국경제",
+        "date": "Sat, 28 Nov 2026 09:00:12 +0900",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
+        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
+        "by": "rules"
+      },
+      {
+        "title": "주가 급락에 자사주 매입 속도 내는 SK하이닉스…하루 매수 주문 70만주로",
+        "link": "https://www.mk.co.kr/news/business/12220647",
+        "source": "매일경제",
+        "date": "Sat, 28 Nov 2026 09:33:47 +09:00",
+        "act": "none",
+        "lasting": "temporary",
+        "scope": "company",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
@@ -401,32 +412,21 @@
         "by": "rules"
       },
       {
-        "title": "주식시장 새내기인데 첫날 몸값이 6.6조원…개미가 만나는 美 기업 달라졌다",
-        "link": "https://www.mk.co.kr/news/stock/12220593",
-        "source": "매일경제",
-        "date": "Sat, 28 Nov 2026 06:28:57 +09:00",
+        "title": "증안펀드 기대로 8% 뛴 코스닥…현 시점 투자전략 짜보니",
+        "link": "https://www.hankyung.com/article/202611275027i",
+        "source": "한국경제",
+        "date": "Sat, 28 Nov 2026 07:20:02 +0900",
         "act": "none",
         "lasting": "temporary",
-        "scope": null,
+        "scope": "market",
         "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
         "by": "rules"
       },
       {
-        "title": "대동, 550억원 주주배정 유상증자 결정",
-        "link": "https://www.yna.co.kr/view/AKR20261127146900008",
-        "source": "연합뉴스",
-        "date": "Fri, 27 Nov 2026 18:11:20 +0900",
-        "act": "none",
-        "lasting": "temporary",
-        "scope": null,
-        "why": "실적·전망·등락처럼 이미 가격에 반영됐을 이야기로 보입니다.",
-        "by": "rules"
-      },
-      {
-        "title": "“오래 기다렸죠?” 돌아온 외국인…삼전닉스 내다팔더니 ‘이것’ 샀다",
-        "link": "https://www.mk.co.kr/news/stock/12220584",
+        "title": "한국서 5% 뛴 SK하이닉스, 미국선 7%대 급등…나스닥도 2.31%↑",
+        "link": "https://www.mk.co.kr/news/stock/12220603",
         "source": "매일경제",
-        "date": "Sat, 28 Nov 2026 06:19:12 +09:00",
+        "date": "Sat, 28 Nov 2026 06:58:26 +09:00",
         "act": "none",
         "lasting": "temporary",
         "scope": null,
@@ -3386,10 +3386,9 @@
     }
   },
   "failed": [
-    "news/kr/한국경제: HTTP 403",
     "news/us/Yahoo Finance: HTTP 404",
-    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChUMaS9zc116FGQZxHM84\"}",
-    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChUMaStACdd5F4aKUT8Sh\"}",
-    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChUMaTAn4CzVJr11HogYf\"}"
+    "regime-ai: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChUSBRDdtBsDHTxKC4GKi\"}",
+    "news-ai/kr: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChUSBRYUbjX9tjZ6vYLU5\"}",
+    "news-ai/us: 401 {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChUSBRoc6VpZ75Qcuwqrv\"}"
   ]
 }
